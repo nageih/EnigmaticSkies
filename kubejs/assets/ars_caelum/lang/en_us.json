@@ -1,4 +1,7 @@
 {
+    "item.ars_caelum.ritual_conjure_island_starter": "Conjure Island: Animals",
     "ars_caelum.ritual_desc.ritual_conjure_island_starter": "Creates an island capable of summoning animals. NOTE: This ritual should be performed at least 24 blocks from any other block. ",
-    "item.ars_caelum.ritual_conjure_island_starter": "Conjure Island: Animals"
+
+    "item.ars_caelum.ritual_conjure_island_geode": "Conjure Island: Beehive",
+    "ars_caelum.ritual_desc.ritual_conjure_island_geode": "Creates an island in the shape of a Beehive. Requires a full jar of Source to begin. NOTE: This ritual should be performed at least 14 blocks from any other block. "
 }

@@ -3,11 +3,11 @@ MoreJS.villagerTrades((event) => {
 
     const villagerExperience = [0, 10, 20, 40, 80, 160];
 
-    Object.keys(villager_trades).forEach((profession) => {
+    Object.keys(villagerTrades).forEach((profession) => {
         event.removeTrades({ professions: profession });
         event.removeModdedTypedTrades({ professions: profession });
 
-        villager_trades[profession].forEach((recipe) => {
+        villagerTrades[profession].forEach((recipe) => {
             let result = Item.of(recipe.result.id, recipe.result.count);
             let firstTrade = recipe.ingredients[0];
             let ingredients = [TradeItem.of(firstTrade.id, firstTrade.count.min, firstTrade.count.max)];

@@ -91,9 +91,23 @@ ServerEvents.recipes((event) => {
             ])
         },
         {
-            filter: [{ output: `minecraft:hopper` }, { output: `utilitarian:fluid_hopper` }],
+            filter: [
+                { output: 'farmersdelight:stove' },
+                { output: `minecraft:hopper` },
+                { output: `utilitarian:fluid_hopper` }
+            ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ output: 'farmersdelight:skillet' }, { output: 'farmersdelight:cooking_pot' }],
+            to_replace: '#c:ingots/iron',
+            replace_with: Ingredient.of(['#c:ingots/copper'])
+        },
+        {
+            filter: [{ mod: 'farmersdelight' }],
+            to_replace: 'minecraft:wooden_shovel',
+            replace_with: Ingredient.of(['aether:skyroot_shovel', 'minecraft:wooden_shovel'])
         },
         {
             filter: [{ output: `utilitarian:fluid_hopper` }],
@@ -114,6 +128,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
             to_replace: '#c:gems/diamond',
             replace_with: Ingredient.of(['aether:ambrosium_shard'])
+        },
+        {
+            filter: [{ id: `ars_nouveau:sourcestone` }],
+            to_replace: '#c:stones',
+            replace_with: Ingredient.of(['ae2:sky_stone_block'])
         }
     ];
 

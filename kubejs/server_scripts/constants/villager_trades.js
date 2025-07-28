@@ -1,7 +1,7 @@
 //priority: 1001
 
 // Villagers have 2 trade slots per level and 5 total levels.
-const villager_trades = {
+const villagerTrades = {
     'minecraft:farmer': [
         {
             result: { id: 'minecraft:potato', count: 2 },

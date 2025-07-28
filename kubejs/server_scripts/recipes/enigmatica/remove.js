@@ -11,6 +11,7 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { id: /ars_nouveau:(cobblestone|stone|sand)/ },
+        { id: 'ars_nouveau:imbuement_lapis' },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
