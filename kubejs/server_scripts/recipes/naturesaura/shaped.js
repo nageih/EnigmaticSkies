@@ -56,6 +56,16 @@ ServerEvents.recipes((event) => {
                 C: 'ars_nouveau:sourcestone'
             },
             id: 'naturesaura:moss_generator'
+        },
+        {
+            output: 'naturesaura:nature_altar',
+            pattern: [' A ', 'BBB', 'CCC'],
+            key: {
+                A: '#c:gems/source',
+                B: 'minecraft:moss_block',
+                C: 'minecraft:chiseled_tuff'
+            },
+            id: `${id_prefix}nature_altar`
         }
     ];
 

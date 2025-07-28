@@ -32,6 +32,7 @@ ServerEvents.recipes((event) => {
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
+        { id: 'naturesaura:tree_ritual/nature_altar' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

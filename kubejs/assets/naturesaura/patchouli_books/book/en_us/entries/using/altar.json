@@ -1,0 +1,23 @@
+{
+    "name": "The Natural Altar",
+    "icon": "naturesaura:nature_altar",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "priority": true,
+    "turnin": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A rudimentary, yet effective way of collecting $(aura) early on is the $(item)Natural Altar$(). After creating the setup shown on the following page, the altar will start slowly draining $(aura) in the vicinity. However, it is not strong enough to cause major damage, making it only drain until there is none left in the area."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:altar",
+            "text": "How to assemble the $(item)Natural Altar$()"
+        },
+        {
+            "type": "text",
+            "text": "When the $(item)Natural Altar$() has collected a sufficient amount of $(aura), it will be able to infuse items of certain materials. To do this, simply place any material onto the altar and wait for the infusion to be completed."
+        }
+    ]
+}
