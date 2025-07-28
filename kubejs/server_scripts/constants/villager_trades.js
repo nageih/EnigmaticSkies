@@ -89,12 +89,18 @@ const villagerTrades = {
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
             level: 2,
             maxUses: 4
+        },
+        {
+            result: { id: 'enigmatica:moa_iou', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            level: 3,
+            maxUses: 4
         }
     ],
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 8, max: 12 } }],
+            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } }],
             level: 1
         },
         {
@@ -104,7 +110,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 8, max: 12 } }],
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } }],
             level: 5
         }
     ]

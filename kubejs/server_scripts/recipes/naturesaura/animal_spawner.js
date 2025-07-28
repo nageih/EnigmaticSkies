@@ -29,6 +29,13 @@ ServerEvents.recipes((event) => {
             aura: 5000,
             time: 40,
             id: `${id_prefix}goat`
+        },
+        {
+            entity: 'aether:moa',
+            ingredients: [{ item: 'enigmatica:moa_iou' }],
+            aura: 5000,
+            time: 40,
+            id: `${id_prefix}moa`
         }
     ];
 

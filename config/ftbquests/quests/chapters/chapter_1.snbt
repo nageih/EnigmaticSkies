@@ -842,6 +842,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
 			tasks: [{
 				id: "58E41A8D61ED694C"
@@ -1015,28 +1016,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5ADD2A1D5F244036"]
-			id: "47B1B3BCFAD8CB53"
-			tasks: [{
-				id: "44BA28A6ED51BF6B"
-				item: { count: 1, id: "modern_industrialization:diamond_tiny_dust" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5ADD2A1D5F244036"]
-			id: "40041238D58298E2"
-			tasks: [{
-				id: "72C3EB38500A40FF"
-				item: { count: 1, id: "modern_industrialization:silicon_dust" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -5.0d
-		}
-		{
 			dependencies: ["714379744B3CF395"]
 			id: "798D16C2A0D071FF"
 			tasks: [
@@ -1166,6 +1145,11 @@
 					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 					type: "item"
 				}
+				{
+					id: "283B9918A3132335"
+					item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
+					type: "item"
+				}
 			]
 			x: 5.0d
 			y: 1.0d
@@ -1179,6 +1163,28 @@
 			}]
 			x: 6.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			id: "1CF4103BFBCE0E29"
+			tasks: [{
+				id: "7DAC5388F81AED26"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "6AC4CADE97CB512F"
+			tasks: [{
+				id: "0881BE9F4BE61564"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 }

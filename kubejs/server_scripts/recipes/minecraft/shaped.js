@@ -27,6 +27,14 @@ ServerEvents.recipes((event) => {
                 B: 'aether:holystone'
             },
             id: `${id_prefix}lever`
+        },
+        {
+            output: '3x minecraft:glass_bottle',
+            pattern: ['A A', ' A '],
+            key: {
+                A: 'aether:quicksoil_glass'
+            },
+            id: `${id_prefix}glass_bottle`
         }
     ];
 

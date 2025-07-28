@@ -46,6 +46,16 @@ ServerEvents.recipes((event) => {
                 B: 'naturesaura:gold_powder'
             },
             id: `${id_prefix}aura_mushroom`
+        },
+        {
+            output: 'naturesaura:moss_generator',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:essences/earth',
+                B: 'minecraft:moss_block',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: 'naturesaura:moss_generator'
         }
     ];
 

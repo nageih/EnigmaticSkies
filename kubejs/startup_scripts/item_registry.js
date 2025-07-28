@@ -46,7 +46,8 @@ StartupEvents.registry('item', (event) => {
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },
         { name: 'Sheepuff', layer: 'mutton' },
-        { name: 'Goat', layer: 'goat_fur' }
+        { name: 'Goat', layer: 'goat_fur' },
+        { name: 'Moa', layer: 'feather' }
     ];
 
     IOU_slips.forEach((slip) => {
