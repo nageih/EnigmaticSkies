@@ -104,6 +104,21 @@ const villagerTrades = {
             level: 1
         },
         {
+            result: { id: 'ars_nouveau:starbuncle_shards', count: 1 },
+            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ars_nouveau:wixie_shards', count: 1 },
+            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            level: 2
+        },
+        {
+            result: { id: 'ars_nouveau:alakarkinos_token', count: 1 },
+            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            level: 2
+        },
+        {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:poutine', count: { min: 8, max: 12 } }],
             level: 3

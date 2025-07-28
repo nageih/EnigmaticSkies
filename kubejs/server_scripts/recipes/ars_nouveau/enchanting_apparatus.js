@@ -15,6 +15,20 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}sourceberry_bush`
+        },
+        {
+            result: { id: 'aether:berry_bush_stem', count: 1 },
+
+            pedestalItems: [
+                { item: 'aether:blue_aercloud' },
+                { item: 'aether:blue_aercloud' },
+                { item: 'aether:blue_aercloud' },
+                { item: 'aether:blue_aercloud' }
+            ],
+            reagent: { tag: 'c:foods/berry' },
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}berry_bush_stem`
         }
     ];
 
