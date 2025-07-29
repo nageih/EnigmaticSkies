@@ -138,6 +138,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: `ars_nouveau:imbuement_chamber` }],
             to_replace: 'ars_nouveau:archwood_planks',
             replace_with: Ingredient.of(['aether:skyroot_planks'])
+        },
+        {
+            filter: [{ mod: `elevatorid` }],
+            to_replace: 'minecraft:ender_pearl',
+            replace_with: Ingredient.of(['aether:blue_aercloud'])
         }
     ];
 

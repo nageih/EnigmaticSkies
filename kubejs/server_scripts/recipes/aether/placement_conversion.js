@@ -50,6 +50,15 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:sand', out: 'createsifter:dust' },
             { in: 'minecraft:sandstone', out: 'createsifter:dust' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' }
+        ],
+        'minecraft:warm_ocean': [
+            { in: 'minecraft:cobblestone', out: 'minecraft:prismarine' },
+            { in: 'minecraft:stone', out: 'minecraft:prismarine_bricks' },
+            { in: 'minecraft:cobbled_deepslate', out: 'modern_industrialization:salt_block' },
+            { in: 'minecraft:deepslate', out: 'modern_industrialization:salt_block' },
+            // { in: 'minecraft:sand', out: 'createsifter:dust' },
+            // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' }
         ]
     };
 
