@@ -31,7 +31,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' }
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ],
         'minecraft:mangrove_swamp': [
             { in: 'minecraft:cobblestone', out: 'minecraft:tuff' },
@@ -40,7 +41,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
-            { in: 'minecraft:dirt', out: 'minecraft:mud' }
+            { in: 'minecraft:dirt', out: 'minecraft:mud' },
+            { in: 'minecraft:grass_block', out: 'minecraft:mud' }
         ],
         'ars_nouveau:archwood_forest': [
             { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
@@ -49,7 +51,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
             { in: 'minecraft:sand', out: 'createsifter:dust' },
             { in: 'minecraft:sandstone', out: 'createsifter:dust' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' }
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ],
         'minecraft:warm_ocean': [
             { in: 'minecraft:cobblestone', out: 'minecraft:prismarine' },
@@ -58,7 +61,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:deepslate', out: 'modern_industrialization:salt_block' },
             // { in: 'minecraft:sand', out: 'createsifter:dust' },
             // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' }
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ]
     };
 
