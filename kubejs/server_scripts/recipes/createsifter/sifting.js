@@ -35,6 +35,26 @@ ServerEvents.recipes((event) => {
             processingTime: 20,
             waterlogged: false,
             id: `${id_prefix}cloud_sifting_andesite`
+        },
+
+        {
+            input: { item: 'minecraft:sand' },
+            results: [
+                { id: 'sushigocrafting:wasabi_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:soy_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:sesame_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 }
+            ],
+            mesh: { id: 'createsifter:string_mesh', count: 1 },
+            processingTime: 25,
+            waterlogged: false,
+            requirements: [
+                {
+                    type: 'mechanicals:biome_tag',
+                    value: 'minecraft:is_ocean'
+                }
+            ],
+            id: `${id_prefix}sand_sifting_canvas`
         }
     ];
 

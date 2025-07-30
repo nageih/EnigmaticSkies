@@ -4526,6 +4526,7 @@
 		"[\"\",{ \"text\": \"Incubate\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" those Sulfurs to produce useful ingots from them.\"]"
 	]
 	quest.6D68D3A5BD549EA3.title: "Reformation and Incubation"
+	quest.6D85BCC665287D6F.quest_desc: ["and other Sushigo materials"]
 	quest.6D9008779F35E755.quest_desc: [
 		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
 		""

@@ -11,14 +11,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}nautilus_shell`
         },
         {
-            input: { item: 'ars_nouveau:mendosteen_pod' },
-            output: { id: 'createsifter:raw_copper_piece' },
-            catalyst: { item: 'naturesaura:crushing_catalyst' },
-            aura: 600,
-            time: 2,
-            id: `${id_prefix}raw_copper_piece`
-        },
-        {
             input: { item: 'ae2:sky_stone_block' },
             output: { id: 'naturesaura:infused_stone' },
             aura: 7500,
@@ -26,10 +18,10 @@ ServerEvents.recipes((event) => {
             id: `naturesaura:altar/infused_stone`
         },
         {
-            input: { item: 'aether:zanite_gemstone' },
+            input: { item: 'arsdelight:frostaya_jelly' },
             output: { id: 'occultism:soul_gem' },
-            aura: 60000,
-            time: 200,
+            aura: 90000,
+            time: 300,
             id: `${id_prefix}soul_gem`
         }
     ];

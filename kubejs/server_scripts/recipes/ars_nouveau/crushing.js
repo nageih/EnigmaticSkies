@@ -3,6 +3,15 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            input: { item: 'minecraft:wheat' },
+            output: [
+                { stack: { id: 'create:wheat_flour', count: 2 }, chance: 1.0, maxRange: 1 },
+                { stack: { id: 'create:wheat_flour', count: 1 }, chance: 0.5, maxRange: 1 }
+            ],
+            id: `${id_prefix}wheat_flour_from_wheat`
+        },
+
+        {
             input: { item: 'minecraft:ink_sac' },
             output: [{ stack: { id: 'minecraft:black_dye', count: 2 }, chance: 1.0, maxRange: 1 }],
             id: `${id_prefix}black_dye`
@@ -33,7 +42,7 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'minecraft:moss_block' },
             output: [
-                { stack: { id: 'aether:zanite_gemstone', count: 1 }, chance: 0.1, maxRange: 1 },
+                { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.1, maxRange: 1 },
                 { stack: { id: 'createsifter:stone_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
                 { stack: { id: 'createsifter:tuff_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
                 { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.3, maxRange: 3 }

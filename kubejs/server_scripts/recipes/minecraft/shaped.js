@@ -3,14 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'minecraft:slime_block',
-            pattern: ['AAA', 'AAA', 'AAA'],
-            key: {
-                A: 'actuallyadditions:rice_slimeball'
-            },
-            id: `${id_prefix}slime_block`
-        },
-        {
             output: 'minecraft:furnace',
             pattern: ['AAA', 'A A', 'BBB'],
             key: {

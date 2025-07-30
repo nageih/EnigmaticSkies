@@ -60,6 +60,11 @@ const villagerTrades = {
             result: { id: 'aquaculture:brown_shrooma', count: 9 },
             ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
             level: 2
+        },
+        {
+            result: { id: 'aquaculture:jellyfish', count: 9 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            level: 2
         }
     ],
     'minecraft:shepherd': [

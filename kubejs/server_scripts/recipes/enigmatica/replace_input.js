@@ -29,11 +29,6 @@ ServerEvents.recipes((event) => {
             to_replace: '#c:storage_blocks/iron',
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },
-        // {
-        //     filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
-        //     to_replace: '#c:chests/wooden',
-        //     replace_with: 'framedblocks:framed_chest'
-        // },
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
@@ -171,6 +166,16 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: 'minecraft:blaze_rod',
             replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
+        },
+        {
+            filter: [{ output: 'ars_nouveau:ritual_fertility' }],
+            to_replace: 'minecraft:blaze_powder',
+            replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
+        },
+        {
+            filter: {},
+            to_replace: 'minecraft:egg',
+            replace_with: Ingredient.of(['#c:eggs'])
         }
     ];
 

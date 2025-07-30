@@ -852,8 +852,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -875,8 +875,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 3.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1D00057ADC3723FC"]
@@ -1065,8 +1065,8 @@
 				item: { count: 1, id: "minecraft:moss_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -1076,8 +1076,8 @@
 				item: { count: 1, id: "naturesaura:moss_generator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1102,10 +1102,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4CAD22296114B3AD"
-				"0CA5362E7E5A8E59"
-			]
+			dependencies: ["4CAD22296114B3AD"]
 			id: "1CA3F6B68095E927"
 			tasks: [{
 				id: "4B6822F4E297EC71"
@@ -1123,19 +1120,19 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["0CA4A7928AF34141"]
+			dependencies: ["5AFB064A80189AA4"]
 			id: "7D03A7E07643F20C"
 			tasks: [{
 				id: "49B4DB5129AAB6DD"
 				item: { count: 1, id: "createsifter:raw_copper_piece" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1190,8 +1187,8 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "008F3C0FB9F4B451"
@@ -1352,22 +1349,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["2F2C14F36F96AD35"]
-			id: "0CA4A7928AF34141"
-			tasks: [{
-				id: "5EE22643C81DC212"
-				item: { count: 1, id: "naturesaura:crushing_catalyst" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["6534548E8A6A318C"]
 			id: "1632F22B72EB51FD"
 			tasks: [{
-				id: "5A3B714FBB770B23"
-				item: { count: 1, id: "enderio:powdered_quartz" }
+				id: "266BEEDB2237EAE0"
+				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -1407,6 +1393,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["1CA3F6B68095E927"]
 			id: "0CA5362E7E5A8E59"
 			tasks: [{
 				id: "1152FAF76B986EF3"
@@ -1434,14 +1421,92 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["0E28517BADA72E7D"]
 			id: "04AB0E3EBEC8A94B"
 			tasks: [{
 				id: "06617769F3629A28"
 				item: { count: 1, id: "supplementaries:lumisene_bottle" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "0E28517BADA72E7D"
+			tasks: [{
+				id: "00D9DEE9AECBA1EC"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14C46426CE60BF84"]
+			id: "6D85BCC665287D6F"
+			tasks: [{
+				id: "0415ACBB86DBF62A"
+				item: { count: 1, id: "sushigocrafting:wasabi_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0ADEE22CBDE86E54"]
+			id: "09599F64E0788B37"
+			tasks: [{
+				id: "38317B628157BD3F"
+				item: { count: 1, id: "modern_industrialization:sulfur_dust" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "323D480E3C37579E"
+			tasks: [{
+				id: "6198E25ED4186983"
+				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			id: "319FD618D4608068"
+			tasks: [{
+				id: "429FDEE5564317E8"
+				item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B76BBE9FB5A1219"]
+			id: "293573E471AEABF6"
+			tasks: [{
+				id: "57D4506C52CC3D1B"
+				item: { count: 1, id: "ars_elemental:flashpine_pod" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "04C9EFC8067E6BD5"
+			tasks: [{
+				id: "0A160EEE369BA147"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
 		}
 	]
 }
