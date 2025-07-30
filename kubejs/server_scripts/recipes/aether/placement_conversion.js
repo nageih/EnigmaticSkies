@@ -24,6 +24,7 @@ ServerEvents.recipes((event) => {
 
     // Ars Nouveau Conjure Terrain modifications
     const terrain_blocks = {
+        // Default
         '#aether:ultracold': [
             { in: 'minecraft:cobblestone', out: 'aether:icestone' },
             { in: 'minecraft:stone', out: 'aether:holystone' },
@@ -34,6 +35,7 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ],
+        // Flourishing
         'minecraft:mangrove_swamp': [
             { in: 'minecraft:cobblestone', out: 'minecraft:tuff' },
             { in: 'minecraft:stone', out: 'minecraft:polished_tuff' },
@@ -44,16 +46,18 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:dirt', out: 'minecraft:mud' },
             { in: 'minecraft:grass_block', out: 'minecraft:mud' }
         ],
+        // Blazing
         'ars_nouveau:archwood_forest': [
             { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
             { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
             { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
             { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
-            { in: 'minecraft:sand', out: 'createsifter:dust' },
-            { in: 'minecraft:sandstone', out: 'createsifter:dust' },
+            { in: 'minecraft:sand', out: 'aether:golden_aercloud' },
+            { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ],
+        // Cascading
         'minecraft:warm_ocean': [
             { in: 'minecraft:cobblestone', out: 'minecraft:prismarine' },
             { in: 'minecraft:stone', out: 'minecraft:prismarine_bricks' },
@@ -61,6 +65,17 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:deepslate', out: 'modern_industrialization:salt_block' },
             // { in: 'minecraft:sand', out: 'createsifter:dust' },
             // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
+        ],
+        // Vexing
+        'minecraft:mushroom_fields': [
+            { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
+            { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
+            { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
+            { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
+            { in: 'minecraft:sand', out: 'createsifter:dust' },
+            { in: 'minecraft:sandstone', out: 'createsifter:dust' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ]

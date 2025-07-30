@@ -66,6 +66,16 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:chiseled_tuff'
             },
             id: `${id_prefix}nature_altar`
+        },
+        {
+            output: 'naturesaura:crushing_catalyst',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:nuggets/gold',
+                B: 'naturesaura:infused_stone',
+                C: 'theurgy:crystallized_water'
+            },
+            id: `${id_prefix}crushing_catalyst`
         }
     ];
 

@@ -8,6 +8,9 @@ ServerEvents.recipes((event) => {
         //     id: 'sample'
         // }
 
+        // Aether
+        { id: 'aether:golden_aercloud_enchanting' },
+
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { id: /ars_nouveau:(cobblestone|stone|sand)/ },
@@ -33,6 +36,8 @@ ServerEvents.recipes((event) => {
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
         { id: 'naturesaura:tree_ritual/nature_altar' },
+        { id: 'naturesaura:tree_ritual/crushing_catalyst' },
+        { id: 'naturesaura:blast_furnace_booster' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

@@ -812,34 +812,37 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5226F1BC0A1B23D0"]
 			id: "7893072479F01DC2"
 			tasks: [{
 				id: "758EA454F1E9A0E3"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["0B7FC57C9436274B"]
 			id: "13F15094F3AF4A73"
 			tasks: [{
 				id: "57A0F394D3AF0E62"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.5d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["008F3C0FB9F4B451"]
 			id: "78626EE046E48EF3"
 			tasks: [{
 				id: "2EE92F0404F62B4C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6AC4CADE97CB512F"]
@@ -1084,8 +1087,8 @@
 				item: { count: 1, id: "minecraft:basalt" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.5d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["702AFA5430CF6D73"]
@@ -1095,19 +1098,22 @@
 				item: { count: 1, id: "createsifter:crushed_basalt" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["4CAD22296114B3AD"]
+			dependencies: [
+				"4CAD22296114B3AD"
+				"0CA5362E7E5A8E59"
+			]
 			id: "1CA3F6B68095E927"
 			tasks: [{
 				id: "4B6822F4E297EC71"
 				item: { count: 1, id: "theurgy:crystallized_lava" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -1121,7 +1127,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2F2C14F36F96AD35"]
+			dependencies: ["0CA4A7928AF34141"]
 			id: "7D03A7E07643F20C"
 			tasks: [{
 				id: "49B4DB5129AAB6DD"
@@ -1129,7 +1135,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1155,14 +1161,15 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["1C0852F2C2B50144"]
 			id: "6FA4894900E53B31"
 			tasks: [{
 				id: "74089801349D2850"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: 18.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -1185,6 +1192,256 @@
 			}]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			id: "008F3C0FB9F4B451"
+			tasks: [{
+				id: "2D3475FF63025FDF"
+				item: { count: 1, id: "ars_nouveau:fire_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "5226F1BC0A1B23D0"
+			tasks: [{
+				id: "73802C2C72AE8348"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "0B7FC57C9436274B"
+			tasks: [{
+				id: "1FDC5BF83296C79A"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			id: "1C0852F2C2B50144"
+			tasks: [{
+				id: "6FBBE85638F729E7"
+				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			id: "6B76BBE9FB5A1219"
+			tasks: [{
+				id: "24770F3A0736A84B"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B76BBE9FB5A1219"]
+			id: "1F1B78D4388E9332"
+			tasks: [{
+				id: "358A5E557BAB258C"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			id: "14D946E0F94255AD"
+			tasks: [{
+				id: "327EE60C36D5C134"
+				item: { count: 1, id: "ars_elemental:anima_essence" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14D946E0F94255AD"]
+			id: "6EEE945815A039B7"
+			tasks: [{
+				id: "7FE64698F8879C71"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7905141BD2517471"]
+			id: "200439825F35368F"
+			tasks: [{
+				id: "075DCE6FB5F472FE"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			id: "7905141BD2517471"
+			tasks: [{
+				id: "4B377BD3C276B920"
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			id: "0ADEE22CBDE86E54"
+			tasks: [{
+				id: "03C2D144BC19CB8D"
+				item: { count: 1, id: "aether:golden_aercloud" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "14C46426CE60BF84"
+			tasks: [{
+				id: "19E4B125DA7E467F"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "6534548E8A6A318C"
+			tasks: [{
+				id: "421F228364877B59"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "1FFFF82C64FD2DE4"
+			tasks: [{
+				id: "461333400E8CDC01"
+				item: { count: 1, id: "createsifter:raw_zinc_piece" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "484ABCE091FAC92A"
+			tasks: [{
+				id: "75D95FFFE4918317"
+				item: { count: 1, id: "createsifter:raw_tin_piece" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2F2C14F36F96AD35"]
+			id: "0CA4A7928AF34141"
+			tasks: [{
+				id: "5EE22643C81DC212"
+				item: { count: 1, id: "naturesaura:crushing_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "1632F22B72EB51FD"
+			tasks: [{
+				id: "5A3B714FBB770B23"
+				item: { count: 1, id: "enderio:powdered_quartz" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "7E2295CDDF92E34F"
+			tasks: [{
+				id: "4B478763238482ED"
+				item: { count: 1, id: "minecraft:prismarine_shard" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "1AD06EAEF4DEB29C"
+			tasks: [{
+				id: "0CD52A5EBF678705"
+				item: { count: 1, id: "minecraft:glow_ink_sac" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "447F64CB51BBFE69"
+			tasks: [{
+				id: "150E7DB1EBAA56E6"
+				item: { count: 1, id: "minecraft:ink_sac" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "0CA5362E7E5A8E59"
+			tasks: [{
+				id: "1152FAF76B986EF3"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			id: "2972FB3B704242DC"
+			tasks: [
+				{
+					id: "527532A6F8C652E1"
+					item: { count: 1, id: "enderio:vacuum_chest" }
+					type: "item"
+				}
+				{
+					id: "300AE829B6733455"
+					item: { count: 1, id: "aether:enchanted_gravitite" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "04AB0E3EBEC8A94B"
+			tasks: [{
+				id: "06617769F3629A28"
+				item: { count: 1, id: "supplementaries:lumisene_bottle" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
 		}
 	]
 }

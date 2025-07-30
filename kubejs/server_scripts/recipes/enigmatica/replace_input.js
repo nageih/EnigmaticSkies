@@ -100,6 +100,16 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
+            filter: [{ mod: `transfer_labels` }],
+            to_replace: '#c:ingots/copper',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ output: `enderio:stone_gear` }, { mod: `trashcans` }],
+            to_replace: 'minecraft:cobblestone',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
             filter: [{ output: 'farmersdelight:skillet' }, { output: 'farmersdelight:cooking_pot' }],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/copper'])
@@ -113,16 +123,6 @@ ServerEvents.recipes((event) => {
             filter: [{ output: `utilitarian:fluid_hopper` }],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
-        },
-        // {
-        //     filter: [{ mod: `transfer_labels` }],
-        //     to_replace: '#c:dusts/redstone',
-        //     replace_with: Ingredient.of(['#c:dusts/sky_stone'])
-        // },
-        {
-            filter: [{ mod: `transfer_labels` }],
-            to_replace: '#c:ingots/copper',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
             filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
@@ -143,6 +143,34 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: `elevatorid` }],
             to_replace: 'minecraft:ender_pearl',
             replace_with: Ingredient.of(['aether:blue_aercloud'])
+        },
+        {
+            filter: [
+                { mod: `redstonepen` },
+                { output: `minecraft:piston` },
+                { output: `minecraft:observer` },
+                { output: `minecraft:dispenser` },
+                { output: `minecraft:dropper` },
+                { output: `minecraft:lever` },
+                { output: `minecraft:brewing_stand` },
+                { output: `supplementaries:turn_table` },
+                { output: `supplementaries:relayer` },
+                { output: `naturesaura:placer` },
+                { output: `naturesaura:pickup_stopper` },
+                { output: `create:redstone_contact` }
+            ],
+            to_replace: 'minecraft:cobblestone',
+            replace_with: Ingredient.of(['minecraft:andesite'])
+        },
+        {
+            filter: [
+                { output: /minecraft:.*copper_bulb/ },
+                { output: 'ars_nouveau:source_lamp' },
+                { output: 'minecraft:brewing_stand' },
+                { output: 'modularrouters:speed_upgrade' }
+            ],
+            to_replace: 'minecraft:blaze_rod',
+            replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
         }
     ];
 
