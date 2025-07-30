@@ -4,40 +4,38 @@
 const villagerTrades = {
     'minecraft:farmer': [
         {
-            result: { id: 'minecraft:potato', count: 2 },
-            ingredients: [
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
-                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
-            ],
+            result: { id: 'minecraft:potato', count: 1 },
+            ingredients: [{ id: 'minecraft:bread', count: { min: 8, max: 8 } }],
             level: 1,
-            maxUses: 1
+            maxUses: 2
         },
         {
-            result: { id: 'minecraft:carrot', count: 2 },
-            ingredients: [
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
-                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
-            ],
+            result: { id: 'minecraft:carrot', count: 1 },
+            ingredients: [{ id: 'minecraft:bread', count: { min: 8, max: 8 } }],
             level: 1,
-            maxUses: 1
+            maxUses: 2
         },
         {
-            result: { id: 'farmersdelight:onion', count: 2 },
-            ingredients: [
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
-                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
-            ],
+            result: { id: 'farmersdelight:onion', count: 1 },
+            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
             level: 2,
-            maxUses: 1
+            maxUses: 2
         },
         {
-            result: { id: 'farmersdelight:rice', count: 2 },
-            ingredients: [
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
-                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
-            ],
+            result: { id: 'farmersdelight:rice', count: 1 },
+            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
             level: 2,
-            maxUses: 1
+            maxUses: 2
+        },
+        {
+            result: { id: 'farmersdelight:organic_compost', count: 2 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'actuallyadditions:worm', count: 8 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 3
         }
     ],
     'minecraft:fisherman': [
@@ -47,7 +45,7 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'minecraft:salmon', count: 9 },
+            result: { id: 'aquaculture:jellyfish', count: 9 },
             ingredients: [{ id: 'minecraft:baked_potato', count: { min: 2, max: 4 } }],
             level: 1
         },
@@ -62,10 +60,31 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'aquaculture:jellyfish', count: 9 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
-            level: 2
+            result: { id: 'minecraft:cod', count: 9 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:salmon', count: 9 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:pufferfish', count: 9 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'sushigocrafting:raw_tuna', count: 9 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
+        },
+        {
+            result: { id: 'sushigocrafting:shrimp[sushigocrafting:amount=100]', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
         }
+        // level 5 is all aquaculture fish
     ],
     'minecraft:shepherd': [
         {
@@ -79,7 +98,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'enigmatica:flying_cow_iou', count: 1 },
-            ingredients: [{ id: 'farmersdelight:salmon_roll', count: { min: 8, max: 8 } }],
+            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
             level: 1,
             maxUses: 4
         },
@@ -135,3 +154,39 @@ const villagerTrades = {
         }
     ]
 };
+
+const aquacultureFish = [
+    'aquaculture:atlantic_cod',
+    'aquaculture:blackfish',
+    'aquaculture:pacific_halibut',
+    'aquaculture:atlantic_halibut',
+    'aquaculture:atlantic_herring',
+    'aquaculture:pink_salmon',
+    'aquaculture:pollock',
+    'aquaculture:rainbow_trout',
+    'aquaculture:bayad',
+    'aquaculture:boulti',
+    'aquaculture:capitaine',
+    'aquaculture:synodontis',
+    'aquaculture:smallmouth_bass',
+    'aquaculture:bluegill',
+    'aquaculture:brown_trout',
+    'aquaculture:carp',
+    'aquaculture:catfish',
+    'aquaculture:gar',
+    'aquaculture:muskellunge',
+    'aquaculture:tuna',
+    'aquaculture:red_grouper',
+    'aquaculture:tambaqui',
+    'aquaculture:piranha',
+    'aquaculture:arapaima',
+    'aquaculture:perch'
+];
+
+aquacultureFish.forEach((fish) => {
+    villagerTrades['minecraft:fisherman'].push({
+        result: { id: fish, count: 9 },
+        ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
+        level: 5
+    });
+});

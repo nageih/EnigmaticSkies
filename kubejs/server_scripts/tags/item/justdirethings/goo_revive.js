@@ -1,9 +1,9 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        tier_1: ['arsdelight:mendosteen_pie_slice'],
-        tier_2: ['arsdelight:bombegrante_pie_slice'],
-        tier_3: ['arsdelight:frostaya_pie_slice'],
-        tier_4: ['arsdelight:bastion_pie_slice']
+        tier_1: ['ars_nouveau:mendosteen_pod'],
+        tier_2: ['arsdelight:activated_mendosteen_jam'],
+        tier_3: ['arsdelight:mendosteen_pie'],
+        tier_4: ['arsdelight:mendosteen_chicken']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -2,12 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/pulverizer/';
     const recipes = [
         {
-            results: [{ id: 'actuallyadditions:black_quartz', count: 2 }],
-            ingredients: [{ tag: 'c:ores/black_quartz' }],
-            time: 180,
-            id: `${id_prefix}black_quartz`
-        },
-        {
             results: [{ id: 'minecraft:sand', count: 4 }],
             ingredients: [{ tag: 'c:sandstone/uncolored_blocks' }],
             time: 180,

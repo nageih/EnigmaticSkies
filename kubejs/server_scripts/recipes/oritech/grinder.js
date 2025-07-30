@@ -2,12 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/grinder/';
     const recipes = [
         {
-            results: [{ id: 'actuallyadditions:black_quartz', count: 4 }],
-            ingredients: [{ tag: 'c:ores/black_quartz' }],
-            time: 120,
-            id: `${id_prefix}black_quartz`
-        },
-        {
             results: [{ id: 'oritech:biomass', count: 1 }],
             ingredients: [{ tag: 'oritech:biomass' }],
             time: 60,

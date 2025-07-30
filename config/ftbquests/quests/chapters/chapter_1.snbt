@@ -874,6 +874,11 @@
 					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
 					type: "item"
 				}
+				{
+					id: "01AFE9C4737DB0C7"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
 			]
 			x: -0.5d
 			y: 4.5d
@@ -1109,8 +1114,8 @@
 				item: { count: 1, id: "theurgy:crystallized_lava" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.0d
+			x: 10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -1349,15 +1354,15 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["6534548E8A6A318C"]
+			dependencies: ["4CAD22296114B3AD"]
 			id: "1632F22B72EB51FD"
 			tasks: [{
 				id: "266BEEDB2237EAE0"
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6534548E8A6A318C"]
@@ -1400,8 +1405,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.5d
+			x: 11.5d
+			y: 6.5d
 		}
 		{
 			id: "2972FB3B704242DC"
@@ -1507,6 +1512,17 @@
 			}]
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "7324B31192DDD85F"
+			tasks: [{
+				id: "1A5D302ECAB0BD1C"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
 		}
 	]
 }

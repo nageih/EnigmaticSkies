@@ -8,6 +8,10 @@ ServerEvents.recipes((event) => {
         //     id: 'sample'
         // }
 
+        // Actually Additions
+        { id: /actuallyadditions:crushing\/.*_horse_armor/ },
+        { id: 'actuallyadditions:crushing/block_coal' },
+
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
         { id: 'aether:swet_slime_block' },
@@ -27,6 +31,9 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { output: 'enderio:wood_gear' },
+
+        // Farmers Delight
+        { output: 'farmersdelight:organic_compost' },
 
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
@@ -62,8 +69,9 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/green_dye' },
 
         // Ore Processing Removals
-        { id: /aether:(ambrosium|zanite)_\w*_from_(smelting|blasting)/ },
-        { id: /create:crushing\/compat\/aether\/(ambrosium|zanite)_ore/ }
+        { input: '#c:ores' },
+        { id: /mekanism:processing\/.*\/from_ore/ },
+        { id: /actuallyadditions:crushing\/.*_ore$/ }
     ];
 
     recipes.forEach((recipe) => {

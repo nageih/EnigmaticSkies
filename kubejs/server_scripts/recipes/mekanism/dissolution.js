@@ -6,13 +6,13 @@ ServerEvents.recipes((event) => {
     let materials = ['aluminum', 'iesnium', 'iridium', 'nickel', 'silver', 'zinc', 'platinum'];
     materials.forEach((material) => {
         recipes.push(
-            {
-                chemical_input: { chemical: 'mekanism:sulfuric_acid', amount: 1 },
-                item_input: { tag: `c:ores/${material}`, count: 1 },
-                output: { id: `emendatusenigmatica:dirty_${material}_slurry`, amount: 1000 },
-                per_tick_usage: true,
-                id: `${id_prefix}dirty_slurry_from_${material}_ore`
-            },
+            // {
+            //     chemical_input: { chemical: 'mekanism:sulfuric_acid', amount: 1 },
+            //     item_input: { tag: `c:ores/${material}`, count: 1 },
+            //     output: { id: `emendatusenigmatica:dirty_${material}_slurry`, amount: 1000 },
+            //     per_tick_usage: true,
+            //     id: `${id_prefix}dirty_slurry_from_${material}_ore`
+            // },
             {
                 chemical_input: { chemical: 'mekanism:sulfuric_acid', amount: 2 },
                 item_input: { count: 1, tag: `c:storage_blocks/raw_${material}` },
