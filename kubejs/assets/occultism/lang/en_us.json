@@ -11,5 +11,8 @@
     "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.finished": "Successfully Translated Archevoker's Logbook.",
     "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.interrupted": "Translation interrupted.",
-    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.started": "Started Translation."
+    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.started": "Started Translation.",
+
+    "item.occultism.fragile_soul_gem.tooltip_empty": "Use on a creature to capture it. §cSingle Use!",
+    "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a captured %s. §cWill break on release!"
 }

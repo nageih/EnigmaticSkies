@@ -46,6 +46,10 @@ ServerEvents.recipes((event) => {
         { output: 'utilitarian:grrass' },
         { id: 'utilitarian:utility/green_dye' },
 
+        // Occultism
+        { id: 'occultism:ritual/craft_soul_gem' },
+        { id: 'occultism:ritual/craft_fragile_soul_gem' },
+
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },

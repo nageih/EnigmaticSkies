@@ -24,6 +24,13 @@ ServerEvents.recipes((event) => {
             aura: 7500,
             time: 40,
             id: `naturesaura:altar/infused_stone`
+        },
+        {
+            input: { item: 'aether:zanite_gemstone' },
+            output: { id: 'occultism:soul_gem' },
+            aura: 60000,
+            time: 200,
+            id: `${id_prefix}soul_gem`
         }
     ];
 
