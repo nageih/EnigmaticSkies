@@ -5237,6 +5237,10 @@
 		"We recommend that you also check out the guides and tutorials built into the mod’s own Guide."
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
+	quest.7E2295CDDF92E34F.quest_desc: [
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
 	quest.7F237202A5D7EFBD.quest_desc: [
 		"The hammers and shovels added by Vanilla Plus Tools break their respective blocks in a 3x3 area, making them an easy choice for early mining."
 		""
