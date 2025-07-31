@@ -4,9 +4,15 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: 'minecraft:sand',
-            table: 'enigmatica:archaeology/warm_ocean',
+            table: 'enigmatica:archaeology/sand',
             weight: 100,
-            id: `${id_prefix}warm_ocean_sand`
+            id: `${id_prefix}sand`
+        },
+        {
+            input: 'createsifter:crushed_basalt',
+            table: 'enigmatica:archaeology/crushed_basalt',
+            weight: 100,
+            id: `${id_prefix}crushed_basalt`
         }
     ];
 

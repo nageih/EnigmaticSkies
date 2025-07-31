@@ -1,0 +1,65 @@
+{
+	icon: {
+		id: "aquaculture:neptunes_bounty"
+	}
+	id: "59F9FFC991B84A0A"
+	loot_crate: {
+		color: 4456357
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Buried Treasure"
+		string_id: "alakarkinos_sand"
+	}
+	loot_size: 3
+	order_index: 25
+	rewards: [
+		{
+			count: 9
+			id: "4D60978ADE291AC0"
+			item: {
+				count: 1
+				id: "createsifter:raw_zinc_piece"
+			}
+			random_bonus: 6
+		}
+		{
+			count: 9
+			id: "17433F7840825B05"
+			item: {
+				count: 1
+				id: "createsifter:raw_tin_piece"
+			}
+			random_bonus: 6
+		}
+		{
+			count: 3
+			id: "7430AF603BE19440"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 3
+			id: "7F2AEB064A2E50CE"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 3
+			id: "544800C2BD116FD8"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_crystals"
+			}
+			random_bonus: 2
+		}
+	]
+}
