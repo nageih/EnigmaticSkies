@@ -9,6 +9,7 @@ ServerEvents.recipes((event) => {
         // }
 
         // Actually Additions
+        { type: 'actuallyadditions:mining_lens' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: 'actuallyadditions:crushing/block_coal' },
 

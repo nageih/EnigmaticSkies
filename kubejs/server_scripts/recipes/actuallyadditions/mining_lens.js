@@ -2,75 +2,71 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:actuallyadditions/mining_lens/';
 
     const recipes = [
+        // Holystone
         {
-            ingredient: { tag: 'actuallyadditions:stone_ore_replaceables' },
-            result: { id: 'occultism:silver_ore', count: 1 },
-            weight: 500,
-            id: `${id_prefix}silver_ore`
-        },
-        {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'occultism:silver_ore_deepslate', count: 1 },
-            weight: 500,
-            id: `${id_prefix}silver_ore_deepslate`
-        },
-
-        {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'mekanism:deepslate_fluorite_ore', count: 1 },
-            weight: 1000,
-            id: `${id_prefix}deepslate_fluorite_ore`
-        },
-        {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'mekanism:deepslate_osmium_ore', count: 1 },
-            weight: 3000,
-            id: `${id_prefix}deepslate_osmium_ore`
-        },
-
-        {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'replication:deepslate_replica_ore', count: 1 },
+            ingredient: { tag: 'aether:holystone' },
+            result: { id: 'aether:ambrosium_ore', count: 1 },
             weight: 10,
-            id: `${id_prefix}deepslate_replica_ore`
+            id: `${id_prefix}ambrosium_ore`
         },
-
         {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'kubejs:deepslate_quartz_ore', count: 1 },
-            weight: 1000,
-            id: `${id_prefix}deepslate_quartz_ore`
+            ingredient: { tag: 'aether:holystone' },
+            result: { id: 'minecraft:andesite', count: 1 },
+            weight: 30,
+            id: `${id_prefix}andesite`
         },
-
         {
-            ingredient: { tag: 'actuallyadditions:stone_ore_replaceables' },
-            result: { id: 'rftoolsbase:dimensionalshard_overworld', count: 1 },
+            ingredient: { tag: 'aether:holystone' },
+            result: { id: 'minecraft:diorite', count: 1 },
+            weight: 30,
+            id: `${id_prefix}diorite`
+        },
+        {
+            ingredient: { tag: 'aether:holystone' },
+            result: { id: 'minecraft:calcite', count: 1 },
+            weight: 30,
+            id: `${id_prefix}calcite`
+        },
+        // Moss
+        {
+            ingredient: { tag: 'chipped:moss_block' },
+            result: { id: 'minecraft:copper_ore', count: 1 },
             weight: 10,
-            id: `${id_prefix}dimensionalshard_overworld`
+            id: `${id_prefix}copper_ore`
         },
         {
-            ingredient: { tag: 'c:ore_bearing_ground/netherrack' },
-            result: { id: 'rftoolsbase:dimensionalshard_nether', count: 1 },
-            weight: 10,
-            id: `${id_prefix}dimensionalshard_nether`
+            ingredient: { tag: 'chipped:moss_block' },
+            result: { id: 'minecraft:stone', count: 1 },
+            weight: 30,
+            id: `${id_prefix}stone`
         },
         {
-            ingredient: { tag: 'c:end_stones' },
-            result: { id: 'rftoolsbase:dimensionalshard_end', count: 1 },
-            weight: 10,
-            id: `${id_prefix}dimensionalshard_end`
+            ingredient: { tag: 'chipped:moss_block' },
+            result: { id: 'minecraft:tuff', count: 1 },
+            weight: 30,
+            id: `${id_prefix}tuff`
         },
-
         {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'oritech:deepslate_platinum_ore', count: 1 },
-            weight: 200,
-            id: `${id_prefix}deepslate_platinum_ore`
+            ingredient: { tag: 'chipped:moss_block' },
+            result: { id: 'minecraft:granite', count: 1 },
+            weight: 30,
+            id: `${id_prefix}granite`
         }
     ];
 
+    // const stoneVariants = [
+    //     'minecraft:deepslate',
+    //     'create:asurine',
+    //     'create:crimsite',
+    //     'create:limestone',
+    //     'create:ochrum',
+    //     'create:scoria',
+    //     'create:scorchia',
+    //     'create:veridium'
+    // ];
+
     recipes.forEach((recipe) => {
         recipe.type = 'actuallyadditions:mining_lens';
-        // event.custom(recipe).id(recipe.id);
+        event.custom(recipe).id(recipe.id);
     });
 });
