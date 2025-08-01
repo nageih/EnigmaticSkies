@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:essences/earth',
                 B: 'minecraft:moss_block',
-                C: 'ars_nouveau:sourcestone'
+                C: 'naturesaura:infused_stone'
             },
             id: 'naturesaura:moss_generator'
         },

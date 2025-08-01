@@ -172,19 +172,9 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
         },
         {
-            filter: [{ output: 'ars_nouveau:ritual_fertility' }],
-            to_replace: 'minecraft:blaze_powder',
-            replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
-        },
-        {
             filter: {},
             to_replace: 'minecraft:egg',
             replace_with: Ingredient.of(['#c:eggs'])
-        },
-        {
-            filter: [{ output: 'modern_industrialization:fire_clay_dust' }],
-            to_replace: 'modern_industrialization:brick_dust',
-            replace_with: Ingredient.of(['createsifter:granite_pebble'])
         }
     ];
 

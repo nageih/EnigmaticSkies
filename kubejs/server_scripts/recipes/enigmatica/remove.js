@@ -13,6 +13,7 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: 'actuallyadditions:crushing/block_coal' },
+        { id: 'actuallyadditions:coal_generator' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -42,14 +43,21 @@ ServerEvents.recipes((event) => {
         // Farmers Delight
         { output: 'farmersdelight:organic_compost' },
 
+        // Genetics
+        { output: 'geneticsresequenced:coal_generator' },
+
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
+        { output: 'justdirethings:generatort1' },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
 
         // Modern Industrialization
         { type: 'modern_industrialization:forge_hammer' },
+        { output: 'modern_industrialization:fire_clay_dust' },
+        { output: 'modern_industrialization:fire_clay_brick' },
+        { output: 'modern_industrialization:fire_clay_bricks' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -58,6 +66,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
         { id: 'naturesaura:tree_ritual/conversion_catalyst' },
         { id: 'naturesaura:tree_ritual/ore_spawn_powder' },
+        { id: 'naturesaura:tree_ritual/animal_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
 
         // Occultism

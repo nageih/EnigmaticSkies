@@ -6,7 +6,12 @@
             "actuallyadditions:rice",
             "actuallyadditions:rice_seeds",
             "sushigocrafting:rice",
-            "sushigocrafting:rice_seeds"
+            "sushigocrafting:rice_seeds",
+            "actuallyadditions:coal_generator",
+            "justdirethings:generatort1",
+            "geneticsresequenced:coal_generator",
+            "modern_industrialization:fire_clay_brick",
+            "modern_industrialization:fire_clay_dust"
         ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"

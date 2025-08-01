@@ -48,6 +48,11 @@ ServerEvents.recipes((event) => {
                 { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.3, maxRange: 3 }
             ],
             id: `${id_prefix}moss_block_crushing`
+        },
+        {
+            input: { tag: 'c:crops/rice' },
+            output: [{ stack: { id: 'minecraft:sugar', count: 2 }, chance: 1.0, maxRange: 1 }],
+            id: `${id_prefix}sugar_from_rice`
         }
     ];
 

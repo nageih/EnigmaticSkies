@@ -124,7 +124,10 @@ const villagerTrades = {
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } }],
+            ingredients: [
+                { id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } },
+                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
+            ],
             level: 1
         },
         {
@@ -144,13 +147,30 @@ const villagerTrades = {
         },
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:poutine', count: { min: 8, max: 12 } }],
+            ingredients: [
+                { id: 'enigmatica:poutine', count: { min: 8, max: 12 } },
+                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
+            ],
             level: 3
         },
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } }],
+            ingredients: [
+                { id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } },
+                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
+            ],
             level: 5
+        }
+    ],
+    'minecraft:mason': [
+        {
+            result: { id: 'modern_industrialization:fire_clay_bricks', count: 4 },
+            ingredients: [
+                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
+                { id: 'minecraft:bricks', count: { min: 8, max: 8 } }
+            ],
+            level: 1,
+            maxUses: 2
         }
     ]
 };

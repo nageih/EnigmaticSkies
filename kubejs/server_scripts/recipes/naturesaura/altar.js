@@ -44,6 +44,14 @@ ServerEvents.recipes((event) => {
             aura: 7500,
             time: 2,
             id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { tag: 'c:crops/rice' },
+            output: { id: 'minecraft:sugar', count: 2 },
+            catalyst: { item: 'naturesaura:crushing_catalyst' },
+            aura: 3000,
+            time: 2,
+            id: `${id_prefix}sugar_from_rice`
         }
     ];
 

@@ -865,11 +865,6 @@
 					type: "item"
 				}
 				{
-					id: "08E1136AEFAB4BB4"
-					item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
-					type: "item"
-				}
-				{
 					id: "36FFDB989168EE23"
 					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
 					type: "item"
