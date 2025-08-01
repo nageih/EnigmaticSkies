@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
 
         // Actually Additions
         { type: 'actuallyadditions:mining_lens' },
+        { id: 'actuallyadditions:lens_of_the_miner' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: 'actuallyadditions:crushing/block_coal' },
 
@@ -20,7 +21,7 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
-        { id: /ars_nouveau:(cobblestone|stone|sand)/ },
+        { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: 'ars_nouveau:imbuement_lapis' },
 
@@ -35,6 +36,9 @@ ServerEvents.recipes((event) => {
         // EnderIO
         { output: 'enderio:wood_gear' },
 
+        // Enigmatic Unity
+        { mod: 'enigmaticunity' },
+
         // Farmers Delight
         { output: 'farmersdelight:organic_compost' },
 
@@ -44,15 +48,24 @@ ServerEvents.recipes((event) => {
         // Minecraft
         { id: 'minecraft:slime_block' },
 
+        // Modern Industrialization
+        { type: 'modern_industrialization:forge_hammer' },
+
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
+        { id: /naturesaura:tree_ritual\/token_/ },
         { id: 'naturesaura:tree_ritual/nature_altar' },
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
+        { id: 'naturesaura:tree_ritual/conversion_catalyst' },
+        { id: 'naturesaura:tree_ritual/ore_spawn_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
 
         // Occultism
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
+
+        // PneumaticCraft
+        { type: 'pneumaticcraft:explosion_crafting' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

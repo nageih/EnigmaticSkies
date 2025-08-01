@@ -52,7 +52,11 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: 'minecraft:quartz',
-            replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
+            replace_with: Ingredient.of([
+                'minecraft:quartz',
+                'ae2:certus_quartz_crystal',
+                'actuallyadditions:black_quartz'
+            ])
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
@@ -176,6 +180,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: 'minecraft:egg',
             replace_with: Ingredient.of(['#c:eggs'])
+        },
+        {
+            filter: [{ output: 'modern_industrialization:fire_clay_dust' }],
+            to_replace: 'modern_industrialization:brick_dust',
+            replace_with: Ingredient.of(['createsifter:granite_pebble'])
         }
     ];
 

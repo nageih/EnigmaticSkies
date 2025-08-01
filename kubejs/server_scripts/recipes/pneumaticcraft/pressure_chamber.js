@@ -3,6 +3,12 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            inputs: [{ tag: 'c:storage_blocks/coal', count: 1 }],
+            results: [{ id: 'minecraft:diamond', count: 1 }],
+            pressure: 4.0,
+            id: `pneumaticcraft:pressure_chamber/coal_to_diamond`
+        },
+        {
             inputs: [
                 { item: 'ae2:printed_logic_processor', count: 1 },
                 { tag: 'c:dusts/redstone', count: 1 },

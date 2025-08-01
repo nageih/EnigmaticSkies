@@ -7,27 +7,49 @@ ServerEvents.recipes((event) => {
             output: { id: 'minecraft:nautilus_shell' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 5000,
-            time: 20,
+            time: 1,
             id: `${id_prefix}nautilus_shell`
         },
         {
             input: { item: 'ae2:sky_stone_block' },
             output: { id: 'naturesaura:infused_stone' },
             aura: 7500,
-            time: 40,
+            time: 2,
             id: `naturesaura:altar/infused_stone`
         },
         {
             input: { item: 'arsdelight:frostaya_jelly' },
             output: { id: 'occultism:soul_gem' },
             aura: 90000,
-            time: 300,
+            time: 15,
             id: `${id_prefix}soul_gem`
+        },
+        {
+            input: { item: 'minecraft:charcoal' },
+            output: { id: 'minecraft:coal' },
+            aura: 4500,
+            time: 6,
+            id: `naturesaura:altar/coal`
+        },
+        {
+            input: { item: 'mekanism:block_charcoal' },
+            output: { id: 'minecraft:coal_block' },
+            aura: 36000,
+            time: 6,
+            id: `${id_prefix}coal_block`
+        },
+        {
+            input: { item: 'oritech:clay_catalyst_beads' },
+            output: { id: 'actuallyadditions:black_quartz' },
+            aura: 7500,
+            time: 2,
+            id: `${id_prefix}black_quartz`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'naturesaura:altar';
+        recipe.time = recipe.time * 20;
         event.custom(recipe).id(recipe.id);
     });
 });

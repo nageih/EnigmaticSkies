@@ -880,8 +880,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 4.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1D00057ADC3723FC"]
@@ -1070,8 +1070,8 @@
 				item: { count: 1, id: "minecraft:moss_block" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -1081,8 +1081,8 @@
 				item: { count: 1, id: "naturesaura:moss_generator" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1125,7 +1125,7 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -1136,8 +1136,8 @@
 				item: { count: 1, id: "createsifter:raw_copper_piece" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1354,15 +1354,14 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["4CAD22296114B3AD"]
 			id: "1632F22B72EB51FD"
 			tasks: [{
 				id: "266BEEDB2237EAE0"
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.5d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6534548E8A6A318C"]
@@ -1373,29 +1372,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "1AD06EAEF4DEB29C"
-			tasks: [{
-				id: "0CD52A5EBF678705"
-				item: { count: 1, id: "minecraft:glow_ink_sac" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "447F64CB51BBFE69"
-			tasks: [{
-				id: "150E7DB1EBAA56E6"
-				item: { count: 1, id: "minecraft:ink_sac" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1CA3F6B68095E927"]
@@ -1409,6 +1386,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["293573E471AEABF6"]
 			id: "2972FB3B704242DC"
 			tasks: [
 				{
@@ -1422,8 +1400,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -3.5d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0E28517BADA72E7D"]
@@ -1522,7 +1500,138 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D1960D1AE64E4A2"]
+			id: "169D412B565F97C4"
+			tasks: [{
+				id: "743FD5EB2494A7A3"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CAD22296114B3AD"]
+			id: "4BF9D7B5BB1281B6"
+			tasks: [{
+				id: "5BACB7BA09190E4E"
+				item: { count: 1, id: "malum:blazing_quartz" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0E96FB3E310941BB"
+				"0475C6795A9F63ED"
+			]
+			id: "670D29BA39A3C633"
+			tasks: [{
+				id: "3A810FDECBCF7E85"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D1960D1AE64E4A2"]
+			id: "0475C6795A9F63ED"
+			tasks: [{
+				id: "160A5C484C3CAC44"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "5D1960D1AE64E4A2"
+			tasks: [{
+				id: "3C13EEDD01DBB3A9"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"169D412B565F97C4"
+				"198344CFB65B1378"
+			]
+			id: "0E96FB3E310941BB"
+			tasks: [{
+				id: "370ED1E4C504DEB8"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "388B5ED3AB3DEC82"
+			tasks: [{
+				id: "3344B81CFADAC8FB"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			id: "6BF91623C7C278AB"
+			tasks: [{
+				id: "3829B9508E55605E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "7CF12A36B30AE7D7"
+			tasks: [{
+				id: "2AD2A5C68D517C53"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "03D3C2661E7BCA1A"
+			tasks: [{
+				id: "51E7655F20B2B45A"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "79895E6B2A5E8776"
+			tasks: [{
+				id: "5F579E2341E92725"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"04AB0E3EBEC8A94B"
+				"169D412B565F97C4"
+			]
+			id: "198344CFB65B1378"
+			tasks: [{
+				id: "4BE33F0F34E3CB95"
+				item: { count: 1, id: "enigmaticunity:dim_source_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
 		}
 	]
 }
