@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
 
         // Actually Additions
         { type: 'actuallyadditions:mining_lens' },
+        { output: 'actuallyadditions:rice_slimeball' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: 'actuallyadditions:crushing/block_coal' },
@@ -30,11 +31,13 @@ ServerEvents.recipes((event) => {
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
+        { id: 'aquaculture:jellyfish_to_slimeball' },
 
         // Create and Addons
         { type: 'createsifter:sifting' },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
+        { id: 'create:crafting/appliances/slime_ball' },
 
         // EnderIO
         { output: 'enderio:wood_gear' },

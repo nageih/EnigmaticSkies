@@ -191,6 +191,11 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'actuallyadditions' }],
             to_replace: '#c:cobblestones',
             replace_with: Ingredient.of(['minecraft:tuff'])
+        },
+        {
+            filter: {},
+            to_replace: 'create:dough',
+            replace_with: Ingredient.of(['#c:doughs/wheat'])
         }
     ];
 

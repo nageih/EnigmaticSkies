@@ -1,6 +1,6 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        wheat: ['pneumaticcraft:wheat_flour']
+        wheat: ['pneumaticcraft:wheat_flour', 'enderio:flour']
     };
 
     Object.keys(additions).forEach((tag) => {

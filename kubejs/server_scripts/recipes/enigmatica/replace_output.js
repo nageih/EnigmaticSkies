@@ -37,6 +37,11 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:wrench`,
             replace_with: `oritech:wrench[unbreakable={}]`
+        },
+        {
+            filter: [{ output: 'create:dough' }],
+            to_replace: 'create:dough',
+            replace_with: 'farmersdelight:wheat_dough'
         }
     ];
 

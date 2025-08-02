@@ -1365,17 +1365,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1CA3F6B68095E927"]
-			id: "0CA5362E7E5A8E59"
-			tasks: [{
-				id: "1152FAF76B986EF3"
-				item: { count: 1, id: "modern_industrialization:steel_ingot" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["293573E471AEABF6"]
 			id: "2972FB3B704242DC"
 			tasks: [
@@ -1504,17 +1493,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0E96FB3E310941BB"]
-			id: "670D29BA39A3C633"
-			tasks: [{
-				id: "3A810FDECBCF7E85"
-				item: { count: 1, id: "minecraft:diamond" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
 			dependencies: ["5D1960D1AE64E4A2"]
 			id: "0475C6795A9F63ED"
 			tasks: [{
@@ -1557,7 +1535,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			id: "6BF91623C7C278AB"
@@ -1566,7 +1544,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			id: "7CF12A36B30AE7D7"
@@ -1574,8 +1552,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: 7.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			id: "03D3C2661E7BCA1A"
@@ -1583,8 +1561,8 @@
 				id: "51E7655F20B2B45A"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 8.5d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			id: "79895E6B2A5E8776"
@@ -1592,8 +1570,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 8.5d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
