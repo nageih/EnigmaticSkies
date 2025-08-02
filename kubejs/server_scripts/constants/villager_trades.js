@@ -125,6 +125,12 @@ const villagerTrades = {
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
             level: 3,
             maxUses: 4
+        },
+        {
+            result: { id: 'enigmatica:aerbunny_iou', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            level: 3,
+            maxUses: 4
         }
     ],
     'ars_nouveau:shady_wizard': [

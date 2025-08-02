@@ -35,9 +35,15 @@ ServerEvents.recipes((event) => {
 
         // Create and Addons
         { type: 'createsifter:sifting' },
+        { id: /createsifter:(crushing|milling)/ },
         { id: /create:mixing\/andesite_alloy/ },
         { id: /create:crafting\/materials\/andesite_alloy/ },
         { id: 'create:crafting/appliances/slime_ball' },
+        { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
+        { id: /create:crushing\/.*_horse_armor/ },
+        { id: 'create:crushing/prismarine_crystals' },
+        { id: 'create:crushing/gilded_blackstone' },
+        { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
 
         // EnderIO
         { output: 'enderio:wood_gear' },

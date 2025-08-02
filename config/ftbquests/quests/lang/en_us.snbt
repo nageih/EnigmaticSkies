@@ -3937,6 +3937,28 @@
 		""
 		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
 	]
+	quest.605A60825B68C2D7.quest_desc: [
+		"Many animals are not well adapted to these heights, and as such have a limited lifespan. "
+		""
+		"The following creatures will only survive about 10 in-game days as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. "
+		""
+		"Thankfully, you have some options for automating that process. "
+		""
+		"  &6&nVanilla Mobs&r"
+		"    • &7Chickens"
+		"    • &7Cows"
+		"    • &7Goats"
+		"    • &7Mooshrooms"
+		"    • &7Pigs"
+		"    • &7Rabbits"
+		"    • &7Sheep"
+		""
+		"  &6&nAether Mobs&r"
+		"    • &7Aerbunnies"
+		"    • &7Flying Cows"
+		"    • &7Phygs"
+		"    • &7Sheepuffs"
+	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [

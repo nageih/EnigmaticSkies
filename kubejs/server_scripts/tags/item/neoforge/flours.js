@@ -7,4 +7,6 @@ ServerEvents.tags('item', (event) => {
         event.get(`c:flours/${tag}`).add(additions[tag]);
         event.get('c:flours').add(additions[tag]);
     });
+
+    event.get('c:dusts/flour').removeAll();
 });

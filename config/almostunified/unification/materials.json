@@ -4,6 +4,7 @@
         "emendatusenigmatica",
         "kubejs",
         "modern_industrialization",
+        "pneumaticcraft",
         "farmersdelight",
         "create",
         "mekanism",
@@ -14,8 +15,7 @@
         "sushigocrafting",
         "actuallyadditions",
         "utilitarian",
-        "justdirethings",
-        "pneumaticcraft"
+        "justdirethings"
     ],
     "priority_overrides": {},
     "stone_variants": ["stone", "andesite", "deepslate", "diorite", "granite", "nether"],

@@ -31,6 +31,18 @@ ServerEvents.recipes((event) => {
                 C: '#c:dusts/grains_of_infinity'
             },
             id: `${id_prefix}compressed_iron_gear`
+        },
+        {
+            output: '8x pneumaticcraft:sourdough',
+            pattern: ['FFF', 'FYF', 'FFF'],
+            key: {
+                F: '#c:flours/wheat',
+                Y: Ingredient.of({
+                    type: 'pneumaticcraft:fluid_container',
+                    fluid: { id: 'pneumaticcraft:yeast_culture', amount: 1000 }
+                })
+            },
+            id: `${id_prefix}sourdough`
         }
     ];
 

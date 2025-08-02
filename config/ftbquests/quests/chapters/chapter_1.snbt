@@ -1110,7 +1110,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -1120,8 +1120,8 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -1435,7 +1435,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1467,8 +1467,8 @@
 				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -1525,7 +1525,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -1561,8 +1561,8 @@
 				id: "51E7655F20B2B45A"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			id: "79895E6B2A5E8776"
@@ -1570,8 +1570,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: 6.5d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1596,7 +1596,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1C9322290951A144"]
@@ -1606,8 +1606,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1658,6 +1658,30 @@
 			]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			id: "62B97D0DA2AB3BBE"
+			tasks: [{
+				id: "347311FF95CC8058"
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"62B97D0DA2AB3BBE"
+				"1CA3F6B68095E927"
+			]
+			id: "11458E6EE4564394"
+			tasks: [{
+				id: "77120F70ED3C97FF"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
 		}
 	]
 }
