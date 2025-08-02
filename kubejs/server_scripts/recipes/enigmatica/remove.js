@@ -14,6 +14,8 @@ ServerEvents.recipes((event) => {
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: 'actuallyadditions:crushing/block_coal' },
         { id: 'actuallyadditions:coal_generator' },
+        { id: 'actuallyadditions:basic_coil' },
+        { id: 'actuallyadditions:vertical_digger' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -24,7 +26,7 @@ ServerEvents.recipes((event) => {
         { type: 'ars_nouveau:alakarkinos_conversion' },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
-        { id: 'ars_nouveau:imbuement_lapis' },
+        { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -52,6 +54,7 @@ ServerEvents.recipes((event) => {
 
         // Minecraft
         { id: 'minecraft:slime_block' },
+        { output: /minecraft:infested/ },
 
         // Modern Industrialization
         { type: 'modern_industrialization:forge_hammer' },
@@ -68,6 +71,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tree_ritual/ore_spawn_powder' },
         { id: 'naturesaura:tree_ritual/animal_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
+        { id: `naturesaura:altar/coal` },
 
         // Occultism
         { id: 'occultism:ritual/craft_soul_gem' },

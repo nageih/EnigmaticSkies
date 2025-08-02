@@ -36,6 +36,12 @@ const villagerTrades = {
             result: { id: 'actuallyadditions:worm', count: 8 },
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
             level: 3
+        },
+        {
+            result: { id: 'actuallyadditions:coffee_beans', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4,
+            maxUses: 2
         }
     ],
     'minecraft:fisherman': [
@@ -169,8 +175,14 @@ const villagerTrades = {
                 { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
                 { id: 'minecraft:bricks', count: { min: 8, max: 8 } }
             ],
-            level: 1,
-            maxUses: 2
+            level: 1
+        }
+    ],
+    'actuallyadditions:engineer': [
+        {
+            result: { id: 'actuallyadditions:basic_coil', count: 1 },
+            ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
+            level: 1
         }
     ]
 };

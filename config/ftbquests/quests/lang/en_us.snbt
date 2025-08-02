@@ -3547,6 +3547,13 @@
 		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Transporter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Transporter\",\"underlined\":true}]"
 		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Sorter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Sorter\",\"underlined\":true}]"
 	]
+	quest.56AD6E7F12056140.quest_desc: [
+		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this machine is the Job Site for Shady Wizard Villagers. "
+		""
+		"Shady Wizards will sell you several very important tools and are the only way to access new glyphs. "
+		""
+		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that you don’t already know. "
+	]
 	quest.56D8B0E6FD8CF048.quest_desc: [
 		"Energy Cells are all about in-situ energy storage. They're best paired with unreliable power sources, such as Solar, or slower power generators that aren't under constant load."
 		""
@@ -4065,6 +4072,35 @@
 		""
 		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
 	]
+	quest.63AFE7CB35AE94BF.quest_desc: [
+		"Want to change things up a bit? Looking for a more magical experience over Create’s normal machines?"
+		""
+		"Ars Technica, an addon for Ars Nouveau, includes glyphs to mimic many of Create’s processes. Below are a few example spells to get you started."
+		""
+		"These are great for quick manual processing or can be a powerful replacement to Create if the spells are inscribed in a Spell Turret."
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Encased Fan - Bulk Washing&r"
+		"    &5Projectile&r > &aWhirl&r > &6Extend Time&r > &aConjure Water&r"
+		""
+		"&7Encased Fan - Bulk Blasting&r"
+		"    &5Projectile&r > &aWhirl&r > &6Extend Time&r > &aSmelt&r"
+		""
+		"&7Deployer&r"
+		"    &5Projectile&r > &aApply&r > &6AOE&r"
+		""
+		"&7Mechanical Mixer&r"
+		"    &5Projectile&r > &aFuse&r > &6AOE&r"
+		""
+		"&7Sandpaper&r"
+		"    &5Projectile&r > &aPolish&r > &6AOE&r"
+		""
+		"&7Mechanical Press&r"
+		"    &5Projectile&r > &aPress&r > &6AOE&r"
+		""
+		"&a🛈 Tip: Try adding more AOE or stacking spell casts!"
+	]
 	quest.63B019541F72C712.quest_desc: [
 		"Looking for a nice invisible fence to keep mobs contained? This is the block for you. "
 		""
@@ -4107,12 +4143,12 @@
 	quest.6490781066FAE8CF.quest_desc: [
 		"Biome: Mangrove Swamp"
 		""
-		"Notables:"
-		"Glow Berries"
-		"Bamboo"
-		"Moss"
-		"Spore Blossom"
-		"Azalea"
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Aerogel&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Tuff&r"
+		"  • &7Dirt&r               &2⟶&r    &7Mud&r"
+		"  • &7Sand&r             &2⟶&r    &7Cold Aercloud&r"
+		"  • &7Sandstone&r      &2⟶&r    &7Quicksoil&r"
 	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
@@ -5087,9 +5123,10 @@
 	quest.7893072479F01DC2.quest_desc: [
 		"Biome: Warm Ocean"
 		""
-		"Notables"
-		"Corals"
-		"Sugar Cane"
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Salt&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Prismarine&r"
+		"  • &7Dirt&r               &2⟶&r    &7Aether Dirt&r"
 	]
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "
@@ -5502,6 +5539,7 @@
 	task.74FDE36B1D6613C4.title: "Alloy Kiln"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
+	task.75F35EC4088EBA42.title: "Create Processing"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"

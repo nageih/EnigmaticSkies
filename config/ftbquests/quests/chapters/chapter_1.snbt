@@ -1099,17 +1099,17 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["4CAD22296114B3AD"]
+			dependencies: ["0ADEE22CBDE86E54"]
 			id: "1CA3F6B68095E927"
 			tasks: [{
 				id: "4B6822F4E297EC71"
 				item: { count: 1, id: "theurgy:crystallized_lava" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 5.5d
 		}
 		{
@@ -1121,7 +1121,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -1131,7 +1131,7 @@
 				item: { count: 1, id: "createsifter:raw_copper_piece" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -1327,28 +1327,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "1FFFF82C64FD2DE4"
-			tasks: [{
-				id: "461333400E8CDC01"
-				item: { count: 1, id: "createsifter:raw_zinc_piece" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "484ABCE091FAC92A"
-			tasks: [{
-				id: "75D95FFFE4918317"
-				item: { count: 1, id: "createsifter:raw_tin_piece" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.5d
-		}
-		{
 			id: "1632F22B72EB51FD"
 			tasks: [{
 				id: "266BEEDB2237EAE0"
@@ -1361,13 +1339,30 @@
 		{
 			dependencies: ["6534548E8A6A318C"]
 			id: "7E2295CDDF92E34F"
-			tasks: [{
-				id: "4B478763238482ED"
-				item: { count: 1, id: "minecraft:prismarine_shard" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.5d
+			tasks: [
+				{
+					id: "2CC12ADEC458B5AB"
+					item: { count: 1, id: "createsifter:raw_zinc_piece" }
+					type: "item"
+				}
+				{
+					id: "538D27675AA3E42F"
+					item: { count: 1, id: "createsifter:raw_tin_piece" }
+					type: "item"
+				}
+				{
+					id: "012FE5503155C46E"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "5B59C9EFD07B0145"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1CA3F6B68095E927"]
@@ -1377,7 +1372,7 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 6.0d
 		}
 		{
@@ -1407,7 +1402,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -1428,8 +1423,8 @@
 				item: { count: 1, id: "sushigocrafting:wasabi_seeds" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0ADEE22CBDE86E54"]
@@ -1440,7 +1435,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -1487,17 +1482,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "7324B31192DDD85F"
-			tasks: [{
-				id: "1A5D302ECAB0BD1C"
-				item: { count: 1, id: "ae2:certus_quartz_crystal" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
 			dependencies: ["5D1960D1AE64E4A2"]
 			id: "169D412B565F97C4"
 			tasks: [{
@@ -1505,7 +1489,7 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 5.0d
 		}
 		{
@@ -1516,22 +1500,19 @@
 				item: { count: 1, id: "malum:blazing_quartz" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 5.0d
+			x: 12.0d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"0E96FB3E310941BB"
-				"0475C6795A9F63ED"
-			]
+			dependencies: ["0E96FB3E310941BB"]
 			id: "670D29BA39A3C633"
 			tasks: [{
 				id: "3A810FDECBCF7E85"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -1541,8 +1522,8 @@
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -1566,7 +1547,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 6.0d
 		}
 		{
@@ -1627,6 +1608,78 @@
 			}]
 			x: -1.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "1C9322290951A144"
+			tasks: [{
+				id: "55DF862AE4996DEB"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C9322290951A144"]
+			id: "62ABC26128284A71"
+			tasks: [{
+				id: "2953890556C8A8F5"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["121F78C888E3676C"]
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "63AFE7CB35AE94BF"
+			min_width: 300
+			rewards: [{
+				id: "29405C2898AA59C3"
+				item: {
+					count: 1
+					id: "ars_nouveau:basic_spell_turret"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75F35EC4088EBA42"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:deployer)item(create:encased_fan)item(create:mechanical_mixer)item(create:sand_paper)item(create:mechanical_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F493A257A7E700C"]
+			id: "56AD6E7F12056140"
+			rewards: [{
+				count: 8
+				id: "3C51219CB75007E1"
+				item: {
+					count: 1
+					id: "farmersdelight:dumplings"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BF83A89CA730475"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					id: "6CDECF61F68BC429"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 }

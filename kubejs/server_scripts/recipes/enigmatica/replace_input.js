@@ -52,11 +52,12 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: 'minecraft:quartz',
-            replace_with: Ingredient.of([
-                'minecraft:quartz',
-                'ae2:certus_quartz_crystal',
-                'actuallyadditions:black_quartz'
-            ])
+            replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
+        },
+        {
+            filter: [{ output: 'create:rose_quartz' }],
+            to_replace: 'minecraft:quartz',
+            replace_with: Ingredient.of(['#c:gems/black_quartz'])
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
@@ -175,6 +176,21 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: 'minecraft:egg',
             replace_with: Ingredient.of(['#c:eggs'])
+        },
+        {
+            filter: [{ output: 'actuallyadditions:coffee_machine' }],
+            to_replace: 'actuallyadditions:basic_coil',
+            replace_with: Ingredient.of(['create:electron_tube'])
+        },
+        {
+            filter: [{ output: 'actuallyadditions:iron_casing' }],
+            to_replace: '#c:rods/wooden',
+            replace_with: Ingredient.of(['create:electron_tube'])
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: '#c:cobblestones',
+            replace_with: Ingredient.of(['minecraft:tuff'])
         }
     ];
 

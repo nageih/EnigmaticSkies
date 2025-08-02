@@ -22,11 +22,20 @@ ServerEvents.recipes((event) => {
             output: 'actuallyadditions:wood_casing',
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: 'aether:skyroot_planks',
+                A: '#enigmatica:planks',
                 B: 'farmersdelight:canvas',
-                C: '#aether:skyroot_logs'
+                C: '#minecraft:logs_that_burn'
             },
             id: `actuallyadditions:wood_casing`
+        },
+        {
+            output: '8x actuallyadditions:empty_cup',
+            pattern: ['BBB', 'BAB', 'BBB'],
+            key: {
+                A: '#c:gems/black_quartz',
+                B: 'handcrafted:white_cup'
+            },
+            id: `actuallyadditions:empty_cup`
         }
     ];
 

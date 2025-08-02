@@ -178,7 +178,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 { tag: 'c:dusts/redstone', count: 4 },
-                { tag: 'c:gems/quartz', count: 1 }
+                { tag: 'c:gems/black_quartz', count: 1 }
             ],
             output: { id: 'create:rose_quartz', count: 1 },
             energy: 6400,

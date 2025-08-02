@@ -3,16 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: 'minecraft:sand',
-            table: 'enigmatica:archaeology/sand',
+            input: 'modern_industrialization:salt_block',
+            table: 'enigmatica:archaeology/ocean',
             weight: 100,
-            id: `${id_prefix}sand`
+            id: `${id_prefix}ocean`
         },
         {
             input: 'createsifter:crushed_basalt',
-            table: 'enigmatica:archaeology/crushed_basalt',
+            table: 'enigmatica:archaeology/archwood_forest',
             weight: 100,
-            id: `${id_prefix}crushed_basalt`
+            id: `${id_prefix}archwood_forest`
         }
     ];
 

@@ -29,8 +29,8 @@ ServerEvents.recipes((event) => {
 
         // Regular Recipe Handling
         let ingredients = source_recipe.ingredients.map((ingredient) => {
-            if (ingredient.tag && ingredient.tag == 'c:milk') {
-                ingredient = { fluid_tag: 'c:milk', amount: 250 };
+            if (ingredient.tag && ingredient.tag == 'c:foods/milk') {
+                ingredient = { type: 'fluid_stack', amount: 250, fluid: 'minecraft:milk' };
             }
             return ingredient;
         });
