@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:the_void' }],
             processingTime: 25,
             waterlogged: false,
-            id: `${id_prefix}cold_aercloud_sifting_canvas`
+            id: `${id_prefix}cold_aercloud_sifting_string_mesh`
         },
         {
             input: { item: 'aether:cold_aercloud' },
@@ -54,16 +54,30 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'minecraft:sand' },
             results: [
+                { id: 'minecraft:nautilus_shell', chance: 0.1, chance: 0.25 },
                 { id: 'sushigocrafting:wasabi_seeds', chance: 0.1 },
                 { id: 'sushigocrafting:soy_seeds', chance: 0.1 },
                 { id: 'sushigocrafting:sesame_seeds', chance: 0.1 },
-                { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 }
+                { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 },
+                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
             processingTime: 25,
             waterlogged: false,
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
-            id: `${id_prefix}sand_sifting_canvas`
+            id: `${id_prefix}sand_sifting_string_mesh`
+        },
+        {
+            input: { item: 'minecraft:sand' },
+            results: [
+                { id: 'minecraft:nautilus_shell', chance: 0.1, chance: 0.25 },
+                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
+            ],
+            mesh: { id: 'createsifter:andesite_mesh', count: 1 },
+            processingTime: 20,
+            waterlogged: false,
+            requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
+            id: `${id_prefix}sand_sifting_andesite_mesh`
         }
     ];
 

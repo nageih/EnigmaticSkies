@@ -196,8 +196,35 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: 'create:dough',
             replace_with: Ingredient.of(['#c:doughs/wheat'])
+        },
+        {
+            filter: [{ id: /modern_industrialization:.*item_pipe/ }],
+            to_replace: '#c:gears/steel',
+            replace_with: Ingredient.of(['#c:gears/copper'])
         }
     ];
+
+    const curved_plates = [
+        'aluminum',
+        'battery_alloy',
+        'blastproof_alloy',
+        'bronze',
+        'copper',
+        'gold',
+        'iridium',
+        'stainless_steel',
+        'steel',
+        'tin',
+        'titanium'
+    ];
+
+    curved_plates.forEach((material) => {
+        recipes.push({
+            filter: {},
+            to_replace: `modern_industrialization:${material}_curved_plate`,
+            replace_with: Ingredient.of([`#c:plates/${material}`])
+        });
+    });
 
     recipes.forEach((recipe) => {
         event.replaceInput(recipe.filter, recipe.to_replace, recipe.replace_with);

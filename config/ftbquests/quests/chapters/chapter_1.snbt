@@ -1561,8 +1561,8 @@
 				id: "51E7655F20B2B45A"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			id: "79895E6B2A5E8776"
@@ -1570,8 +1570,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 12.5d
-			y: 6.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1682,6 +1682,61 @@
 			}]
 			x: 10.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["7E2295CDDF92E34F"]
+			id: "198DB60553177E72"
+			tasks: [{
+				id: "0E87793274B7E04B"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E2295CDDF92E34F"]
+			id: "17489597E88E9992"
+			tasks: [{
+				id: "42AD5368FC6899EF"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["198DB60553177E72"]
+			id: "6712E4FE04BDD426"
+			tasks: [{
+				id: "2BD031595D92184C"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6712E4FE04BDD426"]
+			id: "5A92EF3C51F82669"
+			tasks: [{
+				id: "0EFDC5A1E361B403"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A92EF3C51F82669"]
+			id: "2BB91161DB6B6AF5"
+			tasks: [{
+				id: "75D46BE01172D9AB"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
 		}
 	]
 }

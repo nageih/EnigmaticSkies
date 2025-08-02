@@ -182,6 +182,14 @@ const villagerTrades = {
                 { id: 'minecraft:bricks', count: { min: 8, max: 8 } }
             ],
             level: 1
+        },
+        {
+            result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
+            ingredients: [
+                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
+                { id: 'pneumaticcraft:ingot_iron_compressed', count: { min: 1, max: 1 } }
+            ],
+            level: 1
         }
     ],
     'actuallyadditions:engineer': [

@@ -33,7 +33,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
-            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
+            { in: 'minecraft:magma_block', out: 'minecraft:netherrack' }
         ],
         // Flourishing
         'minecraft:mangrove_swamp': [

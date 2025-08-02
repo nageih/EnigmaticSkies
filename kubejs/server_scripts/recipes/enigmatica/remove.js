@@ -44,6 +44,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crushing/prismarine_crystals' },
         { id: 'create:crushing/gilded_blackstone' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
+        { id: 'create:crafting/kinetics/large_cogwheel' },
 
         // EnderIO
         { output: 'enderio:wood_gear' },
@@ -67,9 +68,9 @@ ServerEvents.recipes((event) => {
 
         // Modern Industrialization
         { type: 'modern_industrialization:forge_hammer' },
-        { output: 'modern_industrialization:fire_clay_dust' },
-        { output: 'modern_industrialization:fire_clay_brick' },
-        { output: 'modern_industrialization:fire_clay_bricks' },
+        { output: /modern_industrialization:fire_clay_(brick|dust)/ },
+        { type: 'minecraft:crafting_shaped', output: /modern_industrialization:.*_(gear|rotor)$/ },
+        { output: /modern_industrialization:.*_curved_plate$/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -88,6 +89,7 @@ ServerEvents.recipes((event) => {
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
+        { id: 'pneumaticcraft:reinforced_stone' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

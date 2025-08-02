@@ -25,6 +25,8 @@ StartupEvents.registry('item', (event) => {
         event.create(`emendatusenigmatica:${metal}_dust`).texture(`emendatusenigmatica:item/${metal}_dust`);
     });
 
+    event.create(`enigmatica:ruby`).texture(`enigmatica:item/ruby`);
+
     const IOU_slips = [
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },
