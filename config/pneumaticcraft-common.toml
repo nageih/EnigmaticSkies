@@ -12,7 +12,7 @@
 	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
 	# Default: 373
 	# Range: > 0
-	min_fluid_fuel_temperature = 373
+	min_fluid_fuel_temperature = 99999
 	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
 	use_up_dyes_when_coloring = false
 	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
@@ -50,7 +50,7 @@
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	# Default: 40
 	# Range: > 0
-	electric_compressor_efficiency = 40
+	electric_compressor_efficiency = 80
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	# Default: 100000
 	# Range: > 0
@@ -58,11 +58,11 @@
 	#The max height of an elevator per stacked Elevator Base block.
 	# Default: 6
 	# Range: 1 ~ 256
-	elevator_base_blocks_per_base = 6
+	elevator_base_blocks_per_base = 12
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	# Default: 40
 	# Range: > 0
-	flux_compressor_efficiency = 40
+	flux_compressor_efficiency = 80
 	#The amount to multiply the air production of the solar compressor by.
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -76,7 +76,7 @@
 	#The amount of air produced by using 100 MJ (Minecraft Joules) in the flux compressor
 	# Default: 40
 	# Range: > 0
-	kinetic_compressor_efficiency = 40
+	kinetic_compressor_efficiency = 80
 	#Can the Liquid Hopper absorb/dispense fluids into the world with a Dispenser Upgrade?
 	liquid_hopper_dispenser = true
 	#Can the Omnidirectional Hopper dispense items into the world with a Dispenser Upgrade?
@@ -98,19 +98,19 @@
 	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	# Default: 40
 	# Range: > 0
-	pneumatic_dynamo_efficiency = 40
+	pneumatic_dynamo_efficiency = 80
 	#The amount of MJ (Minecraft Joules) produced by using 100mL of air in the Pneumatic Dynamo
 	# Default: 40
 	# Range: > 0
-	pneumatic_engine_efficiency = 40
+	pneumatic_engine_efficiency = 80
 	#Changing this value will alter the pressurized air usage of the Pneumatic Generator. The output, EU, will stay the same.
 	# Default: 40
 	# Range: > 0
-	pneumatic_generator_efficiency = 40
+	pneumatic_generator_efficiency = 80
 	#Changing this value will alter the hydraulic bar production of the Pneumatic Pump. The input, air, will stay the same
 	# Default: 40
 	# Range: > 0
-	pneumatic_pump_efficiency = 40
+	pneumatic_pump_efficiency = 80
 	#Minimum pressure required for the Pressurized Spawner to run
 	# Default: 10.0
 	# Range: 1.0 ~ 20.0
@@ -118,11 +118,11 @@
 	#Speed multiplier per speed upgrade: speed mult = speedUpgradeSpeedMultiplier ^ num_of_speed_upgrades
 	# Default: 1.5
 	# Range: 1.0 ~ 2.0
-	speed_upgrade_speed_multiplier = 1.5
+	speed_upgrade_speed_multiplier = 1.5157165665104
 	#Fuel usage / heat gen multiplier per speed upgrade: usage mult = speedUpgradeUsageMultiplier ^ num_of_speed_upgrades
 	# Default: 1.649999976158142
 	# Range: 1.0 ~ 2.0
-	speed_upgrade_usage_multiplier = 1.649999976158142
+	speed_upgrade_usage_multiplier = 1.5499189875483
 	#Blacklist items from being allowed in the Pressure Chamber disenchanting system. You can use wildcarded matches here, e.g. 'tetra:*' matches all items from the Tetra mod. Blacklisted by default are Quark Ancient Tomes, and all Tetra items; both can lead to enchantment duping as they have special enchantment mechanics.
 	disenchanting_blacklist = ["quark:ancient_tome", "tetra:*"]
 	#ID's of dimensions in which the Aerial Interface is not allowed to operate. You can use wildcarded dimensions here, e.g. 'somemod:*'.

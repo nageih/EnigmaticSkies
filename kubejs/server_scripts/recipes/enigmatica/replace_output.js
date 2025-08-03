@@ -53,14 +53,7 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    const compressors = [
-        'pneumaticcraft:air_compressor',
-        'pneumaticcraft:liquid_compressor',
-        'pneumaticcraft:thermal_compressor',
-        'pneumaticcraft:flux_compressor',
-        'pneumaticcraft:electrostatic_compressor',
-        'pneumaticcraft:solar_compressor'
-    ];
+    const compressors = ['pneumaticcraft:thermal_compressor', 'pneumaticcraft:electrostatic_compressor'];
 
     compressors.forEach((compressor) => {
         let default_upgrades =

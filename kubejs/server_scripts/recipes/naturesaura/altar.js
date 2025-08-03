@@ -3,14 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { item: 'minecraft:calcite' },
-            output: { id: 'minecraft:nautilus_shell' },
-            catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 5000,
-            time: 1,
-            id: `${id_prefix}nautilus_shell`
-        },
-        {
             input: { item: 'ae2:sky_stone_block' },
             output: { id: 'naturesaura:infused_stone' },
             aura: 7500,

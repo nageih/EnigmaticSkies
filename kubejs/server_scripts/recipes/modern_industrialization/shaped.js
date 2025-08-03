@@ -1,7 +1,20 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:modern_industrialization/shaped/';
 
-    const recipes = [];
+    const recipes = [
+        {
+            output: `modern_industrialization:bronze_compressor`,
+            pattern: ['ABA', 'CDC', 'EEE'],
+            key: {
+                A: `#c:ingots/copper`,
+                B: `minecraft:piston`,
+                C: `#c:gears/copper`,
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}bronze_compressor`
+        }
+    ];
 
     const gears = [
         'aluminum',

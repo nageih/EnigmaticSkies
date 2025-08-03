@@ -201,6 +201,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: /modern_industrialization:.*item_pipe/ }],
             to_replace: '#c:gears/steel',
             replace_with: Ingredient.of(['#c:gears/copper'])
+        },
+        {
+            filter: {},
+            to_replace: `extended_industrialization:silver_curved_plate`,
+            replace_with: Ingredient.of([`#c:ingots/silver`])
         }
     ];
 
@@ -222,7 +227,28 @@ ServerEvents.recipes((event) => {
         recipes.push({
             filter: {},
             to_replace: `modern_industrialization:${material}_curved_plate`,
-            replace_with: Ingredient.of([`#c:plates/${material}`])
+            replace_with: Ingredient.of([`#c:ingots/${material}`])
+        });
+    });
+
+    const bolts = [
+        'aluminum',
+        'bronze',
+        'copper',
+        'gold',
+        'invar',
+        'iron',
+        'stainless_steel',
+        'steel',
+        'tin',
+        'titanium'
+    ];
+
+    bolts.forEach((material) => {
+        recipes.push({
+            filter: {},
+            to_replace: `modern_industrialization:${material}_bolt`,
+            replace_with: Ingredient.of([`#c:nuggets/${material}`])
         });
     });
 

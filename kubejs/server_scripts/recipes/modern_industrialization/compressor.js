@@ -5,8 +5,8 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: { item: 'minecraft:diamond', amount: 1 },
             item_inputs: { item: 'minecraft:coal_block', amount: 1 },
-            duration: 100,
-            eu: 4,
+            duration: 240,
+            eu: 2,
             id: 'modern_industrialization:vanilla_recipes/compressor/diamond_from_coal'
         },
         {

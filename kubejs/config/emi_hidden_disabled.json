@@ -3,7 +3,8 @@
         "hidden": [],
         "disabled": [
             "/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/",
-            "/modern_industrialization:.*_curved_plate$/",
+            "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
+            "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
             "actuallyadditions:rice",
             "actuallyadditions:rice_seeds",
             "sushigocrafting:rice",

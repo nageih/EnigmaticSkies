@@ -69,8 +69,13 @@ ServerEvents.recipes((event) => {
         // Modern Industrialization
         { type: 'modern_industrialization:forge_hammer' },
         { output: /modern_industrialization:fire_clay_(brick|dust)/ },
-        { type: 'minecraft:crafting_shaped', output: /modern_industrialization:.*_(gear|rotor)$/ },
-        { output: /modern_industrialization:.*_curved_plate$/ },
+        { type: 'minecraft:crafting_shaped', output: /modern_industrialization:.*_(gear|rotor|ring)$/ },
+        {
+            type: 'modern_industrialization:macerator',
+            input: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/
+        },
+        { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
+        { output: `modern_industrialization:bronze_compressor` },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -89,7 +94,9 @@ ServerEvents.recipes((event) => {
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
-        { id: 'pneumaticcraft:reinforced_stone' },
+        { type: 'pneumaticcraft:fuel_quality' },
+        { output: 'pneumaticcraft:reinforced_stone' },
+        { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
 
         // Supplementaries
         { id: 'supplementaries:statue' },
