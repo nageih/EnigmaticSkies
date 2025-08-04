@@ -1412,8 +1412,8 @@
 				item: { count: 1, id: "sushigocrafting:wasabi_seeds" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0ADEE22CBDE86E54"]
@@ -1552,8 +1552,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			id: "03D3C2661E7BCA1A"
@@ -1666,7 +1666,7 @@
 				item: { count: 1, id: "justdirethings:ferricore_ingot" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 6.5d
 		}
 		{
@@ -1680,8 +1680,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.5d
+			x: 11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7E2295CDDF92E34F"]
@@ -1737,6 +1737,24 @@
 			}]
 			x: 7.0d
 			y: 8.0d
+		}
+		{
+			id: "352FE6BFD8AB7023"
+			tasks: [{
+				id: "78CB052047F0AC64"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			id: "08DF4DF1B5FEAF10"
+			tasks: [{
+				id: "3AA02F5C513F90A9"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 1.0d
 		}
 	]
 }

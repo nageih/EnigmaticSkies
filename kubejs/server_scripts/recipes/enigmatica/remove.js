@@ -92,11 +92,20 @@ ServerEvents.recipes((event) => {
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
 
+        // Oritech
+        { id: 'oritech:crafting/alloy/steel' },
+        { id: 'oritech:compat/enderio/alloy/steel' },
+        { id: 'oritech:mixing/compat/create/steel' },
+        { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
+
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
+
+        // Replication
+        // { type: 'replication:matter_value' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

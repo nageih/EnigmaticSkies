@@ -198,6 +198,16 @@ const villagerTrades = {
             ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
             level: 1
         }
+    ],
+    'modern_industrialization:industrialist': [
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:analog_circuit"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 24, max: 32 } }],
+            level: 1
+        }
     ]
 };
 
