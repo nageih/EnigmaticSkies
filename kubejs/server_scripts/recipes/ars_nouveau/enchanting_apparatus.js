@@ -4,7 +4,6 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             result: { id: 'ars_nouveau:sourceberry_bush', count: 1 },
-
             pedestalItems: [
                 { tag: 'c:gems/source' },
                 { tag: 'c:gems/source' },
@@ -18,7 +17,6 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'aether:berry_bush_stem', count: 1 },
-
             pedestalItems: [
                 { item: 'aether:blue_aercloud' },
                 { item: 'aether:blue_aercloud' },
@@ -32,7 +30,6 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'ars_nouveau:wixie_charm', count: 1 },
-
             pedestalItems: [
                 { item: 'minecraft:brewing_stand' },
                 { item: 'arsdelight:source_berry_pie_slice' },
@@ -46,7 +43,6 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'ars_nouveau:starbuncle_charm', count: 1 },
-
             pedestalItems: [
                 { item: 'minecraft:golden_carrot' },
                 { tag: 'c:nuggets/gold' },

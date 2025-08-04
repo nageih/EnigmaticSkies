@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:the_void' }],
             processingTime: 25,
             waterlogged: false,
-            id: `${id_prefix}cold_aercloud_sifting_string_mesh`
+            id: `${id_prefix}void_cold_aercloud_sifting_string_mesh`
         },
         {
             input: { item: 'aether:cold_aercloud' },
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             processingTime: 20,
             waterlogged: false,
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:the_void' }],
-            id: `${id_prefix}cold_aercloud_sifting_andesite`
+            id: `${id_prefix}void_cold_aercloud_sifting_andesite`
         },
         {
             input: { item: 'aether:golden_aercloud' },
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
             waterlogged: false,
             advancedSifter: true,
             requirements: [{ type: 'mechanicals:biome', value: 'ars_nouveau:archwood_forest' }],
-            id: `${id_prefix}golden_aercloud_sifting_brass_mesh`
+            id: `${id_prefix}forest_golden_aercloud_sifting_brass_mesh`
         },
         {
             input: { item: 'minecraft:sand' },
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
             processingTime: 25,
             waterlogged: false,
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
-            id: `${id_prefix}sand_sifting_string_mesh`
+            id: `${id_prefix}ocean_sand_sifting_string_mesh`
         },
         {
             input: { item: 'minecraft:sand' },
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
             processingTime: 20,
             waterlogged: false,
             requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
-            id: `${id_prefix}sand_sifting_andesite_mesh`
+            id: `${id_prefix}ocean_sand_sifting_andesite_mesh`
         }
     ];
 
