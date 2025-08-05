@@ -1211,8 +1211,8 @@
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 14.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1222,8 +1222,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.0d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			id: "14D946E0F94255AD"
@@ -1307,8 +1307,8 @@
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6534548E8A6A318C"]
@@ -1353,8 +1353,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 2.0d
+			x: 14.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0E28517BADA72E7D"]
@@ -1430,8 +1430,8 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.0d
+			x: 14.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -1535,8 +1535,8 @@
 				id: "51E7655F20B2B45A"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			id: "79895E6B2A5E8776"
@@ -1544,8 +1544,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1718,8 +1718,8 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 15.0d
+			y: 5.5d
 		}
 		{
 			id: "08DF4DF1B5FEAF10"
@@ -1729,6 +1729,15 @@
 			}]
 			x: 16.5d
 			y: 1.0d
+		}
+		{
+			id: "6E2B56F277B80477"
+			tasks: [{
+				id: "545F39B6325986CA"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 7.0d
 		}
 	]
 }

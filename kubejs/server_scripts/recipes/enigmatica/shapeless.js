@@ -103,11 +103,6 @@ ServerEvents.recipes((event) => {
             output: 'enigmatica:bun_believable_burger',
             inputs: ['farmersdelight:hamburger', 'farmersdelight:stuffed_potato'],
             id: `${id_prefix}bun_believable_burger`
-        },
-        {
-            output: 'enigmatica:sheep_eatin_green',
-            inputs: ['farmersdelight:mutton_wrap', 'farmersdelight:mixed_salad'],
-            id: `${id_prefix}sheep_eatin_green`
         }
     ];
 

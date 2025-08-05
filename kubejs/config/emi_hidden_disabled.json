@@ -14,7 +14,9 @@
             "geneticsresequenced:coal_generator",
             "modern_industrialization:fire_clay_brick",
             "modern_industrialization:fire_clay_dust",
-            "actuallyadditions:vertical_digger"
+            "actuallyadditions:vertical_digger",
+            "enderio:stirling_generator",
+            "industrialforegoing:pitiful_generator"
         ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"

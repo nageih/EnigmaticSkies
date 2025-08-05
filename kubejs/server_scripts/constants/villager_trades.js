@@ -6,44 +6,20 @@ const villagerTrades = {
     'minecraft:farmer': [
         // Need new 1-2 trades. These resources are on the lush island now.
 
-        // {
-        //     result: { id: 'minecraft:potato', count: 1 },
-        //     ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
-        //     level: 1,
-        //     maxUses: 2
-        // },
-        // {
-        //     result: { id: 'minecraft:carrot', count: 1 },
-        //     ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
-        //     level: 1,
-        //     maxUses: 2
-        // },
-        // {
-        //     result: { id: 'farmersdelight:onion', count: 1 },
-        //     ingredients: [{ id: 'minecraft:baked_potato', count: { min: 12, max: 16 } }],
-        //     level: 2,
-        //     maxUses: 2
-        // },
-        // {
-        //     result: { id: 'farmersdelight:rice', count: 1 },
-        //     ingredients: [{ id: 'minecraft:baked_potato', count: { min: 12, max: 16 } }],
-        //     level: 2,
-        //     maxUses: 2
-        // },
         {
             result: { id: 'farmersdelight:organic_compost', count: 2 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
-            level: 3
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
         },
         {
             result: { id: 'actuallyadditions:worm', count: 8 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
-            level: 3
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
         },
         {
             result: { id: 'actuallyadditions:coffee_beans', count: 1 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
-            level: 4,
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
+            level: 2,
             maxUses: 2
         }
     ],

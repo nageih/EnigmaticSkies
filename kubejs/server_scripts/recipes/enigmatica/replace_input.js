@@ -110,11 +110,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
-            filter: [{ output: 'farmersdelight:skillet' }, { output: 'farmersdelight:cooking_pot' }],
-            to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/copper'])
-        },
-        {
             filter: [{ mod: 'farmersdelight' }],
             to_replace: 'minecraft:wooden_shovel',
             replace_with: Ingredient.of(['aether:skyroot_shovel', 'minecraft:wooden_shovel'])

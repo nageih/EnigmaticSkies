@@ -3,32 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'ars_nouveau:sourceberry_bush', count: 1 },
-            pedestalItems: [
-                { tag: 'c:gems/source' },
-                { tag: 'c:gems/source' },
-                { tag: 'c:gems/source' },
-                { tag: 'c:gems/source' }
-            ],
-            reagent: { tag: 'c:foods/berry' },
-            keepNbtOfReagent: false,
-            sourceCost: 0,
-            id: `${id_prefix}sourceberry_bush`
-        },
-        {
-            result: { id: 'aether:berry_bush_stem', count: 1 },
-            pedestalItems: [
-                { item: 'aether:blue_aercloud' },
-                { item: 'aether:blue_aercloud' },
-                { item: 'aether:blue_aercloud' },
-                { item: 'aether:blue_aercloud' }
-            ],
-            reagent: { tag: 'c:foods/berry' },
-            keepNbtOfReagent: false,
-            sourceCost: 0,
-            id: `${id_prefix}berry_bush_stem`
-        },
-        {
             result: { id: 'ars_nouveau:wixie_charm', count: 1 },
             pedestalItems: [
                 { item: 'minecraft:brewing_stand' },
