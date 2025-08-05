@@ -33,6 +33,8 @@ ServerEvents.tags('item', (event) => {
         blazing_quartz: ['malum:blazing_quartz'],
         mnemonic_fragment: ['malum:mnemonic_fragment'],
 
+        ambrosium: ['aether:ambrosium_shard'],
+
         ruby: ['enigmatica:ruby']
     };
 

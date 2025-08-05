@@ -20,6 +20,7 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
+	chapter.635514FCF83ACCBF.title: "Villagers"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
@@ -633,6 +634,7 @@
 		""
 		"Feed them a Gysahl Cake to instantly grow them to adults!"
 	]
+	quest.10A19420BCC6991C.title: "Shady Wizard"
 	quest.11EDFB60C787114D.quest_desc: [
 		"Goo is used to transform other materials, and thus obtain all of the tiered crafting materials used in this mod. "
 		""
@@ -1485,6 +1487,7 @@
 		"&a    Identification Chamber through"
 		"&a    the bottom."
 	]
+	quest.271AC925824B553E.title: "Industrialist"
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -1922,7 +1925,7 @@
 	quest.34FB10F0A2504973.quest_desc: [
 		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
 		""
-		"Start by making a Composter and grabbing some Potatoes and any other resources you can afford. "
+		"Start by making a Loom and purchasing a tablet to summon a Lush Garden and an IOU for a Flying Cow. "
 		""
 		"Villagers need a steady diet of good foods to do their best work, so get those taters in the ground!"
 	]
@@ -1995,6 +1998,7 @@
 		""
 		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
+	quest.35FDFEDE5CAC0303.title: "Farmer"
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -3056,13 +3060,6 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
-	quest.4A12DC6BB0CB7F59.quest_desc: [
-		"What is a Shepherd without a herd? "
-		""
-		"This Villager can help you get started on Animal Husbandry. Purchase a Tablet of Conjure Island: Animals from it and summon it nearby. This island comes equipped with some special tools to allow you to summon animals. "
-		""
-		"Drop an IOU by the structure on the island to summon animals!"
-	]
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A80ADB324E4A6CA.quest_desc: [
 		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
@@ -3168,6 +3165,7 @@
 		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
+	quest.4C8FBFE52DD15C71.title: "Shepherd"
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
@@ -3838,6 +3836,7 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
 		""
@@ -4791,6 +4790,7 @@
 		"[\"The mod comes with a book, however you can also access all pertinent information on their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://evilcraft.rubensworks.net/book/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
+	quest.71E753FE9B4E1707.title: "Mason"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
 		""

@@ -25,6 +25,7 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
+        { type: 'ars_nouveau:ritual_brazier' },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },

@@ -905,7 +905,7 @@
 				}
 			]
 			x: 6.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1834C84EFA232977"]
@@ -919,20 +919,25 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["33D3FD6791A9087A"]
+			dependencies: ["798D16C2A0D071FF"]
 			icon: {
-				id: "minecraft:composter"
+				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"
-					item: { count: 1, id: "minecraft:composter" }
+					item: { count: 1, id: "minecraft:loom" }
 					type: "item"
 				}
 				{
-					id: "3AE3BFCE38F96207"
-					item: { count: 1, id: "minecraft:potato" }
+					id: "4E754D9523EB5521"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
+					type: "item"
+				}
+				{
+					id: "22C336C45AFA0F21"
+					item: { count: 1, id: "enigmatica:flying_cow_iou" }
 					type: "item"
 				}
 			]
@@ -940,7 +945,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["34FB10F0A2504973"]
+			dependencies: ["33D3FD6791A9087A"]
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -962,39 +967,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2F1EA0B091C700E1"]
-			icon: {
-				id: "minecraft:loom"
-			}
-			id: "4A12DC6BB0CB7F59"
-			tasks: [
-				{
-					id: "2474572906897CFA"
-					item: { count: 1, id: "minecraft:loom" }
-					type: "item"
-				}
-				{
-					id: "5404831FDBDFD2F4"
-					item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
-					type: "item"
-				}
-				{
-					id: "4AC1F4B17B82A4AC"
-					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
-					type: "item"
-				}
-				{
-					id: "182F13A34DA8D2F3"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(enigmatica:iou)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 0.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -1019,7 +993,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["714379744B3CF395"]
+			dependencies: ["2F1EA0B091C700E1"]
 			id: "798D16C2A0D071FF"
 			tasks: [
 				{
@@ -1033,11 +1007,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["714379744B3CF395"]
+			dependencies: ["34FB10F0A2504973"]
 			id: "7989524CA113403E"
 			tasks: [
 				{
@@ -1054,8 +1028,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -1.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]

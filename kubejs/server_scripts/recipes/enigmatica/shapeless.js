@@ -84,73 +84,30 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}poutine`
         },
 
-        // Villager Snacks and Meals
-        // Outputs are placeholders until better items can be made.
+        // Villager Meals
         {
-            output: Item.of(
-                `minecraft:paper[custom_name='{"color":"dark_aqua","italic":true,"text":"CloudDash Delivery: Hearty Breakfast"}']`
-            ),
+            output: 'enigmatica:bottomless_breadsticks',
             inputs: [
-                'supplementaries:pancake',
-                'supplementaries:pancake',
-                'supplementaries:pancake',
-                'farmersdelight:bacon_and_eggs',
-                'actuallyadditions:coffee_cup',
-                '#farmersdelight:drinks'
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread'
             ],
-            id: `${id_prefix}hearty_breakfast`
+            id: `${id_prefix}bottomless_breadsticks`
         },
         {
-            output: Item.of(
-                `minecraft:paper[custom_name='{"color":"dark_aqua","italic":true,"text":"CloudDash Delivery: Kickin Wixies Poutine"}']`
-            ),
-            inputs: ['enigmatica:poutine', 'farmersdelight:glow_berry_custard', 'arsdelight:source_berry_tea'],
-            id: `${id_prefix}kickin_wixies_poutine`
+            output: 'enigmatica:bun_believable_burger',
+            inputs: ['farmersdelight:hamburger', 'farmersdelight:stuffed_potato'],
+            id: `${id_prefix}bun_believable_burger`
         },
         {
-            output: Item.of(
-                `minecraft:paper[custom_name='{"color":"dark_aqua","italic":true,"text":"CloudDash Delivery: Soup and Sandwich Combo"}']`
-            ),
-            inputs: [
-                Ingredient.of([
-                    'farmersdelight:mutton_wrap',
-                    'farmersdelight:hamburger',
-                    'farmersdelight:egg_sandwich',
-                    'farmersdelight:chicken_sandwich',
-                    'farmersdelight:bacon_sandwich'
-                ]),
-                Ingredient.of([
-                    'farmersdelight:chicken_soup',
-                    'farmersdelight:beef_stew',
-                    'farmersdelight:noodle_soup',
-                    'farmersdelight:baked_cod_stew',
-                    'farmersdelight:pumpkin_soup',
-                    'farmersdelight:fish_stew',
-                    'minecraft:rabbit_stew',
-                    'farmersdelight:vegetable_soup'
-                ]),
-                '#farmersdelight:drinks'
-            ],
-            id: `${id_prefix}soup_and_sandwich`
-        },
-        {
-            output: Item.of(
-                `minecraft:paper[custom_name='{"color":"dark_aqua","italic":true,"text":"CloudDash Delivery: Dumpling Drop"}']`
-            ),
-            inputs: [
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings',
-                'farmersdelight:noodle_soup',
-                'farmersdelight:fried_rice',
-                Ingredient.of([
-                    'arsdelight:mendosteen_tea',
-                    'arsdelight:frostaya_tea',
-                    'arsdelight:bombegrante_tea',
-                    'arsdelight:bastion_tea'
-                ]),
-                'farmersdelight:glow_berry_custard'
-            ],
-            id: `${id_prefix}dumpling_drop`
+            output: 'enigmatica:sheep_eatin_green',
+            inputs: ['farmersdelight:mutton_wrap', 'farmersdelight:mixed_salad'],
+            id: `${id_prefix}sheep_eatin_green`
         }
     ];
 

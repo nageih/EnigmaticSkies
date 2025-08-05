@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villagers"
+	group: "46AB9129BBE517B6"
+	icon: {
+		components: {
+			"ftbquests:icon": "industrialforegoing:block/villager_trade_exchanger_front"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "635514FCF83ACCBF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "35FDFEDE5CAC0303"
+			tasks: [{
+				id: "23FA402C34BB5484"
+				item: { count: 1, id: "minecraft:composter" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			id: "1E062EE0795CBFBD"
+			tasks: [{
+				id: "6B995E3A2F0FFE0B"
+				item: { count: 1, id: "enigmatica:bottomless_breadsticks" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0868EC9F7D810FB7"]
+			id: "73A31E04FF14AE0C"
+			tasks: [{
+				id: "4A6B7EAADAB9D687"
+				item: { count: 1, id: "actuallyadditions:coffee_beans" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "5D8073141AD2D279"
+			tasks: [{
+				id: "1A955A455323B150"
+				item: { count: 1, id: "actuallyadditions:coffee_machine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35FDFEDE5CAC0303"]
+			id: "0868EC9F7D810FB7"
+			tasks: [{
+				id: "195554B301414F47"
+				item: { count: 1, id: "enigmatica:bun_believable_burger" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			id: "271AC925824B553E"
+			tasks: [{
+				id: "3C2263E5402500FC"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "71E753FE9B4E1707"
+			tasks: [{
+				id: "5BB1DB46CF945C19"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "10A19420BCC6991C"
+			tasks: [{
+				id: "0E5D87E444A49B12"
+				item: { count: 1, id: "ars_nouveau:arcane_core" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "441988CA66CFE607"
+			tasks: [{
+				id: "4ECCDA8333FB137D"
+				item: { count: 1, id: "minecraft:barrel" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["441988CA66CFE607"]
+			id: "519913D2F8F13FFC"
+			tasks: [{
+				id: "677AAC2F20B9FE77"
+				item: { count: 1, id: "farmersdelight:barbecue_stick" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2440CF61FF48707B"]
+			id: "73085231FDDD073B"
+			tasks: [{
+				id: "46BB39B350842C67"
+				item: { count: 1, id: "aquaculture:goldfish" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			id: "4C8FBFE52DD15C71"
+			tasks: [{
+				id: "4F5B48B296E562FA"
+				item: { count: 1, id: "minecraft:loom" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4C8FBFE52DD15C71"
+				"01CAB4EBBF5E199A"
+				"001D18A33034A4C3"
+			]
+			id: "214DC08DA04BE544"
+			tasks: [{
+				id: "00E62CED7E10B1B1"
+				item: { count: 1, id: "enigmatica:bottomless_breadsticks" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			id: "001D18A33034A4C3"
+			tasks: [{
+				id: "13CB568297368C2E"
+				item: { count: 1, id: "aether:golden_amber" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["214DC08DA04BE544"]
+			id: "520ED4C743C597AE"
+			tasks: [{
+				id: "4A32225C0C85FD9F"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["214DC08DA04BE544"]
+			id: "3BA7C01D72CA9CCB"
+			tasks: [{
+				id: "0B04E2295CF368CA"
+				item: { count: 1, id: "enigmatica:flying_cow_iou" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C8FBFE52DD15C71"]
+			id: "6929C5B3C175A8CE"
+			tasks: [{
+				id: "14E4B98CE15B9876"
+				item: { count: 1, id: "enigmatica:bun_believable_burger" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6929C5B3C175A8CE"]
+			id: "61709C25431B7AFB"
+			tasks: [{
+				id: "357E1615A4C31D07"
+				item: { count: 1, id: "enigmatica:phyg_iou" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6929C5B3C175A8CE"]
+			id: "299BEFFD483C2F09"
+			tasks: [{
+				id: "1C6720E9BDD2E706"
+				item: { count: 1, id: "enigmatica:sheepuff_iou" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6929C5B3C175A8CE"]
+			id: "57A18CC9E0404C4F"
+			tasks: [{
+				id: "04EEAED62A06C032"
+				item: { count: 1, id: "enigmatica:aerbunny_iou" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6929C5B3C175A8CE"]
+			id: "6F39F64AFA01B006"
+			tasks: [{
+				id: "78AAB0C12A2D460C"
+				item: { count: 1, id: "enigmatica:moa_iou" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["519913D2F8F13FFC"]
+			id: "6A636AD638A4AB41"
+			tasks: [{
+				id: "50E663E65897A8FC"
+				item: { count: 1, id: "aquaculture:jellyfish" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["519913D2F8F13FFC"]
+			id: "5E1A163A3FA11236"
+			tasks: [{
+				id: "35BE94F724EDB552"
+				item: { count: 1, id: "aquaculture:red_shrooma" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["519913D2F8F13FFC"]
+			id: "25170A6B33E0273C"
+			tasks: [{
+				id: "64DD360DE7192CAA"
+				item: { count: 1, id: "aquaculture:brown_shrooma" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			id: "01CAB4EBBF5E199A"
+			tasks: [{
+				id: "224AA2FFCC99CCBF"
+				item: { count: 1, id: "aether:cold_aercloud" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"441988CA66CFE607"
+				"01CAB4EBBF5E199A"
+			]
+			id: "2440CF61FF48707B"
+			tasks: [{
+				id: "375A90FB2767E239"
+				item: { count: 1, id: "enigmatica:bottomless_breadsticks" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+	]
+}

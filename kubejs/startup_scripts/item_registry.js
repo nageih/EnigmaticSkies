@@ -27,6 +27,25 @@ StartupEvents.registry('item', (event) => {
 
     event.create(`enigmatica:ruby`).texture(`enigmatica:item/ruby`);
 
+    const delivery_bags = [
+        { name: `Dumpling Drop` },
+        { name: `Great Eggspectations` },
+        { name: `Supa Soup` },
+        { name: `La Drygmese Poutine`, magic: true },
+        { name: `Bottomless Breadsticks` },
+        { name: `Bun-Believable Burger` },
+        { name: `Sheep-Eatin' Green` }
+    ];
+
+    delivery_bags.forEach((bag) => {
+        let id = bag.name.toLowerCase().replace(/[^a-z]+/g, '_');
+        event
+            .create(`enigmatica:${id}`)
+            .texture(`enigmatica:item/delivery_bags/${id}`)
+            .displayName(`§6CloudDash:§r ${bag.magic ? `§d${bag.name}` : `${bag.name}`}`)
+            .tag('enigmatica:deliveries');
+    });
+
     const IOU_slips = [
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },

@@ -2,31 +2,34 @@
 
 // Villagers have 2 trade slots per level and 5 total levels.
 const villagerTrades = {
+    // Composter
     'minecraft:farmer': [
-        {
-            result: { id: 'minecraft:potato', count: 1 },
-            ingredients: [{ id: 'minecraft:bread', count: { min: 8, max: 8 } }],
-            level: 1,
-            maxUses: 2
-        },
-        {
-            result: { id: 'minecraft:carrot', count: 1 },
-            ingredients: [{ id: 'minecraft:bread', count: { min: 8, max: 8 } }],
-            level: 1,
-            maxUses: 2
-        },
-        {
-            result: { id: 'farmersdelight:onion', count: 1 },
-            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
-            level: 2,
-            maxUses: 2
-        },
-        {
-            result: { id: 'farmersdelight:rice', count: 1 },
-            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
-            level: 2,
-            maxUses: 2
-        },
+        // Need new 1-2 trades. These resources are on the lush island now.
+
+        // {
+        //     result: { id: 'minecraft:potato', count: 1 },
+        //     ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
+        //     level: 1,
+        //     maxUses: 2
+        // },
+        // {
+        //     result: { id: 'minecraft:carrot', count: 1 },
+        //     ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
+        //     level: 1,
+        //     maxUses: 2
+        // },
+        // {
+        //     result: { id: 'farmersdelight:onion', count: 1 },
+        //     ingredients: [{ id: 'minecraft:baked_potato', count: { min: 12, max: 16 } }],
+        //     level: 2,
+        //     maxUses: 2
+        // },
+        // {
+        //     result: { id: 'farmersdelight:rice', count: 1 },
+        //     ingredients: [{ id: 'minecraft:baked_potato', count: { min: 12, max: 16 } }],
+        //     level: 2,
+        //     maxUses: 2
+        // },
         {
             result: { id: 'farmersdelight:organic_compost', count: 2 },
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
@@ -39,100 +42,118 @@ const villagerTrades = {
         },
         {
             result: { id: 'actuallyadditions:coffee_beans', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 4,
             maxUses: 2
         }
     ],
+    // Barrel
     'minecraft:fisherman': [
         {
-            result: { id: 'aquaculture:goldfish', count: 9 },
-            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 2, max: 4 } }],
+            result: { id: 'aquaculture:goldfish', count: 4 },
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
-            result: { id: 'aquaculture:jellyfish', count: 9 },
-            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 2, max: 4 } }],
+            result: { id: 'aquaculture:jellyfish', count: 1 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
-            result: { id: 'aquaculture:red_shrooma', count: 9 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            result: { id: 'aquaculture:red_shrooma', count: 4 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
-            result: { id: 'aquaculture:brown_shrooma', count: 9 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            result: { id: 'aquaculture:brown_shrooma', count: 4 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
-            result: { id: 'minecraft:cod', count: 9 },
+            result: { id: 'minecraft:cod', count: 4 },
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
             level: 3
         },
         {
-            result: { id: 'minecraft:salmon', count: 9 },
+            result: { id: 'minecraft:salmon', count: 4 },
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
             level: 3
         },
         {
-            result: { id: 'minecraft:pufferfish', count: 9 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            result: { id: 'minecraft:pufferfish', count: 4 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
-            result: { id: 'sushigocrafting:raw_tuna', count: 9 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            result: { id: 'sushigocrafting:raw_tuna', count: 4 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
             result: { id: 'sushigocrafting:shrimp[sushigocrafting:amount=100]', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 4
         }
         // level 5 is all aquaculture fish
     ],
+    // Loom
     'minecraft:shepherd': [
         {
             result: { id: 'ars_caelum:ritual_conjure_island_starter', count: 1 },
             ingredients: [
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } },
-                { id: 'minecraft:bread', count: { min: 8, max: 8 } }
+                { id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
             ],
             level: 1,
             maxUses: 1
         },
         {
             result: { id: 'enigmatica:flying_cow_iou', count: 1 },
-            ingredients: [{ id: 'minecraft:baked_potato', count: { min: 8, max: 8 } }],
+            ingredients: [
+                { id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
+            ],
             level: 1,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:sheepuff_iou', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            ingredients: [
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
+            ],
             level: 2,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:phyg_iou', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            ingredients: [
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
+            ],
             level: 2,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:moa_iou', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            ingredients: [
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
+            ],
             level: 3,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:aerbunny_iou', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 8, max: 8 } }],
+            ingredients: [
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
+                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
+            ],
             level: 3,
             maxUses: 4
         }
     ],
+    // Arcane Core
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
@@ -174,6 +195,7 @@ const villagerTrades = {
             level: 5
         }
     ],
+    // Stonecutter
     'minecraft:mason': [
         {
             result: { id: 'modern_industrialization:fire_clay_bricks', count: 4 },
@@ -192,6 +214,7 @@ const villagerTrades = {
             level: 1
         }
     ],
+    // Coffee Maker
     'actuallyadditions:engineer': [
         {
             result: { id: 'actuallyadditions:basic_coil', count: 1 },
@@ -199,6 +222,7 @@ const villagerTrades = {
             level: 1
         }
     ],
+    // Forge Hammer
     'modern_industrialization:industrialist': [
         {
             result: {
@@ -241,7 +265,7 @@ const aquacultureFish = [
 
 aquacultureFish.forEach((fish) => {
     villagerTrades['minecraft:fisherman'].push({
-        result: { id: fish, count: 9 },
+        result: { id: fish, count: 4 },
         ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
         level: 5
     });
