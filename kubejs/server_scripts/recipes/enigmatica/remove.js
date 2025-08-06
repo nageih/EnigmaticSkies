@@ -127,6 +127,7 @@ ServerEvents.recipes((event) => {
         { output: 'utilitarian:drit' },
         { output: 'utilitarian:grrass' },
         { id: 'utilitarian:utility/green_dye' },
+        { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals
         { input: '#c:ores' },

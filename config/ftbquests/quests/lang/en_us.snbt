@@ -1766,9 +1766,11 @@
 	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F1EA0B091C700E1.quest_desc: [
-		"Fishermen can get you a steady supply of certain fish for a price. "
+		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
 		""
-		"Goldfish can be processed down for actual real Gold! "
+		"Start by making a Barrel to get a Fisherman Villager. Grab yourself some Goldfish and start processing them to get some Gold for a Ritual Brazier. "
+		""
+		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
 	]
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
@@ -1923,11 +1925,22 @@
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
-		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
+		"Next, make yourself a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
+		"&n                                                  &r"
 		""
-		"Start by making a Loom and purchasing a tablet to summon a Lush Garden and an IOU for a Flying Cow. "
+		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
 		""
-		"Villagers need a steady diet of good foods to do their best work, so get those taters in the ground!"
+		"This island is a good example, as it contains several necessary plants and a structure you'll need to proceed. "
+		""
+		"Use the provided Angel Block and Flying Potion to fly away from your main island a little ways. About thirty blocks is sufficient. The Angel Block may be placed in the air and will let you place the Ritual Brazier on top. "
+		""
+		"Right-Click the Brazier with the Tablet, then once more with an empty hand to start the ritual."
+		""
+		"&6⚠ Note"
+		"&6  If important blocks are missing, simply"
+		"&6  clear whatever blocked them and run"
+		"&6  the ritual again in the same spot to "
+		"&6  refresh the island."
 	]
 	quest.34FFE863EB846035.quest_desc: [
 		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
@@ -5170,6 +5183,11 @@
 		"The Creational Catalyst removes this limit. "
 		""
 		"Simply place it beneath the Generator block to unlock its full potential."
+	]
+	quest.798D16C2A0D071FF.quest_desc: [
+		"The first few Gold Ingots you make should probably go towards making a Ritual Brazier. "
+		""
+		"In addition to the normal Rituals that you start with this device, it will also allow you to summon special islands which will unlock access to new resources. "
 	]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."

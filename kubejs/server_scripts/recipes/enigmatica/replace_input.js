@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ id: `ars_nouveau:imbuement_chamber` }],
             to_replace: 'ars_nouveau:archwood_planks',
-            replace_with: Ingredient.of(['aether:skyroot_planks'])
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
             filter: [{ mod: `elevatorid` }],

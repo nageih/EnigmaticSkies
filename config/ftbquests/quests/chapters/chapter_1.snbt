@@ -924,6 +924,29 @@
 				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
+			rewards: [
+				{
+					id: "7FE4D93A8C0C982C"
+					item: {
+						count: 1
+						id: "utilitarian:angel_block"
+					}
+					type: "item"
+				}
+				{
+					id: "64A61E3734CF766A"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:long_flying"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"
@@ -961,11 +984,6 @@
 					item: { count: 1, id: "aquaculture:goldfish" }
 					type: "item"
 				}
-				{
-					id: "3D1B646F65A9EDC4"
-					item: { count: 1, id: "minecraft:salmon" }
-					type: "item"
-				}
 			]
 			x: -1.5d
 			y: -2.0d
@@ -994,6 +1012,9 @@
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
+			icon: {
+				id: "createsifter:raw_gold_piece"
+			}
 			id: "798D16C2A0D071FF"
 			tasks: [
 				{
@@ -1006,12 +1027,20 @@
 					item: { count: 1, id: "createsifter:raw_gold_piece" }
 					type: "item"
 				}
+				{
+					id: "536CE85CAF8E8343"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
 			]
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
+			icon: {
+				id: "createsifter:raw_iron_piece"
+			}
 			id: "7989524CA113403E"
 			tasks: [
 				{
@@ -1150,8 +1179,8 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1335,7 +1364,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
@@ -1508,8 +1537,8 @@
 				id: "3344B81CFADAC8FB"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			id: "6BF91623C7C278AB"
@@ -1517,8 +1546,8 @@
 				id: "3829B9508E55605E"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			id: "7CF12A36B30AE7D7"
@@ -1544,8 +1573,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1631,7 +1660,7 @@
 				}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			id: "62B97D0DA2AB3BBE"
@@ -1665,8 +1694,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7E2295CDDF92E34F"]
@@ -1676,8 +1705,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["198DB60553177E72"]
@@ -1687,8 +1716,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6712E4FE04BDD426"]
@@ -1709,8 +1738,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.0d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
 			id: "352FE6BFD8AB7023"

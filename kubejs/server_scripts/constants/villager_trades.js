@@ -4,8 +4,6 @@
 const villagerTrades = {
     // Composter
     'minecraft:farmer': [
-        // Need new 1-2 trades. These resources are on the lush island now.
-
         {
             result: { id: 'farmersdelight:organic_compost', count: 2 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
@@ -15,12 +13,6 @@ const villagerTrades = {
             result: { id: 'actuallyadditions:worm', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
-        },
-        {
-            result: { id: 'actuallyadditions:coffee_beans', count: 1 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
-            level: 2,
-            maxUses: 2
         }
     ],
     // Barrel
@@ -206,6 +198,17 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 24, max: 32 } }],
+            level: 1
+        }
+    ],
+    // Brewing Stand
+    'minecraft:cleric': [
+        {
+            result: { id: 'utilitarian:angel_block', count: 1 },
+            ingredients: [
+                { id: 'farmersdelight:dumplings', count: { min: 2, max: 4 } },
+                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
+            ],
             level: 1
         }
     ]

@@ -19,14 +19,14 @@ ServerEvents.recipes((event) => {
         {
             input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:earth_essence', count: 1 },
-            pedestalItems: [{ tag: 'c:clay' }, { tag: 'c:crops/potato' }],
+            pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
             source: 2000,
             id: `${id_prefix}earth_essence`
         },
         {
             input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:earth_essence', count: 4 },
-            pedestalItems: [{ tag: 'c:clay' }, { tag: 'c:crops/potato' }],
+            pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
             source: 6000,
             id: `${id_prefix}earth_essence_from_block`
         },
@@ -109,6 +109,43 @@ ServerEvents.recipes((event) => {
             pedestalItems: [],
             source: 500 * 3,
             id: `ars_nouveau:amethyst_block`
+        },
+
+        // Glyph removal fixes
+        {
+            input: { tag: 'c:gems/quartz' },
+            output: { id: 'ars_elemental:acceleration_prism_lens', count: 1 },
+            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:powered_rail' }],
+            source: 2000,
+            id: 'ars_elemental:acceleration_prism_lens'
+        },
+        {
+            input: { tag: 'c:gems/quartz' },
+            output: { id: 'ars_elemental:deceleration_prism_lens', count: 1 },
+            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:cobweb' }],
+            source: 2000,
+            id: 'ars_elemental:deceleration_prism_lens'
+        },
+        {
+            input: { tag: 'c:gems/quartz' },
+            output: { id: 'ars_elemental:arc_prism_lens', count: 1 },
+            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_pearl' }],
+            source: 2000,
+            id: 'ars_elemental:arc_prism_lens'
+        },
+        {
+            input: { tag: 'c:gems/quartz' },
+            output: { id: 'ars_elemental:homing_prism_lens', count: 1 },
+            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_eye' }],
+            source: 2000,
+            id: 'ars_elemental:homing_prism_lens'
+        },
+        {
+            input: { tag: 'c:gems/quartz' },
+            output: { id: 'ars_elemental:piercing_prism_lens', count: 1 },
+            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'ars_nouveau:wilden_spike' }],
+            source: 2000,
+            id: 'ars_elemental:piercing_prism_lens'
         }
     ];
 
