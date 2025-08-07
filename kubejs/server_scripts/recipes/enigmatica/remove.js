@@ -28,6 +28,7 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
+        { output: /ars_nouveau:ritual_(restoration|flight)$/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -47,8 +48,10 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/kinetics/large_cogwheel' },
 
         // EnderIO
+        { type: 'enderio:fire_crafting' },
         { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
+        { id: 'enderio:sag_milling/cobbled_deepslate' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -84,6 +87,10 @@ ServerEvents.recipes((event) => {
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
         { id: /naturesaura:tree_ritual\/token_/ },
+        { id: /naturesaura:dimension_rail/ },
+        { id: /naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/ },
+        { id: 'naturesaura:rf_converter' },
+        { id: 'naturesaura:oak_generator' },
         { id: 'naturesaura:tree_ritual/nature_altar' },
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
         { id: 'naturesaura:tree_ritual/conversion_catalyst' },

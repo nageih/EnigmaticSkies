@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
                 `createsifter:raw_${material}_piece`,
                 `createsifter:raw_${material}_piece`
             ],
-            id: `createsifter:shapless/raw_${material}_piece`
+            id: `createsifter:shapeless/raw_${material}_piece`
         });
     });
 

@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}raw_iron_piece_from_raw_meats`
         },
         {
-            result: { id: 'minecraft:gunpowder', count: 4 },
+            result: { id: 'minecraft:gunpowder', count: 2 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
                 { ingredient: { item: 'ars_nouveau:bombegranate_pod' }, count: 1 }
@@ -51,6 +51,26 @@ ServerEvents.recipes((event) => {
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
             id: `${id_prefix}gunpowder_from_bombegranate_pod`
+        },
+        {
+            result: { id: 'minecraft:glowstone_dust', count: 2 },
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { item: 'minecraft:glow_berries' }, count: 1 }
+            ],
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}glowstone_dust_from_glow_berries`
+        },
+        {
+            result: { id: 'enderio:grains_of_infinity', count: 2 },
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { item: 'ars_nouveau:bastion_pod' }, count: 1 }
+            ],
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}grains_of_infinity_from_bastion_pod`
         }
     ];
 
