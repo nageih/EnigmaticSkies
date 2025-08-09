@@ -185,8 +185,11 @@ const villagerTrades = {
     // Coffee Maker
     'actuallyadditions:engineer': [
         {
-            result: { id: 'actuallyadditions:basic_coil', count: 1 },
-            ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
+            result: { id: 'actuallyadditions:basic_coil', count: 4 },
+            ingredients: [
+                { id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } },
+                { id: 'actuallyadditions:enori_crystal', count: { min: 3, max: 6 } }
+            ],
             level: 1
         }
     ],
@@ -211,7 +214,14 @@ const villagerTrades = {
             ],
             level: 1
         },
-
+        {
+            result: { id: 'ars_nouveau:ritual_awakening', count: 1 },
+            ingredients: [
+                { id: 'farmersdelight:mutton_wrap', count: { min: 1, max: 1 } },
+                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
+            ],
+            level: 1
+        },
         {
             result: { id: 'ars_nouveau:ritual_restoration', count: 1 },
             ingredients: [
@@ -227,6 +237,22 @@ const villagerTrades = {
                 { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
             ],
             level: 2
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_sunrise', count: 1 },
+            ingredients: [
+                { id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } },
+                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
+            ],
+            level: 3
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_moonfall', count: 1 },
+            ingredients: [
+                { id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } },
+                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
+            ],
+            level: 3
         }
     ]
 };

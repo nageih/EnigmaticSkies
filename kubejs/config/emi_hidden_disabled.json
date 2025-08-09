@@ -23,7 +23,12 @@
             "modern_industrialization:fire_clay_dust",
             "actuallyadditions:vertical_digger",
             "enderio:stirling_generator",
-            "industrialforegoing:pitiful_generator"
+            "industrialforegoing:pitiful_generator",
+            "industrialforegoing:fluid_extractor",
+            "industrialforegoing:biofuel_generator",
+            "industrialforegoing:bioreactor",
+            "industrialforegoing:water_condensator",
+            "industrialforegoing:ore_laser_base"
         ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"

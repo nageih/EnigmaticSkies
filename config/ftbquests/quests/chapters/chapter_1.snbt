@@ -790,8 +790,8 @@
 				item: { count: 1, id: "theurgy:digestion_vat" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -830,8 +830,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 0.0d
+			x: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["008F3C0FB9F4B451"]
@@ -852,7 +852,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -875,8 +875,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1D00057ADC3723FC"]
@@ -892,20 +892,13 @@
 		{
 			dependencies: ["714379744B3CF395"]
 			id: "21EEF53962A176B4"
-			tasks: [
-				{
-					id: "7DC8580FF7385BC7"
-					item: { count: 1, id: "minecraft:clay_ball" }
-					type: "item"
-				}
-				{
-					id: "210EAB9FD0B5CB5C"
-					item: { count: 1, id: "minecraft:redstone" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -0.5d
+			tasks: [{
+				id: "210EAB9FD0B5CB5C"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1834C84EFA232977"]
@@ -1008,7 +1001,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
@@ -1068,7 +1061,7 @@
 				item: { count: 1, id: "minecraft:moss_block" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1079,7 +1072,7 @@
 				item: { count: 1, id: "naturesaura:moss_generator" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -1123,7 +1116,7 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -1134,7 +1127,7 @@
 				item: { count: 1, id: "createsifter:raw_copper_piece" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -1157,8 +1150,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1C0852F2C2B50144"]
@@ -1168,18 +1161,19 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 18.5d
-			y: -3.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["714379744B3CF395"]
+			dependencies: ["1F493A257A7E700C"]
+			hide_dependent_lines: true
 			id: "1CF4103BFBCE0E29"
 			tasks: [{
 				id: "7DAC5388F81AED26"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -1190,10 +1184,11 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "008F3C0FB9F4B451"
 			tasks: [{
 				id: "2D3475FF63025FDF"
@@ -1204,6 +1199,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "5226F1BC0A1B23D0"
 			tasks: [{
 				id: "73802C2C72AE8348"
@@ -1220,8 +1216,8 @@
 				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.0d
+			x: 11.5d
+			y: 10.5d
 		}
 		{
 			id: "1C0852F2C2B50144"
@@ -1230,10 +1226,11 @@
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.0d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "6B76BBE9FB5A1219"
 			tasks: [{
 				id: "24770F3A0736A84B"
@@ -1261,8 +1258,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.0d
+			x: 16.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1273,7 +1270,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1283,8 +1280,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: -2.5d
+			y: 12.0d
 		}
 		{
 			id: "7905141BD2517471"
@@ -1293,8 +1290,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: -2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1393,7 +1390,7 @@
 				item: { count: 1, id: "supplementaries:lumisene_bottle" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -1404,7 +1401,7 @@
 				item: { count: 1, id: "minecraft:glow_berries" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -1481,8 +1478,8 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4CAD22296114B3AD"]
@@ -1503,7 +1500,7 @@
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -1514,22 +1511,8 @@
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.0d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"169D412B565F97C4"
-				"198344CFB65B1378"
-			]
-			id: "0E96FB3E310941BB"
-			tasks: [{
-				id: "370ED1E4C504DEB8"
-				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
 		}
 		{
 			id: "388B5ED3AB3DEC82"
@@ -1537,7 +1520,7 @@
 				id: "3344B81CFADAC8FB"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
@@ -1546,7 +1529,7 @@
 				id: "3829B9508E55605E"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: -2.0d
 			y: 7.5d
 		}
 		{
@@ -1555,8 +1538,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 12.5d
-			y: 6.0d
+			x: 13.0d
+			y: 12.0d
 		}
 		{
 			id: "03D3C2661E7BCA1A"
@@ -1577,40 +1560,15 @@
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"04AB0E3EBEC8A94B"
-				"169D412B565F97C4"
-			]
-			id: "198344CFB65B1378"
-			tasks: [{
-				id: "4BE33F0F34E3CB95"
-				item: { count: 1, id: "enigmaticunity:dim_source_generator" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["169D412B565F97C4"]
-			id: "1C9322290951A144"
-			tasks: [{
-				id: "55DF862AE4996DEB"
-				item: { count: 1, id: "create:electron_tube" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1C9322290951A144"]
+			dependencies: ["56AD6E7F12056140"]
 			id: "62ABC26128284A71"
 			tasks: [{
 				id: "2953890556C8A8F5"
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1633,7 +1591,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1660,9 +1618,10 @@
 				}
 			]
 			x: 6.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["41F0CA5ACE335062"]
 			id: "62B97D0DA2AB3BBE"
 			tasks: [{
 				id: "347311FF95CC8058"
@@ -1671,20 +1630,6 @@
 			}]
 			x: 10.5d
 			y: 6.5d
-		}
-		{
-			dependencies: [
-				"62B97D0DA2AB3BBE"
-				"1CA3F6B68095E927"
-			]
-			id: "11458E6EE4564394"
-			tasks: [{
-				id: "77120F70ED3C97FF"
-				item: { count: 1, id: "modern_industrialization:steel_ingot" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 5.5d
 		}
 		{
 			dependencies: ["7E2295CDDF92E34F"]
@@ -1756,8 +1701,8 @@
 				id: "3AA02F5C513F90A9"
 				type: "checkmark"
 			}]
-			x: 16.5d
-			y: 1.0d
+			x: 12.5d
+			y: 7.0d
 		}
 		{
 			id: "6E2B56F277B80477"
@@ -1765,8 +1710,105 @@
 				id: "545F39B6325986CA"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: 7.0d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["21EEF53962A176B4"]
+			id: "2328482892BB53D2"
+			tasks: [{
+				id: "73376AE89FD3910D"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2328482892BB53D2"]
+			id: "6B153B1D06673CF4"
+			tasks: [{
+				id: "7638D2A8735E6B47"
+				item: { count: 1, id: "actuallyadditions:enori_crystal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2328482892BB53D2"]
+			id: "09E40BB128EEBCD2"
+			tasks: [{
+				id: "2C53B70019F6323A"
+				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2328482892BB53D2"]
+			id: "01BA367C97ED31E2"
+			tasks: [{
+				id: "03B813E68E3BD7C2"
+				item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["069F4209879ADFF7"]
+			id: "4F2E18DABA17E0AC"
+			tasks: [{
+				id: "6E26DAA418B8367F"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D03A7E07643F20C"]
+			id: "382E1314CCBBBF97"
+			tasks: [{
+				id: "3C39DDE77556C54D"
+				item: { count: 1, id: "createsifter:raw_nickel_piece" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "659EDDA906968875"
+			tasks: [{
+				id: "18527FE87BB2DCD9"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "069F4209879ADFF7"
+			tasks: [{
+				id: "0C16553168503C41"
+				item: { count: 1, id: "actuallyadditions:canola_press" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1CA3F6B68095E927"]
+			id: "41F0CA5ACE335062"
+			tasks: [{
+				id: "788CFD1256DA5172"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
 		}
 	]
 }

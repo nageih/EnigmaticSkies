@@ -776,6 +776,9 @@
 		"Red/Brown Shrooms"
 		"Mycelium"
 		"Source Berry"
+		""
+		""
+		"Get into mob spawning of some sort?"
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
@@ -1210,6 +1213,7 @@
 		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
 	quest.1ED9BF551B4E2420.title: "Marid Crusher"
+	quest.1F1B78D4388E9332.quest_desc: ["Malum weeping well?"]
 	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
 	quest.1FC45862126DC511.quest_desc: ["add iron's spell scrolls to witches, or otherwise make the research fragment useful in obtaining spells from Ars and Iron's"]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
@@ -4212,6 +4216,7 @@
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
 	]
+	quest.659EDDA906968875.quest_desc: ["simple passive farming"]
 	quest.65FDD18E441E2E6E.quest_desc: [
 		"An animate Book, Bookwyrms are part of a complete storage system built into Ars Nouveau. "
 		""
@@ -4638,6 +4643,7 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E2B56F277B80477.quest_desc: ["Advanced mob spawning?"]
 	quest.6E4554D07901967C.quest_desc: [
 		"Quite possibly the last suit of armor you’ll ever need. "
 		""
@@ -5428,6 +5434,7 @@
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
 	task.182F13A34DA8D2F3.title: "\"IOU\""
+	task.18527FE87BB2DCD9.title: "Industrial Foregoing"
 	task.18C2AC93B4E7D144.title: "Excavator"
 	task.18CE5385D80E1C50.title: "Mixer"
 	task.1A13433A611626BD.title: "Engineer's Automated Workbench"

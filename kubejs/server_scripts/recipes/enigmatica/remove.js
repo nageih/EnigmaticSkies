@@ -10,9 +10,11 @@ ServerEvents.recipes((event) => {
 
         // Actually Additions
         { type: 'actuallyadditions:mining_lens' },
+        { type: 'actuallyadditions:pressing' },
         { output: 'actuallyadditions:rice_slimeball' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
+        { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
         { id: 'actuallyadditions:crushing/block_coal' },
         { id: 'actuallyadditions:coal_generator' },
         { id: 'actuallyadditions:basic_coil' },
@@ -25,8 +27,10 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
+        { id: `ars_nouveau:imbuement_chamber` },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
+        { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
 
@@ -38,7 +42,8 @@ ServerEvents.recipes((event) => {
         { type: 'createsifter:sifting' },
         { id: /createsifter:(crushing|milling)/ },
         { id: /create:mixing\/andesite_alloy/ },
-        { id: /create:crafting\/materials\/andesite_alloy/ },
+        { id: 'create:crafting/materials/andesite_alloy' },
+        { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
@@ -46,6 +51,8 @@ ServerEvents.recipes((event) => {
         { id: 'create:crushing/gilded_blackstone' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
+        { id: 'create:crafting/materials/electron_tube' },
+        { id: 'trading_floor:trading_depot' },
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
@@ -63,7 +70,18 @@ ServerEvents.recipes((event) => {
         { output: 'geneticsresequenced:coal_generator' },
 
         // Industrial Foregoing
+        { type: 'industrialforegoing:fluid_extractor' },
+        { type: 'industrialforegoing:laser_drill_ore' },
+        { type: 'industrialforegoing:bioreactor' },
         { output: 'industrialforegoing:pitiful_generator' },
+        { output: 'industrialforegoing:fluid_extractor' },
+        { output: 'industrialforegoing:biofuel_generator' },
+        { output: 'industrialforegoing:bioreactor' },
+        { output: 'industrialforegoing:water_condensator' },
+        { output: 'industrialforegoing:ore_laser_base' },
+        { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
+        { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
+        { id: 'industrialforegoing:laser_drill_fluid/ether' },
 
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
@@ -90,6 +108,8 @@ ServerEvents.recipes((event) => {
         { id: /naturesaura:dimension_rail/ },
         { id: /naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/ },
         { id: 'naturesaura:rf_converter' },
+        { id: 'naturesaura:spawn_lamp' },
+        { id: 'naturesaura:chunk_loader' },
         { id: 'naturesaura:oak_generator' },
         { id: 'naturesaura:tree_ritual/nature_altar' },
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
@@ -114,9 +134,10 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:fuel_quality' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
+        { id: /pneumaticcraft:thermo_plant\/vegetable_oil/ },
 
         // Replication
-        // { type: 'replication:matter_value' },
+        { type: 'replication:matter_value' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

@@ -40,7 +40,7 @@ StartupEvents.registry('item', (event) => {
         event
             .create(`enigmatica:${id}`)
             .texture(`enigmatica:item/delivery_bags/${id}`)
-            .displayName(`§6Wixie Eats: ${item.magic ? '§d' : '§r'}${item.name}`)
+            .displayName(`§6CloudDash: ${item.magic ? '§d' : '§r'}${item.name}`)
             .tag('enigmatica:deliveries');
     });
 

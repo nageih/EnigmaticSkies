@@ -23,20 +23,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}source_gem_from_ambrosium_shard`
         },
         {
-            result: { id: 'createsifter:raw_gold_piece', count: 4 },
+            result: { id: 'createsifter:raw_gold_piece', count: 1 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
-                { ingredient: { item: 'aquaculture:goldfish' }, count: 4 }
+                { ingredient: { item: 'aquaculture:goldfish' }, count: 8 }
             ],
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
             id: `${id_prefix}raw_gold_piece_from_goldfish`
         },
         {
-            result: { id: 'createsifter:raw_iron_piece', count: 4 },
+            result: { id: 'createsifter:raw_iron_piece', count: 1 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
-                { ingredient: { tag: 'c:foods/raw_meats' }, count: 1 }
+                { ingredient: { tag: 'c:foods/raw_meats' }, count: 8 }
             ],
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,

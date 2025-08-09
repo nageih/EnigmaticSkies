@@ -435,7 +435,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:pancake', amount: 6 },
                 { item: 'farmersdelight:bacon_and_eggs', amount: 1 },
                 { item: 'actuallyadditions:coffee_cup', amount: 1 },
-                { tag: 'farmersdelight:drinks', amount: 1 }
+                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
             ],
             eu: 1,
             duration: 100,

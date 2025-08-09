@@ -130,11 +130,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['ae2:sky_stone_block'])
         },
         {
-            filter: [{ id: `ars_nouveau:imbuement_chamber` }],
-            to_replace: 'ars_nouveau:archwood_planks',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
-        },
-        {
             filter: [{ mod: `elevatorid` }],
             to_replace: 'minecraft:ender_pearl',
             replace_with: Ingredient.of(['aether:blue_aercloud'])
@@ -173,16 +168,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:eggs'])
         },
         {
-            filter: [{ output: 'actuallyadditions:coffee_machine' }],
-            to_replace: 'actuallyadditions:basic_coil',
-            replace_with: Ingredient.of(['create:electron_tube'])
-        },
-        {
-            filter: [{ output: 'actuallyadditions:iron_casing' }],
-            to_replace: '#c:rods/wooden',
-            replace_with: Ingredient.of(['create:electron_tube'])
-        },
-        {
             filter: [{ mod: 'actuallyadditions' }],
             to_replace: '#c:cobblestones',
             replace_with: Ingredient.of(['minecraft:tuff'])
@@ -201,6 +186,32 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `extended_industrialization:silver_curved_plate`,
             replace_with: Ingredient.of([`#c:ingots/silver`])
+        },
+
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:plastics',
+            replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/iron',
+            replace_with: Ingredient.of(['#c:gears/stone'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/gold',
+            replace_with: Ingredient.of(['actuallyadditions:advanced_coil'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/gold',
+            replace_with: Ingredient.of(['#c:gears/bronze'])
+        },
+        {
+            filter: {},
+            to_replace: `industrialforegoing:machine_frame_pity`,
+            replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
         }
     ];
 

@@ -1,6 +1,6 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        tier_1: ['ars_nouveau:mendosteen_pod'],
+        tier_1: ['ars_nouveau:source_berry_roll'],
         tier_2: ['arsdelight:activated_mendosteen_jam'],
         tier_3: ['arsdelight:mendosteen_pie'],
         tier_4: ['arsdelight:mendosteen_chicken']
