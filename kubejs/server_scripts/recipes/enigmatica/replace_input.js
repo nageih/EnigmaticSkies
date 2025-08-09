@@ -115,6 +115,11 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['aether:skyroot_shovel', 'minecraft:wooden_shovel'])
         },
         {
+            filter: [{ output: 'farmersdelight:cooking_pot' }],
+            to_replace: '#c:ingots/iron',
+            replace_with: Ingredient.of(['#c:ingots/copper'])
+        },
+        {
             filter: [{ output: `utilitarian:fluid_hopper` }],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])

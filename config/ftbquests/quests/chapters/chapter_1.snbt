@@ -4,7 +4,12 @@
 	filename: "chapter_1"
 	group: "46AB9129BBE517B6"
 	icon: {
-		id: "ars_nouveau:water_essence"
+		components: {
+			"cold_sweat:armor_insulation": {
+				insulation: [ ]
+			}
+		}
+		id: "cold_sweat:goat_fur_cap"
 	}
 	id: "7F9A789B53FAB216"
 	order_index: 0
@@ -831,7 +836,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["008F3C0FB9F4B451"]
@@ -1161,8 +1166,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 5.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1217,7 +1222,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 10.5d
+			y: 8.0d
 		}
 		{
 			id: "1C0852F2C2B50144"
@@ -1226,8 +1231,8 @@
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1258,8 +1263,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 8.0d
+			x: 16.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1269,8 +1274,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 9.0d
+			x: 16.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1280,8 +1285,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 12.0d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			id: "7905141BD2517471"
@@ -1290,8 +1295,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1424,7 +1429,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -1539,7 +1544,7 @@
 				type: "checkmark"
 			}]
 			x: 13.0d
-			y: 12.0d
+			y: 9.5d
 		}
 		{
 			id: "03D3C2661E7BCA1A"
@@ -1621,17 +1626,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["41F0CA5ACE335062"]
-			id: "62B97D0DA2AB3BBE"
-			tasks: [{
-				id: "347311FF95CC8058"
-				item: { count: 1, id: "justdirethings:ferricore_ingot" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 6.5d
-		}
-		{
 			dependencies: ["7E2295CDDF92E34F"]
 			id: "198DB60553177E72"
 			tasks: [{
@@ -1701,7 +1695,7 @@
 				id: "3AA02F5C513F90A9"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 7.0d
 		}
 		{
@@ -1807,7 +1801,7 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: 6.0d
 		}
 	]

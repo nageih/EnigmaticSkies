@@ -9,6 +9,18 @@ ServerEvents.recipes((event) => {
             id: `pneumaticcraft:pressure_chamber/coal_to_diamond`
         },
         {
+            inputs: [{ tag: 'c:storage_blocks/ferricore', count: 1 }],
+            results: [{ id: 'pneumaticcraft:compressed_iron_block', count: 1 }],
+            pressure: 2.0,
+            id: `pneumaticcraft:pressure_chamber/compressed_iron_block`
+        },
+        {
+            inputs: [{ tag: 'c:ingots/ferricore', count: 1 }],
+            results: [{ id: 'pneumaticcraft:ingot_iron_compressed', count: 1 }],
+            pressure: 2.0,
+            id: `pneumaticcraft:pressure_chamber/compressed_iron_ingot`
+        },
+        {
             inputs: [
                 { item: 'ae2:printed_logic_processor', count: 1 },
                 { tag: 'c:dusts/redstone', count: 1 },

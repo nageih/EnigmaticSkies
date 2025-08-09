@@ -12,6 +12,7 @@
         "ae2",
         "enderio",
         "oritech",
+        "industrialforegoing",
         "sushigocrafting",
         "actuallyadditions",
         "utilitarian",
@@ -43,6 +44,7 @@
         "c:doughs/{material}",
         "c:flours/{material}",
         "c:silicon",
+        "c:plastics",
         "c:coal_coke"
     ],
     "ignored_tags": [],

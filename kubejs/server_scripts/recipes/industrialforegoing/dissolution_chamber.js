@@ -43,10 +43,10 @@ ServerEvents.recipes((event) => {
             input: [
                 { item: 'actuallyadditions:restonia_crystal' },
                 { item: 'actuallyadditions:restonia_crystal' },
-                { item: `minecraft:${color}_dye` },
+                { item: `minecraft:${color}_wool` },
                 { item: 'actuallyadditions:basic_coil' },
                 { item: 'actuallyadditions:basic_coil' },
-                { item: `minecraft:${color}_dye` },
+                { item: `minecraft:${color}_wool` },
                 { item: 'actuallyadditions:palis_crystal' },
                 { item: 'actuallyadditions:palis_crystal' }
             ],

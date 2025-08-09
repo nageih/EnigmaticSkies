@@ -61,7 +61,18 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    let materials = [
+    colors.forEach((color) => {
+        recipes.push({
+            input: { item: `minecraft:${color}_wool` },
+            output: [
+                { stack: { id: 'minecraft:string', count: 2 }, chance: 1.0, maxRange: 2 },
+                { stack: { id: `minecraft:${color}_dye`, count: 1 }, chance: 0.5, maxRange: 1 }
+            ],
+            id: `${id_prefix}${color}_dye_from_wool`
+        });
+    });
+
+    const materials = [
         { primary: 'iron', secondary: AlmostUnified.getTagTargetItem('c:dusts/iron').getId() },
         { primary: 'copper', secondary: 'createsifter:raw_nickel_piece' },
         { primary: 'gold', secondary: AlmostUnified.getTagTargetItem('c:dusts/gold').getId() },

@@ -33,6 +33,7 @@ ServerEvents.recipes((event) => {
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
+        { id: 'ars_elemental:wool_to_string' },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -79,6 +80,9 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:bioreactor' },
         { output: 'industrialforegoing:water_condensator' },
         { output: 'industrialforegoing:ore_laser_base' },
+        { output: 'industrialforegoing:latex_processing_unit' },
+        { output: 'industrialforegoing:animal_feeder' },
+        { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
@@ -101,6 +105,7 @@ ServerEvents.recipes((event) => {
         },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
         { output: `modern_industrialization:bronze_compressor` },
+        { output: /modern_industrialization:.*_water_pump/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
