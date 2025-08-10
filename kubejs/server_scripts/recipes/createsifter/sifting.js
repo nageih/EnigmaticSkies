@@ -21,9 +21,10 @@ ServerEvents.recipes((event) => {
                 { id: 'ae2:sky_dust', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
+            requirements: [{ type: 'mechanicals:biome', value: 'minecraft:the_void' }],
             processingTime: 25,
             waterlogged: false,
-            id: `${id_prefix}cloud_sifting_canvas`
+            id: `${id_prefix}void_cold_aercloud_sifting_string_mesh`
         },
         {
             input: { item: 'aether:cold_aercloud' },
@@ -34,7 +35,49 @@ ServerEvents.recipes((event) => {
             mesh: { id: 'createsifter:andesite_mesh', count: 1 },
             processingTime: 20,
             waterlogged: false,
-            id: `${id_prefix}cloud_sifting_andesite`
+            requirements: [{ type: 'mechanicals:biome', value: 'minecraft:the_void' }],
+            id: `${id_prefix}void_cold_aercloud_sifting_andesite`
+        },
+        {
+            input: { item: 'aether:golden_aercloud' },
+            results: [
+                { id: 'theurgy:crystallized_lava', chance: 0.25 },
+                { id: 'modern_industrialization:sulfur_dust', chance: 0.15 }
+            ],
+            mesh: { id: 'createsifter:brass_mesh', count: 1 },
+            processingTime: 20,
+            waterlogged: false,
+            advancedSifter: true,
+            requirements: [{ type: 'mechanicals:biome', value: 'ars_nouveau:archwood_forest' }],
+            id: `${id_prefix}forest_golden_aercloud_sifting_brass_mesh`
+        },
+        {
+            input: { item: 'minecraft:sand' },
+            results: [
+                { id: 'minecraft:nautilus_shell', chance: 0.1, chance: 0.25 },
+                { id: 'sushigocrafting:wasabi_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:soy_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:sesame_seeds', chance: 0.1 },
+                { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 },
+                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
+            ],
+            mesh: { id: 'createsifter:string_mesh', count: 1 },
+            processingTime: 25,
+            waterlogged: false,
+            requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
+            id: `${id_prefix}ocean_sand_sifting_string_mesh`
+        },
+        {
+            input: { item: 'minecraft:sand' },
+            results: [
+                { id: 'minecraft:nautilus_shell', chance: 0.1, chance: 0.25 },
+                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
+            ],
+            mesh: { id: 'createsifter:andesite_mesh', count: 1 },
+            processingTime: 20,
+            waterlogged: false,
+            requirements: [{ type: 'mechanicals:biome', value: 'minecraft:warm_ocean' }],
+            id: `${id_prefix}ocean_sand_sifting_andesite_mesh`
         }
     ];
 

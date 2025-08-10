@@ -2,111 +2,119 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:modern_industrialization/mixer/';
 
     const recipes = [
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
-                { item: 'minecraft:coal', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:coal_t1', amount: 3 },
-                { item: 'justdirethings:coal_t1', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 2,
-            id: `${id_prefix}coal_t1`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
-                { tag: 'c:gems/primal_coal', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:coal_t2', amount: 3 },
-                { item: 'justdirethings:coal_t2', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 4,
-            id: `${id_prefix}coal_t2`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
-                { tag: 'c:gems/blaze_ember', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:coal_t3', amount: 3 },
-                { item: 'justdirethings:coal_t3', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 8,
-            id: `${id_prefix}coal_t3`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
-                { tag: 'c:gems/voidflame', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:coal_t4', amount: 3 },
-                { item: 'justdirethings:coal_t4', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 8,
-            id: `${id_prefix}coal_t4`
-        },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
+        //         { item: 'minecraft:coal', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 500 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:coal_t1', amount: 3 },
+        //         { item: 'justdirethings:coal_t1', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 1,
+        //     id: `${id_prefix}coal_t1`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
+        //         { tag: 'c:gems/primal_coal', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1000 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:coal_t2', amount: 3 },
+        //         { item: 'justdirethings:coal_t2', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 2,
+        //     id: `${id_prefix}coal_t2`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
+        //         { tag: 'c:gems/blaze_ember', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1500 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:coal_t3', amount: 3 },
+        //         { item: 'justdirethings:coal_t3', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 3,
+        //     id: `${id_prefix}coal_t3`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
+        //         { tag: 'c:gems/voidflame', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 2000 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:coal_t4', amount: 3 },
+        //         { item: 'justdirethings:coal_t4', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 4,
+        //     id: `${id_prefix}coal_t4`
+        // },
 
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
-                { tag: 'c:ingots/iron', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:raw_ferricore', amount: 3 },
-                { item: 'justdirethings:raw_ferricore', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 2,
-            id: `${id_prefix}raw_ferricore`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
-                { tag: 'c:ingots/gold', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:raw_blazegold', amount: 3 },
-                { item: 'justdirethings:raw_blazegold', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 4,
-            id: `${id_prefix}raw_blazegold`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
-                { tag: 'c:gems/diamond', amount: 9 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:celestigem', amount: 3 },
-                { item: 'justdirethings:celestigem', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 8,
-            id: `${id_prefix}celestigem`
-        },
-        {
-            item_inputs: [
-                { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
-                { tag: 'c:ingots/netherite', amount: 1 }
-            ],
-            item_outputs: [
-                { item: 'justdirethings:raw_eclipsealloy', amount: 3 },
-                { item: 'justdirethings:raw_eclipsealloy', amount: 1, probability: 0.5 }
-            ],
-            duration: 100,
-            eu: 8,
-            id: `${id_prefix}raw_eclipsealloy`
-        },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
+        //         { tag: 'c:ingots/iron', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 500 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:raw_ferricore', amount: 3 },
+        //         { item: 'justdirethings:raw_ferricore', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 1,
+        //     id: `${id_prefix}raw_ferricore`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
+        //         { tag: 'c:ingots/gold', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1000 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:raw_blazegold', amount: 3 },
+        //         { item: 'justdirethings:raw_blazegold', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 2,
+        //     id: `${id_prefix}raw_blazegold`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
+        //         { tag: 'c:gems/diamond', amount: 9 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1500 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:celestigem', amount: 3 },
+        //         { item: 'justdirethings:celestigem', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 3,
+        //     id: `${id_prefix}celestigem`
+        // },
+        // {
+        //     item_inputs: [
+        //         { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
+        //         { tag: 'c:ingots/netherite', amount: 1 }
+        //     ],
+        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 2000 }],
+        //     item_outputs: [
+        //         { item: 'justdirethings:raw_eclipsealloy', amount: 3 },
+        //         { item: 'justdirethings:raw_eclipsealloy', amount: 1, probability: 0.5 }
+        //     ],
+        //     duration: 100,
+        //     eu: 4,
+        //     id: `${id_prefix}raw_eclipsealloy`
+        // },
         {
             item_inputs: [
                 { item: 'ars_nouveau:abjuration_essence', amount: 1, probability: 0.0 },
@@ -122,7 +130,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 2,
+            eu: 1,
             id: `${id_prefix}polymorphic_fluid_source`
         },
         {
@@ -130,15 +138,19 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unrefined_t2_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 4,
+            eu: 2,
             id: `${id_prefix}unrefined_t2_fluid_source`
         },
         {
             item_inputs: [{ tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 }],
-            fluid_inputs: [{ fluid: 'justdirethings:unrefined_t2_fluid_source', amount: 1000 }],
+
+            fluid_inputs: [
+                { fluid: 'justdirethings:unrefined_t2_fluid_source', amount: 1000 },
+                { fluid: 'mekanism:nutritional_paste', amount: 1000 }
+            ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 4,
+            eu: 2,
             id: `${id_prefix}refined_t2_fluid_source`
         },
 
@@ -147,15 +159,18 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unrefined_t3_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 3,
             id: `${id_prefix}unrefined_t3_fluid_source`
         },
         {
             item_inputs: [{ tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 }],
-            fluid_inputs: [{ fluid: 'justdirethings:unrefined_t3_fluid_source', amount: 1000 }],
+            fluid_inputs: [
+                { fluid: 'justdirethings:unrefined_t3_fluid_source', amount: 1000 },
+                { fluid: 'mekanism:nutritional_paste', amount: 1500 }
+            ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t3_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 3,
             id: `${id_prefix}refined_t3_fluid_source`
         },
 
@@ -164,15 +179,18 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'justdirethings:refined_t3_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unrefined_t4_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 4,
             id: `${id_prefix}unrefined_t4_fluid_source`
         },
         {
             item_inputs: [{ tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 }],
-            fluid_inputs: [{ fluid: 'justdirethings:unrefined_t4_fluid_source', amount: 1000 }],
+            fluid_inputs: [
+                { fluid: 'justdirethings:unrefined_t4_fluid_source', amount: 1000 },
+                { fluid: 'mekanism:nutritional_paste', amount: 2000 }
+            ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t4_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 4,
             id: `${id_prefix}refined_t4_fluid_source`
         },
 
@@ -181,7 +199,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:time_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 4,
             id: `${id_prefix}time_fluid_source`
         },
 
@@ -200,15 +218,18 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unstable_portal_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 2,
             id: `${id_prefix}unstable_portal_fluid_source`
         },
         {
             item_inputs: [{ tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 }],
-            fluid_inputs: [{ fluid: 'justdirethings:unstable_portal_fluid_source', amount: 1000 }],
+            fluid_inputs: [
+                { fluid: 'justdirethings:unstable_portal_fluid_source', amount: 1000 },
+                { fluid: 'mekanism:nutritional_paste', amount: 1500 }
+            ],
             fluid_outputs: [{ fluid: 'justdirethings:portal_fluid_source', amount: 1000 }],
             duration: 100,
-            eu: 8,
+            eu: 3,
             id: `${id_prefix}portal_fluid_source`
         },
         {
@@ -254,6 +275,16 @@ ServerEvents.recipes((event) => {
             duration: 100,
             eu: 8,
             id: `${id_prefix}redstone_crystal`
+        },
+        {
+            item_inputs: [
+                { item: 'justdirethings:time_crystal_block', amount: 1, probability: 0.0 },
+                { item: 'minecraft:ghast_tear', amount: 1 }
+            ],
+            item_outputs: [{ item: 'justdirethings:time_crystal', amount: 1 }],
+            duration: 2400,
+            eu: 4,
+            id: `${id_prefix}time_crystal`
         }
     ];
 

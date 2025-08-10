@@ -2,23 +2,16 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:create/shaped/';
 
     const recipes = [
-        // {
-        //     output: `2x create:shaft`,
-        //     pattern: ['A', 'A'],
-        //     key: {
-        //         A: 'aether:holystone'
-        //     },
-        //     id: `${id_prefix}shaft`
-        // },
-        // {
-        //     output: `create:hand_crank`,
-        //     pattern: ['AAA', '  B'],
-        //     key: {
-        //         A: 'aether:skyroot_planks',
-        //         B: 'aether:holystone'
-        //     },
-        //     id: `${id_prefix}hand_crank`
-        // }
+        {
+            output: `create:electron_tube`,
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'create:polished_rose_quartz',
+                B: 'actuallyadditions:enori_crystal',
+                B: 'actuallyadditions:restonia_crystal'
+            },
+            id: `${id_prefix}electron_tube`
+        }
     ];
 
     recipes.forEach((recipe) => {

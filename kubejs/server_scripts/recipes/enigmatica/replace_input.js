@@ -30,14 +30,9 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },
         {
-            filter: [{ mod: 'functionalstorage' }],
-            to_replace: '#c:chests/wooden',
-            replace_with: 'framedblocks:framed_chest'
-        },
-        {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
-            replace_with: '#c:chests/wooden'
+            replace_with: 'framedblocks:framed_chest'
         },
         {
             filter: {},
@@ -57,12 +52,12 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: 'minecraft:quartz',
-            replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
+            replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
         {
-            filter: [{ mod: 'bigreactors' }],
-            to_replace: '#c:ingots/yellorium',
-            replace_with: '#c:ingots/uranium'
+            filter: [{ output: 'create:rose_quartz' }],
+            to_replace: 'minecraft:quartz',
+            replace_with: Ingredient.of(['#c:gems/black_quartz'])
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
@@ -78,16 +73,6 @@ ServerEvents.recipes((event) => {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
             to_replace: 'actuallyadditions:black_quartz_pillar_block',
             replace_with: 'actuallyadditions:black_quartz_block'
-        },
-        {
-            filter: [{ id: `oritech:motor/motorcraft` }, { id: `oritech:crafting/magnet` }],
-            to_replace: '#c:ingots/steel',
-            replace_with: '#c:ingots/iron'
-        },
-        {
-            filter: [{ id: `oritech:crafting/foundry` }],
-            to_replace: '#c:ingots/electrum',
-            replace_with: '#c:ingots/iron'
         },
         {
             filter: [{ mod: 'oritech' }],
@@ -106,14 +91,33 @@ ServerEvents.recipes((event) => {
             ])
         },
         {
-            filter: [{ id: `theurgy:crafting/shaped/reformation_target_pedestal` }],
-            to_replace: '#c:gems/diamond',
-            replace_with: Ingredient.of(['#c:essences/manipulation', '#c:ingots/arcane', '#c:ingots/infused_iron'])
-        },
-        {
-            filter: [{ output: `minecraft:hopper` }, { output: `utilitarian:fluid_hopper` }],
+            filter: [
+                { output: 'farmersdelight:stove' },
+                { output: `minecraft:hopper` },
+                { output: `utilitarian:fluid_hopper` }
+            ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ mod: `transfer_labels` }],
+            to_replace: '#c:ingots/copper',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ output: `enderio:stone_gear` }, { mod: `trashcans` }],
+            to_replace: 'minecraft:cobblestone',
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: [{ mod: 'farmersdelight' }],
+            to_replace: 'minecraft:wooden_shovel',
+            replace_with: Ingredient.of(['aether:skyroot_shovel', 'minecraft:wooden_shovel'])
+        },
+        {
+            filter: [{ output: 'farmersdelight:cooking_pot' }],
+            to_replace: '#c:ingots/iron',
+            replace_with: Ingredient.of(['#c:ingots/copper'])
         },
         {
             filter: [{ output: `utilitarian:fluid_hopper` }],
@@ -121,16 +125,143 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
         {
-            filter: [{ mod: `transfer_labels` }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: Ingredient.of(['#c:dusts/sky_stone'])
+            filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
+            to_replace: '#c:gems/diamond',
+            replace_with: Ingredient.of(['aether:ambrosium_shard'])
         },
         {
-            filter: [{ mod: `transfer_labels` }],
-            to_replace: '#c:ingots/copper',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            filter: [{ id: `ars_nouveau:sourcestone` }],
+            to_replace: '#c:stones',
+            replace_with: Ingredient.of(['ae2:sky_stone_block'])
+        },
+        {
+            filter: [{ mod: `elevatorid` }],
+            to_replace: 'minecraft:ender_pearl',
+            replace_with: Ingredient.of(['aether:blue_aercloud'])
+        },
+        {
+            filter: [
+                { mod: `redstonepen` },
+                { output: `minecraft:piston` },
+                { output: `minecraft:observer` },
+                { output: `minecraft:dispenser` },
+                { output: `minecraft:dropper` },
+                { output: `minecraft:lever` },
+                { output: `minecraft:brewing_stand` },
+                { output: `supplementaries:turn_table` },
+                { output: `supplementaries:relayer` },
+                { output: `naturesaura:placer` },
+                { output: `naturesaura:pickup_stopper` },
+                { output: `create:redstone_contact` }
+            ],
+            to_replace: 'minecraft:cobblestone',
+            replace_with: Ingredient.of(['minecraft:andesite'])
+        },
+        {
+            filter: [
+                { output: /minecraft:.*copper_bulb/ },
+                { output: 'ars_nouveau:source_lamp' },
+                { output: 'minecraft:brewing_stand' },
+                { output: 'modularrouters:speed_upgrade' }
+            ],
+            to_replace: 'minecraft:blaze_rod',
+            replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
+        },
+        {
+            filter: {},
+            to_replace: 'minecraft:egg',
+            replace_with: Ingredient.of(['#c:eggs'])
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: '#c:cobblestones',
+            replace_with: Ingredient.of(['minecraft:tuff'])
+        },
+        {
+            filter: {},
+            to_replace: 'create:dough',
+            replace_with: Ingredient.of(['#c:doughs/wheat'])
+        },
+        {
+            filter: [{ id: /modern_industrialization:.*item_pipe/ }],
+            to_replace: '#c:gears/steel',
+            replace_with: Ingredient.of(['#c:gears/copper'])
+        },
+        {
+            filter: {},
+            to_replace: `extended_industrialization:silver_curved_plate`,
+            replace_with: Ingredient.of([`#c:ingots/silver`])
+        },
+
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:plastics',
+            replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/iron',
+            replace_with: Ingredient.of(['#c:gears/stone'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/gold',
+            replace_with: Ingredient.of(['actuallyadditions:advanced_coil'])
+        },
+        {
+            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
+            to_replace: '#c:gears/gold',
+            replace_with: Ingredient.of(['#c:gears/bronze'])
+        },
+        {
+            filter: {},
+            to_replace: `industrialforegoing:machine_frame_pity`,
+            replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
         }
     ];
+
+    const curved_plates = [
+        'aluminum',
+        'battery_alloy',
+        'blastproof_alloy',
+        'bronze',
+        'copper',
+        'gold',
+        'iridium',
+        'stainless_steel',
+        'steel',
+        'tin',
+        'titanium'
+    ];
+
+    curved_plates.forEach((material) => {
+        recipes.push({
+            filter: {},
+            to_replace: `modern_industrialization:${material}_curved_plate`,
+            replace_with: Ingredient.of([`#c:ingots/${material}`])
+        });
+    });
+
+    const bolts = [
+        'aluminum',
+        'bronze',
+        'copper',
+        'gold',
+        'invar',
+        'iron',
+        'stainless_steel',
+        'steel',
+        'tin',
+        'titanium'
+    ];
+
+    bolts.forEach((material) => {
+        recipes.push({
+            filter: {},
+            to_replace: `modern_industrialization:${material}_bolt`,
+            replace_with: Ingredient.of([`#c:nuggets/${material}`])
+        });
+    });
 
     recipes.forEach((recipe) => {
         event.replaceInput(recipe.filter, recipe.to_replace, recipe.replace_with);

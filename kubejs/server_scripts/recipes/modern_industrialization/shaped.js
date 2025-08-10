@@ -3,16 +3,59 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '2x modern_industrialization:gold_gear',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            output: `modern_industrialization:bronze_compressor`,
+            pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: '#c:nuggets/gold',
-                B: '#c:ingots/gold',
-                C: '#c:dusts/grains_of_infinity'
+                A: `#c:ingots/copper`,
+                B: `minecraft:piston`,
+                C: `#c:gears/copper`,
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
             },
-            id: `${id_prefix}gold_gear`
+            id: `${id_prefix}bronze_compressor`
         }
     ];
+
+    const gears = [
+        'aluminum',
+        'bronze',
+        'copper',
+        'gold',
+        'invar',
+        'iron',
+        'stainless_steel',
+        'steel',
+        'tin',
+        'titanium'
+    ];
+
+    gears.forEach((material) => {
+        recipes.push({
+            output: `modern_industrialization:${material}_gear`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `#c:nuggets/${material}`,
+                B: `#c:ingots/${material}`,
+                C: '#c:gems/ruby'
+            },
+            id: `${id_prefix}${material}_gear`
+        });
+    });
+
+    const rotors = ['aluminum', 'bronze', 'copper', 'stainless_steel', 'tin', 'titanium'];
+
+    rotors.forEach((material) => {
+        recipes.push({
+            output: `modern_industrialization:${material}_rotor`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `#c:nuggets/${material}`,
+                B: `#c:plates/${material}`,
+                C: '#c:gems/ruby'
+            },
+            id: `${id_prefix}${material}_rotor`
+        });
+    });
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

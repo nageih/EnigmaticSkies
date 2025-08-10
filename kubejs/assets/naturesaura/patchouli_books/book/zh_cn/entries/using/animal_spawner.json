@@ -1,0 +1,21 @@
+{
+    "name": "降生祭坛",
+    "icon": "naturesaura:animal_spawner",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有时，$(thing)创造$()特定生物的能力对一些有点可怕的植物学家来说会很有用。这时，可以使用$(item)降生祭坛$()：它能创造并生成几乎任何种类的$(thing)生物$()，只需要消耗一些与其相关的原料和一点环境中的$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "要使祭坛工作，需要组装接下来展示的正确结构，并且使用$(item)降生之魂$()，详细如下：所有原料，包括$(item)降生之魂$()，都需要被扔在接近$(item)降生祭坛$()的地面上，然后降生过程就会自动开始。$(p)接下来的几页概述了祭坛的正确构造，获取$(item)降生之魂$()的方式和所有能生成的生物。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:animal_spawner",
+            "text": "要使$(item)降生祭坛$()正常工作，需要围绕祭坛建造这样的结构。"
+        }
+    ]
+}

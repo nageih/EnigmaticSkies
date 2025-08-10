@@ -22,6 +22,27 @@ ServerEvents.recipes((event) => {
             fluid: { id: 'theurgy:sal_ammoniac', amount: 100 },
             time: 5,
             id: `${id_prefix}fermentation_starter`
+        },
+        {
+            result: { id: 'minecraft:slime_ball', count: 1 },
+            ingredients: [{ tag: 'c:doughs' }],
+            fluid: { id: 'minecraft:water', amount: 100 },
+            time: 2.5,
+            id: `${id_prefix}dough_slime_ball`
+        },
+        {
+            result: { id: 'minecraft:slime_ball', count: 4 },
+            ingredients: [{ tag: 'c:doughs' }, { item: 'theurgy:fermentation_starter' }],
+            fluid: { id: 'minecraft:water', amount: 100 },
+            time: 2.5,
+            id: `${id_prefix}dough_slime_ball_with_fermentation_starter`
+        },
+        {
+            result: { id: 'minecraft:slime_ball', count: 4 },
+            ingredients: [{ item: 'aquaculture:jellyfish' }, { item: 'theurgy:fermentation_starter' }],
+            fluid: { id: 'minecraft:water', amount: 100 },
+            time: 2.5,
+            id: `${id_prefix}jellyfish_slime_ball_with_fermentation_starter`
         }
     ];
 

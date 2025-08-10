@@ -3,16 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredient: { tag: 'c:ores/black_quartz' },
-            ignore_crushing_multiplier: false,
-            result: {
-                type: 'occultism:item',
-                id: 'actuallyadditions:black_quartz',
-                count: 2
-            },
-            id: `${id_prefix}black_quartz`
-        },
-        {
             ingredient: { item: 'minecraft:echo_shard' },
             ignore_crushing_multiplier: true,
             min_tier: 3,

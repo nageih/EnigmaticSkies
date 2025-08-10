@@ -3,28 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { tag: 'c:ores/netherite_scrap' },
-            outputs: [
-                { item: { id: 'minecraft:netherite_scrap', count: 1 } },
-                { item: { id: 'minecraft:netherite_scrap', count: 1 }, chance: 0.75 }
-            ],
-            energy: 2400,
-            id: `${id_prefix}netherite_scrap`
-        },
-        {
-            input: { tag: 'c:ores/black_quartz' },
-            outputs: [
-                { item: { id: 'actuallyadditions:black_quartz', count: 2 } },
-                {
-                    item: { id: 'actuallyadditions:black_quartz', count: 1 },
-                    chance: 0.25
-                },
-                { item: { id: `minecraft:cobblestone`, count: 1 }, chance: 0.15 }
-            ],
-            energy: 2400,
-            id: `${id_prefix}black_quartz`
-        },
-        {
             input: { tag: 'minecraft:smelts_to_glass' },
             outputs: [
                 { item: { id: 'ae2:silicon', count: 1 } },

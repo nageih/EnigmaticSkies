@@ -3,7 +3,6 @@
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
-	chapter.113C730A83D7EB8C.title: "Villager Trading"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
@@ -21,11 +20,12 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
+	chapter.635514FCF83ACCBF.title: "Villagers"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
-	chapter.7F9A789B53FAB216.title: "Water"
+	chapter.7F9A789B53FAB216.title: "Acclimation"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -634,6 +634,7 @@
 		""
 		"Feed them a Gysahl Cake to instantly grow them to adults!"
 	]
+	quest.10A19420BCC6991C.title: "Shady Wizard"
 	quest.11EDFB60C787114D.quest_desc: [
 		"Goo is used to transform other materials, and thus obtain all of the tiered crafting materials used in this mod. "
 		""
@@ -775,6 +776,9 @@
 		"Red/Brown Shrooms"
 		"Mycelium"
 		"Source Berry"
+		""
+		""
+		"Get into mob spawning of some sort?"
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
@@ -1209,6 +1213,7 @@
 		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
 	quest.1ED9BF551B4E2420.title: "Marid Crusher"
+	quest.1F1B78D4388E9332.quest_desc: ["Malum weeping well?"]
 	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
 	quest.1FC45862126DC511.quest_desc: ["add iron's spell scrolls to witches, or otherwise make the research fragment useful in obtaining spells from Ars and Iron's"]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
@@ -1486,6 +1491,7 @@
 		"&a    Identification Chamber through"
 		"&a    the bottom."
 	]
+	quest.271AC925824B553E.title: "Industrialist"
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -1579,6 +1585,7 @@
 		""
 		"Dye it and show off your style!"
 	]
+	quest.2972FB3B704242DC.quest_desc: ["gravitite to replace ender pearls in blocks that pull in"]
 	quest.29D1FB4380460203.quest_desc: [
 		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
 		""
@@ -1762,6 +1769,13 @@
 	]
 	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
+	quest.2F1EA0B091C700E1.quest_desc: [
+		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
+		""
+		"Start by making a Barrel to get a Fisherman Villager. Grab yourself some Goldfish and start processing them to get some Gold for a Ritual Brazier. "
+		""
+		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
+	]
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1914,6 +1928,24 @@
 		""
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
+	quest.34FB10F0A2504973.quest_desc: [
+		"Next, make yourself a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
+		"&n                                                  &r"
+		""
+		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
+		""
+		"This island is a good example, as it contains several necessary plants and a structure you'll need to proceed. "
+		""
+		"Use the provided Angel Block and Flying Potion to fly away from your main island a little ways. About thirty blocks is sufficient. The Angel Block may be placed in the air and will let you place the Ritual Brazier on top. "
+		""
+		"Right-Click the Brazier with the Tablet, then once more with an empty hand to start the ritual."
+		""
+		"&6⚠ Note"
+		"&6  If important blocks are missing, simply"
+		"&6  clear whatever blocked them and run"
+		"&6  the ritual again in the same spot to "
+		"&6  refresh the island."
+	]
 	quest.34FFE863EB846035.quest_desc: [
 		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
 		""
@@ -1983,6 +2015,7 @@
 		""
 		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
+	quest.35FDFEDE5CAC0303.title: "Farmer"
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -3149,6 +3182,7 @@
 		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
+	quest.4C8FBFE52DD15C71.title: "Shepherd"
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
@@ -3528,6 +3562,13 @@
 		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Transporter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Transporter\",\"underlined\":true}]"
 		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Sorter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Sorter\",\"underlined\":true}]"
 	]
+	quest.56AD6E7F12056140.quest_desc: [
+		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this machine is the Job Site for Shady Wizard Villagers. "
+		""
+		"Shady Wizards will sell you several very important tools and are the only way to access new glyphs. "
+		""
+		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that you don’t already know. "
+	]
 	quest.56D8B0E6FD8CF048.quest_desc: [
 		"Energy Cells are all about in-situ energy storage. They're best paired with unreliable power sources, such as Solar, or slower power generators that aren't under constant load."
 		""
@@ -3812,6 +3853,7 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
 		""
@@ -3910,6 +3952,28 @@
 		"Summoning the Wither is the same as Vanilla, but you can craft a containment chamber for it with Reinforced Deepslate to simplify the fight."
 		""
 		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
+	]
+	quest.605A60825B68C2D7.quest_desc: [
+		"Many animals are not well adapted to these heights, and as such have a limited lifespan. "
+		""
+		"The following creatures will only survive about 10 in-game days as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. "
+		""
+		"Thankfully, you have some options for automating that process. "
+		""
+		"  &6&nVanilla Mobs&r"
+		"    • &7Chickens"
+		"    • &7Cows"
+		"    • &7Goats"
+		"    • &7Mooshrooms"
+		"    • &7Pigs"
+		"    • &7Rabbits"
+		"    • &7Sheep"
+		""
+		"  &6&nAether Mobs&r"
+		"    • &7Aerbunnies"
+		"    • &7Flying Cows"
+		"    • &7Phygs"
+		"    • &7Sheepuffs"
 	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
@@ -4046,6 +4110,35 @@
 		""
 		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
 	]
+	quest.63AFE7CB35AE94BF.quest_desc: [
+		"Want to change things up a bit? Looking for a more magical experience over Create’s normal machines?"
+		""
+		"Ars Technica, an addon for Ars Nouveau, includes glyphs to mimic many of Create’s processes. Below are a few example spells to get you started."
+		""
+		"These are great for quick manual processing or can be a powerful replacement to Create if the spells are inscribed in a Spell Turret."
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Encased Fan - Bulk Washing&r"
+		"    &5Projectile&r > &aWhirl&r > &6Extend Time&r > &aConjure Water&r"
+		""
+		"&7Encased Fan - Bulk Blasting&r"
+		"    &5Projectile&r > &aWhirl&r > &6Extend Time&r > &aSmelt&r"
+		""
+		"&7Deployer&r"
+		"    &5Projectile&r > &aApply&r > &6AOE&r"
+		""
+		"&7Mechanical Mixer&r"
+		"    &5Projectile&r > &aFuse&r > &6AOE&r"
+		""
+		"&7Sandpaper&r"
+		"    &5Projectile&r > &aPolish&r > &6AOE&r"
+		""
+		"&7Mechanical Press&r"
+		"    &5Projectile&r > &aPress&r > &6AOE&r"
+		""
+		"&a🛈 Tip: Try adding more AOE or stacking spell casts!"
+	]
 	quest.63B019541F72C712.quest_desc: [
 		"Looking for a nice invisible fence to keep mobs contained? This is the block for you. "
 		""
@@ -4088,12 +4181,12 @@
 	quest.6490781066FAE8CF.quest_desc: [
 		"Biome: Mangrove Swamp"
 		""
-		"Notables:"
-		"Glow Berries"
-		"Bamboo"
-		"Moss"
-		"Spore Blossom"
-		"Azalea"
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Aerogel&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Tuff&r"
+		"  • &7Dirt&r               &2⟶&r    &7Mud&r"
+		"  • &7Sand&r             &2⟶&r    &7Cold Aercloud&r"
+		"  • &7Sandstone&r      &2⟶&r    &7Quicksoil&r"
 	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
@@ -4123,6 +4216,7 @@
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
 	]
+	quest.659EDDA906968875.quest_desc: ["simple passive farming"]
 	quest.65FDD18E441E2E6E.quest_desc: [
 		"An animate Book, Bookwyrms are part of a complete storage system built into Ars Nouveau. "
 		""
@@ -4507,6 +4601,7 @@
 		"[\"\",{ \"text\": \"Incubate\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" those Sulfurs to produce useful ingots from them.\"]"
 	]
 	quest.6D68D3A5BD549EA3.title: "Reformation and Incubation"
+	quest.6D85BCC665287D6F.quest_desc: ["and other Sushigo materials"]
 	quest.6D9008779F35E755.quest_desc: [
 		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
 		""
@@ -4548,6 +4643,7 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E2B56F277B80477.quest_desc: ["Advanced mob spawning"]
 	quest.6E4554D07901967C.quest_desc: [
 		"Quite possibly the last suit of armor you’ll ever need. "
 		""
@@ -4653,6 +4749,14 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
+	quest.702AFA5430CF6D73.quest_desc: [
+		"cobblestone conversion in hot biome?"
+		""
+		""
+		"Crush to dust, get lava crystal from that. "
+		""
+		"Extract remaining minerals from lava?"
+	]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.705C37F9694E6FEA.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer chemicals bi-directionally."
@@ -4705,6 +4809,7 @@
 		"[\"The mod comes with a book, however you can also access all pertinent information on their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://evilcraft.rubensworks.net/book/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
+	quest.71E753FE9B4E1707.title: "Mason"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
 		""
@@ -5055,15 +5160,14 @@
 		""
 		"Notables"
 		"Lava"
-		"Pumpkin"
-		"Sunflower"
 	]
 	quest.7893072479F01DC2.quest_desc: [
 		"Biome: Warm Ocean"
 		""
-		"Notables"
-		"Corals"
-		"Sugar Cane"
+		"  • &7Cobbled&r"
+		"   &7Deepslate&r      &2⟶&r    &7Salt&r"
+		"  • &7Cobblestone&r    &2⟶&r    &7Prismarine&r"
+		"  • &7Dirt&r               &2⟶&r    &7Aether Dirt&r"
 	]
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "
@@ -5085,6 +5189,11 @@
 		"The Creational Catalyst removes this limit. "
 		""
 		"Simply place it beneath the Generator block to unlock its full potential."
+	]
+	quest.798D16C2A0D071FF.quest_desc: [
+		"The first few Gold Ingots you make should probably go towards making a Ritual Brazier. "
+		""
+		"In addition to the normal Rituals that you start with this device, it will also allow you to summon special islands which will unlock access to new resources. "
 	]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
@@ -5211,6 +5320,10 @@
 		"We recommend that you also check out the guides and tutorials built into the mod’s own Guide."
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
+	quest.7E2295CDDF92E34F.quest_desc: [
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
 	quest.7F237202A5D7EFBD.quest_desc: [
 		"The hammers and shovels added by Vanilla Plus Tools break their respective blocks in a 3x3 area, making them an easy choice for early mining."
 		""
@@ -5319,6 +5432,8 @@
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
+	task.182F13A34DA8D2F3.title: "\"IOU\""
+	task.18527FE87BB2DCD9.title: "Industrial Foregoing"
 	task.18C2AC93B4E7D144.title: "Excavator"
 	task.18CE5385D80E1C50.title: "Mixer"
 	task.1A13433A611626BD.title: "Engineer's Automated Workbench"
@@ -5341,6 +5456,7 @@
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
+	task.2AD2A5C68D517C53.title: "Oritech"
 	task.2B3416E3F3663598.title: "Block Conversions"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
@@ -5354,6 +5470,7 @@
 	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
+	task.3344B81CFADAC8FB.title: "Actually Additions"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
 	task.346A4A537019E6C5.title: "Crude Blast Furnace"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
@@ -5363,9 +5480,11 @@
 	task.36D658D637E5D847.title: "Storage Systems"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
+	task.3829B9508E55605E.title: "Natures Aura"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3935AF387C2EA352.title: "Impossible"
 	task.3A59C49FAF001D7E.title: "Temperature Management"
+	task.3AA02F5C513F90A9.title: "Ender IO"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3B6A2E42A7F4D6C2.title: "Welcome to the Skies!"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
@@ -5411,10 +5530,12 @@
 	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.51C59228A0E0612E.title: "Items"
+	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
 	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
+	task.545F39B6325986CA.title: "Industrial Foregoing"
 	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
@@ -5430,11 +5551,13 @@
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5DC14CAF06A7DB89.title: "Observe: Possessed Endermite"
+	task.5F579E2341E92725.title: "PneumaticCraft"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.5FD7075685BB37AD.title: "Generators"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
+	task.6118F9D879616D84.title: "Any #c:foods/raw_meats"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.62742836108A45A3.title: "Addon: Efficiency"
 	task.630138BF6B3E58AA.title: "Industrial Squeezer"
@@ -5464,10 +5587,12 @@
 	task.74FDE36B1D6613C4.title: "Alloy Kiln"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
+	task.75F35EC4088EBA42.title: "Create Processing"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
+	task.78CB052047F0AC64.title: "Oritech - Particle Physics"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7C0E5A805AE1132B.title: "Learning Mods"

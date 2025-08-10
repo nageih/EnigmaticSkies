@@ -78,9 +78,31 @@ ServerEvents.recipes((event) => {
                 'pneumaticcraft:chips',
                 'pneumaticcraft:chips',
                 'pneumaticcraft:chips',
-                'sushigocrafting:cheese[sushigocrafting:amount=500]'
+                'sushigocrafting:cheese[sushigocrafting:amount=500]',
+                'arsdelight:wilden_sauce'
             ],
             id: `${id_prefix}poutine`
+        },
+
+        // Villager Meals
+        {
+            output: 'enigmatica:bottomless_breadsticks',
+            inputs: [
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread',
+                'minecraft:bread'
+            ],
+            id: `${id_prefix}bottomless_breadsticks`
+        },
+        {
+            output: 'enigmatica:bun_believable_burger',
+            inputs: ['farmersdelight:hamburger', 'farmersdelight:stuffed_potato'],
+            id: `${id_prefix}bun_believable_burger`
         }
     ];
 

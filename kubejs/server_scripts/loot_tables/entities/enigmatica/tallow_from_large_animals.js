@@ -20,7 +20,11 @@ LootJS.lootTables((event) => {
         'minecraft:entities/pig',
         'minecraft:entities/hoglin',
         'minecraft:entities/donkey',
-        'minecraft:entities/sheep'
+        'minecraft:entities/sheep',
+
+        'aether:entities/flying_cow',
+        'aether:entities/phyg',
+        'aether:entities/sheepuff'
     ];
     tables.forEach((table) => {
         event.getLootTable(table).createPool((pool) => {

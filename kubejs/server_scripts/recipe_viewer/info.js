@@ -77,14 +77,6 @@ RecipeViewerEvents.addInformation('item', (event) => {
             text: ['Use a Bottle and Cork in an area devoid of Aura.', ' ', `Can be automated using a Dispenser.`]
         },
         {
-            filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]')],
-            text: [
-                'Use a Bottle and Cork in an area of high Aura in the Nether.',
-                ' ',
-                `Can be automated using a Dispenser.`
-            ]
-        },
-        {
             filter: [
                 Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
             ],
@@ -94,14 +86,22 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 `Can be automated using a Dispenser.`
             ]
         },
-        {
-            filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]')],
-            text: [
-                'Use a Bottle and Cork in an area of high Aura in the End.',
-                ' ',
-                `Can be automated using a Dispenser.`
-            ]
-        },
+        // {
+        //     filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]')],
+        //     text: [
+        //         'Use a Bottle and Cork in an area of high Aura in the Nether.',
+        //         ' ',
+        //         `Can be automated using a Dispenser.`
+        //     ]
+        // },
+        // {
+        //     filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]')],
+        //     text: [
+        //         'Use a Bottle and Cork in an area of high Aura in the End.',
+        //         ' ',
+        //         `Can be automated using a Dispenser.`
+        //     ]
+        // },
         {
             filter: ['naturesaura:gold_leaf'],
             text: [`Obtained by breaking Golden Leaves.`]
@@ -136,16 +136,26 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 `● Shulker Bullet`,
                 `● Trident`
             ]
+        },
+        {
+            filter: ['industrialforegoing:ether_gas_bucket'],
+            text: [
+                `Enables auto-harvesting in the Hydroponic Bed.`,
+                ` `,
+                `Enables 5x Ore Multiplier in the Fermentation Station.`,
+                ` `,
+                `Enables gentle-harvesting in the Plant Gatherer`
+            ]
         }
     ];
 
-    Object.keys(villager_trades).forEach((profession) => {
+    Object.keys(villagerTrades).forEach((profession) => {
         var levels = ['Unemployed', 'Novice', 'Apprentice', 'Journeyman', 'Expert', 'Master'];
-        villager_trades[profession].forEach((recipe) => {
+        villagerTrades[profession].forEach((recipe) => {
             descriptions.push({
                 filter: [Item.of(recipe.result.id)],
                 text: [
-                    `Obtained by trading with ${profession.split(':')[1]} villagers.`,
+                    `Obtained by trading with ${profession.split(':')[1].replace('_', ' ')} villagers.`,
                     ` `,
                     `Trade Level: ${levels[recipe.level]}`
                 ]

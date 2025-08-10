@@ -3,14 +3,17 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '2x industrialforegoing:diamond_gear',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            output: 'industrialforegoing:animal_feeder',
+            pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: '#c:nuggets/dark_steel',
-                B: '#c:gems/diamond',
-                C: '#c:dusts/grains_of_infinity'
+                A: 'actuallyadditions:enori_crystal',
+                B: 'aether:enchanted_berry',
+                C: 'minecraft:golden_carrot',
+                D: 'actuallyadditions:iron_casing',
+                E: 'actuallyadditions:basic_coil',
+                F: '#c:gears/stone'
             },
-            id: `${id_prefix}diamond_gear`
+            id: `${id_prefix}animal_feeder`
         }
     ];
 

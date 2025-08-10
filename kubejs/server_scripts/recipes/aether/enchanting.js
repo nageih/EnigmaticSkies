@@ -19,6 +19,14 @@ ServerEvents.recipes((event) => {
             cookingtime: 200,
             experience: 0.15,
             id: `${id_prefix}villager`
+        },
+        {
+            result: { id: 'justdirethings:gooblock_tier1', count: 1 },
+            ingredient: { item: 'minecraft:clay' },
+            category: 'enchanting_misc',
+            cookingtime: 200,
+            experience: 0.15,
+            id: `${id_prefix}gooblock_tier1`
         }
     ];
 

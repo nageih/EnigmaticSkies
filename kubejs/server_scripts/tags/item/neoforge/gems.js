@@ -31,7 +31,11 @@ ServerEvents.tags('item', (event) => {
         brilliance: ['malum:refined_brilliance'],
         arcane_charcoal: ['malum:arcane_charcoal'],
         blazing_quartz: ['malum:blazing_quartz'],
-        mnemonic_fragment: ['malum:mnemonic_fragment']
+        mnemonic_fragment: ['malum:mnemonic_fragment'],
+
+        ambrosium: ['aether:ambrosium_shard'],
+
+        ruby: ['enigmatica:ruby']
     };
 
     Object.keys(additions).forEach((tag) => {
