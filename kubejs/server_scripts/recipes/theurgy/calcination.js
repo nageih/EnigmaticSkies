@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
         },
         {
             ingredient: { ingredient: { tag: 'minecraft:logs_that_burn' }, count: 1 },
-            result: { id: 'mekanism:block_charcoal', count: 1 },
+            result: { id: 'justdirethings:charcoal', count: 1 },
             time: 30,
             id: `${id_prefix}block_charcoal`
         }

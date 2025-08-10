@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
         //         { item: 'minecraft:coal', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 500 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 500 }],
         //     item_outputs: [
         //         { item: 'justdirethings:coal_t1', amount: 3 },
         //         { item: 'justdirethings:coal_t1', amount: 1, probability: 0.5 }
@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
         //         { tag: 'c:gems/primal_coal', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1000 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1000 }],
         //     item_outputs: [
         //         { item: 'justdirethings:coal_t2', amount: 3 },
         //         { item: 'justdirethings:coal_t2', amount: 1, probability: 0.5 }
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
         //         { tag: 'c:gems/blaze_ember', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1500 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1500 }],
         //     item_outputs: [
         //         { item: 'justdirethings:coal_t3', amount: 3 },
         //         { item: 'justdirethings:coal_t3', amount: 1, probability: 0.5 }
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
         //         { tag: 'c:gems/voidflame', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 2000 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 2000 }],
         //     item_outputs: [
         //         { item: 'justdirethings:coal_t4', amount: 3 },
         //         { item: 'justdirethings:coal_t4', amount: 1, probability: 0.5 }
@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
         //         { tag: 'c:ingots/iron', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 500 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 500 }],
         //     item_outputs: [
         //         { item: 'justdirethings:raw_ferricore', amount: 3 },
         //         { item: 'justdirethings:raw_ferricore', amount: 1, probability: 0.5 }
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
         //         { tag: 'c:ingots/gold', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1000 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1000 }],
         //     item_outputs: [
         //         { item: 'justdirethings:raw_blazegold', amount: 3 },
         //         { item: 'justdirethings:raw_blazegold', amount: 1, probability: 0.5 }
@@ -92,7 +92,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
         //         { tag: 'c:gems/diamond', amount: 9 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 1500 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1500 }],
         //     item_outputs: [
         //         { item: 'justdirethings:celestigem', amount: 3 },
         //         { item: 'justdirethings:celestigem', amount: 1, probability: 0.5 }
@@ -106,7 +106,7 @@ ServerEvents.recipes((event) => {
         //         { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
         //         { tag: 'c:ingots/netherite', amount: 1 }
         //     ],
-        //     fluid_inputs: [{ fluid: 'mekanism:nutritional_paste', amount: 2000 }],
+        //     fluid_inputs: [{ fluid: 'enderio:fluid_nutrient_distillation_still', amount: 2000 }],
         //     item_outputs: [
         //         { item: 'justdirethings:raw_eclipsealloy', amount: 3 },
         //         { item: 'justdirethings:raw_eclipsealloy', amount: 1, probability: 0.5 }
@@ -146,7 +146,7 @@ ServerEvents.recipes((event) => {
 
             fluid_inputs: [
                 { fluid: 'justdirethings:unrefined_t2_fluid_source', amount: 1000 },
-                { fluid: 'mekanism:nutritional_paste', amount: 1000 }
+                { fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1000 }
             ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 }],
             duration: 100,
@@ -166,7 +166,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 }],
             fluid_inputs: [
                 { fluid: 'justdirethings:unrefined_t3_fluid_source', amount: 1000 },
-                { fluid: 'mekanism:nutritional_paste', amount: 1500 }
+                { fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1500 }
             ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t3_fluid_source', amount: 1000 }],
             duration: 100,
@@ -186,7 +186,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 }],
             fluid_inputs: [
                 { fluid: 'justdirethings:unrefined_t4_fluid_source', amount: 1000 },
-                { fluid: 'mekanism:nutritional_paste', amount: 2000 }
+                { fluid: 'enderio:fluid_nutrient_distillation_still', amount: 2000 }
             ],
             fluid_outputs: [{ fluid: 'justdirethings:refined_t4_fluid_source', amount: 1000 }],
             duration: 100,
@@ -225,7 +225,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 }],
             fluid_inputs: [
                 { fluid: 'justdirethings:unstable_portal_fluid_source', amount: 1000 },
-                { fluid: 'mekanism:nutritional_paste', amount: 1500 }
+                { fluid: 'enderio:fluid_nutrient_distillation_still', amount: 1500 }
             ],
             fluid_outputs: [{ fluid: 'justdirethings:portal_fluid_source', amount: 1000 }],
             duration: 100,

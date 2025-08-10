@@ -15,13 +15,10 @@ StartupEvents.registry('block', (event) => {
     const resource_nodes = [
         'antimony',
         'bauxite',
-        'fluorite',
         'iridium',
         'lead',
         'lignite',
-        'mithril',
         'monazite',
-        'osmium',
         'salt',
         'tin',
         'tungsten',

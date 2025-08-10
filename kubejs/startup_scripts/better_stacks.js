@@ -14,11 +14,8 @@ ItemEvents.modification((event) => {
                 'minecraft:mushroom_stew',
                 'minecraft:rabbit_stew',
                 'minecraft:cake',
-                'chococraft:gysahl_cake',
-                'powah:charged_snowball',
                 'the_bumblezone:pollen_puff',
                 'oritech:heisenberg_compensator',
-                'immersiveengineering:graphite_electrode',
                 /occultism:book_of_binding_(empty|foliot|djinni|afrit|marid)/,
                 /enderio:.*_capacitor/,
 
