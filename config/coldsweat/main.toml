@@ -6,7 +6,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The current version of Cold Sweat. This is used by the auto-updater
 	# ⌄ 
-	Version = "2.4-b04a"
+	Version = "2.4-b04b"
 	#─────────────────────────────────────────────────────────────────────────
 	# Allows Cold Sweat's configs to be automatically updated with new additions & formatting changes
 	# ⌄ 
@@ -85,7 +85,7 @@
 		#─────────────────────────────────────────────────────────────────────────
 		# The speed at which the player acclimates to hot or cold environments
 		# ⌄ 
-		# Default: 0.0011
+		# Default: 5.0E-4
 		# Range: 0.0 ~ Infinity
 		"Acclimation Speed" = 0.0011
 		#─────────────────────────────────────────────────────────────────────────
