@@ -3,93 +3,100 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { item: 'minecraft:ink_sac' },
+            input: { item: 'minecraft:wheat' },
             output: [
-                {
-                    stack: { id: 'minecraft:black_dye', count: 2 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
+                { stack: { id: 'create:wheat_flour', count: 2 }, chance: 1.0, maxRange: 1 },
+                { stack: { id: 'create:wheat_flour', count: 1 }, chance: 0.5, maxRange: 1 }
             ],
+            id: `${id_prefix}wheat_flour_from_wheat`
+        },
+
+        {
+            input: { item: 'minecraft:ink_sac' },
+            output: [{ stack: { id: 'minecraft:black_dye', count: 2 }, chance: 1.0, maxRange: 1 }],
             id: `${id_prefix}black_dye`
         },
         {
             input: { tag: 'c:ores/netherite_scrap' },
             output: [
-                {
-                    stack: { id: 'minecraft:netherite_scrap', count: 2 },
-                    chance: 1.0,
-                    maxRange: 1
-                },
-                {
-                    stack: { id: 'minecraft:netherite_scrap', count: 1 },
-                    chance: 0.1,
-                    maxRange: 1
-                }
+                { stack: { id: 'minecraft:netherite_scrap', count: 2 }, chance: 1.0, maxRange: 1 },
+                { stack: { id: 'minecraft:netherite_scrap', count: 1 }, chance: 0.1, maxRange: 1 }
             ],
             id: `${id_prefix}netherite_scrap`
         },
         {
             input: { item: 'minecraft:ice' },
-            output: [
-                {
-                    stack: { id: 'minecraft:snow_block', count: 1 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
-            ],
+            output: [{ stack: { id: 'minecraft:snow_block', count: 1 }, chance: 1.0, maxRange: 1 }],
             id: `${id_prefix}snow_block`
         },
         {
-            input: { item: 'minecraft:packed_ice' },
+            input: { item: 'aether:holystone' },
             output: [
-                {
-                    stack: { id: 'aether:cold_aercloud', count: 1 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
+                { stack: { id: 'aether:ambrosium_shard', count: 1 }, chance: 0.1, maxRange: 1 },
+                { stack: { id: 'createsifter:andesite_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
+                { stack: { id: 'createsifter:diorite_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
+                { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.3, maxRange: 3 }
             ],
-            id: `${id_prefix}cold_aercloud`
+            id: `${id_prefix}holystone_crushing`
+        },
+        {
+            input: { item: 'minecraft:moss_block' },
+            output: [
+                { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.1, maxRange: 1 },
+                { stack: { id: 'createsifter:stone_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
+                { stack: { id: 'createsifter:tuff_pebble', count: 1 }, chance: 0.3, maxRange: 3 },
+                { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.3, maxRange: 3 }
+            ],
+            id: `${id_prefix}moss_block_crushing`
+        },
+        {
+            input: { tag: 'c:crops/rice' },
+            output: [{ stack: { id: 'minecraft:sugar', count: 2 }, chance: 1.0, maxRange: 1 }],
+            id: `${id_prefix}sugar_from_rice`
+        },
+        {
+            input: { item: 'minecraft:prismarine' },
+            output: [{ stack: { id: 'minecraft:prismarine_shard', count: 4 }, chance: 1.0, maxRange: 1 }],
+            id: `${id_prefix}prismarine_shard_from_prismarine`
         }
     ];
 
-    // let materials = [
-    //     { primary: 'iron', secondary: 'nickel' },
-    //     { primary: 'copper', secondary: 'gold' },
-    //     { primary: 'gold', secondary: 'copper' },
-    //     { primary: 'osmium', secondary: 'silver' },
-    //     { primary: 'iesnium', secondary: 'silver' },
-    //     { primary: 'iridium', secondary: 'osmium' },
-    //     { primary: 'lead', secondary: 'silver' },
-    //     { primary: 'silver', secondary: 'lead' },
-    //     { primary: 'nickel', secondary: 'platinum' },
-    //     { primary: 'tin', secondary: 'iron' },
-    //     { primary: 'uranium', secondary: 'lead' },
-    //     { primary: 'platinum', secondary: 'iridium' },
-    //     { primary: 'aluminum', secondary: 'aluminum' },
-    //     { primary: 'zinc', secondary: 'silver' }
-    // ];
-    // materials.forEach((material) => {
-    //     recipes.push({
-    //         input: { tag: `c:raw_materials/${material.primary}` },
-    //         output: [
-    //             {
-    //                 stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
-    //                 chance: 1.0,
-    //                 maxRange: 1
-    //             },
-    //             {
-    //                 stack: {
-    //                     id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
-    //                     count: 1
-    //                 },
-    //                 chance: 0.15,
-    //                 maxRange: 1
-    //             }
-    //         ],
-    //         id: `${id_prefix}raw_${material.primary}`
-    //     });
-    // });
+    colors.forEach((color) => {
+        recipes.push({
+            input: { item: `minecraft:${color}_wool` },
+            output: [
+                { stack: { id: 'minecraft:string', count: 2 }, chance: 1.0, maxRange: 2 },
+                { stack: { id: `minecraft:${color}_dye`, count: 1 }, chance: 0.5, maxRange: 1 }
+            ],
+            id: `${id_prefix}${color}_dye_from_wool`
+        });
+    });
+
+    const materials = [
+        { primary: 'iron', secondary: AlmostUnified.getTagTargetItem('c:dusts/iron').getId() },
+        { primary: 'copper', secondary: 'createsifter:raw_nickel_piece' },
+        { primary: 'gold', secondary: AlmostUnified.getTagTargetItem('c:dusts/gold').getId() },
+        { primary: 'lead', secondary: AlmostUnified.getTagTargetItem('c:dusts/silver').getId() },
+        { primary: 'silver', secondary: AlmostUnified.getTagTargetItem('c:dusts/lead').getId() }
+    ];
+    materials.forEach((material) => {
+        recipes.push({
+            input: { tag: `c:raw_materials/${material.primary}` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: material.secondary, count: 1 },
+                    chance: 0.15,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}raw_${material.primary}`
+        });
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:crush';

@@ -74,7 +74,7 @@ ServerEvents.tags('item', (event) => {
         void_salts: ['malum:block_of_void_salts'],
         blighted_gunk: ['malum:mass_of_blighted_gunk'],
 
-        coke: ['immersiveengineering:coke']
+        ambrosium: ['aether:ambrosium_block']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -18,6 +18,44 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const range_colors = [
+        'black',
+        'blue',
+        'light_gray',
+        'gray',
+        'red',
+        'orange',
+        'white',
+        'yellow',
+        'brown',
+        'light_blue',
+        'purple',
+        'lime'
+    ];
+
+    range_colors.forEach((color, i) => {
+        recipes.push({
+            output: {
+                id: `industrialforegoing:range_addon_tier_${i}`,
+                components: { 'titanium:augments': { Range: i } },
+                count: 1
+            },
+            input: [
+                { item: 'actuallyadditions:restonia_crystal' },
+                { item: 'actuallyadditions:restonia_crystal' },
+                { item: `minecraft:${color}_wool` },
+                { item: 'actuallyadditions:basic_coil' },
+                { item: 'actuallyadditions:basic_coil' },
+                { item: `minecraft:${color}_wool` },
+                { item: 'actuallyadditions:palis_crystal' },
+                { item: 'actuallyadditions:palis_crystal' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}range_addon_tier_${i}`
+        });
+    });
+
     experience_fluids.forEach((fluid) => {
         recipes.push({
             input: [],

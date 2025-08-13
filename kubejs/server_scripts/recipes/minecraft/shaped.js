@@ -3,12 +3,30 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'minecraft:slime_block',
-            pattern: ['AAA', 'AAA', 'AAA'],
+            output: 'minecraft:furnace',
+            pattern: ['AAA', 'A A', 'BBB'],
             key: {
-                A: 'actuallyadditions:rice_slimeball'
+                A: 'aether:holystone',
+                B: 'aether:holystone_bricks'
             },
-            id: `${id_prefix}slime_block`
+            id: `minecraft:furnace`
+        },
+        {
+            output: 'minecraft:lever',
+            pattern: ['A', 'B'],
+            key: {
+                A: '#c:rods/wooden',
+                B: 'aether:holystone'
+            },
+            id: `${id_prefix}lever`
+        },
+        {
+            output: '3x minecraft:glass_bottle',
+            pattern: ['A A', ' A '],
+            key: {
+                A: 'aether:quicksoil_glass'
+            },
+            id: `${id_prefix}glass_bottle`
         }
     ];
 

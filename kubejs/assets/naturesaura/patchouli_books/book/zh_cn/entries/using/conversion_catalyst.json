@@ -1,0 +1,12 @@
+{
+    "name": "嬗变催化器",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)自然祭坛$()对于使用$(aura-zh-cn)灌注特定物品来说很有用，但是，祭坛也能助力于将物品嬗变成另一种物品。$(br)要实现这一点，只需制作$(item)嬗变催化器$()，并将其放在祭坛周围 4 个更低的$(item)黄金石砖$()方块上，然后像平时一样放置原料。"
+        }
+    ]
+}

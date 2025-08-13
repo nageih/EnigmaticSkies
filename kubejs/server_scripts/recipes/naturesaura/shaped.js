@@ -46,6 +46,46 @@ ServerEvents.recipes((event) => {
                 B: 'naturesaura:gold_powder'
             },
             id: `${id_prefix}aura_mushroom`
+        },
+        {
+            output: 'naturesaura:moss_generator',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:essences/earth',
+                B: 'minecraft:moss_block',
+                C: 'naturesaura:infused_stone'
+            },
+            id: 'naturesaura:moss_generator'
+        },
+        {
+            output: 'naturesaura:nature_altar',
+            pattern: [' A ', 'BBB', 'CCC'],
+            key: {
+                A: '#c:gems/source',
+                B: 'minecraft:moss_block',
+                C: 'minecraft:chiseled_tuff'
+            },
+            id: `${id_prefix}nature_altar`
+        },
+        {
+            output: 'naturesaura:crushing_catalyst',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:ingots/tainted_gold',
+                B: 'naturesaura:infused_stone',
+                C: 'theurgy:crystallized_water'
+            },
+            id: `${id_prefix}crushing_catalyst`
+        },
+        {
+            output: 'naturesaura:conversion_catalyst',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:ingots/brass',
+                B: 'naturesaura:infused_stone',
+                C: 'aether:ambrosium_block'
+            },
+            id: `${id_prefix}conversion_catalyst`
         }
     ];
 

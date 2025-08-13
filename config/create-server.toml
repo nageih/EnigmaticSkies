@@ -21,16 +21,16 @@
 	bulkCutting = false
 	#.
 	#Allow supported potions to be brewed by a Mechanical Mixer + Basin.
-	allowBrewingInMixer = true
+	allowBrewingInMixer = false
 	#.
 	#Allow any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
-	allowShapelessInMixer = true
+	allowShapelessInMixer = false
 	#.
 	#Allow any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
 	allowShapedSquareInPress = true
 	#.
 	#Allow any standard crafting recipes to be processed by Mechanical Crafters.
-	allowRegularCraftingInCrafter = true
+	allowRegularCraftingInCrafter = false
 	#.
 	#The Maximum amount of ingredients that can be used to craft Firework Rockets using Mechanical Crafters.
 	# Default: 9

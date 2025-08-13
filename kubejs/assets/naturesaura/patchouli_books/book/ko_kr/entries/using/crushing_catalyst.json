@@ -1,0 +1,12 @@
+{
+    "name": "붕해 촉매제",
+    "icon": "naturesaura:crushing_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:collecting/altar)자연의 제단$()은 $(#419600)오라$()의 힘으로 특정 아이템을 주입하는 데 유용할 수 있지만, 특정 아이템을 다른 모양으로 $(thing)으깨는$()데도 사용할 수 있다.$(br)이것은 $(item)붕해 촉매제$()를 만들어 제단 주위의 4개의 하부 $(item)금빛 석재 벽돌$() 위에 올려놓은 다음, 평상시와 같이 제단 위에 재료를 올려 놓으면 이룰 수 있다."
+        }
+    ]
+}

@@ -3,14 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'pneumaticcraft:advanced_air_compressor[pneumaticcraft:upgrades={map:{"pneumaticcraft:security":1},upgrades:[{item:{count:1,id:"pneumaticcraft:security_upgrade"},slot:0}]}]',
-            pattern: ['BBB', 'B C', 'BAB'],
+            output: 'pneumaticcraft:liquid_compressor[pneumaticcraft:upgrades={map:{"pneumaticcraft:security":1},upgrades:[{item:{count:1,id:"pneumaticcraft:security_upgrade"},slot:0}]}]',
+            pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: 'pneumaticcraft:air_compressor',
-                B: '#c:ingots/compressed_iron',
-                C: 'pneumaticcraft:advanced_pressure_tube'
+                A: 'modern_industrialization:bronze_rotor',
+                B: 'modern_industrialization:bronze_tank',
+                C: 'pneumaticcraft:pressure_tube',
+                D: 'modern_industrialization:bronze_compressor',
+                E: 'pneumaticcraft:reinforced_bricks'
             },
-            id: 'pneumaticcraft:advanced_air_compressor'
+            id: 'pneumaticcraft:liquid_compressor'
         },
         {
             output: 'pneumaticcraft:advanced_liquid_compressor[pneumaticcraft:upgrades={map:{"pneumaticcraft:security":1},upgrades:[{item:{count:1,id:"pneumaticcraft:security_upgrade"},slot:0}]}]',
@@ -31,6 +33,18 @@ ServerEvents.recipes((event) => {
                 C: '#c:dusts/grains_of_infinity'
             },
             id: `${id_prefix}compressed_iron_gear`
+        },
+        {
+            output: '8x pneumaticcraft:sourdough',
+            pattern: ['FFF', 'FYF', 'FFF'],
+            key: {
+                F: '#c:flours/wheat',
+                Y: Ingredient.of({
+                    type: 'pneumaticcraft:fluid_container',
+                    fluid: { id: 'pneumaticcraft:yeast_culture', amount: 1000 }
+                })
+            },
+            id: `${id_prefix}sourdough`
         }
     ];
 

@@ -1,12 +1,12 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        tier_1: ['minecraft:honeycomb', 'the_bumblezone:honey_crystal_shards'],
-        tier_2: ['ars_nouveau:fire_essence'],
-        tier_3: ['occultism:otherworld_essence'],
-        tier_4: ['minecraft:echo_shard']
+        tier_1: ['ars_nouveau:source_berry_roll'],
+        tier_2: ['arsdelight:activated_mendosteen_jam'],
+        tier_3: ['arsdelight:mendosteen_pie'],
+        tier_4: ['arsdelight:mendosteen_chicken']
     };
 
     Object.keys(additions).forEach((tag) => {
-        event.get(`justdirethings:goo_revive_${tag}`).add(additions[tag]);
+        event.get(`justdirethings:goo_revive_${tag}`).removeAll().add(additions[tag]);
     });
 });

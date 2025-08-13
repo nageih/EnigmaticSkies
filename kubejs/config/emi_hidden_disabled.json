@@ -1,23 +1,61 @@
 {
-  "items": {
-    "hidden": [],
-    "disabled": [
-      "utilitarian:soul_snad",
-      "utilitarian:drit",
-      "utilitarian:grrass"
-    ],
-    "added": []
-  },
-  "fluids": {
-    "hidden": []
-  },
-  "gases": {
-    "hidden": []
-  },
-  "categories": {
-    "hidden": []
-  },
-  "recipes": {
-    "hidden": []
-  }
+    "items": {
+        "hidden": [],
+        "disabled": [
+            "actuallyadditions:rice",
+            "actuallyadditions:rice_seeds",
+            "actuallyadditions:vertical_digger",
+            "actuallyadditions:coal_generator",
+
+            "enderio:stirling_generator",
+
+            "geneticsresequenced:coal_generator",
+
+            "industrialforegoing:pitiful_generator",
+            "industrialforegoing:fluid_extractor",
+            "industrialforegoing:biofuel_generator",
+            "industrialforegoing:bioreactor",
+            "industrialforegoing:water_condensator",
+            "industrialforegoing:ore_laser_base",
+            "industrialforegoing:mechanical_dirt",
+            "industrialforegoing:latex_processing_unit",
+
+            "justdirethings:generatort1",
+
+            "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
+            "/modern_industrialization:.*_water_pump/",
+            "modern_industrialization:fire_clay_brick",
+            "modern_industrialization:fire_clay_dust",
+
+            "/naturesaura:dimension_rail/",
+            "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
+            "naturesaura:rf_converter",
+            "naturesaura:spawn_lamp",
+            "naturesaura:chunk_loader",
+            "naturesaura:oak_generator",
+            "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:ore_spawn\"}]",
+
+            "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
+
+            "sushigocrafting:rice",
+            "sushigocrafting:rice_seeds",
+
+            "/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/"
+        ],
+        "added": [
+            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"
+        ]
+    },
+    "fluids": {
+        "hidden": []
+    },
+    "gases": {
+        "hidden": []
+    },
+    "categories": {
+        "hidden": []
+    },
+    "recipes": {
+        "hidden": []
+    }
 }

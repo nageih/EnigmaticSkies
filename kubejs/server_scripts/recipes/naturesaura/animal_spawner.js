@@ -3,37 +3,46 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            entity: 'minecraft:rabbit',
-            ingredients: [
-                { item: 'naturesaura:birth_spirit' },
-                { item: 'minecraft:carrot' },
-                { item: 'farmersdelight:cabbage' }
-            ],
-            aura: 30000,
-            time: 40,
-            id: `naturesaura:animal_spawner/rabbit`
+            entity: 'aether:flying_cow',
+            ingredients: [{ item: 'enigmatica:flying_cow_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}flying_cow`
         },
         {
-            entity: 'minecraft:armadillo',
-            ingredients: [
-                { item: 'naturesaura:birth_spirit' },
-                { item: 'minecraft:spider_eye' },
-                { item: 'minecraft:dead_bush' }
-            ],
-            aura: 30000,
-            time: 40,
-            id: `${id_prefix}armadillo`
+            entity: 'aether:phyg',
+            ingredients: [{ item: 'enigmatica:phyg_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}phyg`
         },
         {
-            entity: 'minecraft:allay',
-            ingredients: [
-                { item: 'naturesaura:birth_spirit' },
-                { item: 'minecraft:jukebox' },
-                { item: 'minecraft:emerald' }
-            ],
-            aura: 30000,
-            time: 40,
-            id: `${id_prefix}allay`
+            entity: 'aether:sheepuff',
+            ingredients: [{ item: 'enigmatica:sheepuff_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}sheepuff`
+        },
+        {
+            entity: 'minecraft:goat',
+            ingredients: [{ item: 'enigmatica:goat_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}goat`
+        },
+        {
+            entity: 'aether:moa',
+            ingredients: [{ item: 'enigmatica:moa_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}moa`
+        },
+        {
+            entity: 'aether:aerbunny',
+            ingredients: [{ item: 'enigmatica:aerbunny_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}aerbunny`
         }
     ];
 
