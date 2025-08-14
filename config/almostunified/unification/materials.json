@@ -43,7 +43,6 @@
         "c:crops/{material}",
         "c:doughs/{material}",
         "c:flours/{material}",
-        "c:silicon",
         "c:plastics",
         "c:coal_coke"
     ],

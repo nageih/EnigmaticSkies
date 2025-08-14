@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    const materials = ['copper', 'gold', 'iron', 'zinc', 'platinum', 'silver', 'tin', 'lead', 'uranium', 'nickel'];
+    const materials = ['copper', 'gold', 'iron', 'zinc', 'platinum', 'silver', 'tin', 'lead', 'nickel'];
 
     materials.forEach((material) => {
         recipes.push({

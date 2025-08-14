@@ -14,6 +14,7 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:rice_slimeball' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
+        { id: /actuallyadditions:crushing\/.*_ore$/ },
         { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
         { id: 'actuallyadditions:crushing/block_coal' },
         { id: 'actuallyadditions:coal_generator' },
@@ -23,6 +24,13 @@ ServerEvents.recipes((event) => {
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
         { id: 'aether:swet_slime_block' },
+
+        // Applied Energistics
+        { id: /ae2:(smelting|blasting)\/silicon/ },
+
+        // Aquaculture
+        { id: 'aquaculture:gold_nugget_from_gold_fish' },
+        { id: 'aquaculture:jellyfish_to_slimeball' },
 
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
@@ -35,24 +43,27 @@ ServerEvents.recipes((event) => {
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
         { id: 'ars_elemental:wool_to_string' },
 
-        // Aquaculture
-        { id: 'aquaculture:gold_nugget_from_gold_fish' },
-        { id: 'aquaculture:jellyfish_to_slimeball' },
-
         // Create and Addons
-        { type: 'createsifter:sifting' },
-        { id: /createsifter:(crushing|milling)/ },
         { id: /create:mixing\/andesite_alloy/ },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
+        { id: /create:crushing\/raw_uranium/ },
         { id: 'create:crushing/prismarine_crystals' },
         { id: 'create:crushing/gilded_blackstone' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
         { id: 'create:crafting/materials/electron_tube' },
+        { id: /create:splashing\/crushed_raw_.*/ },
+        { id: /create:splashing\/(red_sand|gravel)/ },
+        { id: /create:smelting\/.*_ingot_from_crushed/ },
+
+        { type: 'createsifter:sifting' },
+        { id: /createsifter:(crushing|milling)/ },
+        { id: 'createsifter:shapeless/raw_uranium_piece' },
+
         { id: 'trading_floor:trading_depot' },
 
         // EnderIO
@@ -90,6 +101,11 @@ ServerEvents.recipes((event) => {
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
         { output: 'justdirethings:generatort1' },
+
+        // Malum
+        { id: /malum:create\/washing\/.*_node/ },
+        { id: /malum:create\/washing\/crushed_.*/ },
+        { id: /malum:uranium_from_node_(smelting|blasting)/ },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
@@ -130,14 +146,22 @@ ServerEvents.recipes((event) => {
         { id: `naturesaura:altar/coal` },
 
         // Occultism
+        { type: 'occultism:miner' },
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
 
         // Oritech
         { id: 'oritech:crafting/alloy/steel' },
+        { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
         { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
+        { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
+        { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
+        { id: /oritech:centrifuge.*clump/ },
+        { id: /oritech:splashing\/compat\/create/ },
+        { id: 'oritech:atomicforge/urandust' },
+        { id: /oritech:(pulverizer|grinder)\/uraniumcrystal/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
@@ -169,7 +193,8 @@ ServerEvents.recipes((event) => {
 
         // Ore Processing Removals
         { input: '#c:ores' },
-        { id: /actuallyadditions:crushing\/.*_ore$/ }
+        { input: '#c:raw_materials/uranium' },
+        { input: '#c:storage_blocks/raw_uranium' }
     ];
 
     recipes.forEach((recipe) => {
