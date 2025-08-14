@@ -94,7 +94,8 @@ ServerEvents.recipes((event) => {
             filter: [
                 { output: 'farmersdelight:stove' },
                 { output: `minecraft:hopper` },
-                { output: `utilitarian:fluid_hopper` }
+                { output: `utilitarian:fluid_hopper` },
+                { output: `minecraft:stonecutter` }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])

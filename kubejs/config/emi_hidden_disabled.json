@@ -24,8 +24,8 @@
 
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",
-            "modern_industrialization:fire_clay_brick",
             "modern_industrialization:fire_clay_dust",
+            "/modern_industrialization:(brick|brick_tiny)_dust/",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

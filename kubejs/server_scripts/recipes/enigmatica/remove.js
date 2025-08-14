@@ -93,11 +93,16 @@ ServerEvents.recipes((event) => {
 
         // Minecraft
         { id: 'minecraft:slime_block' },
+        { id: 'minecraft:brick' },
+        { id: 'minecraft:nether_brick' },
         { output: /minecraft:infested/ },
 
         // Modern Industrialization
         { type: 'modern_industrialization:forge_hammer' },
-        { output: /modern_industrialization:fire_clay_(brick|dust)/ },
+        { output: 'modern_industrialization:fire_clay_dust' },
+        { input: 'modern_industrialization:fire_clay_dust' },
+        { output: /modern_industrialization:(brick|brick_tiny)_dust/ },
+        { input: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { type: 'minecraft:crafting_shaped', output: /modern_industrialization:.*_(gear|rotor|ring)$/ },
         {
             type: 'modern_industrialization:macerator',

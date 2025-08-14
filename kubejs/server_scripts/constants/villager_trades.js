@@ -166,20 +166,28 @@ const villagerTrades = {
     // Stonecutter
     'minecraft:mason': [
         {
-            result: { id: 'modern_industrialization:fire_clay_bricks', count: 4 },
+            result: { id: 'modern_industrialization:fire_clay_brick', count: 16 },
             ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
-                { id: 'minecraft:bricks', count: { min: 8, max: 8 } }
+                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
+                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
+            ],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:brick', count: 16 },
+            ingredients: [
+                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
+                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
             ],
             level: 1
         },
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
             ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } },
                 { id: 'pneumaticcraft:ingot_iron_compressed', count: { min: 1, max: 1 } }
             ],
-            level: 1
+            level: 2
         }
     ],
     // Coffee Maker

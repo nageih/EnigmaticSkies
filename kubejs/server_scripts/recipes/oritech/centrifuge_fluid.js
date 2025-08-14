@@ -30,6 +30,24 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    event.forEachRecipe({ type: 'oritech:centrifuge_fluid' }, (r) => {
+        let recipe = JSON.parse(r.json);
+        let recipe_id = r.getId();
+
+        if (recipe.results) {
+            console.log(recipe.results[0].id);
+        }
+
+        // if (recipe_id.includes('_random_animal_')) {
+        //     recipe.item_to_use = { item: 'minecraft:egg' };
+        //     recipe.id = recipe_id;
+        // }
+
+        if (recipe.id) {
+            recipes.push(recipe);
+        }
+    });
+
     // let materials = [
     //     { primary: 'iron' },
     //     { primary: 'copper' },

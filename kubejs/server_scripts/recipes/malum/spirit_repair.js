@@ -4,13 +4,6 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             inputs: [],
-            itemIdRegex: `osmium_.+`,
-            repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/osmium`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}osmium`
-        },
-        {
-            inputs: [],
             itemIdRegex: `bronze_.+`,
             repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/bronze`).getId(), count: 2 },
             spirits: [{ type: 'earthen', count: 8 }],
@@ -28,41 +21,10 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [],
-            itemIdRegex: `refined_glowstone_.+`,
-            repairMaterial: { tag: `c:ingots/refined_glowstone`, count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}refined_glowstone`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `refined_obsidian_.+`,
-            repairMaterial: { tag: `c:ingots/refined_obsidian`, count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}refined_obsidian`
-        },
-        {
-            inputs: [],
             itemIdRegex: `compressed_iron_.+`,
             repairMaterial: { tag: `c:ingots/compressed_iron`, count: 2 },
             spirits: [{ type: 'earthen', count: 8 }],
             id: `${id_prefix}compressed_iron`
-        },
-        {
-            inputs: [
-                'immersiveengineering:pickaxe_steel',
-                'immersiveengineering:shovel_steel',
-                'immersiveengineering:axe_steel',
-                'immersiveengineering:hoe_steel',
-                'immersiveengineering:sword_steel',
-                'immersiveengineering:armor_steel_helmet',
-                'immersiveengineering:armor_steel_chestplate',
-                'immersiveengineering:armor_steel_leggings',
-                'immersiveengineering:armor_steel_boots'
-            ],
-            itemIdRegex: `steel_.+`,
-            repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/steel`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}steel`
         },
         {
             inputs: [],

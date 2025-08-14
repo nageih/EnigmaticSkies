@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             id: `naturesaura:altar/coal`
         },
         {
-            input: { item: 'mekanism:block_charcoal' },
+            input: { item: AlmostUnified.getTagTargetItem(`c:storage_blocks/charcoal`).getId() },
             output: { id: 'minecraft:coal_block' },
             aura: 36000,
             time: 6,
