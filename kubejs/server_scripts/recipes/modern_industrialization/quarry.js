@@ -14,7 +14,6 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:tin_ore', probability: 0.3 },
                 { item: 'minecraft:gold_ore', probability: 0.15 },
                 { item: 'minecraft:redstone_ore', probability: 0.2 },
-                { item: 'mekanism:osmium_ore', probability: 0.12 },
                 { item: 'create:zinc_ore', probability: 0.1 }
             ],
             id: `modern_industrialization:quarry/bronze`

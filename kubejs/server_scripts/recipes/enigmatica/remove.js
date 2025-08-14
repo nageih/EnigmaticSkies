@@ -164,7 +164,6 @@ ServerEvents.recipes((event) => {
 
         // Ore Processing Removals
         { input: '#c:ores' },
-        { id: /mekanism:processing\/.*\/from_ore/ },
         { id: /actuallyadditions:crushing\/.*_ore$/ }
     ];
 
