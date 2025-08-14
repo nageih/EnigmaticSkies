@@ -223,10 +223,6 @@
 								}
 								{
 									count: 1
-									id: "mekanism:configurator"
-								}
-								{
-									count: 1
 									id: "modern_industrialization:wrench"
 								}
 								{

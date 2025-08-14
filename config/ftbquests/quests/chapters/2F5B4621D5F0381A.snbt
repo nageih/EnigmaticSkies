@@ -8,7 +8,7 @@
 		id: "modern_industrialization:guidebook"
 	}
 	id: "2F5B4621D5F0381A"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -969,8 +969,11 @@
 				{
 					id: "1383E504554F0D3C"
 					item: {
+						components: {
+							"ftbquests:missing_item": "mekanism:advanced_fluid_tank"
+						}
 						count: 1
-						id: "mekanism:advanced_fluid_tank"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

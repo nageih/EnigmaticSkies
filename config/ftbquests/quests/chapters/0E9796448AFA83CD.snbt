@@ -37,40 +37,6 @@
 		{
 			dependencies: ["0B04BC5F88746182"]
 			icon: {
-				id: "mekanism:qio_drive_array"
-			}
-			id: "14D5764532C5EEB0"
-			rewards: [{
-				id: "062782F1D1988482"
-				item: {
-					count: 1
-					id: "mekanism:portable_qio_dashboard"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "28C8AF3BACD95F6C"
-					item: { count: 1, id: "mekanism:qio_drive_array" }
-					type: "item"
-				}
-				{
-					id: "324C5A272AC9F65C"
-					item: { count: 1, id: "mekanism:qio_drive_base" }
-					type: "item"
-				}
-				{
-					id: "26B4C221BBC36BD7"
-					item: { count: 1, id: "mekanism:qio_dashboard" }
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0B04BC5F88746182"]
-			icon: {
 				id: "occultism:storage_remote"
 			}
 			id: "684A0E52D7BAC37C"
@@ -94,7 +60,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -111,25 +77,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["5047A6F1EF472407"]
-			id: "526FB82B8D47EAA4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45E40CB67A330A02"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "6F72D2074543BF23"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_bin)item(mekanism:advanced_bin)item(mekanism:elite_bin)item(mekanism:ultimate_bin))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["4B66ECA9D6797B80"]
@@ -184,72 +133,6 @@
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
-			id: "40EECBD3D00B9575"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "05E5542431305DC5"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0164AF75B5EA3F49"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_fluid_tank)item(mekanism:advanced_fluid_tank)item(mekanism:elite_fluid_tank)item(mekanism:ultimate_fluid_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0FCC51B49080984E"]
-			icon: {
-				id: "mekanism:dynamic_tank"
-			}
-			id: "7501455F3C24E4E9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1EEF4FA3315DC3D8"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "43647F668D94E838"
-					item: { count: 1, id: "mekanism:dynamic_tank" }
-					type: "item"
-				}
-				{
-					id: "38526FE1D67D08FE"
-					item: { count: 1, id: "mekanism:dynamic_valve" }
-					type: "item"
-				}
-				{
-					id: "1C99654CCEE7228A"
-					item: { count: 1, id: "mekanism:structural_glass" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0FCC51B49080984E"]
-			id: "4333255C930D2BE0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CA59DC909DEB58A"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "213012F4279A21AF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_chemical_tank)item(mekanism:advanced_chemical_tank)item(mekanism:elite_chemical_tank)item(mekanism:ultimate_chemical_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0FCC51B49080984E"]
 			icon: {
 				id: "modern_industrialization:large_tank"
 			}
@@ -284,7 +167,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -301,7 +184,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:tanks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -318,7 +201,7 @@
 				item: { count: 1, id: "modern_industrialization:configurable_tank" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -335,7 +218,7 @@
 				item: { count: 1, id: "modern_industrialization:configurable_chest" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -353,57 +236,6 @@
 				type: "dimension"
 			}]
 			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "7FEA11A88316FE0C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24BBA39EC036913D"
-				table_id: 7812912145422412138L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "2E84D0BE1079BF3C"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "69CCA30AB383ACCD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0504205962B31A7D"
-				table_id: 7812912145422412138L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "437A0173972D42B6"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "56D8B0E6FD8CF048"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "46C24E71045C9823"
-				table_id: 23658154196454858L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "695AC45D6E273032"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_cell_starter)item(powah:energy_cell_basic)item(powah:energy_cell_hardened)item(powah:energy_cell_blazing)item(powah:energy_cell_niotic)item(powah:energy_cell_spirited)item(powah:energy_cell_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -425,81 +257,14 @@
 		}
 		{
 			dependencies: ["0230942DF53BB9E5"]
-			id: "6E4A0A33DB3C2B24"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "142292BC12A0957F"
-				table_id: 7812912145422412138L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0705B5A924827F51"
-				item: { count: 1, id: "mekanism:chargepad" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0230942DF53BB9E5"]
-			id: "225A626E79D7165F"
-			tasks: [{
-				id: "5B601A86609CEDFF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_hopper_starter)item(powah:energy_hopper_basic)item(powah:energy_hopper_hardened)item(powah:energy_hopper_blazing)item(powah:energy_hopper_niotic)item(powah:energy_hopper_spirited)item(powah:energy_hopper_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0230942DF53BB9E5"]
 			id: "11FE0DE653577AFB"
 			tasks: [{
 				id: "57966CE2447E26C4"
 				item: { count: 1, id: "charginggadgets:charging_station" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["0230942DF53BB9E5"]
-			id: "14688BF9C4B5766C"
-			rewards: [{
-				id: "7D426557F20C49C7"
-				item: {
-					components: {
-						"ftbquests:missing_item": "powah:binding_card"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "700A9968FA0DA65E"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:player_transmitter_starter)item(powah:player_transmitter_basic)item(powah:player_transmitter_hardened)item(powah:player_transmitter_blazing)item(powah:player_transmitter_niotic)item(powah:player_transmitter_spirited)item(powah:player_transmitter_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "4C2A04C8A81DE383"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CD92809CDB4AF19"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "7A9E6782E73FF106"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["5047A6F1EF472407"]
@@ -515,7 +280,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:barrels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -559,7 +324,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -578,7 +343,7 @@
 				item: { count: 1, id: "prettypipes:item_terminal" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -607,7 +372,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -626,8 +391,30 @@
 				item: { count: 1, id: "ars_nouveau:storage_lectern" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2F898C0C2DF380AE"]
+			id: "32BB0DF03AB7B420"
+			tasks: [{
+				id: "6BF66CF4AB623802"
+				item: { count: 1, id: "oritech:small_storage_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F898C0C2DF380AE"]
+			id: "7E3C827209F17CCA"
+			tasks: [{
+				id: "0E3075B2C03F62ED"
+				item: { count: 1, id: "oritech:large_storage_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
 		}
 	]
 }
