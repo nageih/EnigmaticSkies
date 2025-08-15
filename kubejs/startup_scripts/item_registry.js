@@ -1,5 +1,25 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
+    const metals = [
+        // 'aluminum',
+        // 'copper',
+        // 'gold',
+        // 'iesnium',
+        // 'iridium',
+        // 'iron',
+        // 'lead',
+        // 'nickel',
+        // 'platinum',
+        // 'silver',
+        // 'tin',
+        // 'uranium',
+        'zinc'
+    ];
+
+    metals.forEach((metal) => {
+        event.create(`emendatusenigmatica:${metal}_dust`).texture(`emendatusenigmatica:item/${metal}_dust`);
+    });
+
     const delivery_bags = [
         { name: `Dumpling Drop` },
         { name: `Great Eggspectations` },

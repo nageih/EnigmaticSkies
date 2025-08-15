@@ -9,10 +9,11 @@ ServerEvents.recipes((event) => {
         // }
 
         // Actually Additions
+        { output: 'actuallyadditions:rice_slimeball' },
         { type: 'actuallyadditions:mining_lens' },
         { type: 'actuallyadditions:pressing' },
-        { output: 'actuallyadditions:rice_slimeball' },
         { id: 'actuallyadditions:lens_of_the_miner' },
+        { id: 'actuallyadditions:lens_of_the_killer' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: /actuallyadditions:crushing\/.*_ore$/ },
         { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
@@ -71,6 +72,7 @@ ServerEvents.recipes((event) => {
         { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
+        { id: 'enderio:sag_milling/flower_pot' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -147,6 +149,8 @@ ServerEvents.recipes((event) => {
 
         // Occultism
         { type: 'occultism:miner' },
+        { type: 'occultism:crushing' },
+        { type: 'occultism:crystallize' },
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
 
