@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
             output: 'naturesaura:crushing_catalyst',
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:ingots/tainted_gold',
+                A: '#c:ingots/infused_iron',
                 B: 'naturesaura:infused_stone',
                 C: 'theurgy:crystallized_water'
             },
@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
             output: 'naturesaura:conversion_catalyst',
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:ingots/brass',
+                A: '#c:ingots/infused_iron',
                 B: 'naturesaura:infused_stone',
                 C: 'aether:ambrosium_block'
             },

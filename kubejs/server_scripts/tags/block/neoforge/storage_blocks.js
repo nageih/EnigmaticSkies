@@ -11,23 +11,10 @@ ServerEvents.tags('block', (event) => {
         voidflame: ['justdirethings:coalblock_t3'],
         eclipse_ember: ['justdirethings:coalblock_t4'],
 
-        uraninite: ['powah:uraninite_block'],
-        energized_steel: ['powah:energized_steel_block'],
-        blazing: ['powah:blazing_crystal_block'],
-        niotic: ['powah:niotic_crystal_block'],
-        spirited: ['powah:spirited_crystal_block'],
-        nitro: ['powah:nitro_crystal_block'],
-
-        uranium: ['bigreactors:yellorium_block'],
-        raw_uranium: ['bigreactors:raw_yellorium_block'],
-        plutonium: ['bigreactors:blutonium_block'],
-
         infused_iron: ['naturesaura:infused_iron_block'],
         tainted_gold: ['naturesaura:tainted_gold_block'],
         sky: ['naturesaura:sky_ingot_block'],
         depth: ['naturesaura:depth_ingot_block'],
-
-        dark: ['evilcraft:dark_block'],
 
         black_quartz: ['actuallyadditions:black_quartz_block'],
 
@@ -72,7 +59,20 @@ ServerEvents.tags('block', (event) => {
         void_salts: ['malum:block_of_void_salts'],
         blighted_gunk: ['malum:mass_of_blighted_gunk'],
 
-        coke: ['immersiveengineering:coke']
+        ambrosium: ['aether:ambrosium_block'],
+
+        restonia: ['actuallyadditions:restonia_crystal_block'],
+        palis: ['actuallyadditions:palis_crystal_block'],
+        diamatine: ['actuallyadditions:diamatine_crystal_block'],
+        void: ['actuallyadditions:void_crystal_block'],
+        emeradic: ['actuallyadditions:emeradic_crystal_block'],
+        enori: ['actuallyadditions:enori_crystal_block'],
+        empowered_restonia: ['actuallyadditions:empowered_restonia_crystal_block'],
+        empowered_palis: ['actuallyadditions:empowered_palis_crystal_block'],
+        empowered_diamatine: ['actuallyadditions:empowered_diamatine_crystal_block'],
+        empowered_void: ['actuallyadditions:empowered_void_crystal_block'],
+        empowered_emeradic: ['actuallyadditions:empowered_emeradic_crystal_block'],
+        empowered_enori: ['actuallyadditions:empowered_enori_crystal_block']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -26,6 +26,7 @@
 
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",
+            "/extended_industrialization:.*_alloy_smelter/",
             "modern_industrialization:fire_clay_dust",
             "/modern_industrialization:(brick|brick_tiny)_dust/",
 

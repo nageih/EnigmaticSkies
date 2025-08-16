@@ -27,6 +27,15 @@ ServerEvents.recipes((event) => {
                 A: 'aether:quicksoil_glass'
             },
             id: `${id_prefix}glass_bottle`
+        },
+        {
+            output: '3x minecraft:paper',
+            pattern: ['AA', 'AB'],
+            key: {
+                A: 'modern_industrialization:wood_pulp',
+                B: '#c:buckets/water'
+            },
+            id: `${id_prefix}paper`
         }
     ];
 

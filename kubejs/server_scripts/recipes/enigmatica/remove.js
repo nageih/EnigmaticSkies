@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:rice_slimeball' },
         { type: 'actuallyadditions:mining_lens' },
         { type: 'actuallyadditions:pressing' },
+        { type: 'actuallyadditions:crushing' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: 'actuallyadditions:lens_of_the_killer' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
@@ -45,7 +46,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_elemental:wool_to_string' },
 
         // Create and Addons
-        { id: /create:mixing\/andesite_alloy/ },
+        { id: /create:mixing\/(andesite_alloy|brass_ingot)/ },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
@@ -73,6 +74,13 @@ ServerEvents.recipes((event) => {
         { output: 'enderio:stirling_generator' },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
+        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
+        {
+            id: /enderio:alloy_smelting\/(copper|energetic|vibrant|redstone|pulsating|conductive)_alloy_ingot/
+        },
+        {
+            id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/
+        },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -113,9 +121,10 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:slime_block' },
         { id: 'minecraft:brick' },
         { id: 'minecraft:nether_brick' },
+        { id: 'minecraft:netherite_ingot' },
         { output: /minecraft:infested/ },
 
-        // Modern Industrialization
+        // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
         { output: 'modern_industrialization:fire_clay_dust' },
         { input: 'modern_industrialization:fire_clay_dust' },
@@ -128,7 +137,14 @@ ServerEvents.recipes((event) => {
         },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
         { output: `modern_industrialization:bronze_compressor` },
+        { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { output: /modern_industrialization:.*_water_pump/ },
+        { output: /extended_industrialization:.*_alloy_smelter/ },
+        {
+            type: 'modern_industrialization:mixer',
+            output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
+        },
+        { type: 'extended_industrialization:alloy_smelter' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -139,6 +155,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:spawn_lamp' },
         { id: 'naturesaura:chunk_loader' },
         { id: 'naturesaura:oak_generator' },
+        { id: 'naturesaura:depth_ingot_creation' },
         { id: 'naturesaura:tree_ritual/nature_altar' },
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
         { id: 'naturesaura:tree_ritual/conversion_catalyst' },
@@ -155,6 +172,7 @@ ServerEvents.recipes((event) => {
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
 
         // Oritech
+        { type: 'oritech:foundry' },
         { id: 'oritech:crafting/alloy/steel' },
         { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
@@ -166,6 +184,8 @@ ServerEvents.recipes((event) => {
         { id: /oritech:splashing\/compat\/create/ },
         { id: 'oritech:atomicforge/urandust' },
         { id: /oritech:(pulverizer|grinder)\/uraniumcrystal/ },
+        { id: /oritech:mixing\/compat\/create/ },
+        { id: /oritech:compat\/enderio\/alloy/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
@@ -180,6 +200,9 @@ ServerEvents.recipes((event) => {
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
+
+        // Tempad
+        { id: 'tempad:time_steel_create' },
 
         // Theurgy
         { type: 'theurgy:digestion' },

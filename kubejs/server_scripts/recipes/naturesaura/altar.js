@@ -33,6 +33,7 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'oritech:clay_catalyst_beads' },
             output: { id: 'actuallyadditions:black_quartz' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 7500,
             time: 2,
             id: `${id_prefix}black_quartz`
@@ -51,14 +52,6 @@ ServerEvents.recipes((event) => {
             aura: 150000,
             time: 30,
             id: `${id_prefix}ruby`
-        },
-        {
-            input: { item: 'minecraft:glow_berries' },
-            output: { id: 'minecraft:glowstone_dust', count: 2 },
-            catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 7500,
-            time: 2,
-            id: `${id_prefix}glowstone_dust_from_glow_berries`
         }
     ];
 
