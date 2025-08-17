@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
                 { output: 'farmersdelight:stove' },
                 { output: `minecraft:hopper` },
                 { output: `utilitarian:fluid_hopper` },
-                { output: `minecraft:stonecutter` }
+                { output: `minecraft:smithing_table` }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
@@ -148,7 +148,6 @@ ServerEvents.recipes((event) => {
                 { output: `minecraft:dispenser` },
                 { output: `minecraft:dropper` },
                 { output: `minecraft:lever` },
-                { output: `minecraft:brewing_stand` },
                 { output: `supplementaries:turn_table` },
                 { output: `supplementaries:relayer` },
                 { output: `naturesaura:placer` },
@@ -162,7 +161,6 @@ ServerEvents.recipes((event) => {
             filter: [
                 { output: /minecraft:.*copper_bulb/ },
                 { output: 'ars_nouveau:source_lamp' },
-                { output: 'minecraft:brewing_stand' },
                 { output: 'modularrouters:speed_upgrade' }
             ],
             to_replace: 'minecraft:blaze_rod',

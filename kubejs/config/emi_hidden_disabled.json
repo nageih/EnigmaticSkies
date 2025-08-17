@@ -38,6 +38,8 @@
             "naturesaura:oak_generator",
             "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:ore_spawn\"}]",
 
+            "/oritech:(nickel|platinum|iron|copper|gold)_gem/ ",
+
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
 
             "sushigocrafting:rice",

@@ -31,11 +31,11 @@ ServerEvents.recipes((event) => {
     });
 
     const materials = [
-        { primary: 'nickel', secondary: AlmostUnified.getTagTargetItem(`c:dusts/silicon`).getId() },
-        { primary: 'zinc', secondary: AlmostUnified.getTagTargetItem(`c:nuggets/lead`).getId() },
-        { primary: 'copper', secondary: AlmostUnified.getTagTargetItem(`c:nuggets/silver`).getId() },
+        { primary: 'nickel', secondary: 'oritech:clay_catalyst_beads' },
+        { primary: 'zinc', secondary: 'oritech:raw_silicon' },
+        { primary: 'copper', secondary: 'createsifter:raw_silver_piece' },
         { primary: 'gold', secondary: AlmostUnified.getTagTargetItem(`c:dusts/salt`).getId() },
-        { primary: 'iron', secondary: AlmostUnified.getTagTargetItem(`c:nuggets/tin`).getId() }
+        { primary: 'iron', secondary: 'createsifter:raw_tin_piece' }
     ];
 
     materials.forEach((material) => {
@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
                 ingredients: [{ tag: `c:clumps/${material.primary}` }],
                 results: [
                     { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.primary}`).getId(), count: 18 },
-                    { id: material.secondary, count: 4 }
+                    { id: material.secondary, count: 2 }
                 ],
                 time: 150,
                 id: `${id_prefix}clump_water_${material.primary}`
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
                 ingredients: [{ tag: `c:clumps/${material.primary}` }],
                 results: [
                     { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.primary}`).getId(), count: 27 },
-                    { id: material.secondary, count: 6 }
+                    { id: material.secondary, count: 3 }
                 ],
                 time: 150,
                 id: `${id_prefix}clump_acid_${material.primary}`

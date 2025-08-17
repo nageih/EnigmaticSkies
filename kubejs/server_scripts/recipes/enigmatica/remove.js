@@ -122,7 +122,10 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:brick' },
         { id: 'minecraft:nether_brick' },
         { id: 'minecraft:netherite_ingot' },
+        { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
+        { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone)/ },
+        { output: /minecraft:(composter|barrel|stonecutter|lectern|brewing_stand|cartography_table)/ },
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
@@ -174,6 +177,7 @@ ServerEvents.recipes((event) => {
         // Oritech
         { type: 'oritech:foundry' },
         { id: 'oritech:crafting/alloy/steel' },
+        { id: 'oritech:crafting/claybeads' },
         { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
@@ -186,6 +190,8 @@ ServerEvents.recipes((event) => {
         { id: /oritech:(pulverizer|grinder)\/uraniumcrystal/ },
         { id: /oritech:mixing\/compat\/create/ },
         { id: /oritech:compat\/enderio\/alloy/ },
+        { input: /oritech:(nickel|platinum|iron|copper|gold)_gem/ },
+        { id: /oritech:atomicforge\/dust\/(nickel|platinum|iron|copper|gold)/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },

@@ -2,6 +2,63 @@
 
 // Villagers have 2 trade slots per level and 5 total levels.
 const villagerTrades = {
+    // Smithing Table
+    'minecraft:toolsmith': [
+        {
+            result: { id: 'minecraft:composter', count: 1 },
+            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:furnace', count: 1 },
+            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'minecraft:lectern', count: 1 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:cartography_table', count: 1 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'minecraft:smoker', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:grindstone', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'minecraft:cauldron', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:brewing_stand', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'minecraft:blast_furnace', count: 1 },
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            level: 5
+        },
+        {
+            result: { id: 'minecraft:stonecutter', count: 1 },
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            level: 5
+        }
+    ],
     // Composter
     'minecraft:farmer': [
         {
