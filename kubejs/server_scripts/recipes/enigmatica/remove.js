@@ -177,7 +177,6 @@ ServerEvents.recipes((event) => {
         // Oritech
         { type: 'oritech:foundry' },
         { id: 'oritech:crafting/alloy/steel' },
-        { id: 'oritech:crafting/claybeads' },
         { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
