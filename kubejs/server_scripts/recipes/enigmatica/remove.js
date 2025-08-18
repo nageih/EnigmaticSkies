@@ -46,13 +46,15 @@ ServerEvents.recipes((event) => {
         { id: 'ars_elemental:wool_to_string' },
 
         // Create and Addons
+
+        { id: /create:crushing\/raw_/ },
         { id: /create:mixing\/(andesite_alloy|brass_ingot)/ },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
+        { id: 'create:crafting/appliances/chain_from_zinc' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
-        { id: /create:crushing\/raw_uranium/ },
         { id: 'create:crushing/prismarine_crystals' },
         { id: 'create:crushing/gilded_blackstone' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
@@ -74,6 +76,7 @@ ServerEvents.recipes((event) => {
         { output: 'enderio:stirling_generator' },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
+        { id: /enderio:sag_milling\/raw_/ },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         {
             id: /enderio:alloy_smelting\/(copper|energetic|vibrant|redstone|pulsating|conductive)_alloy_ingot/
@@ -116,6 +119,7 @@ ServerEvents.recipes((event) => {
         { id: /malum:create\/washing\/.*_node/ },
         { id: /malum:create\/washing\/crushed_.*/ },
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
+        { id: /malum:create\/crushing\/ore/ },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
@@ -138,6 +142,8 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:macerator',
             input: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/
         },
+        { id: /modern_industrialization:materials\/.*\/macerator\/(raw_metal|crushed_dust)/ },
+        { id: /modern_industrialization:materials\/macerator\/.*crushed_to_dust/ },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
         { output: `modern_industrialization:bronze_compressor` },
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
@@ -147,6 +153,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:mixer',
             output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
         },
+
         { type: 'extended_industrialization:alloy_smelter' },
 
         // Nature's Aura
@@ -176,7 +183,12 @@ ServerEvents.recipes((event) => {
 
         // Oritech
         { type: 'oritech:foundry' },
+        { output: 'oritech:foundry_block' },
+        { type: 'oritech:pulverizer' },
+        { output: 'oritech:pulverizer_block' },
         { id: 'oritech:crafting/alloy/steel' },
+        { id: 'oritech:crafting/claybeads' },
+        { id: 'oritech:crafting/alloy/rawsilicon' },
         { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
@@ -186,11 +198,13 @@ ServerEvents.recipes((event) => {
         { id: /oritech:centrifuge.*clump/ },
         { id: /oritech:splashing\/compat\/create/ },
         { id: 'oritech:atomicforge/urandust' },
-        { id: /oritech:(pulverizer|grinder)\/uraniumcrystal/ },
+        { id: /oritech:grinder\/uraniumcrystal/ },
         { id: /oritech:mixing\/compat\/create/ },
         { id: /oritech:compat\/enderio\/alloy/ },
         { input: /oritech:(nickel|platinum|iron|copper|gold)_gem/ },
         { id: /oritech:atomicforge\/dust\/(nickel|platinum|iron|copper|gold)/ },
+        { id: /oritech:grinder\/raw\/(nickel|platinum|iron|copper|gold)/ },
+        { id: /oritech:(nickel|platinum|iron|copper|gold)_clump/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },

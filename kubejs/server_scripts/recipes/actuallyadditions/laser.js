@@ -57,16 +57,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}pearlescent_froglight`
         },
         {
-            ingredient: { item: AlmostUnified.getTagTargetItem('c:storage_blocks/bronze').getId() },
-            result: { id: 'aquaculture:neptunium_block' },
-            energy: 50000,
-            id: `${id_prefix}neptunium_block`
+            ingredient: { item: 'aquaculture:neptunium_nugget' },
+            result: { id: AlmostUnified.getTagTargetItem('c:nuggets/brass').getId() },
+            energy: 2000,
+            id: `${id_prefix}brass_nugget_from_neptunium`
         },
         {
-            ingredient: { item: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId() },
-            result: { id: 'aquaculture:neptunium_ingot' },
-            energy: 50000,
-            id: `${id_prefix}neptunium_ingot`
+            ingredient: { item: 'aquaculture:neptunium_ingot' },
+            result: { id: AlmostUnified.getTagTargetItem('c:ingots/brass').getId() },
+            energy: 2000 * 8,
+            id: `${id_prefix}brass_ingot_from_neptunium`
+        },
+        {
+            ingredient: { item: 'aquaculture:neptunium_block' },
+            result: { id: AlmostUnified.getTagTargetItem('c:storage_blocks/brass').getId() },
+            energy: 2000 * 8 * 8,
+            id: `${id_prefix}brass_block_from_neptunium`
         }
     ];
 

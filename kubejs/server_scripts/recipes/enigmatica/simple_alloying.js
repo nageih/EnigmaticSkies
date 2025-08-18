@@ -12,36 +12,46 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `darksteel_ingot_from_steel`
         },
-        {
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 4 },
-            inputs: [
-                { tag: 'c:ingots/tin', count: 1 },
-                { tag: 'c:ingots/copper', count: 3 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `bronze_ingot`
-        },
-        {
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
-            inputs: [
-                { tag: 'c:ingots/gold', count: 1 },
-                { tag: 'c:ingots/silver', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `electrum_ingot`
-        },
-        {
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/invar').getId(), count: 3 },
-            inputs: [
-                { tag: 'c:ingots/nickel', count: 1 },
-                { tag: 'c:ingots/iron', count: 2 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `invar_ingot`
-        },
+        // {
+        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 4 },
+        //     inputs: [
+        //         { tag: 'c:ingots/tin', count: 1 },
+        //         { tag: 'c:ingots/copper', count: 3 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `bronze_ingot`
+        // },
+        // {
+        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
+        //     inputs: [
+        //         { tag: 'c:ingots/gold', count: 1 },
+        //         { tag: 'c:ingots/silver', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `electrum_ingot`
+        // },
+        // {
+        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/invar').getId(), count: 3 },
+        //     inputs: [
+        //         { tag: 'c:ingots/nickel', count: 1 },
+        //         { tag: 'c:ingots/iron', count: 2 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `invar_ingot`
+        // },
+        // {
+        //     output: { id: AlmostUnified.getTagTargetItem(`c:ingots/brass`).getId(), count: 2 },
+        //     inputs: [
+        //         { tag: 'c:ingots/zinc', count: 1 },
+        //         { tag: 'c:ingots/copper', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `brass_ingot`
+        // },
         {
             output: { id: 'naturesaura:depth_ingot', count: 1 },
             inputs: [
@@ -62,16 +72,6 @@ ServerEvents.recipes((event) => {
             tier: 2,
             exclusions: [],
             id_suffix: `netherite_ingot`
-        },
-        {
-            output: { id: AlmostUnified.getTagTargetItem(`c:ingots/brass`).getId(), count: 2 },
-            inputs: [
-                { tag: 'c:ingots/zinc', count: 1 },
-                { tag: 'c:ingots/copper', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `brass_ingot`
         },
         {
             output: { id: 'create:andesite_alloy', count: 1 },

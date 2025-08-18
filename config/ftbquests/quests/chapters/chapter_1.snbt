@@ -1343,16 +1343,6 @@
 			id: "7E2295CDDF92E34F"
 			tasks: [
 				{
-					id: "2CC12ADEC458B5AB"
-					item: { count: 1, id: "createsifter:raw_zinc_piece" }
-					type: "item"
-				}
-				{
-					id: "538D27675AA3E42F"
-					item: { count: 1, id: "createsifter:raw_tin_piece" }
-					type: "item"
-				}
-				{
 					id: "012FE5503155C46E"
 					item: { count: 1, id: "ae2:certus_quartz_crystal" }
 					type: "item"
@@ -1360,6 +1350,11 @@
 				{
 					id: "5B59C9EFD07B0145"
 					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "0E131249060F3712"
+					item: { count: 1, id: "aquaculture:neptunium_nugget" }
 					type: "item"
 				}
 			]

@@ -30,41 +30,6 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    const materials = [
-        { primary: 'nickel', secondary: 'oritech:clay_catalyst_beads' },
-        { primary: 'zinc', secondary: 'oritech:raw_silicon' },
-        { primary: 'copper', secondary: 'createsifter:raw_silver_piece' },
-        { primary: 'gold', secondary: AlmostUnified.getTagTargetItem(`c:dusts/salt`).getId() },
-        { primary: 'iron', secondary: 'createsifter:raw_tin_piece' }
-    ];
-
-    materials.forEach((material) => {
-        recipes.push(
-            {
-                fluidInput: { fluid: 'minecraft:water', amount: 1000 },
-                fluidOutputs: [],
-                ingredients: [{ tag: `c:clumps/${material.primary}` }],
-                results: [
-                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.primary}`).getId(), count: 18 },
-                    { id: material.secondary, count: 2 }
-                ],
-                time: 150,
-                id: `${id_prefix}clump_water_${material.primary}`
-            },
-            {
-                fluidInput: { fluid: 'oritech:still_sulfuric_acid', amount: 1000 },
-                fluidOutputs: [{ fluid: 'oritech:still_mineral_slurry', amount: 250 }],
-                ingredients: [{ tag: `c:clumps/${material.primary}` }],
-                results: [
-                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.primary}`).getId(), count: 27 },
-                    { id: material.secondary, count: 3 }
-                ],
-                time: 150,
-                id: `${id_prefix}clump_acid_${material.primary}`
-            }
-        );
-    });
-
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:centrifuge_fluid';
         event.custom(recipe).id(recipe.id);

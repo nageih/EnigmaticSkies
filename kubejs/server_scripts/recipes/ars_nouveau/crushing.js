@@ -72,29 +72,6 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    const materials = [
-        { primary: 'iron', secondary: AlmostUnified.getTagTargetItem('c:dusts/iron').getId() },
-        { primary: 'copper', secondary: 'createsifter:raw_nickel_piece' },
-        { primary: 'gold', secondary: AlmostUnified.getTagTargetItem('c:dusts/gold').getId() },
-        { primary: 'nickel', secondary: AlmostUnified.getTagTargetItem('c:dusts/nickel').getId() },
-        { primary: 'zinc', secondary: AlmostUnified.getTagTargetItem('c:dusts/zinc').getId() }
-    ];
-
-    materials.forEach((material) => {
-        recipes.push({
-            input: { tag: `c:raw_materials/${material.primary}` },
-            output: [
-                {
-                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
-                    chance: 1.0,
-                    maxRange: 1
-                },
-                { stack: { id: material.secondary, count: 1 }, chance: 0.15, maxRange: 1 }
-            ],
-            id: `${id_prefix}raw_${material.primary}`
-        });
-    });
-
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:crush';
         event.custom(recipe).id(recipe.id);

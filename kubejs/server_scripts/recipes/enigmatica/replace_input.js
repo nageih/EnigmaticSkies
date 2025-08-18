@@ -13,22 +13,22 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:ink_sac',
             replace_with: '#c:dyes/black'
         },
-        {
-            filter: [
-                { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
-                { mod: 'ae2netanalyser' },
-                { mod: 'aquaculture', output: /tackle_box/ },
-                { mod: 'prettypipes' },
-                { mod: 'ppfluids' }
-            ],
-            to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
-        },
-        {
-            filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:storage_blocks/iron',
-            replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
-        },
+        // {
+        //     filter: [
+        //         { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
+        //         { mod: 'ae2netanalyser' },
+        //         { mod: 'aquaculture', output: /tackle_box/ },
+        //         { mod: 'prettypipes' },
+        //         { mod: 'ppfluids' }
+        //     ],
+        //     to_replace: '#c:ingots/iron',
+        //     replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
+        // },
+        // {
+        //     filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
+        //     to_replace: '#c:storage_blocks/iron',
+        //     replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
+        // },
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
@@ -216,6 +216,16 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `industrialforegoing:machine_frame_pity`,
             replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:pulverizer_block`,
+            replace_with: Ingredient.of(['oritech:flux_gate'])
+        },
+        {
+            filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
+            to_replace: `#c:ingots/zinc`,
+            replace_with: Ingredient.of(['#c:ingots/iron'])
         }
     ];
 

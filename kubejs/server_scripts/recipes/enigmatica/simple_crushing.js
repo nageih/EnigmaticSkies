@@ -618,6 +618,39 @@ ServerEvents.recipes((event) => {
             ori: { time: { pulverizer: 120, grinder: 60 } },
             create: { time: { crushing: 200, milling: 100 } },
             id_suffix: 'flux_dust'
+        },
+        {
+            input: { tag: 'c:sandstone/uncolored_blocks' },
+            outputs: [{ id: 'minecraft:sand', count: 4 }],
+            multiply: 'none',
+            exclusions: ['enderio'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            id_suffix: 'sand_from_sandstone'
+        },
+        {
+            input: { tag: 'c:sandstone/red_blocks' },
+            outputs: [{ id: 'minecraft:red_sand', count: 4 }],
+            multiply: 'none',
+            exclusions: ['enderio'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            id_suffix: 'red_sand_from_red_sandstone'
+        },
+        {
+            input: { tag: 'c:gravels' },
+            outputs: [{ id: 'minecraft:sand', count: 1 }],
+            multiply: 'none',
+            exclusions: ['enderio'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            id_suffix: 'sand_from_gravel'
         }
     ];
 
@@ -663,11 +696,13 @@ ServerEvents.recipes((event) => {
             let r = {
                 type: 'ars_nouveau:crush',
                 input: recipe.input,
-                output: [{ stack: recipe.outputs[0], chance: 1.0, maxRange: 1 }]
+                output: []
             };
-            if (recipe.outputs[1]) {
-                r.output.push({ stack: recipe.outputs[1], chance: 1.0, maxRange: 1 });
-            }
+
+            recipe.outputs.forEach((output) => {
+                r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
+            });
+
             event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
         }
 
@@ -676,25 +711,16 @@ ServerEvents.recipes((event) => {
             let r = {
                 type: 'enderio:sag_milling',
                 input: recipe.input,
-                outputs: [{ item: recipe.outputs[0] }],
+                outputs: [],
                 multiply: 'none',
                 bonus: recipe.multiply,
                 energy: recipe.fe
             };
-            if (recipe.outputs[1]) {
-                r.outputs.push({ item: recipe.outputs[1] });
-            }
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
-        }
 
-        // Oritech Pulverizer
-        if (!recipe.exclusions.includes('oritech:pulverizer')) {
-            let r = {
-                type: 'oritech:pulverizer',
-                ingredients: [recipe.input],
-                results: recipe.outputs,
-                time: recipe.ori.time.pulverizer
-            };
+            recipe.outputs.forEach((output) => {
+                r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
+            });
+
             event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
         }
 
