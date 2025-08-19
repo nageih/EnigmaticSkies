@@ -170,7 +170,7 @@
 	# ⌄ 
 	# Default: 0.75
 	# Range: 0.0 ~ 1.0
-	"Thermal Source Strength" = 1.0
+	"Thermal Source Strength" = 0.95
 	#─────────────────────────────────────────────────────────────────────────
 	# List of additional blocks that thermal sources can spread through
 	# Use this list if thermal sources aren't spreading through particular blocks that they should
