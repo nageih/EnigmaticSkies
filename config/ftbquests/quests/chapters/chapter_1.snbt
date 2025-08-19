@@ -511,15 +511,25 @@
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
 			id: "130A2701B96A941D"
-			rewards: [{
-				count: 16
-				id: "4803208E9BC307F2"
-				item: {
-					count: 1
-					id: "minecraft:charcoal"
+			min_width: 250
+			rewards: [
+				{
+					id: "4803208E9BC307F2"
+					item: {
+						count: 1
+						id: "justdirethings:coal_t1"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "135D7483AC80CDCB"
+					item: {
+						count: 1
+						id: "theurgy:crystallized_water"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "cold_sweat:hearth"

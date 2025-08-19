@@ -1,4 +1,7 @@
 //priority: 1005
+function getID(name) {
+    return name.toLowerCase().replace(/[^a-z]+/g, '_');
+}
 
 function getPreferredItemInTag(tag) {
     return (

@@ -170,7 +170,7 @@
 	# ⌄ 
 	# Default: 0.75
 	# Range: 0.0 ~ 1.0
-	"Thermal Source Strength" = 0.75
+	"Thermal Source Strength" = 1.0
 	#─────────────────────────────────────────────────────────────────────────
 	# List of additional blocks that thermal sources can spread through
 	# Use this list if thermal sources aren't spreading through particular blocks that they should
@@ -224,7 +224,7 @@
 		# ⌄ 
 		# Default: 40
 		# Range: > 0
-		"Hearth Fuel Consumption Interval" = 40
+		"Hearth Fuel Consumption Interval" = 1
 
 	["Thermal Sources".Boiler]
 		#─────────────────────────────────────────────────────────────────────────
@@ -268,7 +268,7 @@
 		# ⌄ 
 		# Default: 40
 		# Range: > 0
-		"Boiler Fuel Consumption Interval" = 40
+		"Boiler Fuel Consumption Interval" = 1
 
 	["Thermal Sources".Icebox]
 		#─────────────────────────────────────────────────────────────────────────
@@ -312,4 +312,4 @@
 		# ⌄ 
 		# Default: 40
 		# Range: > 0
-		"Icebox Fuel Consumption Interval" = 40
+		"Icebox Fuel Consumption Interval" = 1
