@@ -150,17 +150,6 @@ ServerEvents.recipes((event) => {
             create: { time: { crushing: 200, milling: 100 } },
             id_suffix: 'aluminum_dust_from_aluminum'
         },
-        {
-            input: { tag: `c:ingots/zinc` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/zinc`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'occultism'],
-            fe: 2400,
-            eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 120, grinder: 140 } },
-            create: { time: { crushing: 200, milling: 100 } },
-            id_suffix: 'zinc_dust_from_zinc'
-        },
 
         {
             input: { tag: `c:ingots/iesnium` },

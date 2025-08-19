@@ -13,10 +13,10 @@ ServerEvents.recipes((event) => {
             id_suffix: `darksteel_ingot_from_steel`
         },
         {
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 9 },
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 1 },
             inputs: [
-                { tag: 'c:ingots/copper', count: 9 },
-                { tag: 'c:dusts/silicon', count: 1 }
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:tiny_dusts/silicon', count: 1 }
             ],
             tier: 1,
             exclusions: [],
