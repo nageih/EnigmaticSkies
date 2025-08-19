@@ -3,6 +3,25 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            item_inputs: [
+                { item: 'ars_nouveau:abjuration_essence', amount: 1, probability: 0.0 },
+                { tag: 'c:ingots/blazegold', amount: 1 }
+            ],
+            item_outputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 4 }],
+            duration: 100,
+            eu: 2,
+            id: `${id_prefix}polymorphic_catalyst`
+        },
+        {
+            item_inputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 1 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
+            duration: 100,
+            eu: 2,
+            id: `${id_prefix}polymorphic_fluid_source`
+        },
+
+        {
             fluid_outputs: [{ fluid: 'modern_industrialization:sugar_solution', amount: 1000 }],
             item_inputs: [{ tag: 'c:sugars', amount: 1 }],
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
@@ -66,6 +85,18 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 2,
             id: `${id_prefix}raw_silicon`
+        },
+        {
+            item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 2 }],
+            fluid_inputs: [{ tag: 'theurgy:solvent', amount: 250 }],
+            item_inputs: [
+                { item: 'minecraft:glass', amount: 1 },
+                { item: 'aether:aerogel', amount: 8 },
+                { tag: 'c:gems/black_quartz', amount: 2 }
+            ],
+            duration: 10,
+            eu: 4,
+            id: `${id_prefix}industrial_insulation_block`
         }
     ];
 
@@ -90,6 +121,63 @@ ServerEvents.recipes((event) => {
                 eu: 2,
                 id: `${id_prefix}waxed_${oxide}${type}`
             });
+        });
+    });
+
+    const jdt_materials = [
+        { input: 'c:ingots/iron', output: 'justdirethings:ferricore_ingot', tier: 1 },
+        { input: 'c:ingots/gold', output: 'justdirethings:blazegold_ingot', tier: 2 },
+        { input: 'c:gems/blazing_quartz', output: 'justdirethings:coal_t2', tier: 2 },
+        { input: 'c:gems/diamond', output: 'justdirethings:celestigem', tier: 3 },
+        { input: 'c:gems/blaze_ember', output: 'justdirethings:coal_t3', tier: 3 },
+        { input: 'c:ingots/netherite', output: 'justdirethings:eclipsealloy_ingot', tier: 4 },
+        { input: 'c:gems/voidflame', output: 'justdirethings:coal_t4', tier: 4 }
+    ];
+
+    jdt_materials.forEach((material) => {
+        recipes.push({
+            item_inputs: [
+                { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
+                { tag: material.input, amount: 9 },
+                { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
+            ],
+            item_outputs: [
+                { item: material.output, amount: 3 },
+                { item: material.output, amount: 1, probability: 0.5 }
+            ],
+            duration: 60 * material.tier,
+            eu: material.tier,
+            id: `${id_prefix}${material.output.split(':')[1]}`
+        });
+    });
+
+    const jdt_fuels = [
+        { input: 'c:gems/blaze_ember', additive: 'actuallyadditions:refined_canola_oil', tier: 2 },
+        { input: 'c:gems/voidflame', additive: 'actuallyadditions:crystallized_oil', tier: 3 },
+        { input: 'c:gems/eclipse_ember', additive: 'actuallyadditions:empowered_oil', tier: 4 }
+    ];
+
+    jdt_fuels.forEach((material) => {
+        recipes.push({
+            item_inputs: [
+                { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
+                { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 },
+                { tag: material.input, amount: 1 }
+            ],
+            fluid_inputs: [
+                {
+                    fluid:
+                        material.tier == 2
+                            ? `justdirethings:polymorphic_fluid_source`
+                            : `justdirethings:refined_t${material.tier - 1}_fluid_source`,
+                    amount: 1000
+                },
+                { fluid: material.additive, amount: 1000 }
+            ],
+            fluid_outputs: [{ fluid: `justdirethings:refined_t${material.tier}_fluid_source`, amount: 3000 }],
+            duration: 60 * material.tier,
+            eu: material.tier,
+            id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });
     });
 

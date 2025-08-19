@@ -30,6 +30,15 @@ ServerEvents.recipes((event) => {
             tierRequirement: 1,
             id: `${id_prefix}emeradic_crystal_block`
         },
+        {
+            output: {
+                Name: 'actuallyadditions:void_crystal_block',
+                Properties: { facing: 'north' }
+            },
+            input: { Name: 'actuallyadditions:black_quartz_block' },
+            tierRequirement: 1,
+            id: `${id_prefix}void_crystal_block`
+        },
 
         // Tier 2
         {
@@ -50,17 +59,17 @@ ServerEvents.recipes((event) => {
             tierRequirement: 2,
             id: `${id_prefix}diamatine_crystal_block`
         },
-
-        // Tier 3
         {
             output: {
-                Name: 'actuallyadditions:void_crystal_block',
+                Name: 'justdirethings:raw_coal_t2_ore',
                 Properties: { facing: 'north' }
             },
-            input: { Name: 'minecraft:obsidian' },
-            tierRequirement: 3,
-            id: `${id_prefix}void_crystal_block`
+            input: { Name: 'malum:block_of_blazing_quartz' },
+            tierRequirement: 2,
+            id: `${id_prefix}raw_coal_t2_ore`
         }
+
+        // Tier 3
     ];
 
     recipes.forEach((recipe) => {

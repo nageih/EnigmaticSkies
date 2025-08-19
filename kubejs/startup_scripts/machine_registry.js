@@ -5,10 +5,15 @@
     by enabling `datagenOnStartup = true` in `modern_industrialization-startup.toml`.
     This will generate them in the `modern_industrialization` at the instance root.
 
-    Once generated, the following resources should be copied to `kubejs\assets\modern_industrialization`
+    Once generated, the following resources should be copied to `kubejs\assets\modern_industrialization` and `kubejs\data\modern_industrialization`
+    Assets
     - blockstates
     - lang (only the specific entries for the new machines)
     - models
+    Data
+    - loot_table
+
+    Similarly, be sure to update the `minecraft/needs_tool` and `minecraft/mineable` block tags.
 */
 
 MIMachineEvents.registerMachines((event) => {

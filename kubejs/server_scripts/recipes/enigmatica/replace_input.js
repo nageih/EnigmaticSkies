@@ -55,11 +55,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
         {
-            filter: [{ output: 'create:rose_quartz' }],
-            to_replace: 'minecraft:quartz',
-            replace_with: Ingredient.of(['#c:gems/black_quartz'])
-        },
-        {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:ingots/gold',
             replace_with: '#c:ingots/copper'
@@ -225,7 +220,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
             to_replace: `#c:ingots/zinc`,
-            replace_with: Ingredient.of(['#c:ingots/iron'])
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         }
     ];
 

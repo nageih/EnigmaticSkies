@@ -17,4 +17,5 @@ ServerEvents.tags('fluid', (event) => {
     event.get('c:turbo_fuel').add(['oritech:still_fuel']);
     event.get('c:boosted_diesel').add(['modern_industrialization:boosted_diesel']);
     event.get('c:creosote').add(['modern_industrialization:creosote']);
+    event.get('c:heavy_fuel').add(['oritech:still_heavy_oil']);
 });

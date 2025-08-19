@@ -23,6 +23,7 @@
             "industrialforegoing:latex_processing_unit",
 
             "justdirethings:generatort1",
+            "justdirethings:generatorfluidt1",
 
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",

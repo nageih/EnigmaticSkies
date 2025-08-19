@@ -1557,15 +1557,15 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["56AD6E7F12056140"]
+			dependencies: ["169D412B565F97C4"]
 			id: "62ABC26128284A71"
 			tasks: [{
 				id: "2953890556C8A8F5"
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: -5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1712,36 +1712,26 @@
 		}
 		{
 			dependencies: ["2328482892BB53D2"]
-			id: "6B153B1D06673CF4"
-			tasks: [{
-				id: "7638D2A8735E6B47"
-				item: { count: 1, id: "actuallyadditions:enori_crystal" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2328482892BB53D2"]
-			id: "09E40BB128EEBCD2"
-			tasks: [{
-				id: "2C53B70019F6323A"
-				item: { count: 1, id: "actuallyadditions:restonia_crystal" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2328482892BB53D2"]
 			id: "01BA367C97ED31E2"
-			tasks: [{
-				id: "03B813E68E3BD7C2"
-				item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.5d
+			tasks: [
+				{
+					id: "03B813E68E3BD7C2"
+					item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
+					type: "item"
+				}
+				{
+					id: "58DB3CB3CCB6E01C"
+					item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+					type: "item"
+				}
+				{
+					id: "5724B112407B9290"
+					item: { count: 1, id: "actuallyadditions:enori_crystal" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["069F4209879ADFF7"]
@@ -1753,17 +1743,6 @@
 			}]
 			x: -6.0d
 			y: 13.5d
-		}
-		{
-			dependencies: ["7D03A7E07643F20C"]
-			id: "382E1314CCBBBF97"
-			tasks: [{
-				id: "3C39DDE77556C54D"
-				item: { count: 1, id: "createsifter:raw_nickel_piece" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 12.5d
 		}
 		{
 			id: "659EDDA906968875"
@@ -1848,6 +1827,17 @@
 			}]
 			x: 1.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "33BD8DCC718314C6"
+			tasks: [{
+				id: "5ECF77030AEBE4C2"
+				item: { count: 1, id: "actuallyadditions:void_crystal" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
 		}
 	]
 }

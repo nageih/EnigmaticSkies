@@ -12,16 +12,16 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `darksteel_ingot_from_steel`
         },
-        // {
-        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 4 },
-        //     inputs: [
-        //         { tag: 'c:ingots/tin', count: 1 },
-        //         { tag: 'c:ingots/copper', count: 3 }
-        //     ],
-        //     tier: 1,
-        //     exclusions: [],
-        //     id_suffix: `bronze_ingot`
-        // },
+        {
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 9 },
+            inputs: [
+                { tag: 'c:ingots/copper', count: 9 },
+                { tag: 'c:dusts/silicon', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `bronze_ingot`
+        },
         // {
         //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
         //     inputs: [
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'create:rose_quartz', count: 1 },
             inputs: [
-                { tag: 'c:dusts/redstone', count: 4 },
+                { tag: 'c:gems/restonia', count: 4 },
                 { tag: 'c:gems/black_quartz', count: 1 }
             ],
             tier: 1,
@@ -117,7 +117,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:copper_alloy_ingot', count: 1 },
             inputs: [
                 { tag: 'c:ingots/copper', count: 1 },
-                { tag: 'c:dusts/silicon', count: 1 }
+                { tag: 'c:ingots/andesite_alloy', count: 1 }
             ],
             tier: 1,
             exclusions: [],

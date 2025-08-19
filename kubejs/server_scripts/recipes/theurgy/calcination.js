@@ -10,9 +10,9 @@ ServerEvents.recipes((event) => {
         },
         {
             ingredient: { ingredient: { tag: 'minecraft:logs_that_burn' }, count: 1 },
-            result: { id: 'justdirethings:charcoal', count: 1 },
+            result: { id: 'justdirethings:coal_t1', count: 1 },
             time: 30,
-            id: `${id_prefix}block_charcoal`
+            id: `${id_prefix}coal_t1`
         }
     ];
 

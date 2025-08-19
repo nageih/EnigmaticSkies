@@ -49,6 +49,8 @@ ServerEvents.recipes((event) => {
 
         { id: /create:crushing\/raw_/ },
         { id: /create:mixing\/(andesite_alloy|brass_ingot)/ },
+        { id: /create:item_application\/(andesite|brass|copper)_casing/ },
+        { id: 'create:crafting/materials/rose_quartz' },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
@@ -78,12 +80,10 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:sag_milling/flower_pot' },
         { id: /enderio:sag_milling\/raw_/ },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
-        {
-            id: /enderio:alloy_smelting\/(copper|energetic|vibrant|redstone|pulsating|conductive)_alloy_ingot/
-        },
-        {
-            id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/
-        },
+        { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },
+        { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
+        { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
+        { id: 'enderio:alloy_smelting/industrial_insulation_block' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -114,6 +114,9 @@ ServerEvents.recipes((event) => {
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
         { output: 'justdirethings:generatort1' },
+        { output: 'justdirethings:generatorfluidt1' },
+        { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
+        { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
 
         // Malum
         { id: /malum:create\/washing\/.*_node/ },
@@ -193,6 +196,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
         { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
+        { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
         { id: /oritech:centrifuge.*clump/ },

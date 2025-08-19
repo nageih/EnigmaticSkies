@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modern_industrialization:bronze_steam_assembler"
+          "name": "modern_industrialization:steel_assembler"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "modern_industrialization:blocks/bronze_steam_assembler"
+  "random_sequence": "modern_industrialization:blocks/steel_assembler"
 }
