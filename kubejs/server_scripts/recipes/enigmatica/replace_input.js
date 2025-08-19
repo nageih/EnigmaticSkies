@@ -75,17 +75,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
         },
         {
-            filter: [{ id: `replication:replicator` }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: Ingredient.of([
-                'pneumaticcraft:printed_circuit_board',
-                'oritech:processing_unit',
-                '#c:circuits/ultimate',
-                'modern_industrialization:analog_circuit',
-                'enderio:z_logic_controller'
-            ])
-        },
-        {
             filter: [
                 { output: 'farmersdelight:stove' },
                 { output: `minecraft:hopper` },
