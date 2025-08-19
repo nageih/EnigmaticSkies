@@ -25,7 +25,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: -5.5d
 		}
 		{
@@ -39,7 +39,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29829AEBCA3B2842"]
@@ -450,7 +450,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
@@ -633,7 +633,7 @@
 				id: "3A59C49FAF001D7E"
 				type: "biome"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
@@ -1848,6 +1848,35 @@
 			}]
 			x: -5.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["6703E3A9E3571660"]
+			icon: {
+				id: "cold_sweat:sewing_table"
+			}
+			id: "294B023DD4F19FE3"
+			rewards: [{
+				id: "209C7C89BA3A0B82"
+				item: {
+					count: 1
+					id: "minecraft:shears"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7546F4BED526C10E"
+					item: { count: 1, id: "cold_sweat:sewing_table" }
+					type: "item"
+				}
+				{
+					id: "5243C7DE02D7AA20"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(enigmatica:insulation)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -6.5d
 		}
 	]
 }

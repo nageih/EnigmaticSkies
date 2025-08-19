@@ -1547,6 +1547,13 @@
 		""
 		"Similarly, items can be pulled out of the system from the Interface, meaning this can be paired nicely with AE2 or an Ars Nouveau Storage Lectern."
 	]
+	quest.294B023DD4F19FE3.quest_desc: [
+		"Your Goat Fur suit should keep you warm enough while stepping out into the cold. But it won’t offer much else. "
+		""
+		"If you’d like to wear other armor pieces, you can insulate them at a Sewing Table."
+		""
+		"Insulation can always be removed by placing Shears in the bottom slot. This does not damage the insulation or the armor."
+	]
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
 		""
@@ -5434,6 +5441,7 @@
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
+	task.5243C7DE02D7AA20.title: "Armor Insulation"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
 	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
