@@ -8,17 +8,17 @@ ServerEvents.generateData('before_mods', (event) => {
 
     recipes.forEach((recipe) => {
         let id = getID(recipe.input);
-        let entry = { type: 'hearth', fuel: recipe.fuel, item: { items: [recipe.input] } };
+        let payload = { type: 'hearth', fuel: recipe.fuel, item: { items: [recipe.input] } };
 
-        event.json(`enigmatica:cold_sweat/item/fuel/hearth_${id}`, entry);
+        event.json(`enigmatica:cold_sweat/item/fuel/hearth_${id}`, payload);
 
         if (recipe.fuel > 0) {
-            entry.type = 'boiler';
-            event.json(`enigmatica:cold_sweat/item/fuel/boiler_${id}`, entry);
+            payload.type = 'boiler';
+            event.json(`enigmatica:cold_sweat/item/fuel/boiler_${id}`, payload);
         } else {
-            entry.type = 'icebox';
-            entry.fuel = entry.fuel * -1;
-            event.json(`enigmatica:cold_sweat/item/fuel/icebox_${id}`, entry);
+            payload.type = 'icebox';
+            payload.fuel = recipe.fuel * -1;
+            event.json(`enigmatica:cold_sweat/item/fuel/icebox_${id}`, payload);
         }
     });
 });
