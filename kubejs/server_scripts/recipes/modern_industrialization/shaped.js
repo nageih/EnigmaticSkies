@@ -13,6 +13,15 @@ ServerEvents.recipes((event) => {
                 E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}bronze_compressor`
+        },
+        {
+            output: `modern_industrialization:heatproof_machine_casing`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: `#c:ingots/end_steel`,
+                B: `industrialforegoing:machine_frame_simple`
+            },
+            id: `${id_prefix}heatproof_machine_casing`
         }
     ];
 

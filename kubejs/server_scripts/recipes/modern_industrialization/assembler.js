@@ -208,19 +208,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'modern_industrialization:or_gate', amount: 2 }],
             id: `modern_industrialization:assembler_generated/electric_age/component/craft/or_gate`
         },
-        {
-            item_inputs: [
-                { item: 'modern_industrialization:inductor', amount: 1 },
-                { item: 'modern_industrialization:copper_wire', amount: 3 },
-                { item: 'modern_industrialization:resistor', amount: 2 },
-                { item: 'modern_industrialization:capacitor', amount: 2 },
-                { item: 'modern_industrialization:analog_circuit_board', amount: 1 }
-            ],
-            item_outputs: [{ item: 'modern_industrialization:analog_circuit', amount: 2 }],
-            eu: 8,
-            duration: 200,
-            id: 'modern_industrialization:assembler_generated/electric_age/circuit/craft/lv_circuit'
-        },
+
         {
             item_inputs: [
                 { item: 'modern_industrialization:diode', amount: 2 },

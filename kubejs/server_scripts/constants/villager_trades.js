@@ -256,6 +256,14 @@ const villagerTrades = {
                 { id: 'actuallyadditions:enori_crystal', count: { min: 3, max: 6 } }
             ],
             level: 1
+        },
+        {
+            result: { id: 'modern_industrialization:analog_circuit', count: 4 },
+            ingredients: [
+                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
+                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
+            ],
+            level: 1
         }
     ],
     // Forge Hammer

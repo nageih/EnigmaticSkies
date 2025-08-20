@@ -108,6 +108,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:animal_feeder' },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
+        { id: 'industrialforegoing:dissolution_chamber/simple_machine_frame' },
         { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
 
@@ -152,12 +153,14 @@ ServerEvents.recipes((event) => {
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { output: /modern_industrialization:.*_water_pump/ },
         { output: /extended_industrialization:.*_alloy_smelter/ },
+        { output: `modern_industrialization:heatproof_machine_casing` },
         {
             type: 'modern_industrialization:mixer',
             output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
         },
         { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },
+        { output: 'modern_industrialization:analog_circuit' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },

@@ -1496,8 +1496,8 @@
 				item: { count: 1, id: "malum:blazing_quartz" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 7.5d
+			x: 11.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -1775,14 +1775,14 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["1CA3F6B68095E927"]
+			dependencies: ["05B678EEBCC0CDE6"]
 			id: "41F0CA5ACE335062"
 			tasks: [{
 				id: "788CFD1256DA5172"
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: 9.0d
 		}
 		{
@@ -1877,6 +1877,17 @@
 			]
 			x: 9.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["4BF9D7B5BB1281B6"]
+			id: "05B678EEBCC0CDE6"
+			tasks: [{
+				id: "70D805D44A643F1D"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
 		}
 	]
 }
