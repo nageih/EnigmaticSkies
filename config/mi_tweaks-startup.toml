@@ -106,3 +106,6 @@
 	#Whether wrenches should render multiblock shapes in world. If false, then only blueprints will be able to render multiblock shapes in world
 	#Default: true
 	wrenches_render_multiblock_shapes = true
+	#Whether item fuels should be blocked in multiblock boilers
+	#Default: false
+	disable_item_fuel_in_multiblock_boilers = true

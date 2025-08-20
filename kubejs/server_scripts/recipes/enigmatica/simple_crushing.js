@@ -317,7 +317,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:obsidians' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/obsidian`).getId(), count: 4 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing'],
+            exclusions: ['create:milling', 'create:crushing', 'enderio'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -640,6 +640,17 @@ ServerEvents.recipes((event) => {
             ori: { time: { pulverizer: 120, grinder: 60 } },
             create: { time: { crushing: 200, milling: 100 } },
             id_suffix: 'sand_from_gravel'
+        },
+        {
+            input: { tag: 'c:end_stones' },
+            outputs: [{ id: 'occultism:crushed_end_stone', count: 4 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 9600,
+            eu: { cost: 4, duration: 20 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            id_suffix: 'crushed_end_stone'
         }
     ];
 
@@ -743,6 +754,28 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.create.time.milling
             };
+            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+        }
+
+        // Modern Industrialization Macerator
+        if (!recipe.exclusions.includes('modern_industrialization')) {
+            recipe.input.amount = recipe.input.count;
+            let r = {
+                type: 'modern_industrialization:macerator',
+                item_inputs: recipe.input,
+                item_outputs: [],
+                eu: recipe.eu.cost,
+                duration: recipe.eu.duration * 20
+            };
+
+            recipe.outputs.forEach((output) => {
+                r.item_outputs.push({
+                    item: output.id,
+                    amount: output.count,
+                    probability: output.chance ? output.chance : 1.0
+                });
+            });
+
             event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
         }
     });

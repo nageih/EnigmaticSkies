@@ -156,7 +156,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:mixer',
             output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
         },
-
+        { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },
 
         // Nature's Aura

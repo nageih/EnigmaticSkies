@@ -42,16 +42,6 @@ ServerEvents.recipes((event) => {
         //     exclusions: [],
         //     id_suffix: `invar_ingot`
         // },
-        // {
-        //     output: { id: AlmostUnified.getTagTargetItem(`c:ingots/brass`).getId(), count: 2 },
-        //     inputs: [
-        //         { tag: 'c:ingots/zinc', count: 1 },
-        //         { tag: 'c:ingots/copper', count: 1 }
-        //     ],
-        //     tier: 1,
-        //     exclusions: [],
-        //     id_suffix: `brass_ingot`
-        // },
         {
             output: { id: 'naturesaura:depth_ingot', count: 1 },
             inputs: [
@@ -186,13 +176,13 @@ ServerEvents.recipes((event) => {
             id_suffix: `soularium_ingot`
         },
         {
-            output: { id: 'enderio:end_steel_ingot', count: 1 },
+            output: { id: 'enderio:end_steel_ingot', count: 2 },
             inputs: [
-                { item: 'minecraft:end_stone', count: 1 },
-                { tag: 'c:ingots/dark_steel', count: 1 },
-                { tag: 'c:obsidians', count: 1 }
+                { tag: 'c:dusts/end_stone', count: 4 },
+                { tag: 'c:ingots/dark_steel', count: 2 },
+                { item: 'minecraft:dragon_breath', count: 1 }
             ],
-            tier: 1,
+            tier: 2,
             exclusions: [],
             id_suffix: `end_steel_ingot`
         },
