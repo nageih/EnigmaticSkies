@@ -3,7 +3,7 @@ StartupEvents.registry('item', (event) => {
     const delivery_bags = [
         { name: `Dumpling Drop` },
         { name: `Great Eggspectations` },
-        { name: `Supa Soup` },
+        { name: `Cozy Cauldron` },
         { name: `La Drygmese Poutine`, magic: true },
         { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
@@ -25,7 +25,8 @@ StartupEvents.registry('item', (event) => {
         { name: 'Sheepuff', layer: 'mutton' },
         { name: 'Aerbunny', layer: 'rabbit' },
         { name: 'Goat', layer: 'goat_fur' },
-        { name: 'Moa', layer: 'feather' }
+        { name: 'Moa', layer: 'feather' },
+        { name: 'Chicken', layer: 'egg' }
     ];
 
     IOU_slips.forEach((item) => {

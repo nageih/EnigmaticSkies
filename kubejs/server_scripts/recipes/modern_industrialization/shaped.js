@@ -22,6 +22,41 @@ ServerEvents.recipes((event) => {
                 B: `industrialforegoing:machine_frame_simple`
             },
             id: `${id_prefix}heatproof_machine_casing`
+        },
+        {
+            output: `modern_industrialization:bronze_assembler`,
+            pattern: ['ABA', 'CDC', 'EEE'],
+            key: {
+                A: `create:mechanical_arm`,
+                B: `create:sequenced_gearshift`,
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}bronze_assembler`
+        },
+        {
+            output: `modern_industrialization:bronze_centrifuge`,
+            pattern: ['ABC', 'DED', 'FFF'],
+            key: {
+                A: `create:basin`,
+                B: `create:rotation_speed_controller`,
+                C: 'create:mechanical_bearing',
+                D: '#c:gears/copper',
+                E: 'modern_industrialization:bronze_machine_casing',
+                F: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}bronze_centrifuge`
+        },
+        {
+            output: `modern_industrialization:bronze_machine_casing`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:plates/bronze',
+                B: 'create:electron_tube',
+                C: '#c:gears/bronze'
+            },
+            id: `${id_prefix}bronze_machine_casing`
         }
     ];
 

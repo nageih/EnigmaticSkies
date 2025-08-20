@@ -62,6 +62,7 @@ ServerEvents.recipes((event) => {
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
         { id: 'create:crafting/materials/electron_tube' },
+        { id: 'create:sequenced_assembly/precision_mechanism' },
         { id: /create:splashing\/crushed_raw_.*/ },
         { id: /create:splashing\/(red_sand|gravel)/ },
         { id: /create:smelting\/.*_ingot_from_crushed/ },
@@ -161,6 +162,8 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },
         { output: 'modern_industrialization:analog_circuit' },
+        { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
+        { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -217,6 +220,7 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
         { output: 'pneumaticcraft:reinforced_stone' },
+        { output: 'pneumaticcraft:crop_support' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { id: /pneumaticcraft:thermo_plant\/vegetable_oil/ },
 

@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/iron',
                 B: 'create:electron_tube',
-                C: '#c:gems/black_quartz'
+                C: '#c:gears/iron'
             },
             id: `actuallyadditions:iron_casing`
         },

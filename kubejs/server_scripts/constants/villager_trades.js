@@ -70,6 +70,11 @@ const villagerTrades = {
             result: { id: 'actuallyadditions:worm', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
+        },
+        {
+            result: { id: 'pneumaticcraft:crop_support', count: 8 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 1
         }
     ],
     // Barrel
@@ -258,12 +263,20 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'modern_industrialization:analog_circuit', count: 4 },
+            result: { id: 'create:precision_mechanism', count: 4 },
             ingredients: [
                 { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
                 { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
             ],
             level: 1
+        },
+        {
+            result: { id: 'modern_industrialization:analog_circuit', count: 4 },
+            ingredients: [
+                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
+                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
+            ],
+            level: 2
         }
     ],
     // Forge Hammer
@@ -273,8 +286,8 @@ const villagerTrades = {
                 id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:analog_circuit"},Progress:1.0d}]',
                 count: 1
             },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 24, max: 32 } }],
-            level: 1
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 1, max: 8 } }],
+            level: 5
         }
     ],
     // Brewing Stand
@@ -330,38 +343,38 @@ const villagerTrades = {
     ]
 };
 
-const aquacultureFish = [
-    'aquaculture:atlantic_cod',
-    'aquaculture:blackfish',
-    'aquaculture:pacific_halibut',
-    'aquaculture:atlantic_halibut',
-    'aquaculture:atlantic_herring',
-    'aquaculture:pink_salmon',
-    'aquaculture:pollock',
-    'aquaculture:rainbow_trout',
-    'aquaculture:bayad',
-    'aquaculture:boulti',
-    'aquaculture:capitaine',
-    'aquaculture:synodontis',
-    'aquaculture:smallmouth_bass',
-    'aquaculture:bluegill',
-    'aquaculture:brown_trout',
-    'aquaculture:carp',
-    'aquaculture:catfish',
-    'aquaculture:gar',
-    'aquaculture:muskellunge',
-    'aquaculture:tuna',
-    'aquaculture:red_grouper',
-    'aquaculture:tambaqui',
-    'aquaculture:piranha',
-    'aquaculture:arapaima',
-    'aquaculture:perch'
-];
+// const aquacultureFish = [
+//     'aquaculture:atlantic_cod',
+//     'aquaculture:blackfish',
+//     'aquaculture:pacific_halibut',
+//     'aquaculture:atlantic_halibut',
+//     'aquaculture:atlantic_herring',
+//     'aquaculture:pink_salmon',
+//     'aquaculture:pollock',
+//     'aquaculture:rainbow_trout',
+//     'aquaculture:bayad',
+//     'aquaculture:boulti',
+//     'aquaculture:capitaine',
+//     'aquaculture:synodontis',
+//     'aquaculture:smallmouth_bass',
+//     'aquaculture:bluegill',
+//     'aquaculture:brown_trout',
+//     'aquaculture:carp',
+//     'aquaculture:catfish',
+//     'aquaculture:gar',
+//     'aquaculture:muskellunge',
+//     'aquaculture:tuna',
+//     'aquaculture:red_grouper',
+//     'aquaculture:tambaqui',
+//     'aquaculture:piranha',
+//     'aquaculture:arapaima',
+//     'aquaculture:perch'
+// ];
 
-aquacultureFish.forEach((fish) => {
-    villagerTrades['minecraft:fisherman'].push({
-        result: { id: fish, count: 4 },
-        ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
-        level: 5
-    });
-});
+// aquacultureFish.forEach((fish) => {
+//     villagerTrades['minecraft:fisherman'].push({
+//         result: { id: fish, count: 4 },
+//         ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
+//         level: 5
+//     });
+// });

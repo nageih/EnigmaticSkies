@@ -1744,7 +1744,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["069F4209879ADFF7"]
+			dependencies: ["0EE03BB718F96335"]
 			id: "4F2E18DABA17E0AC"
 			tasks: [{
 				id: "6E26DAA418B8367F"
@@ -1887,6 +1887,17 @@
 				type: "item"
 			}]
 			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["069F4209879ADFF7"]
+			id: "0EE03BB718F96335"
+			tasks: [{
+				id: "5F63BA059EBDF6BF"
+				item: { count: 1, id: "actuallyadditions:oil_generator" }
+				type: "item"
+			}]
+			x: -3.5d
 			y: 9.5d
 		}
 	]

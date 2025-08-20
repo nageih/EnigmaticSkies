@@ -441,15 +441,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}la_drygmese_poutine`
         },
         {
-            item_outputs: [{ item: 'enigmatica:supa_soup', amount: 1 }],
+            item_outputs: [{ item: 'enigmatica:cozy_cauldron', amount: 1 }],
             item_inputs: [
                 { tag: 'enigmatica:meal_ingredients/soup', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/sandwich', amount: 1 },
-                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
+                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 },
+                { item: 'arsdelight:source_berry_cookie', amount: 1 }
             ],
             eu: 1,
             duration: 100,
-            id: `${id_prefix}supa_soup`
+            id: `${id_prefix}cozy_cauldron`
         },
         {
             item_outputs: [{ item: 'enigmatica:dumpling_drop', amount: 1 }],
