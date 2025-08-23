@@ -68,18 +68,18 @@ ServerEvents.recipes((event) => {
             // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
-        ],
-        // Vexing
-        'minecraft:mushroom_fields': [
-            { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
-            { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
-            { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
-            { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
-            { in: 'minecraft:sand', out: 'createsifter:dust' },
-            { in: 'minecraft:sandstone', out: 'createsifter:dust' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
-            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
         ]
+        // Vexing
+        // 'minecraft:mushroom_fields': [
+        //     { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
+        //     { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
+        //     { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
+        //     { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
+        //     { in: 'minecraft:sand', out: 'createsifter:dust' },
+        //     { in: 'minecraft:sandstone', out: 'createsifter:dust' },
+        //     { in: 'minecraft:dirt', out: 'malum:blighted_earth' },
+        //     { in: 'minecraft:grass_block', out: 'malum:blighted_earth' }
+        // ]
     };
 
     Object.keys(terrain_blocks).forEach((biome) => {
