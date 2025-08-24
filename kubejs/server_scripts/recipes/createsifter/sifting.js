@@ -59,6 +59,7 @@ ServerEvents.recipes((event) => {
                 { id: 'sushigocrafting:soy_seeds', chance: 0.1 },
                 { id: 'sushigocrafting:sesame_seeds', chance: 0.1 },
                 { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 },
+                { id: 'occultism:datura_seeds', chance: 0.1 },
                 { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },

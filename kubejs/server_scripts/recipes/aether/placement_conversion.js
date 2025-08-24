@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
         // Flourishing
         'minecraft:mangrove_swamp': [
             { in: 'minecraft:cobblestone', out: 'minecraft:tuff' },
-            { in: 'minecraft:stone', out: 'minecraft:polished_tuff' },
+            { in: 'minecraft:stone', out: 'naturesaura:infused_stone' },
             { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },

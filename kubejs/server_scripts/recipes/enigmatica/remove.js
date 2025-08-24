@@ -22,6 +22,7 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:coal_generator' },
         { id: 'actuallyadditions:basic_coil' },
         { id: 'actuallyadditions:vertical_digger' },
+        { id: 'actuallyadditions:laser/nether_wart' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -44,6 +45,7 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
         { id: 'ars_elemental:wool_to_string' },
+        { id: 'ars_caelum:ritual_mana_regeneration' },
 
         // Create and Addons
 
@@ -128,6 +130,7 @@ ServerEvents.recipes((event) => {
         { id: /malum:create\/washing\/crushed_.*/ },
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
         { id: /malum:create\/crushing\/ore/ },
+        { id: 'malum:void_favor/raw_soulstone' },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
@@ -165,8 +168,13 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },
         { output: 'modern_industrialization:analog_circuit' },
+        { output: 'modern_industrialization:bronze_machine_casing_pipe' },
         { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
         { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
+        { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
+        { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/item_pipe_direct/ },
+        { id: /modern_industrialization:steam_age\/(fluid|item)_pipe_asbl/ },
+        { id: /modern_industrialization:assembler_generated\/steam_age\/(fluid|item)_pipe/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -185,6 +193,10 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tree_ritual/animal_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
         { id: `naturesaura:altar/coal` },
+        { id: `naturesaura:altar/infused_stone` },
+        { id: `naturesaura:altar/nether_wart` },
+        { id: `naturesaura:altar/warped_fungus` },
+        { id: `naturesaura:altar/crimson_fungus` },
 
         // Occultism
         { type: 'occultism:miner' },
@@ -226,6 +238,11 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:crop_support' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { id: /pneumaticcraft:thermo_plant\/vegetable_oil/ },
+
+        // PrettyPipes and Addons
+        { output: 'prettypipes:pipe' },
+        { output: 'prettypipes:blank_module' },
+        { output: 'ppfluids:fluid_pipe' },
 
         // Replication
         { type: 'replication:matter_value' },

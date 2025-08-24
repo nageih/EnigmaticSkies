@@ -839,8 +839,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["008F3C0FB9F4B451"]
@@ -1229,7 +1229,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			id: "1C0852F2C2B50144"
@@ -1270,8 +1270,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.0d
+			x: 17.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1281,8 +1281,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 9.0d
+			x: 17.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1293,7 +1293,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 12.5d
+			y: 10.0d
 		}
 		{
 			id: "7905141BD2517471"
@@ -1303,7 +1303,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1545,8 +1545,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 12.5d
-			y: 12.5d
+			x: 12.0d
+			y: 11.5d
 		}
 		{
 			id: "03D3C2661E7BCA1A"
@@ -1793,8 +1793,8 @@
 				item: { count: 1, id: "enderio:prescient_crystal" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 13.5d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
 			id: "705E731911F13899"
@@ -1803,8 +1803,8 @@
 				item: { count: 1, id: "minecraft:witch_spawn_egg" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 13.5d
+			x: -1.0d
+			y: 14.5d
 		}
 		{
 			id: "4533B7926EA958E1"
@@ -1813,8 +1813,8 @@
 				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 14.5d
+			x: -1.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4533B7926EA958E1"]
@@ -1824,8 +1824,8 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.5d
+			x: 0.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]

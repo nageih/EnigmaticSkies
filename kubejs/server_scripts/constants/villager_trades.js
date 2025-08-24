@@ -282,6 +282,21 @@ const villagerTrades = {
     // Forge Hammer
     'modern_industrialization:industrialist': [
         {
+            result: { id: 'prettypipes:pipe', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ppfluids:fluid_pipe', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 1
+        },
+        {
+            result: { id: 'prettypipes:blank_module', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 2
+        },
+        {
             result: {
                 id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:analog_circuit"},Progress:1.0d}]',
                 count: 1

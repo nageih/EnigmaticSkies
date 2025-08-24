@@ -6,7 +6,8 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 1, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 1, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 1, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 1, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 1, chance: 0.15 }
             ],
             exclusions: [],
             tier: 1,
@@ -17,7 +18,8 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 9, chance: 0.15 }
             ],
             exclusions: [],
             tier: 1,
@@ -28,7 +30,8 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 1, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 1, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 1, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 1, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 1, chance: 0.15 }
             ],
             exclusions: [],
             tier: 1,
@@ -39,7 +42,8 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 9, chance: 0.15 }
             ],
             exclusions: [],
             tier: 1,
@@ -50,7 +54,8 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 1, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 1, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 1, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 1, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 1, chance: 0.15 }
             ],
             exclusions: [],
             tier: 2,
@@ -61,7 +66,32 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9, chance: 0.66 },
-                { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9, chance: 0.33 }
+                { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 9, chance: 0.15 }
+            ],
+            exclusions: [],
+            tier: 2,
+            id_suffix: 'iron_raw_block_to_clump'
+        },
+        {
+            input: { tag: 'c:raw_materials/soulstone' },
+            outputs: [
+                { id: 'malum:crushed_soulstone', count: 1, chance: 1.0 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.66 },
+                { id: 'malum:crushed_soulstone', count: 1, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 1, chance: 0.15 }
+            ],
+            exclusions: [],
+            tier: 2,
+            id_suffix: 'iron_raw_block_to_clump'
+        },
+        {
+            input: { tag: 'c:storage_blocks/raw_soulstone' },
+            outputs: [
+                { id: 'malum:crushed_soulstone', count: 9, chance: 1.0 },
+                { id: 'malum:crushed_soulstone', count: 9, chance: 0.66 },
+                { id: 'malum:crushed_soulstone', count: 9, chance: 0.33 },
+                { id: 'malum:crushed_brilliance', count: 9, chance: 0.15 }
             ],
             exclusions: [],
             tier: 2,

@@ -13,22 +13,41 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:ink_sac',
             replace_with: '#c:dyes/black'
         },
-        // {
-        //     filter: [
-        //         { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
-        //         { mod: 'ae2netanalyser' },
-        //         { mod: 'aquaculture', output: /tackle_box/ },
-        //         { mod: 'prettypipes' },
-        //         { mod: 'ppfluids' }
-        //     ],
-        //     to_replace: '#c:ingots/iron',
-        //     replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
-        // },
-        // {
-        //     filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
-        //     to_replace: '#c:storage_blocks/iron',
-        //     replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
-        // },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:ingots/iron',
+            replace_with: '#c:ingots/andesite_alloy'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:ingots/copper',
+            replace_with: '#c:ingots/copper_alloy'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: 'minecraft:iron_bars',
+            replace_with: 'create:andesite_bars'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:gems/lapis',
+            replace_with: '#c:gems/diamatine'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:storage_blocks/lapis',
+            replace_with: '#c:storage_blocks/diamatine'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:gems/diamond',
+            replace_with: '#c:gems/palis'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:dusts/redstone',
+            replace_with: '#c:gems/restonia'
+        },
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
