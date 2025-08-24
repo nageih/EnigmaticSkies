@@ -839,8 +839,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 12.0d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["008F3C0FB9F4B451"]
@@ -1228,8 +1228,8 @@
 				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 11.0d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			id: "1C0852F2C2B50144"
@@ -1292,8 +1292,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 13.0d
+			x: 17.0d
+			y: 12.5d
 		}
 		{
 			id: "7905141BD2517471"
@@ -1302,8 +1302,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 12.0d
+			x: 17.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -1545,7 +1545,7 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 12.5d
 		}
 		{

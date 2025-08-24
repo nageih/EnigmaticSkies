@@ -132,6 +132,10 @@
 	fire_charges_dispenser_behavior = true
 	#Improves ghast & fire charges fireballs by giving them a unique explosion particles and set on fire on hit
 	improved_explosions = true
+	#Cooldown for fire & dragon charges in ticks
+	# Default: 10
+	# Range: 0 ~ 1000
+	thrown_cooldown = 10
 
 [snowball]
 	#Allows snowballs to freeze entities on hit. Config is for how many ticks it will freeze

@@ -55,6 +55,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
         { id: 'create:crafting/appliances/chain_from_zinc' },
+        { id: 'create:crafting/appliances/dough' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
         { id: 'create:crushing/prismarine_crystals' },
@@ -91,6 +92,8 @@ ServerEvents.recipes((event) => {
 
         // Farmers Delight
         { output: 'farmersdelight:organic_compost' },
+        { id: 'farmersdelight:wheat_dough_from_water' },
+        { id: 'farmersdelight:wheat_dough_from_egg' },
 
         // Genetics
         { output: 'geneticsresequenced:coal_generator' },

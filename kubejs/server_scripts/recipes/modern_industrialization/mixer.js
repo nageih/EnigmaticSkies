@@ -97,6 +97,16 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 4,
             id: `${id_prefix}industrial_insulation_block`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:gunpowder', amount: 2 }],
+            item_inputs: [
+                { item: 'create:cinder_flour', amount: 1 },
+                { tag: 'c:dusts/sulfur', amount: 1 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}gunpowder`
         }
     ];
 
