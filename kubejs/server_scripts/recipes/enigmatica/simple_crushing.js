@@ -512,6 +512,16 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'cinder_flour'
+        },
+        {
+            input: { tag: 'c:gems/pulsating_crystal' },
+            outputs: [{ id: 'enderio:pulsating_powder', count: 1 }],
+            multiply: 'none',
+            exclusions: ['enderio'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'pulsating_powder'
         }
     ];
 

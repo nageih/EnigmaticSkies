@@ -20,6 +20,7 @@ ServerEvents.recipes((event) => {
         { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
         { id: 'actuallyadditions:crushing/block_coal' },
         { id: 'actuallyadditions:coal_generator' },
+        { id: 'actuallyadditions:oil_generator' },
         { id: 'actuallyadditions:basic_coil' },
         { id: 'actuallyadditions:vertical_digger' },
         { id: 'actuallyadditions:laser/nether_wart' },
@@ -88,6 +89,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
+        { id: 'enderio:pulsating_crystal' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -131,6 +133,7 @@ ServerEvents.recipes((event) => {
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
         { id: /malum:create\/crushing\/ore/ },
         { id: 'malum:void_favor/raw_soulstone' },
+        { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
 
         // Minecraft
         { id: 'minecraft:slime_block' },

@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flourishing"
+	group: "46AB9129BBE517B6"
+	icon: {
+		id: "ars_nouveau:thread_earth_focus"
+	}
+	id: "083FB2FC095A6686"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AC4CADE97CB512F"]
+			id: "6490781066FAE8CF"
+			tasks: [{
+				id: "58E41A8D61ED694C"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AFB064A80189AA4"]
+			id: "605A60825B68C2D7"
+			tasks: [
+				{
+					id: "69E93F15E11DC562"
+					item: { count: 1, id: "actuallyadditions:feeder" }
+					type: "item"
+				}
+				{
+					id: "36FFDB989168EE23"
+					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+					type: "item"
+				}
+				{
+					id: "01AFE9C4737DB0C7"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "5AFB064A80189AA4"
+			tasks: [{
+				id: "7EB17A8C21C157CA"
+				item: { count: 1, id: "minecraft:moss_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AFB064A80189AA4"]
+			id: "779E0B3E3CFEF22C"
+			tasks: [{
+				id: "362EC0B56B18DBBB"
+				item: { count: 1, id: "naturesaura:moss_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "2F2C14F36F96AD35"
+			tasks: [{
+				id: "3E1B55CF2D13EDAD"
+				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5AFB064A80189AA4"]
+			id: "7D03A7E07643F20C"
+			tasks: [{
+				id: "49B4DB5129AAB6DD"
+				item: { count: 1, id: "createsifter:raw_copper_piece" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "6AC4CADE97CB512F"
+			tasks: [{
+				id: "0881BE9F4BE61564"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E28517BADA72E7D"]
+			id: "04AB0E3EBEC8A94B"
+			tasks: [{
+				id: "06617769F3629A28"
+				item: { count: 1, id: "supplementaries:lumisene_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "0E28517BADA72E7D"
+			tasks: [{
+				id: "00D9DEE9AECBA1EC"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D1960D1AE64E4A2"]
+			id: "169D412B565F97C4"
+			tasks: [{
+				id: "743FD5EB2494A7A3"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "5D1960D1AE64E4A2"
+			tasks: [{
+				id: "3C13EEDD01DBB3A9"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "388B5ED3AB3DEC82"
+			tasks: [{
+				id: "3344B81CFADAC8FB"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "6BF91623C7C278AB"
+			tasks: [{
+				id: "3829B9508E55605E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "62ABC26128284A71"
+			tasks: [{
+				id: "2953890556C8A8F5"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "4F2E18DABA17E0AC"
+			tasks: [{
+				id: "6E26DAA418B8367F"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "659EDDA906968875"
+			tasks: [{
+				id: "18527FE87BB2DCD9"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["169D412B565F97C4"]
+			id: "33BD8DCC718314C6"
+			tasks: [{
+				id: "5ECF77030AEBE4C2"
+				item: { count: 1, id: "actuallyadditions:void_crystal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04AB0E3EBEC8A94B"]
+			id: "0EE03BB718F96335"
+			tasks: [{
+				id: "5F63BA059EBDF6BF"
+				item: { count: 1, id: "enigmaticunity:dim_source_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+}

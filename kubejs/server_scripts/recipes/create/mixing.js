@@ -6,6 +6,19 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:still_fuel', amount: 1000 }],
             ingredients: [{ item: 'oritech:fluxite' }, { type: 'fluid_tag', fluid_tag: 'c:crude_oil', amount: 1000 }],
             id: `${id_prefix}turbofuel`
+        },
+        {
+            results: [{ id: 'enderio:pulsating_crystal', count: 1 }],
+            ingredients: [
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/brilliance' },
+                { tag: 'c:gems/source' },
+                { type: 'fluid_tag', fluid_tag: 'c:lumisene', amount: 1000 }
+            ],
+            heat_requirement: 'heated',
+            id: `${id_prefix}pulsating_crystal`
         }
     ];
 

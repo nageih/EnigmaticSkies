@@ -158,8 +158,8 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:pulsating_alloy_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/iron', count: 1 },
-                { tag: 'c:ender_pearls', count: 1 }
+                { tag: 'c:ingots/copper_alloy', count: 1 },
+                { tag: 'c:dusts/grains_of_pizeallity', count: 1 }
             ],
             tier: 1,
             exclusions: [],
@@ -168,7 +168,7 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
-                { tag: 'c:gems/soulstone', count: 1 },
+                { tag: 'minecraft:soul_sand', count: 1 },
                 { tag: 'c:ingots/blazegold', count: 1 }
             ],
             tier: 1,

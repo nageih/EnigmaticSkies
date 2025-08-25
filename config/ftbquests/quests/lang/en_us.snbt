@@ -1,5 +1,7 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
+	chapter.083FB2FC095A6686.title: "Flourishing"
+	chapter.0A799F91D9A1C8A1.title: "Blazing"
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
@@ -14,6 +16,7 @@
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.3676C6A060A63447.title: "Theurgy"
 	chapter.402AE6264B81A84B.title: "Logistics"
+	chapter.40C97D6332BD825B.title: "Cascading"
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
@@ -22,6 +25,7 @@
 	chapter.635514FCF83ACCBF.title: "Villagers"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
+	chapter.72447ED7D54B4AF7.title: "Vexing"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
 	chapter.7F9A789B53FAB216.title: "Acclimation"
@@ -774,13 +778,7 @@
 		"Biome: Mushroom Fields"
 		""
 		"Notables"
-		"Spider Webs"
-		"Red/Brown Shrooms"
-		"Mycelium"
-		"Source Berry"
-		""
-		""
-		"Get into mob spawning of some sort?"
+		"Malum Island used to start mob summoning"
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"

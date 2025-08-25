@@ -107,6 +107,24 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}gunpowder`
+        },
+        {
+            item_outputs: [{ item: 'enderio:pulsating_crystal', amount: 1 }],
+            fluid_inputs: [{ tag: 'c:lumisene', amount: 1000 }],
+            item_inputs: [
+                { tag: 'c:gems/brilliance', amount: 4 },
+                { tag: 'c:gems/source', amount: 1 }
+            ],
+            duration: 10,
+            eu: 2,
+            id: `${id_prefix}pulsating_crystal`
+        },
+        {
+            fluid_outputs: [{ fluid: 'supplementaries:lumisene', amount: 250 }],
+            item_inputs: [{ item: 'minecraft:glow_berries', amount: 2 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}lumisene`
         }
     ];
 

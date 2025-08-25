@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cascading"
+	group: "46AB9129BBE517B6"
+	icon: {
+		id: "ars_nouveau:thread_water_focus"
+	}
+	id: "40C97D6332BD825B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5226F1BC0A1B23D0"]
+			id: "7893072479F01DC2"
+			tasks: [{
+				id: "758EA454F1E9A0E3"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "5226F1BC0A1B23D0"
+			tasks: [{
+				id: "73802C2C72AE8348"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "14C46426CE60BF84"
+			tasks: [{
+				id: "19E4B125DA7E467F"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "6534548E8A6A318C"
+			tasks: [{
+				id: "421F228364877B59"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			id: "7E2295CDDF92E34F"
+			tasks: [
+				{
+					id: "012FE5503155C46E"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "5B59C9EFD07B0145"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "0E131249060F3712"
+					item: { count: 1, id: "aquaculture:neptunium_nugget" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14C46426CE60BF84"]
+			id: "6D85BCC665287D6F"
+			tasks: [{
+				id: "03FCBFDA93896367"
+				item: { count: 1, id: "occultism:datura_seeds" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "323D480E3C37579E"
+			tasks: [{
+				id: "6198E25ED4186983"
+				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "04C9EFC8067E6BD5"
+			tasks: [{
+				id: "0A160EEE369BA147"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "03D3C2661E7BCA1A"
+			tasks: [{
+				id: "51E7655F20B2B45A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "79895E6B2A5E8776"
+			tasks: [{
+				id: "5F579E2341E92725"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E2295CDDF92E34F"]
+			id: "198DB60553177E72"
+			tasks: [{
+				id: "0E87793274B7E04B"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E2295CDDF92E34F"]
+			id: "17489597E88E9992"
+			tasks: [{
+				id: "42AD5368FC6899EF"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["198DB60553177E72"]
+			id: "6712E4FE04BDD426"
+			tasks: [{
+				id: "2BD031595D92184C"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6712E4FE04BDD426"]
+			id: "5A92EF3C51F82669"
+			tasks: [{
+				id: "0EFDC5A1E361B403"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A92EF3C51F82669"]
+			id: "2BB91161DB6B6AF5"
+			tasks: [{
+				id: "75D46BE01172D9AB"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D85BCC665287D6F"]
+			id: "0F4546A0C55BC53A"
+			tasks: [{
+				id: "4FC37D84B722C2E8"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+}

@@ -821,73 +821,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5226F1BC0A1B23D0"]
-			id: "7893072479F01DC2"
-			tasks: [{
-				id: "758EA454F1E9A0E3"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0B7FC57C9436274B"]
-			id: "13F15094F3AF4A73"
-			tasks: [{
-				id: "57A0F394D3AF0E62"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["008F3C0FB9F4B451"]
-			id: "78626EE046E48EF3"
-			tasks: [{
-				id: "2EE92F0404F62B4C"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6AC4CADE97CB512F"]
-			id: "6490781066FAE8CF"
-			tasks: [{
-				id: "58E41A8D61ED694C"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "605A60825B68C2D7"
-			tasks: [
-				{
-					id: "69E93F15E11DC562"
-					item: { count: 1, id: "actuallyadditions:feeder" }
-					type: "item"
-				}
-				{
-					id: "36FFDB989168EE23"
-					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
-					type: "item"
-				}
-				{
-					id: "01AFE9C4737DB0C7"
-					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 5.5d
-		}
-		{
 			dependencies: [
 				"1D00057ADC3723FC"
 				"7D55CFC63462B5C1"
@@ -1066,83 +999,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "5AFB064A80189AA4"
-			tasks: [{
-				id: "7EB17A8C21C157CA"
-				item: { count: 1, id: "minecraft:moss_block" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "779E0B3E3CFEF22C"
-			tasks: [{
-				id: "362EC0B56B18DBBB"
-				item: { count: 1, id: "naturesaura:moss_generator" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["78626EE046E48EF3"]
-			id: "702AFA5430CF6D73"
-			tasks: [{
-				id: "0BE87E2F89FA99EE"
-				item: { count: 1, id: "minecraft:basalt" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["702AFA5430CF6D73"]
-			id: "4CAD22296114B3AD"
-			tasks: [{
-				id: "613868E595899CED"
-				item: { count: 1, id: "createsifter:crushed_basalt" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0ADEE22CBDE86E54"]
-			id: "1CA3F6B68095E927"
-			tasks: [{
-				id: "4B6822F4E297EC71"
-				item: { count: 1, id: "theurgy:crystallized_lava" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "2F2C14F36F96AD35"
-			tasks: [{
-				id: "3E1B55CF2D13EDAD"
-				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "7D03A7E07643F20C"
-			tasks: [{
-				id: "49B4DB5129AAB6DD"
-				item: { count: 1, id: "createsifter:raw_copper_piece" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["1F493A257A7E700C"]
 			id: "26305E9C7C05E131"
 			tasks: [
@@ -1173,8 +1029,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1189,57 +1045,14 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "6AC4CADE97CB512F"
-			tasks: [{
-				id: "0881BE9F4BE61564"
-				item: { count: 1, id: "ars_nouveau:earth_essence" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "008F3C0FB9F4B451"
-			tasks: [{
-				id: "2D3475FF63025FDF"
-				item: { count: 1, id: "ars_nouveau:fire_essence" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "5226F1BC0A1B23D0"
-			tasks: [{
-				id: "73802C2C72AE8348"
-				item: { count: 1, id: "ars_nouveau:water_essence" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			id: "0B7FC57C9436274B"
-			tasks: [{
-				id: "1FDC5BF83296C79A"
-				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 12.0d
-		}
-		{
 			id: "1C0852F2C2B50144"
 			tasks: [{
 				id: "6FBBE85638F729E7"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1249,8 +1062,8 @@
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1260,8 +1073,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 6.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			id: "14D946E0F94255AD"
@@ -1270,8 +1083,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 6.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1281,8 +1094,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 7.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1292,8 +1105,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: 10.0d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			id: "7905141BD2517471"
@@ -1302,41 +1115,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["78626EE046E48EF3"]
-			id: "0ADEE22CBDE86E54"
-			tasks: [{
-				id: "03C2D144BC19CB8D"
-				item: { count: 1, id: "aether:golden_aercloud" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "14C46426CE60BF84"
-			tasks: [{
-				id: "19E4B125DA7E467F"
-				item: { count: 1, id: "minecraft:sand" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "6534548E8A6A318C"
-			tasks: [{
-				id: "421F228364877B59"
-				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 7.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			id: "1632F22B72EB51FD"
@@ -1345,31 +1125,8 @@
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "7E2295CDDF92E34F"
-			tasks: [
-				{
-					id: "012FE5503155C46E"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					id: "5B59C9EFD07B0145"
-					item: { count: 1, id: "minecraft:lapis_lazuli" }
-					type: "item"
-				}
-				{
-					id: "0E131249060F3712"
-					item: { count: 1, id: "aquaculture:neptunium_nugget" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 8.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["293573E471AEABF6"]
@@ -1386,74 +1143,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0E28517BADA72E7D"]
-			id: "04AB0E3EBEC8A94B"
-			tasks: [{
-				id: "06617769F3629A28"
-				item: { count: 1, id: "supplementaries:lumisene_bottle" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "0E28517BADA72E7D"
-			tasks: [{
-				id: "00D9DEE9AECBA1EC"
-				item: { count: 1, id: "minecraft:glow_berries" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["14C46426CE60BF84"]
-			id: "6D85BCC665287D6F"
-			tasks: [{
-				id: "0415ACBB86DBF62A"
-				item: { count: 1, id: "sushigocrafting:wasabi_seeds" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0ADEE22CBDE86E54"]
-			id: "09599F64E0788B37"
-			tasks: [{
-				id: "38317B628157BD3F"
-				item: { count: 1, id: "modern_industrialization:sulfur_dust" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "323D480E3C37579E"
-			tasks: [{
-				id: "6198E25ED4186983"
-				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["78626EE046E48EF3"]
-			id: "319FD618D4608068"
-			tasks: [{
-				id: "429FDEE5564317E8"
-				item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1463,119 +1154,8 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "04C9EFC8067E6BD5"
-			tasks: [{
-				id: "0A160EEE369BA147"
-				item: { count: 1, id: "minecraft:sugar_cane" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5D1960D1AE64E4A2"]
-			id: "169D412B565F97C4"
-			tasks: [{
-				id: "743FD5EB2494A7A3"
-				item: { count: 1, id: "actuallyadditions:black_quartz" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4CAD22296114B3AD"]
-			id: "4BF9D7B5BB1281B6"
-			tasks: [{
-				id: "5BACB7BA09190E4E"
-				item: { count: 1, id: "malum:blazing_quartz" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5D1960D1AE64E4A2"]
-			id: "0475C6795A9F63ED"
-			tasks: [{
-				id: "160A5C484C3CAC44"
-				item: { count: 1, id: "minecraft:coal" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "5D1960D1AE64E4A2"
-			tasks: [{
-				id: "3C13EEDD01DBB3A9"
-				item: { count: 1, id: "naturesaura:nature_altar" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 7.0d
-		}
-		{
-			id: "388B5ED3AB3DEC82"
-			tasks: [{
-				id: "3344B81CFADAC8FB"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 10.5d
-		}
-		{
-			id: "6BF91623C7C278AB"
-			tasks: [{
-				id: "3829B9508E55605E"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: 10.5d
-		}
-		{
-			id: "7CF12A36B30AE7D7"
-			tasks: [{
-				id: "2AD2A5C68D517C53"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: 11.5d
-		}
-		{
-			id: "03D3C2661E7BCA1A"
-			tasks: [{
-				id: "51E7655F20B2B45A"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			id: "79895E6B2A5E8776"
-			tasks: [{
-				id: "5F579E2341E92725"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["169D412B565F97C4"]
-			id: "62ABC26128284A71"
-			tasks: [{
-				id: "2953890556C8A8F5"
-				item: { count: 1, id: "trading_floor:trading_depot" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 9.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1628,86 +1208,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7E2295CDDF92E34F"]
-			id: "198DB60553177E72"
-			tasks: [{
-				id: "0E87793274B7E04B"
-				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["7E2295CDDF92E34F"]
-			id: "17489597E88E9992"
-			tasks: [{
-				id: "42AD5368FC6899EF"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["198DB60553177E72"]
-			id: "6712E4FE04BDD426"
-			tasks: [{
-				id: "2BD031595D92184C"
-				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["6712E4FE04BDD426"]
-			id: "5A92EF3C51F82669"
-			tasks: [{
-				id: "0EFDC5A1E361B403"
-				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["5A92EF3C51F82669"]
-			id: "2BB91161DB6B6AF5"
-			tasks: [{
-				id: "75D46BE01172D9AB"
-				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 10.5d
-		}
-		{
 			id: "352FE6BFD8AB7023"
 			tasks: [{
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 15.0d
-			y: 8.0d
-		}
-		{
-			id: "08DF4DF1B5FEAF10"
-			tasks: [{
-				id: "3AA02F5C513F90A9"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: 10.0d
-		}
-		{
-			id: "6E2B56F277B80477"
-			tasks: [{
-				id: "545F39B6325986CA"
-				type: "checkmark"
-			}]
-			x: 10.5d
-			y: 10.5d
+			x: 8.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7D55CFC63462B5C1"]
@@ -1744,90 +1251,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0EE03BB718F96335"]
-			id: "4F2E18DABA17E0AC"
-			tasks: [{
-				id: "6E26DAA418B8367F"
-				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 9.5d
-		}
-		{
-			id: "659EDDA906968875"
-			tasks: [{
-				id: "18527FE87BB2DCD9"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["169D412B565F97C4"]
-			id: "069F4209879ADFF7"
-			tasks: [{
-				id: "0C16553168503C41"
-				item: { count: 1, id: "actuallyadditions:canola_press" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["05B678EEBCC0CDE6"]
-			id: "41F0CA5ACE335062"
-			tasks: [{
-				id: "788CFD1256DA5172"
-				item: { count: 1, id: "enderio:dark_steel_ingot" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["705E731911F13899"]
-			id: "0167BDE5001130A7"
-			tasks: [{
-				id: "7B5CA95E5B04F0B1"
-				item: { count: 1, id: "enderio:prescient_crystal" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 14.5d
-		}
-		{
-			id: "705E731911F13899"
-			tasks: [{
-				id: "0199C149FB04ED7C"
-				item: { count: 1, id: "minecraft:witch_spawn_egg" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 14.5d
-		}
-		{
-			id: "4533B7926EA958E1"
-			tasks: [{
-				id: "74F4023E819A6C97"
-				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["4533B7926EA958E1"]
-			id: "38E77FA818C35100"
-			tasks: [{
-				id: "3408AEF5C72D552B"
-				item: { count: 1, id: "enderio:ender_crystal" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.5d
-		}
-		{
 			dependencies: ["34FB10F0A2504973"]
 			id: "03D475AF2266ECB6"
 			tasks: [{
@@ -1837,17 +1260,6 @@
 			}]
 			x: 1.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["169D412B565F97C4"]
-			id: "33BD8DCC718314C6"
-			tasks: [{
-				id: "5ECF77030AEBE4C2"
-				item: { count: 1, id: "actuallyadditions:void_crystal" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 8.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -1877,28 +1289,6 @@
 			]
 			x: 9.5d
 			y: -6.5d
-		}
-		{
-			dependencies: ["4BF9D7B5BB1281B6"]
-			id: "05B678EEBCC0CDE6"
-			tasks: [{
-				id: "70D805D44A643F1D"
-				item: { count: 1, id: "modern_industrialization:steel_ingot" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["069F4209879ADFF7"]
-			id: "0EE03BB718F96335"
-			tasks: [{
-				id: "5F63BA059EBDF6BF"
-				item: { count: 1, id: "actuallyadditions:oil_generator" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.5d
 		}
 	]
 }
