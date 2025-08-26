@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:basic_ore_crushing/';
+    const id_prefix = 'enigmatica:basic_ore_washing/';
     const recipes = [
         {
             input: { tag: 'c:clumps/gold' },
