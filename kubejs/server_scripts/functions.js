@@ -67,19 +67,76 @@ function generatePentacleEntry(ritual_name, x_placement, y_placement, parents) {
     return entry;
 }
 
-function bigReactorsIngredient(item) {
-    let ingredient = {
-        type: 'neoforge:components',
-        items: item,
-        strict: true,
-        components: {
-            'minecraft:attribute_modifiers': { modifiers: [] },
-            'minecraft:enchantments': { levels: {} },
-            'minecraft:lore': [],
-            'minecraft:max_stack_size': 64,
-            'minecraft:rarity': 'common',
-            'minecraft:repair_cost': 0
-        }
-    };
-    return ingredient;
+function getLineCoordinates(x1, y1, z1, x2, y2, z2, density) {
+    let dx = x2 - x1;
+    let dy = y2 - y1;
+    let dz = z2 - z1;
+    let distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
+    let num_points = Math.floor(distance * density); // points per block
+    let stepX = dx / num_points;
+    let stepY = dy / num_points;
+    let stepZ = dz / num_points;
+
+    let coordinates = [];
+    for (let i = 0; i < num_points; i++) {
+        let x = x1 + i * stepX;
+        let y = y1 + i * stepY;
+        let z = z1 + i * stepZ;
+
+        coordinates.push({ x: x, y: y, z: z });
+    }
+    return coordinates;
+}
+
+function getStarCoordinates(x, y, z, radius, num_points, density) {
+    let angle_step = (2 * 3.14159) / num_points;
+
+    let coordinates = [];
+    for (let i = 0; i < num_points; i++) {
+        let angle1 = i * angle_step;
+        let angle2 = (i + 2) * angle_step;
+
+        let dx1 = radius * Math.cos(angle1);
+        let dz1 = radius * Math.sin(angle1);
+
+        let dx2 = radius * Math.cos(angle2);
+        let dz2 = radius * Math.sin(angle2);
+
+        let line_coordinates = getLineCoordinates(x + dx1, y, z + dz1, x + dx2, y, z + dz2, density);
+        coordinates = coordinates.concat(line_coordinates);
+    }
+    return coordinates;
+}
+
+function getCircleCoordinates(x, y, z, radius, density) {
+    let circumference = 2 * 3.14159 * radius;
+    let num_points = Math.floor(circumference * density);
+    let angle_step = (2 * 3.14159) / num_points;
+
+    let coordinates = [];
+    for (let i = 0; i < num_points; i++) {
+        let angle = i * angle_step;
+        let dx = radius * Math.cos(angle);
+        let dz = radius * Math.sin(angle);
+
+        coordinates.push({ x: x + dx, y: y, z: z + dz });
+    }
+    return coordinates;
+}
+
+function getSpiralCoordinates(x, y, z, revolutions, height, upper_radius, lower_radius, density) {
+    let num_particles = density * revolutions,
+        angle_step = (2 * 3.14159 * revolutions) / num_particles;
+
+    let coordinates = [];
+    for (let i = 0; i < num_particles; i++) {
+        let angle = i * angle_step,
+            radius = lower_radius + (upper_radius - lower_radius) * (i / num_particles),
+            dx = radius * Math.cos(angle),
+            dz = radius * Math.sin(angle),
+            dy = height * (i / num_particles);
+
+        coordinates.push({ x: x + dx, y: y + dy, z: z + dz });
+    }
+    return coordinates;
 }
