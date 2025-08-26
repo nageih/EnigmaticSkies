@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_flourishing'
+            id: `${id_prefix}ritual_conjure_island_flourishing`
         },
         {
             output: 'ars_caelum:ritual_conjure_island_cascading',
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_cascading'
+            id: `${id_prefix}ritual_conjure_island_cascading`
         },
         {
             output: 'ars_caelum:ritual_conjure_island_blazing',
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_blazing'
+            id: `${id_prefix}ritual_conjure_island_blazing`
         },
         {
             output: 'ars_caelum:ritual_conjure_island_vexing',
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_vexing'
+            id: `${id_prefix}ritual_conjure_island_vexing`
         },
         {
             output: 'ars_caelum:ritual_conjure_island_geode',
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_geode'
+            id: `${id_prefix}ritual_conjure_island_geode`
         }
     ];
 

@@ -65,5 +65,22 @@ StartupEvents.registry('item', (event) => {
             });
     });
 
+    const ritualDummies = [
+        {
+            name: 'Ritual: Overworldian Nights Rift',
+            id: 'occultism:ritual_dummy/misc_overworldian_nights',
+            type: 'misc',
+            tooltip: 'Tear a open a dimensional rift, calling forth nightmares from another world.'
+        }
+    ];
+
+    ritualDummies.forEach((item) => {
+        event
+            .create(item.id, 'occultism:ritual_dummy')
+            .displayName(item.name)
+            .pentacleType(item.type)
+            .ritualTooltip(item.tooltip);
+    });
+
     event.create(`enigmatica:ruby`).texture(`enigmatica:item/ruby`);
 });

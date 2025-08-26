@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
             ],
             exclusions: [],
             tier: 2,
-            id_suffix: 'iron_raw_block_to_clump'
+            id_suffix: 'soulstone_raw_block_to_clump'
         },
         {
             input: { tag: 'c:storage_blocks/raw_soulstone' },
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
             ],
             exclusions: [],
             tier: 2,
-            id_suffix: 'iron_raw_block_to_clump'
+            id_suffix: 'soulstone_raw_block_to_clump'
         }
     ];
 

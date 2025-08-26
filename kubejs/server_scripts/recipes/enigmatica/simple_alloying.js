@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             ],
             tier: 2,
             exclusions: [],
-            id_suffix: `darksteel_ingot_from_steel`
+            id_suffix: `darksteel_ingot`
         },
         {
             output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 1 },

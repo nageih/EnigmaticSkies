@@ -4,23 +4,6 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             inputs: [],
-            itemIdRegex: `bronze_.+`,
-            repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/bronze`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}bronze`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `lapis_.+`,
-            repairMaterial: { tag: `c:gems/lapis`, count: 2 },
-            spirits: [
-                { type: 'earthen', count: 8 },
-                { type: 'arcane', count: 8 }
-            ],
-            id: `${id_prefix}lapis`
-        },
-        {
-            inputs: [],
             itemIdRegex: `compressed_iron_.+`,
             repairMaterial: { tag: `c:ingots/compressed_iron`, count: 2 },
             spirits: [{ type: 'earthen', count: 8 }],

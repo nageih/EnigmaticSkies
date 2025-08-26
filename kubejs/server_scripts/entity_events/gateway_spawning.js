@@ -12,11 +12,11 @@ EntityEvents.spawned((event) => {
 
         // Gateway Pearl Handling
 
-        let cur = { x: abs.x, y: abs.y, z: abs.z };
+        let cur = { x: abs.x, y: abs.y - 0.5, z: abs.z };
         let gate = { x: abs.x, y: abs.y + 0.5, z: abs.z };
         let gateway_type = entity.item.components.get('gateways:gateway').id;
 
-        let radius = 2;
+        let radius = 1.5;
         let num_points = 5;
         let duration = 2 * 20;
         let density = 5;

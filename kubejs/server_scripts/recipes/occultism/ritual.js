@@ -1,24 +1,32 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:occultism/ritual/';
     const sacrifice = {
-        llama: {
-            display_name: 'ritual.occultism.sacrifice.llamas',
-            tag: 'c:llamas'
-        },
-        chicken: {
-            display_name: 'ritual.occultism.sacrifice.chicken',
-            tag: 'c:chickens'
-        },
+        llama: { display_name: 'ritual.occultism.sacrifice.llamas', tag: 'c:llamas' },
+        chicken: { display_name: 'ritual.occultism.sacrifice.chicken', tag: 'c:chickens' },
         cow: { display_name: 'ritual.occultism.sacrifice.cows', tag: 'c:cows' },
         fish: { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' },
-        warden: {
-            display_name: 'ritual.occultism.sacrifice.warden',
-            tag: 'c:wardens'
-        },
-        sheep: { display_name: 'ritual.occultism.sacrifice.sheep', tag: 'c:sheep' }
+        warden: { display_name: 'ritual.occultism.sacrifice.warden', tag: 'c:wardens' },
+        sheep: { display_name: 'ritual.occultism.sacrifice.sheep', tag: 'c:sheep' },
+        villager: { display_name: 'ritual.occultism.sacrifice.humans', tag: 'occultism:humans' }
     };
 
-    const recipes = [];
+    const recipes = [
+        {
+            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:overworldian_nights"]').toJson(),
+            activation_item: { item: 'minecraft:conduit' },
+            ingredients: [
+                { item: 'minecraft:clay_ball' },
+                { item: 'minecraft:clay_ball' },
+                { item: 'minecraft:clay_ball' },
+                { item: 'minecraft:clay_ball' }
+            ],
+            ritual_dummy: { id: 'occultism:ritual_dummy/misc_overworldian_nights', count: 1 },
+            pentacle_id: 'occultism:contact_eldritch_spirit',
+            ritual_type: 'occultism:craft',
+            duration: 200,
+            id: `${id_prefix}overworldian_nights`
+        }
+    ];
 
     event.forEachRecipe({ type: 'occultism:ritual' }, (r) => {
         let recipe = JSON.parse(r.json);

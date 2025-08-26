@@ -24,6 +24,13 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:basic_coil' },
         { id: 'actuallyadditions:vertical_digger' },
         { id: 'actuallyadditions:laser/nether_wart' },
+        { id: `actuallyadditions:rice_dough` },
+        { id: `actuallyadditions:rice_paper` },
+        { id: `actuallyadditions:wood_casing` },
+        { id: `actuallyadditions:iron_casing` },
+        { id: `actuallyadditions:empty_cup` },
+        { id: `actuallyadditions:coffee_machine` },
+        { id: `actuallyadditions:canola_press` },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -47,6 +54,12 @@ ServerEvents.recipes((event) => {
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
         { id: 'ars_elemental:wool_to_string' },
         { id: 'ars_caelum:ritual_mana_regeneration' },
+
+        { id: 'ars_caelum:ritual_conjure_island_flourishing' },
+        { id: 'ars_caelum:ritual_conjure_island_cascading' },
+        { id: 'ars_caelum:ritual_conjure_island_blazing' },
+        { id: 'ars_caelum:ritual_conjure_island_vexing' },
+        { id: 'ars_caelum:ritual_conjure_island_geode' },
 
         // Create and Addons
 
@@ -73,7 +86,7 @@ ServerEvents.recipes((event) => {
 
         { type: 'createsifter:sifting' },
         { id: /createsifter:(crushing|milling)/ },
-        { id: 'createsifter:shapeless/raw_uranium_piece' },
+        { id: /createsifter:shapeless\/raw_.*_piece/ },
 
         { id: 'trading_floor:trading_depot' },
 
@@ -90,7 +103,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
         { id: 'enderio:pulsating_crystal' },
-
+        { id: `enderio:primitive_alloy_smelter` },
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
 

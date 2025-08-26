@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
                 B: 'supplementaries:ash_bricks',
                 C: 'aether:aerogel'
             },
-            id: `enderio:primitive_alloy_smelter`
+            id: `${id_prefix}primitive_alloy_smelter`
         }
     ];
 
