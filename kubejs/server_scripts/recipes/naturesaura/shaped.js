@@ -21,33 +21,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}warped_aura_mushroom`
         },
         {
-            output: '8x naturesaura:aura_bloom',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:oxeye_daisy',
-                B: 'naturesaura:gold_powder'
-            },
-            id: `${id_prefix}aura_bloom`
-        },
-        {
-            output: '8x naturesaura:aura_cactus',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:cactus',
-                B: 'naturesaura:gold_powder'
-            },
-            id: `${id_prefix}aura_cactus`
-        },
-        {
-            output: '8x naturesaura:aura_mushroom',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:red_mushroom',
-                B: 'naturesaura:gold_powder'
-            },
-            id: `${id_prefix}aura_mushroom`
-        },
-        {
             output: 'naturesaura:moss_generator',
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {

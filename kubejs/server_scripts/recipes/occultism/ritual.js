@@ -49,13 +49,6 @@ ServerEvents.recipes((event) => {
             recipe.id = recipe_id;
         }
 
-        switch (recipe_id) {
-            case 'occultism:ritual/misc_chalk_rainbow':
-                recipe.result = Item.of(`occultism:chalk_rainbow[unbreakable={}]`).toJson();
-                recipe.id = recipe_id;
-                break;
-        }
-
         if (recipe.id) {
             recipes.push(recipe);
         }
