@@ -176,6 +176,12 @@
 	"Drying Items" = [
 	    ["minecraft:sponge", "minecraft:wet_sponge"]
 	]
+	#─────────────────────────────────────────────────────────────────────────
+	# Defines how many times a waterskin can be used before becoming empty
+	# ⌄ 
+	# Default: 1
+	# Range: > 1
+	"Waterskin Uses" = 1
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -189,7 +195,7 @@
 	# • *nbt: The NBT data the item must have to apply to the entity.
 	# • *max_effect: The maximum temperature effect the item can apply to the entity.
 	# ⌄ 
-	"Carried Item Temperatures" = []
+	"Item Temperatures" = []
 
 ["Item Functions"]
 	#─────────────────────────────────────────────────────────────────────────
