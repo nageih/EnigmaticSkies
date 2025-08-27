@@ -6,10 +6,20 @@
     "hotbarScope": "NONE",
     "extraSlotScope": "EXTRA",
     "bundlesUseLeftClick": false,
+    "alwaysMatchByType": false,
+    "typeMatchTags": [
+      "enchantable/weapon",
+      "enchantable/mining",
+      "enchantable/armor"
+    ],
     "sortOrderStr": "creative",
     "shiftSortOrderStr": "quantity",
     "ctrlSortOrderStr": "alphabet",
     "altSortOrderStr": "rawId",
+    "useStartOverrides": true,
+    "startOverrideItems": [],
+    "useEndOverrides": true,
+    "endOverrideItems": [],
     "playSoundSort": false,
     "playSoundOther": false,
     "interactionSound": "minecraft:block.note_block.xylophone",
@@ -22,7 +32,8 @@
     "showButtons": false,
     "firstButtonOp": "SORT",
     "secondButtonOp": "STACK_FILL",
-    "thirdButtonOp": "TRANSFER",
+    "thirdButtonOp": "MATCH_TRANSFER",
+    "fourthButtonOp": "TRANSFER",
     "layoutOffset": {
       "x": -4,
       "y": 0
@@ -32,6 +43,7 @@
         "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
         "sortPolicy": "NONE",
         "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "NONE",
         "ignoredSlots": []
       },
@@ -43,6 +55,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -54,6 +67,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -65,6 +79,7 @@
         },
         "sortPolicy": "KEYBIND",
         "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -76,6 +91,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -87,6 +103,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -98,6 +115,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       },
@@ -109,6 +127,7 @@
         },
         "sortPolicy": "KEYBIND_BUTTON",
         "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
         "transferPolicy": "KEYBIND_BUTTON",
         "ignoredSlots": []
       }
