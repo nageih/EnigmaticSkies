@@ -8,34 +8,29 @@ ServerEvents.recipes((event) => {
             duration: 30,
             eu: 1,
             id: `${id_prefix}refined_canola_oil`
+        },
+        {
+            fluid_inputs: [{ tag: 'c:crude_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_heavy_fuel', amount: 200 }],
+            duration: 200,
+            eu: 12,
+            id: `modern_industrialization:petrochem/distillation/crude_oil_1`
+        },
+        {
+            fluid_inputs: [{ tag: 'c:crude_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_naphtha', amount: 300 }],
+            duration: 200,
+            eu: 12,
+            id: `modern_industrialization:petrochem/distillation/crude_oil_2`
+        },
+        {
+            fluid_inputs: [{ tag: 'c:crude_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_light_fuel', amount: 500 }],
+            duration: 200,
+            eu: 12,
+            id: `modern_industrialization:petrochem/distillation/crude_oil_0`
         }
     ];
-
-    oil_types.forEach((oil) => {
-        recipes.push(
-            {
-                fluid_inputs: [{ fluid: oil, amount: 1000 }],
-                fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_heavy_fuel', amount: 200 }],
-                duration: 200,
-                eu: 12,
-                id: `${id_prefix}sulfuric_heavy_fuel_from_${oil.replace(':', '_')}`
-            },
-            {
-                fluid_inputs: [{ fluid: oil, amount: 1000 }],
-                fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_naphtha', amount: 300 }],
-                duration: 200,
-                eu: 12,
-                id: `${id_prefix}sulfuric_naphtha_fuel_from_${oil.replace(':', '_')}`
-            },
-            {
-                fluid_inputs: [{ fluid: oil, amount: 1000 }],
-                fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_light_fuel', amount: 500 }],
-                duration: 200,
-                eu: 12,
-                id: `${id_prefix}sulfuric_light_fuel_fuel_from_${oil.replace(':', '_')}`
-            }
-        );
-    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:distillery';

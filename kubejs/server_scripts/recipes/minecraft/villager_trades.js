@@ -1,7 +1,7 @@
 MoreJS.villagerTrades((event) => {
     // https://docs.almostreliable.com/morejs/villager-trades.html
 
-    const villagerExperience = [0, 10, 20, 40, 80, 160];
+    const villagerExperience = [0, 5, 30, 40, 50, 60];
 
     Object.keys(villagerTrades).forEach((profession) => {
         event.removeTrades({ professions: profession });

@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:crops/rice'
             },
-            id: `actuallyadditions:rice_dough`
+            id: `${id_prefix}rice_dough`
         },
         {
             output: '3x minecraft:paper',
@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:crops/rice'
             },
-            id: `actuallyadditions:rice_paper`
+            id: `${id_prefix}rice_paper`
         },
         {
             output: 'actuallyadditions:wood_casing',
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                 B: 'farmersdelight:canvas',
                 C: '#minecraft:logs_that_burn'
             },
-            id: `actuallyadditions:wood_casing`
+            id: `${id_prefix}wood_casing`
         },
         {
             output: 'actuallyadditions:iron_casing',
@@ -34,9 +34,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/iron',
                 B: 'create:electron_tube',
-                C: '#c:gems/black_quartz'
+                C: '#c:gears/iron'
             },
-            id: `actuallyadditions:iron_casing`
+            id: `${id_prefix}iron_casing`
         },
         {
             output: '8x actuallyadditions:empty_cup',
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/black_quartz',
                 B: 'handcrafted:white_cup'
             },
-            id: `actuallyadditions:empty_cup`
+            id: `${id_prefix}empty_cup`
         },
         {
             output: 'actuallyadditions:coffee_machine',
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
                 D: 'handcrafted:terracotta_medium_pot',
                 E: 'minecraft:hopper'
             },
-            id: `actuallyadditions:coffee_machine`
+            id: `${id_prefix}coffee_machine`
         },
         {
             output: 'actuallyadditions:canola_press',
@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
                 C: 'actuallyadditions:basic_coil',
                 D: 'actuallyadditions:emeradic_crystal'
             },
-            id: `actuallyadditions:canola_press`
+            id: `${id_prefix}canola_press`
         }
     ];
 

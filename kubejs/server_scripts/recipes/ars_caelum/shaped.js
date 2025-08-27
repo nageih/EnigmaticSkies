@@ -10,7 +10,47 @@ ServerEvents.recipes((event) => {
                 B: 'aether:cold_aercloud',
                 C: 'ars_nouveau:sourcestone'
             },
-            id: 'ars_caelum:ritual_conjure_island_flourishing'
+            id: `${id_prefix}ritual_conjure_island_flourishing`
+        },
+        {
+            output: 'ars_caelum:ritual_conjure_island_cascading',
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: '#c:essences/water',
+                B: 'aether:cold_aercloud',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}ritual_conjure_island_cascading`
+        },
+        {
+            output: 'ars_caelum:ritual_conjure_island_blazing',
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: '#c:essences/fire',
+                B: 'aether:cold_aercloud',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}ritual_conjure_island_blazing`
+        },
+        {
+            output: 'ars_caelum:ritual_conjure_island_vexing',
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: '#c:essences/abjuration',
+                B: 'aether:cold_aercloud',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}ritual_conjure_island_vexing`
+        },
+        {
+            output: 'ars_caelum:ritual_conjure_island_geode',
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: '#c:essences/conjuration',
+                B: 'aether:cold_aercloud',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}ritual_conjure_island_geode`
         }
     ];
 

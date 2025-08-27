@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:packer_block_template', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'justdirethings:coalblock_t1', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}coal_t1`
         },
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:packer_block_template', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'justdirethings:coalblock_t2', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}coal_t2`
         },
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:packer_block_template', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'justdirethings:coalblock_t3', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}coal_t3`
         },
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:packer_block_template', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'justdirethings:coalblock_t4', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}coal_t4`
         },
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
                 { item: 'appflux:energy_processor_press', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'appflux:printed_energy_processor', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 8,
             id: `${id_prefix}printed_energy_processor`
         },
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
                 { item: 'advanced_ae:quantum_processor_press', amount: 1, probability: 0.0 }
             ],
             item_outputs: [{ item: 'advanced_ae:printed_quantum_processor', amount: 1 }],
-            duration: 200,
+            duration: 10,
             eu: 8,
             id: `${id_prefix}printed_quantum_processor`
         }
@@ -66,6 +66,7 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:packer';
+        recipe.duration = recipe.duration * 20;
         event.custom(recipe).id(recipe.id);
     });
 });

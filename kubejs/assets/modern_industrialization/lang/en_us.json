@@ -1,6 +1,11 @@
 {
-    "block.modern_industrialization.bronze_steam_assembler": "Bronze Steam Assembler",
-    "block.modern_industrialization.steel_steam_assembler": "Steel Steam Assembler",
-    "rei_categories.modern_industrialization.bronze_steam_assembler": "Steam Assembler",
-    "rei_categories.modern_industrialization.steel_steam_assembler": "Steel Steam Assembler"
+    "block.modern_industrialization.bronze_assembler": "Bronze Assembler",
+    "block.modern_industrialization.steel_assembler": "Steel Assembler",
+    "rei_categories.modern_industrialization.bronze_assembler": "Assembler",
+    "rei_categories.modern_industrialization.steel_assembler": "Steel Assembler",
+
+    "block.modern_industrialization.bronze_centrifuge": "Bronze Centrifuge",
+    "block.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
+    "rei_categories.modern_industrialization.bronze_centrifuge": "Centrifuge",
+    "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge"
 }

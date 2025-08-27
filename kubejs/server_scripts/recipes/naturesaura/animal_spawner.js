@@ -43,6 +43,13 @@ ServerEvents.recipes((event) => {
             aura: 5000,
             time: 600,
             id: `${id_prefix}aerbunny`
+        },
+        {
+            entity: 'aether:chicken',
+            ingredients: [{ item: 'enigmatica:chicken_iou' }],
+            aura: 5000,
+            time: 600,
+            id: `${id_prefix}chicken`
         }
     ];
 

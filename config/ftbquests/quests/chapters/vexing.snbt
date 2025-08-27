@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vexing"
+	group: "46AB9129BBE517B6"
+	icon: {
+		id: "ars_nouveau:thread_summon_focus"
+	}
+	id: "72447ED7D54B4AF7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B7FC57C9436274B"]
+			id: "13F15094F3AF4A73"
+			tasks: [{
+				id: "57A0F394D3AF0E62"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F4546A0C55BC53A"]
+			id: "0B7FC57C9436274B"
+			tasks: [{
+				id: "1FDC5BF83296C79A"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["705E731911F13899"]
+			id: "0167BDE5001130A7"
+			tasks: [{
+				id: "7B5CA95E5B04F0B1"
+				item: { count: 1, id: "enderio:prescient_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "705E731911F13899"
+			tasks: [{
+				id: "0199C149FB04ED7C"
+				item: { count: 1, id: "minecraft:witch_spawn_egg" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "4533B7926EA958E1"
+			tasks: [{
+				id: "74F4023E819A6C97"
+				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4533B7926EA958E1"]
+			id: "38E77FA818C35100"
+			tasks: [{
+				id: "3408AEF5C72D552B"
+				item: { count: 1, id: "enderio:ender_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

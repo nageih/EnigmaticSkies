@@ -1,20 +1,9 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:createsofter/shapeless/';
+    const id_prefix = 'enigmatica:createsifter/shapeless/';
 
-    const recipes = [
-        {
-            output: '4x ars_nouveau:sourcestone',
-            inputs: [
-                'ars_nouveau:smooth_sourcestone',
-                'ars_nouveau:smooth_sourcestone',
-                'ars_nouveau:smooth_sourcestone',
-                'ars_nouveau:smooth_sourcestone'
-            ],
-            id: `ars_nouveau:smooth_sourcestone_to_sourcestone`
-        }
-    ];
+    const recipes = [];
 
-    const materials = ['copper', 'gold', 'iron', 'zinc', 'platinum', 'silver', 'tin', 'lead', 'uranium', 'nickel'];
+    const materials = ['copper', 'gold', 'iron', 'zinc', 'platinum', 'silver', 'tin', 'lead', 'nickel'];
 
     materials.forEach((material) => {
         recipes.push({
@@ -25,7 +14,7 @@ ServerEvents.recipes((event) => {
                 `createsifter:raw_${material}_piece`,
                 `createsifter:raw_${material}_piece`
             ],
-            id: `createsifter:shapeless/raw_${material}_piece`
+            id: `${id_prefix}raw_${material}_piece`
         });
     });
 

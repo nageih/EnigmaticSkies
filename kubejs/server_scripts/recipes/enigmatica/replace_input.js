@@ -14,20 +14,39 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:dyes/black'
         },
         {
-            filter: [
-                { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
-                { mod: 'ae2netanalyser' },
-                { mod: 'aquaculture', output: /tackle_box/ },
-                { mod: 'prettypipes' },
-                { mod: 'ppfluids' }
-            ],
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
-            filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:storage_blocks/iron',
-            replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:ingots/copper',
+            replace_with: '#c:ingots/copper_alloy'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: 'minecraft:iron_bars',
+            replace_with: 'create:andesite_bars'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:gems/lapis',
+            replace_with: '#c:gems/diamatine'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:storage_blocks/lapis',
+            replace_with: '#c:storage_blocks/diamatine'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:gems/diamond',
+            replace_with: '#c:gems/palis'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:dusts/redstone',
+            replace_with: '#c:gems/restonia'
         },
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
@@ -55,11 +74,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
         {
-            filter: [{ output: 'create:rose_quartz' }],
-            to_replace: 'minecraft:quartz',
-            replace_with: Ingredient.of(['#c:gems/black_quartz'])
-        },
-        {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:ingots/gold',
             replace_with: '#c:ingots/copper'
@@ -80,21 +94,11 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
         },
         {
-            filter: [{ id: `replication:replicator` }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: Ingredient.of([
-                'pneumaticcraft:printed_circuit_board',
-                'oritech:processing_unit',
-                '#c:circuits/ultimate',
-                'modern_industrialization:analog_circuit',
-                'enderio:z_logic_controller'
-            ])
-        },
-        {
             filter: [
                 { output: 'farmersdelight:stove' },
                 { output: `minecraft:hopper` },
-                { output: `utilitarian:fluid_hopper` }
+                { output: `utilitarian:fluid_hopper` },
+                { output: `minecraft:smithing_table` }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
@@ -147,7 +151,6 @@ ServerEvents.recipes((event) => {
                 { output: `minecraft:dispenser` },
                 { output: `minecraft:dropper` },
                 { output: `minecraft:lever` },
-                { output: `minecraft:brewing_stand` },
                 { output: `supplementaries:turn_table` },
                 { output: `supplementaries:relayer` },
                 { output: `naturesaura:placer` },
@@ -161,7 +164,6 @@ ServerEvents.recipes((event) => {
             filter: [
                 { output: /minecraft:.*copper_bulb/ },
                 { output: 'ars_nouveau:source_lamp' },
-                { output: 'minecraft:brewing_stand' },
                 { output: 'modularrouters:speed_upgrade' }
             ],
             to_replace: 'minecraft:blaze_rod',
@@ -217,6 +219,16 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `industrialforegoing:machine_frame_pity`,
             replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:pulverizer_block`,
+            replace_with: Ingredient.of(['oritech:flux_gate'])
+        },
+        {
+            filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
+            to_replace: `#c:ingots/zinc`,
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         }
     ];
 

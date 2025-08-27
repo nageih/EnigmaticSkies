@@ -9,20 +9,39 @@ ServerEvents.recipes((event) => {
         // }
 
         // Actually Additions
+        { output: 'actuallyadditions:rice_slimeball' },
         { type: 'actuallyadditions:mining_lens' },
         { type: 'actuallyadditions:pressing' },
-        { output: 'actuallyadditions:rice_slimeball' },
+        { type: 'actuallyadditions:crushing' },
         { id: 'actuallyadditions:lens_of_the_miner' },
+        { id: 'actuallyadditions:lens_of_the_killer' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
+        { id: /actuallyadditions:crushing\/.*_ore$/ },
         { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
         { id: 'actuallyadditions:crushing/block_coal' },
         { id: 'actuallyadditions:coal_generator' },
+        { id: 'actuallyadditions:oil_generator' },
         { id: 'actuallyadditions:basic_coil' },
         { id: 'actuallyadditions:vertical_digger' },
+        { id: 'actuallyadditions:laser/nether_wart' },
+        { id: `actuallyadditions:rice_dough` },
+        { id: `actuallyadditions:rice_paper` },
+        { id: `actuallyadditions:wood_casing` },
+        { id: `actuallyadditions:iron_casing` },
+        { id: `actuallyadditions:empty_cup` },
+        { id: `actuallyadditions:coffee_machine` },
+        { id: `actuallyadditions:canola_press` },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
         { id: 'aether:swet_slime_block' },
+
+        // Applied Energistics
+        { id: /ae2:(smelting|blasting)\/silicon/ },
+
+        // Aquaculture
+        { id: 'aquaculture:gold_nugget_from_gold_fish' },
+        { id: 'aquaculture:jellyfish_to_slimeball' },
 
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
@@ -34,18 +53,25 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
         { output: /ars_nouveau:ritual_(restoration|flight)$/ },
         { id: 'ars_elemental:wool_to_string' },
+        { id: 'ars_caelum:ritual_mana_regeneration' },
 
-        // Aquaculture
-        { id: 'aquaculture:gold_nugget_from_gold_fish' },
-        { id: 'aquaculture:jellyfish_to_slimeball' },
+        { id: 'ars_caelum:ritual_conjure_island_flourishing' },
+        { id: 'ars_caelum:ritual_conjure_island_cascading' },
+        { id: 'ars_caelum:ritual_conjure_island_blazing' },
+        { id: 'ars_caelum:ritual_conjure_island_vexing' },
+        { id: 'ars_caelum:ritual_conjure_island_geode' },
 
         // Create and Addons
-        { type: 'createsifter:sifting' },
-        { id: /createsifter:(crushing|milling)/ },
-        { id: /create:mixing\/andesite_alloy/ },
+
+        { id: /create:crushing\/raw_/ },
+        { id: /create:mixing\/(andesite_alloy|brass_ingot)/ },
+        { id: /create:item_application\/(andesite|brass|copper)_casing/ },
+        { id: 'create:crafting/materials/rose_quartz' },
         { id: 'create:crafting/materials/andesite_alloy' },
         { id: 'create:crafting/materials/andesite_alloy_from_zinc' },
         { id: 'create:crafting/appliances/slime_ball' },
+        { id: 'create:crafting/appliances/chain_from_zinc' },
+        { id: 'create:crafting/appliances/dough' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
         { id: 'create:crushing/prismarine_crystals' },
@@ -53,6 +79,15 @@ ServerEvents.recipes((event) => {
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
         { id: 'create:crafting/materials/electron_tube' },
+        { id: 'create:sequenced_assembly/precision_mechanism' },
+        { id: /create:splashing\/crushed_raw_.*/ },
+        { id: /create:splashing\/(red_sand|gravel)/ },
+        { id: /create:smelting\/.*_ingot_from_crushed/ },
+
+        { type: 'createsifter:sifting' },
+        { id: /createsifter:(crushing|milling)/ },
+        { id: /createsifter:shapeless\/raw_.*_piece/ },
+
         { id: 'trading_floor:trading_depot' },
 
         // EnderIO
@@ -60,12 +95,22 @@ ServerEvents.recipes((event) => {
         { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
-
+        { id: 'enderio:sag_milling/flower_pot' },
+        { id: /enderio:sag_milling\/raw_/ },
+        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
+        { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },
+        { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
+        { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
+        { id: 'enderio:alloy_smelting/industrial_insulation_block' },
+        { id: 'enderio:pulsating_crystal' },
+        { id: `enderio:primitive_alloy_smelter` },
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
 
         // Farmers Delight
         { output: 'farmersdelight:organic_compost' },
+        { id: 'farmersdelight:wheat_dough_from_water' },
+        { id: 'farmersdelight:wheat_dough_from_egg' },
 
         // Genetics
         { output: 'geneticsresequenced:coal_generator' },
@@ -84,28 +129,68 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:animal_feeder' },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
+        { id: 'industrialforegoing:dissolution_chamber/simple_machine_frame' },
         { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
 
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
         { output: 'justdirethings:generatort1' },
+        { output: 'justdirethings:generatorfluidt1' },
+        { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
+        { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
+
+        // Malum
+        { id: /malum:create\/washing\/.*_node/ },
+        { id: /malum:create\/washing\/crushed_.*/ },
+        { id: /malum:uranium_from_node_(smelting|blasting)/ },
+        { id: /malum:create\/crushing\/ore/ },
+        { id: 'malum:void_favor/raw_soulstone' },
+        { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
+        { id: 'minecraft:brick' },
+        { id: 'minecraft:nether_brick' },
+        { id: 'minecraft:netherite_ingot' },
+        { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
+        { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone)/ },
+        { output: /minecraft:(composter|barrel|stonecutter|lectern|brewing_stand|cartography_table)/ },
 
-        // Modern Industrialization
+        // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
-        { output: /modern_industrialization:fire_clay_(brick|dust)/ },
+        { output: 'modern_industrialization:fire_clay_dust' },
+        { input: 'modern_industrialization:fire_clay_dust' },
+        { output: /modern_industrialization:(brick|brick_tiny)_dust/ },
+        { input: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { type: 'minecraft:crafting_shaped', output: /modern_industrialization:.*_(gear|rotor|ring)$/ },
         {
             type: 'modern_industrialization:macerator',
             input: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/
         },
+        { id: /modern_industrialization:materials\/.*\/macerator\/(raw_metal|crushed_dust)/ },
+        { id: /modern_industrialization:materials\/macerator\/.*crushed_to_dust/ },
         { output: /(modern|extended)_industrialization:.*_(curved_plate|bolt)$/ },
         { output: `modern_industrialization:bronze_compressor` },
+        { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { output: /modern_industrialization:.*_water_pump/ },
+        { output: /extended_industrialization:.*_alloy_smelter/ },
+        { output: `modern_industrialization:heatproof_machine_casing` },
+        {
+            type: 'modern_industrialization:mixer',
+            output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
+        },
+        { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
+        { type: 'extended_industrialization:alloy_smelter' },
+        { output: 'modern_industrialization:analog_circuit' },
+        { output: 'modern_industrialization:bronze_machine_casing_pipe' },
+        { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
+        { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
+        { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
+        { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/item_pipe_direct/ },
+        { id: /modern_industrialization:steam_age\/(fluid|item)_pipe_asbl/ },
+        { id: /modern_industrialization:assembler_generated\/steam_age\/(fluid|item)_pipe/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -116,6 +201,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:spawn_lamp' },
         { id: 'naturesaura:chunk_loader' },
         { id: 'naturesaura:oak_generator' },
+        { id: 'naturesaura:depth_ingot_creation' },
         { id: 'naturesaura:tree_ritual/nature_altar' },
         { id: 'naturesaura:tree_ritual/crushing_catalyst' },
         { id: 'naturesaura:tree_ritual/conversion_catalyst' },
@@ -123,23 +209,56 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tree_ritual/animal_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
         { id: `naturesaura:altar/coal` },
+        { id: `naturesaura:altar/infused_stone` },
+        { id: `naturesaura:altar/nether_wart` },
+        { id: `naturesaura:altar/warped_fungus` },
+        { id: `naturesaura:altar/crimson_fungus` },
 
         // Occultism
+        { type: 'occultism:miner' },
+        { type: 'occultism:crushing' },
+        { type: 'occultism:crystallize' },
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
 
         // Oritech
+        { type: 'oritech:foundry' },
+        { output: 'oritech:foundry_block' },
+        { type: 'oritech:pulverizer' },
+        { output: 'oritech:pulverizer_block' },
         { id: 'oritech:crafting/alloy/steel' },
+        { id: 'oritech:crafting/claybeads' },
+        { id: 'oritech:crafting/alloy/rawsilicon' },
+        { id: 'oritech:silicon_blockblock' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
         { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
+        { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
+        { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
+        { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
+        { id: /oritech:centrifuge.*clump/ },
+        { id: /oritech:splashing\/compat\/create/ },
+        { id: 'oritech:atomicforge/urandust' },
+        { id: /oritech:grinder\/uraniumcrystal/ },
+        { id: /oritech:mixing\/compat\/create/ },
+        { id: /oritech:compat\/enderio\/alloy/ },
+        { input: /oritech:(nickel|platinum|iron|copper|gold)_gem/ },
+        { id: /oritech:atomicforge\/dust\/(nickel|platinum|iron|copper|gold)/ },
+        { id: /oritech:grinder\/raw\/(nickel|platinum|iron|copper|gold)/ },
+        { id: /oritech:(nickel|platinum|iron|copper|gold)_clump/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
         { output: 'pneumaticcraft:reinforced_stone' },
+        { output: 'pneumaticcraft:crop_support' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { id: /pneumaticcraft:thermo_plant\/vegetable_oil/ },
+
+        // PrettyPipes and Addons
+        { output: 'prettypipes:pipe' },
+        { output: 'prettypipes:blank_module' },
+        { output: 'ppfluids:fluid_pipe' },
 
         // Replication
         { type: 'replication:matter_value' },
@@ -147,6 +266,9 @@ ServerEvents.recipes((event) => {
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
+
+        // Tempad
+        { id: 'tempad:time_steel_create' },
 
         // Theurgy
         { type: 'theurgy:digestion' },
@@ -164,7 +286,8 @@ ServerEvents.recipes((event) => {
 
         // Ore Processing Removals
         { input: '#c:ores' },
-        { id: /actuallyadditions:crushing\/.*_ore$/ }
+        { input: '#c:raw_materials/uranium' },
+        { input: '#c:storage_blocks/raw_uranium' }
     ];
 
     recipes.forEach((recipe) => {

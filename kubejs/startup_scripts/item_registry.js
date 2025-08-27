@@ -3,7 +3,7 @@ StartupEvents.registry('item', (event) => {
     const delivery_bags = [
         { name: `Dumpling Drop` },
         { name: `Great Eggspectations` },
-        { name: `Supa Soup` },
+        { name: `Cozy Cauldron` },
         { name: `La Drygmese Poutine`, magic: true },
         { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
@@ -25,7 +25,8 @@ StartupEvents.registry('item', (event) => {
         { name: 'Sheepuff', layer: 'mutton' },
         { name: 'Aerbunny', layer: 'rabbit' },
         { name: 'Goat', layer: 'goat_fur' },
-        { name: 'Moa', layer: 'feather' }
+        { name: 'Moa', layer: 'feather' },
+        { name: 'Chicken', layer: 'egg' }
     ];
 
     IOU_slips.forEach((item) => {
@@ -62,6 +63,23 @@ StartupEvents.registry('item', (event) => {
             .food((food) => {
                 food.nutrition(realNutrition).saturation(realSaturation);
             });
+    });
+
+    const ritualDummies = [
+        {
+            name: 'Ritual: Overworldian Nights Rift',
+            id: 'occultism:ritual_dummy/misc_overworldian_nights',
+            type: 'misc',
+            tooltip: 'Tear a open a dimensional rift, calling forth nightmares from another world.'
+        }
+    ];
+
+    ritualDummies.forEach((item) => {
+        event
+            .create(item.id, 'occultism:ritual_dummy')
+            .displayName(item.name)
+            .pentacleType(item.type)
+            .ritualTooltip(item.tooltip);
     });
 
     event.create(`enigmatica:ruby`).texture(`enigmatica:item/ruby`);

@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'create:polished_rose_quartz',
                 B: 'actuallyadditions:enori_crystal',
-                B: 'actuallyadditions:restonia_crystal'
+                C: 'actuallyadditions:restonia_crystal'
             },
             id: `${id_prefix}electron_tube`
         }

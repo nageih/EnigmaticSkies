@@ -8,24 +8,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}singularity`
         },
         {
-            results: [{ id: 'mekanism:pellet_antimatter', count: 1 }],
-            ingredients: [{ item: 'minecraft:dragon_egg' }, { item: 'ae2:singularity' }],
-            time: 15000,
-            id: `${id_prefix}pellet_antimatter`
-        },
-        {
             results: [{ id: 'minecraft:heart_of_the_sea', count: 1 }],
             ingredients: [{ item: 'minecraft:pufferfish' }, { tag: 'c:ingots/neptunium' }],
             time: 500,
             id: `${id_prefix}heart_of_the_sea`
         },
-        {
-            results: [{ id: 'aquaculture:neptunium_nugget', count: 1 }],
-            ingredients: [{ tag: 'c:nuggets/copper' }, { tag: 'c:ingots/uraninite' }],
-            time: 500,
-            id: `${id_prefix}neptunium_nugget`
-        },
-
         {
             results: [{ id: 'minecraft:crying_obsidian', count: 1 }],
             ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],

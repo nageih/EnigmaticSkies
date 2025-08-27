@@ -13,11 +13,6 @@ ServerEvents.tags('item', (event) => {
 
         spirit_attuned: ['occultism:spirit_attuned_gem'],
 
-        blazing: ['powah:crystal_blazing'],
-        niotic: ['powah:crystal_niotic'],
-        spirited: ['powah:crystal_spirited'],
-        nitro: ['powah:crystal_nitro'],
-
         platinum: ['oritech:platinum_gem'],
         nickel: ['oritech:nickel_gem'],
         iron: ['oritech:iron_gem'],
@@ -35,7 +30,20 @@ ServerEvents.tags('item', (event) => {
 
         ambrosium: ['aether:ambrosium_shard'],
 
-        ruby: ['enigmatica:ruby']
+        ruby: ['enigmatica:ruby'],
+
+        restonia: ['actuallyadditions:restonia_crystal'],
+        palis: ['actuallyadditions:palis_crystal'],
+        diamatine: ['actuallyadditions:diamatine_crystal'],
+        void: ['actuallyadditions:void_crystal'],
+        emeradic: ['actuallyadditions:emeradic_crystal'],
+        enori: ['actuallyadditions:enori_crystal'],
+        empowered_restonia: ['actuallyadditions:empowered_restonia_crystal'],
+        empowered_palis: ['actuallyadditions:empowered_palis_crystal'],
+        empowered_diamatine: ['actuallyadditions:empowered_diamatine_crystal'],
+        empowered_void: ['actuallyadditions:empowered_void_crystal'],
+        empowered_emeradic: ['actuallyadditions:empowered_emeradic_crystal'],
+        empowered_enori: ['actuallyadditions:empowered_enori_crystal']
     };
 
     Object.keys(additions).forEach((tag) => {

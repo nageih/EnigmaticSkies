@@ -2,7 +2,7 @@ ServerEvents.tags('fluid', (event) => {
     event.get('c:crude_oil').add(['modern_industrialization:crude_oil', 'oritech:still_oil']);
     event.get('c:ethanol').add(['modern_industrialization:ethanol']);
     event.get('c:diesel').add(['modern_industrialization:diesel', 'oritech:still_diesel']);
-    event.get('c:biodiesel').add(['modern_industrialization:biodiesel']);
+    event.get('c:biodiesel').add(['modern_industrialization:biodiesel']).remove('oritech:still_oil');
     event.get('c:blaze_ember').add(['justdirethings:refined_t2_fluid_source']);
     event.get('c:voidflame').add(['justdirethings:refined_t3_fluid_source']);
     event.get('c:eclipse_ember').add(['justdirethings:refined_t4_fluid_source']);
@@ -17,4 +17,5 @@ ServerEvents.tags('fluid', (event) => {
     event.get('c:turbo_fuel').add(['oritech:still_fuel']);
     event.get('c:boosted_diesel').add(['modern_industrialization:boosted_diesel']);
     event.get('c:creosote').add(['modern_industrialization:creosote']);
+    event.get('c:heavy_fuel').add(['oritech:still_heavy_oil']);
 });

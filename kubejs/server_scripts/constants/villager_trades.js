@@ -2,6 +2,63 @@
 
 // Villagers have 2 trade slots per level and 5 total levels.
 const villagerTrades = {
+    // Smithing Table
+    'minecraft:toolsmith': [
+        {
+            result: { id: 'minecraft:composter', count: 1 },
+            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:furnace', count: 1 },
+            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'minecraft:lectern', count: 1 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:cartography_table', count: 1 },
+            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'minecraft:smoker', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:grindstone', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'minecraft:cauldron', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:brewing_stand', count: 1 },
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'minecraft:blast_furnace', count: 1 },
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            level: 5
+        },
+        {
+            result: { id: 'minecraft:stonecutter', count: 1 },
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            level: 5
+        }
+    ],
     // Composter
     'minecraft:farmer': [
         {
@@ -12,6 +69,11 @@ const villagerTrades = {
         {
             result: { id: 'actuallyadditions:worm', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'pneumaticcraft:crop_support', count: 8 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 1
         }
     ],
@@ -166,20 +228,28 @@ const villagerTrades = {
     // Stonecutter
     'minecraft:mason': [
         {
-            result: { id: 'modern_industrialization:fire_clay_bricks', count: 4 },
+            result: { id: 'modern_industrialization:fire_clay_brick', count: 16 },
             ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
-                { id: 'minecraft:bricks', count: { min: 8, max: 8 } }
+                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
+                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
+            ],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:brick', count: 16 },
+            ingredients: [
+                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
+                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
             ],
             level: 1
         },
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
             ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 4, max: 8 } },
+                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } },
                 { id: 'pneumaticcraft:ingot_iron_compressed', count: { min: 1, max: 1 } }
             ],
-            level: 1
+            level: 2
         }
     ],
     // Coffee Maker
@@ -191,17 +261,48 @@ const villagerTrades = {
                 { id: 'actuallyadditions:enori_crystal', count: { min: 3, max: 6 } }
             ],
             level: 1
+        },
+        {
+            result: { id: 'create:precision_mechanism', count: 4 },
+            ingredients: [
+                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
+                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
+            ],
+            level: 1
+        },
+        {
+            result: { id: 'modern_industrialization:analog_circuit', count: 4 },
+            ingredients: [
+                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
+                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
+            ],
+            level: 2
         }
     ],
     // Forge Hammer
     'modern_industrialization:industrialist': [
         {
+            result: { id: 'prettypipes:pipe', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ppfluids:fluid_pipe', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 1
+        },
+        {
+            result: { id: 'prettypipes:blank_module', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 2
+        },
+        {
             result: {
                 id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:analog_circuit"},Progress:1.0d}]',
                 count: 1
             },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 24, max: 32 } }],
-            level: 1
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 1, max: 8 } }],
+            level: 5
         }
     ],
     // Brewing Stand
@@ -257,38 +358,38 @@ const villagerTrades = {
     ]
 };
 
-const aquacultureFish = [
-    'aquaculture:atlantic_cod',
-    'aquaculture:blackfish',
-    'aquaculture:pacific_halibut',
-    'aquaculture:atlantic_halibut',
-    'aquaculture:atlantic_herring',
-    'aquaculture:pink_salmon',
-    'aquaculture:pollock',
-    'aquaculture:rainbow_trout',
-    'aquaculture:bayad',
-    'aquaculture:boulti',
-    'aquaculture:capitaine',
-    'aquaculture:synodontis',
-    'aquaculture:smallmouth_bass',
-    'aquaculture:bluegill',
-    'aquaculture:brown_trout',
-    'aquaculture:carp',
-    'aquaculture:catfish',
-    'aquaculture:gar',
-    'aquaculture:muskellunge',
-    'aquaculture:tuna',
-    'aquaculture:red_grouper',
-    'aquaculture:tambaqui',
-    'aquaculture:piranha',
-    'aquaculture:arapaima',
-    'aquaculture:perch'
-];
+// const aquacultureFish = [
+//     'aquaculture:atlantic_cod',
+//     'aquaculture:blackfish',
+//     'aquaculture:pacific_halibut',
+//     'aquaculture:atlantic_halibut',
+//     'aquaculture:atlantic_herring',
+//     'aquaculture:pink_salmon',
+//     'aquaculture:pollock',
+//     'aquaculture:rainbow_trout',
+//     'aquaculture:bayad',
+//     'aquaculture:boulti',
+//     'aquaculture:capitaine',
+//     'aquaculture:synodontis',
+//     'aquaculture:smallmouth_bass',
+//     'aquaculture:bluegill',
+//     'aquaculture:brown_trout',
+//     'aquaculture:carp',
+//     'aquaculture:catfish',
+//     'aquaculture:gar',
+//     'aquaculture:muskellunge',
+//     'aquaculture:tuna',
+//     'aquaculture:red_grouper',
+//     'aquaculture:tambaqui',
+//     'aquaculture:piranha',
+//     'aquaculture:arapaima',
+//     'aquaculture:perch'
+// ];
 
-aquacultureFish.forEach((fish) => {
-    villagerTrades['minecraft:fisherman'].push({
-        result: { id: fish, count: 4 },
-        ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
-        level: 5
-    });
-});
+// aquacultureFish.forEach((fish) => {
+//     villagerTrades['minecraft:fisherman'].push({
+//         result: { id: fish, count: 4 },
+//         ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
+//         level: 5
+//     });
+// });

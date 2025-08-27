@@ -15,6 +15,22 @@ ServerEvents.recipes((event) => {
             output: { count: 2, id: 'appflux:redstone_crystal' },
             processingTime: 50,
             id: `${id_prefix}redstone_crystal`
+        },
+        {
+            input: [
+                { item: 'enderio:industrial_insulation_block' },
+                { item: 'modern_industrialization:analog_circuit' },
+                { item: 'enderio:industrial_insulation_block' },
+                { tag: 'c:plates/steel' },
+                { tag: 'c:plates/steel' },
+                { item: 'modern_industrialization:fire_clay_bricks' },
+                { tag: 'c:gears/compressed_iron' },
+                { item: 'modern_industrialization:fire_clay_bricks' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
+            output: { count: 1, id: 'industrialforegoing:machine_frame_simple' },
+            processingTime: 300,
+            id: `${id_prefix}machine_frame_simple`
         }
     ];
 
