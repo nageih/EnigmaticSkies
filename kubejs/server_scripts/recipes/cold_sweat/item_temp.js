@@ -58,6 +58,6 @@ ServerEvents.generateData('before_mods', (event) => {
     ];
 
     carried_items.forEach((carried_item) => {
-        event.json(`enigmatica:cold_sweat/item/carried_temp/${carried_item.name}`, carried_item);
+        event.json(`enigmatica:cold_sweat/item/item_temp/${carried_item.name}`, carried_item);
     });
 });
