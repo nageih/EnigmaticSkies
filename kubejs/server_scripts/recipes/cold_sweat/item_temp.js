@@ -1,5 +1,5 @@
 ServerEvents.generateData('before_mods', (event) => {
-    const carried_items = [
+    const recipes = [
         {
             name: 'warm_stackables',
             item: {
@@ -18,12 +18,7 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             name: 'hot_unstackables',
             item: {
-                items: [
-                    'enderio:fire_water_bucket',
-                    'mekanism:superheated_sodium_bucket',
-                    'mekanism:uranium_oxide_bucket',
-                    'minecraft:lava_bucket'
-                ]
+                items: ['enderio:fire_water_bucket', 'minecraft:lava_bucket']
             },
             slots: [{ min: 0, max: 44 }],
             temperature: 0.5,
@@ -57,7 +52,7 @@ ServerEvents.generateData('before_mods', (event) => {
         }
     ];
 
-    carried_items.forEach((carried_item) => {
-        event.json(`enigmatica:cold_sweat/item/item_temp/${carried_item.name}`, carried_item);
+    recipes.forEach((recipe) => {
+        event.json(`enigmatica:cold_sweat/item/item_temp/${recipe.name}`, recipe);
     });
 });
