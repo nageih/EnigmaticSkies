@@ -45,6 +45,7 @@
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/ ",
             "oritech:pulverizer_block",
             "oritech:foundry_block",
+            "oritech:machine_core_1",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
 

@@ -84,6 +84,16 @@ ServerEvents.recipes((event) => {
                 B: 'enderio:conduit_binder'
             },
             id: `${id_prefix}item_pipe`
+        },
+        {
+            output: `modern_industrialization:motor`,
+            pattern: [' A ', 'BCB', ' A '],
+            key: {
+                A: '#c:ingots/energetic_alloy',
+                B: '#c:plates/steel',
+                C: 'oritech:magnetic_coil'
+            },
+            id: `${id_prefix}motor`
         }
     ];
 

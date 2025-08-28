@@ -168,11 +168,11 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
-                { tag: 'minecraft:soul_sand', count: 1 },
+                { item: 'oritech:wither_crop_block', count: 13 },
                 { tag: 'c:ingots/blazegold', count: 1 }
             ],
             tier: 1,
-            exclusions: [],
+            exclusions: ['create'],
             id_suffix: `soularium_ingot`
         },
         {
@@ -209,22 +209,12 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'oritech:adamant_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/nickel', count: 1 },
-                { tag: 'c:gems/diamond', count: 1 }
+                { tag: 'c:ingots/neptunium', count: 1 },
+                { tag: 'c:dusts/diamond', count: 1 }
             ],
             tier: 2,
             exclusions: [],
             id_suffix: `adamant_ingot`
-        },
-        {
-            output: { id: 'oritech:biosteel_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/infused_iron', count: 1 },
-                { item: 'oritech:raw_biopolymer', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `biosteel_ingot`
         }
     ];
 

@@ -13,6 +13,17 @@ ServerEvents.recipes((event) => {
             recipe_book_tab: 'meals',
             experience: 1.0,
             id: `farmersdelight:cooking/beef_stew`
+        },
+        {
+            result: { id: 'justdirethings:gooblock_tier2', count: 1 },
+            ingredients: [
+                { item: 'justdirethings:gooblock_tier1' },
+                { item: 'minecraft:fire_charge' },
+                { item: 'arsdelight:unstable_cocktail' }
+            ],
+            recipe_book_tab: 'meals',
+            experience: 1.0,
+            id: `${id_prefix}gooblock_tier2`
         }
     ];
 

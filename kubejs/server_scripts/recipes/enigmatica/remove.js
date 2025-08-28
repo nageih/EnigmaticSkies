@@ -104,6 +104,10 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
         { id: 'enderio:pulsating_crystal' },
         { id: `enderio:primitive_alloy_smelter` },
+        { id: 'enderio:slice_and_splice' },
+        { id: 'enderio:ensouled_chassis' },
+        { id: 'enderio:soul_chain' },
+
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
 
@@ -114,6 +118,7 @@ ServerEvents.recipes((event) => {
 
         // Genetics
         { output: 'geneticsresequenced:coal_generator' },
+        { output: `geneticsresequenced:cell_analyzer` },
 
         // Industrial Foregoing
         { type: 'industrialforegoing:fluid_extractor' },
@@ -137,6 +142,7 @@ ServerEvents.recipes((event) => {
         { output: /justdirethings:gooblock/ },
         { output: 'justdirethings:generatort1' },
         { output: 'justdirethings:generatorfluidt1' },
+        { output: 'justdirethings:polymorphic_catalyst' },
         { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
         { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
 
@@ -185,6 +191,7 @@ ServerEvents.recipes((event) => {
         { type: 'extended_industrialization:alloy_smelter' },
         { output: 'modern_industrialization:analog_circuit' },
         { output: 'modern_industrialization:bronze_machine_casing_pipe' },
+        { output: 'modern_industrialization:motor' },
         { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
         { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
@@ -220,19 +227,31 @@ ServerEvents.recipes((event) => {
         { type: 'occultism:crystallize' },
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
+        { id: 'occultism:spirit_fire/otherworld_ashes' },
 
         // Oritech
         { type: 'oritech:foundry' },
         { output: 'oritech:foundry_block' },
         { type: 'oritech:pulverizer' },
         { output: 'oritech:pulverizer_block' },
+        { output: 'oritech:assembler_block' },
+        { output: /oritech:.*_generator_block/ },
+        { output: 'oritech:big_solar_panel_block' },
+        { output: 'oritech:steam_engine_block' },
+        // { output: /oritech:machine_core_/ },
+        { id: 'oritech:silicon_blockblock' },
+        { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
         { id: 'oritech:crafting/alloy/steel' },
         { id: 'oritech:crafting/claybeads' },
+        { id: 'oritech:crafting/witherrose' },
         { id: 'oritech:crafting/alloy/rawsilicon' },
-        { id: 'oritech:silicon_blockblock' },
+        { id: 'oritech:crafting/alloy/adamant' },
+        { id: /oritech:(particle|laser)\/fluxite/ },
+        { id: /oritech:(crafting|assembler)\/magnet/ },
+        { id: 'oritech:compat/ae2/charger/fluxite' },
         { id: 'oritech:compat/enderio/alloy/steel' },
         { id: 'oritech:mixing/compat/create/steel' },
-        { id: 'oritech:steel_ingot_from_blasting_steel_dust' },
+        { id: 'oritech:assembler/fluxgate' },
         { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },

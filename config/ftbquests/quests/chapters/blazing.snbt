@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_fire_focus"
 	}
 	id: "0A799F91D9A1C8A1"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -157,6 +157,17 @@
 			}]
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["09599F64E0788B37"]
+			id: "5AC80FA3683D9E45"
+			tasks: [{
+				id: "73931E7879D691A3"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
 		}
 	]
 }

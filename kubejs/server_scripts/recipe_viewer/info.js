@@ -175,11 +175,16 @@ RecipeViewerEvents.addInformation('item', (event) => {
 
     Object.keys(villagerTrades).forEach((profession) => {
         villagerTrades[profession].forEach((recipe) => {
+            // "entity.minecraft.villager.farmer"
+            // "entity.minecraft.villager.actuallyadditions.engineer"
+
+            let lang_key = `entity.minecraft.villager.${profession.replace('minecraft:', '').replace(':', '.')}`;
+
             descriptions.push({
                 filter: [Item.of(recipe.result.id)],
                 text: [
                     Text.string(`Obtained by trading with `)
-                        .append(Text.translate(`entity.${profession.replace(':', '.villager.')}`))
+                        .append(Text.translate(lang_key))
                         .append(Text.string(' Villagers.')),
 
                     ` `,
@@ -188,8 +193,6 @@ RecipeViewerEvents.addInformation('item', (event) => {
             });
         });
     });
-
-    // "entity.minecraft.villager.farmer"
 
     descriptions.forEach((description) => {
         event.add(description.filter, description.text);

@@ -29,6 +29,13 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 4,
             id: `${id_prefix}ruby`
+        },
+        {
+            item_outputs: { item: AlmostUnified.getTagTargetItem(`c:plates/brass`).getId(), amount: 1 },
+            item_inputs: { tag: 'c:ingots/brass', amount: 1 },
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}brass_plate`
         }
     ];
 

@@ -26,6 +26,21 @@ ServerEvents.recipes((event) => {
             output: { id: 'minecraft:warped_fungus', count: 1 },
             ingredient: { item: 'minecraft:brown_mushroom' },
             id: `${id_prefix}warped_fungus`
+        },
+        {
+            output: { id: 'justdirethings:gooblock_tier3', count: 1 },
+            ingredient: { item: 'justdirethings:gooblock_tier2' },
+            id: `${id_prefix}gooblock_tier3`
+        },
+        {
+            output: { id: 'oritech:wither_crop_block', count: 1 },
+            ingredient: { item: 'minecraft:nether_wart' },
+            id: `${id_prefix}wither_crop_block`
+        },
+        {
+            output: { id: 'occultism:otherworld_ashes', count: 1 },
+            ingredient: { item: 'supplementaries:ash' },
+            id: `${id_prefix}otherworld_ashes`
         }
     ];
 

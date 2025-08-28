@@ -7,6 +7,12 @@ function toTitleCase(str) {
     return str.replace(/\w\S*/g, (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase());
 }
 
+function hexToRgb(hex) {
+    let cleanHex = hex.startsWith('#') ? hex.slice(1) : hex;
+    let color = cleanHex.substr(4, 2) + cleanHex.substr(2, 2) + cleanHex.substr(0, 2);
+    return parseInt(color, 16);
+}
+
 function getPreferredItemInTag(tag) {
     return (
         Ingredient.of(tag)

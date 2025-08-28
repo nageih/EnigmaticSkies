@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ mod: 'oritech' }],
             to_replace: '#c:ingots/steel',
-            replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
+            replace_with: '#c:ingots/steel'
         },
         {
             filter: [
@@ -229,6 +229,16 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
             to_replace: `#c:ingots/zinc`,
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:tin_cable`,
+            replace_with: `modern_industrialization:copper_cable`
+        },
+        {
+            filter: {},
+            to_replace: `oritech:motor`,
+            replace_with: `modern_industrialization:motor`
         }
     ];
 
