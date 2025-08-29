@@ -3,9 +3,9 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             results: [{ id: 'oritech:carbon_fibre_strands', count: 1 }],
-            ingredients: [{ tag: 'c:dusts/lignite_coal' }],
-            time: 100,
-            id: `${id_prefix}carbon_fibre_strands_from_lignite_coal`
+            ingredients: [{ item: 'oritech:polymer_resin' }],
+            time: 50,
+            id: `${id_prefix}carbon_fibre_strands`
         }
     ];
 

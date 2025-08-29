@@ -1,9 +1,60 @@
 {
-    "ritual.enigmatica.ritual/overworldian_nights.conditions": "Not all requirements for this ritual are met.",
-    "ritual.enigmatica.ritual/overworldian_nights.finished": "Successfully opened rift.",
-    "ritual.enigmatica.ritual/overworldian_nights.interrupted": "Rift opening interrupted.",
-    "ritual.enigmatica.ritual/overworldian_nights.started": "Started opening rift.",
-
     "item.occultism.fragile_soul_gem.tooltip_empty": "Use on a creature to capture it. §cSingle Use!",
-    "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a captured %s. §cWill break on release!"
+    "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a captured %s. §cWill break on release!",
+
+    "item.occultism.ritual_dummy.misc_overworldian_nights": "Ritual: Overworldian Nights Rift",
+    "item.occultism.ritual_dummy.misc_overworldian_nights.tooltip": "Tear a open a dimensional rift, calling forth nightmares from another world.",
+    "ritual.enigmatica.ritual/misc_overworldian_nights.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_overworldian_nights.finished": "Successfully opened rift.",
+    "ritual.enigmatica.ritual/misc_overworldian_nights.interrupted": "Rift opening interrupted.",
+    "ritual.enigmatica.ritual/misc_overworldian_nights.started": "Started opening rift.",
+
+    "item.occultism.ritual_dummy.misc_animate_blue_swet": "Ritual: Animate Blue Swet",
+    "item.occultism.ritual_dummy.misc_animate_blue_swet.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_blue_swet.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_blue_swet.finished": "Successfully animated a Blue Swet.",
+    "ritual.enigmatica.ritual/misc_animate_blue_swet.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_blue_swet.started": "Started animating Blue Swet.",
+
+    "item.occultism.ritual_dummy.misc_animate_golden_swet": "Ritual: Animate Golden Swet",
+    "item.occultism.ritual_dummy.misc_animate_golden_swet.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_golden_swet.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_golden_swet.finished": "Successfully animated a Golden Swet.",
+    "ritual.enigmatica.ritual/misc_animate_golden_swet.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_golden_swet.started": "Started animating Golden Swet.",
+
+    "item.occultism.ritual_dummy.misc_animate_slime": "Ritual: Animate Slime",
+    "item.occultism.ritual_dummy.misc_animate_slime.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_slime.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_slime.finished": "Successfully animated a Slime.",
+    "ritual.enigmatica.ritual/misc_animate_slime.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_slime.started": "Started animating Slime.",
+
+    "item.occultism.ritual_dummy.misc_animate_magma_cube": "Ritual: Animate Magma Cube",
+    "item.occultism.ritual_dummy.misc_animate_magma_cube.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_magma_cube.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_magma_cube.finished": "Successfully animated a Magma Cube.",
+    "ritual.enigmatica.ritual/misc_animate_magma_cube.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_magma_cube.started": "Started animating Magma Cube.",
+
+    "item.occultism.ritual_dummy.misc_animate_zephyr": "Ritual: Animate Zephyr",
+    "item.occultism.ritual_dummy.misc_animate_zephyr.tooltip": "Infuse a cloud with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_zephyr.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_zephyr.finished": "Successfully animated a Zephyr.",
+    "ritual.enigmatica.ritual/misc_animate_zephyr.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_zephyr.started": "Started animating Zephyr.",
+
+    "item.occultism.ritual_dummy.misc_animate_sentry": "Ritual: Animate Sentry",
+    "item.occultism.ritual_dummy.misc_animate_sentry.tooltip": "Infuse bricks with magic to bring them to life.",
+    "ritual.enigmatica.ritual/misc_animate_sentry.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_sentry.finished": "Successfully animated a Sentry.",
+    "ritual.enigmatica.ritual/misc_animate_sentry.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_sentry.started": "Started animating Sentry.",
+
+    "item.occultism.ritual_dummy.misc_animate_rootmin": "Ritual: Animate Rootmin",
+    "item.occultism.ritual_dummy.misc_animate_rootmin.tooltip": "Infuse mud with magic to bring it to life.",
+    "ritual.enigmatica.ritual/misc_animate_rootmin.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/misc_animate_rootmin.finished": "Successfully animated a Rootmin.",
+    "ritual.enigmatica.ritual/misc_animate_rootmin.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/misc_animate_rootmin.started": "Started animating Rootmin."
 }

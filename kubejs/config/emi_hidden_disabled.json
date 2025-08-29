@@ -14,6 +14,8 @@
 
             "enderio:stirling_generator",
 
+            "framedblocks:phantom_paste",
+
             "geneticsresequenced:coal_generator",
 
             "industrialforegoing:pitiful_generator",
@@ -27,12 +29,14 @@
 
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
+            "justdirethings:raw_coal_t1_ore",
 
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",
             "/extended_industrialization:.*_alloy_smelter/",
             "modern_industrialization:fire_clay_dust",
             "/modern_industrialization:(brick|brick_tiny)_dust/",
+            "modern_industrialization:crude_oil_bucket",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
@@ -46,6 +50,14 @@
             "oritech:pulverizer_block",
             "oritech:foundry_block",
             "oritech:machine_core_1",
+            "/oritech:.*_generator_block/",
+            "oritech:big_solar_panel_block",
+            "oritech:steam_engine_block",
+            "oritech:steam_boiler_addon",
+            "oritech:still_oil_bucket",
+            "oritech:still_fuel_bucket",
+            "oritech:still_heavy_oil_bucket",
+            "oritech:still_biofuel_bucket",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
 
@@ -59,10 +71,14 @@
         ]
     },
     "fluids": {
-        "hidden": []
-    },
-    "gases": {
-        "hidden": []
+        "hidden": [
+            "modern_industrialization:crude_oil",
+
+            "oritech:still_oil",
+            "oritech:still_fuel",
+            "oritech:still_heavy_oil",
+            "oritech:still_biofuel"
+        ]
     },
     "categories": {
         "hidden": []

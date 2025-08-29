@@ -56,13 +56,13 @@ const spiritData = [
             { spirit: 'wicked', count: 1 }
         ]
     },
-    {
-        registry_name: 'aether:fire_minion',
-        spirits: [
-            { spirit: 'infernal', count: 3 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'aether:fire_minion',
+    //     spirits: [
+    //         { spirit: 'infernal', count: 3 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'aether:flying_cow',
         spirits: [
@@ -77,14 +77,14 @@ const spiritData = [
             { spirit: 'aqueous', count: 1 }
         ]
     },
-    {
-        registry_name: 'aether:mimic',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'earthen', count: 1 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'aether:mimic',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'earthen', count: 1 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'aether:moa',
         spirits: [
@@ -113,34 +113,34 @@ const spiritData = [
             { spirit: 'aerial', count: 2 }
         ]
     },
-    {
-        registry_name: 'aether:slider',
-        spirits: [
-            { spirit: 'arcane', count: 5 },
-            { spirit: 'earthen', count: 5 }
-        ]
-    },
-    {
-        registry_name: 'aether:sun_spirit',
-        spirits: [
-            { spirit: 'sacred', count: 5 },
-            { spirit: 'infernal', count: 5 }
-        ]
-    },
-    {
-        registry_name: 'aether:valkyrie',
-        spirits: [
-            { spirit: 'sacred', count: 3 },
-            { spirit: 'aerial', count: 2 }
-        ]
-    },
-    {
-        registry_name: 'aether:valkyrie_queen',
-        spirits: [
-            { spirit: 'sacred', count: 5 },
-            { spirit: 'aerial', count: 5 }
-        ]
-    },
+    // {
+    //     registry_name: 'aether:slider',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 5 },
+    //         { spirit: 'earthen', count: 5 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aether:sun_spirit',
+    //     spirits: [
+    //         { spirit: 'sacred', count: 5 },
+    //         { spirit: 'infernal', count: 5 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aether:valkyrie',
+    //     spirits: [
+    //         { spirit: 'sacred', count: 3 },
+    //         { spirit: 'aerial', count: 2 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'aether:valkyrie_queen',
+    //     spirits: [
+    //         { spirit: 'sacred', count: 5 },
+    //         { spirit: 'aerial', count: 5 }
+    //     ]
+    // },
     {
         registry_name: 'aether:whirlwind',
         spirits: [{ spirit: 'aerial', count: 3 }]

@@ -27,6 +27,14 @@ ServerEvents.recipes((event) => {
             cookingtime: 200,
             experience: 0.15,
             id: `${id_prefix}gooblock_tier1`
+        },
+        {
+            result: { id: 'aether:golden_gummy_swet', count: 1 },
+            ingredient: { item: 'aether:blue_gummy_swet' },
+            category: 'enchanting_misc',
+            cookingtime: 200,
+            experience: 0.15,
+            id: `${id_prefix}golden_gummy_swet`
         }
     ];
 

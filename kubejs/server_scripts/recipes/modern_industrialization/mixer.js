@@ -125,6 +125,21 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}lumisene`
+        },
+        {
+            item_inputs: [
+                { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
+                { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
+                { tag: 'c:gems/primal_coal', amount: 1 }
+            ],
+            fluid_inputs: [
+                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 1000 },
+                { fluid: 'extended_industrialization:manure', amount: 1000 }
+            ],
+            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 3000 }],
+            duration: 60,
+            eu: 2,
+            id: `${id_prefix}crude_oil`
         }
     ];
 

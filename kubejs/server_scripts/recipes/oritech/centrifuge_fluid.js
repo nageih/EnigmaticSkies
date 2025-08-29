@@ -2,20 +2,28 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [
         {
-            results: [],
-            ingredients: [{ item: 'oritech:fluxite' }],
-            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
-            fluidOutputs: [{ fluid: 'oritech:still_fuel', amount: 1000 }],
-            time: 200,
-            id: `${id_prefix}still_fuel_from_oil`
-        },
-        {
-            results: [{ count: 1, id: 'oritech:polymer_resin' }],
-            ingredients: [{ tag: 'minecraft:sand' }],
-            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
+            results: [{ id: 'oritech:polymer_resin', count: 1 }],
             fluidOutputs: [],
+            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
+            fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
             time: 200,
             id: `${id_prefix}polymer_resin_from_oil`
+        },
+        {
+            results: [{ id: 'oritech:polymer_resin', count: 2 }],
+            fluidOutputs: [],
+            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
+            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 100 },
+            time: 100,
+            id: `${id_prefix}polymer_resin_from_naphtha`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'oritech:still_silicon_wash', amount: 1000 }],
+            ingredients: [{ tag: 'c:dusts/certus_quartz' }],
+            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 1000 },
+            time: 100,
+            id: `${id_prefix}silicon_wash`
         }
     ];
 

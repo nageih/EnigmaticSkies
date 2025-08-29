@@ -129,6 +129,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 160,
             id: `${id_prefix}flux_gate`
+        },
+        {
+            results: [{ id: 'oritech:clay_catalyst_beads', count: 16 }],
+            ingredients: [
+                { item: 'minecraft:clay' },
+                { item: 'minecraft:clay' },
+                { tag: 'c:storage_blocks/sulfur' },
+                { item: 'oritech:raw_silicon' }
+            ],
+            time: 160,
+            id: `${id_prefix}clay_catalyst_beads`
         }
     ];
 

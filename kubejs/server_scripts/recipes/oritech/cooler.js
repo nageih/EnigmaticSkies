@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/cooler/';
     const recipes = [
         {
-            fluidInput: { fluid: 'pneumaticcraft:plastic', amount: 100 },
+            fluidInput: { fluid: 'pneumaticcraft:plastic', amount: 1000 },
             ingredients: [],
             results: [{ id: 'pneumaticcraft:plastic', count: 2 }],
             time: 200,

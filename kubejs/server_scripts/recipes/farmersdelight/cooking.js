@@ -24,6 +24,13 @@ ServerEvents.recipes((event) => {
             recipe_book_tab: 'meals',
             experience: 1.0,
             id: `${id_prefix}gooblock_tier2`
+        },
+        {
+            result: { id: 'aether:blue_gummy_swet', count: 1 },
+            ingredients: [{ item: 'aether:swet_ball' }, { item: 'minecraft:sugar' }],
+            recipe_book_tab: 'meals',
+            experience: 1.0,
+            id: `${id_prefix}blue_gummy_swet`
         }
     ];
 

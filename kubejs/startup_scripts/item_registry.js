@@ -67,10 +67,52 @@ StartupEvents.registry('item', (event) => {
 
     const ritualDummies = [
         {
-            name: 'Ritual: Overworldian Nights Rift',
+            name: Text.translate('item.occultism.ritual_dummy.misc_overworldian_nights'),
             id: 'occultism:ritual_dummy/misc_overworldian_nights',
             type: 'misc',
-            tooltip: 'Tear a open a dimensional rift, calling forth nightmares from another world.'
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_overworldian_nights.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_blue_swet'),
+            id: 'occultism:ritual_dummy/misc_animate_blue_swet',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_blue_swet.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_golden_swet'),
+            id: 'occultism:ritual_dummy/misc_animate_golden_swet',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_golden_swet.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_slime'),
+            id: 'occultism:ritual_dummy/misc_animate_slime',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_slime.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_magma_cube'),
+            id: 'occultism:ritual_dummy/misc_animate_magma_cube',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_magma_cube.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_zephyr'),
+            id: 'occultism:ritual_dummy/misc_animate_zephyr',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_zephyr.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_sentry'),
+            id: 'occultism:ritual_dummy/misc_animate_sentry',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_sentry.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_animate_rootmin'),
+            id: 'occultism:ritual_dummy/misc_animate_rootmin',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_rootmin.tooltip')
         }
     ];
 

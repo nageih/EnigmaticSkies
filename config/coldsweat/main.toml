@@ -6,7 +6,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The current version of Cold Sweat. This is used by the auto-updater
 	# ⌄ 
-	Version = "2.4-b04c"
+	Version = "2.4-b04d"
 	#─────────────────────────────────────────────────────────────────────────
 	# Allows Cold Sweat's configs to be automatically updated with new additions & formatting changes
 	# ⌄ 

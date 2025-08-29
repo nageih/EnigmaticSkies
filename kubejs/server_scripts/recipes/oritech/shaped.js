@@ -20,6 +20,7 @@ ServerEvents.recipes((event) => {
                 B: 'create:mechanical_arm',
                 C: 'industrialforegoing:machine_frame_simple',
                 D: '#c:gears/energized',
+                E: 'actuallyadditions:advanced_coil',
                 F: 'modern_industrialization:motor'
             },
             id: `${id_prefix}assembler_block`
