@@ -170,6 +170,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:void_favor/raw_soulstone' },
         { id: 'malum:void_favor/anomalous_design' },
         { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
+        { id: 'malum:spirit_infusion/living_flesh' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
 
         // Minecraft

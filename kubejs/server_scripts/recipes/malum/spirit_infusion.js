@@ -12,6 +12,15 @@ ServerEvents.recipes((event) => {
                 { type: 'arcane', count: 1 }
             ],
             id: `${id_prefix}soul_stained_steel_ingot`
+        },
+        {
+            output: { id: 'malum:living_flesh', count: 2 },
+            ingredient: { item: 'farmersdelight:minced_beef', count: 4 },
+            spirits: [
+                { type: 'sacred', count: 2 },
+                { type: 'wicked', count: 2 }
+            ],
+            id: `${id_prefix}living_flesh`
         }
     ];
 
