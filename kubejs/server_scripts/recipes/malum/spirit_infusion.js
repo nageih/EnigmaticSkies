@@ -15,6 +15,17 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const spirits = ['sacred', 'wicked', 'arcane', 'eldritch', 'earthen', 'aerial', 'aqueous', 'infernal'];
+    spirits.forEach((spirit) => {
+        recipes.push({
+            output: { id: `malum:${spirit}_spirited_glass`, count: 8 },
+            ingredient: { item: `ae2:quartz_glass`, count: 8 },
+            extraIngredients: [{ tag: `c:ingots/andesite_alloy`, count: 1 }],
+            spirits: [{ type: spirit, count: 2 }],
+            id: `${id_prefix}${spirit}_spirited_glass`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'malum:spirit_infusion';
         event.custom(recipe).id(recipe.id);

@@ -67,6 +67,18 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: 'ars_nouveau:enchanters_gauntlet'
+        },
+        {
+            result: { id: 'geneticsresequenced:dna_helix', count: 4 },
+            pedestalItems: [
+                { tag: 'c:essences/conjuration' },
+                { tag: 'c:essences/manipulation' },
+                { tag: 'c:essences/anima' }
+            ],
+            reagent: { item: 'geneticsresequenced:dna_helix' },
+            keepNbtOfReagent: true,
+            sourceCost: 0,
+            id: `${id_prefix}dna_helix_cloning`
         }
     ];
 

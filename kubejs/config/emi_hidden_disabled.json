@@ -10,6 +10,8 @@
             "actuallyadditions:lens_of_the_miner",
             "actuallyadditions:lens_of_the_killer",
 
+            "/ars.*:ritual_(challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/",
+
             "createsifter:raw_uranium_piece",
 
             "enderio:stirling_generator",

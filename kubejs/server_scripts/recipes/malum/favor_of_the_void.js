@@ -41,8 +41,35 @@ ServerEvents.recipes((event) => {
             output: { id: 'occultism:otherworld_ashes', count: 1 },
             ingredient: { item: 'supplementaries:ash' },
             id: `${id_prefix}otherworld_ashes`
+        },
+        {
+            output: { id: 'enderio:frank_n_zombie', count: 1 },
+            ingredient: { item: 'enderio:z_logic_controller' },
+            id: `${id_prefix}frank_n_zombie`
+        },
+        {
+            output: { id: 'malum:anomalous_design', count: 1 },
+            ingredient: { item: 'ae2:fluix_block' },
+            id: `${id_prefix}anomalous_design`
         }
     ];
+
+    const aa_crystals = ['restonia', 'palis', 'diamatine', 'void', 'emeradic', 'enori'];
+
+    aa_crystals.forEach((crystal) => {
+        recipes.push(
+            {
+                output: { id: `actuallyadditions:empowered_${crystal}_crystal`, count: 1 },
+                ingredient: { tag: `c:gems/${crystal}` },
+                id: `${id_prefix}empowered_${crystal}_crystal`
+            },
+            {
+                output: { id: `actuallyadditions:empowered_${crystal}_crystal_block`, count: 1 },
+                ingredient: { tag: `c:storage_blocks/${crystal}` },
+                id: `${id_prefix}empowered_${crystal}_crystal`
+            }
+        );
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'malum:favor_of_the_void';

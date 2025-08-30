@@ -11,33 +11,46 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:essences/null_slate' },
                 { tag: 'c:gems/mnemonic_fragment' }
             ],
-            color: hexToRgb('#320a37'),
+            color: '#320a37',
             energy: 5000,
             time: 10,
             id: `${id_prefix}fluxite`
+        },
+        {
+            result: { id: 'modern_industrialization:electronic_circuit', count: 1 },
+            base: { item: 'malum:anomalous_design' },
+            modifiers: [
+                { item: 'modern_industrialization:analog_circuit' },
+                { tag: 'c:gems/fluxite' },
+                { item: 'modern_industrialization:analog_circuit' },
+                { tag: 'c:gems/fluxite' }
+            ],
+            color: '#9e0313',
+            energy: 5000,
+            time: 10,
+            id: `${id_prefix}electronic_circuit`
+        },
+        {
+            result: { id: 'actuallyadditions:empowered_canola_seed', count: 1 },
+            base: { item: 'actuallyadditions:crystallized_canola_seed' },
+
+            modifiers: [
+                { item: 'actuallyadditions:canola_seeds' },
+                { item: 'actuallyadditions:canola_seeds' },
+                { item: 'actuallyadditions:canola_seeds' },
+                { item: 'actuallyadditions:canola_seeds' }
+            ],
+            color: '#FF5B4C',
+            energy: 1000,
+            time: 1,
+            id: `${id_prefix}empowered_canola_seed`
         }
     ];
-
-    event.forEachRecipe({ type: 'actuallyadditions:empowering' }, (r) => {
-        let recipe = JSON.parse(r.json);
-        let recipe_id = r.getId();
-
-        if (!recipe_id.includes('_canola')) {
-            recipe.modifiers = [
-                { tag: 'c:essences/water' },
-                { tag: 'c:essences/fire' },
-                { tag: 'c:essences/air' },
-                { tag: 'c:essences/earth' }
-            ];
-            recipe.id = recipe_id;
-        }
-
-        if (recipe.id) recipes.push(recipe);
-    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'actuallyadditions:empowering';
         recipe.time = recipe.time * 20;
+        recipe.color = hexToRgb(recipe.color);
         event.custom(recipe).id(recipe.id);
     });
 });

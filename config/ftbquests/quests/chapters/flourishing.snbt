@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -129,8 +129,8 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -165,23 +165,23 @@
 			dependencies: ["169D412B565F97C4"]
 			id: "62ABC26128284A71"
 			tasks: [{
-				id: "2953890556C8A8F5"
-				item: { count: 1, id: "trading_floor:trading_depot" }
+				id: "7C797505C6313EEA"
+				item: { count: 1, id: "create:electron_tube" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["169D412B565F97C4"]
+			dependencies: ["62ABC26128284A71"]
 			id: "4F2E18DABA17E0AC"
 			tasks: [{
 				id: "6E26DAA418B8367F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			id: "659EDDA906968875"
@@ -193,26 +193,26 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["169D412B565F97C4"]
-			id: "33BD8DCC718314C6"
+			dependencies: ["62ABC26128284A71"]
+			id: "3BCD9E36D48B205A"
 			tasks: [{
-				id: "5ECF77030AEBE4C2"
-				item: { count: 1, id: "actuallyadditions:void_crystal" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["04AB0E3EBEC8A94B"]
-			id: "0EE03BB718F96335"
-			tasks: [{
-				id: "5F63BA059EBDF6BF"
-				item: { count: 1, id: "enigmaticunity:dim_source_generator" }
+				id: "128597849E5D0BC1"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62ABC26128284A71"]
+			id: "31903F40C2037EBD"
+			tasks: [{
+				id: "0EDBE4085F6E8A75"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 }

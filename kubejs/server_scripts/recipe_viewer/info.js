@@ -173,6 +173,30 @@ RecipeViewerEvents.addInformation('item', (event) => {
         descriptions.push(description);
     });
 
+    Object.keys(essenceEntities).forEach((type) => {
+        let description = { filter: [type], text: ['Obtained from the following mobs:'] };
+        let previous_mod = '';
+
+        essenceEntities[type].sort().forEach((entity) => {
+            let current_mod = entity.split(':')[0];
+            if (current_mod != previous_mod) {
+                previous_mod = current_mod;
+
+                if (current_mod == 'creeperoverhaul') {
+                    current_mod = 'Creeper Overhaul';
+                } else if (current_mod == 'sushigocrafting') {
+                    current_mod = 'Sushi Go Crafting';
+                } else {
+                    current_mod = toTitleCase(current_mod.replace('_', ' '));
+                }
+
+                description.text.push(' ', `${current_mod}`);
+            }
+            description.text.push(Text.string(' ● ').append(Text.translate(`entity.${entity.replace(':', '.')}`)));
+        });
+        descriptions.push(description);
+    });
+
     Object.keys(villagerTrades).forEach((profession) => {
         villagerTrades[profession].forEach((recipe) => {
             // "entity.minecraft.villager.farmer"

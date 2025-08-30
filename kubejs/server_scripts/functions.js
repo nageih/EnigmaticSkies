@@ -9,8 +9,9 @@ function toTitleCase(str) {
 
 function hexToRgb(hex) {
     let cleanHex = hex.startsWith('#') ? hex.slice(1) : hex;
-    let color = cleanHex.substr(4, 2) + cleanHex.substr(2, 2) + cleanHex.substr(0, 2);
-    return parseInt(color, 16);
+    // let color = cleanHex.substr(4, 2) + cleanHex.substr(2, 2) + cleanHex.substr(0, 2);
+
+    return parseInt(cleanHex, 16);
 }
 
 function getPreferredItemInTag(tag) {

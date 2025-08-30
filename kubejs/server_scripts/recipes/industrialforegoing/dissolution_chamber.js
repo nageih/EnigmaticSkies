@@ -3,16 +3,20 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: [{ tag: 'c:gems/quartz' }, { tag: 'c:gems/charged_certus' }, { tag: 'c:dusts/redstone' }],
-            inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            output: { count: 2, id: 'ae2:fluix_crystal' },
+            input: [
+                { tag: 'c:gems/empowered_restonia' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:dusts/sky_stone' }
+            ],
+            inputFluid: { fluid: `theurgy:sal_ammoniac`, amount: 100 },
+            output: { id: 'ae2:fluix_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}fluix_crystal`
         },
         {
             input: [{ tag: 'c:storage_blocks/redstone' }, { tag: 'c:gems/fluix' }, { tag: 'c:dusts/glowstone' }],
             inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            output: { count: 2, id: 'appflux:redstone_crystal' },
+            output: { id: 'appflux:redstone_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}redstone_crystal`
         },

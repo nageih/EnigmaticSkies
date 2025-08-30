@@ -179,30 +179,12 @@
 				id: "actuallyadditions:empowerer"
 			}
 			id: "6B0673A379D483A5"
-			rewards: [
-				{
-					id: "3332E751C989C650"
-					item: {
-						count: 1
-						id: "actuallyadditions:empowered_enori_crystal_block"
-					}
-					type: "item"
-				}
-				{
-					id: "45338DD051526B70"
-					item: {
-						count: 1
-						id: "actuallyadditions:empowered_restonia_crystal_block"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7E9E76D5D195A119"
-					table_id: 167859363417192230L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E9E76D5D195A119"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "77F196EB4AE836A8"
