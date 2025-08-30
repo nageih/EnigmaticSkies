@@ -79,6 +79,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: true,
             sourceCost: 0,
             id: `${id_prefix}dna_helix_cloning`
+        },
+        {
+            result: { id: 'minecraft:heart_of_the_sea', count: 1 },
+            pedestalItems: [
+                { tag: 'c:ingots/neptunium' },
+                { tag: 'c:essences/water' },
+                { tag: 'c:ingots/neptunium' },
+                { tag: 'c:essences/water' },
+                { tag: 'c:ingots/neptunium' },
+                { tag: 'c:essences/water' },
+                { tag: 'c:ingots/neptunium' },
+                { tag: 'c:essences/water' }
+            ],
+            reagent: { item: 'malum:imitation_heart' },
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}heart_of_the_sea`
         }
     ];
 

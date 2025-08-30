@@ -61,6 +61,7 @@ ServerEvents.recipes((event) => {
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
         { id: `ars_nouveau:imbuement_chamber` },
+        { id: `ars_caelum:heart_of_the_sea` },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
@@ -69,7 +70,6 @@ ServerEvents.recipes((event) => {
             output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
         },
         { id: 'ars_elemental:wool_to_string' },
-
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
 
         // Create and Addons
@@ -135,6 +135,17 @@ ServerEvents.recipes((event) => {
         { output: 'geneticsresequenced:coal_generator' },
         { output: `geneticsresequenced:cell_analyzer` },
         { output: `geneticsresequenced:dna_extractor` },
+        { output: `geneticsresequenced:dna_decryptor` },
+        { output: `geneticsresequenced:blood_purifier` },
+        { output: `geneticsresequenced:plasmid_infuser` },
+        { output: `geneticsresequenced:incubator` },
+        { output: `geneticsresequenced:advanced_incubator` },
+        { output: `geneticsresequenced:plasmid_injector` },
+        { output: `geneticsresequenced:scraper` },
+        { output: `geneticsresequenced:syringe` },
+        { output: `geneticsresequenced:metal_syringe` },
+        { output: `geneticsresequenced:gene_checker` },
+        { output: `geneticsresequenced:overclocker` },
 
         // Industrial Foregoing
         { type: 'industrialforegoing:fluid_extractor' },

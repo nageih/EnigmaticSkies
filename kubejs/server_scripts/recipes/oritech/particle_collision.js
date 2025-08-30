@@ -8,12 +8,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}singularity`
         },
         {
-            results: [{ id: 'minecraft:heart_of_the_sea', count: 1 }],
-            ingredients: [{ item: 'minecraft:pufferfish' }, { tag: 'c:ingots/neptunium' }],
-            time: 500,
-            id: `${id_prefix}heart_of_the_sea`
-        },
-        {
             results: [{ id: 'minecraft:crying_obsidian', count: 1 }],
             ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],
             time: 500,
