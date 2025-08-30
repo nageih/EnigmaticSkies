@@ -869,11 +869,11 @@
 					type: "item"
 				}
 				{
-					id: "64A61E3734CF766A"
+					id: "714A46DF45C39F95"
 					item: {
 						components: {
 							"minecraft:potion_contents": {
-								potion: "apothic_attributes:long_flying"
+								potion: "apothic_attributes:flying"
 							}
 						}
 						count: 1

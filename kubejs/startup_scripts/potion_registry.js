@@ -1,13 +1,6 @@
 StartupEvents.registry('potion', (event) => {
     const recipes = [
         {
-            potion: 'ars_nouveau:flight',
-            types: [
-                { name: 'base', duration: 480, amplifier: 0 },
-                { name: 'long', duration: 1080, amplifier: 0 }
-            ]
-        },
-        {
             potion: 'minecraft:resistance',
             types: [
                 { name: 'base', duration: 180, amplifier: 0 },
@@ -44,15 +37,6 @@ StartupEvents.registry('potion', (event) => {
             potion: 'minecraft:instant_damage',
             types: [{ name: 'greater', duration: 0, amplifier: 3 }]
         }
-        // {
-        //     potion: 'occultism:double_jump',
-        //     types: [
-        //         { name: 'base', duration: 180, amplifier: 0 },
-        //         { name: 'long', duration: 480, amplifier: 0 },
-        //         { name: 'strong', duration: 90, amplifier: 1 },
-        //         { name: 'greater', duration: 90, amplifier: 3 }
-        //     ]
-        // }
     ];
 
     recipes.forEach((recipe) => {

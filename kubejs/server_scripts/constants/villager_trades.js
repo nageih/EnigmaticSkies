@@ -287,7 +287,7 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'ars_nouveau:ritual_awakening', count: 1 },
+            result: { id: 'apotheosis:potion_charm[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
             ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
             level: 1
         },
@@ -310,6 +310,19 @@ const villagerTrades = {
             result: { id: 'malum:warp_flux', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
             level: 3
+        }
+    ],
+    // Lectern
+    'minecraft:librarian': [
+        {
+            result: { id: 'ars_nouveau:bookwyrm_charm', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 1
         }
     ]
 };

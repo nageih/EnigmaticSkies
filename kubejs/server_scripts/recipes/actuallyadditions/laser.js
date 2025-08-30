@@ -69,12 +69,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}brass_block_from_neptunium`
         },
         {
-            result: { id: 'ae2:charged_certus_quartz_crystal' },
-            ingredient: { item: 'ae2:certus_quartz_crystal' },
-            energy: 5000,
-            id: `${id_prefix}charged_certus_quartz_crystal`
-        },
-        {
             result: { id: 'actuallyadditions:ethetic_green_block' },
             ingredient: { item: 'malum:earthen_spirited_glass' },
             energy: 5000,

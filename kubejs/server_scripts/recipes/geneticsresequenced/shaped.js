@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: `geneticsresequenced:cell_analyzer`,
-            pattern: ['AAA', 'ABA', 'CDC'],
+            pattern: ['ABA', 'ACA', 'DED'],
             key: {
                 A: `#c:plates/plastic`,
                 B: 'enderio:ensouled_chassis',

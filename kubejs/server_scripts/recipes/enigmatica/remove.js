@@ -48,7 +48,8 @@ ServerEvents.recipes((event) => {
         { id: /ae2:transform\/.*(quartz|fluix)/ },
         { id: /advanced_ae:.*budding/ },
         { id: 'advanced_ae:redstonecrystal' },
-        { id: 'advanced_ae:certuscrystal' },
+        { id: 'advanced_ae:certuscharger' },
+        { id: 'advanced_ae:quartzcrystal' },
         { id: 'advanced_ae:fluixcrystals' },
         { id: 'advanced_ae:fluixcrystalfromdust' },
 
@@ -338,6 +339,7 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:fermentation' },
         { type: 'theurgy:distillation' },
         { type: 'theurgy:calcination' },
+        { type: 'theurgy:incubation' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

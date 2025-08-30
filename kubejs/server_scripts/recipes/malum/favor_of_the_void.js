@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
             {
                 output: { id: `actuallyadditions:empowered_${crystal}_crystal_block`, count: 1 },
                 ingredient: { tag: `c:storage_blocks/${crystal}` },
-                id: `${id_prefix}empowered_${crystal}_crystal`
+                id: `${id_prefix}empowered_${crystal}_crystal_block`
             }
         );
     });
