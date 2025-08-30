@@ -127,6 +127,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}lumisene`
         },
         {
+            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 3000 }],
             item_inputs: [
                 { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
                 { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
@@ -136,10 +137,21 @@ ServerEvents.recipes((event) => {
                 { fluid: `justdirethings:polymorphic_fluid_source`, amount: 1000 },
                 { fluid: 'extended_industrialization:manure', amount: 1000 }
             ],
-            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 3000 }],
             duration: 60,
             eu: 2,
             id: `${id_prefix}crude_oil`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:stainless_steel_dust', amount: 9 }],
+            item_inputs: [
+                { tag: `c:dusts/iron`, amount: 6 },
+                { tag: `c:dusts/chromium`, amount: 1 },
+                { tag: `c:dusts/silicon`, amount: 1 },
+                { tag: `c:dusts/manganese`, amount: 1 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}stainless_steel_dust`
         }
     ];
 

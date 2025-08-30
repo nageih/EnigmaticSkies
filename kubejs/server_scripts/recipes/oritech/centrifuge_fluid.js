@@ -2,14 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [
         {
-            results: [{ id: 'oritech:polymer_resin', count: 1 }],
-            fluidOutputs: [],
-            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
-            fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
-            time: 200,
-            id: `${id_prefix}polymer_resin_from_oil`
-        },
-        {
             results: [{ id: 'oritech:polymer_resin', count: 2 }],
             fluidOutputs: [],
             ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
@@ -24,6 +16,38 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 1000 },
             time: 100,
             id: `${id_prefix}silicon_wash`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 1000 }],
+            ingredients: [{ item: 'oritech:polymer_resin' }],
+            fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
+            time: 120,
+            id: `${id_prefix}plastic_from_polymer_resin`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 1000 }],
+            ingredients: [{ item: 'oritech:raw_biopolymer' }],
+            fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
+            time: 120,
+            id: `${id_prefix}plastic_from_raw_biopolymer`
+        },
+        {
+            results: [{ id: 'oritech:basic_battery', count: 2 }],
+            fluidOutputs: [],
+            ingredients: [{ tag: 'c:ingots/steel' }],
+            fluidInput: { fluid: 'modern_industrialization:sulfuric_acid', amount: 1000 },
+            time: 100,
+            id: `${id_prefix}basic_battery`
+        },
+        {
+            results: [{ id: 'oritech:advanced_battery', count: 8 }],
+            fluidOutputs: [],
+            ingredients: [{ item: 'oritech:dubios_container' }],
+            fluidInput: { fluid: 'modern_industrialization:sulfuric_acid', amount: 1000 },
+            time: 100,
+            id: `${id_prefix}advanced_battery`
         }
     ];
 

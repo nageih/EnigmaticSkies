@@ -8,10 +8,21 @@ ServerEvents.recipes((event) => {
             key: {
                 A: `#c:plates/plastic`,
                 B: 'create:content_observer',
-                C: '#c:gears/steel',
+                C: '#c:gears/energized',
                 D: 'oritech:flux_gate'
             },
             id: `${id_prefix}cell_analyzer`
+        },
+        {
+            output: `geneticsresequenced:dna_extractor`,
+            pattern: ['AAA', 'ABA', 'CDC'],
+            key: {
+                A: `#c:plates/plastic`,
+                B: 'create:mechanical_mixer',
+                C: '#c:gears/energized',
+                D: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}dna_extractor`
         }
     ];
 

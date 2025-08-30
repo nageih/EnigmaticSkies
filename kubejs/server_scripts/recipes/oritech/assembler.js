@@ -131,7 +131,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}flux_gate`
         },
         {
-            results: [{ id: 'oritech:clay_catalyst_beads', count: 16 }],
+            results: [{ id: 'oritech:clay_catalyst_beads', count: 8 }],
             ingredients: [
                 { item: 'minecraft:clay' },
                 { item: 'minecraft:clay' },

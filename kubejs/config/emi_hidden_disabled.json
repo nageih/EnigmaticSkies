@@ -37,6 +37,7 @@
             "modern_industrialization:fire_clay_dust",
             "/modern_industrialization:(brick|brick_tiny)_dust/",
             "modern_industrialization:crude_oil_bucket",
+            "/modern_industrialization:(tin|silver|electrum)_cable/",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
@@ -58,6 +59,7 @@
             "oritech:still_fuel_bucket",
             "oritech:still_heavy_oil_bucket",
             "oritech:still_biofuel_bucket",
+            "oritech:still_sulfuric_acid_bucket",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
 
@@ -77,7 +79,8 @@
             "oritech:still_oil",
             "oritech:still_fuel",
             "oritech:still_heavy_oil",
-            "oritech:still_biofuel"
+            "oritech:still_biofuel",
+            "oritech:still_sulfuric_acid"
         ]
     },
     "categories": {

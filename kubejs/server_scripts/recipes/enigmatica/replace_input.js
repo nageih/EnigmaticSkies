@@ -197,7 +197,7 @@ ServerEvents.recipes((event) => {
 
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:plastics',
+            to_replace: '#c:plates/plastic',
             replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
         },
         {
@@ -234,6 +234,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `modern_industrialization:tin_cable`,
             replace_with: `modern_industrialization:copper_cable`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:electrum_cable`,
+            replace_with: `modern_industrialization:cupronickel_cable`
         },
         {
             filter: {},

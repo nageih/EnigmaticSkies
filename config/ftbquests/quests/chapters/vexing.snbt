@@ -82,8 +82,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -93,7 +93,7 @@
 				item: { count: 1, id: "oritech:wither_crop_block" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -104,7 +104,123 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37ED5A328F30DD34"]
+			icon: {
+				id: "malum:aqueous_spirit"
+			}
+			id: "6A4C2B4518E341D6"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4349837C6529DE56"
+					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_blue_swet" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1EDF839D41687675"
+					item: { count: 1, id: "malum:aqueous_spirit" }
+					type: "item"
+				}
+				{
+					id: "6604E368EA6D4B2D"
+					item: { count: 1, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+			]
 			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37ED5A328F30DD34"]
+			icon: {
+				id: "malum:earthen_spirit"
+			}
+			id: "07EC0853BE4C6391"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "044F66E503A3654E"
+					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_slime" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "124CD7B5BC7DC324"
+					item: { count: 1, id: "malum:earthen_spirit" }
+					type: "item"
+				}
+				{
+					id: "1089E103A2C3A631"
+					item: { count: 1, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37ED5A328F30DD34"]
+			icon: {
+				id: "malum:infernal_spirit"
+			}
+			id: "3D1D6D17B2900DF0"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4B6013A900415F9B"
+					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_magma_cube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "065A80A249DFE7DD"
+					item: { count: 1, id: "malum:infernal_spirit" }
+					type: "item"
+				}
+				{
+					id: "1A49D44A491FAA27"
+					item: { count: 1, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13F15094F3AF4A73"]
+			id: "6AA9F3E0D4BC181A"
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				icon: {
+					id: "malum:soulwood_sapling"
+				}
+				id: "79CE5559C7D6E3EB"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AA9F3E0D4BC181A"]
+			id: "37ED5A328F30DD34"
+			tasks: [
+				{
+					id: "0671E69D760BB7EE"
+					item: { count: 1, id: "malum:crude_scythe" }
+					type: "item"
+				}
+				{
+					id: "33566AF9D96ECDE2"
+					item: { count: 1, id: "malum:sacred_spirit" }
+					type: "item"
+				}
+			]
+			x: 3.0d
 			y: 1.0d
 		}
 	]

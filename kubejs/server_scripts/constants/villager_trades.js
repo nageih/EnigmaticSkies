@@ -130,55 +130,37 @@ const villagerTrades = {
     'minecraft:shepherd': [
         {
             result: { id: 'ars_caelum:ritual_conjure_island_starter', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
             level: 1,
             maxUses: 1
         },
         {
             result: { id: 'enigmatica:flying_cow_iou', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
             level: 1,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:sheepuff_iou', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 2,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:phyg_iou', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 2,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:moa_iou', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 3,
             maxUses: 4
         },
         {
             result: { id: 'enigmatica:aerbunny_iou', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } },
-                { id: 'aether:golden_amber', count: { min: 8, max: 12 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 3,
             maxUses: 4
         }
@@ -187,10 +169,7 @@ const villagerTrades = {
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [
-                { id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } },
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } }],
             level: 1
         },
         {
@@ -210,18 +189,12 @@ const villagerTrades = {
         },
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:poutine', count: { min: 8, max: 12 } },
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
-            ],
+            ingredients: [{ id: 'enigmatica:poutine', count: { min: 8, max: 12 } }],
             level: 3
         },
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [
-                { id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } },
-                { id: 'ars_nouveau:blank_parchment', count: { min: 1, max: 1 } }
-            ],
+            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } }],
             level: 5
         }
     ],
@@ -256,27 +229,28 @@ const villagerTrades = {
     'actuallyadditions:engineer': [
         {
             result: { id: 'actuallyadditions:basic_coil', count: 4 },
-            ingredients: [
-                { id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } },
-                { id: 'actuallyadditions:enori_crystal', count: { min: 3, max: 6 } }
-            ],
+            ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
             result: { id: 'create:precision_mechanism', count: 4 },
-            ingredients: [
-                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
-                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
-            ],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
             level: 1
         },
         {
             result: { id: 'modern_industrialization:analog_circuit', count: 4 },
-            ingredients: [
-                { id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } },
-                { id: 'actuallyadditions:restonia_crystal', count: { min: 3, max: 6 } }
-            ],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
             level: 2
+        },
+        {
+            result: { id: 'modern_industrialization:copper_cable', count: 8 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'modern_industrialization:cupronickel_cable', count: 8 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 2 } }],
+            level: 3
         }
     ],
     // Forge Hammer

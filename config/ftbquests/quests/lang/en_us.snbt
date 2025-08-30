@@ -2022,6 +2022,13 @@
 		"Experiment with them to see what you like best!"
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
+	quest.37ED5A328F30DD34.quest_desc: [
+		"Creating monsters is no small feat and we’re going to need some specific materials to pull it off. "
+		""
+		"We’ll start with something easy, slimes. We can lean on the latent magic in certain foods to get the process going, though we’ll still need a bit of a sacrifice. "
+		""
+		"Gather some Sacred Spirits by culling a few animals with a Crude Scythe."
+	]
 	quest.380D0C6385B6325C.quest_desc: [
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
 		""
@@ -4399,6 +4406,11 @@
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
+	quest.6AA9F3E0D4BC181A.quest_desc: [
+		"You’ll find two important structures located on this island. The first is the Weeping Well, which can exchange certain items. Simply toss an item in and the new item will be thrown back at you."
+		""
+		"The second is a Ritual for more elaborate requests. Look for the chalice surrounded by chalk marks."
+	]
 	quest.6AD8B4B3A08CF1D3.quest_desc: [
 		"With the Lamp of Sanctuary, you can finally relax. It will prevent all mobs from spawning in a large area around it. "
 		""
@@ -5502,6 +5514,7 @@
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
 	task.78CB052047F0AC64.title: "Oritech - Particle Physics"
+	task.79CE5559C7D6E3EB.title: "Vexing Island"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7C0E5A805AE1132B.title: "Learning Mods"

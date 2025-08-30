@@ -27,6 +27,46 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: 'ars_nouveau:starbuncle_charm'
+        },
+        {
+            result: { id: 'ars_nouveau:enchanters_sword', count: 1 },
+            pedestalItems: [
+                { tag: 'c:gems/celestigem' },
+                { tag: 'c:storage_blocks/gold' },
+                { tag: 'c:storage_blocks/gold' },
+                { tag: 'c:storage_blocks/source' },
+                { tag: 'c:storage_blocks/source' }
+            ],
+            reagent: { item: 'malum:soul_stained_steel_sword' },
+            keepNbtOfReagent: true,
+            sourceCost: 0,
+            id: 'ars_nouveau:enchanters_sword'
+        },
+        {
+            result: { id: 'arsdelight:enchanters_knife', count: 1 },
+            pedestalItems: [
+                { tag: 'c:gems/celestigem' },
+                { tag: 'c:storage_blocks/gold' },
+                { tag: 'c:storage_blocks/source' }
+            ],
+            reagent: { item: 'malum:soul_stained_steel_knife' },
+            keepNbtOfReagent: true,
+            sourceCost: 0,
+            id: 'arsdelight:enchanters_knife'
+        },
+        {
+            result: { id: 'ars_nouveau:enchanters_gauntlet', count: 1 },
+            pedestalItems: [
+                { tag: 'c:gems/celestigem' },
+                { tag: 'c:storage_blocks/gold' },
+                { tag: 'c:storage_blocks/gold' },
+                { tag: 'c:storage_blocks/source' },
+                { tag: 'c:storage_blocks/source' }
+            ],
+            reagent: { item: 'malum:soulwoven_silk' },
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: 'ars_nouveau:enchanters_gauntlet'
         }
     ];
 

@@ -31,37 +31,45 @@ ServerEvents.recipes((event) => {
         {
             entity: 'aether:blue_swet',
             egg: 'aether:blue_swet_spawn_egg',
-            block: 'arsdelight:frostaya_jelly'
-        },
-        {
-            entity: 'aether:golden_swet',
-            egg: 'aether:golden_swet_spawn_egg',
-            block: 'aether:golden_gummy_swet'
+            block: 'arsdelight:frostaya_jelly',
+            spirit: 'malum:sacred_spirit'
         },
         {
             entity: 'minecraft:slime',
             egg: 'minecraft:slime_spawn_egg',
-            block: 'arsdelight:mendosteen_jelly'
+            block: 'arsdelight:mendosteen_jelly',
+            spirit: 'malum:sacred_spirit'
         },
         {
             entity: 'minecraft:magma_cube',
             egg: 'minecraft:magma_cube_spawn_egg',
-            block: 'arsdelight:bombegrante_jelly'
+            block: 'arsdelight:bombegrante_jelly',
+            spirit: 'malum:sacred_spirit'
         },
         {
             entity: 'aether:zephyr',
             egg: 'aether:zephyr_spawn_egg',
-            block: 'aether:cold_aercloud'
+            block: 'aether:cold_aercloud',
+            spirit: 'malum:arcane_spirit'
         },
         {
             entity: 'aether:sentry',
             egg: 'aether:sentry_spawn_egg',
-            block: 'aether:holystone_bricks'
+            block: 'aether:holystone_bricks',
+            spirit: 'malum:arcane_spirit'
         },
         {
             entity: 'the_bumblezone:rootmin',
             egg: 'the_bumblezone:rootmin_spawn_egg',
-            block: 'minecraft:packed_mud'
+            block: 'minecraft:packed_mud',
+            spirit: 'malum:arcane_spirit'
+        },
+
+        {
+            entity: 'aether:golden_swet',
+            egg: 'aether:golden_swet_spawn_egg',
+            block: 'aether:golden_gummy_swet',
+            spirit: 'malum:arcane_spirit'
         }
     ];
 
@@ -81,9 +89,9 @@ ServerEvents.recipes((event) => {
             activation_item: { item: animated.block },
             ingredients: [
                 { tag: 'c:essences/conjuration' },
-                { item: 'malum:sacred_spirit' },
+                { item: animated.spirit },
                 { tag: 'c:essences/manipulation' },
-                { item: 'malum:sacred_spirit' }
+                { item: animated.spirit }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/misc_animate_${mob_id}`, count: 1 },
             duration: 5,

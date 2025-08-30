@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}strange_matter_from_lava`
         },
         {
-            results: [{ item: 'oritech:reinforced_carbon_sheet' }],
+            results: [{ id: 'oritech:reinforced_carbon_sheet' }],
             fluidOutputs: [],
             ingredients: [{ item: 'oritech:carbon_fibre_strands' }],
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 500 },

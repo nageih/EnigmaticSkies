@@ -797,7 +797,7 @@ const spiritData = [
     {
         registry_name: 'minecraft:slime',
         spirits: [
-            { spirit: 'aqueous', count: 1 },
+            { spirit: 'earthen', count: 1 },
             { spirit: 'arcane', count: 1 }
         ]
     },

@@ -25,7 +25,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 8.0d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
@@ -38,7 +38,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 8.5d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
@@ -421,8 +421,8 @@
 				id: "3B6A2E42A7F4D6C2"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -9.0d
+			x: 2.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["62C7492F54D80CBA"]
@@ -449,7 +449,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 9.0d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
@@ -540,7 +540,7 @@
 				to_observe: "cold_sweat:hearth_bottom"
 				type: "observation"
 			}]
-			x: 9.0d
+			x: 0.0d
 			y: -7.5d
 		}
 		{
@@ -633,7 +633,7 @@
 				id: "3A59C49FAF001D7E"
 				type: "biome"
 			}]
-			x: 8.5d
+			x: -0.5d
 			y: -6.5d
 		}
 		{
@@ -666,7 +666,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -677,7 +677,7 @@
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -688,8 +688,8 @@
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0DB54E62557E6819"]
@@ -699,7 +699,7 @@
 				item: { count: 1, id: "supplementaries:ash" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -728,8 +728,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2595962FA3E2AE2C"]
@@ -739,7 +739,7 @@
 				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -770,8 +770,8 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["78E557B17D1EB84F"]
@@ -799,8 +799,8 @@
 				item: { count: 1, id: "theurgy:digestion_vat" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -817,22 +817,19 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"1D00057ADC3723FC"
-				"7D55CFC63462B5C1"
-			]
+			dependencies: ["7D55CFC63462B5C1"]
 			id: "33D3FD6791A9087A"
 			tasks: [{
 				id: "3DC393A2D42689F0"
 				item: { components: { "minecraft:entity_data": { VillagerData: { type: "minecraft:snow" }, id: "minecraft:villager" } }, count: 1, id: "occultism:fragile_soul_gem" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -842,8 +839,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1834C84EFA232977"]
@@ -902,8 +899,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -2.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["33D3FD6791A9087A"]
@@ -923,8 +920,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -3.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -934,8 +931,8 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -945,8 +942,8 @@
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
@@ -971,8 +968,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
@@ -995,8 +992,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1018,8 +1015,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1C0852F2C2B50144"]
@@ -1029,8 +1026,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1041,18 +1038,19 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "1C0852F2C2B50144"
 			tasks: [{
 				id: "6FBBE85638F729E7"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1062,8 +1060,8 @@
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1073,18 +1071,19 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "14D946E0F94255AD"
 			tasks: [{
 				id: "327EE60C36D5C134"
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1094,8 +1093,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.5d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1105,28 +1104,19 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 12.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "7905141BD2517471"
 			tasks: [{
 				id: "4B377BD3C276B920"
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.5d
-		}
-		{
-			id: "1632F22B72EB51FD"
-			tasks: [{
-				id: "266BEEDB2237EAE0"
-				item: { count: 1, id: "minecraft:quartz" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.5d
+			x: 12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["293573E471AEABF6"]
@@ -1143,8 +1133,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.5d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1154,8 +1144,8 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1177,8 +1167,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:deployer)item(create:encased_fan)item(create:mechanical_mixer)item(create:sand_paper)item(create:mechanical_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
@@ -1204,8 +1194,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			id: "352FE6BFD8AB7023"
@@ -1213,8 +1203,8 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 5.5d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7D55CFC63462B5C1"]
@@ -1224,7 +1214,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -1247,7 +1237,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -1258,8 +1248,8 @@
 				item: { count: 1, id: "minecraft:smithing_table" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -1287,7 +1277,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 0.5d
 			y: -6.5d
 		}
 	]
