@@ -65,7 +65,9 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
-        { output: /ars.*:ritual_(challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/ },
+        {
+            output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
+        },
         { id: 'ars_elemental:wool_to_string' },
 
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
