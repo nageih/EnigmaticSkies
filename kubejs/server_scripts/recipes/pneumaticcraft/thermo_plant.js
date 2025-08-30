@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: { item: { item: 'ars_nouveau:frostaya_pod' } },
-            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 20 } },
+            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 60 } },
             pressure: 2.0,
             speed: 0.5,
             id: `${id_prefix}ether_gas`

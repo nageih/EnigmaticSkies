@@ -100,6 +100,20 @@ ServerEvents.recipes((event) => {
             aura: 15000,
             time: 600,
             id: `${id_prefix}polar_bear`
+        },
+        {
+            entity: 'minecraft:bat',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'oritech:banana' }],
+            aura: 15000,
+            time: 600,
+            id: `${id_prefix}bat`
+        },
+        {
+            entity: 'minecraft:bee',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'the_bumblezone:pollen_puff' }],
+            aura: 15000,
+            time: 600,
+            id: `${id_prefix}bee`
         }
     ];
 

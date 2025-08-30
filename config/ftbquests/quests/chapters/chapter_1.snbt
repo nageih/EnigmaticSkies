@@ -1019,19 +1019,18 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1C0852F2C2B50144"]
+			dependencies: ["5550423B6E6BDBAF"]
 			id: "6FA4894900E53B31"
 			tasks: [{
 				id: "74089801349D2850"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1F493A257A7E700C"]
-			hide_dependent_lines: true
 			id: "1CF4103BFBCE0E29"
 			tasks: [{
 				id: "7DAC5388F81AED26"
@@ -1043,25 +1042,14 @@
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
-			id: "1C0852F2C2B50144"
-			tasks: [{
-				id: "6FBBE85638F729E7"
-				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1CF4103BFBCE0E29"]
 			id: "6B76BBE9FB5A1219"
 			tasks: [{
 				id: "24770F3A0736A84B"
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1071,8 +1059,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1082,8 +1070,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -0.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -1093,8 +1081,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.5d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -1104,8 +1092,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.5d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1115,8 +1103,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["293573E471AEABF6"]
@@ -1133,8 +1121,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 4.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1144,8 +1132,8 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1203,8 +1191,8 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7D55CFC63462B5C1"]
@@ -1279,6 +1267,17 @@
 			]
 			x: 0.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "5550423B6E6BDBAF"
+			tasks: [{
+				id: "74779A7784CF18C2"
+				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 }

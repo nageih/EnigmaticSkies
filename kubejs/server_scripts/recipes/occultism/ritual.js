@@ -13,17 +13,17 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             ritual_type: 'occultism:craft',
-            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:overworldian_nights"]').toJson(),
+            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:slime_apocalypse"]').toJson(),
             activation_item: { item: 'minecraft:conduit' },
             ingredients: [
-                { item: 'minecraft:clay_ball' },
-                { item: 'minecraft:clay_ball' },
-                { item: 'minecraft:clay_ball' },
-                { item: 'minecraft:clay_ball' }
+                { item: 'industrialforegoing:pink_slime_block' },
+                { item: 'malum:earthen_spirit' },
+                { item: 'malum:infernal_spirit' },
+                { item: 'malum:aqueous_spirit' }
             ],
-            ritual_dummy: { id: 'occultism:ritual_dummy/misc_overworldian_nights', count: 1 },
+            ritual_dummy: { id: 'occultism:ritual_dummy/misc_slime_apocalypse', count: 1 },
             duration: 5,
-            id: `${id_prefix}misc_overworldian_nights`
+            id: `${id_prefix}misc_slime_apocalypse`
         }
     ];
 

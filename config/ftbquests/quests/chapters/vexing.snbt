@@ -40,7 +40,7 @@
 				item: { count: 1, id: "enderio:prescient_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -50,7 +50,7 @@
 				item: { count: 1, id: "minecraft:witch_spawn_egg" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -60,7 +60,7 @@
 				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -71,7 +71,7 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -132,7 +132,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -161,7 +161,7 @@
 				}
 			]
 			x: 3.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["37ED5A328F30DD34"]
@@ -188,7 +188,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -222,6 +222,148 @@
 			]
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["74F028BA5DC3CF54"]
+			id: "67B5706C2EE25C56"
+			tasks: [{
+				id: "4B32443EB1E1FFB4"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67B5706C2EE25C56"]
+			id: "4E2F4A7BBD4D51E5"
+			tasks: [{
+				id: "6707A2031976B863"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D74493BC797D6F0"]
+			id: "196FDFC370D4F9F6"
+			tasks: [{
+				id: "02299ABEAC0847BB"
+				item: { count: 1, id: "malum:living_flesh" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"07EC0853BE4C6391"
+				"3D1D6D17B2900DF0"
+				"6A4C2B4518E341D6"
+			]
+			dependency_requirement: "one_completed"
+			id: "5D74493BC797D6F0"
+			shape: "diamond"
+			tasks: [{
+				id: "45CB0A4765EE2020"
+				item: { count: 1, id: "malum:wicked_spirit" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["196FDFC370D4F9F6"]
+			id: "28ACDDC149296587"
+			tasks: [{
+				id: "0250EBAEF025E2B8"
+				item: { count: 1, id: "malum:imitation_flesh" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E2F4A7BBD4D51E5"]
+			icon: {
+				id: "ars_nouveau:wilden_wing"
+			}
+			id: "520241157010066D"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "74D73DD45B662B9F"
+					item: { components: { "geneticsresequenced:entity_type": "ars_nouveau:wilden_stalker" }, count: 1, id: "geneticsresequenced:organic_matter" }
+					type: "item"
+				}
+				{
+					id: "2CD36491F8ADD1D5"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E2F4A7BBD4D51E5"]
+			icon: {
+				id: "ars_nouveau:wilden_horn"
+			}
+			id: "6CA8BA78F5B8FB6A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7AABB7223292F451"
+					item: { components: { "geneticsresequenced:entity_type": "ars_nouveau:wilden_hunter" }, count: 1, id: "geneticsresequenced:organic_matter" }
+					type: "item"
+				}
+				{
+					id: "18D3D26BE0301216"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E2F4A7BBD4D51E5"]
+			icon: {
+				id: "ars_nouveau:wilden_spike"
+			}
+			id: "68C212D2C7F8B308"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6AF591DC32AC0259"
+					item: { components: { "geneticsresequenced:entity_type": "ars_nouveau:wilden_guardian" }, count: 1, id: "geneticsresequenced:organic_matter" }
+					type: "item"
+				}
+				{
+					id: "1A64BC72005743D1"
+					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"68C212D2C7F8B308"
+				"6CA8BA78F5B8FB6A"
+				"520241157010066D"
+			]
+			id: "0DE5D9ADB947B171"
+			tasks: [{
+				id: "65514EEACADE10A6"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 }

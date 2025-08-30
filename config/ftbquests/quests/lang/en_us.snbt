@@ -3795,6 +3795,11 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.5D74493BC797D6F0.quest_desc: [
+		"Only the most evil and malicious of creatures have Wicked Spirits within then to harvest. "
+		""
+		"You might consider animating a cloud into a Zephyr. Or maybe go see what your Goats have in their bleating hearts."
+	]
 	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
@@ -4678,6 +4683,7 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
+	quest.6FA4894900E53B31.quest_desc: ["In need of some saplings? Maybe you’d like to get some bees producing honey? Summon forth the Queen Bee in her throne and see what trades she has to offer!"]
 	quest.70122FCB0A26D96B.quest_desc: [
 		"You may have seen some suspicious looking Deepslate boulders lying around in certain biomes. While they might just seem like an easy way to get some early resources, they hide a treasure trove beneath them."
 		""

@@ -113,6 +113,12 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/misc_animate_rootmin',
             type: 'misc',
             tooltip: Text.translate('item.occultism.ritual_dummy.misc_animate_rootmin.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.misc_slime_apocalypse'),
+            id: 'occultism:ritual_dummy/misc_slime_apocalypse',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.misc_slime_apocalypse.tooltip')
         }
     ];
 

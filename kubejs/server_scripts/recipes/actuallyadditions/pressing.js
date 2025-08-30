@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}latex_from_vine`
         },
         {
-            fluid: { id: 'industrialforegoing:ether_gas', amount: 20 },
+            fluid: { id: 'industrialforegoing:ether_gas', amount: 60 },
             ingredient: { item: 'ars_nouveau:frostaya_pod' },
             id: `${id_prefix}ether_gas`
         }

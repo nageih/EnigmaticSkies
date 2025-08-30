@@ -21,6 +21,21 @@ ServerEvents.recipes((event) => {
                 { type: 'wicked', count: 2 }
             ],
             id: `${id_prefix}living_flesh`
+        },
+        {
+            output: { id: 'malum:imitation_flesh', count: 4 },
+            ingredient: { item: 'malum:alchemical_calx', count: 4 },
+            extraIngredients: [
+                { item: 'malum:living_flesh', count: 8 },
+                { item: 'oritech:wither_crop_block', count: 4 },
+                { item: 'malum:rotting_essence', count: 2 }
+            ],
+            spirits: [
+                { type: 'sacred', count: 16 },
+                { type: 'arcane', count: 16 },
+                { type: 'aqueous', count: 16 }
+            ],
+            id: `${id_prefix}imitation_flesh`
         }
     ];
 
