@@ -283,50 +283,32 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'utilitarian:angel_block', count: 1 },
-            ingredients: [
-                { id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
             result: { id: 'ars_nouveau:ritual_awakening', count: 1 },
-            ingredients: [
-                { id: 'farmersdelight:mutton_wrap', count: { min: 1, max: 1 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
             result: { id: 'ars_nouveau:ritual_restoration', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'ars_nouveau:ritual_flight', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'ars_nouveau:ritual_sunrise', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'ars_nouveau:ritual_moonfall', count: 1 },
-            ingredients: [
-                { id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } },
-                { id: 'minecraft:gold_ingot', count: { min: 2, max: 8 } }
-            ],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 3
         }
     ]
