@@ -29,6 +29,19 @@ ServerEvents.recipes((event) => {
             id: 'ars_nouveau:starbuncle_charm'
         },
         {
+            result: { id: 'ars_nouveau:alakarkinos_charm', count: 1 },
+            reagent: { item: 'ars_nouveau:alakarkinos_token' },
+            pedestalItems: [
+                { tag: 'c:gems/prismarine' },
+                { item: 'minecraft:nautilus_shell' },
+                { item: 'minecraft:nautilus_shell' },
+                { item: 'minecraft:nautilus_shell' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: 'ars_nouveau:alakarkinos_charm'
+        },
+        {
             result: { id: 'ars_nouveau:enchanters_sword', count: 1 },
             reagent: { item: 'malum:soul_stained_steel_sword' },
             pedestalItems: [

@@ -21,9 +21,23 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:infernal_spirit' },
                 { item: 'malum:aqueous_spirit' }
             ],
-            ritual_dummy: { id: 'occultism:ritual_dummy/misc_slime_apocalypse', count: 1 },
+            ritual_dummy: { id: 'occultism:ritual_dummy/rift_slime_apocalypse', count: 1 },
             duration: 5,
-            id: `${id_prefix}misc_slime_apocalypse`
+            id: `${id_prefix}rift_slime_apocalypse`
+        },
+        {
+            ritual_type: 'occultism:craft',
+            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:wilden_calamity"]').toJson(),
+            activation_item: { item: 'minecraft:conduit' },
+            ingredients: [
+                { item: 'ars_elemental:mark_of_mastery' },
+                { item: 'malum:earthen_spirit' },
+                { item: 'malum:aerial_spirit' },
+                { item: 'malum:aqueous_spirit' }
+            ],
+            ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
+            duration: 5,
+            id: `${id_prefix}rift_wilden_calamity`
         }
     ];
 
@@ -81,8 +95,8 @@ ServerEvents.recipes((event) => {
             result: {
                 id: animated.egg,
                 components: {
-                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.misc_animate_${mob_id}"}`,
-                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.misc_animate_${mob_id}.tooltip"}`]
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_${mob_id}"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_${mob_id}.tooltip"}`]
                 },
                 count: 1
             },
@@ -93,9 +107,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:essences/manipulation' },
                 { item: animated.spirit }
             ],
-            ritual_dummy: { id: `occultism:ritual_dummy/misc_animate_${mob_id}`, count: 1 },
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
             duration: 5,
-            id: `${id_prefix}misc_animate_${mob_id}`
+            id: `${id_prefix}animate_${mob_id}`
         });
     });
 

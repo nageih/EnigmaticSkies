@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "enigmatica:boggy_dorodango",
+                    "functions": [{ "function": "minecraft:set_count", "count": 12.0 }]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "enigmatica:archaeology/boggy"
+}

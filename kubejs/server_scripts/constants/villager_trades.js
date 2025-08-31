@@ -189,7 +189,12 @@ const villagerTrades = {
         },
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:poutine', count: { min: 8, max: 12 } }],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 8, max: 12 } }],
+            level: 3
+        },
+        {
+            result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
+            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 2, max: 4 } }],
             level: 3
         },
         {
@@ -320,9 +325,19 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
+            result: { id: 'ars_nouveau:storage_lectern', count: 1 },
             ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
             level: 1
+        },
+        {
+            result: { id: 'ars_nouveau:repository_controller', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 2
+        },
+        {
+            result: { id: 'ars_nouveau:repository', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 2
         }
     ]
 };

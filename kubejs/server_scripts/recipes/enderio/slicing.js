@@ -65,12 +65,25 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/soularium' },
                 { item: 'minecraft:zombie_head' },
                 { tag: 'c:ingots/soularium' },
-                { item: 'modern_industrialization:electronic_circuit' },
                 { item: 'malum:imitation_flesh' },
-                { item: 'modern_industrialization:electronic_circuit' }
+                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'malum:imitation_flesh' }
             ],
             energy: 20000,
             id: `${id_prefix}z_logic_controller`
+        },
+        {
+            output: { id: 'enderio:guardian_diode', count: 1 },
+            inputs: [
+                { tag: 'c:ingots/brass' },
+                { tag: 'c:dusts/prismarine' },
+                { tag: 'c:ingots/brass' },
+                { tag: 'c:gems/prismarine' },
+                { item: 'enderio:double_layer_capacitor' },
+                { tag: 'c:gems/prismarine' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}guardian_diode`
         }
     ];
 

@@ -4,15 +4,21 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: 'modern_industrialization:salt_block',
-            table: 'enigmatica:archaeology/ocean',
+            table: 'enigmatica:archaeology/oceanic_dorodango',
             weight: 100,
-            id: `${id_prefix}ocean`
+            id: `${id_prefix}oceanic_dorodango`
         },
         {
             input: 'createsifter:crushed_basalt',
-            table: 'enigmatica:archaeology/archwood_forest',
+            table: 'enigmatica:archaeology/volcanic_dorodango',
             weight: 100,
-            id: `${id_prefix}archwood_forest`
+            id: `${id_prefix}volcanic_dorodango`
+        },
+        {
+            input: 'minecraft:mud',
+            table: 'enigmatica:archaeology/boggy_dorodango',
+            weight: 100,
+            id: `${id_prefix}boggy_dorodango`
         }
     ];
 

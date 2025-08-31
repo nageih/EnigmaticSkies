@@ -494,11 +494,21 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:end_stones' },
             outputs: [{ id: 'occultism:crushed_end_stone', count: 4 }],
             multiply: 'none',
-            exclusions: [],
+            exclusions: ['create:milling'],
             fe: 9600,
             eu: 2,
             duration: 40,
             id_suffix: 'crushed_end_stone'
+        },
+        {
+            input: { item: 'minecraft:basalt' },
+            outputs: [{ id: 'createsifter:crushed_basalt', count: 1 }],
+            multiply: 'none',
+            exclusions: ['create:milling'],
+            fe: 9600,
+            eu: 2,
+            duration: 40,
+            id_suffix: 'crushed_basalt'
         },
         {
             input: { tag: 'c:netherracks' },
@@ -507,7 +517,7 @@ ServerEvents.recipes((event) => {
                 { id: 'create:cinder_flour', count: 1, chance: 0.5 }
             ],
             multiply: 'chance_only',
-            exclusions: ['create:crushing'],
+            exclusions: ['create:crushing', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,

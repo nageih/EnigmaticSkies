@@ -49,7 +49,9 @@
             "naturesaura:oak_generator",
             "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:ore_spawn\"}]",
 
-            "/oritech:(nickel|platinum|iron|copper|gold)_gem/ ",
+            "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
+
+            "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
             "oritech:pulverizer_block",
             "oritech:foundry_block",
             "oritech:machine_core_1",

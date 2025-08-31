@@ -66,6 +66,7 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
+        { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         {
             output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
         },
@@ -120,6 +121,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soul_chain' },
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
+        { id: 'enderio:slicing/guardian_diode' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },

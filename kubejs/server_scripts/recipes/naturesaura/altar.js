@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'minecraft:coal' },
             input: { item: 'minecraft:charcoal' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 4500,
             time: 6,
             id: `${id_prefix}coal`
@@ -19,15 +20,16 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'minecraft:coal_block' },
             input: { item: AlmostUnified.getTagTargetItem(`c:storage_blocks/charcoal`).getId() },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 36000,
-            time: 6,
+            time: 30,
             id: `${id_prefix}coal_block`
         },
         {
             output: { id: 'actuallyadditions:black_quartz' },
             input: { item: 'oritech:clay_catalyst_beads' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 7500,
+            aura: 150000,
             time: 2,
             id: `${id_prefix}black_quartz`
         },
