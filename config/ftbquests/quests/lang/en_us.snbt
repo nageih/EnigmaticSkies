@@ -3510,7 +3510,7 @@
 		"Be sure to stock up!"
 	]
 	quest.56AD6E7F12056140.quest_desc: [
-		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this machine is the Job Site for Shady Wizard Villagers. "
+		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this device is the Job Site for Shady Wizard Villagers. "
 		""
 		"Shady Wizards will sell you several very important tools and are the only way to access new glyphs. "
 		""
@@ -5484,7 +5484,7 @@
 	task.5FD7075685BB37AD.title: "Generators"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
-	task.6118F9D879616D84.title: "Any #c:foods/raw_meats"
+	task.6118F9D879616D84.title: "Meat"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.62742836108A45A3.title: "Addon: Efficiency"
 	task.630138BF6B3E58AA.title: "Industrial Squeezer"

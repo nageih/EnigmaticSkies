@@ -6,23 +6,23 @@ const villagerTrades = {
     'minecraft:toolsmith': [
         {
             result: { id: 'minecraft:composter', count: 1 },
-            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'minecraft:furnace', count: 1 },
-            ingredients: [{ id: 'farmersdelight:stuffed_potato', count: { min: 2, max: 4 } }],
+            result: { id: 'minecraft:loom', count: 1 },
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
             level: 1
         },
 
         {
             result: { id: 'minecraft:lectern', count: 1 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 2
         },
         {
-            result: { id: 'minecraft:cartography_table', count: 1 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 2, max: 4 } }],
+            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
 
@@ -67,36 +67,41 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'actuallyadditions:worm', count: 8 },
+            result: { id: 'ars_nouveau:agronomic_sourcelink', count: 2 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
+            result: { id: 'actuallyadditions:worm', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
             result: { id: 'pneumaticcraft:crop_support', count: 8 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
-            level: 1
+            level: 2
         }
     ],
     // Barrel
     'minecraft:fisherman': [
         {
-            result: { id: 'aquaculture:goldfish', count: 4 },
-            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 1, max: 1 } }],
+            result: { id: 'aquaculture:goldfish', count: 8 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'aquaculture:jellyfish', count: 1 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
+            result: { id: 'aquaculture:jellyfish', count: 8 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'aquaculture:red_shrooma', count: 4 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
+            result: { id: 'aquaculture:red_shrooma', count: 8 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
-            result: { id: 'aquaculture:brown_shrooma', count: 4 },
-            ingredients: [{ id: 'farmersdelight:barbecue_stick', count: { min: 1, max: 1 } }],
+            result: { id: 'aquaculture:brown_shrooma', count: 8 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
@@ -124,58 +129,61 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 4
         }
-        // level 5 is all aquaculture fish
     ],
     // Loom
     'minecraft:shepherd': [
         {
             result: { id: 'ars_caelum:ritual_conjure_island_starter', count: 1 },
             ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
-            level: 1,
-            maxUses: 1
+            level: 1
         },
         {
             result: { id: 'enigmatica:flying_cow_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
-            level: 1,
-            maxUses: 4
+            level: 1
         },
         {
             result: { id: 'enigmatica:sheepuff_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
-            level: 2,
-            maxUses: 4
+            level: 2
         },
         {
             result: { id: 'enigmatica:phyg_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
-            level: 2,
-            maxUses: 4
+            level: 2
         },
         {
-            result: { id: 'enigmatica:moa_iou', count: 1 },
+            result: { id: 'enigmatica:chicken_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
-            level: 3,
-            maxUses: 4
+            level: 3
         },
         {
             result: { id: 'enigmatica:aerbunny_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
-            level: 3,
-            maxUses: 4
+            level: 3
+        },
+        {
+            result: { id: 'enigmatica:moa_iou', count: 1 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
+            level: 4
         }
     ],
     // Arcane Core
     'ars_nouveau:shady_wizard': [
         {
+            result: { id: 'ars_nouveau:enchanting_apparatus', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
+            level: 1
+        },
+        {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 4, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 1
         },
         {
             result: { id: 'ars_nouveau:starbuncle_shards', count: 1 },
             ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
-            level: 1
+            level: 2
         },
         {
             result: { id: 'ars_nouveau:wixie_shards', count: 1 },
@@ -185,17 +193,17 @@ const villagerTrades = {
         {
             result: { id: 'ars_nouveau:alakarkinos_token', count: 1 },
             ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
-            level: 2
-        },
-        {
-            result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 8, max: 12 } }],
             level: 3
         },
         {
             result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
             ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 2, max: 4 } }],
             level: 3
+        },
+        {
+            result: { id: 'ars_additions:lost_codex_entry', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 8, max: 12 } }],
+            level: 4
         },
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
@@ -207,26 +215,17 @@ const villagerTrades = {
     'minecraft:mason': [
         {
             result: { id: 'modern_industrialization:fire_clay_brick', count: 16 },
-            ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
-                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } }],
             level: 1
         },
         {
             result: { id: 'minecraft:brick', count: 16 },
-            ingredients: [
-                { id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } },
-                { id: 'minecraft:clay', count: { min: 4, max: 6 } }
-            ],
+            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } }],
             level: 1
         },
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
-            ingredients: [
-                { id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } },
-                { id: 'pneumaticcraft:ingot_iron_compressed', count: { min: 1, max: 1 } }
-            ],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
             level: 2
         }
     ],
@@ -288,12 +287,12 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'utilitarian:angel_block', count: 1 },
-            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'apotheosis:potion_charm[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
-            ingredients: [{ id: 'farmersdelight:mutton_wrap', count: { min: 2, max: 4 } }],
+            result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
+            ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
@@ -321,22 +320,22 @@ const villagerTrades = {
     'minecraft:librarian': [
         {
             result: { id: 'ars_nouveau:bookwyrm_charm', count: 1 },
-            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
             result: { id: 'ars_nouveau:storage_lectern', count: 1 },
-            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
             result: { id: 'ars_nouveau:repository_controller', count: 1 },
-            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
             result: { id: 'ars_nouveau:repository', count: 1 },
-            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         }
     ]

@@ -8,7 +8,9 @@ StartupEvents.registry('item', (event) => {
         { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
         { name: `Sheep-Eatin' Green` },
-        { name: `Flyin' Fox` }
+        { name: `Flyin' Fox` },
+        { name: `The Bun Also Rises`, magic: true },
+        { name: `Glazed and Confused`, magic: true }
     ];
 
     delivery_bags.forEach((item) => {
@@ -50,7 +52,7 @@ StartupEvents.registry('item', (event) => {
             saturation: 7.5
         },
         {
-            name: `Lily's Pink Cotton Candy`,
+            name: `Lily's Lilac Cotton Candy`,
             layer: 'cotton_candy',
             nutrition: 0.5,
             saturation: 0.5,

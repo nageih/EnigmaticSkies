@@ -4,10 +4,9 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'minecraft:furnace',
-            pattern: ['AAA', 'ABA', 'AAA'],
+            pattern: ['AAA', 'A A', 'AAA'],
             key: {
-                A: 'minecraft:tuff',
-                B: 'minecraft:iron_trapdoor'
+                A: 'aether:holystone'
             },
             id: `${id_prefix}furnace`
         },
@@ -20,45 +19,6 @@ ServerEvents.recipes((event) => {
                 C: '#minecraft:logs'
             },
             id: `${id_prefix}smoker`
-        },
-        {
-            output: 'minecraft:blast_furnace',
-            pattern: ['AAA', 'ABA', 'CCC'],
-            key: {
-                A: '#c:ingots/dark_steel',
-                B: 'minecraft:furnace',
-                C: 'minecraft:tuff_bricks'
-            },
-            id: `${id_prefix}blast_furnace`
-        },
-        {
-            output: 'minecraft:grindstone',
-            pattern: ['ABA', 'C C'],
-            key: {
-                A: '#c:rods/wooden',
-                B: 'minecraft:polished_tuff_slab',
-                C: '#enigmatica:planks'
-            },
-            id: `${id_prefix}grindstone`
-        },
-        {
-            output: 'minecraft:cauldron',
-            pattern: ['A A', 'A A', 'ABA'],
-            key: {
-                A: '#c:ingots/dark_steel',
-                B: '#c:nuggets/dark_steel'
-            },
-            id: `${id_prefix}cauldron`
-        },
-        {
-            output: 'minecraft:composter',
-            pattern: ['ABA', 'ACA', 'AAA'],
-            key: {
-                A: '#enigmatica:planks',
-                B: 'actuallyadditions:worm',
-                C: 'farmersdelight:organic_compost'
-            },
-            id: `${id_prefix}composter`
         },
         {
             output: 'minecraft:barrel',

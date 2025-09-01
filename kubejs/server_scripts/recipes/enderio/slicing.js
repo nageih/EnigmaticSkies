@@ -112,11 +112,11 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:guardian_diode', count: 1 },
             inputs: [
                 { tag: 'c:ingots/brass' },
-                { tag: 'c:dusts/prismarine' },
+                { item: 'aquaculture:fish_bones' },
                 { tag: 'c:ingots/brass' },
-                { tag: 'c:gems/prismarine' },
+                { item: 'minecraft:sea_lantern' },
                 { item: 'enderio:double_layer_capacitor' },
-                { tag: 'c:gems/prismarine' }
+                { item: 'minecraft:sea_lantern' }
             ],
             energy: 20000,
             id: `${id_prefix}guardian_diode`

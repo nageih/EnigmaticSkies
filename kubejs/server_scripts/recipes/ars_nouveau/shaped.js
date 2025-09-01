@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: `ars_nouveau:imbuement_chamber`,
             pattern: [' A ', 'B B', 'ACA'],
             key: {
-                A: '#c:nuggets/gold',
+                A: '#c:ingots/gold',
                 B: '#c:ingots/andesite_alloy',
                 C: '#c:gems/source'
             },

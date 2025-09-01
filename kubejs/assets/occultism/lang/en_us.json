@@ -1,6 +1,6 @@
 {
     "item.occultism.fragile_soul_gem.tooltip_empty": "Use on a creature to capture it. §cSingle Use!",
-    "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a captured %s. §cWill break on release!",
+    "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a bound %s soul. §cWill shatter on release!",
 
     "item.occultism.ritual_dummy.rift_slime_apocalypse": "Ritual: Slime Apocalypse Rift",
     "item.occultism.ritual_dummy.rift_slime_apocalypse.tooltip": "Tear a open a dimensional rift, calling forth nightmares from another world.",

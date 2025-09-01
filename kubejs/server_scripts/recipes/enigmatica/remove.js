@@ -62,6 +62,12 @@ ServerEvents.recipes((event) => {
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
         { id: `ars_nouveau:imbuement_chamber` },
+        { id: `ars_nouveau:agronomic_sourcelink` },
+        { id: `ars_nouveau:enchanting_apparatus` },
+        { id: `ars_nouveau:arcane_core` },
+        { id: `ars_nouveau:storage_lectern` },
+        { id: `ars_nouveau:repository` },
+        { id: `ars_nouveau:repository_controller` },
         { id: `ars_caelum:heart_of_the_sea` },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -214,10 +220,11 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:nether_brick' },
         { id: 'minecraft:netherite_ingot' },
         { id: 'minecraft:pumpkin_pie' },
+        { id: 'minecraft:bread' },
         { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
-        { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone)/ },
-        { output: /minecraft:(composter|barrel|stonecutter|lectern|brewing_stand|cartography_table)/ },
+        { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
+        { output: /minecraft:(composter|barrel|stonecutter|lectern|brewing_stand)/ },
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
@@ -386,6 +393,7 @@ ServerEvents.recipes((event) => {
         { output: 'utilitarian:drit' },
         { output: 'utilitarian:grrass' },
         { id: 'utilitarian:utility/green_dye' },
+        { id: 'utilitarian:utility/bread' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals

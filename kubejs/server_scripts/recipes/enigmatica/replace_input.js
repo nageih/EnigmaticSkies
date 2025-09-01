@@ -129,11 +129,6 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
         {
-            filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
-            to_replace: '#c:gems/diamond',
-            replace_with: Ingredient.of(['aether:ambrosium_shard'])
-        },
-        {
             filter: [{ id: `ars_nouveau:sourcestone` }],
             to_replace: '#c:stones',
             replace_with: Ingredient.of(['ae2:sky_stone_block'])

@@ -117,7 +117,7 @@
 			tasks: [
 				{
 					id: "4349837C6529DE56"
-					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_blue_swet" }
+					item: { components: { "ftbquests:missing_item": "occultism:ritual_dummy/misc_animate_blue_swet" }, count: 1, id: "ftbquests:missing_item" }
 					optional_task: true
 					type: "item"
 				}
@@ -145,7 +145,7 @@
 			tasks: [
 				{
 					id: "044F66E503A3654E"
-					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_slime" }
+					item: { components: { "ftbquests:missing_item": "occultism:ritual_dummy/misc_animate_slime" }, count: 1, id: "ftbquests:missing_item" }
 					optional_task: true
 					type: "item"
 				}
@@ -173,7 +173,7 @@
 			tasks: [
 				{
 					id: "4B6013A900415F9B"
-					item: { count: 1, id: "occultism:ritual_dummy/misc_animate_magma_cube" }
+					item: { components: { "ftbquests:missing_item": "occultism:ritual_dummy/misc_animate_magma_cube" }, count: 1, id: "ftbquests:missing_item" }
 					optional_task: true
 					type: "item"
 				}
