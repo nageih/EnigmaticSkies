@@ -72,6 +72,20 @@
     "ritual.enigmatica.ritual/animate_guardian.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_guardian.started": "Started animating Guardian.",
 
+    "item.occultism.ritual_dummy.animate_honey_slime": "Ritual: Animate Honey Slime",
+    "item.occultism.ritual_dummy.animate_honey_slime.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/animate_honey_slime.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_honey_slime.finished": "Successfully animated a Honey Slime.",
+    "ritual.enigmatica.ritual/animate_honey_slime.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_honey_slime.started": "Started animating Honey Slime.",
+
+    "item.occultism.ritual_dummy.animate_shulker": "Ritual: Animate Shulker",
+    "item.occultism.ritual_dummy.animate_shulker.tooltip": "Infuse a jelly with magic to bring it to life.",
+    "ritual.enigmatica.ritual/animate_shulker.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_shulker.finished": "Successfully animated a Shulker.",
+    "ritual.enigmatica.ritual/animate_shulker.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_shulker.started": "Started animating Shulker.",
+
     "item.occultism.ritual_dummy.transmute_wilden_stalker": "Ritual: Transmute Wilden Stalker",
     "item.occultism.ritual_dummy.transmute_wilden_stalker.tooltip": "Infuse a villager monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.conditions": "Not all requirements for this ritual are met.",
@@ -98,5 +112,19 @@
     "ritual.enigmatica.ritual/transmute_wilden_boss.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.finished": "Successfully transmuted Wilden Chimera.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_wilden_boss.started": "Started animating Wilden Chimera."
+    "ritual.enigmatica.ritual/transmute_wilden_boss.started": "Started animating Wilden Chimera.",
+
+    "item.occultism.ritual_dummy.transmute_mooshroom": "Ritual: Transmute Mooshroom",
+    "item.occultism.ritual_dummy.transmute_mooshroom.tooltip": "Transmute a Mooshroom from basic materials.",
+    "ritual.enigmatica.ritual/transmute_mooshroom.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/transmute_mooshroom.finished": "Successfully transmuted Mooshroom.",
+    "ritual.enigmatica.ritual/transmute_mooshroom.interrupted": "Transmutation ritual interrupted.",
+    "ritual.enigmatica.ritual/transmute_mooshroom.started": "Started animating Mooshroom.",
+
+    "item.occultism.ritual_dummy.transmute_cockatrice": "Ritual: Transmute Cockatrice",
+    "item.occultism.ritual_dummy.transmute_cockatrice.tooltip": "Transmute a Cockatrice from basic materials.",
+    "ritual.enigmatica.ritual/transmute_cockatrice.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/transmute_cockatrice.finished": "Successfully transmuted Cockatrice.",
+    "ritual.enigmatica.ritual/transmute_cockatrice.interrupted": "Transmutation ritual interrupted.",
+    "ritual.enigmatica.ritual/transmute_cockatrice.started": "Started animating Cockatrice."
 }

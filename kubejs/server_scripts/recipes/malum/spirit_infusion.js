@@ -14,15 +14,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soul_stained_steel_ingot`
         },
         {
-            output: { id: 'malum:living_flesh', count: 2 },
-            ingredient: { item: 'farmersdelight:minced_beef', count: 4 },
-            spirits: [
-                { type: 'sacred', count: 2 },
-                { type: 'wicked', count: 2 }
-            ],
-            id: `${id_prefix}living_flesh`
-        },
-        {
             output: { id: 'malum:imitation_flesh', count: 4 },
             ingredient: { item: 'malum:alchemical_calx', count: 4 },
             extraIngredients: [

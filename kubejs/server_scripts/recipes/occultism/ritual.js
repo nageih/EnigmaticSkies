@@ -78,11 +78,28 @@ ServerEvents.recipes((event) => {
             block: 'minecraft:packed_mud',
             spirit: 'malum:arcane_spirit'
         },
-
         {
             entity: 'aether:golden_swet',
             egg: 'aether:golden_swet_spawn_egg',
             block: 'aether:golden_gummy_swet',
+            spirit: 'malum:arcane_spirit'
+        },
+        {
+            entity: 'minecraft:guardian',
+            egg: 'minecraft:guardian_spawn_egg',
+            block: 'enderio:guardian_diode',
+            spirit: 'malum:arcane_spirit'
+        },
+        {
+            entity: 'the_bumblezone:honey_slime',
+            egg: 'the_bumblezone:honey_slime_spawn_egg',
+            block: 'minecraft:honey_block',
+            spirit: 'malum:sacred_spirit'
+        },
+        {
+            entity: 'minecraft:shulker',
+            egg: 'minecraft:shulker_spawn_egg',
+            block: 'minecraft:purpur_block',
             spirit: 'malum:arcane_spirit'
         }
     ];

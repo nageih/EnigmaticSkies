@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "enigmatica:oceanic_dorodango",
-                    "functions": [{ "function": "minecraft:set_count", "count": 12.0 }]
+                    "functions": [{ "function": "minecraft:set_count", "count": 1.0 }]
                 }
             ],
             "rolls": 1.0

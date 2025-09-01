@@ -8,11 +8,11 @@ ServerEvents.recipes((event) => {
             ).toJson(),
             inputs: [
                 Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:wolf"]'
+                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:goat"]'
                 ).toJson(),
                 { item: 'minecraft:skeleton_skull' },
                 Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:goat"]'
+                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:wolf"]'
                 ).toJson(),
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
@@ -20,6 +20,42 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}wilden_hunter`
+        },
+        {
+            output: Item.of(
+                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="minecraft:mooshroom"]'
+            ).toJson(),
+            inputs: [
+                Ingredient.of(
+                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
+                ).toJson(),
+                { tag: 'c:mushroom_blocks' },
+                Ingredient.of(
+                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
+                ).toJson(),
+                { item: 'malum:imitation_flesh' },
+                { item: 'justdirethings:polymorphic_catalyst' },
+                { item: 'malum:imitation_flesh' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}mooshroom`
+        },
+        {
+            output: Item.of(
+                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="aether:cockatrice"]'
+            ).toJson(),
+            inputs: [
+                Ingredient.of('geneticsresequenced:dna_helix[geneticsresequenced:entity_type="aether:moa"]').toJson(),
+                { item: 'minecraft:skeleton_skull' },
+                Ingredient.of(
+                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="cold_sweat:chameleon"]'
+                ).toJson(),
+                { item: 'malum:imitation_flesh' },
+                { item: 'justdirethings:polymorphic_catalyst' },
+                { item: 'malum:imitation_flesh' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}cockatrice`
         },
         {
             output: Item.of(

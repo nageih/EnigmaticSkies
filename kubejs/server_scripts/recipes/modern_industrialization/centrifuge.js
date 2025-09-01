@@ -32,19 +32,19 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 }
             ],
             eu: 2,
-            duration: 5,
+            duration: 10,
             id: `${id_prefix}oceanic_dorodango_processing`
         },
         {
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
             item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
             item_outputs: [
-                { item: 'modern_industrialization:carbon_dust', amount: 6, probability: 1 / 3 },
-                { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
+                { item: 'malum:blazing_quartz', amount: 6, probability: 1 / 3 },
+                { item: 'modern_industrialization:carbon_dust', amount: 3, probability: 1 / 3 },
                 { item: 'minecraft:netherite_scrap', amount: 1, probability: 1 / 3 }
             ],
             eu: 2,
-            duration: 5,
+            duration: 10,
             id: `${id_prefix}volcanic_dorodango_processing`
         },
         {
@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
                 { item: 'aquaculture:fish_bones', amount: 1, probability: 1 / 3 }
             ],
             eu: 2,
-            duration: 5,
+            duration: 10,
             id: `${id_prefix}boggy_dorodango_processing`
         }
     ];

@@ -114,6 +114,27 @@ ServerEvents.recipes((event) => {
             aura: 15000,
             time: 600,
             id: `${id_prefix}bee`
+        },
+        {
+            entity: 'minecraft:fox',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'minecraft:sweet_berries' }],
+            aura: 15000,
+            time: 600,
+            id: `${id_prefix}fox`
+        },
+        {
+            entity: 'minecraft:frog',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'minecraft:slime_ball' }],
+            aura: 15000,
+            time: 600,
+            id: `${id_prefix}frog`
+        },
+        {
+            entity: 'cold_sweat:chameleon',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'actuallyadditions:worm' }],
+            aura: 15000,
+            time: 600,
+            id: `${id_prefix}chameleon`
         }
     ];
 

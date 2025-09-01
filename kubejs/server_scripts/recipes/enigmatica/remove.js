@@ -148,6 +148,18 @@ ServerEvents.recipes((event) => {
         { output: `geneticsresequenced:metal_syringe` },
         { output: `geneticsresequenced:gene_checker` },
         { output: `geneticsresequenced:overclocker` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/flight_from_ender_dragon_with_55_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/speed_2_from_rabbit_with_50_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/efficiency_4_from_silverfish_with_25_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/regeneration_4_from_ender_dragon_with_35_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/speed_4_from_ocelot_with_50_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/claws_2_from_polar_bear_with_75_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/strength_2_from_polar_bear_with_50_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/more_hearts_2_from_enderman_with_25_chance` },
+        { id: `geneticsresequenced:incubator/gmo/mutation/resistance_2_from_shulker_with_50_chance` },
+        { id: `geneticsresequenced:incubator/gmo/keep_inventory_from_shulker_with_45_chance` },
+        { id: `geneticsresequenced:incubator/gmo/more_hearts_from_enderman_with_20_chance` },
+        { id: `geneticsresequenced:incubator/gmo/regeneration_from_iron_golem_with_30_chance` },
 
         // Industrial Foregoing
         { type: 'industrialforegoing:fluid_extractor' },
@@ -183,7 +195,6 @@ ServerEvents.recipes((event) => {
         { id: 'malum:void_favor/raw_soulstone' },
         { id: 'malum:void_favor/anomalous_design' },
         { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
-        { id: 'malum:spirit_infusion/living_flesh' },
         { id: 'malum:spirit_infusion/imitation_flesh' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
 

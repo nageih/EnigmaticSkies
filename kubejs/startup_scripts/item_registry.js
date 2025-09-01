@@ -47,6 +47,15 @@ StartupEvents.registry('item', (event) => {
             layer: 'poutine',
             nutrition: 4,
             saturation: 7.5
+        },
+        {
+            name: `Lily's Pink Cotton Candy`,
+            layer: 'cotton_candy',
+            nutrition: 0.5,
+            saturation: 0.5,
+            effect: { id: 'minecraft:speed', duration: 60, amplifier: 0 },
+            fastToEat: true,
+            alwaysEdible: true
         }
     ];
 
@@ -62,6 +71,12 @@ StartupEvents.registry('item', (event) => {
             .useAnimation('eat')
             .food((food) => {
                 food.nutrition(realNutrition).saturation(realSaturation);
+                if (item.effect) {
+                    food.effect(item.effect.id, item.effect.duration * 20, item.effect.amplifier, 1);
+                }
+
+                if (item.alwaysEdible) food.alwaysEdible();
+                if (item.fastToEat) food.fastToEat();
             });
     });
 
@@ -129,6 +144,18 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_guardian.tooltip')
         },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_honey_slime'),
+            id: 'occultism:ritual_dummy/animate_honey_slime',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_honey_slime.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_shulker'),
+            id: 'occultism:ritual_dummy/animate_shulker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_shulker.tooltip')
+        },
 
         // Transmuted Creatures
         {
@@ -154,6 +181,18 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/transmute_wilden_boss',
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.transmute_wilden_boss.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_mooshroom'),
+            id: 'occultism:ritual_dummy/transmute_mooshroom',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_mooshroom.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_cockatrice'),
+            id: 'occultism:ritual_dummy/transmute_cockatrice',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_cockatrice.tooltip')
         }
     ];
 
