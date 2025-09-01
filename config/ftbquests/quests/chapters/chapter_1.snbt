@@ -25,7 +25,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -7.5d
 		}
 		{
@@ -38,7 +38,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -399,7 +399,7 @@
 				id: "3B6A2E42A7F4D6C2"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -9.0d
 		}
 		{
@@ -411,7 +411,7 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -427,7 +427,7 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -7.0d
 		}
 		{
@@ -483,7 +483,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: -8.0d
 		}
 		{
@@ -518,7 +518,7 @@
 				to_observe: "cold_sweat:hearth_bottom"
 				type: "observation"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -8.0d
 		}
 		{
@@ -536,7 +536,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -611,7 +611,7 @@
 				id: "3A59C49FAF001D7E"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -7.0d
 		}
 		{
@@ -622,7 +622,7 @@
 				item: { count: 1, id: "createsifter:string_mesh" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -633,7 +633,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -644,11 +644,11 @@
 				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
-			dependencies: ["0DB54E62557E6819"]
+			dependencies: ["359A7C9127500D6C"]
 			id: "15FAB1720AD470A0"
 			tasks: [{
 				id: "332A320109CC0BC4"
@@ -656,7 +656,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -666,11 +666,14 @@
 				item: { count: 1, id: "aether:altar" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
+			icon: {
+				id: "theurgy:calcination_oven"
+			}
 			id: "540133B792547B21"
 			tasks: [
 				{
@@ -684,7 +687,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -708,7 +711,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 5.0d
 			y: -5.5d
 		}
 		{
@@ -740,18 +743,28 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["540133B792547B21"]
+			icon: {
+				id: "theurgy:digestion_vat"
+			}
 			id: "714379744B3CF395"
-			tasks: [{
-				id: "2D1ED5D64999A68A"
-				item: { count: 1, id: "theurgy:digestion_vat" }
-				type: "item"
-			}]
-			x: -0.5d
+			tasks: [
+				{
+					id: "2D1ED5D64999A68A"
+					item: { count: 1, id: "theurgy:digestion_vat" }
+					type: "item"
+				}
+				{
+					id: "04FD56D5B4728327"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -773,7 +786,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -784,38 +797,15 @@
 				item: { components: { "minecraft:entity_data": { VillagerData: { type: "minecraft:snow" }, id: "minecraft:villager" } }, count: 1, id: "occultism:fragile_soul_gem" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["03D475AF2266ECB6"]
+			dependencies: ["04D144DC0EAE8BE3"]
 			icon: {
 				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
-			rewards: [
-				{
-					id: "7FE4D93A8C0C982C"
-					item: {
-						count: 1
-						id: "utilitarian:angel_block"
-					}
-					type: "item"
-				}
-				{
-					id: "714A46DF45C39F95"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "apothic_attributes:flying"
-							}
-						}
-						count: 1
-						id: "apotheosis:potion_charm"
-					}
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"
@@ -833,11 +823,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["33D3FD6791A9087A"]
+			dependencies: ["03D475AF2266ECB6"]
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -854,35 +844,13 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["51636F3E5A461A7B"]
-			id: "0DB54E62557E6819"
-			tasks: [{
-				id: "28CB642B0632C9FF"
-				item: { count: 1, id: "minecraft:furnace" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["714379744B3CF395"]
-			id: "1F493A257A7E700C"
-			tasks: [{
-				id: "38C2951B66ED26AF"
-				item: { count: 1, id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2F1EA0B091C700E1"]
 			icon: {
-				id: "aquaculture:goldfish"
+				id: "createsifter:raw_gold_piece"
 			}
 			id: "798D16C2A0D071FF"
 			tasks: [
@@ -897,8 +865,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -1.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
@@ -921,8 +889,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5550423B6E6BDBAF"]
@@ -932,19 +900,19 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["03D475AF2266ECB6"]
+			dependencies: ["798D16C2A0D071FF"]
 			id: "1CF4103BFBCE0E29"
 			tasks: [{
 				id: "7DAC5388F81AED26"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -954,8 +922,8 @@
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -965,8 +933,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -976,8 +944,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -987,8 +955,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -998,8 +966,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -1009,8 +977,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.5d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["293573E471AEABF6"]
@@ -1027,8 +995,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 9.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -1038,8 +1006,8 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["121F78C888E3676C"]
@@ -1062,29 +1030,22 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:deployer)item(create:encased_fan)item(create:mechanical_mixer)item(create:sand_paper)item(create:mechanical_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"34FB10F0A2504973"
-				"03D475AF2266ECB6"
-			]
+			dependencies: ["04D144DC0EAE8BE3"]
+			icon: {
+				id: "ars_nouveau:arcane_core"
+			}
 			id: "56AD6E7F12056140"
-			tasks: [
-				{
-					id: "5BF83A89CA730475"
-					item: { count: 1, id: "ars_nouveau:arcane_core" }
-					type: "item"
-				}
-				{
-					id: "6CDECF61F68BC429"
-					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.5d
+			tasks: [{
+				id: "5BF83A89CA730475"
+				item: { count: 1, id: "ars_nouveau:arcane_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "352FE6BFD8AB7023"
@@ -1092,8 +1053,8 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1106,34 +1067,25 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2328482892BB53D2"]
 			id: "01BA367C97ED31E2"
-			tasks: [
-				{
-					id: "03B813E68E3BD7C2"
-					item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
-					type: "item"
-				}
-				{
-					id: "58DB3CB3CCB6E01C"
-					item: { count: 1, id: "actuallyadditions:restonia_crystal" }
-					type: "item"
-				}
-				{
-					id: "5724B112407B9290"
-					item: { count: 1, id: "actuallyadditions:enori_crystal" }
-					type: "item"
-				}
-			]
-			x: 3.0d
+			tasks: [{
+				id: "03B813E68E3BD7C2"
+				item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["33D3FD6791A9087A"]
+			dependencies: [
+				"33D3FD6791A9087A"
+				"714379744B3CF395"
+			]
 			id: "03D475AF2266ECB6"
 			tasks: [{
 				id: "04D8EB63B8923A77"
@@ -1141,7 +1093,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -1169,7 +1121,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -1180,7 +1132,7 @@
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -1191,7 +1143,7 @@
 				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -1203,7 +1155,39 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03D475AF2266ECB6"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "04D144DC0EAE8BE3"
+			tasks: [
+				{
+					id: "5D587C3F4108AE35"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+				{
+					id: "7E8DB9AF7E07E7DE"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			id: "359A7C9127500D6C"
+			tasks: [{
+				id: "3A6C1F53FA6FB52E"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
 		}
 	]
 }

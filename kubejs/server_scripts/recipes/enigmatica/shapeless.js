@@ -83,6 +83,11 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}poutine`
         },
+        {
+            output: 'enigmatica:source_berry_roll_dough',
+            inputs: ['farmersdelight:wheat_dough', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_berry_roll_dough`
+        },
 
         // Villager Meals
         {

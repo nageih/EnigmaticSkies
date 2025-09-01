@@ -215,6 +215,17 @@ ServerEvents.recipes((event) => {
             tier: 2,
             exclusions: [],
             id_suffix: `adamant_ingot`
+        },
+        {
+            output: { id: 'modern_industrialization:fire_clay_brick', count: 2 },
+            inputs: [
+                { tag: 'c:clay', count: 1 },
+                { item: 'aether:aerogel', count: 1 },
+                { tag: 'c:dusts/ash', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `fire_clay_brick`
         }
     ];
 

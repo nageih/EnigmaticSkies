@@ -22,6 +22,50 @@ ServerEvents.recipes((event) => {
                 D: '#c:sugars'
             },
             id: `${id_prefix}source_berry_pie`
+        },
+        {
+            output: 'ars_nouveau:mycelial_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: 'modern_industrialization:gold_ring',
+                C: 'farmersdelight:organic_compost',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}mycelial_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:volcanic_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: 'modern_industrialization:gold_ring',
+                C: 'theurgy:crystallized_lava',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}volcanic_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:alchemical_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: 'modern_industrialization:gold_ring',
+                C: 'supplementaries:lumisene_bottle',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}alchemical_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:vitalic_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: 'modern_industrialization:gold_ring',
+                C: 'aether:enchanted_berry',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}vitalic_sourcelink`
         }
     ];
 

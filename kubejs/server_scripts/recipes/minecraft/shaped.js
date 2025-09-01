@@ -4,21 +4,12 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'minecraft:furnace',
-            pattern: ['AAA', 'A A', 'AAA'],
+            pattern: ['AAA', 'A A', 'BBB'],
             key: {
-                A: 'aether:holystone'
+                A: 'minecraft:andesite',
+                B: 'minecraft:polished_andesite'
             },
             id: `${id_prefix}furnace`
-        },
-        {
-            output: 'minecraft:smoker',
-            pattern: ['AAA', 'ABA', 'CCC'],
-            key: {
-                A: '#enigmatica:planks',
-                B: 'minecraft:furnace',
-                C: '#minecraft:logs'
-            },
-            id: `${id_prefix}smoker`
         },
         {
             output: 'minecraft:barrel',
@@ -28,6 +19,16 @@ ServerEvents.recipes((event) => {
                 B: '#minecraft:wooden_slabs'
             },
             id: `${id_prefix}barrel`
+        },
+        {
+            output: 'minecraft:smithing_table',
+            pattern: ['AAA', 'CBC', 'CCC'],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: '#c:storage_blocks/source',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}smithing_table`
         },
         {
             output: 'minecraft:chest',
@@ -44,34 +45,6 @@ ServerEvents.recipes((event) => {
                 A: '#minecraft:logs'
             },
             id: `${id_prefix}chest_from_logs`
-        },
-        {
-            output: 'minecraft:stonecutter',
-            pattern: [' A ', 'BBB'],
-            key: {
-                A: '#c:gears/stone',
-                B: 'minecraft:tuff'
-            },
-            id: `${id_prefix}stonecutter`
-        },
-        {
-            output: 'minecraft:lectern',
-            pattern: ['AAA', ' B ', ' A '],
-            key: {
-                A: '#minecraft:wooden_slabs',
-                B: 'minecraft:bookshelf'
-            },
-            id: `${id_prefix}lectern`
-        },
-        {
-            output: 'minecraft:brewing_stand',
-            pattern: [' A ', ' B ', 'CCC'],
-            key: {
-                A: 'minecraft:iron_trapdoor',
-                B: '#c:rods/iron',
-                C: 'minecraft:polished_tuff_slab'
-            },
-            id: `${id_prefix}brewing_stand`
         },
         {
             output: 'minecraft:lever',

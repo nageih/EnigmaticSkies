@@ -132,6 +132,14 @@
 		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.036036EA25034BE8.title: "Infusion Rituals: Purple Chalk"
+	quest.03D475AF2266ECB6.quest_desc: [
+		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
+		""
+		"Start by making a Smithing Table to get a Tool Smith Villager. These will helpfully sell you various workstations used by other Villagers."
+		""
+		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
+	]
+	quest.03D475AF2266ECB6.title: "Tool Smith"
 	quest.03DFAA759B4E653E.quest_desc: [
 		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
 		""
@@ -166,6 +174,7 @@
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
+	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
 		""
@@ -625,6 +634,7 @@
 		"With an Eldritch Chalice installed in place of your Sacrificial Bowl, now you can!"
 	]
 	quest.105622B089F794C8.title: "Ronaza's Contact"
+	quest.105CABB7D9705359.title: "Farmer"
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
 		""
@@ -1755,13 +1765,8 @@
 	]
 	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
-	quest.2F1EA0B091C700E1.quest_desc: [
-		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
-		""
-		"Start by making a Barrel to get a Fisherman Villager. Grab yourself some Goldfish and start processing them to get some Gold for a Ritual Brazier. "
-		""
-		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
-	]
+	quest.2F1EA0B091C700E1.quest_desc: [""]
+	quest.2F1EA0B091C700E1.title: "Fisherman"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1915,14 +1920,14 @@
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
-		"Next, make yourself a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
+		"Next, buy yourself a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
 		"&n                                                  &r"
 		""
 		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
 		""
 		"This island is a good example, as it contains several necessary plants and a structure you'll need to proceed. "
 		""
-		"Use the provided Angel Block and Flying Potion to fly away from your main island a little ways. About thirty blocks is sufficient. The Angel Block may be placed in the air and will let you place the Ritual Brazier on top. "
+		"Use your Cloud Burst spell to get a little ways from your main island and set up a Ritual Brazier."
 		""
 		"Right-Click the Brazier with the Tablet, then once more with an empty hand to start the ritual."
 		""
@@ -1932,6 +1937,7 @@
 		"&6  the ritual again in the same spot to "
 		"&6  refresh the island."
 	]
+	quest.34FB10F0A2504973.title: "Shepherd"
 	quest.34FFE863EB846035.quest_desc: [
 		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
 		""
@@ -3516,6 +3522,7 @@
 		""
 		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that you don’t already know. "
 	]
+	quest.56AD6E7F12056140.title: "Shady Wizard"
 	quest.56D926386FC532B2.title: "Ihagan's Enthrallment"
 	quest.56DDD2327724F715.quest_desc: [
 		"Cables come in a variety of sizes and colors to suit your needs. "
@@ -4007,7 +4014,7 @@
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
-		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on that now."
+		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."
 		""
 		"Gather some wood and craft up some basic tools. With an Axe and Cutting Board, you’ll be able to get some Bark for paper. With a Knife, you’ll be able to break Grass for Straw."
 	]
@@ -5119,11 +5126,13 @@
 		""
 		"Simply place it beneath the Generator block to unlock its full potential."
 	]
+	quest.7989524CA113403E.title: "Iron"
 	quest.798D16C2A0D071FF.quest_desc: [
 		"The first few Gold Ingots you make should probably go towards making a Ritual Brazier. "
 		""
 		"In addition to the normal Rituals that you start with this device, it will also allow you to summon special islands which will unlock access to new resources. "
 	]
+	quest.798D16C2A0D071FF.title: "Gold"
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
 		""

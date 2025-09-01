@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             output: `aether:altar`,
             pattern: ['CCC', 'CBC', 'AAA'],
             key: {
-                A: 'aether:holystone',
+                A: 'minecraft:polished_andesite',
                 B: 'aether:ambrosium_shard',
                 C: '#aether:planks_crafting'
             },

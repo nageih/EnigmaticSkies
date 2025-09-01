@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                 C: 'handcrafted:terracotta_thick_pot',
                 D: 'aether:skyroot_planks'
             },
-            id: `theurgy:crafting/shaped/sal_ammoniac_tank`
+            id: `${id_prefix}sal_ammoniac_tank`
         },
         {
             output: 'theurgy:sal_ammoniac_accumulator',
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
                 C: 'handcrafted:terracotta_thick_pot',
                 D: 'aether:skyroot_planks'
             },
-            id: `theurgy:crafting/shaped/sal_ammoniac_accumulator`
+            id: `${id_prefix}sal_ammoniac_accumulator`
         },
         {
             output: 'theurgy:digestion_vat',
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
                 B: 'aether:quicksoil',
                 C: 'handcrafted:terracotta_thick_pot'
             },
-            id: `theurgy:crafting/shaped/digestion_vat`
+            id: `${id_prefix}digestion_vat`
         },
         {
             output: 'theurgy:fermentation_vat',
@@ -42,18 +42,18 @@ ServerEvents.recipes((event) => {
                 B: 'aether:quicksoil',
                 C: 'minecraft:barrel'
             },
-            id: `theurgy:crafting/shaped/fermentation_vat`
+            id: `${id_prefix}fermentation_vat`
         },
         {
             output: 'theurgy:calcination_oven',
             pattern: [' A ', 'BCB', 'BDB'],
             key: {
                 A: '#c:ingots/andesite_alloy',
-                B: '#c:bricks/normal',
-                C: 'aether:aerogel',
+                B: 'modern_industrialization:fire_clay_brick',
+                C: 'minecraft:furnace',
                 D: 'create:basin'
             },
-            id: `theurgy:crafting/shaped/calcination_oven`
+            id: `${id_prefix}calcination_oven`
         },
         {
             output: 'theurgy:pyromantic_brazier',
@@ -63,7 +63,17 @@ ServerEvents.recipes((event) => {
                 B: 'handcrafted:terracotta_thick_pot',
                 C: 'create:shaft'
             },
-            id: `theurgy:crafting/shaped/pyromantic_brazier`
+            id: `${id_prefix}pyromantic_brazier`
+        },
+        {
+            output: 'theurgy:distiller',
+            pattern: [' A ', 'ABA', 'CCC'],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: 'handcrafted:terracotta_thick_pot',
+                C: 'minecraft:polished_andesite'
+            },
+            id: `${id_prefix}distiller`
         }
     ];
 

@@ -21,30 +21,30 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            result: { id: 'minecraft:brewing_stand', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
 
+        // {
+        //     result: { id: 'minecraft:furnace', count: 1 },
+        //     ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+        //     level: 3
+        // },
         {
             result: { id: 'minecraft:smoker', count: 1 },
-            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
-            level: 3
-        },
-        {
-            result: { id: 'minecraft:grindstone', count: 1 },
             ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
             level: 3
         },
 
         {
             result: { id: 'minecraft:cauldron', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 4
         },
         {
-            result: { id: 'minecraft:brewing_stand', count: 1 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            result: { id: 'minecraft:grindstone', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
             level: 4
         },
 
@@ -72,14 +72,19 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'actuallyadditions:worm', count: 8 },
+            result: { id: 'actuallyadditions:worm', count: 2 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
-            result: { id: 'pneumaticcraft:crop_support', count: 8 },
+            result: { id: 'pneumaticcraft:crop_support', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 2
+        },
+        {
+            result: { id: 'actuallyadditions:greenhouse_glass', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 3
         }
     ],
     // Barrel
@@ -214,19 +219,9 @@ const villagerTrades = {
     // Stonecutter
     'minecraft:mason': [
         {
-            result: { id: 'modern_industrialization:fire_clay_brick', count: 16 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } }],
-            level: 1
-        },
-        {
-            result: { id: 'minecraft:brick', count: 16 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 1, max: 2 } }],
-            level: 1
-        },
-        {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
-            level: 2
+            level: 1
         }
     ],
     // Coffee Maker
@@ -286,34 +281,45 @@ const villagerTrades = {
     // Brewing Stand
     'minecraft:cleric': [
         {
-            result: { id: 'utilitarian:angel_block', count: 1 },
+            result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
             ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
             level: 1
+        },
+        {
+            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'utilitarian:angel_block', count: 1 },
+            ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
+            level: 2
         },
         {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
-            level: 1
+            level: 2
         },
         {
             result: { id: 'malum:rotting_essence', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
-            level: 2
+            level: 3
         },
         {
             result: { id: 'malum:grim_talc', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
-            level: 2
+            level: 3
         },
         {
             result: { id: 'malum:astral_weave', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
-            level: 3
+            level: 4
         },
         {
             result: { id: 'malum:warp_flux', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
-            level: 3
+            level: 4
         }
     ],
     // Lectern

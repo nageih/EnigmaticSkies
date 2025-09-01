@@ -207,7 +207,13 @@ StartupEvents.registry('item', (event) => {
             .ritualTooltip(item.tooltip);
     });
 
-    const simple_items = ['ruby', 'boggy_dorodango', 'oceanic_dorodango', 'volcanic_dorodango'];
+    const simple_items = [
+        'ruby',
+        'boggy_dorodango',
+        'oceanic_dorodango',
+        'volcanic_dorodango',
+        'source_berry_roll_dough'
+    ];
 
     simple_items.forEach((item) => {
         event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);

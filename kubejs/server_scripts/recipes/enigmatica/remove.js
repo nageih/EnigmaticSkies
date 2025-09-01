@@ -35,6 +35,7 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:coffee_machine` },
         { id: `actuallyadditions:canola_press` },
         { id: `actuallyadditions:tagged_sticky_piston` },
+        { id: `actuallyadditions:greenhouse_glass` },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -62,12 +63,14 @@ ServerEvents.recipes((event) => {
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
         { id: `ars_nouveau:imbuement_chamber` },
-        { id: `ars_nouveau:agronomic_sourcelink` },
+        { id: /ars_nouveau:.*_sourcelink/ },
         { id: `ars_nouveau:enchanting_apparatus` },
         { id: `ars_nouveau:arcane_core` },
         { id: `ars_nouveau:storage_lectern` },
         { id: `ars_nouveau:repository` },
         { id: `ars_nouveau:repository_controller` },
+        { id: `ars_nouveau:source_berry_roll` },
+        { id: `ars_nouveau:ritual_brazier` },
         { id: `ars_caelum:heart_of_the_sea` },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -216,7 +219,6 @@ ServerEvents.recipes((event) => {
 
         // Minecraft
         { id: 'minecraft:slime_block' },
-        { id: 'minecraft:brick' },
         { id: 'minecraft:nether_brick' },
         { id: 'minecraft:netherite_ingot' },
         { id: 'minecraft:pumpkin_pie' },
@@ -224,7 +226,7 @@ ServerEvents.recipes((event) => {
         { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
-        { output: /minecraft:(composter|barrel|stonecutter|lectern|brewing_stand)/ },
+        { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
@@ -386,6 +388,13 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:distillation' },
         { type: 'theurgy:calcination' },
         { type: 'theurgy:incubation' },
+        { output: 'theurgy:sal_ammoniac_accumulator' },
+        { output: 'theurgy:sal_ammoniac_tank' },
+        { output: 'theurgy:pyromantic_brazier' },
+        { output: 'theurgy:calcination_oven' },
+        { output: 'theurgy:fermentation_vat' },
+        { output: 'theurgy:digestion_vat' },
+        { output: 'theurgy:distiller' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

@@ -532,6 +532,26 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'pulsating_powder'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_horn' },
+            outputs: [{ id: 'arsdelight:wilden_horn_powder', count: 2 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_horn_powder'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_spike' },
+            outputs: [{ id: 'arsdelight:wilden_spike_powder', count: 2 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_spike_powder'
         }
     ];
 
