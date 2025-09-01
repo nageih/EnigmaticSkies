@@ -138,6 +138,17 @@ ServerEvents.recipes((event) => {
                 B: '#c:buckets/water'
             },
             id: `${id_prefix}paper`
+        },
+        {
+            output: 'minecraft:pumpkin_pie',
+            pattern: ['ABA', 'CDC'],
+            key: {
+                A: 'farmersdelight:pumpkin_slice',
+                B: '#c:eggs',
+                C: '#c:sugars',
+                D: 'farmersdelight:pie_crust'
+            },
+            id: `${id_prefix}pumpkin_pie`
         }
     ];
 

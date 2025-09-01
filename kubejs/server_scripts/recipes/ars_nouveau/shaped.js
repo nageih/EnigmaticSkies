@@ -11,6 +11,17 @@ ServerEvents.recipes((event) => {
                 C: '#c:gems/source'
             },
             id: `${id_prefix}imbuement_chamber`
+        },
+        {
+            output: 'ars_nouveau:source_berry_pie',
+            pattern: [' A ', 'BBB', 'DCD'],
+            key: {
+                A: 'ars_nouveau:magebloom',
+                B: 'arsdelight:source_berry_jam',
+                C: 'farmersdelight:pie_crust',
+                D: '#c:sugars'
+            },
+            id: `${id_prefix}source_berry_pie`
         }
     ];
 

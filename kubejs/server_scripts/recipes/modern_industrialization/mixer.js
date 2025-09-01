@@ -172,6 +172,24 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}sal_ammoniac`
+        },
+        {
+            fluid_outputs: [{ fluid: 'create:chocolate', amount: 250 }],
+            item_inputs: [
+                { tag: 'c:sugars', amount: 1 },
+                { tag: 'c:crops/cocoa_bean', amount: 1 }
+            ],
+            fluid_inputs: [{ tag: `minecraft:milk`, amount: 250 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}chocolate`
+        },
+        {
+            fluid_outputs: [{ fluid: 'create:chocolate', amount: 250 }],
+            item_inputs: [{ item: 'create:bar_of_chocolate', amount: 1 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}chocolate_from_bar`
         }
     ];
 

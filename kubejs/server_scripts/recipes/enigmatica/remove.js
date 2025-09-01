@@ -41,6 +41,7 @@ ServerEvents.recipes((event) => {
         { id: 'aether:swet_slime_block' },
         { id: 'aether:swet_sticky_piston' },
         { id: 'aether:swet_lead' },
+        { id: 'aether:moa_egg_pumpkin_pie' },
 
         // Applied Energistics and Addons
         { id: /ae2:(smelting|blasting)\/silicon/ },
@@ -70,6 +71,11 @@ ServerEvents.recipes((event) => {
         {
             output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
         },
+        { id: 'ars_nouveau:source_berry_pie' },
+        { id: 'arsdelight:mendosteen_pie' },
+        { id: 'arsdelight:bastion_pie' },
+        { id: 'arsdelight:bombegrante_pie' },
+        { id: 'arsdelight:frostaya_pie' },
         { id: 'ars_elemental:wool_to_string' },
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
 
@@ -130,6 +136,10 @@ ServerEvents.recipes((event) => {
         { output: 'farmersdelight:organic_compost' },
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
+        { id: 'farmersdelight:pie_crust' },
+        { id: 'farmersdelight:apple_pie' },
+        { id: 'farmersdelight:chocolate_pie' },
+        { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
 
         { output: 'framedblocks:phantom_paste' },
 
@@ -203,6 +213,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:brick' },
         { id: 'minecraft:nether_brick' },
         { id: 'minecraft:netherite_ingot' },
+        { id: 'minecraft:pumpkin_pie' },
         { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone)/ },

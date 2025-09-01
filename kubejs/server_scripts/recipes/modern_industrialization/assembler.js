@@ -77,6 +77,17 @@ ServerEvents.recipes((event) => {
             eu: 1,
             duration: 100,
             id: `${id_prefix}sheep_eatin_green`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:flyin_fox', amount: 1 }],
+            item_inputs: [
+                { item: 'farmersdelight:roast_chicken_block', amount: 1 },
+                { item: 'farmersdelight:fruit_salad', amount: 1 },
+                { item: 'farmersdelight:sweet_berry_cheesecake', amount: 1 }
+            ],
+            eu: 1,
+            duration: 100,
+            id: `${id_prefix}flyin_fox`
         }
     ];
 

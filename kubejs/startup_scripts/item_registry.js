@@ -7,7 +7,8 @@ StartupEvents.registry('item', (event) => {
         { name: `La Drygmese Poutine`, magic: true },
         { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
-        { name: `Sheep-Eatin' Green` }
+        { name: `Sheep-Eatin' Green` },
+        { name: `Flyin' Fox` }
     ];
 
     delivery_bags.forEach((item) => {
