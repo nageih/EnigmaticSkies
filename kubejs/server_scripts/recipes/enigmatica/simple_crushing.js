@@ -552,6 +552,16 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'wilden_spike_powder'
+        },
+        {
+            input: { item: 'minecraft:calcite' },
+            outputs: [{ id: 'occultism:crushed_calcite', count: 4 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'calcite_powder'
         }
     ];
 

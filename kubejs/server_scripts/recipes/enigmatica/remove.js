@@ -72,6 +72,7 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:source_berry_roll` },
         { id: `ars_nouveau:ritual_brazier` },
         { id: `ars_caelum:heart_of_the_sea` },
+        { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
@@ -205,6 +206,8 @@ ServerEvents.recipes((event) => {
         { output: 'justdirethings:polymorphic_catalyst' },
         { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
         { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
+        { id: /justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/ },
+        { id: /justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/ },
 
         // Malum
         { id: /malum:create\/washing\/.*_node/ },
@@ -215,6 +218,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:void_favor/anomalous_design' },
         { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
         { id: 'malum:spirit_infusion/imitation_flesh' },
+        { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
 
         // Minecraft
@@ -287,6 +291,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tree_ritual/ore_spawn_powder' },
         { id: 'naturesaura:tree_ritual/animal_powder' },
         { id: 'naturesaura:blast_furnace_booster' },
+        { id: 'naturesaura:calling_spirit' },
         { id: `naturesaura:altar/coal` },
         { id: `naturesaura:altar/infused_stone` },
         { id: `naturesaura:altar/nether_wart` },
@@ -301,6 +306,8 @@ ServerEvents.recipes((event) => {
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
         { id: 'occultism:spirit_fire/otherworld_ashes' },
+        { id: /occultism:chalk.*_impure/ },
+        { id: /occultism:spirit_fire\/chalk_/ },
 
         // Oritech
         { type: 'oritech:foundry' },

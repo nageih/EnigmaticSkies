@@ -82,18 +82,6 @@ ServerEvents.recipes((event) => {
             id: 'ars_nouveau:enchanters_gauntlet'
         },
         {
-            result: { id: 'geneticsresequenced:dna_helix', count: 4 },
-            reagent: { item: 'geneticsresequenced:dna_helix' },
-            pedestalItems: [
-                { tag: 'c:essences/conjuration' },
-                { tag: 'c:essences/manipulation' },
-                { tag: 'c:essences/anima' }
-            ],
-            keepNbtOfReagent: true,
-            sourceCost: 0,
-            id: `${id_prefix}dna_helix_cloning`
-        },
-        {
             result: { id: 'minecraft:heart_of_the_sea', count: 1 },
             reagent: { tag: 'c:storage_blocks/empowered_diamatine' },
             pedestalItems: [

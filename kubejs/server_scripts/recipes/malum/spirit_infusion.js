@@ -27,6 +27,59 @@ ServerEvents.recipes((event) => {
                 { type: 'aqueous', count: 16 }
             ],
             id: `${id_prefix}imitation_flesh`
+        },
+        {
+            output: { id: 'naturesaura:birth_spirit', count: 4 },
+            ingredient: {
+                type: 'neoforge:components',
+                items: 'naturesaura:aura_bottle',
+                components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:overworld' } }
+            },
+            extraIngredients: [
+                { tag: 'c:essences/conjuration', count: 1 },
+                { tag: 'c:essences/manipulation', count: 1 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 2 },
+                { type: 'sacred', count: 2 }
+            ],
+            id: `${id_prefix}birth_spirit`
+        },
+        {
+            output: { id: 'naturesaura:calling_spirit', count: 4 },
+            ingredient: {
+                type: 'neoforge:components',
+                items: 'naturesaura:aura_bottle',
+                components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:nether' } }
+            },
+            extraIngredients: [
+                { tag: 'c:essences/conjuration', count: 1 },
+                { tag: 'c:essences/manipulation', count: 1 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 2 },
+                { type: 'wicked', count: 2 }
+            ],
+            id: `${id_prefix}calling_spirit`
+        },
+        {
+            output: { id: 'justdirethings:gooblock_tier3', count: 1 },
+            ingredient: { item: 'justdirethings:gooblock_tier2', count: 1 },
+            extraIngredients: [
+                {
+                    type: 'neoforge:components',
+                    items: 'naturesaura:aura_bottle',
+                    components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:end' } },
+                    count: 16
+                },
+                { tag: 'c:gems/empowered_void', count: 16 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 4 },
+                { type: 'eldritch', count: 4 },
+                { type: 'wicked', count: 4 }
+            ],
+            id: `${id_prefix}gooblock_tier3`
         }
     ];
 

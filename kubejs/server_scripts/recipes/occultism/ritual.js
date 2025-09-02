@@ -38,6 +38,29 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
             duration: 5,
             id: `${id_prefix}rift_wilden_calamity`
+        },
+        {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: 'ars_nouveau:wilden_boss',
+            entity_to_sacrifice: sacrifice.villager,
+            result: {
+                id: 'ars_nouveau:wilden_tribute',
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.transmute_wilden_boss"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.transmute_wilden_boss.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of('malum:imitation_heart').toJson(),
+            ingredients: [
+                { item: 'arsdelight:wilden_sauce' },
+                { item: 'arsdelight:wilden_meat' },
+                { item: 'arsdelight:wilden_meat' },
+                { item: 'arsdelight:wilden_meat' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/transmute_wilden_boss`, count: 1 },
+            duration: 5,
+            id: `${id_prefix}transmute_wilden_boss`
         }
     ];
 
@@ -46,61 +69,62 @@ ServerEvents.recipes((event) => {
             entity: 'aether:blue_swet',
             egg: 'aether:blue_swet_spawn_egg',
             block: 'arsdelight:frostaya_jelly',
-            spirit: 'malum:sacred_spirit'
+            spirit: 'naturesaura:birth_spirit'
         },
         {
             entity: 'minecraft:slime',
             egg: 'minecraft:slime_spawn_egg',
             block: 'arsdelight:mendosteen_jelly',
-            spirit: 'malum:sacred_spirit'
+            spirit: 'naturesaura:birth_spirit'
         },
         {
             entity: 'minecraft:magma_cube',
             egg: 'minecraft:magma_cube_spawn_egg',
             block: 'arsdelight:bombegrante_jelly',
-            spirit: 'malum:sacred_spirit'
+            spirit: 'naturesaura:birth_spirit'
+        },
+
+        {
+            entity: 'the_bumblezone:honey_slime',
+            egg: 'the_bumblezone:honey_slime_spawn_egg',
+            block: 'minecraft:honey_block',
+            spirit: 'naturesaura:birth_spirit'
         },
         {
             entity: 'aether:zephyr',
             egg: 'aether:zephyr_spawn_egg',
             block: 'aether:cold_aercloud',
-            spirit: 'malum:arcane_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'aether:sentry',
             egg: 'aether:sentry_spawn_egg',
             block: 'aether:holystone_bricks',
-            spirit: 'malum:arcane_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'the_bumblezone:rootmin',
             egg: 'the_bumblezone:rootmin_spawn_egg',
             block: 'minecraft:packed_mud',
-            spirit: 'malum:arcane_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'aether:golden_swet',
             egg: 'aether:golden_swet_spawn_egg',
             block: 'aether:golden_gummy_swet',
-            spirit: 'malum:arcane_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'minecraft:guardian',
             egg: 'minecraft:guardian_spawn_egg',
             block: 'enderio:guardian_diode',
-            spirit: 'malum:arcane_spirit'
-        },
-        {
-            entity: 'the_bumblezone:honey_slime',
-            egg: 'the_bumblezone:honey_slime_spawn_egg',
-            block: 'minecraft:honey_block',
-            spirit: 'malum:sacred_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'minecraft:shulker',
             egg: 'minecraft:shulker_spawn_egg',
             block: 'minecraft:purpur_block',
-            spirit: 'malum:arcane_spirit'
+            spirit: 'naturesaura:calling_spirit'
         }
     ];
 
@@ -119,15 +143,71 @@ ServerEvents.recipes((event) => {
             },
             activation_item: { item: animated.block },
             ingredients: [
-                { tag: 'c:essences/conjuration' },
+                { tag: 'c:essences/hex_ash' },
+                { item: 'industrialforegoing:pink_slime' },
                 { item: animated.spirit },
-                { tag: 'c:essences/manipulation' },
-                { item: animated.spirit }
+                { item: 'industrialforegoing:pink_slime' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
             duration: 5,
             id: `${id_prefix}animate_${mob_id}`
         });
+    });
+
+    const transmuted_creatures = [
+        {
+            entity: 'minecraft:mooshroom',
+            egg: 'minecraft:mooshroom_spawn_egg'
+        },
+        {
+            entity: 'aether:cockatrice',
+            egg: 'aether:cockatrice_spawn_egg'
+        },
+        {
+            entity: 'ars_nouveau:wilden_hunter',
+            egg: 'ars_nouveau:wilden_hunter_se',
+            entity_to_sacrifice: sacrifice.villager
+        },
+        {
+            entity: 'ars_nouveau:wilden_guardian',
+            egg: 'ars_nouveau:wilden_guardian_se',
+            entity_to_sacrifice: sacrifice.villager
+        },
+        {
+            entity: 'ars_nouveau:wilden_stalker',
+            egg: 'ars_nouveau:wilden_stalker_se',
+            entity_to_sacrifice: sacrifice.villager
+        }
+    ];
+
+    transmuted_creatures.forEach((transmuted) => {
+        let mob_id = transmuted.entity.split(':')[1];
+        let recipe = {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: transmuted.entity,
+            result: {
+                id: transmuted.egg,
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.transmute_${mob_id}"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.transmute_${mob_id}.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of(
+                `geneticsresequenced:organic_matter[geneticsresequenced:entity_type="${transmuted.entity}"]`
+            ).toJson(),
+            ingredients: [
+                { tag: 'c:gems/empowered_restonia' },
+                { item: 'minecraft:clay' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'minecraft:clay' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/transmute_${mob_id}`, count: 1 },
+            duration: 5,
+            id: `${id_prefix}transmute_${mob_id}`
+        };
+        if (transmuted.entity_to_sacrifice) recipe.entity_to_sacrifice = transmuted.entity_to_sacrifice;
+        recipes.push(recipe);
     });
 
     recipes.forEach((recipe) => {

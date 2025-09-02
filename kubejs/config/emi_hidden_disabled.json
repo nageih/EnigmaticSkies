@@ -32,6 +32,8 @@
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
             "justdirethings:raw_coal_t1_ore",
+            "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
+            "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
 
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",
@@ -50,6 +52,7 @@
             "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:ore_spawn\"}]",
 
             "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
+            "/occultism:chalk.*_impure/",
 
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
             "oritech:pulverizer_block",
@@ -73,7 +76,13 @@
             "/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/"
         ],
         "added": [
-            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]"
+            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]",
+            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:witch\"}]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_guardian\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"aether:cockatrice\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]"
         ]
     },
     "fluids": {

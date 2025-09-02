@@ -239,6 +239,41 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `oritech:motor`,
             replace_with: `modern_industrialization:motor`
+        },
+        // {
+        //     filter: [{ mod: 'justdirethings' }],
+        //     to_replace: `minecraft:ender_eye`,
+        //     replace_with: '#c:gems/pulsating_crystal'
+        // },
+        // {
+        //     filter: [{ mod: 'justdirethings' }],
+        //     to_replace: `minecraft:ender_pearl`,
+        //     replace_with: '#c:gems/pulsating_crystal'
+        // },
+        {
+            filter: [{ id: /justdirethings:.*t1$/ }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: 'create:electron_tube'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t2$/ }, { id: 'justdirethings:portalgun' }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: '#c:gems/pulsating_crystal'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t1$/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: 'actuallyadditions:advanced_coil'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t2$/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: 'oritech:flux_gate'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t(1|2)$/ }],
+            to_replace: `#c:gems/lapis`,
+            replace_with: 'ars_technica:calibrated_precision_mechanism'
         }
     ];
 

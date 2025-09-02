@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: `geneticsresequenced:scraper`,
+            output: 'geneticsresequenced:scraper[unbreakable={}]',
             pattern: [' BC', ' AB', 'A  '],
             key: {
                 A: `#c:rods/wooden`,
