@@ -191,6 +191,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 2
         },
+
         {
             result: { id: 'ars_nouveau:alakarkinos_token', count: 1 },
             ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
@@ -227,6 +228,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
             level: 1
         },
+
         {
             result: { id: 'modern_industrialization:analog_circuit', count: 4 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
@@ -237,6 +239,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
             level: 2
         },
+
         {
             result: { id: 'modern_industrialization:cupronickel_cable', count: 8 },
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 2 } }],
@@ -255,6 +258,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
             level: 1
         },
+
         {
             result: { id: 'prettypipes:blank_module', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
@@ -284,6 +288,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
             level: 2
         },
+
         {
             result: { id: 'malum:rotting_essence', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
@@ -294,6 +299,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
             level: 3
         },
+
         {
             result: { id: 'malum:astral_weave', count: 4 },
             ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
@@ -317,6 +323,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
+
         {
             result: { id: 'ars_nouveau:repository_controller', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
@@ -327,11 +334,13 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
+
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 3
         },
+
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 8, max: 12 } }],
