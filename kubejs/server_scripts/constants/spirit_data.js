@@ -14,13 +14,13 @@
 */
 
 const spiritData = [
-    {
-        registry_name: 'aether:aechor_plant',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'aether:aechor_plant',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'aether:aerbunny',
         spirits: [
@@ -960,226 +960,226 @@ const spiritData = [
             { spirit: 'infernal', count: 2 }
         ]
     },
-    {
-        registry_name: 'occultism:possessed_breeze',
-        spirits: [
-            { spirit: 'aerial', count: 3 },
-            { spirit: 'arcane', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_elder_guardian',
-        spirits: [
-            { spirit: 'aqueous', count: 5 },
-            { spirit: 'eldritch', count: 3 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_enderman',
-        spirits: [
-            { spirit: 'eldritch', count: 3 },
-            { spirit: 'arcane', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_endermite',
-        spirits: [{ spirit: 'eldritch', count: 1 }]
-    },
-    {
-        registry_name: 'occultism:possessed_evoker',
-        spirits: [
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'arcane', count: 2 },
-            { spirit: 'eldritch', count: 2 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_ghast',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'infernal', count: 2 },
-            { spirit: 'aqueous', count: 2 },
-            { spirit: 'aerial', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_hoglin',
-        spirits: [
-            { spirit: 'infernal', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_phantom',
-        spirits: [
-            { spirit: 'arcane', count: 3 },
-            { spirit: 'wicked', count: 3 },
-            { spirit: 'aerial', count: 3 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_shulker',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'eldritch', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_skeleton',
-        spirits: [
-            { spirit: 'arcane', count: 2 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_strong_breeze',
-        spirits: [
-            { spirit: 'aerial', count: 6 },
-            { spirit: 'arcane', count: 3 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_warden',
-        spirits: [
-            { spirit: 'eldritch', count: 6 },
-            { spirit: 'wicked', count: 6 },
-            { spirit: 'arcane', count: 6 },
-            { spirit: 'earthen', count: 6 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_weak_breeze',
-        spirits: [
-            { spirit: 'aerial', count: 1 },
-            { spirit: 'arcane', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_weak_shulker',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'eldritch', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_witch',
-        spirits: [
-            { spirit: 'wicked', count: 2 },
-            { spirit: 'arcane', count: 2 }
-        ]
-    },
-    {
-        registry_name: 'occultism:possessed_zombie_piglin',
-        spirits: [
-            { spirit: 'wicked', count: 2 },
-            { spirit: 'infernal', count: 2 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_bogged',
-        spirits: [
-            { spirit: 'arcane', count: 2 },
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_cave_spider',
-        spirits: [
-            { spirit: 'aerial', count: 1 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_horde_creeper',
-        spirits: [{ spirit: 'infernal', count: 3 }]
-    },
-    {
-        registry_name: 'occultism:wild_horde_drowned',
-        spirits: [
-            { spirit: 'aqueous', count: 2 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_horde_husk',
-        spirits: [
-            { spirit: 'infernal', count: 1 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_horde_silverfish',
-        spirits: [
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_hunt_skeleton',
-        spirits: [
-            { spirit: 'arcane', count: 3 },
-            { spirit: 'wicked', count: 2 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_hunt_wither_skeleton',
-        spirits: [
-            { spirit: 'infernal', count: 3 },
-            { spirit: 'wicked', count: 3 },
-            { spirit: 'arcane', count: 3 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_husk',
-        spirits: [
-            { spirit: 'infernal', count: 1 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_silverfish',
-        spirits: [
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_skeleton',
-        spirits: [
-            { spirit: 'arcane', count: 2 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_slime',
-        spirits: [
-            { spirit: 'aqueous', count: 1 },
-            { spirit: 'arcane', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_spider',
-        spirits: [
-            { spirit: 'aerial', count: 2 },
-            { spirit: 'wicked', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_stray',
-        spirits: [
-            { spirit: 'arcane', count: 1 },
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'aerial', count: 1 }
-        ]
-    },
-    {
-        registry_name: 'occultism:wild_zombie',
-        spirits: [
-            { spirit: 'wicked', count: 1 },
-            { spirit: 'earthen', count: 1 }
-        ]
-    },
+    // {
+    //     registry_name: 'occultism:possessed_breeze',
+    //     spirits: [
+    //         { spirit: 'aerial', count: 3 },
+    //         { spirit: 'arcane', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_elder_guardian',
+    //     spirits: [
+    //         { spirit: 'aqueous', count: 5 },
+    //         { spirit: 'eldritch', count: 3 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_enderman',
+    //     spirits: [
+    //         { spirit: 'eldritch', count: 3 },
+    //         { spirit: 'arcane', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_endermite',
+    //     spirits: [{ spirit: 'eldritch', count: 1 }]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_evoker',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'arcane', count: 2 },
+    //         { spirit: 'eldritch', count: 2 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_ghast',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'infernal', count: 2 },
+    //         { spirit: 'aqueous', count: 2 },
+    //         { spirit: 'aerial', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_hoglin',
+    //     spirits: [
+    //         { spirit: 'infernal', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_phantom',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 3 },
+    //         { spirit: 'wicked', count: 3 },
+    //         { spirit: 'aerial', count: 3 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_shulker',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'eldritch', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_skeleton',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 2 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_strong_breeze',
+    //     spirits: [
+    //         { spirit: 'aerial', count: 6 },
+    //         { spirit: 'arcane', count: 3 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_warden',
+    //     spirits: [
+    //         { spirit: 'eldritch', count: 6 },
+    //         { spirit: 'wicked', count: 6 },
+    //         { spirit: 'arcane', count: 6 },
+    //         { spirit: 'earthen', count: 6 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_weak_breeze',
+    //     spirits: [
+    //         { spirit: 'aerial', count: 1 },
+    //         { spirit: 'arcane', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_weak_shulker',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'eldritch', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_witch',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 2 },
+    //         { spirit: 'arcane', count: 2 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:possessed_zombie_piglin',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 2 },
+    //         { spirit: 'infernal', count: 2 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_bogged',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 2 },
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_cave_spider',
+    //     spirits: [
+    //         { spirit: 'aerial', count: 1 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_horde_creeper',
+    //     spirits: [{ spirit: 'infernal', count: 3 }]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_horde_drowned',
+    //     spirits: [
+    //         { spirit: 'aqueous', count: 2 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_horde_husk',
+    //     spirits: [
+    //         { spirit: 'infernal', count: 1 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_horde_silverfish',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_hunt_skeleton',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 3 },
+    //         { spirit: 'wicked', count: 2 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_hunt_wither_skeleton',
+    //     spirits: [
+    //         { spirit: 'infernal', count: 3 },
+    //         { spirit: 'wicked', count: 3 },
+    //         { spirit: 'arcane', count: 3 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_husk',
+    //     spirits: [
+    //         { spirit: 'infernal', count: 1 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_silverfish',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_skeleton',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 2 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_slime',
+    //     spirits: [
+    //         { spirit: 'aqueous', count: 1 },
+    //         { spirit: 'arcane', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_spider',
+    //     spirits: [
+    //         { spirit: 'aerial', count: 2 },
+    //         { spirit: 'wicked', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_stray',
+    //     spirits: [
+    //         { spirit: 'arcane', count: 1 },
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'aerial', count: 1 }
+    //     ]
+    // },
+    // {
+    //     registry_name: 'occultism:wild_zombie',
+    //     spirits: [
+    //         { spirit: 'wicked', count: 1 },
+    //         { spirit: 'earthen', count: 1 }
+    //     ]
+    // },
     {
         registry_name: 'sushigocrafting:shrimp',
         spirits: [{ spirit: 'aqueous', count: 1 }]

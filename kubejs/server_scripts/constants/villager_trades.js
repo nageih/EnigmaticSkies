@@ -16,11 +16,6 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'minecraft:lectern', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
-            level: 2
-        },
-        {
             result: { id: 'minecraft:brewing_stand', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
@@ -181,18 +176,19 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'ars_additions:codex_entry', count: 1 },
+            result: { id: 'minecraft:lectern', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 1
         },
+
         {
-            result: { id: 'ars_nouveau:starbuncle_shards', count: 1 },
-            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            result: { id: 'ars_nouveau:wixie_shards', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 2
         },
         {
-            result: { id: 'ars_nouveau:wixie_shards', count: 1 },
-            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            result: { id: 'ars_nouveau:starbuncle_shards', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 2
         },
         {
@@ -204,16 +200,6 @@ const villagerTrades = {
             result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
             ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 2, max: 4 } }],
             level: 3
-        },
-        {
-            result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 8, max: 12 } }],
-            level: 4
-        },
-        {
-            result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 12, max: 16 } }],
-            level: 5
         }
     ],
     // Stonecutter
@@ -221,6 +207,11 @@ const villagerTrades = {
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            level: 1
+        },
+        {
+            result: { id: `cold_sweat:hearth`, count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 4, max: 8 } }],
             level: 1
         }
     ],
@@ -268,21 +259,13 @@ const villagerTrades = {
             result: { id: 'prettypipes:blank_module', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
             level: 2
-        },
-        {
-            result: {
-                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:analog_circuit"},Progress:1.0d}]',
-                count: 1
-            },
-            ingredients: [{ id: 'arsdelight:honey_glazed_chimera', count: { min: 1, max: 8 } }],
-            level: 5
         }
     ],
     // Brewing Stand
     'minecraft:cleric': [
         {
             result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
-            ingredients: [{ id: 'enigmatica:lily_s_lilac_cotton_candy', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
@@ -343,6 +326,21 @@ const villagerTrades = {
             result: { id: 'ars_nouveau:repository', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
+        },
+        {
+            result: { id: 'ars_additions:codex_entry', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
+            level: 3
+        },
+        {
+            result: { id: 'ars_additions:lost_codex_entry', count: 1 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 8, max: 12 } }],
+            level: 4
+        },
+        {
+            result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 12, max: 16 } }],
+            level: 5
         }
     ]
 };

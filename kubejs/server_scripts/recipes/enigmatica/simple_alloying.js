@@ -94,16 +94,16 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `rose_quartz`
         },
-        {
-            output: { id: 'modern_industrialization:cupronickel_ingot', count: 2 },
-            inputs: [
-                { tag: 'c:ingots/copper', count: 1 },
-                { tag: 'c:ingots/nickel', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `cupronickel_ingot`
-        },
+        // {
+        //     output: { id: 'modern_industrialization:cupronickel_ingot', count: 2 },
+        //     inputs: [
+        //         { tag: 'c:ingots/copper', count: 1 },
+        //         { tag: 'c:ingots/nickel', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `cupronickel_ingot`
+        // },
         {
             output: { id: 'modern_industrialization:battery_alloy_ingot', count: 2 },
             inputs: [

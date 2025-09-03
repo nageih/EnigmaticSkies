@@ -82,6 +82,17 @@ ServerEvents.recipes((event) => {
                 D: 'farmersdelight:pie_crust'
             },
             id: `${id_prefix}pumpkin_pie`
+        },
+        {
+            output: 'minecraft:cake',
+            pattern: ['ADA', 'BCB'],
+            key: {
+                A: '#c:foods/milk',
+                B: '#c:sugars',
+                C: 'enderio:cake_base',
+                D: 'minecraft:sweet_berries'
+            },
+            id: `${id_prefix}cake`
         }
     ];
 

@@ -104,6 +104,21 @@ ServerEvents.recipes((event) => {
             experience: 0.1,
             recipe_book_tab: 'misc',
             id: `${id_prefix}frostaya_jelly`
+        },
+        {
+            result: { id: 'arsdelight:source_berry_cupcake', count: 2 },
+            ingredients: [
+                { item: 'arsdelight:arch_sauce' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { tag: 'c:eggs' },
+                { tag: 'c:flours/wheat' },
+                { tag: 'c:flours/wheat' },
+                { tag: 'c:foods/milk' }
+            ],
+            container: { id: 'minecraft:paper', count: 1 },
+            experience: 0.1,
+            recipe_book_tab: 'meals',
+            id: `${id_prefix}source_berry_cupcake`
         }
     ];
 

@@ -141,6 +141,11 @@
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
+	quest.04D144DC0EAE8BE3.quest_desc: [
+		"Next, you'll want to buy a Brewing Stand to gain access to the Cleric's trades. "
+		""
+		"In particular, you'll need a Ritual Brazier soon, so buy one of those as well."
+	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
@@ -523,9 +528,7 @@
 	]
 	quest.0DA6F0172E06CCB1.title: "Just Dire Armor"
 	quest.0DE5D9ADB947B171.quest_desc: [
-		""
-		""
-		""
+		"Animate a Wilden Chimera and defeat it to obtain a Wilden Tribute."
 		""
 		"&6⚠ Note: The Ritual item shown here is not "
 		"&6    required. It's simply a convenience "
@@ -598,6 +601,13 @@
 		"&a    the formation block in &cred&r&a. "
 	]
 	quest.105622B089F794C8.title: "Ronaza's Contact"
+	quest.105CABB7D9705359.quest_desc: [
+		"Farmers have some very helpful tools to help you speed up your farms. Be sure to check out their wares!"
+		""
+		"They'll also help you get started with Source production with an Agronomic Sourcelink. "
+		""
+		"This should produce plentiful Source for now but you will want to move on to something more powerful later, however, such as a Mycelial Sourcelink."
+	]
 	quest.105CABB7D9705359.title: "Farmer"
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
@@ -1729,6 +1739,11 @@
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
+	quest.2F9C801DFAC1C0D9.quest_desc: [
+		"Librarians will sell you everything you need to set up your own Storage Lectern to organize all of your goods. They are also the only way to access new glyphs. "
+		""
+		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that that isn't already known by you. "
+	]
 	quest.2FB39BF76836FA47.quest_desc: [
 		"With all these Zombies and Skeletons walking around, is it really a surprise that Undeath has spread to the foliage as well?"
 		""
@@ -1849,7 +1864,9 @@
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
-		"Next, buy yourself a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
+		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
+		""
+		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
 		"&n                                                  &r"
 		""
 		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
@@ -3327,9 +3344,7 @@
 	]
 	quest.51F25D35F62B37BA.title: "Mercurial Logistics"
 	quest.520241157010066D.quest_desc: [
-		""
-		""
-		""
+		"Animate a Wilden Stalker and harvest it for parts."
 		""
 		"&6⚠ Note: The Ritual item shown here is not "
 		"&6    required. It's simply a convenience "
@@ -3437,11 +3452,9 @@
 		"Be sure to stock up!"
 	]
 	quest.56AD6E7F12056140.quest_desc: [
-		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this device is the Job Site for Shady Wizard Villagers. "
+		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this device is the Job Site for Shady Wizard Villagers, who will sell you various magical trinkets."
 		""
-		"Shady Wizards will sell you several very important tools and are the only way to access new glyphs. "
-		""
-		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that you don’t already know. "
+		"Consider picking up some Wixies to help you with cooking up food to feed your villagers."
 	]
 	quest.56AD6E7F12056140.title: "Shady Wizard"
 	quest.56D926386FC532B2.title: "Ihagan's Enthrallment"
@@ -4159,9 +4172,7 @@
 	]
 	quest.68A0052D169BB6E4.title: "Meat Farming"
 	quest.68C212D2C7F8B308.quest_desc: [
-		""
-		""
-		""
+		"Animate a Wilden Defender and harvest it for parts."
 		""
 		"&6⚠ Note: The Ritual item shown here is not "
 		"&6    required. It's simply a convenience "
@@ -4318,9 +4329,7 @@
 	]
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
-		""
-		""
-		""
+		"Animate a Wilden Pack Hunter and harvest it for parts."
 		""
 		"&6⚠ Note: The Ritual item shown here is not "
 		"&6    required. It's simply a convenience "
@@ -4871,7 +4880,6 @@
 		""
 		"Simply place it beneath the Generator block to unlock its full potential."
 	]
-	quest.7989524CA113403E.title: "Iron"
 	quest.798D16C2A0D071FF.quest_desc: [
 		"The first few Gold Ingots you make should probably go towards making a Ritual Brazier. "
 		""

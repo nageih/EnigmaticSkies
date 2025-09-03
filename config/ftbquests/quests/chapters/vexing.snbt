@@ -332,6 +332,11 @@
 					item: { count: 1, id: "ars_nouveau:wilden_horn" }
 					type: "item"
 				}
+				{
+					id: "445FFDBAAC9121FE"
+					item: { count: 1, id: "arsdelight:wilden_meat" }
+					type: "item"
+				}
 			]
 			x: 3.0d
 			y: 7.0d

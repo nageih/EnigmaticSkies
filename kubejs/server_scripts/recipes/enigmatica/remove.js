@@ -62,6 +62,10 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
+        {
+            output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
+        },
+        { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: `ars_nouveau:imbuement_chamber` },
         { id: /ars_nouveau:.*_sourcelink/ },
         { id: `ars_nouveau:enchanting_apparatus` },
@@ -71,23 +75,27 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:repository_controller` },
         { id: `ars_nouveau:source_berry_roll` },
         { id: `ars_nouveau:ritual_brazier` },
-        { id: `ars_caelum:heart_of_the_sea` },
+        { id: 'ars_nouveau:source_berry_pie' },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
-        { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
+
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
-        {
-            output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
-        },
-        { id: 'ars_nouveau:source_berry_pie' },
+        { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
         { id: 'arsdelight:mendosteen_pie' },
         { id: 'arsdelight:bastion_pie' },
         { id: 'arsdelight:bombegrante_pie' },
         { id: 'arsdelight:frostaya_pie' },
+
         { id: 'ars_elemental:wool_to_string' },
+
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
+        { id: `ars_caelum:heart_of_the_sea` },
+
+        // Cold Sweat
+
+        { output: `cold_sweat:hearth` },
 
         // Create and Addons
         { id: /create:crushing\/raw_/ },
@@ -227,6 +235,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:netherite_ingot' },
         { id: 'minecraft:pumpkin_pie' },
         { id: 'minecraft:bread' },
+        { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
