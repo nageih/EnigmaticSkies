@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:aqueous_spirit' }
             ],
             ritual_dummy: { id: 'occultism:ritual_dummy/rift_slime_apocalypse', count: 1 },
-            duration: 5,
+            duration: 30,
             id: `${id_prefix}rift_slime_apocalypse`
         },
         {
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:aqueous_spirit' }
             ],
             ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
-            duration: 5,
+            duration: 30,
             id: `${id_prefix}rift_wilden_calamity`
         },
         {
@@ -51,18 +51,38 @@ ServerEvents.recipes((event) => {
                 },
                 count: 1
             },
-            activation_item: Ingredient.of('malum:imitation_heart').toJson(),
+            activation_item: { item: 'arsdelight:wilden_sauce' },
             ingredients: [
-                { item: 'arsdelight:wilden_sauce' },
+                { item: 'malum:imitation_heart' },
                 { item: 'arsdelight:wilden_meat' },
                 { item: 'arsdelight:wilden_meat' },
                 { item: 'arsdelight:wilden_meat' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/transmute_wilden_boss`, count: 1 },
-            duration: 5,
+            duration: 30,
             id: `${id_prefix}transmute_wilden_boss`
         }
     ];
+
+    /*
+        Ingredient Display in EMI
+            inputs: [
+                 '12 o'clock' ,
+                 '3 o'clock' ,
+                 '6 o'clock' ,
+                 '9 o'clock' ,
+
+                 '1 o'clock',
+                 '2 o'clock' ,
+                 '7 o'clock' ,
+                 '8 o'clock' ,
+
+                 '11 o'clock' ,
+                 '4 o'clock' ,
+                 '5 o'clock' ,
+                 '10 o'clock',
+            ],
+    */
 
     const animated_blocks = [
         {
@@ -149,7 +169,7 @@ ServerEvents.recipes((event) => {
                 { item: 'industrialforegoing:pink_slime' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
-            duration: 5,
+            duration: 30,
             id: `${id_prefix}animate_${mob_id}`
         });
     });
@@ -197,13 +217,13 @@ ServerEvents.recipes((event) => {
                 `geneticsresequenced:organic_matter[geneticsresequenced:entity_type="${transmuted.entity}"]`
             ).toJson(),
             ingredients: [
-                { tag: 'c:gems/empowered_restonia' },
-                { item: 'minecraft:clay' },
+                { item: 'malum:imitation_heart' },
+                { item: 'malum:imitation_flesh' },
                 { item: 'naturesaura:calling_spirit' },
-                { item: 'minecraft:clay' }
+                { item: 'malum:imitation_flesh' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/transmute_${mob_id}`, count: 1 },
-            duration: 5,
+            duration: 30,
             id: `${id_prefix}transmute_${mob_id}`
         };
         if (transmuted.entity_to_sacrifice) recipe.entity_to_sacrifice = transmuted.entity_to_sacrifice;

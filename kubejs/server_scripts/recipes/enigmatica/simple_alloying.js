@@ -22,16 +22,27 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `bronze_ingot`
         },
-        // {
-        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
-        //     inputs: [
-        //         { tag: 'c:ingots/gold', count: 1 },
-        //         { tag: 'c:ingots/silver', count: 1 }
-        //     ],
-        //     tier: 1,
-        //     exclusions: [],
-        //     id_suffix: `electrum_ingot`
-        // },
+        {
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
+            inputs: [
+                { tag: 'c:ingots/gold', count: 1 },
+                { tag: 'c:ingots/silver', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `electrum_ingot`
+        },
+        {
+            output: { id: 'occultism:iesnium_ingot', count: 5 },
+            inputs: [
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:ingots/silver', count: 4 },
+                { tag: 'c:dusts/diamond', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `iesnium_ingot`
+        },
         // {
         //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/invar').getId(), count: 3 },
         //     inputs: [

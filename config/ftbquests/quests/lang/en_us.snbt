@@ -300,14 +300,6 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
-	quest.0A0739CDA16917B4.quest_desc: [
-		"By default, most monsters won’t provide a lot of Spirit. The rates can be improved by wearing certain equipment, obtaining a Geas, or enchanting your weapon. "
-		""
-		"All Geas come with downsides, some more detrimental than others, so choose them carefully. "
-		""
-		"A nice ring and an enchanted weapon, on the other hand, are never a bad option. "
-	]
-	quest.0A0739CDA16917B4.title: "Soul Shattering"
 	quest.0A0D539C1285F40F.quest_desc: [
 		"Getting started with Nature’s Aura will require using some Brilliant Fibers on leaves. "
 		""
@@ -1037,7 +1029,7 @@
 	quest.1C21EC957B97C70A.quest_desc: [
 		"An Advanced Clicker can be exceptionally useful for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
-		"Unlike a standard Clicker, it acts in a large area. "
+		"Unlike a Simple Clicker, it acts in a large area. "
 	]
 	quest.1C83B47F599B117A.quest_desc: [
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
@@ -1973,6 +1965,9 @@
 		"Gather some Spirits of Birthing by manually breeding animals in a high Aura environment. "
 		""
 		"Once you've animated your slimes, be sure to slay them with a Scythed to properly harvest the Spirits in them."
+		""
+		"&a🛈 Tip: Apply Spirit Plunder to your "
+		"&a    weapon for even more Spirits!"
 	]
 	quest.380D0C6385B6325C.quest_desc: [
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
@@ -3340,7 +3335,6 @@
 		"&6    required. It's simply a convenience "
 		"&6    for finding the recipe."
 	]
-	quest.520241157010066D.title: "220"
 	quest.5203EDBBACDBA86A.quest_desc: [
 		"Some tools and blocks will require energy to operate. Though they’ll work with any Forge Energy, the mod also includes a few generators to cover that need. "
 		""
@@ -4103,15 +4097,17 @@
 		""
 		"Refer to EMI for recipes, as usual. For the Strange Crystals, they'll form randomly when using Bone Meal on Blighted Earth.  "
 		""
-		"Refer to the Dictionary of Spirits for a guide on placement."
+		"Refer to the Dictionary of Spirits for a guide on placement. The Chalice may be replaced with a Golden or Iesnium Sacrificial Bowl if desired, though this will slow down the rituals."
 		""
 		"Feel free to recreate the pentacle elsewhere as desired if you need more room for automation."
 		""
-		"&nA Note on Automation&r"
+		"                 &nA Note on Automation&r"
 		""
 		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, worry not. "
 		""
-		"You may use any pipe or hopper to put items into each bowl, including the central chalice. The central item will only be inserted once a valid recipe is present and will start immediately without further interaction. "
+		"You may use any pipe or hopper to put items into each bowl, including the central chalice. "
+		""
+		"The central item will only be inserted once a valid recipe is present in the surrounding bowls and the ritual will start immediately without further interaction. "
 		""
 		"This means you can quite simply pipe the items into each bowl without any extra logic.  "
 		""

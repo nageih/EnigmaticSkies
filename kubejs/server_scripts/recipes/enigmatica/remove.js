@@ -308,6 +308,9 @@ ServerEvents.recipes((event) => {
         { id: 'occultism:spirit_fire/otherworld_ashes' },
         { id: /occultism:chalk.*_impure/ },
         { id: /occultism:spirit_fire\/chalk_/ },
+        { output: 'occultism:sacrificial_bowl' },
+        { output: 'occultism:dark_sacrificial_bowl' },
+        { input: 'occultism:raw_iesnium' },
 
         // Oritech
         { type: 'oritech:foundry' },

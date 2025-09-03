@@ -73,6 +73,11 @@ ServerEvents.recipes((event) => {
             output: { id: 'occultism:eldritch_chalice' },
             ingredient: { item: 'actuallyadditions:coffee_cup' },
             id: `${id_prefix}eldritch_chalice`
+        },
+        {
+            output: { id: AlmostUnified.getTagTargetItem(`c:ingots/silver`).getId() },
+            ingredient: { tag: 'c:ingots/gold' },
+            id: `${id_prefix}silver_ingot`
         }
     ];
 

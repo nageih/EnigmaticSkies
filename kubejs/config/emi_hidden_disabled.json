@@ -53,6 +53,9 @@
 
             "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
             "/occultism:chalk.*_impure/",
+            "occultism:raw_iesnium",
+            "occultism:iesnium_ore",
+            "occultism:iesnium_ore_natural",
 
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
             "oritech:pulverizer_block",

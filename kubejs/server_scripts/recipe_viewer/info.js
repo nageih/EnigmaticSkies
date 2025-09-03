@@ -146,6 +146,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ` `,
                 `Enables gentle-harvesting in the Plant Gatherer.`
             ]
+        },
+        {
+            filter: ['#malum:strange_materials'],
+            text: [`May appear when using Bone Meal on Blighted land.`]
         }
     ];
 

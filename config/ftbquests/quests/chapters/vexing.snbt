@@ -207,16 +207,29 @@
 		}
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
+			icon: {
+				id: "malum:crude_scythe"
+			}
 			id: "37ED5A328F30DD34"
-			rewards: [{
-				count: 16
-				id: "3C65F77760AD8430"
-				item: {
-					count: 1
-					id: "naturesaura:birth_spirit"
+			rewards: [
+				{
+					count: 16
+					id: "3C65F77760AD8430"
+					item: {
+						count: 1
+						id: "naturesaura:birth_spirit"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "65E65923DE3489A6"
+					item: {
+						count: 1
+						id: "malum:ring_of_esoteric_spoils"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7CDDB3E6855989E2"
@@ -376,45 +389,6 @@
 			]
 			x: 3.0d
 			y: 8.0d
-		}
-		{
-			dependencies: ["37ED5A328F30DD34"]
-			icon: {
-				id: "malum:ring_of_esoteric_spoils"
-			}
-			id: "0A0739CDA16917B4"
-			rewards: [
-				{
-					id: "61128E7BC8F311BE"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"malum:spirit_plunder": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					id: "2F04558C73C083A1"
-					item: {
-						count: 1
-						id: "malum:ring_of_esoteric_spoils"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0C520C0B4D1D18C1"
-				item: { count: 1, id: "malum:sacred_spirit" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.5d
 		}
 		{
 			dependencies: [
