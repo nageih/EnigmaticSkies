@@ -50,15 +50,6 @@ ServerEvents.recipes((event) => {
         {
             output: {
                 type: 'neoforge:components',
-                id: 'occultism:fragile_soul_gem',
-                components: { entity_data: { id: 'minecraft:witch' } }
-            },
-            ingredient: { item: 'supplementaries:statue' },
-            id: `${id_prefix}witch`
-        },
-        {
-            output: {
-                type: 'neoforge:components',
                 id: 'naturesaura:aura_bottle',
                 components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:end' } }
             },
