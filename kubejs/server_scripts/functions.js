@@ -151,3 +151,29 @@ function getSpiralCoordinates(x, y, z, revolutions, height, upper_radius, lower_
     }
     return coordinates;
 }
+
+function convertToBiome(event, biome, particle, radius) {
+    const { block, item, player, level, server } = event;
+    const dimension = String(level.getDimension());
+    if (!player.isCreative()) item.count--;
+    player.swing(event.hand, true);
+
+    let startPos = `${block.x + radius} ${block.y + radius / 2} ${block.z + radius}`;
+    let endPos = `${block.x - radius} ${block.y - radius / 2} ${block.z - radius}`;
+
+    let commands = [
+        `fillbiome ${startPos} ${endPos} ${biome}`,
+        `particle cold_sweat:ground_mist ${block.x} ${block.y + 1.5} ${block.z}`,
+        `particle ${particle} ${block.x} ${block.y + 1.25} ${block.z}`,
+        `playsound malum:hidden_blade_primed block @p ${block.x} ${block.y} ${block.z} 20 1`
+    ];
+
+    getCircleCoordinates(block.x, block.y, block.z, radius, 1).forEach((c) => {
+        commands.push(`particle cold_sweat:ground_mist ${c.x} ${c.y + 1.5} ${c.z}`);
+        commands.push(`particle ${particle} ${c.x} ${c.y + 1.25} ${c.z}`);
+    });
+
+    commands.forEach((command) => {
+        server.runCommandSilent(`/execute in ${dimension} run ${command}`);
+    });
+}

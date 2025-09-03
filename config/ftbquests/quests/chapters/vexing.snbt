@@ -593,5 +593,27 @@
 			x: 0.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["13F15094F3AF4A73"]
+			icon: {
+				id: "arsdelight:vexing_bark"
+			}
+			id: "18A17E8080792318"
+			shape: "gear"
+			tasks: [
+				{
+					id: "3C311AF4D53ED9A0"
+					item: { count: 1, id: "arsdelight:vexing_bark" }
+					type: "item"
+				}
+				{
+					id: "3ABD84117404D4C2"
+					item: { count: 1, id: "malum:twisted_rock" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
 	]
 }

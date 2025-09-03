@@ -169,5 +169,27 @@
 			x: 0.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			icon: {
+				id: "arsdelight:blazing_bark"
+			}
+			id: "31CAA3BC20CCDF25"
+			shape: "gear"
+			tasks: [
+				{
+					id: "1E9B682D3FC55F98"
+					item: { count: 1, id: "arsdelight:blazing_bark" }
+					type: "item"
+				}
+				{
+					id: "66A54DE872CEF13D"
+					item: { count: 1, id: "minecraft:polished_blackstone" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 }

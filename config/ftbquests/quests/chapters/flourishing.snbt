@@ -41,8 +41,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -213,6 +213,28 @@
 			}]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			icon: {
+				id: "arsdelight:flourishing_bark"
+			}
+			id: "4CC1CF537349C2D6"
+			shape: "gear"
+			tasks: [
+				{
+					id: "3A0C97C0F2B1823B"
+					item: { count: 1, id: "arsdelight:flourishing_bark" }
+					type: "item"
+				}
+				{
+					id: "5E67E2AE333D7F18"
+					item: { count: 1, id: "naturesaura:infused_stone" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
 		}
 	]
 }

@@ -948,6 +948,12 @@
 		"For now, hold the Mesh in one hand and the item to be sifted in the other, then hold your Right Mouse Button to sift!"
 	]
 	quest.1834C84EFA232977.title: "Cloud Seeding?"
+	quest.18A17E8080792318.quest_desc: [
+		"Need a little more room to work? Summoning another island is always an option. "
+		""
+		"Alternatively, you can Right-Click a &7Twisted Rock&r with &7Vexing Bark&r to convert a &n21x11x21&r area to this biome!"
+	]
+	quest.18A17E8080792318.title: "Biome Conversion"
 	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
 	quest.195BD5456B6E674D.quest_desc: [
 		"Iron’s Spellbooks adds several structures to the world which will undoubtedly prove very useful."
@@ -1806,6 +1812,11 @@
 		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
 		""
 		"A Burning GemStone can absorb that damage, instead causing you to lose some hunger. "
+	]
+	quest.31CAA3BC20CCDF25.quest_desc: [
+		"Need a little more room to work? Summoning another island is always an option. "
+		""
+		"Alternatively, you can Right-Click a &7Polished Blackstone&r with &7Blazing Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.31CACA407D4ADCA5.quest_desc: [
 		"FE Storage Cells allow you to turn your AE system into a power substation, providing not just recipe components to machines, but also the power to run them."
@@ -2990,6 +3001,11 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
+	quest.4A3B9586D14D5037.quest_desc: [
+		"Need a little more room to work? Summoning another island is always an option. "
+		""
+		"Alternatively, you can Right-Click a &7Prismarine Brick&r with &7Cascading Bark&r to convert a &n21x11x21&r area to this biome!"
+	]
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A80ADB324E4A6CA.quest_desc: [
 		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
@@ -3118,6 +3134,11 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.4CC1CF537349C2D6.quest_desc: [
+		"Need a little more room to work? Summoning another island is always an option. "
+		""
+		"Alternatively, you can Right-Click a &7Infused Rock&r with &7Flourishing Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.4CE65730937AB775.quest_desc: [
 		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."

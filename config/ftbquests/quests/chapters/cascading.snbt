@@ -194,5 +194,27 @@
 			x: 0.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			icon: {
+				id: "arsdelight:cascading_bark"
+			}
+			id: "4A3B9586D14D5037"
+			shape: "gear"
+			tasks: [
+				{
+					id: "31665AB9CA4B6163"
+					item: { count: 1, id: "arsdelight:cascading_bark" }
+					type: "item"
+				}
+				{
+					id: "56DB2279A11C93BC"
+					item: { count: 1, id: "minecraft:prismarine_bricks" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
 	]
 }
