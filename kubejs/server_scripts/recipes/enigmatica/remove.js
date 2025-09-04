@@ -239,6 +239,9 @@ ServerEvents.recipes((event) => {
         { id: /justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/ },
         { id: /justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/ },
 
+        // LaserIO
+        // { output: 'laserio:card_energy' },
+
         // Malum
         { id: /malum:create\/washing\/.*_node/ },
         { id: /malum:create\/washing\/crushed_.*/ },

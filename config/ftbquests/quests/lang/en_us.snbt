@@ -9,7 +9,6 @@
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
-	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.24DC8C08564BB550.title: "Actually Additions"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
@@ -2759,7 +2758,6 @@
 	quest.45035128A978E189.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.45035128A978E189.title: "Sevira's Permanent Confinement"
 	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
-	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
 	quest.4537806144939A6B.quest_desc: [
 		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
 		""
@@ -5061,7 +5059,6 @@
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
-	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
 		""

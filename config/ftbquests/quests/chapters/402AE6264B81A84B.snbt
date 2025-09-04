@@ -81,28 +81,6 @@
 		}
 		{
 			dependencies: ["235D7EF41916E480"]
-			id: "45121907B7F8DFD1"
-			rewards: [{
-				id: "60AA6C3ADF129D25"
-				item: {
-					components: {
-						"ftbquests:missing_item": "powah:energy_cell_starter"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "40F7F5B9E57315CB"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_cable_starter)item(powah:energy_cable_basic)item(powah:energy_cable_hardened)item(powah:energy_cable_blazing)item(powah:energy_cable_niotic)item(powah:energy_cable_spirited)item(powah:energy_cable_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["235D7EF41916E480"]
 			id: "0D32F25CCBC9B192"
 			tasks: [{
 				id: "35B971D8A6CCBC94"
@@ -282,28 +260,6 @@
 			}]
 			x: 4.5d
 			y: -1.5d
-		}
-		{
-			dependencies: [
-				"235D7EF41916E480"
-				"16BFB19411FE195F"
-			]
-			id: "7C71090829F8748A"
-			rewards: [{
-				id: "0BDFEB89C35F8E7F"
-				item: {
-					count: 1
-					id: "laserio:laser_node"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4E6034D3238EE6F0"
-				item: { count: 1, id: "laserio:card_energy" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["752888EAF2861EB4"]
