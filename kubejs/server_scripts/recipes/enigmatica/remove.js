@@ -136,6 +136,8 @@ ServerEvents.recipes((event) => {
         { type: 'enderio:fire_crafting' },
         { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
+        { output: 'enderio:soul_engine' },
+        { output: /enderio:.*photovoltaic_module/ },
         { output: /enderio:.*capacitor_bank/ },
         { id: /enderio:.*energy_conduit/ },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
@@ -154,6 +156,9 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },
+        { id: 'enderio:soulbinding/soul_engine' },
+        { id: 'enderio:soulbinding/powered_spawner' },
+        { id: /enderio:soulbinding\/.*photovoltaic_module/ },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },

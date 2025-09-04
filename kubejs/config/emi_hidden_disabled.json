@@ -15,10 +15,12 @@
             "createsifter:raw_uranium_piece",
 
             "enderio:stirling_generator",
+            "enderio:soul_engine",
             "enderio:conduit[enderio:conduit=\"enderio:ender_energy\"]",
             "enderio:conduit[enderio:conduit=\"enderio:enhanced_energy\"]",
             "enderio:conduit[enderio:conduit=\"enderio:energy\"]",
             "/enderio:.*capacitor_bank/",
+            "/enderio:.*photovoltaic_module/",
 
             "framedblocks:phantom_paste",
 
