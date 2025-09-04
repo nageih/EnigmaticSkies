@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 { tag: 'c:ingots/sky', count: 2 },
                 { item: 'minecraft:netherite_scrap', count: 1 },
-                { tag: 'c:ingots/tainted_gold', count: 2 }
+                { tag: 'c:ingots/hallowed_gold', count: 2 }
             ],
             tier: 2,
             exclusions: [],
@@ -180,7 +180,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
                 { item: 'oritech:wither_crop_block', count: 13 },
-                { tag: 'c:ingots/tainted_gold', count: 1 }
+                { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
             tier: 1,
             exclusions: ['create'],

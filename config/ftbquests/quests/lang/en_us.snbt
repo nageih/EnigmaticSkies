@@ -759,10 +759,18 @@
 		"&a    hatches."
 	]
 	quest.13F15094F3AF4A73.quest_desc: [
-		"Biome: Mushroom Fields"
+		"&6&nBiome: Mushroom Fields&r&r"
 		""
-		"Notables"
-		"Malum Island used to start mob summoning"
+		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
+		""
+		"  • &7Dirt&r                 &2⟶&r      &7Blighted Earth&r"
+		"  • &7Grass Block&r      &2⟶&r      &7Blighted Earth&r"
+		"  • &7Cobblestone&r      &2⟶&r      &7Tainted Rock&r"
+		"  • &7Stone&r              &2⟶&r      &7Smooth Tainted Rock&r"
+		"  • &7Sand&r               &2⟶&r      &7Cold Aercloud&r"
+		"  • &7Sandstone&r        &2⟶&r      &7Quicksoil&r"
+		"  • &7C. Deepslate&r      &2⟶&r      &7Twisted Rock&r"
+		"  • &7Deepslate&r         &2⟶&r      &7Smooth Twisted Rock&r"
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
@@ -951,7 +959,7 @@
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Twisted Rock&r with &7Vexing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, you can Right-Click a &7Tainted Rock&r with &7Vexing Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.18A17E8080792318.title: "Biome Conversion"
 	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
@@ -1816,7 +1824,7 @@
 	quest.31CAA3BC20CCDF25.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Polished Blackstone&r with &7Blazing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, you can Right-Click a &7Blackstone&r with &7Blazing Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.31CACA407D4ADCA5.quest_desc: [
 		"FE Storage Cells allow you to turn your AE system into a power substation, providing not just recipe components to machines, but also the power to run them."
@@ -3004,7 +3012,7 @@
 	quest.4A3B9586D14D5037.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Prismarine Brick&r with &7Cascading Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, you can Right-Click a &7Clay Block&r with &7Cascading Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A80ADB324E4A6CA.quest_desc: [
@@ -3138,7 +3146,7 @@
 	quest.4CC1CF537349C2D6.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Infused Rock&r with &7Flourishing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, you can Right-Click a &7Tuff Block&r with &7Flourishing Bark&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.4CE65730937AB775.quest_desc: [
 		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."
@@ -4033,14 +4041,18 @@
 		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
 	]
 	quest.6490781066FAE8CF.quest_desc: [
-		"Biome: Mangrove Swamp"
+		"&6&nBiome: Mangrove Swamp&r&r"
 		""
-		"  • &7Cobbled&r"
-		"   &7Deepslate&r      &2⟶&r    &7Aerogel&r"
-		"  • &7Cobblestone&r    &2⟶&r    &7Tuff&r"
-		"  • &7Dirt&r               &2⟶&r    &7Mud&r"
-		"  • &7Sand&r             &2⟶&r    &7Cold Aercloud&r"
-		"  • &7Sandstone&r      &2⟶&r    &7Quicksoil&r"
+		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
+		""
+		"  • &7Dirt&r                 &2⟶&r      &7Mud&r"
+		"  • &7Grass Block&r      &2⟶&r      &7Mud&r"
+		"  • &7Cobblestone&r      &2⟶&r      &7Tuff&r"
+		"  • &7Stone&r              &2⟶&r      &7Infused Rock&r"
+		"  • &7Sand&r               &2⟶&r      &7Cold Aercloud&r"
+		"  • &7Sandstone&r        &2⟶&r      &7Quicksoil&r"
+		"  • &7C. Deepslate&r      &2⟶&r      &7Aerogel&r"
+		"  • &7Deepslate&r         &2⟶&r      &7Aerogel&r"
 	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
@@ -4866,19 +4878,32 @@
 		"&a    and smelt it for a better yield!"
 	]
 	quest.78626EE046E48EF3.quest_desc: [
-		"Biome"
-		"Archwood Forest"
+		"&6&nBiome: Archwood Forest&r&r"
 		""
-		"Notables"
-		"Lava"
+		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
+		""
+		"  • &7Dirt&r                 &2⟶&r      &7Aether Dirt&r"
+		"  • &7Grass Block&r      &2⟶&r      &7Aether Grass Block&r"
+		"  • &7Cobblestone&r      &2⟶&r      &7Blackstone&r"
+		"  • &7Stone&r              &2⟶&r      &7Polished Blackstone&r"
+		"  • &7Sand&r               &2⟶&r      &7Gold Aercloud&r"
+		"  • &7Sandstone&r        &2⟶&r      &7Quicksoil&r"
+		"  • &7C. Deepslate&r      &2⟶&r      &7Basalt&r"
+		"  • &7Deepslate&r         &2⟶&r      &7Smooth Basalt&r"
 	]
 	quest.7893072479F01DC2.quest_desc: [
-		"Biome: Warm Ocean"
+		"&6&nBiome: Warm Ocean&r&r"
 		""
-		"  • &7Cobbled&r"
-		"   &7Deepslate&r      &2⟶&r    &7Salt&r"
-		"  • &7Cobblestone&r    &2⟶&r    &7Prismarine&r"
-		"  • &7Dirt&r               &2⟶&r    &7Aether Dirt&r"
+		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
+		""
+		"  • &7Dirt&r                 &2⟶&r      &7Aether Dirt&r"
+		"  • &7Grass Block&r      &2⟶&r      &7Aether Grass Block&r"
+		"  • &7Cobblestone&r      &2⟶&r      &7Clay&r"
+		"  • &7Stone&r              &2⟶&r      &7Terracotta&r"
+		"  • &7Sand&r               &2⟶&r      &7Sand&r"
+		"  • &7Sandstone&r        &2⟶&r      &7Sandstone&r"
+		"  • &7C. Deepslate&r      &2⟶&r      &7Salt&r"
+		"  • &7Deepslate&r         &2⟶&r      &7Salt&r"
 	]
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "
@@ -5253,6 +5278,7 @@
 	task.6985D977D46566CD.title: "Any Machine Core"
 	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
+	task.6BDBF20359D5E6B2.title: "Advanced Create"
 	task.6D1A048396918DF0.title: "Fluids"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"

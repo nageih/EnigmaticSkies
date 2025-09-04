@@ -58,16 +58,16 @@ ServerEvents.recipes((event) => {
             output: {
                 id: `industrialforegoing:range_addon_tier_${i}`,
                 components: { 'titanium:augments': { Range: i } },
-                count: 1
+                count: 2
             },
             input: [
                 { item: 'actuallyadditions:restonia_crystal' },
-                { item: 'actuallyadditions:restonia_crystal' },
+                { item: 'prettypipes:blank_module' },
                 { item: `minecraft:${color}_wool` },
                 { item: 'actuallyadditions:basic_coil' },
                 { item: 'actuallyadditions:basic_coil' },
                 { item: `minecraft:${color}_wool` },
-                { item: 'actuallyadditions:palis_crystal' },
+                { item: 'prettypipes:blank_module' },
                 { item: 'actuallyadditions:palis_crystal' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },

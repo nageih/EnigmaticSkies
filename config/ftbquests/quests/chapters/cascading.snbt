@@ -13,6 +13,7 @@
 		{
 			dependencies: ["5226F1BC0A1B23D0"]
 			id: "7893072479F01DC2"
+			min_width: 250
 			tasks: [{
 				id: "758EA454F1E9A0E3"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
@@ -125,8 +126,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E2295CDDF92E34F"]
@@ -215,6 +216,39 @@
 			]
 			x: 3.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["198DB60553177E72"]
+			id: "5E727F7B600E0E91"
+			tasks: [{
+				id: "22F25CA36A232063"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47AA9C8E6BA854D9"]
+			id: "088EB8F173558973"
+			tasks: [{
+				id: "7DEB510F2F607AF7"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			id: "47AA9C8E6BA854D9"
+			tasks: [{
+				id: "09F33C3336285AE7"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

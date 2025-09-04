@@ -13,6 +13,7 @@
 		{
 			dependencies: ["008F3C0FB9F4B451"]
 			id: "78626EE046E48EF3"
+			min_width: 250
 			tasks: [{
 				id: "2EE92F0404F62B4C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
@@ -115,8 +116,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			id: "08DF4DF1B5FEAF10"
@@ -125,7 +126,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			id: "6E2B56F277B80477"
@@ -133,8 +134,8 @@
 				id: "545F39B6325986CA"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["05B678EEBCC0CDE6"]
@@ -190,6 +191,17 @@
 			]
 			x: -1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["05B678EEBCC0CDE6"]
+			id: "07FFBD39930CE9F7"
+			tasks: [{
+				id: "7986D8EC49A44922"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 }

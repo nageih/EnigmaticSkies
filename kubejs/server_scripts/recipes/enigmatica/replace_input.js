@@ -124,7 +124,7 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/copper'])
         },
         {
-            filter: [{ output: `utilitarian:fluid_hopper` }],
+            filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
@@ -207,13 +207,43 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/gold',
+            to_replace: '#c:gears/diamond',
             replace_with: Ingredient.of(['#c:gears/bronze'])
         },
         {
             filter: {},
             to_replace: `industrialforegoing:machine_frame_pity`,
             replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_axe`,
+            replace_with: 'aether:holystone_axe'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_shovel`,
+            replace_with: 'aether:holystone_shovel'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_hoe`,
+            replace_with: 'aether:holystone_hoe'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_sword`,
+            replace_with: 'aether:holystone_sword'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_pickaxe`,
+            replace_with: 'aether:holystone_pickaxe'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:ender_pearl`,
+            replace_with: '#c:gems/pulsating_crystal'
         },
         {
             filter: [{ mod: 'oritech' }],
@@ -274,6 +304,36 @@ ServerEvents.recipes((event) => {
             filter: [{ id: /justdirethings:.*t(1|2)$/ }],
             to_replace: `#c:gems/lapis`,
             replace_with: 'ars_technica:calibrated_precision_mechanism'
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `#c:ingots/tainted_gold`,
+            replace_with: `#c:ingots/hallowed_gold`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `#c:storage_blocks/tainted_gold`,
+            replace_with: `#c:storage_blocks/hallowed_gold`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_fear`,
+            replace_with: `#c:essences/earth`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_joy`,
+            replace_with: `#c:essences/air`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_sorrow`,
+            replace_with: `#c:essences/water`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_anger`,
+            replace_with: `#c:essences/fire`
         }
     ];
 

@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#enigmatica:planks',
                 B: 'farmersdelight:canvas',
-                C: '#minecraft:logs_that_burn'
+                C: '#c:gears/stone'
             },
             id: `${id_prefix}wood_casing`
         },
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/iron',
                 B: 'create:electron_tube',
-                C: '#c:gears/iron'
+                C: '#c:gears/copper'
             },
             id: `${id_prefix}iron_casing`
         },

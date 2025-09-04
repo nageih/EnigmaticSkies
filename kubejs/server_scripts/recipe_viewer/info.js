@@ -150,6 +150,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['#malum:strange_materials'],
             text: [`May appear when using Bone Meal on Blighted land.`]
+        },
+        {
+            filter: ['#industrialforegoing:sludge'],
+            text: [`May be produced in a Sludge Refiner. Sludge is a by-product of the Plant Gatherer.`]
         }
     ];
 

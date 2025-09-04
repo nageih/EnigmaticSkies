@@ -13,6 +13,7 @@
 		{
 			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
+			min_width: 250
 			tasks: [{
 				id: "58E41A8D61ED694C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
@@ -25,11 +26,6 @@
 			dependencies: ["5AFB064A80189AA4"]
 			id: "605A60825B68C2D7"
 			tasks: [
-				{
-					id: "69E93F15E11DC562"
-					item: { count: 1, id: "actuallyadditions:feeder" }
-					type: "item"
-				}
 				{
 					id: "36FFDB989168EE23"
 					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
@@ -144,6 +140,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "388B5ED3AB3DEC82"
 			tasks: [{
 				id: "3344B81CFADAC8FB"
@@ -158,8 +155,8 @@
 				id: "3829B9508E55605E"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["169D412B565F97C4"]
@@ -173,27 +170,31 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["62ABC26128284A71"]
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "4F2E18DABA17E0AC"
 			tasks: [{
 				id: "6E26DAA418B8367F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "659EDDA906968875"
 			tasks: [{
 				id: "18527FE87BB2DCD9"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["62ABC26128284A71"]
+			dependencies: [
+				"62ABC26128284A71"
+				"198DB60553177E72"
+			]
 			id: "3BCD9E36D48B205A"
 			tasks: [{
 				id: "128597849E5D0BC1"
@@ -211,8 +212,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -235,6 +236,27 @@
 			]
 			x: 3.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["4F2E18DABA17E0AC"]
+			id: "016B7CA4A7FC58A1"
+			tasks: [{
+				id: "79CD23399878FC63"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["016B7CA4A7FC58A1"]
+			id: "541CBBDB6401802C"
+			tasks: [{
+				id: "6BDBF20359D5E6B2"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 }

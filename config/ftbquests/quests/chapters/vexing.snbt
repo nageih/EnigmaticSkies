@@ -13,6 +13,7 @@
 		{
 			dependencies: ["0B7FC57C9436274B"]
 			id: "13F15094F3AF4A73"
+			min_width: 250
 			tasks: [{
 				id: "57A0F394D3AF0E62"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }

@@ -1,6 +1,6 @@
 {
     "items": {
-        "hidden": [],
+        "hidden": ["/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/"],
         "disabled": [
             "actuallyadditions:rice",
             "actuallyadditions:rice_seeds",
@@ -28,6 +28,7 @@
             "industrialforegoing:ore_laser_base",
             "industrialforegoing:mechanical_dirt",
             "industrialforegoing:latex_processing_unit",
+            "industrialforegoing:resourceful_furnace",
 
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
@@ -49,9 +50,12 @@
             "naturesaura:spawn_lamp",
             "naturesaura:chunk_loader",
             "naturesaura:oak_generator",
+            "naturesaura:auto_crafter",
+            "naturesaura:tainted_gold_block",
+            "naturesaura:tainted_gold",
             "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:ore_spawn\"}]",
+            "naturesaura:effect_powder[naturesaura:effect_powder_data={effect:\"naturesaura:nether_grass\"}]",
 
-            "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
             "/occultism:chalk.*_impure/",
             "occultism:raw_iesnium",
             "occultism:iesnium_ore",

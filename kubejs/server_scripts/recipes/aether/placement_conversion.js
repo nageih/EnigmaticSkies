@@ -26,59 +26,58 @@ ServerEvents.recipes((event) => {
     const terrain_blocks = {
         // Default
         '#aether:ultracold': [
-            { in: 'minecraft:cobblestone', out: 'aether:icestone' },
-            { in: 'minecraft:stone', out: 'aether:holystone' },
-            { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
-            { in: 'minecraft:deepslate', out: 'aether:aerogel' },
-            { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
-            { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
+            { in: 'minecraft:cobblestone', out: 'aether:icestone' },
+            { in: 'minecraft:stone', out: 'aether:holystone' },
+            { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
+            { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
+            { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
+            { in: 'minecraft:deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:magma_block', out: 'minecraft:netherrack' }
         ],
         // Flourishing
         'minecraft:mangrove_swamp': [
+            { in: 'minecraft:dirt', out: 'minecraft:mud' },
+            { in: 'minecraft:grass_block', out: 'minecraft:mud' },
             { in: 'minecraft:cobblestone', out: 'minecraft:tuff' },
             { in: 'minecraft:stone', out: 'naturesaura:infused_stone' },
-            { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
-            { in: 'minecraft:deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
-            { in: 'minecraft:dirt', out: 'minecraft:mud' },
-            { in: 'minecraft:grass_block', out: 'minecraft:mud' }
+            { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
+            { in: 'minecraft:deepslate', out: 'aether:aerogel' }
+        ], // Cascading
+        'minecraft:warm_ocean': [
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
+            { in: 'minecraft:cobblestone', out: 'minecraft:clay' },
+            { in: 'minecraft:stone', out: 'minecraft:terracotta' },
+            // { in: 'minecraft:sand', out: 'createsifter:dust' },
+            // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
+            { in: 'minecraft:cobbled_deepslate', out: 'modern_industrialization:salt_block' },
+            { in: 'minecraft:deepslate', out: 'modern_industrialization:salt_block' }
         ],
         // Blazing
         'ars_nouveau:archwood_forest': [
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
             { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
             { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
-            { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
-            { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' },
             { in: 'minecraft:sand', out: 'aether:golden_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
-            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
-        ],
-        // Cascading
-        'minecraft:warm_ocean': [
-            { in: 'minecraft:cobblestone', out: 'minecraft:prismarine' },
-            { in: 'minecraft:stone', out: 'minecraft:prismarine_bricks' },
-            { in: 'minecraft:cobbled_deepslate', out: 'modern_industrialization:salt_block' },
-            { in: 'minecraft:deepslate', out: 'modern_industrialization:salt_block' },
-            // { in: 'minecraft:sand', out: 'createsifter:dust' },
-            // { in: 'minecraft:sandstone', out: 'createsifter:dust' },
-            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
-            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' }
+            { in: 'minecraft:cobbled_deepslate', out: 'minecraft:basalt' },
+            { in: 'minecraft:deepslate', out: 'minecraft:smooth_basalt' }
         ],
         // Vexing
         'minecraft:mushroom_fields': [
+            { in: 'minecraft:dirt', out: 'malum:blighted_earth' },
+            { in: 'minecraft:grass_block', out: 'malum:blighted_earth' },
             { in: 'minecraft:cobblestone', out: 'malum:tainted_rock' },
-            { in: 'minecraft:stone', out: 'malum:twisted_rock' },
-            { in: 'minecraft:cobbled_deepslate', out: 'malum:scarstone' },
-            { in: 'minecraft:deepslate', out: 'malum:scarstone' },
+            { in: 'minecraft:stone', out: 'malum:smooth_tainted_rock' },
             { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
-            { in: 'minecraft:dirt', out: 'malum:blighted_earth' },
-            { in: 'minecraft:grass_block', out: 'malum:blighted_earth' }
+            { in: 'minecraft:cobbled_deepslate', out: 'malum:twisted_rock' },
+            { in: 'minecraft:deepslate', out: 'malum:smooth_twisted_rock' }
         ]
     };
 

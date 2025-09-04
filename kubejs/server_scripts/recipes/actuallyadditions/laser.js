@@ -79,6 +79,12 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'malum:aerial_spirited_glass' },
             energy: 5000,
             id: `${id_prefix}ethetic_white_block`
+        },
+        {
+            result: { id: 'minecraft:sea_lantern' },
+            ingredient: { item: 'ae2:quartz_block' },
+            energy: 5000,
+            id: `${id_prefix}sea_lantern`
         }
     ];
 

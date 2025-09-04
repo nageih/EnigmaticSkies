@@ -53,11 +53,6 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:crops/rice' },
             output: [{ stack: { id: 'minecraft:sugar', count: 2 }, chance: 1.0, maxRange: 1 }],
             id: `${id_prefix}sugar_from_rice`
-        },
-        {
-            input: { item: 'minecraft:prismarine' },
-            output: [{ stack: { id: 'minecraft:prismarine_shard', count: 4 }, chance: 1.0, maxRange: 1 }],
-            id: `${id_prefix}prismarine_shard_from_prismarine`
         }
     ];
 

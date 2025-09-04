@@ -55,6 +55,28 @@ ServerEvents.recipes((event) => {
             aura: 7500,
             time: 2,
             id: `${id_prefix}nether_wart`
+        },
+        {
+            output: { id: 'malum:hallowed_gold_ingot' },
+            input: { tag: 'c:ingots/gold' },
+            aura: 3000,
+            time: 15,
+            id: `${id_prefix}hallowed_gold_ingot`
+        },
+        {
+            output: { id: 'malum:block_of_hallowed_gold' },
+            input: { tag: 'c:storage_blocks/gold' },
+            aura: 27000,
+            time: 120,
+            id: `${id_prefix}block_of_hallowed_gold`
+        },
+        {
+            output: { id: 'minecraft:sea_lantern' },
+            input: { item: 'ae2:quartz_block' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 4500,
+            time: 6,
+            id: `${id_prefix}sea_lantern`
         }
     ];
 

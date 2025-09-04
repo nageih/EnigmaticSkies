@@ -351,6 +351,14 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 12, max: 16 } }],
             level: 5
         }
+    ],
+    // Grindstone
+    'minecraft:weaponsmith': [
+        {
+            result: { id: 'naturesaura:break_prevention', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 2 } }],
+            level: 1
+        }
     ]
 };
 
