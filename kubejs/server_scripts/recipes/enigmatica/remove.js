@@ -136,6 +136,7 @@ ServerEvents.recipes((event) => {
         { type: 'enderio:fire_crafting' },
         { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
+        { output: /enderio:.*capacitor_bank/ },
         { id: /enderio:.*energy_conduit/ },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
