@@ -9,19 +9,21 @@ ServerEvents.recipes((event) => {
         // }
 
         // Actually Additions
-        { output: 'actuallyadditions:rice_slimeball' },
         { type: 'actuallyadditions:mining_lens' },
         { type: 'actuallyadditions:pressing' },
         { type: 'actuallyadditions:crushing' },
         { type: 'actuallyadditions:empowering' },
+        { output: 'actuallyadditions:coal_generator' },
+        { output: 'actuallyadditions:rice_slimeball' },
+        { output: 'actuallyadditions:oil_generator' },
+        { output: `actuallyadditions:bio_reactor` },
+        { output: 'actuallyadditions:leaf_generator' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: 'actuallyadditions:lens_of_the_killer' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
         { id: /actuallyadditions:crushing\/.*_ore$/ },
         { id: /actuallyadditions:laser\/crystalize_(diamatine|emeradic|enori|palis|restonia|void)/ },
         { id: 'actuallyadditions:crushing/block_coal' },
-        { id: 'actuallyadditions:coal_generator' },
-        { id: 'actuallyadditions:oil_generator' },
         { id: 'actuallyadditions:basic_coil' },
         { id: 'actuallyadditions:vertical_digger' },
         { id: 'actuallyadditions:laser/nether_wart' },
@@ -233,6 +235,7 @@ ServerEvents.recipes((event) => {
         { id: 'industrialforegoing:dissolution_chamber/simple_machine_frame' },
         { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
+        { id: 'industrialforegoing:laser_drill_fluid/oil' },
 
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
@@ -305,6 +308,7 @@ ServerEvents.recipes((event) => {
         { output: /modern_industrialization:(lv|mv)_steam_turbine/ },
         { output: /modern_industrialization:(tin|silver|electrum)_cable/ },
         { output: /modern_industrialization:(copper|cupronickel)_cable/ },
+        { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
         { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
         { id: 'modern_industrialization:steam_age/steel/machine_casing_asbl' },
         { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
@@ -315,6 +319,7 @@ ServerEvents.recipes((event) => {
         { id: /modern_industrialization:steam_age\/(fluid|item)_pipe_asbl/ },
         { id: /modern_industrialization:assembler_generated\/steam_age\/(fluid|item)_pipe/ },
         { id: /modern_industrialization:compat\/ae2\/(electrolyzer|mixer)/ },
+        { id: /modern_industrialization:materials\/mixer\/lubricant/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -404,6 +409,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:centrifuge/fluid/naptharesin' },
         { id: 'oritech:centrifuge/fluid/siliconwashbad' },
         { id: 'oritech:centrifuge/fluid/siliconwash' },
+        { id: 'oritech:centrifuge/fluid/polymerresin' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
         { id: /oritech:refinery\/rawsheol\/(platinum|zinc|nickel)/ },
@@ -421,10 +427,16 @@ ServerEvents.recipes((event) => {
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
+        { type: 'pneumaticcraft:refinery' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: 'pneumaticcraft:crop_support' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
-        { id: /pneumaticcraft:thermo_plant\/vegetable_oil/ },
+        { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
+        { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
+        { id: /pneumaticcraft:thermo_plant\/(plastic|lubricant)/ },
+        { id: /pneumaticcraft:thermo_plant\/(gasoline|kerosene|lpg)/ },
+        { id: /pneumaticcraft:thermo_plant\/.*drill_bit/ },
+        { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
 
         // PrettyPipes and Addons
         { output: 'prettypipes:pipe' },

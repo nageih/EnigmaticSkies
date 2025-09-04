@@ -13,30 +13,30 @@ ServerEvents.recipes((event) => {
             time: 120,
             id: `${id_prefix}diesel_from_oil`
         },
-        {
-            results: [],
-            fluidOutputs: [
-                { fluid: 'modern_industrialization:heavy_fuel', amount: 500 },
-                { fluid: 'modern_industrialization:naphtha', amount: 250 },
-                { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
-            ],
-            ingredients: [],
-            fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
-            time: 80,
-            id: `${id_prefix}heavy_fuel_from_oil`
-        },
-        {
-            results: [],
-            fluidOutputs: [
-                { fluid: 'modern_industrialization:diesel', amount: 1000 },
-                { fluid: 'modern_industrialization:naphtha', amount: 250 },
-                { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
-            ],
-            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
-            fluidInput: { fluid: 'modern_industrialization:heavy_fuel', amount: 1000 },
-            time: 80,
-            id: `${id_prefix}diesel_from_heavy_fuel`
-        },
+        // {
+        //     results: [],
+        //     fluidOutputs: [
+        //         { fluid: 'modern_industrialization:heavy_fuel', amount: 500 },
+        //         { fluid: 'modern_industrialization:naphtha', amount: 250 },
+        //         { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
+        //     ],
+        //     ingredients: [],
+        //     fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
+        //     time: 80,
+        //     id: `${id_prefix}heavy_fuel_from_oil`
+        // },
+        // {
+        //     results: [],
+        //     fluidOutputs: [
+        //         { fluid: 'modern_industrialization:diesel', amount: 1000 },
+        //         { fluid: 'modern_industrialization:naphtha', amount: 250 },
+        //         { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
+        //     ],
+        //     ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
+        //     fluidInput: { fluid: 'modern_industrialization:heavy_fuel', amount: 1000 },
+        //     time: 80,
+        //     id: `${id_prefix}diesel_from_heavy_fuel`
+        // },
 
         {
             results: [],

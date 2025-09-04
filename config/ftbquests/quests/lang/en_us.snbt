@@ -1235,7 +1235,6 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
-	quest.20A3EA274A706343.quest_desc: ["A simple liquid fuel burning generator capable of burning a variety of fuels! Feel free to use most anything you have on hand!"]
 	quest.20C038E5D70CDB52.quest_desc: [
 		"The Wixie Cauldron allows a Wixie to craft either Potions or 3x3 Crafting recipes using Source."
 		""
@@ -1359,20 +1358,6 @@
 		"&a    for hatches."
 	]
 	quest.247C63F94533E40D.title: "Djinni Crusher"
-	quest.24A4BA42A83A20D0.quest_desc: [
-		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
-		""
-		"You’re going to need some power to proceed, however."
-		""
-		"Ender IO uses FE like many other tech mods, but it is rebranded as Micro Infinity or µI. They are completely interchangeable. "
-		""
-		"For an option from Ender IO, consider making a Stirling Generator, which runs on coal. "
-		""
-		"It’s not terribly powerful, but it will get the job done for now. "
-		""
-		"&6⚠ Note: Machines require a Capacitor "
-		"&6    to store energy and operate."
-	]
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
 		""
@@ -1735,7 +1720,6 @@
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F1EA0B091C700E1.quest_desc: [""]
 	quest.2F1EA0B091C700E1.title: "Fisherman"
-	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F2C14F36F96AD35.quest_desc: [
 		"Mendosteen Pods may be propagated by planting them on Flourishing Archwood. "
 		""
@@ -2494,12 +2478,6 @@
 		"They need power, of course, but still accept enchants making them a great early alternative to an Axe, Shovel, and Pickaxe. "
 	]
 	quest.3FF8D40CD4CB33BB.title: "Power Tools"
-	quest.3FFF6EF85443852C.quest_desc: [
-		"You’ll need a little power to operate your machines! "
-		""
-		"OriTech uses the standard FE energy produced by many tech mods, so feel free to create your power wherever you like. Or use the beautifully animated options provided by the mod itself!"
-	]
-	quest.3FFF6EF85443852C.title: "Power Generation"
 	quest.4068ABB6B3C24FEC.quest_desc: [
 		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
 		""
@@ -3408,16 +3386,6 @@
 		"&6    required. It's simply a convenience "
 		"&6    for finding the recipe."
 	]
-	quest.5203EDBBACDBA86A.quest_desc: [
-		"Some tools and blocks will require energy to operate. Though they’ll work with any Forge Energy, the mod also includes a few generators to cover that need. "
-		""
-		"The Coal Generator burns any furnace fuel, though it works best with the coals from the mod as they’re very energy dense. Higher tiers of coals not only are worth more energy, but produce more per second."
-		""
-		"Similarly, the Fuel Generator burns the mods' own fuels, which tend to be better than burning the coals they’re made from; producing more energy and faster than their solid counterparts."
-		""
-		""
-		"&a🛈 Tip: The Generators automatically power adjacent blocks."
-	]
 	quest.526BF0840C65855F.quest_desc: [
 		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
 		""
@@ -3799,13 +3767,6 @@
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
-	quest.5E84329A59955F29.quest_desc: [
-		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
-		""
-		"Oil Generator burns Canola Oil and the various other oils included in the mod."
-		""
-		"Obtaining Canola Oil will require a small amount of power first to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
-	]
 	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
@@ -4068,13 +4029,6 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
-	quest.6442A8E130C09FA2.quest_desc: [
-		"The Bioreactor is used to produce Biofuel, a potent fluid fuel which will easily replace your Pitiful Generator. "
-		""
-		"The device requires power, water, and biological materials such as crops to operate. "
-		""
-		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
-	]
 	quest.6490781066FAE8CF.quest_desc: [
 		"&6&nBiome: Mangrove Swamp&r&r"
 		""
@@ -4117,7 +4071,6 @@
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
 	]
-	quest.659EDDA906968875.quest_desc: ["simple passive farming"]
 	quest.65FDD18E441E2E6E.quest_desc: [
 		"An animate Book, Bookwyrms are part of a complete storage system built into Ars Nouveau. "
 		""
@@ -4382,11 +4335,6 @@
 		"&6⚠ Note: All recipe items are consumed "
 		"&6    during the craft. "
 	]
-	quest.6B0AC626ED56983E.quest_desc: [
-		"The Pitiful Generator, as the name implies, is not that great. "
-		""
-		"It burns Furnace fuels to output a trickle of energy. It’ll get you started; however Industrial Foregoing uses standard FE power and can therefore accept energy from any compatible generator."
-	]
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
@@ -4466,7 +4414,6 @@
 		"[\"\",{ \"text\": \"Incubate\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" those Sulfurs to produce useful ingots from them.\"]"
 	]
 	quest.6D68D3A5BD549EA3.title: "Reformation and Incubation"
-	quest.6D85BCC665287D6F.quest_desc: ["and other Sushigo materials"]
 	quest.6D9008779F35E755.quest_desc: [
 		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
 		""
@@ -5078,11 +5025,6 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
-	quest.7F2F9BE0C99BCFB7.quest_desc: [
-		"Biofuel Generators efficiently burn Biofuel for respectable power output. "
-		""
-		"A few of these should keep your machines running without issue. "
-	]
 	quest.7F445C22C528AC1F.quest_desc: [
 		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
 		""

@@ -158,19 +158,8 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
-			id: "659EDDA906968875"
-			tasks: [{
-				id: "18527FE87BB2DCD9"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
 			dependencies: [
 				"62ABC26128284A71"
-				"198DB60553177E72"
 				"2D190518ABA42A1F"
 			]
 			id: "3BCD9E36D48B205A"
@@ -214,27 +203,6 @@
 			]
 			x: 5.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["4F2E18DABA17E0AC"]
-			id: "016B7CA4A7FC58A1"
-			tasks: [{
-				id: "79CD23399878FC63"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["016B7CA4A7FC58A1"]
-			id: "541CBBDB6401802C"
-			tasks: [{
-				id: "6BDBF20359D5E6B2"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -359,6 +327,39 @@
 			}]
 			x: 5.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3BCD9E36D48B205A"]
+			id: "5E727F7B600E0E91"
+			tasks: [{
+				id: "22F25CA36A232063"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47AA9C8E6BA854D9"]
+			id: "088EB8F173558973"
+			tasks: [{
+				id: "7DEB510F2F607AF7"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			id: "47AA9C8E6BA854D9"
+			tasks: [{
+				id: "09F33C3336285AE7"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 }

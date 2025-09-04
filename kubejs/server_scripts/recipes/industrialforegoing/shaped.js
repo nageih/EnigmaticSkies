@@ -8,8 +8,8 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:gems/enori',
                 B: 'naturesaura:conversion_catalyst',
-                C: '#c:essences/water',
-                D: 'actuallyadditions:iron_casing',
+                C: 'modern_industrialization:bronze_tank',
+                D: 'modern_industrialization:bronze_machine_casing',
                 E: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}dissolution_chamber`

@@ -127,15 +127,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}lumisene`
         },
         {
-            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 3000 }],
+            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 100 }],
             item_inputs: [
                 { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
                 { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
-                { tag: 'c:gems/primal_coal', amount: 1 }
+                { item: 'minecraft:nautilus_shell', amount: 9 }
             ],
             fluid_inputs: [
-                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 1000 },
-                { fluid: 'extended_industrialization:manure', amount: 1000 }
+                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 100 },
+                { fluid: 'extended_industrialization:manure', amount: 500 }
             ],
             duration: 60,
             eu: 2,

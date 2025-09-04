@@ -30,19 +30,36 @@
 				item: { count: 1, id: "ars_nouveau:water_essence" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
 			id: "14C46426CE60BF84"
-			tasks: [{
-				id: "19E4B125DA7E467F"
-				item: { count: 1, id: "minecraft:sand" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.0d
+			tasks: [
+				{
+					id: "19E4B125DA7E467F"
+					item: { count: 1, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					id: "3D3FAA8E7254A2D1"
+					item: { count: 1, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					id: "53255B1CD9C7109F"
+					item: { count: 1, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+				{
+					id: "0207CE15463C2999"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -52,7 +69,7 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -79,17 +96,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["14C46426CE60BF84"]
-			id: "6D85BCC665287D6F"
-			tasks: [{
-				id: "03FCBFDA93896367"
-				item: { count: 1, id: "occultism:datura_seeds" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["7893072479F01DC2"]
 			id: "323D480E3C37579E"
 			tasks: [{
@@ -97,8 +103,8 @@
 				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -109,58 +115,28 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
-			id: "03D3C2661E7BCA1A"
-			tasks: [{
-				id: "51E7655F20B2B45A"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
+			dependencies: ["2BB91161DB6B6AF5"]
 			id: "79895E6B2A5E8776"
 			tasks: [{
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 6.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["7E2295CDDF92E34F"]
-			id: "198DB60553177E72"
-			tasks: [{
-				id: "0E87793274B7E04B"
-				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["198DB60553177E72"]
-			id: "6712E4FE04BDD426"
-			tasks: [{
-				id: "2BD031595D92184C"
-				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6712E4FE04BDD426"]
+			dependencies: ["2D190518ABA42A1F"]
 			id: "5A92EF3C51F82669"
 			tasks: [{
 				id: "0EFDC5A1E361B403"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A92EF3C51F82669"]
@@ -171,18 +147,18 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["6D85BCC665287D6F"]
+			dependencies: ["14C46426CE60BF84"]
 			id: "0F4546A0C55BC53A"
 			tasks: [{
 				id: "4FC37D84B722C2E8"
 				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -203,52 +179,73 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -1.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["198DB60553177E72"]
-			id: "5E727F7B600E0E91"
+			dependencies: ["016B7CA4A7FC58A1"]
+			id: "541CBBDB6401802C"
 			tasks: [{
-				id: "22F25CA36A232063"
-				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
-				type: "item"
+				id: "6BDBF20359D5E6B2"
+				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["47AA9C8E6BA854D9"]
-			id: "088EB8F173558973"
+			dependencies: [
+				"4F2E18DABA17E0AC"
+				"7E2295CDDF92E34F"
+			]
+			id: "016B7CA4A7FC58A1"
 			tasks: [{
-				id: "7DEB510F2F607AF7"
-				item: { count: 1, id: "industrialforegoing:pink_slime" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5E727F7B600E0E91"]
-			id: "47AA9C8E6BA854D9"
-			tasks: [{
-				id: "09F33C3336285AE7"
-				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7E2295CDDF92E34F"]
-			id: "0CD1B77539F0EFDD"
-			tasks: [{
-				id: "4026EED93F322C2D"
+				id: "79CD23399878FC63"
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["323D480E3C37579E"]
+			id: "3D6441ECF951BAD4"
+			tasks: [{
+				id: "451F410B76188D68"
+				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14C46426CE60BF84"]
+			id: "40F5EC143766C2A7"
+			tasks: [{
+				id: "7BAC109F460571AF"
+				item: { count: 1, id: "extended_industrialization:bronze_waste_collector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40F5EC143766C2A7"]
+			id: "02AAB52720CE1DA3"
+			tasks: [
+				{
+					id: "6D3F8B9FEC27873C"
+					item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+					type: "item"
+				}
+				{
+					id: "352CCDCBA9209CFC"
+					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
 		}
 	]
 }

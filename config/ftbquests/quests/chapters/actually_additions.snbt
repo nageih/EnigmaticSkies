@@ -125,37 +125,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["380D0C6385B6325C"]
-			id: "5E84329A59955F29"
-			rewards: [
-				{
-					count: 8
-					id: "54E896CF0AA64B5C"
-					item: {
-						count: 1
-						id: "actuallyadditions:canola_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "4F77EAAF82748E15"
-					item: {
-						count: 1
-						id: "actuallyadditions:canola_press"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "10CE16BF2AB8F14C"
-				item: { count: 1, id: "actuallyadditions:oil_generator" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5E84329A59955F29"]
 			id: "4B0E34ADA419D750"
 			rewards: [{
 				id: "214EE87F959460BA"
@@ -202,7 +171,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5E84329A59955F29"]
 			id: "128669F9F6431E0A"
 			rewards: [{
 				exclude_from_claim_all: true
