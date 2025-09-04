@@ -118,9 +118,9 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'aether:golden_amber' },
             pedestalItems: [
                 { item: 'minecraft:skeleton_skull' },
-                { item: 'create:polished_rose_quartz' },
+                { item: 'malum:strange_crystal' },
                 { item: 'naturesaura:infused_slab' },
-                { item: 'create:polished_rose_quartz' }
+                { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

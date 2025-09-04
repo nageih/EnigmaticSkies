@@ -7,9 +7,9 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'CDC', 'AEA'],
             key: {
                 A: '#c:gems/enori',
-                B: '#c:chests/wooden',
-                C: 'modern_industrialization:bronze_tank',
-                D: 'modern_industrialization:bronze_machine_casing',
+                B: 'naturesaura:conversion_catalyst',
+                C: '#c:essences/water',
+                D: 'actuallyadditions:iron_casing',
                 E: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}dissolution_chamber`

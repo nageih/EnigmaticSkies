@@ -49,6 +49,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ruby`
         },
         {
+            output: { id: 'minecraft:emerald', count: 1 },
+            input: { tag: 'c:dusts/emerald' },
+            aura: 150000,
+            time: 30,
+            id: `${id_prefix}emerald`
+        },
+        {
             output: { id: 'minecraft:nether_wart' },
             input: { item: 'occultism:datura' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
@@ -69,14 +76,6 @@ ServerEvents.recipes((event) => {
             aura: 27000,
             time: 120,
             id: `${id_prefix}block_of_hallowed_gold`
-        },
-        {
-            output: { id: 'minecraft:sea_lantern' },
-            input: { item: 'ae2:quartz_block' },
-            catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 4500,
-            time: 6,
-            id: `${id_prefix}sea_lantern`
         }
     ];
 

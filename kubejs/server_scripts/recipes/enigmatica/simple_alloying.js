@@ -85,9 +85,9 @@ ServerEvents.recipes((event) => {
             id_suffix: `andesite_alloy`
         },
         {
-            output: { id: 'create:rose_quartz', count: 1 },
+            output: { id: 'create:rose_quartz', count: 2 },
             inputs: [
-                { tag: 'c:gems/restonia', count: 4 },
+                { item: 'malum:strange_crystal', count: 1 },
                 { tag: 'c:gems/black_quartz', count: 1 }
             ],
             tier: 1,
@@ -125,11 +125,32 @@ ServerEvents.recipes((event) => {
             id_suffix: `copper_alloy_ingot`
         },
         {
-            output: { id: 'enderio:energetic_alloy_ingot', count: 1 },
+            output: { id: 'enderio:redstone_alloy_ingot', count: 1 },
             inputs: [
                 { tag: 'c:dusts/redstone', count: 1 },
-                { tag: 'c:ingots/gold', count: 1 },
-                { tag: 'c:dusts/glowstone', count: 1 }
+                { tag: 'c:dusts/silicon', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `redstone_alloy_ingot`
+        },
+        {
+            output: { id: 'enderio:conductive_alloy_ingot', count: 2 },
+            inputs: [
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:ingots/infused_iron', count: 1 },
+                { tag: 'c:gems/restonia', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `conductive_alloy_ingot`
+        },
+        {
+            output: { id: 'enderio:energetic_alloy_ingot', count: 1 },
+            inputs: [
+                { tag: 'c:gems/empowered_restonia', count: 1 },
+                { tag: 'c:ingots/hallowed_gold', count: 1 },
+                { item: 'malum:paracausal_flame', count: 1 }
             ],
             tier: 1,
             exclusions: [],
@@ -144,27 +165,6 @@ ServerEvents.recipes((event) => {
             tier: 1,
             exclusions: [],
             id_suffix: `vibrant_alloy_ingot`
-        },
-        {
-            output: { id: 'enderio:redstone_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:dusts/redstone', count: 1 },
-                { tag: 'c:dusts/silicon', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `redstone_alloy_ingot`
-        },
-        {
-            output: { id: 'enderio:conductive_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/copper_alloy', count: 1 },
-                { tag: 'c:ingots/iron', count: 1 },
-                { tag: 'c:dusts/redstone', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `conductive_alloy_ingot`
         },
         {
             output: { id: 'enderio:pulsating_alloy_ingot', count: 1 },

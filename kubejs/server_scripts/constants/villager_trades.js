@@ -238,12 +238,6 @@ const villagerTrades = {
             result: { id: 'modern_industrialization:copper_cable', count: 8 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
             level: 2
-        },
-
-        {
-            result: { id: 'modern_industrialization:cupronickel_cable', count: 8 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 2 } }],
-            level: 3
         }
     ],
     // Forge Hammer

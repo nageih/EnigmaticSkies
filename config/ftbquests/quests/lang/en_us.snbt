@@ -772,6 +772,7 @@
 		"  • &7C. Deepslate&r      &2⟶&r      &7Twisted Rock&r"
 		"  • &7Deepslate&r         &2⟶&r      &7Smooth Twisted Rock&r"
 	]
+	quest.1446CD6DE9426AE7.quest_desc: [""]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14555CEDF53F68FC.quest_desc: [
@@ -1736,6 +1737,11 @@
 	quest.2F1EA0B091C700E1.quest_desc: [""]
 	quest.2F1EA0B091C700E1.title: "Fisherman"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
+	quest.2F2C14F36F96AD35.quest_desc: [
+		"Mendosteen Pods may be propagated by planting them on Flourishing Archwood. "
+		""
+		"Like most crops, their growth can be sped up by applying Bone Meal or by other effects that up speed plant growth."
+	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
@@ -1816,6 +1822,18 @@
 		"&6    knowledge."
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.31903F40C2037EBD.quest_desc: [
+		"With a Trading Depot, you may begin to automate trades with Villagers. "
+		""
+		"Place the Depot such that the red dot on the back is facing the Villager’s Workstation. Then put some trade goods on the Depot.  "
+		""
+		"Items may be Right-Clicked on or off, but we want automation, right? So, use a hopper or some pipes to move items on and off the Depot. "
+		""
+		"The Depot only functions during normal Villager Working hours. If only there were a way to make the days longer…"
+		""
+		"&a🛈 Tip: A filter may be set on the front "
+		"&a    to control what is purchased. "
+	]
 	quest.31B6AE7706264320.quest_desc: [
 		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
 		""
@@ -2066,6 +2084,7 @@
 		""
 		"The Cache can be filled in a Natural Altar, or if Aura is exceptionally high in an area, will fill passively while worn. "
 	]
+	quest.39E9D5470F347400.quest_desc: ["Raw Gold, Copper, and Iron can contain some very useful secondary minerals. Craft an Encased Fan and process your Crushed Ores to obtain them. "]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
 		""
@@ -2142,6 +2161,13 @@
 		""
 		"&a🛈 Tip: Micromissiles may be restored "
 		"&a    with TNT in an Anvil!"
+	]
+	quest.3BCD9E36D48B205A.quest_desc: [
+		"Piece together an LV Steam Turbine to begin producing some electric power. You’ll need this to power most Tech machines."
+		""
+		"Be sure to grab some LV Cables from your Villagers too!"
+		""
+		"&a🛈 Tip: EU converts directly to FE!"
 	]
 	quest.3BF1CB7CDDA99856.quest_desc: [
 		"Working with spirits is a messy business, both physically and mentally. "
@@ -3092,6 +3118,11 @@
 		""
 		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
 	]
+	quest.4C54C9BE017CBC67.quest_desc: [
+		"Sand is a little hard to come by in this swampy environment. "
+		""
+		"You may find it easier to obtain on the Cascading Isle. "
+	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
 		""
@@ -3676,6 +3707,11 @@
 		""
 		"&a🛈 Tip: Source Jars hold 10,000 Source."
 	]
+	quest.5AFB064A80189AA4.quest_desc: [
+		"This Moss appears to be concentrating different minerals in it as it consumes the Mud. Crush some to obtain Copper and other useful minerals!"
+		""
+		"Using Bone Meal on Moss will cause it to spread to nearby blocks, such as Mud and Dirt. As long as you keep at least one Moss, you will have an infinite supply!"
+	]
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
@@ -3689,6 +3725,14 @@
 		"&a    blocks with Stone!"
 	]
 	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
+	quest.5D1960D1AE64E4A2.quest_desc: [
+		"The Flourishing Island comes with a ready-made Natural Altar to get you started. "
+		""
+		"You’ll also notice several Swamp Homis dotted around under the Spore Blossoms. "
+		""
+		""
+		"These handy little devices will convert nearby Moss back to Mud, releasing some Aura into the environment in the process. "
+	]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
 		""
@@ -3910,14 +3954,7 @@
 		"&6⚠ Note: Meltdowns and Radiation "
 		"&6    have been disabled!"
 	]
-	quest.62ABC26128284A71.quest_desc: [
-		""
-		""
-		"Reminder that Polish can be used in place of Sand Paper."
-		""
-		"&7Sandpaper&r"
-		"    &5Projectile&r > &aPolish&r > &6AOE&r"
-	]
+	quest.62ABC26128284A71.quest_desc: ["Using Black Quartz from Copper, some Strange Crystals from Gold, and a few other bits and pieces, it seems possible to make an object that exhibits a strange sense of intelligence. "]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
 		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."

@@ -1175,5 +1175,23 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["34FB10F0A2504973"]
+			id: "605A60825B68C2D7"
+			tasks: [
+				{
+					id: "36FFDB989168EE23"
+					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+					type: "item"
+				}
+				{
+					id: "01AFE9C4737DB0C7"
+					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
 	]
 }

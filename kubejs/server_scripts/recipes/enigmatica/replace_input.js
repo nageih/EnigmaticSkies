@@ -241,11 +241,6 @@ ServerEvents.recipes((event) => {
             replace_with: 'aether:holystone_pickaxe'
         },
         {
-            filter: [{ mod: 'industrialforegoing' }],
-            to_replace: `minecraft:ender_pearl`,
-            replace_with: '#c:gems/pulsating_crystal'
-        },
-        {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:pulverizer_block`,
             replace_with: Ingredient.of(['oritech:flux_gate'])
@@ -334,6 +329,11 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'naturesaura' }],
             to_replace: `naturesaura:token_anger`,
             replace_with: `#c:essences/fire`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `minecraft:peony`,
+            replace_with: `#minecraft:flowers`
         }
     ];
 

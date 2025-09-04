@@ -60,7 +60,8 @@ ServerEvents.recipes((event) => {
                 { id: 'sushigocrafting:sesame_seeds', chance: 0.1 },
                 { id: 'sushigocrafting:cucumber_seeds', chance: 0.1 },
                 { id: 'occultism:datura_seeds', chance: 0.1 },
-                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
+                { id: 'minecraft:prismarine_shard', chance: 0.05 },
+                { id: 'minecraft:prismarine_crystals', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
             processingTime: 25,
@@ -72,7 +73,8 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:sand' },
             results: [
                 { id: 'minecraft:nautilus_shell', chance: 0.1, chance: 0.25 },
-                { id: 'modern_industrialization:ruby_dust', chance: 0.05 }
+                { id: 'minecraft:prismarine_shard', chance: 0.05 },
+                { id: 'minecraft:prismarine_crystals', chance: 0.05 }
             ],
             mesh: { id: 'createsifter:andesite_mesh', count: 1 },
             processingTime: 20,

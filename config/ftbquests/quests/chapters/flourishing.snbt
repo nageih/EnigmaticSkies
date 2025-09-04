@@ -19,48 +19,30 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "605A60825B68C2D7"
+			dependencies: ["5D1960D1AE64E4A2"]
+			icon: {
+				id: "createsifter:raw_copper_piece"
+			}
+			id: "5AFB064A80189AA4"
 			tasks: [
 				{
-					id: "36FFDB989168EE23"
-					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+					id: "7EB17A8C21C157CA"
+					item: { count: 1, id: "minecraft:moss_block" }
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "01AFE9C4737DB0C7"
-					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+					id: "18451747130589E3"
+					item: { count: 1, id: "createsifter:raw_copper_piece" }
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 4.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "5AFB064A80189AA4"
-			tasks: [{
-				id: "7EB17A8C21C157CA"
-				item: { count: 1, id: "minecraft:moss_block" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "779E0B3E3CFEF22C"
-			tasks: [{
-				id: "362EC0B56B18DBBB"
-				item: { count: 1, id: "naturesaura:moss_generator" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -70,19 +52,8 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "7D03A7E07643F20C"
-			tasks: [{
-				id: "49B4DB5129AAB6DD"
-				item: { count: 1, id: "createsifter:raw_copper_piece" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -0.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -92,8 +63,8 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0E28517BADA72E7D"]
@@ -103,8 +74,8 @@
 				item: { count: 1, id: "supplementaries:lumisene_bottle" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -114,30 +85,31 @@
 				item: { count: 1, id: "minecraft:glow_berries" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5D1960D1AE64E4A2"]
-			id: "169D412B565F97C4"
-			tasks: [{
-				id: "743FD5EB2494A7A3"
-				item: { count: 1, id: "actuallyadditions:black_quartz" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
+			icon: {
+				id: "naturesaura:nature_altar"
+			}
 			id: "5D1960D1AE64E4A2"
-			tasks: [{
-				id: "3C13EEDD01DBB3A9"
-				item: { count: 1, id: "naturesaura:nature_altar" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
+			tasks: [
+				{
+					id: "3C13EEDD01DBB3A9"
+					item: { count: 1, id: "naturesaura:nature_altar" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A58BBD55CA04DC5"
+					item: { count: 1, id: "naturesaura:moss_generator" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -146,28 +118,33 @@
 				id: "3344B81CFADAC8FB"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 3.5d
 			y: 2.5d
 		}
 		{
+			dependencies: ["5D1960D1AE64E4A2"]
 			id: "6BF91623C7C278AB"
 			tasks: [{
 				id: "3829B9508E55605E"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["169D412B565F97C4"]
+			dependencies: [
+				"772F618AA5A15F74"
+				"4C54C9BE017CBC67"
+				"733B6E9FCE8A20D1"
+			]
 			id: "62ABC26128284A71"
 			tasks: [{
 				id: "7C797505C6313EEA"
 				item: { count: 1, id: "create:electron_tube" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -177,8 +154,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -187,13 +164,14 @@
 				id: "18527FE87BB2DCD9"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"62ABC26128284A71"
 				"198DB60553177E72"
+				"2D190518ABA42A1F"
 			]
 			id: "3BCD9E36D48B205A"
 			tasks: [{
@@ -201,8 +179,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["62ABC26128284A71"]
@@ -212,8 +190,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -234,8 +212,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.5d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
@@ -245,8 +223,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["016B7CA4A7FC58A1"]
@@ -255,8 +233,132 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39E9D5470F347400"]
+			icon: {
+				id: "create:crushed_raw_iron"
+			}
+			id: "1446CD6DE9426AE7"
+			tasks: [
+				{
+					id: "6FC55AC0C8F2C52C"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+				{
+					id: "52FBA77CCD4EA054"
+					item: { count: 1, id: "oritech:raw_silicon" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"121F78C888E3676C"
+				"5AFB064A80189AA4"
+			]
+			id: "39E9D5470F347400"
+			tasks: [{
+				id: "12DAA678727A6EEA"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1446CD6DE9426AE7"]
+			id: "585583C50A46A725"
+			tasks: [{
+				id: "6EF661AEC18C9B36"
+				item: { count: 1, id: "modern_industrialization:silicon_dust" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["585583C50A46A725"]
+			id: "2D190518ABA42A1F"
+			tasks: [{
+				id: "0EFEAC7A8D9F7833"
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39E9D5470F347400"]
+			icon: {
+				id: "create:crushed_raw_copper"
+			}
+			id: "733B6E9FCE8A20D1"
+			tasks: [
+				{
+					id: "199D930CB7058044"
+					item: { count: 1, id: "create:crushed_raw_copper" }
+					type: "item"
+				}
+				{
+					id: "318A7884A6EEFA3B"
+					item: { count: 1, id: "oritech:clay_catalyst_beads" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39E9D5470F347400"]
+			icon: {
+				id: "create:crushed_raw_gold"
+			}
+			id: "772F618AA5A15F74"
+			tasks: [
+				{
+					id: "51B67ABBAFB4AAE0"
+					item: { count: 1, id: "create:crushed_raw_gold" }
+					type: "item"
+				}
+				{
+					id: "72B093131D5A6916"
+					item: { count: 1, id: "malum:strange_crystal" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			icon: {
+				id: "create:sand_paper"
+			}
+			id: "4C54C9BE017CBC67"
+			tasks: [{
+				id: "1A48350F1FF93EDE"
+				item: { count: 1, id: "create:sand_paper" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D1960D1AE64E4A2"]
+			id: "3177D71B617AE6D0"
+			tasks: [{
+				id: "796CC2C87377D72A"
+				item: { count: 1, id: "enigmatica:ruby" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 	]
 }

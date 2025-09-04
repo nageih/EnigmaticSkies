@@ -31,6 +31,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ruby`
         },
         {
+            item_outputs: { item: 'minecraft:emerald', amount: 1 },
+            item_inputs: { tag: 'c:dusts/emerald', amount: 1 },
+            duration: 10,
+            eu: 4,
+            id: `${id_prefix}emerald`
+        },
+        {
             item_outputs: { item: AlmostUnified.getTagTargetItem(`c:plates/brass`).getId(), amount: 1 },
             item_inputs: { tag: 'c:ingots/brass', amount: 1 },
             duration: 5,

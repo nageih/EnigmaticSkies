@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
                 { fluid: 'oritech:still_sheol_fire', amount: 500 },
                 { fluid: 'oritech:still_strange_matter', amount: 200 }
             ],
-            ingredients: [{ item: 'oritech:enderic_compound' }],
+            ingredients: [{ item: 'malum:strange_crystal' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
             time: 120,
             id: `${id_prefix}strange_matter_from_lava`

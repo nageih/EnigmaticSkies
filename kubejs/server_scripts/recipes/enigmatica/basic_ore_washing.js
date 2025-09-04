@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/salt`).getId(), count: 2, chance: 0.25 }
+                { id: 'malum:strange_crystal', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,

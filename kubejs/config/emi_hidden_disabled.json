@@ -15,6 +15,9 @@
             "createsifter:raw_uranium_piece",
 
             "enderio:stirling_generator",
+            "enderio:conduit[enderio:conduit=\"enderio:ender_energy\"]",
+            "enderio:conduit[enderio:conduit=\"enderio:enhanced_energy\"]",
+            "enderio:conduit[enderio:conduit=\"enderio:energy\"]",
 
             "framedblocks:phantom_paste",
 
@@ -62,6 +65,8 @@
             "occultism:iesnium_ore_natural",
 
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
+            "/oritech:.*energy_pipe/",
+            "/oritech:.*superconductor/",
             "oritech:pulverizer_block",
             "oritech:foundry_block",
             "oritech:machine_core_1",
@@ -74,6 +79,7 @@
             "oritech:still_heavy_oil_bucket",
             "oritech:still_biofuel_bucket",
             "oritech:still_sulfuric_acid_bucket",
+            "oritech:still_naphtha_bucket",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
 
@@ -100,7 +106,8 @@
             "oritech:still_fuel",
             "oritech:still_heavy_oil",
             "oritech:still_biofuel",
-            "oritech:still_sulfuric_acid"
+            "oritech:still_sulfuric_acid",
+            "oritech:still_naphtha"
         ]
     },
     "categories": {

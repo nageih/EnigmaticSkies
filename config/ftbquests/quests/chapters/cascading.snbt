@@ -141,17 +141,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7E2295CDDF92E34F"]
-			id: "17489597E88E9992"
-			tasks: [{
-				id: "42AD5368FC6899EF"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["198DB60553177E72"]
 			id: "6712E4FE04BDD426"
 			tasks: [{
@@ -249,6 +238,17 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["7E2295CDDF92E34F"]
+			id: "0CD1B77539F0EFDD"
+			tasks: [{
+				id: "4026EED93F322C2D"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
 		}
 	]
 }
