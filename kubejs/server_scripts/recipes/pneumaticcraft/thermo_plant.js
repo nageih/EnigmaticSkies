@@ -12,7 +12,6 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 1000 } },
             inputs: { fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 } },
-            speed: 0.1,
             temperature: { max: 333, min: 303 },
             id: `${id_prefix}refined_canola_oil`
         },
@@ -40,6 +39,13 @@ ServerEvents.recipes((event) => {
             pressure: 2.0,
             speed: 0.5,
             id: `${id_prefix}ether_gas`
+        },
+        {
+            outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
+            inputs: { item: { item: 'minecraft:glow_berries' } },
+            pressure: 1.0,
+            temperature: { min: 273 },
+            id: `${id_prefix}lumisene`
         },
         {
             outputs: { item_output: { count: 1, id: 'pneumaticcraft:salmon_tempura' } },
@@ -111,6 +117,20 @@ ServerEvents.recipes((event) => {
             speed: 0.1,
             temperature: { min: 773 },
             id: `${id_prefix}drill_bit_diamond`
+        },
+        {
+            outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
+            inputs: { item: { item: 'minecraft:dandelion' } },
+            pressure: 4.0,
+            temperature: { min: 373 },
+            id: `${id_prefix}latex_from_dandelion`
+        },
+        {
+            outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
+            inputs: { item: { item: 'minecraft:vine' } },
+            pressure: 4.0,
+            temperature: { min: 373 },
+            id: `${id_prefix}latex_from_vine`
         }
     ];
 

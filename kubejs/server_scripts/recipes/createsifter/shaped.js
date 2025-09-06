@@ -12,16 +12,59 @@ ServerEvents.recipes((event) => {
                 D: 'create:cogwheel',
                 E: 'aether:holystone_bricks'
             },
-            id: `createsifter:crafting/sifter`
+            id: `${id_prefix}sifter`
+        },
+        {
+            output: `createsifter:brass_sifter`,
+            pattern: ['AAA', 'BCB', 'DED'],
+            key: {
+                A: '#c:plates/brass',
+                B: 'create:content_observer',
+                C: `createsifter:sifter`,
+                D: 'ars_technica:calibrated_precision_mechanism',
+                E: 'create:smart_chute'
+            },
+            id: `${id_prefix}brass_sifter`
         },
         {
             output: `createsifter:string_mesh`,
-            pattern: ['AAA', 'ABA', 'AAA'],
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:rods/wooden',
-                B: 'farmersdelight:canvas'
+                A: 'farmersdelight:tree_bark',
+                B: 'aether:skyroot_slab',
+                C: 'farmersdelight:canvas'
             },
-            id: `createsifter:crafting/string_mesh`
+            id: `${id_prefix}string_mesh`
+        },
+        {
+            output: `createsifter:andesite_mesh`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'ars_nouveau:sky_block',
+                B: '#c:ingots/andesite_alloy',
+                C: `createsifter:string_mesh`
+            },
+            id: `${id_prefix}andesite_mesh`
+        },
+        {
+            output: `createsifter:brass_mesh`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'malum:astral_weave',
+                B: '#c:plates/brass',
+                C: `createsifter:andesite_mesh`
+            },
+            id: `${id_prefix}brass_mesh`
+        },
+        {
+            output: `createsifter:sturdy_mesh`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'malum:soulwoven_silk',
+                B: '#c:plates/obsidian',
+                C: `createsifter:brass_mesh`
+            },
+            id: `${id_prefix}sturdy_mesh`
         }
     ];
 

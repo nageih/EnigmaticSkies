@@ -112,8 +112,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 }

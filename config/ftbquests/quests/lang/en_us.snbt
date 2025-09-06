@@ -21,7 +21,6 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
-	chapter.635514FCF83ACCBF.title: "Villagers"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.72447ED7D54B4AF7.title: "Vexing"
@@ -3097,7 +3096,7 @@
 	quest.4C54C9BE017CBC67.quest_desc: [
 		"Sand is a little hard to come by in this swampy environment. "
 		""
-		"You may find it easier to obtain on the Cascading Isle. "
+		"[\"You may find it easier to obtain on the \",{ \"text\": \"Cascading Isle\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40C97D6332BD825B\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\".\"]"
 	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
@@ -3918,7 +3917,11 @@
 	quest.62C7492F54D80CBA.quest_desc: [
 		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."
 		""
-		"Gather some wood and craft up some basic tools. With an Axe and Cutting Board, you’ll be able to get some Bark for paper. With a Knife, you’ll be able to break Grass for Straw."
+		"Gather some wood and craft up some basic tools. "
+		""
+		"With an &7Axe&r and &7Cutting Board&r, you’ll be able to get some &7Bark&r for &7Paper&r. "
+		""
+		"With a &7Knife&r, you’ll be able to break &7Grass&r for &7Straw&r."
 	]
 	quest.62CD365A54A0DE47.quest_desc: [
 		"Welcome to Immersive Engineering!"

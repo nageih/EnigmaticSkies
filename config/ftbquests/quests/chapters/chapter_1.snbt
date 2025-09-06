@@ -617,6 +617,14 @@
 		{
 			dependencies: ["62C7492F54D80CBA"]
 			id: "1834C84EFA232977"
+			rewards: [{
+				id: "11A189914A05EC42"
+				item: {
+					count: 1
+					id: "aether:cold_aercloud"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EE727D298953AB5"
 				item: { count: 1, id: "createsifter:string_mesh" }

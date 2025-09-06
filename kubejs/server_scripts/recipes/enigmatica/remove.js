@@ -131,6 +131,8 @@ ServerEvents.recipes((event) => {
         { type: 'createsifter:sifting' },
         { id: /createsifter:(crushing|milling)/ },
         { id: /createsifter:shapeless\/raw_.*_piece/ },
+        { id: /createsifter:crafting\/.*_mesh/ },
+        { id: /createsifter:crafting\/.*_sifter/ },
 
         { id: 'trading_floor:trading_depot' },
 
@@ -304,10 +306,12 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:analog_circuit' },
         { output: 'modern_industrialization:bronze_machine_casing_pipe' },
         { output: 'modern_industrialization:motor' },
+        { output: 'modern_industrialization:rubber_sheet' },
         { output: 'modern_industrialization:electronic_circuit' },
+        { output: /extended_industrialization:.*_waste_collector/ },
         { output: /modern_industrialization:(lv|mv)_steam_turbine/ },
         { output: /modern_industrialization:(tin|silver|electrum)_cable/ },
-        { output: /modern_industrialization:(copper|cupronickel)_cable/ },
+        { output: /modern_industrialization:(copper|cupronickel|kanthal|annealed_copper)_cable/ },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
         { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
         { id: 'modern_industrialization:steam_age/steel/machine_casing_asbl' },
@@ -320,6 +324,9 @@ ServerEvents.recipes((event) => {
         { id: /modern_industrialization:assembler_generated\/steam_age\/(fluid|item)_pipe/ },
         { id: /modern_industrialization:compat\/ae2\/(electrolyzer|mixer)/ },
         { id: /modern_industrialization:materials\/mixer\/lubricant/ },
+        { id: 'modern_industrialization:materials/mixer/oil_to_rubber' },
+        { id: 'modern_industrialization:materials/blast_furnace/raw_oil_to_oil' },
+        { id: /modern_industrialization:materials\/mixer\/.*to_raw_oil/ },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -442,6 +449,9 @@ ServerEvents.recipes((event) => {
         { output: 'prettypipes:pipe' },
         { output: 'prettypipes:blank_module' },
         { output: 'ppfluids:fluid_pipe' },
+
+        // Redstone Pen
+        { id: 'redstonepen:control_box_recipe' },
 
         // Replication
         { type: 'replication:matter_value' },

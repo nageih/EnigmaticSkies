@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'minecraft:moss_block' },
             ingredient: { item: 'minecraft:mud' },
-            energy: 500,
+            energy: 5000,
             id: `${id_prefix}moss_block`
         },
         {
