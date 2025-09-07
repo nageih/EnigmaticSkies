@@ -35,6 +35,14 @@ ServerEvents.recipes((event) => {
             cookingtime: 200,
             experience: 0.15,
             id: `${id_prefix}golden_gummy_swet`
+        },
+        {
+            result: { id: 'ars_nouveau:sourceberry_bush', count: 1 },
+            ingredient: { item: 'aether:blue_berry' },
+            category: 'enchanting_misc',
+            cookingtime: 200,
+            experience: 0.15,
+            id: `${id_prefix}sourceberry_bush`
         }
     ];
 

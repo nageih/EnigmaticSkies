@@ -9,18 +9,6 @@ ServerEvents.recipes((event) => {
                 A: 'supplementaries:ash'
             },
             id: `${id_prefix}ash_brick`
-        },
-        {
-            output: 'supplementaries:statue',
-            pattern: ['AB', 'CD'],
-            key: {
-                A: 'minecraft:clay',
-                B: 'minecraft:name_tag',
-                C: '#c:tools/knife',
-                D: '#c:gems/emeradic'
-            },
-            damage: { item: '#c:tools/knife', amount: 30 },
-            id: `${id_prefix}statue`
         }
     ];
 

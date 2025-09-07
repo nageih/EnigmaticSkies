@@ -108,11 +108,13 @@
 	]
 	quest.03405336161EF1B5.title: "Machine Addons"
 	quest.03D475AF2266ECB6.quest_desc: [
-		"Villagers represent a very helpful source of materials so be sure to check in with them and make use of their expertise!"
+		"Villagers represent a critical source of materials, so be sure to check in with them and make use of their expertise!"
 		""
-		"Start by making a Smithing Table to get a Tool Smith Villager. These will helpfully sell you various workstations used by other Villagers."
+		"Start by making a &7Smithing Table&r to get a &7Tool Smith Villager&r. They will sell you various workstations used by other Villagers, allowing you to easily expand your trading operations!"
 		""
 		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
+		""
+		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will!"
 	]
 	quest.03D475AF2266ECB6.title: "Tool Smith"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -129,6 +131,7 @@
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
 	]
 	quest.0458B6BC887C9725.quest_desc: ["Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.0458B6BC887C9725.title: "Wolf"
 	quest.0465E4A27C7D4D75.quest_desc: [
 		"The Ore Laser Base can be a great way to get a steady flow of minerals, allowing you to set aside mining forever. "
 		""
@@ -189,6 +192,15 @@
 		"While not part of EvilCraft, it’s worth a mention here that Mob Spawners can be moved with Silk Touch and even upgraded! "
 		""
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
+	]
+	quest.074827E52A09685F.quest_desc: [
+		"Water, precious and rare, will be hard to come by in this place. Try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
+		""
+		"To Sift, hold a &7Mesh&r in one hand and &7Clouds&r in the other, then simply hold the &7Right Mouse Button&r. "
+		""
+		"Remember to keep an eye on your Hearth as well! A bucket of water will only last about 12 minutes. "
+		""
+		"&6⚠ Note: Water Sources are not infinite! "
 	]
 	quest.0751B009795D7889.quest_desc: [
 		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
@@ -686,11 +698,11 @@
 	quest.130A2701B96A941D.quest_desc: [
 		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
 		""
-		"The Hearth in the gazebo will keep you warm within the bounds of the building. "
+		"The Hearth in the gazebo will keep you warm within the bounds of the building once it is activated"
 		""
-		"Insert the provided fuel in the chest to the left of the Hearth and Right-Click the Crystallized Water into the Accumulator on the right."
+		"Insert the provided &7Primal Coal&r in the chest to the left of the Hearth and Right-Click the &7Crystallized Water&r into the Accumulator on the right."
 		""
-		"It may take a minute to warm up but you can open the Trap Door to ensure the Boiler is operating."
+		"It will take a minute for the Hearth to warm up but you can open the Trap Door to ensure the Boiler is operating."
 		"&n                                                              &r"
 		""
 		"A Hearth provides thermal regulation in a large covered area up to a volume of about 12,000 blocks or roughly 30 cubic meters.  "
@@ -702,7 +714,6 @@
 		"     &7Steam                                 &7Water"
 		""
 		"The protected area can propagate up to about 16 blocks from the Hearth or from any connected Smokestacks. "
-		""
 		""
 		"&a🛈 Tip: Any Furnace Fuel may be used to heat "
 		"    &athe Boiler under the Hearth."
@@ -1538,7 +1549,6 @@
 		""
 		"Dye it and show off your style!"
 	]
-	quest.2972FB3B704242DC.quest_desc: ["gravitite to replace ender pearls in blocks that pull in"]
 	quest.29D1FB4380460203.quest_desc: [
 		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
 		""
@@ -1702,6 +1712,14 @@
 		""
 		"Some scrolls will only be available with higher tier inks!"
 	]
+	quest.2D755021F6490B86.quest_desc: [
+		"Obtain your first Sourceberry by enchanting a Cloud Berry. "
+		""
+		"Be sure to plant the Sourceberry on Grass to grow more. The spells you have at your disposal should help tremendously with this task."
+		""
+		"&6⚠ Note: Use a Cutting Board to grind "
+		"&6    Flour for Dough!"
+	]
 	quest.2DFAEB81548A578A.quest_desc: [
 		"Thermoelectric Generators are low power solid-state power generators. You will need a hot and a cold block placed on opposing sides for it to work. "
 		""
@@ -1736,7 +1754,7 @@
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.2F9C801DFAC1C0D9.quest_desc: [
-		"Librarians will sell you everything you need to set up your own Storage Lectern to organize all of your goods. They are also the only way to access new glyphs. "
+		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. They are also the only way to access new glyphs. "
 		""
 		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that that isn't already known by you. "
 	]
@@ -1844,7 +1862,6 @@
 		"&a    discover more."
 	]
 	quest.3263757C9A240C70.title: "Chipped"
-	quest.33D3FD6791A9087A.title: "Villagers"
 	quest.342FED2B0AC5F1B2.quest_desc: [
 		"Many Mekanism machines require some form of Chemical to perform recipes such as Redstone in Chemical form to create Infused Alloys. "
 		""
@@ -1879,7 +1896,7 @@
 	quest.34FB10F0A2504973.quest_desc: [
 		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
 		""
-		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a Tablet of Conjure Island: Lush Garden, as well as a couple IOUs for Flying Cows. "
+		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a &7Tablet of Conjure Island: Lush Garden&r, as well as a couple IOUs for Flying Cows."
 		"&n                                                  &r"
 		""
 		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
@@ -2634,6 +2651,7 @@
 		"&a🛈 Tip: Consider making an enclosure to "
 		"&a    contain your bats!"
 	]
+	quest.42F2191B5C08849B.title: "Bat"
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
 		""
@@ -3331,6 +3349,13 @@
 		""
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
+	quest.51636F3E5A461A7B.quest_desc: [
+		"You'll be able to scrape away the ice from your &7Icestone&r on a cutting board with any &7Axe&r."
+		""
+		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
+		""
+		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
+	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."
 		""
@@ -3433,6 +3458,11 @@
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
 	quest.538CE12C982D950E.title: "Strigeor's Higher Binding"
+	quest.540133B792547B21.quest_desc: [
+		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
+		""
+		"Items, such as &7Pebbles&r, may be Right-Clicked into the Oven while fuel may be Right-Clicked into the Brazier to begin processing."
+	]
 	quest.55065F1D9C6716C1.quest_desc: [
 		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
@@ -3830,6 +3860,7 @@
 		"    • &7Phygs"
 		"    • &7Sheepuffs"
 	]
+	quest.605A60825B68C2D7.title: "Animal Senicence"
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [
@@ -3859,6 +3890,7 @@
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
 	quest.619FB543EE458A0E.quest_desc: ["Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.619FB543EE458A0E.title: "Polar Bear"
 	quest.61F55FC24EA0CD1C.quest_desc: [
 		"To begin, we’ll need some Organic Matter samples. You’ll obtain these by using your Scraper on different mobs. "
 		""
@@ -4077,6 +4109,7 @@
 		"&a    more connections!"
 	]
 	quest.6660BE0C308A1744.quest_desc: ["Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.6660BE0C308A1744.title: "Goat"
 	quest.66AE19141D8F5604.quest_desc: [
 		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."
 		""
@@ -4587,6 +4620,7 @@
 		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
 	]
 	quest.710D7615763E9945.title: "Geasa"
+	quest.714379744B3CF395.quest_desc: ["The first few Gold Ingots you make should go towards making an Imbuement Chamber. "]
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
@@ -4905,12 +4939,6 @@
 		""
 		"Simply place it beneath the Generator block to unlock its full potential."
 	]
-	quest.798D16C2A0D071FF.quest_desc: [
-		"The first few Gold Ingots you make should probably go towards making a Ritual Brazier. "
-		""
-		"In addition to the normal Rituals that you start with this device, it will also allow you to summon special islands which will unlock access to new resources. "
-	]
-	quest.798D16C2A0D071FF.title: "Gold"
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
 		""

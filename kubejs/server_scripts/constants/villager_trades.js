@@ -1,31 +1,37 @@
 //priority: 1001
 
 // Villagers have 2 trade slots per level and 5 total levels.
+
 const villagerTrades = {
     // Smithing Table
     'minecraft:toolsmith': [
         {
-            result: { id: 'minecraft:composter', count: 1 },
-            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
+            result: { id: 'minecraft:brewing_stand', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
+        },
+        {
+            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'minecraft:composter', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            level: 2
         },
         {
             result: { id: 'minecraft:loom', count: 1 },
-            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
-            level: 1
-        },
-
-        {
-            result: { id: 'minecraft:brewing_stand', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 2
         },
 
-        // {
-        //     result: { id: 'minecraft:furnace', count: 1 },
-        //     ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
-        //     level: 3
-        // },
+        {
+            result: { id: 'minecraft:barrel', count: 1 },
+            ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
+            level: 3
+        },
         {
             result: { id: 'minecraft:smoker', count: 1 },
             ingredients: [{ id: 'farmersdelight:bacon_sandwich', count: { min: 2, max: 4 } }],
@@ -34,7 +40,7 @@ const villagerTrades = {
 
         {
             result: { id: 'minecraft:cauldron', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'farmersdelight:dumplings', count: { min: 2, max: 4 } }],
             level: 4
         },
         {
@@ -268,11 +274,6 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
-            level: 1
-        },
-        {
-            result: { id: 'ars_nouveau:arcane_core', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },

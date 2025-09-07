@@ -61,16 +61,17 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
+        let r = {};
         // Ars Nouveau Crushing
-        let r = {
-            type: 'ars_nouveau:crush',
-            output: [],
-            input: recipe.input
-        };
-        recipe.outputs.forEach((output) => {
-            r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
-        });
-        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+        //  r = {
+        //     type: 'ars_nouveau:crush',
+        //     output: [],
+        //     input: recipe.input
+        // };
+        // recipe.outputs.forEach((output) => {
+        //     r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
+        // });
+        // event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Create Mixing
         r = {

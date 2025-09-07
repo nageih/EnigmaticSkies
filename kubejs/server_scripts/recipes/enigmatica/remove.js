@@ -46,6 +46,7 @@ ServerEvents.recipes((event) => {
         { id: 'aether:swet_sticky_piston' },
         { id: 'aether:swet_lead' },
         { id: 'aether:moa_egg_pumpkin_pie' },
+        { id: 'aether:enchanted_berry_enchanting' },
 
         // Applied Energistics and Addons
         { id: /ae2:(smelting|blasting)\/silicon/ },

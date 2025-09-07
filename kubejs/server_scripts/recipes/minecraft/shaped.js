@@ -12,21 +12,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}furnace`
         },
         {
-            output: 'minecraft:barrel',
-            pattern: ['ABA', 'A A', 'AAA'],
-            key: {
-                A: '#enigmatica:planks',
-                B: '#minecraft:wooden_slabs'
-            },
-            id: `${id_prefix}barrel`
-        },
-        {
             output: 'minecraft:smithing_table',
-            pattern: ['AAA', 'CBC', 'CCC'],
+            pattern: ['AA', 'BB', 'BB'],
             key: {
                 A: '#c:ingots/andesite_alloy',
-                B: '#c:storage_blocks/source',
-                C: 'ars_nouveau:sourcestone'
+                B: '#enigmatica:planks'
             },
             id: `${id_prefix}smithing_table`
         },

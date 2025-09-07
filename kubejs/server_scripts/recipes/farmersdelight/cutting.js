@@ -10,6 +10,15 @@ ServerEvents.recipes((event) => {
         },
         {
             result: [
+                { item: { id: 'supplementaries:statue', count: 1 } },
+                { item: { id: 'minecraft:clay_ball', count: 1 }, chance: 0.15 }
+            ],
+            ingredients: [{ item: 'minecraft:clay' }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}statue`
+        },
+        {
+            result: [
                 { item: { id: 'aether:holystone', count: 1 } },
                 { item: { id: 'minecraft:snowball', count: 1 }, chance: 0.1 }
             ],
