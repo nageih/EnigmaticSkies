@@ -210,8 +210,12 @@ StartupEvents.registry('item', (event) => {
     const simple_items = [
         'ruby',
         'boggy_dorodango',
-        'oceanic_dorodango',
+        'briny_dorodango',
+        'silty_dorodango',
         'volcanic_dorodango',
+        'cloudy_dorodango',
+        'sulfurous_dorodango',
+        'melon_ball',
         'source_berry_roll_dough'
     ];
 

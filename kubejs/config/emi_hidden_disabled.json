@@ -15,6 +15,8 @@
             "/ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/",
 
             "createsifter:raw_uranium_piece",
+            "/createsifter:(?!string).*_mesh/",
+            "/createsifter:.*sifter/",
 
             "enderio:stirling_generator",
             "enderio:soul_engine",
@@ -86,8 +88,13 @@
             "oritech:still_biofuel_bucket",
             "oritech:still_sulfuric_acid_bucket",
             "oritech:still_naphtha_bucket",
+            "oritech:still_steam_bucket",
+            "oritech:still_diesel_bucket",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
+            "pneumaticcraft:biodiesel_bucket",
+            "pneumaticcraft:diesel_bucket",
+            "pneumaticcraft:lubricant_bucket",
 
             "sushigocrafting:rice",
             "sushigocrafting:rice_seeds",
@@ -113,7 +120,13 @@
             "oritech:still_heavy_oil",
             "oritech:still_biofuel",
             "oritech:still_sulfuric_acid",
-            "oritech:still_naphtha"
+            "oritech:still_naphtha",
+            "oritech:still_steam",
+            "oritech:still_diesel",
+
+            "pneumaticcraft:biodiesel",
+            "pneumaticcraft:diesel",
+            "pneumaticcraft:lubricant"
         ]
     },
     "categories": {

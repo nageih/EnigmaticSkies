@@ -32,10 +32,10 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:alakarkinos_charm', count: 1 },
             reagent: { item: 'ars_nouveau:alakarkinos_token' },
             pedestalItems: [
-                { tag: 'c:gems/prismarine' },
-                { item: 'minecraft:nautilus_shell' },
-                { item: 'minecraft:nautilus_shell' },
-                { item: 'minecraft:nautilus_shell' }
+                { item: 'aether:blue_berry' },
+                { item: 'handcrafted:terracotta_thick_pot' },
+                { item: 'handcrafted:terracotta_thick_pot' },
+                { item: 'handcrafted:terracotta_thick_pot' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

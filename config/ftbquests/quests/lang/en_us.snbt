@@ -949,12 +949,6 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
-	quest.1834C84EFA232977.quest_desc: [
-		"Normally a Mesh such as this would be installed in a machine to run, but we haven’t quite got the materials for that yet. "
-		""
-		"For now, hold the Mesh in one hand and the item to be sifted in the other, then hold your Right Mouse Button to sift!"
-	]
-	quest.1834C84EFA232977.title: "Cloud Seeding?"
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""

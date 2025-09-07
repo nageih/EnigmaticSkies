@@ -131,8 +131,8 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
                 { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
-                { item: 'minecraft:nautilus_shell', amount: 50 },
-                { item: 'aquaculture:fish_bones', amount: 50 }
+                { item: 'minecraft:nautilus_shell', amount: 16 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
             ],
             fluid_inputs: [
                 { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
@@ -147,8 +147,8 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
                 { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
-                { item: 'minecraft:nautilus_shell', amount: 50 },
-                { item: 'aquaculture:fish_bones', amount: 50 }
+                { item: 'minecraft:nautilus_shell', amount: 16 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
             ],
             fluid_inputs: [
                 { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },

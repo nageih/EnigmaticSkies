@@ -250,7 +250,7 @@ ServerEvents.recipes((event) => {
                 energy: recipe.tier == 2 ? 9600 : 6400,
                 experience: recipe.tier == 2 ? 1.5 : 0.3
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Mixing
@@ -267,7 +267,7 @@ ServerEvents.recipes((event) => {
                 results: [recipe.output],
                 heat_requirement: recipe.tier == 2 ? 'superheated' : 'heated'
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // MI Mixing
@@ -282,7 +282,7 @@ ServerEvents.recipes((event) => {
                 duration: recipe.tier * 5 * 20,
                 eu: recipe.tier * 2
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

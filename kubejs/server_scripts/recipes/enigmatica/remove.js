@@ -76,6 +76,8 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:storage_lectern` },
         { id: `ars_nouveau:repository` },
         { id: `ars_nouveau:repository_controller` },
+        { id: `ars_nouveau:pointed_dripstone` },
+        { id: `ars_nouveau:water_essence_to_bucket` },
         { id: `ars_nouveau:source_berry_roll` },
         { id: `ars_nouveau:ritual_brazier` },
         { id: 'ars_nouveau:source_berry_pie' },
@@ -430,6 +432,7 @@ ServerEvents.recipes((event) => {
         { id: /oritech:atomicforge\/dust\/(nickel|platinum|iron|copper|gold)/ },
         { id: /oritech:grinder\/raw\/(nickel|platinum|iron|copper|gold)/ },
         { id: /oritech:(nickel|platinum|iron|copper|gold)_clump/ },
+        { id: 'oritech:cooler/snow' },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
@@ -444,6 +447,8 @@ ServerEvents.recipes((event) => {
         { id: /pneumaticcraft:thermo_plant\/(gasoline|kerosene|lpg)/ },
         { id: /pneumaticcraft:thermo_plant\/.*drill_bit/ },
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
+        { id: /pneumaticcraft:amadron\/assembly_program/ },
+        { id: /pneumaticcraft:amadron\/.*emerald/ },
 
         // PrettyPipes and Addons
         { output: 'prettypipes:pipe' },

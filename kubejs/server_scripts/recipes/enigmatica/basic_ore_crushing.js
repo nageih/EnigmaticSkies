@@ -111,7 +111,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.output.push({ stack: output, chance: output.chance, maxRange: 1 });
             });
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Crushing
@@ -122,7 +122,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.tier * 5 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Macerator
@@ -140,7 +140,7 @@ ServerEvents.recipes((event) => {
                 r.item_outputs.push({ item: output.id, amount: output.count, probability: output.chance });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

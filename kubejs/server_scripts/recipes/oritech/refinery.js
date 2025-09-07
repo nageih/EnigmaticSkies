@@ -4,39 +4,15 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             fluidOutputs: [
-                { fluid: 'modern_industrialization:diesel', amount: 500 },
-                { fluid: 'modern_industrialization:naphtha', amount: 500 },
-                { fluid: 'modern_industrialization:sulfuric_acid', amount: 500 }
+                { fluid: 'modern_industrialization:light_fuel', amount: 500 },
+                { fluid: 'modern_industrialization:heavy_fuel', amount: 200 },
+                { fluid: 'modern_industrialization:naphtha', amount: 300 }
             ],
-            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
+            ingredients: [],
             fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
             time: 120,
-            id: `${id_prefix}diesel_from_oil`
+            id: `${id_prefix}oil_processing`
         },
-        // {
-        //     results: [],
-        //     fluidOutputs: [
-        //         { fluid: 'modern_industrialization:heavy_fuel', amount: 500 },
-        //         { fluid: 'modern_industrialization:naphtha', amount: 250 },
-        //         { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
-        //     ],
-        //     ingredients: [],
-        //     fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
-        //     time: 80,
-        //     id: `${id_prefix}heavy_fuel_from_oil`
-        // },
-        // {
-        //     results: [],
-        //     fluidOutputs: [
-        //         { fluid: 'modern_industrialization:diesel', amount: 1000 },
-        //         { fluid: 'modern_industrialization:naphtha', amount: 250 },
-        //         { fluid: 'modern_industrialization:sulfuric_acid', amount: 250 }
-        //     ],
-        //     ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
-        //     fluidInput: { fluid: 'modern_industrialization:heavy_fuel', amount: 1000 },
-        //     time: 80,
-        //     id: `${id_prefix}diesel_from_heavy_fuel`
-        // },
 
         {
             results: [],
@@ -48,10 +24,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [],
-            fluidOutputs: [
-                { fluid: 'oritech:still_sheol_fire', amount: 500 },
-                { fluid: 'oritech:still_strange_matter', amount: 200 }
-            ],
+            fluidOutputs: [{ fluid: 'oritech:still_strange_matter', amount: 200 }],
             ingredients: [{ item: 'malum:strange_crystal' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
             time: 120,

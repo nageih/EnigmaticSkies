@@ -134,7 +134,7 @@ const villagerTrades = {
     'minecraft:shepherd': [
         {
             result: { id: 'ars_caelum:ritual_conjure_island_starter', count: 1 },
-            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'aether:enchanted_berry', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
@@ -182,7 +182,7 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_nouveau:wixie_shards', count: 1 },
+            result: { id: 'ars_nouveau:alakarkinos_token', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 2
         },
@@ -193,13 +193,13 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_nouveau:alakarkinos_token', count: 1 },
-            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 4, max: 8 } }],
+            result: { id: 'ars_nouveau:wixie_shards', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 4, max: 8 } }],
             level: 3
         },
         {
             result: { id: 'ars_nouveau:amethyst_golem_charm', count: 1 },
-            ingredients: [{ id: 'arsdelight:mendosteen_pie', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 3
         }
     ],

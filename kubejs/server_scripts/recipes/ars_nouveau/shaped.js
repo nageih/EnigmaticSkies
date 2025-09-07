@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', ' D '],
             key: {
                 A: '#c:storage_blocks/source',
-                B: 'modern_industrialization:gold_ring',
+                B: '#c:ingots/hallowed_gold',
                 C: 'farmersdelight:organic_compost',
                 D: 'handcrafted:golden_thick_pot'
             },
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', ' D '],
             key: {
                 A: '#c:storage_blocks/source',
-                B: 'modern_industrialization:gold_ring',
+                B: '#c:ingots/hallowed_gold',
                 C: 'theurgy:crystallized_lava',
                 D: 'handcrafted:golden_thick_pot'
             },
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', ' D '],
             key: {
                 A: '#c:storage_blocks/source',
-                B: 'modern_industrialization:gold_ring',
+                B: '#c:ingots/hallowed_gold',
                 C: 'supplementaries:lumisene_bottle',
                 D: 'handcrafted:golden_thick_pot'
             },
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', ' D '],
             key: {
                 A: '#c:storage_blocks/source',
-                B: 'modern_industrialization:gold_ring',
+                B: '#c:ingots/hallowed_gold',
                 C: 'aether:enchanted_berry',
                 D: 'handcrafted:golden_thick_pot'
             },

@@ -613,7 +613,7 @@ ServerEvents.recipes((event) => {
                 r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // EnderIO
@@ -631,7 +631,7 @@ ServerEvents.recipes((event) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Oritech Grinder
@@ -642,7 +642,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 time: recipe.duration * 1.5 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Crushing
@@ -653,7 +653,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 2 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Milling
@@ -664,7 +664,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 1.5 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Macerator
@@ -686,7 +686,7 @@ ServerEvents.recipes((event) => {
                 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

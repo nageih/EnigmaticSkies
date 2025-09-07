@@ -4,9 +4,15 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: 'modern_industrialization:salt_block',
-            table: 'enigmatica:archaeology/oceanic_dorodango',
+            table: 'enigmatica:archaeology/briny_dorodango',
             weight: 100,
-            id: `${id_prefix}oceanic_dorodango`
+            id: `${id_prefix}briny_dorodango`
+        },
+        {
+            input: 'minecraft:sand',
+            table: 'enigmatica:archaeology/silty_dorodango',
+            weight: 100,
+            id: `${id_prefix}silty_dorodango`
         },
         {
             input: 'createsifter:crushed_basalt',
@@ -19,6 +25,24 @@ ServerEvents.recipes((event) => {
             table: 'enigmatica:archaeology/boggy_dorodango',
             weight: 100,
             id: `${id_prefix}boggy_dorodango`
+        },
+        {
+            input: 'minecraft:melon',
+            table: 'enigmatica:archaeology/melon_ball',
+            weight: 100,
+            id: `${id_prefix}melon_ball`
+        },
+        {
+            input: 'aether:cold_aercloud',
+            table: 'enigmatica:archaeology/cloudy_dorodango',
+            weight: 100,
+            id: `${id_prefix}cloudy_dorodango`
+        },
+        {
+            input: 'aether:golden_aercloud',
+            table: 'enigmatica:archaeology/sulfurous_dorodango',
+            weight: 100,
+            id: `${id_prefix}sulfurous_dorodango`
         }
     ];
 

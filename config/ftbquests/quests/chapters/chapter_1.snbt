@@ -406,13 +406,21 @@
 			dependencies: ["62C7492F54D80CBA"]
 			id: "6CE9EE018596DAD2"
 			min_width: 300
-			tasks: [{
-				id: "4386E849D6D7FE0D"
-				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+			rewards: [{
+				id: "0760D0FF9E45137E"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			tasks: [{
+				id: "4386E849D6D7FE0D"
+				item: { components: { "minecraft:base_color": "brown" }, count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]
@@ -431,7 +439,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["45F3C4F0EDA160C5"]
+			dependencies: ["130A2701B96A941D"]
 			icon: {
 				id: "farmersdelight:cutting_board"
 			}
@@ -484,7 +492,7 @@
 				}
 			]
 			x: 4.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["45F3C4F0EDA160C5"]
@@ -518,7 +526,7 @@
 				to_observe: "cold_sweat:hearth_bottom"
 				type: "observation"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -8.0d
 		}
 		{
@@ -615,25 +623,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["62C7492F54D80CBA"]
-			id: "1834C84EFA232977"
-			rewards: [{
-				id: "11A189914A05EC42"
-				item: {
-					count: 1
-					id: "aether:cold_aercloud"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3EE727D298953AB5"
-				item: { count: 1, id: "createsifter:string_mesh" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["15FAB1720AD470A0"]
 			id: "121F78C888E3676C"
 			tasks: [{
@@ -647,6 +636,14 @@
 		{
 			dependencies: ["49E18B07D6E4A5EB"]
 			id: "7D55CFC63462B5C1"
+			rewards: [{
+				id: "37750A0C13657403"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17EE41CC261F06FE"
 				item: { count: 1, id: "minecraft:clay_ball" }
@@ -701,12 +698,20 @@
 		{
 			dependencies: [
 				"51636F3E5A461A7B"
-				"1834C84EFA232977"
+				"074827E52A09685F"
 			]
 			icon: {
 				id: "theurgy:fermentation_vat"
 			}
 			id: "49E18B07D6E4A5EB"
+			rewards: [{
+				id: "0BAF80F5C8A871B3"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2A0E860B2F2A9332"
@@ -774,28 +779,6 @@
 			]
 			x: 2.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["121F78C888E3676C"]
-			icon: {
-				id: "createsifter:sifter"
-			}
-			id: "3010C0D6B504F8B9"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "307B11D96E6B5553"
-					item: { count: 1, id: "createsifter:sifter" }
-					type: "item"
-				}
-				{
-					id: "25ED38D9B2F7C2A5"
-					item: { count: 1, id: "createsifter:andesite_mesh" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["01BA367C97ED31E2"]
@@ -1014,8 +997,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:deployer)item(create:encased_fan)item(create:mechanical_mixer)item(create:sand_paper)item(create:mechanical_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["04D144DC0EAE8BE3"]
@@ -1200,6 +1183,38 @@
 			]
 			x: 5.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "513BDF32A8F6EF45"
+			tasks: [{
+				id: "520523E4D299B060"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_token" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62C7492F54D80CBA"]
+			icon: {
+				id: "theurgy:crystallized_water"
+			}
+			id: "074827E52A09685F"
+			tasks: [
+				{
+					id: "6B040741CCB09AD7"
+					item: { count: 1, id: "createsifter:string_mesh" }
+					type: "item"
+				}
+				{
+					id: "64C24F802CD9C37E"
+					item: { count: 1, id: "theurgy:crystallized_water" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -6.5d
 		}
 	]
 }
