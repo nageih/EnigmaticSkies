@@ -75,10 +75,17 @@ ServerEvents.recipes((event) => {
         // Create Mixing
         r = {
             type: 'create:mixing',
-            results: recipe.outputs,
+            results: [],
             ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 10 }],
             heat_requirement: 'heated'
         };
+        recipe.outputs.forEach((output) => {
+            r.results.push({
+                id: output.id,
+                count: output.count,
+                chance: output.chance ? output.chance * 2 : 1.0
+            });
+        });
         event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Modern Industrialization Centrifuge
