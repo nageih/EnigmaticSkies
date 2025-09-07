@@ -1,6 +1,9 @@
 {
     "items": {
-        "hidden": ["/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/"],
+        "hidden": [
+            "/createsifter:.*sifter/",
+            "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/"
+        ],
         "disabled": [
             "actuallyadditions:rice",
             "actuallyadditions:rice_seeds",
@@ -16,7 +19,6 @@
 
             "createsifter:raw_uranium_piece",
             "/createsifter:(?!string).*_mesh/",
-            "/createsifter:.*sifter/",
 
             "enderio:stirling_generator",
             "enderio:soul_engine",
