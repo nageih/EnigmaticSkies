@@ -334,6 +334,16 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'naturesaura' }],
             to_replace: `minecraft:peony`,
             replace_with: `#minecraft:flowers`
+        },
+        {
+            filter: [{ id: 'farmersdelight:cutting_board' }],
+            to_replace: `#minecraft:planks`,
+            replace_with: `#enigmatica:planks`
+        },
+        {
+            filter: [{ id: 'farmersdelight:cutting_board' }],
+            to_replace: `minecraft:stick`,
+            replace_with: `#c:rods/wooden`
         }
     ];
 

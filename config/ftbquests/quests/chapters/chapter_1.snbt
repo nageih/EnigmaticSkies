@@ -53,7 +53,8 @@
 					id: "6CA06EEB4813A544"
 					item: {
 						components: {
-							"ars_elemental:elemental_tome_caster": {
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
+							"sauce:school_tome_caster": {
 								flavor_text: "Conjures a single fluffy cloud provided it's cold enough."
 								hidden_text: "the demon free galvanize "
 								is_hidden: 1b
@@ -288,7 +289,6 @@
 									}
 								}
 							}
-							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Cloud Burst\"}"
 						}
 						count: 1
 						id: "ars_elemental:manipulation_caster_tome"
@@ -300,7 +300,8 @@
 					id: "37389C4060D19A21"
 					item: {
 						components: {
-							"ars_elemental:elemental_tome_caster": {
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Brawndo\"}"
+							"sauce:school_tome_caster": {
 								flavor_text: "It's got what plants crave!"
 								hidden_text: "eldritch demon gargleblaster"
 								is_hidden: 1b
@@ -377,7 +378,6 @@
 									}
 								}
 							}
-							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Brawndo\"}"
 						}
 						count: 1
 						id: "ars_elemental:earth_caster_tome"
@@ -468,11 +468,20 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 9
 					id: "73676519AD4FD2E0"
 					item: {
 						count: 1
 						id: "farmersdelight:tree_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7347F9266B367DC4"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
 					}
 					type: "item"
 				}
@@ -521,6 +530,7 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "135D7483AC80CDCB"
 					item: {
 						count: 1

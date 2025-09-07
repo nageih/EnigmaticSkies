@@ -10,8 +10,7 @@ ServerEvents.recipes((event) => {
             results: [
                 { id: 'theurgy:crystallized_water', chance: 0.15 },
                 { id: 'ae2:sky_dust', chance: 0.15 },
-                { id: 'aether:blue_berry', chance: 0.15 },
-                { id: 'minecraft:wheat_seeds', chance: 0.15 }
+                { id: 'aether:blue_berry', chance: 0.15 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
             processingTime: 30,
