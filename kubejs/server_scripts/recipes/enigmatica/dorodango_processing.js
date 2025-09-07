@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: [
                 { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 4 },
-                { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 6 }
+                { id: 'modern_industrialization:sulfur_dust', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:sulfurous_dorodango', count: 1 },
             id_suffix: `sulfurous_dorodango_processing`
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        // Ars Nouveau
+        // Ars Nouveau Crushing
         let r = {
             type: 'ars_nouveau:crush',
             output: [],
@@ -72,6 +72,15 @@ ServerEvents.recipes((event) => {
         });
         event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
+        // Create Mixing
+        r = {
+            type: 'create:mixing',
+            results: recipe.outputs,
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 10 }],
+            heat_requirement: 'heated'
+        };
+        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
         // Modern Industrialization Centrifuge
         recipe.input.amount = recipe.input.count;
         r = {
@@ -80,7 +89,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [recipe.input],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
             eu: 2,
-            duration: 200
+            duration: 5 * 20
         };
         recipe.outputs.forEach((output) => {
             r.item_outputs.push({

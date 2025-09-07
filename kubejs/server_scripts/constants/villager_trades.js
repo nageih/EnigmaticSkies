@@ -57,28 +57,33 @@ const villagerTrades = {
     // Composter
     'minecraft:farmer': [
         {
-            result: { id: 'farmersdelight:organic_compost', count: 2 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            result: { id: 'farmersdelight:organic_compost', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'ars_nouveau:agronomic_sourcelink', count: 2 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            result: { id: 'ars_nouveau:agronomic_sourcelink', count: 1 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 1
         },
         {
-            result: { id: 'actuallyadditions:worm', count: 2 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            result: { id: 'actuallyadditions:worm', count: 4 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
-            result: { id: 'pneumaticcraft:crop_support', count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            result: { id: 'pneumaticcraft:crop_support', count: 4 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
-            result: { id: 'actuallyadditions:greenhouse_glass', count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            result: { id: 'actuallyadditions:greenhouse_glass', count: 2 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
+            level: 3
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
             level: 3
         }
     ],

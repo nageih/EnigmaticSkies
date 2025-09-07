@@ -209,14 +209,15 @@ StartupEvents.registry('item', (event) => {
 
     const simple_items = [
         'ruby',
+        'source_berry_roll_dough',
+
+        'melon_ball',
         'boggy_dorodango',
         'briny_dorodango',
         'silty_dorodango',
         'volcanic_dorodango',
         'cloudy_dorodango',
-        'sulfurous_dorodango',
-        'melon_ball',
-        'source_berry_roll_dough'
+        'sulfurous_dorodango'
     ];
 
     simple_items.forEach((item) => {

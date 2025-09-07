@@ -15,7 +15,8 @@
             "actuallyadditions:lens_of_the_miner",
             "actuallyadditions:lens_of_the_killer",
 
-            "/ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/",
+            "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
+            "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
 
             "createsifter:raw_uranium_piece",
             "/createsifter:(?!string).*_mesh/",

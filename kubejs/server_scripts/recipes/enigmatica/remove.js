@@ -65,9 +65,9 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
-        {
-            output: /ars.*:ritual_(awakening|challenge|burrowing|animal_summon|elder_summon|mana_regeneration|sedimentation)/
-        },
+        { output: /ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/ },
+        { output: /ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/ },
+        { output: 'ars_nouveau:ritual_overgrowth' },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: `ars_nouveau:imbuement_chamber` },
         { id: /ars_nouveau:.*_sourcelink/ },
@@ -76,7 +76,6 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:storage_lectern` },
         { id: `ars_nouveau:repository` },
         { id: `ars_nouveau:repository_controller` },
-        { id: `ars_nouveau:pointed_dripstone` },
         { id: `ars_nouveau:water_essence_to_bucket` },
         { id: `ars_nouveau:source_berry_roll` },
         { id: `ars_nouveau:ritual_brazier` },
@@ -273,6 +272,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:nether_brick' },
         { id: 'minecraft:netherite_ingot' },
         { id: 'minecraft:pumpkin_pie' },
+        { id: `minecraft:pointed_dripstone` },
         { id: 'minecraft:bread' },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
