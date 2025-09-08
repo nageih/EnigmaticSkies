@@ -718,6 +718,7 @@
 				id: "theurgy:fermentation_vat"
 			}
 			id: "49E18B07D6E4A5EB"
+			min_width: 300
 			rewards: [{
 				id: "0BAF80F5C8A871B3"
 				item: {

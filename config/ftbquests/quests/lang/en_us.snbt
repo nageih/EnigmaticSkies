@@ -3011,6 +3011,12 @@
 		"&a    your farm. "
 	]
 	quest.49958725A4710861.title: "Monster Farming"
+	quest.49E18B07D6E4A5EB.quest_desc: [
+		""
+		""
+		"&7Conjure Quicksoil&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aCrush&r"
+	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"

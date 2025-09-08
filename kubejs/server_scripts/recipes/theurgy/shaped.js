@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:ingots/andesite_alloy',
                 B: 'aether:ambrosium_shard',
                 C: 'handcrafted:terracotta_thick_pot',
-                D: 'aether:skyroot_planks'
+                D: '#enigmatica:planks'
             },
             id: `${id_prefix}sal_ammoniac_tank`
         },
@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:ingots/andesite_alloy',
                 B: 'aether:ambrosium_shard',
                 C: 'handcrafted:terracotta_thick_pot',
-                D: 'aether:skyroot_planks'
+                D: '#enigmatica:planks'
             },
             id: `${id_prefix}sal_ammoniac_accumulator`
         },
@@ -36,11 +36,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'theurgy:fermentation_vat',
-            pattern: ['A', 'B', 'C'],
+            pattern: ['CAC', 'CBC', 'CCC'],
             key: {
                 A: 'aether:ambrosium_shard',
                 B: 'aether:quicksoil',
-                C: 'minecraft:barrel'
+                C: '#enigmatica:planks'
             },
             id: `${id_prefix}fermentation_vat`
         },
