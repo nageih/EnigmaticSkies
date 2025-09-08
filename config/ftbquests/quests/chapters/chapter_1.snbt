@@ -546,6 +546,7 @@
 				}
 				id: "2536D4AABBEB1FF0"
 				observe_type: 0
+				optional_task: true
 				timer: 0L
 				to_observe: "cold_sweat:hearth_bottom"
 				type: "observation"
