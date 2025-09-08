@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             output: 'aether:holystone',
             input: `aether:icestone`,
             xp: 0.1,
-            duration: 200,
+            duration: 100,
             id: `${id_prefix}holystone`
         },
         {

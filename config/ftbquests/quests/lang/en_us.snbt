@@ -200,7 +200,7 @@
 		""
 		"Remember to keep an eye on your Hearth as well! A bucket of water will only last about 12 minutes. "
 		""
-		"&6⚠ Note: Water Sources are not infinite! "
+		"&6⚠ Note: Water Sources are &nnot&r &6infinite! "
 	]
 	quest.0751B009795D7889.quest_desc: [
 		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
@@ -640,14 +640,6 @@
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
-	quest.1272A1D0BD9934AE.quest_desc: [
-		"Looking for some fancy new wood to build with? "
-		""
-		"Productive Trees has just about anything you could ask for. "
-		""
-		"Working with the mod is straightforward but be sure to check out the Guidebook for an in-depth walkthrough on cross-pollination. "
-	]
-	quest.1272A1D0BD9934AE.title: "Productive Trees"
 	quest.128449F277949E31.quest_desc: [
 		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
 		""
@@ -876,6 +868,18 @@
 		"&a    discover more."
 	]
 	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
+	quest.15FAB1720AD470A0.quest_desc: [
+		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. For those, we'll need some form of insulation. "
+		""
+		"We can manage for now with raw Aerogel, though we'll likely need to improve on it later for more advanced machinery."
+		""
+		""
+		"&7Conjure Aerogel&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
+		""
+		""
+		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
+	]
 	quest.16A5D60F0825B318.quest_desc: [
 		"The Quantum Entangloporter acts as a cross-dimensional hub for moving materials and energy. "
 		""
@@ -3012,10 +3016,29 @@
 	]
 	quest.49958725A4710861.title: "Monster Farming"
 	quest.49E18B07D6E4A5EB.quest_desc: [
+		"With the latent energies in Ambrosium, we can create a Fermentation Vat to magically transmute certain materials. "
 		""
+		"We just need a suitable material to line the vat with to control the reaction."
 		""
 		"&7Conjure Quicksoil&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aCrush&r"
+		""
+		"&n                                                                          &r"
+		""
+		"The Fermentation Vat is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while close."
+		""
+		"The Vat will open again automatically once it can no longer do any work. Be that because it finished, ran out of room for outputs, or ran out of inputs. "
+		""
+		""
+		"                     &n&7A Note on Automation&r&r"
+		""
+		"Fluids and Items may be inserted by any form of logistics such as pipes or hoppers, but only while the device is open. Similarly, items may only be extracted while it is open."
+		""
+		"The device may be closed by applying a Redstone signal to any side other than the front, which can be identified by the red dot at the bottom. "
+		""
+		"Regardless of the signal, the device will still open automatically if it has no room for outputs."
+		""
+		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
 	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
@@ -3356,11 +3379,15 @@
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
 	quest.51636F3E5A461A7B.quest_desc: [
-		"You'll be able to scrape away the ice from your &7Icestone&r on a cutting board with any &7Axe&r."
+		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
 		""
 		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
 		""
 		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
+		""
+		"&6⚠ Note: Sneak to cast Touch Spells "
+		"&6    on certain blocks like Machines "
+		"&6    or Icestone."
 	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."
@@ -3955,6 +3982,7 @@
 		""
 		"With a &7Knife&r, you’ll be able to break &7Grass&r for &7Straw&r."
 	]
+	quest.62C7492F54D80CBA.title: "On the Chopping Block"
 	quest.62CD365A54A0DE47.quest_desc: [
 		"Welcome to Immersive Engineering!"
 		""
@@ -4171,7 +4199,7 @@
 		""
 		"Feel free to recreate the pentacle elsewhere as desired if you need more room for automation."
 		""
-		"                 &nA Note on Automation&r"
+		"                 &n&7A Note on Automation&r&r"
 		""
 		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, worry not. "
 		""
@@ -5049,13 +5077,6 @@
 		"{@pagebreak}"
 		"(new page placeholder text)"
 	]
-	quest.7F237202A5D7EFBD.quest_desc: [
-		"The hammers and shovels added by Vanilla Plus Tools break their respective blocks in a 3x3 area, making them an easy choice for early mining."
-		""
-		"&a🛈 Tip: Search &3@vanillaplus&r &ain EMI to"
-		"&a    discover more."
-	]
-	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
 	quest.7F445C22C528AC1F.quest_desc: [
 		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
 		""

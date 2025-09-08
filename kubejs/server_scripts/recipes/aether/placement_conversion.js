@@ -27,6 +27,7 @@ ServerEvents.recipes((event) => {
         // Default
         '#aether:ultracold': [
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
             { in: 'minecraft:cobblestone', out: 'aether:icestone' },
             { in: 'minecraft:stone', out: 'aether:holystone' },
@@ -39,6 +40,7 @@ ServerEvents.recipes((event) => {
         // Flourishing
         'minecraft:mangrove_swamp': [
             { in: 'minecraft:dirt', out: 'minecraft:mud' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
             { in: 'minecraft:grass_block', out: 'minecraft:mud' },
             { in: 'minecraft:cobblestone', out: 'minecraft:tuff' },
             { in: 'minecraft:stone', out: 'naturesaura:infused_stone' },
@@ -49,6 +51,7 @@ ServerEvents.recipes((event) => {
         ], // Cascading
         'minecraft:warm_ocean': [
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
             { in: 'minecraft:cobblestone', out: 'minecraft:clay' },
             { in: 'minecraft:stone', out: 'minecraft:terracotta' },
@@ -60,6 +63,7 @@ ServerEvents.recipes((event) => {
         // Blazing
         'ars_nouveau:archwood_forest': [
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
             { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
             { in: 'minecraft:cobblestone', out: 'minecraft:blackstone' },
             { in: 'minecraft:stone', out: 'minecraft:polished_blackstone' },
@@ -71,6 +75,7 @@ ServerEvents.recipes((event) => {
         // Vexing
         'minecraft:mushroom_fields': [
             { in: 'minecraft:dirt', out: 'malum:blighted_earth' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
             { in: 'minecraft:grass_block', out: 'malum:blighted_earth' },
             { in: 'minecraft:cobblestone', out: 'malum:tainted_rock' },
             { in: 'minecraft:stone', out: 'malum:smooth_tainted_rock' },

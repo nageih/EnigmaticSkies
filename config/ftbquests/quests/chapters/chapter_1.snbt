@@ -420,18 +420,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "4386E849D6D7FE0D"
-					item: { components: { "minecraft:base_color": "brown" }, count: 1, id: "ars_nouveau:novice_spell_book" }
-					type: "item"
-				}
-				{
-					id: "735E479A8D361A66"
-					item: { count: 1, id: "aether:icestone" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4386E849D6D7FE0D"
+				item: { components: { "minecraft:base_color": "brown" }, count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -7.5d
 		}
@@ -566,12 +559,17 @@
 			id: "51636F3E5A461A7B"
 			tasks: [
 				{
-					id: "41ED123F8F99DAB2"
+					id: "678B9980D7EB0A8E"
+					item: { count: 1, id: "aether:icestone" }
+					type: "item"
+				}
+				{
+					id: "542385E02BBF6F7E"
 					item: { count: 1, id: "aether:holystone" }
 					type: "item"
 				}
 				{
-					id: "4EC2E265FDCA0978"
+					id: "58BEDF4AD341A7F9"
 					item: { count: 1, id: "aether:ambrosium_shard" }
 					type: "item"
 				}
@@ -661,6 +659,7 @@
 				id: "enderio:primitive_alloy_smelter"
 			}
 			id: "15FAB1720AD470A0"
+			min_width: 300
 			tasks: [
 				{
 					id: "332A320109CC0BC4"
@@ -1206,12 +1205,6 @@
 				{
 					id: "64C24F802CD9C37E"
 					item: { count: 1, id: "theurgy:crystallized_water" }
-					type: "item"
-				}
-				{
-					id: "22BE26AD1DA9E642"
-					item: { count: 1, id: "minecraft:wheat_seeds" }
-					optional_task: true
 					type: "item"
 				}
 				{
