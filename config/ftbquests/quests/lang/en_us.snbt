@@ -114,7 +114,7 @@
 		""
 		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
 		""
-		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will!"
+		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
 	]
 	quest.03D475AF2266ECB6.title: "Tool Smith"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -194,7 +194,7 @@
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
 	quest.074827E52A09685F.quest_desc: [
-		"Water, precious and rare, will be hard to come by in this place. Try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
+		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
 		""
 		"To Sift, hold a &7Mesh&r in one hand and &7Clouds&r in the other, then simply hold the &7Right Mouse Button&r. "
 		""
@@ -873,6 +873,7 @@
 		""
 		"We can manage for now with raw Aerogel, though we'll likely need to improve on it later for more advanced machinery."
 		""
+		"&6&nExample Spell&r"
 		""
 		"&7Conjure Aerogel&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
@@ -3020,6 +3021,8 @@
 		""
 		"We just need a suitable material to line the vat with to control the reaction."
 		""
+		"&6&nExample Spell&r"
+		""
 		"&7Conjure Quicksoil&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aCrush&r"
 		""
@@ -5076,6 +5079,16 @@
 	quest.7E2295CDDF92E34F.quest_desc: [
 		"{@pagebreak}"
 		"(new page placeholder text)"
+	]
+	quest.7EE93B81F83AD199.quest_desc: [
+		"Enchanting Clay appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
+		""
+		"No matter, this should prove quite useful."
+		"&n                                                  &r"
+		""
+		"To work with Goo, place it and then place the required block next to it so the two are touching. "
+		""
+		"In this case, we’ll need some &7Slime Blocks&r, which you can make from dough. We'll also need to feed the thing something suitably magical. A &7Source Berry Roll&r ought to suffice."
 	]
 	quest.7F445C22C528AC1F.quest_desc: [
 		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "

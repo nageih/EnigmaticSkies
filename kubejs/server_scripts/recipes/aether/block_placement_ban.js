@@ -11,6 +11,16 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: 'enigmatica:torch' },
             biome: '#aether:ultracold',
             id: 'aether:torch_block_ban'
+        },
+        {
+            ingredient: { block: 'minecraft:dispenser' },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}dispenser`
+        },
+        {
+            ingredient: { block: 'minecraft:kelp' },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}kelp`
         }
     ];
 

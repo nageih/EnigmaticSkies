@@ -9,6 +9,11 @@ StartupEvents.registry('fluid', (event) => {
             name: 'Vulcanized Rubber',
             type: 'thick',
             color: 0x1e1e1f
+        },
+        {
+            name: 'Briny Seawater',
+            type: 'thin',
+            color: 0x75c8ff
         }
     ];
 

@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:gems/palis'
         },
         {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }, { mod: 'transfer_labels' }],
             to_replace: '#c:dusts/redstone',
             replace_with: '#c:gems/restonia'
         },
@@ -124,7 +124,7 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/copper'])
         },
         {
-            filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }],
+            filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }, { mod: `transfer_labels` }],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
@@ -154,6 +154,11 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: 'minecraft:cobblestone',
             replace_with: Ingredient.of(['minecraft:andesite'])
+        },
+        {
+            filter: [{ output: `minecraft:dispenser` }],
+            to_replace: 'minecraft:bow',
+            replace_with: Ingredient.of(['#c:strings'])
         },
         {
             filter: [
@@ -259,6 +264,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `modern_industrialization:electrum_cable`,
             replace_with: `modern_industrialization:cupronickel_cable`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:aluminum_cable`,
+            replace_with: `modern_industrialization:kanthal_cable`
         },
         {
             filter: {},

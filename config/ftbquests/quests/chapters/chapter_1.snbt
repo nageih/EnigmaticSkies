@@ -660,6 +660,15 @@
 			}
 			id: "15FAB1720AD470A0"
 			min_width: 300
+			rewards: [{
+				count: 8
+				id: "3F995B25C946F844"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "332A320109CC0BC4"
@@ -744,7 +753,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -1001,6 +1010,7 @@
 				"15FAB1720AD470A0"
 				"2D755021F6490B86"
 				"49E18B07D6E4A5EB"
+				"7EE93B81F83AD199"
 			]
 			icon: {
 				components: {
@@ -1015,10 +1025,10 @@
 			}
 			id: "03D475AF2266ECB6"
 			rewards: [{
-				id: "09EA73BEE7C94E16"
+				id: "6215DA90B3AB56FD"
 				item: {
 					count: 1
-					id: "theurgy:crystallized_water"
+					id: "create:white_seat"
 				}
 				type: "item"
 			}]
@@ -1247,6 +1257,35 @@
 				{
 					id: "3CF8B33BFC616F4C"
 					item: { count: 1, id: "ars_nouveau:source_berry_roll" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"78E557B17D1EB84F"
+				"2D755021F6490B86"
+			]
+			icon: {
+				id: "justdirethings:gooblock_tier1"
+			}
+			id: "7EE93B81F83AD199"
+			tasks: [
+				{
+					id: "1DCBD70622DFEE82"
+					item: { count: 1, id: "justdirethings:gooblock_tier1" }
+					type: "item"
+				}
+				{
+					id: "3326F37971490C8F"
+					item: { count: 1, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+				{
+					id: "158DF0904C630CAB"
+					item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
 					type: "item"
 				}
 			]

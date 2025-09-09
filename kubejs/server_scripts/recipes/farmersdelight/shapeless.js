@@ -3,13 +3,30 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '5x farmersdelight:wheat_dough',
-            inputs: ['#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat', '#c:buckets/water', '#c:eggs'],
+            output: '12x farmersdelight:wheat_dough',
+            inputs: [
+                Ingredient.of(['#c:buckets/water', 'theurgy:crystallized_water']),
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:eggs'
+            ],
             id: `${id_prefix}wheat_dough_with_egg`
         },
         {
-            output: '3x farmersdelight:wheat_dough',
-            inputs: ['#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat', '#c:buckets/water'],
+            output: '6x farmersdelight:wheat_dough',
+            inputs: [
+                Ingredient.of(['#c:buckets/water', 'theurgy:crystallized_water']),
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat',
+                '#c:flours/wheat'
+            ],
             id: `${id_prefix}wheat_dough_with_water`
         }
     ];

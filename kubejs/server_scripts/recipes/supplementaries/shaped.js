@@ -9,6 +9,16 @@ ServerEvents.recipes((event) => {
                 A: 'supplementaries:ash'
             },
             id: `${id_prefix}ash_brick`
+        },
+        {
+            output: 'supplementaries:bellows',
+            pattern: ['ABA', 'C C', 'ABA'],
+            key: {
+                A: '#minecraft:wooden_slabs',
+                B: '#c:plates/brass',
+                C: '#c:leathers'
+            },
+            id: `${id_prefix}bellows`
         }
     ];
 

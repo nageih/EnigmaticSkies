@@ -43,6 +43,33 @@ ServerEvents.recipes((event) => {
                 C: '#c:ingots/soularium'
             },
             id: `${id_prefix}soul_chain`
+        },
+        {
+            output: `enderio:energized_gear`,
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:ingots/energetic_alloy',
+                B: '#c:gears/iron'
+            },
+            id: `${id_prefix}energized_gear`
+        },
+        {
+            output: `enderio:vibrant_gear`,
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:ingots/vibrant_alloy',
+                B: '#c:gears/energized'
+            },
+            id: `${id_prefix}vibrant_gear`
+        },
+        {
+            output: `enderio:dark_bimetal_gear`,
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:ingots/dark_steel',
+                B: '#c:gears/iron'
+            },
+            id: `${id_prefix}dark_bimetal_gear`
         }
     ];
 

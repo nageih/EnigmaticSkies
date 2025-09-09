@@ -174,11 +174,10 @@ ServerEvents.recipes((event) => {
     gears.forEach((material) => {
         recipes.push({
             output: `modern_industrialization:${material}_gear`,
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' A ', 'ABA', ' A '],
             key: {
-                A: `#c:nuggets/${material}`,
-                B: `#c:ingots/${material}`,
-                C: '#c:gems/ruby'
+                A: `#c:ingots/${material}`,
+                B: '#c:gems/ruby'
             },
             id: `${id_prefix}${material}_gear`
         });

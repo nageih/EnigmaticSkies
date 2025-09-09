@@ -96,15 +96,16 @@ const villagerTrades = {
     // Barrel
     'minecraft:fisherman': [
         {
+            result: { id: 'minecraft:dried_kelp', count: 8 },
+            ingredients: [{ id: 'enigmatica:bottomless_breadsticks', count: { min: 2, max: 4 } }],
+            level: 1
+        },
+        {
             result: { id: 'aquaculture:goldfish', count: 8 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 1
         },
-        {
-            result: { id: 'aquaculture:jellyfish', count: 8 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
-            level: 1
-        },
+
         {
             result: { id: 'aquaculture:red_shrooma', count: 8 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
@@ -115,6 +116,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
             level: 2
         },
+
         {
             result: { id: 'minecraft:cod', count: 4 },
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
@@ -130,6 +132,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
+
         {
             result: { id: 'sushigocrafting:raw_tuna', count: 4 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],

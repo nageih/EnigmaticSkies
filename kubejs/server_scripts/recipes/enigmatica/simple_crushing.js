@@ -484,11 +484,21 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gravels' },
             outputs: [{ id: 'minecraft:sand', count: 1 }],
             multiply: 'none',
-            exclusions: ['enderio'],
+            exclusions: ['enderio', 'oritech', 'modern_industrialization', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,
             id_suffix: 'sand_from_gravel'
+        },
+        {
+            input: { tag: 'c:cobblestones' },
+            outputs: [{ id: 'minecraft:gravel', count: 1 }],
+            multiply: 'none',
+            exclusions: ['enderio', 'oritech', 'modern_industrialization', 'create:milling'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'gravel_from_cobblestones'
         },
         {
             input: { tag: 'c:end_stones' },

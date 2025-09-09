@@ -155,6 +155,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
         { id: 'enderio:pulsating_crystal' },
+        { id: /enderio:(energized|vibrant|dark_bimetal)_gear/ },
         { id: `enderio:primitive_alloy_smelter` },
         { id: 'enderio:slice_and_splice' },
         { id: 'enderio:ensouled_chassis' },
@@ -275,6 +276,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:pumpkin_pie' },
         { id: `minecraft:pointed_dripstone` },
         { id: 'minecraft:bread' },
+        { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
         { output: /minecraft:infested/ },
@@ -314,7 +316,7 @@ ServerEvents.recipes((event) => {
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: /modern_industrialization:(lv|mv)_steam_turbine/ },
         { output: /modern_industrialization:(tin|silver|electrum)_cable/ },
-        { output: /modern_industrialization:(copper|cupronickel|kanthal|annealed_copper)_cable/ },
+        { output: /modern_industrialization:(copper|cupronickel|kanthal|annealed_copper|aluminum|platinum)_cable/ },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
         { id: 'modern_industrialization:steam_age/bronze/machine_casing_asbl' },
         { id: 'modern_industrialization:steam_age/steel/machine_casing_asbl' },
@@ -327,6 +329,7 @@ ServerEvents.recipes((event) => {
         { id: /modern_industrialization:assembler_generated\/steam_age\/(fluid|item)_pipe/ },
         { id: /modern_industrialization:compat\/ae2\/(electrolyzer|mixer)/ },
         { id: /modern_industrialization:materials\/mixer\/lubricant/ },
+        { id: /modern_industrialization:dyes\/.*\/mixer\/synthetic_oil/ },
         { id: 'modern_industrialization:materials/mixer/oil_to_rubber' },
         { id: 'modern_industrialization:materials/blast_furnace/raw_oil_to_oil' },
         { id: /modern_industrialization:materials\/mixer\/.*to_raw_oil/ },
@@ -441,6 +444,7 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:refinery' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: 'pneumaticcraft:crop_support' },
+        { output: 'pneumaticcraft:compressed_iron_gear' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
         { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
@@ -465,6 +469,7 @@ ServerEvents.recipes((event) => {
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
+        { id: 'supplementaries:bellows' },
 
         // Tempad
         { id: 'tempad:time_steel_create' },
@@ -490,6 +495,7 @@ ServerEvents.recipes((event) => {
         { output: 'utilitarian:grrass' },
         { id: 'utilitarian:utility/green_dye' },
         { id: 'utilitarian:utility/bread' },
+        { id: 'utilitarian:utility/dispenser' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals
