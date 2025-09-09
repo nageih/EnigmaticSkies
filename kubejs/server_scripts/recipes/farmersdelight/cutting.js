@@ -3,27 +3,37 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredients: [{ item: 'minecraft:glow_berries' }],
             result: [{ item: { id: 'minecraft:yellow_dye', count: 2 } }],
+            ingredients: [{ item: 'minecraft:glow_berries' }],
             tool: { tag: 'c:tools/knife' },
             id: `${id_prefix}yellow_dye_from_glow_berries`
         },
         {
-            ingredients: [{ item: 'aether:icestone' }],
             result: [
                 { item: { id: 'aether:holystone', count: 1 } },
                 { item: { id: 'minecraft:snowball', count: 1 }, chance: 0.1 }
             ],
+            ingredients: [{ item: 'aether:icestone' }],
             sound: { sound_id: 'minecraft:block.snow.break' },
             tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
             id: `${id_prefix}holystone`
         },
         {
-            ingredients: [{ item: 'aether:skyroot_slab' }],
             result: [{ item: { id: 'enderio:wood_gear', count: 1 }, chance: 0.75 }],
+            ingredients: [{ item: 'aether:skyroot_slab' }],
             sound: { sound_id: 'minecraft:item.axe.strip' },
             tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
             id: `${id_prefix}wood_gear`
+        },
+        {
+            result: [
+                { item: { id: 'pneumaticcraft:wheat_flour', count: 1 } },
+                { item: { id: 'pneumaticcraft:wheat_flour', count: 1 }, chance: 0.25 }
+            ],
+            ingredients: [{ item: 'minecraft:wheat' }],
+            sound: { sound_id: 'minecraft:block.gravel.break' },
+            tool: { tag: 'minecraft:shovels' },
+            id: `${id_prefix}wheat_flour`
         }
         // {
         //     ingredients: [{ item: 'minecraft:clay' }],

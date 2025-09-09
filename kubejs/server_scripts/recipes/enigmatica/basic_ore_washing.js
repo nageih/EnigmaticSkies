@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/salt`).getId(), count: 2, chance: 0.25 }
+                { id: 'malum:strange_crystal', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
                 ingredients: [recipe.input],
                 results: recipe.outputs
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Centrifuge Water
@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
                 r.item_outputs.push({ item: output.id, amount: output.count, probability: output.chance });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}_with_water`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_water`);
         }
 
         // Modern Industrialization Centrifuge Sulfuric Acid
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.item_outputs.push({ item: output.id, amount: output.count * 1.5, probability: output.chance });
             });
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}_with_sulfuric_acid`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_sulfuric_acid`);
         }
     });
 });

@@ -83,6 +83,11 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}poutine`
         },
+        {
+            output: 'enigmatica:source_berry_roll_dough',
+            inputs: ['farmersdelight:wheat_dough', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_berry_roll_dough`
+        },
 
         // Villager Meals
         {
@@ -103,6 +108,30 @@ ServerEvents.recipes((event) => {
             output: 'enigmatica:bun_believable_burger',
             inputs: ['farmersdelight:hamburger', 'farmersdelight:stuffed_potato'],
             id: `${id_prefix}bun_believable_burger`
+        },
+        {
+            output: 'enigmatica:the_bun_also_rises',
+            inputs: [
+                'ars_nouveau:source_berry_roll',
+                'ars_nouveau:source_berry_roll',
+                'ars_nouveau:source_berry_roll',
+                'ars_nouveau:source_berry_roll',
+                'ars_nouveau:source_berry_roll',
+                'ars_nouveau:source_berry_roll'
+            ],
+            id: `${id_prefix}the_bun_also_rises`
+        },
+        {
+            output: 'enigmatica:glazed_and_confused',
+            inputs: [
+                'arsdelight:source_berry_cupcake',
+                'arsdelight:source_berry_cupcake',
+                'arsdelight:source_berry_cupcake',
+                'arsdelight:source_berry_cupcake',
+                'arsdelight:source_berry_cupcake',
+                'arsdelight:source_berry_cupcake'
+            ],
+            id: `${id_prefix}glazed_and_confused`
         }
     ];
 

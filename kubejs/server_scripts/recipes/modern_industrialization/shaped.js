@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/bronze',
                 B: 'create:electron_tube',
-                C: '#c:gears/bronze'
+                C: '#c:gears/iron'
             },
             id: `${id_prefix}bronze_machine_casing`
         },
@@ -84,6 +84,52 @@ ServerEvents.recipes((event) => {
                 B: 'enderio:conduit_binder'
             },
             id: `${id_prefix}item_pipe`
+        },
+        {
+            output: `modern_industrialization:motor`,
+            pattern: [' A ', 'BCB', ' A '],
+            key: {
+                A: '#c:ingots/energetic_alloy',
+                B: '#c:plates/steel',
+                C: 'oritech:magnetic_coil'
+            },
+            id: `${id_prefix}motor`
+        },
+        {
+            output: `modern_industrialization:steel_machine_casing`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:plates/steel',
+                B: 'modern_industrialization:analog_circuit',
+                C: '#c:gears/steel'
+            },
+            id: `${id_prefix}steel_machine_casing`
+        },
+        {
+            output: `modern_industrialization:lv_steam_turbine`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: '#modern_industrialization:fluid_pipes',
+                B: 'modern_industrialization:copper_cable',
+                C: 'modern_industrialization:copper_rotor',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'create:precision_mechanism',
+                F: 'actuallyadditions:advanced_coil'
+            },
+            id: `${id_prefix}lv_steam_turbine`
+        },
+        {
+            output: `modern_industrialization:mv_steam_turbine`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: '#modern_industrialization:fluid_pipes',
+                B: 'modern_industrialization:cupronickel_cable',
+                C: 'modern_industrialization:bronze_rotor',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}mv_steam_turbine`
         }
     ];
 
@@ -128,11 +174,10 @@ ServerEvents.recipes((event) => {
     gears.forEach((material) => {
         recipes.push({
             output: `modern_industrialization:${material}_gear`,
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' A ', 'ABA', ' A '],
             key: {
-                A: `#c:nuggets/${material}`,
-                B: `#c:ingots/${material}`,
-                C: '#c:gems/ruby'
+                A: `#c:ingots/${material}`,
+                B: '#c:gems/ruby'
             },
             id: `${id_prefix}${material}_gear`
         });

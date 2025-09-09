@@ -7,5 +7,11 @@
     "block.modern_industrialization.bronze_centrifuge": "Bronze Centrifuge",
     "block.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
     "rei_categories.modern_industrialization.bronze_centrifuge": "Centrifuge",
-    "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge"
+    "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
+
+    "item.modern_industrialization.copper_cable": "LV Cable",
+    "item.modern_industrialization.cupronickel_cable": "MV Cable",
+    "item.modern_industrialization.kanthal_cable": "HV Cable",
+    "item.modern_industrialization.annealed_copper_cable": "EV Cable",
+    "item.modern_industrialization.superconductor_cable": "SV Cable"
 }

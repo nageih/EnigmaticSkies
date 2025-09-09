@@ -22,26 +22,26 @@ MoreJS.registerPotionBrewing((event) => {
             input: 'minecraft:awkward',
             output: 'minecraft:invisibility'
         },
-        // {
-        //     reagent: 'chococraft:gysahl_green',
-        //     input: 'minecraft:awkward',
-        //     output: 'minecraft:regeneration'
-        // },
+        {
+            reagent: 'aether:enchanted_berry',
+            input: 'minecraft:awkward',
+            output: 'minecraft:regeneration'
+        },
         {
             reagent: 'ars_nouveau:manipulation_essence',
             input: 'minecraft:awkward',
             output: 'minecraft:strength'
         },
-        // {
-        //     reagent: 'chococraft:chocobo_feather',
-        //     input: 'minecraft:awkward',
-        //     output: 'minecraft:slow_falling'
-        // },
-        // {
-        //     reagent: 'chococraft:gold_gysahl',
-        //     input: 'minecraft:slow_falling',
-        //     output: 'apothic_attributes:flying'
-        // },
+        {
+            reagent: 'aether:cold_aercloud',
+            input: 'minecraft:awkward',
+            output: 'minecraft:slow_falling'
+        },
+        {
+            reagent: 'aether:blue_berry',
+            input: 'minecraft:slow_falling',
+            output: 'apothic_attributes:flying'
+        },
         {
             reagent: 'ae2:sky_dust',
             input: 'apothic_attributes:long_flying',

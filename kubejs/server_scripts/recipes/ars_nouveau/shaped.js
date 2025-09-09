@@ -6,11 +6,66 @@ ServerEvents.recipes((event) => {
             output: `ars_nouveau:imbuement_chamber`,
             pattern: [' A ', 'B B', 'ACA'],
             key: {
-                A: '#c:nuggets/gold',
+                A: '#c:ingots/gold',
                 B: '#c:ingots/andesite_alloy',
                 C: '#c:gems/source'
             },
             id: `${id_prefix}imbuement_chamber`
+        },
+        {
+            output: 'ars_nouveau:source_berry_pie',
+            pattern: [' A ', 'BBB', 'DCD'],
+            key: {
+                A: 'ars_nouveau:magebloom',
+                B: 'arsdelight:source_berry_jam',
+                C: 'farmersdelight:pie_crust',
+                D: '#c:sugars'
+            },
+            id: `${id_prefix}source_berry_pie`
+        },
+        {
+            output: 'ars_nouveau:mycelial_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: '#c:ingots/hallowed_gold',
+                C: 'farmersdelight:organic_compost',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}mycelial_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:volcanic_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: '#c:ingots/hallowed_gold',
+                C: 'theurgy:crystallized_lava',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}volcanic_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:alchemical_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: '#c:ingots/hallowed_gold',
+                C: 'supplementaries:lumisene_bottle',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}alchemical_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:vitalic_sourcelink',
+            pattern: [' A ', 'BCB', ' D '],
+            key: {
+                A: '#c:storage_blocks/source',
+                B: '#c:ingots/hallowed_gold',
+                C: 'aether:enchanted_berry',
+                D: 'handcrafted:golden_thick_pot'
+            },
+            id: `${id_prefix}vitalic_sourcelink`
         }
     ];
 

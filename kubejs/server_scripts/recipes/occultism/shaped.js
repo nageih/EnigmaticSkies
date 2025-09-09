@@ -3,13 +3,42 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'occultism:magic_lamp_empty',
-            pattern: [' A ', 'ABA', ' AA'],
+            output: 'occultism:sacrificial_bowl',
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:ingots/silver',
-                B: '#c:ingots/iesnium'
+                A: '#c:dyes/white',
+                B: 'modern_industrialization:copper_ring',
+                C: 'handcrafted:terracotta_bowl'
             },
-            id: `occultism:crafting/magic_lamp_empty`
+            id: `${id_prefix}sacrificial_bowl`
+        },
+        {
+            output: 'occultism:dark_sacrificial_bowl',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:dyes/black',
+                B: 'modern_industrialization:copper_ring',
+                C: 'handcrafted:terracotta_bowl'
+            },
+            id: `${id_prefix}dark_sacrificial_bowl`
+        },
+        {
+            output: 'occultism:iesnium_sacrificial_bowl',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: '#c:ingots/iesnium',
+                B: 'occultism:sacrificial_bowl'
+            },
+            id: `${id_prefix}iesnium_sacrificial_bowl`
+        },
+        {
+            output: 'occultism:dark_iesnium_sacrificial_bowl',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: '#c:ingots/iesnium',
+                B: 'occultism:dark_sacrificial_bowl'
+            },
+            id: `${id_prefix}dark_iesnium_sacrificial_bowl`
         }
     ];
 

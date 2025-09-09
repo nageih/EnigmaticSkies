@@ -3,87 +3,134 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            inputs: {
-                fluid: { fluid: 'minecraft:water', amount: 1000 },
-                item: { item: 'naturesaura:aura_mushroom' }
-            },
-            outputs: {
-                fluid_output: { id: 'pneumaticcraft:yeast_culture', amount: 1000 }
-            },
-            speed: 0.1,
-            temperature: { max: 333, min: 303 },
-            id: `${id_prefix}yeast_culture`
-        },
-        {
-            inputs: {
-                item: { item: 'actuallyadditions:canola' }
-            },
-            outputs: {
-                fluid_output: { id: 'actuallyadditions:canola_oil', amount: 160 }
-            },
+            outputs: { fluid_output: { id: 'actuallyadditions:canola_oil', amount: 160 } },
+            inputs: { item: { item: 'actuallyadditions:canola' } },
             temperature: { min: 273 },
             pressure: 2.0,
             id: `${id_prefix}canola_oil`
         },
         {
-            inputs: {
-                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 }
-            },
-            outputs: {
-                fluid_output: {
-                    id: 'actuallyadditions:refined_canola_oil',
-                    amount: 1000
-                }
-            },
-            speed: 0.1,
+            outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 1000 } },
+            inputs: { fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 } },
             temperature: { max: 333, min: 303 },
             id: `${id_prefix}refined_canola_oil`
         },
         {
+            outputs: { fluid_output: { id: 'actuallyadditions:crystallized_oil', amount: 1000 } },
             inputs: {
                 fluid: { fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
-            },
-            outputs: {
-                fluid_output: {
-                    id: 'actuallyadditions:crystallized_oil',
-                    amount: 1000
-                }
             },
             temperature: { min: 273 },
             id: `${id_prefix}crystallized_oil`
         },
         {
+            outputs: { fluid_output: { id: 'actuallyadditions:empowered_oil', amount: 1000 } },
             inputs: {
                 fluid: { fluid: 'actuallyadditions:crystallized_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
-            },
-            outputs: {
-                fluid_output: { id: 'actuallyadditions:empowered_oil', amount: 1000 }
             },
             temperature: { min: 273 },
             id: `${id_prefix}empowered_oil`
         },
         {
-            inputs: { item: { tag: 'enigmatica:oil_seeds' } },
-            outputs: { fluid_output: { id: 'pneumaticcraft:vegetable_oil', amount: 50 } },
-            pressure: 2.0,
-            speed: 0.5,
-            id: `${id_prefix}vegetable_oil_from_seeds`
-        },
-        {
-            inputs: { item: { tag: 'enigmatica:oil_plants' } },
-            outputs: { fluid_output: { id: 'pneumaticcraft:vegetable_oil', amount: 20 } },
-            pressure: 2.0,
-            speed: 0.5,
-            id: `${id_prefix}vegetable_oil_from_plants`
-        },
-        {
+            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 60 } },
             inputs: { item: { item: 'ars_nouveau:frostaya_pod' } },
-            outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 20 } },
             pressure: 2.0,
             speed: 0.5,
             id: `${id_prefix}ether_gas`
+        },
+        {
+            outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
+            inputs: { item: { item: 'minecraft:glow_berries' } },
+            pressure: 1.0,
+            temperature: { min: 273 },
+            id: `${id_prefix}lumisene`
+        },
+        {
+            outputs: { item_output: { count: 1, id: 'pneumaticcraft:salmon_tempura' } },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 100 },
+                item: { item: 'pneumaticcraft:raw_salmon_tempura' }
+            },
+            temperature: { min: 423 },
+            id: `${id_prefix}salmon_tempura`
+        },
+        {
+            outputs: { item_output: { count: 4, id: 'pneumaticcraft:chips' } },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 100 },
+                item: { tag: 'c:crops/potato' }
+            },
+            temperature: { min: 423 },
+            id: `${id_prefix}chips`
+        },
+        {
+            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
+                item: { tag: 'c:dusts/redstone' }
+            },
+            temperature: { min: 373 },
+            id: `${id_prefix}lubricant`
+        },
+        {
+            outputs: { fluid_output: { amount: 500, id: 'pneumaticcraft:plastic' } },
+            inputs: {
+                fluid: { amount: 100, fluid: 'modern_industrialization:naphtha' },
+                item: { tag: 'c:gems/primal_coal' }
+            },
+            temperature: { min: 373 },
+            id: `${id_prefix}plastic`
+        },
+        {
+            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_iron' } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:lubricant', amount: 2000 },
+                item: { tag: 'c:ingots/iron' }
+            },
+            air_use_multiplier: 2.0,
+            pressure: 3.0,
+            speed: 0.5,
+            id: `${id_prefix}drill_bit_iron`
+        },
+        {
+            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_compressed_iron' } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:lubricant', amount: 4000 },
+                item: { tag: 'c:ingots/compressed_iron' }
+            },
+            air_use_multiplier: 5.0,
+            pressure: 4.0,
+            speed: 0.25,
+            temperature: { min: 573 },
+            id: `${id_prefix}drill_bit_compressed_iron`
+        },
+        {
+            outputs: { item_output: { count: 1, id: 'pneumaticcraft:drill_bit_diamond' } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:lubricant', amount: 8000 },
+                item: { tag: 'c:storage_blocks/diamond' }
+            },
+            air_use_multiplier: 10.0,
+            pressure: 7.5,
+            speed: 0.1,
+            temperature: { min: 773 },
+            id: `${id_prefix}drill_bit_diamond`
+        },
+        {
+            outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
+            inputs: { item: { item: 'minecraft:dandelion' } },
+            pressure: 4.0,
+            temperature: { min: 373 },
+            id: `${id_prefix}latex_from_dandelion`
+        },
+        {
+            outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
+            inputs: { item: { item: 'minecraft:vine' } },
+            pressure: 4.0,
+            temperature: { min: 373 },
+            id: `${id_prefix}latex_from_vine`
         }
     ];
 

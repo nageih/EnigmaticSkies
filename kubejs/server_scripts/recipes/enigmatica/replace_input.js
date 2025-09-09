@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:gems/palis'
         },
         {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }, { mod: 'transfer_labels' }],
             to_replace: '#c:dusts/redstone',
             replace_with: '#c:gems/restonia'
         },
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ mod: 'oritech' }],
             to_replace: '#c:ingots/steel',
-            replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
+            replace_with: '#c:ingots/steel'
         },
         {
             filter: [
@@ -124,14 +124,9 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/copper'])
         },
         {
-            filter: [{ output: `utilitarian:fluid_hopper` }],
+            filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }, { mod: `transfer_labels` }],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
-        },
-        {
-            filter: [{ id: `ars_nouveau:enchanting_apparatus` }],
-            to_replace: '#c:gems/diamond',
-            replace_with: Ingredient.of(['aether:ambrosium_shard'])
         },
         {
             filter: [{ id: `ars_nouveau:sourcestone` }],
@@ -159,6 +154,11 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: 'minecraft:cobblestone',
             replace_with: Ingredient.of(['minecraft:andesite'])
+        },
+        {
+            filter: [{ output: `minecraft:dispenser` }],
+            to_replace: 'minecraft:bow',
+            replace_with: Ingredient.of(['#c:strings'])
         },
         {
             filter: [
@@ -197,7 +197,7 @@ ServerEvents.recipes((event) => {
 
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:plastics',
+            to_replace: '#c:plates/plastic',
             replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
         },
         {
@@ -212,13 +212,38 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/gold',
+            to_replace: '#c:gears/diamond',
             replace_with: Ingredient.of(['#c:gears/bronze'])
         },
         {
             filter: {},
             to_replace: `industrialforegoing:machine_frame_pity`,
             replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_axe`,
+            replace_with: 'aether:holystone_axe'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_shovel`,
+            replace_with: 'aether:holystone_shovel'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_hoe`,
+            replace_with: 'aether:holystone_hoe'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_sword`,
+            replace_with: 'aether:holystone_sword'
+        },
+        {
+            filter: [{ mod: 'industrialforegoing' }],
+            to_replace: `minecraft:iron_pickaxe`,
+            replace_with: 'aether:holystone_pickaxe'
         },
         {
             filter: [{ mod: 'oritech' }],
@@ -229,6 +254,106 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
             to_replace: `#c:ingots/zinc`,
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:tin_cable`,
+            replace_with: `modern_industrialization:copper_cable`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:electrum_cable`,
+            replace_with: `modern_industrialization:cupronickel_cable`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:aluminum_cable`,
+            replace_with: `modern_industrialization:kanthal_cable`
+        },
+        {
+            filter: {},
+            to_replace: `oritech:motor`,
+            replace_with: `modern_industrialization:motor`
+        },
+        // {
+        //     filter: [{ mod: 'justdirethings' }],
+        //     to_replace: `minecraft:ender_eye`,
+        //     replace_with: '#c:gems/pulsating_crystal'
+        // },
+        // {
+        //     filter: [{ mod: 'justdirethings' }],
+        //     to_replace: `minecraft:ender_pearl`,
+        //     replace_with: '#c:gems/pulsating_crystal'
+        // },
+        {
+            filter: [{ id: /justdirethings:.*t1$/ }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: 'create:electron_tube'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t2$/ }, { id: 'justdirethings:portalgun' }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: '#c:gems/pulsating_crystal'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t1$/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: 'actuallyadditions:advanced_coil'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t2$/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: 'oritech:flux_gate'
+        },
+        {
+            filter: [{ id: /justdirethings:.*t(1|2)$/ }],
+            to_replace: `#c:gems/lapis`,
+            replace_with: 'ars_technica:calibrated_precision_mechanism'
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `#c:ingots/tainted_gold`,
+            replace_with: `#c:ingots/hallowed_gold`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `#c:storage_blocks/tainted_gold`,
+            replace_with: `#c:storage_blocks/hallowed_gold`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_fear`,
+            replace_with: `#c:essences/earth`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_joy`,
+            replace_with: `#c:essences/air`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_sorrow`,
+            replace_with: `#c:essences/water`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_anger`,
+            replace_with: `#c:essences/fire`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `minecraft:peony`,
+            replace_with: `#minecraft:flowers`
+        },
+        {
+            filter: [{ id: 'farmersdelight:cutting_board' }],
+            to_replace: `#minecraft:planks`,
+            replace_with: `#enigmatica:planks`
+        },
+        {
+            filter: [{ id: 'farmersdelight:cutting_board' }],
+            to_replace: `minecraft:stick`,
+            replace_with: `#c:rods/wooden`
         }
     ];
 

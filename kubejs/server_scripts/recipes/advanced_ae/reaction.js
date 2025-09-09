@@ -5,10 +5,10 @@ ServerEvents.recipes((event) => {
 
     ae_washables.forEach((washable) => {
         recipes.push({
+            output: { id: `ae2:fluix_${washable}_cable`, '#': 8, '#t': 'ae2:i' },
             input_items: [{ ingredient: { tag: `ae2:${washable}_cable` }, amount: 8 }],
             input_fluid: { ingredient: { fluid: 'minecraft:water' }, amount: 1000 },
             input_energy: 1000,
-            output: { id: `ae2:fluix_${washable}_cable`, '#': 8, '#t': 'ae2:i' },
             id: `${id_prefix}fluix_${washable}_cable_washing`
         });
     });
@@ -26,10 +26,6 @@ ServerEvents.recipes((event) => {
             case 'advanced_ae:quantum_alloy':
             case 'advanced_ae:quantum_infusion':
             case 'advanced_ae:quantum_alloy_plate':
-            case 'advanced_ae:redstonecrystal':
-            case 'advanced_ae:certuscrystal':
-            case 'advanced_ae:fluixcrystals':
-            case 'advanced_ae:fluixcrystalfromdust':
                 recipe.input_energy = recipe.input_energy * 100;
                 recipe.id = recipe_id;
                 break;

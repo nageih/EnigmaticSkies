@@ -7,10 +7,48 @@ ServerEvents.recipes((event) => {
             pattern: ['A', 'B', 'C'],
             key: {
                 A: 'create:polished_rose_quartz',
-                B: 'actuallyadditions:enori_crystal',
-                C: 'actuallyadditions:restonia_crystal'
+                B: '#c:gems/enori',
+                C: '#c:gems/restonia'
             },
             id: `${id_prefix}electron_tube`
+        },
+        {
+            output: `create:propeller`,
+            pattern: [' B ', 'BAB', ' B '],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: '#c:plates/iron'
+            },
+            id: `${id_prefix}propeller`
+        },
+        {
+            output: `create:whisk`,
+            pattern: [' A ', 'BAB', 'BBB'],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: '#c:plates/iron'
+            },
+            id: `${id_prefix}whisk`
+        },
+        {
+            output: `create:mechanical_harvester`,
+            pattern: ['ABA', 'ABA', ' C '],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: '#c:plates/iron',
+                C: 'create:andesite_casing'
+            },
+            id: `${id_prefix}mechanical_harvester`
+        },
+        {
+            output: `create:mechanical_plough`,
+            pattern: ['BBB', 'AAA', ' C '],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: '#c:plates/iron',
+                C: 'create:andesite_casing'
+            },
+            id: `${id_prefix}mechanical_plough`
         }
     ];
 

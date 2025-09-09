@@ -3,16 +3,20 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: [{ tag: 'c:gems/quartz' }, { tag: 'c:gems/charged_certus' }, { tag: 'c:dusts/redstone' }],
-            inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            output: { count: 2, id: 'ae2:fluix_crystal' },
+            input: [
+                { tag: 'c:gems/empowered_restonia' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:dusts/sky_stone' }
+            ],
+            inputFluid: { fluid: `theurgy:sal_ammoniac`, amount: 100 },
+            output: { id: 'ae2:fluix_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}fluix_crystal`
         },
         {
             input: [{ tag: 'c:storage_blocks/redstone' }, { tag: 'c:gems/fluix' }, { tag: 'c:dusts/glowstone' }],
             inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            output: { count: 2, id: 'appflux:redstone_crystal' },
+            output: { id: 'appflux:redstone_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}redstone_crystal`
         },
@@ -54,16 +58,16 @@ ServerEvents.recipes((event) => {
             output: {
                 id: `industrialforegoing:range_addon_tier_${i}`,
                 components: { 'titanium:augments': { Range: i } },
-                count: 1
+                count: 2
             },
             input: [
                 { item: 'actuallyadditions:restonia_crystal' },
-                { item: 'actuallyadditions:restonia_crystal' },
+                { item: 'prettypipes:blank_module' },
                 { item: `minecraft:${color}_wool` },
                 { item: 'actuallyadditions:basic_coil' },
                 { item: 'actuallyadditions:basic_coil' },
                 { item: `minecraft:${color}_wool` },
-                { item: 'actuallyadditions:palis_crystal' },
+                { item: 'prettypipes:blank_module' },
                 { item: 'actuallyadditions:palis_crystal' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },

@@ -125,37 +125,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["380D0C6385B6325C"]
-			id: "5E84329A59955F29"
-			rewards: [
-				{
-					count: 8
-					id: "54E896CF0AA64B5C"
-					item: {
-						count: 1
-						id: "actuallyadditions:canola_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "4F77EAAF82748E15"
-					item: {
-						count: 1
-						id: "actuallyadditions:canola_press"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "10CE16BF2AB8F14C"
-				item: { count: 1, id: "actuallyadditions:oil_generator" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5E84329A59955F29"]
 			id: "4B0E34ADA419D750"
 			rewards: [{
 				id: "214EE87F959460BA"
@@ -179,30 +148,12 @@
 				id: "actuallyadditions:empowerer"
 			}
 			id: "6B0673A379D483A5"
-			rewards: [
-				{
-					id: "3332E751C989C650"
-					item: {
-						count: 1
-						id: "actuallyadditions:empowered_enori_crystal_block"
-					}
-					type: "item"
-				}
-				{
-					id: "45338DD051526B70"
-					item: {
-						count: 1
-						id: "actuallyadditions:empowered_restonia_crystal_block"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7E9E76D5D195A119"
-					table_id: 167859363417192230L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E9E76D5D195A119"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "77F196EB4AE836A8"
@@ -220,7 +171,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5E84329A59955F29"]
 			id: "128669F9F6431E0A"
 			rewards: [{
 				exclude_from_claim_all: true

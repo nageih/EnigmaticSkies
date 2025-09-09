@@ -47,8 +47,7 @@
 	    ["minecraft:villager", 0, 0, 0.5, "F"],
 	    ["aether:sheepuff", -40, -15, 0.4, "F"],
 	    ["aether:phyg", -20, -10, 0.3, "F"],
-	    ["aether:flying_cow", -20, -10, 0.3, "F"],
-	    
+	    ["aether:flying_cow", -20, -10, 0.3, "F"]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the temperature system for entities

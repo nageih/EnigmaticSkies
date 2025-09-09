@@ -45,6 +45,30 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Aura Generator`).green()]
         },
         {
+            items: ['naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:plant_boost"}]'],
+            text: [Text.of(`Inhibits boosted plant growth from Aura`).green()]
+        },
+        {
+            items: ['naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:nether_grass"}]'],
+            text: [Text.of(`Inhibits Aura induced grass growth in the Nether`).green()]
+        },
+        {
+            items: ['naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:cache_recharge"}]'],
+            text: [Text.of(`Inhibits Aura from charging a worn Aura Cache or Aura Trove`).green()]
+        },
+        {
+            items: ['naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:ore_spawn"}]'],
+            text: [Text.of(`Converts stone to random ores with Aura`).green()]
+        },
+        {
+            items: ['naturesaura:effect_powder[naturesaura:effect_powder_data={effect:"naturesaura:animal"}]'],
+            text: [Text.of(`Induces animals to breed in areas with high Aura`).green()]
+        },
+        {
+            items: ['naturesaura:break_prevention'],
+            text: [Text.of(`Prevents using a tool if it would break on the next use`).green()]
+        },
+        {
             items: ['naturesaura:snow_creator'],
             text: [Text.of(`Snow and Ice Maker`).green()]
         },
@@ -258,31 +282,7 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Bulk Unstackable Storage`).green()]
         },
         {
-            items: ['occultism:chalk_light_gray', 'occultism:chalk_gray', 'occultism:chalk_black'],
-            text: [Text.of(`May replace White Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_pink', 'occultism:chalk_magenta'],
-            text: [Text.of(`May replace Purple Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_green', 'occultism:chalk_lime'],
-            text: [Text.of(`May replace Yellow Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_light_blue', 'occultism:chalk_cyan'],
-            text: [Text.of(`May replace Blue or Red Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_blue', 'occultism:chalk_orange', 'occultism:chalk_brown'],
-            text: [Text.of(`May replace Red Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_rainbow'],
-            text: [Text.of(`May replace any Color Chalk in any pentacle`).gold()]
-        },
-        {
-            items: ['occultism:chalk_void'],
+            items: ['occultism:chalk_void', 'occultism:chalk_rainbow'],
             text: [Text.of(`May replace any Chalk in any pentacle`).gold()]
         },
         {

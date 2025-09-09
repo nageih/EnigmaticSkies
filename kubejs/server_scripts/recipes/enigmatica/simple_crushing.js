@@ -484,21 +484,41 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gravels' },
             outputs: [{ id: 'minecraft:sand', count: 1 }],
             multiply: 'none',
-            exclusions: ['enderio'],
+            exclusions: ['enderio', 'oritech', 'modern_industrialization', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,
             id_suffix: 'sand_from_gravel'
         },
         {
+            input: { tag: 'c:cobblestones' },
+            outputs: [{ id: 'minecraft:gravel', count: 1 }],
+            multiply: 'none',
+            exclusions: ['enderio', 'oritech', 'modern_industrialization', 'create:milling'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'gravel_from_cobblestones'
+        },
+        {
             input: { tag: 'c:end_stones' },
             outputs: [{ id: 'occultism:crushed_end_stone', count: 4 }],
             multiply: 'none',
-            exclusions: [],
+            exclusions: ['create:milling'],
             fe: 9600,
             eu: 2,
             duration: 40,
             id_suffix: 'crushed_end_stone'
+        },
+        {
+            input: { item: 'minecraft:basalt' },
+            outputs: [{ id: 'createsifter:crushed_basalt', count: 1 }],
+            multiply: 'none',
+            exclusions: ['create:milling'],
+            fe: 9600,
+            eu: 2,
+            duration: 40,
+            id_suffix: 'crushed_basalt'
         },
         {
             input: { tag: 'c:netherracks' },
@@ -507,7 +527,7 @@ ServerEvents.recipes((event) => {
                 { id: 'create:cinder_flour', count: 1, chance: 0.5 }
             ],
             multiply: 'chance_only',
-            exclusions: ['create:crushing'],
+            exclusions: ['create:crushing', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,
@@ -522,6 +542,36 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'pulsating_powder'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_horn' },
+            outputs: [{ id: 'arsdelight:wilden_horn_powder', count: 2 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_horn_powder'
+        },
+        {
+            input: { item: 'ars_nouveau:wilden_spike' },
+            outputs: [{ id: 'arsdelight:wilden_spike_powder', count: 2 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wilden_spike_powder'
+        },
+        {
+            input: { item: 'minecraft:calcite' },
+            outputs: [{ id: 'occultism:crushed_calcite', count: 4 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'calcite_powder'
         }
     ];
 
@@ -573,7 +623,7 @@ ServerEvents.recipes((event) => {
                 r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // EnderIO
@@ -591,7 +641,7 @@ ServerEvents.recipes((event) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Oritech Grinder
@@ -602,7 +652,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 time: recipe.duration * 1.5 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Crushing
@@ -613,7 +663,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 2 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Milling
@@ -624,7 +674,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 1.5 * 20
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Macerator
@@ -646,7 +696,7 @@ ServerEvents.recipes((event) => {
                 });
             });
 
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

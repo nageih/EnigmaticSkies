@@ -144,20 +144,83 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ` `,
                 `Enables 5x Ore Multiplier in the Fermentation Station.`,
                 ` `,
-                `Enables gentle-harvesting in the Plant Gatherer`
+                `Enables gentle-harvesting in the Plant Gatherer.`
             ]
+        },
+        {
+            filter: ['#malum:strange_materials'],
+            text: [`May appear when using Bone Meal on Blighted land.`]
+        },
+        {
+            filter: ['#industrialforegoing:sludge'],
+            text: [`May be produced in a Sludge Refiner. Sludge is a by-product of the Plant Gatherer.`]
         }
     ];
 
+    Object.keys(spiritEntities).forEach((type) => {
+        let description = { filter: [`malum:${type}_spirit`], text: ['Obtained from the following mobs:'] };
+        let previous_mod = '';
+
+        spiritEntities[type].sort().forEach((entity) => {
+            let current_mod = entity.split(':')[0];
+            if (current_mod != previous_mod) {
+                previous_mod = current_mod;
+
+                if (current_mod == 'creeperoverhaul') {
+                    current_mod = 'Creeper Overhaul';
+                } else if (current_mod == 'sushigocrafting') {
+                    current_mod = 'Sushi Go Crafting';
+                } else {
+                    current_mod = toTitleCase(current_mod.replace('_', ' '));
+                }
+
+                description.text.push(' ', `${current_mod}`);
+            }
+            description.text.push(Text.string(' ● ').append(Text.translate(`entity.${entity.replace(':', '.')}`)));
+        });
+        descriptions.push(description);
+    });
+
+    Object.keys(essenceEntities).forEach((type) => {
+        let description = { filter: [type], text: ['Obtained from the following mobs:'] };
+        let previous_mod = '';
+
+        essenceEntities[type].sort().forEach((entity) => {
+            let current_mod = entity.split(':')[0];
+            if (current_mod != previous_mod) {
+                previous_mod = current_mod;
+
+                if (current_mod == 'creeperoverhaul') {
+                    current_mod = 'Creeper Overhaul';
+                } else if (current_mod == 'sushigocrafting') {
+                    current_mod = 'Sushi Go Crafting';
+                } else {
+                    current_mod = toTitleCase(current_mod.replace('_', ' '));
+                }
+
+                description.text.push(' ', `${current_mod}`);
+            }
+            description.text.push(Text.string(' ● ').append(Text.translate(`entity.${entity.replace(':', '.')}`)));
+        });
+        descriptions.push(description);
+    });
+
     Object.keys(villagerTrades).forEach((profession) => {
-        var levels = ['Unemployed', 'Novice', 'Apprentice', 'Journeyman', 'Expert', 'Master'];
         villagerTrades[profession].forEach((recipe) => {
+            // "entity.minecraft.villager.farmer"
+            // "entity.minecraft.villager.actuallyadditions.engineer"
+
+            let lang_key = `entity.minecraft.villager.${profession.replace('minecraft:', '').replace(':', '.')}`;
+
             descriptions.push({
                 filter: [Item.of(recipe.result.id)],
                 text: [
-                    `Obtained by trading with ${profession.split(':')[1].replace('_', ' ')} villagers.`,
+                    Text.string(`Obtained by trading with `)
+                        .append(Text.translate(lang_key))
+                        .append(Text.string(' Villagers.')),
+
                     ` `,
-                    `Trade Level: ${levels[recipe.level]}`
+                    Text.string(`Trade Level: `).append(Text.translate(`merchant.level.${recipe.level}`))
                 ]
             });
         });

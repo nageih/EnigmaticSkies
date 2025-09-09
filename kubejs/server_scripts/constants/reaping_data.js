@@ -1,0 +1,70 @@
+//priority: 1001
+
+const reapingData = [
+    {
+        registry_name: 'minecraft:bogged',
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '0.2', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:breeze',
+        drops: [{ ingredient: { item: 'malum:wind_nucleus' }, chance: '0.5', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:enderman',
+        drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '0.3', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:ghast',
+        drops: [{ ingredient: { item: 'malum:astral_weave' }, chance: '0.5', min: '1', max: '3' }]
+    },
+    {
+        registry_name: 'minecraft:husk',
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.15', min: '1', max: '2' }]
+    },
+    {
+        registry_name: 'minecraft:phantom',
+        drops: [{ ingredient: { item: 'malum:astral_weave' }, chance: '0.25', min: '1', max: '2' }]
+    },
+    {
+        registry_name: 'minecraft:skeleton',
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '0.2', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:stray',
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '0.2', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:wither_skeleton',
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '0.1', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:zoglin',
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.1', min: '1', max: '3' }]
+    },
+    {
+        registry_name: 'minecraft:zombie',
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.1', min: '1', max: '3' }]
+    },
+    {
+        registry_name: 'minecraft:zombie_villager',
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.1', min: '1', max: '3' }]
+    },
+    {
+        registry_name: 'minecraft:zombified_piglin',
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.1', min: '1', max: '3' }]
+    }
+];
+
+const essenceEntities = {
+    'malum:astral_weave': [],
+    'malum:grim_talc': [],
+    'malum:rotting_essence': [],
+    'malum:warp_flux': [],
+    'malum:wind_nucleus': []
+};
+
+reapingData.forEach((data) => {
+    data.drops.forEach((entry) => {
+        essenceEntities[entry.ingredient.item].push(data.registry_name);
+    });
+});

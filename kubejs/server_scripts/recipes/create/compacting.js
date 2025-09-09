@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
-            results: [{ id: 'industrialforegoing:ether_gas', amount: 10 }],
+            results: [{ id: 'industrialforegoing:ether_gas', amount: 60 }],
             ingredients: [{ item: 'ars_nouveau:frostaya_pod' }],
             id: `${id_prefix}ether_gas`
         }

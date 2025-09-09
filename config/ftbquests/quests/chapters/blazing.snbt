@@ -7,12 +7,13 @@
 		id: "ars_nouveau:thread_fire_focus"
 	}
 	id: "0A799F91D9A1C8A1"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["008F3C0FB9F4B451"]
 			id: "78626EE046E48EF3"
+			min_width: 250
 			tasks: [{
 				id: "2EE92F0404F62B4C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
@@ -115,8 +116,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			id: "08DF4DF1B5FEAF10"
@@ -125,7 +126,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			id: "6E2B56F277B80477"
@@ -133,8 +134,8 @@
 				id: "545F39B6325986CA"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["05B678EEBCC0CDE6"]
@@ -157,6 +158,50 @@
 			}]
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["09599F64E0788B37"]
+			id: "5AC80FA3683D9E45"
+			tasks: [{
+				id: "73931E7879D691A3"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			icon: {
+				id: "arsdelight:blazing_bark"
+			}
+			id: "31CAA3BC20CCDF25"
+			shape: "gear"
+			tasks: [
+				{
+					id: "1E9B682D3FC55F98"
+					item: { count: 1, id: "arsdelight:blazing_bark" }
+					type: "item"
+				}
+				{
+					id: "66A54DE872CEF13D"
+					item: { count: 1, id: "minecraft:polished_blackstone" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05B678EEBCC0CDE6"]
+			id: "07FFBD39930CE9F7"
+			tasks: [{
+				id: "7986D8EC49A44922"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 }

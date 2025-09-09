@@ -11,16 +11,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ash_brick`
         },
         {
-            output: 'supplementaries:statue',
-            pattern: ['AB', 'CD'],
+            output: 'supplementaries:bellows',
+            pattern: ['ABA', 'C C', 'ABA'],
             key: {
-                A: 'minecraft:clay',
-                B: 'minecraft:name_tag',
-                C: '#c:tools/knife',
-                D: '#c:gems/emeradic'
+                A: '#minecraft:wooden_slabs',
+                B: '#c:plates/brass',
+                C: '#c:leathers'
             },
-            damage: { item: '#c:tools/knife', amount: 30 },
-            id: `${id_prefix}statue`
+            id: `${id_prefix}bellows`
         }
     ];
 

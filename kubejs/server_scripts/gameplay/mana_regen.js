@@ -1,18 +1,16 @@
 PlayerEvents.tick((event) => {
-    const player = event.player;
-    // const pData = player.persistentData;
+    const { player, server } = event;
 
     if (player.tickCount % 20 != 0 || player.isFake() || !player.isPlayer()) return;
 
-    let effects = player.potionEffects.getActive();
-
-    effects.forEach((effect) => {
+    player.potionEffects.getActive().forEach((effect) => {
         if (effect.getDescriptionId() == 'effect.cold_sweat.warmth') {
-            if (effect.getAmplifier() <= 5) {
-                player.potionEffects.add('ars_nouveau:mana_regen', 4 * 20, 0, false, false);
-            } else {
-                player.potionEffects.add('ars_nouveau:mana_regen', 4 * 20, 1, false, false);
-            }
+            let potion = { id: 'ars_nouveau:mana_regen', amp: 1, duration: 4 * 20, ambient: false, particles: false };
+            if (effect.getAmplifier() <= 5) potion.amp = 0;
+
+            server.scheduleInTicks(2, () => {
+                player.potionEffects.add(potion.id, potion.duration, potion.amp, potion.ambient, potion.particles);
+            });
         }
     });
 });

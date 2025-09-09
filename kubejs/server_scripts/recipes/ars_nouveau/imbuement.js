@@ -3,146 +3,131 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:air_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'aether:moa_eggs' }],
             source: 2000,
             id: `${id_prefix}air_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:air_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'aether:moa_eggs' }],
             source: 6000,
             id: `${id_prefix}air_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:earth_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
             source: 2000,
             id: `${id_prefix}earth_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:earth_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
             source: 6000,
             id: `${id_prefix}earth_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:fire_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ tag: 'c:crops/wasabi_root' }, { item: 'supplementaries:lumisene_bottle' }],
             source: 2000,
             id: `${id_prefix}fire_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:fire_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ tag: 'c:crops/wasabi_root' }, { item: 'supplementaries:lumisene_bottle' }],
             source: 6000,
             id: `${id_prefix}fire_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:water_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'theurgy:crystallized_water' }],
             source: 2000,
             id: `${id_prefix}water_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:water_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'theurgy:crystallized_water' }],
             source: 6000,
             id: `${id_prefix}water_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:manipulation_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'minecraft:glow_berries' }, { item: 'actuallyadditions:restonia_crystal' }],
             source: 2000,
             id: `${id_prefix}manipulation_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:manipulation_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'minecraft:glow_berries' }, { item: 'actuallyadditions:restonia_crystal' }],
             source: 6000,
             id: `${id_prefix}manipulation_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:abjuration_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'minecraft:nether_wart' }, { item: 'actuallyadditions:diamatine_crystal' }],
             source: 2000,
             id: `${id_prefix}abjuration_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:abjuration_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'minecraft:nether_wart' }, { item: 'actuallyadditions:diamatine_crystal' }],
             source: 6000,
             id: `${id_prefix}abjuration_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_nouveau:conjuration_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'ars_nouveau:magebloom' }, { item: 'actuallyadditions:palis_crystal' }],
             source: 2000,
             id: `${id_prefix}conjuration_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:conjuration_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'ars_nouveau:magebloom' }, { item: 'actuallyadditions:palis_crystal' }],
             source: 6000,
             id: `${id_prefix}conjuration_essence_from_block`
         },
         {
-            input: { tag: 'c:gems/source' },
             output: { id: 'ars_elemental:anima_essence', count: 1 },
+            input: { tag: 'c:gems/source' },
             pedestalItems: [{ item: 'actuallyadditions:coffee_beans' }, { item: 'actuallyadditions:void_crystal' }],
             source: 2000,
             id: `${id_prefix}anima_essence`
         },
         {
-            input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_elemental:anima_essence', count: 4 },
+            input: { tag: 'c:storage_blocks/source' },
             pedestalItems: [{ item: 'actuallyadditions:coffee_beans' }, { item: 'actuallyadditions:void_crystal' }],
             source: 6000,
             id: `${id_prefix}anima_essence_from_block`
         },
         {
-            input: { tag: 'c:storage_blocks/amethyst' },
             output: { id: 'ars_nouveau:source_gem_block', count: 1 },
+            input: { tag: 'c:storage_blocks/amethyst' },
             pedestalItems: [],
             source: 500 * 3,
             id: `ars_nouveau:amethyst_block`
         },
 
         {
-            input: Ingredient.of(
-                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
-            ).toJson(),
-            output: Item.of(
-                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]'
-            ).toJson(),
-            pedestalItems: [
-                { item: 'actuallyadditions:void_crystal' },
-                { tag: 'c:dusts/end_stone' },
-                { tag: 'c:obsidians' }
-            ],
-            source: 2000,
-            id: `${id_prefix}end_aura`
-        },
-        {
-            input: Ingredient.of(
-                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
-            ).toJson(),
             output: Item.of(
                 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
+            ).toJson(),
+            input: Ingredient.of(
+                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
             ).toJson(),
             pedestalItems: [
                 { item: 'actuallyadditions:restonia_crystal' },
@@ -154,39 +139,39 @@ ServerEvents.recipes((event) => {
         },
         // Glyph removal fixes
         {
-            input: { tag: 'c:gems/quartz' },
             output: { id: 'ars_elemental:acceleration_prism_lens', count: 1 },
+            input: { tag: 'c:gems/quartz' },
             pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:powered_rail' }],
             source: 2000,
-            id: 'ars_elemental:acceleration_prism_lens'
+            id: `${id_prefix}acceleration_prism_lens`
         },
         {
-            input: { tag: 'c:gems/quartz' },
             output: { id: 'ars_elemental:deceleration_prism_lens', count: 1 },
+            input: { tag: 'c:gems/quartz' },
             pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:cobweb' }],
             source: 2000,
-            id: 'ars_elemental:deceleration_prism_lens'
+            id: `${id_prefix}deceleration_prism_lens`
         },
         {
-            input: { tag: 'c:gems/quartz' },
             output: { id: 'ars_elemental:arc_prism_lens', count: 1 },
+            input: { tag: 'c:gems/quartz' },
             pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_pearl' }],
             source: 2000,
-            id: 'ars_elemental:arc_prism_lens'
+            id: `${id_prefix}arc_prism_lens`
         },
         {
-            input: { tag: 'c:gems/quartz' },
             output: { id: 'ars_elemental:homing_prism_lens', count: 1 },
+            input: { tag: 'c:gems/quartz' },
             pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_eye' }],
             source: 2000,
-            id: 'ars_elemental:homing_prism_lens'
+            id: `${id_prefix}homing_prism_lens`
         },
         {
-            input: { tag: 'c:gems/quartz' },
             output: { id: 'ars_elemental:piercing_prism_lens', count: 1 },
+            input: { tag: 'c:gems/quartz' },
             pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'ars_nouveau:wilden_spike' }],
             source: 2000,
-            id: 'ars_elemental:piercing_prism_lens'
+            id: `${id_prefix}piercing_prism_lens`
         }
     ];
 

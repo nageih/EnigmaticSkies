@@ -1,0 +1,96 @@
+ServerEvents.recipes((event) => {
+    const id_prefix = 'enigmatica:geneticsresequenced/shaped/';
+
+    const recipes = [
+        {
+            output: 'geneticsresequenced:scraper[unbreakable={}]',
+            pattern: [' BC', ' AB', 'A  '],
+            key: {
+                A: `#c:rods/wooden`,
+                B: '#c:plates/steel',
+                C: `#c:gems/empowered_void`
+            },
+            id: `${id_prefix}scraper`
+        },
+        {
+            output: `geneticsresequenced:syringe`,
+            pattern: ['  A', ' B ', 'C  '],
+            key: {
+                A: `#c:rods/steel`,
+                B: 'minecraft:glass_bottle',
+                C: 'enderio:experience_rod'
+            },
+            id: `${id_prefix}syringe`
+        },
+        {
+            output: `geneticsresequenced:metal_syringe`,
+            pattern: [' A ', 'CBC', ' A '],
+            key: {
+                A: `#c:gems/empowered_void`,
+                B: `geneticsresequenced:syringe`,
+                C: '#c:plates/steel'
+            },
+            id: `${id_prefix}metal_syringe`
+        },
+        {
+            output: `geneticsresequenced:advanced_incubator`,
+            pattern: ['AAA', 'ABA', 'CDC'],
+            key: {
+                A: `#c:gems/empowered_void`,
+                B: `geneticsresequenced:incubator`,
+                C: '#c:gears/vibrant',
+                D: 'modern_industrialization:electronic_circuit'
+            },
+            id: `${id_prefix}advanced_incubator`
+        },
+        {
+            output: `geneticsresequenced:gene_checker`,
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: `#c:plates/plastic`,
+                B: 'enderio:z_logic_controller',
+                C: 'geneticsresequenced:syringe'
+            },
+            id: `${id_prefix}gene_checker`
+        },
+        {
+            output: `4x geneticsresequenced:overclocker`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'geneticsresequenced:organic_matter',
+                B: 'pneumaticcraft:speed_upgrade',
+                C: `#c:plates/plastic`
+            },
+            id: `${id_prefix}overclocker`
+        }
+    ];
+
+    const machines = [
+        { output: 'cell_analyzer', input: 'enderio:z_logic_controller' },
+        { output: 'dna_extractor', input: 'create:mechanical_mixer' },
+        { output: 'dna_decryptor', input: 'enderio:frank_n_zombie' },
+        { output: 'blood_purifier', input: 'create:attribute_filter' },
+        { output: 'plasmid_infuser', input: 'create:mechanical_press' },
+        { output: 'incubator', input: 'minecraft:copper_bulb' },
+        { output: 'plasmid_injector', input: 'create:spout' }
+    ];
+
+    machines.forEach((recipe) => {
+        recipes.push({
+            output: `geneticsresequenced:${recipe.output}`,
+            pattern: ['ACA', 'ABA', 'DED'],
+            key: {
+                A: `#c:plates/plastic`,
+                B: 'enderio:ensouled_chassis',
+                C: recipe.input,
+                D: '#c:gears/energized',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}${recipe.output}`
+        });
+    });
+
+    recipes.forEach((recipe) => {
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+    });
+});

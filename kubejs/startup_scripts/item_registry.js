@@ -7,7 +7,10 @@ StartupEvents.registry('item', (event) => {
         { name: `La Drygmese Poutine`, magic: true },
         { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
-        { name: `Sheep-Eatin' Green` }
+        { name: `Sheep-Eatin' Green` },
+        { name: `Flyin' Fox` },
+        { name: `The Bun Also Rises`, magic: true },
+        { name: `Glazed and Confused`, magic: true }
     ];
 
     delivery_bags.forEach((item) => {
@@ -47,6 +50,15 @@ StartupEvents.registry('item', (event) => {
             layer: 'poutine',
             nutrition: 4,
             saturation: 7.5
+        },
+        {
+            name: `Lily's Lilac Cotton Candy`,
+            layer: 'cotton_candy',
+            nutrition: 0.5,
+            saturation: 0.5,
+            effect: { id: 'minecraft:speed', duration: 60, amplifier: 0 },
+            fastToEat: true,
+            alwaysEdible: true
         }
     ];
 
@@ -62,19 +74,132 @@ StartupEvents.registry('item', (event) => {
             .useAnimation('eat')
             .food((food) => {
                 food.nutrition(realNutrition).saturation(realSaturation);
+                if (item.effect) {
+                    food.effect(item.effect.id, item.effect.duration * 20, item.effect.amplifier, 1);
+                }
+
+                if (item.alwaysEdible) food.alwaysEdible();
+                if (item.fastToEat) food.fastToEat();
             });
     });
 
-    const ritualDummies = [
+    const ritual_dummies = [
+        // Rifts
         {
-            name: 'Ritual: Overworldian Nights Rift',
-            id: 'occultism:ritual_dummy/misc_overworldian_nights',
+            name: Text.translate('item.occultism.ritual_dummy.rift_slime_apocalypse'),
+            id: 'occultism:ritual_dummy/rift_slime_apocalypse',
             type: 'misc',
-            tooltip: 'Tear a open a dimensional rift, calling forth nightmares from another world.'
+            tooltip: Text.translate('item.occultism.ritual_dummy.rift_slime_apocalypse.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.rift_wilden_calamity'),
+            id: 'occultism:ritual_dummy/rift_wilden_calamity',
+            type: 'misc',
+            tooltip: Text.translate('item.occultism.ritual_dummy.rift_wilden_calamity.tooltip')
+        },
+
+        // Animated Creatures
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_blue_swet'),
+            id: 'occultism:ritual_dummy/animate_blue_swet',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_blue_swet.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_golden_swet'),
+            id: 'occultism:ritual_dummy/animate_golden_swet',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_golden_swet.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_slime'),
+            id: 'occultism:ritual_dummy/animate_slime',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_slime.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_magma_cube'),
+            id: 'occultism:ritual_dummy/animate_magma_cube',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_magma_cube.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_zephyr'),
+            id: 'occultism:ritual_dummy/animate_zephyr',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_zephyr.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_sentry'),
+            id: 'occultism:ritual_dummy/animate_sentry',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_sentry.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_rootmin'),
+            id: 'occultism:ritual_dummy/animate_rootmin',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_rootmin.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_guardian'),
+            id: 'occultism:ritual_dummy/animate_guardian',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_guardian.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_honey_slime'),
+            id: 'occultism:ritual_dummy/animate_honey_slime',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_honey_slime.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_shulker'),
+            id: 'occultism:ritual_dummy/animate_shulker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_shulker.tooltip')
+        },
+
+        // Transmuted Creatures
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_wilden_stalker'),
+            id: 'occultism:ritual_dummy/transmute_wilden_stalker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_wilden_stalker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_wilden_hunter'),
+            id: 'occultism:ritual_dummy/transmute_wilden_hunter',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_wilden_hunter.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_wilden_guardian'),
+            id: 'occultism:ritual_dummy/transmute_wilden_guardian',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_wilden_guardian.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_wilden_boss'),
+            id: 'occultism:ritual_dummy/transmute_wilden_boss',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_wilden_boss.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_mooshroom'),
+            id: 'occultism:ritual_dummy/transmute_mooshroom',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_mooshroom.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_cockatrice'),
+            id: 'occultism:ritual_dummy/transmute_cockatrice',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_cockatrice.tooltip')
         }
     ];
 
-    ritualDummies.forEach((item) => {
+    ritual_dummies.forEach((item) => {
         event
             .create(item.id, 'occultism:ritual_dummy')
             .displayName(item.name)
@@ -82,5 +207,20 @@ StartupEvents.registry('item', (event) => {
             .ritualTooltip(item.tooltip);
     });
 
-    event.create(`enigmatica:ruby`).texture(`enigmatica:item/ruby`);
+    const simple_items = [
+        'ruby',
+        'source_berry_roll_dough',
+
+        'melon_ball',
+        'boggy_dorodango',
+        'briny_dorodango',
+        'silty_dorodango',
+        'volcanic_dorodango',
+        'cloudy_dorodango',
+        'sulfurous_dorodango'
+    ];
+
+    simple_items.forEach((item) => {
+        event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
+    });
 });

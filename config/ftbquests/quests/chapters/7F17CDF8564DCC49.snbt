@@ -22,19 +22,10 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3EA53BBEBC32F813"
-			rewards: [{
-				id: "725BDBD36A38F7A7"
-				item: {
-					count: 1
-					id: "geneticsresequenced:scraper"
-				}
-				type: "item"
-			}]
 			tasks: [{
-				id: "51472C5BD0C05E09"
-				stat: "minecraft:mob_kills"
-				type: "stat"
-				value: 1
+				id: "1B8372AE5FFB1DF7"
+				item: { count: 1, id: "geneticsresequenced:scraper" }
+				type: "item"
 			}]
 			x: -1.5d
 			y: 1.5d

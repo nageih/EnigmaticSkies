@@ -22,16 +22,27 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `bronze_ingot`
         },
-        // {
-        //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
-        //     inputs: [
-        //         { tag: 'c:ingots/gold', count: 1 },
-        //         { tag: 'c:ingots/silver', count: 1 }
-        //     ],
-        //     tier: 1,
-        //     exclusions: [],
-        //     id_suffix: `electrum_ingot`
-        // },
+        {
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
+            inputs: [
+                { tag: 'c:ingots/gold', count: 1 },
+                { tag: 'c:ingots/silver', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `electrum_ingot`
+        },
+        {
+            output: { id: 'occultism:iesnium_ingot', count: 5 },
+            inputs: [
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:ingots/silver', count: 4 },
+                { tag: 'c:dusts/diamond', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `iesnium_ingot`
+        },
         // {
         //     output: { id: AlmostUnified.getTagTargetItem('c:ingots/invar').getId(), count: 3 },
         //     inputs: [
@@ -47,7 +58,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 { tag: 'c:ingots/sky', count: 2 },
                 { item: 'minecraft:netherite_scrap', count: 1 },
-                { tag: 'c:ingots/tainted_gold', count: 2 }
+                { tag: 'c:ingots/hallowed_gold', count: 2 }
             ],
             tier: 2,
             exclusions: [],
@@ -64,9 +75,9 @@ ServerEvents.recipes((event) => {
             id_suffix: `netherite_ingot`
         },
         {
-            output: { id: 'create:andesite_alloy', count: 1 },
+            output: { id: 'create:andesite_alloy', count: 4 },
             inputs: [
-                { tag: 'c:dusts/sky_stone', count: 1 },
+                { tag: 'c:dusts/sky_stone', count: 4 },
                 { item: 'minecraft:andesite', count: 1 }
             ],
             tier: 1,
@@ -74,25 +85,35 @@ ServerEvents.recipes((event) => {
             id_suffix: `andesite_alloy`
         },
         {
-            output: { id: 'create:rose_quartz', count: 1 },
+            output: { id: 'create:andesite_alloy', count: 1 },
             inputs: [
-                { tag: 'c:gems/restonia', count: 4 },
+                { tag: 'c:dusts/sky_stone', count: 1 },
+                { item: 'createsifter:andesite_pebble', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `andesite_alloy_from_pebble`
+        },
+        {
+            output: { id: 'create:rose_quartz', count: 2 },
+            inputs: [
+                { item: 'malum:strange_crystal', count: 1 },
                 { tag: 'c:gems/black_quartz', count: 1 }
             ],
             tier: 1,
             exclusions: [],
             id_suffix: `rose_quartz`
         },
-        {
-            output: { id: 'modern_industrialization:cupronickel_ingot', count: 2 },
-            inputs: [
-                { tag: 'c:ingots/copper', count: 1 },
-                { tag: 'c:ingots/nickel', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `cupronickel_ingot`
-        },
+        // {
+        //     output: { id: 'modern_industrialization:cupronickel_ingot', count: 2 },
+        //     inputs: [
+        //         { tag: 'c:ingots/copper', count: 1 },
+        //         { tag: 'c:ingots/nickel', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `cupronickel_ingot`
+        // },
         {
             output: { id: 'modern_industrialization:battery_alloy_ingot', count: 2 },
             inputs: [
@@ -114,11 +135,32 @@ ServerEvents.recipes((event) => {
             id_suffix: `copper_alloy_ingot`
         },
         {
-            output: { id: 'enderio:energetic_alloy_ingot', count: 1 },
+            output: { id: 'enderio:redstone_alloy_ingot', count: 1 },
             inputs: [
                 { tag: 'c:dusts/redstone', count: 1 },
-                { tag: 'c:ingots/gold', count: 1 },
-                { tag: 'c:dusts/glowstone', count: 1 }
+                { tag: 'c:dusts/silicon', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `redstone_alloy_ingot`
+        },
+        {
+            output: { id: 'enderio:conductive_alloy_ingot', count: 2 },
+            inputs: [
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:ingots/infused_iron', count: 1 },
+                { tag: 'c:gems/restonia', count: 1 }
+            ],
+            tier: 1,
+            exclusions: [],
+            id_suffix: `conductive_alloy_ingot`
+        },
+        {
+            output: { id: 'enderio:energetic_alloy_ingot', count: 1 },
+            inputs: [
+                { tag: 'c:gems/empowered_restonia', count: 1 },
+                { tag: 'c:ingots/hallowed_gold', count: 1 },
+                { item: 'malum:paracausal_flame', count: 1 }
             ],
             tier: 1,
             exclusions: [],
@@ -135,27 +177,6 @@ ServerEvents.recipes((event) => {
             id_suffix: `vibrant_alloy_ingot`
         },
         {
-            output: { id: 'enderio:redstone_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:dusts/redstone', count: 1 },
-                { tag: 'c:dusts/silicon', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `redstone_alloy_ingot`
-        },
-        {
-            output: { id: 'enderio:conductive_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/copper_alloy', count: 1 },
-                { tag: 'c:ingots/iron', count: 1 },
-                { tag: 'c:dusts/redstone', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `conductive_alloy_ingot`
-        },
-        {
             output: { id: 'enderio:pulsating_alloy_ingot', count: 1 },
             inputs: [
                 { tag: 'c:ingots/copper_alloy', count: 1 },
@@ -168,11 +189,11 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
-                { tag: 'minecraft:soul_sand', count: 1 },
-                { tag: 'c:ingots/blazegold', count: 1 }
+                { item: 'oritech:wither_crop_block', count: 13 },
+                { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
             tier: 1,
-            exclusions: [],
+            exclusions: ['create'],
             id_suffix: `soularium_ingot`
         },
         {
@@ -209,22 +230,23 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'oritech:adamant_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/nickel', count: 1 },
-                { tag: 'c:gems/diamond', count: 1 }
+                { tag: 'c:ingots/neptunium', count: 1 },
+                { tag: 'c:dusts/diamond', count: 1 }
             ],
             tier: 2,
             exclusions: [],
             id_suffix: `adamant_ingot`
         },
         {
-            output: { id: 'oritech:biosteel_ingot', count: 1 },
+            output: { id: 'modern_industrialization:fire_clay_brick', count: 2 },
             inputs: [
-                { tag: 'c:ingots/infused_iron', count: 1 },
-                { item: 'oritech:raw_biopolymer', count: 1 }
+                { tag: 'c:clay', count: 1 },
+                { item: 'aether:aerogel', count: 1 },
+                { tag: 'c:dusts/ash', count: 1 }
             ],
             tier: 1,
             exclusions: [],
-            id_suffix: `biosteel_ingot`
+            id_suffix: `fire_clay_brick`
         }
     ];
 
@@ -238,7 +260,7 @@ ServerEvents.recipes((event) => {
                 energy: recipe.tier == 2 ? 9600 : 6400,
                 experience: recipe.tier == 2 ? 1.5 : 0.3
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Mixing
@@ -255,7 +277,7 @@ ServerEvents.recipes((event) => {
                 results: [recipe.output],
                 heat_requirement: recipe.tier == 2 ? 'superheated' : 'heated'
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // MI Mixing
@@ -270,7 +292,7 @@ ServerEvents.recipes((event) => {
                 duration: recipe.tier * 5 * 20,
                 eu: recipe.tier * 2
             };
-            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

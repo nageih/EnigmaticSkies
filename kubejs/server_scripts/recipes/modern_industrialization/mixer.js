@@ -125,6 +125,110 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}lumisene`
+        },
+        {
+            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 500 }],
+            item_inputs: [
+                { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
+                { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
+                { item: 'minecraft:nautilus_shell', amount: 16 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
+            ],
+            fluid_inputs: [
+                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
+                { fluid: 'extended_industrialization:manure', amount: 500 }
+            ],
+            duration: 60,
+            eu: 2,
+            id: `${id_prefix}crude_oil_from_manure`
+        },
+        {
+            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 500 }],
+            item_inputs: [
+                { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
+                { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
+                { item: 'minecraft:nautilus_shell', amount: 16 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
+            ],
+            fluid_inputs: [
+                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
+                { fluid: 'extended_industrialization:composted_manure', amount: 500 }
+            ],
+            duration: 60,
+            eu: 2,
+            id: `${id_prefix}crude_oil_from_composted_manure`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:stainless_steel_dust', amount: 9 }],
+            item_inputs: [
+                { tag: `c:dusts/iron`, amount: 6 },
+                { tag: `c:dusts/chromium`, amount: 1 },
+                { tag: `c:dusts/silicon`, amount: 1 },
+                { tag: `c:dusts/manganese`, amount: 1 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}stainless_steel_dust`
+        },
+        {
+            item_outputs: [{ item: 'ae2:fluix_crystal', amount: 2 }],
+            item_inputs: [
+                { tag: 'c:gems/empowered_restonia', amount: 1 },
+                { tag: 'c:gems/charged_certus', amount: 1 },
+                { tag: 'c:dusts/sky_stone', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: `theurgy:sal_ammoniac`, amount: 100 }],
+            duration: 5,
+            eu: 8,
+            id: `${id_prefix}fluix_crystal`
+        },
+        {
+            fluid_outputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 100 }],
+            item_inputs: [{ tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 }],
+            fluid_inputs: [{ tag: `minecraft:water`, amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}sal_ammoniac`
+        },
+        {
+            fluid_outputs: [{ fluid: 'create:chocolate', amount: 250 }],
+            item_inputs: [
+                { tag: 'c:sugars', amount: 1 },
+                { tag: 'c:crops/cocoa_bean', amount: 1 }
+            ],
+            fluid_inputs: [{ tag: `minecraft:milk`, amount: 250 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}chocolate`
+        },
+        {
+            fluid_outputs: [{ fluid: 'create:chocolate', amount: 250 }],
+            item_inputs: [{ item: 'create:bar_of_chocolate', amount: 1 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}chocolate_from_bar`
+        },
+        {
+            fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 100 }],
+            item_inputs: [
+                { tag: 'c:dusts/sulfur', amount: 1 },
+                { tag: 'c:dusts/carbon', amount: 1 }
+            ],
+            fluid_inputs: [
+                { tag: `c:latex`, amount: 1000 },
+                { tag: `c:lumisene`, amount: 100 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}vulcanized_rubber`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:rubber_sheet', amount: 1 }],
+            item_inputs: [{ item: 'farmersdelight:canvas', amount: 1 }],
+            fluid_inputs: [{ tag: `c:vulcanized_rubber`, amount: 50 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}rubber_sheet`
         }
     ];
 

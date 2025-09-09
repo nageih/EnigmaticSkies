@@ -265,32 +265,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["11EDFB60C787114D"]
-			id: "5203EDBBACDBA86A"
-			rewards: [{
-				id: "5EF154E76ECA8BD1"
-				item: {
-					count: 1
-					id: "justdirethings:fuel_canister"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0AC4E9DFF3B4EF00"
-					item: { count: 1, id: "justdirethings:generatort1" }
-					type: "item"
-				}
-				{
-					id: "1F4DE3E14E4CC939"
-					item: { count: 1, id: "justdirethings:generatorfluidt1" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["2961B707783AC925"]
 			id: "4457D6BB7AE28073"
 			rewards: [{
@@ -497,7 +471,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -0.5d
 		}
 		{

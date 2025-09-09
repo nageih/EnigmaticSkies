@@ -1,0 +1,89 @@
+ServerEvents.recipes((event) => {
+    const id_prefix = 'enigmatica:geneticsresequenced/incubator/gmo/';
+
+    const recipes = [
+        {
+            ideal_gene: 'geneticsresequenced:speed_2',
+            ingredient: { item: 'justdirethings:celestigem_boots' },
+            entity_type: 'ars_nouveau:wilden_stalker',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}speed_2_from_aerbunny`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:efficiency_4',
+            ingredient: { item: 'justdirethings:eclipsealloy_pickaxe' },
+            entity_type: 'aether:sentry',
+            gene_chance: 0.25,
+            needs_mutation_potion: true,
+            id: `${id_prefix}efficiency_4_from_sentry`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:regeneration_4',
+            ingredient: { item: 'aether:healing_stone' },
+            entity_type: 'ars_nouveau:wilden_boss',
+            gene_chance: 0.35,
+            needs_mutation_potion: true,
+            id: `${id_prefix}regeneration_4_from_wilden_boss`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:speed_4',
+            ingredient: { item: 'justdirethings:eclipsealloy_boots' },
+            entity_type: 'ars_nouveau:wilden_stalker',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}speed_4_from_cat`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:claws_2',
+            ingredient: { item: 'justdirethings:celestigem_sword' },
+            entity_type: 'aether:cockatrice',
+            gene_chance: 0.75,
+            needs_mutation_potion: true,
+            id: `${id_prefix}speed_4_from_cockatrice`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:strength_2',
+            ingredient: { item: 'justdirethings:eclipsealloy_sword' },
+            entity_type: 'ars_nouveau:wilden_guardian',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}strength_2_from_wilden_guardian`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:more_hearts',
+            ingredient: { item: 'aether:healing_stone' },
+            entity_type: 'ars_nouveau:wilden_guardian',
+            gene_chance: 0.2,
+            id: `${id_prefix}more_hearts_from_wilden_guardian`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:more_hearts_2',
+            ingredient: { item: 'aether:healing_stone' },
+            entity_type: 'ars_nouveau:wilden_guardian',
+            gene_chance: 0.25,
+            needs_mutation_potion: true,
+            id: `${id_prefix}more_hearts_2_from_wilden_guardian`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:resistance_2',
+            ingredient: { item: 'justdirethings:eclipsealloy_chestplate' },
+            entity_type: 'ars_nouveau:wilden_guardian',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}resistance_2_from_wilden_guardian`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:regeneration',
+            ingredient: { item: 'aether:healing_stone' },
+            entity_type: 'ars_nouveau:wilden_guardian',
+            gene_chance: 0.3,
+            id: `${id_prefix}regeneration_from_wilden_guardian`
+        }
+    ];
+
+    recipes.forEach((recipe) => {
+        recipe.type = 'geneticsresequenced:incubator/gmo';
+        event.custom(recipe).id(recipe.id);
+    });
+});

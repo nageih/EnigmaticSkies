@@ -114,15 +114,15 @@
 #Ability settings: For disabling certain abilities
 [abilities]
 	#mobscanner
-	mobscanner = true
+	mobscanner = false
 	#oreminer
 	oreminer = true
 	#orescanner
-	orescanner = true
+	orescanner = false
 	#lawnmower
 	lawnmower = true
 	#skysweeper
-	skysweeper = true
+	skysweeper = false
 	#treefeller
 	treefeller = true
 	#leafbreaker
@@ -136,9 +136,9 @@
 	#jumpboost
 	jumpboost = true
 	#mindfog
-	mindfog = true
+	mindfog = false
 	#invulnerability
-	invulnerability = true
+	invulnerability = false
 	#smelter
 	smelter = true
 	#smoker
@@ -156,9 +156,9 @@
 	#voidshift
 	voidshift = true
 	#orexray
-	orexray = true
+	orexray = false
 	#glowing
-	glowing = true
+	glowing = false
 	#instabreak
 	instabreak = true
 	#eclipsegate
@@ -170,7 +170,7 @@
 	#extinguish
 	extinguish = true
 	#stupefy
-	stupefy = true
+	stupefy = false
 	#negatefalldamage
 	negatefalldamage = true
 	#nightvision
@@ -194,7 +194,7 @@
 	#earthquake
 	earthquake = true
 	#noai
-	noai = true
+	noai = false
 	#flight
 	flight = true
 	#lavaimmunity
@@ -224,9 +224,9 @@
 	#waterbreathing
 	waterbreathing = true
 	#polymorph_random
-	polymorph_random = true
+	polymorph_random = false
 	#polymorph_target
-	polymorph_target = true
+	polymorph_target = false
 
 #Goo settings
 [goo]
@@ -338,10 +338,10 @@
 #Time Crystals
 [time_crystal]
 	#Do you want to customize Time Crystal Growth Dimensions? If set to true, the following 3 fields MUST be populated. Don't leave any blank! Defaults to false, which means normal growth rules occur - Stage 1 = Overworld (or any other dimension besides Nether/End), Stage 2 = Nether, Stage 3 = End.
-	time_crystal_custom_dimensions = false
+	time_crystal_custom_dimensions = true
 	#A list of dimensions that Time Crystals can Advance to Stage 1 in.
-	time_crystal_stage_1_dims = []
+	time_crystal_stage_1_dims = ["ftbteambases:bases"]
 	#A list of dimensions that Time Crystals can Advance to Stage 2 in.
-	time_crystal_stage_2_dims = []
+	time_crystal_stage_2_dims = ["ftbteambases:bases"]
 	#A list of dimensions that Time Crystals can Advance to Stage 3 in.
-	time_crystal_stage_3_dims = []
+	time_crystal_stage_3_dims = ["ftbteambases:bases"]

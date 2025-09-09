@@ -3,16 +3,39 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            fluid_outputs: [{ fluid: 'actuallyadditions:canola_oil', amount: 80 }],
+            fluid_outputs: [{ fluid: 'actuallyadditions:canola_oil', amount: 160 }],
             item_inputs: [{ item: 'actuallyadditions:canola', amount: 1 }],
-            eu: 32,
-            duration: 30,
+            eu: 2,
+            duration: 1,
             id: `${id_prefix}canola_oil`
+        },
+        {
+            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
+            item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1 }],
+            eu: 4,
+            duration: 1,
+            id: `${id_prefix}lava`
+        },
+        {
+            fluid_outputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1 }],
+            eu: 2,
+            duration: 1,
+            id: `${id_prefix}water`
+        },
+
+        {
+            fluid_outputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
+            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
+            eu: 2,
+            duration: 10,
+            id: `${id_prefix}manure`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:centrifuge';
+        recipe.duration = recipe.duration * 20;
         event.custom(recipe).id(recipe.id);
     });
 });

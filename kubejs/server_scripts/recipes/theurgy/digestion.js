@@ -53,6 +53,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}gunpowder_from_bombegranate_pod`
         },
         {
+            result: { id: 'modern_industrialization:ruby_dust', count: 2 },
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { item: 'ars_nouveau:mendosteen_pod' }, count: 1 }
+            ],
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}ruby_dust_from_mendosteen_pod`
+        },
+        {
             result: { id: 'minecraft:glowstone_dust', count: 2 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },

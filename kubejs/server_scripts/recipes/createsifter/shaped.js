@@ -3,25 +3,14 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: `createsifter:sifter`,
-            pattern: ['ABA', 'CDC', 'EEE'],
-            key: {
-                A: 'aether:skyroot_planks',
-                B: 'create:andesite_casing',
-                C: 'aether:skyroot_stick',
-                D: 'create:cogwheel',
-                E: 'aether:holystone_bricks'
-            },
-            id: `createsifter:crafting/sifter`
-        },
-        {
             output: `createsifter:string_mesh`,
-            pattern: ['AAA', 'ABA', 'AAA'],
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:rods/wooden',
-                B: 'farmersdelight:canvas'
+                A: 'farmersdelight:tree_bark',
+                B: 'aether:skyroot_slab',
+                C: 'farmersdelight:canvas'
             },
-            id: `createsifter:crafting/string_mesh`
+            id: `${id_prefix}string_mesh`
         }
     ];
 

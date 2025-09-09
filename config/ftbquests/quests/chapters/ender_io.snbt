@@ -112,27 +112,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["211E0844F3ACD244"]
-			id: "24A4BA42A83A20D0"
-			rewards: [{
-				id: "739572A260D5E739"
-				item: {
-					count: 1
-					id: "enderio:basic_capacitor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1A12D1E618FF2CCA"
-				item: { count: 1, id: "enderio:stirling_generator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 }

@@ -3,6 +3,17 @@ function getID(name) {
     return name.toLowerCase().replace(/[^a-z]+/g, '_');
 }
 
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase());
+}
+
+function hexToRgb(hex) {
+    let cleanHex = hex.startsWith('#') ? hex.slice(1) : hex;
+    // let color = cleanHex.substr(4, 2) + cleanHex.substr(2, 2) + cleanHex.substr(0, 2);
+
+    return parseInt(cleanHex, 16);
+}
+
 function getPreferredItemInTag(tag) {
     return (
         Ingredient.of(tag)
@@ -139,4 +150,30 @@ function getSpiralCoordinates(x, y, z, revolutions, height, upper_radius, lower_
         coordinates.push({ x: x + dx, y: y + dy, z: z + dz });
     }
     return coordinates;
+}
+
+function convertToBiome(event, biome, particle, radius) {
+    const { block, item, player, level, server } = event;
+    const dimension = String(level.getDimension());
+    if (!player.isCreative()) item.count--;
+    player.swing(event.hand, true);
+
+    let startPos = `${block.x + radius} ${block.y + radius / 2} ${block.z + radius}`;
+    let endPos = `${block.x - radius} ${block.y - radius / 2} ${block.z - radius}`;
+
+    let commands = [
+        `fillbiome ${startPos} ${endPos} ${biome}`,
+        `particle cold_sweat:ground_mist ${block.x} ${block.y + 1.5} ${block.z}`,
+        `particle ${particle} ${block.x} ${block.y + 1.25} ${block.z}`,
+        `playsound malum:hidden_blade_primed block @p ${block.x} ${block.y} ${block.z} 20 1`
+    ];
+
+    getCircleCoordinates(block.x, block.y, block.z, radius, 1).forEach((c) => {
+        commands.push(`particle cold_sweat:ground_mist ${c.x} ${c.y + 1.5} ${c.z}`);
+        commands.push(`particle ${particle} ${c.x} ${c.y + 1.25} ${c.z}`);
+    });
+
+    commands.forEach((command) => {
+        server.runCommandSilent(`/execute in ${dimension} run ${command}`);
+    });
 }

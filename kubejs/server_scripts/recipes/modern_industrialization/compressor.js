@@ -12,14 +12,14 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: { item: 'pneumaticcraft:compressed_iron_block', amount: 1 },
             item_inputs: { tag: 'c:storage_blocks/ferricore', amount: 1 },
-            duration: 30,
+            duration: 80,
             eu: 2,
             id: `${id_prefix}compressed_iron_block`
         },
         {
             item_outputs: { item: 'pneumaticcraft:ingot_iron_compressed', amount: 1 },
             item_inputs: { tag: 'c:ingots/ferricore', amount: 1 },
-            duration: 5,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}ingot_iron_compressed`
         },
@@ -29,6 +29,20 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 4,
             id: `${id_prefix}ruby`
+        },
+        {
+            item_outputs: { item: 'minecraft:emerald', amount: 1 },
+            item_inputs: { tag: 'c:dusts/emerald', amount: 1 },
+            duration: 10,
+            eu: 4,
+            id: `${id_prefix}emerald`
+        },
+        {
+            item_outputs: { item: AlmostUnified.getTagTargetItem(`c:plates/brass`).getId(), amount: 1 },
+            item_inputs: { tag: 'c:ingots/brass', amount: 1 },
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}brass_plate`
         }
     ];
 

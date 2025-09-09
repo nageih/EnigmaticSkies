@@ -72,17 +72,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}quantum_processor`
         },
         {
-            results: [{ id: 'ae2:flawless_budding_quartz', count: 1 }],
-            ingredients: [
-                { item: 'oritech:enderic_compound' },
-                { item: 'oritech:overcharged_crystal' },
-                { tag: 'c:gems/certus_quartz' },
-                { tag: 'c:gems/certus_quartz' }
-            ],
-            time: 160,
-            id: `${id_prefix}flawless_budding_quartz`
-        },
-        {
             results: [{ id: 'appflux:printed_energy_processor', count: 2 }],
             ingredients: [{ item: 'appflux:charged_redstone' }],
             time: 160,
@@ -97,21 +86,54 @@ ServerEvents.recipes((event) => {
             ],
             time: 160,
             id: `${id_prefix}energy_processor`
+        },
+        {
+            results: [{ id: 'oritech:magnetic_coil', count: 2 }],
+            ingredients: [
+                { item: 'modern_industrialization:steel_rod_magnetic' },
+                { item: 'modern_industrialization:copper_wire' },
+                { item: 'modern_industrialization:copper_wire' },
+                { item: 'modern_industrialization:copper_wire' }
+            ],
+            time: 160,
+            id: `${id_prefix}magnetic_coil`
+        },
+        {
+            results: [{ id: 'modern_industrialization:motor', count: 1 }],
+            ingredients: [
+                { item: 'oritech:magnetic_coil' },
+                { tag: 'c:plates/steel' },
+                { tag: 'c:ingots/energetic_alloy' }
+            ],
+            time: 160,
+            id: `${id_prefix}motor`
+        },
+        {
+            results: [{ id: 'oritech:flux_gate', count: 1 }],
+            ingredients: [
+                { item: 'actuallyadditions:advanced_coil' },
+                { tag: 'c:gems/fluxite' },
+                { tag: 'c:ingots/energetic_alloy' },
+                { tag: 'c:plates/silicon' }
+            ],
+            time: 160,
+            id: `${id_prefix}flux_gate`
+        },
+        {
+            results: [{ id: 'oritech:clay_catalyst_beads', count: 8 }],
+            ingredients: [
+                { item: 'minecraft:clay' },
+                { item: 'minecraft:clay' },
+                { tag: 'c:storage_blocks/sulfur' },
+                { item: 'oritech:raw_silicon' }
+            ],
+            time: 160,
+            id: `${id_prefix}clay_catalyst_beads`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:assembler';
-
-        if (!recipe.fluidInputVariant) {
-            recipe.fluidInputVariant = 'minecraft:empty';
-            recipe.fluidInputAmount = 0;
-        }
-        if (!recipe.fluidOutputVariant) {
-            recipe.fluidOutputVariant = 'minecraft:empty';
-            recipe.fluidOutputAmount = 0;
-        }
-
         event.custom(recipe).id(recipe.id);
     });
 });

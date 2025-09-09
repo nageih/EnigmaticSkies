@@ -6,11 +6,11 @@ ServerEvents.recipes((event) => {
             output: 'pneumaticcraft:liquid_compressor[pneumaticcraft:upgrades={map:{"pneumaticcraft:security":1},upgrades:[{item:{count:1,id:"pneumaticcraft:security_upgrade"},slot:0}]}]',
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: 'modern_industrialization:bronze_rotor',
-                B: 'modern_industrialization:bronze_tank',
+                A: '#c:gears/compressed_iron',
+                B: 'create:precision_mechanism',
                 C: 'pneumaticcraft:pressure_tube',
-                D: 'modern_industrialization:bronze_compressor',
-                E: 'pneumaticcraft:reinforced_bricks'
+                D: 'supplementaries:bellows',
+                E: 'pneumaticcraft:reinforced_stone'
             },
             id: 'pneumaticcraft:liquid_compressor'
         },
@@ -25,12 +25,11 @@ ServerEvents.recipes((event) => {
             id: 'pneumaticcraft:advanced_liquid_compressor'
         },
         {
-            output: '2x pneumaticcraft:compressed_iron_gear',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            output: 'pneumaticcraft:compressed_iron_gear',
+            pattern: [' B ', 'BAB', ' B '],
             key: {
-                A: '#c:nuggets/dark_steel',
-                B: '#c:ingots/compressed_iron',
-                C: '#c:dusts/grains_of_infinity'
+                A: '#c:gems/ruby',
+                B: '#c:ingots/compressed_iron'
             },
             id: `${id_prefix}compressed_iron_gear`
         },
