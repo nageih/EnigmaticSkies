@@ -234,6 +234,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}effect_powder_cache_recharge`
+        },
+        {
+            result: { id: 'aether:enchanted_gravitite', count: 1 },
+            reagent: { item: 'naturesaura:infused_stone' },
+            pedestalItems: [
+                { tag: 'c:essences/earth' },
+                { item: 'malum:strange_crystal' },
+                { item: 'malum:strange_crystal' },
+                { item: 'malum:strange_crystal' },
+                { tag: 'c:essences/air' },
+                { item: 'malum:strange_crystal' },
+                { item: 'malum:strange_crystal' },
+                { item: 'malum:strange_crystal' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}enchanted_gravitite`
         }
     ];
 

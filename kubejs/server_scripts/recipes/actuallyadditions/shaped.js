@@ -69,6 +69,16 @@ ServerEvents.recipes((event) => {
                 D: 'actuallyadditions:emeradic_crystal'
             },
             id: `${id_prefix}canola_press`
+        },
+        {
+            output: 'actuallyadditions:ranged_collector',
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: '#c:gems/void',
+                B: 'aether:enchanted_gravitite',
+                C: 'minecraft:hopper'
+            },
+            id: `${id_prefix}ranged_collector`
         }
     ];
 

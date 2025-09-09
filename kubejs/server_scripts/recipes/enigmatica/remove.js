@@ -39,6 +39,7 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:canola_press` },
         { id: `actuallyadditions:tagged_sticky_piston` },
         { id: `actuallyadditions:greenhouse_glass` },
+        { id: 'actuallyadditions:ranged_collector' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -160,6 +161,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:slice_and_splice' },
         { id: 'enderio:ensouled_chassis' },
         { id: 'enderio:soul_chain' },
+        { id: 'enderio:vacuum_chest' },
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },
@@ -247,6 +249,7 @@ ServerEvents.recipes((event) => {
         { output: 'justdirethings:generatort1' },
         { output: 'justdirethings:generatorfluidt1' },
         { output: 'justdirethings:polymorphic_catalyst' },
+        { id: 'justdirethings:itemcollector' },
         { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
         { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
         { id: /justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/ },
@@ -334,6 +337,9 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:materials/blast_furnace/raw_oil_to_oil' },
         { id: /modern_industrialization:materials\/mixer\/.*to_raw_oil/ },
 
+        // Modular Routers
+        { id: 'modularrouters:vacuum_module' },
+
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
         { type: 'naturesaura:tree_ritual' },
@@ -351,6 +357,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:calling_spirit' },
         { id: 'naturesaura:tainted_gold_block' },
         { id: 'naturesaura:tainted_gold' },
+        { id: 'naturesaura:hopper_upgrade' },
         { id: `naturesaura:altar/coal` },
         { id: `naturesaura:altar/infused_stone` },
         { id: `naturesaura:altar/nether_wart` },
