@@ -277,7 +277,7 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
 

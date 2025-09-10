@@ -181,7 +181,11 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:chocolate_pie' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
 
+        // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
+
+        // Gateways
+        { output: /gateways:gate_pearl/ },
 
         // Genetics
         { output: 'geneticsresequenced:coal_generator' },

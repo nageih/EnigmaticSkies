@@ -17,8 +17,6 @@
 */
 
 MIMachineEvents.registerMachines((event) => {
-    const MIMachineRecipeTypes = Java.loadClass('aztech.modern_industrialization.machines.init.MIMachineRecipeTypes');
-
     // Assembler - Extends default Assembler into Steam Age
     event.craftingSingleBlock(
         /* GENERAL PARAMETERS FIRST */
@@ -53,41 +51,5 @@ MIMachineEvents.registerMachines((event) => {
         true,
         true,
         false
-    );
-
-    // Centrifuge - Extends defaul Centrifuge into Steam Age
-    event.craftingSingleBlock(
-        /* GENERAL PARAMETERS FIRST */
-        // English name, internal name, recipe type, list of tiers (can be bronze/steel/electric)
-        'Centrifuge',
-        'centrifuge',
-        MIMachineRecipeTypes.CENTRIFUGE,
-        ['bronze', 'steel'],
-
-        /* GUI CONFIGURATION */
-        // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
-        -1,
-        event.progressBar(65, 33, 'centrifuge'),
-        event.efficiencyBar(50, 66),
-        event.energyBar(42, 27),
-
-        /* SLOT CONFIGURATION */
-        // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs
-        1,
-        4,
-        1,
-        4,
-        // Capacity for fluid slots
-        16,
-        // Slot positions: items and fluids.
-        // Explanation: 3x3 grid of item slots starting at position (42, 27), then 1x3 grid of item slots starting at position (139, 27).
-        (items) => items.addSlot(42, 27).addSlots(93, 27, 2, 2),
-        (fluids) => fluids.addSlot(42, 45).addSlots(131, 27, 2, 2),
-
-        /* MODEL CONFIGURATION */
-        // front overlay?, top overlay?, side overlay?
-        true,
-        true,
-        true
     );
 });
