@@ -1291,6 +1291,7 @@
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
+	quest.22344008D43D4710.title: "Chef's Aid"
 	quest.223BE2F1F8A5C87C.quest_desc: [
 		"The Replication Terminal is used to request crafts from patterns stored on Memory Chips. "
 		""
@@ -1761,6 +1762,7 @@
 		""
 		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that that isn't already known by you. "
 	]
+	quest.2F9C801DFAC1C0D9.title: "Storage Lectern"
 	quest.2FB39BF76836FA47.quest_desc: [
 		"With all these Zombies and Skeletons walking around, is it really a surprise that Undeath has spread to the foliage as well?"
 		""
@@ -3386,6 +3388,7 @@
 		""
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
+	quest.513BDF32A8F6EF45.title: "Ballin'"
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
 		""
@@ -5162,7 +5165,6 @@
 	task.066938F7CBA7C454.title: "Advanced Pattern Provider"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
-	task.073E96723ED36CAF.title: "WIP"
 	task.0767C8200D0389A6.title: "Essences"
 	task.077608276B306F47.title: "Chemical Storage"
 	task.07D8961C49D02845.title: "Archwood Saplings"
@@ -5180,7 +5182,6 @@
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
-	task.124B2D6AB6865030.title: "WIP"
 	task.1291CAC439E06D6C.title: "Rune"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
@@ -5249,6 +5250,7 @@
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
+	task.3FEC46CB05E92C9B.title: "WIP Islands"
 	task.40BF2920569F9751.title: "Addon: Speed"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
 	task.41360E57DF841209.title: "Assembler"

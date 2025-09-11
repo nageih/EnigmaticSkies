@@ -69,7 +69,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'ars_nouveau:mycelial_sourcelink', count: 1 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
@@ -78,9 +78,15 @@ const villagerTrades = {
             level: 2
         },
         {
+            result: { id: 'actuallyadditions:feeder', count: 1 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
             result: { id: 'pneumaticcraft:crop_support', count: 4 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
-            level: 2
+            level: 3
         },
         {
             result: { id: 'actuallyadditions:greenhouse_glass', count: 2 },
@@ -90,7 +96,7 @@ const villagerTrades = {
         {
             result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
-            level: 3
+            level: 4
         }
     ],
     // Barrel
