@@ -1,7 +1,7 @@
 // https://github.com/AztechMC/Modern-Industrialization/blob/7048dbcb5279d78cf41a49d02bb45ab758e7ce6f/docs/ADDING_MACHINES.md
 
 /*
-    Notes: When adding new machines, allow MI to generate the necessary resources 
+    Notes: When adding new machines, allow MI to generate the necessary resources
     by enabling `datagenOnStartup = true` in `modern_industrialization-startup.toml`.
     This will generate them in the `modern_industrialization` at the instance root.
 
@@ -17,6 +17,8 @@
 */
 
 MIMachineEvents.registerMachines((event) => {
+    const MIMachineRecipeTypes = Java.loadClass('aztech.modern_industrialization.machines.init.MIMachineRecipeTypes');
+
     // Centrifuge - Extends default Centrifuge into Steam Age
     event.craftingSingleBlock(
         /* GENERAL PARAMETERS FIRST */

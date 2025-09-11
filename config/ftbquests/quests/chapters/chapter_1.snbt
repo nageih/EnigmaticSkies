@@ -44,6 +44,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["130A2701B96A941D"]
 			disable_toast: true
 			icon: {
 				id: "aether:aether_portal_frame"
@@ -396,12 +397,14 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			tasks: [{
+				disable_toast: true
 				id: "3B6A2E42A7F4D6C2"
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["62C7492F54D80CBA"]
@@ -511,7 +514,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["45F3C4F0EDA160C5"]
 			id: "130A2701B96A941D"
 			min_width: 250
 			rewards: [
@@ -535,18 +537,15 @@
 			]
 			shape: "gear"
 			tasks: [{
+				biome: "minecraft:the_void"
 				icon: {
 					id: "cold_sweat:hearth"
 				}
-				id: "2536D4AABBEB1FF0"
-				observe_type: 0
-				optional_task: true
-				timer: 0L
-				to_observe: "cold_sweat:hearth_bottom"
-				type: "observation"
+				id: "4EAFCD169CB43E2D"
+				type: "biome"
 			}]
 			x: 3.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -697,7 +696,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2F1EA0B091C700E1"]
 			icon: {
 				id: "theurgy:calcination_oven"
 			}
@@ -816,7 +814,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["04D144DC0EAE8BE3"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "minecraft:loom"
 			}
@@ -846,11 +844,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -3.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["105CABB7D9705359"]
+			dependencies: ["03D475AF2266ECB6"]
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -863,12 +861,12 @@
 				}
 				{
 					id: "23A6FA63A91742A7"
-					item: { count: 1, id: "aquaculture:goldfish" }
+					item: { count: 1, id: "aquaculture:brown_shrooma" }
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5550423B6E6BDBAF"]
@@ -908,8 +906,12 @@
 					item: { count: 1, id: "ars_elemental:flashpine_pod" }
 					type: "item"
 				}
+				{
+					id: "124B2D6AB6865030"
+					type: "checkmark"
+				}
 			]
-			x: 0.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -920,17 +922,23 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
 			id: "14D946E0F94255AD"
-			tasks: [{
-				id: "327EE60C36D5C134"
-				item: { count: 1, id: "ars_elemental:anima_essence" }
-				type: "item"
-			}]
-			x: 5.5d
+			tasks: [
+				{
+					id: "327EE60C36D5C134"
+					item: { count: 1, id: "ars_elemental:anima_essence" }
+					type: "item"
+				}
+				{
+					id: "073E96723ED36CAF"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -941,7 +949,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1001,8 +1009,8 @@
 				item: { count: 1, id: "ars_nouveau:arcane_core" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1F1B78D4388E9332"]
@@ -1011,7 +1019,7 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -1098,7 +1106,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["34FB10F0A2504973"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "minecraft:composter"
 			}
@@ -1111,12 +1119,12 @@
 				}
 				{
 					id: "556F73EC41171F78"
-					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -1166,8 +1174,8 @@
 				item: { count: 1, id: "minecraft:lectern" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["34FB10F0A2504973"]
@@ -1185,8 +1193,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -1206,7 +1214,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -1308,6 +1316,35 @@
 			]
 			x: 4.5d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2F1EA0B091C700E1"
+				"04D144DC0EAE8BE3"
+			]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "1D783196F551142F"
+			tasks: [
+				{
+					id: "6E0AB2F0B23E5F4E"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "59848C2372B58A4C"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "2046631D06A53FF1"
+					item: { count: 1, id: "enigmatica:suns_out_buns_out" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 }

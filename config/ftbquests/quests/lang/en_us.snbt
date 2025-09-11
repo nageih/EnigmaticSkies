@@ -614,9 +614,7 @@
 	quest.105CABB7D9705359.quest_desc: [
 		"Farmers have some very helpful tools to help you speed up your farms. Be sure to check out their wares!"
 		""
-		"They'll also help you get started with Source production with an Agronomic Sourcelink. "
-		""
-		"This should produce plentiful Source for now but you will want to move on to something more powerful later, however, such as a Mycelial Sourcelink."
+		"They'll also help you get started with Source production with a Mycelial Sourcelink which will convert food items directly to Source."
 	]
 	quest.105CABB7D9705359.title: "Farmer"
 	quest.10762E4BB7F187BE.quest_desc: [
@@ -710,7 +708,7 @@
 		"&a🛈 Tip: Any Furnace Fuel may be used to heat "
 		"    &athe Boiler under the Hearth."
 	]
-	quest.130A2701B96A941D.title: "Staying Warm"
+	quest.130A2701B96A941D.title: "Welcome to the Skies!"
 	quest.130C6FC212F64474.quest_desc: [
 		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
 		""
@@ -1901,10 +1899,10 @@
 	quest.34FB10F0A2504973.quest_desc: [
 		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
 		""
-		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a &7Tablet of Conjure Island: Lush Garden&r, as well as a couple IOUs for Flying Cows."
+		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a &7Tablet of Conjure Island: Lush Garden&r, as well as a couple &7IOUs for Flying Cows&r."
 		"&n                                                  &r"
 		""
-		"Be careful when setting up these Conjure Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
+		"Be careful when setting up these Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
 		""
 		"This island is a good example, as it contains several necessary plants and a structure you'll need to proceed. "
 		""
@@ -2737,6 +2735,8 @@
 		"Regular Ice may be harvested with any Pickaxe of Stone quality or higher."
 		""
 		"Packed and Blue Ice may similarly be harvested with a Pickaxe of Iron quality or higher. "
+		""
+		"A Spell Book will still need the &6Extract&r glyph to pick up Ice, however."
 	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
@@ -2785,6 +2785,11 @@
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
 	quest.45F3C4F0EDA160C5.quest_desc: [
+		"You’ve got nothing but your wits and a few trinkets to work with. These two books will help you get started. One will summon a fluffy cloud while the other will grow plants for you. "
+		""
+		"Use it to grow your sapling!"
+		"&n                                                  &r"
+		""
 		"Lost your books? Ran out of Saplings? "
 		""
 		"This quest is repeatable to get you going again!"
@@ -3896,7 +3901,7 @@
 		"    • &7Phygs"
 		"    • &7Sheepuffs"
 	]
-	quest.605A60825B68C2D7.title: "Animal Senicence"
+	quest.605A60825B68C2D7.title: "Animal Senescence"
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [
@@ -5157,6 +5162,7 @@
 	task.066938F7CBA7C454.title: "Advanced Pattern Provider"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
+	task.073E96723ED36CAF.title: "WIP"
 	task.0767C8200D0389A6.title: "Essences"
 	task.077608276B306F47.title: "Chemical Storage"
 	task.07D8961C49D02845.title: "Archwood Saplings"
@@ -5174,6 +5180,7 @@
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.124B2D6AB6865030.title: "WIP"
 	task.1291CAC439E06D6C.title: "Rune"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
@@ -5194,7 +5201,6 @@
 	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
-	task.2536D4AABBEB1FF0.title: "Observation: &2Hearth"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.26180CD75616C6C3.title: "Esoteric Materials"
@@ -5233,7 +5239,7 @@
 	task.3A59C49FAF001D7E.title: "Temperature Management"
 	task.3AA02F5C513F90A9.title: "Ender IO"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
-	task.3B6A2E42A7F4D6C2.title: "Welcome to the Skies!"
+	task.3B6A2E42A7F4D6C2.title: "Tools of the Trade"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
@@ -5274,6 +5280,7 @@
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.4DBE23AE12CB9448.title: "Observe Black Hole"
+	task.4EAFCD169CB43E2D.title: "Hearth and Home"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"

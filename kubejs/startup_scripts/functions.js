@@ -1,7 +1,10 @@
 //priority: 1005
 
 function getID(name) {
-    return name.toLowerCase().replace(/[^a-z]+/g, '_');
+    return name
+        .toLowerCase()
+        .replace(/'/, '')
+        .replace(/[^a-z]+/g, '_');
 }
 
 function getArticle(phrase) {

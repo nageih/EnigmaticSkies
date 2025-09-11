@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: 'farmersdelight:cooking_pot' }],
             to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/copper'])
+            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
             filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }, { mod: `transfer_labels` }],
