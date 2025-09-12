@@ -40,6 +40,7 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:tagged_sticky_piston` },
         { id: `actuallyadditions:greenhouse_glass` },
         { id: 'actuallyadditions:ranged_collector' },
+        { id: 'actuallyadditions:feeder' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
