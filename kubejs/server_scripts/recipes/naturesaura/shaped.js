@@ -59,6 +59,16 @@ ServerEvents.recipes((event) => {
                 C: 'aether:ambrosium_block'
             },
             id: `${id_prefix}conversion_catalyst`
+        },
+        {
+            output: 'naturesaura:hopper_upgrade',
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: '#c:ingots/infused_iron',
+                B: 'aether:enchanted_gravitite',
+                C: 'minecraft:hopper'
+            },
+            id: `${id_prefix}hopper_upgrade`
         }
     ];
 

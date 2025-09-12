@@ -91,18 +91,16 @@ ServerEvents.recipes((event) => {
 
         // Villager Meals
         {
-            output: 'enigmatica:bottomless_breadsticks',
+            output: 'enigmatica:suns_out_buns_out',
             inputs: [
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread',
-                'minecraft:bread'
+                'farmersdelight:dumplings',
+                'farmersdelight:dumplings',
+                'farmersdelight:dumplings',
+                'farmersdelight:dumplings',
+                'farmersdelight:dumplings',
+                'farmersdelight:dumplings'
             ],
-            id: `${id_prefix}bottomless_breadsticks`
+            id: `${id_prefix}suns_out_buns_out`
         },
         {
             output: 'enigmatica:bun_believable_burger',
@@ -132,6 +130,11 @@ ServerEvents.recipes((event) => {
                 'arsdelight:source_berry_cupcake'
             ],
             id: `${id_prefix}glazed_and_confused`
+        },
+        {
+            output: 'enigmatica:braising_cain',
+            inputs: ['farmersdelight:bacon_sandwich', 'farmersdelight:stuffed_potato'],
+            id: `${id_prefix}braising_cain`
         }
     ];
 

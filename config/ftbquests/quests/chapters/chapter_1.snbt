@@ -1,4 +1,5 @@
 {
+	autofocus_id: "03D475AF2266ECB6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_1"
@@ -43,6 +44,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["130A2701B96A941D"]
 			disable_toast: true
 			icon: {
 				id: "aether:aether_portal_frame"
@@ -395,12 +397,14 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			tasks: [{
+				disable_toast: true
 				id: "3B6A2E42A7F4D6C2"
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["62C7492F54D80CBA"]
@@ -510,7 +514,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["45F3C4F0EDA160C5"]
 			id: "130A2701B96A941D"
 			min_width: 250
 			rewards: [
@@ -534,18 +537,15 @@
 			]
 			shape: "gear"
 			tasks: [{
+				biome: "minecraft:the_void"
 				icon: {
 					id: "cold_sweat:hearth"
 				}
-				id: "2536D4AABBEB1FF0"
-				observe_type: 0
-				optional_task: true
-				timer: 0L
-				to_observe: "cold_sweat:hearth_bottom"
-				type: "observation"
+				id: "4EAFCD169CB43E2D"
+				type: "biome"
 			}]
 			x: 3.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -696,7 +696,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2F1EA0B091C700E1"]
+			dependencies: ["605A60825B68C2D7"]
 			icon: {
 				id: "theurgy:calcination_oven"
 			}
@@ -718,8 +718,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -811,15 +811,23 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["04D144DC0EAE8BE3"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
+			rewards: [{
+				id: "2F0369B5E881B6C2"
+				item: {
+					count: 1
+					id: "create:white_seat"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"
@@ -837,11 +845,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["105CABB7D9705359"]
+			dependencies: ["03D475AF2266ECB6"]
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -854,12 +862,12 @@
 				}
 				{
 					id: "23A6FA63A91742A7"
-					item: { count: 1, id: "aquaculture:goldfish" }
+					item: { count: 1, id: "aquaculture:brown_shrooma" }
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5550423B6E6BDBAF"]
@@ -869,8 +877,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -880,10 +888,11 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["53B43826C4CF310F"]
 			icon: {
 				id: "ars_nouveau:air_essence"
 			}
@@ -900,8 +909,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -1.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B76BBE9FB5A1219"]
@@ -911,18 +920,19 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["53B43826C4CF310F"]
 			id: "14D946E0F94255AD"
 			tasks: [{
 				id: "327EE60C36D5C134"
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -932,8 +942,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -943,11 +953,11 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["53B43826C4CF310F"]
 			id: "7905141BD2517471"
 			tasks: [{
 				id: "4B377BD3C276B920"
@@ -955,7 +965,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["15FAB1720AD470A0"]
@@ -982,18 +992,25 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["03D475AF2266ECB6"]
+			dependencies: ["605A60825B68C2D7"]
 			icon: {
 				id: "ars_nouveau:arcane_core"
 			}
 			id: "56AD6E7F12056140"
-			tasks: [{
-				id: "5BF83A89CA730475"
-				item: { count: 1, id: "ars_nouveau:arcane_core" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
+			tasks: [
+				{
+					id: "5BF83A89CA730475"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					id: "234C1ECD22AA038E"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1F1B78D4388E9332"]
@@ -1002,8 +1019,8 @@
 				id: "78CB052047F0AC64"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1078,18 +1095,18 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
+			dependencies: ["53B43826C4CF310F"]
 			id: "5550423B6E6BDBAF"
 			tasks: [{
 				id: "74779A7784CF18C2"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["34FB10F0A2504973"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "minecraft:composter"
 			}
@@ -1102,12 +1119,12 @@
 				}
 				{
 					id: "556F73EC41171F78"
-					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -1115,6 +1132,14 @@
 				id: "minecraft:brewing_stand"
 			}
 			id: "04D144DC0EAE8BE3"
+			rewards: [{
+				id: "2CE982902EA1A808"
+				item: {
+					count: 1
+					id: "create:white_seat"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5D587C3F4108AE35"
@@ -1143,33 +1168,49 @@
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
+			icon: {
+				id: "ars_nouveau:bookwyrm_charm"
+			}
 			id: "2F9C801DFAC1C0D9"
-			tasks: [{
-				id: "5F91200A8D050770"
-				item: { count: 1, id: "minecraft:lectern" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["34FB10F0A2504973"]
-			id: "605A60825B68C2D7"
-			shape: "gear"
+			shape: "diamond"
 			tasks: [
 				{
-					id: "36FFDB989168EE23"
-					item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+					id: "5F91200A8D050770"
+					item: { count: 1, id: "minecraft:lectern" }
 					type: "item"
 				}
 				{
-					id: "01AFE9C4737DB0C7"
-					item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+					id: "42C7D136E83FC246"
+					item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34FB10F0A2504973"
+				"105CABB7D9705359"
+			]
+			id: "605A60825B68C2D7"
+			rewards: [{
+				count: 16
+				id: "01F59A6D3BD56A67"
+				item: {
+					count: 1
+					id: "aether:blue_berry"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "48CF8923A1279290"
+				item: { count: 1, id: "actuallyadditions:feeder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -1177,20 +1218,14 @@
 				id: "ars_nouveau:alakarkinos_charm"
 			}
 			id: "513BDF32A8F6EF45"
-			tasks: [
-				{
-					id: "3F05434F326B73A6"
-					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
-					type: "item"
-				}
-				{
-					id: "711421AA88900691"
-					item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -2.5d
+			shape: "diamond"
+			tasks: [{
+				id: "711421AA88900691"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["62C7492F54D80CBA"]
@@ -1291,6 +1326,56 @@
 			]
 			x: 4.5d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2F1EA0B091C700E1"
+				"04D144DC0EAE8BE3"
+			]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "1D783196F551142F"
+			tasks: [
+				{
+					id: "6E0AB2F0B23E5F4E"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "59848C2372B58A4C"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "2046631D06A53FF1"
+					item: { count: 1, id: "enigmatica:suns_out_buns_out" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "22344008D43D4710"
+			shape: "diamond"
+			tasks: [{
+				id: "1C1CA13C1F742C6E"
+				item: { count: 1, id: "ars_nouveau:wixie_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "53B43826C4CF310F"
+			tasks: [{
+				id: "3FEC46CB05E92C9B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 }

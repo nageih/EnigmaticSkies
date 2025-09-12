@@ -70,6 +70,16 @@ ServerEvents.recipes((event) => {
                 B: '#c:gears/iron'
             },
             id: `${id_prefix}dark_bimetal_gear`
+        },
+        {
+            output: 'enderio:vacuum_chest',
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: 'aether:enchanted_gravitite',
+                C: '#c:chests/wooden'
+            },
+            id: `${id_prefix}vacuum_chest`
         }
     ];
 

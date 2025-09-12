@@ -1,16 +1,17 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
     const delivery_bags = [
-        { name: `Dumpling Drop` },
+        { name: `Dumpling Drop`, magic: true },
         { name: `Great Eggspectations` },
-        { name: `Cozy Cauldron` },
+        { name: `Cozy Cauldron`, magic: true },
         { name: `La Drygmese Poutine`, magic: true },
-        { name: `Bottomless Breadsticks` },
         { name: `Bun-Believable Burger` },
         { name: `Sheep-Eatin' Green` },
         { name: `Flyin' Fox` },
+        { name: `Sun's Out, Buns Out` },
         { name: `The Bun Also Rises`, magic: true },
-        { name: `Glazed and Confused`, magic: true }
+        { name: `Glazed and Confused`, magic: true },
+        { name: `Braising Cain` }
     ];
 
     delivery_bags.forEach((item) => {

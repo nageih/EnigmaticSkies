@@ -3,9 +3,9 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            results: [{ id: 'enigmatica:lily_s_lilac_cotton_candy' }],
+            results: [{ id: 'enigmatica:lilys_lilac_cotton_candy' }],
             ingredients: [{ item: 'minecraft:sugar' }],
-            id: `${id_prefix}lily_s_lilac_cotton_candy`
+            id: `${id_prefix}lilys_lilac_cotton_candy`
         }
     ];
 

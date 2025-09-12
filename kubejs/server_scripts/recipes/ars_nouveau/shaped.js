@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}source_berry_pie`
         },
         {
-            output: 'ars_nouveau:mycelial_sourcelink',
+            output: 'ars_nouveau:agronomic_sourcelink',
             pattern: [' A ', 'BCB', ' D '],
             key: {
                 A: '#c:storage_blocks/source',
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
                 C: 'farmersdelight:organic_compost',
                 D: 'handcrafted:golden_thick_pot'
             },
-            id: `${id_prefix}mycelial_sourcelink`
+            id: `${id_prefix}agronomic_sourcelink`
         },
         {
             output: 'ars_nouveau:volcanic_sourcelink',

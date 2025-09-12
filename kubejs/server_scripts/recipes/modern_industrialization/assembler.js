@@ -64,11 +64,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}dumpling_drop`
         },
         {
-            item_outputs: [{ item: 'enigmatica:bottomless_breadsticks', amount: 1 }],
-            item_inputs: [{ item: 'minecraft:bread', amount: 8 }],
+            item_outputs: [{ item: 'enigmatica:suns_out_buns_out', amount: 1 }],
+            item_inputs: [{ item: 'farmersdelight:dumplings', amount: 6 }],
             eu: 1,
             duration: 100,
-            id: `${id_prefix}bottomless_breadsticks`
+            id: `${id_prefix}suns_out_buns_out`
         },
         {
             item_outputs: [{ item: 'enigmatica:bun_believable_burger', amount: 1 }],
@@ -93,13 +93,23 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:flyin_fox', amount: 1 }],
             item_inputs: [
-                { item: 'farmersdelight:roast_chicken_block', amount: 1 },
+                { item: 'farmersdelight:chicken_sandwich', amount: 1 },
                 { item: 'farmersdelight:fruit_salad', amount: 1 },
                 { item: 'farmersdelight:sweet_berry_cheesecake', amount: 1 }
             ],
             eu: 1,
             duration: 100,
             id: `${id_prefix}flyin_fox`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:braising_cain', amount: 1 }],
+            item_inputs: [
+                { item: 'farmersdelight:bacon_sandwich', amount: 1 },
+                { item: 'farmersdelight:stuffed_potato', amount: 1 }
+            ],
+            eu: 1,
+            duration: 100,
+            id: `${id_prefix}braising_cain`
         }
     ];
 
