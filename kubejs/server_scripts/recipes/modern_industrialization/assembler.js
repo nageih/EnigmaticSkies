@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'enigmatica:la_drygmese_poutine', amount: 1 }],
             item_inputs: [
                 { item: 'enigmatica:poutine', amount: 1 },
-                { item: 'farmersdelight:glow_berry_custard', amount: 1 },
+                { item: 'enigmatica:lilys_lilac_cotton_candy', amount: 1 },
                 { item: 'arsdelight:source_berry_tea', amount: 1 }
             ],
             eu: 1,

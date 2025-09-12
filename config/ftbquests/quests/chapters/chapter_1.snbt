@@ -811,8 +811,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1D783196F551142F"]
@@ -888,8 +888,8 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["53B43826C4CF310F"]
@@ -1185,8 +1185,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1224,8 +1224,8 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["62C7492F54D80CBA"]
@@ -1365,8 +1365,8 @@
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			id: "53B43826C4CF310F"
