@@ -224,9 +224,8 @@ StartupEvents.registry('item', (event) => {
         'cloudy_dorodango',
         'sulfurous_dorodango',
 
-        'advanced_mechanical_component',
-        'magic_mechanical_component',
-        'mechanical_component'
+        'antikythera_mechanism',
+        'dilapidated_mechanism'
     ];
 
     simple_items.forEach((item) => {
