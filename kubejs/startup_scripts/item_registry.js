@@ -1,24 +1,28 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
     const delivery_bags = [
-        { name: `Dumpling Drop`, magic: true },
-        { name: `Great Eggspectations` },
-        { name: `Cozy Cauldron`, magic: true },
-        { name: `La Drygmese Poutine`, magic: true },
-        { name: `Bun-Believable Burger` },
-        { name: `Sheep-Eatin' Green` },
-        { name: `Flyin' Fox` },
-        { name: `Sun's Out, Buns Out` },
-        { name: `The Bun Also Rises`, magic: true },
-        { name: `Glazed and Confused`, magic: true },
-        { name: `Braising Cain` }
+        { name: `Dumpling Drop`, color: '#a832a8', magic: true },
+        { name: `Great Eggspectations`, color: '#e35e0b' },
+        { name: `Cozy Cauldron`, color: '#22e610', magic: true },
+        { name: `La Drygmese Poutine`, color: '#ed094a', magic: true },
+        { name: `Bun-Believable Burger`, color: '#02610d' },
+        { name: `Sheep-Eatin' Green`, color: '#3ff254' },
+        { name: `Flyin' Fox`, color: '#f2920c' },
+        { name: `Sun's Out, Buns Out`, color: '#f7f300' },
+        { name: `The Bun Also Rises`, color: '#139df2', magic: true },
+        { name: `Glazed and Confused`, color: '#070ff7', magic: true },
+        { name: `Braising Cain`, color: '#f578f1' }
     ];
 
     delivery_bags.forEach((item) => {
         let id = getID(item.name);
         event
             .create(`enigmatica:${id}`)
-            .texture(`enigmatica:item/delivery_bags/${id}`)
+            .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
+            .texture('layer1', `enigmatica:item/delivery_bags/label`)
+            .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
+            .color(1, item.magic ? '#ebcafc' : '#ddc8b1')
+            .color(2, item.color)
             .displayName(`§6CloudDash: ${item.magic ? '§d' : '§r'}${item.name}`)
             .tag('enigmatica:deliveries');
     });
@@ -218,7 +222,11 @@ StartupEvents.registry('item', (event) => {
         'silty_dorodango',
         'volcanic_dorodango',
         'cloudy_dorodango',
-        'sulfurous_dorodango'
+        'sulfurous_dorodango',
+
+        'advanced_mechanical_component',
+        'magic_mechanical_component',
+        'mechanical_component'
     ];
 
     simple_items.forEach((item) => {
