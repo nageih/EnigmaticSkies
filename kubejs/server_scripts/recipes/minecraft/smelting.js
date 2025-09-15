@@ -9,13 +9,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}replica_block_from_raw_block`
         },
         {
-            output: 'aether:holystone',
-            input: `aether:icestone`,
-            xp: 0.1,
-            duration: 100,
-            id: `${id_prefix}holystone`
-        },
-        {
             output: 'ars_nouveau:source_berry_roll',
             input: `enigmatica:source_berry_roll_dough`,
             xp: 0.1,
