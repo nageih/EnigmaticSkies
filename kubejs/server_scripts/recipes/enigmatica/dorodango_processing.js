@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        let r = {};
+        let r;
         // Ars Nouveau Crushing
         //  r = {
         //     type: 'ars_nouveau:crush',
