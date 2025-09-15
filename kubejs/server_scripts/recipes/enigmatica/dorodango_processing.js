@@ -63,28 +63,28 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         let r = {};
         // Ars Nouveau Crushing
-        r = {
-            type: 'ars_nouveau:crush',
-            output: [],
-            input: recipe.input
-        };
-        recipe.outputs.forEach((output) => {
-            r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
-        });
-        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+        //  r = {
+        //     type: 'ars_nouveau:crush',
+        //     output: [],
+        //     input: recipe.input
+        // };
+        // recipe.outputs.forEach((output) => {
+        //     r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
+        // });
+        // event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Create Mixing
         r = {
             type: 'create:mixing',
             results: [],
-            ingredients: [recipe.input]
-            // heat_requirement: 'heated'
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 10 }],
+            heat_requirement: 'heated'
         };
         recipe.outputs.forEach((output) => {
             r.results.push({
                 id: output.id,
                 count: output.count,
-                chance: output.chance ? output.chance : 1.0
+                chance: output.chance ? output.chance * 2 : 1.0
             });
         });
         event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
