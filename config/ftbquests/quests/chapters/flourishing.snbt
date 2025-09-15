@@ -119,7 +119,7 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -155,13 +155,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"62ABC26128284A71"
-				"2D190518ABA42A1F"
-			]
+			dependencies: ["4F892CA8F50A7831"]
 			id: "3BCD9E36D48B205A"
 			tasks: [{
 				id: "128597849E5D0BC1"
@@ -169,7 +166,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["62ABC26128284A71"]
@@ -334,7 +331,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["47AA9C8E6BA854D9"]
@@ -345,7 +342,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -356,7 +353,32 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"62ABC26128284A71"
+				"2D190518ABA42A1F"
+			]
+			id: "4F892CA8F50A7831"
+			tasks: [{
+				id: "226305F789B8A15A"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F892CA8F50A7831"]
+			id: "2C3B39CD6A7E044C"
+			tasks: [{
+				id: "686BA5DD9828EECA"
+				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 }

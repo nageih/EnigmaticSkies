@@ -25,10 +25,10 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `modern_industrialization:bronze_assembler`,
-            pattern: ['ABA', 'CDC', 'EEE'],
+            pattern: ['BAB', 'CDC', 'EEE'],
             key: {
-                A: `create:mechanical_arm`,
-                B: `create:sequenced_gearshift`,
+                A: `minecraft:crafting_table`,
+                B: 'create:precision_mechanism',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: '#modern_industrialization:fluid_pipes'
@@ -37,13 +37,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `modern_industrialization:bronze_centrifuge`,
-            pattern: ['BAB', 'DED', 'FFF'],
+            pattern: ['BAB', 'CDC', 'EEE'],
             key: {
                 A: `create:mechanical_pump`,
                 B: 'create:precision_mechanism',
-                D: '#c:gears/copper',
-                E: 'modern_industrialization:bronze_machine_casing',
-                F: '#modern_industrialization:fluid_pipes'
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}bronze_centrifuge`
         },
