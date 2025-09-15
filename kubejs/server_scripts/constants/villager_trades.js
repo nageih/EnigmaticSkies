@@ -23,7 +23,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'minecraft:loom', count: 1 },
-            ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 2
         },
 

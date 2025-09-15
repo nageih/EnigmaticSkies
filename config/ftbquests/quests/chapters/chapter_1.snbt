@@ -10,7 +10,7 @@
 				insulation: [ ]
 			}
 		}
-		id: "cold_sweat:goat_fur_cap"
+		id: "cold_sweat:goat_fur_helmet"
 	}
 	id: "7F9A789B53FAB216"
 	order_index: 0
@@ -582,7 +582,7 @@
 			id: "6703E3A9E3571660"
 			rewards: [
 				{
-					id: "20E439049FB1E952"
+					id: "05D25D425384011C"
 					item: {
 						components: {
 							"cold_sweat:armor_insulation": {
@@ -591,12 +591,12 @@
 							"minecraft:unbreakable": { }
 						}
 						count: 1
-						id: "cold_sweat:goat_fur_cap"
+						id: "cold_sweat:goat_fur_helmet"
 					}
 					type: "item"
 				}
 				{
-					id: "7DEFBA2D4786F795"
+					id: "038763CA68C0B3EF"
 					item: {
 						components: {
 							"cold_sweat:armor_insulation": {
@@ -605,12 +605,12 @@
 							"minecraft:unbreakable": { }
 						}
 						count: 1
-						id: "cold_sweat:goat_fur_parka"
+						id: "cold_sweat:goat_fur_chestplate"
 					}
 					type: "item"
 				}
 				{
-					id: "109B88C196960CF2"
+					id: "00C7230204AFDB5E"
 					item: {
 						components: {
 							"cold_sweat:armor_insulation": {
@@ -619,12 +619,12 @@
 							"minecraft:unbreakable": { }
 						}
 						count: 1
-						id: "cold_sweat:goat_fur_pants"
+						id: "cold_sweat:goat_fur_leggings"
 					}
 					type: "item"
 				}
 				{
-					id: "67A3993500419699"
+					id: "035DD021C58392E5"
 					item: {
 						components: {
 							"cold_sweat:armor_insulation": {
@@ -718,8 +718,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -812,22 +812,14 @@
 				}
 			]
 			x: 3.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1D783196F551142F"]
+			dependencies: ["03D475AF2266ECB6"]
 			icon: {
 				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
-			rewards: [{
-				id: "2F0369B5E881B6C2"
-				item: {
-					count: 1
-					id: "create:white_seat"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"
@@ -839,14 +831,9 @@
 					item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
 					type: "item"
 				}
-				{
-					id: "22C336C45AFA0F21"
-					item: { count: 1, id: "enigmatica:flying_cow_iou" }
-					type: "item"
-				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -866,8 +853,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -4.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5550423B6E6BDBAF"]
@@ -889,7 +876,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["53B43826C4CF310F"]
@@ -992,7 +979,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["605A60825B68C2D7"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "ars_nouveau:arcane_core"
 			}
@@ -1010,7 +997,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1F1B78D4388E9332"]
@@ -1042,6 +1029,7 @@
 			}
 			id: "03D475AF2266ECB6"
 			rewards: [{
+				count: 4
 				id: "6215DA90B3AB56FD"
 				item: {
 					count: 1
@@ -1124,7 +1112,7 @@
 				}
 			]
 			x: 2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -1132,14 +1120,6 @@
 				id: "minecraft:brewing_stand"
 			}
 			id: "04D144DC0EAE8BE3"
-			rewards: [{
-				id: "2CE982902EA1A808"
-				item: {
-					count: 1
-					id: "create:white_seat"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "5D587C3F4108AE35"
@@ -1153,7 +1133,7 @@
 				}
 			]
 			x: 4.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
@@ -1185,14 +1165,14 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -0.5d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"34FB10F0A2504973"
-				"105CABB7D9705359"
-			]
+			dependencies: ["1D783196F551142F"]
+			icon: {
+				id: "enigmatica:flying_cow_iou"
+			}
 			id: "605A60825B68C2D7"
 			rewards: [{
 				count: 16
@@ -1204,13 +1184,20 @@
 				type: "item"
 			}]
 			shape: "gear"
-			tasks: [{
-				id: "48CF8923A1279290"
-				item: { count: 1, id: "actuallyadditions:feeder" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48CF8923A1279290"
+					item: { count: 1, id: "actuallyadditions:feeder" }
+					type: "item"
+				}
+				{
+					id: "544CF65977D3BF9D"
+					item: { count: 1, id: "enigmatica:flying_cow_iou" }
+					type: "item"
+				}
+			]
 			x: 3.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -1331,6 +1318,7 @@
 			dependencies: [
 				"2F1EA0B091C700E1"
 				"04D144DC0EAE8BE3"
+				"34FB10F0A2504973"
 			]
 			icon: {
 				id: "farmersdelight:cooking_pot"
@@ -1354,7 +1342,7 @@
 				}
 			]
 			x: 3.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -1365,8 +1353,8 @@
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			id: "53B43826C4CF310F"
