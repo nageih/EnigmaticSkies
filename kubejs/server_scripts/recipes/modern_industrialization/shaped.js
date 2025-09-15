@@ -66,24 +66,7 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
-        {
-            output: `6x modern_industrialization:fluid_pipe`,
-            pattern: ['AAA', 'B B', 'AAA'],
-            key: {
-                A: 'ppfluids:fluid_pipe',
-                B: 'enderio:conduit_binder'
-            },
-            id: `${id_prefix}fluid_pipe`
-        },
-        {
-            output: `6x modern_industrialization:item_pipe`,
-            pattern: ['AAA', 'B B', 'AAA'],
-            key: {
-                A: 'prettypipes:pipe',
-                B: 'enderio:conduit_binder'
-            },
-            id: `${id_prefix}item_pipe`
-        },
+
         {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],
@@ -131,31 +114,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mv_steam_turbine`
         }
     ];
-
-    colors.forEach((color) => {
-        recipes.push(
-            {
-                output: `6x modern_industrialization:${color}_fluid_pipe`,
-                pattern: ['AAA', 'BCB', 'AAA'],
-                key: {
-                    A: 'ppfluids:fluid_pipe',
-                    B: 'enderio:conduit_binder',
-                    C: `#c:dyes/${color}`
-                },
-                id: `${id_prefix}${color}_fluid_pipe`
-            },
-            {
-                output: `6x modern_industrialization:${color}_item_pipe`,
-                pattern: ['AAA', 'BCB', 'AAA'],
-                key: {
-                    A: 'prettypipes:pipe',
-                    B: 'enderio:conduit_binder',
-                    C: `#c:dyes/${color}`
-                },
-                id: `${id_prefix}${color}_item_pipe`
-            }
-        );
-    });
 
     const gears = [
         'aluminum',

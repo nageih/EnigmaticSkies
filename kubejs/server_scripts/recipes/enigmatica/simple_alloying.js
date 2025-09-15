@@ -160,26 +160,26 @@ ServerEvents.recipes((event) => {
             inputs: [
                 { tag: 'c:gems/empowered_restonia', count: 1 },
                 { tag: 'c:ingots/hallowed_gold', count: 1 },
-                { item: 'malum:paracausal_flame', count: 1 }
+                { item: 'malum:strange_crystal', count: 1 }
             ],
             tier: 1,
             exclusions: [],
             id_suffix: `energetic_alloy_ingot`
         },
-        {
-            output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/energetic_alloy', count: 1 },
-                { tag: 'c:ender_pearls', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `vibrant_alloy_ingot`
-        },
+        // {
+        //     output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
+        //     inputs: [
+        //         { tag: 'c:ingots/energetic_alloy', count: 1 },
+        //         { item: 'malum:paracausal_flame', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `vibrant_alloy_ingot`
+        // },
         {
             output: { id: 'enderio:pulsating_alloy_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/copper_alloy', count: 1 },
+                { tag: 'c:ingots/infused_iron', count: 1 },
                 { tag: 'c:dusts/grains_of_pizeallity', count: 1 }
             ],
             tier: 1,

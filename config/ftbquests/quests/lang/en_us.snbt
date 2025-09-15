@@ -143,9 +143,9 @@
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
 	quest.04D144DC0EAE8BE3.quest_desc: [
-		"Next, you'll want to buy a Brewing Stand to gain access to the Cleric's trades. "
+		"Next, you'll want to buy a &7Brewing Stand&r to gain access to the &7Cleric Villager's&r trades. "
 		""
-		"In particular, you'll need a Ritual Brazier soon, so buy one of those as well."
+		"In particular, you'll need a &7Ritual Brazier&r soon, so be certain to pick one up."
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.0545305EBB98A0BA.quest_desc: [
@@ -1901,7 +1901,7 @@
 	quest.34FB10F0A2504973.quest_desc: [
 		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
 		""
-		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a &7Tablet of Conjure Island: Lush Garden&r."
+		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
 		"&n                                                  &r"
 		""
 		"Be careful when setting up these Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."

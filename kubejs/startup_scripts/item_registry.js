@@ -164,6 +164,36 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_shulker.tooltip')
         },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_flourishing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_flourishing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_flourishing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_blazing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_blazing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_blazing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_cascading_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_cascading_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_cascading_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_vexing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_vexing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_vexing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_flashing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker.tooltip')
+        },
 
         // Transmuted Creatures
         {

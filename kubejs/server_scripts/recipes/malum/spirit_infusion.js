@@ -7,9 +7,9 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: 'c:ingots/steel', count: 1 },
             extraIngredients: [{ item: 'malum:refined_soulstone', count: 4 }],
             spirits: [
-                { type: 'wicked', count: 3 },
-                { type: 'earthen', count: 1 },
-                { type: 'arcane', count: 1 }
+                { type: 'wicked', count: 8 },
+                { type: 'earthen', count: 8 },
+                { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}soul_stained_steel_ingot`
         },
@@ -80,6 +80,17 @@ ServerEvents.recipes((event) => {
                 { type: 'wicked', count: 4 }
             ],
             id: `${id_prefix}gooblock_tier3`
+        },
+        {
+            output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
+            ingredient: { tag: 'c:ingots/energetic_alloy', count: 1 },
+            extraIngredients: [{ item: 'malum:paracausal_flame', count: 1 }],
+            spirits: [
+                { type: 'infernal', count: 8 },
+                { type: 'arcane', count: 8 },
+                { type: 'earthen', count: 8 }
+            ],
+            id: `${id_prefix}vibrant_alloy_ingot`
         }
     ];
 
