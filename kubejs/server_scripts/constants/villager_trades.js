@@ -275,15 +275,15 @@ const villagerTrades = {
         // },
         {
             result: { id: 'prettypipes:pipe', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ppfluids:fluid_pipe', count: 8 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
 
-        {
-            result: { id: 'ppfluids:fluid_pipe', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
-            level: 2
-        },
         {
             result: { id: 'prettypipes:blank_module', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
@@ -294,6 +294,11 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'enigmatica:antikythera_mechanism', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
