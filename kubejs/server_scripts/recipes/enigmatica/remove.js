@@ -274,6 +274,8 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/imitation_flesh' },
         { id: 'malum:spirit_infusion/tainted_rock' },
         { id: 'malum:spirit_infusion/twisted_rock' },
+        { id: 'malum:spirit_infusion/hallowed_gold_ingot' },
+        { id: 'malum:spirit_infusion/soulwoven_silk' },
         { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
 

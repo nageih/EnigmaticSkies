@@ -91,6 +91,132 @@ ServerEvents.recipes((event) => {
                 { type: 'earthen', count: 8 }
             ],
             id: `${id_prefix}vibrant_alloy_ingot`
+        },
+        {
+            output: { id: 'malum:soulwoven_silk', count: 4 },
+            ingredient: { tag: 'minecraft:wool', count: 2 },
+            extraIngredients: [{ item: 'ars_nouveau:magebloom_fiber', count: 2 }],
+            spirits: [
+                { type: 'aerial', count: 3 },
+                { type: 'earthen', count: 3 }
+            ],
+            id: `${id_prefix}soulwoven_silk`
+        },
+        {
+            output: { id: 'naturesaura:token_anger', count: 4 },
+            ingredient: { item: 'supplementaries:statue', count: 1 },
+            extraIngredients: [
+                { tag: 'c:essences/fire', count: 4 },
+                { tag: 'c:ingots/steel', count: 1 },
+                { item: 'ars_additions:lost_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'infernal', count: 8 },
+                { type: 'wicked', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_anger`
+        },
+        {
+            output: { id: 'naturesaura:token_fear', count: 4 },
+            ingredient: { item: 'supplementaries:statue', count: 1 },
+            extraIngredients: [
+                { tag: 'c:essences/earth', count: 4 },
+                { tag: 'c:ingots/copper_alloy', count: 1 },
+                { item: 'ars_additions:lost_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'earthen', count: 8 },
+                { type: 'wicked', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_fear`
+        },
+        {
+            output: { id: 'naturesaura:token_joy', count: 4 },
+            ingredient: { item: 'supplementaries:statue', count: 1 },
+            extraIngredients: [
+                { tag: 'c:essences/air', count: 4 },
+                { tag: 'c:ingots/energetic_alloy', count: 1 },
+                { item: 'ars_additions:lost_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'aerial', count: 8 },
+                { type: 'sacred', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_joy`
+        },
+        {
+            output: { id: 'naturesaura:token_sorrow', count: 4 },
+            ingredient: { item: 'supplementaries:statue', count: 1 },
+            extraIngredients: [
+                { tag: 'c:essences/water', count: 4 },
+                { tag: 'c:ingots/adamant', count: 1 },
+                { item: 'ars_additions:lost_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'aqueous', count: 8 },
+                { type: 'sacred', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_sorrow`
+        },
+        {
+            output: { id: 'naturesaura:token_grief', count: 4 },
+            ingredient: { item: 'naturesaura:token_sorrow', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/fluxite', count: 1 },
+                { tag: 'c:essences/anima', count: 4 },
+                { item: 'ars_additions:ancient_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_grief`
+        },
+        {
+            output: { id: 'naturesaura:token_euphoria', count: 4 },
+            ingredient: { item: 'naturesaura:token_joy', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/fluxite', count: 1 },
+                { tag: 'c:essences/anima', count: 4 },
+                { item: 'ars_additions:ancient_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_euphoria`
+        },
+        {
+            output: { id: 'naturesaura:token_terror', count: 4 },
+            ingredient: { item: 'naturesaura:token_fear', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/fluxite', count: 1 },
+                { tag: 'c:essences/anima', count: 4 },
+                { item: 'ars_additions:ancient_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_terror`
+        },
+        {
+            output: { id: 'naturesaura:token_rage', count: 4 },
+            ingredient: { item: 'naturesaura:token_anger', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/fluxite', count: 1 },
+                { tag: 'c:essences/anima', count: 4 },
+                { item: 'ars_additions:ancient_codex_entry', count: 1 }
+            ],
+            spirits: [
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}token_rage`
         }
     ];
 

@@ -4,44 +4,59 @@ ServerEvents.recipes((event) => {
     const recipes = [
         // Raw Materials
         {
-            input: { item: 'modern_industrialization:fire_clay_bricks' },
-            matter: [{ type: 'replication:earth', amount: 64.0 }],
-            id: `${id_prefix}fire_clay_bricks`
+            input: { item: 'naturesaura:token_sorrow' },
+            matter: [{ type: 'replication:precious', amount: 32.0 }],
+            id: `${id_prefix}token_sorrow`
         },
         {
-            input: { item: 'farmersdelight:organic_compost' },
-            matter: [{ type: 'replication:organic', amount: 64.0 }],
-            id: `${id_prefix}organic_compost`
+            input: { item: 'naturesaura:token_grief' },
+            matter: [
+                { type: 'replication:precious', amount: 64.0 },
+                { type: 'replication:living', amount: 32.0 }
+            ],
+            id: `${id_prefix}token_grief`
+        },
+
+        {
+            input: { item: 'naturesaura:token_joy' },
+            matter: [{ type: 'replication:ender', amount: 32.0 }],
+            id: `${id_prefix}token_joy`
         },
         {
-            input: { item: 'theurgy:alchemical_salt_mineral' },
-            matter: [{ type: 'replication:metallic', amount: 64.0 }],
-            id: `${id_prefix}alchemical_salt_mineral`
+            input: { item: 'naturesaura:token_euphoria' },
+            matter: [
+                { type: 'replication:ender', amount: 64.0 },
+                { type: 'replication:quantum', amount: 32.0 }
+            ],
+            id: `${id_prefix}token_euphoria`
+        },
+
+        {
+            input: { item: 'naturesaura:token_fear' },
+            matter: [{ type: 'replication:earth', amount: 32.0 }],
+            id: `${id_prefix}token_fear`
         },
         {
-            input: { tag: 'c:gems/blaze_ember' },
-            matter: [{ type: 'replication:nether', amount: 64.0 }],
-            id: `${id_prefix}blaze_ember`
+            input: { item: 'naturesaura:token_terror' },
+            matter: [
+                { type: 'replication:earth', amount: 64.0 },
+                { type: 'replication:organic', amount: 32.0 }
+            ],
+            id: `${id_prefix}token_terror`
+        },
+
+        {
+            input: { item: 'naturesaura:token_anger' },
+            matter: [{ type: 'replication:metallic', amount: 32.0 }],
+            id: `${id_prefix}token_anger`
         },
         {
-            input: { item: 'enderio:ender_resonator' },
-            matter: [{ type: 'replication:ender', amount: 64.0 }],
-            id: `${id_prefix}ender_resonator`
-        },
-        {
-            input: { item: 'minecraft:ghast_tear' },
-            matter: [{ type: 'replication:precious', amount: 64.0 }],
-            id: `${id_prefix}ghast_tear`
-        },
-        {
-            input: { item: 'justdirethings:time_crystal' },
-            matter: [{ type: 'replication:quantum', amount: 64.0 }],
-            id: `${id_prefix}time_crystal`
-        },
-        {
-            input: { item: 'industrialforegoing:pink_slime_block' },
-            matter: [{ type: 'replication:living', amount: 64.0 }],
-            id: `${id_prefix}pink_slime_block`
+            input: { item: 'naturesaura:token_rage' },
+            matter: [
+                { type: 'replication:metallic', amount: 64.0 },
+                { type: 'replication:nether', amount: 32.0 }
+            ],
+            id: `${id_prefix}token_rage`
         },
 
         // Components
