@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
                 { ingredient: { item: 'aether:ambrosium_shard' }, count: 4 }
             ],
-            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            fluid: { id: 'sauce:source_fluid', amount: 1000 },
             time: 5,
             id: `${id_prefix}source_gem_from_ambrosium_shard`
         },
