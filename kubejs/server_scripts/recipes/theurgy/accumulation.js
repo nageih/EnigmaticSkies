@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'sauce:source_fluid', amount: 1000 },
             solute: { item: 'ars_additions:codex_entry' },
-            evaporant: { ingredient: { tag: 'theurgy:sal_ammoniac' }, amount: 100 },
+            evaporant: { ingredient: { tag: 'theurgy:sal_ammoniac' }, amount: 1000 },
             time: 5,
             id: `${id_prefix}source_fluid`
         }
