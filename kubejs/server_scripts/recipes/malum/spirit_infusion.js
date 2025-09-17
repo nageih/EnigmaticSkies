@@ -107,7 +107,8 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'supplementaries:statue', count: 1 },
             extraIngredients: [
                 { tag: 'c:essences/fire', count: 4 },
-                { tag: 'c:ingots/steel', count: 1 },
+                // { tag: 'c:ingots/steel', count: 1 },
+                { tag: 'c:gems/empowered_restonia', count: 1 },
                 { item: 'ars_additions:lost_codex_entry', count: 1 }
             ],
             spirits: [
@@ -122,7 +123,8 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'supplementaries:statue', count: 1 },
             extraIngredients: [
                 { tag: 'c:essences/earth', count: 4 },
-                { tag: 'c:ingots/copper_alloy', count: 1 },
+                // { tag: 'c:ingots/copper_alloy', count: 1 },
+                { tag: 'c:gems/empowered_emeradic', count: 1 },
                 { item: 'ars_additions:lost_codex_entry', count: 1 }
             ],
             spirits: [
@@ -137,7 +139,8 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'supplementaries:statue', count: 1 },
             extraIngredients: [
                 { tag: 'c:essences/air', count: 4 },
-                { tag: 'c:ingots/energetic_alloy', count: 1 },
+                // { tag: 'c:ingots/energetic_alloy', count: 1 },
+                { tag: 'c:gems/empowered_diamatine', count: 1 },
                 { item: 'ars_additions:lost_codex_entry', count: 1 }
             ],
             spirits: [
@@ -152,7 +155,8 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'supplementaries:statue', count: 1 },
             extraIngredients: [
                 { tag: 'c:essences/water', count: 4 },
-                { tag: 'c:ingots/adamant', count: 1 },
+                // { tag: 'c:ingots/adamant', count: 1 },
+                { tag: 'c:gems/empowered_palis', count: 1 },
                 { item: 'ars_additions:lost_codex_entry', count: 1 }
             ],
             spirits: [
