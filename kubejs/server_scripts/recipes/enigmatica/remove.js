@@ -494,6 +494,7 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:distillation' },
         { type: 'theurgy:calcination' },
         { type: 'theurgy:incubation' },
+        { type: 'theurgy:reformation' },
         { output: 'theurgy:sal_ammoniac_accumulator' },
         { output: 'theurgy:sal_ammoniac_tank' },
         { output: 'theurgy:pyromantic_brazier' },
@@ -501,6 +502,8 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:fermentation_vat' },
         { output: 'theurgy:digestion_vat' },
         { output: 'theurgy:distiller' },
+        { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
+        { output: 'theurgy:logistics_connector_node' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

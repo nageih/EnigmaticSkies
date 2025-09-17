@@ -298,7 +298,7 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'enigmatica:antikythera_mechanism', count: 1 },
+            result: { id: 'occultism:fragile_soul_gem', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
