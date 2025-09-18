@@ -222,6 +222,30 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}token_rage`
         }
+        // {
+        //     output: { id: 'malum:complete_design', count: 1 },
+        //     ingredient: { item: 'malum:anomalous_design', count: 1 },
+        //     extraIngredients: [
+        //         { tag: 'c:gems/mnemonic_fragment', count: 2 },
+        //         {
+        //             type: 'neoforge:components',
+        //             items: 'occultism:fragile_soul_gem',
+        //             components: { entity_data: { VillagerData: { type: 'minecraft:snow' }, id: 'minecraft:villager' } },
+        //             count: 1
+        //         }
+        //     ],
+        //     spirits: [
+        //         { type: 'sacred', count: 4 },
+        //         { type: 'wicked', count: 4 },
+        //         { type: 'arcane', count: 4 },
+        //         { type: 'eldritch', count: 4 },
+        //         { type: 'aerial', count: 4 },
+        //         { type: 'aqueous', count: 4 },
+        //         { type: 'earthen', count: 4 },
+        //         { type: 'infernal', count: 4 }
+        //     ],
+        //     id: `${id_prefix}complete_design`
+        // }
     ];
 
     const spirits = ['sacred', 'wicked', 'arcane', 'eldritch', 'earthen', 'aerial', 'aqueous', 'infernal'];
