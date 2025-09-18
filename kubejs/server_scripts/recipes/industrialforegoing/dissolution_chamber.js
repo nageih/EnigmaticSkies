@@ -3,38 +3,54 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            output: { id: 'ae2:fluix_crystal', count: 2 },
             input: [
                 { tag: 'c:gems/empowered_restonia' },
                 { tag: 'c:gems/charged_certus' },
                 { tag: 'c:dusts/sky_stone' }
             ],
             inputFluid: { fluid: `theurgy:sal_ammoniac`, amount: 100 },
-            output: { id: 'ae2:fluix_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}fluix_crystal`
         },
         {
+            output: { id: 'appflux:redstone_crystal', count: 2 },
             input: [{ tag: 'c:storage_blocks/redstone' }, { tag: 'c:gems/fluix' }, { tag: 'c:dusts/glowstone' }],
             inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            output: { id: 'appflux:redstone_crystal', count: 2 },
             processingTime: 50,
             id: `${id_prefix}redstone_crystal`
         },
         {
+            output: { count: 1, id: 'industrialforegoing:machine_frame_simple' },
             input: [
+                { tag: 'c:plates/steel' },
                 { item: 'enderio:industrial_insulation_block' },
+                { tag: 'c:plates/steel' },
                 { item: 'modern_industrialization:analog_circuit' },
-                { item: 'enderio:industrial_insulation_block' },
+                { item: 'modern_industrialization:analog_circuit' },
                 { tag: 'c:plates/steel' },
-                { tag: 'c:plates/steel' },
-                { item: 'modern_industrialization:fire_clay_bricks' },
                 { tag: 'c:gears/compressed_iron' },
-                { item: 'modern_industrialization:fire_clay_bricks' }
+                { tag: 'c:plates/steel' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
-            output: { count: 1, id: 'industrialforegoing:machine_frame_simple' },
             processingTime: 300,
             id: `${id_prefix}machine_frame_simple`
+        },
+        {
+            output: { count: 1, id: 'industrialforegoing:machine_frame_advanced' },
+            input: [
+                { tag: 'c:plates/plastic' },
+                { item: 'industrialforegoing:machine_frame_simple' },
+                { tag: 'c:plates/plastic' },
+                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'modern_industrialization:electronic_circuit' },
+                { tag: 'c:plates/plastic' },
+                { item: 'ars_technica:mark_of_technomancy' },
+                { tag: 'c:plates/plastic' }
+            ],
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}machine_frame_advanced`
         }
     ];
 

@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'modern_industrialization:electronic_circuit', count: 1 },
-            base: { item: 'malum:anomalous_design' },
+            base: { tag: 'c:plates/plastic' },
             modifiers: [
                 { item: 'modern_industrialization:analog_circuit' },
                 { tag: 'c:gems/fluxite' },

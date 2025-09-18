@@ -35,6 +35,19 @@ ServerEvents.recipes((event) => {
             duration: 5,
             id: `${id_prefix}item_pipe`
         },
+        {
+            item_outputs: [{ item: 'enigmatica:antikythera_mechanism', amount: 1 }],
+            item_inputs: [
+                { item: 'ars_technica:mark_of_technomancy', amount: 1, probability: 0.0 },
+                { item: 'enderio:soul_chain', amount: 4 },
+                { tag: 'c:gems/mnemonic_fragment', amount: 2 },
+                { item: 'ars_technica:calibrated_precision_mechanism', amount: 1 },
+                { tag: 'c:gears/energized', amount: 2 }
+            ],
+            eu: 4,
+            duration: 5,
+            id: `${id_prefix}antikythera_mechanism`
+        },
 
         // Villager Meals
         {

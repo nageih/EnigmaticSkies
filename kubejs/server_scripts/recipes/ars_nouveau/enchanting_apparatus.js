@@ -251,6 +251,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}enchanted_gravitite`
+        },
+        {
+            result: { id: 'ars_technica:mark_of_technomancy', count: 5 },
+            reagent: { item: 'ars_nouveau:wilden_tribute' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gems/vibrant_crystal' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:plates/brass' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}mark_of_technomancy`
         }
     ];
 

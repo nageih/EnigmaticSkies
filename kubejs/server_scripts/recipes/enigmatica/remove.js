@@ -100,6 +100,8 @@ ServerEvents.recipes((event) => {
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
         { id: `ars_caelum:heart_of_the_sea` },
 
+        { id: 'ars_technica:mark_of_technomancy' },
+
         // Cold Sweat
 
         { output: `cold_sweat:hearth` },
@@ -250,7 +252,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:resourceful_furnace' },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
-        { id: 'industrialforegoing:dissolution_chamber/simple_machine_frame' },
+        { id: /industrialforegoing:dissolution_chamber\/(simple|advanced)_machine_frame/ },
         { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
         { id: 'industrialforegoing:laser_drill_fluid/oil' },
