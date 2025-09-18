@@ -13,6 +13,28 @@ ServerEvents.recipes((event) => {
             duration: 5,
             id: `${id_prefix}cupronickel_cable`
         },
+        {
+            item_outputs: [{ item: 'modern_industrialization:fluid_pipe', amount: 6 }],
+            item_inputs: [
+                { item: 'ppfluids:fluid_pipe', amount: 6 },
+                { item: 'enderio:conduit_binder', amount: 3 },
+                { item: 'ae2:quartz_glass', amount: 2 }
+            ],
+            eu: 2,
+            duration: 5,
+            id: `${id_prefix}fluid_pipe`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:item_pipe', amount: 6 }],
+            item_inputs: [
+                { item: 'prettypipes:pipe', amount: 6 },
+                { item: 'enderio:conduit_binder', amount: 3 },
+                { tag: 'c:nuggets/pulsating_alloy', amount: 6 }
+            ],
+            eu: 2,
+            duration: 5,
+            id: `${id_prefix}item_pipe`
+        },
 
         // Villager Meals
         {
@@ -43,7 +65,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { tag: 'enigmatica:meal_ingredients/soup', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/sandwich', amount: 1 },
-                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 },
+                { tag: 'enigmatica:meal_ingredients/magic_drink', amount: 1 },
                 { item: 'arsdelight:source_berry_cookie', amount: 1 }
             ],
             eu: 1,
@@ -84,7 +106,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'enigmatica:sheep_eatin_green', amount: 1 }],
             item_inputs: [
                 { item: 'farmersdelight:mutton_wrap', amount: 1 },
-                { item: 'farmersdelight:mixed_salad', amount: 1 }
+                { item: 'farmersdelight:mixed_salad', amount: 1 },
+                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
             ],
             eu: 1,
             duration: 5,
@@ -95,7 +118,8 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { item: 'farmersdelight:chicken_sandwich', amount: 1 },
                 { item: 'farmersdelight:fruit_salad', amount: 1 },
-                { item: 'farmersdelight:sweet_berry_cheesecake', amount: 1 }
+                { item: 'farmersdelight:sweet_berry_cheesecake', amount: 1 },
+                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
             ],
             eu: 1,
             duration: 5,
@@ -110,28 +134,6 @@ ServerEvents.recipes((event) => {
             eu: 1,
             duration: 5,
             id: `${id_prefix}braising_cain`
-        },
-        {
-            item_outputs: [{ item: 'modern_industrialization:fluid_pipe', amount: 6 }],
-            item_inputs: [
-                { item: 'ppfluids:fluid_pipe', amount: 6 },
-                { item: 'enderio:conduit_binder', amount: 3 },
-                { item: 'ae2:quartz_glass', amount: 2 }
-            ],
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}fluid_pipe`
-        },
-        {
-            item_outputs: [{ item: 'modern_industrialization:item_pipe', amount: 6 }],
-            item_inputs: [
-                { item: 'prettypipes:pipe', amount: 6 },
-                { item: 'enderio:conduit_binder', amount: 3 },
-                { tag: 'c:nuggets/pulsating_alloy', amount: 6 }
-            ],
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}item_pipe`
         }
     ];
 

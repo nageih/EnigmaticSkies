@@ -180,3 +180,45 @@ function convertToBiome(event, biome, particle, radius) {
         server.runCommandSilent(`/execute in ${dimension} run ${command}`);
     });
 }
+
+function convertToEntity(event, entity, particle, radius, height) {
+    const { block, item, player, level, server } = event;
+    const dimension = String(level.getDimension());
+    if (!player.isCreative()) item.count--;
+    player.swing(event.hand, true);
+
+    let yOffset = block.getProperties().half == 'upper' ? 1 : 0;
+
+    let effect = { x: block.x + 0.5, y: Math.floor(block.y - yOffset), z: block.z + 0.5 };
+
+    let commands = [
+        `fill ${block.x} ${effect.y} ${block.z} ${block.x} ${effect.y} ${block.z} air replace`,
+        `summon ${entity} ${effect.x} ${effect.y} ${effect.z}`,
+        // `particle cold_sweat:ground_mist ${effect.x} ${effect.y + 0.5} ${effect.z}`,
+        // `particle ${particle} ${effect.x} ${effect.y + height} ${effect.z}`,
+        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge block @p ${effect.x} ${effect.y} ${effect.z} 10 1`
+    ];
+
+    getCircleCoordinates(effect.x, effect.y, effect.z, radius, 5).forEach((c) => {
+        commands.push(`particle cold_sweat:ground_mist ${c.x} ${c.y + 0.5} ${c.z}`);
+        commands.push(`particle ${particle} ${c.x} ${c.y + height + Math.random() * 2} ${c.z}`);
+    });
+
+    // malum:soulbinding_sequence_initiated
+    // minecraft:entity.evoker.prepare_summon
+    // minecraft:entity.firework_rocket.twinkle
+    // minecraft:item.goat_horn.sound.3 and 5
+    // the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge
+    // minecraft:entity.warden.heartbeat
+
+    commands.forEach((command) => {
+        server.runCommandSilent(`/execute in ${dimension} run ${command}`);
+    });
+
+    for (let i = 1; i <= 3; i++) {
+        server.scheduleInTicks(i * 20, () => {
+            let command = `playsound minecraft:entity.warden.heartbeat block @p ${effect.x} ${effect.y} ${effect.z} 30 0.5`;
+            server.runCommandSilent(command);
+        });
+    }
+}

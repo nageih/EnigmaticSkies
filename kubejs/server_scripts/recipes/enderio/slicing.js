@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
                 Ingredient.of(
                     'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
                 ).toJson(),
-                { tag: 'c:mushroom_blocks' },
+                { item: 'minecraft:red_mushroom_block' },
                 Ingredient.of(
                     'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
                 ).toJson(),

@@ -14,6 +14,13 @@ ServerEvents.recipes((event) => {
             xp: 0.1,
             duration: 10,
             id: `${id_prefix}source_berry_roll`
+        },
+        {
+            output: 'aether:holystone',
+            input: `aether:icestone`,
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}holystone`
         }
     ];
 

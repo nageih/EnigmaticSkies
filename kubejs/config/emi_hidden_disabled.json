@@ -106,7 +106,6 @@
         ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]",
-            "occultism:fragile_soul_gem[entity_data={id:\"minecraft:witch\"}]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_guardian\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",

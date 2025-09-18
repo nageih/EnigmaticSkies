@@ -382,8 +382,110 @@ const villagerTrades = {
     'minecraft:weaponsmith': [
         {
             result: { id: 'naturesaura:break_prevention', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
+        }
+    ],
+    // Blast Furnace
+    'minecraft:armorer': [
+        {
+            result: { id: 'minecraft:host_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:wayfinder_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:shaper_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:raiser_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:dune_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'minecraft:sentry_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:vex_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:wild_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:coast_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'minecraft:tide_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:bolt_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:rib_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:snout_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'minecraft:silence_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:ward_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:flow_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:spire_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'minecraft:eye_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'minecraft:netherite_upgrade_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ]
 };

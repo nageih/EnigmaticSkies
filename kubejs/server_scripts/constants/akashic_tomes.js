@@ -1,17 +1,12 @@
 //priority: 1001
 const akashic_tomes = [
     {
-        components: {
-            'akashictome:defined_mod': 'apotheosis',
-            'patchouli:book': 'apotheosis:apoth_chronicle'
-        },
+        components: { 'akashictome:defined_mod': 'apotheosis', 'patchouli:book': 'apotheosis:apoth_chronicle' },
         count: 1,
         id: 'patchouli:guide_book'
     },
     {
-        components: {
-            'akashictome:defined_mod': 'ae2'
-        },
+        components: { 'akashictome:defined_mod': 'ae2' },
         count: 1,
         id: 'ae2:guide'
     },
@@ -79,9 +74,7 @@ const akashic_tomes = [
         id: 'patchouli:guide_book'
     },
     {
-        components: {
-            'akashictome:defined_mod': 'occultism'
-        },
+        components: { 'akashictome:defined_mod': 'occultism' },
         count: 1,
         id: 'occultism:dictionary_of_spirits'
     },

@@ -216,6 +216,12 @@ ServerEvents.recipes((event) => {
         { id: `geneticsresequenced:incubator/gmo/more_hearts_from_enderman_with_20_chance` },
         { id: `geneticsresequenced:incubator/gmo/regeneration_from_iron_golem_with_30_chance` },
 
+        // Handcrafted
+        { output: 'handcrafted:vindicator_trophy' },
+        { output: 'handcrafted:witch_trophy' },
+        { output: 'handcrafted:evoker_trophy' },
+        { output: 'handcrafted:pillager_trophy' },
+
         // Industrial Foregoing
         { type: 'industrialforegoing:fluid_extractor' },
         { type: 'industrialforegoing:laser_drill_ore' },
