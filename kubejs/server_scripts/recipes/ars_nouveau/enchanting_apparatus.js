@@ -268,6 +268,19 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}mark_of_technomancy`
+        },
+        {
+            result: { id: 'enderio:prescient_crystal', count: 1 },
+            reagent: { item: 'enderio:vibrant_crystal' },
+            pedestalItems: [
+                { item: 'malum:eldritch_spirit' },
+                { item: 'malum:arcane_spirit' },
+                { item: 'malum:eldritch_spirit' },
+                { item: 'malum:arcane_spirit' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}prescient_crystal`
         }
     ];
 

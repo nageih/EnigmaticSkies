@@ -158,6 +158,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
+        { id: 'enderio:alloy_smelting/ender_pearl' },
         { id: 'enderio:pulsating_crystal' },
         { id: /enderio:(energized|vibrant|dark_bimetal)_gear/ },
         { id: `enderio:primitive_alloy_smelter` },
@@ -170,6 +171,8 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:slicing/guardian_diode' },
         { id: 'enderio:soulbinding/soul_engine' },
         { id: 'enderio:soulbinding/powered_spawner' },
+        { id: 'enderio:soulbinding/broken_spawner' },
+        { id: 'enderio:soulbinding/prescient_crystal' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
 
         // Enigmatic Unity
@@ -367,7 +370,8 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:spawn_lamp' },
         { id: 'naturesaura:chunk_loader' },
         { id: 'naturesaura:oak_generator' },
-        // { id: 'naturesaura:time_changer' },
+        { id: 'naturesaura:time_changer' },
+        { id: 'naturesaura:weather_changer' },
         { id: 'naturesaura:spring' },
         { id: 'naturesaura:auto_crafter' },
         { id: 'naturesaura:depth_ingot_creation' },

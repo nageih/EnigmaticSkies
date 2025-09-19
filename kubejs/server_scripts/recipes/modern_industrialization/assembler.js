@@ -43,8 +43,8 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_technica:calibrated_precision_mechanism', amount: 1 },
                 { tag: 'c:gears/energized', amount: 2 }
             ],
-            eu: 4,
-            duration: 5,
+            eu: 8,
+            duration: 10,
             id: `${id_prefix}antikythera_mechanism`
         },
 
