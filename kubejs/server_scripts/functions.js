@@ -170,7 +170,7 @@ function convertToBiome(event, biome, particle, radius) {
         `fillbiome ${startPos} ${endPos} ${biome}`,
         `particle cold_sweat:ground_mist ${block.x} ${block.y + 1.5} ${block.z}`,
         `particle ${particle} ${block.x} ${block.y + 1.25} ${block.z}`,
-        `playsound malum:hidden_blade_primed block @p ${block.x} ${block.y} ${block.z} 20 1`
+        `playsound malum:hidden_blade_primed master @p ${block.x} ${block.y} ${block.z} 20 1`
     ];
 
     getCircleCoordinates(block.x, block.y, block.z, radius, 1).forEach((c) => {
@@ -193,13 +193,18 @@ function convertToEntity(event, entity, particle, radius, height) {
     player.swing(event.hand, true);
 
     let yOffset = block.getProperties().half == 'upper' ? 1 : 0;
-    let rotation = directions[block.getProperties().facing];
     let effect = { x: block.x + 0.5, y: Math.floor(block.y - yOffset), z: block.z + 0.5 };
+
+    let mobRotation = `Rotation:[${directions[block.getProperties().facing]}F,0F]`;
+    let mobLoot = `DeathLootTable:"enigmatica:statue_tokens/${entity.split(':')[1]}"`;
+    let mobName = `CustomName:'{"color":"gold","text":"Clockwork ${toTitleCase(entity.split(':')[1])}"}'`;
+    let mobAttributes = `attributes:[{id:"minecraft:generic.armor",base:20},{id:"minecraft:generic.armor_toughness",base:10}]`;
+    let mobData = `{PatrolLeader:0b,${mobLoot},${mobRotation},${mobName},${mobAttributes}}`;
 
     let commands = [
         `fill ${block.x} ${effect.y} ${block.z} ${block.x} ${effect.y} ${block.z} air replace`,
         `summon ${entity} ${effect.x} ${effect.y} ${effect.z}`,
-        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge block @p ${effect.x} ${effect.y} ${effect.z} 10 1`
+        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`
     ];
 
     // Inject VFX
@@ -212,16 +217,27 @@ function convertToEntity(event, entity, particle, radius, height) {
         server.runCommandSilent(`${execute} ${command}`);
     });
 
-    // Force rotation to match statue
+    // Force rotation to match statue and set other data
     server.scheduleInTicks(1, () => {
-        let command = `data merge entity @e[type=${entity},limit=1,x=${effect.x},y=${effect.y},z=${effect.z}] {Rotation:[${rotation}F,0F]}`;
+        let command = `data merge entity @e[type=${entity},sort=nearest,limit=1,x=${effect.x},y=${effect.y},z=${effect.z}] ${mobData}`;
         server.runCommandSilent(`${execute} ${command}`);
     });
 
     // Creepy SFX
     for (let i = 1; i <= 3; i++) {
-        server.scheduleInTicks(i * 20, () => {
-            let command = `playsound minecraft:entity.warden.heartbeat block @p ${effect.x} ${effect.y} ${effect.z} 30 0.5`;
+        let ticks = i * 20;
+        server.scheduleInTicks(ticks + 5, () => {
+            let command = `playsound minecraft:entity.warden.heartbeat master @p ${effect.x} ${effect.y} ${effect.z} 1.0 0.5 1.0`;
+            server.runCommandSilent(`${execute} ${command}`);
+        });
+
+        server.scheduleInTicks(ticks, () => {
+            let command = `playsound supplementaries:block.clock.tick_2 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
+            server.runCommandSilent(`${execute} ${command}`);
+        });
+
+        server.scheduleInTicks(ticks + 10, () => {
+            let command = `playsound supplementaries:block.clock.tick_1 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
     }

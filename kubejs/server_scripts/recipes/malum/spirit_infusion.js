@@ -167,60 +167,60 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}token_sorrow`
         },
         {
-            output: { id: 'naturesaura:token_grief', count: 4 },
-            ingredient: { item: 'naturesaura:token_sorrow', count: 1 },
+            output: { id: 'handcrafted:witch_trophy', count: 4 },
+            ingredient: { item: 'minecraft:clay', count: 8 },
             extraIngredients: [
-                { tag: 'c:gems/fluxite', count: 1 },
                 { tag: 'c:essences/anima', count: 4 },
+                { item: 'naturesaura:token_sorrow', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
-            id: `${id_prefix}token_grief`
+            id: `${id_prefix}witch_trophy`
         },
         {
-            output: { id: 'naturesaura:token_euphoria', count: 4 },
-            ingredient: { item: 'naturesaura:token_joy', count: 1 },
+            output: { id: 'handcrafted:evoker_trophy', count: 4 },
+            ingredient: { item: 'minecraft:clay', count: 8 },
             extraIngredients: [
-                { tag: 'c:gems/fluxite', count: 1 },
                 { tag: 'c:essences/anima', count: 4 },
+                { item: 'naturesaura:token_joy', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
-            id: `${id_prefix}token_euphoria`
+            id: `${id_prefix}evoker_trophy`
         },
         {
-            output: { id: 'naturesaura:token_terror', count: 4 },
-            ingredient: { item: 'naturesaura:token_fear', count: 1 },
+            output: { id: 'handcrafted:pillager_trophy', count: 4 },
+            ingredient: { item: 'minecraft:clay', count: 8 },
             extraIngredients: [
-                { tag: 'c:gems/fluxite', count: 1 },
                 { tag: 'c:essences/anima', count: 4 },
+                { item: 'naturesaura:token_fear', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
-            id: `${id_prefix}token_terror`
+            id: `${id_prefix}pillager_trophy`
         },
         {
-            output: { id: 'naturesaura:token_rage', count: 4 },
-            ingredient: { item: 'naturesaura:token_anger', count: 1 },
+            output: { id: 'handcrafted:vindicator_trophy', count: 4 },
+            ingredient: { item: 'minecraft:clay', count: 8 },
             extraIngredients: [
-                { tag: 'c:gems/fluxite', count: 1 },
                 { tag: 'c:essences/anima', count: 4 },
+                { item: 'naturesaura:token_anger', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
-            id: `${id_prefix}token_rage`
+            id: `${id_prefix}vindicator_trophy`
         }
         // {
         //     output: { id: 'malum:complete_design', count: 1 },
