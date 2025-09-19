@@ -346,6 +346,26 @@ ServerEvents.recipes((event) => {
             replace_with: `#minecraft:flowers`
         },
         {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_euphoria`,
+            replace_with: `naturesaura:token_joy`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_terror`,
+            replace_with: `naturesaura:token_fear`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_rage`,
+            replace_with: `naturesaura:token_anger`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_grief`,
+            replace_with: `naturesaura:token_sorrow`
+        },
+        {
             filter: [{ id: 'farmersdelight:cutting_board' }],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
