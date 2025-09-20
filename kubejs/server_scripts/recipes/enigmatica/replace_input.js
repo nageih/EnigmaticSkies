@@ -410,7 +410,7 @@ ServerEvents.recipes((event) => {
             replace_with: `#c:gems/black_quartz`
         },
         {
-            filter: [{ id: 'ae2:quartz_fiber' }],
+            filter: [{ output: 'ae2:quartz_fiber' }],
             to_replace: `#c:glass_blocks/cheap`,
             replace_with: `malum:eldritch_spirited_glass`
         },
