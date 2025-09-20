@@ -146,6 +146,13 @@ ServerEvents.recipes((event) => {
             eu: 1,
             duration: 5,
             id: `${id_prefix}braising_cain`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:glazed_and_confused', amount: 1 }],
+            item_inputs: [{ item: 'arsdelight:source_berry_cupcake', amount: 6 }],
+            eu: 1,
+            duration: 5,
+            id: `${id_prefix}glazed_and_confused`
         }
     ];
 
