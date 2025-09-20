@@ -869,8 +869,6 @@
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. For those, we'll need some form of insulation. "
 		""
-		"We can manage for now with raw Aerogel, though we'll likely need to improve on it later for more advanced machinery."
-		""
 		"&6&nExample Spell&r"
 		""
 		"&7Conjure Aerogel&r"

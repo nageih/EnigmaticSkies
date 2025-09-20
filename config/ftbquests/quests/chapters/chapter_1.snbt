@@ -662,10 +662,10 @@
 			min_width: 300
 			rewards: [{
 				count: 8
-				id: "3F995B25C946F844"
+				id: "16F200E14F8BF6F4"
 				item: {
 					count: 1
-					id: "minecraft:andesite"
+					id: "create:andesite_alloy"
 				}
 				type: "item"
 			}]

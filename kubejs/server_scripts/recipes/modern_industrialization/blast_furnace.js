@@ -17,8 +17,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/sky_stone', amount: 4 },
                 { item: 'minecraft:andesite', amount: 1 }
             ],
-            duration: 20,
-            eu: 2,
+            duration: 40,
+            eu: 1,
             id: `${id_prefix}andesite_alloy`
         },
         {
@@ -28,8 +28,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/sky_stone', amount: 1 },
                 { item: 'createsifter:andesite_pebble', amount: 1 }
             ],
-            duration: 5,
-            eu: 2,
+            duration: 10,
+            eu: 1,
             id: `${id_prefix}andesite_alloy_from_pebble`
         }
     ];
