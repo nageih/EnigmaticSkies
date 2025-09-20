@@ -410,6 +410,11 @@ ServerEvents.recipes((event) => {
             replace_with: `#c:gems/black_quartz`
         },
         {
+            filter: [{ id: 'ae2:quartz_fiber' }],
+            to_replace: `#c:glass_blocks/cheap`,
+            replace_with: `malum:eldritch_spirited_glass`
+        },
+        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'
