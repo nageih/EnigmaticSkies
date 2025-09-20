@@ -94,6 +94,7 @@ ServerEvents.recipes((event) => {
         { id: 'arsdelight:bastion_pie' },
         { id: 'arsdelight:bombegrante_pie' },
         { id: 'arsdelight:frostaya_pie' },
+        { output: 'arsdelight:source_berry_cookie' },
 
         { id: 'ars_elemental:wool_to_string' },
 
@@ -144,7 +145,6 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
-        { output: 'enderio:wood_gear' },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
         { output: /enderio:.*photovoltaic_module/ },
@@ -161,7 +161,6 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:alloy_smelting/ender_pearl' },
         { id: 'enderio:pulsating_crystal' },
         { id: /enderio:(energized|vibrant|dark_bimetal)_gear/ },
-        { id: `enderio:primitive_alloy_smelter` },
         { id: 'enderio:slice_and_splice' },
         { id: 'enderio:ensouled_chassis' },
         { id: 'enderio:soul_chain' },
@@ -180,6 +179,8 @@ ServerEvents.recipes((event) => {
 
         // Farmers Delight
         { output: 'farmersdelight:organic_compost' },
+        { output: 'farmersdelight:sweet_berry_cookie' },
+        { output: 'farmersdelight:honey_cookie' },
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
         { id: 'farmersdelight:pie_crust' },
@@ -248,6 +249,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:animal_feeder' },
         { output: 'industrialforegoing:dissolution_chamber' },
         { output: 'industrialforegoing:animal_baby_separator' },
+        { output: 'industrialforegoing:sludge_refiner' },
         { output: 'industrialforegoing:animal_rancher' },
         { output: 'industrialforegoing:mob_slaughter_factory' },
         { output: 'industrialforegoing:block_placer' },
@@ -303,6 +305,7 @@ ServerEvents.recipes((event) => {
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
+        { output: 'minecraft:cookie' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
@@ -310,6 +313,7 @@ ServerEvents.recipes((event) => {
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
         { output: 'modern_industrialization:fire_clay_dust' },
+        { output: 'modern_industrialization:steam_blast_furnace' },
         { input: 'modern_industrialization:fire_clay_dust' },
         { output: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { input: /modern_industrialization:(brick|brick_tiny)_dust/ },

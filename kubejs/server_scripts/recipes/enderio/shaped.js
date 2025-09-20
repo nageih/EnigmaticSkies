@@ -2,16 +2,16 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:enderio/shaped/';
 
     const recipes = [
-        {
-            output: `enderio:primitive_alloy_smelter`,
-            pattern: ['AAA', 'BCB', 'BBB'],
-            key: {
-                A: 'minecraft:furnace',
-                B: 'supplementaries:ash_bricks',
-                C: 'aether:aerogel'
-            },
-            id: `${id_prefix}primitive_alloy_smelter`
-        },
+        // {
+        //     output: `enderio:primitive_alloy_smelter`,
+        //     pattern: ['AAA', 'BCB', 'BBB'],
+        //     key: {
+        //         A: 'minecraft:furnace',
+        //         B: 'supplementaries:ash_bricks',
+        //         C: 'aether:aerogel'
+        //     },
+        //     id: `${id_prefix}primitive_alloy_smelter`
+        // },
         {
             output: `enderio:ensouled_chassis`,
             pattern: ['AAA', 'ABA', 'AAA'],

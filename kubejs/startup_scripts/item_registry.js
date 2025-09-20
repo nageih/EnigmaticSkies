@@ -255,7 +255,13 @@ StartupEvents.registry('item', (event) => {
         'sulfurous_dorodango',
 
         'antikythera_mechanism',
-        'dilapidated_mechanism'
+        'dilapidated_mechanism',
+
+        'fire_clay_ball',
+        'cookie_dough',
+        'sweet_berry_cookie_dough',
+        'honey_cookie_dough',
+        'source_berry_cookie_dough'
     ];
 
     simple_items.forEach((item) => {

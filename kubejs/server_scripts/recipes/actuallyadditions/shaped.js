@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#enigmatica:planks',
                 B: 'farmersdelight:canvas',
-                C: '#c:gears/stone'
+                C: 'create:cogwheel'
             },
             id: `${id_prefix}wood_casing`
         },

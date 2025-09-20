@@ -112,6 +112,85 @@ ServerEvents.recipes((event) => {
                 F: 'oritech:flux_gate'
             },
             id: `${id_prefix}mv_steam_turbine`
+        },
+        {
+            output: `modern_industrialization:steam_blast_furnace`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'minecraft:furnace'
+            },
+            id: `${id_prefix}steam_blast_furnace`
+        },
+
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
+            pattern: ['B', 'A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_bucket'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_input_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_fluid_output_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_input_hatch_from_output`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_output_hatch`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_bucket'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_output_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_output_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_fluid_input_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_output_hatch_from_input`
+        },
+
+        {
+            output: `modern_industrialization:fire_clay_brick_item_input_hatch`,
+            pattern: ['B', 'A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_trapdoor'
+            },
+            id: `${id_prefix}fire_clay_brick_item_input_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_input_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_item_output_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_item_input_hatch_from_output`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_output_hatch`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_trapdoor'
+            },
+            id: `${id_prefix}fire_clay_brick_item_output_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_output_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_item_input_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_item_output_hatch_from_input`
         }
     ];
 

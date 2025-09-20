@@ -22,6 +22,7 @@ ServerEvents.recipes((event) => {
         { id: 'sewage_composter', item: 'minecraft:furnace' },
         { id: 'animal_feeder', item: 'minecraft:golden_carrot' },
         { id: 'animal_baby_separator', item: 'minecraft:iron_bars' },
+        { id: 'sludge_refiner', item: 'minecraft:bucket' },
         { id: 'animal_rancher', item: 'minecraft:shears', adv: true },
         { id: 'plant_gatherer', item: 'create:mechanical_harvester', adv: true },
         { id: 'plant_sower', item: 'minecraft:dispenser', adv: true },

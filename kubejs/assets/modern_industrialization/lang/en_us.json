@@ -13,5 +13,10 @@
     "item.modern_industrialization.cupronickel_cable": "MV Cable",
     "item.modern_industrialization.kanthal_cable": "HV Cable",
     "item.modern_industrialization.annealed_copper_cable": "EV Cable",
-    "item.modern_industrialization.superconductor_cable": "SV Cable"
+    "item.modern_industrialization.superconductor_cable": "SV Cable",
+
+    "block.modern_industrialization.fire_clay_brick_fluid_input_hatch": "Fire Clay Brick Fluid Input Hatch",
+    "block.modern_industrialization.fire_clay_brick_fluid_output_hatch": "Fire Clay Brick Fluid Output Hatch",
+    "block.modern_industrialization.fire_clay_brick_item_input_hatch": "Fire Clay Brick Item Input Hatch",
+    "block.modern_industrialization.fire_clay_brick_item_output_hatch": "Fire Clay Brick Item Output Hatch"
 }

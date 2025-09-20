@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
-            filter: [{ output: `enderio:stone_gear` }, { mod: `trashcans` }],
+            filter: [{ mod: `trashcans` }],
             to_replace: 'minecraft:cobblestone',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
@@ -194,16 +194,10 @@ ServerEvents.recipes((event) => {
             to_replace: `extended_industrialization:silver_curved_plate`,
             replace_with: Ingredient.of([`#c:ingots/silver`])
         },
-
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:plates/plastic',
             replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
-        },
-        {
-            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/iron',
-            replace_with: Ingredient.of(['#c:gears/stone'])
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],

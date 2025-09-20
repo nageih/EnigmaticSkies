@@ -656,7 +656,7 @@
 		{
 			dependencies: ["359A7C9127500D6C"]
 			icon: {
-				id: "enderio:primitive_alloy_smelter"
+				id: "modern_industrialization:steam_blast_furnace"
 			}
 			id: "15FAB1720AD470A0"
 			min_width: 300
@@ -672,7 +672,7 @@
 			tasks: [
 				{
 					id: "332A320109CC0BC4"
-					item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
 					type: "item"
 				}
 				{

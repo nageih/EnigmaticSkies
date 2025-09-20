@@ -88,6 +88,31 @@ ServerEvents.recipes((event) => {
             inputs: ['farmersdelight:wheat_dough', 'ars_nouveau:sourceberry_bush'],
             id: `${id_prefix}source_berry_roll_dough`
         },
+        {
+            output: '12x enigmatica:cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'create:bar_of_chocolate'],
+            id: `${id_prefix}cookie_dough`
+        },
+        {
+            output: '12x enigmatica:sweet_berry_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'minecraft:sweet_berries'],
+            id: `${id_prefix}sweet_berry_cookie_dough`
+        },
+        {
+            output: '12x enigmatica:honey_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', 'minecraft:honey_bottle'],
+            id: `${id_prefix}honey_cookie_dough`
+        },
+        {
+            output: '12x enigmatica:source_berry_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_berry_cookie_dough`
+        },
+        {
+            output: '4x enigmatica:fire_clay_ball',
+            inputs: ['aether:aerogel', 'minecraft:clay', '#c:dusts/ash'],
+            id: `${id_prefix}fire_clay_ball`
+        },
 
         // Villager Meals
         {

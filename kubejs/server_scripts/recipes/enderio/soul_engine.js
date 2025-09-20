@@ -4,7 +4,8 @@ ServerEvents.generateData('after_mods', (event) => {
         { id: 'minecraft:enderman' },
         { id: 'minecraft:husk' },
         { id: 'minecraft:zombie' },
-        { id: 'minecraft:zombie_villager' }
+        { id: 'minecraft:zombie_villager' },
+        { id: 'minecraft:creeper' }
     ];
 
     recipes.forEach((recipe) => {
