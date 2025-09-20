@@ -34,14 +34,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}plastic_from_raw_biopolymer`
         },
         {
-            results: [{ id: 'oritech:basic_battery', count: 2 }],
-            fluidOutputs: [],
-            ingredients: [{ tag: 'c:ingots/steel' }],
-            fluidInput: { fluid: 'modern_industrialization:sulfuric_acid', amount: 1000 },
-            time: 100,
-            id: `${id_prefix}basic_battery`
-        },
-        {
             results: [{ id: 'oritech:advanced_battery', count: 8 }],
             fluidOutputs: [],
             ingredients: [{ item: 'oritech:dubios_container' }],

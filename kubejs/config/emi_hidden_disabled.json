@@ -37,6 +37,8 @@
             "industrialforegoing:fluid_extractor",
             "industrialforegoing:biofuel_generator",
             "industrialforegoing:bioreactor",
+            "industrialforegoing:mob_slaughter_factory",
+            "industrialforegoing:mob_crusher",
             "industrialforegoing:water_condensator",
             "industrialforegoing:ore_laser_base",
             "industrialforegoing:mechanical_dirt",

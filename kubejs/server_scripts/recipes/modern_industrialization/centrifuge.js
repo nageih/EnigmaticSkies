@@ -23,13 +23,20 @@ ServerEvents.recipes((event) => {
             duration: 1,
             id: `${id_prefix}water`
         },
-
         {
             fluid_outputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
             fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
             eu: 2,
             duration: 10,
             id: `${id_prefix}manure`
+        },
+        {
+            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
+            item_inputs: [{ tag: 'c:foods/cooked_meats', amount: 1 }],
+            eu: 4,
+            duration: 10,
+            id: `${id_prefix}pink_slime`
         }
     ];
 

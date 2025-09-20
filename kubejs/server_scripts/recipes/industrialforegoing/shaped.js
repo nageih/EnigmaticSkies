@@ -23,7 +23,6 @@ ServerEvents.recipes((event) => {
         { id: 'animal_feeder', item: 'minecraft:golden_carrot' },
         { id: 'animal_baby_separator', item: 'minecraft:iron_bars' },
         { id: 'animal_rancher', item: 'minecraft:shears', adv: true },
-        { id: 'mob_slaughter_factory', item: 'create:propeller', adv: true },
         { id: 'plant_gatherer', item: 'create:mechanical_harvester', adv: true },
         { id: 'plant_sower', item: 'minecraft:dispenser', adv: true },
         { id: 'block_placer', item: 'actuallyadditions:placer', adv: true },

@@ -374,6 +374,45 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'farmersdelight:cutting_board' }],
             to_replace: `minecraft:stick`,
             replace_with: `#c:rods/wooden`
+        },
+        {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:upgrade_matrix`,
+            replace_with: 'pneumaticcraft:upgrade_matrix'
+        },
+        {
+            filter: [
+                { mod: 'ae2' },
+                { mod: 'ae2importexportcard' },
+                { mod: 'merequester' },
+                { mod: 'appflux' },
+                { mod: 'advanced_ae' },
+                { mod: 'ae2netanalyser' }
+            ],
+            to_replace: `#c:ingots/iron`,
+            replace_with: `#c:ingots/compressed_iron`
+        },
+        {
+            filter: [
+                { mod: 'ae2' },
+                { mod: 'ae2importexportcard' },
+                { mod: 'merequester' },
+                { mod: 'appflux' },
+                { mod: 'advanced_ae' },
+                { mod: 'ae2netanalyser' }
+            ],
+            to_replace: `#c:gems/certus_quartz`,
+            replace_with: `ae2:charged_certus_quartz_crystal`
+        },
+        {
+            filter: [{ mod: 'ae2' }],
+            to_replace: `#c:gems/quartz`,
+            replace_with: `#c:gems/black_quartz`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:basic_machine_hull`,
+            replace_with: 'industrialforegoing:machine_frame_advanced'
         }
     ];
 

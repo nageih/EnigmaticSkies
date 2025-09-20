@@ -188,7 +188,7 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'oritech'],
+            exclusions: ['create:milling', 'create:crushing', 'oritech', 'modern_industrialization'],
             fe: 2400,
             eu: 2,
             duration: 5,

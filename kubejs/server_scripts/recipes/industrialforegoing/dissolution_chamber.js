@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}redstone_crystal`
         },
         {
-            output: { count: 1, id: 'industrialforegoing:machine_frame_simple' },
+            output: { id: 'industrialforegoing:machine_frame_simple', count: 1 },
             input: [
                 { tag: 'c:plates/steel' },
                 { item: 'enderio:industrial_insulation_block' },
@@ -37,16 +37,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_frame_simple`
         },
         {
-            output: { count: 1, id: 'industrialforegoing:machine_frame_advanced' },
+            output: { id: 'industrialforegoing:machine_frame_advanced', count: 1 },
             input: [
                 { tag: 'c:plates/plastic' },
                 { item: 'industrialforegoing:machine_frame_simple' },
                 { tag: 'c:plates/plastic' },
                 { item: 'modern_industrialization:electronic_circuit' },
                 { item: 'modern_industrialization:electronic_circuit' },
-                { tag: 'c:plates/plastic' },
+                { item: 'oritech:basic_battery' },
                 { item: 'ars_technica:mark_of_technomancy' },
-                { tag: 'c:plates/plastic' }
+                { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
