@@ -3,22 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '2x actuallyadditions:rice_dough',
-            pattern: ['AA', 'A '],
-            key: {
-                A: '#c:crops/rice'
-            },
-            id: `${id_prefix}rice_dough`
-        },
-        {
-            output: '3x minecraft:paper',
-            pattern: ['A  ', ' A ', '  A'],
-            key: {
-                A: '#c:crops/rice'
-            },
-            id: `${id_prefix}rice_paper`
-        },
-        {
             output: 'actuallyadditions:wood_casing',
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {

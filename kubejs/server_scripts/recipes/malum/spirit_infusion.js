@@ -103,70 +103,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soulwoven_silk`
         },
         {
-            output: { id: 'naturesaura:token_anger', count: 4 },
-            ingredient: { item: 'supplementaries:statue', count: 1 },
-            extraIngredients: [
-                { tag: 'c:essences/fire', count: 4 },
-                // { tag: 'c:ingots/steel', count: 1 },
-                { tag: 'c:gems/empowered_restonia', count: 1 },
-                { item: 'ars_additions:lost_codex_entry', count: 1 }
-            ],
-            spirits: [
-                { type: 'infernal', count: 8 },
-                { type: 'wicked', count: 8 },
-                { type: 'arcane', count: 8 }
-            ],
-            id: `${id_prefix}token_anger`
-        },
-        {
-            output: { id: 'naturesaura:token_fear', count: 4 },
-            ingredient: { item: 'supplementaries:statue', count: 1 },
-            extraIngredients: [
-                { tag: 'c:essences/earth', count: 4 },
-                // { tag: 'c:ingots/copper_alloy', count: 1 },
-                { tag: 'c:gems/empowered_emeradic', count: 1 },
-                { item: 'ars_additions:lost_codex_entry', count: 1 }
-            ],
-            spirits: [
-                { type: 'earthen', count: 8 },
-                { type: 'wicked', count: 8 },
-                { type: 'arcane', count: 8 }
-            ],
-            id: `${id_prefix}token_fear`
-        },
-        {
-            output: { id: 'naturesaura:token_joy', count: 4 },
-            ingredient: { item: 'supplementaries:statue', count: 1 },
-            extraIngredients: [
-                { tag: 'c:essences/air', count: 4 },
-                // { tag: 'c:ingots/energetic_alloy', count: 1 },
-                { tag: 'c:gems/empowered_diamatine', count: 1 },
-                { item: 'ars_additions:lost_codex_entry', count: 1 }
-            ],
-            spirits: [
-                { type: 'aerial', count: 8 },
-                { type: 'sacred', count: 8 },
-                { type: 'arcane', count: 8 }
-            ],
-            id: `${id_prefix}token_joy`
-        },
-        {
-            output: { id: 'naturesaura:token_sorrow', count: 4 },
-            ingredient: { item: 'supplementaries:statue', count: 1 },
-            extraIngredients: [
-                { tag: 'c:essences/water', count: 4 },
-                // { tag: 'c:ingots/adamant', count: 1 },
-                { tag: 'c:gems/empowered_palis', count: 1 },
-                { item: 'ars_additions:lost_codex_entry', count: 1 }
-            ],
-            spirits: [
-                { type: 'aqueous', count: 8 },
-                { type: 'sacred', count: 8 },
-                { type: 'arcane', count: 8 }
-            ],
-            id: `${id_prefix}token_sorrow`
-        },
-        {
             output: { id: 'handcrafted:witch_trophy', count: 4 },
             ingredient: { item: 'minecraft:clay', count: 8 },
             extraIngredients: [
@@ -176,6 +112,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
+                { type: 'aqueous', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}witch_trophy`
@@ -190,6 +127,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
+                { type: 'aerial', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}evoker_trophy`
@@ -204,6 +142,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
+                { type: 'earthen', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}pillager_trophy`
@@ -218,10 +157,22 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'eldritch', count: 8 },
+                { type: 'infernal', count: 8 },
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}vindicator_trophy`
+        },
+        {
+            output: { id: 'enderio:prescient_crystal', count: 1 },
+            ingredient: { item: 'enderio:vibrant_crystal', count: 1 },
+            extraIngredients: [],
+            spirits: [
+                { type: 'eldritch', count: 2 },
+                { type: 'arcane', count: 2 }
+            ],
+            id: `${id_prefix}prescient_crystal`
         }
+
         // {
         //     output: { id: 'malum:complete_design', count: 1 },
         //     ingredient: { item: 'malum:anomalous_design', count: 1 },

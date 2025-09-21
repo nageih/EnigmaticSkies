@@ -574,7 +574,7 @@ ServerEvents.recipes((event) => {
             id_suffix: 'calcite_powder'
         },
         {
-            input: { tag: 'c:crops/rice' },
+            input: { item: 'farmersdelight:rice' },
             outputs: [
                 { id: 'minecraft:sugar', count: 2 },
                 { id: 'minecraft:sugar', count: 1, chance: 0.1 }

@@ -83,6 +83,7 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:source_berry_roll` },
         { id: `ars_nouveau:ritual_brazier` },
         { id: 'ars_nouveau:source_berry_pie' },
+        { id: 'ars_nouveau:magebloom_crop' },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -94,6 +95,7 @@ ServerEvents.recipes((event) => {
         { id: 'arsdelight:bastion_pie' },
         { id: 'arsdelight:bombegrante_pie' },
         { id: 'arsdelight:frostaya_pie' },
+        { id: 'arsdelight:paper_from_barks' },
         { output: 'arsdelight:source_berry_cookie' },
 
         { id: 'ars_elemental:wool_to_string' },
@@ -130,6 +132,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/kinetics/mechanical_plough' },
         { id: 'create:crafting/materials/electron_tube' },
         { id: 'create:sequenced_assembly/precision_mechanism' },
+        { id: 'create:pressing/sugar_cane' },
         { id: 'create:splashing/soul_sand' },
         { id: /create:splashing\/crushed_raw_.*/ },
         { id: /create:splashing\/(red_sand|gravel)/ },
@@ -186,6 +189,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:pie_crust' },
         { id: 'farmersdelight:apple_pie' },
         { id: 'farmersdelight:chocolate_pie' },
+        { id: 'farmersdelight:paper_from_tree_bark' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
 
         // Framed Blocks
@@ -302,6 +306,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:pumpkin_pie' },
         { id: `minecraft:pointed_dripstone` },
         { id: 'minecraft:bread' },
+        { id: 'minecraft:paper' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
@@ -352,6 +357,8 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:assembler_generated/steam_age/bronze/machine_casing' },
         { id: 'modern_industrialization:assembler_generated/steam_age/steel/machine_casing' },
         { id: 'modern_industrialization:alloy/mixer/stainless_steel/dust' },
+        { id: 'modern_industrialization:vanilla_recipes/compressor/paper_with_sugarcane' },
+        { id: 'modern_industrialization:vanilla_recipes/mixer/paper' },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/item_pipe_direct/ },
         { id: /modern_industrialization:steam_age\/(fluid|item)_pipe_asbl/ },
@@ -414,6 +421,7 @@ ServerEvents.recipes((event) => {
         // Oritech
         { type: 'oritech:foundry' },
         { type: 'oritech:fuel_generator' },
+        { type: 'oritech:bio_generator' },
         { output: 'oritech:foundry_block' },
         { type: 'oritech:pulverizer' },
         { output: 'oritech:pulverizer_block' },
@@ -538,6 +546,7 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/green_dye' },
         { id: 'utilitarian:utility/bread' },
         { id: 'utilitarian:utility/dispenser' },
+        { id: 'utilitarian:utility/paper' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals

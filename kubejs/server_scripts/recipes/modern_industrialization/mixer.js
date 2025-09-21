@@ -229,6 +229,39 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}rubber_sheet`
+        },
+
+        {
+            item_outputs: [{ item: 'minecraft:paper', amount: 1 }],
+            item_inputs: [{ item: 'minecraft:sugar_cane', amount: 3 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}paper_from_sugar_cane`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:paper', amount: 1 }],
+            item_inputs: [{ tag: 'farmersdelight:barks', amount: 3 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}paper_from_barks`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:paper', amount: 3 }],
+            item_inputs: [{ item: 'modern_industrialization:wood_pulp', amount: 3 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}paper_from_wood_pulp`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:paper', amount: 9 }],
+            item_inputs: [{ tag: 'c:doughs/rice', amount: 3 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}paper_from_rice`
         }
     ];
 

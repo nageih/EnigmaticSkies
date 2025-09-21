@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'minecraft:sugar', count: 2 },
-            input: { tag: 'c:crops/rice' },
+            input: { item: 'farmersdelight:rice' },
             catalyst: { item: 'naturesaura:crushing_catalyst' },
             aura: 3000,
             time: 2,

@@ -4957,6 +4957,13 @@
 		""
 		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
 	]
+	quest.78E557B17D1EB84F.quest_desc: [
+		"The Altar uses Ambrosium as fuel to transmute items. "
+		""
+		"As a first recipe, make some Rice by transmuting a Straw Bale, then plant the rice in water to get it growing. "
+		""
+		"From that, you'll be able to create a Magebloom Seed."
+	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "
 		""

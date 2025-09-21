@@ -689,12 +689,27 @@
 		}
 		{
 			dependencies: ["51636F3E5A461A7B"]
+			icon: {
+				id: "aether:altar"
+			}
 			id: "78E557B17D1EB84F"
-			tasks: [{
-				id: "782CEBB73CA78563"
-				item: { count: 1, id: "aether:altar" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "782CEBB73CA78563"
+					item: { count: 1, id: "aether:altar" }
+					type: "item"
+				}
+				{
+					id: "495EEF7017040FEC"
+					item: { count: 1, id: "farmersdelight:rice" }
+					type: "item"
+				}
+				{
+					id: "1D1256DD4F4CAD30"
+					item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -6.5d
 		}
