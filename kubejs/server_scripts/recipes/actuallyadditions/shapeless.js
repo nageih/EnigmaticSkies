@@ -6,6 +6,33 @@ ServerEvents.recipes((event) => {
             output: '4x actuallyadditions:black_quartz',
             inputs: ['#c:storage_blocks/black_quartz'],
             id: `${id_prefix}black_quartz`
+        },
+        {
+            output: '6x actuallyadditions:rice_dough',
+            inputs: [
+                Ingredient.of(['theurgy:crystallized_water', '#c:buckets/water']),
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice'
+            ],
+            id: `${id_prefix}rice_dough`
+        },
+        {
+            output: '12x actuallyadditions:rice_dough',
+            inputs: [
+                Ingredient.of(['theurgy:crystallized_water', '#c:buckets/water']),
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                'farmersdelight:rice',
+                '#c:eggs'
+            ],
+            id: `${id_prefix}rice_dough_with_egg`
         }
     ];
 

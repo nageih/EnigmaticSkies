@@ -719,7 +719,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(arseng:source_storage_cell_1k)item(arseng:source_storage_cell_4k)item(arseng:source_storage_cell_16k)item(arseng:source_storage_cell_64k)item(arseng:source_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 7.5d
 		}
 		{
@@ -759,55 +759,38 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["51233852CD921F79"]
-			id: "31CACA407D4ADCA5"
-			rewards: [{
-				id: "6551246DAA03911D"
-				item: {
-					count: 1
-					id: "appflux:flux_accessor"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7431A946D23EA21C"
-					item: { components: { "ftbfiltersystem:filter": "or(item(appflux:fe_1k_cell)item(appflux:fe_4k_cell)item(appflux:fe_16k_cell)item(appflux:fe_64k_cell)item(appflux:fe_256k_cell)item(appflux:fe_1m_cell)item(appflux:fe_4m_cell)item(appflux:fe_16m_cell)item(appflux:fe_64m_cell)item(appflux:fe_256m_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "2DE8C1FC24B2F227"
-					item: { count: 1, id: "appflux:induction_card" }
-					type: "item"
-				}
-			]
 			x: 4.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
-			id: "342FED2B0AC5F1B2"
-			rewards: [{
-				id: "3700F0B405416C5B"
-				item: {
-					count: 1
-					id: "ae2:cell_component_16k"
+			id: "31CACA407D4ADCA5"
+			rewards: [
+				{
+					id: "6551246DAA03911D"
+					item: {
+						count: 1
+						id: "appflux:flux_accessor"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "672A48586332EB18"
+					item: {
+						count: 1
+						id: "appflux:induction_card"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
-				id: "077608276B306F47"
-				item: { components: { "ftbfiltersystem:filter": "or(item(appmek:chemical_storage_cell_1k)item(appmek:chemical_storage_cell_4k)item(appmek:chemical_storage_cell_16k)item(appmek:chemical_storage_cell_64k)item(appmek:chemical_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "7431A946D23EA21C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(appflux:fe_1k_cell)item(appflux:fe_4k_cell)item(appflux:fe_16k_cell)item(appflux:fe_64k_cell)item(appflux:fe_256k_cell)item(appflux:fe_1m_cell)item(appflux:fe_4m_cell)item(appflux:fe_16m_cell)item(appflux:fe_64m_cell)item(appflux:fe_256m_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: 3.0d
+			y: 7.0d
 		}
 	]
 }

@@ -176,7 +176,7 @@ ServerEvents.recipes((event) => {
                 components: { 'naturesaura:effect_powder_data': { effect: 'naturesaura:animal' } },
                 count: 16
             },
-            reagent: { tag: 'c:crops/rice' },
+            reagent: { item: 'farmersdelight:rice' },
             pedestalItems: [
                 { tag: 'c:gems/source' },
                 { item: 'aether:golden_amber' },
@@ -198,7 +198,7 @@ ServerEvents.recipes((event) => {
                 components: { 'naturesaura:effect_powder_data': { effect: 'naturesaura:plant_boost' } },
                 count: 16
             },
-            reagent: { tag: 'c:crops/rice' },
+            reagent: { item: 'farmersdelight:rice' },
             pedestalItems: [
                 { tag: 'c:essences/earth' },
                 { item: 'aether:golden_amber' },
@@ -220,7 +220,7 @@ ServerEvents.recipes((event) => {
                 components: { 'naturesaura:effect_powder_data': { effect: 'naturesaura:cache_recharge' } },
                 count: 16
             },
-            reagent: { tag: 'c:crops/rice' },
+            reagent: { item: 'farmersdelight:rice' },
             pedestalItems: [
                 { tag: 'c:essences/water' },
                 { item: 'aether:golden_amber' },
@@ -251,6 +251,92 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}enchanted_gravitite`
+        },
+        {
+            result: { id: 'ars_technica:mark_of_technomancy', count: 5 },
+            reagent: { item: 'ars_nouveau:wilden_tribute' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gems/vibrant_crystal' },
+                { tag: 'c:plates/brass' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:plates/brass' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}mark_of_technomancy`
+        },
+
+        {
+            result: { id: 'naturesaura:token_joy', count: 4 },
+            reagent: { item: 'supplementaries:statue' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/air' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/air' },
+                { item: 'ars_nouveau:magebloom_fiber' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}token_joy`
+        },
+        {
+            result: { id: 'naturesaura:token_fear', count: 4 },
+            reagent: { item: 'supplementaries:statue' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/earth' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/earth' },
+                { item: 'ars_nouveau:magebloom_fiber' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}token_fear`
+        },
+        {
+            result: { id: 'naturesaura:token_anger', count: 4 },
+            reagent: { item: 'supplementaries:statue' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/fire' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/fire' },
+                { item: 'ars_nouveau:magebloom_fiber' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}token_anger`
+        },
+        {
+            result: { id: 'naturesaura:token_sorrow', count: 4 },
+            reagent: { item: 'supplementaries:statue' },
+            pedestalItems: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/water' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/water' },
+                { item: 'ars_nouveau:magebloom_fiber' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}token_sorrow`
         }
     ];
 

@@ -288,6 +288,10 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: Object.keys(armor_insulation),
             text: [Text.of(`May be used to insulate armor`).gold()]
+        },
+        {
+            items: ['supplementaries:fodder'],
+            text: [Text.of(`Feeds animals and induces them to breed`).green()]
         }
     ];
 

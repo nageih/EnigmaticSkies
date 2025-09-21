@@ -154,6 +154,51 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['#industrialforegoing:sludge'],
             text: [`May be produced in a Sludge Refiner. Sludge is a by-product of the Plant Gatherer.`]
+        },
+        {
+            filter: [
+                'handcrafted:pillager_trophy',
+                'handcrafted:vindicator_trophy',
+                'handcrafted:evoker_trophy',
+                'handcrafted:witch_trophy'
+            ],
+            text: [`Right-Click with an Antikythera Mechanism to bring it to life!`]
+        },
+        {
+            filter: ['enigmatica:antikythera_mechanism'],
+            text: [`Right-Click an Illager Trophy to bring it to life!`]
+        },
+        {
+            filter: ['naturesaura:token_grief'],
+            text: [
+                `Drops from a Clockwork Witch.`,
+                ` `,
+                `Right-Click a Witch Trophy with an Antikythera Mechanism to bring it to life!`
+            ]
+        },
+        {
+            filter: ['naturesaura:token_euphoria'],
+            text: [
+                `Drops from a Clockwork Evoker.`,
+                ` `,
+                `Right-Click an Evoker Trophy with an Antikythera Mechanism to bring it to life!`
+            ]
+        },
+        {
+            filter: ['naturesaura:token_rage'],
+            text: [
+                `Drops from a Clockwork Vindicator.`,
+                ` `,
+                `Right-Click a Vindicator Trophy with an Antikythera Mechanism to bring it to life!`
+            ]
+        },
+        {
+            filter: ['naturesaura:token_terror'],
+            text: [
+                `Drops from a Clockwork Pillager.`,
+                ` `,
+                `Right-Click a Pillager Trophy with an Antikythera Mechanism to bring it to life!`
+            ]
         }
     ];
 

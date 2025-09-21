@@ -23,28 +23,27 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}heatproof_machine_casing`
         },
-        // {
-        //     output: `modern_industrialization:bronze_assembler`,
-        //     pattern: ['ABA', 'CDC', 'EEE'],
-        //     key: {
-        //         A: `create:mechanical_arm`,
-        //         B: `create:sequenced_gearshift`,
-        //         C: '#c:gears/copper',
-        //         D: 'modern_industrialization:bronze_machine_casing',
-        //         E: '#modern_industrialization:fluid_pipes'
-        //     },
-        //     id: `${id_prefix}bronze_assembler`
-        // },
+        {
+            output: `modern_industrialization:bronze_assembler`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: `minecraft:crafting_table`,
+                B: 'create:precision_mechanism',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}bronze_assembler`
+        },
         {
             output: `modern_industrialization:bronze_centrifuge`,
-            pattern: ['ABC', 'DED', 'FFF'],
+            pattern: ['BAB', 'CDC', 'EEE'],
             key: {
-                A: `create:basin`,
-                B: `create:rotation_speed_controller`,
-                C: 'create:mechanical_bearing',
-                D: '#c:gears/copper',
-                E: 'modern_industrialization:bronze_machine_casing',
-                F: '#modern_industrialization:fluid_pipes'
+                A: `create:mechanical_pump`,
+                B: 'create:precision_mechanism',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}bronze_centrifuge`
         },
@@ -67,24 +66,7 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
-        {
-            output: `6x modern_industrialization:fluid_pipe`,
-            pattern: ['AAA', 'B B', 'AAA'],
-            key: {
-                A: 'ppfluids:fluid_pipe',
-                B: 'enderio:conduit_binder'
-            },
-            id: `${id_prefix}fluid_pipe`
-        },
-        {
-            output: `6x modern_industrialization:item_pipe`,
-            pattern: ['AAA', 'B B', 'AAA'],
-            key: {
-                A: 'prettypipes:pipe',
-                B: 'enderio:conduit_binder'
-            },
-            id: `${id_prefix}item_pipe`
-        },
+
         {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],
@@ -130,33 +112,87 @@ ServerEvents.recipes((event) => {
                 F: 'oritech:flux_gate'
             },
             id: `${id_prefix}mv_steam_turbine`
+        },
+        {
+            output: `modern_industrialization:steam_blast_furnace`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'minecraft:furnace'
+            },
+            id: `${id_prefix}steam_blast_furnace`
+        },
+
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
+            pattern: ['B', 'A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_bucket'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_input_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_fluid_output_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_input_hatch_from_output`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_output_hatch`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_bucket'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_output_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_fluid_output_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_fluid_input_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_fluid_output_hatch_from_input`
+        },
+
+        {
+            output: `modern_industrialization:fire_clay_brick_item_input_hatch`,
+            pattern: ['B', 'A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_trapdoor'
+            },
+            id: `${id_prefix}fire_clay_brick_item_input_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_input_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_item_output_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_item_input_hatch_from_output`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_output_hatch`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'modern_industrialization:fire_clay_bricks',
+                B: 'aether:skyroot_trapdoor'
+            },
+            id: `${id_prefix}fire_clay_brick_item_output_hatch`
+        },
+        {
+            output: `modern_industrialization:fire_clay_brick_item_output_hatch`,
+            pattern: ['A'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick_item_input_hatch'
+            },
+            id: `${id_prefix}fire_clay_brick_item_output_hatch_from_input`
         }
     ];
-
-    colors.forEach((color) => {
-        recipes.push(
-            {
-                output: `6x modern_industrialization:${color}_fluid_pipe`,
-                pattern: ['AAA', 'BCB', 'AAA'],
-                key: {
-                    A: 'ppfluids:fluid_pipe',
-                    B: 'enderio:conduit_binder',
-                    C: `#c:dyes/${color}`
-                },
-                id: `${id_prefix}${color}_fluid_pipe`
-            },
-            {
-                output: `6x modern_industrialization:${color}_item_pipe`,
-                pattern: ['AAA', 'BCB', 'AAA'],
-                key: {
-                    A: 'prettypipes:pipe',
-                    B: 'enderio:conduit_binder',
-                    C: `#c:dyes/${color}`
-                },
-                id: `${id_prefix}${color}_item_pipe`
-            }
-        );
-    });
 
     const gears = [
         'aluminum',

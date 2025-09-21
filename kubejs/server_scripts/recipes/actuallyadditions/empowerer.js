@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'modern_industrialization:electronic_circuit', count: 1 },
-            base: { item: 'malum:anomalous_design' },
+            base: { tag: 'c:plates/plastic' },
             modifiers: [
                 { item: 'modern_industrialization:analog_circuit' },
                 { tag: 'c:gems/fluxite' },
@@ -33,7 +33,6 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'actuallyadditions:empowered_canola_seed', count: 1 },
             base: { item: 'actuallyadditions:crystallized_canola_seed' },
-
             modifiers: [
                 { item: 'actuallyadditions:canola_seeds' },
                 { item: 'actuallyadditions:canola_seeds' },
@@ -44,6 +43,20 @@ ServerEvents.recipes((event) => {
             energy: 1000,
             time: 1,
             id: `${id_prefix}empowered_canola_seed`
+        },
+        {
+            result: { id: 'malum:fused_consciousness', count: 1 },
+            base: { item: 'malum:complete_design' },
+            modifiers: [
+                { item: 'naturesaura:token_euphoria' },
+                { item: 'naturesaura:token_terror' },
+                { item: 'naturesaura:token_rage' },
+                { item: 'naturesaura:token_grief' }
+            ],
+            color: '#0f5f23',
+            energy: 50000,
+            time: 10,
+            id: `${id_prefix}fused_consciousness`
         }
     ];
 

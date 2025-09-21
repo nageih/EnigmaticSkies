@@ -145,6 +145,36 @@ ServerEvents.recipes((event) => {
             egg: 'minecraft:shulker_spawn_egg',
             block: 'minecraft:purpur_block',
             spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'ars_nouveau:flourishing_weald_walker',
+            egg: 'ars_nouveau:green_archwood_sapling',
+            block: 'ars_nouveau:green_archwood_sapling',
+            spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'ars_nouveau:blazing_weald_walker',
+            egg: 'ars_nouveau:red_archwood_sapling',
+            block: 'ars_nouveau:red_archwood_sapling',
+            spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'ars_nouveau:cascading_weald_walker',
+            egg: 'ars_nouveau:blue_archwood_sapling',
+            block: 'ars_nouveau:blue_archwood_sapling',
+            spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'ars_nouveau:vexing_weald_walker',
+            egg: 'ars_nouveau:purple_archwood_sapling',
+            block: 'ars_nouveau:purple_archwood_sapling',
+            spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'ars_elemental:flashing_weald_walker',
+            egg: 'ars_elemental:yellow_archwood_sapling',
+            block: 'ars_elemental:yellow_archwood_sapling',
+            spirit: 'naturesaura:calling_spirit'
         }
     ];
 
@@ -164,9 +194,9 @@ ServerEvents.recipes((event) => {
             activation_item: { item: animated.block },
             ingredients: [
                 { tag: 'c:essences/hex_ash' },
-                { item: 'industrialforegoing:pink_slime' },
+                { item: 'industrialforegoing:pink_slime_block' },
                 { item: animated.spirit },
-                { item: 'industrialforegoing:pink_slime' }
+                { item: 'industrialforegoing:pink_slime_block' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
             duration: 30,

@@ -23,7 +23,7 @@ const villagerTrades = {
         },
         {
             result: { id: 'minecraft:loom', count: 1 },
-            ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 2
         },
 
@@ -72,6 +72,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
+
         {
             result: { id: 'actuallyadditions:worm', count: 4 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
@@ -93,6 +94,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
             level: 3
         },
+
         {
             result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
@@ -133,21 +135,22 @@ const villagerTrades = {
             ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
             level: 3
         },
+
         {
             result: { id: 'minecraft:pufferfish', count: 4 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 4
         },
-
         {
             result: { id: 'sushigocrafting:raw_tuna', count: 4 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 4
         },
+
         {
             result: { id: 'sushigocrafting:shrimp[sushigocrafting:amount=100]', count: 1 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 5
         }
     ],
     // Loom
@@ -162,6 +165,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 1 } }],
             level: 1
         },
+
         {
             result: { id: 'enigmatica:sheepuff_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
@@ -172,6 +176,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
+
         {
             result: { id: 'enigmatica:chicken_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
@@ -182,6 +187,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
+
         {
             result: { id: 'enigmatica:moa_iou', count: 1 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
@@ -192,7 +198,7 @@ const villagerTrades = {
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_nouveau:enchanting_apparatus', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
@@ -227,12 +233,12 @@ const villagerTrades = {
     'minecraft:mason': [
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
             result: { id: `cold_sweat:hearth`, count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 4, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 1
         }
     ],
@@ -245,43 +251,42 @@ const villagerTrades = {
         },
         {
             result: { id: 'create:precision_mechanism', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 1
         },
 
         {
             result: { id: 'modern_industrialization:analog_circuit', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'modern_industrialization:copper_cable', count: 8 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],
     // Forge Hammer
     'modern_industrialization:industrialist': [
-        {
-            result: { id: 'modern_industrialization:bronze_assembler', count: 1 },
-            ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 2 } }],
-            level: 1
-        },
+        // {
+        //     result: { id: 'modern_industrialization:bronze_assembler', count: 1 },
+        //     ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 2 } }],
+        //     level: 1
+        // },
         {
             result: { id: 'prettypipes:pipe', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
-
         {
             result: { id: 'ppfluids:fluid_pipe', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
-            level: 2
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
         },
 
         {
             result: { id: 'prettypipes:blank_module', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],
@@ -289,6 +294,11 @@ const villagerTrades = {
     'minecraft:cleric': [
         {
             result: { id: 'ars_nouveau:ritual_brazier', count: 1 },
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'occultism:fragile_soul_gem', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
@@ -305,24 +315,24 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'malum:rotting_essence', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:rotting_essence', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
-            result: { id: 'malum:grim_talc', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:grim_talc', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
-            result: { id: 'malum:astral_weave', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:astral_weave', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
-            result: { id: 'malum:warp_flux', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:warp_flux', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         }
     ],
@@ -352,18 +362,24 @@ const villagerTrades = {
 
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 4, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 8, max: 12 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 4
         },
+
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 12, max: 16 } }],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'enigmatica:antikythera_mechanism', count: 4 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }
     ],
@@ -371,8 +387,110 @@ const villagerTrades = {
     'minecraft:weaponsmith': [
         {
             result: { id: 'naturesaura:break_prevention', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
+        }
+    ],
+    // Blast Furnace
+    'minecraft:armorer': [
+        {
+            result: { id: 'minecraft:host_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:wayfinder_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:shaper_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:raiser_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'minecraft:dune_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'minecraft:sentry_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:vex_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:wild_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+        {
+            result: { id: 'minecraft:coast_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'minecraft:tide_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:bolt_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:rib_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:snout_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'minecraft:silence_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:ward_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:flow_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'minecraft:spire_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'minecraft:eye_armor_trim_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'minecraft:netherite_upgrade_smithing_template', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ]
 };

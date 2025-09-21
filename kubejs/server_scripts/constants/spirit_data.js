@@ -294,6 +294,41 @@ const spiritData = [
         spirits: [{ spirit: 'aqueous', count: 1 }]
     },
     {
+        registry_name: 'ars_elemental:flashing_weald_walker',
+        spirits: [
+            { spirit: 'aerial', count: 2 },
+            { spirit: 'arcane', count: 3 }
+        ]
+    },
+    {
+        registry_name: 'ars_nouveau:flourishing_weald_walker',
+        spirits: [
+            { spirit: 'earthen', count: 2 },
+            { spirit: 'arcane', count: 3 }
+        ]
+    },
+    {
+        registry_name: 'ars_nouveau:blazing_weald_walker',
+        spirits: [
+            { spirit: 'infernal', count: 2 },
+            { spirit: 'arcane', count: 3 }
+        ]
+    },
+    {
+        registry_name: 'ars_nouveau:cascading_weald_walker',
+        spirits: [
+            { spirit: 'aqueous', count: 2 },
+            { spirit: 'arcane', count: 3 }
+        ]
+    },
+    {
+        registry_name: 'ars_nouveau:vexing_weald_walker',
+        spirits: [
+            { spirit: 'eldritch', count: 2 },
+            { spirit: 'arcane', count: 3 }
+        ]
+    },
+    {
         registry_name: 'ars_nouveau:wilden_boss',
         spirits: [
             { spirit: 'arcane', count: 3 },

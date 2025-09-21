@@ -49,13 +49,6 @@ ServerEvents.generateData('before_mods', (event) => {
             }
         },
         {
-            entities: ['ars_nouveau:starbuncle'],
-            genes: {
-                'geneticsresequenced:basic': 5,
-                'geneticsresequenced:speed': 2
-            }
-        },
-        {
             entities: [
                 'ars_nouveau:vexing_weald_walker',
                 'ars_nouveau:flourishing_weald_walker',
@@ -69,35 +62,6 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:resistance': 4,
                 'geneticsresequenced:strength': 3,
                 'geneticsresequenced:photosynthesis': 3
-            }
-        },
-        {
-            entities: ['ars_nouveau:whirlisprig', 'the_bumblezone:rootmin'],
-            genes: {
-                'geneticsresequenced:basic': 5,
-                'geneticsresequenced:photosynthesis': 3,
-                'geneticsresequenced:regeneration': 2
-            }
-        },
-        {
-            entities: ['ars_nouveau:wixie'],
-            genes: {
-                'geneticsresequenced:basic': 5,
-                'geneticsresequenced:poison_immunity': 2
-            }
-        },
-        {
-            entities: ['ars_nouveau:drygmy'],
-            genes: {
-                'geneticsresequenced:basic': 5,
-                'geneticsresequenced:luck': 5
-            }
-        },
-        {
-            entities: ['ars_nouveau:amethyst_golem'],
-            genes: {
-                'geneticsresequenced:basic': 5,
-                'geneticsresequenced:knockback': 5
             }
         },
         {

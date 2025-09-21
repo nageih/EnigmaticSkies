@@ -1,6 +1,9 @@
 ServerEvents.tags('block', (event) => {
     let additions = {
-        stone: [/modern_industrialization:(bronze|steel)_(assembler|centrifuge)/],
+        stone: [
+            /modern_industrialization:(bronze|steel)_(assembler|centrifuge)/,
+            /modern_industrialization:fire_clay_brick_.*_hatch/
+        ],
         iron: ['minecraft:reinforced_deepslate']
     };
 

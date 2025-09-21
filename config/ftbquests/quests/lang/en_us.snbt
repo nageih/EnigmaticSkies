@@ -143,9 +143,9 @@
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
 	quest.04D144DC0EAE8BE3.quest_desc: [
-		"Next, you'll want to buy a Brewing Stand to gain access to the Cleric's trades. "
+		"Next, you'll want to buy a &7Brewing Stand&r to gain access to the &7Cleric Villager's&r trades. "
 		""
-		"In particular, you'll need a Ritual Brazier soon, so buy one of those as well."
+		"In particular, you'll need a &7Ritual Brazier&r soon, so be certain to pick one up."
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.0545305EBB98A0BA.quest_desc: [
@@ -869,8 +869,6 @@
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. For those, we'll need some form of insulation. "
 		""
-		"We can manage for now with raw Aerogel, though we'll likely need to improve on it later for more advanced machinery."
-		""
 		"&6&nExample Spell&r"
 		""
 		"&7Conjure Aerogel&r"
@@ -878,6 +876,18 @@
 		""
 		""
 		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
+		""
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the Steam Blast Furnace requires both Item and Fluid Hatches. You may place multiple hatches to handle different inputs."
+		""
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Blast Furnace block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.16A5D60F0825B318.quest_desc: [
 		"The Quantum Entangloporter acts as a cross-dimensional hub for moving materials and energy. "
@@ -1252,13 +1262,6 @@
 		"The Garden Cloche is useful for automating the growth of certain crops, like Hemp, which are used heavily throughout the mod. "
 		""
 		"Consider feeding it excess Slag or Bone Meal as fertilizer to speed things along until better fertilizers can be made. "
-	]
-	quest.211E0844F3ACD244.quest_desc: [
-		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
-		""
-		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
-		""
-		"Once we get going, however, we’ll be able to upgrade to powered machines."
 	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
@@ -1867,17 +1870,6 @@
 		"&a    discover more."
 	]
 	quest.3263757C9A240C70.title: "Chipped"
-	quest.342FED2B0AC5F1B2.quest_desc: [
-		"Many Mekanism machines require some form of Chemical to perform recipes such as Redstone in Chemical form to create Infused Alloys. "
-		""
-		"While this material can be provided in item form, such as with Enriched Redstone, it can also be provided in the Chemical form to simplify interfacing with the machine. "
-		""
-		"After all, the Item needs to go in the Yellow Extra slot, whereas the Chemical form can be inserted on the same side as the rest of your ingredients."
-		""
-		"&a🛈 Tip: Enriched Redstone and other "
-		"&a    items can be converted to Chemical "
-		"&a    form in a Chemical Oxidizer."
-	]
 	quest.3456EED039818662.quest_desc: [
 		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
 		""
@@ -1901,7 +1893,7 @@
 	quest.34FB10F0A2504973.quest_desc: [
 		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
 		""
-		"Buy a Loom to gain access to a Shepherd Villager. You won’t be able to afford much yet but get yourself a &7Tablet of Conjure Island: Lush Garden&r, as well as a couple &7IOUs for Flying Cows&r."
+		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
 		"&n                                                  &r"
 		""
 		"Be careful when setting up these Island rituals. They will not destroy blocks when spawning the island, meaning if anything is in the way, you may miss out on important blocks."
@@ -3545,7 +3537,7 @@
 		"Be sure to stock up!"
 	]
 	quest.56AD6E7F12056140.quest_desc: [
-		"The Enchanting Apparatus is a vital tool in and of itself. More importantly, however, the Arcane Core used in this device is the Job Site for Shady Wizard Villagers, who will sell you various magical trinkets."
+		"The Enchanting Apparatus is a vital tool in and of itself. The Arcane Core used in this device is also the Job Site for Shady Wizard Villagers, who will sell you various magical trinkets."
 		""
 		"Consider picking up some Wixies to help you with cooking up food to feed your villagers."
 	]
@@ -4976,6 +4968,13 @@
 		"Some machines, however, can take a very long time to get up to speed, and you may not want to wait for them just to get a process going. Right-Click a machine with a Bucket or Tank filled with Lubricant to give them an immediate boost to Efficiency! "
 		""
 		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
+	]
+	quest.78E557B17D1EB84F.quest_desc: [
+		"The Altar uses Ambrosium as fuel to transmute items. "
+		""
+		"As a first recipe, make some Rice by transmuting a Straw Bale, then plant the rice in water to get it growing. "
+		""
+		"From that, you'll be able to create a Magebloom Seed."
 	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "

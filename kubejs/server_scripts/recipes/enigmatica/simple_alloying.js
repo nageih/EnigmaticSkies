@@ -74,26 +74,7 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `netherite_ingot`
         },
-        {
-            output: { id: 'create:andesite_alloy', count: 4 },
-            inputs: [
-                { tag: 'c:dusts/sky_stone', count: 4 },
-                { item: 'minecraft:andesite', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `andesite_alloy`
-        },
-        {
-            output: { id: 'create:andesite_alloy', count: 1 },
-            inputs: [
-                { tag: 'c:dusts/sky_stone', count: 1 },
-                { item: 'createsifter:andesite_pebble', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `andesite_alloy_from_pebble`
-        },
+
         {
             output: { id: 'create:rose_quartz', count: 2 },
             inputs: [
@@ -160,26 +141,26 @@ ServerEvents.recipes((event) => {
             inputs: [
                 { tag: 'c:gems/empowered_restonia', count: 1 },
                 { tag: 'c:ingots/hallowed_gold', count: 1 },
-                { item: 'malum:paracausal_flame', count: 1 }
+                { item: 'malum:strange_crystal', count: 1 }
             ],
             tier: 1,
             exclusions: [],
             id_suffix: `energetic_alloy_ingot`
         },
-        {
-            output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/energetic_alloy', count: 1 },
-                { tag: 'c:ender_pearls', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `vibrant_alloy_ingot`
-        },
+        // {
+        //     output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
+        //     inputs: [
+        //         { tag: 'c:ingots/energetic_alloy', count: 1 },
+        //         { item: 'malum:paracausal_flame', count: 1 }
+        //     ],
+        //     tier: 1,
+        //     exclusions: [],
+        //     id_suffix: `vibrant_alloy_ingot`
+        // },
         {
             output: { id: 'enderio:pulsating_alloy_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/copper_alloy', count: 1 },
+                { tag: 'c:ingots/infused_iron', count: 1 },
                 { tag: 'c:dusts/grains_of_pizeallity', count: 1 }
             ],
             tier: 1,
@@ -236,17 +217,6 @@ ServerEvents.recipes((event) => {
             tier: 2,
             exclusions: [],
             id_suffix: `adamant_ingot`
-        },
-        {
-            output: { id: 'modern_industrialization:fire_clay_brick', count: 2 },
-            inputs: [
-                { tag: 'c:clay', count: 1 },
-                { item: 'aether:aerogel', count: 1 },
-                { tag: 'c:dusts/ash', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `fire_clay_brick`
         }
     ];
 

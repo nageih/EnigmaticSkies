@@ -616,5 +616,49 @@
 			x: 4.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["0DE5D9ADB947B171"]
+			id: "70463311283BC5C3"
+			tasks: [{
+				id: "4F2BF779799E9937"
+				item: { count: 1, id: "naturesaura:token_euphoria" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DE5D9ADB947B171"]
+			id: "4EBF7346F81AB4B9"
+			tasks: [{
+				id: "7C94EA5282CCE1C9"
+				item: { count: 1, id: "naturesaura:token_terror" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DE5D9ADB947B171"]
+			id: "569859F49909B566"
+			tasks: [{
+				id: "3F9AC9C1C3E7919C"
+				item: { count: 1, id: "naturesaura:token_rage" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0DE5D9ADB947B171"]
+			id: "7476BDB847F181E2"
+			tasks: [{
+				id: "433A0BD46E05D248"
+				item: { count: 1, id: "naturesaura:token_grief" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
 	]
 }

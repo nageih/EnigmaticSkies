@@ -13,16 +13,16 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:wolf_armor',
             replace_with: `minecraft:wolf_armor[lore=['{"color":"light_purple","text":"Much Wow"}','{"color":"red","text":"Vetty Cute"}','{"color":"green","text":"Fite!"}','{"color":"blue","text":"Goodest Doge"}'],unbreakable={},attribute_modifiers={modifiers:[{amount:20.0d,id:"minecraft:armor",operation:"add_value",type:"minecraft:generic.armor"}]}]`
         },
-        // {
-        //     filter: [{ mod: 'akashictome' }],
-        //     to_replace: `akashictome:tome`,
-        //     replace_with: `akashictome:tome[akashictome:tool_content=${JSON.stringify(akashic_tomes)}]`
-        // },
-        // {
-        //     filter: [{ mod: 'morphtool' }],
-        //     to_replace: `morphtool:tool`,
-        //     replace_with: `morphtool:tool[morphtool:tool_content=${JSON.stringify(morph_tools)}]`
-        // },
+        {
+            filter: [{ mod: 'akashictome' }],
+            to_replace: `akashictome:tome`,
+            replace_with: `akashictome:tome[akashictome:tool_content=${JSON.stringify(akashic_tomes)}]`
+        },
+        {
+            filter: [{ mod: 'morphtool' }],
+            to_replace: `morphtool:tool`,
+            replace_with: `morphtool:tool[morphtool:tool_content=${JSON.stringify(morph_tools)}]`
+        },
         {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:wrench`,

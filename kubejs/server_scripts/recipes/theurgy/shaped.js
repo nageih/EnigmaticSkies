@@ -74,6 +74,56 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:polished_andesite'
             },
             id: `${id_prefix}distiller`
+        },
+        {
+            output: '3x theurgy:logistics_connector_node',
+            pattern: [' A ', 'BCB', 'BCB'],
+            key: {
+                A: 'theurgy:mercury_shard',
+                B: 'minecraft:brick',
+                C: 'create:shaft'
+            },
+            id: `${id_prefix}logistics_connector_node`
+        },
+        {
+            output: '2x theurgy:logistics_item_inserter',
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'theurgy:mercury_shard',
+                B: 'create:shaft',
+                C: 'prettypipes:pipe'
+            },
+            id: `${id_prefix}logistics_item_inserter`
+        },
+        {
+            output: '2x theurgy:logistics_item_extractor',
+            pattern: ['C', 'B', 'A'],
+            key: {
+                A: 'theurgy:mercury_shard',
+                B: 'create:shaft',
+                C: 'prettypipes:pipe'
+            },
+            id: `${id_prefix}logistics_item_extractor`
+        },
+        {
+            output: '2x theurgy:logistics_fluid_inserter',
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'theurgy:mercury_shard',
+                B: 'create:shaft',
+                C: 'ppfluids:fluid_pipe'
+            },
+            id: `${id_prefix}logistics_fluid_inserter`
+        },
+        {
+            output: '2x theurgy:logistics_fluid_extractor',
+            pattern: ['C', 'B', 'A'],
+            key: {
+                A: 'theurgy:mercury_shard',
+                B: 'create:shaft',
+                C: 'ppfluids:fluid_pipe'
+            },
+            id: `${id_prefix}logistics_fluid_extractor`
         }
     ];
 

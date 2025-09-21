@@ -3,75 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '2x minecraft:brown_dye',
-            inputs: ['#c:dyes/green', '#c:dyes/red'],
-            id: `${id_prefix}brown_dye_from_green_red`
-        },
-        {
-            output: '2x minecraft:brown_dye',
-            inputs: ['#c:dyes/blue', '#c:dyes/red', '#c:dyes/yellow'],
-            id: `${id_prefix}brown_dye_from_blue_red_yellow`
-        },
-        {
-            output: '2x minecraft:green_dye',
-            inputs: ['#c:dyes/blue', '#c:dyes/yellow'],
-            id: `${id_prefix}green_dye_from_blue_yellow`
-        },
-        {
-            output: 'minecraft:green_dye',
-            inputs: [
-                'minecraft:short_grass',
-                'minecraft:short_grass',
-                'minecraft:short_grass',
-                'minecraft:short_grass'
-            ],
-            id: `${id_prefix}green_dye_from_short_grass`
-        },
-        {
-            output: '2x minecraft:yellow_dye',
-            inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
-            id: `${id_prefix}yellow_dye_from_sulfur`
-        },
-
-        {
-            output: 'minecraft:yellow_dye',
-            inputs: ['minecraft:glow_berries'],
-            id: `${id_prefix}yellow_dye_from_glow_berries`
-        },
-
-        {
-            output: 'minecraft:reinforced_deepslate',
-            inputs: [
-                'minecraft:polished_deepslate',
-                '#c:ingots/iron',
-                '#c:ingots/iron',
-                '#c:ingots/iron',
-                '#c:ingots/iron'
-            ],
-            id: `${id_prefix}reinforced_deepslate`
-        },
-        {
-            output: '2x minecraft:name_tag',
-            inputs: ['#c:strings', 'minecraft:paper'],
-            id: `${id_prefix}name_tag`
-        },
-        {
-            output: 'minecraft:dead_bush',
-            inputs: ['#minecraft:saplings', 'minecraft:shears'],
-            damage: { item: 'minecraft:shears', amount: 1 },
-            id: `${id_prefix}dead_bush`
-        },
-        {
-            output: '4x minecraft:quartz',
-            inputs: ['#c:storage_blocks/quartz'],
-            id: `${id_prefix}quartz`
-        },
-        {
-            output: '4x minecraft:amethyst_shard',
-            inputs: ['#c:storage_blocks/amethyst'],
-            id: `${id_prefix}amethyst_shard`
-        },
-        {
             output: '4x enigmatica:poutine',
             inputs: [
                 'pneumaticcraft:chips',
@@ -87,6 +18,36 @@ ServerEvents.recipes((event) => {
             output: 'enigmatica:source_berry_roll_dough',
             inputs: ['farmersdelight:wheat_dough', 'ars_nouveau:sourceberry_bush'],
             id: `${id_prefix}source_berry_roll_dough`
+        },
+        {
+            output: '12x enigmatica:cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'create:bar_of_chocolate'],
+            id: `${id_prefix}cookie_dough`
+        },
+        {
+            output: '12x enigmatica:sweet_berry_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'minecraft:sweet_berries'],
+            id: `${id_prefix}sweet_berry_cookie_dough`
+        },
+        {
+            output: '12x enigmatica:honey_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', 'minecraft:honey_bottle'],
+            id: `${id_prefix}honey_cookie_dough`
+        },
+        {
+            output: '12x enigmatica:source_berry_cookie_dough',
+            inputs: ['farmersdelight:wheat_dough', '#c:sugars', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_berry_cookie_dough`
+        },
+        {
+            output: '4x enigmatica:fire_clay_ball',
+            inputs: ['aether:aerogel', 'minecraft:clay', '#c:dusts/ash'],
+            id: `${id_prefix}fire_clay_ball`
+        },
+        {
+            output: 'enigmatica:source_ink',
+            inputs: ['minecraft:glass_bottle', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_ink`
         },
 
         // Villager Meals
@@ -118,18 +79,6 @@ ServerEvents.recipes((event) => {
                 'ars_nouveau:source_berry_roll'
             ],
             id: `${id_prefix}the_bun_also_rises`
-        },
-        {
-            output: 'enigmatica:glazed_and_confused',
-            inputs: [
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake'
-            ],
-            id: `${id_prefix}glazed_and_confused`
         },
         {
             output: 'enigmatica:braising_cain',

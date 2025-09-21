@@ -2,10 +2,21 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:supplementaries/shapeless/';
 
     const recipes = [
+        // {
+        //     output: 'supplementaries:statue',
+        //     inputs: ['minecraft:clay', 'minecraft:clay', '#c:gems/emeradic', '#c:tools/knife'],
+        //     damage: { item: '#c:tools/knife', amount: 5 },
+        //     id: `${id_prefix}statue`
+        // }
         {
             output: 'supplementaries:statue',
-            inputs: ['minecraft:clay', 'minecraft:clay', '#c:gems/emeradic', '#c:tools/knife'],
-            damage: { item: '#c:tools/knife', amount: 5 },
+            inputs: [
+                'minecraft:clay',
+                'minecraft:clay',
+                '#c:gems/emeradic',
+                'ars_nouveau:blank_parchment',
+                'enigmatica:source_ink'
+            ],
             id: `${id_prefix}statue`
         }
     ];

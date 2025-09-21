@@ -1,29 +1,33 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
     const delivery_bags = [
-        { name: `Dumpling Drop`, magic: true },
-        { name: `Great Eggspectations` },
-        { name: `Cozy Cauldron`, magic: true },
-        { name: `La Drygmese Poutine`, magic: true },
-        { name: `Bun-Believable Burger` },
-        { name: `Sheep-Eatin' Green` },
-        { name: `Flyin' Fox` },
-        { name: `Sun's Out, Buns Out` },
-        { name: `The Bun Also Rises`, magic: true },
-        { name: `Glazed and Confused`, magic: true },
-        { name: `Braising Cain` }
+        { name: `Dumpling Drop`, color: '#a832a8', magic: true },
+        { name: `Great Eggspectations`, color: '#e35e0b' },
+        { name: `Cozy Cauldron`, color: '#22e610', magic: true },
+        { name: `La Drygmese Poutine`, color: '#ed094a', magic: true },
+        { name: `Bun-Believable Burger`, color: '#02610d' },
+        { name: `Sheep-Eatin' Green`, color: '#3ff254' },
+        { name: `Flyin' Fox`, color: '#f2920c' },
+        { name: `Sun's Out, Buns Out`, color: '#f7f300' },
+        { name: `The Bun Also Rises`, color: '#139df2', magic: true },
+        { name: `Glazed and Confused`, color: '#070ff7', magic: true },
+        { name: `Braising Cain`, color: '#f578f1' }
     ];
 
     delivery_bags.forEach((item) => {
         let id = getID(item.name);
         event
             .create(`enigmatica:${id}`)
-            .texture(`enigmatica:item/delivery_bags/${id}`)
+            .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
+            .texture('layer1', `enigmatica:item/delivery_bags/label`)
+            .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
+            .color(1, item.magic ? '#ebcafc' : '#ddc8b1')
+            .color(2, item.color)
             .displayName(`§6CloudDash: ${item.magic ? '§d' : '§r'}${item.name}`)
             .tag('enigmatica:deliveries');
     });
 
-    const IOU_slips = [
+    const iou_slips = [
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },
         { name: 'Sheepuff', layer: 'mutton' },
@@ -33,7 +37,7 @@ StartupEvents.registry('item', (event) => {
         { name: 'Chicken', layer: 'egg' }
     ];
 
-    IOU_slips.forEach((item) => {
+    iou_slips.forEach((item) => {
         let id = getID(item.name);
         event
             .create(`enigmatica:${id}_iou`)
@@ -43,6 +47,27 @@ StartupEvents.registry('item', (event) => {
             .color(0, '#f2e1a5')
             // .color(1, '#00FFF0')
             .tooltip(`§5May be exchanged for ${getArticle(item.name)} ${item.name}`);
+    });
+
+    const bottles = [
+        {
+            name: 'Source Ink',
+            colors: ['', '#7d20ab', ''],
+            layers: ['alchemy_bottle', 'alchemy_bottle_normal_contents_swirling', 'alchemy_bottle_label_black']
+        }
+    ];
+
+    bottles.forEach((item) => {
+        let id = getID(item.name);
+        let bottle = event.create(`enigmatica:${id}`).displayName(item.name);
+
+        item.layers.forEach((layer, index) => {
+            bottle.texture(`layer${index}`, `enigmatica:item/${layer}`);
+        });
+
+        item.colors.forEach((color, index) => {
+            if (color != '') bottle.color(index, color);
+        });
     });
 
     const simple_foods = [
@@ -160,6 +185,36 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_shulker.tooltip')
         },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_flourishing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_flourishing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_flourishing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_blazing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_blazing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_blazing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_cascading_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_cascading_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_cascading_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_vexing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_vexing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_vexing_weald_walker.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker'),
+            id: 'occultism:ritual_dummy/animate_flashing_weald_walker',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker.tooltip')
+        },
 
         // Transmuted Creatures
         {
@@ -218,7 +273,16 @@ StartupEvents.registry('item', (event) => {
         'silty_dorodango',
         'volcanic_dorodango',
         'cloudy_dorodango',
-        'sulfurous_dorodango'
+        'sulfurous_dorodango',
+
+        'antikythera_mechanism',
+        'dilapidated_mechanism',
+
+        'fire_clay_ball',
+        'cookie_dough',
+        'sweet_berry_cookie_dough',
+        'honey_cookie_dough',
+        'source_berry_cookie_dough'
     ];
 
     simple_items.forEach((item) => {

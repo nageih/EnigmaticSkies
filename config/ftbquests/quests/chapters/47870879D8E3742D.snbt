@@ -273,7 +273,7 @@
 				}
 			]
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "ftbteambases:bases"
 				icon: {
 					components: {
 						"ftbquests:icon": "kubejs:item/enigmatica_tree"

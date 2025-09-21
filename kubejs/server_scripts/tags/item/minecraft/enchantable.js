@@ -1,14 +1,12 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        durability: [
-            /vanillaplustools:.*(hammer|shovel)/,
-            'geneticsresequenced:scraper',
-            /justdirethings:bow_(ferricore|blazegold)/
-        ],
-        mining: [/vanillaplustools:.*(hammer|shovel)/],
-        mining_loot: [/vanillaplustools:.*(hammer|shovel)/],
-        vanishing: [/vanillaplustools:.*(hammer|shovel)/],
-        armor: ['minecraft:wolf_armor']
+        durability: ['geneticsresequenced:scraper', /justdirethings:bow_(ferricore|blazegold)/, '#c:tools/knife'],
+        vanishing: ['#c:tools/knife'],
+        armor: ['minecraft:wolf_armor'],
+        weapon: ['#c:tools/knife'],
+        sword: ['#c:tools/knife'],
+        sharp_weapon: ['#c:tools/knife'],
+        fire_aspect: ['#c:tools/knife']
     };
 
     Object.keys(additions).forEach((tag) => {

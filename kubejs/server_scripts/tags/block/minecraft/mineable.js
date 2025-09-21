@@ -1,6 +1,10 @@
 ServerEvents.tags('block', (event) => {
     let additions = {
-        pickaxe: ['minecraft:reinforced_deepslate', /modern_industrialization:(bronze|steel)_(assembler|centrifuge)/]
+        pickaxe: [
+            'minecraft:reinforced_deepslate',
+            /modern_industrialization:(bronze|steel)_(assembler|centrifuge)/,
+            /modern_industrialization:fire_clay_brick_.*_hatch/
+        ]
     };
 
     Object.keys(additions).forEach((tag) => {

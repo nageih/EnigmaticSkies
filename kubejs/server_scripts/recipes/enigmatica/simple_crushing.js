@@ -188,7 +188,7 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'oritech'],
+            exclusions: ['create:milling', 'create:crushing', 'oritech', 'modern_industrialization'],
             fe: 2400,
             eu: 2,
             duration: 5,
@@ -572,6 +572,19 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'calcite_powder'
+        },
+        {
+            input: { item: 'farmersdelight:rice' },
+            outputs: [
+                { id: 'minecraft:sugar', count: 2 },
+                { id: 'minecraft:sugar', count: 1, chance: 0.1 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'sugar_from_rice'
         }
     ];
 

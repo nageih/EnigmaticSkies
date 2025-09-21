@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
-            filter: [{ output: `enderio:stone_gear` }, { mod: `trashcans` }],
+            filter: [{ mod: `trashcans` }],
             to_replace: 'minecraft:cobblestone',
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
@@ -194,16 +194,10 @@ ServerEvents.recipes((event) => {
             to_replace: `extended_industrialization:silver_curved_plate`,
             replace_with: Ingredient.of([`#c:ingots/silver`])
         },
-
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:plates/plastic',
             replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
-        },
-        {
-            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/iron',
-            replace_with: Ingredient.of(['#c:gears/stone'])
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
@@ -346,6 +340,26 @@ ServerEvents.recipes((event) => {
             replace_with: `#minecraft:flowers`
         },
         {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_euphoria`,
+            replace_with: `naturesaura:token_joy`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_terror`,
+            replace_with: `naturesaura:token_fear`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_rage`,
+            replace_with: `naturesaura:token_anger`
+        },
+        {
+            filter: [{ mod: 'naturesaura' }],
+            to_replace: `naturesaura:token_grief`,
+            replace_with: `naturesaura:token_sorrow`
+        },
+        {
             filter: [{ id: 'farmersdelight:cutting_board' }],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
@@ -354,6 +368,50 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'farmersdelight:cutting_board' }],
             to_replace: `minecraft:stick`,
             replace_with: `#c:rods/wooden`
+        },
+        {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:upgrade_matrix`,
+            replace_with: 'pneumaticcraft:upgrade_matrix'
+        },
+        {
+            filter: [
+                { mod: 'ae2' },
+                { mod: 'ae2importexportcard' },
+                { mod: 'merequester' },
+                { mod: 'appflux' },
+                { mod: 'advanced_ae' },
+                { mod: 'ae2netanalyser' }
+            ],
+            to_replace: `#c:ingots/iron`,
+            replace_with: `#c:ingots/compressed_iron`
+        },
+        {
+            filter: [
+                { mod: 'ae2' },
+                { mod: 'ae2importexportcard' },
+                { mod: 'merequester' },
+                { mod: 'appflux' },
+                { mod: 'advanced_ae' },
+                { mod: 'ae2netanalyser' }
+            ],
+            to_replace: `#c:gems/certus_quartz`,
+            replace_with: `ae2:charged_certus_quartz_crystal`
+        },
+        {
+            filter: [{ mod: 'ae2' }],
+            to_replace: `#c:gems/quartz`,
+            replace_with: `#c:gems/black_quartz`
+        },
+        {
+            filter: [{ output: 'ae2:quartz_fiber' }],
+            to_replace: `#c:glass_blocks/cheap`,
+            replace_with: `malum:eldritch_spirited_glass`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:basic_machine_hull`,
+            replace_with: 'industrialforegoing:machine_frame_advanced'
         }
     ];
 

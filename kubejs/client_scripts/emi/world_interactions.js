@@ -222,6 +222,46 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 chance: 0.2
             },
             id: 'farmersdelight:straw_from_grass'
+        },
+        {
+            left: 'item:handcrafted:witch_trophy',
+            right: 'item:enigmatica:antikythera_mechanism',
+            output: {
+                type: 'item',
+                id: 'minecraft:witch_spawn_egg',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+            },
+            id: 'handcrafted:witch_trophy'
+        },
+        {
+            left: 'item:handcrafted:evoker_trophy',
+            right: 'item:enigmatica:antikythera_mechanism',
+            output: {
+                type: 'item',
+                id: 'minecraft:evoker_spawn_egg',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+            },
+            id: 'handcrafted:evoker_trophy'
+        },
+        {
+            left: 'item:handcrafted:vindicator_trophy',
+            right: 'item:enigmatica:antikythera_mechanism',
+            output: {
+                type: 'item',
+                id: 'minecraft:vindicator_spawn_egg',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+            },
+            id: 'handcrafted:vindicator_trophy'
+        },
+        {
+            left: 'item:handcrafted:pillager_trophy',
+            right: 'item:enigmatica:antikythera_mechanism',
+            output: {
+                type: 'item',
+                id: 'minecraft:pillager_spawn_egg',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
+            },
+            id: 'handcrafted:pillager_trophy'
         }
     ];
 
