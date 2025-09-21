@@ -145,8 +145,8 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4BF9D7B5BB1281B6"]
@@ -156,8 +156,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["09599F64E0788B37"]
@@ -200,8 +200,8 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 }
