@@ -604,10 +604,10 @@
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
-		enabled = true
+		enabled = false
 
 	[tweaks.golden_apple_disenchant]
-		enabled = true
+		enabled = false
 
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldn't apparently)
@@ -615,21 +615,21 @@
 
 	[tweaks.dispenser_tweaks]
 		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
-		axe_strip = true
+		axe_strip = false
 		#Enables shooting ender pearls with dispensers
-		shoot_ender_pearls = true
+		shoot_ender_pearls = false
 		#Enables extracting bundles items with dispensers
-		extract_from_bundles = true
+		extract_from_bundles = false
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
-		sticks = true
+		sticks = false
 		#Allow placeable blaze rods
-		blaze_rods = true
+		blaze_rods = false
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
@@ -660,9 +660,9 @@
 	[tweaks.map_tweaks]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
-		random_adventurer_maps_select_random_structure = true
+		random_adventurer_maps_select_random_structure = false
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar

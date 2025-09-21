@@ -130,22 +130,12 @@
 			dependencies: ["41614A924E5556EE"]
 			id: "08E99B65ABE19047"
 			min_width: 300
-			rewards: [
-				{
-					id: "3638FD77A8101CA8"
-					item: {
-						count: 1
-						id: "ars_additions:codex_entry"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2CA82CB4F15F7BD1"
-					table_id: 8645512365595340409L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CA82CB4F15F7BD1"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3F0E38A79A1A1466"
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
@@ -161,35 +151,17 @@
 			}
 			id: "309083107758B10C"
 			min_width: 250
-			rewards: [
-				{
-					id: "5C25C64212C4C59B"
-					item: {
-						count: 1
-						id: "ars_nouveau:glyph_crush"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5554DAF5CCAD1E28"
-					table_id: 8645512365595340409L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "2BC7CA0B413D24B0"
-					item: { count: 1, id: "ars_nouveau:scribes_table" }
-					type: "item"
-				}
-				{
-					id: "3ADF4803B5DF4AF9"
-					item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5554DAF5CCAD1E28"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2BC7CA0B413D24B0"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.5d
 		}
@@ -310,22 +282,12 @@
 			dependencies: ["309083107758B10C"]
 			id: "4C5D3AE08ACA9836"
 			min_width: 250
-			rewards: [
-				{
-					id: "709B3EE33B2F9C27"
-					item: {
-						count: 1
-						id: "ars_additions:lost_codex_entry"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "165ACF7418D084A9"
-					table_id: 7158856082002081942L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "165ACF7418D084A9"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1B0DB10288723806"
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
@@ -473,26 +435,12 @@
 				id: "ars_nouveau:bookwyrm_charm"
 			}
 			id: "65FDD18E441E2E6E"
-			rewards: [
-				{
-					count: 4
-					id: "428F394A2C4409D0"
-					item: {
-						components: {
-							"sophisticatedstorage:wood_type": "oak"
-						}
-						count: 1
-						id: "sophisticatedstorage:diamond_chest"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "45B20F68B6AFE055"
-					table_id: 7158856082002081942L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45B20F68B6AFE055"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "5CC4BD10F5609461"
@@ -511,23 +459,12 @@
 		{
 			dependencies: ["03DFAA759B4E653E"]
 			id: "4537806144939A6B"
-			rewards: [
-				{
-					count: 2
-					id: "0926B496B21879AD"
-					item: {
-						count: 1
-						id: "ae2:quartz_block"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "115A6E21C0E73203"
-					table_id: 7158856082002081942L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "115A6E21C0E73203"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0D44B8977ADBDCAD"
 				item: { count: 1, id: "ars_nouveau:amethyst_golem_charm" }
@@ -557,30 +494,12 @@
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "72C1A824063BAFA3"
-			rewards: [
-				{
-					id: "721928D9E38329A8"
-					item: {
-						count: 1
-						id: "ars_nouveau:ritual_containment"
-					}
-					type: "item"
-				}
-				{
-					id: "657115051FBF99C5"
-					item: {
-						count: 1
-						id: "ars_nouveau:mob_jar"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "637B7E4E72BD0870"
-					table_id: 8645512365595340409L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "637B7E4E72BD0870"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3C73314B02A122DB"
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
