@@ -27,7 +27,7 @@ StartupEvents.registry('item', (event) => {
             .tag('enigmatica:deliveries');
     });
 
-    const IOU_slips = [
+    const iou_slips = [
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },
         { name: 'Sheepuff', layer: 'mutton' },
@@ -37,7 +37,7 @@ StartupEvents.registry('item', (event) => {
         { name: 'Chicken', layer: 'egg' }
     ];
 
-    IOU_slips.forEach((item) => {
+    iou_slips.forEach((item) => {
         let id = getID(item.name);
         event
             .create(`enigmatica:${id}_iou`)
