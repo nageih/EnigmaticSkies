@@ -198,7 +198,7 @@ const villagerTrades = {
     'ars_nouveau:shady_wizard': [
         {
             result: { id: 'ars_nouveau:enchanting_apparatus', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
@@ -233,12 +233,12 @@ const villagerTrades = {
     'minecraft:mason': [
         {
             result: { id: 'pneumaticcraft:reinforced_stone', count: 4 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
             result: { id: `cold_sweat:hearth`, count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 4, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 1
         }
     ],
@@ -251,18 +251,18 @@ const villagerTrades = {
         },
         {
             result: { id: 'create:precision_mechanism', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 1
         },
 
         {
             result: { id: 'modern_industrialization:analog_circuit', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'modern_industrialization:copper_cable', count: 8 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],
@@ -286,7 +286,7 @@ const villagerTrades = {
 
         {
             result: { id: 'prettypipes:blank_module', count: 8 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],
@@ -315,24 +315,24 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'malum:rotting_essence', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:rotting_essence', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
-            result: { id: 'malum:grim_talc', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:grim_talc', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
-            result: { id: 'malum:astral_weave', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:astral_weave', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
-            result: { id: 'malum:warp_flux', count: 4 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 2, max: 4 } }],
+            result: { id: 'malum:warp_flux', count: 1 },
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         }
     ],
@@ -362,19 +362,24 @@ const villagerTrades = {
 
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 4, max: 8 } }],
+            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 8, max: 12 } }],
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 4
         },
 
         {
             result: { id: 'ars_additions:ancient_codex_entry', count: 1 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 12, max: 16 } }],
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'enigmatica:antikythera_mechanism', count: 4 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }
     ],

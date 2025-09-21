@@ -35,18 +35,6 @@ ServerEvents.recipes((event) => {
             duration: 5,
             id: `${id_prefix}item_pipe`
         },
-        {
-            item_outputs: [{ item: 'enigmatica:antikythera_mechanism', amount: 1 }],
-            item_inputs: [
-                { item: 'enderio:soul_chain', amount: 4 },
-                { tag: 'c:gems/mnemonic_fragment', amount: 2 },
-                { item: 'ars_technica:calibrated_precision_mechanism', amount: 1 },
-                { tag: 'c:gears/energized', amount: 2 }
-            ],
-            eu: 8,
-            duration: 10,
-            id: `${id_prefix}antikythera_mechanism`
-        },
 
         // Villager Meals
         {
@@ -148,8 +136,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}braising_cain`
         },
         {
-            item_outputs: [{ item: 'enigmatica:glazed_and_confused', amount: 1 }],
-            item_inputs: [{ item: 'arsdelight:source_berry_cupcake', amount: 6 }],
+            item_outputs: [{ item: 'enigmatica:glazed_and_confused', amount: 4 }],
+            item_inputs: [
+                { item: 'arsdelight:honey_glazed_chimera', amount: 1 },
+                { item: 'arsdelight:wilden_salad', amount: 1 },
+                { item: 'arsdelight:source_berry_cupcake', amount: 4 },
+                { tag: 'enigmatica:meal_ingredients/magic_drink', amount: 4 }
+            ],
             eu: 1,
             duration: 5,
             id: `${id_prefix}glazed_and_confused`

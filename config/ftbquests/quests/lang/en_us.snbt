@@ -1251,13 +1251,6 @@
 		""
 		"Consider feeding it excess Slag or Bone Meal as fertilizer to speed things along until better fertilizers can be made. "
 	]
-	quest.211E0844F3ACD244.quest_desc: [
-		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
-		""
-		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
-		""
-		"Once we get going, however, we’ll be able to upgrade to powered machines."
-	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -1865,17 +1858,6 @@
 		"&a    discover more."
 	]
 	quest.3263757C9A240C70.title: "Chipped"
-	quest.342FED2B0AC5F1B2.quest_desc: [
-		"Many Mekanism machines require some form of Chemical to perform recipes such as Redstone in Chemical form to create Infused Alloys. "
-		""
-		"While this material can be provided in item form, such as with Enriched Redstone, it can also be provided in the Chemical form to simplify interfacing with the machine. "
-		""
-		"After all, the Item needs to go in the Yellow Extra slot, whereas the Chemical form can be inserted on the same side as the rest of your ingredients."
-		""
-		"&a🛈 Tip: Enriched Redstone and other "
-		"&a    items can be converted to Chemical "
-		"&a    form in a Chemical Oxidizer."
-	]
 	quest.3456EED039818662.quest_desc: [
 		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
 		""

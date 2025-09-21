@@ -654,7 +654,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["359A7C9127500D6C"]
+			dependencies: [
+				"359A7C9127500D6C"
+				"49E18B07D6E4A5EB"
+			]
 			icon: {
 				id: "modern_industrialization:steam_blast_furnace"
 			}

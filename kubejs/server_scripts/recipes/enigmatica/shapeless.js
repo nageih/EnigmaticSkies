@@ -145,18 +145,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}the_bun_also_rises`
         },
         {
-            output: 'enigmatica:glazed_and_confused',
-            inputs: [
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake',
-                'arsdelight:source_berry_cupcake'
-            ],
-            id: `${id_prefix}glazed_and_confused`
-        },
-        {
             output: 'enigmatica:braising_cain',
             inputs: ['farmersdelight:bacon_sandwich', 'farmersdelight:stuffed_potato'],
             id: `${id_prefix}braising_cain`

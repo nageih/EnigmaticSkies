@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:electronic_circuit' },
                 { item: 'modern_industrialization:electronic_circuit' },
                 { item: 'oritech:basic_battery' },
-                { item: 'ars_technica:mark_of_technomancy' },
+                { item: 'enigmatica:antikythera_mechanism' },
                 { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
