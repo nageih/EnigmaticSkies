@@ -136,7 +136,7 @@
 		jar_liquids = true
 
 	[functional.cage]
-		enabled = true
+		enabled = false
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
@@ -391,11 +391,11 @@
 		show_coordinates = true
 
 	[building.way_sign]
-		enabled = true
+		enabled = false
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning
-			enabled = true
+			enabled = false
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 
@@ -435,8 +435,8 @@
 
 [tools]
 	candy = true
-	stasis = true
-	altimeter = true
+	stasis = false
+	altimeter = false
 	confetti_popper = true
 
 	[tools.quiver]
@@ -547,7 +547,7 @@
 			break_blocks = "WEAK"
 
 	[tools.slingshot]
-		enabled = true
+		enabled = false
 		#Slingshot range multiplier. Affect the initial projectile speed
 		# Default: 1.0
 		# Range: 0.0 ~ 5.0
