@@ -679,7 +679,30 @@
 					type: "item"
 				}
 				{
-					id: "46508988430E6DC2"
+					count: 27L
+					id: "351A84B2AD47C523"
+					item: { count: 27, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D02725BB61C6C8A"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "56FD9E86B4A9CBF2"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "43AFAEE168458BC4"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "5DCD69460365A864"
 					item: { count: 1, id: "create:andesite_alloy" }
 					type: "item"
 				}
