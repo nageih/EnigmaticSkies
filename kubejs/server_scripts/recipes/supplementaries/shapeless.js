@@ -10,7 +10,13 @@ ServerEvents.recipes((event) => {
         // }
         {
             output: 'supplementaries:statue',
-            inputs: ['minecraft:clay', 'minecraft:clay', '#c:gems/emeradic', 'ars_nouveau:blank_parchment'],
+            inputs: [
+                'minecraft:clay',
+                'minecraft:clay',
+                '#c:gems/emeradic',
+                'ars_nouveau:blank_parchment',
+                'enigmatica:source_ink'
+            ],
             id: `${id_prefix}statue`
         }
     ];

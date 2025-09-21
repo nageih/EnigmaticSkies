@@ -49,6 +49,27 @@ StartupEvents.registry('item', (event) => {
             .tooltip(`§5May be exchanged for ${getArticle(item.name)} ${item.name}`);
     });
 
+    const bottles = [
+        {
+            name: 'Source Ink',
+            colors: ['', '#7d20ab', ''],
+            layers: ['alchemy_bottle', 'alchemy_bottle_normal_contents_swirling', 'alchemy_bottle_label_black']
+        }
+    ];
+
+    bottles.forEach((item) => {
+        let id = getID(item.name);
+        let bottle = event.create(`enigmatica:${id}`).displayName(item.name);
+
+        item.layers.forEach((layer, index) => {
+            bottle.texture(`layer${index}`, `enigmatica:item/${layer}`);
+        });
+
+        item.colors.forEach((color, index) => {
+            if (color != '') bottle.color(index, color);
+        });
+    });
+
     const simple_foods = [
         {
             name: 'Poutine',

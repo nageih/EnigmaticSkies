@@ -44,6 +44,11 @@ ServerEvents.recipes((event) => {
             inputs: ['aether:aerogel', 'minecraft:clay', '#c:dusts/ash'],
             id: `${id_prefix}fire_clay_ball`
         },
+        {
+            output: 'enigmatica:source_ink',
+            inputs: ['minecraft:glass_bottle', 'ars_nouveau:sourceberry_bush'],
+            id: `${id_prefix}source_ink`
+        },
 
         // Villager Meals
         {
