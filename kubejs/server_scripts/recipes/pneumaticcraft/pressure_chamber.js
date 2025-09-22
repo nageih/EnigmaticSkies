@@ -85,8 +85,8 @@ ServerEvents.recipes((event) => {
                 { id: 'minecraft:glass_bottle', count: 1 }
             ],
             inputs: [
-                { item: 'prettypipes:pipe', count: 3 },
-                { item: 'arsdelight:activated_mendosteen_jam', count: 1 }
+                { item: 'arsdelight:activated_mendosteen_jam', count: 1 },
+                { item: 'prettypipes:pipe', count: 3 }
             ],
             pressure: 4.0,
             id: `${id_prefix}matter_network_pipe`
@@ -97,8 +97,8 @@ ServerEvents.recipes((event) => {
                 { id: 'minecraft:glass_bottle', count: 1 }
             ],
             inputs: [
-                { item: 'supplementaries:crystal_display', count: 1 },
-                { item: 'arsdelight:activated_mendosteen_jam', count: 1 }
+                { item: 'arsdelight:activated_mendosteen_jam', count: 1 },
+                { item: 'supplementaries:crystal_display', count: 1 }
             ],
             pressure: 4.0,
             id: `${id_prefix}replication_terminal`
