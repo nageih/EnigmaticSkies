@@ -57,6 +57,8 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
+        { id: 'ae2:network/crafting/patterns_blank' },
+        { id: 'ae2:network/parts/quartz_fiber_part' },
         { id: /ae2:transform\/.*(quartz|fluix)/ },
         { id: /advanced_ae:.*budding/ },
         { id: 'advanced_ae:redstonecrystal' },
@@ -110,7 +112,6 @@ ServerEvents.recipes((event) => {
         { id: 'ars_technica:mark_of_technomancy' },
 
         // Cold Sweat
-
         { output: `cold_sweat:hearth` },
 
         // Create and Addons
@@ -159,6 +160,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:.*energy_conduit/ },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
+        { id: 'enderio:sag_milling/coal' },
         { id: /enderio:sag_milling\/raw_/ },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },

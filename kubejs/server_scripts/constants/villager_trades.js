@@ -504,12 +504,18 @@ const villagerTrades = {
             level: 1
         },
         {
+            result: { id: 'ae2:blank_pattern', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
             result: {
                 id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:calculation_processor"},Progress:1.0d}]',
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
-            level: 1
+            level: 2
         },
         {
             result: {

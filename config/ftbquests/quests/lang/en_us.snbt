@@ -4681,16 +4681,6 @@
 	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.71E753FE9B4E1707.title: "Mason"
-	quest.7220A9770C3E1C6F.quest_desc: [
-		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
-		""
-		"You may wish to automate them at some point, that is the point of Applied Energistics afterall. "
-		""
-		"However, for now it is easy enough to batch craft in the Inscriber. Items can be input with pipes or hoppers and the machine itself can be set to Auto-Output to an adjacent inventory."
-		""
-		"&a🛈 Tip: The Inscriber can be powered directly "
-		"&a    from any source of FE or EU."
-	]
 	quest.72591AAEA1E6DE38.quest_desc: [
 		"The Particle Accelerator has a few hidden interactions which can be quite interesting to play around with."
 		""

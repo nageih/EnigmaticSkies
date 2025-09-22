@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             input: [
                 { tag: 'c:gems/empowered_restonia' },
                 { tag: 'c:gems/charged_certus' },
-                { tag: 'c:dusts/sky_stone' }
+                { item: 'arsdelight:activated_bastion_jam' }
             ],
             inputFluid: { fluid: `theurgy:sal_ammoniac`, amount: 100 },
             processingTime: 50,
