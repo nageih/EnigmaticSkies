@@ -51,6 +51,7 @@ ServerEvents.recipes((event) => {
         { id: 'aether:enchanted_berry_enchanting' },
 
         // Applied Energistics and Addons
+        { type: 'ae2:inscriber', id: /(processor|silicon)/ },
         { id: /ae2:(smelting|blasting)\/silicon/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: /ae2:transform\/.*(quartz|fluix)/ },
@@ -369,6 +370,7 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:materials/mixer/oil_to_rubber' },
         { id: 'modern_industrialization:materials/blast_furnace/raw_oil_to_oil' },
         { id: /modern_industrialization:materials\/mixer\/.*to_raw_oil/ },
+        { id: /modern_industrialization:compat\/ae2\/.*(processor|silicon)/ },
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
