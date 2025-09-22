@@ -177,7 +177,7 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'minecraft:ender_pearl', count: 1 },
             extraIngredients: [
                 { item: 'enderio:ender_crystal_powder', count: 4 },
-                { item: 'occultism:crushed_end_Stone', count: 4 }
+                { item: 'occultism:crushed_end_stone', count: 4 }
             ],
             spirits: [
                 { type: 'aerial', count: 8 },
