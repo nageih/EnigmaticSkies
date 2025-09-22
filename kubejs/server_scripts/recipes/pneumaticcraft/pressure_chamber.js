@@ -102,6 +102,24 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}replication_terminal`
+        },
+        {
+            results: [{ id: 'enderio:frank_n_zombie', count: 1 }],
+            inputs: [
+                { item: 'malum:fused_consciousness', count: 1 },
+                { item: 'enderio:z_logic_controller', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}frank_n_zombie`
+        },
+        {
+            results: [{ id: 'enderio:sentient_ender', count: 1 }],
+            inputs: [
+                { item: 'malum:fused_consciousness', count: 1 },
+                { item: 'enderio:ender_resonator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}sentient_ender`
         }
     ];
 

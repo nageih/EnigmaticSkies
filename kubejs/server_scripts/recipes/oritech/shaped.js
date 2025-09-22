@@ -24,6 +24,49 @@ ServerEvents.recipes((event) => {
                 F: 'modern_industrialization:motor'
             },
             id: `${id_prefix}assembler_block`
+        },
+        {
+            output: `oritech:accelerator_controller`,
+            pattern: ['AAA', 'ABA', 'CDC'],
+            key: {
+                A: '#c:ingots/duratium',
+                B: 'actuallyadditions:dropper',
+                C: 'enderio:sentient_ender',
+                D: 'oritech:accelerator_motor'
+            },
+            id: `${id_prefix}accelerator_controller`
+        },
+        {
+            output: `oritech:accelerator_motor`,
+            pattern: [' A ', 'BCB', 'DED'],
+            key: {
+                A: '#c:gems/pulsating_crystal',
+                B: 'oritech:magnetic_coil',
+                C: 'industrialforegoing:machine_frame_advanced',
+                D: '#c:ingots/duratium',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}accelerator_motor`
+        },
+        {
+            output: `oritech:accelerator_sensor`,
+            pattern: ['A', 'B'],
+            key: {
+                A: 'create:electron_tube',
+                B: 'oritech:accelerator_ring'
+            },
+            id: `${id_prefix}accelerator_sensor`
+        },
+        {
+            output: `oritech:accelerator_ring`,
+            pattern: [' A ', 'ABA', 'CDC'],
+            key: {
+                A: '#ae2:glass_cable',
+                B: 'ae2:toggle_bus',
+                C: '#c:ingots/energetic_alloy',
+                D: '#c:ingots/redstone_alloy'
+            },
+            id: `${id_prefix}accelerator_ring`
         }
     ];
 

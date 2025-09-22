@@ -171,18 +171,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}stainless_steel_dust`
         },
         {
-            item_outputs: [{ item: 'ae2:fluix_crystal', amount: 2 }],
-            item_inputs: [
-                { tag: 'c:gems/empowered_restonia', amount: 1 },
-                { tag: 'c:gems/charged_certus', amount: 1 },
-                { tag: 'c:dusts/sky_stone', amount: 1 }
-            ],
-            fluid_inputs: [{ fluid: `theurgy:sal_ammoniac`, amount: 100 }],
-            duration: 5,
-            eu: 8,
-            id: `${id_prefix}fluix_crystal`
-        },
-        {
             fluid_outputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 1000 }],
             item_inputs: [{ tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 }],
             fluid_inputs: [{ tag: `minecraft:water`, amount: 1000 }],

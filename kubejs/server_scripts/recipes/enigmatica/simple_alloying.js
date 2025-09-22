@@ -188,16 +188,16 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             id_suffix: `end_steel_ingot`
         },
-        {
-            output: { id: 'oritech:duratium_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/platinum', count: 1 },
-                { item: 'oritech:reinforced_carbon_sheet', count: 2 }
-            ],
-            tier: 2,
-            exclusions: [],
-            id_suffix: `duratium_ingot`
-        },
+        // {
+        //     output: { id: 'oritech:duratium_ingot', count: 1 },
+        //     inputs: [
+        //         { tag: 'c:ingots/platinum', count: 1 },
+        //         { item: 'oritech:reinforced_carbon_sheet', count: 2 }
+        //     ],
+        //     tier: 2,
+        //     exclusions: [],
+        //     id_suffix: `duratium_ingot`
+        // },
         {
             output: { id: 'oritech:energite_ingot', count: 1 },
             inputs: [

@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'ae2:fluix_crystal', count: 2 },
             input: [
-                { tag: 'c:gems/empowered_restonia' },
+                { item: 'enderio:pulsating_powder' },
                 { tag: 'c:gems/charged_certus' },
                 { item: 'arsdelight:activated_bastion_jam' }
             ],

@@ -160,6 +160,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:.*energy_conduit/ },
         { id: 'enderio:sag_milling/cobbled_deepslate' },
         { id: 'enderio:sag_milling/flower_pot' },
+        { id: 'enderio:sag_milling/ender_crystal' },
         { id: 'enderio:sag_milling/coal' },
         { id: /enderio:sag_milling\/raw_/ },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
@@ -181,6 +182,8 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/powered_spawner' },
         { id: 'enderio:soulbinding/broken_spawner' },
         { id: 'enderio:soulbinding/prescient_crystal' },
+        { id: 'enderio:soulbinding/ender_crystal' },
+        { id: 'enderio:soulbinding/sentient_ender' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
 
         // Enigmatic Unity
@@ -482,6 +485,7 @@ ServerEvents.recipes((event) => {
         { id: /oritech:refinery\/(biodiesel|heavyoil|oil|lava|carbonsheet)/ },
         { id: /oritech:splashing\/compat\/create/ },
         { id: 'oritech:atomicforge/urandust' },
+        { id: 'oritech:atomicforge/duratium' },
         { id: /oritech:grinder\/uraniumcrystal/ },
         { id: /oritech:mixing\/compat\/create/ },
         { id: /oritech:compat\/enderio\/alloy/ },
@@ -490,6 +494,7 @@ ServerEvents.recipes((event) => {
         { id: /oritech:grinder\/raw\/(nickel|platinum|iron|copper|gold)/ },
         { id: /oritech:(nickel|platinum|iron|copper|gold)_clump/ },
         { id: 'oritech:cooler/snow' },
+        { output: /oritech:accelerator_/ },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },

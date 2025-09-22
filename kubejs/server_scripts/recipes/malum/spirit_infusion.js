@@ -167,10 +167,21 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'enderio:vibrant_crystal', count: 1 },
             extraIngredients: [],
             spirits: [
-                { type: 'eldritch', count: 2 },
-                { type: 'arcane', count: 2 }
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}prescient_crystal`
+        },
+        {
+            output: { id: 'enderio:ender_crystal', count: 1 },
+            ingredient: { item: 'minecraft:ender_pearl', count: 1 },
+            extraIngredients: [{ item: 'enderio:ender_crystal_powder', count: 4 }],
+            spirits: [
+                { type: 'aerial', count: 8 },
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}ender_crystal`
         }
 
         // {

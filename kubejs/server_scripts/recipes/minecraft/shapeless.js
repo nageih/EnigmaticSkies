@@ -50,17 +50,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}amethyst_shard`
         },
         {
-            output: 'minecraft:reinforced_deepslate',
-            inputs: [
-                'minecraft:polished_deepslate',
-                '#c:ingots/iron',
-                '#c:ingots/iron',
-                '#c:ingots/iron',
-                '#c:ingots/iron'
-            ],
-            id: `${id_prefix}reinforced_deepslate`
-        },
-        {
             output: '2x minecraft:name_tag',
             inputs: ['#c:strings', 'minecraft:paper'],
             id: `${id_prefix}name_tag`
