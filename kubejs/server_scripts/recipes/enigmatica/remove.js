@@ -41,6 +41,7 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:greenhouse_glass` },
         { id: 'actuallyadditions:ranged_collector' },
         { id: 'actuallyadditions:feeder' },
+        { id: 'actuallyadditions:advanced_coil' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -51,9 +52,11 @@ ServerEvents.recipes((event) => {
         { id: 'aether:enchanted_berry_enchanting' },
 
         // Applied Energistics and Addons
-        { type: 'ae2:inscriber', id: /(processor|silicon)/ },
+        { type: 'ae2:inscriber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
+        { id: 'ae2:materials/annihilationcore' },
+        { id: 'ae2:materials/formationcore' },
         { id: /ae2:transform\/.*(quartz|fluix)/ },
         { id: /advanced_ae:.*budding/ },
         { id: 'advanced_ae:redstonecrystal' },
@@ -513,6 +516,10 @@ ServerEvents.recipes((event) => {
 
         // Replication
         { type: 'replication:matter_value' },
+        { output: 'replication:identification_chamber' },
+        { output: 'replication:matter_blueprint' },
+        { output: 'replication:matter_network_pipe' },
+        { output: 'replication:replication_terminal' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

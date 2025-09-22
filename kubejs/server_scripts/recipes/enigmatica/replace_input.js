@@ -399,16 +399,6 @@ ServerEvents.recipes((event) => {
             replace_with: `ae2:charged_certus_quartz_crystal`
         },
         {
-            filter: [{ mod: 'ae2' }],
-            to_replace: `#c:gems/quartz`,
-            replace_with: `#c:gems/black_quartz`
-        },
-        {
-            filter: [{ output: 'ae2:quartz_fiber' }],
-            to_replace: `#c:glass_blocks/cheap`,
-            replace_with: `malum:eldritch_spirited_glass`
-        },
-        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'

@@ -115,7 +115,11 @@
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"aether:cockatrice\"]",
-            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]"
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]",
+
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]"
         ]
     },
     "fluids": {

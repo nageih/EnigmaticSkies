@@ -492,6 +492,33 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 5
         }
+    ],
+    // Grindstone
+    'ae2:fluix_researcher': [
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:logic_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 1
+        },
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:calculation_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 1
+        },
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:engineering_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 2
+        }
     ]
 };
 
