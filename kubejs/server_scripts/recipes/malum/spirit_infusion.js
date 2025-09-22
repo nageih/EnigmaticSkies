@@ -175,7 +175,10 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:ender_crystal', count: 1 },
             ingredient: { item: 'minecraft:ender_pearl', count: 1 },
-            extraIngredients: [{ item: 'enderio:ender_crystal_powder', count: 4 }],
+            extraIngredients: [
+                { item: 'enderio:ender_crystal_powder', count: 4 },
+                { item: 'occultism:crushed_end_Stone', count: 4 }
+            ],
             spirits: [
                 { type: 'aerial', count: 8 },
                 { type: 'eldritch', count: 8 },

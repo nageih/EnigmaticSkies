@@ -357,6 +357,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:motor' },
         { output: 'modern_industrialization:rubber_sheet' },
         { output: 'modern_industrialization:electronic_circuit' },
+        { output: 'modern_industrialization:steel_rod_magnetic' },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: /modern_industrialization:(lv|mv)_steam_turbine/ },
         { output: /modern_industrialization:(tin|silver|electrum)_cable/ },

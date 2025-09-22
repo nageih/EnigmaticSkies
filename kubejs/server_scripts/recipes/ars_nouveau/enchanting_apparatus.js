@@ -337,6 +337,18 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}token_sorrow`
+        },
+        {
+            result: { id: 'modern_industrialization:steel_rod_magnetic', count: 1 },
+            reagent: { tag: 'c:rods/steel' },
+            pedestalItems: [
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}steel_rod_magnetic`
         }
     ];
 
