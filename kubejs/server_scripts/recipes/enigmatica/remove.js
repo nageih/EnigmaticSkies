@@ -178,6 +178,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },
+        { id: 'enderio:slicing/ender_resonator' },
         { id: 'enderio:soulbinding/soul_engine' },
         { id: 'enderio:soulbinding/powered_spawner' },
         { id: 'enderio:soulbinding/broken_spawner' },

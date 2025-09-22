@@ -120,6 +120,19 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}guardian_diode`
+        },
+        {
+            output: { id: 'enderio:ender_resonator', count: 1 },
+            inputs: [
+                { tag: 'c:ingots/end_steel' },
+                { item: 'enderio:ender_crystal' },
+                { tag: 'c:ingots/end_steel' },
+                { item: 'enderio:prescient_powder' },
+                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'enderio:prescient_powder' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}ender_resonator`
         }
     ];
 
