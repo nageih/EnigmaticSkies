@@ -246,7 +246,7 @@ const villagerTrades = {
     'actuallyadditions:engineer': [
         {
             result: { id: 'actuallyadditions:basic_coil', count: 4 },
-            ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 1
         },
         {

@@ -402,6 +402,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'
+        },
+        {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:printed_circuit_board`,
+            replace_with: `modern_industrialization:electronic_circuit`
         }
     ];
 

@@ -18,6 +18,8 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:oil_generator' },
         { output: `actuallyadditions:bio_reactor` },
         { output: 'actuallyadditions:leaf_generator' },
+        { output: 'actuallyadditions:crusher' },
+        { output: 'actuallyadditions:crusher_double' },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: 'actuallyadditions:lens_of_the_killer' },
         { id: /actuallyadditions:crushing\/.*_horse_armor/ },
@@ -511,7 +513,9 @@ ServerEvents.recipes((event) => {
         { id: /pneumaticcraft:thermo_plant\/(plastic|lubricant)/ },
         { id: /pneumaticcraft:thermo_plant\/(gasoline|kerosene|lpg)/ },
         { id: /pneumaticcraft:thermo_plant\/.*drill_bit/ },
+        { id: /pneumaticcraft:pneumatic_(helmet|chestplate|leggings|boots)/ },
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
+        { id: 'pneumaticcraft:drone_upgrade' },
         { id: /pneumaticcraft:amadron\/assembly_program/ },
         { id: /pneumaticcraft:amadron\/.*emerald/ },
 
@@ -529,6 +533,10 @@ ServerEvents.recipes((event) => {
         { output: 'replication:matter_blueprint' },
         { output: 'replication:matter_network_pipe' },
         { output: 'replication:replication_terminal' },
+        { output: 'replication:disintegrator' },
+        { output: 'replication:replicator' },
+        { output: 'replication:chip_storage' },
+        { output: 'replication:matter_tank' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

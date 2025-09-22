@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
             pattern: ['BAB', 'CDC', 'EEE'],
             key: {
                 A: `minecraft:crafting_table`,
-                B: 'create:precision_mechanism',
+                B: '#c:essences/manipulation',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: '#modern_industrialization:fluid_pipes'
