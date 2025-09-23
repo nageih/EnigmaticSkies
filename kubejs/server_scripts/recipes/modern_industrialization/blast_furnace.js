@@ -46,10 +46,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: { item: 'enderio:dark_steel_ingot', amount: 1 },
             fluid_inputs: [{ tag: 'enderio:solar_panel_dark', amount: 250 }],
-            item_inputs: [
-                { tag: 'c:ingots/steel', count: 1 },
-                { tag: 'c:gems/black_quartz', count: 2 }
-            ],
+            item_inputs: [{ tag: 'c:ingots/steel', count: 1 }],
             duration: 5,
             eu: 4,
             id: `${id_prefix}dark_steel_ingot`
