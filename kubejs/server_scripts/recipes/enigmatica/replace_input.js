@@ -407,6 +407,36 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'pneumaticcraft' }],
             to_replace: `pneumaticcraft:printed_circuit_board`,
             replace_with: `modern_industrialization:electronic_circuit`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:single_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:double_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:triple_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:fluid_pipe`,
+            replace_with: `ppfluids:fluid_pipe`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:machine_plating_block`,
+            replace_with: `oritech:machine_plating_block`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:processing_unit`,
+            replace_with: 'modern_industrialization:analog_circuit'
         }
     ];
 

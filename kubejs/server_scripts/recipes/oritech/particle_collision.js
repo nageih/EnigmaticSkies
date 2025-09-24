@@ -12,6 +12,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],
             time: 500,
             id: `${id_prefix}crying_obsidian`
+        },
+        {
+            results: [{ id: 'oritech:enderic_compound', count: 8 }],
+            ingredients: [{ tag: 'c:dusts/ender_pearl' }, { item: 'enderio:ender_crystal_powder' }],
+            time: 500,
+            id: `${id_prefix}enderic_compound`
         }
     ];
 

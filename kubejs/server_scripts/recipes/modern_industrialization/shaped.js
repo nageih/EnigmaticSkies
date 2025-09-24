@@ -10,18 +10,9 @@ ServerEvents.recipes((event) => {
                 B: `minecraft:piston`,
                 C: `#c:gears/copper`,
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_compressor`
-        },
-        {
-            output: `modern_industrialization:heatproof_machine_casing`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: `#c:ingots/end_steel`,
-                B: `industrialforegoing:machine_frame_simple`
-            },
-            id: `${id_prefix}heatproof_machine_casing`
         },
         {
             output: `modern_industrialization:bronze_assembler`,
@@ -31,7 +22,7 @@ ServerEvents.recipes((event) => {
                 B: '#c:essences/manipulation',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_assembler`
         },
@@ -43,7 +34,7 @@ ServerEvents.recipes((event) => {
                 B: 'create:precision_mechanism',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_centrifuge`
         },
@@ -57,16 +48,6 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}bronze_machine_casing`
         },
-        {
-            output: `modern_industrialization:bronze_machine_casing_pipe`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'enderio:conduit[enderio:conduit="enderio:fluid"]',
-                B: 'modern_industrialization:bronze_machine_casing'
-            },
-            id: `${id_prefix}bronze_machine_casing_pipe`
-        },
-
         {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],

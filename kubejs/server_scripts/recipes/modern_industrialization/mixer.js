@@ -3,19 +3,19 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            item_outputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 4 }],
             item_inputs: [
                 { item: 'ars_nouveau:abjuration_essence', amount: 1, probability: 0.0 },
                 { tag: 'c:ingots/blazegold', amount: 1 }
             ],
-            item_outputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 4 }],
             duration: 100,
             eu: 2,
             id: `${id_prefix}polymorphic_catalyst`
         },
         {
+            fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             item_inputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 1 }],
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
-            fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             duration: 100,
             eu: 2,
             id: `${id_prefix}polymorphic_fluid_source`
@@ -99,16 +99,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}industrial_insulation_block`
         },
         {
-            item_outputs: [{ item: 'minecraft:gunpowder', amount: 2 }],
-            item_inputs: [
-                { item: 'create:cinder_flour', amount: 1 },
-                { tag: 'c:dusts/sulfur', amount: 1 }
-            ],
-            duration: 5,
-            eu: 2,
-            id: `${id_prefix}gunpowder`
-        },
-        {
             item_outputs: [{ item: 'enderio:pulsating_crystal', amount: 1 }],
             fluid_inputs: [{ tag: 'c:lumisene', amount: 1000 }],
             item_inputs: [
@@ -158,18 +148,7 @@ ServerEvents.recipes((event) => {
             eu: 2,
             id: `${id_prefix}crude_oil_from_composted_manure`
         },
-        {
-            item_outputs: [{ item: 'modern_industrialization:stainless_steel_dust', amount: 9 }],
-            item_inputs: [
-                { tag: `c:dusts/iron`, amount: 6 },
-                { tag: `c:dusts/chromium`, amount: 1 },
-                { tag: `c:dusts/silicon`, amount: 1 },
-                { tag: `c:dusts/manganese`, amount: 1 }
-            ],
-            duration: 5,
-            eu: 2,
-            id: `${id_prefix}stainless_steel_dust`
-        },
+
         {
             fluid_outputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 1000 }],
             item_inputs: [{ tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 }],
@@ -197,9 +176,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}chocolate_from_bar`
         },
         {
-            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_acid', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_acid', amount: 500 }],
             item_inputs: [{ tag: 'c:dusts/sulfur', amount: 1 }],
-            fluid_inputs: [{ tag: `c:lumisene`, amount: 1000 }],
+            fluid_inputs: [{ tag: `c:lumisene`, amount: 250 }],
             duration: 5,
             eu: 2,
             id: `${id_prefix}sulfuric_acid`
@@ -207,10 +186,7 @@ ServerEvents.recipes((event) => {
 
         {
             fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 100 }],
-            item_inputs: [
-                { tag: 'c:dusts/sulfur', amount: 1 },
-                { tag: 'c:dusts/carbon', amount: 1 }
-            ],
+            item_inputs: [{ tag: 'c:dusts/carbon', amount: 1 }],
             fluid_inputs: [
                 { tag: `c:latex`, amount: 1000 },
                 { fluid: 'modern_industrialization:sulfuric_acid', amount: 100 }
@@ -259,14 +235,24 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}paper_from_rice`
+        },
+        {
+            item_outputs: [{ item: 'extended_industrialization:mulch', amount: 4 }],
+            item_inputs: [
+                { item: 'farmersdelight:organic_compost', amount: 1 },
+                { item: 'modern_industrialization:wood_pulp', amount: 8 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}mulch`
         }
     ];
 
     ae_washables.forEach((washable) => {
         recipes.push({
+            item_outputs: [{ item: `ae2:fluix_${washable}_cable`, amount: 1 }],
             item_inputs: [{ tag: `ae2:${washable}_cable`, amount: 1 }],
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
-            item_outputs: [{ item: `ae2:fluix_${washable}_cable`, amount: 1 }],
             duration: 5,
             eu: 2,
             id: `${id_prefix}fluix_${washable}_cable_washing`
@@ -276,9 +262,9 @@ ServerEvents.recipes((event) => {
     copper_types.forEach((type) => {
         oxides.forEach((oxide) => {
             recipes.push({
+                item_outputs: [{ item: `create:waxed_${oxide}${type}`, amount: 1 }],
                 item_inputs: [{ item: `create:${oxide}${type}`, amount: 1 }],
                 fluid_inputs: [{ tag: 'c:honey', amount: 1 }],
-                item_outputs: [{ item: `create:waxed_${oxide}${type}`, amount: 1 }],
                 duration: 5,
                 eu: 2,
                 id: `${id_prefix}waxed_${oxide}${type}`
@@ -298,14 +284,14 @@ ServerEvents.recipes((event) => {
 
     jdt_materials.forEach((material) => {
         recipes.push({
+            item_outputs: [
+                { item: material.output, amount: 3 },
+                { item: material.output, amount: 1, probability: 0.5 }
+            ],
             item_inputs: [
                 { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
                 { tag: material.input, amount: 9 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
-            ],
-            item_outputs: [
-                { item: material.output, amount: 3 },
-                { item: material.output, amount: 1, probability: 0.5 }
             ],
             duration: 60 * material.tier,
             eu: material.tier,
@@ -321,6 +307,7 @@ ServerEvents.recipes((event) => {
 
     jdt_fuels.forEach((material) => {
         recipes.push({
+            fluid_outputs: [{ fluid: `justdirethings:refined_t${material.tier}_fluid_source`, amount: 3000 }],
             item_inputs: [
                 { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 },
@@ -336,7 +323,6 @@ ServerEvents.recipes((event) => {
                 },
                 { fluid: material.additive, amount: 1000 }
             ],
-            fluid_outputs: [{ fluid: `justdirethings:refined_t${material.tier}_fluid_source`, amount: 3000 }],
             duration: 60 * material.tier,
             eu: material.tier,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`

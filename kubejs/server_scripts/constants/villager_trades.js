@@ -493,7 +493,7 @@ const villagerTrades = {
             level: 5
         }
     ],
-    // Grindstone
+    // AE2 Charger
     'ae2:fluix_researcher': [
         {
             result: {
@@ -524,6 +524,19 @@ const villagerTrades = {
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 2
+        }
+    ],
+    // PNC Charging Station
+    'pneumaticcraft:mechanic': [
+        {
+            result: { id: 'pneumaticcraft:reinforced_pressure_tube', count: 8 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'pneumaticcraft:assembly_program_drill_laser', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 8, max: 12 } }],
+            level: 1
         }
     ]
 };

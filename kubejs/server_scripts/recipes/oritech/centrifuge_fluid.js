@@ -32,14 +32,6 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
             time: 120,
             id: `${id_prefix}plastic_from_raw_biopolymer`
-        },
-        {
-            results: [{ id: 'oritech:advanced_battery', count: 8 }],
-            fluidOutputs: [],
-            ingredients: [{ item: 'oritech:dubios_container' }],
-            fluidInput: { fluid: 'modern_industrialization:sulfuric_acid', amount: 1000 },
-            time: 100,
-            id: `${id_prefix}advanced_battery`
         }
     ];
 

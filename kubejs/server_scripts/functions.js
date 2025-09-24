@@ -17,6 +17,10 @@ function hexToRgb(hex) {
     return parseInt(cleanHex, 16);
 }
 
+function CtoK(temp) {
+    return temp + 273;
+}
+
 function getPreferredItemInTag(tag) {
     return (
         Ingredient.of(tag)

@@ -131,26 +131,6 @@ ServerEvents.recipes((event) => {
             tier: 2,
             exclusions: [],
             id_suffix: `end_steel_ingot`
-        },
-        {
-            output: { id: 'oritech:adamant_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/neptunium', count: 1 },
-                { tag: 'c:dusts/diamond', count: 1 }
-            ],
-            tier: 2,
-            exclusions: [],
-            id_suffix: `adamant_ingot`
-        },
-        {
-            output: { id: 'oritech:energite_ingot', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/adamant', count: 1 },
-                { tag: 'c:gems/fluxite', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `energite_ingot`
         }
     ];
 

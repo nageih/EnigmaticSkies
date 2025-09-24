@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             results: [],
             fluidOutputs: [{ fluid: 'oritech:still_strange_matter', amount: 200 }],
             ingredients: [{ item: 'malum:strange_crystal' }],
-            fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 1000 },
             time: 120,
             id: `${id_prefix}strange_matter_from_lava`
         },
@@ -37,6 +37,22 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 500 },
             time: 240,
             id: `${id_prefix}reinforced_carbon_sheet`
+        },
+        {
+            results: [{ id: 'oritech:adamant_ingot' }],
+            fluidOutputs: [],
+            ingredients: [{ tag: 'c:storage_blocks/diamond' }],
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+            time: 240,
+            id: `${id_prefix}adamant_ingot`
+        },
+        {
+            results: [{ id: 'oritech:energite_ingot' }],
+            fluidOutputs: [],
+            ingredients: [{ tag: 'c:storage_blocks/fluxite' }],
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+            time: 240,
+            id: `${id_prefix}energite_ingot`
         }
     ];
 

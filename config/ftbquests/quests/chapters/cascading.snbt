@@ -124,8 +124,8 @@
 				id: "5F579E2341E92725"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2D190518ABA42A1F"]
@@ -221,8 +221,8 @@
 			dependencies: ["14C46426CE60BF84"]
 			id: "40F5EC143766C2A7"
 			tasks: [{
-				id: "7BAC109F460571AF"
-				item: { count: 1, id: "extended_industrialization:bronze_waste_collector" }
+				id: "05C9BCCDE2AE8BAB"
+				item: { count: 1, id: "industrialforegoing:sewer" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -244,8 +244,30 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2BB91161DB6B6AF5"]
+			id: "3CC1C6949E17A1B9"
+			tasks: [{
+				id: "4AE35F4C3CBCF69B"
+				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CC1C6949E17A1B9"]
+			id: "75BD1F2EB47FB7CF"
+			tasks: [{
+				id: "0E481B6BCEB5CC82"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 }

@@ -28,9 +28,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:plates/steel' },
                 { item: 'modern_industrialization:analog_circuit' },
                 { item: 'modern_industrialization:analog_circuit' },
-                { tag: 'c:plates/steel' },
+                { item: 'oritech:basic_battery' },
                 { tag: 'c:gears/compressed_iron' },
-                { tag: 'c:plates/steel' }
+                { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
             processingTime: 300,
@@ -44,13 +44,29 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:plates/plastic' },
                 { item: 'modern_industrialization:electronic_circuit' },
                 { item: 'modern_industrialization:electronic_circuit' },
-                { item: 'oritech:basic_battery' },
+                { item: 'oritech:advanced_battery' },
                 { item: 'enigmatica:antikythera_mechanism' },
-                { item: 'oritech:basic_battery' }
+                { item: 'oritech:advanced_battery' }
             ],
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}machine_frame_advanced`
+        },
+        {
+            output: { id: 'modern_industrialization:heatproof_machine_casing', count: 2 },
+            input: [
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'modern_industrialization:steel_machine_casing_pipe' },
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'modern_industrialization:steel_machine_casing_pipe' },
+                { item: 'oritech:reinforced_carbon_sheet' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}heatproof_machine_casing`
         }
     ];
 

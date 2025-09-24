@@ -120,6 +120,26 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}sentient_ender`
+        },
+        {
+            results: [{ id: 'oritech:machine_core_2', count: 4 }],
+            inputs: [
+                { item: 'industrialforegoing:machine_frame_simple', count: 1 },
+                { item: 'enderio:pulsating_crystal', count: 8 },
+                { tag: 'c:gems/diamatine', count: 8 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}machine_core_2`
+        },
+        {
+            results: [{ id: 'oritech:machine_core_4', count: 1 }],
+            inputs: [
+                { item: 'oritech:machine_core_2', count: 1 },
+                { item: 'oritech:reinforced_carbon_sheet', count: 2 },
+                { tag: 'c:plates/obsidian', count: 2 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}machine_core_4`
         }
     ];
 
