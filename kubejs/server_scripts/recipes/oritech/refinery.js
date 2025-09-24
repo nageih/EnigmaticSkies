@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             fluidOutputs: [{ fluid: 'oritech:still_sheol_fire', amount: 200 }],
-            ingredients: [{ tag: 'c:gems/blaze_ember' }],
+            ingredients: [{ item: 'ars_nouveau:bombegranate_pod' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
             time: 80,
             id: `${id_prefix}sheol_fire_from_lava`
