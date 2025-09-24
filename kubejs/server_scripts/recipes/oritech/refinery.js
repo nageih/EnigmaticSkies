@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
 
         {
             results: [],
-            fluidOutputs: [{ fluid: 'oritech:still_sheol_fire', amount: 200 }],
+            fluidOutputs: [{ fluid: 'oritech:still_sheol_fire', amount: 250 }],
             ingredients: [{ item: 'ars_nouveau:bombegranate_pod' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
             time: 80,
