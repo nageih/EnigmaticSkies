@@ -407,21 +407,6 @@
 		"&a🛈 Tip: Sneak Right-Click these tools to"
 		"&a    open their options menu."
 	]
-	quest.0CD74FE194111D3E.quest_desc: [
-		"The Nuclear Reactor is a massive free form multiblock structure used to generate power from Uranium or Plutonium. "
-		""
-		"The structure itself is comprised of a hollow rectangular prism of Reactor Walls up to 64 blocks long on any side. "
-		""
-		"The various Ports will be installed in this shell along with a Control Panel while the inside will be filled with Fuel Rods and Cooling structures. Empty spaces inside are permitted and have no negative impact on the structure."
-		""
-		"Controlling the Reactor and keeping it cool is critical. If it overheats it will shut down for an extended period of time.  A Reactor Redstone Port can be used to monitor the internal temperature and disable the Reactor if it overheats. Keeping this below a signal of 9 should keep the Reactor in the safe zone. "
-		""
-		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/processing/reactor/introduction\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Nuclear Reactor\",\"underlined\":true},\" page on their wiki, which does an excellent job of describing how this system works. \"]"
-		""
-		""
-		"&6⚠ Note: Meltdowns have been disabled!"
-	]
-	quest.0CD74FE194111D3E.title: "Nuclear Reactor"
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
 		""
