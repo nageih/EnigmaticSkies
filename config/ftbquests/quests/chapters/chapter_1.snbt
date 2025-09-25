@@ -435,6 +435,7 @@
 		{
 			dependencies: ["6703E3A9E3571660"]
 			id: "6DBBD5B744B801B1"
+			min_width: 250
 			shape: "diamond"
 			tasks: [{
 				icon: {
@@ -518,10 +519,11 @@
 			min_width: 250
 			rewards: [
 				{
+					count: 6
 					id: "4803208E9BC307F2"
 					item: {
 						count: 1
-						id: "justdirethings:coal_t1"
+						id: "minecraft:charcoal"
 					}
 					type: "item"
 				}

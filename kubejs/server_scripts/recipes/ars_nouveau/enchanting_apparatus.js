@@ -349,6 +349,19 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 2000,
             id: `${id_prefix}steel_rod_magnetic`
+        },
+        {
+            result: { id: 'modern_industrialization:heatproof_machine_casing', count: 1 },
+            reagent: { item: 'modern_industrialization:bronze_machine_casing' },
+            pedestalItems: [
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}heatproof_machine_casing`
         }
     ];
 

@@ -10,12 +10,6 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            result: { id: 'modern_industrialization:bronze_machine_casing_pipe', count: 1 },
-            input: { item: 'modern_industrialization:bronze_machine_casing', count: 1 },
-            program: 'drill',
-            id: `${id_prefix}bronze_machine_casing_pipe`
-        },
-        {
             result: { id: 'modern_industrialization:steel_machine_casing_pipe', count: 1 },
             input: { item: 'modern_industrialization:steel_machine_casing', count: 1 },
             program: 'drill',

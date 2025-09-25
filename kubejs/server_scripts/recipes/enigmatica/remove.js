@@ -365,6 +365,8 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:rubber_sheet' },
         { output: 'modern_industrialization:electronic_circuit' },
         { output: 'modern_industrialization:steel_rod_magnetic' },
+        { output: 'modern_industrialization:bronze_plated_bricks' },
+        { output: 'modern_industrialization:large_steam_boiler' },
         { output: /modern_industrialization:.*_drill_head/ },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: 'extended_industrialization:mulch' },
@@ -395,6 +397,8 @@ ServerEvents.recipes((event) => {
         { id: `modern_industrialization:materials/stainless_steel/blast_furnace/dust` },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
+        { output: /extended_industrialization:(steel|bronze)_solar_boiler/ },
+        { output: /modern_industrialization:(steel|bronze)_boiler/ },
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
@@ -487,6 +491,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:motor/motorcraft' },
         { id: 'oritech:crafting/alloy/steel' },
         { id: 'oritech:crafting/plating' },
+        { id: 'oritech:crafting/carbon' },
         { id: 'oritech:crafting/claybeads' },
         { id: 'oritech:crafting/witherrose' },
         { id: 'oritech:crafting/manualresin' },

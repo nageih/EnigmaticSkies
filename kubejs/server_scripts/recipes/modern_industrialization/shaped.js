@@ -49,6 +49,35 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_machine_casing`
         },
         {
+            output: `modern_industrialization:bronze_machine_casing_pipe`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'ppfluids:fluid_pipe',
+                B: `modern_industrialization:bronze_machine_casing`
+            },
+            id: `${id_prefix}bronze_machine_casing_pipe`
+        },
+        {
+            output: `modern_industrialization:bronze_plated_bricks`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:nuggets/iron',
+                B: '#c:plates/bronze',
+                C: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}bronze_plated_bricks`
+        },
+        {
+            output: `modern_industrialization:large_steam_boiler`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:bronze_plated_bricks`,
+                B: 'modern_industrialization:analog_circuit',
+                C: 'modern_industrialization:bronze_tank'
+            },
+            id: `${id_prefix}large_steam_boiler`
+        },
+        {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],
             key: {
@@ -72,7 +101,7 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:lv_steam_turbine`,
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: '#modern_industrialization:fluid_pipes',
+                A: `ppfluids:fluid_pipe`,
                 B: 'modern_industrialization:copper_cable',
                 C: 'modern_industrialization:copper_rotor',
                 D: 'modern_industrialization:bronze_machine_casing',

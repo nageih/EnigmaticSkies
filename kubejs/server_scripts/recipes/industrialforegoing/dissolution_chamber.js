@@ -51,22 +51,6 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}machine_frame_advanced`
-        },
-        {
-            output: { id: 'modern_industrialization:heatproof_machine_casing', count: 2 },
-            input: [
-                { item: 'oritech:reinforced_carbon_sheet' },
-                { item: 'modern_industrialization:steel_machine_casing_pipe' },
-                { item: 'oritech:reinforced_carbon_sheet' },
-                { item: 'arsdelight:neutralized_frostaya_jam' },
-                { item: 'arsdelight:neutralized_frostaya_jam' },
-                { item: 'oritech:reinforced_carbon_sheet' },
-                { item: 'modern_industrialization:steel_machine_casing_pipe' },
-                { item: 'oritech:reinforced_carbon_sheet' }
-            ],
-            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
-            processingTime: 300,
-            id: `${id_prefix}heatproof_machine_casing`
         }
     ];
 
