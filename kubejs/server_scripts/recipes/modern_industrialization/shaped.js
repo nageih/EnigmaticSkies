@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:gears/copper',
                 B: '#c:glass_blocks',
-                C: 'modern_industrialization:copper_rotor',
+                C: 'create:propeller',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: `ppfluids:fluid_pipe`
             },
@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: `ppfluids:fluid_pipe`,
                 B: 'modern_industrialization:copper_cable',
-                C: 'modern_industrialization:copper_rotor',
+                C: 'create:propeller',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: 'create:precision_mechanism',
                 F: 'actuallyadditions:advanced_coil'
@@ -267,16 +267,27 @@ ServerEvents.recipes((event) => {
     const rotors = ['aluminum', 'bronze', 'copper', 'stainless_steel', 'tin', 'titanium'];
 
     rotors.forEach((material) => {
-        recipes.push({
-            output: `modern_industrialization:${material}_rotor`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: `#c:nuggets/${material}`,
-                B: `#c:plates/${material}`,
-                C: '#c:gems/ruby'
+        recipes.push(
+            {
+                output: `modern_industrialization:${material}_rotor`,
+                pattern: ['ABA', 'BCB', 'ABA'],
+                key: {
+                    A: `#c:nuggets/${material}`,
+                    B: `modern_industrialization:${material}_blade`,
+                    C: '#c:gems/ruby'
+                },
+                id: `${id_prefix}${material}_rotor`
             },
-            id: `${id_prefix}${material}_rotor`
-        });
+            {
+                output: `4x modern_industrialization:${material}_blade`,
+                pattern: ['  A', ' A ', 'B  '],
+                key: {
+                    A: `#c:plates/${material}`,
+                    B: `#c:rods/${material}`
+                },
+                id: `${id_prefix}${material}_blade`
+            }
+        );
     });
 
     recipes.forEach((recipe) => {
