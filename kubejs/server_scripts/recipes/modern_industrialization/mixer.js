@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:abjuration_essence', amount: 1, probability: 0.0 },
                 { tag: 'c:ingots/blazegold', amount: 1 }
             ],
-            duration: 100,
+            duration: 1,
             eu: 2,
             id: `${id_prefix}polymorphic_catalyst`
         },
@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
             fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             item_inputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 1 }],
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
-            duration: 100,
+            duration: 1,
             eu: 2,
             id: `${id_prefix}polymorphic_fluid_source`
         },
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
                 { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
                 { fluid: 'extended_industrialization:manure', amount: 500 }
             ],
-            duration: 60,
+            duration: 20,
             eu: 2,
             id: `${id_prefix}crude_oil_from_manure`
         },
@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
                 { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
                 { fluid: 'extended_industrialization:composted_manure', amount: 500 }
             ],
-            duration: 60,
+            duration: 20,
             eu: 2,
             id: `${id_prefix}crude_oil_from_composted_manure`
         },
@@ -293,7 +293,7 @@ ServerEvents.recipes((event) => {
                 { tag: material.input, amount: 9 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
-            duration: 60 * material.tier,
+            duration: 20 * material.tier,
             eu: material.tier,
             id: `${id_prefix}${material.output.split(':')[1]}`
         });
@@ -323,7 +323,7 @@ ServerEvents.recipes((event) => {
                 },
                 { fluid: material.additive, amount: 1000 }
             ],
-            duration: 60 * material.tier,
+            duration: 20 * material.tier,
             eu: material.tier,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });

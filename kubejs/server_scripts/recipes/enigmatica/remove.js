@@ -199,6 +199,7 @@ ServerEvents.recipes((event) => {
         { output: 'farmersdelight:honey_cookie' },
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
+        { id: 'farmersdelight:cooking/dumplings' },
         { id: 'farmersdelight:pie_crust' },
         { id: 'farmersdelight:apple_pie' },
         { id: 'farmersdelight:chocolate_pie' },

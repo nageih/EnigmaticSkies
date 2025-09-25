@@ -10,9 +10,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
+            outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 2000 } },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 },
+                item: { item: 'theurgy:fermentation_starter' }
+            },
+            temperature: { min: CtoK(30), max: CtoK(100) },
+            id: `${id_prefix}refined_canola_oil_with_fermentation_starter`
+        },
+        {
             outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 1000 } },
-            inputs: { fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 } },
-            temperature: { min: CtoK(30), max: CtoK(57) },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 }
+            },
+            temperature: { min: CtoK(30), max: CtoK(100) },
             id: `${id_prefix}refined_canola_oil`
         },
         {
