@@ -13,7 +13,7 @@
 		{
 			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
-			min_width: 250
+			min_width: 300
 			tasks: [{
 				id: "58E41A8D61ED694C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }

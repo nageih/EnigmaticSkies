@@ -13,7 +13,7 @@
 		{
 			dependencies: ["5226F1BC0A1B23D0"]
 			id: "7893072479F01DC2"
-			min_width: 250
+			min_width: 300
 			tasks: [{
 				id: "758EA454F1E9A0E3"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
