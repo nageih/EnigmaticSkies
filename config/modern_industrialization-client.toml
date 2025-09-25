@@ -18,7 +18,7 @@
 
 [tooltips]
 	#Add the total EU value of fuel items to their tooltips.
-	fuelTooltips = true
+	fuelTooltips = false
 	#Add item tags to item tooltips.
 	itemTagTooltips = false
 	#Enable the default ore generation tooltips.
