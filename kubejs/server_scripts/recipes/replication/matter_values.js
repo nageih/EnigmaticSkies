@@ -62,27 +62,52 @@ ServerEvents.recipes((event) => {
         // Components
 
         {
-            input: { item: 'modern_industrialization:analog_circuit' },
+            input: { item: 'ae2:engineering_processor' },
             matter: [
-                { type: 'replication:organic', amount: 24.0 },
-                { type: 'replication:metallic', amount: 48.0 },
-                { type: 'replication:earth', amount: 32.0 },
-                { type: 'replication:precious', amount: 48.0 }
+                { type: 'replication:ender', amount: 50 },
+                { type: 'replication:earth', amount: 100 },
+                { type: 'replication:precious', amount: 25 },
+                { type: 'replication:metallic', amount: 25 }
             ],
-            id: `${id_prefix}analog_circuit`
+            id: `${id_prefix}engineering_processor`
+        },
+        {
+            input: { item: 'ae2:logic_processor' },
+            matter: [
+                { type: 'replication:ender', amount: 50 },
+                { type: 'replication:earth', amount: 25 },
+                { type: 'replication:precious', amount: 25 },
+                { type: 'replication:metallic', amount: 100 }
+            ],
+            id: `${id_prefix}logic_processor`
+        },
+        {
+            input: { item: 'ae2:calculation_processor' },
+            matter: [
+                { type: 'replication:ender', amount: 50 },
+                { type: 'replication:earth', amount: 25 },
+                { type: 'replication:precious', amount: 100 },
+                { type: 'replication:metallic', amount: 25 }
+            ],
+            id: `${id_prefix}calculation_processor`
         }
     ];
 
     /*
-    Types:
-        living
-        organic
-        metallic
-        earth
-        precious
-        quantum
-        nether
-        ender
+    Types
+
+    Tier 1:
+        ender       Token of Joy (Air)
+        earth       Token of Fear (Earth)
+        precious    Token of Sorrow (Water)
+        metallic    Token of Anger (Fire)
+    
+    Tier 2: 
+
+        quantum     Token of Euphoria (Air)
+        organic     Token of Terror (Earth) 
+        living      Token of Grief (Water)       
+        nether      Token of Rage (Fire)
 
     */
 

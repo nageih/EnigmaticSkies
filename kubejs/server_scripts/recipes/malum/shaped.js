@@ -12,6 +12,16 @@ ServerEvents.recipes((event) => {
                 D: 'ars_nouveau:gold_grate'
             },
             id: `${id_prefix}spirit_altar`
+        },
+        {
+            output: 'malum:spirit_jar',
+            pattern: ['ABA', 'ACA', 'AAA'],
+            key: {
+                A: '#c:glass_blocks/colorless',
+                B: '#c:ingots/hallowed_gold',
+                C: '#c:essences/abjuration'
+            },
+            id: `${id_prefix}spirit_jar`
         }
     ];
 

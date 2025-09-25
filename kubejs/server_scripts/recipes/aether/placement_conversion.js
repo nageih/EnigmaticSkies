@@ -19,6 +19,18 @@ ServerEvents.recipes((event) => {
             result: { block: 'supplementaries:candle_holder', properties: { lit: 'false' } },
             biome: '#aether:ultracold',
             id: `${id_prefix}supplementaries_candle_holder`
+        },
+        {
+            ingredient: { block: 'minecraft:end_portal' },
+            result: { block: 'supplementaries:end_stone_lamp', properties: { rune: 'e' } },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}minecraft_end_portal`
+        },
+        {
+            ingredient: { block: 'minecraft:nether_portal' },
+            result: { block: 'minecraft:crying_obsidian' },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}minecraft_nether_portal`
         }
     ];
 

@@ -337,6 +337,31 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}token_sorrow`
+        },
+        {
+            result: { id: 'modern_industrialization:steel_rod_magnetic', count: 1 },
+            reagent: { tag: 'c:rods/steel' },
+            pedestalItems: [
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}steel_rod_magnetic`
+        },
+        {
+            result: { id: 'modern_industrialization:heatproof_machine_casing', count: 1 },
+            reagent: { item: 'modern_industrialization:bronze_machine_casing' },
+            pedestalItems: [
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' },
+                { item: 'arsdelight:neutralized_frostaya_jam' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}heatproof_machine_casing`
         }
     ];
 

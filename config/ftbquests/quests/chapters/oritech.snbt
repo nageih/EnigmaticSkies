@@ -311,8 +311,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["690FB1A43ED247CF"]
@@ -338,92 +338,6 @@
 			}]
 			x: 0.5d
 			y: 6.5d
-		}
-		{
-			dependencies: ["685AA2A5C0C2C796"]
-			icon: {
-				id: "oritech:reactor_controller"
-			}
-			id: "0CD74FE194111D3E"
-			rewards: [
-				{
-					count: 4
-					id: "24E7FC4CB08D03FA"
-					item: {
-						count: 1
-						id: "oritech:plutonium_pellet"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "108B8B4F162F44BC"
-					item: {
-						count: 1
-						id: "minecraft:ice"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "293BB4009A1210EA"
-					item: { count: 1, id: "oritech:reactor_controller" }
-					type: "item"
-				}
-				{
-					id: "0DB5297239EECEC9"
-					item: { components: { "ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "5524F2ED8C79A10F"
-					item: { count: 1, id: "oritech:reactor_fuel_port" }
-					type: "item"
-				}
-				{
-					id: "37963156BF60F5E0"
-					item: { count: 1, id: "oritech:reactor_condenser" }
-					type: "item"
-				}
-				{
-					id: "5A86C8BDB968E7B2"
-					item: { count: 1, id: "oritech:reactor_absorber_port" }
-					type: "item"
-				}
-				{
-					id: "50026E53569AF4A7"
-					item: { count: 1, id: "oritech:reactor_vent" }
-					type: "item"
-				}
-				{
-					id: "36C1BE7E18CAC8C5"
-					item: { count: 1, id: "oritech:reactor_reflector" }
-					type: "item"
-				}
-				{
-					id: "7F48FAEBDDD8F273"
-					item: { count: 1, id: "oritech:reactor_heat_pipe" }
-					type: "item"
-				}
-				{
-					id: "433E6307752B33FC"
-					item: { count: 1, id: "oritech:reactor_energy_port" }
-					type: "item"
-				}
-				{
-					id: "47ED3115CF08FA29"
-					item: { count: 1, id: "oritech:reactor_redstone_port" }
-					type: "item"
-				}
-				{
-					id: "1F26A5DC1A1E18F3"
-					item: { count: 1, id: "oritech:reactor_wall" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 5.5d
 		}
 		{
 			dependencies: ["4F19A0AECC129216"]

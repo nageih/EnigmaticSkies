@@ -13,7 +13,7 @@
 		{
 			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
-			min_width: 250
+			min_width: 300
 			tasks: [{
 				id: "58E41A8D61ED694C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
@@ -368,6 +368,17 @@
 			}]
 			x: 3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			id: "3D3DEDBC67E91455"
+			tasks: [{
+				id: "621871FD57676367"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
 		}
 	]
 }

@@ -63,6 +63,16 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:hopper'
             },
             id: `${id_prefix}ranged_collector`
+        },
+        {
+            output: 'actuallyadditions:advanced_coil',
+            pattern: ['ABA', 'ACA', 'ABA'],
+            key: {
+                A: '#c:nuggets/hallowed_gold',
+                B: '#c:gems/void',
+                C: 'actuallyadditions:basic_coil'
+            },
+            id: `${id_prefix}advanced_coil`
         }
     ];
 

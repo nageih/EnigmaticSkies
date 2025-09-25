@@ -13,7 +13,7 @@
 		{
 			dependencies: ["008F3C0FB9F4B451"]
 			id: "78626EE046E48EF3"
-			min_width: 250
+			min_width: 300
 			tasks: [{
 				id: "2EE92F0404F62B4C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
@@ -116,8 +116,8 @@
 				id: "2AD2A5C68D517C53"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "08DF4DF1B5FEAF10"
@@ -202,6 +202,82 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["09F0F09E20B4EAC7"]
+			id: "2B759D4770C13739"
+			tasks: [{
+				id: "74B3D01F5E27F9F2"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09F0F09E20B4EAC7"]
+			id: "699B01CFAEE29827"
+			tasks: [{
+				id: "0FBBEBF5CE61813D"
+				item: { count: 1, id: "oritech:cooler_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09F0F09E20B4EAC7"]
+			id: "5FC9979B966955DE"
+			tasks: [{
+				id: "23E25E62847B9FD8"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07FFBD39930CE9F7"]
+			id: "09F0F09E20B4EAC7"
+			tasks: [{
+				id: "05FFA89B0470B6B0"
+				item: { count: 1, id: "oritech:machine_plating_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B759D4770C13739"]
+			id: "226D25DA9ACF10D1"
+			tasks: [{
+				id: "6FBB86394CFC8C35"
+				item: { count: 1, id: "oritech:carbon_plating_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["226D25DA9ACF10D1"]
+			icon: {
+				id: "oritech:refinery_block"
+			}
+			id: "47FF0CFF9CC92DBE"
+			tasks: [
+				{
+					id: "4A06D9038F274717"
+					item: { count: 1, id: "oritech:refinery_block" }
+					type: "item"
+				}
+				{
+					id: "63D8B304E64D8E51"
+					item: { count: 1, id: "oritech:refinery_module_block" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
 		}
 	]
 }

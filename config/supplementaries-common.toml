@@ -391,7 +391,7 @@
 		show_coordinates = true
 
 	[building.way_sign]
-		enabled = false
+		enabled = true
 
 		[building.way_sign.road_signs]
 			#Entirely disables them from spawning

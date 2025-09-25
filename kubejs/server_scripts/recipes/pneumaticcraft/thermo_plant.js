@@ -5,14 +5,25 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { id: 'actuallyadditions:canola_oil', amount: 160 } },
             inputs: { item: { item: 'actuallyadditions:canola' } },
-            temperature: { min: 273 },
+            temperature: { min: CtoK(0) },
             pressure: 2.0,
             id: `${id_prefix}canola_oil`
         },
         {
+            outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 2000 } },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 },
+                item: { item: 'theurgy:fermentation_starter' }
+            },
+            temperature: { min: CtoK(30), max: CtoK(100) },
+            id: `${id_prefix}refined_canola_oil_with_fermentation_starter`
+        },
+        {
             outputs: { fluid_output: { id: 'actuallyadditions:refined_canola_oil', amount: 1000 } },
-            inputs: { fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 } },
-            temperature: { max: 333, min: 303 },
+            inputs: {
+                fluid: { fluid: 'actuallyadditions:canola_oil', amount: 1000 }
+            },
+            temperature: { min: CtoK(30), max: CtoK(100) },
             id: `${id_prefix}refined_canola_oil`
         },
         {
@@ -21,7 +32,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
             },
-            temperature: { min: 273 },
+            temperature: { min: CtoK(0) },
             id: `${id_prefix}crystallized_oil`
         },
         {
@@ -30,7 +41,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:crystallized_oil', amount: 1000 },
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
             },
-            temperature: { min: 273 },
+            temperature: { min: CtoK(0) },
             id: `${id_prefix}empowered_oil`
         },
         {
@@ -44,7 +55,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,
-            temperature: { min: 273 },
+            temperature: { min: CtoK(0) },
             id: `${id_prefix}lumisene`
         },
         {
@@ -53,7 +64,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:canola_oil', amount: 100 },
                 item: { item: 'pneumaticcraft:raw_salmon_tempura' }
             },
-            temperature: { min: 423 },
+            temperature: { min: CtoK(150) },
             id: `${id_prefix}salmon_tempura`
         },
         {
@@ -62,7 +73,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'actuallyadditions:canola_oil', amount: 100 },
                 item: { tag: 'c:crops/potato' }
             },
-            temperature: { min: 423 },
+            temperature: { min: CtoK(150) },
             id: `${id_prefix}chips`
         },
         {
@@ -71,7 +82,7 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
                 item: { tag: 'c:dusts/redstone' }
             },
-            temperature: { min: 373 },
+            temperature: { min: CtoK(100) },
             id: `${id_prefix}lubricant`
         },
         {
@@ -80,7 +91,7 @@ ServerEvents.recipes((event) => {
                 fluid: { amount: 100, fluid: 'modern_industrialization:naphtha' },
                 item: { tag: 'c:gems/primal_coal' }
             },
-            temperature: { min: 373 },
+            temperature: { min: CtoK(100) },
             id: `${id_prefix}plastic`
         },
         {
@@ -103,7 +114,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 5.0,
             pressure: 4.0,
             speed: 0.25,
-            temperature: { min: 573 },
+            temperature: { min: CtoK(200) },
             id: `${id_prefix}drill_bit_compressed_iron`
         },
         {
@@ -115,22 +126,51 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 10.0,
             pressure: 7.5,
             speed: 0.1,
-            temperature: { min: 773 },
+            temperature: { min: CtoK(500) },
             id: `${id_prefix}drill_bit_diamond`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
             inputs: { item: { item: 'minecraft:dandelion' } },
             pressure: 4.0,
-            temperature: { min: 373 },
+            temperature: { min: CtoK(100) },
             id: `${id_prefix}latex_from_dandelion`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
             inputs: { item: { item: 'minecraft:vine' } },
             pressure: 4.0,
-            temperature: { min: 373 },
+            temperature: { min: CtoK(100) },
             id: `${id_prefix}latex_from_vine`
+        },
+        {
+            outputs: { item_output: { count: 1, id: 'oritech:reinforced_carbon_sheet' } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:naphtha', amount: 500 },
+                item: { item: 'oritech:carbon_fibre_strands' }
+            },
+            pressure: 7.5,
+            temperature: { min: CtoK(500) },
+            speed: 0.1,
+            id: `${id_prefix}latex_from_vine`
+        },
+        {
+            outputs: { item_output: { id: 'pneumaticcraft:advanced_pressure_tube', count: 1 } },
+            inputs: {
+                fluid: { tag: 'pneumaticcraft:plastic', amount: 50 },
+                item: { item: 'pneumaticcraft:reinforced_pressure_tube' }
+            },
+            pressure: 7.5,
+            id: `${id_prefix}advanced_pressure_tube`
+        },
+        {
+            outputs: { item_output: { id: 'create:sturdy_sheet', count: 1 } },
+            inputs: {
+                fluid: { tag: 'c:lava', amount: 500 },
+                item: { tag: 'c:dusts/obsidian' }
+            },
+            pressure: 7.5,
+            id: `${id_prefix}sturdy_sheet`
         }
     ];
 

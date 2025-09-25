@@ -399,19 +399,44 @@ ServerEvents.recipes((event) => {
             replace_with: `ae2:charged_certus_quartz_crystal`
         },
         {
-            filter: [{ mod: 'ae2' }],
-            to_replace: `#c:gems/quartz`,
-            replace_with: `#c:gems/black_quartz`
-        },
-        {
-            filter: [{ output: 'ae2:quartz_fiber' }],
-            to_replace: `#c:glass_blocks/cheap`,
-            replace_with: `malum:eldritch_spirited_glass`
-        },
-        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'
+        },
+        {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:printed_circuit_board`,
+            replace_with: `modern_industrialization:electronic_circuit`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:single_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:double_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'actuallyadditions' }],
+            to_replace: `actuallyadditions:triple_battery`,
+            replace_with: `oritech:basic_battery`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:fluid_pipe`,
+            replace_with: `ppfluids:fluid_pipe`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:machine_plating_block`,
+            replace_with: `oritech:machine_plating_block`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:processing_unit`,
+            replace_with: 'modern_industrialization:analog_circuit'
         }
     ];
 

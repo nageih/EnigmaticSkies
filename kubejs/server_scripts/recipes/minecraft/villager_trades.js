@@ -31,7 +31,11 @@ MoreJS.updateOffer((event) => {
         return event.cancel();
     }
 
-    if (event.isProfession('ars_nouveau:shady_wizard') || event.isProfession('actuallyadditions:engineer')) {
+    if (
+        event.isProfession('ars_nouveau:shady_wizard') ||
+        event.isProfession('actuallyadditions:engineer') ||
+        event.isProfession('pneumaticcraft:mechanic')
+    ) {
         if (event.offer.firstCost.id.includes('emerald') || event.offer.output.id.includes('emerald')) {
             return event.cancel();
         }

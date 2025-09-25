@@ -2,92 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/assembler/';
     const recipes = [
         {
-            results: [{ id: 'ae2:printed_silicon', count: 2 }],
-            ingredients: [{ tag: 'c:dusts/silicon' }],
-            time: 160,
-            id: `${id_prefix}printed_silicon`
-        },
-        {
-            results: [{ id: 'ae2:printed_calculation_processor', count: 2 }],
-            ingredients: [{ tag: 'c:gems/certus_quartz' }],
-            time: 160,
-            id: `${id_prefix}printed_calculation_processor`
-        },
-        {
-            results: [{ id: 'ae2:calculation_processor', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/redstone' },
-                { item: 'ae2:printed_calculation_processor' },
-                { item: 'ae2:printed_silicon' }
-            ],
-            time: 160,
-            id: `${id_prefix}calculation_processor`
-        },
-        {
-            results: [{ id: 'ae2:printed_logic_processor', count: 2 }],
-            ingredients: [{ tag: 'c:ingots/gold' }],
-            time: 160,
-            id: `${id_prefix}printed_logic_processor`
-        },
-        {
-            results: [{ id: 'ae2:logic_processor', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/redstone' },
-                { item: 'ae2:printed_logic_processor' },
-                { item: 'ae2:printed_silicon' }
-            ],
-            time: 160,
-            id: `${id_prefix}logic_processor`
-        },
-        {
-            results: [{ id: 'ae2:printed_engineering_processor', count: 2 }],
-            ingredients: [{ tag: 'c:gems/diamond' }],
-            time: 160,
-            id: `${id_prefix}printed_engineering_processor`
-        },
-        {
-            results: [{ id: 'ae2:engineering_processor', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/redstone' },
-                { item: 'ae2:printed_engineering_processor' },
-                { item: 'ae2:printed_silicon' }
-            ],
-            time: 160,
-            id: `${id_prefix}engineering_processor`
-        },
-        {
-            results: [{ id: 'advanced_ae:printed_quantum_processor', count: 2 }],
-            ingredients: [{ tag: 'c:ingots/quantum_alloy' }],
-            time: 160,
-            id: `${id_prefix}printed_quantum_processor`
-        },
-        {
-            results: [{ id: 'advanced_ae:quantum_processor', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/redstone' },
-                { item: 'advanced_ae:printed_quantum_processor' },
-                { item: 'ae2:printed_silicon' }
-            ],
-            time: 160,
-            id: `${id_prefix}quantum_processor`
-        },
-        {
-            results: [{ id: 'appflux:printed_energy_processor', count: 2 }],
-            ingredients: [{ item: 'appflux:charged_redstone' }],
-            time: 160,
-            id: `${id_prefix}printed_energy_processor`
-        },
-        {
-            results: [{ id: 'appflux:energy_processor', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/redstone' },
-                { item: 'appflux:printed_energy_processor' },
-                { item: 'ae2:printed_silicon' }
-            ],
-            time: 160,
-            id: `${id_prefix}energy_processor`
-        },
-        {
             results: [{ id: 'oritech:magnetic_coil', count: 2 }],
             ingredients: [
                 { item: 'modern_industrialization:steel_rod_magnetic' },
@@ -95,7 +9,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:copper_wire' },
                 { item: 'modern_industrialization:copper_wire' }
             ],
-            time: 160,
+            time: 10,
             id: `${id_prefix}magnetic_coil`
         },
         {
@@ -105,7 +19,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:plates/steel' },
                 { tag: 'c:ingots/energetic_alloy' }
             ],
-            time: 160,
+            time: 10,
             id: `${id_prefix}motor`
         },
         {
@@ -116,7 +30,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/energetic_alloy' },
                 { tag: 'c:plates/silicon' }
             ],
-            time: 160,
+            time: 10,
             id: `${id_prefix}flux_gate`
         },
         {
@@ -127,13 +41,35 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:storage_blocks/sulfur' },
                 { item: 'oritech:raw_silicon' }
             ],
-            time: 160,
+            time: 30,
             id: `${id_prefix}clay_catalyst_beads`
+        },
+        {
+            results: [{ id: 'oritech:basic_battery', count: 2 }],
+            ingredients: [
+                { tag: 'c:gems/restonia' },
+                { item: 'actuallyadditions:advanced_coil' },
+                { tag: 'c:gems/enori' }
+            ],
+            time: 10,
+            id: `${id_prefix}basic_battery`
+        },
+        {
+            results: [{ id: 'oritech:advanced_battery', count: 2 }],
+            ingredients: [
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'oritech:basic_battery' },
+                { tag: 'c:gems/fluxite' },
+                { tag: 'c:ingots/steel' }
+            ],
+            time: 10,
+            id: `${id_prefix}advanced_battery`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:assembler';
+        recipe.time = recipe.time * 20;
         event.custom(recipe).id(recipe.id);
     });
 });

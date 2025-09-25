@@ -246,7 +246,7 @@ const villagerTrades = {
     'actuallyadditions:engineer': [
         {
             result: { id: 'actuallyadditions:basic_coil', count: 4 },
-            ingredients: [{ id: 'actuallyadditions:coffee_cup', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
@@ -491,6 +491,52 @@ const villagerTrades = {
             result: { id: 'minecraft:netherite_upgrade_smithing_template', count: 1 },
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 5
+        }
+    ],
+    // AE2 Charger
+    'ae2:fluix_researcher': [
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:logic_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 1
+        },
+        {
+            result: { id: 'ae2:blank_pattern', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:calculation_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 2
+        },
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"ae2:engineering_processor"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 2
+        }
+    ],
+    // PNC Charging Station
+    'pneumaticcraft:mechanic': [
+        {
+            result: { id: 'pneumaticcraft:reinforced_pressure_tube', count: 8 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'pneumaticcraft:assembly_program_drill_laser', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 8, max: 12 } }],
+            level: 1
         }
     ]
 };

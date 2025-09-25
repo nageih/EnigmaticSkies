@@ -10,30 +10,56 @@ ServerEvents.recipes((event) => {
                 B: `minecraft:piston`,
                 C: `#c:gears/copper`,
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_compressor`
-        },
-        {
-            output: `modern_industrialization:heatproof_machine_casing`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: `#c:ingots/end_steel`,
-                B: `industrialforegoing:machine_frame_simple`
-            },
-            id: `${id_prefix}heatproof_machine_casing`
         },
         {
             output: `modern_industrialization:bronze_assembler`,
             pattern: ['BAB', 'CDC', 'EEE'],
             key: {
                 A: `minecraft:crafting_table`,
-                B: 'create:precision_mechanism',
+                B: '#c:essences/manipulation',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_assembler`
+        },
+        {
+            output: `modern_industrialization:bronze_mixer`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: '#c:gears/copper',
+                B: '#c:glass_blocks',
+                C: 'create:propeller',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_mixer`
+        },
+        {
+            output: `modern_industrialization:bronze_cutting_machine`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: '#c:gems/diamond',
+                B: '#c:glass_blocks',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_cutting_machine`
+        },
+        {
+            output: `modern_industrialization:bronze_macerator`,
+            pattern: ['BCB', 'CDC', 'EEE'],
+            key: {
+                B: '#c:gems/diamond',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_macerator`
         },
         {
             output: `modern_industrialization:bronze_centrifuge`,
@@ -43,7 +69,7 @@ ServerEvents.recipes((event) => {
                 B: 'create:precision_mechanism',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: '#modern_industrialization:fluid_pipes'
+                E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_centrifuge`
         },
@@ -61,12 +87,31 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:bronze_machine_casing_pipe`,
             pattern: ['AAA', 'ABA', 'AAA'],
             key: {
-                A: 'enderio:conduit[enderio:conduit="enderio:fluid"]',
-                B: 'modern_industrialization:bronze_machine_casing'
+                A: 'ppfluids:fluid_pipe',
+                B: `modern_industrialization:bronze_machine_casing`
             },
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
-
+        {
+            output: `modern_industrialization:bronze_plated_bricks`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:nuggets/iron',
+                B: '#c:plates/bronze',
+                C: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}bronze_plated_bricks`
+        },
+        {
+            output: `modern_industrialization:large_steam_boiler`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:bronze_plated_bricks`,
+                B: 'modern_industrialization:analog_circuit',
+                C: 'modern_industrialization:bronze_tank'
+            },
+            id: `${id_prefix}large_steam_boiler`
+        },
         {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],
@@ -91,9 +136,9 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:lv_steam_turbine`,
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: '#modern_industrialization:fluid_pipes',
+                A: `ppfluids:fluid_pipe`,
                 B: 'modern_industrialization:copper_cable',
-                C: 'modern_industrialization:copper_rotor',
+                C: 'create:propeller',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: 'create:precision_mechanism',
                 F: 'actuallyadditions:advanced_coil'
@@ -222,16 +267,27 @@ ServerEvents.recipes((event) => {
     const rotors = ['aluminum', 'bronze', 'copper', 'stainless_steel', 'tin', 'titanium'];
 
     rotors.forEach((material) => {
-        recipes.push({
-            output: `modern_industrialization:${material}_rotor`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: `#c:nuggets/${material}`,
-                B: `#c:plates/${material}`,
-                C: '#c:gems/ruby'
+        recipes.push(
+            {
+                output: `modern_industrialization:${material}_rotor`,
+                pattern: ['ABA', 'BCB', 'ABA'],
+                key: {
+                    A: `#c:nuggets/${material}`,
+                    B: `modern_industrialization:${material}_blade`,
+                    C: '#c:gems/ruby'
+                },
+                id: `${id_prefix}${material}_rotor`
             },
-            id: `${id_prefix}${material}_rotor`
-        });
+            {
+                output: `4x modern_industrialization:${material}_blade`,
+                pattern: ['  A', ' A ', 'B  '],
+                key: {
+                    A: `#c:plates/${material}`,
+                    B: `#c:rods/${material}`
+                },
+                id: `${id_prefix}${material}_blade`
+            }
+        );
     });
 
     recipes.forEach((recipe) => {

@@ -7,6 +7,7 @@
         "disabled": [
             "actuallyadditions:rice",
             "actuallyadditions:rice_seeds",
+            "actuallyadditions:flax_seeds",
             "actuallyadditions:vertical_digger",
             "actuallyadditions:coal_generator",
             "actuallyadditions:oil_generator",
@@ -14,6 +15,9 @@
             "actuallyadditions:leaf_generator",
             "actuallyadditions:lens_of_the_miner",
             "actuallyadditions:lens_of_the_killer",
+            "actuallyadditions:crusher",
+            "actuallyadditions:crusher_double",
+            "/actuallyadditions:.*_battery$/",
 
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
@@ -44,6 +48,7 @@
             "industrialforegoing:mechanical_dirt",
             "industrialforegoing:latex_processing_unit",
             "industrialforegoing:resourceful_furnace",
+            "industrialforegoing:machine_frame_pity",
 
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
@@ -81,11 +86,20 @@
             "occultism:iesnium_ore_natural",
 
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
-            "/oritech:.*energy_pipe/",
+            "/oritech:.*(energy|item|fluid)_pipe/",
+            "oritech:item_filter_block",
             "/oritech:.*superconductor/",
+            "/oritech:reactor_/",
             "oritech:pulverizer_block",
+            "oritech:motor",
+            "oritech:pipe_booster_block",
+            "oritech:deep_drill_block",
+            "oritech:small_storage_block",
+            "oritech:large_storage_block",
             "oritech:foundry_block",
+            "/oritech:resource_node/",
             "oritech:machine_core_1",
+            "oritech:machine_core_3",
             "/oritech:.*_generator_block/",
             "oritech:big_solar_panel_block",
             "oritech:steam_engine_block",
@@ -115,7 +129,11 @@
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"aether:cockatrice\"]",
-            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]"
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]",
+
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]"
         ]
     },
     "fluids": {

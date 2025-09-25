@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
             extraIngredients: [
                 { item: 'malum:living_flesh', count: 8 },
                 { item: 'oritech:wither_crop_block', count: 4 },
-                { item: 'malum:rotting_essence', count: 2 }
+                { item: 'modern_industrialization:rubber_sheet', count: 8 }
             ],
             spirits: [
                 { type: 'sacred', count: 16 },
@@ -167,36 +167,45 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'enderio:vibrant_crystal', count: 1 },
             extraIngredients: [],
             spirits: [
-                { type: 'eldritch', count: 2 },
-                { type: 'arcane', count: 2 }
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}prescient_crystal`
+        },
+        {
+            output: { id: 'enderio:ender_crystal', count: 1 },
+            ingredient: { item: 'minecraft:ender_pearl', count: 1 },
+            extraIngredients: [
+                { item: 'enderio:ender_crystal_powder', count: 4 },
+                { item: 'occultism:crushed_end_stone', count: 4 }
+            ],
+            spirits: [
+                { type: 'aerial', count: 8 },
+                { type: 'eldritch', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}ender_crystal`
+        },
+        {
+            output: { id: 'malum:iridescent_ether', count: 1 },
+            ingredient: { item: 'malum:ether', count: 1 },
+            extraIngredients: [{ item: 'minecraft:prismarine_crystals', count: 1 }],
+            spirits: [{ type: 'sacred', count: 2 }],
+            id: `${id_prefix}iridescent_ether`
+        },
+        {
+            output: { id: 'malum:paracausal_flame', count: 1 },
+            ingredient: { item: 'malum:ether', count: 1 },
+            extraIngredients: [
+                { item: 'oritech:enderic_compound', count: 4 },
+                { item: 'malum:hex_ash', count: 8 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 8 },
+                { type: 'eldritch', count: 8 }
+            ],
+            id: `${id_prefix}paracausal_flame`
         }
-
-        // {
-        //     output: { id: 'malum:complete_design', count: 1 },
-        //     ingredient: { item: 'malum:anomalous_design', count: 1 },
-        //     extraIngredients: [
-        //         { tag: 'c:gems/mnemonic_fragment', count: 2 },
-        //         {
-        //             type: 'neoforge:components',
-        //             items: 'occultism:fragile_soul_gem',
-        //             components: { entity_data: { VillagerData: { type: 'minecraft:snow' }, id: 'minecraft:villager' } },
-        //             count: 1
-        //         }
-        //     ],
-        //     spirits: [
-        //         { type: 'sacred', count: 4 },
-        //         { type: 'wicked', count: 4 },
-        //         { type: 'arcane', count: 4 },
-        //         { type: 'eldritch', count: 4 },
-        //         { type: 'aerial', count: 4 },
-        //         { type: 'aqueous', count: 4 },
-        //         { type: 'earthen', count: 4 },
-        //         { type: 'infernal', count: 4 }
-        //     ],
-        //     id: `${id_prefix}complete_design`
-        // }
     ];
 
     const spirits = ['sacred', 'wicked', 'arcane', 'eldritch', 'earthen', 'aerial', 'aqueous', 'infernal'];

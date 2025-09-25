@@ -81,6 +81,16 @@ ServerEvents.recipes((event) => {
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
             id: `${id_prefix}grains_of_infinity_from_bastion_pod`
+        },
+        {
+            result: { id: 'enderio:ender_crystal_powder', count: 2 },
+            ingredients: [
+                { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
+                { ingredient: { item: 'ars_elemental:flashpine_pod' }, count: 1 }
+            ],
+            fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
+            time: 5,
+            id: `${id_prefix}ender_crystal_powder_from_flashpine_pod`
         }
     ];
 

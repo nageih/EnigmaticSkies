@@ -3,7 +3,8 @@ ServerEvents.tags('block', (event) => {
         pickaxe: [
             'minecraft:reinforced_deepslate',
             /modern_industrialization:(bronze|steel)_(assembler|centrifuge)/,
-            /modern_industrialization:fire_clay_brick_.*_hatch/
+            /modern_industrialization:fire_clay_brick_.*_hatch/,
+            'mi_tweaks:dilapidated_boiler'
         ]
     };
 

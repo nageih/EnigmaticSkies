@@ -38,11 +38,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}otherworld_ashes`
         },
         {
-            output: { id: 'enderio:frank_n_zombie' },
-            ingredient: { item: 'enderio:z_logic_controller' },
-            id: `${id_prefix}frank_n_zombie`
-        },
-        {
             output: { id: 'malum:anomalous_design' },
             ingredient: { item: 'ae2:fluix_block' },
             id: `${id_prefix}anomalous_design`
