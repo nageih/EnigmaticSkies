@@ -27,6 +27,41 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_assembler`
         },
         {
+            output: `modern_industrialization:bronze_mixer`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: '#c:gears/copper',
+                B: '#c:glass_blocks',
+                C: 'modern_industrialization:copper_rotor',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_mixer`
+        },
+        {
+            output: `modern_industrialization:bronze_cutting_machine`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: '#c:gems/diamond',
+                B: '#c:glass_blocks',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_cutting_machine`
+        },
+        {
+            output: `modern_industrialization:bronze_macerator`,
+            pattern: ['BCB', 'CDC', 'EEE'],
+            key: {
+                B: '#c:gems/diamond',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_macerator`
+        },
+        {
             output: `modern_industrialization:bronze_centrifuge`,
             pattern: ['BAB', 'CDC', 'EEE'],
             key: {
