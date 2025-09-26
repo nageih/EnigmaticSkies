@@ -1046,6 +1046,14 @@
 				id: "ars_nouveau:arcane_core"
 			}
 			id: "56AD6E7F12056140"
+			rewards: [{
+				id: "722B4A99A6EB10B0"
+				item: {
+					count: 1
+					id: "ars_nouveau:dominion_wand"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5BF83A89CA730475"
@@ -1214,6 +1222,15 @@
 				id: "ars_nouveau:bookwyrm_charm"
 			}
 			id: "2F9C801DFAC1C0D9"
+			rewards: [{
+				count: 12
+				id: "0C639510F67D9F5D"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_berry_roll"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1447,10 +1464,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["2F9C801DFAC1C0D9"]
+			dependencies: ["628A6A79EFA30990"]
 			icon: {
 				id: "ars_nouveau:repository_controller"
 			}
@@ -1467,8 +1484,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -1.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -1631,6 +1648,19 @@
 			]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "623B5F0C0464F907"
+			min_width: 300
+			shape: "diamond"
+			tasks: [{
+				id: "0D73E9E528FA62B1"
+				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 }

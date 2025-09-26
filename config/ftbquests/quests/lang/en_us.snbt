@@ -793,14 +793,14 @@
 		"&a    in your inventory!"
 	]
 	quest.149BC66585EA0C34.quest_desc: [
-		"Each Bookwyrm attached to the Primary Lectern allows you to link eight inventories. That goes quick if you’re binding directly to chests and the like. "
+		"Each Bookwyrm attached to the &7Primary Lectern&r allows you to link eight inventories. That goes quick if you’re binding directly to chests and the like. "
 		""
 		"Instead, bind to a &7Repository Catalog&r and place &7Repositories&r adjacent to it. "
 		"&n                                                  &r"
 		""
 		"&7Repository Catalogs&r will help you maximize the number of inventories connected to the system since they act as a Storage Controller. "
 		""
-		"Any adjacent and connected &7Repositories&r are automatically joined to the &7Catalog&r, so anything inserted into it will be intelligently sorted into the adjoined Repositories. "
+		"Any adjacent and connected &7Repositories&r are automatically joined to the &7Catalog&r, so anything inserted into it will be intelligently sorted into the adjoined &7Repositories&r. "
 		""
 		"It is recommended that you use &7Repository Catalogs&r and &7Repositories&r, but any inventory will do."
 	]
@@ -1799,7 +1799,11 @@
 	]
 	quest.2E5AE2778BAB63A5.title: "Fisher"
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
-	quest.2F1EA0B091C700E1.quest_desc: [""]
+	quest.2F1EA0B091C700E1.quest_desc: [
+		"The &7Fisherman Villager&r has some unusual fish to offer you, like the enigmatic &7Brown Shrooma&r. "
+		""
+		"You can convert these into &7Brown Mushrooms&r, perfect for making &7Dumplings&r!"
+	]
 	quest.2F1EA0B091C700E1.title: "Fisherman"
 	quest.2F2C14F36F96AD35.quest_desc: [
 		"Mendosteen Pods may be propagated by planting them on Flourishing Archwood. "
@@ -1824,9 +1828,11 @@
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.2F9C801DFAC1C0D9.quest_desc: [
-		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. They are also the only way to access new glyphs. "
+		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. "
 		""
-		"Each Codex you purchase from them will teach you a &nsingle random glyph&r that that isn't already known by you. "
+		"The Codices they sell are also the &n&7only&r&r way to access new glyphs. "
+		""
+		"Each Codex will teach you a &n&7single random glyph&r&r that that isn't already known by you."
 	]
 	quest.2F9C801DFAC1C0D9.title: "Storage Lectern"
 	quest.2FB39BF76836FA47.quest_desc: [
@@ -3637,7 +3643,9 @@
 		"Be sure to stock up!"
 	]
 	quest.56AD6E7F12056140.quest_desc: [
-		"The Enchanting Apparatus is a vital tool in and of itself. The Arcane Core used in this device is also the Job Site for Shady Wizard Villagers, who will sell you various magical trinkets."
+		"The &7Enchanting Apparatus&r is a vital tool in and of itself and will become important soon enough. "
+		""
+		"The &7Arcane Core&r used in this device is also the &7Job Site&r for &7Shady Wizard Villagers&r, who will sell you various magical trinkets."
 		""
 		"Consider picking up some Wixies to help you with cooking up food to feed your villagers."
 	]
@@ -4051,6 +4059,39 @@
 		"&6⚠ Note: For this to work, the block"
 		"&6    must be placed in the path of the "
 		"&6    beam, it won’t work on items."
+	]
+	quest.623B5F0C0464F907.quest_desc: [
+		"While it is true that a scurry of Starbuncles all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
+		""
+		"Naturally, each one can only manage a single task at once, but they can be instructed to do several different jobs depending on the hat you give them. "
+		""
+		"&6Default Jobs&r"
+		"• Collect items on the ground and deposit them into a "
+		"  designated inventory"
+		"• Collect Sourceberries from bushes and deposit them "
+		"  into a designated inventory"
+		"• Transport items from one inventory to another"
+		""
+		"&6Starbuncle Shades&r"
+		"• Disables their ability to pick up items and collect Sourceberries"
+		""
+		"&6Square Robin Mask&r"
+		"• Enables round-robin item transportation."
+		""
+		"&6Wixie Hat&r"
+		"• Transport potions from one Potion Jar to another"
+		""
+		"&6Starbucket&r"
+		"• Transport fluids from one fluid container to another"
+		""
+		"&6StarBin&r"
+		"• Voids items that are collected"
+		""
+		"&6Starminer&r"
+		"• Allows the Starbuncle to break blocks at a location"
+		""
+		"&6Starbuilder&r"
+		"• Allows the Starbuncle to place blocks at a location"
 	]
 	quest.6242CD0203DCBDC7.quest_desc: [
 		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
