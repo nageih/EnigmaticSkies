@@ -792,6 +792,18 @@
 		"&a    be used to autofill other containers "
 		"&a    in your inventory!"
 	]
+	quest.149BC66585EA0C34.quest_desc: [
+		"Each Bookwyrm attached to the Primary Lectern allows you to link eight inventories. That goes quick if you’re binding directly to chests and the like. "
+		""
+		"Instead, bind to a &7Repository Catalog&r and place &7Repositories&r adjacent to it. "
+		"&n                                                  &r"
+		""
+		"&7Repository Catalogs&r will help you maximize the number of inventories connected to the system since they act as a Storage Controller. "
+		""
+		"Any adjacent and connected &7Repositories&r are automatically joined to the &7Catalog&r, so anything inserted into it will be intelligently sorted into the adjoined Repositories. "
+		""
+		"It is recommended that you use &7Repository Catalogs&r and &7Repositories&r, but any inventory will do."
+	]
 	quest.14CC5EDC04D6BAC7.quest_desc: [
 		"Unlocking Tier 3 Glyphs will require a fight with the Wilden Chimera. "
 		""
@@ -897,6 +909,17 @@
 		"&a    to see the structure. Similarly, hold a Hatch to see "
 		"&a    valid locations for them."
 	]
+	quest.161CA05D18639AD4.quest_desc: [
+		"This workstation allows the Wixie to craft Farmer's Delight Cutting recipes. "
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Cutting Board&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.161CA05D18639AD4.title: "Wixie Cutting"
 	quest.16A5D60F0825B318.quest_desc: [
 		"The Quantum Entangloporter acts as a cross-dimensional hub for moving materials and energy. "
 		""
@@ -1025,6 +1048,19 @@
 		"&c    available to receive the items!"
 	]
 	quest.1A1C34B6C1A7B5E8.quest_desc: ["The Energizer and Enervator go hand in hand, with the Energizer used to charge FE compatible items, such as batteries, and the Enervator used to drain them of power."]
+	quest.1A2B5BCA37161B1A.quest_desc: [
+		"This workstation allows the Wixie to craft Enchanting Apparatus recipes. "
+		""
+		"This can be particularly helpful for repeat crafts as the Wixie will process ingredients more quickly than the standard Enchanting Apparatus."
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Enchanting Apparatus&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
 	quest.1A4123560ACEE02C.quest_desc: [
 		"Time enough at last!"
 		""
@@ -1302,6 +1338,25 @@
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
+	quest.22344008D43D4710.quest_desc: [
+		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
+		""
+		"The Wixie represents a very simple means of automating various kitchen appliances, among other things. "
+		""
+		"                            &n&7Care and Use&r&r"
+		""
+		"In order to get your Wixie working, you'll need to set up their area appropriately. "
+		""
+		"First, place their workstation. For general crafting, this will be a &7Cauldron&r. Right-Click the workstation with the &7Wixie Charm&r to summon them."
+		""
+		"Next, you'll need to tell them what to craft. This is done by placing &7Arcane Pedestals&r directly adjacent to the workstation and then placing the desired output in the pedestal. "
+		""
+		"A single Wixie can support multiple crafts by using multiple &7Pedestals&r. Powering a &7Pedestal&r with Redstone will disable that one craft from their list, thus allowing you to stop crafting when you reach a desired amount."
+		""
+		"Naturally, they'll also need ingredients. Place one or more inventories nearby and use your &7Dominion Wand&r to bind them to the workstation; while holding the &7Wand&r, Sneak Right-Click the inventory then Right-Click the workstation. "
+		""
+		"Lastly, and most importantly, Wixies need Source. Place a &7Source Jar&r nearby, fill the inventory with ingredients, and enjoy. "
+	]
 	quest.22344008D43D4710.title: "Chef's Aid"
 	quest.223BE2F1F8A5C87C.quest_desc: [
 		"The Replication Terminal is used to request crafts from patterns stored on Memory Chips. "
@@ -2067,6 +2122,17 @@
 		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
+	quest.39716C901B98BAF2.quest_desc: [
+		"This workstation allows the Wixie to craft Stonecutter recipes. "
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Stonecutter&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.39716C901B98BAF2.title: "Wixie Stonecutting"
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
 		""
@@ -2143,6 +2209,11 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.3B609B8A4DE93B53.quest_desc: [
+		"Clouds are a decent source of Water, but Melons are even better. "
+		""
+		"Build a Melon farm and set your Alakarkinos to work making &7Melon Balls&r!"
 	]
 	quest.3B77FB0A8CFAAB97.quest_desc: [
 		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."
@@ -2222,6 +2293,17 @@
 	]
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
+	quest.3CBA1384BD3D28ED.quest_desc: [
+		"This workstation allows the Wixie to craft Furnace recipes. "
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Furnace&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.3CBA1384BD3D28ED.title: "Wixie Smelting"
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
 		""
@@ -3391,7 +3473,14 @@
 		""
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
-	quest.513BDF32A8F6EF45.title: "Ballin'"
+	quest.513BDF32A8F6EF45.quest_desc: [
+		"Give this happy little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		""
+		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into Dorodangos. "
+		""
+		"These Dorodangos may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+	]
+	quest.513BDF32A8F6EF45.title: "They See Me Ballin'"
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
 		""
@@ -3985,6 +4074,25 @@
 		"&6⚠ Note: Meltdowns and Radiation "
 		"&6    have been disabled!"
 	]
+	quest.628A6A79EFA30990.quest_desc: [
+		"The Storage Lectern is your primary interface to your storage network. Here, you can access all the linked inventories and there’s a handy crafting grid included. "
+		""
+		"Each network will have exactly one &7Primary Storage Lectern&r and may have as many &7Secondary Lecterns&r as desired. "
+		""
+		"Only the primary one is allowed to be linked to inventories; the secondary ones simply act as remote access. "
+		""
+		"&6Primary Storage Lectern&r"
+		"To designate the &7Primary Lectern&r, Right-Click it with a &7Bookwyrm Charm&r. "
+		""
+		""
+		"&6Secondary Storage Lectern&r"
+		"To designate a &7Secondary Lectern&r, Right-Click it with the &7Dominion Wand&r, then Right-Click the &7Primary Lectern&r to form the connection. "
+		""
+		"&7Secondary Lecterns&r may be chained to reach greater distances."
+		""
+		"&6Binding Storage&r"
+		"Bind an inventory to your &7Primary Lectern&r using the Dominion Wand; Sneak Right-Click the inventory, then Right-Click the &7Primary Lectern&r."
+	]
 	quest.62ABC26128284A71.quest_desc: ["Using Black Quartz from Copper, some Strange Crystals from Gold, and a few other bits and pieces, it seems possible to make an object that exhibits a strange sense of intelligence. "]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
@@ -4507,6 +4615,19 @@
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
+	quest.6D09D016EDE0AAFB.quest_desc: [
+		"This workstation allows the Wixie to craft standard Crafting Table recipes as well as to brew potions. "
+		""
+		"Brewing potions, however, will require a nearby Potion Jar to store the result."
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Cauldron&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.6D09D016EDE0AAFB.title: "Wixie Crafting and Brewing"
 	quest.6D68D3A5BD549EA3.quest_desc: [
 		"[\"From here, the rest is simple enough; Common Gem Niter may be \",{ \"text\": \"Reformed\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" to produce Iron Sulfur, or any other Common Metal Sulfur.\"]"
 		""
@@ -4973,6 +5094,7 @@
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
 	]
+	quest.77FA6854AC88C138.quest_desc: ["It’s time to retire that mesh and upgrade to a more automated means of obtaining Water."]
 	quest.78626EE046E48EF3.quest_desc: [
 		"&6&nBiome: Archwood Forest&r&r"
 		""
@@ -5105,6 +5227,19 @@
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
+	quest.79DFBA1E35132332.quest_desc: [
+		"This workstation allows the Wixie to craft Farmer's Delight Cooking recipes. "
+		""
+		"The Wixie is generally quicker than the Cooking Pot, and far easier to automate!"
+		""
+		"&6Formation&r "
+		"    Right-Click a &7Cooking Pot&r "
+		"    with a &7Wixie Charm&r."
+		""
+		"&6⚠ Note: For multi-step crafts, each "
+		"&6    step must be specified separately."
+	]
+	quest.79DFBA1E35132332.title: "Wixie Cooking"
 	quest.79FA7B5854C9606F.quest_desc: [
 		"The Anti-Field Orb and Block both function to suppress certain genes; specifically the Item Attraction and XP Attraction traits."
 		""
@@ -5287,14 +5422,17 @@
 	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
+	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2404D63C45135601.title: "Spirit Aspects"
+	task.241DC4DBEF1C8648.title: "Observation: &2Wixie Cauldron&r"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.26180CD75616C6C3.title: "Esoteric Materials"
+	task.264F4FA6B354C01A.title: "Observation: &2Wixie's Enchanting Apparatus&r"
 	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
@@ -5352,6 +5490,7 @@
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.446D6081668C30D2.title: "Ritual Satchels"
+	task.4484CC7F88D33D12.title: "Arcane Platforms"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.456BBAC38A4A3719.title: "Soul Shattering Weapons"
 	task.45BEB4E841507571.title: "Budding Certus"
@@ -5378,6 +5517,7 @@
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
 	task.5243C7DE02D7AA20.title: "Armor Insulation"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
+	task.53006EA76C3D7F47.title: "Observation: &2Wixie's Mixer&r"
 	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
@@ -5385,6 +5525,7 @@
 	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
+	task.573110BB52169A48.title: "Observation: &2Wixie's Furnace&r"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.582472ED7BA0A212.title: "Item Storage"
@@ -5401,6 +5542,7 @@
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.5FD7075685BB37AD.title: "Generators"
+	task.605834F92F6F384F.title: "Observation: &2Wixie's Cooking Pot&r"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.6118F9D879616D84.title: "Meat"
@@ -5433,6 +5575,7 @@
 	task.7431A946D23EA21C.title: "FE Storage"
 	task.74FDE36B1D6613C4.title: "Alloy Kiln"
 	task.75050C1ED68FA527.title: "Building Gadgets"
+	task.7559C9E4BA735703.title: "Observation: &2Wixie's Cutting Board&r"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.75F35EC4088EBA42.title: "Create Processing"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"

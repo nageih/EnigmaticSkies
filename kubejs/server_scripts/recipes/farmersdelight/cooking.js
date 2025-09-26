@@ -139,6 +139,19 @@ ServerEvents.recipes((event) => {
             experience: 1.0,
             recipe_book_tab: 'misc',
             id: `${id_prefix}dumplings`
+        },
+        {
+            result: { id: 'supplementaries:soap', count: 6 },
+            ingredients: [
+                { tag: 'c:dusts/ash' },
+                { tag: 'c:dusts/ash' },
+                { tag: 'c:dusts/ash' },
+                { tag: 'c:dusts/ash' },
+                { tag: 'c:tallow' }
+            ],
+            experience: 0.1,
+            recipe_book_tab: 'misc',
+            id: `${id_prefix}soap`
         }
     ];
 

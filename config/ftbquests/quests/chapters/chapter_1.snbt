@@ -559,6 +559,14 @@
 				id: "aether:holystone"
 			}
 			id: "51636F3E5A461A7B"
+			rewards: [{
+				id: "6343274311AD1A70"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "678B9980D7EB0A8E"
@@ -681,13 +689,12 @@
 					type: "item"
 				}
 				{
-					count: 27L
+					count: 28L
 					id: "351A84B2AD47C523"
 					item: { count: 27, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
-					count: 2L
 					id: "3D02725BB61C6C8A"
 					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_input_hatch" }
 					type: "item"
@@ -771,14 +778,26 @@
 			}
 			id: "49E18B07D6E4A5EB"
 			min_width: 300
-			rewards: [{
-				id: "0BAF80F5C8A871B3"
-				item: {
-					count: 1
-					id: "theurgy:crystallized_water"
+			rewards: [
+				{
+					count: 16
+					id: "6593594FFBDB10C9"
+					item: {
+						count: 1
+						id: "ppfluids:fluid_pipe"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "560131825362E147"
+					item: {
+						count: 1
+						id: "ppfluids:low_fluid_extraction_module"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2A0E860B2F2A9332"
@@ -1209,7 +1228,7 @@
 				}
 			]
 			x: 5.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1D783196F551142F"]
@@ -1240,21 +1259,6 @@
 				}
 			]
 			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["56AD6E7F12056140"]
-			icon: {
-				id: "ars_nouveau:alakarkinos_charm"
-			}
-			id: "513BDF32A8F6EF45"
-			shape: "diamond"
-			tasks: [{
-				id: "711421AA88900691"
-				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
-				type: "item"
-			}]
-			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -1389,15 +1393,40 @@
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
+			hide_dependent_lines: true
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
 			id: "22344008D43D4710"
-			shape: "diamond"
-			tasks: [{
-				id: "1C1CA13C1F742C6E"
-				item: { count: 1, id: "ars_nouveau:wixie_charm" }
+			min_width: 300
+			rewards: [{
+				id: "5FF4CB76AF603F14"
+				item: {
+					count: 1
+					id: "ars_nouveau:starbuncle_charm"
+				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1C1CA13C1F742C6E"
+					item: { count: 1, id: "ars_nouveau:wixie_charm" }
+					type: "item"
+				}
+				{
+					id: "4484CC7F88D33D12"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_pedestal)item(ars_nouveau:arcane_platform))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "66C4961D07E59ED1"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			id: "53B43826C4CF310F"
@@ -1407,6 +1436,201 @@
 			}]
 			x: 3.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["2F9C801DFAC1C0D9"]
+			id: "628A6A79EFA30990"
+			min_width: 250
+			tasks: [{
+				id: "5A72DDC1A67F5A53"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F9C801DFAC1C0D9"]
+			icon: {
+				id: "ars_nouveau:repository_controller"
+			}
+			id: "149BC66585EA0C34"
+			tasks: [
+				{
+					id: "4055A6A1A8A7D70F"
+					item: { count: 1, id: "ars_nouveau:repository_controller" }
+					type: "item"
+				}
+				{
+					id: "32DB8E8F0B30AB1D"
+					item: { count: 1, id: "ars_nouveau:repository" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "ars_nouveau:wixie_cauldron"
+			}
+			id: "6D09D016EDE0AAFB"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "046D4FE92D2404E0"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ars_nouveau:wixie_cauldron"
+					}
+					id: "241DC4DBEF1C8648"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ars_nouveau:wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:cooking_pot_wixie_cauldron"
+			}
+			id: "79DFBA1E35132332"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1BA0F842896415CE"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:cooking_pot_wixie_cauldron"
+					}
+					id: "605834F92F6F384F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:cooking_pot_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:cutting_wixie_cauldron"
+			}
+			id: "161CA05D18639AD4"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "41ACA300D7D901B2"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:cutting_wixie_cauldron"
+					}
+					id: "7559C9E4BA735703"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:cutting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:smelting_wixie_cauldron"
+			}
+			id: "3CBA1384BD3D28ED"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "578773D1ADB7090A"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:smelting_wixie_cauldron"
+					}
+					id: "573110BB52169A48"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:smelting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:stonecutting_wixie_cauldron"
+			}
+			id: "39716C901B98BAF2"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2436FFE920714F04"
+					item: { count: 1, id: "minecraft:stonecutter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:stonecutting_wixie_cauldron"
+					}
+					id: "210DF794EE1D714A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:stonecutting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "ars_additions:enchanting_wixie_cauldron"
+			}
+			id: "1A2B5BCA37161B1A"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "085AC2039AE5D814"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ars_additions:enchanting_wixie_cauldron"
+					}
+					id: "264F4FA6B354C01A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ars_additions:enchanting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 }

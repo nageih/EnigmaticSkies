@@ -176,8 +176,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -366,8 +366,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -379,6 +379,57 @@
 			}]
 			x: 6.5d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"56AD6E7F12056140"
+				"794A9B29DAADD021"
+			]
+			icon: {
+				id: "ars_nouveau:alakarkinos_charm"
+			}
+			id: "513BDF32A8F6EF45"
+			shape: "diamond"
+			tasks: [{
+				id: "711421AA88900691"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513BDF32A8F6EF45"]
+			id: "77FA6854AC88C138"
+			tasks: [{
+				id: "3788E365E74AB104"
+				item: { count: 1, id: "enigmatica:cloudy_dorodango" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513BDF32A8F6EF45"]
+			id: "3B609B8A4DE93B53"
+			tasks: [{
+				id: "689CBBF2F2CEB53D"
+				item: { count: 1, id: "enigmatica:melon_ball" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F892CA8F50A7831"]
+			id: "794A9B29DAADD021"
+			tasks: [{
+				id: "67A0C4D1146E2BDF"
+				item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 }

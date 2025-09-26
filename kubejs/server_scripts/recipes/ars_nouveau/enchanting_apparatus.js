@@ -6,10 +6,9 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:wixie_charm', count: 1 },
             reagent: { item: 'ars_nouveau:wixie_shards' },
             pedestalItems: [
-                { item: 'minecraft:brewing_stand' },
+                { item: 'farmersdelight:beef_stew' },
                 { item: 'arsdelight:source_berry_pie_slice' },
-                { item: 'minecraft:crafting_table' },
-                { item: 'farmersdelight:beef_stew' }
+                { item: 'arsdelight:source_berry_tea' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -19,8 +18,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:starbuncle_charm', count: 1 },
             reagent: { item: 'ars_nouveau:starbuncle_shards' },
             pedestalItems: [
-                { item: 'minecraft:golden_carrot' },
-                { tag: 'c:nuggets/gold' },
+                { item: 'ars_nouveau:source_berry_roll' },
                 { tag: 'c:nuggets/gold' },
                 { tag: 'c:nuggets/gold' }
             ],
@@ -32,10 +30,9 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:alakarkinos_charm', count: 1 },
             reagent: { item: 'ars_nouveau:alakarkinos_token' },
             pedestalItems: [
-                { item: 'aether:blue_berry' },
-                { item: 'handcrafted:terracotta_thick_pot' },
-                { item: 'handcrafted:terracotta_thick_pot' },
-                { item: 'handcrafted:terracotta_thick_pot' }
+                { item: 'farmersdelight:kelp_roll' },
+                { item: 'aether:skyroot_shovel' },
+                { item: 'aether:skyroot_bucket' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

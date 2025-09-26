@@ -20,8 +20,8 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:ingots/copper',
-            replace_with: '#c:ingots/copper_alloy'
+            to_replace: '#c:storage_blocks/iron',
+            replace_with: '#c:storage_blocks/andesite_alloy'
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
@@ -30,24 +30,15 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:ingots/gold',
+            replace_with: '#c:ingots/copper_alloy'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:gems/lapis',
-            replace_with: '#c:gems/diamatine'
-        },
-        {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:storage_blocks/lapis',
-            replace_with: '#c:storage_blocks/diamatine'
-        },
-        {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:gems/diamond',
             replace_with: '#c:gems/palis'
         },
-        {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }, { mod: 'transfer_labels' }],
-            to_replace: '#c:dusts/redstone',
-            replace_with: '#c:gems/restonia'
-        },
+
         {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
@@ -73,16 +64,7 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
-        {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:ingots/gold',
-            replace_with: '#c:ingots/copper'
-        },
-        {
-            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
-            to_replace: '#c:storage_blocks/redstone',
-            replace_with: '#c:dusts/redstone'
-        },
+
         {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
             to_replace: 'actuallyadditions:black_quartz_pillar_block',

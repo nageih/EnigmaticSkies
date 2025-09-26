@@ -114,6 +114,10 @@ ServerEvents.recipes((event) => {
 
         { id: 'ars_technica:mark_of_technomancy' },
 
+        { id: 'starbunclemania:star_bucket' },
+        { id: 'starbunclemania:star_miner' },
+        { id: 'starbunclemania:star_build' },
+
         // Cold Sweat
         { output: `cold_sweat:hearth` },
 
@@ -580,6 +584,11 @@ ServerEvents.recipes((event) => {
         { output: 'prettypipes:pipe' },
         { output: 'prettypipes:blank_module' },
         { output: 'ppfluids:fluid_pipe' },
+        { output: 'prettypipes:pressurizer' },
+        { output: /(prettypipes|ppfluids):.*_(retrieval|extraction)_module/ },
+        { output: /prettypipes:.*_speed_module/ },
+        { output: 'prettypipes:low_filter_module' },
+        { output: 'ppfluids:low_fluid_filter_module' },
 
         // Redstone Pen
         { id: 'redstonepen:control_box_recipe' },
@@ -599,6 +608,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
         { id: 'supplementaries:bellows' },
+        { id: 'supplementaries:soap' },
 
         // Tempad
         { id: 'tempad:time_steel_create' },

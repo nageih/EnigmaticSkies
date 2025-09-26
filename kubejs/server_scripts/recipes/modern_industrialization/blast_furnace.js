@@ -12,7 +12,6 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: { item: 'create:andesite_alloy', amount: 4 },
-            fluid_inputs: [{ tag: 'theurgy:sal_ammoniac', amount: 40 }],
             item_inputs: [
                 { tag: 'c:dusts/sky_stone', amount: 4 },
                 { item: 'minecraft:andesite', amount: 1 }
@@ -23,7 +22,6 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: { item: 'create:andesite_alloy', amount: 1 },
-            fluid_inputs: [{ tag: 'theurgy:sal_ammoniac', amount: 10 }],
             item_inputs: [
                 { tag: 'c:dusts/sky_stone', amount: 1 },
                 { item: 'createsifter:andesite_pebble', amount: 1 }
