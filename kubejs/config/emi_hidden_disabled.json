@@ -35,6 +35,10 @@
 
             "framedblocks:phantom_paste",
 
+            "functionalstorage:dripping_upgrade",
+            "functionalstorage:obsidian_upgrade",
+            "functionalstorage:water_generator_upgrade",
+
             "geneticsresequenced:coal_generator",
 
             "industrialforegoing:pitiful_generator",

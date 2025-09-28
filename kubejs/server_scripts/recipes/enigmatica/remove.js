@@ -216,6 +216,11 @@ ServerEvents.recipes((event) => {
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
 
+        // Functional Storage
+        { output: 'functionalstorage:dripping_upgrade' },
+        { output: 'functionalstorage:obsidian_upgrade' },
+        { output: 'functionalstorage:water_generator_upgrade' },
+
         // Gateways
         { output: /gateways:gate_pearl/ },
 
@@ -637,7 +642,9 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:caloric_flux_emitter' },
         { output: 'theurgy:mercury_catalyst' },
         { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
+        { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
+        { output: 'theurgy:mercurial_wand' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

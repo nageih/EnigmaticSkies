@@ -1,5 +1,4 @@
 {
-	chapter.0095002B3E34FD9A.title: "Occultism"
 	chapter.083FB2FC095A6686.title: "Flourishing"
 	chapter.0A799F91D9A1C8A1.title: "Blazing"
 	chapter.0C0D9C8007301C03.title: "Malum"
@@ -9,11 +8,11 @@
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
+	chapter.17B9F323B083C6C2.title: "It Takes a Village"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.24DC8C08564BB550.title: "Actually Additions"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
-	chapter.3676C6A060A63447.title: "Theurgy"
 	chapter.402AE6264B81A84B.title: "Logistics"
 	chapter.40C97D6332BD825B.title: "Cascading"
 	chapter.47870879D8E3742D.title: "Getting Started"
@@ -116,7 +115,7 @@
 		""
 		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
 	]
-	quest.03D475AF2266ECB6.title: "Tool Smith"
+	quest.03D475AF2266ECB6.title: "Villagers"
 	quest.03DFAA759B4E653E.quest_desc: [
 		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
 		""
@@ -148,6 +147,11 @@
 		"In particular, you'll need a &7Ritual Brazier&r soon, so be certain to pick one up."
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
+	quest.054093E1130E24C1.quest_desc: [
+		"An Automatic Feeder is a simple feeding station for nearby animals. "
+		""
+		"Keep it filled with the items your animals need to breed, and they’ll take care of the rest. "
+	]
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
 		""
@@ -888,17 +892,6 @@
 	]
 	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
 	quest.15FAB1720AD470A0.quest_desc: [
-		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. For those, we'll need some form of insulation. "
-		""
-		"&6&nExample Spell&r"
-		""
-		"&7Conjure Aerogel&r"
-		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
-		""
-		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
-		""
-		"&n                                                                          &r"
-		""
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
 		"In this case, the Steam Blast Furnace requires both Item and Fluid Hatches. You may place multiple hatches to handle different inputs."
@@ -1405,6 +1398,7 @@
 		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
 	]
 	quest.23703A535469A7F3.title: "Ender IO"
+	quest.239F88351687E593.quest_desc: ["When placed on a crop or sapling, Crop Supports will periodically apply a bone meal effect to the crop, granting you a slight growth increase. "]
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -1453,6 +1447,11 @@
 		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
+	quest.25B419FE32D9752B.quest_desc: [
+		"Make a &7Mercury Distiller&r and place it atop a &7Pyromantic Brazier&r. "
+		""
+		"Items, such as &7Sky Stone Dust&r, may be Right-Clicked into the &7Distiller&r while fuel may be Right-Clicked into the &7Brazier&r to begin processing."
+	]
 	quest.25B779319401405B.quest_desc: [
 		"Welcome to Malum, a magic mod designed around the manipulation of spirits to invoke powerful rituals."
 		""
@@ -1574,6 +1573,18 @@
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
+	]
+	quest.28ACDB98DC2B9D41.quest_desc: [
+		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. "
+		""
+		"We'll need some form of insulation to retain as much precious warmth as possible."
+		""
+		"&6&nExample Spell&r"
+		""
+		"&7Conjure Aerogel&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
+		""
+		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
 	]
 	quest.28EAC6C33A575A42.quest_desc: [
 		"Transmutation is the process of turning one item type into another. In previous sections we used Lapis, a common gem, to make more Quartz, another common gem. "
@@ -2842,6 +2853,18 @@
 	quest.45035128A978E189.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.45035128A978E189.title: "Sevira's Permanent Confinement"
 	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
+	quest.453240979BB90EBD.quest_desc: [
+		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
+		""
+		"The &7Inserters&r and &7Extractors&r can be placed against machines or other inventories and then linked up with &7Mercurial Wire&r. "
+		""
+		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+		""
+		"Things will only get more complicated from here, so be sure to spend some time automating what you can."
+		""
+		"&a🛈 Tip: Ice can be harvested with a Holystone Pickaxe!"
+	]
+	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
 		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
 		""
@@ -3516,6 +3539,11 @@
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
 	]
+	quest.51A88370BE1CAC99.quest_desc: [
+		"Not only do worms speed up crop growth, but they’ll also keep soil hydrated. "
+		""
+		"A single worm will help maintain a 3x3 plot of farmland."
+	]
 	quest.51AF97CE4E91A2D9.quest_desc: [
 		"Getting started with Immersive Engineering involves a few key machines and resources; perhaps the most important of which is the Coke Oven. "
 		""
@@ -3531,14 +3559,6 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
-	quest.51F25D35F62B37BA.quest_desc: [
-		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
-		""
-		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
-		""
-		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
-	]
-	quest.51F25D35F62B37BA.title: "Mercurial Logistics"
 	quest.520241157010066D.quest_desc: [
 		"Animate a Wilden Stalker and harvest it for parts."
 		""
@@ -3603,7 +3623,7 @@
 	quest.540133B792547B21.quest_desc: [
 		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
 		""
-		"Items, such as &7Pebbles&r, may be Right-Clicked into the Oven while fuel may be Right-Clicked into the Brazier to begin processing."
+		"Items, such as &7Pebbles&r, may be Right-Clicked into the &7Oven&r while fuel may be Right-Clicked into the &7Brazier&r to begin processing."
 	]
 	quest.55065F1D9C6716C1.quest_desc: [
 		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
@@ -4725,6 +4745,11 @@
 		"&a    the blocks inside the field area!"
 	]
 	quest.6D9008779F35E755.title: "Quarry"
+	quest.6DA23C4B7F016B1D.quest_desc: [
+		"Greenhouse Glass provides a significant growth boost to the crop directly below it. "
+		""
+		"Use it to build yourself a nice enclosure for your plants that is also functional. "
+	]
 	quest.6DAC9B8001A6D528.quest_desc: [
 		"The Mycelial Reactor is a special form of power generation that produces an enormous amount of energy."
 		""
@@ -4955,6 +4980,11 @@
 	]
 	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
+	quest.72B6C89DB165BB07.quest_desc: [
+		"When placed in-world, Organic Compost will slowly transform into Rich Soil, a particularly good soil for growing crops."
+		""
+		"Any crops grown on Rich Soil Farmland will gain a significant boost in growth rates. "
+	]
 	quest.72C1A824063BAFA3.quest_desc: [
 		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
 		""
@@ -5267,11 +5297,11 @@
 		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
 	]
 	quest.78E557B17D1EB84F.quest_desc: [
-		"The Altar uses Ambrosium as fuel to transmute items. "
+		"The Altar uses &7Ambrosium&r as fuel to transmute items. "
 		""
-		"As a first recipe, make some Rice by transmuting a Straw Bale, then plant the rice in water to get it growing. "
+		"As a first recipe, make some &7Rice&r by transmuting a &7Straw Bale&r, then plant the rice in water to get it growing. "
 		""
-		"From that, you'll be able to create a Magebloom Seed."
+		"From that, you'll be able to create a &7Magebloom Seed&r."
 	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "
@@ -5405,7 +5435,9 @@
 		""
 		"To work with Goo, place it and then place the required block next to it so the two are touching. "
 		""
-		"In this case, we’ll need some &7Slime Blocks&r, which you can make from dough. We'll also need to feed the thing something suitably magical. A &7Source Berry Roll&r ought to suffice."
+		"In this case, we’ll need some &7Slime Blocks&r, which you can make from dough. We'll also need to feed the thing something suitably magical. "
+		""
+		"A &7Source Berry Roll&r ought to suffice for now."
 	]
 	quest.7F445C22C528AC1F.quest_desc: [
 		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
@@ -5612,6 +5644,7 @@
 	task.573110BB52169A48.title: "Observation: &2Wixie's Furnace&r"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
+	task.58162F4C2BB35BA4.title: "Mercurial Fluid Transporters"
 	task.582472ED7BA0A212.title: "Item Storage"
 	task.5887027FAE29F371.title: "Addon: Processing"
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
@@ -5670,6 +5703,7 @@
 	task.79CE5559C7D6E3EB.title: "Vexing Island"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7B8A280C515F168E.title: "Any Pickaxe"
+	task.7BBDAB866A167CE4.title: "Mercurial Item Transporters"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
