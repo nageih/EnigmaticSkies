@@ -609,7 +609,7 @@
 				}
 				{
 					id: "3ABD84117404D4C2"
-					item: { count: 1, id: "malum:twisted_rock" }
+					item: { count: 1, id: "malum:tainted_rock" }
 					type: "item"
 				}
 			]

@@ -378,8 +378,8 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'ars_nouveau:basic_spell_turret' },
             pedestalItems: [
                 { tag: 'c:storage_blocks/source' },
-                { iten: 'supplementaries:lumisene_bottle' },
-                { iten: 'supplementaries:lumisene_bottle' }
+                { item: 'supplementaries:lumisene_bottle' },
+                { item: 'supplementaries:lumisene_bottle' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

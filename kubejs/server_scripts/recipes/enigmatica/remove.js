@@ -379,6 +379,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:bronze_plated_bricks' },
         { output: 'modern_industrialization:large_steam_boiler' },
         { output: 'modern_industrialization:config_card' },
+        { output: 'extended_industrialization:machine_config_card' },
         { output: /modern_industrialization:.*_drill_head/ },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: 'extended_industrialization:mulch' },

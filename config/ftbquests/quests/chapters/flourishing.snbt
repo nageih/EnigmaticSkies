@@ -194,7 +194,7 @@
 				}
 				{
 					id: "5E67E2AE333D7F18"
-					item: { count: 1, id: "naturesaura:infused_stone" }
+					item: { count: 1, id: "minecraft:tuff" }
 					type: "item"
 				}
 			]

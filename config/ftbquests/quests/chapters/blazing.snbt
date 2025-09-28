@@ -41,8 +41,8 @@
 				item: { count: 1, id: "createsifter:crushed_basalt" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0ADEE22CBDE86E54"]
@@ -52,8 +52,8 @@
 				item: { count: 1, id: "theurgy:crystallized_lava" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -85,7 +85,7 @@
 				item: { count: 1, id: "modern_industrialization:sulfur_dust" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "malum:blazing_quartz" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			id: "7CF12A36B30AE7D7"
@@ -125,8 +125,8 @@
 				id: "3AA02F5C513F90A9"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			id: "6E2B56F277B80477"
@@ -135,7 +135,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["05B678EEBCC0CDE6"]
@@ -145,7 +145,7 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -156,19 +156,19 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["09599F64E0788B37"]
+			dependencies: ["319FD618D4608068"]
 			id: "5AC80FA3683D9E45"
 			tasks: [{
 				id: "73931E7879D691A3"
 				item: { count: 1, id: "justdirethings:gooblock_tier2" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -185,7 +185,7 @@
 				}
 				{
 					id: "66A54DE872CEF13D"
-					item: { count: 1, id: "minecraft:polished_blackstone" }
+					item: { count: 1, id: "minecraft:blackstone" }
 					type: "item"
 				}
 			]
@@ -200,8 +200,8 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]

@@ -284,10 +284,16 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
+
         {
             result: { id: 'modern_industrialization:config_card', count: 1 },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
-            level: 2
+            level: 3
+        },
+        {
+            result: { id: 'extended_industrialization:machine_config_card', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 3
         }
     ],
     // Brewing Stand

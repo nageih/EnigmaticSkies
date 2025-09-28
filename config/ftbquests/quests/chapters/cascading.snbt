@@ -175,7 +175,7 @@
 				}
 				{
 					id: "56DB2279A11C93BC"
-					item: { count: 1, id: "minecraft:prismarine_bricks" }
+					item: { count: 1, id: "minecraft:clay" }
 					type: "item"
 				}
 			]
