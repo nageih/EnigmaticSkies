@@ -268,11 +268,6 @@ const villagerTrades = {
     ],
     // Forge Hammer
     'modern_industrialization:industrialist': [
-        // {
-        //     result: { id: 'modern_industrialization:bronze_assembler', count: 1 },
-        //     ingredients: [{ id: 'enigmatica:suns_out_buns_out', count: { min: 1, max: 2 } }],
-        //     level: 1
-        // },
         {
             result: { id: 'prettypipes:pipe', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
@@ -287,6 +282,11 @@ const villagerTrades = {
         {
             result: { id: 'prettypipes:blank_module', count: 8 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
+            result: { id: 'modern_industrialization:config_card', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],

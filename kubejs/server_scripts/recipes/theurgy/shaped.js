@@ -124,6 +124,26 @@ ServerEvents.recipes((event) => {
                 C: 'ppfluids:fluid_pipe'
             },
             id: `${id_prefix}logistics_fluid_extractor`
+        },
+        {
+            output: '2x theurgy:caloric_flux_emitter',
+            pattern: ['ABA', 'CCC'],
+            key: {
+                A: '#c:ingots/hallowed_gold',
+                B: '#c:essences/fire',
+                C: '#c:ingots/andesite_alloy'
+            },
+            id: `${id_prefix}caloric_flux_emitter`
+        },
+        {
+            output: 'theurgy:mercury_catalyst',
+            pattern: ['BAB', 'ACA', 'BAB'],
+            key: {
+                A: '#c:ingots/hallowed_gold',
+                B: 'theurgy:mercury_shard',
+                C: 'naturesaura:infused_stone'
+            },
+            id: `${id_prefix}mercury_catalyst`
         }
     ];
 

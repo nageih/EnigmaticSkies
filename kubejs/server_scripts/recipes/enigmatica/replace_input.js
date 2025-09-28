@@ -287,6 +287,15 @@ ServerEvents.recipes((event) => {
             replace_with: 'ars_technica:calibrated_precision_mechanism'
         },
         {
+            filter: [
+                { id: 'ars_nouveau:relay' },
+                { id: 'ars_nouveau:redstone_relay' },
+                { id: 'ars_nouveau:basic_spell_turret' }
+            ],
+            to_replace: `#c:ingots/gold`,
+            replace_with: `#c:ingots/hallowed_gold`
+        },
+        {
             filter: [{ mod: 'naturesaura' }],
             to_replace: `#c:ingots/tainted_gold`,
             replace_with: `#c:ingots/hallowed_gold`
@@ -419,6 +428,16 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:processing_unit`,
             replace_with: 'modern_industrialization:analog_circuit'
+        },
+        {
+            filter: [{ output: /aquaculture:neptunium_/ }],
+            to_replace: `#c:rods/wooden`,
+            replace_with: 'naturesaura:ancient_stick'
+        },
+        {
+            filter: [{ output: /aquaculture:neptunium_/ }],
+            to_replace: `minecraft:string`,
+            replace_with: 'ars_nouveau:magebloom_fiber'
         }
     ];
 

@@ -35,6 +35,28 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const neptunium_items = [
+        'fishing_rod',
+        'pickaxe',
+        'shove',
+        'axe',
+        'hoe',
+        'sword',
+        'bow',
+        'helmet',
+        'chestplate',
+        'leggings',
+        'boots'
+    ];
+
+    neptunium_items.forEach((item) => {
+        recipes.push({
+            filter: [{ id: `aquaculture:neptunium_${item}` }],
+            to_replace: `aquaculture:neptunium_${item}`,
+            replace_with: `aquaculture:neptunium_${item}[unbreakable={}]`
+        });
+    });
+
     const compressors = ['pneumaticcraft:thermal_compressor', 'pneumaticcraft:electrostatic_compressor'];
 
     compressors.forEach((compressor) => {

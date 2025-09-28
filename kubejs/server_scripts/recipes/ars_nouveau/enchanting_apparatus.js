@@ -359,6 +359,31 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 2000,
             id: `${id_prefix}heatproof_machine_casing`
+        },
+        {
+            result: { id: 'ars_nouveau:shapers_focus', count: 1 },
+            reagent: { tag: 'c:essences/manipulation' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/ruby' },
+                { tag: 'c:gems/emeradic' },
+                { tag: 'c:gems/ruby' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}shapers_focus`
+        },
+        {
+            result: { id: 'ars_nouveau:spell_turret', count: 1 },
+            reagent: { item: 'ars_nouveau:basic_spell_turret' },
+            pedestalItems: [
+                { tag: 'c:storage_blocks/source' },
+                { iten: 'supplementaries:lumisene_bottle' },
+                { iten: 'supplementaries:lumisene_bottle' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}spell_turret`
         }
     ];
 
