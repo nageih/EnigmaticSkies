@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_summon_focus"
 	}
 	id: "72447ED7D54B4AF7"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -609,7 +609,7 @@
 				}
 				{
 					id: "3ABD84117404D4C2"
-					item: { count: 1, id: "malum:twisted_rock" }
+					item: { count: 1, id: "malum:tainted_rock" }
 					type: "item"
 				}
 			]

@@ -93,6 +93,9 @@ ServerEvents.recipes((event) => {
         { id: `ars_nouveau:ritual_brazier` },
         { id: 'ars_nouveau:source_berry_pie' },
         { id: 'ars_nouveau:magebloom_crop' },
+        { id: 'ars_nouveau:shapers_focus' },
+        { id: 'ars_nouveau:spell_turret' },
+        { id: 'ars_nouveau:spell_prism' },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -113,6 +116,10 @@ ServerEvents.recipes((event) => {
         { id: `ars_caelum:heart_of_the_sea` },
 
         { id: 'ars_technica:mark_of_technomancy' },
+
+        { id: 'starbunclemania:star_bucket' },
+        { id: 'starbunclemania:star_miner' },
+        { id: 'starbunclemania:star_build' },
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
@@ -208,6 +215,11 @@ ServerEvents.recipes((event) => {
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
+
+        // Functional Storage
+        { output: 'functionalstorage:dripping_upgrade' },
+        { output: 'functionalstorage:obsidian_upgrade' },
+        { output: 'functionalstorage:water_generator_upgrade' },
 
         // Gateways
         { output: /gateways:gate_pearl/ },
@@ -371,6 +383,8 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:steel_rod_magnetic' },
         { output: 'modern_industrialization:bronze_plated_bricks' },
         { output: 'modern_industrialization:large_steam_boiler' },
+        { output: 'modern_industrialization:config_card' },
+        { output: 'extended_industrialization:machine_config_card' },
         { output: /modern_industrialization:.*_drill_head/ },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: 'extended_industrialization:mulch' },
@@ -503,6 +517,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:crafting/manualresin' },
         { id: 'oritech:crafting/alloy/rawsilicon' },
         { id: 'oritech:crafting/alloy/adamant' },
+        { id: 'oritech:crafting/alloy/electrum' },
         { id: /oritech:(particle|laser)\/fluxite/ },
         { id: /oritech:(crafting|assembler)\/magnet/ },
         { id: 'oritech:compat/ae2/charger/fluxite' },
@@ -580,6 +595,11 @@ ServerEvents.recipes((event) => {
         { output: 'prettypipes:pipe' },
         { output: 'prettypipes:blank_module' },
         { output: 'ppfluids:fluid_pipe' },
+        { output: 'prettypipes:pressurizer' },
+        { output: /(prettypipes|ppfluids):.*_(retrieval|extraction)_module/ },
+        { output: /prettypipes:.*_speed_module/ },
+        { output: 'prettypipes:low_filter_module' },
+        { output: 'ppfluids:low_fluid_filter_module' },
 
         // Redstone Pen
         { id: 'redstonepen:control_box_recipe' },
@@ -599,6 +619,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
         { id: 'supplementaries:bellows' },
+        { id: 'supplementaries:soap' },
 
         // Tempad
         { id: 'tempad:time_steel_create' },
@@ -618,8 +639,12 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:fermentation_vat' },
         { output: 'theurgy:digestion_vat' },
         { output: 'theurgy:distiller' },
+        { output: 'theurgy:caloric_flux_emitter' },
+        { output: 'theurgy:mercury_catalyst' },
         { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
+        { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
+        { output: 'theurgy:mercurial_wand' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

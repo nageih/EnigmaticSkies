@@ -6,10 +6,9 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:wixie_charm', count: 1 },
             reagent: { item: 'ars_nouveau:wixie_shards' },
             pedestalItems: [
-                { item: 'minecraft:brewing_stand' },
+                { item: 'farmersdelight:beef_stew' },
                 { item: 'arsdelight:source_berry_pie_slice' },
-                { item: 'minecraft:crafting_table' },
-                { item: 'farmersdelight:beef_stew' }
+                { item: 'arsdelight:source_berry_tea' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -19,8 +18,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:starbuncle_charm', count: 1 },
             reagent: { item: 'ars_nouveau:starbuncle_shards' },
             pedestalItems: [
-                { item: 'minecraft:golden_carrot' },
-                { tag: 'c:nuggets/gold' },
+                { item: 'ars_nouveau:source_berry_roll' },
                 { tag: 'c:nuggets/gold' },
                 { tag: 'c:nuggets/gold' }
             ],
@@ -32,10 +30,9 @@ ServerEvents.recipes((event) => {
             result: { id: 'ars_nouveau:alakarkinos_charm', count: 1 },
             reagent: { item: 'ars_nouveau:alakarkinos_token' },
             pedestalItems: [
-                { item: 'aether:blue_berry' },
-                { item: 'handcrafted:terracotta_thick_pot' },
-                { item: 'handcrafted:terracotta_thick_pot' },
-                { item: 'handcrafted:terracotta_thick_pot' }
+                { item: 'farmersdelight:kelp_roll' },
+                { item: 'aether:skyroot_shovel' },
+                { item: 'aether:skyroot_bucket' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -362,6 +359,31 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 2000,
             id: `${id_prefix}heatproof_machine_casing`
+        },
+        {
+            result: { id: 'ars_nouveau:shapers_focus', count: 1 },
+            reagent: { tag: 'c:essences/manipulation' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/ruby' },
+                { tag: 'c:gems/emeradic' },
+                { tag: 'c:gems/ruby' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}shapers_focus`
+        },
+        {
+            result: { id: 'ars_nouveau:spell_turret', count: 1 },
+            reagent: { item: 'ars_nouveau:basic_spell_turret' },
+            pedestalItems: [
+                { tag: 'c:storage_blocks/source' },
+                { item: 'supplementaries:lumisene_bottle' },
+                { item: 'supplementaries:lumisene_bottle' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}spell_turret`
         }
     ];
 

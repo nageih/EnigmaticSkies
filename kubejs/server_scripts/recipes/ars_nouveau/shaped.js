@@ -66,6 +66,16 @@ ServerEvents.recipes((event) => {
                 D: 'handcrafted:golden_thick_pot'
             },
             id: `${id_prefix}vitalic_sourcelink`
+        },
+        {
+            output: 'ars_nouveau:spell_prism',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:ingots/hallowed_gold',
+                B: 'ars_nouveau:archwood_planks',
+                C: 'naturesaura:infused_stone'
+            },
+            id: `${id_prefix}spell_prism`
         }
     ];
 

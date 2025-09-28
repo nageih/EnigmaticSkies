@@ -59,9 +59,9 @@ ServerEvents.recipes((event) => {
             output: 'theurgy:pyromantic_brazier',
             pattern: ['CAC', 'ABA', 'CAC'],
             key: {
-                A: '#c:ingots/andesite_alloy',
+                A: 'modern_industrialization:fire_clay_brick',
                 B: 'handcrafted:terracotta_thick_pot',
-                C: 'create:shaft'
+                C: 'aether:skyroot_wood'
             },
             id: `${id_prefix}pyromantic_brazier`
         },
@@ -69,11 +69,30 @@ ServerEvents.recipes((event) => {
             output: 'theurgy:distiller',
             pattern: [' A ', 'ABA', 'CCC'],
             key: {
-                A: '#c:ingots/andesite_alloy',
+                A: 'modern_industrialization:fire_clay_brick',
                 B: 'handcrafted:terracotta_thick_pot',
                 C: 'minecraft:polished_andesite'
             },
             id: `${id_prefix}distiller`
+        },
+        {
+            output: 'theurgy:mercurial_wand',
+            pattern: [' AB', ' CA', 'A  '],
+            key: {
+                A: '#c:rods/wooden',
+                B: 'theurgy:mercury_shard',
+                C: 'minecraft:brick'
+            },
+            id: `${id_prefix}mercurial_wand`
+        },
+        {
+            output: '8x theurgy:copper_wire',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'ars_nouveau:magebloom_fiber',
+                B: 'theurgy:mercury_shard'
+            },
+            id: `${id_prefix}copper_wire`
         },
         {
             output: '3x theurgy:logistics_connector_node',
@@ -81,7 +100,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'theurgy:mercury_shard',
                 B: 'minecraft:brick',
-                C: 'create:shaft'
+                C: 'supplementaries:ash_brick'
             },
             id: `${id_prefix}logistics_connector_node`
         },
@@ -90,8 +109,8 @@ ServerEvents.recipes((event) => {
             pattern: ['A', 'B', 'C'],
             key: {
                 A: 'theurgy:mercury_shard',
-                B: 'create:shaft',
-                C: 'prettypipes:pipe'
+                B: 'supplementaries:ash_brick',
+                C: '#c:gems/restonia'
             },
             id: `${id_prefix}logistics_item_inserter`
         },
@@ -100,8 +119,8 @@ ServerEvents.recipes((event) => {
             pattern: ['C', 'B', 'A'],
             key: {
                 A: 'theurgy:mercury_shard',
-                B: 'create:shaft',
-                C: 'prettypipes:pipe'
+                B: 'supplementaries:ash_brick',
+                C: '#c:gems/restonia'
             },
             id: `${id_prefix}logistics_item_extractor`
         },
@@ -110,8 +129,8 @@ ServerEvents.recipes((event) => {
             pattern: ['A', 'B', 'C'],
             key: {
                 A: 'theurgy:mercury_shard',
-                B: 'create:shaft',
-                C: 'ppfluids:fluid_pipe'
+                B: 'supplementaries:ash_brick',
+                C: '#c:gems/palis'
             },
             id: `${id_prefix}logistics_fluid_inserter`
         },
@@ -120,10 +139,30 @@ ServerEvents.recipes((event) => {
             pattern: ['C', 'B', 'A'],
             key: {
                 A: 'theurgy:mercury_shard',
-                B: 'create:shaft',
-                C: 'ppfluids:fluid_pipe'
+                B: 'supplementaries:ash_brick',
+                C: '#c:gems/palis'
             },
             id: `${id_prefix}logistics_fluid_extractor`
+        },
+        {
+            output: '2x theurgy:caloric_flux_emitter',
+            pattern: ['ABA', 'CCC'],
+            key: {
+                A: '#c:ingots/hallowed_gold',
+                B: '#c:essences/fire',
+                C: '#c:ingots/andesite_alloy'
+            },
+            id: `${id_prefix}caloric_flux_emitter`
+        },
+        {
+            output: 'theurgy:mercury_catalyst',
+            pattern: ['BAB', 'ACA', 'BAB'],
+            key: {
+                A: '#c:ingots/hallowed_gold',
+                B: 'theurgy:mercury_shard',
+                C: 'naturesaura:infused_stone'
+            },
+            id: `${id_prefix}mercury_catalyst`
         }
     ];
 

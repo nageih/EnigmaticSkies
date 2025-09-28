@@ -28,41 +28,29 @@ ServerEvents.recipes((event) => {
             tool: { tag: 'minecraft:shovels' },
             id: `${id_prefix}wheat_flour`
         }
-        // {
-        //     ingredients: [{ item: 'minecraft:clay' }],
-        //     result: [
-        //         { item: { id: 'supplementaries:statue', count: 1 } },
-        //         { item: { id: 'minecraft:clay_ball', count: 1 }, chance: 0.75 }
-        //     ],
-        //     sound: { sound_id: 'minecraft:block.gravel.break' },
-        //     tool: { tag: 'c:tools/knife' },
-        //     id: `${id_prefix}statue`
-        // }
     ];
 
-    wood_registry.forEach((r) => {
-        recipes.push(
-            {
-                ingredients: [{ item: r.log }],
-                result: [
-                    { item: { count: 1, id: r.stripped_log } },
-                    { item: { count: 1, id: 'farmersdelight:tree_bark' } }
-                ],
-                sound: { sound_id: 'minecraft:item.axe.strip' },
-                tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
-                id: `${id_prefix}${r.stripped_log.replace(':', '_')}_from_log`
-            },
-            {
-                ingredients: [{ item: r.wood }],
-                result: [
-                    { item: { count: 1, id: r.stripped_wood } },
-                    { item: { count: 1, id: 'farmersdelight:tree_bark' } }
-                ],
-                sound: { sound_id: 'minecraft:item.axe.strip' },
-                tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
-                id: `${id_prefix}${r.stripped_wood.replace(':', '_')}_from_wood`
-            }
-        );
+    tree_registry.forEach((tree) => {
+        let mod = tree.log.split(':')[0];
+
+        if (mod !== 'minecraft' && mod !== 'ars_nouveau') {
+            recipes.push(
+                {
+                    ingredients: [{ item: tree.log }],
+                    result: [{ item: { id: tree.stripped_log, count: 1 } }, { item: { id: tree.bark, count: 1 } }],
+                    sound: { sound_id: 'minecraft:item.axe.strip' },
+                    tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
+                    id: `${id_prefix}${tree.stripped_log.replace(':', '_')}_from_log`
+                },
+                {
+                    ingredients: [{ item: tree.wood }],
+                    result: [{ item: { id: tree.stripped_wood, count: 1 } }, { item: { id: tree.bark, count: 1 } }],
+                    sound: { sound_id: 'minecraft:item.axe.strip' },
+                    tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
+                    id: `${id_prefix}${tree.stripped_wood.replace(':', '_')}_from_wood`
+                }
+            );
+        }
     });
 
     recipes.forEach((recipe) => {

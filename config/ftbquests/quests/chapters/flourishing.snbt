@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_earth_focus"
 	}
 	id: "083FB2FC095A6686"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -53,7 +53,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -75,7 +75,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -176,8 +176,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -194,7 +194,7 @@
 				}
 				{
 					id: "5E67E2AE333D7F18"
-					item: { count: 1, id: "naturesaura:infused_stone" }
+					item: { count: 1, id: "minecraft:tuff" }
 					type: "item"
 				}
 			]
@@ -366,8 +366,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -379,6 +379,81 @@
 			}]
 			x: 6.5d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"56AD6E7F12056140"
+				"794A9B29DAADD021"
+			]
+			icon: {
+				id: "ars_nouveau:alakarkinos_charm"
+			}
+			id: "513BDF32A8F6EF45"
+			shape: "diamond"
+			tasks: [{
+				id: "711421AA88900691"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513BDF32A8F6EF45"]
+			id: "77FA6854AC88C138"
+			tasks: [{
+				id: "3788E365E74AB104"
+				item: { count: 1, id: "enigmatica:cloudy_dorodango" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513BDF32A8F6EF45"]
+			id: "3B609B8A4DE93B53"
+			tasks: [{
+				id: "689CBBF2F2CEB53D"
+				item: { count: 1, id: "enigmatica:melon_ball" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F892CA8F50A7831"]
+			id: "794A9B29DAADD021"
+			tasks: [{
+				id: "67A0C4D1146E2BDF"
+				item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3177D71B617AE6D0"]
+			id: "63944BDC078E728A"
+			min_width: 400
+			tasks: [{
+				id: "6059DD0F3986707D"
+				item: { count: 1, id: "ars_nouveau:shapers_focus" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63944BDC078E728A"]
+			id: "579B2C5CB83022ED"
+			min_width: 250
+			tasks: [{
+				id: "32BB268124E0C570"
+				item: { count: 1, id: "ars_elemental:manipulation_turret" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }

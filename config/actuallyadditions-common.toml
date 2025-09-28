@@ -9,9 +9,9 @@
 	#If true, Cats drop Hairy Balls Occasionally.
 	doCatDrops = true
 	#Should Bat wings drop from Bats?
-	doBatDrops = true
+	doBatDrops = false
 	#If true, worms will drop from tilling the soil.
-	tillingWorms = true
+	tillingWorms = false
 	#The amount of ticks it takes for a worm to die. When at 0 ticks, it will not die.
 	# Default: 0
 	# Range: 0 ~ 10000000
@@ -21,11 +21,11 @@
 	#Show the 'Press Control for more Info'-Text on Item Tooltips
 	advancedInfoTooltips = true
 	#If true, the booklet should be given to the player when he first crafts something from the Mod
-	giveBookletOnFirstCraft = true
+	giveBookletOnFirstCraft = false
 	#Should Actually Additions Loot generate in dungeons?
-	villageAndDungeonLoot = true
+	villageAndDungeonLoot = false
 	#Should right-clicking a bowl on water blocks create a water bowl?
-	waterBowl = true
+	waterBowl = false
 	#Should the water bowl spill if you don't sneak while using it?
 	waterBowlSpilling = true
 	#Should Tiny Coal and Tiny Charcoal be craftable

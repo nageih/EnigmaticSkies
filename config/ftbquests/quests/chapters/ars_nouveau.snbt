@@ -19,24 +19,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "41614A924E5556EE"
-			rewards: [
-				{
-					id: "393D3E6B0F90FA3E"
-					item: {
-						count: 1
-						id: "ars_nouveau:sourceberry_bush"
-					}
-					type: "item"
+			rewards: [{
+				count: 6
+				id: "004B4AB05C2456DF"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_berry_roll"
 				}
-				{
-					id: "4D3D50A9B14D1D16"
-					item: {
-						count: 1
-						id: "ars_nouveau:dominion_wand"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AE1C3BF867DD395"
 				item: { count: 1, id: "minecraft:gold_ingot" }

@@ -1,0 +1,743 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "it_takes_a_village"
+	group: "46AB9129BBE517B6"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/entity_icon/villager/armorer.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "17B9F323B083C6C2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["605A60825B68C2D7"]
+			icon: {
+				id: "theurgy:calcination_oven"
+			}
+			id: "540133B792547B21"
+			tasks: [
+				{
+					id: "2002A1386F565014"
+					item: { count: 1, id: "theurgy:calcination_oven" }
+					type: "item"
+				}
+				{
+					id: "5CC9F5064799852C"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+				{
+					id: "097F1C8C0949C922"
+					item: { count: 1, id: "theurgy:alchemical_salt_mineral" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["540133B792547B21"]
+			icon: {
+				id: "theurgy:digestion_vat"
+			}
+			id: "714379744B3CF395"
+			tasks: [
+				{
+					id: "2D1ED5D64999A68A"
+					item: { count: 1, id: "theurgy:digestion_vat" }
+					type: "item"
+				}
+				{
+					id: "04FD56D5B4728327"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					id: "4D39133F906BA8E3"
+					item: { count: 1, id: "createsifter:raw_gold_piece" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03D475AF2266ECB6"]
+			icon: {
+				id: "minecraft:loom"
+			}
+			id: "34FB10F0A2504973"
+			tasks: [
+				{
+					id: "12D0D24F2CBA6776"
+					item: { count: 1, id: "minecraft:loom" }
+					type: "item"
+				}
+				{
+					id: "4E754D9523EB5521"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_starter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03D475AF2266ECB6"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "2F1EA0B091C700E1"
+			tasks: [
+				{
+					id: "1D83B2509B34391D"
+					item: { count: 1, id: "minecraft:barrel" }
+					type: "item"
+				}
+				{
+					id: "23A6FA63A91742A7"
+					item: { count: 1, id: "aquaculture:brown_shrooma" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			id: "1CF4103BFBCE0E29"
+			tasks: [{
+				id: "7DAC5388F81AED26"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D783196F551142F"]
+			icon: {
+				id: "ars_nouveau:arcane_core"
+			}
+			id: "56AD6E7F12056140"
+			rewards: [{
+				id: "722B4A99A6EB10B0"
+				item: {
+					count: 1
+					id: "ars_nouveau:dominion_wand"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BF83A89CA730475"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					id: "234C1ECD22AA038E"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D783196F551142F"]
+			icon: {
+				id: "minecraft:composter"
+			}
+			id: "105CABB7D9705359"
+			tasks: [
+				{
+					id: "5690D2B09D261DEF"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+				{
+					id: "556F73EC41171F78"
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03D475AF2266ECB6"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "04D144DC0EAE8BE3"
+			tasks: [
+				{
+					id: "5D587C3F4108AE35"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+				{
+					id: "7E8DB9AF7E07E7DE"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			icon: {
+				id: "ars_nouveau:bookwyrm_charm"
+			}
+			id: "2F9C801DFAC1C0D9"
+			rewards: [{
+				count: 12
+				id: "0C639510F67D9F5D"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_berry_roll"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5F91200A8D050770"
+					item: { count: 1, id: "minecraft:lectern" }
+					type: "item"
+				}
+				{
+					id: "42C7D136E83FC246"
+					item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D783196F551142F"]
+			icon: {
+				id: "enigmatica:flying_cow_iou"
+			}
+			id: "605A60825B68C2D7"
+			rewards: [{
+				count: 16
+				id: "01F59A6D3BD56A67"
+				item: {
+					count: 1
+					id: "aether:blue_berry"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "48CF8923A1279290"
+					item: { count: 1, id: "actuallyadditions:feeder" }
+					type: "item"
+				}
+				{
+					id: "544CF65977D3BF9D"
+					item: { count: 1, id: "enigmatica:flying_cow_iou" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F1EA0B091C700E1"
+				"04D144DC0EAE8BE3"
+				"34FB10F0A2504973"
+			]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "1D783196F551142F"
+			tasks: [
+				{
+					id: "6E0AB2F0B23E5F4E"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "59848C2372B58A4C"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "2046631D06A53FF1"
+					item: { count: 1, id: "enigmatica:suns_out_buns_out" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
+			id: "22344008D43D4710"
+			min_width: 300
+			rewards: [{
+				id: "5FF4CB76AF603F14"
+				item: {
+					count: 1
+					id: "ars_nouveau:starbuncle_charm"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1C1CA13C1F742C6E"
+					item: { count: 1, id: "ars_nouveau:wixie_charm" }
+					type: "item"
+				}
+				{
+					id: "4484CC7F88D33D12"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_pedestal)item(ars_nouveau:arcane_platform))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "66C4961D07E59ED1"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F9C801DFAC1C0D9"]
+			id: "628A6A79EFA30990"
+			min_width: 250
+			tasks: [{
+				id: "5A72DDC1A67F5A53"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628A6A79EFA30990"]
+			icon: {
+				id: "ars_nouveau:repository_controller"
+			}
+			id: "149BC66585EA0C34"
+			tasks: [
+				{
+					id: "4055A6A1A8A7D70F"
+					item: { count: 1, id: "ars_nouveau:repository_controller" }
+					type: "item"
+				}
+				{
+					id: "32DB8E8F0B30AB1D"
+					item: { count: 1, id: "ars_nouveau:repository" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "ars_nouveau:wixie_cauldron"
+			}
+			id: "6D09D016EDE0AAFB"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "046D4FE92D2404E0"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ars_nouveau:wixie_cauldron"
+					}
+					id: "241DC4DBEF1C8648"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ars_nouveau:wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:cooking_pot_wixie_cauldron"
+			}
+			id: "79DFBA1E35132332"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1BA0F842896415CE"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:cooking_pot_wixie_cauldron"
+					}
+					id: "605834F92F6F384F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:cooking_pot_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:cutting_wixie_cauldron"
+			}
+			id: "161CA05D18639AD4"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "41ACA300D7D901B2"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:cutting_wixie_cauldron"
+					}
+					id: "7559C9E4BA735703"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:cutting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:smelting_wixie_cauldron"
+			}
+			id: "3CBA1384BD3D28ED"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "578773D1ADB7090A"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:smelting_wixie_cauldron"
+					}
+					id: "573110BB52169A48"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:smelting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "starbunclemania:stonecutting_wixie_cauldron"
+			}
+			id: "39716C901B98BAF2"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2436FFE920714F04"
+					item: { count: 1, id: "minecraft:stonecutter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "starbunclemania:stonecutting_wixie_cauldron"
+					}
+					id: "210DF794EE1D714A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "starbunclemania:stonecutting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22344008D43D4710"]
+			icon: {
+				id: "ars_additions:enchanting_wixie_cauldron"
+			}
+			id: "1A2B5BCA37161B1A"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "085AC2039AE5D814"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ars_additions:enchanting_wixie_cauldron"
+					}
+					id: "264F4FA6B354C01A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ars_additions:enchanting_wixie_cauldron"
+					type: "observation"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "623B5F0C0464F907"
+			min_width: 300
+			shape: "diamond"
+			tasks: [{
+				id: "0D73E9E528FA62B1"
+				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15FAB1720AD470A0"]
+			icon: {
+				components: {
+					"minecraft:entity_data": {
+						VillagerData: {
+							type: "minecraft:snow"
+						}
+						id: "minecraft:villager"
+					}
+				}
+				id: "occultism:fragile_soul_gem"
+			}
+			id: "03D475AF2266ECB6"
+			rewards: [{
+				id: "6215DA90B3AB56FD"
+				item: {
+					count: 1
+					id: "create:purple_seat"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04D8EB63B8923A77"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+				{
+					id: "24587C9FF78658AC"
+					item: { components: { "minecraft:entity_data": { VillagerData: { type: "minecraft:snow" }, id: "minecraft:villager" } }, count: 1, id: "occultism:fragile_soul_gem" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5550423B6E6BDBAF"]
+			id: "6FA4894900E53B31"
+			tasks: [{
+				id: "74089801349D2850"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53B43826C4CF310F"]
+			icon: {
+				id: "ars_nouveau:air_essence"
+			}
+			id: "6B76BBE9FB5A1219"
+			tasks: [
+				{
+					id: "24770F3A0736A84B"
+					item: { count: 1, id: "ars_nouveau:air_essence" }
+					type: "item"
+				}
+				{
+					id: "11E99D42F704A494"
+					item: { count: 1, id: "ars_elemental:flashpine_pod" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B76BBE9FB5A1219"]
+			id: "1F1B78D4388E9332"
+			tasks: [{
+				id: "358A5E557BAB258C"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53B43826C4CF310F"]
+			id: "14D946E0F94255AD"
+			tasks: [{
+				id: "327EE60C36D5C134"
+				item: { count: 1, id: "ars_elemental:anima_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14D946E0F94255AD"]
+			id: "6EEE945815A039B7"
+			tasks: [{
+				id: "7FE64698F8879C71"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7905141BD2517471"]
+			id: "200439825F35368F"
+			tasks: [{
+				id: "075DCE6FB5F472FE"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53B43826C4CF310F"]
+			id: "7905141BD2517471"
+			tasks: [{
+				id: "4B377BD3C276B920"
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F1B78D4388E9332"]
+			id: "352FE6BFD8AB7023"
+			tasks: [{
+				id: "78CB052047F0AC64"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53B43826C4CF310F"]
+			id: "5550423B6E6BDBAF"
+			tasks: [{
+				id: "74779A7784CF18C2"
+				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "53B43826C4CF310F"
+			tasks: [{
+				id: "3FEC46CB05E92C9B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["105CABB7D9705359"]
+			id: "72B6C89DB165BB07"
+			shape: "diamond"
+			tasks: [{
+				id: "20DC49381E87AE07"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105CABB7D9705359"]
+			id: "51A88370BE1CAC99"
+			shape: "diamond"
+			tasks: [{
+				id: "39AA129375EBE0A9"
+				item: { count: 1, id: "actuallyadditions:worm" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["105CABB7D9705359"]
+			id: "054093E1130E24C1"
+			shape: "diamond"
+			tasks: [{
+				id: "2D18ACA3004AE100"
+				item: { count: 1, id: "actuallyadditions:feeder" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105CABB7D9705359"]
+			id: "239F88351687E593"
+			shape: "diamond"
+			tasks: [{
+				id: "50B4B86D7BBC0112"
+				item: { count: 1, id: "pneumaticcraft:crop_support" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["105CABB7D9705359"]
+			id: "6DA23C4B7F016B1D"
+			shape: "diamond"
+			tasks: [{
+				id: "4D0B9AFE5BCD65A5"
+				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}
