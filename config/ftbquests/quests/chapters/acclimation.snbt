@@ -688,7 +688,7 @@
 				{
 					count: 28L
 					id: "351A84B2AD47C523"
-					item: { count: 27, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -1070,6 +1070,36 @@
 			}]
 			x: 1.0d
 			y: -7.0d
+		}
+		{
+			id: "0A5ED63B81C482B9"
+			min_width: 300
+			rewards: [{
+				id: "70FC5285B6D46CE9"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "3529B56D2654D2C2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0A5ED63B81C482B9"]
+			id: "26206EC1A2F0C9AF"
+			shape: "gear"
+			tasks: [{
+				id: "77F882F4F6E96C76"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -11.0d
 		}
 	]
 }

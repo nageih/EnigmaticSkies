@@ -15,7 +15,7 @@
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.402AE6264B81A84B.title: "Logistics"
 	chapter.40C97D6332BD825B.title: "Cascading"
-	chapter.47870879D8E3742D.title: "Getting Started"
+	chapter.47870879D8E3742D.title: "To the Skies!"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
@@ -333,6 +333,27 @@
 		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
 		""
 		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
+	]
+	quest.0A5ED63B81C482B9.quest_desc: [
+		"Thanks for playtesting!"
+		""
+		"Before you get started, there are some design principles you should be aware of:"
+		""
+		"&n&6Water&r"
+		"Water is meant to be a challenge. You’ll notice that infinite water sources are disabled and efforts have been made to remove easy water sources. "
+		""
+		"That said, a few magical ones remain such as the Urn of Endless Waters and the Conjure Water glyph. These may get disabled in the future or may simply be gated until much later in progression. "
+		""
+		"&n&6Monsters&r"
+		"Natural spawns are disabled entirely. You’re safe from random mob invasions, but that means many of the items you’d get from monsters will either be coming from other sources or are gated until such time as you can summon monsters. "
+		""
+		"Monster spawners have also largely been disabled and replaced with custom recipes for obtaining different mobs. You’ll get into this in the Vexing chapter"
+		""
+		"&n&6Death"
+		"Just because there are no natural spawns doesn’t mean you won’t die. In fact, there’s a custom mechanic built in to cause certain animals to die after a set amount of time; this is explained later in the quests. Just be aware that some resources will need to be actively maintained."
+		""
+		"&n&6Automation"
+		"This, like all our Expert packs, is an automation challenge. Food, water, and other resources are all things you’ll need to automate to succeed. "
 	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
@@ -1484,6 +1505,19 @@
 		"    • Skeleton - Grim Talc"
 		"    • Phantom - Astral Weave "
 		"    • Zombie - Rotting Essence"
+	]
+	quest.26206EC1A2F0C9AF.quest_desc: [
+		"At the current time, the following quest lines are in a mostly-playable state:"
+		""
+		"1. Acclimation"
+		"2. It Takes a Village"
+		"3. Flourishing"
+		""
+		"Of course, these are still Works in Progress, but the rest is even more so! "
+		""
+		"While you go through them, keep an eye out for things that seem too grindy, unclear, unfun, or just downright broken."
+		""
+		"We’re currently focusing on these chapters for feedback, but if you get further and find something you feel is a little off or needs tweaking, feel free to let us know!"
 	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -4799,7 +4833,7 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
-		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
+		"Welcome to &6Enigmatica 10: Enigmatic Skies&r! We hope you enjoy your time here! :D"
 		""
 		"It's dangerous to go alone. Take these to get you started!"
 		""
@@ -5579,6 +5613,7 @@
 	task.346A4A537019E6C5.title: "Crude Blast Furnace"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.350C549315B84B13.title: "Diesel Generator"
+	task.3529B56D2654D2C2.title: "A Note for Playtesters"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"
 	task.36D658D637E5D847.title: "Storage Systems"
@@ -5703,6 +5738,7 @@
 	task.75F35EC4088EBA42.title: "Create Processing"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
+	task.77F882F4F6E96C76.title: "Feedback Needs"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
 	task.78CB052047F0AC64.title: "Oritech - Particle Physics"
