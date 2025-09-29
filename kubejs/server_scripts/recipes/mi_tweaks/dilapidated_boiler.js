@@ -30,7 +30,8 @@ ServerEvents.recipes((event) => {
 
         recipe.type = 'modern_industrialization:dilapidated_boiler';
         recipe.fluid_outputs = [{ fluid: 'modern_industrialization:steam', amount: recipe.output }];
-        (recipe.fluid_inputs = [{ fluid: 'minecraft:water', amount: recipe.output / 8 }]), (recipe.eu = 1);
+        recipe.fluid_inputs = [{ fluid: 'minecraft:water', amount: recipe.output / 8 }];
+        recipe.eu = 1;
         recipe.duration = recipe.output / rate;
 
         event.custom(recipe).id(recipe.id);
