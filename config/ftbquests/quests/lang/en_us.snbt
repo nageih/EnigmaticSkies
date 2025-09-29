@@ -129,7 +129,13 @@
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
 	]
-	quest.0458B6BC887C9725.quest_desc: ["Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.0458B6BC887C9725.quest_desc: [
+		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.0458B6BC887C9725.title: "Wolf"
 	quest.0465E4A27C7D4D75.quest_desc: [
 		"The Ore Laser Base can be a great way to get a steady flow of minerals, allowing you to set aside mining forever. "
@@ -2770,6 +2776,10 @@
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
 		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+		""
 		"&a🛈 Tip: Consider making an enclosure to "
 		"&a    contain your bats!"
 	]
@@ -4081,7 +4091,13 @@
 		"Consider making a small batch here and automating later."
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
-	quest.619FB543EE458A0E.quest_desc: ["Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.619FB543EE458A0E.quest_desc: [
+		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.619FB543EE458A0E.title: "Polar Bear"
 	quest.61F55FC24EA0CD1C.quest_desc: [
 		"To begin, we’ll need some Organic Matter samples. You’ll obtain these by using your Scraper on different mobs. "
@@ -4408,7 +4424,13 @@
 		"&a🛈 Tip: Adding more Bookwyrms allows "
 		"&a    more connections!"
 	]
-	quest.6660BE0C308A1744.quest_desc: ["Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.6660BE0C308A1744.quest_desc: [
+		"Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.6660BE0C308A1744.title: "Goat"
 	quest.66AE19141D8F5604.quest_desc: [
 		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."

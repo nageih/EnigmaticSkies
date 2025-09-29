@@ -431,7 +431,8 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/bear/polarbear.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:polar_bear"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -458,7 +459,8 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/bat.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:bat"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -485,7 +487,8 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/wolf.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wolf"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -495,6 +498,7 @@
 				{
 					id: "7EFA9516C699EFE5"
 					item: { count: 1, id: "minecraft:wolf_spawn_egg" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -511,7 +515,8 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/goat.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:goat"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -521,6 +526,7 @@
 				{
 					id: "5400896A826A271A"
 					item: { count: 1, id: "minecraft:goat_spawn_egg" }
+					optional_task: true
 					type: "item"
 				}
 				{
