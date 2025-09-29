@@ -24,14 +24,6 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
             time: 120,
             id: `${id_prefix}plastic_from_polymer_resin`
-        },
-        {
-            results: [],
-            fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 1000 }],
-            ingredients: [{ item: 'oritech:raw_biopolymer' }],
-            fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
-            time: 120,
-            id: `${id_prefix}plastic_from_raw_biopolymer`
         }
     ];
 
