@@ -519,11 +519,11 @@
 			min_width: 250
 			rewards: [
 				{
-					count: 6
+					count: 24
 					id: "4803208E9BC307F2"
 					item: {
 						count: 1
-						id: "minecraft:charcoal"
+						id: "actuallyadditions:tiny_charcoal"
 					}
 					type: "item"
 				}
