@@ -119,7 +119,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1D783196F551142F"]
+			dependencies: ["605A60825B68C2D7"]
 			icon: {
 				id: "ars_nouveau:arcane_core"
 			}
@@ -144,8 +144,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -2.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["605A60825B68C2D7"]
@@ -217,7 +217,7 @@
 				}
 			]
 			x: 3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6BA05AC6ECC577DA"]
@@ -313,7 +313,7 @@
 				}
 			]
 			x: 5.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F9C801DFAC1C0D9"]
@@ -326,7 +326,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["628A6A79EFA30990"]
@@ -348,7 +348,7 @@
 				}
 			]
 			x: 3.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -375,7 +375,7 @@
 				}
 			]
 			x: 5.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -402,7 +402,7 @@
 				}
 			]
 			x: 5.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -429,7 +429,7 @@
 				}
 			]
 			x: 6.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -456,7 +456,7 @@
 				}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -483,7 +483,7 @@
 				}
 			]
 			x: 6.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -510,7 +510,7 @@
 				}
 			]
 			x: 5.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -522,7 +522,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15FAB1720AD470A0"]
