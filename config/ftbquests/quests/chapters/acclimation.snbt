@@ -688,7 +688,7 @@
 				{
 					count: 28L
 					id: "351A84B2AD47C523"
-					item: { count: 27, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
