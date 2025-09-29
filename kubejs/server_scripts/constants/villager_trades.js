@@ -68,7 +68,7 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'ars_nouveau:mycelial_sourcelink', count: 1 },
+            result: { id: 'actuallyadditions:feeder', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
@@ -79,7 +79,7 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'actuallyadditions:feeder', count: 1 },
+            result: { id: 'ars_nouveau:mycelial_sourcelink', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
