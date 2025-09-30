@@ -101,7 +101,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -219,6 +219,11 @@
 					item: { count: 1, id: "oritech:clay_catalyst_beads" }
 					type: "item"
 				}
+				{
+					id: "35E753BE95FAD4BF"
+					item: { count: 1, id: "actuallyadditions:black_quartz" }
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 0.0d
@@ -266,7 +271,7 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
@@ -277,7 +282,7 @@
 				item: { count: 1, id: "industrialforegoing:pink_slime" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -313,8 +318,8 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -357,20 +362,30 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 3.5d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
+			icon: {
+				id: "enigmatica:melon_ball"
+			}
 			id: "3B609B8A4DE93B53"
 			shape: "diamond"
-			tasks: [{
-				id: "689CBBF2F2CEB53D"
-				item: { count: 1, id: "enigmatica:melon_ball" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.5d
+			tasks: [
+				{
+					id: "689CBBF2F2CEB53D"
+					item: { count: 1, id: "enigmatica:melon_ball" }
+					type: "item"
+				}
+				{
+					id: "2047ADAC155542D9"
+					item: { count: 1, id: "theurgy:crystallized_water" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4F892CA8F50A7831"]
@@ -408,7 +423,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6490781066FAE8CF"]
+			dependencies: ["5D1960D1AE64E4A2"]
 			id: "33679351A7B6D8E6"
 			shape: "diamond"
 			tasks: [{
@@ -417,19 +432,39 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
+			icon: {
+				id: "enigmatica:boggy_dorodango"
+			}
 			id: "38E929DADF66C1F3"
 			shape: "diamond"
-			tasks: [{
-				id: "07FDB84C824E9CF8"
-				item: { count: 1, id: "enigmatica:boggy_dorodango" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.0d
+			tasks: [
+				{
+					id: "07FDB84C824E9CF8"
+					item: { count: 1, id: "enigmatica:boggy_dorodango" }
+					type: "item"
+				}
+				{
+					id: "5A3BAA8063A66AD8"
+					item: { count: 1, id: "actuallyadditions:black_quartz" }
+					type: "item"
+				}
+				{
+					id: "0CA1CC8E306F7045"
+					item: { count: 1, id: "aquaculture:fish_bones" }
+					type: "item"
+				}
+				{
+					id: "64142F1064D055B6"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
@@ -440,7 +475,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B4A78EDE371D083"]
@@ -450,8 +485,96 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "6EA0560551B821B3"
+			tasks: [{
+				id: "38684C42523A88CF"
+				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EA0560551B821B3"]
+			icon: {
+				id: "minecraft:torchflower"
+			}
+			id: "53CE92319716971B"
+			tasks: [{
+				id: "15D7325C0C904192"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BCD9E36D48B205A"]
+			icon: {
+				id: "modern_industrialization:large_steam_boiler"
+			}
+			id: "60239B38B7288779"
+			min_width: 300
+			tasks: [
+				{
+					id: "309F63672661FCFE"
+					item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+					type: "item"
+				}
+				{
+					id: "750E82A1ACB1DED1"
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "27D30ACAFD32C120"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+				{
+					id: "26971F8428A8F97F"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "71A479E92219AB03"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4F21DF4EFC469AAC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60239B38B7288779"]
+			icon: {
+				id: "actuallyadditions:fermenting_barrel"
+			}
+			id: "47AFEF3DCB2990FB"
+			tasks: [
+				{
+					id: "7097E881FF4BCA7F"
+					item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+					type: "item"
+				}
+				{
+					id: "2C5C665BB4B77134"
+					item: { count: 1, id: "actuallyadditions:canola_press" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
 		}
 	]
 }

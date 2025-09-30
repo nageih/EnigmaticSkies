@@ -2,25 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:enderio/shaped/';
 
     const recipes = [
-        // {
-        //     output: `enderio:primitive_alloy_smelter`,
-        //     pattern: ['AAA', 'BCB', 'BBB'],
-        //     key: {
-        //         A: 'minecraft:furnace',
-        //         B: 'supplementaries:ash_bricks',
-        //         C: 'aether:aerogel'
-        //     },
-        //     id: `${id_prefix}primitive_alloy_smelter`
-        // },
-        {
-            output: `enderio:ensouled_chassis`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'enderio:soul_chain',
-                B: 'industrialforegoing:machine_frame_simple'
-            },
-            id: `${id_prefix}ensouled_chassis`
-        },
         {
             output: `enderio:slice_and_splice`,
             pattern: ['ABA', 'CDC', 'EFE'],
@@ -80,6 +61,18 @@ ServerEvents.recipes((event) => {
                 C: '#c:chests/wooden'
             },
             id: `${id_prefix}vacuum_chest`
+        },
+        {
+            output: 'enderio:vat',
+            pattern: ['AAA', 'BCB', 'DED'],
+            key: {
+                A: 'modern_industrialization:steel_tank',
+                B: 'oritech:carbon_plating_block',
+                C: 'industrialforegoing:machine_frame_simple',
+                D: '#c:gears/energized',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}vat`
         }
     ];
 

@@ -205,7 +205,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["74F028BA5DC3CF54"]
+			dependencies: [
+				"74F028BA5DC3CF54"
+				"07FFBD39930CE9F7"
+			]
 			id: "67B5706C2EE25C56"
 			tasks: [{
 				id: "4B32443EB1E1FFB4"
@@ -367,7 +370,7 @@
 			}
 			id: "4B2DF8F028C3CFA0"
 			min_width: 220
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "0FFC6257D18DBE40"
@@ -395,7 +398,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "619FB543EE458A0E"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "0A4C81B03AE20C94"
@@ -423,7 +426,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "42F2191B5C08849B"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4BB5E242BCE3CFD0"
@@ -451,7 +454,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "0458B6BC887C9725"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7EFA9516C699EFE5"
@@ -479,7 +482,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6660BE0C308A1744"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "5400896A826A271A"
@@ -623,6 +626,17 @@
 			}]
 			x: 4.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["13F15094F3AF4A73"]
+			id: "5D50FB987FCA7BB5"
+			tasks: [{
+				id: "02A287BBC378001D"
+				item: { count: 1, id: "ars_nouveau:bastion_pod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
 		}
 	]
 }

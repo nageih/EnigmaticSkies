@@ -51,6 +51,38 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}machine_frame_advanced`
+        },
+        {
+            output: { id: 'enderio:void_chassis', count: 1 },
+            input: [
+                { tag: 'c:essences/void_salts' },
+                { item: 'industrialforegoing:machine_frame_simple' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:gems/void' },
+                { tag: 'c:gems/void' },
+                { item: 'oritech:advanced_battery' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}void_chassis`
+        },
+        {
+            output: { id: 'enderio:ensouled_chassis', count: 1 },
+            input: [
+                { tag: 'c:ingots/pink_slime' },
+                { item: 'industrialforegoing:machine_frame_simple' },
+                { tag: 'c:ingots/pink_slime' },
+                { item: 'enderio:soul_chain' },
+                { item: 'enderio:soul_chain' },
+                { tag: 'c:gems/soulstone' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:gems/soulstone' }
+            ],
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}ensouled_chassis`
         }
     ];
 
