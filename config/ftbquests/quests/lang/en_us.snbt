@@ -713,9 +713,6 @@
 		"     &7Steam                                 &7Water"
 		""
 		"The protected area can propagate up to about 16 blocks from the Hearth or from any connected Smokestacks. "
-		""
-		"&a🛈 Tip: Any Furnace Fuel may be used to heat "
-		"    &athe Boiler under the Hearth."
 	]
 	quest.130A2701B96A941D.title: "Welcome to the Skies!"
 	quest.130C6FC212F64474.quest_desc: [
@@ -1764,6 +1761,7 @@
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
 	]
+	quest.2C3B39CD6A7E044C.quest_desc: ["Packing up more complex meals for your villagers is going to require some mechanical assistance. "]
 	quest.2C7267F92822D2C1.quest_desc: [
 		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
 		""
@@ -3881,9 +3879,11 @@
 		"&a🛈 Tip: Source Jars hold 10,000 Source."
 	]
 	quest.5AFB064A80189AA4.quest_desc: [
-		"This Moss appears to be concentrating different minerals in it as it consumes the Mud. Crush some to obtain Copper and other useful minerals!"
+		"This Moss appears to be concentrating different minerals as it grows. "
 		""
-		"Using Bone Meal on Moss will cause it to spread to nearby blocks, such as Mud and Dirt. As long as you keep at least one Moss, you will have an infinite supply!"
+		"Crush some to obtain &7Copper&r and other useful minerals!"
+		""
+		"Using &7Bone Meal&r on Moss will cause it to spread to nearby blocks, such as &7Mud&r and &7Dirt&r. As long as you keep at least one &7Moss&r, you will have an infinite supply!"
 	]
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
@@ -3899,12 +3899,9 @@
 	]
 	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
 	quest.5D1960D1AE64E4A2.quest_desc: [
-		"The Flourishing Island comes with a ready-made Natural Altar to get you started. "
+		"The Flourishing Island comes with a ready-made &7Natural Altar&r to get you started. "
 		""
-		"You’ll also notice several Swamp Homis dotted around under the Spore Blossoms. "
-		""
-		""
-		"These handy little devices will convert nearby Moss back to Mud, releasing some Aura into the environment in the process. "
+		"You’ll also notice several &7Swamp Homis&r dotted around under the &7Spore Blossoms&r. These handy little devices will convert nearby &7Moss&r back to &7Mud&r, releasing some Aura into the environment in the process. "
 	]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "

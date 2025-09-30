@@ -33,15 +33,27 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:coffee_machine',
-            pattern: [' E ', 'ABA', 'CDC'],
+            pattern: ['AB', 'DE', 'CC'],
             key: {
-                A: 'supplementaries:lumisene_bottle',
-                B: 'actuallyadditions:iron_casing',
-                C: 'actuallyadditions:emeradic_crystal',
-                D: 'handcrafted:terracotta_medium_pot',
-                E: 'minecraft:hopper'
+                A: 'minecraft:tinted_glass',
+                B: 'minecraft:hopper',
+                C: '#c:gems/enori',
+                D: 'actuallyadditions:empty_cup',
+                E: 'actuallyadditions:iron_casing'
             },
             id: `${id_prefix}coffee_machine`
+        },
+        {
+            output: 'actuallyadditions:farmer',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/enori',
+                B: 'minecraft:iron_hoe',
+                C: 'ars_technica:calibrated_precision_mechanism',
+                D: 'actuallyadditions:iron_casing',
+                E: 'actuallyadditions:advanced_coil'
+            },
+            id: `${id_prefix}farmer`
         },
         {
             output: 'actuallyadditions:canola_press',

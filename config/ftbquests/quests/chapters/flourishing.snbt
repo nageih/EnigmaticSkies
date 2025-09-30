@@ -25,7 +25,7 @@
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
 			icon: {
-				id: "createsifter:raw_copper_piece"
+				id: "minecraft:moss_block"
 			}
 			id: "5AFB064A80189AA4"
 			tasks: [
@@ -79,16 +79,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
-			id: "388B5ED3AB3DEC82"
-			tasks: [{
-				id: "3344B81CFADAC8FB"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"772F618AA5A15F74"
 				"4C54C9BE017CBC67"
@@ -111,8 +101,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4F892CA8F50A7831"]
@@ -269,17 +259,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5D1960D1AE64E4A2"]
-			id: "3177D71B617AE6D0"
-			tasks: [{
-				id: "796CC2C87377D72A"
-				item: { count: 1, id: "enigmatica:ruby" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["3BCD9E36D48B205A"]
 			id: "5E727F7B600E0E91"
 			tasks: [{
@@ -298,7 +277,7 @@
 				item: { count: 1, id: "industrialforegoing:pink_slime" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -323,7 +302,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -334,7 +313,7 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -346,14 +325,13 @@
 				id: "ars_nouveau:alakarkinos_charm"
 			}
 			id: "513BDF32A8F6EF45"
-			shape: "diamond"
 			tasks: [{
 				id: "711421AA88900691"
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -361,6 +339,7 @@
 				id: "enigmatica:cloudy_dorodango"
 			}
 			id: "77FA6854AC88C138"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3788E365E74AB104"
@@ -378,19 +357,20 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 3.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
 			id: "3B609B8A4DE93B53"
+			shape: "diamond"
 			tasks: [{
 				id: "689CBBF2F2CEB53D"
 				item: { count: 1, id: "enigmatica:melon_ball" }
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4F892CA8F50A7831"]
@@ -400,11 +380,11 @@
 				item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3177D71B617AE6D0"]
+			dependencies: ["5D1960D1AE64E4A2"]
 			id: "63944BDC078E728A"
 			min_width: 400
 			tasks: [{
@@ -412,8 +392,8 @@
 				item: { count: 1, id: "ars_nouveau:shapers_focus" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["63944BDC078E728A"]
@@ -424,8 +404,8 @@
 				item: { count: 1, id: "ars_elemental:manipulation_turret" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -438,6 +418,40 @@
 			}]
 			x: 3.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["513BDF32A8F6EF45"]
+			id: "38E929DADF66C1F3"
+			shape: "diamond"
+			tasks: [{
+				id: "07FDB84C824E9CF8"
+				item: { count: 1, id: "enigmatica:boggy_dorodango" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F2E18DABA17E0AC"]
+			id: "3B4A78EDE371D083"
+			tasks: [{
+				id: "2EC4E826BC289F14"
+				item: { count: 1, id: "actuallyadditions:coffee_machine" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B4A78EDE371D083"]
+			id: "625AE1AEF37DAE03"
+			tasks: [{
+				id: "4DE69291B7DEAE0C"
+				item: { count: 1, id: "actuallyadditions:farmer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 	]
 }

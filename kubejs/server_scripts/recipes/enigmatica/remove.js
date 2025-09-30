@@ -41,6 +41,7 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:iron_casing` },
         { id: `actuallyadditions:empty_cup` },
         { id: `actuallyadditions:coffee_machine` },
+        { id: `actuallyadditions:farmer` },
         { id: `actuallyadditions:canola_press` },
         { id: `actuallyadditions:tagged_sticky_piston` },
         { id: `actuallyadditions:greenhouse_glass` },
@@ -51,6 +52,9 @@ ServerEvents.recipes((event) => {
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
         { id: 'aether:altar' },
+        { id: 'aether:freezer' },
+        { id: 'aether:golden_ring' },
+        { id: 'aether:iron_ring' },
         { id: 'aether:swet_slime_block' },
         { id: 'aether:swet_sticky_piston' },
         { id: 'aether:swet_lead' },
