@@ -54,7 +54,10 @@ ServerEvents.recipes((event) => {
             id_suffix: `cloudy_dorodango_processing`
         },
         {
-            outputs: [{ id: 'theurgy:crystallized_water', count: 2, chance: 1 / 2 }],
+            outputs: [
+                { id: 'theurgy:crystallized_water', count: 1 },
+                { id: 'theurgy:crystallized_water', count: 1, chance: 1 / 2 }
+            ],
             input: { item: 'enigmatica:melon_ball', count: 1 },
             id_suffix: `melon_ball_processing`
         }

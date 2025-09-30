@@ -125,6 +125,8 @@ ServerEvents.recipes((event) => {
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
+        { id: 'cold_sweat:ice_packed_to_normal' },
+        { id: 'cold_sweat:ice_blue_to_packed' },
 
         // Create and Addons
         { id: /create:crushing\/raw_/ },
@@ -338,6 +340,8 @@ ServerEvents.recipes((event) => {
         { id: `minecraft:pointed_dripstone` },
         { id: 'minecraft:bread' },
         { id: 'minecraft:paper' },
+        { id: 'minecraft:packed_ice' },
+        { id: 'minecraft:blue_ice' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
@@ -401,6 +405,8 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:assembler_generated/steam_age/steel/machine_casing' },
         { id: 'modern_industrialization:alloy/mixer/stainless_steel/dust' },
         { id: 'modern_industrialization:vanilla_recipes/compressor/paper_with_sugarcane' },
+        { id: 'modern_industrialization:vanilla_recipes/packer/packed_ice' },
+        { id: 'modern_industrialization:vanilla_recipes/packer/blue_ice' },
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { id: 'modern_industrialization:vanilla_recipes/mixer/paper' },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
@@ -472,6 +478,7 @@ ServerEvents.recipes((event) => {
         { id: /occultism:spirit_fire\/chalk_/ },
         { output: 'occultism:sacrificial_bowl' },
         { output: 'occultism:dark_sacrificial_bowl' },
+        { input: 'occultism:gray_paste' },
         { input: 'occultism:raw_iesnium' },
 
         // Oritech
@@ -665,6 +672,8 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/bread' },
         { id: 'utilitarian:utility/dispenser' },
         { id: 'utilitarian:utility/paper' },
+        { id: 'utilitarian:utility/ice' },
+        { id: 'utilitarian:utility/packed_ice' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals
