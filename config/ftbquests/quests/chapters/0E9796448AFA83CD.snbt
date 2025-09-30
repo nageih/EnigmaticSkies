@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0B04BC5F88746182"]
@@ -224,23 +224,6 @@
 		{
 			dependencies: ["4B66ECA9D6797B80"]
 			icon: {
-				id: "minecraft:redstone_block"
-			}
-			id: "2F898C0C2DF380AE"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: {
-					id: "minecraft:redstone_block"
-				}
-				id: "3ABA48B70D4EF83A"
-				type: "dimension"
-			}]
-			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4B66ECA9D6797B80"]
-			icon: {
 				id: "minecraft:comparator"
 			}
 			id: "0230942DF53BB9E5"
@@ -253,7 +236,7 @@
 				type: "dimension"
 			}]
 			x: -1.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0230942DF53BB9E5"]
@@ -264,7 +247,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5047A6F1EF472407"]
@@ -395,22 +378,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "32BB0DF03AB7B420"
+			dependencies: ["0230942DF53BB9E5"]
+			id: "2D55E211F5B4F0BF"
 			tasks: [{
-				id: "6BF66CF4AB623802"
-				item: { count: 1, id: "oritech:small_storage_block" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2F898C0C2DF380AE"]
-			id: "7E3C827209F17CCA"
-			tasks: [{
-				id: "0E3075B2C03F62ED"
-				item: { count: 1, id: "oritech:large_storage_block" }
+				id: "666CD839E64B504B"
+				item: { count: 1, id: "actuallyadditions:energizer" }
 				type: "item"
 			}]
 			x: 0.5d

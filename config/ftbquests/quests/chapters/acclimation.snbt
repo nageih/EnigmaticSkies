@@ -766,7 +766,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -7.5d
 		}
 		{
@@ -940,7 +940,7 @@
 		{
 			dependencies: [
 				"2D755021F6490B86"
-				"49E18B07D6E4A5EB"
+				"616862D8ADBE3928"
 			]
 			icon: {
 				id: "justdirethings:gooblock_tier1"
@@ -1057,10 +1057,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"49E18B07D6E4A5EB"
-				"359A7C9127500D6C"
-			]
+			dependencies: ["359A7C9127500D6C"]
 			id: "28ACDB98DC2B9D41"
 			min_width: 300
 			tasks: [{
@@ -1100,6 +1097,27 @@
 			}]
 			x: 0.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["51636F3E5A461A7B"]
+			icon: {
+				id: "aether:freezer"
+			}
+			id: "616862D8ADBE3928"
+			tasks: [
+				{
+					id: "69BBAA79B59F97FB"
+					item: { count: 1, id: "aether:freezer" }
+					type: "item"
+				}
+				{
+					id: "2979B5106FBB2F10"
+					item: { count: 1, id: "minecraft:blue_ice" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.5d
 		}
 	]
 }

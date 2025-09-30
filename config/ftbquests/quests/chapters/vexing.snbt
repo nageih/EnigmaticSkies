@@ -34,48 +34,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["705E731911F13899"]
-			id: "0167BDE5001130A7"
-			tasks: [{
-				id: "7B5CA95E5B04F0B1"
-				item: { count: 1, id: "enderio:prescient_crystal" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			id: "705E731911F13899"
-			tasks: [{
-				id: "0199C149FB04ED7C"
-				item: { count: 1, id: "minecraft:witch_spawn_egg" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			id: "4533B7926EA958E1"
-			tasks: [{
-				id: "74F4023E819A6C97"
-				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4533B7926EA958E1"]
-			id: "38E77FA818C35100"
-			tasks: [{
-				id: "3408AEF5C72D552B"
-				item: { count: 1, id: "enderio:ender_crystal" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["45E411460C53A082"]
 			id: "1BDCA4CF5ED739BA"
 			tasks: [{

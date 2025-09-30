@@ -50,6 +50,7 @@ ServerEvents.recipes((event) => {
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
+        { id: 'aether:altar' },
         { id: 'aether:swet_slime_block' },
         { id: 'aether:swet_sticky_piston' },
         { id: 'aether:swet_lead' },
@@ -216,6 +217,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:chocolate_pie' },
         { id: 'farmersdelight:paper_from_tree_bark' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
+        { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },

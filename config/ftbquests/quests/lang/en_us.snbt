@@ -1,6 +1,6 @@
 {
-	chapter.083FB2FC095A6686.title: "Flourishing"
-	chapter.0A799F91D9A1C8A1.title: "Blazing"
+	chapter.083FB2FC095A6686.title: "Flourishing Island"
+	chapter.0A799F91D9A1C8A1.title: "Blazing Island"
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
@@ -14,7 +14,7 @@
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.402AE6264B81A84B.title: "Logistics"
-	chapter.40C97D6332BD825B.title: "Cascading"
+	chapter.40C97D6332BD825B.title: "Cascading Island"
 	chapter.47870879D8E3742D.title: "To the Skies!"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
@@ -22,10 +22,10 @@
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
-	chapter.72447ED7D54B4AF7.title: "Vexing"
+	chapter.72447ED7D54B4AF7.title: "Vexing Island"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
-	chapter.7F9A789B53FAB216.title: "Acclimation"
+	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -1862,8 +1862,6 @@
 		""
 		"Easier methods will soon become available. For now, crafting a large batch of Empty PCBs will suffice."
 	]
-	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
-	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.2F9C801DFAC1C0D9.quest_desc: [
 		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. "
 		""
@@ -2886,8 +2884,6 @@
 		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 		""
 		"Things will only get more complicated from here, so be sure to spend some time automating what you can."
-		""
-		"&a🛈 Tip: Ice can be harvested with a Holystone Pickaxe!"
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
@@ -4071,6 +4067,13 @@
 		"Consider making a small batch here and automating later."
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
+	quest.616862D8ADBE3928.quest_desc: [
+		"The Freezer uses &7Icestone&r as fuel to freeze items."
+		""
+		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
+		""
+		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r."
+	]
 	quest.619FB543EE458A0E.quest_desc: [
 		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
 		""

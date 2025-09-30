@@ -5,7 +5,7 @@
 	group: "46AB9129BBE517B6"
 	icon: {
 		components: {
-			"ftbquests:icon": "minecraft:textures/entity_icon/villager/armorer.png"
+			"ftbquests:icon": "farmersdelight:textures/mob_effect/nourishment.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
