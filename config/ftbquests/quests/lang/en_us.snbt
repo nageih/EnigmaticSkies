@@ -129,7 +129,13 @@
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
 	]
-	quest.0458B6BC887C9725.quest_desc: ["Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.0458B6BC887C9725.quest_desc: [
+		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.0458B6BC887C9725.title: "Wolf"
 	quest.0465E4A27C7D4D75.quest_desc: [
 		"The Ore Laser Base can be a great way to get a steady flow of minerals, allowing you to set aside mining forever. "
@@ -658,13 +664,6 @@
 		"&6⚠ Note: Only the Spirits are consumed "
 		"&6    by this process."
 	]
-	quest.128669F9F6431E0A.quest_desc: [
-		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
-		""
-		"In general, it accepts seeds, saplings, and crops. "
-		""
-		"Filling it with one type of item will generate a paltry 4 FE/t, however giving it eight unique items allows it to produce a more impressive 256 FE/t."
-	]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. "
 		""
@@ -700,7 +699,7 @@
 		""
 		"The Hearth in the gazebo will keep you warm within the bounds of the building once it is activated"
 		""
-		"Insert the provided &7Primal Coal&r in the chest to the left of the Hearth and Right-Click the &7Crystallized Water&r into the Accumulator on the right."
+		"Insert the provided &7Tiny Charcoal&r in the chest to the left of the Hearth and Right-Click the &7Crystallized Water&r into the Accumulator on the right."
 		""
 		"It will take a minute for the Hearth to warm up but you can open the Trap Door to ensure the Boiler is operating."
 		"&n                                                              &r"
@@ -1061,7 +1060,6 @@
 		"&c    there are insufficient Hatches"
 		"&c    available to receive the items!"
 	]
-	quest.1A1C34B6C1A7B5E8.quest_desc: ["The Energizer and Enervator go hand in hand, with the Energizer used to charge FE compatible items, such as batteries, and the Enervator used to drain them of power."]
 	quest.1A2B5BCA37161B1A.quest_desc: [
 		"This workstation allows the Wixie to craft Enchanting Apparatus recipes. "
 		""
@@ -1849,11 +1847,6 @@
 		"You can convert these into &7Brown Mushrooms&r, perfect for making &7Dumplings&r!"
 	]
 	quest.2F1EA0B091C700E1.title: "Fisherman"
-	quest.2F2C14F36F96AD35.quest_desc: [
-		"Mendosteen Pods may be propagated by planting them on Flourishing Archwood. "
-		""
-		"Like most crops, their growth can be sped up by applying Bone Meal or by other effects that up speed plant growth."
-	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
@@ -1983,6 +1976,16 @@
 		"&a    discover more."
 	]
 	quest.3263757C9A240C70.title: "Chipped"
+	quest.33679351A7B6D8E6.quest_desc: [
+		"Being able to place and pick up blocks automatically will help with getting some early tasks automated. "
+		""
+		"On the Flourishing Island, getting Tuff to make some of these basic machines can be achieved with the same spell you've previously used to obtain Icstone."
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Conjure Tuff&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r"
+	]
 	quest.3456EED039818662.quest_desc: [
 		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
 		""
@@ -2246,7 +2249,7 @@
 		"&a    hatches."
 	]
 	quest.3B609B8A4DE93B53.quest_desc: [
-		"Clouds are a decent source of Water, but Melons are even better. "
+		"It’s time to retire that mesh and upgrade to a more automated means of obtaining Water."
 		""
 		"Build a Melon farm and set your Alakarkinos to work making &7Melon Balls&r!"
 	]
@@ -2770,6 +2773,10 @@
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
 		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+		""
 		"&a🛈 Tip: Consider making an enclosure to "
 		"&a    contain your bats!"
 	]
@@ -3249,7 +3256,6 @@
 	]
 	quest.4ACD723FC7EB7CD6.quest_desc: ["It's hard to keep a fire lit in this place; most open flames will go out immediately or simply not catch in the first place. "]
 	quest.4ACD723FC7EB7CD6.title: "Fire"
-	quest.4B0E34ADA419D750.quest_desc: ["Refined Canola Oil may be obtained with the help of a Fermenting Barrel. This greatly enhances the oil, allowing it to produce much more power. "]
 	quest.4B2DF8F028C3CFA0.quest_desc: [
 		"Animate a Guardian and gather some Organic Matter from it."
 		""
@@ -3622,11 +3628,6 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
-	quest.5362D855D207F79A.quest_desc: [
-		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
-		""
-		"Don’t tear down your Boilers just yet though, as Steam is required for Diesel production! "
-	]
 	quest.5386C6E2FDA6BA50.quest_desc: [
 		"Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors may all be upgraded in-situ by Right-Clicking them with the appropriate tier Alloy. Each Alloy will upgrade up to 8 connected pipes."
 		""
@@ -3812,11 +3813,6 @@
 		"&a    auto-collect these drops, keeping "
 		"&a    your inventory clean!"
 	]
-	quest.59293885E5C9E8A3.quest_desc: [
-		"A simple machine used for crushing ores and other materials. "
-		""
-		"It may be slow, but it's a cheap early-game way to increase your mining yields!"
-	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
 		""
@@ -3988,12 +3984,6 @@
 		""
 		"The bottle may then be thrown to release that weather wherever you like, changing it instantly. "
 	]
-	quest.5F50024F403D28D0.quest_desc: [
-		"Like with Crystallized Oil before it, Empowered Oil is obtained by dropping Empowered Canola Seeds into Crystallized Oil. "
-		""
-		"As before, this represents a significant upgrade in both burn time and production per tick. "
-	]
-	quest.5F50024F403D28D0.title: "Empowered Oil Production"
 	quest.5FBC1038ACB861CE.quest_desc: [
 		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
 		""
@@ -4081,7 +4071,13 @@
 		"Consider making a small batch here and automating later."
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
-	quest.619FB543EE458A0E.quest_desc: ["Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.619FB543EE458A0E.quest_desc: [
+		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.619FB543EE458A0E.title: "Polar Bear"
 	quest.61F55FC24EA0CD1C.quest_desc: [
 		"To begin, we’ll need some Organic Matter samples. You’ll obtain these by using your Scraper on different mobs. "
@@ -4098,15 +4094,6 @@
 		""
 		"&a🛈 Tip: Higher tier Promises work for "
 		"&a    lower tier recipes!"
-	]
-	quest.62249C31ADCB3914.quest_desc: [
-		"With the addition of a Lens of the Miner, the Atomic Reconstructor is able to convert stone into random ores. "
-		""
-		"This uses a good amount of energy but can make for an interesting way of creating a small infinite source of materials!"
-		""
-		"&6⚠ Note: For this to work, the block"
-		"&6    must be placed in the path of the "
-		"&6    beam, it won’t work on items."
 	]
 	quest.623B5F0C0464F907.quest_desc: [
 		"While it is true that a scurry of Starbuncles all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
@@ -4408,7 +4395,13 @@
 		"&a🛈 Tip: Adding more Bookwyrms allows "
 		"&a    more connections!"
 	]
-	quest.6660BE0C308A1744.quest_desc: ["Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."]
+	quest.6660BE0C308A1744.quest_desc: [
+		"Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."
+		""
+		"&6⚠ Note: The Spawn Egg shown here is "
+		"&6    not required. It's simply a  "
+		"&6    convenience for finding the recipe."
+	]
 	quest.6660BE0C308A1744.title: "Goat"
 	quest.66AE19141D8F5604.quest_desc: [
 		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."
@@ -5107,8 +5100,6 @@
 		"&a    or block works."
 	]
 	quest.74463B3FC2D297AC.title: "PneumaticCraft"
-	quest.747635545752310E.quest_desc: ["Dropping Crystallized Canola Seeds into Refined Canola Oil produces Crystallized Oil, a more efficient form of fuel that burns longer and for more energy per tick. "]
-	quest.747635545752310E.title: "Crystallized Oil Production"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
@@ -5247,7 +5238,11 @@
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
 	]
-	quest.77FA6854AC88C138.quest_desc: ["It’s time to retire that mesh and upgrade to a more automated means of obtaining Water."]
+	quest.77FA6854AC88C138.quest_desc: [
+		"It's time to get a little more out of those clouds. "
+		""
+		"Process some &7Cloudy Dorodangos&r to obtain &7Sky Stone Dust&r and &7Sal Ammoniac Crystals&r."
+	]
 	quest.78626EE046E48EF3.quest_desc: [
 		"&6&nBiome: Archwood Forest&r&r"
 		""
@@ -5699,6 +5694,7 @@
 	task.5F579E2341E92725.title: "PneumaticCraft"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
+	task.5FD033C23F211569.title: "Picking Up What You're Putting Down"
 	task.5FD7075685BB37AD.title: "Generators"
 	task.605834F92F6F384F.title: "Observation: &2Wixie's Cooking Pot&r"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"

@@ -20,6 +20,8 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:leaf_generator' },
         { output: 'actuallyadditions:crusher' },
         { output: 'actuallyadditions:crusher_double' },
+        { output: 'actuallyadditions:enervator' },
+        { output: /actuallyadditions:lava_factory/ },
         { output: /actuallyadditions:.*_battery$/ },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: 'actuallyadditions:lens_of_the_killer' },
@@ -123,6 +125,8 @@ ServerEvents.recipes((event) => {
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
+        { id: 'cold_sweat:ice_packed_to_normal' },
+        { id: 'cold_sweat:ice_blue_to_packed' },
 
         // Create and Addons
         { id: /create:crushing\/raw_/ },
@@ -324,6 +328,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/hallowed_gold_ingot' },
         { id: 'malum:spirit_infusion/soulwoven_silk' },
         { id: 'malum:spirit_infusion/iridescent_ether' },
+        { id: 'malum:spirit_infusion/paracausal_flame' },
         { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
 
@@ -335,6 +340,8 @@ ServerEvents.recipes((event) => {
         { id: `minecraft:pointed_dripstone` },
         { id: 'minecraft:bread' },
         { id: 'minecraft:paper' },
+        { id: 'minecraft:packed_ice' },
+        { id: 'minecraft:blue_ice' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
@@ -398,6 +405,8 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:assembler_generated/steam_age/steel/machine_casing' },
         { id: 'modern_industrialization:alloy/mixer/stainless_steel/dust' },
         { id: 'modern_industrialization:vanilla_recipes/compressor/paper_with_sugarcane' },
+        { id: 'modern_industrialization:vanilla_recipes/packer/packed_ice' },
+        { id: 'modern_industrialization:vanilla_recipes/packer/blue_ice' },
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { id: 'modern_industrialization:vanilla_recipes/mixer/paper' },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
@@ -422,6 +431,9 @@ ServerEvents.recipes((event) => {
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
+        { id: 'modularrouters:modular_router' },
+        { id: 'modularrouters:blank_module' },
+        { id: 'modularrouters:blank_upgrade' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -466,6 +478,7 @@ ServerEvents.recipes((event) => {
         { id: /occultism:spirit_fire\/chalk_/ },
         { output: 'occultism:sacrificial_bowl' },
         { output: 'occultism:dark_sacrificial_bowl' },
+        { input: 'occultism:gray_paste' },
         { input: 'occultism:raw_iesnium' },
 
         // Oritech
@@ -473,9 +486,11 @@ ServerEvents.recipes((event) => {
         { type: 'oritech:fuel_generator' },
         { type: 'oritech:lava_generator' },
         { type: 'oritech:bio_generator' },
-        { output: 'oritech:foundry_block' },
         { type: 'oritech:pulverizer' },
+        { type: 'oritech:grinder' },
+        { output: 'oritech:foundry_block' },
         { output: 'oritech:pulverizer_block' },
+        { output: 'oritech:fragment_forge_block' },
         { output: 'oritech:assembler_block' },
         { output: /oritech:.*_generator_block/ },
         { output: 'oritech:big_solar_panel_block' },
@@ -493,6 +508,8 @@ ServerEvents.recipes((event) => {
         { output: 'oritech:refinery_block' },
         { output: 'oritech:refinery_module_block' },
         { output: 'oritech:item_filter_block' },
+        { output: 'oritech:packed_wheat' },
+        { output: 'oritech:weed_killer' },
         { output: /oritech:reactor_/ },
         { output: /oritech:.*(energy|item|fluid)_pipe/ },
         { output: /oritech:.*superconductor/ },
@@ -544,10 +561,11 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:centrifuge/fluid/siliconwashbad' },
         { id: 'oritech:centrifuge/fluid/siliconwash' },
         { id: 'oritech:centrifuge/fluid/polymerresin' },
+        { id: 'oritech:centrifuge/fluid/biopolymer' },
+        { id: 'oritech:centrifuge/fluid/biopolymer_bioblock' },
+        { id: 'oritech:centrifuge/fluid/biopolymer_biomass' },
         { id: 'oritech:centrifuge/endericsculk' },
         { id: 'oritech:centrifuge/compat/enderio/endericcompound' },
-        { id: 'oritech:grinder/stone_enderic' },
-        { id: 'oritech:grinder/pearl_enderic' },
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
@@ -556,12 +574,10 @@ ServerEvents.recipes((event) => {
         { id: /oritech:splashing\/compat\/create/ },
         { id: 'oritech:atomicforge/urandust' },
         { id: 'oritech:atomicforge/duratium' },
-        { id: /oritech:grinder\/uraniumcrystal/ },
         { id: /oritech:mixing\/compat\/create/ },
         { id: /oritech:compat\/enderio\/alloy/ },
         { input: /oritech:(nickel|platinum|iron|copper|gold)_gem/ },
         { id: /oritech:atomicforge\/dust\/(nickel|platinum|iron|copper|gold)/ },
-        { id: /oritech:grinder\/raw\/(nickel|platinum|iron|copper|gold)/ },
         { id: /oritech:(nickel|platinum|iron|copper|gold)_clump/ },
         { id: 'oritech:cooler/snow' },
         { output: /oritech:accelerator_/ },
@@ -585,6 +601,7 @@ ServerEvents.recipes((event) => {
         { id: 'pneumaticcraft:assembly/unassembled_pcb' },
         { id: 'pneumaticcraft:assembly/solar_cell' },
         { id: 'pneumaticcraft:assembly/red_dye' },
+        { id: 'pneumaticcraft:pressure_chamber/solar_wafer' },
         { id: /pneumaticcraft:pneumatic_(helmet|chestplate|leggings|boots)/ },
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
         { id: 'pneumaticcraft:drone_upgrade' },
@@ -655,6 +672,8 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/bread' },
         { id: 'utilitarian:utility/dispenser' },
         { id: 'utilitarian:utility/paper' },
+        { id: 'utilitarian:utility/ice' },
+        { id: 'utilitarian:utility/packed_ice' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals

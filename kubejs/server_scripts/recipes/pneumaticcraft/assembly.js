@@ -3,8 +3,8 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'modularrouters:modular_router', count: 6 },
-            input: { tag: 'c:storage_blocks/iron', count: 1 },
+            result: { id: 'modularrouters:modular_router', count: 4 },
+            input: { item: 'actuallyadditions:iron_casing', count: 1 },
             program: 'drill',
             id: `${id_prefix}modular_router`
         },

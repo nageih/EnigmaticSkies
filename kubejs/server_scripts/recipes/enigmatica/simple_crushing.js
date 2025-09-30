@@ -265,16 +265,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'adamant_dust_from_adamant'
         },
         {
-            input: { tag: 'c:ingots/biosteel' },
-            outputs: [{ id: 'oritech:biosteel_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'oritech', 'oritech'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'biosteel_dust_from_biosteel'
-        },
-        {
             input: { tag: 'c:ingots/duratium' },
             outputs: [{ id: 'oritech:duratium_dust', count: 1 }],
             multiply: 'none',
@@ -654,17 +644,6 @@ ServerEvents.recipes((event) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
 
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
-        }
-
-        // Oritech Grinder
-        if (!recipe.exclusions.includes('oritech')) {
-            let r = {
-                type: 'oritech:grinder',
-                ingredients: [recipe.input],
-                results: recipe.outputs,
-                time: recipe.duration * 1.5 * 20
-            };
             event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 

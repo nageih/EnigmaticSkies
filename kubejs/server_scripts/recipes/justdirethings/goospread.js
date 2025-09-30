@@ -39,17 +39,18 @@ ServerEvents.recipes((event) => {
             tierRequirement: 1,
             id: `${id_prefix}void_crystal_block`
         },
-
-        // Tier 2
         {
             output: {
                 Name: 'actuallyadditions:palis_crystal_block',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'minecraft:blue_ice' },
-            tierRequirement: 2,
+            tierRequirement: 1,
             id: `${id_prefix}palis_crystal_block`
         },
+
+        // Tier 2
+
         {
             output: {
                 Name: 'actuallyadditions:diamatine_crystal_block',

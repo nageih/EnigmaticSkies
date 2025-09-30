@@ -21,21 +21,23 @@ ServerEvents.recipes((event) => {
             id: `pneumaticcraft:pressure_chamber/compressed_iron_ingot`
         },
         {
-            results: [{ id: 'modularrouters:blank_module', count: 12 }],
+            results: [{ id: 'modularrouters:blank_module', count: 3 }],
             inputs: [
+                { item: 'pneumaticcraft:plastic', count: 1 },
+                { tag: 'c:gems/empowered_restonia', count: 1 },
                 { tag: 'pneumaticcraft:wiring', count: 3 },
-                { tag: 'c:dusts/redstone', count: 1 },
-                { item: 'minecraft:paper', count: 3 }
+                { item: 'modern_industrialization:analog_circuit', count: 3 }
             ],
             pressure: 1.0,
             id: `${id_prefix}blank_module`
         },
         {
-            results: [{ id: 'modularrouters:blank_upgrade', count: 8 }],
+            results: [{ id: 'modularrouters:blank_upgrade', count: 3 }],
             inputs: [
+                { item: 'pneumaticcraft:plastic', count: 1 },
+                { tag: 'c:gems/empowered_palis', count: 1 },
                 { tag: 'pneumaticcraft:wiring', count: 3 },
-                { tag: 'c:gems/lapis', count: 1 },
-                { item: 'minecraft:paper', count: 4 }
+                { item: 'modern_industrialization:analog_circuit', count: 3 }
             ],
             pressure: 1.0,
             id: `${id_prefix}blank_upgrade`

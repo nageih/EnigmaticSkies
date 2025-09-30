@@ -151,7 +151,10 @@ ServerEvents.recipes((event) => {
 
         {
             fluid_outputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 1000 }],
-            item_inputs: [{ tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 }],
+            item_inputs: [
+                { tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 },
+                { tag: 'c:gems/sal_ammoniac', amount: 1, probability: 0.5 }
+            ],
             fluid_inputs: [{ fluid: `minecraft:water`, amount: 1000 }],
             duration: 5,
             eu: 2,

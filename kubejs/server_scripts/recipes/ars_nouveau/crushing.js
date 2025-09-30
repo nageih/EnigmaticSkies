@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
                 { stack: { id: 'aether:ambrosium_shard', count: 1 }, chance: 0.25, maxRange: 1 },
                 { stack: { id: 'createsifter:andesite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
                 { stack: { id: 'createsifter:diorite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
+                { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
             ],
             id: `${id_prefix}holystone_crushing`
         },
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.25, maxRange: 1 },
                 { stack: { id: 'createsifter:stone_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
                 { stack: { id: 'createsifter:tuff_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
+                { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
             ],
             id: `${id_prefix}moss_block_crushing`
         }
