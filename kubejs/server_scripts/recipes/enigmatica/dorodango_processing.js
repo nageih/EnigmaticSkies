@@ -30,8 +30,8 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
-                { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 4 },
-                { id: 'modern_industrialization:sulfur_dust', count: 1, chance: 1 / 6 }
+                { id: 'modern_industrialization:sulfur_dust', count: 1, chance: 1 / 4 },
+                { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:sulfurous_dorodango', count: 1 },
             id_suffix: `sulfurous_dorodango_processing`
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: [
                 { id: 'ae2:sky_dust', count: 1, chance: 1 / 4 },
-                { id: 'theurgy:crystallized_water', count: 1, chance: 1 / 6 }
+                { id: 'theurgy:sal_ammoniac_crystal', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:cloudy_dorodango', count: 1 },
             id_suffix: `cloudy_dorodango_processing`
@@ -62,29 +62,19 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         let r;
-        // Ars Nouveau Crushing
-        //  r = {
-        //     type: 'ars_nouveau:crush',
-        //     output: [],
-        //     input: recipe.input
-        // };
-        // recipe.outputs.forEach((output) => {
-        //     r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
-        // });
-        // event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Create Mixing
         r = {
             type: 'create:mixing',
             results: [],
-            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 10 }],
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 20 }],
             heat_requirement: 'heated'
         };
         recipe.outputs.forEach((output) => {
             r.results.push({
                 id: output.id,
                 count: output.count,
-                chance: output.chance ? output.chance * 2 : 1.0
+                chance: output.chance ? output.chance : 1.0
             });
         });
         event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
@@ -95,7 +85,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:centrifuge',
             item_outputs: [],
             item_inputs: [recipe.input],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 20 },
             eu: 2,
             duration: 5 * 20
         };
@@ -103,7 +93,7 @@ ServerEvents.recipes((event) => {
             r.item_outputs.push({
                 item: output.id,
                 amount: output.count,
-                probability: output.chance ? output.chance * 2 : 1.0
+                probability: output.chance ? output.chance : 1.0
             });
         });
         event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);

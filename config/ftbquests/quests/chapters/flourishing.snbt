@@ -45,17 +45,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "2F2C14F36F96AD35"
-			tasks: [{
-				id: "3E1B55CF2D13EDAD"
-				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["1CF4103BFBCE0E29"]
 			id: "6AC4CADE97CB512F"
 			tasks: [{
@@ -65,28 +54,6 @@
 			}]
 			x: 4.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0E28517BADA72E7D"]
-			id: "04AB0E3EBEC8A94B"
-			tasks: [{
-				id: "06617769F3629A28"
-				item: { count: 1, id: "supplementaries:lumisene_bottle" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6490781066FAE8CF"]
-			id: "0E28517BADA72E7D"
-			tasks: [{
-				id: "00D9DEE9AECBA1EC"
-				item: { count: 1, id: "minecraft:glow_berries" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -120,16 +87,6 @@
 			}]
 			x: 3.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["5D1960D1AE64E4A2"]
-			id: "6BF91623C7C278AB"
-			tasks: [{
-				id: "3829B9508E55605E"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -400,14 +357,29 @@
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
+			icon: {
+				id: "enigmatica:cloudy_dorodango"
+			}
 			id: "77FA6854AC88C138"
-			tasks: [{
-				id: "3788E365E74AB104"
-				item: { count: 1, id: "enigmatica:cloudy_dorodango" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3788E365E74AB104"
+					item: { count: 1, id: "enigmatica:cloudy_dorodango" }
+					type: "item"
+				}
+				{
+					id: "115779CFFDBFF762"
+					item: { count: 1, id: "ae2:sky_dust" }
+					type: "item"
+				}
+				{
+					id: "35F663200EC3B9EA"
+					item: { count: 1, id: "theurgy:sal_ammoniac_crystal" }
+					type: "item"
+				}
+			]
 			x: 7.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -417,7 +389,7 @@
 				item: { count: 1, id: "enigmatica:melon_ball" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -454,6 +426,18 @@
 			}]
 			x: 7.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6490781066FAE8CF"]
+			id: "33679351A7B6D8E6"
+			shape: "diamond"
+			tasks: [{
+				id: "5FD033C23F211569"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
 		}
 	]
 }

@@ -17,6 +17,8 @@
             "actuallyadditions:lens_of_the_killer",
             "actuallyadditions:crusher",
             "actuallyadditions:crusher_double",
+            "actuallyadditions:enervator",
+            "/actuallyadditions:lava_factory/",
             "/actuallyadditions:.*_battery$/",
 
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",

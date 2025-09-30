@@ -20,6 +20,8 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:leaf_generator' },
         { output: 'actuallyadditions:crusher' },
         { output: 'actuallyadditions:crusher_double' },
+        { output: 'actuallyadditions:enervator' },
+        { output: /actuallyadditions:lava_factory/ },
         { output: /actuallyadditions:.*_battery$/ },
         { id: 'actuallyadditions:lens_of_the_miner' },
         { id: 'actuallyadditions:lens_of_the_killer' },
@@ -423,6 +425,9 @@ ServerEvents.recipes((event) => {
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
+        { id: 'modularrouters:modular_router' },
+        { id: 'modularrouters:blank_module' },
+        { id: 'modularrouters:blank_upgrade' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -589,6 +594,7 @@ ServerEvents.recipes((event) => {
         { id: 'pneumaticcraft:assembly/unassembled_pcb' },
         { id: 'pneumaticcraft:assembly/solar_cell' },
         { id: 'pneumaticcraft:assembly/red_dye' },
+        { id: 'pneumaticcraft:pressure_chamber/solar_wafer' },
         { id: /pneumaticcraft:pneumatic_(helmet|chestplate|leggings|boots)/ },
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
         { id: 'pneumaticcraft:drone_upgrade' },
