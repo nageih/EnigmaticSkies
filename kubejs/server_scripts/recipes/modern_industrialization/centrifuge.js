@@ -37,6 +37,14 @@ ServerEvents.recipes((event) => {
             eu: 4,
             duration: 10,
             id: `${id_prefix}pink_slime`
+        },
+        {
+            fluid_outputs: [{ fluid: 'industrialforegoing:meat', amount: 100 }],
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
+            item_inputs: [{ tag: 'c:foods/raw_meats', amount: 1 }],
+            eu: 4,
+            duration: 10,
+            id: `${id_prefix}meat`
         }
     ];
 

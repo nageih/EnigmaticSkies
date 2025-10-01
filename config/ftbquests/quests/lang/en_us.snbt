@@ -4874,7 +4874,6 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
-	quest.6E2B56F277B80477.quest_desc: ["Advanced mob spawning"]
 	quest.6E4554D07901967C.quest_desc: [
 		"Quite possibly the last suit of armor you’ll ever need. "
 		""

@@ -13,6 +13,42 @@ ServerEvents.recipes((event) => {
                 E: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}dissolution_chamber`
+        },
+        {
+            output: 'industrialforegoing:washing_factory',
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:gears/dark_steel',
+                C: 'enderio:void_chassis',
+                D: '#c:gears/energized',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}washing_factory`
+        },
+        {
+            output: 'industrialforegoing:fermentation_station',
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'theurgy:fermentation_vat',
+                C: 'enderio:void_chassis',
+                D: '#c:gears/energized',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}fermentation_station`
+        },
+        {
+            output: 'industrialforegoing:fluid_sieving_machine',
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'enderio:dark_steel_bars',
+                C: 'enderio:void_chassis',
+                D: '#c:gears/energized',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}fluid_sieving_machine`
         }
     ];
 

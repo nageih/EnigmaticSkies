@@ -58,8 +58,8 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:essences/void_salts' },
                 { item: 'industrialforegoing:machine_frame_simple' },
                 { tag: 'c:essences/void_salts' },
-                { tag: 'c:gems/void' },
-                { tag: 'c:gems/void' },
+                { item: 'oritech:carbon_plating_block' },
+                { item: 'oritech:carbon_plating_block' },
                 { item: 'oritech:advanced_battery' },
                 { tag: 'c:gears/dark_steel' },
                 { item: 'oritech:advanced_battery' }
