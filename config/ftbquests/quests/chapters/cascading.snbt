@@ -299,7 +299,7 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -316,16 +316,6 @@
 			}]
 			x: 2.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["3D3DEDBC67E91455"]
-			id: "5D72157B3913F9C6"
-			tasks: [{
-				id: "1CE48DFBA499E8FD"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 2.5d
 		}
 	]
 }

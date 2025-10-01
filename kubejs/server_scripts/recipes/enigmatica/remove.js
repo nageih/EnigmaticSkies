@@ -65,6 +65,7 @@ ServerEvents.recipes((event) => {
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
+        { id: 'ae2:network/blocks/controller' },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
