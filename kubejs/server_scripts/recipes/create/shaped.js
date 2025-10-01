@@ -49,6 +49,16 @@ ServerEvents.recipes((event) => {
                 C: 'create:andesite_casing'
             },
             id: `${id_prefix}mechanical_plough`
+        },
+        {
+            output: `create:rose_quartz_lamp`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'create:polished_rose_quartz',
+                B: 'minecraft:iron_bars',
+                C: 'minecraft:glowstone'
+            },
+            id: `${id_prefix}rose_quartz_lamp`
         }
     ];
 

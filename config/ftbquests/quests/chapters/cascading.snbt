@@ -302,5 +302,19 @@
 			x: 0.5d
 			y: 2.5d
 		}
+		{
+			dependencies: [
+				"5E727F7B600E0E91"
+				"7E2295CDDF92E34F"
+			]
+			id: "3D3DEDBC67E91455"
+			tasks: [{
+				id: "621871FD57676367"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
 	]
 }

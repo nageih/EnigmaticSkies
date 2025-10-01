@@ -2187,7 +2187,11 @@
 		""
 		"The Cache can be filled in a Natural Altar, or if Aura is exceptionally high in an area, will fill passively while worn. "
 	]
-	quest.39E9D5470F347400.quest_desc: ["Raw Gold, Copper, and Iron can contain some very useful secondary minerals. Craft an Encased Fan and process your Crushed Ores to obtain them. "]
+	quest.39E9D5470F347400.quest_desc: [
+		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals. "
+		""
+		"Craft an Encased Fan and process your Crushed Ores to obtain them. "
+	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
 		""

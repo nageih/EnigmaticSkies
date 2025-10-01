@@ -48,6 +48,7 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:ranged_collector' },
         { id: 'actuallyadditions:feeder' },
         { id: 'actuallyadditions:advanced_coil' },
+        { id: 'actuallyadditions:atomic_reconstructor' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
@@ -154,6 +155,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/kinetics/whisk' },
         { id: 'create:crafting/kinetics/mechanical_harvester' },
         { id: 'create:crafting/kinetics/mechanical_plough' },
+        { id: 'create:crafting/kinetics/rose_quartz_lamp' },
         { id: 'create:crafting/materials/electron_tube' },
         { id: 'create:sequenced_assembly/precision_mechanism' },
         { id: 'create:pressing/sugar_cane' },
@@ -308,7 +310,7 @@ ServerEvents.recipes((event) => {
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: /industrialforegoing:dissolution_chamber\/(simple|advanced)_machine_frame/ },
-        { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
+        { id: /industrialforegoing:dissolution_chamber\/.*_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
         { id: 'industrialforegoing:laser_drill_fluid/oil' },
 
