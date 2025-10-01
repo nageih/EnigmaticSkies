@@ -638,5 +638,21 @@
 			x: 2.0d
 			y: -0.5d
 		}
+		{
+			dependencies: [
+				"569859F49909B566"
+				"4EBF7346F81AB4B9"
+				"7476BDB847F181E2"
+				"70463311283BC5C3"
+			]
+			id: "756E73DAF86EEAFC"
+			tasks: [{
+				id: "380A04B1809C4C2D"
+				item: { count: 1, id: "malum:fused_consciousness" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
 	]
 }

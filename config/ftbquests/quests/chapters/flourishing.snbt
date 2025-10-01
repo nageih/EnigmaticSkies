@@ -610,8 +610,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 6.5d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["392794D00E321C02"]
@@ -622,8 +622,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]

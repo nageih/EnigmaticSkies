@@ -179,8 +179,8 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -245,8 +245,8 @@
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
@@ -256,8 +256,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -306,6 +306,7 @@
 			dependencies: [
 				"5E727F7B600E0E91"
 				"7E2295CDDF92E34F"
+				"2BB91161DB6B6AF5"
 			]
 			id: "3D3DEDBC67E91455"
 			tasks: [{
@@ -313,8 +314,18 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D3DEDBC67E91455"]
+			id: "5D72157B3913F9C6"
+			tasks: [{
+				id: "1CE48DFBA499E8FD"
+				type: "checkmark"
+			}]
 			x: 4.5d
-			y: -0.5d
+			y: 2.5d
 		}
 	]
 }
