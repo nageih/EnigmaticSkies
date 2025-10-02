@@ -43,16 +43,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coal_t4`
         },
         {
-            item_outputs: [{ item: 'appflux:printed_energy_processor', amount: 1 }],
-            item_inputs: [
-                { item: 'appflux:charged_redstone', amount: 1 },
-                { item: 'appflux:energy_processor_press', amount: 1, probability: 0.0 }
-            ],
-            duration: 10,
-            eu: 8,
-            id: `${id_prefix}printed_energy_processor`
-        },
-        {
             item_outputs: [{ item: 'advanced_ae:printed_quantum_processor', amount: 1 }],
             item_inputs: [
                 { tag: 'c:ingots/quantum_alloy', amount: 1 },

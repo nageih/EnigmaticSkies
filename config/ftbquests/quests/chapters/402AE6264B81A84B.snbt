@@ -483,20 +483,23 @@
 			rewards: [{
 				id: "2AB17F56214E9004"
 				item: {
+					components: {
+						"ftbquests:missing_item": "fluxnetworks:flux_configurator"
+					}
 					count: 1
-					id: "fluxnetworks:flux_configurator"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "4089E2E33D77166B"
-					item: { count: 1, id: "fluxnetworks:flux_point" }
+					item: { components: { "ftbquests:missing_item": "fluxnetworks:flux_point" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "7115210F69594ED2"
-					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					item: { components: { "ftbquests:missing_item": "fluxnetworks:flux_plug" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

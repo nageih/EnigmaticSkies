@@ -54,18 +54,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            item_outputs: [{ item: 'appflux:redstone_crystal', amount: 1 }],
-            item_inputs: [
-                { tag: 'c:storage_blocks/redstone', amount: 1 },
-                { tag: 'c:gems/fluix', amount: 1 },
-                { tag: 'c:dusts/glowstone', amount: 1 }
-            ],
-            fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000, probability: 0.0 }],
-            duration: 5,
-            eu: 8,
-            id: `${id_prefix}redstone_crystal`
-        },
-        {
             item_outputs: [{ item: 'justdirethings:time_crystal', amount: 1 }],
             item_inputs: [
                 { item: 'justdirethings:time_crystal_block', amount: 1, probability: 0.0 },

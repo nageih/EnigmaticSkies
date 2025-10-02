@@ -24,126 +24,104 @@
 					id: "3BD94AD4DC0068FE"
 					item: {
 						components: {
-							"akashictome:tool_content": [
-								{
-									components: {
-										"akashictome:defined_mod": "apotheosis"
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
-									count: 1
-									id: "patchouli:guide_book"
+							"eccentrictome:tome_data": {
+								books: {
+									ae2: [{
+										count: 1
+										id: "ae2:guide"
+									}]
+									apotheosis: [{
+										components: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									ars_nouveau: [{
+										count: 1
+										id: "ars_nouveau:worn_notebook"
+									}]
+									buildinggadgets2: [{
+										components: {
+											"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									industrialforegoing: [{
+										components: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									justdirethings: [{
+										components: {
+											"patchouli:book": "justdirethings:justdirethingsbook"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									laserio: [{
+										components: {
+											"patchouli:book": "laserio:laseriobook"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									malum: [{
+										count: 1
+										id: "malum:encyclopedia_arcana"
+									}]
+									modern_industrialization: [{
+										count: 1
+										id: "modern_industrialization:guidebook"
+									}]
+									modonomicon: [{
+										components: {
+											"modonomicon:book_id": "theurgy:the_hermetica"
+										}
+										count: 1
+										id: "modonomicon:modonomicon"
+									}]
+									modularrouters: [{
+										components: {
+											"patchouli:book": "modularrouters:book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									naturesaura: [{
+										components: {
+											"patchouli:book": "naturesaura:book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									occultism: [{
+										count: 1
+										id: "occultism:dictionary_of_spirits"
+									}]
+									pneumaticcraft: [{
+										components: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
+									sushigocrafting: [{
+										components: {
+											"patchouli:book": "sushigocrafting:sushigocrafting"
+										}
+										count: 1
+										id: "patchouli:guide_book"
+									}]
 								}
-								{
-									components: {
-										"akashictome:defined_mod": "ae2"
-									}
-									count: 1
-									id: "ae2:guide"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "ars_nouveau"
-									}
-									count: 1
-									id: "ars_nouveau:worn_notebook"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "buildinggadgets2"
-										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "industrialforegoing"
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "justdirethings"
-										"patchouli:book": "justdirethings:justdirethingsbook"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "laserio"
-										"patchouli:book": "laserio:laseriobook"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "malum"
-									}
-									count: 1
-									id: "malum:encyclopedia_arcana"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "modern_industrialization"
-									}
-									count: 1
-									id: "modern_industrialization:guidebook"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "modonomicon"
-										"modonomicon:book_id": "theurgy:the_hermetica"
-									}
-									count: 1
-									id: "modonomicon:modonomicon"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "modularrouters"
-										"patchouli:book": "modularrouters:book"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "naturesaura"
-										"patchouli:book": "naturesaura:book"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "occultism"
-									}
-									count: 1
-									id: "occultism:dictionary_of_spirits"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "pneumaticcraft"
-										"patchouli:book": "pneumaticcraft:book"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-								{
-									components: {
-										"akashictome:defined_mod": "sushigocrafting"
-										"patchouli:book": "sushigocrafting:sushigocrafting"
-									}
-									count: 1
-									id: "patchouli:guide_book"
-								}
-							]
+								tome_id: "57db4bb2-5db4-49fa-b1d7-4ef5440c295d"
+							}
 						}
 						count: 1
-						id: "akashictome:tome"
+						id: "eccentrictome:tome"
 					}
 					type: "item"
 				}
