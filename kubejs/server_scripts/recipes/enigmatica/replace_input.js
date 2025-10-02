@@ -106,7 +106,12 @@ ServerEvents.recipes((event) => {
             replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
         },
         {
-            filter: [{ output: `utilitarian:fluid_hopper` }, { mod: 'actuallyadditions' }, { mod: `transfer_labels` }],
+            filter: [
+                { mod: 'functionalstorage' },
+                { mod: 'actuallyadditions' },
+                { mod: `transfer_labels` },
+                { output: `utilitarian:fluid_hopper` }
+            ],
             to_replace: 'minecraft:bucket',
             replace_with: Ingredient.of(['#c:buckets/empty'])
         },
@@ -351,12 +356,12 @@ ServerEvents.recipes((event) => {
             replace_with: `naturesaura:token_sorrow`
         },
         {
-            filter: [{ id: 'farmersdelight:cutting_board' }],
+            filter: [{ id: 'farmersdelight:cutting_board' }, { id: /functionalstorage:fluid/ }],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
         },
         {
-            filter: [{ id: 'farmersdelight:cutting_board' }],
+            filter: [{ id: 'farmersdelight:cutting_board' }, { mod: 'crafting_on_a_stick' }],
             to_replace: `minecraft:stick`,
             replace_with: `#c:rods/wooden`
         },
@@ -443,16 +448,6 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `minecraft:milk_bucket`,
             replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
-        },
-        {
-            filter: { mod: 'functionalstorage' },
-            to_replace: `minecraft:bucket`,
-            replace_with: '#c:buckets/empty'
-        },
-        {
-            filter: { mod: 'crafting_on_a_stick' },
-            to_replace: `minecraft:stick`,
-            replace_with: '#c:rods/wooden'
         }
     ];
 
