@@ -1,3 +1,6 @@
+#Default: mi_tweaks
+machine_namespace = "mi_tweaks"
+
 [machine_blueprints]
 	#The list of machine ids (accepts regex) that require blueprints to place
 	#This is only used if any type of machine blueprint requirement is enabled

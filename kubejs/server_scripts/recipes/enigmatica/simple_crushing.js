@@ -441,16 +441,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'prismarine_from_sea_lantern'
         },
         {
-            input: { tag: 'c:storage_blocks/redstone' },
-            outputs: [{ id: 'fluxnetworks:flux_dust', count: 9 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'flux_dust'
-        },
-        {
             input: { tag: 'c:sandstone/uncolored_blocks' },
             outputs: [{ id: 'minecraft:sand', count: 4 }],
             multiply: 'none',
