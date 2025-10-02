@@ -41,8 +41,8 @@
 				item: { count: 1, id: "createsifter:crushed_basalt" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0ADEE22CBDE86E54"]
@@ -52,7 +52,7 @@
 				item: { count: 1, id: "theurgy:crystallized_lava" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -74,8 +74,8 @@
 				item: { count: 1, id: "aether:golden_aercloud" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0ADEE22CBDE86E54"]
@@ -85,8 +85,8 @@
 				item: { count: 1, id: "modern_industrialization:sulfur_dust" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -108,7 +108,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "7CF12A36B30AE7D7"
@@ -120,33 +120,15 @@
 			y: 2.5d
 		}
 		{
-			id: "08DF4DF1B5FEAF10"
-			tasks: [{
-				id: "3AA02F5C513F90A9"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 2.0d
-		}
-		{
-			id: "6E2B56F277B80477"
-			tasks: [{
-				id: "545F39B6325986CA"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["05B678EEBCC0CDE6"]
+			dependencies: ["28E44D5D6A6C1D6E"]
 			id: "41F0CA5ACE335062"
 			tasks: [{
 				id: "788CFD1256DA5172"
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4BF9D7B5BB1281B6"]
@@ -156,8 +138,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["319FD618D4608068"]
@@ -193,7 +175,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["05B678EEBCC0CDE6"]
+			dependencies: [
+				"05B678EEBCC0CDE6"
+				"5E727F7B600E0E91"
+			]
 			id: "07FFBD39930CE9F7"
 			tasks: [{
 				id: "7986D8EC49A44922"
@@ -201,7 +186,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -211,8 +196,8 @@
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -222,8 +207,8 @@
 				item: { count: 1, id: "oritech:cooler_block" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -233,8 +218,8 @@
 				item: { count: 1, id: "oritech:centrifuge_block" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["07FFBD39930CE9F7"]
@@ -244,8 +229,8 @@
 				item: { count: 1, id: "oritech:machine_plating_block" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -255,8 +240,8 @@
 				item: { count: 1, id: "oritech:carbon_plating_block" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["226D25DA9ACF10D1"]
@@ -276,8 +261,85 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 6.5d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41F0CA5ACE335062"]
+			id: "7CC7957761CC3D24"
+			tasks: [{
+				id: "7D8A42D14A7A3D7C"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B759D4770C13739"]
+			id: "28E44D5D6A6C1D6E"
+			tasks: [{
+				id: "133E72B2ADC417DC"
+				item: { count: 1, id: "enderio:vat" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CC7957761CC3D24"]
+			id: "6705BECBD94CAAAD"
+			tasks: [{
+				id: "2686F24449713987"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CC7957761CC3D24"]
+			id: "687E532AD956C57A"
+			tasks: [{
+				id: "224F78F27E875358"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CC7957761CC3D24"]
+			id: "133549E8BE8A1819"
+			tasks: [{
+				id: "4F5787224E2FE633"
+				item: { count: 1, id: "industrialforegoing:washing_factory" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["133549E8BE8A1819"]
+			id: "4B2DA49177A2AF10"
+			tasks: [{
+				id: "5CD06FCE414D1AA5"
+				item: { count: 1, id: "industrialforegoing:fermentation_station" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B2DA49177A2AF10"]
+			id: "3A771C5D2A330F6C"
+			tasks: [{
+				id: "1EE4C50935F1B64F"
+				item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
 		}
 	]
 }

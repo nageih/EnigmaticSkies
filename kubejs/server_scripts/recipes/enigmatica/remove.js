@@ -41,15 +41,21 @@ ServerEvents.recipes((event) => {
         { id: `actuallyadditions:iron_casing` },
         { id: `actuallyadditions:empty_cup` },
         { id: `actuallyadditions:coffee_machine` },
+        { id: `actuallyadditions:farmer` },
         { id: `actuallyadditions:canola_press` },
         { id: `actuallyadditions:tagged_sticky_piston` },
         { id: `actuallyadditions:greenhouse_glass` },
         { id: 'actuallyadditions:ranged_collector' },
         { id: 'actuallyadditions:feeder' },
         { id: 'actuallyadditions:advanced_coil' },
+        { id: 'actuallyadditions:atomic_reconstructor' },
 
         // Aether
         { id: 'aether:golden_aercloud_enchanting' },
+        { id: 'aether:altar' },
+        { id: 'aether:freezer' },
+        { id: 'aether:golden_ring' },
+        { id: 'aether:iron_ring' },
         { id: 'aether:swet_slime_block' },
         { id: 'aether:swet_sticky_piston' },
         { id: 'aether:swet_lead' },
@@ -59,6 +65,7 @@ ServerEvents.recipes((event) => {
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
+        { id: 'ae2:network/blocks/controller' },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
@@ -149,6 +156,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/kinetics/whisk' },
         { id: 'create:crafting/kinetics/mechanical_harvester' },
         { id: 'create:crafting/kinetics/mechanical_plough' },
+        { id: 'create:crafting/kinetics/rose_quartz_lamp' },
         { id: 'create:crafting/materials/electron_tube' },
         { id: 'create:sequenced_assembly/precision_mechanism' },
         { id: 'create:pressing/sugar_cane' },
@@ -186,13 +194,17 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:pulsating_crystal' },
         { id: /enderio:(energized|vibrant|dark_bimetal)_gear/ },
         { id: 'enderio:slice_and_splice' },
+        { id: 'enderio:void_chassis' },
         { id: 'enderio:ensouled_chassis' },
         { id: 'enderio:soul_chain' },
         { id: 'enderio:vacuum_chest' },
+        { id: 'enderio:vat' },
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },
         { id: 'enderio:slicing/ender_resonator' },
+        { id: 'enderio:fermenting/fluid_rocket_fuel_still' },
+        { id: 'enderio:fermenting/fluid_hootch_still' },
         { id: 'enderio:soulbinding/soul_engine' },
         { id: 'enderio:soulbinding/powered_spawner' },
         { id: 'enderio:soulbinding/broken_spawner' },
@@ -216,6 +228,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:chocolate_pie' },
         { id: 'farmersdelight:paper_from_tree_bark' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
+        { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
@@ -290,12 +303,15 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:block_breaker' },
         { output: 'industrialforegoing:fluid_placer' },
         { output: 'industrialforegoing:fluid_collector' },
+        { output: 'industrialforegoing:washing_factory' },
+        { output: 'industrialforegoing:fermentation_station' },
+        { output: 'industrialforegoing:fluid_sieving_machine' },
         { output: 'industrialforegoing:resourceful_furnace' },
         { output: 'industrialforegoing:machine_frame_pity' },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: /industrialforegoing:dissolution_chamber\/(simple|advanced)_machine_frame/ },
-        { id: /industrialforegoing:dissolution_chamber\/range_addon_tier/ },
+        { id: /industrialforegoing:dissolution_chamber\/.*_addon_tier/ },
         { id: 'industrialforegoing:laser_drill_fluid/ether' },
         { id: 'industrialforegoing:laser_drill_fluid/oil' },
 
@@ -474,7 +490,7 @@ ServerEvents.recipes((event) => {
         { id: 'occultism:ritual/craft_soul_gem' },
         { id: 'occultism:ritual/craft_fragile_soul_gem' },
         { id: 'occultism:spirit_fire/otherworld_ashes' },
-        { id: /occultism:chalk.*_impure/ },
+        { output: /occultism:chalk.*_impure/ },
         { id: /occultism:spirit_fire\/chalk_/ },
         { output: 'occultism:sacrificial_bowl' },
         { output: 'occultism:dark_sacrificial_bowl' },
@@ -631,6 +647,14 @@ ServerEvents.recipes((event) => {
         { output: 'replication:replicator' },
         { output: 'replication:chip_storage' },
         { output: 'replication:matter_tank' },
+
+        // Simple Magnets
+        { id: 'simplemagnets:basicmagnet' },
+
+        // Sophisticated Storage
+        { id: 'sophisticatedstorage:magnet_upgrade' },
+
+        { id: 'sophisticatedbackpacks:magnet_upgrade' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },

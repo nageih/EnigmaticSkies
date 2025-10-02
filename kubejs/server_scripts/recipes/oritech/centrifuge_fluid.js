@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             fluidOutputs: [],
             ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 100 },
-            time: 100,
+            time: 5,
             id: `${id_prefix}polymer_resin_from_naphtha`
         },
         {
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
             fluidOutputs: [{ fluid: 'oritech:still_silicon_wash', amount: 1000 }],
             ingredients: [{ tag: 'c:dusts/certus_quartz' }],
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 1000 },
-            time: 100,
+            time: 5,
             id: `${id_prefix}silicon_wash`
         },
         {
@@ -22,8 +22,16 @@ ServerEvents.recipes((event) => {
             fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 1000 }],
             ingredients: [{ item: 'oritech:polymer_resin' }],
             fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
-            time: 120,
+            time: 10,
             id: `${id_prefix}plastic_from_polymer_resin`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'minecraft:water', amount: 8000 }],
+            ingredients: [{ item: 'theurgy:crystallized_water' }],
+            fluidInput: { fluid: 'oritech:still_strange_matter', amount: 100 },
+            time: 5,
+            id: `${id_prefix}water_from_strange_matter`
         }
     ];
 
@@ -33,13 +41,14 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'minecraft:water', amount: 100 },
             fluidOutputs: [],
             results: [{ id: `ae2:fluix_${washable}_cable` }],
-            time: 40,
+            time: 2,
             id: `${id_prefix}fluix_${washable}_cable_washing`
         });
     });
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:centrifuge_fluid';
+        recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
     });
 });

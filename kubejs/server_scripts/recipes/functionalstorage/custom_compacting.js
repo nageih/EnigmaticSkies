@@ -14,6 +14,26 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const pebbles = ['andesite', 'basalt', 'blackstone', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+
+    pebbles.forEach((pebble) => {
+        let stone = `minecraft:${pebble}`;
+
+        if (pebble == 'stone') {
+            stone = 'minecraft:cobblestone';
+        }
+
+        if (pebble == 'deepslate') {
+            stone = 'minecraft:cobbled_deepslate';
+        }
+
+        recipes.push({
+            higher_input: { id: stone, count: 1 },
+            lower_input: { id: `createsifter:${pebble}_pebble`, count: 4 },
+            id: `${id_prefix}${pebble}_pebble_to_${getID(stone)}`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'functionalstorage:custom_compacting';
         event.custom(recipe).id(recipe.id);

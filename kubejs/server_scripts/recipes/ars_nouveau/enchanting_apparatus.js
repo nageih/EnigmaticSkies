@@ -384,6 +384,36 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}spell_turret`
+        },
+        {
+            result: { id: 'actuallyadditions:atomic_reconstructor', count: 1 },
+            reagent: { item: 'actuallyadditions:iron_casing' },
+            pedestalItems: [
+                { item: 'ars_elemental:manipulation_turret' },
+                { item: 'minecraft:tinted_glass' },
+                { item: 'create:rose_quartz_lamp' },
+                { item: 'minecraft:tinted_glass' },
+                { item: 'actuallyadditions:advanced_coil' },
+                { item: 'minecraft:tinted_glass' },
+                { item: 'create:rose_quartz_lamp' },
+                { item: 'minecraft:tinted_glass' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}atomic_reconstructor`
+        },
+        {
+            result: { id: 'simplemagnets:basicmagnet', count: 1 },
+            reagent: { tag: 'c:gems/enori' },
+            pedestalItems: [
+                { tag: 'c:gems/palis' },
+                { tag: 'c:gems/palis' },
+                { tag: 'c:gems/restonia' },
+                { tag: 'c:gems/restonia' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 500,
+            id: `${id_prefix}basicmagnet`
         }
     ];
 

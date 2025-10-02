@@ -575,6 +575,19 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'sugar_from_rice'
+        },
+        {
+            input: { item: 'malum:raw_brilliance' },
+            outputs: [
+                { id: 'malum:crushed_brilliance', count: 2 },
+                { id: 'malum:crushed_brilliance', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'crushed_brilliance'
         }
     ];
 

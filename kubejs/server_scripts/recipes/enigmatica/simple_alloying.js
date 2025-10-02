@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
                 { item: 'oritech:wither_crop_block', count: 13 },
-                { tag: 'c:ingots/hallowed_gold', count: 1 }
+                { tag: 'c:ingots/netherite', count: 1 }
             ],
             tier: 1,
             exclusions: ['create'],

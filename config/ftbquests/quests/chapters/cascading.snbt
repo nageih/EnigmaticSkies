@@ -69,7 +69,7 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -92,7 +92,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -118,16 +118,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["2BB91161DB6B6AF5"]
-			id: "79895E6B2A5E8776"
-			tasks: [{
-				id: "5F579E2341E92725"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
 			dependencies: ["2D190518ABA42A1F"]
 			id: "5A92EF3C51F82669"
 			tasks: [{
@@ -135,8 +125,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5A92EF3C51F82669"]
@@ -146,8 +136,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["14C46426CE60BF84"]
@@ -157,8 +147,8 @@
 				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -189,8 +179,8 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -203,8 +193,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["323D480E3C37579E"]
@@ -214,8 +204,8 @@
 				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["14C46426CE60BF84"]
@@ -226,7 +216,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["40F5EC143766C2A7"]
@@ -245,7 +235,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -255,8 +245,8 @@
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
@@ -266,8 +256,66 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C07E148B9B60809"]
+			id: "0C0A7017CEF34F6C"
+			tasks: [{
+				id: "6B1F1ED81570012A"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 0.5d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2BB91161DB6B6AF5"
+				"02AAB52720CE1DA3"
+			]
+			id: "24095EE1A419152D"
+			tasks: [
+				{
+					id: "6CEC8DE007F83ADC"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					id: "5EAB890BE92E38FC"
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24095EE1A419152D"]
+			id: "2C07E148B9B60809"
+			tasks: [{
+				id: "0D1A66DA69E01B7D"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E727F7B600E0E91"
+				"7E2295CDDF92E34F"
+				"2BB91161DB6B6AF5"
+			]
+			id: "3D3DEDBC67E91455"
+			tasks: [{
+				id: "621871FD57676367"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
 		}
 	]
 }

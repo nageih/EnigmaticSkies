@@ -1,6 +1,6 @@
 {
-	chapter.083FB2FC095A6686.title: "Flourishing"
-	chapter.0A799F91D9A1C8A1.title: "Blazing"
+	chapter.083FB2FC095A6686.title: "Flourishing Island"
+	chapter.0A799F91D9A1C8A1.title: "Blazing Island"
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
@@ -14,7 +14,7 @@
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.402AE6264B81A84B.title: "Logistics"
-	chapter.40C97D6332BD825B.title: "Cascading"
+	chapter.40C97D6332BD825B.title: "Cascading Island"
 	chapter.47870879D8E3742D.title: "To the Skies!"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
@@ -22,10 +22,10 @@
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
-	chapter.72447ED7D54B4AF7.title: "Vexing"
+	chapter.72447ED7D54B4AF7.title: "Vexing Island"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
-	chapter.7F9A789B53FAB216.title: "Acclimation"
+	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -114,6 +114,9 @@
 		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
 		""
 		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
+		""
+		"&a🛈 Tip: Purple Seats can be crafted "
+		"&a    from Magebloom!"
 	]
 	quest.03D475AF2266ECB6.title: "Villagers"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -713,9 +716,6 @@
 		"     &7Steam                                 &7Water"
 		""
 		"The protected area can propagate up to about 16 blocks from the Hearth or from any connected Smokestacks. "
-		""
-		"&a🛈 Tip: Any Furnace Fuel may be used to heat "
-		"    &athe Boiler under the Hearth."
 	]
 	quest.130A2701B96A941D.title: "Welcome to the Skies!"
 	quest.130C6FC212F64474.quest_desc: [
@@ -914,7 +914,7 @@
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
-		"In this case, the Steam Blast Furnace requires both Item and Fluid Hatches. You may place multiple hatches to handle different inputs."
+		"In this case, the &7Steam Blast Furnace&r requires both Item and Fluid Hatches. You may place multiple hatches to handle different inputs."
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Blast Furnace block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
@@ -1764,6 +1764,7 @@
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
 	]
+	quest.2C3B39CD6A7E044C.quest_desc: ["Packing up more complex meals for your villagers is going to require some mechanical assistance. "]
 	quest.2C7267F92822D2C1.quest_desc: [
 		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
 		""
@@ -1862,8 +1863,6 @@
 		""
 		"Easier methods will soon become available. For now, crafting a large batch of Empty PCBs will suffice."
 	]
-	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
-	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.2F9C801DFAC1C0D9.quest_desc: [
 		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. "
 		""
@@ -1931,16 +1930,21 @@
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31903F40C2037EBD.quest_desc: [
-		"With a Trading Depot, you may begin to automate trades with Villagers. "
+		"With a &7Trading Depot&r, you may begin to automate trades with &7Villagers&r. "
 		""
-		"Place the Depot such that the red dot on the back is facing the Villager’s Workstation. Then put some trade goods on the Depot.  "
+		"Place the &7Depot&r such that the red dot on the back is facing the &7Villager’s Workstation&r. Then put some trade goods on the &7Depot&r.  "
 		""
-		"Items may be Right-Clicked on or off, but we want automation, right? So, use a hopper or some pipes to move items on and off the Depot. "
+		"Items may be Right-Clicked on or off, but we want automation, right? So, use a hopper or some pipes to move items on and off the &7Depot&r. "
 		""
-		"The Depot only functions during normal Villager Working hours. If only there were a way to make the days longer…"
+		"The &7Depot&r only functions during normal Villager Working hours. So be sure you're stocking up on the things they want overnight to maximize the trading you can get done in the day."
 		""
 		"&a🛈 Tip: A filter may be set on the front "
 		"&a    to control what is purchased. "
+	]
+	quest.319FD618D4608068.quest_desc: [
+		"The &7Blazing Archwoods&r on this island will already have a few &7Bombegranate&r grown on them. "
+		""
+		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Blazing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
 	]
 	quest.31B6AE7706264320.quest_desc: [
 		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
@@ -2186,7 +2190,11 @@
 		""
 		"The Cache can be filled in a Natural Altar, or if Aura is exceptionally high in an area, will fill passively while worn. "
 	]
-	quest.39E9D5470F347400.quest_desc: ["Raw Gold, Copper, and Iron can contain some very useful secondary minerals. Craft an Encased Fan and process your Crushed Ores to obtain them. "]
+	quest.39E9D5470F347400.quest_desc: [
+		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals. "
+		""
+		"Craft an Encased Fan and process your Crushed Ores to obtain them. "
+	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
 		""
@@ -2886,8 +2894,6 @@
 		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 		""
 		"Things will only get more complicated from here, so be sure to spend some time automating what you can."
-		""
-		"&a🛈 Tip: Ice can be harvested with a Holystone Pickaxe!"
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
@@ -3017,6 +3023,15 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
+	quest.47AFEF3DCB2990FB.quest_desc: [
+		"Operating the Large Steam Boiler will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "
+		""
+		"Using the &7Canola Press&r will require a bit of power to get started, but you’ll get considerably more power out than you put in. "
+		""
+		"&a🛈 Tip: Four Fermenting Barrels will"
+		"&a    keep up with one Canola Press."
+	]
+	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
 		""
@@ -3527,11 +3542,11 @@
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
 	quest.513BDF32A8F6EF45.quest_desc: [
-		"Give this happy little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
 		""
-		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into Dorodangos. "
+		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into &7Dorodangos&r. "
 		""
-		"These Dorodangos may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+		"These &7Dorodangos&r may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
 	]
 	quest.513BDF32A8F6EF45.title: "They See Me Ballin'"
 	quest.51636F3E5A461A7B.quest_desc: [
@@ -3639,6 +3654,12 @@
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
 	quest.538CE12C982D950E.title: "Strigeor's Higher Binding"
+	quest.53CE92319716971B.quest_desc: [
+		"Minecraft has long allowed you to duplicate tall flowers such as Rose Bushes by applying Bone Meal. "
+		""
+		"Here, that ability is extended to small flowers as well. "
+	]
+	quest.53CE92319716971B.title: "Small Flower Duping"
 	quest.540133B792547B21.quest_desc: [
 		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
 		""
@@ -3885,9 +3906,11 @@
 		"&a🛈 Tip: Source Jars hold 10,000 Source."
 	]
 	quest.5AFB064A80189AA4.quest_desc: [
-		"This Moss appears to be concentrating different minerals in it as it consumes the Mud. Crush some to obtain Copper and other useful minerals!"
+		"This Moss appears to be concentrating different minerals as it grows. "
 		""
-		"Using Bone Meal on Moss will cause it to spread to nearby blocks, such as Mud and Dirt. As long as you keep at least one Moss, you will have an infinite supply!"
+		"Crush some to obtain &7Copper&r and other useful minerals!"
+		""
+		"Using &7Bone Meal&r on Moss will cause it to spread to nearby blocks, such as &7Mud&r and &7Dirt&r. As long as you keep at least one &7Moss&r, you will have an infinite supply!"
 	]
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
@@ -3903,12 +3926,9 @@
 	]
 	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
 	quest.5D1960D1AE64E4A2.quest_desc: [
-		"The Flourishing Island comes with a ready-made Natural Altar to get you started. "
+		"The Flourishing Island comes with a ready-made &7Natural Altar&r to get you started. "
 		""
-		"You’ll also notice several Swamp Homis dotted around under the Spore Blossoms. "
-		""
-		""
-		"These handy little devices will convert nearby Moss back to Mud, releasing some Aura into the environment in the process. "
+		"You’ll also notice several &7Swamp Homis&r dotted around under the &7Spore Blossoms&r. These handy little devices will convert nearby &7Moss&r back to &7Mud&r, releasing some Aura into the environment in the process. "
 	]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
@@ -3999,6 +4019,19 @@
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
+	quest.60239B38B7288779.quest_desc: [
+		"That little boiler back in the &7Gazebo&r is undoubtedly looking rather insufficient by now, so let’s work on a “little” upgrade."
+		""
+		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Large Steam Boiler&r only requires and Fluid Hatches; it does not accept solid fuel."
+		""
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Large Steam Boiler block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.6026FB490B591788.quest_desc: [
 		"With the Arcane Forge you can begin upgrading your equipment and spell scrolls. "
 		""
@@ -4023,7 +4056,7 @@
 	quest.605A60825B68C2D7.quest_desc: [
 		"Many animals are not well adapted to these heights, and as such have a limited lifespan. "
 		""
-		"The following creatures will only survive about 10 in-game days as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. "
+		"The following creatures will only survive about &710 in-game days&r as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. They must also be kept in a warm environment to avoid freezing to death."
 		""
 		"Thankfully, you have some options for automating that process. "
 		""
@@ -4071,6 +4104,13 @@
 		"Consider making a small batch here and automating later."
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
+	quest.616862D8ADBE3928.quest_desc: [
+		"The Freezer uses &7Icestone&r as fuel to freeze items."
+		""
+		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
+		""
+		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r."
+	]
 	quest.619FB543EE458A0E.quest_desc: [
 		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
 		""
@@ -4613,6 +4653,7 @@
 		"  module. "
 	]
 	quest.69D23BB3D7670DFC.title: "Shape Modification"
+	quest.69EE67B1B612D74D.quest_desc: ["&7Soul Flowers&r may be planted and grown on any Farmland, making them considerably simpler to farm than &7Netherwart&r."]
 	quest.6A3F652A680598E6.quest_desc: [
 		"Exaltation is the process by which materials are changed between different qualities. "
 		""
@@ -4840,7 +4881,6 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
-	quest.6E2B56F277B80477.quest_desc: ["Advanced mob spawning"]
 	quest.6E4554D07901967C.quest_desc: [
 		"Quite possibly the last suit of armor you’ll ever need. "
 		""
@@ -4862,6 +4902,11 @@
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.6EA0560551B821B3.quest_desc: [
+		"The &7Flourishing Archwoods&r on this island will already have a few &7Mendosteen&r grown on them. "
+		""
+		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Flourishing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
 	]
 	quest.6EB6E8DEEBB32911.quest_desc: [
 		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."
@@ -5027,16 +5072,6 @@
 		""
 		"&a🛈 Tip: Drygmies will work with mobs "
 		"&a    in Containment Jars!"
-	]
-	quest.730D1F506B88FEEF.quest_desc: [
-		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."
-		""
-		"Just like the smaller boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust, which is undoubtedly in great supply at this point. It's used for little else, so you may as well use it for fuel."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
 	]
 	quest.7327D905FE8B38FC.quest_desc: [
 		"The Item Terminal turns a Pretty Pipes network into a full-fledged item management system, allowing you to access the items throughout a network in one central location. "
@@ -5561,6 +5596,7 @@
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
+	task.15D7325C0C904192.title: "Any #minecraft:small_flowers"
 	task.182F13A34DA8D2F3.title: "\"IOU\""
 	task.18527FE87BB2DCD9.title: "Industrial Foregoing"
 	task.18C2AC93B4E7D144.title: "Excavator"
@@ -5570,6 +5606,7 @@
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
+	task.1CE48DFBA499E8FD.title: "AE2"
 	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
@@ -5664,6 +5701,7 @@
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.4DBE23AE12CB9448.title: "Observe Black Hole"
 	task.4EAFCD169CB43E2D.title: "Hearth and Home"
+	task.4F21DF4EFC469AAC.title: "Output Hatch"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
@@ -5721,6 +5759,7 @@
 	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
+	task.71A479E92219AB03.title: "Input Hatch"
 	task.71EFA0C693ACD330.title: "Item Transfer Labels"
 	task.72396A76EEA759CF.title: "Books of Binding"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"

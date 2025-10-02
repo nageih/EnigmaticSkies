@@ -51,6 +51,134 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}machine_frame_advanced`
+        },
+        {
+            output: { id: 'enderio:void_chassis', count: 1 },
+            input: [
+                { tag: 'c:essences/void_salts' },
+                { item: 'industrialforegoing:machine_frame_simple' },
+                { tag: 'c:essences/void_salts' },
+                { item: 'oritech:carbon_plating_block' },
+                { item: 'oritech:carbon_plating_block' },
+                { item: 'oritech:advanced_battery' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}void_chassis`
+        },
+        {
+            output: { id: 'enderio:ensouled_chassis', count: 1 },
+            input: [
+                { tag: 'c:ingots/pink_slime' },
+                { item: 'industrialforegoing:machine_frame_simple' },
+                { tag: 'c:ingots/pink_slime' },
+                { item: 'enderio:soul_chain' },
+                { item: 'enderio:soul_chain' },
+                { tag: 'c:gems/soulstone' },
+                { tag: 'c:gears/energized' },
+                { tag: 'c:gems/soulstone' }
+            ],
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}ensouled_chassis`
+        },
+        {
+            output: { id: 'industrialforegoing:processing_addon_tier_1', count: 1 },
+            input: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:wixie_charm' },
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'ars_nouveau:source_berry_pie' },
+                { item: 'ars_nouveau:source_berry_pie' },
+                { item: 'ars_nouveau:source_berry_pie' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}processing_addon_tier_1`
+        },
+        {
+            output: { id: 'industrialforegoing:processing_addon_tier_2', count: 1 },
+            input: [
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'ars_nouveau:wixie_charm' },
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'ars_nouveau:source_berry_pie' },
+                { item: 'ars_nouveau:source_berry_pie' },
+                { item: 'ars_nouveau:source_berry_pie' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}processing_addon_tier_2`
+        },
+        {
+            output: { id: 'industrialforegoing:efficiency_addon_tier_1', count: 1 },
+            input: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:alakarkinos_charm' },
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'farmersdelight:rice_roll_medley_block' },
+                { item: 'farmersdelight:rice_roll_medley_block' },
+                { item: 'farmersdelight:rice_roll_medley_block' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}efficiency_addon_tier_1`
+        },
+        {
+            output: { id: 'industrialforegoing:efficiency_addon_tier_2', count: 1 },
+            input: [
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'ars_nouveau:alakarkinos_charm' },
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'farmersdelight:rice_roll_medley_block' },
+                { item: 'farmersdelight:rice_roll_medley_block' },
+                { item: 'farmersdelight:rice_roll_medley_block' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}efficiency_addon_tier_2`
+        },
+        {
+            output: { id: 'industrialforegoing:speed_addon_tier_1', count: 1 },
+            input: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_nouveau:starbuncle_charm' },
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'prettypipes:medium_speed_module' },
+                { item: 'enigmatica:the_bun_also_rises' },
+                { item: 'enigmatica:the_bun_also_rises' },
+                { item: 'enigmatica:the_bun_also_rises' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}speed_addon_tier_1`
+        },
+        {
+            output: { id: 'industrialforegoing:speed_addon_tier_2', count: 1 },
+            input: [
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'ars_nouveau:starbuncle_charm' },
+                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'prettypipes:high_speed_module' },
+                { item: 'enigmatica:the_bun_also_rises' },
+                { item: 'enigmatica:the_bun_also_rises' },
+                { item: 'enigmatica:the_bun_also_rises' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}speed_addon_tier_2`
         }
     ];
 

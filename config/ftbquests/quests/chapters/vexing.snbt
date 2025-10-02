@@ -34,48 +34,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["705E731911F13899"]
-			id: "0167BDE5001130A7"
-			tasks: [{
-				id: "7B5CA95E5B04F0B1"
-				item: { count: 1, id: "enderio:prescient_crystal" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			id: "705E731911F13899"
-			tasks: [{
-				id: "0199C149FB04ED7C"
-				item: { count: 1, id: "minecraft:witch_spawn_egg" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			id: "4533B7926EA958E1"
-			tasks: [{
-				id: "74F4023E819A6C97"
-				item: { count: 1, id: "minecraft:endermite_spawn_egg" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4533B7926EA958E1"]
-			id: "38E77FA818C35100"
-			tasks: [{
-				id: "3408AEF5C72D552B"
-				item: { count: 1, id: "enderio:ender_crystal" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["45E411460C53A082"]
 			id: "1BDCA4CF5ED739BA"
 			tasks: [{
@@ -247,7 +205,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["74F028BA5DC3CF54"]
+			dependencies: [
+				"74F028BA5DC3CF54"
+				"07FFBD39930CE9F7"
+			]
 			id: "67B5706C2EE25C56"
 			tasks: [{
 				id: "4B32443EB1E1FFB4"
@@ -409,7 +370,7 @@
 			}
 			id: "4B2DF8F028C3CFA0"
 			min_width: 220
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "0FFC6257D18DBE40"
@@ -437,7 +398,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "619FB543EE458A0E"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "0A4C81B03AE20C94"
@@ -465,7 +426,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "42F2191B5C08849B"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "4BB5E242BCE3CFD0"
@@ -493,7 +454,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "0458B6BC887C9725"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "7EFA9516C699EFE5"
@@ -521,7 +482,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6660BE0C308A1744"
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "5400896A826A271A"
@@ -665,6 +626,33 @@
 			}]
 			x: 4.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["13F15094F3AF4A73"]
+			id: "5D50FB987FCA7BB5"
+			tasks: [{
+				id: "02A287BBC378001D"
+				item: { count: 1, id: "ars_nouveau:bastion_pod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"569859F49909B566"
+				"4EBF7346F81AB4B9"
+				"7476BDB847F181E2"
+				"70463311283BC5C3"
+			]
+			id: "756E73DAF86EEAFC"
+			tasks: [{
+				id: "380A04B1809C4C2D"
+				item: { count: 1, id: "malum:fused_consciousness" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
 		}
 	]
 }
