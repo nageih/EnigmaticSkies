@@ -708,16 +708,22 @@
 				{
 					id: "6551246DAA03911D"
 					item: {
+						components: {
+							"ftbquests:missing_item": "appflux:flux_accessor"
+						}
 						count: 1
-						id: "appflux:flux_accessor"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
 				{
 					id: "672A48586332EB18"
 					item: {
+						components: {
+							"ftbquests:missing_item": "appflux:induction_card"
+						}
 						count: 1
-						id: "appflux:induction_card"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

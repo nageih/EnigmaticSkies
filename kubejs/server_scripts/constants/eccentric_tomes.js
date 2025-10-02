@@ -1,15 +1,20 @@
 //priority: 1001
 const eccentric_tomes = {
     books: {
+        ae2: [
+            {
+                id: 'ae2:guide'
+            }
+        ],
         apotheosis: [
             {
                 id: 'patchouli:guide_book',
                 components: { 'patchouli:book': 'apotheosis:apoth_chronicle' }
             }
         ],
-        ae2: [
+        ars_nouveau: [
             {
-                id: 'ae2:guide'
+                id: 'ars_nouveau:worn_notebook'
             }
         ],
         buildinggadgets2: [
