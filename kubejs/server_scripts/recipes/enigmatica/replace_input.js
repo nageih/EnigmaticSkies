@@ -442,7 +442,7 @@ ServerEvents.recipes((event) => {
         {
             filter: {},
             to_replace: `minecraft:milk_bucket`,
-            replace_with: '#c:buckets/milk'
+            replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
         },
         {
             filter: { mod: 'functionalstorage' },

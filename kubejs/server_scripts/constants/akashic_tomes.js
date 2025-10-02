@@ -59,6 +59,14 @@ const akashic_tomes = [
     },
     {
         components: {
+            'akashictome:defined_mod': 'modonomicon',
+            'modonomicon:book_id': 'theurgy:the_hermetica'
+        },
+        count: 1,
+        id: 'modonomicon:modonomicon'
+    },
+    {
+        components: {
             'akashictome:defined_mod': 'modularrouters',
             'patchouli:book': 'modularrouters:book'
         },
