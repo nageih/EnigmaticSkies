@@ -648,6 +648,14 @@ ServerEvents.recipes((event) => {
         { output: 'replication:chip_storage' },
         { output: 'replication:matter_tank' },
 
+        // Simple Magnets
+        { id: 'simplemagnets:basicmagnet' },
+
+        // Sophisticated Storage
+        { id: 'sophisticatedstorage:magnet_upgrade' },
+
+        { id: 'sophisticatedbackpacks:magnet_upgrade' },
+
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },

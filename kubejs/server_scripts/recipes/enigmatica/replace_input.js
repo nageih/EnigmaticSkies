@@ -438,6 +438,21 @@ ServerEvents.recipes((event) => {
             filter: [{ output: /aquaculture:neptunium_/ }],
             to_replace: `minecraft:string`,
             replace_with: 'ars_nouveau:magebloom_fiber'
+        },
+        {
+            filter: {},
+            to_replace: `minecraft:milk_bucket`,
+            replace_with: '#c:buckets/milk'
+        },
+        {
+            filter: { mod: 'functionalstorage' },
+            to_replace: `minecraft:bucket`,
+            replace_with: '#c:buckets/empty'
+        },
+        {
+            filter: { mod: 'crafting_on_a_stick' },
+            to_replace: `minecraft:stick`,
+            replace_with: '#c:rods/wooden'
         }
     ];
 

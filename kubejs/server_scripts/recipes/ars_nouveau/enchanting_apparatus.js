@@ -401,6 +401,19 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}atomic_reconstructor`
+        },
+        {
+            result: { id: 'simplemagnets:basicmagnet', count: 1 },
+            reagent: { tag: 'c:gems/enori' },
+            pedestalItems: [
+                { tag: 'c:gems/palis' },
+                { tag: 'c:gems/palis' },
+                { tag: 'c:gems/restonia' },
+                { tag: 'c:gems/restonia' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 500,
+            id: `${id_prefix}basicmagnet`
         }
     ];
 

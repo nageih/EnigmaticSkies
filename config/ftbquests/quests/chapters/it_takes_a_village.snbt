@@ -36,8 +36,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["540133B792547B21"]
@@ -62,8 +62,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -83,7 +83,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -3.5d
 		}
 		{
@@ -104,7 +104,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -115,7 +115,7 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -148,7 +148,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["605A60825B68C2D7"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "minecraft:composter"
 			}
@@ -165,8 +165,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -186,7 +186,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -220,20 +220,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6BA05AC6ECC577DA"]
+			dependencies: ["105CABB7D9705359"]
 			icon: {
 				id: "enigmatica:flying_cow_iou"
 			}
 			id: "605A60825B68C2D7"
-			rewards: [{
-				count: 16
-				id: "01F59A6D3BD56A67"
-				item: {
-					count: 1
-					id: "aether:blue_berry"
+			rewards: [
+				{
+					count: 16
+					id: "01F59A6D3BD56A67"
+					item: {
+						count: 1
+						id: "aether:blue_berry"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "724ADE98276544A7"
+					item: {
+						count: 1
+						id: "cold_sweat:hearth"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -251,11 +261,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"2F1EA0B091C700E1"
-				"04D144DC0EAE8BE3"
-				"34FB10F0A2504973"
-			]
+			dependencies: ["6BA05AC6ECC577DA"]
 			icon: {
 				id: "farmersdelight:cooking_pot"
 			}
@@ -277,8 +283,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -558,7 +564,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -688,7 +694,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -700,7 +706,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -712,7 +718,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -724,10 +730,14 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1D783196F551142F"]
+			dependencies: [
+				"04D144DC0EAE8BE3"
+				"34FB10F0A2504973"
+				"2F1EA0B091C700E1"
+			]
 			icon: {
 				id: "naturesaura:animal_spawner"
 			}
@@ -743,8 +753,19 @@
 				to_observe: "naturesaura:animal_spawner"
 				type: "observation"
 			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "75507A3DE753BC75"
+			tasks: [{
+				id: "60F91E4C7D974E6D"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
 			x: 1.5d
-			y: -1.5d
+			y: 0.5d
 		}
 	]
 }

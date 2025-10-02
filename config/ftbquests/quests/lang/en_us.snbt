@@ -114,6 +114,9 @@
 		"Villagers need a steady diet of good foods to do their best work, so make sure you're growing a variety of foods for them!"
 		""
 		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
+		""
+		"&a🛈 Tip: Purple Seats can be crafted "
+		"&a    from Magebloom!"
 	]
 	quest.03D475AF2266ECB6.title: "Villagers"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -4053,7 +4056,7 @@
 	quest.605A60825B68C2D7.quest_desc: [
 		"Many animals are not well adapted to these heights, and as such have a limited lifespan. "
 		""
-		"The following creatures will only survive about 10 in-game days as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. "
+		"The following creatures will only survive about &710 in-game days&r as adults before they die, meaning you will have to keep breeding them if you wish to keep them around. They must also be kept in a warm environment to avoid freezing to death."
 		""
 		"Thankfully, you have some options for automating that process. "
 		""
