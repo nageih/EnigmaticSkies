@@ -717,7 +717,7 @@
 				item: { count: 1, id: "actuallyadditions:feeder" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -729,7 +729,7 @@
 				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
