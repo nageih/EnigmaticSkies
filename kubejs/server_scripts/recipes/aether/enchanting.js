@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'minecraft:dead_bush' },
             cookingtime: 10,
             experience: 0.15,
-            id: `${id_prefix}magebloom_crop`
+            id: `${id_prefix}berry_bush_stem`
         }
     ];
 
