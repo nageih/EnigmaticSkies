@@ -701,6 +701,7 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/paper' },
         { id: 'utilitarian:utility/ice' },
         { id: 'utilitarian:utility/packed_ice' },
+        { id: 'utilitarian:utility/logs_to_sticks' },
         { output: 'utilitarian:angel_block' },
 
         // Ore Processing Removals

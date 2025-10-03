@@ -39,6 +39,14 @@ ServerEvents.recipes((event) => {
                 C: '#aether:planks_crafting'
             },
             id: `${id_prefix}freezer`
+        },
+        {
+            output: '16x aether:skyroot_stick',
+            pattern: ['A', 'A'],
+            key: {
+                A: '#aether:skyroot_logs'
+            },
+            id: `${id_prefix}skyroot_stick`
         }
     ];
 

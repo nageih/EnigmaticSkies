@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
                 A: `#c:gears/copper`,
-                B: `minecraft:composter`,
+                B: 'theurgy:digestion_vat',
                 C: `create:propeller`,
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: `ppfluids:fluid_pipe`

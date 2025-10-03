@@ -14,6 +14,11 @@ StartupEvents.registry('fluid', (event) => {
             name: 'Briny Seawater',
             type: 'thin',
             color: 0x75c8ff
+        },
+        {
+            name: 'Wastewater',
+            type: 'thick',
+            color: 0x7d5f33
         }
     ];
 

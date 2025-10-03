@@ -74,6 +74,14 @@ ServerEvents.recipes((event) => {
                 D: 'minecraft:sweet_berries'
             },
             id: `${id_prefix}cake`
+        },
+        {
+            output: '16x minecraft:stick',
+            pattern: ['A', 'A'],
+            key: {
+                A: '#enigmatica:crafts_sticks'
+            },
+            id: `${id_prefix}stick`
         }
     ];
 
