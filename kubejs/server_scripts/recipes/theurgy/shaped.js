@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:ingots/andesite_alloy',
                 B: 'modern_industrialization:fire_clay_brick',
-                C: 'minecraft:blast_furnace',
+                C: 'minecraft:furnace',
                 D: 'create:basin'
             },
             id: `${id_prefix}calcination_oven`
