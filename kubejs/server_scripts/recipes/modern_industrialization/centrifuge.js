@@ -10,14 +10,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
-            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 4000 }],
             item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1 }],
             eu: 4,
             duration: 1,
             id: `${id_prefix}lava`
         },
         {
-            fluid_outputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'minecraft:water', amount: 8000 }],
             item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1 }],
             eu: 2,
             duration: 1,

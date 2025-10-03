@@ -48,14 +48,14 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
+            fluidOutputs: [{ fluid: 'minecraft:lava', amount: 4000 }],
             ingredients: [{ item: 'theurgy:crystallized_lava' }],
             time: 1,
             id: `${id_prefix}lava`
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            fluidOutputs: [{ fluid: 'minecraft:water', amount: 8000 }],
             ingredients: [{ item: 'theurgy:crystallized_water' }],
             time: 1,
             id: `${id_prefix}water`
@@ -63,7 +63,6 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             fluidOutputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
-            ingredients: [{ item: 'theurgy:crystallized_water' }],
             fluidInput: { fluid: 'industrialforegoing:sewage', amount: 1000 },
             time: 10,
             id: `${id_prefix}manure`
