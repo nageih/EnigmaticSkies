@@ -28,8 +28,6 @@ ServerEvents.generateData('after_mods', (event) => {
     });
 
     entries.forEach((entry) => {
-        event.json(`occultism:modonomicon/books/dictionary_of_spirits/entries/${entry.section}/${entry.name}`, {
-            'neoforge:conditions': [{ type: 'neoforge:never' }]
-        });
+        event.json(`occultism:modonomicon/books/dictionary_of_spirits/entries/${entry.section}/${entry.name}`, never_load);
     });
 });

@@ -148,5 +148,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:pressure_chamber`;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

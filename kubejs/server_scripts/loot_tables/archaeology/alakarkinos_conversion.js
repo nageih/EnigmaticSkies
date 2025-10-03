@@ -1,7 +1,7 @@
 //priority: 1000
 LootJS.lootTables((event) => {
     const types = [
-        { id: 'melon_ball', rolls: [2, 5] },
+        { id: 'melon_ball', rolls: [6, 9] },
         { id: 'boggy_dorodango', rolls: [2, 5] },
         { id: 'briny_dorodango', rolls: [2, 5] },
         { id: 'silty_dorodango', rolls: [2, 5] },

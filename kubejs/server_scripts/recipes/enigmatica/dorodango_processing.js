@@ -65,6 +65,7 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         let r;
+        let r_id;
 
         // Create Mixing
         r = {
@@ -80,7 +81,10 @@ ServerEvents.recipes((event) => {
                 chance: output.chance ? output.chance : 1.0
             });
         });
-        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
+        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+        event.custom(r).id(r_id);
+        if (debug) console.log(r_id);
 
         // Modern Industrialization Centrifuge
         recipe.input.amount = recipe.input.count;
@@ -99,6 +103,9 @@ ServerEvents.recipes((event) => {
                 probability: output.chance ? output.chance : 1.0
             });
         });
-        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
+        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+        event.custom(r).id(r_id);
+        if (debug) console.log(r_id);
     });
 });

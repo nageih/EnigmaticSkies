@@ -104,7 +104,7 @@ ServerEvents.recipes((event) => {
                 ingredient: { block: block.in },
                 result: { block: block.out },
                 biome: biome,
-                id: `${id_prefix}${biome.split(':')[1]}/${block.in.replace(':', '_')}_to_${block.out.replace(':', '_')}`
+                id: `${id_prefix}${biome.split(':')[1]}/${getID(block.in)}_to_${getID(block.out)}`
             });
         });
     });
@@ -149,5 +149,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'aether:placement_conversion';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

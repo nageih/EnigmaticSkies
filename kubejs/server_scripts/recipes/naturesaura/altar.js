@@ -81,7 +81,9 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'naturesaura:altar';
-        recipe.time = recipe.time * 20;
+        recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

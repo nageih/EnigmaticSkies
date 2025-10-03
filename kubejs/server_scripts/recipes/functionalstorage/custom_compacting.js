@@ -37,5 +37,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'functionalstorage:custom_compacting';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

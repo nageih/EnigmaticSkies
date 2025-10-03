@@ -157,7 +157,7 @@ ServerEvents.generateData('before_mods', (event) => {
 
     recipes.forEach((recipe) => {
         recipe.entities.forEach((entity) => {
-            event.json(`enigmatica:geneticsresequenced/entity_genes/${entity.replace(':', '_')}`, {
+            event.json(`enigmatica:geneticsresequenced/entity_genes/${getID(entity)}`, {
                 entity: entity,
                 gene_weights: recipe.genes
             });

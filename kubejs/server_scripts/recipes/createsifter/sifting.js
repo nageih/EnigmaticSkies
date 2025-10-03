@@ -20,7 +20,9 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'createsifter:sifting';
-        recipe.processingTime = recipe.processingTime * 20;
+        recipe.processingTime *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

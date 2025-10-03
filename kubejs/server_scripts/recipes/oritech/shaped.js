@@ -14,14 +14,14 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:assembler_block`,
-            pattern: ['AAB', 'ACD', 'AEF'],
+            pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: '#c:plates/brass',
+                A: 'oritech:machine_plating_block',
                 B: 'create:mechanical_arm',
-                C: 'industrialforegoing:machine_frame_simple',
-                D: '#c:gears/energized',
-                E: 'actuallyadditions:advanced_coil',
-                F: 'modern_industrialization:motor'
+                C: '#c:gears/energized',
+                D: 'industrialforegoing:machine_frame_simple',
+                E: 'modern_industrialization:motor',
+                F: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}assembler_block`
         },
@@ -108,19 +108,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_frame_block`
         },
         {
-            output: `oritech:assembler_block`,
-            pattern: ['ABA', 'CDC', 'EFE'],
-            key: {
-                A: 'oritech:machine_plating_block',
-                B: 'create:mechanical_arm',
-                C: '#c:gears/energized',
-                D: 'industrialforegoing:machine_frame_simple',
-                E: 'modern_industrialization:motor',
-                F: 'actuallyadditions:advanced_coil'
-            },
-            id: `${id_prefix}assembler_block`
-        },
-        {
             output: `oritech:cooler_block`,
             pattern: ['AAA', 'CDC', 'EFE'],
             key: {
@@ -171,5 +158,7 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

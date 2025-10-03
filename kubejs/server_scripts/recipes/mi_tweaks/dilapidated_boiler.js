@@ -35,5 +35,7 @@ ServerEvents.recipes((event) => {
         recipe.duration = recipe.output / rate;
 
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

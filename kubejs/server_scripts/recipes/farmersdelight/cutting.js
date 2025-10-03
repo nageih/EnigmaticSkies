@@ -40,14 +40,14 @@ ServerEvents.recipes((event) => {
                     result: [{ item: { id: tree.stripped_log, count: 1 } }, { item: { id: tree.bark, count: 1 } }],
                     sound: { sound_id: 'minecraft:item.axe.strip' },
                     tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
-                    id: `${id_prefix}${tree.stripped_log.replace(':', '_')}_from_log`
+                    id: `${id_prefix}${getID(tree.stripped_log)}_from_log`
                 },
                 {
                     ingredients: [{ item: tree.wood }],
                     result: [{ item: { id: tree.stripped_wood, count: 1 } }, { item: { id: tree.bark, count: 1 } }],
                     sound: { sound_id: 'minecraft:item.axe.strip' },
                     tool: { type: 'farmersdelight:item_ability', action: 'axe_strip' },
-                    id: `${id_prefix}${tree.stripped_wood.replace(':', '_')}_from_wood`
+                    id: `${id_prefix}${getID(tree.stripped_wood)}_from_wood`
                 }
             );
         }
@@ -56,5 +56,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'farmersdelight:cutting';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

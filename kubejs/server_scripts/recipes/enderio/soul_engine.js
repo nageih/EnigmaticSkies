@@ -9,8 +9,6 @@ ServerEvents.generateData('after_mods', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.json(`enderio:eio_soul/engine/${recipe.id.replace(':', '_')}`, {
-            'neoforge:conditions': [{ type: 'neoforge:never' }]
-        });
+        event.json(`enderio:eio_soul/engine/${getID(recipe.id)}`, never_load);
     });
 });

@@ -56,5 +56,7 @@ ServerEvents.recipes((event) => {
         recipe.type = `pneumaticcraft:crafting_shaped_pressurizable`;
         recipe.category = 'misc';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

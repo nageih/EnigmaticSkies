@@ -44,7 +44,10 @@ ServerEvents.recipes((event) => {
                 ingredients: [recipe.input],
                 results: recipe.outputs
             };
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // Modern Industrialization Centrifuge Water
@@ -63,7 +66,9 @@ ServerEvents.recipes((event) => {
                 r.item_outputs.push({ item: output.id, amount: output.count, probability: output.chance });
             });
 
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_water`);
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_water`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // Modern Industrialization Centrifuge Sulfuric Acid
@@ -82,7 +87,10 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.item_outputs.push({ item: output.id, amount: output.count * 1.5, probability: output.chance });
             });
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_sulfuric_acid`);
+
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_sulfuric_acid`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
     });
 });

@@ -85,6 +85,6 @@ ServerEvents.generateData('after_mods', (event) => {
     });
 
     recipes.forEach((recipe) => {
-        event.json(`malum:reaping_data/enigmatica/${recipe.registry_name.replace(':', '_')}`, recipe);
+        event.json(`malum:reaping_data/enigmatica/${getID(recipe.registry_name)}`, recipe);
     });
 });

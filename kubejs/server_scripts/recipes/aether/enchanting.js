@@ -58,7 +58,9 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'aether:enchanting';
         recipe.category = 'enchanting_misc';
-        recipe.cookingtime = recipe.cookingtime * 20;
+        recipe.cookingtime *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

@@ -26,12 +26,63 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}plastic_from_polymer_resin`
         },
         {
-            results: [],
-            fluidOutputs: [{ fluid: 'minecraft:water', amount: 8000 }],
-            ingredients: [{ item: 'theurgy:crystallized_water' }],
+            results: [{ id: 'theurgy:crystallized_water', count: 2 }],
+            ingredients: [{ item: 'enigmatica:melon_ball' }],
+            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 20 },
+            time: 5,
+            id: `${id_prefix}crystallized_water_from_sal_ammoniac`
+        },
+        {
+            results: [{ id: 'theurgy:crystallized_water', count: 8 }],
+            ingredients: [{ item: 'enigmatica:melon_ball' }],
             fluidInput: { fluid: 'oritech:still_strange_matter', amount: 100 },
             time: 5,
-            id: `${id_prefix}water_from_strange_matter`
+            id: `${id_prefix}crystallized_water_from_strange_matter`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'actuallyadditions:canola_oil', amount: 160 }],
+            ingredients: [{ item: 'actuallyadditions:canola' }],
+            time: 5,
+            id: `${id_prefix}canola_oil`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
+            ingredients: [{ item: 'theurgy:crystallized_lava' }],
+            time: 1,
+            id: `${id_prefix}lava`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            ingredients: [{ item: 'theurgy:crystallized_water' }],
+            time: 1,
+            id: `${id_prefix}water`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
+            ingredients: [{ item: 'theurgy:crystallized_water' }],
+            fluidInput: { fluid: 'industrialforegoing:sewage', amount: 1000 },
+            time: 10,
+            id: `${id_prefix}manure`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
+            ingredients: [{ tag: 'c:foods/cooked_meats' }],
+            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
+            time: 10,
+            id: `${id_prefix}pink_slime`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'industrialforegoing:meat', amount: 100 }],
+            ingredients: [{ tag: 'c:foods/raw_meats' }],
+            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
+            time: 10,
+            id: `${id_prefix}meat`
         }
     ];
 
@@ -50,5 +101,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'oritech:centrifuge_fluid';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });
