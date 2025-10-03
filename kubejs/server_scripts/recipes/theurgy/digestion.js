@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'createsifter:raw_gold_piece', count: 1 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
-                { ingredient: { item: 'aquaculture:goldfish' }, count: 8 }
+                { ingredient: { item: 'aquaculture:goldfish' }, count: 4 }
             ],
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'createsifter:raw_iron_piece', count: 1 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
-                { ingredient: { tag: 'c:foods/raw_meats' }, count: 8 }
+                { ingredient: { tag: 'c:foods/raw_meats' }, count: 4 }
             ],
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,

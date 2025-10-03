@@ -5534,11 +5534,6 @@
 		"&7Witch to Wixie&r"
 		"    &5Projectile&r > &aHarm&r > &6Amplify&r > &aDispel&r "
 	]
-	quest.7FFAF0F11AF6D406.quest_desc: [
-		"Flux Networks allow for private wireless power transfer and storage. "
-		""
-		"Adding a Flux Controller will give you greater control over the network but is otherwise optional."
-	]
 	reward.34CE01457EC3BF54.title: "Bed"
 	reward.5D6111B63CFD94D8.title: "Beehive with Bees!"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"

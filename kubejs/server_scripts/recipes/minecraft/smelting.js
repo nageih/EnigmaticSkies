@@ -49,6 +49,27 @@ ServerEvents.recipes((event) => {
             xp: 0.1,
             duration: 10,
             id: `${id_prefix}fire_clay_brick`
+        },
+        {
+            output: AlmostUnified.getTagTargetItem(`c:ingots/gold`).getId(),
+            input: `#c:clumps/gold`,
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}smelt_gold`
+        },
+        {
+            output: AlmostUnified.getTagTargetItem(`c:ingots/iron`).getId(),
+            input: `#c:clumps/iron`,
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}smelt_iron`
+        },
+        {
+            output: AlmostUnified.getTagTargetItem(`c:ingots/copper`).getId(),
+            input: `#c:clumps/copper`,
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}smelt_copper`
         }
     ];
 

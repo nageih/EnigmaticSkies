@@ -113,6 +113,7 @@
 														sound: {
 															id: "ars_nouveau:tempestry_family"
 														}
+														volume: 0.5f
 													}
 												}
 												type: "ars_nouveau:burst"
@@ -123,6 +124,7 @@
 														sound: {
 															id: "ars_nouveau:tempestry_family"
 														}
+														volume: 0.5f
 													}
 												}
 												flairEffect: {
@@ -165,8 +167,8 @@
 															"ars_nouveau:emitter": {
 																age: 0
 																rotation: {
-																	x: 15.893464f
-																	y: 154.01985f
+																	x: -23.771248f
+																	y: -99.79599f
 																}
 															}
 															"ars_nouveau:particle_type": {
@@ -217,6 +219,7 @@
 														sound: {
 															id: "ars_nouveau:tempestry_family"
 														}
+														volume: 0.5f
 													}
 												}
 												trailEffect: {
