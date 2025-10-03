@@ -60,13 +60,14 @@ ServerEvents.recipes((event) => {
             time: 1,
             id: `${id_prefix}water`
         },
-        {
-            results: [],
-            fluidOutputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
-            fluidInput: { fluid: 'industrialforegoing:sewage', amount: 1000 },
-            time: 10,
-            id: `${id_prefix}manure`
-        },
+        // {
+        //     results: [],
+        //     fluidOutputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
+        //     ingredients: [],
+        //     fluidInput: { fluid: 'industrialforegoing:sewage', amount: 1000 },
+        //     time: 10,
+        //     id: `${id_prefix}manure`
+        // },
         {
             results: [],
             fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],

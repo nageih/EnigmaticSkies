@@ -24,10 +24,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}water`
         },
         {
-            fluid_outputs: [{ fluid: 'extended_industrialization:manure', amount: 100 }],
-            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
-            eu: 2,
-            duration: 10,
+            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 4 }],
+            fluid_outputs: [
+                { fluid: 'extended_industrialization:manure', amount: 1000 },
+                { fluid: 'enigmatica:wastewater', amount: 1000 }
+            ],
+            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 8000 },
+            eu: 4,
+            duration: 5,
             id: `${id_prefix}manure`
         },
         {

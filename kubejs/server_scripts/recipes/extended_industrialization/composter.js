@@ -27,6 +27,105 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}refined_canola_oil`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:redstone', amount: 4 }],
+            item_inputs: [
+                { tag: 'c:clay', amount: 4 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}redstone`
+        },
+        {
+            item_outputs: [{ item: 'ars_nouveau:source_gem', amount: 4 }],
+            item_inputs: [
+                { item: 'aether:ambrosium_shard', amount: 4 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'sauce:source_fluid', amount: 1000 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}source_gem_from_ambrosium_shard`
+        },
+        {
+            item_outputs: [{ item: 'createsifter:raw_gold_piece', amount: 2 }],
+            item_inputs: [
+                { item: 'aquaculture:goldfish', amount: 4 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}raw_gold_piece_from_goldfish`
+        },
+        {
+            item_outputs: [{ item: 'createsifter:raw_iron_piece', amount: 2 }],
+            item_inputs: [
+                { tag: 'c:foods/raw_meats', amount: 4 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}raw_iron_piece_from_raw_meats`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:gunpowder', amount: 3 }],
+            item_inputs: [
+                { item: 'ars_nouveau:bombegranate_pod', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}gunpowder_from_bombegranate_pod`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:ruby_dust', amount: 3 }],
+            item_inputs: [
+                { item: 'ars_nouveau:mendosteen_pod', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}ruby_dust_from_mendosteen_pod`
+        },
+        {
+            item_outputs: [{ item: 'minecraft:glowstone_dust', amount: 3 }],
+            item_inputs: [
+                { item: 'minecraft:glow_berries', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}glowstone_dust_from_glow_berries`
+        },
+        {
+            item_outputs: [{ item: 'enderio:grains_of_infinity', amount: 3 }],
+            item_inputs: [
+                { item: 'ars_nouveau:bastion_pod', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}grains_of_infinity_from_bastion_pod`
+        },
+        {
+            item_outputs: [{ item: 'enderio:ender_crystal_powder', amount: 3 }],
+            item_inputs: [
+                { item: 'ars_elemental:flashpine_pod', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}ender_crystal_powder_from_flashpine_pod`
         }
     ];
 
