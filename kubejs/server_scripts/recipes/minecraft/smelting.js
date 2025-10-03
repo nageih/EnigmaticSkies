@@ -54,5 +54,7 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.smelting(recipe.output, recipe.input, recipe.xp, recipe.duration * 20).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

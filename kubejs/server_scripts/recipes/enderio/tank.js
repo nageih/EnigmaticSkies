@@ -9,12 +9,14 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:glass_bottle' },
             output: { id: 'minecraft:experience_bottle', count: 1 },
             mode: 'fill',
-            id: `${id_prefix}experience_bottle_from_${fluid.replace(':', '_')}`
+            id: `${id_prefix}experience_bottle_from_${getID(fluid)}`
         });
     });
 
     recipes.forEach((recipe) => {
         recipe.type = 'enderio:tank';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

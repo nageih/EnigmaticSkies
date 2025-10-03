@@ -20,7 +20,9 @@ ServerEvents.recipes((event) => {
         recipe.type = 'theurgy:calcination';
         recipe.category = 'misc';
         recipe.result.type = 'theurgy:item';
-        recipe.time = recipe.time * 20;
+        recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

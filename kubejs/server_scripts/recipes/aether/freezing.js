@@ -14,7 +14,9 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'aether:freezing';
         recipe.category = 'freezable_misc';
-        recipe.cookingtime = recipe.cookingtime * 20;
+        recipe.cookingtime *= 20;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

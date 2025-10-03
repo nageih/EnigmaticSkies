@@ -152,7 +152,7 @@ ServerEvents.recipes((event) => {
             pressure: 7.5,
             temperature: { min: CtoK(500) },
             speed: 0.1,
-            id: `${id_prefix}latex_from_vine`
+            id: `${id_prefix}reinforced_carbon_sheet`
         },
         {
             outputs: { item_output: { id: 'pneumaticcraft:advanced_pressure_tube', count: 1 } },
@@ -177,5 +177,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:thermo_plant`;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

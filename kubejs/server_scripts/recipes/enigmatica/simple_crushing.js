@@ -629,7 +629,9 @@ ServerEvents.recipes((event) => {
                 r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
             });
 
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // EnderIO
@@ -647,7 +649,9 @@ ServerEvents.recipes((event) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
 
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // Create Crushing
@@ -658,7 +662,10 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 2 * 20
             };
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // Create Milling
@@ -669,7 +676,10 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 1.5 * 20
             };
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
 
         // Modern Industrialization Macerator
@@ -691,7 +701,9 @@ ServerEvents.recipes((event) => {
                 });
             });
 
-            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            event.custom(r).id(r_id);
+            if (debug) console.log(r_id);
         }
     });
 });

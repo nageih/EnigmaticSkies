@@ -14,13 +14,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluix_crystal`
         },
         {
-            output: { id: 'appflux:redstone_crystal', count: 2 },
-            input: [{ tag: 'c:storage_blocks/redstone' }, { tag: 'c:gems/fluix' }, { tag: 'c:dusts/glowstone' }],
-            inputFluid: { fluid: 'minecraft:water', amount: 100 },
-            processingTime: 50,
-            id: `${id_prefix}redstone_crystal`
-        },
-        {
             output: { id: 'industrialforegoing:machine_frame_simple', count: 1 },
             input: [
                 { tag: 'c:plates/steel' },
@@ -226,12 +219,14 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: fluid, amount: 250 },
             output: { id: 'minecraft:experience_bottle', count: 1 },
             processingTime: 5,
-            id: `${id_prefix}experience_bottle_from_${fluid.replace(':', '_')}`
+            id: `${id_prefix}experience_bottle_from_${getID(fluid)}`
         });
     });
 
     recipes.forEach((recipe) => {
         recipe.type = 'industrialforegoing:dissolution_chamber';
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

@@ -77,5 +77,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'justdirethings:goospread';
         recipe.craftingDuration = recipe.tierRequirement <= 2 ? 2400 : 4800;
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

@@ -1,7 +1,4 @@
 ServerEvents.generateData('after_mods', (event) => {
-    const neverLoad = {
-        'neoforge:conditions': [{ type: 'neoforge:never' }]
-    };
     // These error with Thirst missing. Issue reported to Cold Sweat.
     const recipes = [
         { id: 'waterskin_acceptable_campfire' },
@@ -12,6 +9,6 @@ ServerEvents.generateData('after_mods', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.json(`cold_sweat:recipe/compat/thirst/${recipe.id}`, neverLoad);
+        event.json(`cold_sweat:recipe/compat/thirst/${recipe.id}`, never_load);
     });
 });

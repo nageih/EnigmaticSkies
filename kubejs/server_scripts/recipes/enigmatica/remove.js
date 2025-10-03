@@ -169,7 +169,7 @@ ServerEvents.recipes((event) => {
         { id: /createsifter:(crushing|milling)/ },
         { id: /createsifter:shapeless\/raw_.*_piece/ },
         { id: /createsifter:crafting\/.*_mesh/ },
-        { id: /createsifter:crafting\/.*_sifter/ },
+        { id: /createsifter:crafting\/.*sifter/ },
 
         { id: 'trading_floor:trading_depot' },
 
@@ -199,6 +199,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soul_chain' },
         { id: 'enderio:vacuum_chest' },
         { id: 'enderio:vat' },
+        { id: 'enderio:stick' },
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },

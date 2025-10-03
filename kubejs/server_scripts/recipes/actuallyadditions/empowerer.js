@@ -62,8 +62,10 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'actuallyadditions:empowering';
-        recipe.time = recipe.time * 20;
+        recipe.time *= 20;
         recipe.color = hexToRgb(recipe.color);
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });

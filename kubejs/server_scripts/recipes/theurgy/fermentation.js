@@ -50,8 +50,10 @@ ServerEvents.recipes((event) => {
         recipe.type = 'theurgy:fermentation';
         recipe.category = 'misc';
         recipe.result.type = 'theurgy:item';
-        recipe.time = recipe.time * 20;
+        recipe.time *= 20;
         recipe.fluid = { ingredient: { fluid: recipe.fluid.id }, amount: recipe.fluid.amount };
         event.custom(recipe).id(recipe.id);
+
+        if (debug) console.log(recipe.id);
     });
 });
