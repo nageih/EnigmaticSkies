@@ -38,7 +38,7 @@
 				}
 			]
 			x: 0.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["540133B792547B21"]
@@ -64,7 +64,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -85,7 +85,7 @@
 				}
 			]
 			x: 0.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -106,7 +106,7 @@
 				}
 			]
 			x: 1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["605A60825B68C2D7"]
@@ -145,11 +145,11 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1D783196F551142F"]
+			dependencies: ["605A60825B68C2D7"]
 			icon: {
 				id: "minecraft:composter"
 			}
@@ -166,7 +166,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -188,7 +188,7 @@
 				}
 			]
 			x: 2.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -218,10 +218,10 @@
 				}
 			]
 			x: 3.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["105CABB7D9705359"]
+			dependencies: ["1D783196F551142F"]
 			icon: {
 				id: "enigmatica:flying_cow_iou"
 			}
@@ -258,8 +258,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -0.5d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6BA05AC6ECC577DA"]
@@ -284,8 +284,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -320,7 +320,7 @@
 				}
 			]
 			x: 5.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F9C801DFAC1C0D9"]
@@ -333,7 +333,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["628A6A79EFA30990"]
@@ -355,7 +355,7 @@
 				}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -382,7 +382,7 @@
 				}
 			]
 			x: 5.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -409,7 +409,7 @@
 				}
 			]
 			x: 5.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -436,7 +436,7 @@
 				}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -463,7 +463,7 @@
 				}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -490,7 +490,7 @@
 				}
 			]
 			x: 6.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -517,7 +517,7 @@
 				}
 			]
 			x: 5.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -529,7 +529,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["15FAB1720AD470A0"]
@@ -566,7 +566,7 @@
 				}
 			]
 			x: 1.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5550423B6E6BDBAF"]
@@ -694,7 +694,7 @@
 				item: { count: 1, id: "farmersdelight:organic_compost" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -706,7 +706,7 @@
 				item: { count: 1, id: "actuallyadditions:worm" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -718,7 +718,7 @@
 				item: { count: 1, id: "actuallyadditions:feeder" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -730,7 +730,7 @@
 				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -755,7 +755,7 @@
 				type: "observation"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -765,8 +765,8 @@
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }
