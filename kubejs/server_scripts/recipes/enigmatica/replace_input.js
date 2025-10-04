@@ -356,7 +356,12 @@ ServerEvents.recipes((event) => {
             replace_with: `naturesaura:token_sorrow`
         },
         {
-            filter: [{ id: 'farmersdelight:cutting_board' }, { id: /functionalstorage:fluid/ }],
+            filter: [
+                { id: 'farmersdelight:cutting_board' },
+                { id: /functionalstorage:fluid/ },
+                { id: 'create:crafting/kinetics/cogwheel' },
+                { id: 'create:crafting/kinetics/large_cogwheel_from_little' }
+            ],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
         },
