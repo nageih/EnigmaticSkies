@@ -1448,6 +1448,13 @@
 		""
 		"Consider placing one beneath most Aura Using Devices as soon as possible. Some of them can consume Aura at a startling rate!"
 	]
+	quest.23ED7167CB856D26.quest_desc: [
+		"Magic doesn’t come out of thin air, of course. What madness!"
+		""
+		"Buy a &7Codex&r from your friendly neighborhood Librarian and dissolve it in &7Sal Ammoniac&r to obtain Liquefied Source. "
+		""
+		"From there, you’ll be able to infuse &7Ambrosium&r with it to create &7Source Gems&r."
+	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
 		""
@@ -1882,6 +1889,9 @@
 		"The Codices they sell are also the &n&7only&r&r way to access new glyphs. "
 		""
 		"Each Codex will teach you a &n&7single random glyph&r&r that that isn't already known by you."
+		""
+		"&a🛈 Tip: Learning Glyphs increases your "
+		"&a    mana, allowing you to cast more!"
 	]
 	quest.2F9C801DFAC1C0D9.title: "Storage Lectern"
 	quest.2FB39BF76836FA47.quest_desc: [

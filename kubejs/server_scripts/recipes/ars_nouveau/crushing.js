@@ -48,6 +48,72 @@ ServerEvents.recipes((event) => {
                 { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
             ],
             id: `${id_prefix}moss_block_crushing`
+        },
+        {
+            input: { item: 'minecraft:raw_gold_block' },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 18 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9 },
+                    chance: 0.3,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/gold`).getId(), count: 9 },
+                    chance: 0.15,
+                    maxRange: 1
+                },
+                { stack: { id: 'malum:raw_brilliance', count: 9 }, chance: 0.05, maxRange: 1 }
+            ],
+            id: `${id_prefix}raw_gold_block_crushing`
+        },
+        {
+            input: { item: 'minecraft:raw_iron_block' },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 18 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9 },
+                    chance: 0.3,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/iron`).getId(), count: 9 },
+                    chance: 0.15,
+                    maxRange: 1
+                },
+                { stack: { id: 'malum:raw_brilliance', count: 9 }, chance: 0.05, maxRange: 1 }
+            ],
+            id: `${id_prefix}raw_iron_block_crushing`
+        },
+        {
+            input: { item: 'minecraft:raw_copper_block' },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 18 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9 },
+                    chance: 0.3,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:clumps/copper`).getId(), count: 9 },
+                    chance: 0.15,
+                    maxRange: 1
+                },
+                { stack: { id: 'malum:raw_brilliance', count: 9 }, chance: 0.05, maxRange: 1 }
+            ],
+            id: `${id_prefix}raw_copper_block_crushing`
         }
     ];
 

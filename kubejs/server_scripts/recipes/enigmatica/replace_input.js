@@ -458,6 +458,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'ars_nouveau:ritual_harvest' }],
             to_replace: `minecraft:iron_hoe`,
             replace_with: 'naturesaura:infused_iron_hoe'
+        },
+        {
+            filter: [{ id: 'ars_nouveau:ritual_harvest' }],
+            to_replace: `#c:storage_blocks/iron`,
+            replace_with: `#c:storage_blocks/enori`
         }
     ];
 

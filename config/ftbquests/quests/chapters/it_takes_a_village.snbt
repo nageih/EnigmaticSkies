@@ -53,11 +53,6 @@
 					type: "item"
 				}
 				{
-					id: "04FD56D5B4728327"
-					item: { count: 1, id: "ars_nouveau:source_gem" }
-					type: "item"
-				}
-				{
 					id: "4D39133F906BA8E3"
 					item: { count: 1, id: "createsifter:raw_gold_piece" }
 					type: "item"
@@ -109,14 +104,14 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["714379744B3CF395"]
+			dependencies: ["23ED7167CB856D26"]
 			id: "1CF4103BFBCE0E29"
 			tasks: [{
 				id: "7DAC5388F81AED26"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -284,7 +279,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -760,6 +755,7 @@
 		{
 			dependencies: ["56AD6E7F12056140"]
 			id: "75507A3DE753BC75"
+			shape: "diamond"
 			tasks: [{
 				id: "60F91E4C7D974E6D"
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
@@ -767,6 +763,27 @@
 			}]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["714379744B3CF395"]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "23ED7167CB856D26"
+			tasks: [
+				{
+					id: "5CF9CE6DAE03311B"
+					item: { count: 1, id: "ars_additions:codex_entry" }
+					type: "item"
+				}
+				{
+					id: "62DDFC47383D2E4A"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
 		}
 	]
 }
