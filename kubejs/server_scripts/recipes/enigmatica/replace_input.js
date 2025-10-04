@@ -448,6 +448,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `minecraft:milk_bucket`,
             replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
+        },
+        {
+            filter: [{ id: 'ars_nouveau:ritual_harvest' }],
+            to_replace: `minecraft:iron_hoe`,
+            replace_with: 'naturesaura:infused_iron_hoe'
         }
     ];
 

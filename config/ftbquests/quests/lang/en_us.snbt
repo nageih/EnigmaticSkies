@@ -1110,6 +1110,19 @@
 		""
 		"Refer to the Book of Natural Aura for a preview of block placement."
 	]
+	quest.1ABB07894781F511.quest_desc: [
+		"By setting up some &7Powder of Fertility&r near your animals, you can keep them happy and breeding at the cost of Aura instead of food. "
+		"&n                                                  &r"
+		""
+		"Powders apply in groups and their range is directly related to the number of powders you were holding when placing them."
+		""
+		"For example, hold six powders and place them on the ground. All six will be placed as a single entity and their effect will cover a six-block radius. "
+		""
+		"Right-Click the floating powder with your Mystical Magnifier to visualize the area."
+		""
+		"&a🛈 Tip: Powders may be removed  "
+		"&a    by punching them."
+	]
 	quest.1AD06ADB17D92C6E.quest_desc: [
 		"Don’t feel like sleeping through the night? Or maybe you’d prefer a longer night for hunting monsters?"
 		""
