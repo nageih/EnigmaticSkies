@@ -129,7 +129,6 @@
 					id: "0FEFE6B72E03D0F5"
 					item: {
 						components: {
-							"morphtool:is_morph_tool": 1b
 							"morphtool:tool_content": [
 								{
 									count: 1
@@ -142,6 +141,10 @@
 								{
 									count: 1
 									id: "cable_facades:facade_wrench"
+								}
+								{
+									count: 1
+									id: "create:wrench"
 								}
 								{
 									count: 1
@@ -162,6 +165,13 @@
 								{
 									count: 1
 									id: "modern_industrialization:wrench"
+								}
+								{
+									components: {
+										"minecraft:unbreakable": { }
+									}
+									count: 1
+									id: "oritech:wrench"
 								}
 								{
 									components: {
@@ -191,16 +201,6 @@
 								{
 									count: 1
 									id: "supplementaries:wrench"
-								}
-								{
-									components: {
-										"minecraft:custom_name": "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Pipe Wrench\"}]}"
-										"minecraft:unbreakable": { }
-										"morphtool:is_morph_tool": 1b
-										"morphtool:og_display_name": "{\"translate\":\"item.oritech.wrench\"}"
-									}
-									count: 1
-									id: "oritech:wrench"
 								}
 							]
 						}

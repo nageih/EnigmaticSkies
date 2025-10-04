@@ -311,12 +311,12 @@ const villagerTrades = {
 
         {
             result: { id: 'utilitarian:angel_block', count: 1 },
-            ingredients: [{ id: 'enigmatica:lilys_lilac_cotton_candy', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 2, max: 4 } }],
             level: 2
         },
         {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
-            ingredients: [{ id: 'enigmatica:lilys_lilac_cotton_candy', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 2, max: 4 } }],
             level: 2
         },
 

@@ -356,7 +356,12 @@ ServerEvents.recipes((event) => {
             replace_with: `naturesaura:token_sorrow`
         },
         {
-            filter: [{ id: 'farmersdelight:cutting_board' }, { id: /functionalstorage:fluid/ }],
+            filter: [
+                { id: 'farmersdelight:cutting_board' },
+                { id: /functionalstorage:fluid/ },
+                { id: 'create:crafting/kinetics/cogwheel' },
+                { id: 'create:crafting/kinetics/large_cogwheel_from_little' }
+            ],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
         },
@@ -448,6 +453,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `minecraft:milk_bucket`,
             replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
+        },
+        {
+            filter: [{ id: 'ars_nouveau:ritual_harvest' }],
+            to_replace: `minecraft:iron_hoe`,
+            replace_with: 'naturesaura:infused_iron_hoe'
         }
     ];
 

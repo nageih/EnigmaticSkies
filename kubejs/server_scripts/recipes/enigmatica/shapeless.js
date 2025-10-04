@@ -84,6 +84,15 @@ ServerEvents.recipes((event) => {
             output: 'enigmatica:braising_cain',
             inputs: ['farmersdelight:bacon_sandwich', 'farmersdelight:stuffed_potato'],
             id: `${id_prefix}braising_cain`
+        },
+        {
+            output: 'enigmatica:jaxs_snax',
+            inputs: [
+                'enigmatica:lilys_lilac_cotton_candy',
+                'arsdelight:source_berry_cookie',
+                'arsdelight:source_berry_cookie'
+            ],
+            id: `${id_prefix}jaxs_snax`
         }
     ];
 

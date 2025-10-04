@@ -114,9 +114,8 @@ ServerEvents.recipes((event) => {
             result: { id: 'naturesaura:eye', count: 1 },
             reagent: { item: 'aether:golden_amber' },
             pedestalItems: [
-                { item: 'minecraft:skeleton_skull' },
                 { item: 'malum:strange_crystal' },
-                { item: 'naturesaura:infused_slab' },
+                { item: 'malum:strange_crystal' },
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
@@ -414,6 +413,19 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 500,
             id: `${id_prefix}basicmagnet`
+        },
+        {
+            result: { id: 'aether:enchanted_berry', count: 1 },
+            reagent: { item: 'aether:blue_berry' },
+            pedestalItems: [
+                { tag: 'c:nuggets/hallowed_gold' },
+                { tag: 'c:nuggets/hallowed_gold' },
+                { tag: 'c:nuggets/hallowed_gold' },
+                { tag: 'c:nuggets/hallowed_gold' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 500,
+            id: `${id_prefix}enchanted_berry`
         }
     ];
 
