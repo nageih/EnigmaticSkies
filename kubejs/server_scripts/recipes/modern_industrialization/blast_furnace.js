@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             item_outputs: { item: 'ae2:quartz_fiber', amount: 3 },
             fluid_inputs: [{ tag: 'c:mineral_slurry', amount: 50 }],
             item_inputs: [
-                { item: 'aether:quicksoil_glass', amount: 6 },
+                { item: 'aether:quicksoil', amount: 6 },
                 { tag: 'c:dusts/certus_quartz', amount: 3 }
             ],
             duration: 5,
