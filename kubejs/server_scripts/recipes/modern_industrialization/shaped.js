@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
                 C: 'create:propeller',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: 'create:precision_mechanism',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'modern_industrialization:analog_circuit'
             },
             id: `${id_prefix}lv_steam_turbine`
         },
@@ -154,7 +154,7 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:bronze_rotor',
                 D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'modern_industrialization:electronic_circuit'
             },
             id: `${id_prefix}mv_steam_turbine`
         },

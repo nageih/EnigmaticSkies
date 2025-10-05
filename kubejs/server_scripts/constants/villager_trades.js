@@ -99,6 +99,11 @@ const villagerTrades = {
             result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
             level: 4
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_fertility', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
+            level: 4
         }
     ],
     // Barrel
@@ -239,6 +244,17 @@ const villagerTrades = {
         {
             result: { id: `cold_sweat:hearth`, count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 1
+        }
+    ],
+    // Butcher
+    'minecraft:butcher': [
+        {
+            result: {
+                id: 'occultism:butcher_knife[enchantments={levels:{"minecraft:looting":1,"minecraft:sharpness":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 1
         }
     ],
@@ -393,8 +409,67 @@ const villagerTrades = {
     'minecraft:weaponsmith': [
         {
             result: { id: 'naturesaura:break_prevention', count: 1 },
-            ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 1
+        },
+        {
+            result: {
+                id: 'aether:candy_cane_sword[enchantments={levels:{"apothic_enchanting:scavenger":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: {
+                id: 'aether:zanite_sword[enchantments={levels:{"minecraft:looting":2}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
+            result: {
+                id: 'aether:zanite_axe[enchantments={levels:{"minecraft:looting":2}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
+            result: {
+                id: 'aether:vampire_blade[enchantments={levels:{"minecraft:mending":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: {
+                id: 'aether:flaming_sword[enchantments={levels:{"minecraft:sweeping_edge":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: {
+                id: 'aether:holy_sword[enchantments={levels:{"apothic_enchanting:knowledge_of_the_ages":1,"ars_elemental:soulbound":1,"minecraft:smite":3,"minecraft:unbreaking":2}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: {
+                id: 'aether:valkyrie_lance[enchantments={levels:{"ars_elemental:soulbound":1,"minecraft:sharpness":3,"minecraft:unbreaking":2}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // Blast Furnace

@@ -129,6 +129,7 @@ ServerEvents.recipes((event) => {
         { id: 'starbunclemania:star_bucket' },
         { id: 'starbunclemania:star_miner' },
         { id: 'starbunclemania:star_build' },
+        { id: 'starbunclemania:star_battery' },
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
@@ -482,6 +483,8 @@ ServerEvents.recipes((event) => {
         { id: `naturesaura:altar/crimson_fungus` },
         { id: `naturesaura:altar/tainted_gold` },
         { id: `naturesaura:altar/tainted_gold_block` },
+        { id: `naturesaura:altar/water` },
+        { id: 'naturesaura:offering_table' },
 
         // Occultism
         { type: 'occultism:miner' },
@@ -687,8 +690,7 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
         { output: 'theurgy:mercurial_wand' },
-        { output: 'theurgy:crystallized_water' },
-        { output: 'theurgy:crystallized_lava' },
+        { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

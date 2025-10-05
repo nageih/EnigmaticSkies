@@ -1448,6 +1448,13 @@
 		""
 		"Consider placing one beneath most Aura Using Devices as soon as possible. Some of them can consume Aura at a startling rate!"
 	]
+	quest.23ED7167CB856D26.quest_desc: [
+		"Magic doesn’t come out of thin air, of course. What madness!"
+		""
+		"Buy a &7Codex&r from your friendly neighborhood Librarian and dissolve it in &7Sal Ammoniac&r to obtain Liquefied Source. "
+		""
+		"From there, you’ll be able to infuse &7Ambrosium&r with it to create &7Source Gems&r."
+	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
 		""
@@ -1882,6 +1889,9 @@
 		"The Codices they sell are also the &n&7only&r&r way to access new glyphs. "
 		""
 		"Each Codex will teach you a &n&7single random glyph&r&r that that isn't already known by you."
+		""
+		"&a🛈 Tip: Learning Glyphs increases your "
+		"&a    mana, allowing you to cast more!"
 	]
 	quest.2F9C801DFAC1C0D9.title: "Storage Lectern"
 	quest.2FB39BF76836FA47.quest_desc: [
@@ -2024,7 +2034,7 @@
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
-		"With a Ritual Brazier secured, you're almost ready to summon your first new island."
+		"With a &7Ritual Brazier&r secured, you're almost ready to summon your first new island."
 		""
 		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
 	]
@@ -2791,6 +2801,11 @@
 		""
 		"Perfect for automating the Atomic Reconstructor."
 	]
+	quest.427846D4FFE678C5.quest_desc: [
+		"Consuming Life Shards has been known to provide certain health benefits. "
+		""
+		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
+	]
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
 		""
@@ -3311,7 +3326,7 @@
 		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
 	]
 	quest.4C54C9BE017CBC67.quest_desc: [
-		"Sand is a little hard to come by in this swampy environment. "
+		"&7Sand&r is a little hard to come by in this swampy environment. "
 		""
 		"[\"You may find it easier to obtain on the \",{ \"text\": \"Cascading Isle\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40C97D6332BD825B\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\".\"]"
 	]
@@ -3672,7 +3687,7 @@
 		""
 		"Here, that ability is extended to small flowers as well. "
 	]
-	quest.53CE92319716971B.title: "Small Flower Duping"
+	quest.53CE92319716971B.title: "Small Flower Duplication"
 	quest.540133B792547B21.quest_desc: [
 		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
 		""
@@ -4538,6 +4553,11 @@
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
+	]
+	quest.6806970967942788.quest_desc: [
+		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. Who will, in exchange for a hearty breakfast, gladly provide you with all the parts you need to start making power and automating water production."
+		""
+		"The &7Coffee Maker&r may also be used to automatically brew coffee. Simply pipe in the ingredients, supply some energy, and provide it a Redstone Signal to make it start."
 	]
 	quest.68079D29B91FC30A.quest_desc: [
 		"Modern Industrialization has its own Villager which can help you dramatically in the early game, selling you Steel Hammers, Analog Circuits, and other items to get you through the first tiers quickly."
@@ -5440,6 +5460,11 @@
 		"The Anti-Field Orb and Block both function to suppress certain genes; specifically the Item Attraction and XP Attraction traits."
 		""
 		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
+	]
+	quest.7A6226AD0E9C674F.quest_desc: [
+		"The &7Offering Table&r is a simple multi-block structure that requires two concentric circles of flowers around it. "
+		""
+		"The &7Book of Natural Aura&r will show you a preview of the layout."
 	]
 	quest.7AA55D33A2BD1E6E.quest_desc: [
 		"The Industrial Squeezer is primarily used for obtaining Plant Oil, it’s also the only source of HOP Graphite used in advanced crafts. "

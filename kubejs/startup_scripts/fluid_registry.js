@@ -8,17 +8,22 @@ StartupEvents.registry('fluid', (event) => {
         {
             name: 'Vulcanized Rubber',
             type: 'thick',
-            color: 0x1e1e1f
+            color: '#1e1e1f'
         },
         {
             name: 'Briny Seawater',
             type: 'thin',
-            color: 0x75c8ff
+            color: '#75c8ff'
         },
         {
             name: 'Wastewater',
             type: 'thick',
-            color: 0x7d5f33
+            color: '#7d5f33'
+        },
+        {
+            name: 'Espresso',
+            type: 'thin',
+            color: '#1f1200'
         }
     ];
 

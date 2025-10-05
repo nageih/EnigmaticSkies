@@ -389,13 +389,13 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'actuallyadditions:iron_casing' },
             pedestalItems: [
                 { item: 'ars_elemental:manipulation_turret' },
-                { item: 'minecraft:tinted_glass' },
+                { item: 'actuallyadditions:lens' },
                 { item: 'create:rose_quartz_lamp' },
-                { item: 'minecraft:tinted_glass' },
+                { item: 'actuallyadditions:lens' },
                 { item: 'actuallyadditions:advanced_coil' },
-                { item: 'minecraft:tinted_glass' },
+                { item: 'actuallyadditions:lens' },
                 { item: 'create:rose_quartz_lamp' },
-                { item: 'minecraft:tinted_glass' }
+                { item: 'actuallyadditions:lens' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 5000,
@@ -426,6 +426,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 500,
             id: `${id_prefix}enchanted_berry`
+        },
+        {
+            result: { id: 'aether:life_shard', count: 1 },
+            reagent: { tag: 'c:gems/ruby' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:essences/anima' },
+                { item: 'arsdelight:activated_mendosteen_jam' },
+                { tag: 'c:essences/anima' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:essences/anima' },
+                { item: 'arsdelight:activated_mendosteen_jam' },
+                { tag: 'c:essences/anima' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}life_shard`
         }
     ];
 
