@@ -12,7 +12,7 @@ StartupEvents.registry('item', (event) => {
         { name: `The Bun Also Rises`, color: '#139df2', magic: true },
         { name: `Glazed and Confused`, color: '#070ff7', magic: true },
         { name: `Braising Cain`, color: '#f578f1' },
-        { name: `Jax's Snax`, color: '#b285e6ff', magic: true }
+        { name: `Jax's Snax`, color: '#b285e6', magic: true }
     ];
 
     delivery_bags.forEach((item) => {

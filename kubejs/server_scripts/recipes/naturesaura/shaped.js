@@ -69,6 +69,18 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:hopper'
             },
             id: `${id_prefix}hopper_upgrade`
+        },
+        {
+            output: 'naturesaura:offering_table',
+            pattern: ['ABA', 'CAD', 'EEE'],
+            key: {
+                A: 'naturesaura:infused_stone',
+                B: '#c:ingots/infused_iron',
+                C: '#c:essences/earth',
+                D: '#c:essences/water',
+                E: 'naturesaura:ancient_planks'
+            },
+            id: `${id_prefix}offering_table`
         }
     ];
 

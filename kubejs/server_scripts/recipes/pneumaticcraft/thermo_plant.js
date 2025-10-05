@@ -171,6 +171,43 @@ ServerEvents.recipes((event) => {
             },
             pressure: 7.5,
             id: `${id_prefix}sturdy_sheet`
+        },
+        {
+            outputs: { fluid_output: { id: 'minecraft:water', amount: 8000 } },
+            inputs: { item: { item: 'theurgy:crystallized_water' } },
+            pressure: 1.0,
+            temperature: { min: CtoK(0) },
+            speed: 2.0,
+            id: `${id_prefix}water`
+        },
+        {
+            outputs: { fluid_output: { id: 'minecraft:lava', amount: 4000 } },
+            inputs: { item: { item: 'theurgy:crystallized_lava' } },
+            pressure: 1.0,
+            temperature: { min: CtoK(0) },
+            speed: 2.0,
+            id: `${id_prefix}lava`
+        },
+        {
+            outputs: { fluid_output: { id: 'enigmatica:espresso', amount: 250 } },
+            inputs: {
+                fluid: { fluid: 'minecraft:water', amount: 250 },
+                item: { item: 'actuallyadditions:coffee_beans' }
+            },
+            pressure: 9.0,
+            temperature: { min: CtoK(90), max: CtoK(96) },
+            speed: 1.0,
+            id: `${id_prefix}espresso`
+        },
+        {
+            outputs: { item_output: { id: 'actuallyadditions:coffee_cup', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'enigmatica:espresso', amount: 50 },
+                item: { item: 'actuallyadditions:empty_cup' }
+            },
+            temperature: { min: CtoK(0) },
+            speed: 2.0,
+            id: `${id_prefix}coffee_cup`
         }
     ];
 

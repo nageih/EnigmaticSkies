@@ -99,6 +99,11 @@ const villagerTrades = {
             result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
             level: 4
+        },
+        {
+            result: { id: 'ars_nouveau:ritual_fertility', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 2, max: 4 } }],
+            level: 4
         }
     ],
     // Barrel

@@ -33,12 +33,12 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:coffee_machine',
-            pattern: ['AB', 'DE', 'CC'],
+            pattern: ['BA', 'DE', 'CC'],
             key: {
-                A: 'minecraft:tinted_glass',
+                A: 'supplementaries:lumisene_bottle',
                 B: 'minecraft:hopper',
                 C: '#c:gems/enori',
-                D: 'actuallyadditions:empty_cup',
+                D: 'actuallyadditions:coffee_cup',
                 E: 'actuallyadditions:iron_casing'
             },
             id: `${id_prefix}coffee_machine`

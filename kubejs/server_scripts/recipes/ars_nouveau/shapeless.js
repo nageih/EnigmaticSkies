@@ -33,19 +33,6 @@ ServerEvents.recipes((event) => {
                 'aether:skyroot_sword'
             ],
             id: 'ars_nouveau:novice_spellbook_alt'
-        },
-        {
-            output: 'ars_nouveau:ritual_fertility',
-            inputs: [
-                'ars_nouveau:green_archwood_log',
-                'aether:enchanted_berry',
-                'aether:enchanted_berry',
-                'aether:enchanted_berry',
-                'arsdelight:mendosteen_jelly',
-                'supplementaries:lumisene_bottle',
-                'supplementaries:lumisene_bottle'
-            ],
-            id: 'ars_nouveau:ritual_fertility'
         }
     ];
 

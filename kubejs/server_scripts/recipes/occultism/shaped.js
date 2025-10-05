@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: '#c:dyes/white',
-                B: 'modern_industrialization:copper_ring',
+                B: '#c:ingots/copper',
                 C: 'handcrafted:terracotta_bowl'
             },
             id: `${id_prefix}sacrificial_bowl`
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: '#c:dyes/black',
-                B: 'modern_industrialization:copper_ring',
+                B: '#c:ingots/copper',
                 C: 'handcrafted:terracotta_bowl'
             },
             id: `${id_prefix}dark_sacrificial_bowl`
