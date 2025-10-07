@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
-                { id: 'malum:blazing_quartz', count: 1, chance: 1 / 2 },
+                { id: 'malum:blazing_quartz', count: 3, chance: 1 / 2 },
                 { id: 'modern_industrialization:carbon_dust', count: 1, chance: 1 / 4 },
                 { id: 'minecraft:netherite_scrap', count: 1, chance: 1 / 6 }
             ],

@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'createsifter:raw_iron_piece', count: 1 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
-                { ingredient: { tag: 'c:foods/raw_meats' }, count: 4 }
+                { ingredient: { tag: 'c:foods/raw_meat' }, count: 6 }
             ],
             fluid: { id: 'theurgy:sal_ammoniac', amount: 15 },
             time: 5,

@@ -281,7 +281,7 @@ ServerEvents.recipes((event) => {
             ],
             item_inputs: [
                 { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
-                { tag: material.input, amount: 9 },
+                { tag: material.input, amount: 4 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
             duration: 20 * material.tier,

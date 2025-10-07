@@ -30,7 +30,7 @@
 				item: { count: 1, id: "ars_nouveau:water_essence" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -105,17 +105,6 @@
 			}]
 			x: 3.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "04C9EFC8067E6BD5"
-			tasks: [{
-				id: "0A160EEE369BA147"
-				item: { count: 1, id: "minecraft:sugar_cane" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["2D190518ABA42A1F"]

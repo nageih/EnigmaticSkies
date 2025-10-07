@@ -3,6 +3,12 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            input: 'minecraft:melon',
+            table: 'enigmatica:archaeology/melon_ball',
+            weight: 100,
+            id: `${id_prefix}melon_ball`
+        },
+        {
             input: 'modern_industrialization:salt_block',
             table: 'enigmatica:archaeology/briny_dorodango',
             weight: 100,
@@ -27,12 +33,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}boggy_dorodango`
         },
         {
-            input: 'minecraft:melon',
-            table: 'enigmatica:archaeology/melon_ball',
-            weight: 100,
-            id: `${id_prefix}melon_ball`
-        },
-        {
             input: 'aether:cold_aercloud',
             table: 'enigmatica:archaeology/cloudy_dorodango',
             weight: 100,
@@ -43,6 +43,43 @@ ServerEvents.recipes((event) => {
             table: 'enigmatica:archaeology/sulfurous_dorodango',
             weight: 100,
             id: `${id_prefix}sulfurous_dorodango`
+        },
+
+        {
+            input: 'enigmatica:brilliant_salt',
+            table: 'enigmatica:archaeology/brilliant_briny_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_briny_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_sand',
+            table: 'enigmatica:archaeology/brilliant_silty_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_silty_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_crushed_basalt',
+            table: 'enigmatica:archaeology/brilliant_volcanic_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_volcanic_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_mud',
+            table: 'enigmatica:archaeology/brilliant_boggy_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_boggy_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_cold_aercloud',
+            table: 'enigmatica:archaeology/brilliant_cloudy_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_cloudy_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_golden_aercloud',
+            table: 'enigmatica:archaeology/brilliant_sulfurous_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_sulfurous_dorodango`
         }
     ];
 

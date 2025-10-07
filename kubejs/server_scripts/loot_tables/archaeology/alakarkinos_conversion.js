@@ -9,8 +9,18 @@ LootJS.lootTables((event) => {
         { id: 'cloudy_dorodango', rolls: [2, 5] },
         { id: 'sulfurous_dorodango', rolls: [2, 5] }
     ];
+
     types.forEach((type) => {
         event.create(`enigmatica:archaeology/${type.id}`, LootType.ARCHAEOLOGY).createPool((pool) => {
+            pool.rolls(type.rolls);
+            pool.addEntry(LootEntry.of(`enigmatica:${type.id}`));
+        });
+
+        type.rolls = type.rolls.map((r) => {
+            return r * 4;
+        });
+
+        event.create(`enigmatica:archaeology/brilliant_${type.id}`, LootType.ARCHAEOLOGY).createPool((pool) => {
             pool.rolls(type.rolls);
             pool.addEntry(LootEntry.of(`enigmatica:${type.id}`));
         });
