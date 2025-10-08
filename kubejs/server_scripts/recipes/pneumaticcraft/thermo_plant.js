@@ -216,7 +216,8 @@ ServerEvents.recipes((event) => {
                 item: { item: 'enigmatica:pelagite' }
             },
             air_use_multiplier: 10.0,
-            pressure: -0.75,
+            temperature: { min: CtoK(1500) },
+            pressure: -0.5,
             speed: 0.1,
             id: `${id_prefix}kerogen`
         },
@@ -231,6 +232,17 @@ ServerEvents.recipes((event) => {
             pressure: 9.0,
             speed: 0.1,
             id: `${id_prefix}crude_oil`
+        },
+        {
+            outputs: { fluid_output: { id: 'justdirethings:time_fluid_source', amount: 1000 } },
+            inputs: {
+                fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 },
+                item: { tag: 'c:gems/time' }
+            },
+            air_use_multiplier: 10.0,
+            temperature: { min: CtoK(100) },
+            pressure: 2.0,
+            id: `${id_prefix}time_fluid_source`
         }
     ];
 
