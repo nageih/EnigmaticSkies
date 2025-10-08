@@ -2,12 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/atomic_forge/';
     const recipes = [
         {
-            results: [{ id: 'minecraft:emerald', count: 2 }],
-            ingredients: [{ tag: 'c:dusts/bauxite' }, { tag: 'c:dusts/prismarine' }, { tag: 'c:dusts/prismarine' }],
-            time: 5,
-            id: `${id_prefix}emerald`
-        },
-        {
             results: [{ id: 'oritech:duratium_ingot', count: 1 }],
             ingredients: [
                 { tag: 'c:ingots/end_steel' },
