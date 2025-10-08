@@ -3796,13 +3796,15 @@
 	]
 	quest.578401B6C9DA2747.title: "Advanced Compressors"
 	quest.579B2C5CB83022ED.quest_desc: [
-		""
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
 		""
 		"You will undoubtedly want to spend some time setting up such Turrets to conjure important materials such as &7Cold Aerclouds&r, &7Aerogel&r, and &7Clay&r, to name a few."
 		""
 		"&a🛈 Tip: Item Pickup, when used with a Turret, "
 		"    &aplaces the items in any adjacent inventory."
+		""
+		"&6⚠ Note: Right-Click a Turret with your "
+		"&6    Spell Book or Spell Parchment to set a spell."
 	]
 	quest.579C07CD07599438.quest_desc: [
 		"In order to autocraft anything, AE needs a CPU to manage the craft. These are multi-block constructions composed of up to three components."

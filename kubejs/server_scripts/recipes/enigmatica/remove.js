@@ -89,6 +89,7 @@ ServerEvents.recipes((event) => {
         { output: /ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/ },
         { output: /ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/ },
         { output: 'ars_nouveau:ritual_overgrowth' },
+        { output: 'ars_nouveau:ritual_fertility' },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
         { id: `ars_nouveau:imbuement_chamber` },
         { id: /ars_nouveau:.*_sourcelink/ },
