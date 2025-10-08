@@ -151,7 +151,7 @@
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
 	quest.04D144DC0EAE8BE3.quest_desc: [
-		"Next, you'll want to buy a &7Brewing Stand&r to gain access to the &7Cleric Villager's&r trades. "
+		"Buy a &7Brewing Stand&r to gain access to the &7Cleric Villager's&r trades. "
 		""
 		"In particular, you'll need a &7Ritual Brazier&r soon, so be certain to pick one up."
 	]
@@ -2034,9 +2034,9 @@
 		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
-		"With a &7Ritual Brazier&r secured, you're almost ready to summon your first new island."
+		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. "
 		""
-		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
+		"You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
 	]
 	quest.34FB10F0A2504973.title: "Shepherd"
 	quest.34FFE863EB846035.quest_desc: [
@@ -3796,13 +3796,15 @@
 	]
 	quest.578401B6C9DA2747.title: "Advanced Compressors"
 	quest.579B2C5CB83022ED.quest_desc: [
-		""
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
 		""
 		"You will undoubtedly want to spend some time setting up such Turrets to conjure important materials such as &7Cold Aerclouds&r, &7Aerogel&r, and &7Clay&r, to name a few."
 		""
 		"&a🛈 Tip: Item Pickup, when used with a Turret, "
 		"    &aplaces the items in any adjacent inventory."
+		""
+		"&6⚠ Note: Right-Click a Turret with your "
+		"&6    Spell Book or Spell Parchment to set a spell."
 	]
 	quest.579C07CD07599438.quest_desc: [
 		"In order to autocraft anything, AE needs a CPU to manage the craft. These are multi-block constructions composed of up to three components."
@@ -5190,6 +5192,7 @@
 		"&6    their own aura types. "
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
+	quest.75507A3DE753BC75.quest_desc: ["Tired of losing drops in the clouds? Make yourself a magnet and you won't need to worry about it any longer."]
 	quest.75765D97E7ACC6FC.quest_desc: [
 		"Getting started, the first machine you’ll want to craft is the Foundry. This will allow you to create the various alloys you’ll need to proceed with more powerful machines. "
 		"&n                                                  &r"

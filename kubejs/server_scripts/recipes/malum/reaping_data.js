@@ -53,7 +53,8 @@ ServerEvents.generateData('after_mods', (event) => {
     let breezes = [
         'occultism:possessed_weak_breeze',
         'occultism:possessed_strong_breeze',
-        'occultism:possessed_breeze'
+        'occultism:possessed_breeze',
+        'aether:zephyr'
     ];
     breezes.forEach((breeze) => {
         recipes.push({

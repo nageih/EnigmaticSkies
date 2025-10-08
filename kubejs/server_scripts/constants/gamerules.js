@@ -1,6 +1,7 @@
 //priority: 1001
 
 const forced_rules = [
+    // { name: 'maxEntityCramming', value: '10' },
     { name: 'waterSourceConversion', value: false },
     { name: 'lavaSourceConversion', value: false },
     { name: 'doTraderSpawning', value: false },

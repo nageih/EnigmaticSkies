@@ -76,6 +76,13 @@ ServerEvents.recipes((event) => {
             aura: 27000,
             time: 120,
             id: `${id_prefix}block_of_hallowed_gold`
+        },
+        {
+            output: { id: 'justdirethings:time_crystal' },
+            input: { tag: 'c:dusts/grains_of_the_end' },
+            aura: 1800000,
+            time: 300,
+            id: `${id_prefix}time_crystal`
         }
     ];
 

@@ -283,7 +283,9 @@ StartupEvents.registry('item', (event) => {
         'cookie_dough',
         'sweet_berry_cookie_dough',
         'honey_cookie_dough',
-        'source_berry_cookie_dough'
+        'source_berry_cookie_dough',
+        'pelagite',
+        'kerogen'
     ];
 
     simple_items.forEach((item) => {

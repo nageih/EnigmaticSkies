@@ -10,7 +10,15 @@ const reapingData = [
         drops: [{ ingredient: { item: 'malum:wind_nucleus' }, chance: '0.5', min: '2', max: '4' }]
     },
     {
+        registry_name: 'aether:zephyr',
+        drops: [{ ingredient: { item: 'malum:wind_nucleus' }, chance: '0.5', min: '2', max: '4' }]
+    },
+    {
         registry_name: 'minecraft:enderman',
+        drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '0.3', min: '2', max: '4' }]
+    },
+    {
+        registry_name: 'minecraft:shulker',
         drops: [{ ingredient: { item: 'malum:warp_flux' }, chance: '0.3', min: '2', max: '4' }]
     },
     {

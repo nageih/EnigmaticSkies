@@ -6,6 +6,10 @@ function getID(name) {
         .replace(/[^a-z]+/g, '_');
 }
 
+function properCase(val) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 function toTitleCase(str) {
     return str.replace(/\w\S*/g, (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase());
 }
