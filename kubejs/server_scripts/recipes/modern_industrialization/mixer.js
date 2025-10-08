@@ -54,16 +54,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            item_outputs: [{ item: 'justdirethings:time_crystal', amount: 1 }],
-            item_inputs: [
-                { item: 'justdirethings:time_crystal_block', amount: 1, probability: 0.0 },
-                { item: 'minecraft:ghast_tear', amount: 1 }
-            ],
-            duration: 120,
-            eu: 4,
-            id: `${id_prefix}time_crystal`
-        },
-        {
             item_outputs: [{ item: 'oritech:raw_silicon', amount: 3 }],
             fluid_inputs: [{ tag: 'c:water', amount: 1000 }],
             item_inputs: [
@@ -105,36 +95,26 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}lumisene`
         },
         {
-            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 500 }],
+            item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
-                { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
-                { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
-                { item: 'minecraft:nautilus_shell', amount: 16 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'minecraft:nautilus_shell', amount: 8 },
+                { item: 'aquaculture:fish_bones', amount: 4 }
             ],
-            fluid_inputs: [
-                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
-                { fluid: 'extended_industrialization:manure', amount: 500 }
-            ],
+            fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 1000 }],
             duration: 20,
             eu: 2,
-            id: `${id_prefix}crude_oil_from_manure`
+            id: `${id_prefix}pelagite_from_manure`
         },
         {
-            fluid_outputs: [{ fluid: `pneumaticcraft:oil`, amount: 500 }],
+            item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
-                { tag: `justdirethings:goo/tier1`, amount: 1, probability: 0.0 },
-                { tag: `justdirethings:goo_revive_tier_1`, amount: 1, probability: 0.1 },
-                { item: 'minecraft:nautilus_shell', amount: 16 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'minecraft:nautilus_shell', amount: 8 },
+                { item: 'aquaculture:fish_bones', amount: 4 }
             ],
-            fluid_inputs: [
-                { fluid: `justdirethings:polymorphic_fluid_source`, amount: 500 },
-                { fluid: 'extended_industrialization:composted_manure', amount: 500 }
-            ],
+            fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 1000 }],
             duration: 20,
             eu: 2,
-            id: `${id_prefix}crude_oil_from_composted_manure`
+            id: `${id_prefix}pelagite_from_composted_manure`
         },
 
         {

@@ -324,6 +324,7 @@ ServerEvents.recipes((event) => {
         { output: 'justdirethings:generatorfluidt1' },
         { output: 'justdirethings:polymorphic_catalyst' },
         { id: 'justdirethings:itemcollector' },
+        { id: /justdirethings:budding_time/ },
         { id: /justdirethings:raw_coal_t(1|2)_ore-goospread/ },
         { id: /justdirethings:.*refined_t[0-9]_fluid_block-(goospread|fluiddrop)/ },
         { id: /justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/ },

@@ -208,6 +208,29 @@ ServerEvents.recipes((event) => {
             temperature: { min: CtoK(0) },
             speed: 2.0,
             id: `${id_prefix}coffee_cup`
+        },
+        {
+            outputs: { item_output: { id: 'enigmatica:kerogen', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 100 },
+                item: { item: 'enigmatica:pelagite' }
+            },
+            air_use_multiplier: 10.0,
+            pressure: -0.75,
+            speed: 0.1,
+            id: `${id_prefix}kerogen`
+        },
+        {
+            outputs: { fluid_output: { id: 'pneumaticcraft:oil', amount: 1000 } },
+            inputs: {
+                fluid: { fluid: 'justdirethings:time_fluid_source', amount: 100 },
+                item: { item: 'enigmatica:kerogen' }
+            },
+            air_use_multiplier: 10.0,
+            temperature: { min: CtoK(1500) },
+            pressure: 9.0,
+            speed: 0.1,
+            id: `${id_prefix}crude_oil`
         }
     ];
 

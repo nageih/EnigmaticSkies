@@ -334,28 +334,6 @@ const villagerTrades = {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 2, max: 4 } }],
             level: 2
-        },
-
-        {
-            result: { id: 'malum:rotting_essence', count: 1 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
-            level: 3
-        },
-        {
-            result: { id: 'malum:grim_talc', count: 1 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
-            level: 3
-        },
-
-        {
-            result: { id: 'malum:astral_weave', count: 1 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
-            level: 4
-        },
-        {
-            result: { id: 'malum:warp_flux', count: 1 },
-            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
-            level: 4
         }
     ],
     // Lectern
