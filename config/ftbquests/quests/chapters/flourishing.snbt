@@ -19,7 +19,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -52,7 +52,7 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -5.0d
 		}
 		{
@@ -153,7 +153,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -459,7 +459,7 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -474,7 +474,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{

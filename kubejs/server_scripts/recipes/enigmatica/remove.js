@@ -446,6 +446,7 @@ ServerEvents.recipes((event) => {
         { id: `modern_industrialization:materials/stainless_steel/blast_furnace/dust` },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
+        { id: /extended_industrialization:canning_machine\/(emptying|filling)\/minecraft\/water_bottle/ },
         { output: 'extended_industrialization:bronze_composter' },
         { output: /extended_industrialization:(steel|bronze)_solar_boiler/ },
         { output: /modern_industrialization:(steel|bronze)_boiler/ },
