@@ -21,13 +21,14 @@ LevelEvents.tick((event) => {
 
         // Mark the mob for death
         if (isSenescent && age == 0 && !pData.getInt('senescence')) {
-            // console.log(`${type} has an age of ${age}. Let it Die.`);
+            // console.log(`${entity.type} has an age of ${age}. Let it Die.`);
             pData.putInt('senescence', 1);
         }
 
         if (pData.getInt('senescence')) {
             if (pData.getInt('senescence') > max_senescence) {
-                entity.remove('discarded');
+                console.log(`${entity.type} has reached the end of it's life. Time to go.`);
+                entity.discard();
             } else {
                 pData.putInt('senescence', pData.getInt('senescence') + 1);
             }
