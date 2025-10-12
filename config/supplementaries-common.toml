@@ -82,7 +82,7 @@
 		mineshaft_elevator = 0.035
 
 	[redstone.dispenser_minecart]
-		enabled = true
+		enabled = false
 		#Makes projectiles shot from dispenser minecart retain the minecart velocity and be shot at an angle when the minecart is on a rail slope
 		adjust_projectile_angle = true
 

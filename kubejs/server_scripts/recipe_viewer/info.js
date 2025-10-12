@@ -53,20 +53,6 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'Search for §5#beheading§r in EMI for a list!'
             ]
         },
-        {
-            filter: ['justdirethings:time_crystal'],
-            text: [
-                'Obtaining Time Crystals is a mult-step process across multiple dimensions.',
-                ' ',
-                Text.of(
-                    'To begin, craft a Budding Time Crystal Block and place it in the Overworld; it will slowly charge up and turn a §1Blue§r color. Transfer it to The Nether where it will charge until it turns §6Orange§r, and finally to The End where it will charge until it turns §2Green§r.'
-                ),
-                ' ',
-                'Once fully charged, the Budding Time Crystal Block will begin growing Time Crystal Clusters. Fully grown Clusters may be broken to obtain Time Crystals.',
-                ' ',
-                'Fully Charged Budding Time Crystal Blocks will slowly decay, at which point they must be transferred back to the Overworld to repeat the cycle.'
-            ]
-        },
 
         {
             filter: ['enderio:industrial_insulation_block'],
@@ -74,7 +60,11 @@ RecipeViewerEvents.addInformation('item', (event) => {
         },
         {
             filter: ['naturesaura:vacuum_bottle'],
-            text: ['Use a Bottle and Cork in an area devoid of Aura.', ' ', `Can be automated using a Dispenser.`]
+            text: [
+                'Use a Bottle and Cork in an area devoid of Aura.',
+                ' ',
+                `Can be automated using a JustDireThings Clicker.`
+            ]
         },
         {
             filter: [
@@ -83,25 +73,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
             text: [
                 'Use a Bottle and Cork in an area of high Aura in the Overworld.',
                 ' ',
-                `Can be automated using a Dispenser.`
+                `Can be automated using a JustDireThings Clicker.`
             ]
         },
-        // {
-        //     filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]')],
-        //     text: [
-        //         'Use a Bottle and Cork in an area of high Aura in the Nether.',
-        //         ' ',
-        //         `Can be automated using a Dispenser.`
-        //     ]
-        // },
-        // {
-        //     filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]')],
-        //     text: [
-        //         'Use a Bottle and Cork in an area of high Aura in the End.',
-        //         ' ',
-        //         `Can be automated using a Dispenser.`
-        //     ]
-        // },
+
         {
             filter: ['naturesaura:gold_leaf'],
             text: [`Obtained by breaking Golden Leaves.`]
@@ -123,18 +98,21 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['naturesaura:projectile_generator'],
             text: [
-                `Valid projectiles from least to most potent.`,
+                `May be automated with a Supplementaries Cannon.`,
                 ` `,
-                `● Snowball`,
-                `● Egg`,
-                `● Arrow`,
-                `● Fire Charge`,
-                `● Spectral Arrow`,
-                `● Ender Pearl`,
-                `● Llama Spit`,
-                `● Bottle o' Enchanting`,
-                `● Shulker Bullet`,
-                `● Trident`
+                `Valid projectiles:`,
+                ` `,
+                `● Snowball:                7K`,
+                `● Egg:                      10K`,
+                `● Arrow:                30K`,
+                `● Fire Charge:          35K`,
+                `● Cannonball:             35K`,
+                `● Spectral Arrow:        40K`,
+                `● Ender Pearl:            50K`,
+                `● Llama Spit:             100K`,
+                `● Bottle o' Enchanting: 200K`,
+                `● Shulker Bullet:       300K`,
+                `● Trident:                 3M`
             ]
         },
         {

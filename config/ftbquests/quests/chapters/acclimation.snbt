@@ -531,7 +531,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 6
 					id: "135D7483AC80CDCB"
 					item: {
 						count: 1
@@ -725,6 +725,14 @@
 				id: "aether:altar"
 			}
 			id: "78E557B17D1EB84F"
+			rewards: [{
+				id: "7C3C989AF3292014"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "782CEBB73CA78563"
@@ -752,6 +760,14 @@
 			}
 			id: "49E18B07D6E4A5EB"
 			min_width: 300
+			rewards: [{
+				id: "5AB8BB000BEF1B97"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2A0E860B2F2A9332"
@@ -861,6 +877,14 @@
 		{
 			dependencies: ["51636F3E5A461A7B"]
 			id: "359A7C9127500D6C"
+			rewards: [{
+				id: "0964C72C3DBD1D8F"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A6C1F53FA6FB52E"
 				item: { count: 1, id: "minecraft:furnace" }
@@ -876,10 +900,11 @@
 			}
 			id: "074827E52A09685F"
 			rewards: [{
-				id: "48673B54A48A7DE6"
+				count: 16
+				id: "20A11FDE235B806E"
 				item: {
 					count: 1
-					id: "theurgy:crystallized_water"
+					id: "actuallyadditions:tiny_charcoal"
 				}
 				type: "item"
 			}]
@@ -1107,6 +1132,14 @@
 				id: "aether:freezer"
 			}
 			id: "616862D8ADBE3928"
+			rewards: [{
+				id: "580E96B6EEACFBFC"
+				item: {
+					count: 1
+					id: "theurgy:crystallized_water"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "69BBAA79B59F97FB"

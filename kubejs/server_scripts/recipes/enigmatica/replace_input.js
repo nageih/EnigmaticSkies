@@ -463,6 +463,41 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'ars_nouveau:ritual_harvest' }],
             to_replace: `#c:storage_blocks/iron`,
             replace_with: `#c:storage_blocks/enori`
+        },
+        {
+            filter: [{ id: 'pneumaticcraft:dispenser_upgrade' }],
+            to_replace: `minecraft:dispenser`,
+            replace_with: 'pneumaticcraft:cannon_barrel'
+        },
+        {
+            filter: [
+                { id: 'naturesaura:placer' },
+                { id: 'prettypipes:random_sorting_modifier' },
+                { id: 'modularrouters:activator_module' },
+                { id: 'justdirethings:clickert1' }
+            ],
+            to_replace: `minecraft:dispenser`,
+            replace_with: '#c:essences/manipulation'
+        },
+        {
+            filter: [{ id: 'justdirethings:blockplacert1' }, { id: 'modularrouters:placer_module' }],
+            to_replace: `minecraft:dispenser`,
+            replace_with: 'actuallyadditions:placer'
+        },
+        {
+            filter: [{ id: 'justdirethings:fluidcollectort1' }],
+            to_replace: `minecraft:dispenser`,
+            replace_with: 'actuallyadditions:fluid_collector'
+        },
+        {
+            filter: [{ id: 'modularrouters:placer_module' }],
+            to_replace: `minecraft:dirt`,
+            replace_with: 'aether:holystone'
+        },
+        {
+            filter: [{ id: 'justdirethings:playeraccessor' }],
+            to_replace: `minecraft:dispenser`,
+            replace_with: 'actuallyadditions:ender_casing'
         }
     ];
 
