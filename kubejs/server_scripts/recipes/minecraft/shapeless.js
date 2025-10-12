@@ -106,10 +106,6 @@ ServerEvents.recipes((event) => {
                 'minecraft:moss_carpet',
                 'minecraft:moss_carpet',
                 'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
                 'minecraft:moss_carpet'
             ],
             id: `${id_prefix}moss_block_from_moss_carpet`
