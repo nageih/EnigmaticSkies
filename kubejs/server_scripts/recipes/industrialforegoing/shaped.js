@@ -49,6 +49,17 @@ ServerEvents.recipes((event) => {
                 E: 'oritech:flux_gate'
             },
             id: `${id_prefix}fluid_sieving_machine`
+        },
+        {
+            output: 'industrialforegoing:conveyor_extraction_upgrade',
+            pattern: ['ABA', 'ACA', 'ADA'],
+            key: {
+                A: '#c:ingots/iron',
+                B: 'industrialforegoing:conveyor',
+                C: 'minecraft:hopper',
+                D: 'pneumaticcraft:plastic'
+            },
+            id: `${id_prefix}conveyor_extraction_upgrade`
         }
     ];
 
@@ -61,7 +72,7 @@ ServerEvents.recipes((event) => {
         { id: 'sludge_refiner', item: 'minecraft:bucket' },
         { id: 'animal_rancher', item: 'minecraft:shears', adv: true },
         { id: 'plant_gatherer', item: 'create:mechanical_harvester', adv: true },
-        { id: 'plant_sower', item: 'minecraft:dispenser', adv: true },
+        { id: 'plant_sower', item: 'naturesaura:infused_iron_hoe', adv: true },
         { id: 'block_placer', item: 'actuallyadditions:placer', adv: true },
         { id: 'block_breaker', item: 'actuallyadditions:breaker', adv: true },
         { id: 'fluid_placer', item: 'actuallyadditions:fluid_placer', adv: true },

@@ -1017,6 +1017,14 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.18665DD014E5055C.quest_desc: [
+		"Insert your cups in the &7Offering Table&r and then toss your sacrificial &7Life Shard&r on the ground. "
+		""
+		"After the lightning strikes, your reward will come falling from the sky!"
+		""
+		"&a🛈 Tip: A single Life Shard can make "
+		"&a    as many as 16 cups of coffee!"
+	]
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
@@ -1818,6 +1826,7 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
+	quest.2D190518ABA42A1F.title: "Bronze"
 	quest.2D4B890D1BE63327.quest_desc: [
 		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
 		"&n                                                  "
@@ -5533,10 +5542,6 @@
 		"We recommend that you also check out the guides and tutorials built into the mod’s own Guide."
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
-	quest.7E2295CDDF92E34F.quest_desc: [
-		"{@pagebreak}"
-		"(new page placeholder text)"
-	]
 	quest.7EE93B81F83AD199.quest_desc: [
 		"Enchanting Clay appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
 		""

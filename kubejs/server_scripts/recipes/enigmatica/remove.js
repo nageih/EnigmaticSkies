@@ -106,6 +106,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:shapers_focus' },
         { id: 'ars_nouveau:spell_turret' },
         { id: 'ars_nouveau:spell_prism' },
+        { id: 'ars_nouveau:splash_flask_cannon' },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -166,6 +167,7 @@ ServerEvents.recipes((event) => {
         { id: /create:splashing\/crushed_raw_.*/ },
         { id: /create:splashing\/(red_sand|gravel)/ },
         { id: /create:smelting\/.*_ingot_from_crushed/ },
+        { output: 'create:schematicannon' },
 
         { type: 'createsifter:sifting' },
         { id: /createsifter:(crushing|milling)/ },
@@ -311,6 +313,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:fluid_sieving_machine' },
         { output: 'industrialforegoing:resourceful_furnace' },
         { output: 'industrialforegoing:machine_frame_pity' },
+        { output: 'industrialforegoing:conveyor_extraction_upgrade' },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: /industrialforegoing:dissolution_chamber\/(simple|advanced)_machine_frame/ },
@@ -368,6 +371,7 @@ ServerEvents.recipes((event) => {
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
         { output: 'minecraft:cookie' },
+        { output: 'minecraft:dispenser' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
@@ -446,6 +450,7 @@ ServerEvents.recipes((event) => {
         { id: `modern_industrialization:materials/stainless_steel/blast_furnace/dust` },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
+        { id: /extended_industrialization:canning_machine\/(emptying|filling)\/minecraft\/water_bottle/ },
         { output: 'extended_industrialization:bronze_composter' },
         { output: /extended_industrialization:(steel|bronze)_solar_boiler/ },
         { output: /modern_industrialization:(steel|bronze)_boiler/ },
@@ -534,6 +539,7 @@ ServerEvents.recipes((event) => {
         { output: 'oritech:item_filter_block' },
         { output: 'oritech:packed_wheat' },
         { output: 'oritech:weed_killer' },
+        { output: 'oritech:charger_block' },
         { output: /oritech:reactor_/ },
         { output: /oritech:.*(energy|item|fluid)_pipe/ },
         { output: /oritech:.*superconductor/ },
@@ -663,12 +669,16 @@ ServerEvents.recipes((event) => {
         { id: 'sophisticatedstorage:magnet_upgrade' },
 
         { id: 'sophisticatedbackpacks:magnet_upgrade' },
+        { id: 'sophisticatedbackpacks:advanced_pump_upgrade' },
 
         // Supplementaries
         { id: 'supplementaries:statue' },
         { id: 'supplementaries:ash_brick' },
         { id: 'supplementaries:bellows' },
         { id: 'supplementaries:soap' },
+        { output: 'supplementaries:cannon' },
+        { output: 'supplementaries:cannonball' },
+        { id: 'supplementaries:dispenser_minecart' },
 
         // Tempad
         { id: 'tempad:time_steel_create' },

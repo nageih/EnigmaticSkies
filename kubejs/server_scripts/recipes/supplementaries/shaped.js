@@ -19,6 +19,24 @@ ServerEvents.recipes((event) => {
                 C: '#c:leathers'
             },
             id: `${id_prefix}bellows`
+        },
+        {
+            output: 'supplementaries:cannon',
+            pattern: [' A ', 'BCB'],
+            key: {
+                A: 'pneumaticcraft:cannon_barrel',
+                B: 'create:metal_bracket',
+                C: 'actuallyadditions:wood_casing'
+            },
+            id: `${id_prefix}cannon`
+        },
+        {
+            output: '10x supplementaries:cannonball',
+            pattern: [' A ', 'AAA', ' A '],
+            key: {
+                A: 'pneumaticcraft:compressed_stone'
+            },
+            id: `${id_prefix}cannonball`
         }
     ];
 

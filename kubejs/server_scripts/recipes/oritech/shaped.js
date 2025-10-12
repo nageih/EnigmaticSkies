@@ -153,6 +153,16 @@ ServerEvents.recipes((event) => {
                 D: 'modern_industrialization:bronze_machine_casing_pipe'
             },
             id: `${id_prefix}refinery_module_block`
+        },
+        {
+            output: `oritech:charger_block`,
+            pattern: [' A ', 'BCB'],
+            key: {
+                A: 'actuallyadditions:display_stand',
+                B: 'oritech:basic_battery',
+                C: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}charger_block`
         }
     ];
 

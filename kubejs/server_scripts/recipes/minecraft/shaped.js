@@ -4,10 +4,9 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'minecraft:furnace',
-            pattern: ['AAA', 'A A', 'BBB'],
+            pattern: ['AAA', 'A A', 'AAA'],
             key: {
-                A: 'minecraft:andesite',
-                B: 'minecraft:polished_andesite'
+                A: 'minecraft:andesite'
             },
             id: `${id_prefix}furnace`
         },

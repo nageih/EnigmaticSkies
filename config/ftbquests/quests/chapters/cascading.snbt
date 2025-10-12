@@ -19,7 +19,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -30,36 +30,8 @@
 				item: { count: 1, id: "ars_nouveau:water_essence" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			id: "14C46426CE60BF84"
-			tasks: [
-				{
-					id: "19E4B125DA7E467F"
-					item: { count: 1, id: "minecraft:sand" }
-					type: "item"
-				}
-				{
-					id: "3D3FAA8E7254A2D1"
-					item: { count: 1, id: "minecraft:prismarine_shard" }
-					type: "item"
-				}
-				{
-					id: "53255B1CD9C7109F"
-					item: { count: 1, id: "minecraft:prismarine_crystals" }
-					type: "item"
-				}
-				{
-					id: "0207CE15463C2999"
-					item: { count: 1, id: "minecraft:nautilus_shell" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -69,31 +41,8 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6534548E8A6A318C"]
-			id: "7E2295CDDF92E34F"
-			tasks: [
-				{
-					id: "012FE5503155C46E"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					id: "5B59C9EFD07B0145"
-					item: { count: 1, id: "minecraft:lapis_lazuli" }
-					type: "item"
-				}
-				{
-					id: "0E131249060F3712"
-					item: { count: 1, id: "aquaculture:neptunium_nugget" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 0.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -103,7 +52,7 @@
 				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -114,7 +63,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -125,19 +74,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 9.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["14C46426CE60BF84"]
-			id: "0F4546A0C55BC53A"
-			tasks: [{
-				id: "4FC37D84B722C2E8"
-				item: { count: 1, id: "minecraft:nether_wart" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -158,7 +96,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -168,13 +106,13 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"4F2E18DABA17E0AC"
-				"7E2295CDDF92E34F"
+				"3753A3EB1909F923"
 			]
 			id: "016B7CA4A7FC58A1"
 			tasks: [{
@@ -182,7 +120,7 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -193,19 +131,18 @@
 				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["14C46426CE60BF84"]
 			id: "40F5EC143766C2A7"
 			tasks: [{
 				id: "05C9BCCDE2AE8BAB"
 				item: { count: 1, id: "industrialforegoing:sewer" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40F5EC143766C2A7"]
@@ -223,8 +160,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -234,7 +171,7 @@
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -245,8 +182,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -256,8 +193,8 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -277,8 +214,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["24095EE1A419152D"]
@@ -288,13 +225,12 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"5E727F7B600E0E91"
-				"7E2295CDDF92E34F"
 				"2BB91161DB6B6AF5"
 			]
 			id: "3D3DEDBC67E91455"
@@ -303,8 +239,135 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			icon: {
+				id: "enigmatica:silty_dorodango"
+			}
+			id: "18D575594C6F74A7"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7039F9472DB92C81"
+					item: { count: 1, id: "enigmatica:silty_dorodango" }
+					type: "item"
+				}
+				{
+					id: "62A60E40114DC40B"
+					item: { count: 1, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					id: "4B366512F0DB7039"
+					item: { count: 1, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+				{
+					id: "59B2837860212558"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6534548E8A6A318C"]
+			icon: {
+				id: "enigmatica:briny_dorodango"
+			}
+			id: "3753A3EB1909F923"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6163EECD99437D54"
+					item: { count: 1, id: "enigmatica:briny_dorodango" }
+					type: "item"
+				}
+				{
+					id: "6E9E22397078B379"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "0049179F38D03B33"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "2E2783CA8D84D048"
+					item: { count: 1, id: "aquaculture:neptunium_nugget" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18D575594C6F74A7"]
+			icon: {
+				id: "enigmatica:pelagite"
+			}
+			id: "136FD7D7C0EECAE3"
+			tasks: [
+				{
+					id: "12B453B6A372FD9A"
+					item: { count: 1, id: "enigmatica:pelagite" }
+					type: "item"
+				}
+				{
+					id: "4BA380BB9A20B5A8"
+					item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["136FD7D7C0EECAE3"]
+			icon: {
+				id: "enigmatica:kerogen"
+			}
+			id: "4C91792ACCC53A2B"
+			tasks: [
+				{
+					id: "0E30A4970E169496"
+					item: { count: 1, id: "enigmatica:kerogen" }
+					type: "item"
+				}
+				{
+					id: "0B73F5B8626EB106"
+					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C91792ACCC53A2B"]
+			id: "59F0519A7ED69E19"
+			tasks: [{
+				id: "54ACE35B147A9D00"
+				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "492FE8CF9B01FCBE"
+			tasks: [{
+				id: "4E45093EA8187ADA"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 }

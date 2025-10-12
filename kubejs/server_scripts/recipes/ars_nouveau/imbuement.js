@@ -5,14 +5,14 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'ars_nouveau:air_essence', count: 1 },
             input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'aether:moa_eggs' }],
+            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'c:feathers' }],
             source: 2000,
             id: `${id_prefix}air_essence`
         },
         {
             output: { id: 'ars_nouveau:air_essence', count: 4 },
             input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'aether:moa_eggs' }],
+            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'c:feathers' }],
             source: 6000,
             id: `${id_prefix}air_essence_from_block`
         },

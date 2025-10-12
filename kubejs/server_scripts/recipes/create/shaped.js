@@ -59,6 +59,16 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:glowstone'
             },
             id: `${id_prefix}rose_quartz_lamp`
+        },
+        {
+            output: 'create:schematicannon',
+            pattern: [' A ', 'BCB'],
+            key: {
+                A: 'pneumaticcraft:cannon_barrel',
+                B: 'create:metal_bracket',
+                C: 'create:andesite_casing'
+            },
+            id: `${id_prefix}schematicannon`
         }
     ];
 

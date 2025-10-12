@@ -443,6 +443,38 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}life_shard`
+        },
+        {
+            result: { id: 'ars_nouveau:splash_flask_cannon', count: 1 },
+            reagent: { item: 'pneumaticcraft:cannon_barrel' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { item: 'supplementaries:lumisene_bottle' },
+                { item: 'supplementaries:lumisene_bottle' },
+                { tag: 'c:gunpowders' },
+                { tag: 'c:gunpowders' },
+                { tag: 'c:gunpowders' },
+                { tag: 'c:gunpowders' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}splash_flask_cannon`
+        },
+        {
+            result: { id: 'minecraft:trident', count: 1 },
+            reagent: { item: 'apothic_enchanting:inert_trident' },
+            pedestalItems: [
+                { tag: 'c:gems/prismarine' },
+                { tag: 'c:gems/prismarine' },
+                { tag: 'c:gems/prismarine' },
+                { tag: 'c:dusts/prismarine' },
+                { tag: 'c:dusts/prismarine' },
+                { tag: 'c:dusts/prismarine' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}trident`
         }
     ];
 

@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     const neptunium_items = [
         'fishing_rod',
         'pickaxe',
-        'shove',
+        'shovel',
         'axe',
         'hoe',
         'sword',
