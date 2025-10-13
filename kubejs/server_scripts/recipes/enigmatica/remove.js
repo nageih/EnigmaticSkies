@@ -154,6 +154,7 @@ ServerEvents.recipes((event) => {
         { id: /create:crushing\/.*_horse_armor/ },
         { id: 'create:crushing/prismarine_crystals' },
         { id: 'create:crushing/gilded_blackstone' },
+        { id: 'create:crushing/netherrack' },
         { id: 'create:mixing/compat/ae2/fluix_crystal' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },

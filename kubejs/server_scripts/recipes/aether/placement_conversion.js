@@ -101,6 +101,18 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
             { in: 'minecraft:cobbled_deepslate', out: 'malum:twisted_rock' },
             { in: 'minecraft:deepslate', out: 'malum:smooth_twisted_rock' }
+        ],
+        // Flashing
+        'minecraft:deep_dark': [
+            { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
+            { in: 'minecraft:farmland', out: 'aether:aether_farmland' },
+            { in: 'minecraft:grass_block', out: 'aether:aether_grass_block' },
+            { in: 'minecraft:cobblestone', out: 'minecraft:sculk' },
+            { in: 'minecraft:stone', out: 'minecraft:sculk' },
+            { in: 'minecraft:sand', out: 'aether:cold_aercloud' },
+            { in: 'minecraft:sandstone', out: 'aether:quicksoil' }
+            // { in: 'minecraft:cobbled_deepslate', out: 'minecraft:sculk' },
+            // { in: 'minecraft:deepslate', out: 'minecraft:sculk' }
         ]
     };
 

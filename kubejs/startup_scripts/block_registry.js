@@ -43,7 +43,8 @@ StartupEvents.registry('block', (event) => {
         'Brilliant Golden Aercloud',
         'Brilliant Mud',
         'Brilliant Salt',
-        'Brilliant Sand'
+        'Brilliant Sand',
+        'Brilliant Sculk'
     ];
 
     brilliant_dorodangos.forEach((block) => {

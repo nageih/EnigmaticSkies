@@ -7,7 +7,8 @@ LootJS.lootTables((event) => {
         { id: 'silty_dorodango', rolls: [2, 5] },
         { id: 'volcanic_dorodango', rolls: [2, 5] },
         { id: 'cloudy_dorodango', rolls: [2, 5] },
-        { id: 'sulfurous_dorodango', rolls: [2, 5] }
+        { id: 'sulfurous_dorodango', rolls: [2, 5] },
+        { id: 'reverberating_dorodango', rolls: [2, 5] }
     ];
 
     types.forEach((type) => {

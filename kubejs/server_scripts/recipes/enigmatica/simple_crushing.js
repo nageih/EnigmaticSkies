@@ -501,19 +501,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'crushed_basalt'
         },
         {
-            input: { tag: 'c:netherracks' },
-            outputs: [
-                { id: 'create:cinder_flour', count: 1 },
-                { id: 'create:cinder_flour', count: 1, chance: 0.5 }
-            ],
-            multiply: 'chance_only',
-            exclusions: ['create:crushing', 'create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'cinder_flour'
-        },
-        {
             input: { tag: 'c:gems/pulsating_crystal' },
             outputs: [{ id: 'enderio:pulsating_powder', count: 1 }],
             multiply: 'none',

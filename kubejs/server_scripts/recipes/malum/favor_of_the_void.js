@@ -33,11 +33,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wither_crop_block`
         },
         {
-            output: { id: 'occultism:otherworld_ashes' },
-            ingredient: { item: 'supplementaries:ash' },
-            id: `${id_prefix}otherworld_ashes`
-        },
-        {
             output: { id: 'malum:anomalous_design' },
             ingredient: { item: 'ae2:fluix_block' },
             id: `${id_prefix}anomalous_design`
