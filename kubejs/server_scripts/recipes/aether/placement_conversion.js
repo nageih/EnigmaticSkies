@@ -31,6 +31,12 @@ ServerEvents.recipes((event) => {
             result: { block: 'minecraft:crying_obsidian' },
             biome: '#enigmatica:global',
             id: `${id_prefix}minecraft_nether_portal`
+        },
+        {
+            ingredient: { block: 'minecraft:sculk_shrieker' },
+            result: { block: 'minecraft:sculk_shrieker', properties: { can_summon: 'true' } },
+            biome: 'minecraft:deep_dark',
+            id: `${id_prefix}minecraft_sculk_shrieker`
         }
     ];
 
