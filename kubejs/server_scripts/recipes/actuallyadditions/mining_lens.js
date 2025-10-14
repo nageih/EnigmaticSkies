@@ -37,6 +37,12 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'modern_industrialization:salt_block' },
             weight: 100,
             id: `${id_prefix}brilliant_salt`
+        },
+        {
+            result: { id: 'enigmatica:brilliant_sculk', count: 1 },
+            ingredient: { item: 'minecraft:sculk' },
+            weight: 100,
+            id: `${id_prefix}brilliant_sculk`
         }
     ];
 

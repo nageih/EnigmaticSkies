@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flashing"
+	group: "46AB9129BBE517B6"
+	icon: {
+		id: "ars_nouveau:thread_air_focus"
+	}
+	id: "300207E2557764E1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0745FDF3F22807CA"
+			tasks: [{
+				id: "1A8E4D246E8B557E"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0745FDF3F22807CA"]
+			id: "768869D763EC54EB"
+			tasks: [{
+				id: "19AFB8190B18D220"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["768869D763EC54EB"]
+			id: "19F8B29D38CA31B8"
+			tasks: [{
+				id: "282D385C49F82087"
+				item: { count: 1, id: "ars_elemental:flashpine_pod" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+}

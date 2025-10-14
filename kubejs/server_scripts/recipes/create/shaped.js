@@ -69,6 +69,60 @@ ServerEvents.recipes((event) => {
                 C: 'create:andesite_casing'
             },
             id: `${id_prefix}schematicannon`
+        },
+        {
+            output: 'create:powered_toggle_latch',
+            pattern: [' A ', ' B ', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: 'minecraft:lever',
+                C: 'naturesaura:infused_stone'
+            },
+            id: `${id_prefix}powered_toggle_latch`
+        },
+        {
+            output: 'create:powered_latch',
+            pattern: [' A ', 'DBD', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: 'minecraft:lever',
+                C: 'naturesaura:infused_stone',
+                D: '#c:dusts/redstone'
+            },
+            id: `${id_prefix}powered_latch`
+        },
+        {
+            output: 'create:pulse_repeater',
+            pattern: ['DBA', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: 'create:precision_mechanism',
+                C: 'naturesaura:infused_stone',
+                D: '#c:dusts/redstone'
+            },
+            id: `${id_prefix}pulse_repeater`
+        },
+        {
+            output: 'create:pulse_extender',
+            pattern: ['  A', 'DBA', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: 'create:precision_mechanism',
+                C: 'naturesaura:infused_stone',
+                D: '#c:dusts/redstone'
+            },
+            id: `${id_prefix}pulse_extender`
+        },
+
+        {
+            output: 'create:pulse_timer',
+            pattern: [' BA', 'CCC'],
+            key: {
+                A: 'minecraft:redstone_torch',
+                B: 'ars_technica:calibrated_precision_mechanism',
+                C: 'naturesaura:infused_stone'
+            },
+            id: `${id_prefix}pulse_timer`
         }
     ];
 

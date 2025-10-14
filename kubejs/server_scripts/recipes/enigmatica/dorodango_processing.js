@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: 'malum:blazing_quartz', count: 3, chance: 1 / 2 },
                 { id: 'modern_industrialization:carbon_dust', count: 1, chance: 1 / 4 },
-                { id: 'minecraft:netherite_scrap', count: 1, chance: 1 / 6 }
+                { id: 'create:cinder_flour', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:volcanic_dorodango', count: 1 },
             id_suffix: `volcanic_dorodango_processing`
@@ -44,6 +44,15 @@ ServerEvents.recipes((event) => {
             ],
             input: { item: 'enigmatica:boggy_dorodango', count: 1 },
             id_suffix: `boggy_dorodango_processing`
+        },
+        {
+            outputs: [
+                { id: 'aether:zanite_gemstone', count: 1, chance: 1 / 2 },
+                { id: 'occultism:echo_dust', count: 1, chance: 1 / 4 },
+                { id: 'occultism:otherworld_ashes', count: 1, chance: 1 / 6 }
+            ],
+            input: { item: 'enigmatica:reverberating_dorodango', count: 1 },
+            id_suffix: `reverberating_dorodango_processing`
         },
         {
             outputs: [

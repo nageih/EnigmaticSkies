@@ -107,6 +107,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:spell_turret' },
         { id: 'ars_nouveau:spell_prism' },
         { id: 'ars_nouveau:splash_flask_cannon' },
+        { id: /ars_nouveau:manipulation_essence_to_.*_sapling/ },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
@@ -122,6 +123,7 @@ ServerEvents.recipes((event) => {
         { output: 'arsdelight:source_berry_cookie' },
 
         { id: 'ars_elemental:wool_to_string' },
+        { id: 'ars_elemental:flashing_sapling' },
 
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
         { id: `ars_caelum:heart_of_the_sea` },
@@ -152,6 +154,7 @@ ServerEvents.recipes((event) => {
         { id: /create:crushing\/.*_horse_armor/ },
         { id: 'create:crushing/prismarine_crystals' },
         { id: 'create:crushing/gilded_blackstone' },
+        { id: 'create:crushing/netherrack' },
         { id: 'create:mixing/compat/ae2/fluix_crystal' },
         { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
@@ -168,6 +171,11 @@ ServerEvents.recipes((event) => {
         { id: /create:splashing\/(red_sand|gravel)/ },
         { id: /create:smelting\/.*_ingot_from_crushed/ },
         { output: 'create:schematicannon' },
+        { output: 'create:powered_toggle_latch' },
+        { output: 'create:powered_latch' },
+        { output: 'create:pulse_repeater' },
+        { output: 'create:pulse_extender' },
+        { output: 'create:pulse_timer' },
 
         { type: 'createsifter:sifting' },
         { id: /createsifter:(crushing|milling)/ },
@@ -195,6 +203,7 @@ ServerEvents.recipes((event) => {
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
         { id: 'enderio:alloy_smelting/industrial_insulation_block' },
         { id: 'enderio:alloy_smelting/ender_pearl' },
+        { id: 'enderio:alloy_smelting/cookie' },
         { id: 'enderio:pulsating_crystal' },
         { id: /enderio:(energized|vibrant|dark_bimetal)_gear/ },
         { id: 'enderio:slice_and_splice' },

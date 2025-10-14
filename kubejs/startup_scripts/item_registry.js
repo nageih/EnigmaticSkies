@@ -275,6 +275,7 @@ StartupEvents.registry('item', (event) => {
         'volcanic_dorodango',
         'cloudy_dorodango',
         'sulfurous_dorodango',
+        'reverberating_dorodango',
 
         'antikythera_mechanism',
         'dilapidated_mechanism',
