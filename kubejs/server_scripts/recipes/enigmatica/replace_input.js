@@ -60,7 +60,12 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:dyes/green'
         },
         {
-            filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            filter: [
+                { output: 'minecraft:observer' },
+                { output: `minecraft:comparator` },
+                { mod: 'prettypipes' },
+                { mod: 'ppfluids' }
+            ],
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
@@ -83,17 +88,17 @@ ServerEvents.recipes((event) => {
                 { output: `minecraft:smithing_table` }
             ],
             to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
             filter: [{ mod: `transfer_labels` }],
             to_replace: '#c:ingots/copper',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
             filter: [{ mod: `trashcans` }],
             to_replace: 'minecraft:cobblestone',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
             filter: [{ mod: 'farmersdelight' }],
@@ -103,7 +108,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: 'farmersdelight:cooking_pot' }],
             to_replace: '#c:ingots/iron',
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
             filter: [
@@ -113,17 +118,17 @@ ServerEvents.recipes((event) => {
                 { output: `utilitarian:fluid_hopper` }
             ],
             to_replace: 'minecraft:bucket',
-            replace_with: Ingredient.of(['#c:buckets/empty'])
+            replace_with: '#c:buckets/empty'
         },
         {
             filter: [{ id: `ars_nouveau:sourcestone` }],
             to_replace: '#c:stones',
-            replace_with: Ingredient.of(['ae2:sky_stone_block'])
+            replace_with: 'ae2:sky_stone_block'
         },
         {
             filter: [{ mod: `elevatorid` }],
             to_replace: 'minecraft:ender_pearl',
-            replace_with: Ingredient.of(['aether:blue_aercloud'])
+            replace_with: 'aether:blue_aercloud'
         },
         {
             filter: [
@@ -140,12 +145,17 @@ ServerEvents.recipes((event) => {
                 { output: `create:redstone_contact` }
             ],
             to_replace: 'minecraft:cobblestone',
-            replace_with: Ingredient.of(['minecraft:andesite'])
+            replace_with: 'minecraft:andesite'
+        },
+        {
+            filter: [{ output: `minecraft:repeater` }, { output: `minecraft:comparator` }],
+            to_replace: 'minecraft:stone',
+            replace_with: 'minecraft:andesite'
         },
         {
             filter: [{ output: `minecraft:dispenser` }],
             to_replace: 'minecraft:bow',
-            replace_with: Ingredient.of(['#c:strings'])
+            replace_with: '#c:strings'
         },
         {
             filter: [
@@ -154,52 +164,52 @@ ServerEvents.recipes((event) => {
                 { output: 'modularrouters:speed_upgrade' }
             ],
             to_replace: 'minecraft:blaze_rod',
-            replace_with: Ingredient.of(['supplementaries:lumisene_bottle'])
+            replace_with: 'supplementaries:lumisene_bottle'
         },
         {
             filter: {},
             to_replace: 'minecraft:egg',
-            replace_with: Ingredient.of(['#c:eggs'])
+            replace_with: '#c:eggs'
         },
         {
             filter: [{ mod: 'actuallyadditions' }],
             to_replace: '#c:cobblestones',
-            replace_with: Ingredient.of(['minecraft:tuff'])
+            replace_with: 'minecraft:tuff'
         },
         {
             filter: {},
             to_replace: 'create:dough',
-            replace_with: Ingredient.of(['#c:doughs/wheat'])
+            replace_with: '#c:doughs/wheat'
         },
         {
             filter: [{ id: /modern_industrialization:.*item_pipe/ }],
             to_replace: '#c:gears/steel',
-            replace_with: Ingredient.of(['#c:gears/copper'])
+            replace_with: '#c:gears/copper'
         },
         {
             filter: {},
             to_replace: `extended_industrialization:silver_curved_plate`,
-            replace_with: Ingredient.of([`#c:ingots/silver`])
+            replace_with: `#c:ingots/silver`
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:plates/plastic',
-            replace_with: Ingredient.of(['actuallyadditions:enori_crystal'])
+            replace_with: 'actuallyadditions:enori_crystal'
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:gears/gold',
-            replace_with: Ingredient.of(['actuallyadditions:advanced_coil'])
+            replace_with: 'actuallyadditions:advanced_coil'
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:gears/diamond',
-            replace_with: Ingredient.of(['#c:gears/bronze'])
+            replace_with: '#c:gears/bronze'
         },
         {
             filter: {},
             to_replace: `industrialforegoing:machine_frame_pity`,
-            replace_with: Ingredient.of(['actuallyadditions:iron_casing'])
+            replace_with: 'actuallyadditions:iron_casing'
         },
         {
             filter: [{ mod: 'industrialforegoing' }],
@@ -229,12 +239,12 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:pulverizer_block`,
-            replace_with: Ingredient.of(['oritech:flux_gate'])
+            replace_with: 'oritech:flux_gate'
         },
         {
             filter: [{ id: 'create:rose_quartz_lamp' }, { id: /create:copycat/ }],
             to_replace: `#c:ingots/zinc`,
-            replace_with: Ingredient.of(['#c:ingots/andesite_alloy'])
+            replace_with: '#c:ingots/andesite_alloy'
         },
         {
             filter: {},
@@ -256,16 +266,6 @@ ServerEvents.recipes((event) => {
             to_replace: `oritech:motor`,
             replace_with: `modern_industrialization:motor`
         },
-        // {
-        //     filter: [{ mod: 'justdirethings' }],
-        //     to_replace: `minecraft:ender_eye`,
-        //     replace_with: '#c:gems/pulsating_crystal'
-        // },
-        // {
-        //     filter: [{ mod: 'justdirethings' }],
-        //     to_replace: `minecraft:ender_pearl`,
-        //     replace_with: '#c:gems/pulsating_crystal'
-        // },
         {
             filter: [{ id: /justdirethings:.*t1$/ }],
             to_replace: `minecraft:ender_eye`,
@@ -450,9 +450,14 @@ ServerEvents.recipes((event) => {
             replace_with: 'ars_nouveau:magebloom_fiber'
         },
         {
-            filter: {},
+            filter: [{ not: { output: 'farmersdelight:milk_bottle' } }],
             to_replace: `minecraft:milk_bucket`,
             replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
+        },
+        {
+            filter: [{ output: 'farmersdelight:milk_bottle' }],
+            to_replace: `minecraft:milk_bucket`,
+            replace_with: '#c:buckets/milk'
         },
         {
             filter: [{ id: 'ars_nouveau:ritual_harvest' }],
