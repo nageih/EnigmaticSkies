@@ -125,7 +125,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_elemental:wool_to_string' },
         { id: 'ars_elemental:flashing_sapling' },
 
-        { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode)/ },
+        { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode|sculk)/ },
         { id: `ars_caelum:heart_of_the_sea` },
 
         { id: 'ars_technica:mark_of_technomancy' },

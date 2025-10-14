@@ -33,6 +33,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ritual_conjure_island_blazing`
         },
         {
+            output: 'ars_caelum:ritual_conjure_island_sculk',
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: '#c:essences/air',
+                B: 'aether:cold_aercloud',
+                C: 'ars_nouveau:sourcestone'
+            },
+            id: `${id_prefix}ritual_conjure_island_sculk`
+        },
+        {
             output: 'ars_caelum:ritual_conjure_island_vexing',
             pattern: [' A ', 'BCB', ' B '],
             key: {
