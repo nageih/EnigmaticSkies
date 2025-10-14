@@ -237,11 +237,11 @@ ServerEvents.recipes((event) => {
             pedestalItems: [
                 { tag: 'c:essences/earth' },
                 { item: 'malum:strange_crystal' },
-                { item: 'malum:strange_crystal' },
+                { item: 'minecraft:echo_shard' },
                 { item: 'malum:strange_crystal' },
                 { tag: 'c:essences/air' },
                 { item: 'malum:strange_crystal' },
-                { item: 'malum:strange_crystal' },
+                { item: 'minecraft:echo_shard' },
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
