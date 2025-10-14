@@ -8,7 +8,7 @@
 	}
 	id: "72C4CB45CED49659"
 	loot_size: 2
-	order_index: 20
+	order_index: 18
 	rewards: [
 		{ id: "2F28ABE5964C0A09", item: { count: 1, id: "naturesaura:ancient_sapling" } }
 		{
@@ -26,29 +26,6 @@
 				count: 1
 				id: "naturesaura:ancient_log"
 			}
-		}
-		{
-			count: 8
-			id: "60F0843578F0BBE2"
-			item: {
-				count: 1
-				id: "naturesaura:gold_powder"
-			}
-		}
-		{
-			auto: "invisible"
-			command: "/execute at @p run naaura add 100000"
-			feedback_message: "Aura Infusion"
-			icon: {
-				components: {
-					"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "5931110DE0F30EB7"
-			permission_level: 2
-			silent: true
-			type: "command"
 		}
 	]
 	use_title: true
