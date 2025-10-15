@@ -129,13 +129,13 @@ ServerEvents.recipes((event) => {
             {
                 output: `3x ${AlmostUnified.getTagTargetItem(`c:raw_materials/${material}`).getId()}`,
                 inputs: [
-                    `malum:${material}_node`,
                     `createsifter:raw_${material}_piece`,
                     `createsifter:raw_${material}_piece`,
                     `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`
+                    `createsifter:raw_${material}_piece`,
+                    `malum:${material}_node`
                 ],
-                id: `${id_prefix}raw_${material}_piece`
+                id: `${id_prefix}raw_${material}_piece_with_node`
             }
         );
     });

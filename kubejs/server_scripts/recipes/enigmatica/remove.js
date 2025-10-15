@@ -367,6 +367,10 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
         { id: /malum:spirit_infusion\/.*_impetus/ },
+        { id: /malum:spirit_crucible\/node_focusing/ },
+        {
+            id: /malum:spirit_repair\/fractured_(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_impetus_restoration/
+        },
         { id: /malum:.*_from_node_(smelting|blasting)/ },
 
         // Minecraft
@@ -611,6 +615,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
+        { id: 'oritech:refinery/compat/create/rawsheol/zinc' },
         { id: /oritech:refinery\/rawsheol/ },
         { id: /oritech:refinery\/(biodiesel|heavyoil|oil|lava|carbonsheet)/ },
         { id: /oritech:splashing\/compat\/create/ },

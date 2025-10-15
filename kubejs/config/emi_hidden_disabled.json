@@ -61,6 +61,8 @@
             "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
             "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
 
+            "/malum:.*(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_(impetus|node)/",
+
             "/(modern|extended)_industrialization:.*_(curved_plate|bolt)$/",
             "/modern_industrialization:.*_water_pump/",
             "modern_industrialization:fire_clay_dust",

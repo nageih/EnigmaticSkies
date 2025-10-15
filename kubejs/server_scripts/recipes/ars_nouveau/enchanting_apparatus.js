@@ -478,7 +478,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'minecraft:heavy_core', count: 1 },
-            reagent: { tag: 'enderio:ensouled_chassis' },
+            reagent: { item: 'enderio:ensouled_chassis' },
             pedestalItems: [
                 { tag: 'c:storage_blocks/compressed_iron' },
                 { tag: 'c:storage_blocks/neptunium' },
