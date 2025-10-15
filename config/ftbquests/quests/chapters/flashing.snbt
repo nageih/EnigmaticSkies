@@ -11,14 +11,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "0745FDF3F22807CA"
 			tasks: [{
 				id: "1A8E4D246E8B557E"
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0745FDF3F22807CA"]
@@ -28,8 +29,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -39,7 +40,7 @@
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -54,37 +55,87 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4A8A8EBE444FB3FE"]
-			id: "587D46777918D137"
-			tasks: [{
-				id: "6BDC8B438E622197"
-				item: { count: 1, id: "the_bumblezone:windy_air" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["587D46777918D137"]
+			dependencies: ["55D51F58CA3130AA"]
 			id: "31177A0E9206A129"
 			tasks: [{
 				id: "1488C33052ED8DA8"
 				item: { count: 1, id: "minecraft:wind_charge" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["31177A0E9206A129"]
+			dependencies: [
+				"31177A0E9206A129"
+				"75BD1F2EB47FB7CF"
+				"4611475A6946B7DF"
+			]
 			id: "1C0EAAC2481EC6E9"
 			tasks: [{
 				id: "0C4175DB427AB6C9"
 				item: { count: 1, id: "modern_industrialization:liquid_air_bucket" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1C0EAAC2481EC6E9"
+				"2960228C632FA877"
+			]
+			id: "398AE848C969FCEF"
+			tasks: [{
+				id: "45ECBC4A2208D6DB"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["768869D763EC54EB"]
+			id: "55D51F58CA3130AA"
+			tasks: [{
+				id: "252408AD422FDB0D"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55D51F58CA3130AA"]
+			id: "503873180200D878"
+			tasks: [{
+				id: "42B238097C6577A0"
+				item: { count: 1, id: "enigmatica:reverberating_dorodango" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["503873180200D878"]
+			id: "2960228C632FA877"
+			tasks: [{
+				id: "4D3630CAE3AEF84C"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "4611475A6946B7DF"
+			tasks: [{
+				id: "1DB056BFFDFB88E0"
+				item: { count: 1, id: "malum:wind_nucleus" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 }

@@ -56,8 +56,8 @@ ServerEvents.recipes((event) => {
             item_outputs: { item: 'naturesaura:sky_ingot', amount: 1 },
             fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
             item_inputs: [
-                { tag: 'c:ingots/silver', amount: 1 },
-                { item: 'minecraft:echo_shard', amount: 1 }
+                { item: 'malum:zephyr_impetus', amount: 1, probability: 0.01 },
+                { tag: 'c:ingots/silver', amount: 1 }
             ],
             duration: 20,
             eu: 4,

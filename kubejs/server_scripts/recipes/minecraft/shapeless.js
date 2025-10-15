@@ -112,6 +112,34 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const materials = ['copper', 'gold', 'iron'];
+
+    materials.forEach((material) => {
+        recipes.push(
+            {
+                output: AlmostUnified.getTagTargetItem(`c:raw_materials/${material}`).getId(),
+                inputs: [
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`
+                ],
+                id: `${id_prefix}raw_${material}_piece`
+            },
+            {
+                output: `3x ${AlmostUnified.getTagTargetItem(`c:raw_materials/${material}`).getId()}`,
+                inputs: [
+                    `malum:${material}_node`,
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`,
+                    `createsifter:raw_${material}_piece`
+                ],
+                id: `${id_prefix}raw_${material}_piece`
+            }
+        );
+    });
+
     recipes.forEach((recipe) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);

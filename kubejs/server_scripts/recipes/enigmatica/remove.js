@@ -350,6 +350,7 @@ ServerEvents.recipes((event) => {
         // Malum
         { id: /malum:create\/washing\/.*_node/ },
         { id: /malum:create\/washing\/crushed_.*/ },
+        { id: /malum:create\/crushing\/impetus/ },
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
         { id: /malum:create\/crushing\/ore/ },
         { id: 'malum:void_favor/raw_soulstone' },
@@ -365,6 +366,8 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/paracausal_flame' },
         { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
+        { id: /malum:spirit_infusion\/.*_impetus/ },
+        { id: /malum:.*_from_node_(smelting|blasting)/ },
 
         // Minecraft
         { id: 'minecraft:slime_block' },

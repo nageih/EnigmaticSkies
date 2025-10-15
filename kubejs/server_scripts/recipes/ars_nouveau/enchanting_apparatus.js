@@ -237,11 +237,11 @@ ServerEvents.recipes((event) => {
             pedestalItems: [
                 { tag: 'c:essences/earth' },
                 { item: 'malum:strange_crystal' },
-                { item: 'minecraft:echo_shard' },
+                { tag: 'c:dusts/grains_of_the_end' },
                 { item: 'malum:strange_crystal' },
                 { tag: 'c:essences/air' },
                 { item: 'malum:strange_crystal' },
-                { item: 'minecraft:echo_shard' },
+                { tag: 'c:dusts/grains_of_the_end' },
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
@@ -477,12 +477,19 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}trident`
         },
         {
-            result: { id: 'minecraft:wind_charge', count: 1 },
-            reagent: { item: 'the_bumblezone:windy_air' },
-            pedestalItems: [{ tag: 'c:essences/air' }, { tag: 'c:essences/air' }, { tag: 'c:essences/air' }],
+            result: { id: 'minecraft:heavy_core', count: 1 },
+            reagent: { tag: 'enderio:ensouled_chassis' },
+            pedestalItems: [
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' },
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' },
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' }
+            ],
             keepNbtOfReagent: false,
-            sourceCost: 0,
-            id: `${id_prefix}wind_charge`
+            sourceCost: 10000,
+            id: `${id_prefix}heavy_core`
         }
     ];
 

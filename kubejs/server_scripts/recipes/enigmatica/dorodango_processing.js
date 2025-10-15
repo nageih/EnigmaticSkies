@@ -56,6 +56,7 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
+                { id: 'minecraft:wind_charge', count: 1, chance: 1 / 2 },
                 { id: 'ae2:sky_dust', count: 1, chance: 1 / 4 },
                 { id: 'theurgy:sal_ammoniac_crystal', count: 1, chance: 1 / 6 }
             ],

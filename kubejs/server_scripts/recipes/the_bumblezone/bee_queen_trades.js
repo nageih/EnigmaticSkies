@@ -11,18 +11,6 @@ ServerEvents.generateData('after_mods', (event) => {
                 }
             ],
             id_suffix: 'honey_glazed_chimera_trades'
-        },
-        {
-            wants: [{ id: 'aether:enchanted_gravitite', required: true }],
-            possible_rewards: [
-                {
-                    item: { id: 'the_bumblezone:windy_air', count: 32 },
-                    xp_reward: 50,
-                    weight: 1,
-                    required: true
-                }
-            ],
-            id_suffix: 'enchanted_gravitite_trades'
         }
     ];
 

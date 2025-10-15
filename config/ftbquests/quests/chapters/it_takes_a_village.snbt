@@ -596,14 +596,14 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6B76BBE9FB5A1219"]
+			dependencies: ["14D946E0F94255AD"]
 			id: "1F1B78D4388E9332"
 			tasks: [{
 				id: "358A5E557BAB258C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -618,14 +618,14 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["14D946E0F94255AD"]
+			dependencies: ["6B76BBE9FB5A1219"]
 			id: "6EEE945815A039B7"
 			tasks: [{
 				id: "7FE64698F8879C71"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -651,7 +651,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1F1B78D4388E9332"]
+			dependencies: ["6EEE945815A039B7"]
 			id: "352FE6BFD8AB7023"
 			tasks: [{
 				id: "78CB052047F0AC64"
