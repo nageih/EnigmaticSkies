@@ -475,6 +475,14 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}trident`
+        },
+        {
+            result: { id: 'minecraft:wind_charge', count: 1 },
+            reagent: { item: 'the_bumblezone:windy_air' },
+            pedestalItems: [{ tag: 'c:essences/air' }, { tag: 'c:essences/air' }, { tag: 'c:essences/air' }],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}wind_charge`
         }
     ];
 
