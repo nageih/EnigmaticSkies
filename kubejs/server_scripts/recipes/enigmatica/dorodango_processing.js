@@ -56,7 +56,6 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
-                { id: 'minecraft:wind_charge', count: 1, chance: 1 / 2 },
                 { id: 'ae2:sky_dust', count: 1, chance: 1 / 4 },
                 { id: 'theurgy:sal_ammoniac_crystal', count: 1, chance: 1 / 6 }
             ],
@@ -81,7 +80,7 @@ ServerEvents.recipes((event) => {
         r = {
             type: 'create:mixing',
             results: [],
-            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 20 }],
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 250 }],
             heat_requirement: 'heated'
         };
         recipe.outputs.forEach((output) => {
@@ -102,7 +101,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:centrifuge',
             item_outputs: [],
             item_inputs: [recipe.input],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 20 },
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 250 },
             eu: 2,
             duration: 5 * 20
         };
