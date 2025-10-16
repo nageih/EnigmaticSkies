@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
             item_inputs: [
                 { tag: 'c:ingots/stainless_steel', amount: 1 },
-                { tag: 'c:gems/zanite', amount: 1 }
+                { tag: 'aether:gems/zanite', amount: 1 }
             ],
             duration: 20,
             eu: 4,

@@ -1,7 +1,7 @@
 ServerEvents.generateData('after_mods', (event) => {
     const id_prefix = 'enigmatica:modern_industrialization/fluid_fuels/';
 
-    let multiplier = 1.0;
+    let multiplier = 0.1;
 
     const recipes = {
         replace: true,

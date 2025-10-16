@@ -241,6 +241,18 @@ ServerEvents.recipes((event) => {
             pressure: 9.0,
             speed: 0.1,
             id: `${id_prefix}liquid_air`
+        },
+        {
+            outputs: { item_output: { id: 'actuallyadditions:lens_of_the_miner', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'supplementaries:lumisene', amount: 8000 },
+                item: { item: 'actuallyadditions:lens' }
+            },
+            air_use_multiplier: 10.0,
+            pressure: 7.5,
+            speed: 0.1,
+            temperature: { min: CtoK(500) },
+            id: `${id_prefix}lens_of_the_miner`
         }
     ];
 

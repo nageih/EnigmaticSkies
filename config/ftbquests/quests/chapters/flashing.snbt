@@ -18,7 +18,7 @@
 				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 		}
 		{
@@ -85,7 +85,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55D51F58CA3130AA"]
@@ -97,7 +97,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["503873180200D878"]
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -155,7 +155,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -2.5d
 		}
 	]

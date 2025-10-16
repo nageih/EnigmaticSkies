@@ -1,6 +1,8 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:pneumaticcraft/fuel_quality/';
 
+    let multiplier = 0.1;
+
     const recipes = [
         {
             fluid: { tag: 'c:refined_canola_oil' },
@@ -43,7 +45,7 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'pneumaticcraft:fuel_quality';
-        recipe.air_per_bucket = recipe.air_per_mb * 1000;
+        recipe.air_per_bucket = recipe.air_per_mb * 1000 * multiplier;
         event.custom(recipe).id(recipe.id);
 
         if (debug) console.log(recipe.id);
