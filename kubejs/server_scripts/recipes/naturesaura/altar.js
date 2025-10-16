@@ -88,16 +88,16 @@ ServerEvents.recipes((event) => {
             output: { id: 'minecraft:lily_pad' },
             input: { item: 'farmersdelight:cabbage_leaf' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 3000,
-            time: 2,
+            aura: 150000,
+            time: 30,
             id: `${id_prefix}lily_pad`
         },
         {
             output: { id: 'arts_and_crafts:lotus_pistils' },
             input: { item: 'ars_elemental:spore_blossom_up' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 3000,
-            time: 2,
+            aura: 150000,
+            time: 30,
             id: `${id_prefix}lotus_pistils`
         },
         {
@@ -107,6 +107,14 @@ ServerEvents.recipes((event) => {
             aura: 150000,
             time: 30,
             id: `${id_prefix}vine`
+        },
+        {
+            output: { id: 'minecraft:sugar_cane' },
+            input: { tag: 'minecraft:bamboo' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 150000,
+            time: 30,
+            id: `${id_prefix}sugar_cane`
         }
     ];
 
