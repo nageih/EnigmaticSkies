@@ -166,7 +166,7 @@
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.054093E1130E24C1.quest_desc: [
-		"An Automatic Feeder is a simple feeding station for nearby animals. "
+		"An &7Automatic Feeder&r is a simple feeding station for nearby animals. "
 		""
 		"Keep it filled with the items your animals need to breed, and they’ll take care of the rest. "
 	]
@@ -5096,9 +5096,9 @@
 	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
 	quest.72B6C89DB165BB07.quest_desc: [
-		"When placed in-world, Organic Compost will slowly transform into Rich Soil, a particularly good soil for growing crops."
+		"When placed in-world, &7Organic Compost&r will slowly transform into &7Rich Soil&r, a particularly good soil for growing crops."
 		""
-		"Any crops grown on Rich Soil Farmland will gain a significant boost in growth rates. "
+		"Any crops planted on &7Rich Soil Farmland&r will gain a significant boost in growth rates. "
 	]
 	quest.72C1A824063BAFA3.quest_desc: [
 		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
@@ -5485,6 +5485,17 @@
 	]
 	quest.7ADBC282C9692EDE.quest_desc: ["Cable Façades are a universal façade that you can use to cover just about any pipe! "]
 	quest.7ADBC282C9692EDE.title: "Cable Facades"
+	quest.7B4E085679031F8B.quest_desc: [
+		"When full on Steam, the &7Steam Boiler's&r burn rate will reduce, keeping the structure warm but not wasting Water. "
+		""
+		"To conserve Fuel, therefore, it may be advisable to use Redstone to control the Boiler. "
+		""
+		"Combining a &7Redstone Control Module&r with a &7Threshold Switch&r is a simple way to do just that. "
+		""
+		"Simply point the &7Threshold Switch&r at a buffer tank and use the signal from that to enable and disable the boiler. "
+		""
+		"Keep in mind tha the higher your power consumption, the larger the buffer you'll need to make this tactic viable. Otherwise the time spent warming back up could very well cost you more fuel compared to simply leaving the Boiler running. "
+	]
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
 		""

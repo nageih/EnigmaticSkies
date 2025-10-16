@@ -75,7 +75,7 @@ const villagerTrades = {
 
         {
             result: { id: 'actuallyadditions:worm', count: 4 },
-            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
@@ -132,12 +132,12 @@ const villagerTrades = {
 
         {
             result: { id: 'minecraft:cod', count: 4 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'minecraft:salmon', count: 4 },
-            ingredients: [{ id: 'farmersdelight:hamburger', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 3
         },
 
@@ -327,12 +327,12 @@ const villagerTrades = {
 
         {
             result: { id: 'utilitarian:angel_block', count: 1 },
-            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
-            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 2, max: 4 } }],
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 2
         }
     ],
@@ -480,43 +480,43 @@ const villagerTrades = {
 
         {
             result: { id: 'minecraft:sentry_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'minecraft:vex_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'minecraft:wild_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
             result: { id: 'minecraft:coast_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 2
         },
 
         {
             result: { id: 'minecraft:tide_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'minecraft:bolt_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'minecraft:rib_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
             result: { id: 'minecraft:snout_armor_trim_smithing_template', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 2, max: 2 } }],
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 3
         },
 

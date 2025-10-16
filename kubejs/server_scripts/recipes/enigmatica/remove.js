@@ -420,6 +420,7 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },
         { output: 'modern_industrialization:analog_circuit' },
+        { output: 'modern_industrialization:redstone_control_module' },
         { output: 'modern_industrialization:bronze_machine_casing_pipe' },
         { output: 'modern_industrialization:steel_machine_casing_pipe' },
         { output: 'modern_industrialization:stainless_steel_machine_casing_pipe' },

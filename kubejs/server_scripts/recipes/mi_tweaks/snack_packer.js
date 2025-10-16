@@ -16,8 +16,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'enigmatica:jaxs_snax', amount: 1 }],
             item_inputs: [
                 { item: 'minecraft:paper', amount: 1, probability: 0.5 },
-                { item: 'enigmatica:lilys_lilac_cotton_candy', amount: 2 },
-                { item: 'arsdelight:source_berry_cookie', amount: 2 }
+                { item: 'enigmatica:lilys_lilac_cotton_candy', amount: 6 },
+                { item: 'arsdelight:source_berry_cookie', amount: 12 }
             ],
             duration: 1,
             id: `${id_prefix}jaxs_snax`
