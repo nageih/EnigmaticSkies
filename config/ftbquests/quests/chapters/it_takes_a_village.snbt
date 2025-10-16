@@ -46,6 +46,7 @@
 				id: "theurgy:digestion_vat"
 			}
 			id: "714379744B3CF395"
+			min_width: 300
 			tasks: [
 				{
 					id: "2D1ED5D64999A68A"

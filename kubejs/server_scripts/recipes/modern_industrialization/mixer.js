@@ -264,7 +264,7 @@ ServerEvents.recipes((event) => {
                 { tag: material.input, amount: 4 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
-            duration: 20 * material.tier,
+            duration: material.tier * 5,
             eu: material.tier,
             id: `${id_prefix}${material.output.split(':')[1]}`
         });
@@ -294,7 +294,7 @@ ServerEvents.recipes((event) => {
                 },
                 { fluid: material.additive, amount: 1000 }
             ],
-            duration: 20 * material.tier,
+            duration: material.tier * 2,
             eu: material.tier,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });

@@ -236,6 +236,17 @@ ServerEvents.recipes((event) => {
                 A: 'modern_industrialization:fire_clay_brick_item_input_hatch'
             },
             id: `${id_prefix}fire_clay_brick_item_output_hatch_from_input`
+        },
+        {
+            output: `modern_industrialization:redstone_control_module`,
+            pattern: ['ABA', 'CDC'],
+            key: {
+                A: '#c:dusts/redstone',
+                B: 'minecraft:redstone_torch',
+                C: 'modern_industrialization:analog_circuit',
+                D: 'naturesaura:infused_slab'
+            },
+            id: `${id_prefix}redstone_control_module`
         }
     ];
 

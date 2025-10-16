@@ -116,6 +116,14 @@
 		""
 		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
 		""
+		""
+		"&6&nUseful Keybinds&r"
+		""
+		"  Press &6U&r while overing over a "
+		"  &7Villager Spawn Egg&r to see all of "
+		"  their workstations."
+		""
+		""
 		"&a🛈 Tip: Purple Seats can be crafted "
 		"&a    from Magebloom!"
 	]
@@ -158,7 +166,7 @@
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.054093E1130E24C1.quest_desc: [
-		"An Automatic Feeder is a simple feeding station for nearby animals. "
+		"An &7Automatic Feeder&r is a simple feeding station for nearby animals. "
 		""
 		"Keep it filled with the items your animals need to breed, and they’ll take care of the rest. "
 	]
@@ -1082,14 +1090,6 @@
 		"&6    step must be specified separately."
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
-	quest.1A4123560ACEE02C.quest_desc: [
-		"Time enough at last!"
-		""
-		"Carry a Time in a Bottle with you everywhere you go to store up all that time you’re using doing other things. When you grow impatient for some machine to run, just Sneak Right-Click it a few times with the bottle to spend some of that time speeding it up."
-		""
-		"&a🛈 Tip: You may only have a single "
-		"&a    Time in a Bottle at a time."
-	]
 	quest.1A650F4235F6204A.quest_desc: [
 		"Upgrade time again!"
 		""
@@ -3212,7 +3212,7 @@
 		""
 		"&n                                                                          &r"
 		""
-		"The Fermentation Vat is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while close."
+		"The &7Fermentation Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."
 		""
 		"The Vat will open again automatically once it can no longer do any work. Be that because it finished, ran out of room for outputs, or ran out of inputs. "
 		""
@@ -5037,7 +5037,28 @@
 		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
 	]
 	quest.710D7615763E9945.title: "Geasa"
-	quest.714379744B3CF395.quest_desc: ["The first few Gold Ingots you make should go towards making an Imbuement Chamber. "]
+	quest.714379744B3CF395.quest_desc: [
+		"The first few Gold Ingots you make should go towards making an Imbuement Chamber. "
+		""
+		""
+		""
+		"&n                                                                          &r"
+		""
+		"The &7Digestion Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."
+		""
+		"The Vat will open again automatically once it can no longer do any work. Be that because it finished, ran out of room for outputs, or ran out of inputs. "
+		""
+		""
+		"                     &n&7A Note on Automation&r&r"
+		""
+		"Fluids and Items may be inserted by any form of logistics such as pipes or hoppers, but only while the device is open. Similarly, items may only be extracted while it is open."
+		""
+		"The device may be closed by applying a Redstone signal to any side other than the front, which can be identified by the red dot at the bottom. "
+		""
+		"Regardless of the signal, the device will still open automatically if it has no room for outputs."
+		""
+		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
+	]
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
@@ -5075,9 +5096,9 @@
 	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
 	quest.72B6C89DB165BB07.quest_desc: [
-		"When placed in-world, Organic Compost will slowly transform into Rich Soil, a particularly good soil for growing crops."
+		"When placed in-world, &7Organic Compost&r will slowly transform into &7Rich Soil&r, a particularly good soil for growing crops."
 		""
-		"Any crops grown on Rich Soil Farmland will gain a significant boost in growth rates. "
+		"Any crops planted on &7Rich Soil Farmland&r will gain a significant boost in growth rates. "
 	]
 	quest.72C1A824063BAFA3.quest_desc: [
 		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
@@ -5464,6 +5485,17 @@
 	]
 	quest.7ADBC282C9692EDE.quest_desc: ["Cable Façades are a universal façade that you can use to cover just about any pipe! "]
 	quest.7ADBC282C9692EDE.title: "Cable Facades"
+	quest.7B4E085679031F8B.quest_desc: [
+		"When full on Steam, the &7Steam Boiler's&r burn rate will reduce, keeping the structure warm but not wasting Water. "
+		""
+		"To conserve Fuel, therefore, it may be advisable to use Redstone to control the Boiler. "
+		""
+		"Combining a &7Redstone Control Module&r with a &7Threshold Switch&r is a simple way to do just that. "
+		""
+		"Simply point the &7Threshold Switch&r at a buffer tank and use the signal from that to enable and disable the boiler. "
+		""
+		"Keep in mind tha the higher your power consumption, the larger the buffer you'll need to make this tactic viable. Otherwise the time spent warming back up could very well cost you more fuel compared to simply leaving the Boiler running. "
+	]
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
 		""

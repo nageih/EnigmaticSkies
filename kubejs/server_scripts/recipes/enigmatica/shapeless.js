@@ -48,51 +48,6 @@ ServerEvents.recipes((event) => {
             output: 'enigmatica:source_ink',
             inputs: ['minecraft:glass_bottle', 'ars_nouveau:sourceberry_bush'],
             id: `${id_prefix}source_ink`
-        },
-
-        // Villager Meals
-        {
-            output: 'enigmatica:suns_out_buns_out',
-            inputs: [
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings',
-                'farmersdelight:dumplings'
-            ],
-            id: `${id_prefix}suns_out_buns_out`
-        },
-        {
-            output: 'enigmatica:bun_believable_burger',
-            inputs: ['farmersdelight:hamburger', 'farmersdelight:stuffed_potato'],
-            id: `${id_prefix}bun_believable_burger`
-        },
-        {
-            output: 'enigmatica:the_bun_also_rises',
-            inputs: [
-                'ars_nouveau:source_berry_roll',
-                'ars_nouveau:source_berry_roll',
-                'ars_nouveau:source_berry_roll',
-                'ars_nouveau:source_berry_roll',
-                'ars_nouveau:source_berry_roll',
-                'ars_nouveau:source_berry_roll'
-            ],
-            id: `${id_prefix}the_bun_also_rises`
-        },
-        {
-            output: 'enigmatica:braising_cain',
-            inputs: ['farmersdelight:bacon_sandwich', 'farmersdelight:stuffed_potato'],
-            id: `${id_prefix}braising_cain`
-        },
-        {
-            output: 'enigmatica:jaxs_snax',
-            inputs: [
-                'enigmatica:lilys_lilac_cotton_candy',
-                'arsdelight:source_berry_cookie',
-                'arsdelight:source_berry_cookie'
-            ],
-            id: `${id_prefix}jaxs_snax`
         }
     ];
 

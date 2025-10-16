@@ -131,7 +131,7 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -453,7 +453,7 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 5.5d
 		}
 		{
@@ -542,7 +542,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -763,6 +763,25 @@
 			}]
 			x: 6.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["60239B38B7288779"]
+			id: "7B4E085679031F8B"
+			rewards: [{
+				id: "6B6EA478153E48C6"
+				item: {
+					count: 1
+					id: "create:stockpile_switch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D163051F91779C"
+				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
 		}
 	]
 }

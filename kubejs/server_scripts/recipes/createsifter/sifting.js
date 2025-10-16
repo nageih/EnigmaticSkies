@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'aether:cold_aercloud' },
             results: [
-                { id: 'theurgy:crystallized_water', chance: 0.5 },
+                { id: 'theurgy:crystallized_water', chance: 0.7 },
                 { id: 'ae2:sky_dust', chance: 0.15 },
                 { id: 'aether:blue_berry', chance: 0.15 }
             ],

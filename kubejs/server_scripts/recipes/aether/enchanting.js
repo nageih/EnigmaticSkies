@@ -59,6 +59,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 10,
             experience: 0.15,
             id: `${id_prefix}berry_bush_stem`
+        },
+        {
+            result: { id: 'mi_tweaks:snack_packer', count: 1 },
+            ingredient: { item: 'modern_industrialization:fire_clay_bricks' },
+            cookingtime: 5,
+            experience: 0.15,
+            id: `${id_prefix}snack_packer`
         }
     ];
 

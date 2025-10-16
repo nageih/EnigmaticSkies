@@ -128,10 +128,6 @@
 													}
 												}
 												flairEffect: {
-													motion: {
-														propMap: { }
-														type: "ars_nouveau:none"
-													}
 													particleOptions: {
 														properties: {
 															"ars_nouveau:particle_type": {
@@ -190,10 +186,6 @@
 													}
 												}
 												onSpawnEffect: {
-													motion: {
-														propMap: { }
-														type: "ars_nouveau:none"
-													}
 													particleOptions: {
 														properties: {
 															"ars_nouveau:particle_type": {
