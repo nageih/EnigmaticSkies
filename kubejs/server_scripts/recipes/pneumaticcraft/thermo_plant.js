@@ -254,7 +254,6 @@ ServerEvents.recipes((event) => {
             temperature: { min: CtoK(500) },
             id: `${id_prefix}lens_of_the_miner`
         },
-
         {
             outputs: { fluid_output: { id: 'justdirethings:time_fluid_source', amount: 1000 } },
             inputs: {
