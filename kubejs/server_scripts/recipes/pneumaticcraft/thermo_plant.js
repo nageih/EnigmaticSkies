@@ -253,6 +253,17 @@ ServerEvents.recipes((event) => {
             speed: 0.1,
             temperature: { min: CtoK(500) },
             id: `${id_prefix}lens_of_the_miner`
+        },
+        {
+            outputs: { fluid_output: { id: 'justdirethings:time_fluid_source', amount: 1000 } },
+            inputs: {
+                fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 },
+                item: { tag: 'c:gems/time' }
+            },
+            air_use_multiplier: 10.0,
+            temperature: { min: CtoK(100) },
+            pressure: 2.0,
+            id: `${id_prefix}time_fluid_source`
         }
     ];
 
