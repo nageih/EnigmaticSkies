@@ -177,6 +177,16 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ` `,
                 `Right-Click a Pillager Trophy with an Antikythera Mechanism to bring it to life!`
             ]
+        },
+        {
+            filter: [
+                Ingredient.of(['arts_and_crafts:lotus_pistils', 'minecraft:lily_pad', 'arts_and_crafts:bleachdew'])
+            ],
+            text: [
+                `Lotus Pistils may be planted on Lily Pads to convert them into a Lotus Flower.`,
+                ` `,
+                `Use Bone Meal on a Lotus Flower to obtain Bleachdew.`
+            ]
         }
     ];
 

@@ -8,17 +8,8 @@
 	}
 	id: "02545B33A0B47726"
 	loot_size: 2
-	order_index: 4
+	order_index: 3
 	rewards: [
-		{
-			count: 4
-			id: "7ED9D05B8E4563CA"
-			item: {
-				count: 1
-				id: "minecraft:ender_pearl"
-			}
-			random_bonus: 4
-		}
 		{
 			count: 8
 			id: "692C1702A1BB98F3"
@@ -63,15 +54,6 @@
 				id: "minecraft:terracotta"
 			}
 			random_bonus: 16
-		}
-		{
-			count: 8
-			id: "07DE37000418F01F"
-			item: {
-				count: 1
-				id: "minecraft:nether_brick"
-			}
-			random_bonus: 8
 		}
 		{
 			count: 16
@@ -127,15 +109,6 @@
 		}
 		{
 			count: 16
-			id: "67588721A0FDCFCB"
-			item: {
-				count: 1
-				id: "minecraft:amethyst_shard"
-			}
-			random_bonus: 16
-		}
-		{
-			count: 16
 			id: "1F04A44C07C8ED03"
 			item: {
 				count: 1
@@ -150,25 +123,6 @@
 				count: 1
 				id: "minecraft:rabbit_foot"
 			}
-		}
-		{
-			count: 4
-			id: "5691618422F38B12"
-			item: {
-				count: 1
-				id: "minecraft:phantom_membrane"
-			}
-			random_bonus: 4
-		}
-		{ id: "03D7E161268692D7", item: { count: 1, id: "minecraft:totem_of_undying" } }
-		{
-			count: 2
-			id: "478E6BAD74DEF461"
-			item: {
-				count: 1
-				id: "ars_nouveau:warp_scroll"
-			}
-			random_bonus: 2
 		}
 	]
 	use_title: true

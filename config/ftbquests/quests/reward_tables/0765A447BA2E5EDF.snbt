@@ -8,7 +8,7 @@
 	}
 	id: "0765A447BA2E5EDF"
 	loot_size: 2
-	order_index: 13
+	order_index: 11
 	rewards: [
 		{ id: "1506F996D8B2EA84", item: { count: 1, id: "modern_industrialization:quantum_upgrade" } }
 		{

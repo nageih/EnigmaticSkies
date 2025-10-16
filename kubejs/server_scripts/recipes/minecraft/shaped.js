@@ -81,6 +81,26 @@ ServerEvents.recipes((event) => {
                 A: '#enigmatica:crafts_sticks'
             },
             id: `${id_prefix}stick`
+        },
+        {
+            output: 'minecraft:big_dripleaf',
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'minecraft:lily_pad',
+                B: '#c:essences/manipulation',
+                C: 'minecraft:vine'
+            },
+            id: `${id_prefix}big_dripleaf`
+        },
+        {
+            output: 'minecraft:small_dripleaf',
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: 'minecraft:lily_pad',
+                B: '#c:essences/manipulation',
+                C: 'minecraft:vine'
+            },
+            id: `${id_prefix}small_dripleaf`
         }
     ];
 

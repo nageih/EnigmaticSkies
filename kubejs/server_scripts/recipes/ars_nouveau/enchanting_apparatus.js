@@ -237,11 +237,11 @@ ServerEvents.recipes((event) => {
             pedestalItems: [
                 { tag: 'c:essences/earth' },
                 { item: 'malum:strange_crystal' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:dusts/grains_of_the_end' },
                 { item: 'malum:strange_crystal' },
                 { tag: 'c:essences/air' },
                 { item: 'malum:strange_crystal' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:dusts/grains_of_the_end' },
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
@@ -475,6 +475,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}trident`
+        },
+        {
+            result: { id: 'minecraft:heavy_core', count: 1 },
+            reagent: { item: 'enderio:ensouled_chassis' },
+            pedestalItems: [
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' },
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' },
+                { tag: 'c:storage_blocks/compressed_iron' },
+                { tag: 'c:storage_blocks/neptunium' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}heavy_core`
         }
     ];
 

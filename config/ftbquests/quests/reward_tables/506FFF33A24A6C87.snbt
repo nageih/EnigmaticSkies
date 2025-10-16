@@ -8,7 +8,7 @@
 	}
 	id: "506FFF33A24A6C87"
 	loot_size: 1
-	order_index: 5
+	order_index: 4
 	rewards: [
 		{ id: "69C9855285EA11DF", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:blast_protection": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "0A60440C43E1C7D7", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:depth_strider": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }

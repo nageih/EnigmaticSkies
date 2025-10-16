@@ -350,6 +350,7 @@ ServerEvents.recipes((event) => {
         // Malum
         { id: /malum:create\/washing\/.*_node/ },
         { id: /malum:create\/washing\/crushed_.*/ },
+        { id: /malum:create\/crushing\/impetus/ },
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
         { id: /malum:create\/crushing\/ore/ },
         { id: 'malum:void_favor/raw_soulstone' },
@@ -365,6 +366,12 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/paracausal_flame' },
         { id: 'malum:spirit_altar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
+        { id: /malum:spirit_infusion\/.*_impetus/ },
+        { id: /malum:spirit_crucible\/node_focusing/ },
+        {
+            id: /malum:spirit_repair\/fractured_(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_impetus_restoration/
+        },
+        { id: /malum:.*_from_node_(smelting|blasting)/ },
 
         // Minecraft
         { id: 'minecraft:slime_block' },
@@ -376,6 +383,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:paper' },
         { id: 'minecraft:packed_ice' },
         { id: 'minecraft:blue_ice' },
+        { id: 'minecraft:wind_charge' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
@@ -608,6 +616,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:centrifuge/fluid/compat/industrialforegoing/turbofuel' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
+        { id: 'oritech:refinery/compat/create/rawsheol/zinc' },
         { id: /oritech:refinery\/rawsheol/ },
         { id: /oritech:refinery\/(biodiesel|heavyoil|oil|lava|carbonsheet)/ },
         { id: /oritech:splashing\/compat\/create/ },

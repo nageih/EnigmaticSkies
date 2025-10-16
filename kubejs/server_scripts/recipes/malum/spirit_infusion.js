@@ -205,8 +205,55 @@ ServerEvents.recipes((event) => {
                 { type: 'eldritch', count: 8 }
             ],
             id: `${id_prefix}paracausal_flame`
+        },
+        {
+            output: { id: 'malum:zephyr_impetus', count: 1 },
+            ingredient: { item: 'malum:alchemical_impetus', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/celestigem', count: 1 },
+                { item: 'malum:wind_nucleus', count: 4 },
+                { item: 'minecraft:heavy_core', count: 1 }
+            ],
+            spirits: [
+                { type: 'aerial', count: 16 },
+                { type: 'arcane', count: 16 }
+            ],
+            id: `${id_prefix}zephyr_impetus`
+        },
+        {
+            output: { id: 'malum:alchemical_impetus', count: 1 },
+            ingredient: { item: 'malum:alchemical_calx', count: 4 },
+            extraIngredients: [
+                { tag: 'c:gems/soulstone', count: 4 },
+                { tag: 'c:essences/hex_ash', count: 2 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 4 },
+                { type: 'earthen', count: 4 }
+            ],
+            id: `${id_prefix}alchemical_impetus`
         }
     ];
+
+    const materials = ['copper', 'gold', 'iron'];
+
+    materials.forEach((material) => {
+        recipes.push({
+            output: { id: `malum:${material}_impetus`, count: 1 },
+            ingredient: { item: 'malum:alchemical_impetus', count: 1 },
+            extraIngredients: [
+                { item: 'theurgy:alchemical_salt_mineral', count: 8 },
+                { item: 'malum:cthonic_gold', count: 1 },
+                { tag: `c:ingots/${material}`, count: 16 }
+            ],
+            spirits: [
+                { type: 'earthen', count: 8 },
+                { type: 'infernal', count: 8 },
+                { type: 'aqueous', count: 8 }
+            ],
+            id: `${id_prefix}${material}_impetus`
+        });
+    });
 
     const spirits = ['sacred', 'wicked', 'arcane', 'eldritch', 'earthen', 'aerial', 'aqueous', 'infernal'];
     spirits.forEach((spirit) => {

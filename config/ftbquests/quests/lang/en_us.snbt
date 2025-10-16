@@ -1132,14 +1132,6 @@
 		"&a🛈 Tip: Powders may be removed  "
 		"&a    by punching them."
 	]
-	quest.1AD06ADB17D92C6E.quest_desc: [
-		"Don’t feel like sleeping through the night? Or maybe you’d prefer a longer night for hunting monsters?"
-		""
-		"In either case, the Shifting Sundial is the device for you. By placing a Hand of Time in an Item Frame and rotating it, you can set the time it’ll skip to. "
-		"Pointing up equates to midnight and down to noon."
-		""
-		"To activate it, simply drop a Clock nearby. "
-	]
 	quest.1BAEB780F38B1C56.quest_desc: [
 		"Connect an Access Point to your network, then place a Wireless Terminal inside it to link them and gain wireless access to the entire network."
 		""
@@ -1517,13 +1509,6 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
-	quest.26027E2E7418D35C.quest_desc: [
-		"Nature’s Aura introduces a number of Effects powders, however Powder of the Bountiful Core is perhaps one of the most powerful. "
-		""
-		"When placed, all Stone or Netherrack in an area will be slowly converted to random ores at the cost of Aura. "
-		""
-		"This requires extremely high Aura to begin functioning and has an ongoing cost. You’ll need a Creational Catalyst to even begin, and you’ll very likely want a strong Aura Generator, like a Shooting Mark, to cover the operational cost. "
-	]
 	quest.26115C1BB363EF58.quest_desc: [
 		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
 		""
@@ -3464,13 +3449,6 @@
 		""
 		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
 	]
-	quest.4E84D317021F7881.quest_desc: [
-		"Tired of the rain? The Cloudshifter can be used to quickly clear the clouds away. "
-		""
-		"Or, if you’re really in need of rain or a thunderstorm, it’ll do that too, given the right objects. "
-		""
-		"Refer to the Book of Natural Aura for more information."
-	]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -4036,7 +4014,6 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
-	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
 	quest.5F0523F799DA720C.quest_desc: [
@@ -4713,11 +4690,6 @@
 		""
 		"The second is a Ritual for more elaborate requests. Look for the chalice surrounded by chalk marks."
 	]
-	quest.6AD8B4B3A08CF1D3.quest_desc: [
-		"With the Lamp of Sanctuary, you can finally relax. It will prevent all mobs from spawning in a large area around it. "
-		""
-		"The area can be configured by applying differing strengths of Redstone power to it, with 15 being the largest area. "
-	]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
 		""
@@ -5322,7 +5294,7 @@
 	quest.77FA6854AC88C138.quest_desc: [
 		"It's time to get a little more out of those clouds. "
 		""
-		"Process some &7Cloudy Dorodangos&r to obtain &7Sky Stone Dust&r and &7Sal Ammoniac Crystals&r."
+		"Process some &7Cloudy Dorodangos&r to obtain &7Wind Charges&r, &7Sky Stone Dust&r, and &7Sal Ammoniac Crystals&r."
 	]
 	quest.78626EE046E48EF3.quest_desc: [
 		"&6&nBiome: Archwood Forest&r&r"
@@ -5591,11 +5563,9 @@
 	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
 	reward_table.0F3B57D5BCDEFA8D.title: "Ars Nouveau Lootbox: Legendary"
 	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
-	reward_table.2806F6BEA4A73B0B.title: "Occultism Lootbox"
 	reward_table.304C87B452C4DF86.title: "OriTech Lootbox"
 	reward_table.3989965A6A96B854.title: "MI Lootbox: MV Tier"
 	reward_table.4AD226E979319EAB.title: "MI Lootbox: Steel Tier"
-	reward_table.4C3908A1EDE782F7.title: "Alchemist's Delight"
 	reward_table.4D04B0EC7BE49CA0.title: "PneumaticCraft Lootbox: Rare"
 	reward_table.506FFF33A24A6C87.title: "Sorcerer's Delight"
 	reward_table.523EF680C25C2831.title: "MI Lootbox: LV Tier"

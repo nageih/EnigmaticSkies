@@ -234,15 +234,25 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}crude_oil`
         },
         {
-            outputs: { fluid_output: { id: 'justdirethings:time_fluid_source', amount: 1000 } },
+            outputs: { fluid_output: { id: 'modern_industrialization:liquid_air', amount: 1000 } },
+            inputs: { item: { item: 'minecraft:wind_charge' } },
+            air_use_multiplier: 1800.0,
+            temperature: { max: CtoK(-175) },
+            pressure: 9.0,
+            speed: 0.1,
+            id: `${id_prefix}liquid_air`
+        },
+        {
+            outputs: { item_output: { id: 'actuallyadditions:lens_of_the_miner', count: 1 } },
             inputs: {
-                fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 },
-                item: { tag: 'c:gems/time' }
+                fluid: { fluid: 'supplementaries:lumisene', amount: 8000 },
+                item: { item: 'actuallyadditions:lens' }
             },
             air_use_multiplier: 10.0,
-            temperature: { min: CtoK(100) },
-            pressure: 2.0,
-            id: `${id_prefix}time_fluid_source`
+            pressure: 7.5,
+            speed: 0.1,
+            temperature: { min: CtoK(500) },
+            id: `${id_prefix}lens_of_the_miner`
         }
     ];
 

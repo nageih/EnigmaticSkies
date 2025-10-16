@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             item_inputs: { tag: 'c:ingots/iron', amount: 1 },
             duration: 20,
             eu: 2,
-            id: `${id_prefix}steel`
+            id: `${id_prefix}steel_ingot`
         },
         {
             item_outputs: { item: 'create:andesite_alloy', amount: 4 },
@@ -51,6 +51,17 @@ ServerEvents.recipes((event) => {
             duration: 20,
             eu: 4,
             id: `${id_prefix}dark_steel_ingot`
+        },
+        {
+            item_outputs: { item: 'naturesaura:sky_ingot', amount: 1 },
+            fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
+            item_inputs: [
+                { tag: 'c:ingots/stainless_steel', amount: 1 },
+                { tag: 'aether:gems/zanite', amount: 1 }
+            ],
+            duration: 20,
+            eu: 4,
+            id: `${id_prefix}sky_ingot`
         }
     ];
 

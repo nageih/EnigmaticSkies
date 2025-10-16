@@ -3,10 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredient: { ingredient: { tag: 'c:dusts/sky_stone' }, count: 1 },
             result: { id: 'theurgy:mercury_shard', count: 4 },
+            ingredient: { ingredient: { tag: 'c:dusts/sky_stone' }, count: 1 },
             time: 5,
             id: `${id_prefix}mercury_shard`
+        },
+        {
+            result: { id: 'minecraft:echo_shard', count: 1 },
+            ingredient: { ingredient: { tag: 'c:dusts/echo' }, count: 4 },
+            time: 5,
+            id: `${id_prefix}echo_shard`
         }
     ];
 

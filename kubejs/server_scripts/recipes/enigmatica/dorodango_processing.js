@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
         r = {
             type: 'create:mixing',
             results: [],
-            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 20 }],
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 250 }],
             heat_requirement: 'heated'
         };
         recipe.outputs.forEach((output) => {
@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:centrifuge',
             item_outputs: [],
             item_inputs: [recipe.input],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 20 },
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 250 },
             eu: 2,
             duration: 5 * 20
         };

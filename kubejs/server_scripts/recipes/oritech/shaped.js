@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
                 A: 'oritech:carbon_plating_block',
                 B: 'oritech:magnetic_coil',
                 C: 'oritech:refinery_module_block',
-                D: 'modern_industrialization:bronze_machine_casing_pipe',
+                D: 'modern_industrialization:heatproof_machine_casing',
                 E: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}refinery_block`
@@ -150,7 +150,7 @@ ServerEvents.recipes((event) => {
                 A: 'oritech:carbon_plating_block',
                 B: 'oritech:small_tank_block',
                 C: 'oritech:metal_beam_block',
-                D: 'modern_industrialization:bronze_machine_casing_pipe'
+                D: 'modern_industrialization:heatproof_machine_casing'
             },
             id: `${id_prefix}refinery_module_block`
         },

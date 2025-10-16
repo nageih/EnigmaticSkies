@@ -52,7 +52,7 @@
 				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -63,8 +63,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A92EF3C51F82669"]
@@ -74,8 +74,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -131,8 +131,8 @@
 				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -143,18 +143,18 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3CC1C6949E17A1B9"]
+			dependencies: ["2C07E148B9B60809"]
 			id: "75BD1F2EB47FB7CF"
 			tasks: [{
 				id: "0E481B6BCEB5CC82"
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -164,7 +164,7 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 5.5d
 		}
 		{
@@ -185,7 +185,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -196,7 +196,7 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -211,7 +211,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6534548E8A6A318C"]

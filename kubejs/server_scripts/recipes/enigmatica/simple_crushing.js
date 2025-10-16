@@ -335,16 +335,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'quartz_dust_from_quartz'
         },
         {
-            input: { tag: 'c:rods/breeze' },
-            outputs: [{ id: 'minecraft:wind_charge', count: 6 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'wind_charge_from_breeze_rod'
-        },
-        {
             input: { tag: 'c:rods/blaze' },
             outputs: [{ id: 'minecraft:blaze_powder', count: 4 }],
             multiply: 'none',
