@@ -264,6 +264,15 @@ ServerEvents.recipes((event) => {
             temperature: { min: CtoK(100) },
             pressure: 2.0,
             id: `${id_prefix}time_fluid_source`
+        },
+        {
+            outputs: { item_output: { id: 'minecraft:blaze_rod', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'supplementaries:lumisene', amount: 1000 },
+                item: { tag: 'c:rods/iron' }
+            },
+            temperature: { min: CtoK(1500) },
+            id: `${id_prefix}blaze_rod`
         }
     ];
 
