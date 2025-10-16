@@ -77,24 +77,6 @@
 		{
 			dependencies: ["6AFCA9F187AE6EB2"]
 			hide_dependency_lines: true
-			id: "1A4123560ACEE02C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A2792163F340847"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "625CF3D84E78B9F0"
-				item: { count: 1, id: "tiab:time_in_a_bottle" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6AFCA9F187AE6EB2"]
-			hide_dependency_lines: true
 			icon: {
 				id: "handcrafted:stackable_book"
 			}
@@ -279,6 +261,17 @@
 			}]
 			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			id: "6C4A7BF577605E4A"
+			tasks: [{
+				id: "54ACB56A611DA37D"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 }

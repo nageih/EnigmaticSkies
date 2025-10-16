@@ -1082,14 +1082,6 @@
 		"&6    step must be specified separately."
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
-	quest.1A4123560ACEE02C.quest_desc: [
-		"Time enough at last!"
-		""
-		"Carry a Time in a Bottle with you everywhere you go to store up all that time you’re using doing other things. When you grow impatient for some machine to run, just Sneak Right-Click it a few times with the bottle to spend some of that time speeding it up."
-		""
-		"&a🛈 Tip: You may only have a single "
-		"&a    Time in a Bottle at a time."
-	]
 	quest.1A650F4235F6204A.quest_desc: [
 		"Upgrade time again!"
 		""
@@ -3212,7 +3204,7 @@
 		""
 		"&n                                                                          &r"
 		""
-		"The Fermentation Vat is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while close."
+		"The &7Fermentation Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."
 		""
 		"The Vat will open again automatically once it can no longer do any work. Be that because it finished, ran out of room for outputs, or ran out of inputs. "
 		""
@@ -5037,7 +5029,28 @@
 		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
 	]
 	quest.710D7615763E9945.title: "Geasa"
-	quest.714379744B3CF395.quest_desc: ["The first few Gold Ingots you make should go towards making an Imbuement Chamber. "]
+	quest.714379744B3CF395.quest_desc: [
+		"The first few Gold Ingots you make should go towards making an Imbuement Chamber. "
+		""
+		""
+		""
+		"&n                                                                          &r"
+		""
+		"The &7Digestion Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."
+		""
+		"The Vat will open again automatically once it can no longer do any work. Be that because it finished, ran out of room for outputs, or ran out of inputs. "
+		""
+		""
+		"                     &n&7A Note on Automation&r&r"
+		""
+		"Fluids and Items may be inserted by any form of logistics such as pipes or hoppers, but only while the device is open. Similarly, items may only be extracted while it is open."
+		""
+		"The device may be closed by applying a Redstone signal to any side other than the front, which can be identified by the red dot at the bottom. "
+		""
+		"Regardless of the signal, the device will still open automatically if it has no room for outputs."
+		""
+		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
+	]
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
