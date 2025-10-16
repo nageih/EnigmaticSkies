@@ -175,7 +175,7 @@
 	# List of additional blocks that thermal sources can spread through
 	# Use this list if thermal sources aren't spreading through particular blocks that they should
 	# ⌄ 
-	"Thermal Source Spread Whitelist" = ["minecraft:iron_bars", "#minecraft:leaves", "create:encased_fluid_pipe"]
+	"Thermal Source Spread Whitelist" = ["#enigmatica:heat_spreads"]
 	#─────────────────────────────────────────────────────────────────────────
 	# List of additional blocks that thermal sources spread through
 	# Use this list if thermal sources are spreading through particular blocks that they shouldn't
