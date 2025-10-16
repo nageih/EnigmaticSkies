@@ -56,8 +56,8 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
-                { id: 'ae2:sky_dust', count: 1, chance: 1 / 4 },
-                { id: 'theurgy:sal_ammoniac_crystal', count: 1, chance: 1 / 6 }
+                { id: 'theurgy:sal_ammoniac_crystal', count: 1, chance: 1 / 2 },
+                { id: 'ae2:sky_dust', count: 1, chance: 1 / 4 }
             ],
             input: { item: 'enigmatica:cloudy_dorodango', count: 1 },
             id_suffix: `cloudy_dorodango_processing`
@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
         r = {
             type: 'create:mixing',
             results: [],
-            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 250 }],
+            ingredients: [recipe.input, { type: 'fluid_tag', fluid_tag: 'theurgy:sal_ammoniac', amount: 50 }],
             heat_requirement: 'heated'
         };
         recipe.outputs.forEach((output) => {
@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
             type: 'modern_industrialization:centrifuge',
             item_outputs: [],
             item_inputs: [recipe.input],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 250 },
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             eu: 2,
             duration: 5 * 20
         };
