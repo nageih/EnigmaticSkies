@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'minecraft:sugar_cane' },
-            input: { tag: 'minecraft:bamboo' },
+            input: { item: 'minecraft:bamboo' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 150000,
             time: 30,
