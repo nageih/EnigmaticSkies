@@ -413,6 +413,7 @@ ServerEvents.recipes((event) => {
         { output: /modern_industrialization:.*_water_pump/ },
         { output: /extended_industrialization:.*_alloy_smelter/ },
         { output: `modern_industrialization:heatproof_machine_casing` },
+        { output: `modern_industrialization:frostproof_machine_casing` },
         {
             type: 'modern_industrialization:mixer',
             output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
