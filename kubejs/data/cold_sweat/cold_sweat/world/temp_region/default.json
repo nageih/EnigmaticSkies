@@ -1,0 +1,21 @@
+{
+    "dimensions": ["#forge:overworld_like"],
+    "regions": [
+        {
+            "type": "constant",
+            "bottom": {
+                "anchor": "world_top",
+                "depth": 1,
+                "temperature": { "strength": 0 }
+            }
+        },
+        {
+            "type": "constant",
+            "top": {
+                "anchor": "world_top",
+                "depth": 0,
+                "temperature": { "strength": 0 }
+            }
+        }
+    ]
+}
