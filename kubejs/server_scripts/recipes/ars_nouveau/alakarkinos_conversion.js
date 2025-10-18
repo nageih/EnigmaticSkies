@@ -44,6 +44,12 @@ ServerEvents.recipes((event) => {
             weight: 100,
             id: `${id_prefix}sulfurous_dorodango`
         },
+        {
+            input: 'minecraft:sculk',
+            table: 'enigmatica:archaeology/reverberating_dorodango',
+            weight: 100,
+            id: `${id_prefix}reverberating_dorodango`
+        },
 
         {
             input: 'enigmatica:brilliant_salt',
@@ -80,6 +86,12 @@ ServerEvents.recipes((event) => {
             table: 'enigmatica:archaeology/brilliant_sulfurous_dorodango',
             weight: 100,
             id: `${id_prefix}brilliant_sulfurous_dorodango`
+        },
+        {
+            input: 'enigmatica:brilliant_sculk',
+            table: 'enigmatica:archaeology/brilliant_reverberating_dorodango',
+            weight: 100,
+            id: `${id_prefix}brilliant_reverberating_dorodango`
         }
     ];
 
