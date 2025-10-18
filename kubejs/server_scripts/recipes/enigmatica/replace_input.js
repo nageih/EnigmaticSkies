@@ -60,12 +60,7 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:dyes/green'
         },
         {
-            filter: [
-                { output: 'minecraft:observer' },
-                { output: `minecraft:comparator` },
-                { mod: 'prettypipes' },
-                { mod: 'ppfluids' }
-            ],
+            filter: [{ output: `minecraft:comparator` }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },

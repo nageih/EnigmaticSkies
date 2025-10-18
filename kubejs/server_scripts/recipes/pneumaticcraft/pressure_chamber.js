@@ -142,6 +142,17 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}machine_core_4`
+        },
+        {
+            results: [{ id: 'modern_industrialization:lubricant_bucket', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:polymorphic_fluid_bucket', count: 1 },
+                { tag: 'c:dusts/grains_of_infinity', count: 2 },
+                { tag: 'c:dusts/redstone', count: 2 },
+                { item: 'ars_nouveau:starbuncle_charm', count: 4 }
+            ],
+            pressure: 1.0,
+            id: `${id_prefix}lubricant_bucket`
         }
     ];
 
