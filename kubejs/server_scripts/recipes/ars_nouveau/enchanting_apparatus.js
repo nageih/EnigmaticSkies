@@ -360,6 +360,19 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}heatproof_machine_casing`
         },
         {
+            result: { id: 'modern_industrialization:frostproof_machine_casing', count: 1 },
+            reagent: { item: 'modern_industrialization:bronze_machine_casing' },
+            pedestalItems: [
+                { item: 'arsdelight:neutralized_bombegrante_jam' },
+                { item: 'arsdelight:neutralized_bombegrante_jam' },
+                { item: 'arsdelight:neutralized_bombegrante_jam' },
+                { item: 'arsdelight:neutralized_bombegrante_jam' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}frostproof_machine_casing`
+        },
+        {
             result: { id: 'ars_nouveau:shapers_focus', count: 1 },
             reagent: { tag: 'c:essences/manipulation' },
             pedestalItems: [

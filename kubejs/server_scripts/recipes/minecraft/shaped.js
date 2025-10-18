@@ -101,6 +101,16 @@ ServerEvents.recipes((event) => {
                 C: 'minecraft:vine'
             },
             id: `${id_prefix}small_dripleaf`
+        },
+        {
+            output: 'minecraft:observer',
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: 'minecraft:andesite',
+                B: '#c:gems/restonia',
+                C: 'malum:strange_crystal'
+            },
+            id: `${id_prefix}observer`
         }
     ];
 

@@ -34,6 +34,16 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id: `${id_prefix}item_pipe`
+        },
+        {
+            item_outputs: [{ item: 'pneumaticcraft:advanced_pressure_tube', amount: 1 }],
+            item_inputs: [
+                { item: 'pneumaticcraft:reinforced_pressure_tube', amount: 1 },
+                { item: 'malum:soulwoven_silk', amount: 2 }
+            ],
+            eu: 4,
+            duration: 5,
+            id: `${id_prefix}advanced_pressure_tube`
         }
     ];
 

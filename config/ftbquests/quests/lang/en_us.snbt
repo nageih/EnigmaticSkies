@@ -2917,6 +2917,8 @@
 		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 		""
 		"Things will only get more complicated from here, so be sure to spend some time automating what you can."
+		""
+		"&a🛈 Tip: Try to keep your wires isolated to loaded chunks. "
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [

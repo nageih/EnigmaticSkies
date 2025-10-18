@@ -155,15 +155,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}reinforced_carbon_sheet`
         },
         {
-            outputs: { item_output: { id: 'pneumaticcraft:advanced_pressure_tube', count: 1 } },
-            inputs: {
-                fluid: { tag: 'pneumaticcraft:plastic', amount: 50 },
-                item: { item: 'pneumaticcraft:reinforced_pressure_tube' }
-            },
-            pressure: 7.5,
-            id: `${id_prefix}advanced_pressure_tube`
-        },
-        {
             outputs: { item_output: { id: 'create:sturdy_sheet', count: 1 } },
             inputs: {
                 fluid: { tag: 'c:lava', amount: 500 },

@@ -20,6 +20,7 @@
 	"Dimension Temperature Offsets" = [
 	    ["minecraft:the_nether", 32, "f"],
 	    ["minecraft:the_end", -5, "f"],
+	    ["ftbteambases:bases", -5, "f"],
 	    ["aether:the_aether", 32, "f"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -77,8 +78,13 @@
 	    ["minecraft:badlands", 84, 120, "F"],
 	    ["minecraft:wooded_badlands", 80, 108, "F"],
 	    ["minecraft:eroded_badlands", 88, 120, "F"],
-	    ["minecraft:deep_dark", 63, 63, "F"],
-	    ["minecraft:dripstone_caves", "disable"]
+	    ["minecraft:dripstone_caves", "disable"],
+	    ["minecraft:the_void", -40, -20, "C"],
+	    ["minecraft:mushroom_fields", 0, 15, "F"],
+	    ["minecraft:deep_dark", -40, -20, "C"],
+	    ["minecraft:mangrove_swamp", -40, -20, "C"],
+	    ["minecraft:warm_ocean", -40, -20, "C"],
+	    ["ars_nouveau:archwood_forest", 100, 120, "C"]
 	]
 
 [Blocks]

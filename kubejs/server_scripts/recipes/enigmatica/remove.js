@@ -384,6 +384,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:packed_ice' },
         { id: 'minecraft:blue_ice' },
         { id: 'minecraft:wind_charge' },
+        { id: 'minecraft:observer' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
         { output: 'minecraft:chest' },
@@ -413,6 +414,7 @@ ServerEvents.recipes((event) => {
         { output: /modern_industrialization:.*_water_pump/ },
         { output: /extended_industrialization:.*_alloy_smelter/ },
         { output: `modern_industrialization:heatproof_machine_casing` },
+        { output: `modern_industrialization:frostproof_machine_casing` },
         {
             type: 'modern_industrialization:mixer',
             output: /(cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
