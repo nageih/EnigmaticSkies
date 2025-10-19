@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:essences/air',
                 B: 'minecraft:lightning_rod',
-                C: 'ae2:quartz_glass',
+                C: '#c:ingots/sky',
                 D: 'actuallyadditions:advanced_coil',
                 E: '#c:essences/earth',
                 F: 'pneumaticcraft:pressure_chamber_valve'
