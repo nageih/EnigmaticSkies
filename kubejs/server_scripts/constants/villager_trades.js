@@ -626,12 +626,12 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'pneumaticcraft:drone', count: 16 },
+            result: { id: 'pneumaticcraft:drone', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
-            result: { id: 'pneumaticcraft:programming_puzzle', count: 1 },
+            result: { id: 'pneumaticcraft:programming_puzzle', count: 16 },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
             level: 4
         },
