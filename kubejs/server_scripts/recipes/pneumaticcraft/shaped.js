@@ -93,6 +93,16 @@ ServerEvents.recipes((event) => {
                 C: 'pneumaticcraft:display_table'
             },
             id: `${id_prefix}programmer`
+        },
+        {
+            output: '2x pneumaticcraft:speed_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'pneumaticcraft:upgrade_matrix',
+                B: 'prettypipes:medium_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}speed_upgrade`
         }
     ];
 
