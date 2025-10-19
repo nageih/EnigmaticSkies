@@ -62,18 +62,18 @@
 			id: "398AE848C969FCEF"
 			tasks: [
 				{
-					id: "76BAF2D7BDE3575E"
-					item: { count: 1, id: "modern_industrialization:liquid_air_bucket" }
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "214A89A0C2C79D45"
 					item: { count: 1, id: "naturesaura:sky_ingot" }
 					type: "item"
 				}
+				{
+					id: "5FABED80884CD291"
+					item: { count: 1, id: "modern_industrialization:liquid_air_bucket" }
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -85,7 +85,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["55D51F58CA3130AA"]
@@ -97,7 +97,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["503873180200D878"]
@@ -108,7 +108,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -155,7 +155,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: -2.5d
 		}
 	]

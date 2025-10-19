@@ -10,33 +10,30 @@
 	loot_size: 2
 	order_index: 13
 	rewards: [
-		{ id: "2C03728A4DFF3CDC", item: { components: { "pneumaticcraft:main_tank": { amount: 32000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:medium_tank" } }
 		{
-			count: 4
 			id: "0D00BFF7897ADAB3"
 			item: {
 				count: 1
 				id: "pneumaticcraft:speed_upgrade"
 			}
-			random_bonus: 4
+			random_bonus: 1
 		}
 		{
-			count: 8
+			count: 2
 			id: "373140F18529DDEA"
 			item: {
 				count: 1
 				id: "pneumaticcraft:volume_upgrade"
 			}
-			random_bonus: 8
+			random_bonus: 2
 		}
 		{
-			count: 4
 			id: "5A3BEED3B537E7FE"
 			item: {
 				count: 1
 				id: "pneumaticcraft:module_expansion_card"
 			}
-			random_bonus: 4
+			random_bonus: 1
 		}
 		{ id: "301950889223F9E7", item: { count: 1, id: "pneumaticcraft:smart_chest_kit" } }
 		{
@@ -84,13 +81,13 @@
 			weight: 0.5f
 		}
 		{
-			count: 8
+			count: 4
 			id: "35B3981BF58BD698"
 			item: {
 				count: 1
 				id: "pneumaticcraft:reinforced_pressure_tube"
 			}
-			random_bonus: 8
+			random_bonus: 4
 		}
 		{
 			count: 4
