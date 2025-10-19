@@ -598,9 +598,48 @@ const villagerTrades = {
             level: 1
         },
         {
+            result: { id: 'pneumaticcraft:module_expansion_card', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'pneumaticcraft:collector_drone', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
+            result: { id: 'pneumaticcraft:harvesting_drone', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'pneumaticcraft:guard_drone', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'pneumaticcraft:logistics_drone', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'pneumaticcraft:drone', count: 16 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'pneumaticcraft:programming_puzzle', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
             result: { id: 'pneumaticcraft:assembly_program_drill_laser', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 8, max: 12 } }],
-            level: 1
+            level: 5
         }
     ]
 };

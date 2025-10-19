@@ -46,7 +46,7 @@
 	#Chance per tick of Crop Supports causing a growth tick. The default, 0.002, is roughly 2.5 times faster than the vanilla growth rate
 	# Default: 0.002
 	# Range: 0.0 ~ 1.7976931348623157E308
-	crop_sticks_growth_boost_chance = 0.002
+	crop_sticks_growth_boost_chance = 0.02
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	# Default: 40
 	# Range: > 0
@@ -54,11 +54,11 @@
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	# Default: 100000
 	# Range: > 0
-	electrostatic_lightning_chance = 100000
+	electrostatic_lightning_chance = 750
 	#The max height of an elevator per stacked Elevator Base block.
 	# Default: 6
 	# Range: 1 ~ 256
-	elevator_base_blocks_per_base = 12
+	elevator_base_blocks_per_base = 16
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	# Default: 40
 	# Range: > 0
@@ -386,7 +386,7 @@
 	# Range: 0.0 ~ 10.0
 	ambient_temperature_height_modifier = 0.1
 	#Automatically register heat properties for all detected modded fluids based on their self-defined temperature? (note: vanilla lava and water are always added)
-	add_default_fluid_entries = true
+	add_default_fluid_entries = false
 
 [logistics]
 	#Logistics Module air usage per item per block distance
@@ -419,7 +419,7 @@
 	add_mechanic_house = 8
 	#Which trades should the Pressure Mechanic offer? ALL will offer all trades. PCB_BLUEPRINT will offer *only* the PCB Blueprint, an item required for normal progression through the mod. NONE will offer nothing (but the PCB Blueprint is also available via Amadron by default). Note that changing this won't affect any already-spawned Pressure Mechanics.
 	#Allowed Values: NONE, PCB_BLUEPRINT, ALL
-	mechanic_trades = "ALL"
+	mechanic_trades = "NONE"
 
 [drones]
 	#Enable Drone Suffocation Damage
