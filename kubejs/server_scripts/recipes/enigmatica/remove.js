@@ -657,6 +657,7 @@ ServerEvents.recipes((event) => {
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
         { id: 'pneumaticcraft:drone_upgrade' },
         { id: 'pneumaticcraft:drone' },
+        { id: 'pneumaticcraft:speed_upgrade_from_glycerol' },
         { output: 'pneumaticcraft:pressure_chamber_valve' },
         { output: 'pneumaticcraft:liquid_compressor' },
         { output: 'pneumaticcraft:advanced_liquid_compressor' },
