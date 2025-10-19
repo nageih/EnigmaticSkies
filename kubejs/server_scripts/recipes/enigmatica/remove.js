@@ -664,6 +664,7 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:thermal_compressor' },
         { output: 'pneumaticcraft:programming_puzzle' },
         { output: 'pneumaticcraft:module_expansion_card' },
+        { output: 'pneumaticcraft:programmer' },
         { output: /pneumaticcraft:(collector|harvesting|logistics|guard)_drone/ },
         { id: /pneumaticcraft:amadron\/assembly_program/ },
         { id: /pneumaticcraft:amadron\/.*emerald/ },

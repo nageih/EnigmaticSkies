@@ -83,6 +83,16 @@ ServerEvents.recipes((event) => {
                 F: 'pneumaticcraft:pressure_tube'
             },
             id: `${id_prefix}liquid_compressor`
+        },
+        {
+            output: 'pneumaticcraft:programmer',
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'supplementaries:crystal_display',
+                B: 'redstonepen:control_box',
+                C: 'pneumaticcraft:display_table'
+            },
+            id: `${id_prefix}programmer`
         }
     ];
 
