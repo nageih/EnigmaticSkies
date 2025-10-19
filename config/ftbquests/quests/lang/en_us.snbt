@@ -3882,6 +3882,13 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
+	quest.59F0519A7ED69E19.quest_desc: [
+		"Oil is normally formed under intense pressure over millions of years."
+		""
+		"We don't have time for that, so let's speed things along a little with the magic of Time Fluid."
+		""
+		"Reaching the necessary pressure here may prove difficult. You'll need to use a &7Thermal Compressor&r for these pressures."
+	]
 	quest.5A2C9E1F74B7EC97.quest_desc: ["Finished PCBs will unlock the most powerful options within PneumaticCraft, from armor and weapons to rival Iron Man to programmable drones and advanced logistics. "]
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
 		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
@@ -4384,7 +4391,7 @@
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6490781066FAE8CF.quest_desc: [
-		"&6&nBiome: Mangrove Swamp&r&r"
+		"                      &6&nBiome: Mangrove Swamp&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""
@@ -5317,10 +5324,10 @@
 	quest.77FA6854AC88C138.quest_desc: [
 		"It's time to get a little more out of those clouds. "
 		""
-		"Process some &7Cloudy Dorodangos&r to obtain &7Wind Charges&r, &7Sky Stone Dust&r, and &7Sal Ammoniac Crystals&r."
+		"Process some &7Cloudy Dorodangos&r to obtain &7Sky Stone Dust&r and &7Sal Ammoniac Crystals&r."
 	]
 	quest.78626EE046E48EF3.quest_desc: [
-		"&6&nBiome: Archwood Forest&r&r"
+		"                       &6&nBiome: Archwood Forest&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""
@@ -5333,6 +5340,7 @@
 		"  • &7C. Deepslate&r           &2⟶&r           &7Basalt&r"
 		"  • &7Deepslate&r              &2⟶&r           &7Smooth Basalt&r"
 		""
+		"                      &c⚠ Warning: Contents HOT!"
 		"{@pagebreak}"
 		"&6&nExample Spells&r"
 		""
@@ -5358,7 +5366,7 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
 	quest.7893072479F01DC2.quest_desc: [
-		"&6&nBiome: Warm Ocean&r&r"
+		"                          &6&nBiome: Warm Ocean&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""

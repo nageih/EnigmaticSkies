@@ -335,11 +335,6 @@
 					item: { count: 1, id: "theurgy:sal_ammoniac_crystal" }
 					type: "item"
 				}
-				{
-					id: "4E8C4D7B350BE135"
-					item: { count: 1, id: "minecraft:wind_charge" }
-					type: "item"
-				}
 			]
 			x: 3.5d
 			y: 5.5d

@@ -327,12 +327,23 @@
 				"4C91792ACCC53A2B"
 				"492FE8CF9B01FCBE"
 			]
+			icon: {
+				id: "pneumaticcraft:oil_bucket"
+			}
 			id: "59F0519A7ED69E19"
-			tasks: [{
-				id: "54ACE35B147A9D00"
-				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58FC61E3B97E1BB7"
+					item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
+					type: "item"
+				}
+				{
+					id: "76E83FC45E6EEA4D"
+					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.5d
 		}
