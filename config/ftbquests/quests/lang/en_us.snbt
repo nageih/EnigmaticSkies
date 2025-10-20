@@ -1997,7 +1997,7 @@
 	quest.33679351A7B6D8E6.quest_desc: [
 		"Being able to place and pick up blocks automatically will help with getting some early tasks automated. "
 		""
-		"On the Flourishing Island, getting Tuff to make some of these basic machines can be achieved with the same spell you've previously used to obtain Icstone."
+		"On the Flourishing Island, getting &7Tuff&r to make some of these basic machines can be achieved with the same spell you've previously used to obtain &7Icstone&r."
 		""
 		"&6&nExample Spells&r"
 		""
@@ -2798,7 +2798,7 @@
 		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.427846D4FFE678C5.quest_desc: [
-		"Consuming Life Shards has been known to provide certain health benefits. "
+		"Consuming &7Life Shards&r has been known to provide certain health benefits. "
 		""
 		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
 	]

@@ -187,7 +187,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -305,7 +305,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -389,13 +389,14 @@
 			dependencies: ["49968116FCB311B0"]
 			id: "63944BDC078E728A"
 			min_width: 400
+			shape: "diamond"
 			tasks: [{
 				id: "6059DD0F3986707D"
 				item: { count: 1, id: "ars_nouveau:shapers_focus" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -404,13 +405,14 @@
 			]
 			id: "579B2C5CB83022ED"
 			min_width: 250
+			shape: "diamond"
 			tasks: [{
 				id: "32BB268124E0C570"
 				item: { count: 1, id: "ars_elemental:manipulation_turret" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -422,7 +424,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -685,7 +687,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -705,7 +707,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -726,7 +728,7 @@
 				item: { count: 1, id: "actuallyadditions:coffee_cup" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -737,7 +739,7 @@
 				item: { count: 1, id: "aether:life_shard" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -809,6 +811,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "68FA4E455CC6430D"
@@ -821,8 +824,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -1.5d
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 }
