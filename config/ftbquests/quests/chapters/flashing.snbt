@@ -24,29 +24,20 @@
 		{
 			dependencies: ["0745FDF3F22807CA"]
 			id: "768869D763EC54EB"
-			rewards: [
-				{
-					id: "29638DAE7D84B06D"
-					item: {
-						count: 1
-						id: "utilitarian:angel_block"
-					}
-					type: "item"
-				}
-				{
-					id: "359BCFF9FA74D5C0"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "apothic_attributes:long_flying"
-							}
+			min_width: 300
+			rewards: [{
+				id: "359BCFF9FA74D5C0"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
 						}
-						count: 1
-						id: "minecraft:potion"
 					}
-					type: "item"
+					count: 1
+					id: "minecraft:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "19AFB8190B18D220"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }

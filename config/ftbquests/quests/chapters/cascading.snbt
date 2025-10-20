@@ -14,29 +14,19 @@
 			dependencies: ["5226F1BC0A1B23D0"]
 			id: "7893072479F01DC2"
 			min_width: 300
-			rewards: [
-				{
-					id: "36D0B93B2194E502"
-					item: {
-						count: 1
-						id: "utilitarian:angel_block"
-					}
-					type: "item"
-				}
-				{
-					id: "69B4F2E3ED4AFFEB"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "apothic_attributes:long_flying"
-							}
+			rewards: [{
+				id: "69B4F2E3ED4AFFEB"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
 						}
-						count: 1
-						id: "minecraft:potion"
 					}
-					type: "item"
+					count: 1
+					id: "minecraft:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "758EA454F1E9A0E3"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
