@@ -2972,10 +2972,15 @@
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
 	quest.45F3C4F0EDA160C5.quest_desc: [
-		"You’ve got nothing but your wits and a few trinkets to work with. These two books will help you get started. One will summon a fluffy cloud while the other will grow plants for you. "
+		"You’ve got nothing but your wits and a few trinkets to work with; these books will help you get started. "
 		""
-		"Use it to grow your sapling!"
-		"&n                                                  &r"
+		"• &6Cloud Burst&r will summon a fluffy cloud."
+		""
+		"• &6Brawndo&r will quickly grow plants."
+		""
+		"• &6Holdfast&r places a single block in midair which "
+		"    will disappear after a few moments."
+		"&n                                                              &r"
 		""
 		"Lost your books? Ran out of Saplings? "
 		""

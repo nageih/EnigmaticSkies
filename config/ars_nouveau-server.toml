@@ -7,7 +7,7 @@
 	#Base max mana
 	# Default: 100
 	# Range: > 0
-	baseMax = 100
+	baseMax = 200
 	#How often max and regen will be calculated, in ticks. NOTE: Having the base mana regen AT LEAST this value is recommended.
 	# Default: 5
 	# Range: 1 ~ 20
