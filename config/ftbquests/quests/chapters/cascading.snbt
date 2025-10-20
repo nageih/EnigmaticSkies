@@ -14,6 +14,19 @@
 			dependencies: ["5226F1BC0A1B23D0"]
 			id: "7893072479F01DC2"
 			min_width: 300
+			rewards: [{
+				id: "69B4F2E3ED4AFFEB"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "758EA454F1E9A0E3"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
@@ -64,7 +77,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A92EF3C51F82669"]
@@ -75,7 +88,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -106,8 +119,8 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -143,7 +156,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -211,7 +224,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6534548E8A6A318C"]
@@ -327,13 +340,24 @@
 				"4C91792ACCC53A2B"
 				"492FE8CF9B01FCBE"
 			]
+			icon: {
+				id: "pneumaticcraft:oil_bucket"
+			}
 			id: "59F0519A7ED69E19"
-			tasks: [{
-				id: "54ACE35B147A9D00"
-				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
-				type: "item"
-			}]
-			x: 1.5d
+			tasks: [
+				{
+					id: "58FC61E3B97E1BB7"
+					item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
+					type: "item"
+				}
+				{
+					id: "76E83FC45E6EEA4D"
+					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -345,7 +369,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["016B7CA4A7FC58A1"]
@@ -364,6 +388,18 @@
 			]
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2BB91161DB6B6AF5"]
+			id: "1476B02AA2977ACB"
+			min_width: 250
+			tasks: [{
+				id: "648C3CABA9F6ECE9"
+				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 }

@@ -118,7 +118,6 @@
             "oritech:steam_engine_block",
             "oritech:steam_boiler_addon",
             "oritech:still_oil_bucket",
-            "oritech:still_fuel_bucket",
             "oritech:still_heavy_oil_bucket",
             "oritech:still_biofuel_bucket",
             "oritech:still_sulfuric_acid_bucket",
@@ -154,7 +153,6 @@
             "modern_industrialization:crude_oil",
 
             "oritech:still_oil",
-            "oritech:still_fuel",
             "oritech:still_heavy_oil",
             "oritech:still_biofuel",
             "oritech:still_sulfuric_acid",

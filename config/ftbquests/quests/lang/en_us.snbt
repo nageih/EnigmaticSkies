@@ -163,6 +163,10 @@
 		"Buy a &7Brewing Stand&r to gain access to the &7Cleric Villager's&r trades. "
 		""
 		"In particular, you'll need a &7Ritual Brazier&r soon, so be certain to pick one up."
+		""
+		"&a🛈 Tip: Potions inserted into a Hearth "
+		"&a    will apply their effects to entities "
+		"&a    in the area!"
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.054093E1130E24C1.quest_desc: [
@@ -179,13 +183,16 @@
 		"&a    easily configure the working area."
 	]
 	quest.0554264AE11578D2.quest_desc: [
-		"The pressure chamber is a multiblock crafting interface that uses compressed air to operate. "
+		"The &7Pressure Chamber&r is a multiblock crafting interface that uses compressed air to operate. Items are passed in and extracted from the &7Interfaces&r while Air is provided through the &7Valve&r. "
 		""
-		"Building the structure can be a little daunting at first, but the guidebook covers the requirements in detail."
+		"The interfaces will be slow at first, but some &7Speed Upgrades&r will really help out."
+		"&n                                                             &r "
 		""
-		"You’ll want to begin by building a 3x3x3 structure, as the larger ones can take a long time to fill at this stage. "
+		"Start by building a 3x3x3 structure; it'll be easier to get up to pressure."
 		""
-		"This will require two Interface blocks, one Valve, and a good amount of Pressure Chamber Walls; Pressure Chamber Glass is optional, but recommended to see what's happening inside."
+		"&7Pressure Chamber Glass&r is optional, but recommended to see what's happening inside."
+		""
+		"&a🛈 Tip: The PNC guidebook covers the requirements in detail."
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
@@ -573,6 +580,23 @@
 		"&6    for finding the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
+	quest.0EA238CF4DE7E649.quest_desc: [
+		"                `● Snowball:                7K`,"
+		"                `● Egg:                      10K`,"
+		"                `● Pollen Puff:            10K`,"
+		"                `● Slimeball:                10K`,"
+		"                `● Arrow:                30K`,"
+		"                `● Fire Charge:          35K`,"
+		"                `● Cannonball:             35K`,"
+		"                `● Bomb:                    35K`,"
+		"                `● Spectral Arrow:        40K`,"
+		"                `● Ender Pearl:            50K`,"
+		"                `● Wind Charge:          100K`,"
+		"                // `● Llama Spit:             100K`,"
+		"                `● Bottle o' Enchanting: 200K`,"
+		"                // `● Shulker Bullet:       300K`,"
+		"                `● Trident:                 3M`"
+	]
 	quest.0EEEA27699137B6C.quest_desc: [
 		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
 		""
@@ -825,6 +849,21 @@
 		"&a    be used to autofill other containers "
 		"&a    in your inventory!"
 	]
+	quest.1476B02AA2977ACB.quest_desc: [
+		"The funny thing about being so high in the air is just how much lightning one can attract with a proper setup. "
+		""
+		"The &7Electrostatic Compressor&r will attract random lightning strikes, converting the energy into compressed air up to &720 bar&r."
+		""
+		"It works well enough in clear skies, but when a storm rolls through it will really get going."
+		""
+		"Up this far, it is very efficient."
+		"&n                                                              &r"
+		""
+		"[\"An example of the structure required for this compressor can be found on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/schematic/f0d838f5-6460-4f3d-aaf0-ab6590df20e5\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints.io\",\"underlined\":true},\". Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the menu!\"]"
+		""
+		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover "
+		"&a    valid blocks for an Electrostatic Grid."
+	]
 	quest.149BC66585EA0C34.quest_desc: [
 		"Each Bookwyrm attached to the &7Primary Lectern&r allows you to link eight inventories. That goes quick if you’re binding directly to chests and the like. "
 		""
@@ -951,18 +990,6 @@
 		"&a    organized and avoid cross "
 		"&a    contamination!"
 	]
-	quest.16A8BFECD924477D.quest_desc: [
-		"A few options exist for compressing air at this stage."
-		""
-		"The Liquid Compressor uses liquid fuels to run and can be a nice alternative to the Air Compressor. "
-		""
-		"The liquid fuels PNC has to offer will require a bit of progression still, but they’re very viable in the early game, with Biodiesel being an easily renewable power source. "
-		""
-		"Other mods also have liquid fuels, however, which can be used with PNC. So, if you’ve delved into Just Dire Things or Modern Industrialization, you may find some useful fuels to get you jump started here."
-		""
-		"If you hate fun, the Manual Compressor exists and will having you questioning your life choices in no time. "
-	]
-	quest.16A8BFECD924477D.title: "Alternative Basic Compressors"
 	quest.16BFB19411FE195F.quest_desc: [
 		"LaserIO is a catch all logistics mod capable of many things. "
 		""
@@ -1263,11 +1290,6 @@
 		""
 		"&c⚠ Warning: Right-Clicking a Scroll "
 		"&c    will cast it, expending forever."
-	]
-	quest.1EBAABF6E93CFCDF.quest_desc: [
-		"Once properly prepared in the UV Light Box, Empty PCBs will need to be etched in the etching tank."
-		""
-		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
 	quest.1ED9BF551B4E2420.title: "Marid Crusher"
 	quest.1F1B78D4388E9332.quest_desc: [""]
@@ -1677,8 +1699,6 @@
 	]
 	quest.29D1FB4380460203.quest_desc: [
 		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
-		""
-		"As you’re just getting started, you’ll want to craft an Air Compressor as it is cheap and burns regular furnace fuels."
 		"&n                                                  &r"
 		""
 		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
@@ -1778,7 +1798,7 @@
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
 	]
-	quest.2C3B39CD6A7E044C.quest_desc: ["Packing up more complex meals for your villagers is going to require some mechanical assistance. "]
+	quest.2C3B39CD6A7E044C.quest_desc: [""]
 	quest.2C7267F92822D2C1.quest_desc: [
 		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
 		""
@@ -1870,13 +1890,6 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
-	]
-	quest.2F835F759B26FD4E.quest_desc: [
-		"The UV Light Box is a critical step to creating PCBs which are used for advanced technology and logistics. "
-		""
-		"The device is used to prepare Empty PCBs for etching. The longer the Empty PCB is allowed to cook in the UV Light Box, the better odds it has of etching properly. Leave the Threshold at 100% for now to ensure the Empty PCBs will etch during the next step."
-		""
-		"Easier methods will soon become available. For now, crafting a large batch of Empty PCBs will suffice."
 	]
 	quest.2F9C801DFAC1C0D9.quest_desc: [
 		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. "
@@ -2001,7 +2014,7 @@
 	quest.33679351A7B6D8E6.quest_desc: [
 		"Being able to place and pick up blocks automatically will help with getting some early tasks automated. "
 		""
-		"On the Flourishing Island, getting Tuff to make some of these basic machines can be achieved with the same spell you've previously used to obtain Icstone."
+		"On the Flourishing Island, getting &7Tuff&r to make some of these basic machines can be achieved with the same spell you've previously used to obtain &7Icestone&r."
 		""
 		"&6&nExample Spells&r"
 		""
@@ -2052,17 +2065,6 @@
 	quest.34FFE863EB846035.title: "Ritual of the Forest"
 	quest.356670417C9A6BB8.title: "Foliot Crusher"
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
-	quest.358A62846D6B0004.quest_desc: [
-		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
-		""
-		"Less useful products can be converted to more valuable materials such as making Lubricant from Diesel."
-		""
-		"The TPP is also used for the creation of Molten Plastic which is our primary goal. Get a bucket of the stuff and dump it on the ground to cool it into useful sheets."
-		""
-		"&a🛈 Tip: Plastic can also be cooled with a"
-		"&a    Heat Frame, granting better yields!"
-	]
-	quest.358A62846D6B0004.title: "Plastic"
 	quest.359562022532BAE1.quest_desc: [
 		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
 		"&n                                                   &r"
@@ -2123,6 +2125,19 @@
 		""
 		"Experiment with them to see what you like best!"
 	]
+	quest.37C965C1FA40221E.quest_desc: [
+		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
+		""
+		"There are some limitations, of course, since the &7Spell Turret&r cannot use every spell form; primarily Touch and Projectile. Still, being able to trigger a spell cast on a &7Redstone&r signal is invaluable."
+		""
+		"The &7Turret&r may be programmed by simply Right-Clicking it with your &7Spell Book&r, a &7Caster Tome&r, or a &7Spell Parchment&r. "
+		""
+		"They may uses glyphs such as &7Item Pickup&r and &7Place Block&r provided they have an inventory adjacent to send to or pull from. "
+		""
+		"They also need a &7Source Jar&r somewhere nearby to power them."
+		""
+		"Try setting your &5Brawndo&r spell on a &7Turret&r and shooting a &7Cloud Berry Bush&r."
+	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37ED5A328F30DD34.quest_desc: [
 		"Creating monsters is no small feat and we’re going to need some specific materials to pull it off. "
@@ -2135,11 +2150,6 @@
 		""
 		"&a🛈 Tip: Apply Spirit Plunder to your "
 		"&a    weapon for even more Spirits!"
-	]
-	quest.380D0C6385B6325C.quest_desc: [
-		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
-		""
-		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
 	]
 	quest.384024534B512211.quest_desc: [
 		"Like most other Technology mods, Immersive Engineering is compatible with FE. You may choose to use the mod’s own power options, or those from other mods."
@@ -2368,6 +2378,14 @@
 		"&6    step must be specified separately."
 	]
 	quest.3CBA1384BD3D28ED.title: "Wixie Smelting"
+	quest.3CC1C6949E17A1B9.quest_desc: [
+		"Simple and reliable, the Liquid Compressor is suitable for running basic PneumaticCraft machines. "
+		"&n                                                  &r"
+		""
+		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
+		""
+		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
+	]
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
 		""
@@ -2797,7 +2815,7 @@
 		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.427846D4FFE678C5.quest_desc: [
-		"Consuming Life Shards has been known to provide certain health benefits. "
+		"Consuming &7Life Shards&r has been known to provide certain health benefits. "
 		""
 		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
 	]
@@ -3116,11 +3134,9 @@
 	]
 	quest.4840F7361DF70516.title: "QIO System"
 	quest.486FDAA44AED23C4.quest_desc: [
-		"A small multiblock consisting of the Controller and up to four Outputs stacked atop it, the Refinery is central to the production of Plastic, Lubricant, and Fluid Fuels. "
+		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to the production of &7Plastic&r and &7Lubricant&r. "
 		""
-		"The Refinery uses Heat instead of Air, though you may wish to use a Vortex Tube to create the heat to operate it, as it needs to get quite hot. "
-		""
-		"You can make life easier by setting it up in a hot biome such as a Desert or the Nether too, as ambient heat plays a role."
+		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
 		""
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
@@ -3437,8 +3453,6 @@
 		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
 		""
 		"Lastly, and perhaps most importantly, the Charging Station acts as the workstation for Pressure Mechanics. "
-		""
-		"These villagers can sell a number of very useful things, including Finished PCBs which will jumpstart your journey through the mod considerably."
 		""
 		"&a🛈 Tip: A Dispenser Upgrade allows the "
 		"&a    Charging Station to charge entities "
@@ -3768,23 +3782,20 @@
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
 	]
 	quest.578401B6C9DA2747.quest_desc: [
-		"With PCBs and Plastic behind us, we can delve into High Pressure mechanics and all that comes with it. For this, we'll need to build a high-performance Compressor."
+		"Before we can delve into High Pressure mechanics, we'll need to build a high-performance Compressor."
 		" "
-		"All of these compressors are capable of producing 20 bar of pressure, though each has its own operational challenges to overcome. "
+		"These compressors are capable of producing up to &720 bar&r of pressure. "
 		"&n                                                                          &r"
 		""
-		"[\"The Advanced Air Compressor and the Advanced Liquid Compressor both operate using the same fuels you've been using thus far but do need to be cooled down. For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+		"The &7Advanced Liquid Compressor&r operates using the same liquid fuels you've been using thus far but does need to be cooled down."
 		""
-		"Similarly, the Flux Compressor will run using energy you may already be creating for other mods such as Mekanism or Modern Industrialization. It also requires cooling, just as the two previous entries."
+		"[\"For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 		""
-		"The Electrostatic Compressor can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
+		"The &7Electrostatic Compressor&r can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
 		""
 		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover valid "
 		"&a    blocks for an Electrostatic Grid."
-		""
-		"Lastly the Solar Compressor runs passively but requires close monitoring. It must be allowed to heat up to do anything, but overheating will cause it to break. Therefore more advanced heat management is required than what’s used for other compressors. "
 	]
-	quest.578401B6C9DA2747.title: "Advanced Compressors"
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
 		""
@@ -3821,13 +3832,11 @@
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
 	quest.57DA648FF73A769A.quest_desc: [
-		"Just a touch more expensive than other compressors, the Thermal Compressor uses heat differentials to produce compressed air up to 10 bar. "
+		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
 		""
-		"This can be a great way to produce a little extra air to top off your tools, most of which can handle that much pressure."
+		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a Heat Sink placed opposite will be enough to produce the required differential. "
 		""
-		"Blocks such as Lava, Magma, and even Uranium may be used to heat one side, while a Heat Sink placed opposite will be enough to produce the required differential. "
-		""
-		"The heat sources will degrade over time."
+		"Heat sources will degrade over time and will need to be replaced."
 		""
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
@@ -3882,7 +3891,14 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
-	quest.5A2C9E1F74B7EC97.quest_desc: ["Finished PCBs will unlock the most powerful options within PneumaticCraft, from armor and weapons to rival Iron Man to programmable drones and advanced logistics. "]
+	quest.59F0519A7ED69E19.quest_desc: [
+		"Oil is normally formed under intense pressure over millions of years."
+		""
+		"We don't have time for that, so let's speed things along a little with the magic of &7Time Fluid&r."
+		""
+		"Reaching the necessary pressure here may prove difficult. You'll need to use a &7Thermal Compressor&r for these pressures."
+	]
+	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
 		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
@@ -4043,7 +4059,7 @@
 		""
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
-		"In this case, the &7Large Steam Boiler&r only requires and Fluid Hatches; it does not accept solid fuel."
+		"In this case, the &7Large Steam Boiler&r only requires Fluid Hatches; it does not accept solid fuel."
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Large Steam Boiler block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
@@ -4384,7 +4400,7 @@
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6490781066FAE8CF.quest_desc: [
-		"&6&nBiome: Mangrove Swamp&r&r"
+		"                      &6&nBiome: Mangrove Swamp&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""
@@ -4736,9 +4752,9 @@
 		""
 		"So, if anything is in the way, you may miss out on important blocks."
 		""
-		"Use your &7Cloud Burst&r spell to get a little ways from your main island and place a &7Ritual Brazier&r."
+		"Use a Potion of Flying to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on. Your &7Ritual Brazier&r may then be set atop that block."
 		""
-		"Clear the area around the &7Brazier&r, then Right-Click it with the &7Tablet&r. Right-Click it once more with an empty hand to start the ritual."
+		"Once the &7Brazier&r has been placed, Right-Click it with the &7Tablet&r and then once once more with an empty hand to start the ritual."
 		""
 		"&6⚠ Note"
 		"&6  If important blocks are missing, simply clear "
@@ -5143,9 +5159,11 @@
 	quest.73D70F80C3AE999C.quest_desc: [
 		"Who doesn’t love yeeting things through the air? "
 		""
-		"The Air Cannon is perfect exactly that; launching items to either land in the world or be directly inserted into an inventory. "
+		"The Air Cannon is perfect for exactly that; launching items to either land in the world or be directly inserted into an inventory. "
 		""
-		"With the proper upgrades, they can also be used to launch nearby entities, or to act as a long-range Dispenser. TNT cannon, anyone?"
+		"With the proper upgrades, they can also be used to launch nearby entities, or to act as a long-range Dispenser. "
+		""
+		"TNT cannon, anyone?"
 	]
 	quest.7431B398FFDF3DCA.quest_desc: [
 		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
@@ -5180,12 +5198,6 @@
 		""
 		"As machines begin using more power, this can be a nice intermediate step up from passive power generation."
 	]
-	quest.748E8D2D5F7E2D5D.quest_desc: [
-		"Primarily used for manufacturing Biodiesel, the Fluid Mixer is an integral part of renewable oil products. "
-		""
-		"Consider setting up a full production line using Biodiesel to produce Plastic and Lubricant, as well as a decent and renewable fuel source. "
-	]
-	quest.748E8D2D5F7E2D5D.title: "Biodiesel"
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
 	quest.752DB3D467FFB259.quest_desc: [
@@ -5211,6 +5223,11 @@
 		"&a🛈 Tip: Right-Click the machine with the "
 		"&a    Core blocks to automatically place "
 		"&a    them for you!"
+	]
+	quest.75BD1F2EB47FB7CF.quest_desc: [
+		"The Advanced Liquid Compressor operates using the same fuels you've been using thus far but does need to be cooled down. "
+		""
+		"[\"For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 	]
 	quest.760BD47C6B67D645.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as your factory grows. "
@@ -5250,6 +5267,41 @@
 		"&6    Right-Click with items to activate it."
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_2&r&6 in EMI!"
+	]
+	quest.768869D763EC54EB.quest_desc: [
+		"                       &6&nBiome: Deep Dark&r&r"
+		""
+		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
+		""
+		"  • &7Dirt&r                      &2⟶&r           &7Aether Dirt&r"
+		"  • &7Grass Block&r           &2⟶&r           &7Aether Grass Block&r"
+		"  • &7Cobblestone&r           &2⟶&r           &7Sculk&r"
+		"  • &7Stone&r                   &2⟶&r           &7Sculk&r"
+		"  • &7Sand&r                    &2⟶&r           &7Cold Aercloud&r"
+		"  • &7Sandstone&r             &2⟶&r           &7Quicksoil&r"
+		"  • &7C. Deepslate&r           &2⟶&r           &7C. Deepslate&r"
+		"  • &7Deepslate&r              &2⟶&r           &7Deepslate&r"
+		""
+		"{@pagebreak}"
+		"&6&nExample Spells&r"
+		""
+		"&7Conjure Aether Dirt&r"
+		"    &5Touch&r > &aConjure Terrain&r"
+		""
+		"&7Conjure Sculk&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r"
+		""
+		"&7Conjure Gold Aercloud&r"
+		"    &5Touch&r > &aConjure Terrain&r > &aCrush&r"
+		""
+		"&7Conjure Quicksoil&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aCrush&r"
+		""
+		"&7Conjure Cobbled Deepslate&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
+		""
+		"&7Conjure Deepslate&r"
+		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
 	quest.773105FB99015746.quest_desc: [
 		"The Result Pedestal is where our output will be generated. "
@@ -5317,10 +5369,10 @@
 	quest.77FA6854AC88C138.quest_desc: [
 		"It's time to get a little more out of those clouds. "
 		""
-		"Process some &7Cloudy Dorodangos&r to obtain &7Wind Charges&r, &7Sky Stone Dust&r, and &7Sal Ammoniac Crystals&r."
+		"Process some &7Cloudy Dorodangos&r to obtain &7Sky Stone Dust&r and &7Sal Ammoniac Crystals&r."
 	]
 	quest.78626EE046E48EF3.quest_desc: [
-		"&6&nBiome: Archwood Forest&r&r"
+		"                       &6&nBiome: Archwood Forest&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""
@@ -5333,6 +5385,7 @@
 		"  • &7C. Deepslate&r           &2⟶&r           &7Basalt&r"
 		"  • &7Deepslate&r              &2⟶&r           &7Smooth Basalt&r"
 		""
+		"                      &c⚠ Warning: Contents HOT!"
 		"{@pagebreak}"
 		"&6&nExample Spells&r"
 		""
@@ -5358,7 +5411,7 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
 	quest.7893072479F01DC2.quest_desc: [
-		"&6&nBiome: Warm Ocean&r&r"
+		"                          &6&nBiome: Warm Ocean&r&r"
 		""
 		"The following Placement Conversions are in effect in this biome. Remember to use these to your advantage by using Conjure Terrain to summon these blocks."
 		""
@@ -5639,7 +5692,6 @@
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.1291CAC439E06D6C.title: "Rune"
-	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
 	task.15D7325C0C904192.title: "Any #minecraft:small_flowers"
@@ -5667,6 +5719,7 @@
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.26180CD75616C6C3.title: "Esoteric Materials"
 	task.264F4FA6B354C01A.title: "Observation: &2Wixie's Enchanting Apparatus&r"
+	task.26AA4AE6E83EAD7F.title: "High Pressure Compressors"
 	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
@@ -5675,6 +5728,7 @@
 	task.2AD2A5C68D517C53.title: "Oritech"
 	task.2B3416E3F3663598.title: "Block Conversions"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
+	task.2D01B317F079689C.title: "Heating and Cooling"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2D92956F1FC2B3EF.title: "Void Materials"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
@@ -5703,6 +5757,7 @@
 	task.3A59C49FAF001D7E.title: "Temperature Management"
 	task.3AA02F5C513F90A9.title: "Ender IO"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
+	task.3B0B23FDA1D77572.title: "d"
 	task.3B6A2E42A7F4D6C2.title: "Tools of the Trade"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
@@ -5747,8 +5802,7 @@
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.4DBE23AE12CB9448.title: "Observe Black Hole"
 	task.4EAFCD169CB43E2D.title: "Hearth and Home"
-	task.4F21DF4EFC469AAC.title: "Output Hatch"
-	task.51A4E7C2E42561D2.title: "Advanced Compressors"
+	task.4F21DF4EFC469AAC.title: "Fluid Output Hatch"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
 	task.5243C7DE02D7AA20.title: "Armor Insulation"
@@ -5775,6 +5829,7 @@
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5DC14CAF06A7DB89.title: "Observe: Possessed Endermite"
+	task.5EB744EFE95C60A5.title: "Empowered Crystals"
 	task.5F579E2341E92725.title: "PneumaticCraft"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
@@ -5805,7 +5860,7 @@
 	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
-	task.71A479E92219AB03.title: "Input Hatch"
+	task.71A479E92219AB03.title: "Fluid Input Hatch"
 	task.71EFA0C693ACD330.title: "Item Transfer Labels"
 	task.72396A76EEA759CF.title: "Books of Binding"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"

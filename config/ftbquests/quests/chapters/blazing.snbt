@@ -14,6 +14,19 @@
 			dependencies: ["008F3C0FB9F4B451"]
 			id: "78626EE046E48EF3"
 			min_width: 300
+			rewards: [{
+				id: "713433C982DC7356"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EE92F0404F62B4C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }

@@ -61,6 +61,14 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
             time: 12,
             id: `${id_prefix}cthonic_gold`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'oritech:still_fuel', amount: 1000 }],
+            ingredients: [{ tag: 'c:gems/fluxite' }],
+            fluidInput: { fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 },
+            time: 10,
+            id: `${id_prefix}still_fuel`
         }
     ];
 

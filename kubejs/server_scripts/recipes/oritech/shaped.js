@@ -163,6 +163,18 @@ ServerEvents.recipes((event) => {
                 C: 'oritech:flux_gate'
             },
             id: `${id_prefix}charger_block`
+        },
+        {
+            output: `oritech:jetpack`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/steel',
+                B: 'ars_nouveau:belt_of_levitation',
+                C: 'pneumaticcraft:cannon_barrel',
+                D: 'actuallyadditions:advanced_coil',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}jetpack`
         }
     ];
 

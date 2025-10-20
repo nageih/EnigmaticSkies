@@ -264,6 +264,15 @@ ServerEvents.recipes((event) => {
             },
             temperature: { min: CtoK(1500) },
             id: `${id_prefix}blaze_rod`
+        },
+        {
+            outputs: { item_output: { id: 'minecraft:breeze_rod', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'modern_industrialization:liquid_air', amount: 1000 },
+                item: { tag: 'c:rods/copper' }
+            },
+            temperature: { min: CtoK(1500) },
+            id: `${id_prefix}breeze_rod`
         }
     ];
 

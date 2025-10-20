@@ -14,6 +14,19 @@
 			dependencies: ["0B7FC57C9436274B"]
 			id: "13F15094F3AF4A73"
 			min_width: 300
+			rewards: [{
+				id: "753CB536F96D9DCB"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57A0F394D3AF0E62"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
@@ -652,6 +665,17 @@
 			}]
 			x: 3.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["6AA9F3E0D4BC181A"]
+			id: "0616A82E695A5511"
+			tasks: [{
+				id: "5EB744EFE95C60A5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:empowered_void_crystal_block)item(actuallyadditions:empowered_emeradic_crystal_block)item(actuallyadditions:empowered_diamatine_crystal_block)item(actuallyadditions:empowered_enori_crystal_block)item(actuallyadditions:empowered_restonia_crystal_block)item(actuallyadditions:empowered_palis_crystal_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
 		}
 	]
 }

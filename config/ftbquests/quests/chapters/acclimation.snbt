@@ -310,7 +310,7 @@
 											id: "ars_nouveau:constant"
 											r: 255
 										}
-										name: "Boon of the Earth"
+										name: "Brawndo"
 										particleTimeline: {
 											"ars_nouveau:touch": {
 												onResolvingEffect: {
@@ -370,6 +370,9 @@
 										recipe: [
 											"ars_nouveau:glyph_touch"
 											"ars_nouveau:glyph_grow"
+											"ars_nouveau:glyph_interact"
+											"ars_nouveau:glyph_harvest"
+											"ars_nouveau:glyph_pickup"
 										]
 										sound: { }
 									}
@@ -383,12 +386,111 @@
 					type: "item"
 				}
 				{
-					id: "742C59FE78E64170"
+					id: "57A862A54AB8817D"
+					item: {
+						components: {
+							"ars_nouveau:tome_caster": {
+								flavor_text: "Summons a temporary block in midair!"
+								hidden_text: "limited klaatu ignite "
+								is_hidden: 1b
+								spells: {
+									0: {
+										color: {
+											b: 180
+											g: 25
+											id: "ars_nouveau:constant"
+											r: 255
+										}
+										name: "Angel Block"
+										particleTimeline: {
+											"ars_nouveau:mageblock": {
+												propMap: {
+													"ars_nouveau:color": {
+														particleColor: {
+															b: 255
+															g: 255
+															id: "ars_nouveau:constant"
+															r: 50
+														}
+														tintDisabled: 0b
+													}
+												}
+												type: "ars_nouveau:mageblock"
+											}
+											"ars_nouveau:pantomime": {
+												onResolvingEffect: {
+													motion: {
+														propMap: { }
+														type: "ars_nouveau:burst"
+													}
+													particleOptions: {
+														properties: {
+															"ars_nouveau:density": {
+																density: 10
+																radius: 0.1d
+																spawnType: "SPHERE"
+															}
+															"ars_nouveau:emitter": {
+																age: 0
+																rotation: {
+																	x: 0.0f
+																	y: 0.0f
+																}
+															}
+															"ars_nouveau:particle_type": {
+																particleType: "ars_nouveau:new_glow"
+																subProperties: {
+																	"ars_nouveau:color": {
+																		particleColor: {
+																			b: 229
+																			g: 215
+																			id: "ars_nouveau:constant"
+																			r: 173
+																		}
+																		tintDisabled: 0b
+																	}
+																}
+															}
+														}
+														type: "ars_nouveau:new_glow"
+													}
+												}
+												resolveSound: {
+													sound: {
+														sound: {
+															id: "ars_nouveau:breeze_jump"
+														}
+													}
+												}
+												type: "ars_nouveau:pantomime"
+											}
+										}
+										recipe: [
+											"ars_nouveau:glyph_pantomime"
+											"ars_nouveau:glyph_amplify"
+											"ars_nouveau:glyph_amplify"
+											"ars_nouveau:glyph_amplify"
+											"ars_nouveau:glyph_amplify"
+											"ars_nouveau:glyph_sensitive"
+											"ars_nouveau:glyph_phantom_block"
+										]
+										sound: { }
+									}
+								}
+							}
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":true,\"text\":\"Holdfast\"}"
+						}
+						count: 1
+						id: "ars_nouveau:caster_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "74E33AB8F7F66485"
 					item: {
 						count: 1
 						id: "aether:skyroot_sapling"
 					}
-					only_one: true
 					type: "item"
 				}
 			]

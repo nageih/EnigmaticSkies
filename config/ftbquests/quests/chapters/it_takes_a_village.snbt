@@ -68,6 +68,19 @@
 				id: "minecraft:loom"
 			}
 			id: "34FB10F0A2504973"
+			rewards: [{
+				id: "0224223CE09B4AFA"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:long_flying"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "12D0D24F2CBA6776"

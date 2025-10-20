@@ -260,5 +260,15 @@
 			x: -4.5d
 			y: 5.0d
 		}
+		{
+			id: "0EA238CF4DE7E649"
+			min_width: 500
+			tasks: [{
+				id: "3B0B23FDA1D77572"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
 	]
 }

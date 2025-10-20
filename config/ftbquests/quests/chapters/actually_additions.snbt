@@ -65,7 +65,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["380D0C6385B6325C"]
+			dependencies: ["25770E9DCA5B4B1F"]
 			id: "40948DF54E7594A7"
 			rewards: [
 				{
@@ -92,37 +92,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["25770E9DCA5B4B1F"]
-			id: "380D0C6385B6325C"
-			rewards: [
-				{
-					count: 8
-					id: "7DC8C3A6B792917F"
-					item: {
-						count: 1
-						id: "actuallyadditions:black_quartz"
-					}
-					type: "item"
-				}
-				{
-					id: "7CE6B093E68AC164"
-					item: {
-						count: 1
-						id: "actuallyadditions:coal_generator"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "29F29D08C4557522"
-				item: { count: 1, id: "actuallyadditions:black_quartz" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -185,7 +155,7 @@
 				}
 			]
 			x: 3.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -202,7 +172,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6B0673A379D483A5"]
@@ -263,10 +233,10 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["380D0C6385B6325C"]
+			dependencies: ["25770E9DCA5B4B1F"]
 			id: "76467C03A27E54BD"
 			rewards: [{
 				exclude_from_claim_all: true
