@@ -32,7 +32,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -54,8 +54,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -65,7 +65,7 @@
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -96,7 +96,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -139,13 +139,14 @@
 		{
 			dependencies: ["62ABC26128284A71"]
 			id: "31903F40C2037EBD"
+			shape: "diamond"
 			tasks: [{
 				id: "0EDBE4085F6E8A75"
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -166,8 +167,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -188,7 +189,7 @@
 				}
 			]
 			x: 4.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -198,8 +199,8 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1446CD6DE9426AE7"]
@@ -219,8 +220,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -245,8 +246,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -267,7 +268,7 @@
 				}
 			]
 			x: 3.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -275,12 +276,13 @@
 				id: "create:sand_paper"
 			}
 			id: "4C54C9BE017CBC67"
+			shape: "diamond"
 			tasks: [{
 				id: "1A48350F1FF93EDE"
 				item: { count: 1, id: "create:sand_paper" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -301,11 +303,11 @@
 			]
 			id: "2C3B39CD6A7E044C"
 			tasks: [{
-				id: "686BA5DD9828EECA"
-				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
+				id: "38C5C4FA923CC378"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -375,7 +377,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["2C3B39CD6A7E044C"]
 			id: "794A9B29DAADD021"
 			tasks: [{
 				id: "67A0C4D1146E2BDF"
@@ -423,8 +425,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -477,7 +479,7 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -492,7 +494,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -3.5d
 		}
 		{
@@ -686,7 +688,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -706,8 +708,8 @@
 				item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -718,7 +720,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7A6226AD0E9C674F"]
@@ -728,8 +730,8 @@
 				item: { count: 1, id: "actuallyadditions:coffee_cup" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -739,14 +741,11 @@
 				item: { count: 1, id: "aether:life_shard" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"2C3B39CD6A7E044C"
-				"18665DD014E5055C"
-			]
+			dependencies: ["18665DD014E5055C"]
 			icon: {
 				id: "actuallyadditions:coffee_machine"
 			}
@@ -763,8 +762,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.5d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -774,8 +773,8 @@
 				item: { count: 1, id: "enigmatica:ruby" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -826,6 +825,39 @@
 			]
 			x: 8.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2C3B39CD6A7E044C"]
+			id: "3282293AB6B43287"
+			tasks: [{
+				id: "0BC36E74BFF15D3C"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3282293AB6B43287"]
+			id: "34E239F217AD5C58"
+			tasks: [{
+				id: "4A04A4055DD56EC9"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34E239F217AD5C58"]
+			id: "17553CF42EDC67A6"
+			tasks: [{
+				id: "3D866F25445DB9D1"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
 		}
 	]
 }

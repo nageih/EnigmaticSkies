@@ -506,6 +506,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:tainted_gold_block' },
         { id: 'naturesaura:tainted_gold' },
         { id: 'naturesaura:hopper_upgrade' },
+        { id: 'naturesaura:field_creator' },
         { id: `naturesaura:altar/coal` },
         { id: `naturesaura:altar/infused_stone` },
         { id: `naturesaura:altar/nether_wart` },

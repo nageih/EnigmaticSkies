@@ -81,6 +81,17 @@ ServerEvents.recipes((event) => {
                 E: 'naturesaura:ancient_planks'
             },
             id: `${id_prefix}offering_table`
+        },
+        {
+            output: 'naturesaura:field_creator',
+            pattern: ['ABA', 'ACA', 'ADA'],
+            key: {
+                A: 'minecraft:glass',
+                B: '#c:essences/air',
+                C: '#c:gems/diamond',
+                D: '#c:essences/earth'
+            },
+            id: `${id_prefix}field_creator`
         }
     ];
 
