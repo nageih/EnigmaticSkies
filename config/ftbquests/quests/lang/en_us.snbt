@@ -2108,6 +2108,19 @@
 		""
 		"Experiment with them to see what you like best!"
 	]
+	quest.37C965C1FA40221E.quest_desc: [
+		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
+		""
+		"There are some limitations, of course, since the &7Spell Turret&r cannot use every spell form; primarily Touch and Projectile. Still, being able to trigger a spell cast on a &7Redstone&r signal is invaluable."
+		""
+		"The &7Turret&r may be programmed by simply Right-Clicking it with your &7Spell Book&r, a &7Caster Tome&r, or a &7Spell Parchment&r. "
+		""
+		"They may uses glyphs such as &7Item Pickup&r and &7Place Block&r provided they have an inventory adjacent to send to or pull from. "
+		""
+		"They also need a &7Source Jar&r somewhere nearby to power them."
+		""
+		"Try setting your &5Brawndo&r spell on a &7Turret&r and shooting a &7Cloud Berry Bush&r."
+	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37ED5A328F30DD34.quest_desc: [
 		"Creating monsters is no small feat and we’re going to need some specific materials to pull it off. "

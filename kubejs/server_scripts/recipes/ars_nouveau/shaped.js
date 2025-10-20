@@ -121,6 +121,16 @@ ServerEvents.recipes((event) => {
                 B: '#c:essences/conjuration'
             },
             id: `${id_prefix}conjure_soapstone`
+        },
+        {
+            output: 'ars_nouveau:basic_spell_turret',
+            pattern: ['AB ', 'BCB', ' BA'],
+            key: {
+                A: '#c:gems/ruby',
+                B: '#c:ingots/hallowed_gold',
+                C: '#c:storage_blocks/source'
+            },
+            id: `${id_prefix}basic_spell_turret`
         }
     ];
 

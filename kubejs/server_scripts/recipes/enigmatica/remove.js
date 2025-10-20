@@ -104,6 +104,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:source_berry_pie' },
         { id: 'ars_nouveau:magebloom_crop' },
         { id: 'ars_nouveau:shapers_focus' },
+        { id: 'ars_nouveau:basic_spell_turret' },
         { id: 'ars_nouveau:spell_turret' },
         { id: 'ars_nouveau:spell_prism' },
         { id: 'ars_nouveau:first_armor_upgrade' },

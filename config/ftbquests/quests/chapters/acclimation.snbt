@@ -310,7 +310,7 @@
 											id: "ars_nouveau:constant"
 											r: 255
 										}
-										name: "Boon of the Earth"
+										name: "Brawndo"
 										particleTimeline: {
 											"ars_nouveau:touch": {
 												onResolvingEffect: {
@@ -370,6 +370,9 @@
 										recipe: [
 											"ars_nouveau:glyph_touch"
 											"ars_nouveau:glyph_grow"
+											"ars_nouveau:glyph_interact"
+											"ars_nouveau:glyph_harvest"
+											"ars_nouveau:glyph_pickup"
 										]
 										sound: { }
 									}

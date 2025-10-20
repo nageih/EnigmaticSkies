@@ -187,7 +187,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -305,7 +305,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_assembler" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -394,11 +394,14 @@
 				item: { count: 1, id: "ars_nouveau:shapers_focus" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["63944BDC078E728A"]
+			dependencies: [
+				"63944BDC078E728A"
+				"37C965C1FA40221E"
+			]
 			id: "579B2C5CB83022ED"
 			min_width: 250
 			tasks: [{
@@ -406,8 +409,8 @@
 				item: { count: 1, id: "ars_elemental:manipulation_turret" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -723,7 +726,7 @@
 				item: { count: 1, id: "actuallyadditions:coffee_cup" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -734,7 +737,7 @@
 				item: { count: 1, id: "aether:life_shard" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -790,6 +793,36 @@
 			}]
 			x: 6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["49968116FCB311B0"]
+			icon: {
+				id: "ars_nouveau:basic_spell_turret"
+			}
+			id: "37C965C1FA40221E"
+			min_width: 250
+			rewards: [{
+				id: "3556F91F22039C8B"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_jar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68FA4E455CC6430D"
+					item: { count: 1, id: "ars_nouveau:basic_spell_turret" }
+					type: "item"
+				}
+				{
+					id: "3FEC0539AFCA645D"
+					item: { count: 1, id: "aether:berry_bush_stem" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
 		}
 	]
 }
