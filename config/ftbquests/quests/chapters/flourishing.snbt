@@ -14,6 +14,29 @@
 			dependencies: ["6AC4CADE97CB512F"]
 			id: "6490781066FAE8CF"
 			min_width: 300
+			rewards: [
+				{
+					id: "347A79ACC3696950"
+					item: {
+						count: 1
+						id: "utilitarian:angel_block"
+					}
+					type: "item"
+				}
+				{
+					id: "250E2B002E622617"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:long_flying"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "58E41A8D61ED694C"
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
