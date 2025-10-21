@@ -9,7 +9,7 @@
 	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	richSoilBoostChance = 0.2
+	richSoilBoostChance = 0.3
 	#How much of a bonus (in percentage) should each level of Fortune grant to Cutting Board chances? Set it to 0.0 to disable this.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
