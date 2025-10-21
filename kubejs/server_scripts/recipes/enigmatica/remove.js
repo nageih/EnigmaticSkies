@@ -86,8 +86,10 @@ ServerEvents.recipes((event) => {
         // Ars Nouveau and Addons
         { type: 'ars_nouveau:glyph' },
         { type: 'ars_nouveau:alakarkinos_conversion' },
+        { type: 'ars_additions:locate_structure' },
         { output: /ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/ },
         { output: /ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/ },
+        { output: /ars.*:ritual_(wilden_summon|conjure_island_end_portal|locate_structure)/ },
         { output: 'ars_nouveau:ritual_overgrowth' },
         { output: 'ars_nouveau:ritual_fertility' },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
