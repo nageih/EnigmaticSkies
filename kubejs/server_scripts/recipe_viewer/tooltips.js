@@ -97,22 +97,6 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Knocks Foes Back`).gold()]
         },
         {
-            items: ['naturesaura:fortress_finder'],
-            text: [Text.of(`Locates Nether Fortresses`).gold()]
-        },
-        {
-            items: ['naturesaura:end_city_finder'],
-            text: [Text.of(`Locates End Cities`).gold()]
-        },
-        {
-            items: ['naturesaura:outpost_finder'],
-            text: [Text.of(`Locates Pillager Outposts`).gold()]
-        },
-        {
-            items: ['minecraft:ender_eye'],
-            text: [Text.of(`Locates Strongholds`).gold()]
-        },
-        {
             items: ['naturesaura:aura_timer'],
             text: [Text.of(`Timer`).green()]
         },

@@ -498,6 +498,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'justdirethings:playeraccessor' }],
             to_replace: `minecraft:dispenser`,
             replace_with: 'actuallyadditions:ender_casing'
+        },
+        {
+            filter: [{ id: 'glassential:glass_ethereal' }, { id: 'glassential:glass_dark_ethereal' }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: '#c:essences/air'
         }
     ];
 
