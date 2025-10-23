@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'minecraft:moss_block' },
             output: [
-                { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.25, maxRange: 1 },
+                { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.5, maxRange: 3 },
                 { stack: { id: 'createsifter:stone_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
                 { stack: { id: 'createsifter:tuff_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
                 { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }

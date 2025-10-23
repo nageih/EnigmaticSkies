@@ -211,7 +211,7 @@
 		# ⌄ 
 		# Default: 12000
 		# Range: > 1
-		"Hearth Volume" = 12000
+		"Hearth Volume" = 250000
 		#─────────────────────────────────────────────────────────────────────────
 		# The time it takes for the hearth to be fully functional after being placed
 		# ⌄ 

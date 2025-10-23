@@ -733,22 +733,23 @@
 	quest.130A2701B96A941D.quest_desc: [
 		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
 		""
-		"The Hearth in the gazebo will keep you warm within the bounds of the building once it is activated"
+		"The &7Hearth&r in the gazebo will keep you warm within the bounds of the building once it is activated"
 		""
-		"Insert the provided &7Tiny Charcoal&r in the chest to the left of the Hearth and Right-Click the &7Crystallized Water&r into the Accumulator on the right."
+		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right."
 		""
-		"It will take a minute for the Hearth to warm up but you can open the Trap Door to ensure the Boiler is operating."
+		"It will take a minute for the &7Hearth&r to warm up but you can open the &7Trap Door&r to ensure the &7Dilapidated Boiler&r is operating."
 		"&n                                                              &r"
 		""
-		"A Hearth provides thermal regulation in a large covered area up to a volume of about 12,000 blocks or roughly 30 cubic meters.  "
+		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
-		"It requires fuel and a Redstone Signal to operate. For Heating, power the back or left side. For Cooling, power the right side."
+		"The center of the protected area may be moved by attaching &7Smokestacks&r to the top."
+		""
+		"Fuel and a Redstone Signal are required to operate a &7Hearth&r. For &cHeating&r, power the back or left side. For &9Cooling&r, power the right side."
+		"&n                                                              &r"
 		""
 		"                          &6&nFuel"
 		"    &cHeating&r                               &9Cooling&r"
 		"     &7Steam                                 &7Water"
-		""
-		"The protected area can propagate up to about 16 blocks from the Hearth or from any connected Smokestacks. "
 	]
 	quest.130A2701B96A941D.title: "Welcome to the Skies!"
 	quest.130C6FC212F64474.quest_desc: [
@@ -2972,10 +2973,15 @@
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
 	quest.45F3C4F0EDA160C5.quest_desc: [
-		"You’ve got nothing but your wits and a few trinkets to work with. These two books will help you get started. One will summon a fluffy cloud while the other will grow plants for you. "
+		"You’ve got nothing but your wits and a few trinkets to work with; these books will help you get started. "
 		""
-		"Use it to grow your sapling!"
-		"&n                                                  &r"
+		"• &6Cloud Burst&r will summon a fluffy cloud."
+		""
+		"• &6Brawndo&r will quickly grow plants."
+		""
+		"• &6Holdfast&r places a single block in midair which "
+		"    will disappear after a few moments."
+		"&n                                                              &r"
 		""
 		"Lost your books? Ran out of Saplings? "
 		""
@@ -3066,14 +3072,7 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
-	quest.47AFEF3DCB2990FB.quest_desc: [
-		"Operating the Large Steam Boiler will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "
-		""
-		"Using the &7Canola Press&r will require a bit of power to get started, but you’ll get considerably more power out than you put in. "
-		""
-		"&a🛈 Tip: Four Fermenting Barrels will"
-		"&a    keep up with one Canola Press."
-	]
+	quest.47AFEF3DCB2990FB.quest_desc: ["Operating the &7Large Steam Boiler&r will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "]
 	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "

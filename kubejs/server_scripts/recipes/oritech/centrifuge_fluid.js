@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
             results: [],
             fluidOutputs: [{ fluid: 'actuallyadditions:canola_oil', amount: 160 }],
             ingredients: [{ item: 'actuallyadditions:canola' }],
-            time: 5,
+            time: 1,
             id: `${id_prefix}canola_oil`
         },
         {

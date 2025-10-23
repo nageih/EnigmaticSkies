@@ -66,7 +66,8 @@ ServerEvents.recipes((event) => {
             { in: 'minecraft:sandstone', out: 'aether:quicksoil' },
             { in: 'minecraft:cobbled_deepslate', out: 'aether:aerogel' },
             { in: 'minecraft:deepslate', out: 'aether:aerogel' }
-        ], // Cascading
+        ],
+        // Cascading
         'minecraft:warm_ocean': [
             { in: 'minecraft:dirt', out: 'aether:aether_dirt' },
             { in: 'minecraft:farmland', out: 'aether:aether_farmland' },

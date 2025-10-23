@@ -331,14 +331,25 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'utilitarian:angel_block', count: 1 },
+            result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
-            result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
+            result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:knowledge"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 2
+        },
+
+        {
+            result: { id: `aether:angelic_stone`, count: 32 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: `aether:hellfire_stone`, count: 32 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: 3
         }
     ],
     // Lectern
@@ -643,6 +654,32 @@ const villagerTrades = {
         }
     ]
 };
+
+let stonecutter_stones = [
+    {
+        ids: ['create:crimsite', 'create:ochrum', 'create:veridium', 'create:asurine', 'create:limestone'],
+        level: 2
+    },
+    {
+        ids: [
+            'arts_and_crafts:gypsum',
+            'arts_and_crafts:soapstone',
+            'arts_and_crafts:cobbled_ochre_pietraforte',
+            'arts_and_crafts:cobbled_verdant_pietraforte'
+        ],
+        level: 3
+    }
+];
+
+stonecutter_stones.forEach((stones) => {
+    stones.ids.forEach((block) => {
+        villagerTrades['minecraft:mason'].push({
+            result: { id: block, count: 32 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: stones.level
+        });
+    });
+});
 
 // const aquacultureFish = [
 //     'aquaculture:atlantic_cod',

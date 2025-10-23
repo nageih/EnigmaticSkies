@@ -498,6 +498,20 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'justdirethings:playeraccessor' }],
             to_replace: `minecraft:dispenser`,
             replace_with: 'actuallyadditions:ender_casing'
+        },
+        {
+            filter: [{ id: 'glassential:glass_ethereal' }, { id: 'glassential:glass_dark_ethereal' }],
+            to_replace: `minecraft:ender_eye`,
+            replace_with: '#c:essences/air'
+        },
+        {
+            filter: [
+                { id: 'functionalstorage:void_upgrade' },
+                { id: 'sophisticatedstorage:void_upgrade' },
+                { id: 'sophisticatedbackpacks:void_upgrade' }
+            ],
+            to_replace: `minecraft:obsidian`,
+            replace_with: '#c:gems/void'
         }
     ];
 

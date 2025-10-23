@@ -27,24 +27,23 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:accelerator_controller`,
-            pattern: ['AAA', 'ABA', 'CDC'],
+            pattern: ['A A', 'B B', 'CDC'],
             key: {
-                A: '#c:ingots/duratium',
-                B: 'actuallyadditions:dropper',
+                A: 'oritech:machine_frame_block',
+                B: '#c:ingots/duratium',
                 C: 'enderio:sentient_ender',
-                D: 'oritech:accelerator_motor'
+                D: 'justdirethings:droppert2'
             },
             id: `${id_prefix}accelerator_controller`
         },
         {
             output: `oritech:accelerator_motor`,
-            pattern: [' A ', 'BCB', 'DED'],
+            pattern: ['ABA', 'DCD'],
             key: {
-                A: '#c:gems/pulsating_crystal',
-                B: 'oritech:magnetic_coil',
+                A: 'oritech:flux_gate',
+                B: 'modern_industrialization:superconductor_coil',
                 C: 'industrialforegoing:machine_frame_advanced',
-                D: '#c:ingots/duratium',
-                E: 'oritech:flux_gate'
+                D: '#c:ingots/duratium'
             },
             id: `${id_prefix}accelerator_motor`
         },
@@ -103,7 +102,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BAB', 'ABA'],
             key: {
                 A: '#c:ingots/copper_alloy',
-                B: '#c:nuggets/steel'
+                B: '#c:rods/steel'
             },
             id: `${id_prefix}machine_frame_block`
         },
