@@ -56,17 +56,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}farmer`
         },
         {
-            output: 'actuallyadditions:canola_press',
-            pattern: ['ABA', 'ADA', 'ACA'],
-            key: {
-                A: 'minecraft:tuff',
-                B: 'actuallyadditions:iron_casing',
-                C: 'actuallyadditions:basic_coil',
-                D: 'actuallyadditions:emeradic_crystal'
-            },
-            id: `${id_prefix}canola_press`
-        },
-        {
             output: 'actuallyadditions:ranged_collector',
             pattern: [' A ', 'ABA', ' C '],
             key: {

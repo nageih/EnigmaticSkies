@@ -3072,14 +3072,7 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
-	quest.47AFEF3DCB2990FB.quest_desc: [
-		"Operating the Large Steam Boiler will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "
-		""
-		"Using the &7Canola Press&r will require a bit of power to get started, but you’ll get considerably more power out than you put in. "
-		""
-		"&a🛈 Tip: Four Fermenting Barrels will"
-		"&a    keep up with one Canola Press."
-	]
+	quest.47AFEF3DCB2990FB.quest_desc: ["Operating the &7Large Steam Boiler&r will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "]
 	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
