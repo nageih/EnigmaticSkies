@@ -250,6 +250,19 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const coils = ['conductive', 'energetic', 'vibrant'];
+
+    coils.forEach((material) => {
+        recipes.push({
+            output: `modern_industrialization:${material}_coil`,
+            pattern: ['AAA', 'A A', 'AAA'],
+            key: {
+                A: `modern_industrialization:${material}_cable`
+            },
+            id: `${id_prefix}${material}_coil`
+        });
+    });
+
     const gears = [
         'aluminum',
         'bronze',

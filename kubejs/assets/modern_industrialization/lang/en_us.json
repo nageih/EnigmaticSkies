@@ -18,5 +18,12 @@
     "block.modern_industrialization.fire_clay_brick_fluid_input_hatch": "Fire Clay Brick Fluid Input Hatch",
     "block.modern_industrialization.fire_clay_brick_fluid_output_hatch": "Fire Clay Brick Fluid Output Hatch",
     "block.modern_industrialization.fire_clay_brick_item_input_hatch": "Fire Clay Brick Item Input Hatch",
-    "block.modern_industrialization.fire_clay_brick_item_output_hatch": "Fire Clay Brick Item Output Hatch"
+    "block.modern_industrialization.fire_clay_brick_item_output_hatch": "Fire Clay Brick Item Output Hatch",
+
+    "block.modern_industrialization.vibrant_coil": "Vibrant Coil",
+    "item.modern_industrialization.vibrant_cable": "Vibrant Cable",
+    "block.modern_industrialization.energetic_coil": "Energetic Coil",
+    "item.modern_industrialization.energetic_coil": "Energetic Cable",
+    "block.modern_industrialization.conductive_coil": "Conductive Coil",
+    "item.modern_industrialization.conductive_coil": "Conductive Cable"
 }

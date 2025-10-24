@@ -69,7 +69,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["47A2DB9344C8CE26"]
+			dependencies: [
+				"47A2DB9344C8CE26"
+				"60DC19DA26E8CCA4"
+			]
 			icon: {
 				id: "naturesaura:sky_ingot"
 			}
@@ -88,7 +91,7 @@
 				}
 			]
 			x: 1.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -169,8 +172,41 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["60DC19DA26E8CCA4"]
+			id: "3DE69E7B1359D76D"
+			tasks: [{
+				id: "2DEA097945501D0C"
+				item: { count: 1, id: "enderio:end_steel_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DE69E7B1359D76D"]
+			id: "53D3092CA777D3B5"
+			tasks: [{
+				id: "2F50E74D6D74CC5F"
+				item: { count: 1, id: "enderio:ender_resonator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13C820C293A11CF5"]
+			id: "60DC19DA26E8CCA4"
+			tasks: [{
+				id: "00EC88E05F32FCEA"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 }

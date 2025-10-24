@@ -121,16 +121,6 @@ ServerEvents.recipes((event) => {
             tier: 1,
             exclusions: ['create'],
             id_suffix: `soularium_ingot`
-        },
-        {
-            output: { id: 'enderio:end_steel_ingot', count: 2 },
-            inputs: [
-                { tag: 'c:ingots/dark_steel', count: 2 },
-                { item: 'minecraft:dragon_breath', count: 1 }
-            ],
-            tier: 2,
-            exclusions: [],
-            id_suffix: `end_steel_ingot`
         }
     ];
 

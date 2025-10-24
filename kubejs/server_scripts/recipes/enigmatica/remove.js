@@ -401,6 +401,9 @@ ServerEvents.recipes((event) => {
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
+        { type: 'modern_industrialization:electric_quarry' },
+        { type: 'modern_industrialization:steam_quarry' },
+        { type: 'modern_industrialization:oil_drilling_rig' },
         { output: 'modern_industrialization:fire_clay_dust' },
         { output: 'modern_industrialization:steam_blast_furnace' },
         { input: 'modern_industrialization:fire_clay_dust' },
@@ -441,6 +444,8 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:steel_rod_magnetic' },
         { output: 'modern_industrialization:bronze_plated_bricks' },
         { output: 'modern_industrialization:large_steam_boiler' },
+        { output: 'modern_industrialization:cooling_cell' },
+        { output: 'modern_industrialization:superconductor_cable' },
         { output: 'modern_industrialization:config_card' },
         { output: 'extended_industrialization:machine_config_card' },
         { output: /modern_industrialization:.*_drill_head/ },
