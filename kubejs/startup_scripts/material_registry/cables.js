@@ -13,3 +13,9 @@ MIMaterialEvents.addMaterials((event) => {
         });
     });
 });
+
+MIMaterialEvents.modifyMaterial('copper', (event) => {
+    event.builder
+        // Call any builder function, see above
+        .addParts('coil');
+});
