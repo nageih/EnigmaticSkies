@@ -9,11 +9,7 @@
     "rei_categories.modern_industrialization.bronze_centrifuge": "Centrifuge",
     "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
 
-    "item.modern_industrialization.copper_cable": "LV Cable",
-    "item.modern_industrialization.cupronickel_cable": "MV Cable",
-    "item.modern_industrialization.kanthal_cable": "HV Cable",
-    "item.modern_industrialization.annealed_copper_cable": "EV Cable",
-    "item.modern_industrialization.superconductor_cable": "SV Cable",
+    "item.modern_industrialization.copper_cable": "Copper Cable (LV)",
 
     "block.modern_industrialization.fire_clay_brick_fluid_input_hatch": "Fire Clay Brick Fluid Input Hatch",
     "block.modern_industrialization.fire_clay_brick_fluid_output_hatch": "Fire Clay Brick Fluid Output Hatch",
@@ -21,9 +17,9 @@
     "block.modern_industrialization.fire_clay_brick_item_output_hatch": "Fire Clay Brick Item Output Hatch",
 
     "block.modern_industrialization.vibrant_coil": "Vibrant Coil",
-    "item.modern_industrialization.vibrant_cable": "Vibrant Cable",
+    "item.modern_industrialization.vibrant_cable": "Vibrant Cable (EV)",
     "block.modern_industrialization.energetic_coil": "Energetic Coil",
-    "item.modern_industrialization.energetic_cable": "Energetic Cable",
+    "item.modern_industrialization.energetic_cable": "Energetic Cable (HV)",
     "block.modern_industrialization.conductive_coil": "Conductive Coil",
-    "item.modern_industrialization.conductive_cable": "Conductive Cable"
+    "item.modern_industrialization.conductive_cable": "Conductive Cable (MV)"
 }
