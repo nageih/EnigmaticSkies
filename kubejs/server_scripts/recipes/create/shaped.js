@@ -113,7 +113,6 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}pulse_extender`
         },
-
         {
             output: 'create:pulse_timer',
             pattern: [' BA', 'CCC'],
@@ -123,6 +122,42 @@ ServerEvents.recipes((event) => {
                 C: 'naturesaura:infused_stone'
             },
             id: `${id_prefix}pulse_timer`
+        },
+        {
+            output: '8x create:crimsite',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:red_terracotta',
+                B: '#c:essences/conjuration'
+            },
+            id: `${id_prefix}conjure_crimsite`
+        },
+        {
+            output: '8x create:ochrum',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:yellow_terracotta',
+                B: '#c:essences/conjuration'
+            },
+            id: `${id_prefix}conjure_ochrum`
+        },
+        {
+            output: '8x create:asurine',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:light_blue_terracotta',
+                B: '#c:essences/conjuration'
+            },
+            id: `${id_prefix}conjure_asurine`
+        },
+        {
+            output: '8x create:veridium',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'minecraft:lime_terracotta',
+                B: '#c:essences/conjuration'
+            },
+            id: `${id_prefix}conjure_veridium`
         }
     ];
 

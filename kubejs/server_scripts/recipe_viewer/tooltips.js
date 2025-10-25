@@ -276,6 +276,18 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['supplementaries:fodder'],
             text: [Text.of(`Feeds animals and induces them to breed`).green()]
+        },
+        {
+            items: ['minecraft:torchflower'],
+            text: [Text.of(`Found on Flourishing Islands`).gold()]
+        },
+        {
+            items: ['minecraft:allium', 'minecraft:pitcher_plant'],
+            text: [Text.of(`Found on Cascading Islands`).gold()]
+        },
+        {
+            items: ['minecraft:pink_petals'],
+            text: [Text.of(`Found on Flashing Islands`).gold()]
         }
     ];
 

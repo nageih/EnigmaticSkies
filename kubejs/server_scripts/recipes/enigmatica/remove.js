@@ -753,6 +753,7 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
         { output: 'theurgy:mercurial_wand' },
+        { output: /theurgy:crystallized_(water|lava)/ },
         { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
 
         // Utilitarian
