@@ -172,6 +172,22 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
             processingTime: 200,
             id: `${id_prefix}speed_addon_tier_2`
+        },
+        {
+            output: { id: 'modern_industrialization:cooling_cell', count: 1 },
+            input: [
+                { tag: 'c:plates/stainless_steel' },
+                { item: 'pneumaticcraft:heat_sink' },
+                { tag: 'c:plates/stainless_steel' },
+                { tag: 'modern_industrialization:fluid_pipes' },
+                { tag: 'modern_industrialization:fluid_pipes' },
+                { tag: 'c:plates/stainless_steel' },
+                { item: 'pneumaticcraft:heat_sink' },
+                { tag: 'c:plates/stainless_steel' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 8000 },
+            processingTime: 300,
+            id: `${id_prefix}cooling_cell`
         }
     ];
 

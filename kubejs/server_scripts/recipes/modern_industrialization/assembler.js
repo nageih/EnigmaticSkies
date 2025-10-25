@@ -3,17 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            item_outputs: [{ item: 'modern_industrialization:cupronickel_cable', amount: 6 }],
-            item_inputs: [
-                { item: 'modern_industrialization:copper_cable', amount: 6 },
-                { tag: 'c:ingots/conductive_alloy', amount: 3 }
-            ],
-            fluid_inputs: [{ tag: 'c:vulcanized_rubber', amount: 300 }],
-            eu: 4,
-            duration: 5,
-            id: `${id_prefix}cupronickel_cable`
-        },
-        {
             item_outputs: [{ item: 'modern_industrialization:fluid_pipe', amount: 6 }],
             item_inputs: [
                 { item: 'ppfluids:fluid_pipe', amount: 6 },

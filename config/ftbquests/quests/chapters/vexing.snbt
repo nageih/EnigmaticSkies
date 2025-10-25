@@ -677,5 +677,16 @@
 			x: 4.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["45E411460C53A082"]
+			id: "13C820C293A11CF5"
+			tasks: [{
+				id: "19AC1A63FDFB479A"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
 	]
 }

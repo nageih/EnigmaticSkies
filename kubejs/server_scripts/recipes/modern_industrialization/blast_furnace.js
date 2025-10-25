@@ -62,6 +62,17 @@ ServerEvents.recipes((event) => {
             duration: 20,
             eu: 4,
             id: `${id_prefix}sky_ingot`
+        },
+        {
+            item_outputs: { item: 'enderio:end_steel_ingot', amount: 1 },
+            fluid_inputs: [{ tag: 'c:voidflame', amount: 250 }],
+            item_inputs: [
+                { tag: 'c:ingots/stainless_steel', amount: 1 },
+                { tag: 'c:dusts/grains_of_the_end', amount: 8 }
+            ],
+            duration: 20,
+            eu: 4,
+            id: `${id_prefix}end_steel_ingot`
         }
     ];
 

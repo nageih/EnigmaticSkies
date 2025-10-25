@@ -122,11 +122,11 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["47AFEF3DCB2990FB"]
 			id: "3BCD9E36D48B205A"
 			tasks: [{
 				id: "128597849E5D0BC1"
@@ -134,7 +134,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["62ABC26128284A71"]
@@ -293,8 +293,8 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -468,8 +468,8 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -498,7 +498,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["6806970967942788"]
 			icon: {
 				id: "modern_industrialization:large_steam_boiler"
 			}
@@ -537,7 +537,7 @@
 				}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -547,18 +547,18 @@
 			id: "47AFEF3DCB2990FB"
 			tasks: [
 				{
-					id: "7097E881FF4BCA7F"
-					item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+					id: "3BD6B204FB111525"
+					item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
 					type: "item"
 				}
 				{
-					id: "2C5C665BB4B77134"
-					item: { count: 1, id: "actuallyadditions:canola_press" }
+					id: "42B16B05165DCF12"
+					item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
 					type: "item"
 				}
 			]
 			x: 6.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -569,8 +569,8 @@
 				item: { count: 1, id: "industrialforegoing:sludge_refiner" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 8.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -581,8 +581,8 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["392794D00E321C02"]
@@ -593,8 +593,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_feeder" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["392794D00E321C02"]
@@ -615,8 +615,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 8.5d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["392794D00E321C02"]
@@ -627,8 +627,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -652,8 +652,8 @@
 				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -664,8 +664,8 @@
 				item: { count: 1, id: "industrialforegoing:plant_sower" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -676,8 +676,8 @@
 				item: { count: 1, id: "industrialforegoing:animal_rancher" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -762,7 +762,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -793,7 +793,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -834,8 +834,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -845,8 +845,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["34E239F217AD5C58"]
@@ -856,8 +856,8 @@
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 }

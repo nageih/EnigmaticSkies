@@ -97,6 +97,7 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:.*_sourcelink/ },
         { id: `ars_nouveau:enchanting_apparatus` },
         { id: `ars_nouveau:arcane_core` },
+        { id: `ars_nouveau:relay_splitter` },
         { id: `ars_nouveau:storage_lectern` },
         { id: `ars_nouveau:repository` },
         { id: `ars_nouveau:repository_controller` },
@@ -129,6 +130,7 @@ ServerEvents.recipes((event) => {
 
         { id: 'ars_elemental:wool_to_string' },
         { id: 'ars_elemental:flashing_sapling' },
+        { id: 'ars_elemental:everfull_urn' },
 
         { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode|sculk)/ },
         { id: `ars_caelum:heart_of_the_sea` },
@@ -401,6 +403,9 @@ ServerEvents.recipes((event) => {
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
+        { type: 'modern_industrialization:electric_quarry' },
+        { type: 'modern_industrialization:steam_quarry' },
+        { type: 'modern_industrialization:oil_drilling_rig' },
         { output: 'modern_industrialization:fire_clay_dust' },
         { output: 'modern_industrialization:steam_blast_furnace' },
         { input: 'modern_industrialization:fire_clay_dust' },
@@ -441,9 +446,13 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:steel_rod_magnetic' },
         { output: 'modern_industrialization:bronze_plated_bricks' },
         { output: 'modern_industrialization:large_steam_boiler' },
+        { output: 'modern_industrialization:cooling_cell' },
+        { output: 'modern_industrialization:superconductor_cable' },
         { output: 'modern_industrialization:config_card' },
         { output: 'extended_industrialization:machine_config_card' },
+        { output: /modern_industrialization:.*_coil/ },
         { output: /modern_industrialization:.*_drill_head/ },
+        { output: /modern_industrialization:.*_transformer/ },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: 'extended_industrialization:mulch' },
         { output: /modern_industrialization:(lv|mv)_steam_turbine/ },

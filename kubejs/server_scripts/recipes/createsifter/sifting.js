@@ -8,9 +8,9 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'aether:cold_aercloud' },
             results: [
-                { id: 'theurgy:crystallized_water', chance: 0.7 },
-                { id: 'ae2:sky_dust', chance: 0.15 },
-                { id: 'aether:blue_berry', chance: 0.15 }
+                { id: 'theurgy:crystallized_water' },
+                { id: 'ae2:sky_dust', chance: 0.25 },
+                { id: 'aether:blue_berry', chance: 0.25 }
             ],
             mesh: { id: 'createsifter:string_mesh', count: 1 },
             processingTime: 30,
