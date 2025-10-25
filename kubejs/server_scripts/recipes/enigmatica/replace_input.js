@@ -64,6 +64,11 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
+        {
+            filter: [{ mod: 'functionalstorage' }],
+            to_replace: 'minecraft:quartz_block',
+            replace_with: 'naturesaura:infused_stone'
+        },
 
         {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
@@ -249,12 +254,17 @@ ServerEvents.recipes((event) => {
         {
             filter: {},
             to_replace: `modern_industrialization:electrum_cable`,
-            replace_with: `modern_industrialization:cupronickel_cable`
+            replace_with: `modern_industrialization:conductive_cable`
         },
         {
             filter: {},
             to_replace: `modern_industrialization:aluminum_cable`,
-            replace_with: `modern_industrialization:kanthal_cable`
+            replace_with: `modern_industrialization:energetic_cable`
+        },
+        {
+            filter: {},
+            to_replace: `modern_industrialization:annealed_copper_cable`,
+            replace_with: `modern_industrialization:vibrant_cable`
         },
         {
             filter: {},
