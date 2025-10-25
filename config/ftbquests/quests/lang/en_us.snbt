@@ -580,23 +580,6 @@
 		"&6    for finding the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
-	quest.0EA238CF4DE7E649.quest_desc: [
-		"                `● Snowball:                7K`,"
-		"                `● Egg:                      10K`,"
-		"                `● Pollen Puff:            10K`,"
-		"                `● Slimeball:                10K`,"
-		"                `● Arrow:                30K`,"
-		"                `● Fire Charge:          35K`,"
-		"                `● Cannonball:             35K`,"
-		"                `● Bomb:                    35K`,"
-		"                `● Spectral Arrow:        40K`,"
-		"                `● Ender Pearl:            50K`,"
-		"                `● Wind Charge:          100K`,"
-		"                // `● Llama Spit:             100K`,"
-		"                `● Bottle o' Enchanting: 200K`,"
-		"                // `● Shulker Bullet:       300K`,"
-		"                `● Trident:                 3M`"
-	]
 	quest.0EEEA27699137B6C.quest_desc: [
 		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
 		""
