@@ -66,6 +66,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 5,
             experience: 0.15,
             id: `${id_prefix}snack_packer`
+        },
+        {
+            result: { id: 'minecraft:wither_rose', count: 1 },
+            ingredient: { item: 'aether:white_flower' },
+            cookingtime: 30,
+            experience: 0.15,
+            id: `${id_prefix}wither_rose`
         }
     ];
 
