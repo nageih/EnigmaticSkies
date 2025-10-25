@@ -27,6 +27,13 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:block.gravel.break' },
             tool: { tag: 'minecraft:shovels' },
             id: `${id_prefix}wheat_flour`
+        },
+        {
+            result: [{ item: { id: 'ae2:charged_certus_quartz_crystal', count: 1 } }],
+            ingredients: [{ item: 'ae2:certus_quartz_crystal' }],
+            sound: { sound_id: 'minecraft:block.wool.break' },
+            tool: { tag: 'handcrafted:sheets' },
+            id: `${id_prefix}charged_certus_quartz_crystal`
         }
     ];
 

@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -43,8 +43,8 @@
 				item: { count: 1, id: "ars_nouveau:water_essence" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2D190518ABA42A1F"]
@@ -76,8 +76,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A92EF3C51F82669"]
@@ -87,8 +87,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -109,8 +109,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -2.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["016B7CA4A7FC58A1"]
@@ -119,8 +119,8 @@
 				id: "6BDBF20359D5E6B2"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -133,8 +133,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["323D480E3C37579E"]
@@ -144,7 +144,7 @@
 				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -156,7 +156,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -215,7 +215,7 @@
 		{
 			dependencies: [
 				"5E727F7B600E0E91"
-				"2BB91161DB6B6AF5"
+				"3753A3EB1909F923"
 			]
 			id: "3D3DEDBC67E91455"
 			tasks: [{
@@ -223,7 +223,7 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -386,8 +386,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -398,8 +398,8 @@
 				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 }
