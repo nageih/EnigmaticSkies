@@ -503,6 +503,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}heavy_core`
+        },
+        {
+            result: { id: 'ars_nouveau:relay_splitter', count: 1 },
+            reagent: { item: 'ars_nouveau:relay' },
+            pedestalItems: [
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/lapis' },
+                { tag: 'c:gems/lapis' },
+                { tag: 'c:gems/lapis' },
+                { tag: 'c:gems/lapis' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}relay_splitter`
         }
     ];
 

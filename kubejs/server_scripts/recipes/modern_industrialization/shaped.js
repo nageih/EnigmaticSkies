@@ -250,17 +250,68 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    const coils = ['conductive', 'energetic', 'vibrant'];
+    const coils = [
+        { material: 'copper', tier: 'lv' },
+        { material: 'conductive', tier: 'mv' },
+        { material: 'energetic', tier: 'hv' },
+        { material: 'vibrant', tier: 'ev' },
+        { material: 'superconductor', tier: 'superconductor' }
+    ];
 
-    coils.forEach((material) => {
+    coils.forEach((coil, i) => {
         recipes.push({
-            output: `modern_industrialization:${material}_coil`,
-            pattern: ['AAA', 'A A', 'AAA'],
+            output: `modern_industrialization:${coil.material}_coil`,
+            pattern: ['AAA', 'ABA', 'AAA'],
             key: {
-                A: `modern_industrialization:${material}_cable`
+                A: `modern_industrialization:${coil.material}_cable`,
+                B: '#c:ingots/compressed_iron'
             },
-            id: `${id_prefix}${material}_coil`
+            id: `${id_prefix}${coil.material}_coil`
         });
+
+        if (i < coils.length - 1) {
+            let next_coil = coils[i + 1];
+            recipes.push(
+                {
+                    output: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`,
+                    pattern: [' A ', 'BCD', ' A '],
+                    key: {
+                        A: 'pneumaticcraft:heat_sink',
+                        B: `modern_industrialization:${coil.material}_coil`,
+                        C: 'actuallyadditions:iron_casing',
+                        D: `modern_industrialization:${next_coil.material}_cable`
+                    },
+                    id: `${id_prefix}${coil.tier}_${next_coil.tier}_transformer`
+                },
+                {
+                    output: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`,
+                    pattern: [' A ', 'BCD', ' A '],
+                    key: {
+                        A: 'pneumaticcraft:heat_sink',
+                        B: `modern_industrialization:${coil.material}_cable`,
+                        C: 'actuallyadditions:iron_casing',
+                        D: `modern_industrialization:${next_coil.material}_coil`
+                    },
+                    id: `${id_prefix}${next_coil.tier}_${coil.tier}_transformer`
+                },
+                {
+                    output: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`,
+                    pattern: ['A'],
+                    key: {
+                        A: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`
+                    },
+                    id: `${id_prefix}${next_coil.tier}_${coil.tier}_transformer_conversion`
+                },
+                {
+                    output: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`,
+                    pattern: ['A'],
+                    key: {
+                        A: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`
+                    },
+                    id: `${id_prefix}${coil.tier}_${next_coil.tier}_transformer_conversion`
+                }
+            );
+        }
     });
 
     const gears = [
