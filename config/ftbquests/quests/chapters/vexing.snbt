@@ -688,5 +688,35 @@
 			x: 4.5d
 			y: 3.5d
 		}
+		{
+			dependencies: ["37AA9E6270DB015A"]
+			id: "0949F58436171A99"
+			tasks: [{
+				id: "636274EC9BE79D58"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["45E411460C53A082"]
+			id: "37AA9E6270DB015A"
+			tasks: [
+				{
+					id: "7D11B2F2AF7910C4"
+					item: { count: 1, id: "actuallyadditions:empowerer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "446C10EBCAF47F18"
+					item: { count: 1, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.5d
+		}
 	]
 }

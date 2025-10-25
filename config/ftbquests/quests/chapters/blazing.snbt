@@ -354,5 +354,30 @@
 			x: 6.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["2B759D4770C13739"]
+			id: "7F43653C4B9A96CE"
+			tasks: [{
+				id: "4AC1218F30C1A46D"
+				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E2F4A7BBD4D51E5"
+				"2B759D4770C13739"
+			]
+			id: "5FE4FD410171ABFD"
+			tasks: [{
+				id: "2680E5AC31798C7C"
+				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
 	]
 }

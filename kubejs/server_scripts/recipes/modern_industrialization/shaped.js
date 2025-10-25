@@ -116,9 +116,9 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:motor`,
             pattern: [' A ', 'BCB', ' A '],
             key: {
-                A: '#c:ingots/energetic_alloy',
+                A: 'create:shaft',
                 B: '#c:plates/steel',
-                C: 'oritech:magnetic_coil'
+                C: 'modern_industrialization:conductive_coil'
             },
             id: `${id_prefix}motor`
         },
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/steel',
                 B: 'modern_industrialization:analog_circuit',
-                C: '#c:gears/steel'
+                C: '#c:gears/compressed_iron'
             },
             id: `${id_prefix}steel_machine_casing`
         },
@@ -150,7 +150,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
                 A: '#modern_industrialization:fluid_pipes',
-                B: 'modern_industrialization:cupronickel_cable',
+                B: 'modern_industrialization:conductive_cable',
                 C: 'modern_industrialization:bronze_rotor',
                 D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor',
@@ -251,11 +251,11 @@ ServerEvents.recipes((event) => {
     ];
 
     const coils = [
-        { material: 'copper', tier: 'lv' },
-        { material: 'conductive', tier: 'mv' },
-        { material: 'energetic', tier: 'hv' },
-        { material: 'vibrant', tier: 'ev' },
-        { material: 'superconductor', tier: 'superconductor' }
+        { material: 'copper', tier: 'lv', casing: 'actuallyadditions:iron_casing' },
+        { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
+        { material: 'energetic', tier: 'hv', casing: 'modern_industrialization:steel_machine_casing' },
+        { material: 'vibrant', tier: 'ev', casing: 'modern_industrialization:steel_machine_casing' },
+        { material: 'superconductor', tier: 'superconductor', casing: 'modern_industrialization:steel_machine_casing' }
     ];
 
     coils.forEach((coil, i) => {
@@ -278,7 +278,7 @@ ServerEvents.recipes((event) => {
                     key: {
                         A: 'pneumaticcraft:heat_sink',
                         B: `modern_industrialization:${coil.material}_coil`,
-                        C: 'actuallyadditions:iron_casing',
+                        C: coil.casing,
                         D: `modern_industrialization:${next_coil.material}_cable`
                     },
                     id: `${id_prefix}${coil.tier}_${next_coil.tier}_transformer`
@@ -289,7 +289,7 @@ ServerEvents.recipes((event) => {
                     key: {
                         A: 'pneumaticcraft:heat_sink',
                         B: `modern_industrialization:${coil.material}_cable`,
-                        C: 'actuallyadditions:iron_casing',
+                        C: coil.casing,
                         D: `modern_industrialization:${next_coil.material}_coil`
                     },
                     id: `${id_prefix}${next_coil.tier}_${coil.tier}_transformer`

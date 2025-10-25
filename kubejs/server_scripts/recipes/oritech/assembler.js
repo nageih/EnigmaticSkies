@@ -2,22 +2,11 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/assembler/';
     const recipes = [
         {
-            results: [{ id: 'oritech:magnetic_coil', count: 2 }],
-            ingredients: [
-                { item: 'modern_industrialization:steel_rod_magnetic' },
-                { item: 'modern_industrialization:copper_wire' },
-                { item: 'modern_industrialization:copper_wire' },
-                { item: 'modern_industrialization:copper_wire' }
-            ],
-            time: 10,
-            id: `${id_prefix}magnetic_coil`
-        },
-        {
             results: [{ id: 'modern_industrialization:motor', count: 1 }],
             ingredients: [
-                { item: 'oritech:magnetic_coil' },
+                { item: 'modern_industrialization:conductive_coil' },
                 { tag: 'c:plates/steel' },
-                { tag: 'c:ingots/energetic_alloy' }
+                { item: 'create:shaft' }
             ],
             time: 10,
             id: `${id_prefix}motor`
@@ -64,6 +53,105 @@ ServerEvents.recipes((event) => {
             ],
             time: 10,
             id: `${id_prefix}advanced_battery`
+        },
+        {
+            results: [{ id: 'modern_industrialization:electronic_circuit_board', count: 1 }],
+            ingredients: [
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'pneumaticcraft:transistor' },
+                { item: 'pneumaticcraft:transistor' },
+                { item: 'enderio:double_layer_capacitor' }
+            ],
+            time: 20,
+            id: `${id_prefix}electronic_circuit_board`
+        },
+        {
+            results: [{ id: 'modern_industrialization:electronic_circuit', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:electronic_circuit_board' },
+                { item: 'modern_industrialization:analog_circuit' },
+                { item: 'modern_industrialization:analog_circuit' },
+                { item: 'enderio:pulsating_crystal' }
+            ],
+            time: 20,
+            id: `${id_prefix}electronic_circuit`
+        },
+        {
+            results: [{ id: 'modern_industrialization:pump', count: 1 }],
+            ingredients: [
+                { tag: 'c:plates/steel' },
+                { tag: 'modern_industrialization:fluid_pipes' },
+                { item: 'modern_industrialization:bronze_rotor' },
+                { item: 'modern_industrialization:large_motor' }
+            ],
+            time: 20,
+            id: `${id_prefix}pump`
+        },
+        {
+            results: [{ id: 'modern_industrialization:large_motor', count: 1 }],
+            ingredients: [
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'modern_industrialization:motor' },
+                { item: 'modern_industrialization:motor' },
+                { item: 'modern_industrialization:electronic_circuit' }
+            ],
+            time: 20,
+            id: `${id_prefix}large_motor`
+        },
+        {
+            results: [{ id: 'modern_industrialization:advanced_large_steam_boiler', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:large_steam_boiler' },
+                { item: 'modern_industrialization:pump' },
+                { item: 'modern_industrialization:pump' },
+                { item: 'enderio:z_logic_controller' }
+            ],
+            time: 20,
+            id: `${id_prefix}advanced_large_steam_boiler`
+        },
+        {
+            results: [{ id: 'oritech:machine_speed_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:z_logic_controller' },
+                { item: 'modern_industrialization:large_motor' },
+                { item: 'industrialforegoing:speed_addon_tier_1' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_speed_addon`
+        },
+        {
+            results: [{ id: 'oritech:machine_efficiency_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:skeletal_contractor' },
+                { item: 'modern_industrialization:large_motor' },
+                { item: 'industrialforegoing:efficiency_addon_tier_1' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_efficiency_addon`
+        },
+        {
+            results: [{ id: 'oritech:machine_processing_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:sentient_ender' },
+                { item: 'modern_industrialization:large_motor' },
+                { item: 'industrialforegoing:processing_addon_tier_1' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_processing_addon`
+        },
+        {
+            results: [{ id: 'oritech:machine_fluid_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { tag: 'modern_industrialization:fluid_pipes' },
+                { tag: 'modern_industrialization:fluid_pipes' },
+                { item: 'modern_industrialization:steel_tank' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_fluid_addon`
         }
     ];
 
