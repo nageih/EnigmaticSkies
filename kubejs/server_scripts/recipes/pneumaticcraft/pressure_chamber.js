@@ -176,7 +176,7 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:vibrant_cable', count: 6 }],
             inputs: [
                 { tag: 'c:ingots/vibrant_alloy', count: 3 },
-                { item: 'modern_industrialization:rubber_sheet', count: 12 }
+                { item: 'pneumaticcraft:plastic', count: 12 }
             ],
             pressure: 4.0,
             id: `${id_prefix}vibrant_cable`

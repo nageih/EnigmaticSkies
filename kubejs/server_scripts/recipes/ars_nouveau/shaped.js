@@ -78,51 +78,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}spell_prism`
         },
         {
-            output: '8x create:crimsite',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:red_terracotta',
-                B: '#c:essences/conjuration'
-            },
-            id: `${id_prefix}conjure_crimsite`
-        },
-        {
-            output: '8x create:ochrum',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:yellow_terracotta',
-                B: '#c:essences/conjuration'
-            },
-            id: `${id_prefix}conjure_ochrum`
-        },
-        {
-            output: '8x create:asurine',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:light_blue_terracotta',
-                B: '#c:essences/conjuration'
-            },
-            id: `${id_prefix}conjure_asurine`
-        },
-        {
-            output: '8x create:veridium',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'minecraft:lime_terracotta',
-                B: '#c:essences/conjuration'
-            },
-            id: `${id_prefix}conjure_veridium`
-        },
-        {
-            output: '8x arts_and_crafts:soapstone',
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: 'supplementaries:soap_block',
-                B: '#c:essences/conjuration'
-            },
-            id: `${id_prefix}conjure_soapstone`
-        },
-        {
             output: 'ars_nouveau:basic_spell_turret',
             pattern: ['AB ', 'BCB', ' BA'],
             key: {
@@ -133,37 +88,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}basic_spell_turret`
         }
     ];
-
-    let conversions = [
-        {
-            set: ['create:crimsite', 'create:ochrum', 'create:veridium', 'create:asurine']
-        },
-        {
-            set: ['arts_and_crafts:soapstone', 'arts_and_crafts:gypsum', 'create:limestone']
-        },
-        {
-            set: [
-                'minecraft:sandstone',
-                'arts_and_crafts:cobbled_ochre_pietraforte',
-                'arts_and_crafts:cobbled_verdant_pietraforte'
-            ]
-        }
-    ];
-
-    conversions.forEach((conversion) => {
-        conversion.set.forEach((block, i) => {
-            let previous = conversion.set.slice(i - 1)[0];
-            recipes.push({
-                output: `8x ${block}`,
-                pattern: ['AAA', 'ABA', 'AAA'],
-                key: {
-                    A: previous,
-                    B: '#c:essences/manipulation'
-                },
-                id: `${id_prefix}${getID(block)}_from_${getID(previous)}`
-            });
-        });
-    });
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

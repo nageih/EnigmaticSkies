@@ -18,7 +18,13 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             name: 'hot_unstackables',
             item: {
-                items: ['enderio:fire_water_bucket', 'minecraft:lava_bucket']
+                items: [
+                    'enderio:fire_water_bucket',
+                    'minecraft:lava_bucket',
+                    'oritech:still_sheol_fire_bucket',
+                    'oritech:still_strange_matter_bucket',
+                    'enderio:liquid_sunshine_bucket'
+                ]
             },
             slots: [{ min: 0, max: 44 }],
             temperature: 0.5,
@@ -44,7 +50,13 @@ ServerEvents.generateData('before_mods', (event) => {
         {
             name: 'cold_unstackables',
             item: {
-                items: ['justdirethings:time_fluid_bucket', 'starbunclemania:source_fluid_bucket']
+                items: [
+                    'justdirethings:time_fluid_bucket',
+                    'starbunclemania:source_fluid_bucket',
+                    'sauce:source_fluid_bucket',
+                    'industrialforegoing:ether_gas_bucket',
+                    'enderio:liquid_darkness_bucket'
+                ]
             },
             slots: [{ min: 0, max: 44 }],
             temperature: -0.2,
