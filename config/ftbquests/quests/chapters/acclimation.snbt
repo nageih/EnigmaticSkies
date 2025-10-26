@@ -779,11 +779,11 @@
 			tasks: [
 				{
 					id: "332A320109CC0BC4"
-					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+					item: { count: 1, id: "modern_industrialization:steam_kiln" }
 					type: "item"
 				}
 				{
-					count: 28L
+					count: 21L
 					id: "351A84B2AD47C523"
 					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"

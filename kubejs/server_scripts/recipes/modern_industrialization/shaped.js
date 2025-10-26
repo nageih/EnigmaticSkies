@@ -159,15 +159,24 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mv_steam_turbine`
         },
         {
-            output: `modern_industrialization:steam_blast_furnace`,
+            output: 'modern_industrialization:steam_kiln',
             pattern: ['AAA', 'ABA', 'AAA'],
             key: {
                 A: 'modern_industrialization:fire_clay_bricks',
                 B: 'minecraft:furnace'
             },
-            id: `${id_prefix}steam_blast_furnace`
+            id: `${id_prefix}steam_kiln`
         },
-
+        {
+            output: 'modern_industrialization:electric_kiln',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: 'modern_industrialization:heatproof_machine_casing',
+                B: 'modern_industrialization:steam_kiln',
+                C: 'modern_industrialization:conductive_coil'
+            },
+            id: `${id_prefix}electric_kiln`
+        },
         {
             output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
             pattern: ['B', 'A'],
@@ -250,65 +259,101 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    const coils = [
+    const electrical_components = [
         { material: 'copper', tier: 'lv', casing: 'actuallyadditions:iron_casing' },
-        { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
-        { material: 'energetic', tier: 'hv', casing: 'modern_industrialization:steel_machine_casing' },
-        { material: 'vibrant', tier: 'ev', casing: 'modern_industrialization:steel_machine_casing' },
-        { material: 'superconductor', tier: 'superconductor', casing: 'modern_industrialization:steel_machine_casing' }
+        { material: 'conductive', tier: 'mv', casing: 'industrialforegoing:machine_frame_simple' },
+        { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_supreme' },
+        { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
+        { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }
     ];
 
-    coils.forEach((coil, i) => {
-        recipes.push({
-            output: `modern_industrialization:${coil.material}_coil`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: `modern_industrialization:${coil.material}_cable`,
-                B: '#c:ingots/compressed_iron'
+    electrical_components.forEach((component, i) => {
+        recipes.push(
+            {
+                output: `modern_industrialization:${component.material}_coil`,
+                pattern: ['AAA', 'ABA', 'AAA'],
+                key: {
+                    A: `modern_industrialization:${component.material}_cable`,
+                    B: '#c:ingots/compressed_iron'
+                },
+                id: `${id_prefix}${component.material}_coil`
             },
-            id: `${id_prefix}${coil.material}_coil`
-        });
+            {
+                output: `modern_industrialization:${component.tier}_energy_input_hatch`,
+                pattern: ['A', 'B'],
+                key: {
+                    A: `modern_industrialization:${component.material}_cable`,
+                    B: component.casing
+                },
+                id: `${id_prefix}${component.tier}_energy_input_hatch`
+            },
+            {
+                output: `modern_industrialization:${component.tier}_energy_output_hatch`,
+                pattern: ['B', 'A'],
+                key: {
+                    A: `modern_industrialization:${component.material}_cable`,
+                    B: component.casing
+                },
+                id: `${id_prefix}${component.tier}_energy_output_hatch`
+            },
+            {
+                output: `modern_industrialization:${component.tier}_energy_input_hatch`,
+                pattern: ['A'],
+                key: {
+                    A: `modern_industrialization:${component.tier}_energy_output_hatch`
+                },
+                id: `${id_prefix}${component.tier}_energy_input_hatch_conversion`
+            },
+            {
+                output: `modern_industrialization:${component.tier}_energy_output_hatch`,
+                pattern: ['A'],
+                key: {
+                    A: `modern_industrialization:${component.tier}_energy_input_hatch`
+                },
+                id: `${id_prefix}${component.tier}_energy_output_hatch_conversion`
+            }
+        );
 
-        if (i < coils.length - 1) {
-            let next_coil = coils[i + 1];
+        if (i < electrical_components.length - 1) {
+            let next_component = electrical_components[i + 1];
             recipes.push(
                 {
-                    output: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`,
+                    output: `modern_industrialization:${component.tier}_${next_component.tier}_transformer`,
                     pattern: [' A ', 'BCD', ' A '],
                     key: {
                         A: 'pneumaticcraft:heat_sink',
-                        B: `modern_industrialization:${coil.material}_coil`,
-                        C: coil.casing,
-                        D: `modern_industrialization:${next_coil.material}_cable`
+                        B: `modern_industrialization:${component.material}_coil`,
+                        C: component.casing,
+                        D: `modern_industrialization:${next_component.material}_cable`
                     },
-                    id: `${id_prefix}${coil.tier}_${next_coil.tier}_transformer`
+                    id: `${id_prefix}${component.tier}_${next_component.tier}_transformer`
                 },
                 {
-                    output: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`,
+                    output: `modern_industrialization:${next_component.tier}_${component.tier}_transformer`,
                     pattern: [' A ', 'BCD', ' A '],
                     key: {
                         A: 'pneumaticcraft:heat_sink',
-                        B: `modern_industrialization:${coil.material}_cable`,
-                        C: coil.casing,
-                        D: `modern_industrialization:${next_coil.material}_coil`
+                        B: `modern_industrialization:${component.material}_cable`,
+                        C: component.casing,
+                        D: `modern_industrialization:${next_component.material}_coil`
                     },
-                    id: `${id_prefix}${next_coil.tier}_${coil.tier}_transformer`
+                    id: `${id_prefix}${next_component.tier}_${component.tier}_transformer`
                 },
                 {
-                    output: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`,
+                    output: `modern_industrialization:${next_component.tier}_${component.tier}_transformer`,
                     pattern: ['A'],
                     key: {
-                        A: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`
+                        A: `modern_industrialization:${component.tier}_${next_component.tier}_transformer`
                     },
-                    id: `${id_prefix}${next_coil.tier}_${coil.tier}_transformer_conversion`
+                    id: `${id_prefix}${next_component.tier}_${component.tier}_transformer_conversion`
                 },
                 {
-                    output: `modern_industrialization:${coil.tier}_${next_coil.tier}_transformer`,
+                    output: `modern_industrialization:${component.tier}_${next_component.tier}_transformer`,
                     pattern: ['A'],
                     key: {
-                        A: `modern_industrialization:${next_coil.tier}_${coil.tier}_transformer`
+                        A: `modern_industrialization:${next_component.tier}_${component.tier}_transformer`
                     },
-                    id: `${id_prefix}${coil.tier}_${next_coil.tier}_transformer_conversion`
+                    id: `${id_prefix}${component.tier}_${next_component.tier}_transformer_conversion`
                 }
             );
         }

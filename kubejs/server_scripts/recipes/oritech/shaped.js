@@ -3,16 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: `2x oritech:magnetic_coil`,
-            pattern: [' AB', 'ACA', 'BA '],
-            key: {
-                A: 'modern_industrialization:copper_wire',
-                B: '#c:rods/steel',
-                C: 'modern_industrialization:steel_rod_magnetic'
-            },
-            id: `${id_prefix}magnetic_coil`
-        },
-        {
             output: `oritech:assembler_block`,
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
@@ -135,7 +125,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'CDC', 'AEA'],
             key: {
                 A: 'oritech:carbon_plating_block',
-                B: 'oritech:magnetic_coil',
+                B: 'modern_industrialization:copper_coil',
                 C: 'oritech:refinery_module_block',
                 D: 'modern_industrialization:heatproof_machine_casing',
                 E: 'actuallyadditions:advanced_coil'
@@ -174,6 +164,17 @@ ServerEvents.recipes((event) => {
                 E: '#c:essences/fire'
             },
             id: `${id_prefix}jetpack`
+        },
+        {
+            output: `oritech:powered_furnace_block`,
+            pattern: ['AAA', ' B ', 'CDC'],
+            key: {
+                A: 'modern_industrialization:heatproof_machine_casing',
+                B: 'modern_industrialization:copper_coil',
+                C: 'oritech:machine_plating_block',
+                D: 'minecraft:furnace'
+            },
+            id: `${id_prefix}powered_furnace_block`
         }
     ];
 
