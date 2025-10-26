@@ -783,7 +783,7 @@
 					type: "item"
 				}
 				{
-					count: 21L
+					count: 7L
 					id: "351A84B2AD47C523"
 					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
@@ -805,7 +805,13 @@
 					type: "item"
 				}
 				{
-					id: "5DCD69460365A864"
+					count: 14L
+					id: "364BD1972CC00C8B"
+					item: { count: 1, id: "minecraft:polished_andesite" }
+					type: "item"
+				}
+				{
+					id: "0CEFD794AEF4F341"
 					item: { count: 1, id: "create:andesite_alloy" }
 					type: "item"
 				}

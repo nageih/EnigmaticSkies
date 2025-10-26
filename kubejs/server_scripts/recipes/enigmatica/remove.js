@@ -251,6 +251,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:paper_from_tree_bark' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
         { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
+        { id: 'farmersdelight:cutting/gravel' },
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },
@@ -404,9 +405,10 @@ ServerEvents.recipes((event) => {
 
         // Modern Industrialization and Addons
         { type: 'modern_industrialization:forge_hammer' },
-        { type: 'modern_industrialization:electric_quarry' },
-        { type: 'modern_industrialization:steam_quarry' },
+        { type: 'modern_industrialization:quarry' },
         { type: 'modern_industrialization:oil_drilling_rig' },
+        { type: 'modern_industrialization:distillation_tower' },
+        { type: 'modern_industrialization:distillery' },
         { type: 'modern_industrialization:blast_furnace', output: /(ingot|nugget)/ },
         { output: 'modern_industrialization:fire_clay_dust' },
         { output: 'modern_industrialization:steam_blast_furnace' },
@@ -456,8 +458,12 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:pump' },
         { output: 'modern_industrialization:advanced_large_steam_boiler' },
         { output: 'modern_industrialization:electric_blast_furnace' },
-        { output: 'modern_industrialization:lv_energy_input_hatch' },
-        { output: 'modern_industrialization:lv_energy_output_hatch' },
+        { output: 'modern_industrialization:distillation_tower' },
+        { output: 'modern_industrialization:distillery' },
+        { output: /modern_industrialization:.*_energy_(input|output)_hatch/ },
+        { output: 'modern_industrialization:oil_drilling_rig' },
+        { output: 'modern_industrialization:steam_quarry' },
+        { output: 'modern_industrialization:electric_quarry' },
         { output: 'extended_industrialization:machine_config_card' },
         { output: /modern_industrialization:.*_coil/ },
         { output: /modern_industrialization:.*_drill_head/ },

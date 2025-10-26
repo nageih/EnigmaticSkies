@@ -29,10 +29,10 @@ MIMachineEvents.registerRecipeTypes((event) => {
 
 MIMachineEvents.registerMachines((event) => {
     const mbHatch = event.hatchOf('item_input', 'item_output', 'fluid_input', 'fluid_output');
-    const brickBaseMember = event.memberOfBlock('modern_industrialization:fire_clay_bricks');
+    const brickBaseMember = event.memberOfBlock('minecraft:polished_andesite');
     const brickWallMember = event.memberOfBlock('modern_industrialization:fire_clay_bricks');
     const mbShape = event
-        .layeredShape('firebricks', [
+        .layeredShape('andesite_casing', [
             ['BBB', 'WWW', 'BBB'],
             ['BBB', 'W W', 'BBB'],
             ['BBB', 'W#W', 'BBB']
