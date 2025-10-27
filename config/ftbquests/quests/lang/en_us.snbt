@@ -580,23 +580,6 @@
 		"&6    for finding the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
-	quest.0EA238CF4DE7E649.quest_desc: [
-		"                `● Snowball:                7K`,"
-		"                `● Egg:                      10K`,"
-		"                `● Pollen Puff:            10K`,"
-		"                `● Slimeball:                10K`,"
-		"                `● Arrow:                30K`,"
-		"                `● Fire Charge:          35K`,"
-		"                `● Cannonball:             35K`,"
-		"                `● Bomb:                    35K`,"
-		"                `● Spectral Arrow:        40K`,"
-		"                `● Ender Pearl:            50K`,"
-		"                `● Wind Charge:          100K`,"
-		"                // `● Llama Spit:             100K`,"
-		"                `● Bottle o' Enchanting: 200K`,"
-		"                // `● Shulker Bullet:       300K`,"
-		"                `● Trident:                 3M`"
-	]
 	quest.0EEEA27699137B6C.quest_desc: [
 		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
 		""
@@ -963,9 +946,9 @@
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
-		"In this case, the &7Steam Blast Furnace&r requires both Item and Fluid Hatches. You may place multiple hatches to handle different inputs."
+		"In this case, the &7Steam Kiln&r requires both Item and Fluid Hatches. At least one Fluid Input is required for &7Steam&r to power the device. Multiple hatches may be placed in order to accomodate different inputs."
 		""
-		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Blast Furnace block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Kiln block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -4534,7 +4517,7 @@
 		""
 		"                 &n&7A Note on Automation&r&r"
 		""
-		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, worry not. "
+		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, read on. "
 		""
 		"You may use any pipe or hopper to put items into each bowl, including the central chalice. "
 		""

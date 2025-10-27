@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:modern_industrialization/blast_furnace/';
+    const id_prefix = 'enigmatica:modern_industrialization/kiln/';
 
     const recipes = [
         {
@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ tag: 'c:blaze_ember', amount: 100 }],
             item_inputs: { tag: 'c:ingots/iron', amount: 1 },
             duration: 20,
-            eu: 2,
+            eu: 16,
             id: `${id_prefix}steel_ingot`
         },
         {
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/certus_quartz', amount: 3 }
             ],
             duration: 5,
-            eu: 4,
+            eu: 16,
             id: `${id_prefix}quartz_fiber`
         },
         {
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/grains_of_infinity', amount: 8 }
             ],
             duration: 20,
-            eu: 4,
+            eu: 32,
             id: `${id_prefix}dark_steel_ingot`
         },
         {
@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'aether:gems/zanite', amount: 1 }
             ],
             duration: 20,
-            eu: 4,
+            eu: 64,
             id: `${id_prefix}sky_ingot`
         },
         {
@@ -71,16 +71,24 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/grains_of_the_end', amount: 8 }
             ],
             duration: 20,
-            eu: 4,
+            eu: 64,
             id: `${id_prefix}end_steel_ingot`
         }
     ];
 
     recipes.forEach((recipe) => {
-        recipe.type = 'modern_industrialization:blast_furnace';
         recipe.duration *= 20;
-        event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        if (recipe.eu <= 4) {
+            recipe.type = 'modern_industrialization:steam_kiln';
+            event.custom(recipe).id(`${recipe.id}/steam`);
+
+            if (debug) console.log(`${recipe.id}/steam`);
+        }
+
+        recipe.type = 'modern_industrialization:electric_kiln';
+        event.custom(recipe).id(`${recipe.id}/electric`);
+
+        if (debug) console.log(`${recipe.id}/electric`);
     });
 });

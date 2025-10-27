@@ -22,5 +22,10 @@
     "block.modern_industrialization.energetic_coil": "Energetic Coil",
     "item.modern_industrialization.energetic_cable": "Energetic Cable (HV)",
     "block.modern_industrialization.conductive_coil": "Conductive Coil",
-    "item.modern_industrialization.conductive_cable": "Conductive Cable (MV)"
+    "item.modern_industrialization.conductive_cable": "Conductive Cable (MV)",
+
+    "block.modern_industrialization.steam_kiln": "Steam Kiln",
+    "block.modern_industrialization.electric_kiln": "Electric Kiln",
+    "rei_categories.modern_industrialization.steam_kiln": "Steam Kiln",
+    "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln"
 }

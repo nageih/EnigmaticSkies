@@ -190,6 +190,46 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}superconductor_cable`
+        },
+        {
+            results: [{ id: 'pneumaticcraft:transistor', count: 1 }],
+            inputs: [
+                { item: 'modern_industrialization:conductive_cable', count: 3 },
+                { tag: 'c:nuggets/redstone_alloy', count: 3 },
+                { item: 'modern_industrialization:rubber_sheet', count: 3 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}transistor`
+        },
+        {
+            results: [{ id: 'enderio:basic_capacitor', count: 1 }],
+            inputs: [
+                { item: 'modern_industrialization:conductive_cable', count: 2 },
+                { tag: 'c:dusts/grains_of_infinity', count: 3 },
+                { tag: 'c:plates/iron', count: 2 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}basic_capacitor`
+        },
+        {
+            results: [{ id: 'enderio:double_layer_capacitor', count: 1 }],
+            inputs: [
+                { item: 'modern_industrialization:energetic_cable', count: 2 },
+                { item: 'enderio:basic_capacitor', count: 2 },
+                { tag: 'c:plates/copper', count: 2 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}double_layer_capacitor`
+        },
+        {
+            results: [{ id: 'enderio:octadic_capacitor', count: 1 }],
+            inputs: [
+                { item: 'modern_industrialization:vibrant_cable', count: 2 },
+                { item: 'enderio:double_layer_capacitor', count: 2 },
+                { tag: 'c:plates/carbon', count: 2 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}octadic_capacitor`
         }
     ];
 

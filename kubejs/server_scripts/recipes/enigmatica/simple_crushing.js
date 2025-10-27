@@ -165,26 +165,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'bronze_dust_from_bronze'
         },
         {
-            input: { tag: `c:ingots/invar` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/invar`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'invar_dust_from_invar'
-        },
-        {
-            input: { tag: `c:ingots/tungsten` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tungsten`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'tungsten_dust_from_tungsten'
-        },
-        {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',
@@ -203,16 +183,6 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'fluix_dust_from_fluix'
-        },
-        {
-            input: { tag: `c:gems/lignite_coal` },
-            outputs: [{ id: 'modern_industrialization:lignite_coal_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'lignite_coal_dust_from_lignite_coal'
         },
         {
             input: { item: 'minecraft:ender_pearl' },
@@ -454,7 +424,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gravels' },
             outputs: [{ id: 'minecraft:sand', count: 1 }],
             multiply: 'none',
-            exclusions: ['enderio', , 'modern_industrialization', 'create:milling'],
+            exclusions: ['enderio', 'modern_industrialization', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,
@@ -464,11 +434,21 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:cobblestones' },
             outputs: [{ id: 'minecraft:gravel', count: 1 }],
             multiply: 'none',
-            exclusions: ['enderio', , 'modern_industrialization', 'create:milling'],
+            exclusions: ['enderio', 'modern_industrialization', 'create:milling'],
             fe: 2400,
             eu: 2,
             duration: 5,
             id_suffix: 'gravel_from_cobblestones'
+        },
+        {
+            input: { item: 'aether:icestone' },
+            outputs: [{ id: 'minecraft:gravel', count: 1 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'gravel_from_icestone'
         },
         {
             input: { tag: 'c:end_stones' },
@@ -571,27 +551,7 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    let mi_materials = [
-        'annealed_copper',
-        'antimony',
-        'battery_alloy',
-        'beryllium',
-        'cadmium',
-        'chromium',
-        'cupronickel',
-        'he_mox',
-        'he_uranium',
-        'kanthal',
-        'le_mox',
-        'le_uranium',
-        'plutonium',
-        'silicon',
-        'stainless_steel',
-        'superconductor',
-        'titanium',
-        'uranium_235',
-        'uranium_238'
-    ];
+    let mi_materials = ['silicon', 'stainless_steel'];
 
     mi_materials.forEach((material) => {
         recipes.push({

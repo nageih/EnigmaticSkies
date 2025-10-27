@@ -158,10 +158,9 @@ ServerEvents.recipes((event) => {
             if (debug) console.log(r_id);
         }
 
-        // MI Blast Furnace
+        // MI Kiln
         if (!recipe.exclusions.includes('modern_industrialization')) {
             let r = {
-                type: 'modern_industrialization:blast_furnace',
                 item_inputs: recipe.inputs.map((input) => {
                     input.amount = input.count;
                     return input;
@@ -170,8 +169,20 @@ ServerEvents.recipes((event) => {
                 duration: recipe.tier * 5 * 20,
                 eu: recipe.tier * 2
             };
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+            let r_id;
+
+            if (r.eu <= 4) {
+                r.type = 'modern_industrialization:steam_kiln';
+                r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+                event.custom(r).id(r_id);
+
+                if (debug) console.log(r_id);
+            }
+
+            r.type = 'modern_industrialization:electric_kiln';
+            r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
             event.custom(r).id(r_id);
+
             if (debug) console.log(r_id);
         }
     });
