@@ -520,6 +520,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}relay_splitter`
+        },
+        {
+            result: { id: 'naturesaura:clock_hand', count: 1 },
+            reagent: { item: 'justdirethings:time_crystal_block' },
+            pedestalItems: [
+                { tag: 'c:essences/air' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:essences/fire' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:essences/earth' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:essences/water' },
+                { tag: 'c:ingots/hallowed_gold' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}clock_hand`
         }
     ];
 

@@ -92,6 +92,31 @@ ServerEvents.recipes((event) => {
                 D: '#c:essences/earth'
             },
             id: `${id_prefix}field_creator`
+        },
+        {
+            output: 'naturesaura:time_changer',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'naturesaura:infused_stone',
+                B: 'ars_nouveau:ritual_sunrise',
+                C: '#c:ingots/infused_iron',
+                D: 'ars_technica:calibrated_precision_mechanism',
+                E: 'ars_nouveau:ritual_moonfall'
+            },
+            id: `${id_prefix}time_changer`
+        },
+        {
+            output: 'naturesaura:weather_changer',
+            pattern: ['ABA', 'CDE', 'AFA'],
+            key: {
+                A: 'naturesaura:infused_stone',
+                B: 'ars_nouveau:ritual_cloudshaping',
+                C: 'minecraft:fire_charge',
+                D: 'ars_technica:calibrated_precision_mechanism',
+                E: 'minecraft:sunflower',
+                F: 'minecraft:dark_prismarine'
+            },
+            id: `${id_prefix}weather_changer`
         }
     ];
 
