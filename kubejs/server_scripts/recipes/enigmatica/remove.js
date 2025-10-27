@@ -522,8 +522,6 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:spawn_lamp' },
         { id: 'naturesaura:chunk_loader' },
         { id: 'naturesaura:oak_generator' },
-        { id: 'naturesaura:time_changer' },
-        { id: 'naturesaura:weather_changer' },
         { id: 'naturesaura:spring' },
         { id: 'naturesaura:auto_crafter' },
         { id: 'naturesaura:depth_ingot_creation' },
