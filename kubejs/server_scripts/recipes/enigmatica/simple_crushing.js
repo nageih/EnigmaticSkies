@@ -34,16 +34,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'gold_dust_from_gold'
         },
         {
-            input: { tag: `c:ingots/lead` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/lead`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'lead_dust_from_lead'
-        },
-        {
             input: { tag: `c:ingots/silver` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/silver`).getId(), count: 1 }],
             multiply: 'none',
@@ -54,57 +44,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'silver_dust_from_silver'
         },
         {
-            input: { tag: `c:ingots/nickel` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/nickel`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'nickel_dust_from_nickel'
-        },
-        {
-            input: { tag: `c:ingots/tin` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tin`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'tin_dust_from_tin'
-        },
-        {
-            input: { tag: `c:ingots/uranium` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/uranium`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'uranium_dust_from_uranium'
-        },
-        {
-            input: { tag: `c:ingots/platinum` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/platinum`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'platinum_dust_from_platinum'
-        },
-        {
-            input: { tag: `c:ingots/aluminum` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/aluminum`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'aluminum_dust_from_aluminum'
-        },
-
-        {
             input: { tag: `c:ingots/iesnium` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iesnium`).getId(), count: 1 }],
             multiply: 'none',
@@ -113,16 +52,6 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'iesnium_dust_from_iesnium'
-        },
-        {
-            input: { tag: `c:ingots/iridium` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iridium`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'iridium_dust_from_iridium'
         },
         {
             input: { tag: `c:ingots/netherite` },
@@ -143,16 +72,6 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'steel_dust_from_steel'
-        },
-        {
-            input: { tag: `c:ingots/electrum` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/electrum`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'electrum_dust_from_electrum'
         },
         {
             input: { tag: `c:ingots/bronze` },

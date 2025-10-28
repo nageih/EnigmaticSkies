@@ -71,6 +71,7 @@
             "/modern_industrialization:(tin|silver|electrum)_cable/",
             "/extended_industrialization:.*_alloy_smelter/",
             "/extended_industrialization:.*_waste_collector/",
+            "/modern_industrialization:(he|le)_(uranium|mox)_.*/",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

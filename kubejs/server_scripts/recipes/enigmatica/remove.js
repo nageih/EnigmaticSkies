@@ -479,7 +479,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:electric_quarry' },
         { output: 'extended_industrialization:machine_config_card' },
         { output: /modern_industrialization:.*_coil/ },
-        { output: /modern_industrialization:.*_drill_head/ },
+        { output: /modern_industrialization:.*_drill/ },
         { output: /modern_industrialization:.*_transformer/ },
         { output: /extended_industrialization:.*_waste_collector/ },
         { output: 'extended_industrialization:mulch' },
@@ -514,6 +514,8 @@ ServerEvents.recipes((event) => {
         { output: /extended_industrialization:(steel|bronze)_solar_boiler/ },
         { output: /modern_industrialization:(steel|bronze)_boiler/ },
         { output: /modern_industrialization:(aluminum|bronze|copper|stainless_steel|tin|titanium)_blade/ },
+        { output: /modern_industrialization:(he|le)_(uranium|mox)_.*/ },
+        { output: /modern_industrialization:(uranium|cadmium|plutonium)_.*/ },
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },
