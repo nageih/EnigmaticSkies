@@ -144,9 +144,9 @@
 	quest.0458B6BC887C9725.quest_desc: [
 		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
 		""
-		"&6⚠ Note: The Spawn Egg shown here is "
-		"&6    not required. It's simply a  "
-		"&6    convenience for finding the recipe."
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.0458B6BC887C9725.title: "Wolf"
 	quest.0465E4A27C7D4D75.quest_desc: [
@@ -222,6 +222,7 @@
 		""
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
+	quest.0745FDF3F22807CA.quest_desc: [""]
 	quest.074827E52A09685F.quest_desc: [
 		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
 		""
@@ -575,9 +576,9 @@
 	quest.0DE5D9ADB947B171.quest_desc: [
 		"Animate a Wilden Chimera and defeat it to obtain a Wilden Tribute."
 		""
-		"&6⚠ Note: The Ritual item shown here is not "
-		"&6    required. It's simply a convenience "
-		"&6    for finding the recipe."
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
 	quest.0EEEA27699137B6C.quest_desc: [
@@ -1048,7 +1049,7 @@
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Tainted Rock&r with &7Vexing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, Right-Click a &7Tainted Rock&r with an &7Abjuration Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.18A17E8080792318.title: "Biome Conversion"
 	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
@@ -1070,6 +1071,14 @@
 		"Lastly, &7Trial Chambers&r can also provide many useful items for Iron’s and can be a great way to stock up since the trials may be repeated!"
 	]
 	quest.195BD5456B6E674D.title: "Useful Structures"
+	quest.19F8B29D38CA31B8.quest_desc: [
+		"The &7Flashing Archwoods&r on this island will already have a few &7Flashpine&r grown on them. "
+		""
+		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Flashing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
+		""
+		"&a🛈 Tip: Harvest Rituals can be an easy "
+		"&a    way to farm these fruit!"
+	]
 	quest.1A0A7309D9B2F4FF.quest_desc: [
 		"Tired of mining yet? Look no further. "
 		""
@@ -1192,6 +1201,19 @@
 		""
 		"This is where you'll want to set up an Excavator."
 	]
+	quest.1D2F5CE5D285BAEA.quest_desc: [
+		"Whirlisprigs once roamed the lands, tending to the natural world. It’s been an age since they’ve been seen, but perhaps that can be rectified?"
+		""
+		"Ancient texts alluded to them being related in nature to the &7Allay&r, a creature we can call forth with a little effort…"
+		"&n                                                  &r"
+		""
+		"Craft a &7Magic Lamp&r and release its inhabitant at an &7Altar of Birthing&r. Then gather some &7Organic Matter&r from it."
+		""
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
+	quest.1D2F5CE5D285BAEA.title: "Genie in a Bottle"
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1D5616DFA428D46F.quest_desc: [
 		"Building Gadgets offer a number of FE powered tools to assist with building ranging from block placement, block replacement, copy/paste, and even straight deletion of large areas."
@@ -1209,6 +1231,12 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1D9182A079919158.quest_desc: [
+		"Need a little more room to work? Summoning another island is always an option. "
+		""
+		"Alternatively, Right-Click &7Sculk&r with &7Air Essence&r to convert a &n21x11x21&r area to this biome!"
+	]
+	quest.1D9182A079919158.title: "Biome Conversion"
 	quest.1DA29F3B45DEFB4B.quest_desc: [
 		"Magic can be a lonely profession. Everyone always asks, “What can you do?”, but never “How are you doing?”."
 		""
@@ -1254,6 +1282,13 @@
 		"We’ll be converting Lapis to Quartz at a 1:1 ratio."
 	]
 	quest.1E2BA13C53664E50.title: "Reformation"
+	quest.1E514F5A18364625.quest_desc: [
+		"Finally, craft yourself a &7Whirlisprig Charm&r. These items may be Right-Clicked on any flower to make a home for your new friend."
+		""
+		"The &7Whirlisprig&r will manage the plants in a large area, gently harvesting small quantities of everything in its home area and depositing them in an inventory &nadjacent&r to its &7Blossom&r."
+		""
+		"Source is required and will be taken from a nearby &7Source Jar&r."
+	]
 	quest.1E78584388808899.quest_desc: [
 		"Finally a multiblock to replace all of those individual turbines you’ve been using. "
 		""
@@ -1960,6 +1995,9 @@
 		"The &7Blazing Archwoods&r on this island will already have a few &7Bombegranate&r grown on them. "
 		""
 		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Blazing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
+		""
+		"&a🛈 Tip: Harvest Rituals can be an easy "
+		"&a    way to farm these fruit!"
 	]
 	quest.31B6AE7706264320.quest_desc: [
 		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
@@ -1969,8 +2007,9 @@
 	quest.31CAA3BC20CCDF25.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Blackstone&r with &7Blazing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, Right-Click a &7Blackstone&r with a &7Fire Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
+	quest.31CAA3BC20CCDF25.title: "Biome Conversion"
 	quest.31CACA407D4ADCA5.quest_desc: [
 		"FE Storage Cells allow you to turn your AE system into a power substation, providing not just recipe components to machines, but also the power to run them."
 		""
@@ -1984,6 +2023,14 @@
 		"To begin, you’ll need to craft a Vengeance Ring. Sneak + Right-Click it to activate it, granting you several potent buffs and the ability to see the Spirits of the creatures you kill. "
 	]
 	quest.3202466CAE3744A9.title: "Spirits"
+	quest.323D480E3C37579E.quest_desc: [
+		"The &7Cascading Archwoods&r on this island will already have a few &7Frostaya&r grown on them. "
+		""
+		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Cascading Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
+		""
+		"&a🛈 Tip: Harvest Rituals can be an easy "
+		"&a    way to farm these fruit!"
+	]
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
 		""
@@ -2806,9 +2853,9 @@
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
 		""
-		"&6⚠ Note: The Spawn Egg shown here is "
-		"&6    not required. It's simply a  "
-		"&6    convenience for finding the recipe."
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 		""
 		"&a🛈 Tip: Consider making an enclosure to "
 		"&a    contain your bats!"
@@ -2875,6 +2922,15 @@
 		""
 		"&a🛈 Tip: The Rod can be re-attuned to a"
 		"&a    new material at any time."
+	]
+	quest.43580B4D15FCEF00.quest_desc: [
+		"A bit of slicing and splicing will get us what we need. Prepare the required items for the ritual and create your very own &7Whirlisprig&r. "
+		""
+		"To earn a &7Token&r of its trust, grow any sapling nearby."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.441562EC913D1043.quest_desc: [
 		"The Shock Module causes mobs in contact with the field to take damage. "
@@ -3241,8 +3297,9 @@
 	quest.4A3B9586D14D5037.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Clay Block&r with &7Cascading Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, Right-Click &7Clay&r with a &7Water Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
+	quest.4A3B9586D14D5037.title: "Biome Conversion"
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A80ADB324E4A6CA.quest_desc: [
 		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
@@ -3297,9 +3354,9 @@
 	quest.4B2DF8F028C3CFA0.quest_desc: [
 		"Animate a Guardian and gather some Organic Matter from it."
 		""
-		"&6⚠ Note: The Ritual item shown here is not "
-		"&6    required. It's simply a convenience "
-		"&6    for finding the recipe."
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
@@ -3379,8 +3436,9 @@
 	quest.4CC1CF537349C2D6.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
-		"Alternatively, you can Right-Click a &7Tuff Block&r with &7Flourishing Bark&r to convert a &n21x11x21&r area to this biome!"
+		"Alternatively, Right-Click &7Tuff&r with an &7Earth Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
+	quest.4CC1CF537349C2D6.title: "Biome Conversion"
 	quest.4CE65730937AB775.quest_desc: [
 		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."
 		""
@@ -3615,9 +3673,9 @@
 	quest.520241157010066D.quest_desc: [
 		"Animate a Wilden Stalker and harvest it for parts."
 		""
-		"&6⚠ Note: The Ritual item shown here is not "
-		"&6    required. It's simply a convenience "
-		"&6    for finding the recipe."
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.526BF0840C65855F.quest_desc: [
 		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
@@ -3948,6 +4006,14 @@
 		""
 		"You’ll also notice several &7Swamp Homis&r dotted around under the &7Spore Blossoms&r. These handy little devices will convert nearby &7Moss&r back to &7Mud&r, releasing some Aura into the environment in the process. "
 	]
+	quest.5D50FB987FCA7BB5.quest_desc: [
+		"The &7Vexing Archwoods&r on this island will already have a few &7Bastion Fruit&r grown on them. "
+		""
+		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Vexing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
+		""
+		"&a🛈 Tip: Harvest Rituals can be an easy "
+		"&a    way to farm these fruit!"
+	]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
 		""
@@ -4131,9 +4197,9 @@
 	quest.619FB543EE458A0E.quest_desc: [
 		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
 		""
-		"&6⚠ Note: The Spawn Egg shown here is "
-		"&6    not required. It's simply a  "
-		"&6    convenience for finding the recipe."
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.619FB543EE458A0E.title: "Polar Bear"
 	quest.61F55FC24EA0CD1C.quest_desc: [
@@ -4455,9 +4521,9 @@
 	quest.6660BE0C308A1744.quest_desc: [
 		"Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."
 		""
-		"&6⚠ Note: The Spawn Egg shown here is "
-		"&6    not required. It's simply a  "
-		"&6    convenience for finding the recipe."
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.6660BE0C308A1744.title: "Goat"
 	quest.66AE19141D8F5604.quest_desc: [
@@ -4580,9 +4646,9 @@
 	quest.68C212D2C7F8B308.quest_desc: [
 		"Animate a Wilden Defender and harvest it for parts."
 		""
-		"&6⚠ Note: The Ritual item shown here is not "
-		"&6    required. It's simply a convenience "
-		"&6    for finding the recipe."
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.690FB1A43ED247CF.quest_desc: [
 		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
@@ -4748,9 +4814,9 @@
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
 		"Animate a Wilden Pack Hunter and harvest it for parts."
 		""
-		"&6⚠ Note: The Ritual item shown here is not "
-		"&6    required. It's simply a convenience "
-		"&6    for finding the recipe."
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
@@ -4924,6 +4990,9 @@
 		"The &7Flourishing Archwoods&r on this island will already have a few &7Mendosteen&r grown on them. "
 		""
 		"Gather a few and consider setting up a farm when you can; they grow when placed on a &7Flourishing Archwood Log&r and can be sped up by applying &7Bone Meal&r or other grow effects. "
+		""
+		"&a🛈 Tip: Harvest Rituals can be an easy "
+		"&a    way to farm these fruit!"
 	]
 	quest.6EB6E8DEEBB32911.quest_desc: [
 		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."

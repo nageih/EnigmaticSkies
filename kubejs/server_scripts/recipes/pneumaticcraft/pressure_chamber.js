@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modularrouters:blank_module', count: 3 }],
             inputs: [
-                { item: 'pneumaticcraft:plastic', count: 1 },
+                { item: 'prettypipes:blank_module', count: 1 },
                 { tag: 'c:gems/empowered_restonia', count: 1 },
                 { tag: 'pneumaticcraft:wiring', count: 3 },
                 { item: 'modern_industrialization:analog_circuit', count: 3 }
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modularrouters:blank_upgrade', count: 3 }],
             inputs: [
-                { item: 'pneumaticcraft:plastic', count: 1 },
+                { item: 'prettypipes:blank_module', count: 1 },
                 { tag: 'c:gems/empowered_palis', count: 1 },
                 { tag: 'pneumaticcraft:wiring', count: 3 },
                 { item: 'modern_industrialization:analog_circuit', count: 3 }

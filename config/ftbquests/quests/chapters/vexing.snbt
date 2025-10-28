@@ -11,7 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0B7FC57C9436274B"]
 			id: "13F15094F3AF4A73"
 			min_width: 300
 			rewards: [{
@@ -34,16 +33,6 @@
 			}]
 			x: 3.0d
 			y: -1.0d
-		}
-		{
-			id: "0B7FC57C9436274B"
-			tasks: [{
-				id: "1FDC5BF83296C79A"
-				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["45E411460C53A082"]
@@ -272,6 +261,7 @@
 				{
 					id: "73B4ABB74205831D"
 					item: { count: 1, id: "occultism:ritual_dummy/transmute_wilden_stalker" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -576,14 +566,14 @@
 		{
 			dependencies: ["13F15094F3AF4A73"]
 			icon: {
-				id: "arsdelight:vexing_bark"
+				id: "malum:tainted_rock"
 			}
 			id: "18A17E8080792318"
 			shape: "gear"
 			tasks: [
 				{
 					id: "3C311AF4D53ED9A0"
-					item: { count: 1, id: "arsdelight:vexing_bark" }
+					item: { count: 1, id: "ars_nouveau:abjuration_essence" }
 					type: "item"
 				}
 				{
@@ -692,8 +682,8 @@
 			dependencies: ["37AA9E6270DB015A"]
 			id: "0949F58436171A99"
 			tasks: [{
-				id: "636274EC9BE79D58"
-				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				id: "7E5D6D8AF2F2D01C"
+				item: { count: 1, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -717,6 +707,66 @@
 			]
 			x: 7.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["43580B4D15FCEF00"]
+			id: "1E514F5A18364625"
+			tasks: [{
+				id: "2539C8B2AD58F8EF"
+				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D2F5CE5D285BAEA"]
+			icon: {
+				id: "ars_nouveau:whirlisprig_shards"
+			}
+			id: "43580B4D15FCEF00"
+			tasks: [
+				{
+					id: "684B205D28CC5FB4"
+					item: { count: 1, id: "occultism:ritual_dummy/animate_whirlisprig" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "006A9B3D20FDB05C"
+					item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BB6D2595F99ADB4"]
+			icon: {
+				id: "enigmatica:magic_lamp"
+			}
+			id: "1D2F5CE5D285BAEA"
+			tasks: [
+				{
+					id: "1BC3F2A760015325"
+					item: { count: 1, id: "minecraft:allay_spawn_egg" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06A30973D9EA7D20"
+					item: { count: 1, id: "enigmatica:magic_lamp" }
+					type: "item"
+				}
+				{
+					id: "257E5780333B1C05"
+					item: { components: { "geneticsresequenced:entity_type": "minecraft:allay" }, count: 1, id: "geneticsresequenced:organic_matter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.5d
 		}
 	]
 }

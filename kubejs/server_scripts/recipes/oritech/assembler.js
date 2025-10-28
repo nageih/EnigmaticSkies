@@ -5,11 +5,21 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:motor', count: 1 }],
             ingredients: [
                 { item: 'modern_industrialization:conductive_coil' },
-                { tag: 'c:plates/steel' },
+                { item: 'modern_industrialization:steel_large_plate' },
                 { item: 'create:shaft' }
             ],
             time: 10,
             id: `${id_prefix}motor`
+        },
+        {
+            results: [{ id: 'modern_industrialization:advanced_motor', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:energetic_coil' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { tag: 'c:rods/stainless_steel' }
+            ],
+            time: 10,
+            id: `${id_prefix}advanced_motor`
         },
         {
             results: [{ id: 'oritech:flux_gate', count: 1 }],
@@ -79,13 +89,24 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modern_industrialization:pump', count: 1 }],
             ingredients: [
-                { tag: 'c:plates/steel' },
-                { tag: 'modern_industrialization:fluid_pipes' },
+                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'modern_industrialization:bronze_rotor' },
                 { item: 'modern_industrialization:bronze_rotor' },
                 { item: 'modern_industrialization:large_motor' }
             ],
             time: 20,
             id: `${id_prefix}pump`
+        },
+        {
+            results: [{ id: 'modern_industrialization:advanced_pump', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'modern_industrialization:stainless_steel_rotor' },
+                { item: 'modern_industrialization:stainless_steel_rotor' },
+                { item: 'modern_industrialization:large_advanced_motor' }
+            ],
+            time: 20,
+            id: `${id_prefix}advanced_pump`
         },
         {
             results: [{ id: 'modern_industrialization:large_motor', count: 1 }],
@@ -97,6 +118,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}large_motor`
+        },
+        {
+            results: [{ id: 'modern_industrialization:large_advanced_motor', count: 1 }],
+            ingredients: [
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'modern_industrialization:advanced_motor' },
+                { item: 'modern_industrialization:advanced_motor' },
+                { item: 'modern_industrialization:digital_circuit' }
+            ],
+            time: 20,
+            id: `${id_prefix}large_advanced_motor`
         },
         {
             results: [{ id: 'modern_industrialization:advanced_large_steam_boiler', count: 1 }],

@@ -171,14 +171,14 @@
 		{
 			dependencies: ["78626EE046E48EF3"]
 			icon: {
-				id: "arsdelight:blazing_bark"
+				id: "minecraft:blackstone"
 			}
 			id: "31CAA3BC20CCDF25"
 			shape: "gear"
 			tasks: [
 				{
 					id: "1E9B682D3FC55F98"
-					item: { count: 1, id: "arsdelight:blazing_bark" }
+					item: { count: 1, id: "ars_nouveau:fire_essence" }
 					type: "item"
 				}
 				{

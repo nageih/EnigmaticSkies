@@ -93,14 +93,14 @@
 		{
 			dependencies: ["7893072479F01DC2"]
 			icon: {
-				id: "arsdelight:cascading_bark"
+				id: "minecraft:clay"
 			}
 			id: "4A3B9586D14D5037"
 			shape: "gear"
 			tasks: [
 				{
 					id: "31665AB9CA4B6163"
-					item: { count: 1, id: "arsdelight:cascading_bark" }
+					item: { count: 1, id: "ars_nouveau:water_essence" }
 					type: "item"
 				}
 				{

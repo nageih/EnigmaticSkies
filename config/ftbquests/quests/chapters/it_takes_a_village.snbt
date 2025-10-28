@@ -585,29 +585,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["53B43826C4CF310F"]
-			icon: {
-				id: "ars_nouveau:air_essence"
-			}
-			id: "6B76BBE9FB5A1219"
-			tasks: [
-				{
-					id: "24770F3A0736A84B"
-					item: { count: 1, id: "ars_nouveau:air_essence" }
-					type: "item"
-				}
-				{
-					id: "11E99D42F704A494"
-					item: { count: 1, id: "ars_elemental:flashpine_pod" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -617,7 +596,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 5.0d
 		}
 		{
@@ -628,19 +607,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["6B76BBE9FB5A1219"]
-			id: "6EEE945815A039B7"
-			tasks: [{
-				id: "7FE64698F8879C71"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -650,7 +618,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -661,18 +629,8 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["6EEE945815A039B7"]
-			id: "352FE6BFD8AB7023"
-			tasks: [{
-				id: "78CB052047F0AC64"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["53B43826C4CF310F"]
@@ -682,7 +640,7 @@
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
