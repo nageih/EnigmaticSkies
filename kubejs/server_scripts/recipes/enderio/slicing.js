@@ -3,17 +3,23 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: Item.of(
-                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:wilden_hunter"]'
-            ).toJson(),
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'ars_nouveau:wilden_hunter' },
+                count: 8
+            },
             inputs: [
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:goat"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:goat' }
+                },
                 { item: 'minecraft:skeleton_skull' },
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:wolf"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:wolf' }
+                },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
                 { item: 'malum:imitation_flesh' }
@@ -22,17 +28,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wilden_hunter`
         },
         {
-            output: Item.of(
-                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="minecraft:mooshroom"]'
-            ).toJson(),
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'minecraft:mooshroom' },
+                count: 8
+            },
             inputs: [
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:cow' }
+                },
                 { item: 'minecraft:red_mushroom_block' },
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:cow"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:cow' }
+                },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
                 { item: 'malum:imitation_flesh' }
@@ -41,15 +53,24 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mooshroom`
         },
         {
-            output: Item.of(
-                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="aether:cockatrice"]'
-            ).toJson(),
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'aether:cockatrice' },
+                count: 8
+            },
             inputs: [
-                Ingredient.of('geneticsresequenced:dna_helix[geneticsresequenced:entity_type="aether:moa"]').toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'aether:moa' }
+                },
                 { item: 'minecraft:skeleton_skull' },
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="cold_sweat:chameleon"]'
-                ).toJson(),
+
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'cold_sweat:chameleon' }
+                },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
                 { item: 'malum:imitation_flesh' }
@@ -58,17 +79,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}cockatrice`
         },
         {
-            output: Item.of(
-                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:wilden_guardian"]'
-            ).toJson(),
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'ars_nouveau:wilden_guardian' },
+                count: 8
+            },
             inputs: [
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:polar_bear"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:polar_bear' }
+                },
                 { item: 'minecraft:skeleton_skull' },
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:guardian"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:guardian' }
+                },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
                 { item: 'malum:imitation_flesh' }
@@ -77,17 +104,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wilden_guardian`
         },
         {
-            output: Item.of(
-                '8x geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:wilden_stalker"]'
-            ).toJson(),
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'ars_nouveau:wilden_stalker' },
+                count: 8
+            },
             inputs: [
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:bat"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:bat' }
+                },
                 { item: 'minecraft:skeleton_skull' },
-                Ingredient.of(
-                    'geneticsresequenced:dna_helix[geneticsresequenced:entity_type="minecraft:wolf"]'
-                ).toJson(),
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:wolf' }
+                },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },
                 { item: 'malum:imitation_flesh' }
@@ -133,6 +166,31 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}ender_resonator`
+        },
+        {
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'ars_nouveau:whirlisprig' },
+                count: 8
+            },
+            inputs: [
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                },
+                { item: 'starbunclemania:whirli_prop' },
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                },
+                { item: 'malum:runic_sapball' },
+                { item: 'justdirethings:polymorphic_catalyst' },
+                { item: 'malum:runic_sapball' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}whirlisprig`
         }
     ];
 

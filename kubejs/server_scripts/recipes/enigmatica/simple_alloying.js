@@ -22,10 +22,10 @@ ServerEvents.recipes((event) => {
             id_suffix: `electrum_ingot`
         },
         {
-            output: { id: 'occultism:iesnium_ingot', count: 5 },
+            output: { id: 'occultism:iesnium_ingot', count: 1 },
             inputs: [
-                { tag: 'c:ingots/silver', count: 4 },
-                { tag: 'c:dusts/diamond', count: 1 }
+                { tag: 'c:ingots/silver', count: 1 },
+                { tag: 'c:dusts/diamond', count: 7 }
             ],
             tier: 1,
             exclusions: [],

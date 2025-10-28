@@ -61,6 +61,30 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: `occultism:ritual_dummy/transmute_wilden_boss`, count: 1 },
             duration: 30,
             id: `${id_prefix}transmute_wilden_boss`
+        },
+        {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: 'ars_nouveau:whirlisprig',
+            result: {
+                id: 'ars_nouveau:whirlisprig_se',
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_whirlisprig"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_whirlisprig.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of(
+                `geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:whirlisprig"]`
+            ).toJson(),
+            ingredients: [
+                { tag: 'c:essences/hex_ash' },
+                { item: 'industrialforegoing:pink_slime_block' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'industrialforegoing:pink_slime_block' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_whirlisprig`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_whirlisprig`
         }
     ];
 

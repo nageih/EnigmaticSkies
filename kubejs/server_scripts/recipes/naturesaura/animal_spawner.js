@@ -51,7 +51,13 @@ ServerEvents.recipes((event) => {
             time: 60,
             id: `${id_prefix}chicken`
         },
-
+        {
+            entity: 'minecraft:allay',
+            ingredients: [{ item: 'enigmatica:magic_lamp' }],
+            aura: 2000000,
+            time: 60,
+            id: `${id_prefix}allay`
+        },
         {
             entity: 'minecraft:wolf',
             ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'farmersdelight:dog_food' }],

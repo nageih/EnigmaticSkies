@@ -121,45 +121,52 @@
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.started": "Started animating Flashing Weald Walker.",
 
+    "item.occultism.ritual_dummy.animate_whirlisprig": "§6Ritual: Transmute Whirlisprig",
+    "item.occultism.ritual_dummy.animate_whirlisprig.tooltip": "§5Transmute a Whirlisprig from raw materials.",
+    "ritual.enigmatica.ritual/animate_whirlisprig.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_whirlisprig.finished": "Successfully transmuted a Whirlisprig.",
+    "ritual.enigmatica.ritual/animate_whirlisprig.interrupted": "Transmutation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_whirlisprig.started": "Started transmuting Whirlisprig.",
+
     "item.occultism.ritual_dummy.transmute_wilden_stalker": "§6Ritual: Transmute Wilden Stalker",
     "item.occultism.ritual_dummy.transmute_wilden_stalker.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.finished": "Successfully transmuted Wilden Stalker.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_wilden_stalker.started": "Started animating Wilden Stalker.",
+    "ritual.enigmatica.ritual/transmute_wilden_stalker.started": "Started transmuting Wilden Stalker.",
 
     "item.occultism.ritual_dummy.transmute_wilden_hunter": "§6Ritual: Transmute Wilden Pack Hunter",
     "item.occultism.ritual_dummy.transmute_wilden_hunter.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_hunter.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_wilden_hunter.finished": "Successfully transmuted Wilden Pack Hunter.",
     "ritual.enigmatica.ritual/transmute_wilden_hunter.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_wilden_hunter.started": "Started animating Wilden Pack Hunter.",
+    "ritual.enigmatica.ritual/transmute_wilden_hunter.started": "Started transmuting Wilden Pack Hunter.",
 
     "item.occultism.ritual_dummy.transmute_wilden_guardian": "§6Ritual: Transmute Wilden Defender",
     "item.occultism.ritual_dummy.transmute_wilden_guardian.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_guardian.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_wilden_guardian.finished": "Successfully transmuted Wilden Defender.",
     "ritual.enigmatica.ritual/transmute_wilden_guardian.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_wilden_guardian.started": "Started animating Wilden Defender.",
+    "ritual.enigmatica.ritual/transmute_wilden_guardian.started": "Started transmuting Wilden Defender.",
 
     "item.occultism.ritual_dummy.transmute_wilden_boss": "§6Ritual: Transmute Wilden Chimera",
     "item.occultism.ritual_dummy.transmute_wilden_boss.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.finished": "§6...Ed...Ward...Big...Brother?",
     "ritual.enigmatica.ritual/transmute_wilden_boss.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_wilden_boss.started": "Started animating Wilden Chimera.",
+    "ritual.enigmatica.ritual/transmute_wilden_boss.started": "Started transmuting Wilden Chimera.",
 
     "item.occultism.ritual_dummy.transmute_mooshroom": "§6Ritual: Transmute Mooshroom",
     "item.occultism.ritual_dummy.transmute_mooshroom.tooltip": "§5Transmute a Mooshroom from raw materials.",
     "ritual.enigmatica.ritual/transmute_mooshroom.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_mooshroom.finished": "Successfully transmuted Mooshroom.",
     "ritual.enigmatica.ritual/transmute_mooshroom.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_mooshroom.started": "Started animating Mooshroom.",
+    "ritual.enigmatica.ritual/transmute_mooshroom.started": "Started transmuting Mooshroom.",
 
     "item.occultism.ritual_dummy.transmute_cockatrice": "§6Ritual: Transmute Cockatrice",
     "item.occultism.ritual_dummy.transmute_cockatrice.tooltip": "§5Transmute a Cockatrice from raw materials.",
     "ritual.enigmatica.ritual/transmute_cockatrice.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/transmute_cockatrice.finished": "Successfully transmuted Cockatrice.",
     "ritual.enigmatica.ritual/transmute_cockatrice.interrupted": "Transmutation ritual interrupted.",
-    "ritual.enigmatica.ritual/transmute_cockatrice.started": "Started animating Cockatrice."
+    "ritual.enigmatica.ritual/transmute_cockatrice.started": "Started transmuting Cockatrice."
 }

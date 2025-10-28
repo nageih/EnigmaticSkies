@@ -3116,7 +3116,7 @@
 	]
 	quest.4840F7361DF70516.title: "QIO System"
 	quest.486FDAA44AED23C4.quest_desc: [
-		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to the production of &7Plastic&r and &7Lubricant&r. "
+		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
 		""
 		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
 		""

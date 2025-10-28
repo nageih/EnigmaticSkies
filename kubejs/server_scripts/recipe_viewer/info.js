@@ -191,6 +191,30 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ` `,
                 `Use Bone Meal on a Lotus Flower to obtain Bleachdew.`
             ]
+        },
+        {
+            filter: ['naturesaura:time_changer'],
+            text: [
+                `May be used to change to a specific time of day at the expense of Aura.`,
+                ` `,
+                `To set it up, place an Item Frame on the device and insert a Hand of Time.`,
+                ` `,
+                `The rotation of the Hand of Time denotes the time it will change to, with up being midnight and down being noon.`,
+                ` `,
+                `Drop a Clock nearby to trigger the effect.`
+            ]
+        },
+        {
+            filter: ['naturesaura:weather_changer'],
+            text: [
+                `May be used to change the weather at the expense of Aura.`,
+                ` `,
+                `Drop one of the following items nearby to trigger the effect:`,
+                ` `,
+                `● Sunflower - Clear Skies`,
+                `● Dark Prismarine - Rain`,
+                `● Fire Charge - Storm`
+            ]
         }
     ];
 

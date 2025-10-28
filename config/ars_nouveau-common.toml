@@ -7,7 +7,7 @@
 	#How much mana whirlisprigs consume per generation
 	# Default: 250
 	# Range: 0 ~ 10000
-	sylphManaCost = 250
+	sylphManaCost = 10000
 	#How much progress whirlisprigs must accumulate before creating resources
 	# Default: 250
 	# Range: 0 ~ 10000
