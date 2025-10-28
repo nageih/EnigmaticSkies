@@ -73,6 +73,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 30,
             experience: 0.15,
             id: `${id_prefix}wither_rose`
+        },
+        {
+            result: { id: 'minecraft:pitcher_pod', count: 1 },
+            ingredient: { item: 'minecraft:pitcher_plant' },
+            cookingtime: 5,
+            experience: 0.15,
+            id: `${id_prefix}pitcher_pod`
         }
     ];
 

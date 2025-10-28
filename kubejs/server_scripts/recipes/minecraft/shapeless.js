@@ -101,13 +101,8 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}paper_from_rice`
         },
         {
-            output: 'minecraft:moss_block',
-            inputs: [
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet',
-                'minecraft:moss_carpet'
-            ],
+            output: '2x minecraft:moss_block',
+            inputs: ['minecraft:moss_carpet', 'minecraft:moss_carpet', 'minecraft:moss_carpet'],
             id: `${id_prefix}moss_block_from_moss_carpet`
         }
     ];

@@ -183,8 +183,8 @@
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3DE69E7B1359D76D"]
@@ -194,8 +194,8 @@
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["13C820C293A11CF5"]
@@ -206,7 +206,40 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["768869D763EC54EB"]
+			icon: {
+				id: "minecraft:sculk"
+			}
+			id: "1D9182A079919158"
+			shape: "gear"
+			tasks: [
+				{
+					id: "72B31618131D6054"
+					item: { count: 1, id: "ars_nouveau:air_essence" }
+					type: "item"
+				}
+				{
+					id: "4F7334D3E9293DD5"
+					item: { count: 1, id: "minecraft:sculk" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2960228C632FA877"]
+			id: "537EDDC45D94BDE4"
+			tasks: [{
+				id: "05FDA98F047CB908"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
 		}
 	]
 }

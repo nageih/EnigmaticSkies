@@ -11,6 +11,11 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'minecraft:snow_block', count: 1 },
             lower_input: { id: 'minecraft:snowball', count: 4 },
             id: `${id_prefix}snowball_to_snow_block`
+        },
+        {
+            higher_input: { id: 'minecraft:moss_block', count: 2 },
+            lower_input: { id: 'minecraft:moss_carpet', count: 3 },
+            id: `${id_prefix}moss_carpet_to_moss_block`
         }
     ];
 

@@ -151,14 +151,14 @@
 		{
 			dependencies: ["6490781066FAE8CF"]
 			icon: {
-				id: "arsdelight:flourishing_bark"
+				id: "minecraft:tuff"
 			}
 			id: "4CC1CF537349C2D6"
 			shape: "gear"
 			tasks: [
 				{
 					id: "3A0C97C0F2B1823B"
-					item: { count: 1, id: "arsdelight:flourishing_bark" }
+					item: { count: 1, id: "ars_nouveau:earth_essence" }
 					type: "item"
 				}
 				{

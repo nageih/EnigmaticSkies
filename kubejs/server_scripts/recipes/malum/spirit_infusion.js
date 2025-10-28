@@ -234,15 +234,30 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}alchemical_impetus`
         },
         {
-            output: { id: 'enigmatica:magic_lamp', count: 1 },
+            output: { id: 'occultism:magic_lamp_empty', count: 1 },
             ingredient: { tag: 'c:ingots/iesnium', count: 4 },
-            extraIngredients: [{ item: 'malum:iridescent_ether', count: 1 }],
+            extraIngredients: [{ item: 'minecraft:cookie', count: 12 }],
             spirits: [
                 { type: 'sacred', count: 16 },
                 { type: 'arcane', count: 16 },
                 { type: 'aerial', count: 16 }
             ],
-            id: `${id_prefix}magic_lamp`
+            id: `${id_prefix}magic_lamp_empty`
+        },
+        {
+            output: { id: 'occultism:large_steam_turbine', count: 1 },
+            ingredient: { item: 'industrialforegoing:machine_frame_advanced', count: 1 },
+            extraIngredients: [
+                { item: 'modern_industrialization:stainless_steel_rotor', count: 12 },
+                { item: 'modern_industrialization:advanced_pump', count: 6 },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 }
+            ],
+            spirits: [
+                { type: 'arcane', count: 64 },
+                { type: 'aerial', count: 64 },
+                { type: 'aqueous', count: 64 }
+            ],
+            id: `${id_prefix}large_steam_turbine`
         }
     ];
 

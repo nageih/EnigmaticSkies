@@ -20,6 +20,24 @@ ServerEvents.recipes((event) => {
             input: { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
             program: 'drill',
             id: `${id_prefix}stainless_steel_machine_casing_pipe`
+        },
+        {
+            result: { id: 'modern_industrialization:bronze_rotor', count: 1 },
+            input: { item: 'modern_industrialization:bronze_blade', count: 4 },
+            program: 'laser',
+            id: `${id_prefix}bronze_rotor`
+        },
+        {
+            result: { id: 'modern_industrialization:stainless_steel_blade', count: 4 },
+            input: { tag: 'c:plates/stainless_steel', count: 3 },
+            program: 'drill',
+            id: `${id_prefix}stainless_steel_blade`
+        },
+        {
+            result: { id: 'modern_industrialization:stainless_steel_rotor', count: 1 },
+            input: { item: 'modern_industrialization:stainless_steel_blade', count: 4 },
+            program: 'laser',
+            id: `${id_prefix}stainless_steel_rotor`
         }
     ];
 
