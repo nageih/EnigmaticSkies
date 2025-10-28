@@ -216,6 +216,12 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker.tooltip')
         },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_whirlisprig'),
+            id: 'occultism:ritual_dummy/animate_whirlisprig',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_whirlisprig.tooltip')
+        },
 
         // Transmuted Creatures
         {
@@ -286,7 +292,9 @@ StartupEvents.registry('item', (event) => {
         'honey_cookie_dough',
         'source_berry_cookie_dough',
         'pelagite',
-        'kerogen'
+        'kerogen',
+
+        'magic_lamp'
     ];
 
     simple_items.forEach((item) => {

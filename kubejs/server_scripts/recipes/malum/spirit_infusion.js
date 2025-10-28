@@ -232,6 +232,17 @@ ServerEvents.recipes((event) => {
                 { type: 'earthen', count: 4 }
             ],
             id: `${id_prefix}alchemical_impetus`
+        },
+        {
+            output: { id: 'enigmatica:magic_lamp', count: 1 },
+            ingredient: { tag: 'c:ingots/iesnium', count: 4 },
+            extraIngredients: [{ item: 'malum:iridescent_ether', count: 1 }],
+            spirits: [
+                { type: 'sacred', count: 16 },
+                { type: 'arcane', count: 16 },
+                { type: 'aerial', count: 16 }
+            ],
+            id: `${id_prefix}magic_lamp`
         }
     ];
 
