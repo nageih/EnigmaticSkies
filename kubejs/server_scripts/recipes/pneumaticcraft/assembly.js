@@ -22,6 +22,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}stainless_steel_machine_casing_pipe`
         },
         {
+            result: { id: 'modern_industrialization:bronze_blade', count: 4 },
+            input: { tag: 'c:plates/bronze', count: 3 },
+            program: 'drill',
+            id: `${id_prefix}bronze_blade`
+        },
+        {
             result: { id: 'modern_industrialization:bronze_rotor', count: 1 },
             input: { item: 'modern_industrialization:bronze_blade', count: 4 },
             program: 'laser',
