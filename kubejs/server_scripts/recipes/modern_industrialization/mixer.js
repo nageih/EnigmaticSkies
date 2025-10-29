@@ -300,6 +300,32 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    const aa_materials = [
+        { input: 'create:andesite_alloy_block', output: 'actuallyadditions:enori_crystal', tier: 1 },
+        { input: 'minecraft:terracotta', output: 'actuallyadditions:restonia_crystal', tier: 1 },
+        { input: 'minecraft:slime_block', output: 'actuallyadditions:emeradic_crystal', tier: 1 },
+        { input: 'actuallyadditions:black_quartz_block', output: 'actuallyadditions:void_crystal', tier: 1 },
+        { input: 'minecraft:blue_ice', output: 'actuallyadditions:palis_crystal', tier: 1 },
+        { input: 'minecraft:prismarine_bricks', output: 'actuallyadditions:diamatine_crystal', tier: 2 }
+    ];
+
+    aa_materials.forEach((material) => {
+        recipes.push({
+            item_outputs: [
+                { item: material.output, amount: 6 },
+                { item: material.output, amount: 2, probability: 0.5 }
+            ],
+            item_inputs: [
+                { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
+                { item: material.input, amount: 1 },
+                { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
+            ],
+            duration: material.tier * 5,
+            eu: material.tier,
+            id: `${id_prefix}${getID(material.output)}`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:mixer';
         recipe.duration *= 20;
