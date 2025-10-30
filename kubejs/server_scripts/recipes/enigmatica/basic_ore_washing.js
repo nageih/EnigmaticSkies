@@ -76,7 +76,7 @@ ServerEvents.recipes((event) => {
             recipe.input.amount = recipe.input.count;
             let r = {
                 type: 'modern_industrialization:centrifuge',
-                fluid_inputs: { fluid: 'modern_industrialization:sulfuric_acid', amount: 500 },
+                fluid_inputs: { fluid: 'modern_industrialization:sulfuric_acid', amount: 100 },
                 item_inputs: recipe.input,
                 fluid_outputs: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
                 item_outputs: [],
