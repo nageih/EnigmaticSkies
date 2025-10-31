@@ -19,6 +19,7 @@
             "actuallyadditions:enervator",
             "/actuallyadditions:lava_factory/",
             "/actuallyadditions:.*_battery$/",
+            "/actuallyadditions:.*_crystal_shard/",
 
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
@@ -71,6 +72,13 @@
             "/modern_industrialization:(tin|silver|electrum)_cable/",
             "/extended_industrialization:.*_alloy_smelter/",
             "/extended_industrialization:.*_waste_collector/",
+            "/modern_industrialization:(he|le)_(uranium|mox)_.*/",
+            "/modern_industrialization:.*_double_ingot/",
+            "/modern_industrialization:.*_drill/",
+            "/modern_industrialization:.*_diesel_generator/",
+            "/modern_industrialization:.*_storage_unit/",
+            "/modern_industrialization:.*_quarry/",
+            "/modern_industrialization:.*_battery/",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

@@ -245,7 +245,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}magic_lamp_empty`
         },
         {
-            output: { id: 'occultism:large_steam_turbine', count: 1 },
+            output: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
             ingredient: { item: 'industrialforegoing:machine_frame_advanced', count: 1 },
             extraIngredients: [
                 { item: 'modern_industrialization:stainless_steel_rotor', count: 12 },

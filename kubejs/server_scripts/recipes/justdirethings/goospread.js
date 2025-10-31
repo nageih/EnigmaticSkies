@@ -5,60 +5,60 @@ ServerEvents.recipes((event) => {
         // Tier 1
         {
             output: {
-                Name: 'actuallyadditions:enori_crystal_block',
+                Name: 'actuallyadditions:enori_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'create:andesite_alloy_block' },
             tierRequirement: 1,
-            id: `${id_prefix}enori_crystal_block`
+            id: `${id_prefix}enori_crystal_cluster`
         },
         {
             output: {
-                Name: 'actuallyadditions:restonia_crystal_block',
+                Name: 'actuallyadditions:restonia_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'minecraft:terracotta' },
             tierRequirement: 1,
-            id: `${id_prefix}restonia_crystal_block`
+            id: `${id_prefix}restonia_crystal_cluster`
         },
         {
             output: {
-                Name: 'actuallyadditions:emeradic_crystal_block',
+                Name: 'actuallyadditions:emeradic_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'minecraft:slime_block' },
             tierRequirement: 1,
-            id: `${id_prefix}emeradic_crystal_block`
+            id: `${id_prefix}emeradic_crystal_cluster`
         },
         {
             output: {
-                Name: 'actuallyadditions:void_crystal_block',
+                Name: 'actuallyadditions:void_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'actuallyadditions:black_quartz_block' },
             tierRequirement: 1,
-            id: `${id_prefix}void_crystal_block`
+            id: `${id_prefix}void_crystal_cluster`
         },
         {
             output: {
-                Name: 'actuallyadditions:palis_crystal_block',
+                Name: 'actuallyadditions:palis_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'minecraft:blue_ice' },
             tierRequirement: 1,
-            id: `${id_prefix}palis_crystal_block`
+            id: `${id_prefix}palis_crystal_cluster`
         },
 
         // Tier 2
 
         {
             output: {
-                Name: 'actuallyadditions:diamatine_crystal_block',
+                Name: 'actuallyadditions:diamatine_crystal_cluster',
                 Properties: { facing: 'north' }
             },
             input: { Name: 'minecraft:prismarine_bricks' },
             tierRequirement: 2,
-            id: `${id_prefix}diamatine_crystal_block`
+            id: `${id_prefix}diamatine_crystal_cluster`
         },
         {
             output: {

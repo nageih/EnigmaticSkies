@@ -97,21 +97,24 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:nautilus_shell', amount: 8 },
-                { item: 'aquaculture:fish_bones', amount: 4 }
+                { item: 'minecraft:nautilus_shell', amount: 12 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
             ],
-            fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 1000 }],
+            fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 16000 }],
             duration: 20,
             eu: 2,
             id: `${id_prefix}pelagite_from_manure`
         },
         {
-            item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
-            item_inputs: [
-                { item: 'minecraft:nautilus_shell', amount: 8 },
-                { item: 'aquaculture:fish_bones', amount: 4 }
+            item_outputs: [
+                { item: 'enigmatica:pelagite', amount: 2 },
+                { item: 'enigmatica:pelagite', amount: 1, probability: 0.75 }
             ],
-            fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 1000 }],
+            item_inputs: [
+                { item: 'minecraft:nautilus_shell', amount: 12 },
+                { item: 'aquaculture:fish_bones', amount: 16 }
+            ],
+            fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 16000 }],
             duration: 20,
             eu: 2,
             id: `${id_prefix}pelagite_from_composted_manure`
@@ -297,6 +300,32 @@ ServerEvents.recipes((event) => {
             duration: material.tier * 2,
             eu: material.tier,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
+        });
+    });
+
+    const aa_materials = [
+        { input: 'create:andesite_alloy_block', output: 'actuallyadditions:enori_crystal', tier: 1 },
+        { input: 'minecraft:terracotta', output: 'actuallyadditions:restonia_crystal', tier: 1 },
+        { input: 'minecraft:slime_block', output: 'actuallyadditions:emeradic_crystal', tier: 1 },
+        { input: 'actuallyadditions:black_quartz_block', output: 'actuallyadditions:void_crystal', tier: 1 },
+        { input: 'minecraft:blue_ice', output: 'actuallyadditions:palis_crystal', tier: 1 },
+        { input: 'minecraft:prismarine_bricks', output: 'actuallyadditions:diamatine_crystal', tier: 2 }
+    ];
+
+    aa_materials.forEach((material) => {
+        recipes.push({
+            item_outputs: [
+                { item: material.output, amount: 6 },
+                { item: material.output, amount: 2, probability: 0.5 }
+            ],
+            item_inputs: [
+                { tag: `justdirethings:goo/tier${material.tier}`, amount: 1, probability: 0.0 },
+                { item: material.input, amount: 1 },
+                { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
+            ],
+            duration: material.tier * 5,
+            eu: material.tier,
+            id: `${id_prefix}${getID(material.output)}`
         });
     });
 

@@ -11,5 +11,5 @@ ServerEvents.tags('block', (event) => {
         'farmersdelight:safety_net',
         'minecraft:iron_bars'
     ];
-    event.get('enigmatica:heat_spreads').add(additions);
+    event.get('cold_sweat:hearth/spread_whitelist').add(additions);
 });
