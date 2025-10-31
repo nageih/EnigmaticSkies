@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: [
                 { id: 'actuallyadditions:black_quartz', count: 3, chance: 1 / 2 },
-                { id: 'aquaculture:fish_bones', count: 2, chance: 1 / 4 },
+                { id: 'aquaculture:fish_bones', count: 8, chance: 1 / 4 },
                 { id: 'minecraft:rotten_flesh', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:boggy_dorodango', count: 1 },
@@ -103,7 +103,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [recipe.input],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             eu: 2,
-            duration: 5 * 20
+            duration: 1 * 20
         };
         recipe.outputs.forEach((output) => {
             r.item_outputs.push({

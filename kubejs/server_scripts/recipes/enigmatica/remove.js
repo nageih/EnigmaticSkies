@@ -417,6 +417,7 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:oil_drilling_rig' },
         { type: 'modern_industrialization:distillation_tower' },
         { type: 'modern_industrialization:distillery' },
+        { type: 'modern_industrialization:chemical_reactor' },
         { type: 'modern_industrialization:blast_furnace', output: /(ingot|nugget)/ },
         { type: 'modern_industrialization:blast_furnace', output: '#c:ingots/steel' },
         { type: 'extended_industrialization:alloy_smelter' },

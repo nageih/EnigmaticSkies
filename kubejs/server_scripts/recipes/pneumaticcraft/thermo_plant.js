@@ -206,10 +206,10 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 100 },
                 item: { item: 'enigmatica:pelagite' }
             },
-            air_use_multiplier: 10.0,
+            air_use_multiplier: 100.0,
             temperature: { min: CtoK(1500) },
-            pressure: -0.5,
-            speed: 0.1,
+            pressure: -0.75,
+            speed: 1.0,
             id: `${id_prefix}kerogen`
         },
         {
@@ -218,10 +218,10 @@ ServerEvents.recipes((event) => {
                 fluid: { fluid: 'justdirethings:time_fluid_source', amount: 100 },
                 item: { item: 'enigmatica:kerogen' }
             },
-            air_use_multiplier: 10.0,
+            air_use_multiplier: 100.0,
             temperature: { min: CtoK(1500) },
             pressure: 9.0,
-            speed: 0.1,
+            speed: 2.0,
             id: `${id_prefix}crude_oil`
         },
         {
