@@ -3412,6 +3412,7 @@
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
+	quest.4CAD22296114B3AD.quest_desc: [""]
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
@@ -5073,14 +5074,7 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
-	quest.702AFA5430CF6D73.quest_desc: [
-		"cobblestone conversion in hot biome?"
-		""
-		""
-		"Crush to dust, get lava crystal from that. "
-		""
-		"Extract remaining minerals from lava?"
-	]
+	quest.702AFA5430CF6D73.quest_desc: [""]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.70C8E621A4B76BD6.quest_desc: [
 		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
