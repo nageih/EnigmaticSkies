@@ -150,6 +150,24 @@
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
 			id: "3CC1C6949E17A1B9"
+			rewards: [
+				{
+					id: "0834F4A8E586677A"
+					item: {
+						count: 1
+						id: "pneumaticcraft:pressure_gauge_module"
+					}
+					type: "item"
+				}
+				{
+					id: "0AB98BDA139B1882"
+					item: {
+						count: 1
+						id: "pneumaticcraft:module_expansion_card"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4AE35F4C3CBCF69B"
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
@@ -381,7 +399,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["016B7CA4A7FC58A1"]
@@ -495,7 +513,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.5d
+			y: 2.0d
 		}
 	]
 }

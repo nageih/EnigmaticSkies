@@ -2444,7 +2444,7 @@
 	]
 	quest.3CBA1384BD3D28ED.title: "Wixie Smelting"
 	quest.3CC1C6949E17A1B9.quest_desc: [
-		"Simple and reliable, the Liquid Compressor is suitable for running basic PneumaticCraft machines. "
+		"Simple and reliable, the &7Liquid Compressor&r is suitable for running basic PneumaticCraft machines up to &75 bar&r. "
 		"&n                                                  &r"
 		""
 		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
