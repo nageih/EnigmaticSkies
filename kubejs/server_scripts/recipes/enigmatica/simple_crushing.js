@@ -380,7 +380,7 @@ ServerEvents.recipes((event) => {
             id_suffix: 'crushed_end_stone'
         },
         {
-            input: { item: 'minecraft:basalt' },
+            input: { item: 'minecraft:smooth_basalt' },
             outputs: [{ id: 'createsifter:crushed_basalt', count: 1 }],
             multiply: 'none',
             exclusions: ['create:milling'],

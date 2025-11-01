@@ -134,6 +134,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'minecraft:dandelion' } },
             pressure: 4.0,
             temperature: { min: CtoK(100) },
+            speed: 4.0,
             id: `${id_prefix}latex_from_dandelion`
         },
         {
@@ -141,6 +142,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'minecraft:vine' } },
             pressure: 4.0,
             temperature: { min: CtoK(100) },
+            speed: 2.0,
             id: `${id_prefix}latex_from_vine`
         },
         {

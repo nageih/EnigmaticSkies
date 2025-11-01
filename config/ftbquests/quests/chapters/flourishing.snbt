@@ -425,7 +425,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer)item(starbunclemania:star_miner)item(starbunclemania:star_build))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -688,7 +688,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -706,9 +706,10 @@
 			tasks: [{
 				id: "5830749F0A254E26"
 				item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:animal" } }, count: 1, id: "naturesaura:effect_powder" }
+				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -858,6 +859,32 @@
 			}]
 			x: 4.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6806970967942788"]
+			id: "0DD1FC129B316381"
+			rewards: [{
+				id: "3274F4AA07A90151"
+				item: {
+					count: 1
+					id: "create:pulse_timer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50A98A282C644367"
+					item: { count: 1, id: "create:pulse_repeater" }
+					type: "item"
+				}
+				{
+					id: "6A60507CDB93D49F"
+					item: { count: 1, id: "create:pulse_extender" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 }

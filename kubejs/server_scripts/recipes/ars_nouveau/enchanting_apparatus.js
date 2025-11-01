@@ -537,6 +537,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 10000,
             id: `${id_prefix}clock_hand`
+        },
+        {
+            result: { id: 'ars_nouveau:potion_diffuser', count: 1 },
+            reagent: { item: 'supplementaries:bellows' },
+            pedestalItems: [
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { item: 'naturesaura:infused_stone' },
+                { item: 'naturesaura:infused_stone' },
+                { item: 'naturesaura:infused_stone' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}potion_diffuser`
         }
     ];
 
