@@ -200,6 +200,9 @@
 		}
 		{
 			dependencies: ["59F0519A7ED69E19"]
+			icon: {
+				id: "pneumaticcraft:refinery"
+			}
 			id: "24095EE1A419152D"
 			tasks: [
 				{
