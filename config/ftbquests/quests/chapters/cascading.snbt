@@ -49,6 +49,7 @@
 		{
 			dependencies: ["7893072479F01DC2"]
 			id: "6534548E8A6A318C"
+			shape: "gear"
 			tasks: [{
 				id: "421F228364877B59"
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
@@ -69,26 +70,25 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2D190518ABA42A1F"]
-			id: "5A92EF3C51F82669"
-			tasks: [{
-				id: "0EFDC5A1E361B403"
-				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5A92EF3C51F82669"]
+			dependencies: ["3282293AB6B43287"]
+			icon: {
+				id: "pneumaticcraft:ingot_iron_compressed"
+			}
 			id: "2BB91161DB6B6AF5"
-			tasks: [{
-				id: "75D46BE01172D9AB"
-				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
+			tasks: [
+				{
+					id: "7C1D8FC91C4F26AC"
+					item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+					type: "item"
+				}
+				{
+					id: "070982C11D21C047"
+					item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -109,8 +109,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["016B7CA4A7FC58A1"]
@@ -155,8 +155,8 @@
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -167,7 +167,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C07E148B9B60809"]
@@ -178,13 +178,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"2BB91161DB6B6AF5"
-				"59F0519A7ED69E19"
-			]
+			dependencies: ["59F0519A7ED69E19"]
 			id: "24095EE1A419152D"
 			tasks: [
 				{
@@ -199,7 +196,7 @@
 				}
 			]
 			x: 2.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["24095EE1A419152D"]
@@ -210,7 +207,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -223,7 +220,7 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -311,7 +308,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -339,7 +336,10 @@
 			dependencies: [
 				"4C91792ACCC53A2B"
 				"492FE8CF9B01FCBE"
+				"1476B02AA2977ACB"
+				"6FC31B3806BF222A"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "pneumaticcraft:oil_bucket"
 			}
@@ -357,7 +357,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
@@ -368,26 +368,8 @@
 				item: { count: 1, id: "justdirethings:time_crystal" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["016B7CA4A7FC58A1"]
-			id: "0DD1FC129B316381"
-			tasks: [
-				{
-					id: "50A98A282C644367"
-					item: { count: 1, id: "create:pulse_repeater" }
-					type: "item"
-				}
-				{
-					id: "6A60507CDB93D49F"
-					item: { count: 1, id: "create:pulse_extender" }
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 0.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -398,8 +380,122 @@
 				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["016B7CA4A7FC58A1"]
+			icon: {
+				id: "ars_nouveau:potion_diffuser"
+			}
+			id: "46F17885C957FD5C"
+			rewards: [
+				{
+					id: "18702459C0CC8913"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "20389EFA7D343DE8"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "cold_sweat:ice_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12A643F7B4597C8C"
+					item: { count: 1, id: "ars_nouveau:potion_diffuser" }
+					type: "item"
+				}
+				{
+					id: "64696B7B29B83C9B"
+					item: { count: 1, id: "ars_nouveau:potion_jar" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7893072479F01DC2"]
+			id: "2722D0A13CF02C73"
+			rewards: [{
+				count: 4
+				id: "4B9B13B526E84B0B"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5D77642143DBAAF8"
+				item: { count: 1, id: "starbunclemania:source_condenser" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1476B02AA2977ACB"
+				"6FC31B3806BF222A"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "actuallyadditions:lens_of_the_miner"
+			}
+			id: "36A482587B5E89F7"
+			tasks: [
+				{
+					id: "7646560FCF133693"
+					item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
+					type: "item"
+				}
+				{
+					id: "1E4E5D2B9B36005C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk)item(enigmatica:brilliant_crushed_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_cold_aercloud))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BB91161DB6B6AF5"]
+			id: "6FC31B3806BF222A"
+			rewards: [{
+				id: "072E28B488CCFBE3"
+				item: {
+					count: 1
+					id: "pneumaticcraft:heat_sink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "396F0D469F59671F"
+				item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 }

@@ -96,6 +96,7 @@
 		{
 			dependencies: ["768869D763EC54EB"]
 			id: "55D51F58CA3130AA"
+			shape: "gear"
 			tasks: [{
 				id: "252408AD422FDB0D"
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }

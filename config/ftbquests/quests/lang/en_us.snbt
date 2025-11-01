@@ -573,6 +573,11 @@
 		"   nearby mobs on activation."
 	]
 	quest.0DA6F0172E06CCB1.title: "Just Dire Armor"
+	quest.0DD1FC129B316381.quest_desc: [
+		"These Redstone devices can be exceptionally useful for automating some of the processes in this chapter."
+		""
+		"Get creative and have a look around at other devices that might be useful, such as those from the &7Redstone Pen&r mod or even simple vanilla blocks like the &7Observer&r. "
+	]
 	quest.0DE5D9ADB947B171.quest_desc: [
 		"Animate a Wilden Chimera and defeat it to obtain a Wilden Tribute."
 		""
@@ -1147,7 +1152,7 @@
 		""
 		"For example, hold six powders and place them on the ground. All six will be placed as a single entity and their effect will cover a six-block radius. "
 		""
-		"Right-Click the floating powder with your Mystical Magnifier to visualize the area."
+		"Right-Click the floating powder with your &7Mystical Magnifier&r to visualize the area."
 		""
 		"&a🛈 Tip: Powders may be removed  "
 		"&a    by punching them."
@@ -1245,6 +1250,15 @@
 		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
+	quest.1DB63D0AAD1F0E11.quest_desc: [
+		"Made from &7Crushed Basalt&r, &7Volcanic Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Blazing Quartz&r"
+		"  • &7Carbon Dust&r"
+		"  • &7Cinder Flour&r"
+	]
 	quest.1E0B03155C2CAEE7.quest_desc: [
 		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
 		"&n                                                  "
@@ -1404,6 +1418,14 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
+	quest.21EEF7F2B5A695AB.quest_desc: [
+		"Made from &7Golden Aerclouds&r, &7Sulfurous Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Sulfur Dust&r"
+		"  • &7Crystallized Lava&r"
+	]
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
@@ -1604,6 +1626,7 @@
 		"&a    the bottom."
 	]
 	quest.271AC925824B553E.title: "Industrialist"
+	quest.2722D0A13CF02C73.quest_desc: ["A Source Condenser can be a handy way to convert Source into Liquefied Source!"]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -1803,6 +1826,11 @@
 		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
 		""
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
+	quest.2BB91161DB6B6AF5.quest_desc: [
+		"What, you thought you’d have to detonate some Iron to make Compressed Iron? "
+		""
+		"Just squish it really hard!"
 	]
 	quest.2BE4C2280C195282.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.2BE4C2280C195282.title: "Abra's Conjure"
@@ -2156,6 +2184,11 @@
 		""
 		"Experiment with them to see what you like best!"
 	]
+	quest.36A482587B5E89F7.quest_desc: [
+		"Infused with brilliant light, these blocks are favored by Alakarkinos for their beauty. They’ll produce even more Dorodangos from each block! "
+		""
+		"Well worth the extra energy costs, to be sure. "
+	]
 	quest.37C965C1FA40221E.quest_desc: [
 		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
 		""
@@ -2375,6 +2408,7 @@
 		"&a    your tools running longer!"
 	]
 	quest.3C50D5FE5FA787A9.quest_desc: ["For when you just need a big fracking gun to tell the monster hordes who’s boss. "]
+	quest.3C905ECF6E0A543E.quest_desc: ["Blaze Ember is critical to improved fuel production as well as to the production of Steel. "]
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
@@ -3080,6 +3114,11 @@
 		"&6⚠ Note: The structure will accept "
 		"&6    any Steel Block. "
 	]
+	quest.46F17885C957FD5C.quest_desc: [
+		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your Hearth."
+		""
+		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends or other entities in the area."
+	]
 	quest.471571E3E382B404.quest_desc: [
 		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
 		""
@@ -3235,6 +3274,13 @@
 		"With your dark powers combined, you’ll finally be able to craft a Blood Infuser. "
 		""
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
+	]
+	quest.492FE8CF9B01FCBE.quest_desc: [
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		""
+		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
+		""
+		"And Aura. Lots of Aura."
 	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
@@ -3412,7 +3458,6 @@
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
-	quest.4CAD22296114B3AD.quest_desc: [""]
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
@@ -3875,7 +3920,7 @@
 	quest.57DA648FF73A769A.quest_desc: [
 		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
 		""
-		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a Heat Sink placed opposite will be enough to produce the required differential. "
+		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a &7Heat Sink&r placed opposite will be enough to produce the required differential. "
 		""
 		"Heat sources will degrade over time and will need to be replaced."
 		""
@@ -3935,9 +3980,9 @@
 	quest.59F0519A7ED69E19.quest_desc: [
 		"Oil is normally formed under intense pressure over millions of years."
 		""
-		"We don't have time for that, so let's speed things along a little with the magic of &7Time Fluid&r."
+		"Ain't nobody got time for that."
 		""
-		"Reaching the necessary pressure here may prove difficult. You'll need to use a &7Thermal Compressor&r for these pressures."
+		"Let's speed things along a little with the magic of &7Time Fluid&r."
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
@@ -5063,6 +5108,16 @@
 		"&a    placed on Dense Cables."
 	]
 	quest.6FA4894900E53B31.quest_desc: ["In need of some saplings? Maybe you’d like to get some bees producing honey? Summon forth the Queen Bee in her throne and see what trades she has to offer!"]
+	quest.6FC31B3806BF222A.quest_desc: [
+		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
+		""
+		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a &7Heat Sink&r placed opposite will be enough to produce the required differential. "
+		""
+		"Heat sources will degrade over time and will need to be replaced."
+		""
+		"&a🛈 Tip: Look at Uses for Heat Pipes in"
+		"&a    EMI for a list of heat sources."
+	]
 	quest.70122FCB0A26D96B.quest_desc: [
 		"You may have seen some suspicious looking Deepslate boulders lying around in certain biomes. While they might just seem like an easy way to get some early resources, they hide a treasure trove beneath them."
 		""
@@ -5430,7 +5485,7 @@
 		"  • &7C. Deepslate&r           &2⟶&r           &7Basalt&r"
 		"  • &7Deepslate&r              &2⟶&r           &7Smooth Basalt&r"
 		""
-		"                      &c⚠ Warning: Contents HOT!"
+		"                    &c⚠ Warning: Contents HOT!"
 		"{@pagebreak}"
 		"&6&nExample Spells&r"
 		""
@@ -5753,6 +5808,7 @@
 	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
+	task.1E4E5D2B9B36005C.title: "Brilliant Blocks"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"

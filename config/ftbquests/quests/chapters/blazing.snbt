@@ -47,28 +47,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["702AFA5430CF6D73"]
-			id: "4CAD22296114B3AD"
-			tasks: [{
-				id: "613868E595899CED"
-				item: { count: 1, id: "createsifter:crushed_basalt" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["0ADEE22CBDE86E54"]
-			id: "1CA3F6B68095E927"
-			tasks: [{
-				id: "4B6822F4E297EC71"
-				item: { count: 1, id: "theurgy:crystallized_lava" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["1CF4103BFBCE0E29"]
 			id: "008F3C0FB9F4B451"
 			tasks: [{
@@ -78,28 +56,6 @@
 			}]
 			x: -0.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["78626EE046E48EF3"]
-			id: "0ADEE22CBDE86E54"
-			tasks: [{
-				id: "03C2D144BC19CB8D"
-				item: { count: 1, id: "aether:golden_aercloud" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0ADEE22CBDE86E54"]
-			id: "09599F64E0788B37"
-			tasks: [{
-				id: "38317B628157BD3F"
-				item: { count: 1, id: "modern_industrialization:sulfur_dust" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -113,26 +69,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4CAD22296114B3AD"]
-			id: "4BF9D7B5BB1281B6"
-			tasks: [{
-				id: "5BACB7BA09190E4E"
-				item: { count: 1, id: "malum:blazing_quartz" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			id: "7CF12A36B30AE7D7"
-			tasks: [{
-				id: "2AD2A5C68D517C53"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 5.5d
-		}
-		{
 			dependencies: ["28E44D5D6A6C1D6E"]
 			id: "41F0CA5ACE335062"
 			tasks: [{
@@ -144,17 +80,14 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"05F232C12FA99F92"
-				"3C905ECF6E0A543E"
-			]
+			dependencies: ["05F232C12FA99F92"]
 			id: "05B678EEBCC0CDE6"
 			tasks: [{
 				id: "70D805D44A643F1D"
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -394,7 +327,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["4DE9FAFF137A075F"]
+			dependencies: [
+				"4DE9FAFF137A075F"
+				"3C905ECF6E0A543E"
+			]
 			icon: {
 				id: "modern_industrialization:electric_kiln"
 			}
@@ -411,22 +347,22 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["09599F64E0788B37"]
+			dependencies: ["21EEF7F2B5A695AB"]
 			id: "4DE9FAFF137A075F"
 			tasks: [{
 				id: "46E6D3A918A8044A"
 				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["4BF9D7B5BB1281B6"]
+			dependencies: ["1DB63D0AAD1F0E11"]
 			icon: {
 				id: "justdirethings:coal_t2"
 			}
@@ -444,8 +380,79 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F9A998072170415"]
+			icon: {
+				id: "enigmatica:volcanic_dorodango"
+			}
+			id: "1DB63D0AAD1F0E11"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "504A332D37BB14BB"
+					item: { count: 1, id: "enigmatica:volcanic_dorodango" }
+					type: "item"
+				}
+				{
+					id: "29778022501F91BD"
+					item: { count: 1, id: "malum:blazing_quartz" }
+					type: "item"
+				}
+				{
+					id: "4B577D9CC7036853"
+					item: { count: 1, id: "modern_industrialization:carbon_dust" }
+					type: "item"
+				}
+				{
+					id: "184D676668A92B2D"
+					item: { count: 1, id: "create:cinder_flour" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78626EE046E48EF3"]
+			id: "5F9A998072170415"
+			shape: "gear"
+			tasks: [{
+				id: "1059B5D1349FE37D"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F9A998072170415"]
+			icon: {
+				id: "enigmatica:sulfurous_dorodango"
+			}
+			id: "21EEF7F2B5A695AB"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7E9CC56AAD6E6007"
+					item: { count: 1, id: "enigmatica:sulfurous_dorodango" }
+					type: "item"
+				}
+				{
+					id: "21BFC219B266E5AE"
+					item: { count: 1, id: "modern_industrialization:sulfur_dust" }
+					type: "item"
+				}
+				{
+					id: "0FD4A5644A26C2BA"
+					item: { count: 1, id: "theurgy:crystallized_lava" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
 		}
 	]
 }

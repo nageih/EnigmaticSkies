@@ -119,6 +119,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:first_armor_upgrade' },
         { id: 'ars_nouveau:second_armor_upgrade' },
         { id: 'ars_nouveau:splash_flask_cannon' },
+        { id: 'ars_nouveau:potion_diffuser' },
         { id: /ars_nouveau:manipulation_essence_to_.*_sapling/ },
         { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
