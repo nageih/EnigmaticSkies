@@ -314,18 +314,11 @@
 				id: "enigmatica:pelagite"
 			}
 			id: "136FD7D7C0EECAE3"
-			tasks: [
-				{
-					id: "12B453B6A372FD9A"
-					item: { count: 1, id: "enigmatica:pelagite" }
-					type: "item"
-				}
-				{
-					id: "4BA380BB9A20B5A8"
-					item: { count: 1, id: "modern_industrialization:bronze_mixer" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "12B453B6A372FD9A"
+				item: { count: 1, id: "enigmatica:pelagite" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.5d
 		}
@@ -335,18 +328,11 @@
 				id: "enigmatica:kerogen"
 			}
 			id: "4C91792ACCC53A2B"
-			tasks: [
-				{
-					id: "0E30A4970E169496"
-					item: { count: 1, id: "enigmatica:kerogen" }
-					type: "item"
-				}
-				{
-					id: "0B73F5B8626EB106"
-					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E30A4970E169496"
+				item: { count: 1, id: "enigmatica:kerogen" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.5d
 		}

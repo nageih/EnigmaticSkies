@@ -429,6 +429,11 @@
 		"&a    comes from!"
 	]
 	quest.0BFD22A98E0F4ACF.title: "Xovrenth Adjure"
+	quest.0C0A7017CEF34F6C.quest_desc: [
+		"You’d think just dumping this stuff on the ground would get it plenty cold. "
+		""
+		"Unfortunately, we’ll need a slightly more controlled environment to ensure the quality of the &7Plastic&r."
+	]
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
@@ -769,6 +774,11 @@
 		""
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
+	]
+	quest.136FD7D7C0EECAE3.quest_desc: [
+		"The first step to making our own Oil is, of course, lots of organic material. "
+		""
+		"You should have plenty of raw materials for this from your various animal farms and dorodangos. "
 	]
 	quest.1386A595D84FE6FC.quest_desc: [
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
@@ -1543,6 +1553,14 @@
 		"&a    the structure or valid places "
 		"&a    for hatches."
 	]
+	quest.24095EE1A419152D.quest_desc: [
+		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
+		""
+		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
+		""
+		"&a🛈 Tip: Look at Uses for Heat Pipes in"
+		"&a    EMI for a list of heat sources."
+	]
 	quest.247C63F94533E40D.title: "Djinni Crusher"
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
@@ -1844,7 +1862,7 @@
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
 	]
 	quest.2BB91161DB6B6AF5.quest_desc: [
-		"What, you thought you’d have to detonate some Iron to make Compressed Iron? "
+		"What, you thought you’d have to blow up a bunch of &7Iron&r to make yourself some &7Compressed Iron&r? "
 		""
 		"Just squish it really hard!"
 	]
@@ -1853,7 +1871,7 @@
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
 	quest.2BF4F678812848FC.title: "Fermentation"
 	quest.2C07E148B9B60809.quest_desc: [
-		"The Thermopneumatic Processing Plant, or TPP, uses a combination of heat and pressure to process materials. "
+		"The &7Thermopneumatic Processing Plant&r, or &7TPP&r, uses a combination of heat and pressure to process materials. "
 		""
 		"When placed side-by-side, they will share pressure, so keep this in mind if you need different requirements for different recipes. "
 		""
@@ -3531,6 +3549,7 @@
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
+	quest.4C91792ACCC53A2B.quest_desc: ["By applying high heat in a low-oxygen environment, we can convert Pelagite into Kerogen. "]
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
