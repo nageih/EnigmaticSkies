@@ -20,23 +20,6 @@ ServerEvents.recipes((event) => {
             eu: 2,
             id: `${id_prefix}polymorphic_fluid_source`
         },
-
-        {
-            fluid_outputs: [{ fluid: 'modern_industrialization:sugar_solution', amount: 1000 }],
-            item_inputs: [{ tag: 'c:sugars', amount: 1 }],
-            fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
-            duration: 10,
-            eu: 2,
-            id: `modern_industrialization:oil/mixer/sugar_solution`
-        },
-        {
-            fluid_outputs: [{ fluid: 'modern_industrialization:lubricant', amount: 1000 }],
-            item_inputs: [{ tag: 'c:dusts/redstone', amount: 1 }],
-            fluid_inputs: [{ fluid: 'modern_industrialization:plant_oil', amount: 1000 }],
-            duration: 10,
-            eu: 2,
-            id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil`
-        },
         {
             fluid_outputs: [{ fluid: 'actuallyadditions:crystallized_oil', amount: 1000 }],
             item_inputs: [{ item: 'actuallyadditions:crystallized_canola_seed', amount: 1 }],

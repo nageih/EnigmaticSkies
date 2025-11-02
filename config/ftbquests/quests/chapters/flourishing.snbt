@@ -117,6 +117,14 @@
 		{
 			dependencies: ["3BCD9E36D48B205A"]
 			id: "4F2E18DABA17E0AC"
+			rewards: [{
+				id: "749D44B09FDCD01F"
+				item: {
+					count: 1
+					id: "minecraft:redstone_torch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E26DAA418B8367F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
@@ -463,6 +471,14 @@
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
 			id: "625AE1AEF37DAE03"
+			rewards: [{
+				id: "43DDE1A427652141"
+				item: {
+					count: 1
+					id: "ars_nouveau:agronomic_sourcelink"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DE69291B7DEAE0C"
 				item: { count: 1, id: "actuallyadditions:farmer" }
@@ -511,21 +527,25 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "750E82A1ACB1DED1"
 					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
+					count: 24L
 					id: "27D30ACAFD32C120"
 					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "26971F8428A8F97F"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "71A479E92219AB03"
 					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"

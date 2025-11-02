@@ -503,6 +503,7 @@ ServerEvents.recipes((event) => {
         { id: `modern_industrialization:vanilla_recipes/mixer/netherite` },
         { id: 'modern_industrialization:vanilla_recipes/mixer/paper' },
         { id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil` },
+        { id: `modern_industrialization:oil/mixer/sugar_solution` },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/item_pipe_direct/ },
         { id: /modern_industrialization:steam_age\/(fluid|item)_pipe_asbl/ },

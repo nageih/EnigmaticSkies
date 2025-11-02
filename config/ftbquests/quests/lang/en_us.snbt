@@ -1868,7 +1868,12 @@
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
 	]
-	quest.2C3B39CD6A7E044C.quest_desc: [""]
+	quest.2C3B39CD6A7E044C.quest_desc: [
+		"Bronze tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
+		""
+		"Your &7Dilapidated Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
+	]
+	quest.2C3B39CD6A7E044C.quest_subtitle: "Techonalogia!"
 	quest.2C7267F92822D2C1.quest_desc: [
 		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
 		""
@@ -1902,6 +1907,7 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
+	quest.2D190518ABA42A1F.quest_desc: ["Highly corrosion resistant, Silicon Bronze will be a suitable material to get into more complex machinery."]
 	quest.2D190518ABA42A1F.title: "Bronze"
 	quest.2D4B890D1BE63327.quest_desc: [
 		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
@@ -2419,7 +2425,7 @@
 		"&a    with TNT in an Anvil!"
 	]
 	quest.3BCD9E36D48B205A.quest_desc: [
-		"Piece together an LV Steam Turbine to begin producing some electric power. You’ll need this to power most Tech machines."
+		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."
 		""
 		"Be sure to grab some LV Cables from your Villagers too!"
 		""
@@ -2457,7 +2463,11 @@
 		"&a    your tools running longer!"
 	]
 	quest.3C50D5FE5FA787A9.quest_desc: ["For when you just need a big fracking gun to tell the monster hordes who’s boss. "]
-	quest.3C905ECF6E0A543E.quest_desc: ["Blaze Ember is critical to improved fuel production as well as to the production of Steel. "]
+	quest.3C905ECF6E0A543E.quest_desc: [
+		"Burning with the heat of the hells themselves, Blaze Ember may be processed into a potent fuel to ramp up your power production."
+		""
+		"The Fuel is also vital to the production of Steel, which will open numerous doors for you."
+	]
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
@@ -3650,6 +3660,15 @@
 		""
 		"Set up some Lasers nearby and use the Target Designator to link them to the Forge. "
 	]
+	quest.4F2E18DABA17E0AC.quest_desc: [
+		"The Atomic Reconstructor is a powerful device used to transmute certain materials such as Mud to Moss or Calcite to Amethyst."
+		""
+		"It can be incredibly power hungry!"
+		""
+		"&a🛈 Tip: Right-Click this machine with a "
+		"&a    Redstone Torch to set it to "
+		"&a    Pulse mode."
+	]
 	quest.4F480CF26AB0F3CD.quest_desc: [
 		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
 		""
@@ -4196,6 +4215,11 @@
 		""
 		"The bottle may then be thrown to release that weather wherever you like, changing it instantly. "
 	]
+	quest.5F9A998072170415.quest_desc: [
+		"Alakarkinos is eager and ready to assist! "
+		""
+		"New Dorodangos await you with the materials available on this island. "
+	]
 	quest.5FBC1038ACB861CE.quest_desc: [
 		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
 		""
@@ -4209,6 +4233,11 @@
 		"Beyond this, however, they offer both push and pull functionality, where an Extraction Module can be used to pull items from an adjacent inventory and disperse them throughout the network, or a Retrieval Module may be used to pull items from any inventory on the network and push into the adjacent inventory. "
 		""
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
+	]
+	quest.5FE4FD410171ABFD.quest_desc: [
+		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
+		""
+		"Each one produces four times the power as compared to your current boilers"
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
@@ -4369,6 +4398,15 @@
 		"Unlike a normal Enchanting Apparatus, the Arcane Pedestals are only used to specify a recipe. She does not need them for ingredients."
 	]
 	quest.6242CD0203DCBDC7.title: "Wixie Enchanting Apparatus"
+	quest.625AE1AEF37DAE03.quest_desc: [
+		"One of several options for automated farming. It has its quirks, but it’ll do for now. "
+		""
+		"Remember to set up an Agronomic Sourcelink nearby to capture some extra Source from your crop farms!"
+		""
+		"&a🛈 Tip: Right-Click this machine with a "
+		"&a    Compass to adjust the working "
+		"&a    area."
+	]
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
 		"&n                                                 &r"
@@ -4597,6 +4635,11 @@
 		"The bottle may then be thrown to release that biome wherever you like, changing it permanently. "
 	]
 	quest.64E6D41378108B92.quest_desc: ["More than just a quick morning pick-me-up, this coffee offers the added benefits of some limited potion effects!"]
+	quest.6534548E8A6A318C.quest_desc: [
+		"Alakarkinos is eager and ready to assist! "
+		""
+		"New Dorodangos await you with the materials available on this island. "
+	]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""
@@ -5193,7 +5236,6 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
-	quest.702AFA5430CF6D73.quest_desc: [""]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.70C8E621A4B76BD6.quest_desc: [
 		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
