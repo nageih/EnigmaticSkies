@@ -854,6 +854,7 @@
 		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover "
 		"&a    valid blocks for an Electrostatic Grid."
 	]
+	quest.1476B02AA2977ACB.quest_subtitle: "Shocking Efficiency"
 	quest.149BC66585EA0C34.quest_desc: [
 		"Each Bookwyrm attached to the &7Primary Lectern&r allows you to link eight inventories. That goes quick if you’re binding directly to chests and the like. "
 		""
@@ -998,6 +999,12 @@
 		"Be sure to grab them when you see them!"
 	]
 	quest.171EDB77B3A3FF05.title: "Farmer"
+	quest.17553CF42EDC67A6.quest_desc: [
+		"Channeling more powerful magics requires a more specialized focus. "
+		""
+		"Upgrade your spell book with the materials you’ve discovered on this island and discover a whole new world of possibilities. "
+	]
+	quest.17553CF42EDC67A6.title: "Tier 2 Spells"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -1057,6 +1064,15 @@
 		"Alternatively, Right-Click a &7Tainted Rock&r with an &7Abjuration Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.18A17E8080792318.title: "Biome Conversion"
+	quest.18D575594C6F74A7.quest_desc: [
+		"Made from &7Sand&r, &7Silty Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Prismarine Shards&r"
+		"  • &7Prismarine Crystals&r"
+		"  • &7Nautilus Shells&r"
+	]
 	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
 	quest.195BD5456B6E674D.quest_desc: [
 		"Iron’s Spellbooks adds several structures to the world which will undoubtedly prove very useful."
@@ -1836,6 +1852,13 @@
 	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
 	quest.2BF4F678812848FC.title: "Fermentation"
+	quest.2C07E148B9B60809.quest_desc: [
+		"The Thermopneumatic Processing Plant, or TPP, uses a combination of heat and pressure to process materials. "
+		""
+		"When placed side-by-side, they will share pressure, so keep this in mind if you need different requirements for different recipes. "
+		""
+		"Similarly, they’ll share heat in any direction, making it simple to heat an entire line of them for multiple recipes. "
+	]
 	quest.2C1538BE243F0CB4.quest_desc: [
 		"So you’ve found a trait you’d like to have for yourself? You’ll need to infuse it into a Plasmid. "
 		""
@@ -2070,6 +2093,14 @@
 		"&a    discover more."
 	]
 	quest.3263757C9A240C70.title: "Chipped"
+	quest.3282293AB6B43287.quest_desc: [
+		"Slow but steady, this Compressor will get you started making &7Compressed Iron&r and &7Diamonds&r. "
+		""
+		"It's also a great way to make plates going forward."
+		""
+		"&a🛈 Tip: Remember to lock the slots to "
+		"&a    control what recipe is processed!"
+	]
 	quest.33679351A7B6D8E6.quest_desc: [
 		"Being able to place and pick up blocks automatically will help with getting some early tasks automated. "
 		""
@@ -2189,6 +2220,15 @@
 		""
 		"Well worth the extra energy costs, to be sure. "
 	]
+	quest.3753A3EB1909F923.quest_desc: [
+		"Made from &7Salt&r, &7Briny Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Lapis Lazuli&r"
+		"  • &7Certus Quartz Crystals&r"
+		"  • &7Neptunium Nuggets&r"
+	]
 	quest.37C965C1FA40221E.quest_desc: [
 		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
 		""
@@ -2244,6 +2284,15 @@
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
+	]
+	quest.38E929DADF66C1F3.quest_desc: [
+		"Made from &7Mud&r, &7Boggy Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Black Quartz&r"
+		"  • &7Fish Bones&r"
+		"  • &7Rotten Flesh&r"
 	]
 	quest.391AE516AF1C26D6.quest_desc: [
 		"Obtaining Soulwood will involve performing an Undirected Rite. "
@@ -2349,9 +2398,9 @@
 		"&a    hatches."
 	]
 	quest.3B609B8A4DE93B53.quest_desc: [
-		"It’s time to retire that mesh and upgrade to a more automated means of obtaining Water."
+		"Why don't you retire that mesh and upgrade to a more automated means of obtaining Water?"
 		""
-		"Build a Melon farm and set your Alakarkinos to work making &7Melon Balls&r!"
+		"Build a &7Melon&r farm and set your Alakarkinos to work making &7Melon Balls&r!"
 	]
 	quest.3B77FB0A8CFAAB97.quest_desc: [
 		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."
@@ -2451,6 +2500,7 @@
 		""
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
+	quest.3CC1C6949E17A1B9.quest_subtitle: "Basic Pressure"
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
 		""
@@ -2551,6 +2601,15 @@
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
+	]
+	quest.3D6441ECF951BAD4.quest_desc: [
+		"This incredibly cold fluid holds some mystical capabilities that may be used to augment certain Industrial Foregoing machines."
+		""
+		"  • Auto-harvesting in &7Hydroponic Beds&r"
+		"  • Gentle-harvesting in the &7Plant Gatherer&r"
+		"  • Better rates in the &7Fermentation Station&r"
+		""
+		"It's also a vital component for more advanced machinery!"
 	]
 	quest.3D76C219EB7EEC03.quest_desc: [
 		"A simple device for placing blocks in an area. It will pull from a chest above it and place whatever it finds there atop the specified block. "
@@ -3150,7 +3209,11 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
-	quest.47AFEF3DCB2990FB.quest_desc: ["Operating the &7Large Steam Boiler&r will need some liquid fuel. These are listed in EMI, but to get started you’ll need some &7Refined Canola Oil&r. "]
+	quest.47AFEF3DCB2990FB.quest_desc: [
+		"Operating the &7Large Steam Boiler&r will need some liquid fuel. "
+		""
+		"All available fuels are listed in EMI, just search the uses for the &7Boiler&r. To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
+	]
 	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
@@ -5118,6 +5181,7 @@
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
 	]
+	quest.6FC31B3806BF222A.quest_subtitle: "Raising the Bar"
 	quest.70122FCB0A26D96B.quest_desc: [
 		"You may have seen some suspicious looking Deepslate boulders lying around in certain biomes. While they might just seem like an easy way to get some early resources, they hide a treasure trove beneath them."
 		""
@@ -5467,9 +5531,12 @@
 		"&a    and smelt it for a better yield!"
 	]
 	quest.77FA6854AC88C138.quest_desc: [
-		"It's time to get a little more out of those clouds. "
+		"Made from &7Cold Aerclouds&r, &7Cloudy Dorodangos&r may be processed down into new materials!"
 		""
-		"Process some &7Cloudy Dorodangos&r to obtain &7Sky Stone Dust&r and &7Sal Ammoniac Crystals&r."
+		"  &n&6Materials&r"
+		""
+		"  • &7Sky Stone Dust&r"
+		"  • &7Sal Ammoniac Crystals&r"
 	]
 	quest.78626EE046E48EF3.quest_desc: [
 		"                       &6&nBiome: Archwood Forest&r&r"
@@ -5565,6 +5632,14 @@
 		"As a first recipe, make some &7Rice&r by transmuting a &7Straw Bale&r, then plant the rice in water to get it growing. "
 		""
 		"From that, you'll be able to create a &7Magebloom Seed&r."
+	]
+	quest.794A9B29DAADD021.quest_desc: [
+		"A Centrifuge is a great way to get more out of those hard-earned ores of yours. "
+		""
+		"Make a couple, you're going to need them!"
+		""
+		"&a🛈 Tip: Remember to lock the slots to "
+		"&a    control what recipe is processed!"
 	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "
@@ -5849,6 +5924,7 @@
 	task.3529B56D2654D2C2.title: "A Note for Playtesters"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"
+	task.360DFCFD6400CADB.title: "Latex Materials"
 	task.36D658D637E5D847.title: "Storage Systems"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"

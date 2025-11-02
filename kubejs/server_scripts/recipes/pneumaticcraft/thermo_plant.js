@@ -132,16 +132,14 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
             inputs: { item: { item: 'minecraft:dandelion' } },
-            pressure: 4.0,
-            temperature: { min: CtoK(100) },
+            pressure: 2.0,
             speed: 4.0,
             id: `${id_prefix}latex_from_dandelion`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
             inputs: { item: { item: 'minecraft:vine' } },
-            pressure: 4.0,
-            temperature: { min: CtoK(100) },
+            pressure: 2.0,
             speed: 2.0,
             id: `${id_prefix}latex_from_vine`
         },

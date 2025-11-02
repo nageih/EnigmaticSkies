@@ -54,9 +54,9 @@
 
 	[MachineAgricultureHusbandryConfig.PlantFertilizerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 50
+		maxProgress = 100
 		#Amount of Power Consumer per Operation - Default: [400FE]
-		powerPerOperation = 1000
+		powerPerOperation = 400
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
