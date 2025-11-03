@@ -584,11 +584,18 @@
 			dependencies: ["136AD444BD07EFCF"]
 			id: "603631404C9758EB"
 			shape: "diamond"
-			tasks: [{
-				id: "252404641962A0A3"
-				item: { count: 1, id: "industrialforegoing:sludge_refiner" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "252404641962A0A3"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "400A6759534EF6D4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 7.5d
 		}

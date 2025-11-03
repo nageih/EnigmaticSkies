@@ -437,15 +437,5 @@
 			x: -1.0d
 			y: -0.5d
 		}
-		{
-			id: "305A56BDCBE2D2AE"
-			tasks: [{
-				id: "2470E5D07B64D473"
-				item: { count: 1, id: "mi_tweaks:settling_tank" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
 	]
 }

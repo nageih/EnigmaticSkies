@@ -511,5 +511,36 @@
 			x: 4.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["2BB91161DB6B6AF5"]
+			id: "305A56BDCBE2D2AE"
+			rewards: [
+				{
+					count: 16
+					id: "29D63F14064AE48F"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3B0FC45779632494"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2470E5D07B64D473"
+				item: { count: 1, id: "mi_tweaks:settling_tank" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
 	]
 }
