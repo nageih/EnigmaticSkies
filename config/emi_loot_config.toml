@@ -1,11 +1,11 @@
 # Don't change this! Version used to track needed updates.
 version = 1
 debugMode = false
-parseChestLoot = true
-parseBlockLoot = true
+parseChestLoot = false
+parseBlockLoot = false
 parseMobLoot = true
-parseGameplayLoot = true
-parseArchaeologyLoot = true
+parseGameplayLoot = false
+parseArchaeologyLoot = false
 skippedKeys = [
     "emi_loot.function.set_count_add",
     "emi_loot.function.limit_count",

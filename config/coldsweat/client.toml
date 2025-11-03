@@ -37,6 +37,12 @@
 	# Can be one of "drink", "pour", or "none"
 	# ⌄ 
 	"Waterskin Secondary Action" = "drink"
+	#─────────────────────────────────────────────────────────────────────────
+	# The opacity of the water droplets on-screen
+	# ⌄ 
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	"Water Droplet Opacity" = 0.5
 
 [Accessibility]
 	#─────────────────────────────────────────────────────────────────────────
