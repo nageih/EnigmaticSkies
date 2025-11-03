@@ -624,6 +624,12 @@
 		""
 		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
 	]
+	quest.0F63D034A018A4FC.quest_desc: ["Placing a &7Sewer&r beneath your animals will allow you to collect &7Sewage&r which can be used to obtain more &7Water&r and eventually converted into &7Oil&r!"]
+	quest.0F8914EDAA7CD984.quest_desc: [
+		"A simple device, but quite useful. It can be set either to move baby animals from one side to the other, or adults. "
+		""
+		"It can be a handy way, therefore, to pull a few adults out of a breeding population for slaughter. "
+	]
 	quest.0F97525097FA4573.quest_desc: [
 		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
 		""

@@ -79,6 +79,8 @@
             "/modern_industrialization:(lv|mv|hv|ev|superconductor)_storage_unit/",
             "/modern_industrialization:.*_quarry/",
             "/modern_industrialization:.*_battery/",
+            "/modern_industrialization:.*tungsten/",
+            "/modern_industrialization:.*_ore$/",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

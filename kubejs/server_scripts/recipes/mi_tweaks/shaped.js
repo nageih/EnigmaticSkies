@@ -4,11 +4,12 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'mi_tweaks:settling_tank',
-            pattern: ['ABA', 'ACA', 'ABA'],
+            pattern: ['ABA', 'ACA', 'ADA'],
             key: {
                 A: 'minecraft:bricks',
-                B: 'modern_industrialization:steel_tank',
-                C: 'minecraft:iron_trapdoor'
+                B: 'pneumaticcraft:small_tank',
+                C: 'minecraft:iron_trapdoor',
+                D: 'minecraft:barrel'
             },
             id: `${id_prefix}settling_tank`
         }
