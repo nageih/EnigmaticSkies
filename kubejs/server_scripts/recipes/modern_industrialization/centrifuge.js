@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
                 { fluid: 'enigmatica:wastewater', amount: 1000 }
             ],
             fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 8000 },
-            eu: 4,
+            eu: 2,
             duration: 5,
             id: `${id_prefix}manure`
         },

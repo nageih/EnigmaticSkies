@@ -102,7 +102,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'minecraft:vine' },
-            input: { tag: 'farmersdelight:ropes' },
+            input: { tag: 'c:ropes' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura: 150000,
             time: 30,

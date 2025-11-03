@@ -585,8 +585,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -633,15 +633,15 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["53B43826C4CF310F"]
+			dependencies: ["1CF4103BFBCE0E29"]
 			id: "5550423B6E6BDBAF"
 			tasks: [{
 				id: "74779A7784CF18C2"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			id: "53B43826C4CF310F"

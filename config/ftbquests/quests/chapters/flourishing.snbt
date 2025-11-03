@@ -54,7 +54,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -111,19 +111,27 @@
 				item: { count: 1, id: "create:electron_tube" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
 			id: "4F2E18DABA17E0AC"
+			rewards: [{
+				id: "749D44B09FDCD01F"
+				item: {
+					count: 1
+					id: "minecraft:redstone_torch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E26DAA418B8367F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47AFEF3DCB2990FB"]
@@ -133,8 +141,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["62ABC26128284A71"]
@@ -145,7 +153,7 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -188,7 +196,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -199,7 +207,7 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -220,7 +228,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -246,7 +254,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -267,7 +275,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -282,7 +290,7 @@
 				item: { count: 1, id: "create:sand_paper" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -293,8 +301,8 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -307,7 +315,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -463,13 +471,31 @@
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
 			id: "625AE1AEF37DAE03"
+			rewards: [
+				{
+					id: "43DDE1A427652141"
+					item: {
+						count: 1
+						id: "ars_nouveau:agronomic_sourcelink"
+					}
+					type: "item"
+				}
+				{
+					id: "1E4C29DA575B50F6"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4DE69291B7DEAE0C"
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -511,21 +537,25 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "750E82A1ACB1DED1"
 					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
+					count: 24L
 					id: "27D30ACAFD32C120"
 					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "26971F8428A8F97F"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "71A479E92219AB03"
 					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -537,7 +567,7 @@
 				}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -557,18 +587,28 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 4.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
 			id: "603631404C9758EB"
 			shape: "diamond"
-			tasks: [{
-				id: "252404641962A0A3"
-				item: { count: 1, id: "industrialforegoing:sludge_refiner" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "252404641962A0A3"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "400A6759534EF6D4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 7.5d
 		}
@@ -581,27 +621,28 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["392794D00E321C02"]
-			id: "5A424449B81D8238"
-			shape: "diamond"
-			tasks: [{
-				id: "79F7656AA548BE48"
-				item: { count: 1, id: "industrialforegoing:animal_feeder" }
-				type: "item"
-			}]
-			x: 0.5d
+			x: 2.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["392794D00E321C02"]
+			dependencies: ["410225ED927857D4"]
 			icon: {
-				id: "industrialforegoing:sewage_bucket"
+				id: "industrialforegoing:sewer"
 			}
 			id: "0F63D034A018A4FC"
+			rewards: [{
+				id: "0A39904DEEDCA700"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_3"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -610,31 +651,24 @@
 					type: "item"
 				}
 				{
-					id: "4B04A2C67DA900A3"
-					item: { count: 1, id: "industrialforegoing:sewage_composter" }
+					id: "48622C0BF719AD3C"
+					item: { count: 1, id: "industrialforegoing:sewage_bucket" }
+					optional_task: true
 					type: "item"
 				}
 			]
 			x: 1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["392794D00E321C02"]
-			id: "0F8914EDAA7CD984"
-			shape: "diamond"
-			tasks: [{
-				id: "4B45137167DCF135"
-				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
-				type: "item"
-			}]
-			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
 			hide_dependency_lines: true
+			icon: {
+				id: "industrialforegoing:plant_gatherer"
+			}
 			id: "136AD444BD07EFCF"
 			rewards: [{
+				count: 2
 				id: "223900AE466245AE"
 				item: {
 					components: {
@@ -647,36 +681,19 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "4006D332A5602C64"
-				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4006D332A5602C64"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+				{
+					id: "6153A308F5E06A0B"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+			]
 			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["136AD444BD07EFCF"]
-			id: "61470C93661BF91B"
-			shape: "diamond"
-			tasks: [{
-				id: "06F6723537F0F946"
-				item: { count: 1, id: "industrialforegoing:plant_sower" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5E727F7B600E0E91"]
-			hide_dependency_lines: true
-			id: "392794D00E321C02"
-			tasks: [{
-				id: "63944193AE14EA5D"
-				item: { count: 1, id: "industrialforegoing:animal_rancher" }
-				type: "item"
-			}]
-			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -731,7 +748,7 @@
 				item: { count: 1, id: "actuallyadditions:coffee_cup" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -763,8 +780,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -774,7 +791,7 @@
 				item: { count: 1, id: "enigmatica:ruby" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -788,13 +805,14 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "65D163051F91779C"
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -840,25 +858,32 @@
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
-			id: "34E239F217AD5C58"
-			tasks: [{
-				id: "4A04A4055DD56EC9"
-				item: { count: 1, id: "minecraft:diamond" }
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "17553CF42EDC67A6"
+			rewards: [{
+				id: "7DE089CA75BC4E7A"
+				item: {
+					count: 1
+					id: "ars_additions:lost_codex_entry"
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "3D866F25445DB9D1"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "0FB4937EEDA2BE05"
+					item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["34E239F217AD5C58"]
-			id: "17553CF42EDC67A6"
-			tasks: [{
-				id: "3D866F25445DB9D1"
-				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -871,6 +896,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "50A98A282C644367"
@@ -883,8 +909,133 @@
 					type: "item"
 				}
 			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			icon: {
+				id: "industrialforegoing:latex_bucket"
+			}
+			id: "3DD21FD2F10FE43D"
+			tasks: [
+				{
+					id: "360DFCFD6400CADB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:vine)item(minecraft:dandelion))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "74BF4B1F8192C49C"
+					item: { count: 1, id: "industrialforegoing:latex_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.5d
-			y: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			id: "1FDA97FE562A2C4D"
+			rewards: [
+				{
+					id: "207BAF520E8E0C23"
+					item: {
+						components: {
+							"titanium:augments": {
+								Speed: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:speed_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "43C7934B276B99D7"
+					item: {
+						components: {
+							"titanium:augments": {
+								Efficiency: 0.8f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:efficiency_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "0FDFCA8809108475"
+					item: {
+						components: {
+							"titanium:augments": {
+								Processing: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:processing_addon_tier_2"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "40BF2920569F9751"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:speed_addon_tier_1)item(industrialforegoing:speed_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "62742836108A45A3"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:efficiency_addon_tier_1)item(industrialforegoing:efficiency_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5887027FAE29F371"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:processing_addon_tier_1)item(industrialforegoing:processing_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			hide_dependency_lines: true
+			id: "410225ED927857D4"
+			rewards: [{
+				count: 3
+				id: "2D97EA4CC60D74C9"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_3"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70F2249949E43952"
+					item: { count: 1, id: "industrialforegoing:animal_feeder" }
+					type: "item"
+				}
+				{
+					id: "7131B205FCA95000"
+					item: { count: 1, id: "industrialforegoing:animal_rancher" }
+					type: "item"
+				}
+				{
+					id: "2869EF7F4B79AB32"
+					item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
 		}
 	]
 }

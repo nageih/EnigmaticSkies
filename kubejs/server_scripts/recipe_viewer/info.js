@@ -215,6 +215,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 `● Dark Prismarine - Rain`,
                 `● Fire Charge - Storm`
             ]
+        },
+        {
+            filter: ['ae2:logic_processor', 'ae2:calculation_processor', 'ae2:engineering_processor'],
+            text: [`Crafted using a Replicator.`, ` `, `Purchase a Blueprint from a Fluix Researcher.`]
         }
     ];
 
