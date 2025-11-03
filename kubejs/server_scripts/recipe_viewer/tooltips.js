@@ -255,9 +255,9 @@ ItemEvents.modifyTooltips((event) => {
             items: [
                 'ars_nouveau:wixie_cauldron',
                 'ars_nouveau:wixie_charm',
-                'mekanism:crafting_formula',
-                'mekanism:formulaic_assemblicator',
-                'naturesaura:auto_crafter'
+                'enderio:crafter',
+                'ae2:molecular_assembler',
+                'minecraft:crafter'
             ],
             text: [Text.of(`Auto-crafter`).green()]
         },
@@ -288,6 +288,10 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['minecraft:pink_petals'],
             text: [Text.of(`Found on Flashing Islands`).gold()]
+        },
+        {
+            items: ['malum:void_depot'],
+            text: [Text.of(`The Weeping Well is located on the Vexing Island`).gold()]
         }
     ];
 

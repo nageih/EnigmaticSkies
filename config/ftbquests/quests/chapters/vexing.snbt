@@ -658,17 +658,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["6AA9F3E0D4BC181A"]
-			id: "0616A82E695A5511"
-			tasks: [{
-				id: "5EB744EFE95C60A5"
-				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:empowered_void_crystal_block)item(actuallyadditions:empowered_emeradic_crystal_block)item(actuallyadditions:empowered_diamatine_crystal_block)item(actuallyadditions:empowered_enori_crystal_block)item(actuallyadditions:empowered_restonia_crystal_block)item(actuallyadditions:empowered_palis_crystal_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["45E411460C53A082"]
 			id: "13C820C293A11CF5"
 			tasks: [{

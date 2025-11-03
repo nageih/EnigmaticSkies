@@ -471,14 +471,24 @@
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
 			id: "625AE1AEF37DAE03"
-			rewards: [{
-				id: "43DDE1A427652141"
-				item: {
-					count: 1
-					id: "ars_nouveau:agronomic_sourcelink"
+			rewards: [
+				{
+					id: "43DDE1A427652141"
+					item: {
+						count: 1
+						id: "ars_nouveau:agronomic_sourcelink"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1E4C29DA575B50F6"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4DE69291B7DEAE0C"
 				item: { count: 1, id: "actuallyadditions:farmer" }
@@ -582,6 +592,9 @@
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
 			id: "603631404C9758EB"
 			shape: "diamond"
 			tasks: [
@@ -608,38 +621,13 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["392794D00E321C02"]
-			id: "5A424449B81D8238"
-			rewards: [{
-				id: "5F84432092C6176D"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
-						}
-					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "79F7656AA548BE48"
-				item: { count: 1, id: "industrialforegoing:animal_feeder" }
-				type: "item"
-			}]
-			x: 0.5d
+			x: 2.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["392794D00E321C02"]
+			dependencies: ["410225ED927857D4"]
 			icon: {
-				id: "industrialforegoing:sewage_bucket"
+				id: "industrialforegoing:sewer"
 			}
 			id: "0F63D034A018A4FC"
 			rewards: [{
@@ -670,38 +658,17 @@
 				}
 			]
 			x: 1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["392794D00E321C02"]
-			id: "0F8914EDAA7CD984"
-			rewards: [{
-				id: "132DC653C5A99DA1"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
-						}
-					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "4B45137167DCF135"
-				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
-				type: "item"
-			}]
-			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
 			hide_dependency_lines: true
+			icon: {
+				id: "industrialforegoing:plant_gatherer"
+			}
 			id: "136AD444BD07EFCF"
 			rewards: [{
+				count: 2
 				id: "223900AE466245AE"
 				item: {
 					components: {
@@ -714,62 +681,19 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "4006D332A5602C64"
-				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4006D332A5602C64"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+				{
+					id: "6153A308F5E06A0B"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+			]
 			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["136AD444BD07EFCF"]
-			id: "61470C93661BF91B"
-			rewards: [{
-				id: "22D8792BC1A78FF8"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
-						}
-					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "06F6723537F0F946"
-				item: { count: 1, id: "industrialforegoing:plant_sower" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5E727F7B600E0E91"]
-			hide_dependency_lines: true
-			id: "392794D00E321C02"
-			rewards: [{
-				id: "477499544D6D3342"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
-						}
-					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "63944193AE14EA5D"
-				item: { count: 1, id: "industrialforegoing:animal_rancher" }
-				type: "item"
-			}]
-			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -1009,6 +933,109 @@
 			]
 			x: 6.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			id: "1FDA97FE562A2C4D"
+			rewards: [
+				{
+					id: "207BAF520E8E0C23"
+					item: {
+						components: {
+							"titanium:augments": {
+								Speed: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:speed_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "43C7934B276B99D7"
+					item: {
+						components: {
+							"titanium:augments": {
+								Efficiency: 0.8f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:efficiency_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "0FDFCA8809108475"
+					item: {
+						components: {
+							"titanium:augments": {
+								Processing: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:processing_addon_tier_2"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "40BF2920569F9751"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:speed_addon_tier_1)item(industrialforegoing:speed_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "62742836108A45A3"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:efficiency_addon_tier_1)item(industrialforegoing:efficiency_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5887027FAE29F371"
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:processing_addon_tier_1)item(industrialforegoing:processing_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E727F7B600E0E91"]
+			hide_dependency_lines: true
+			id: "410225ED927857D4"
+			rewards: [{
+				count: 3
+				id: "2D97EA4CC60D74C9"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_3"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70F2249949E43952"
+					item: { count: 1, id: "industrialforegoing:animal_feeder" }
+					type: "item"
+				}
+				{
+					id: "7131B205FCA95000"
+					item: { count: 1, id: "industrialforegoing:animal_rancher" }
+					type: "item"
+				}
+				{
+					id: "2869EF7F4B79AB32"
+					item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
 		}
 	]
 }

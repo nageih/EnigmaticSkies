@@ -55,18 +55,6 @@
 		{
 			dependencies: ["6F7A76841E49C6BD"]
 			id: "6968F7CB58754783"
-			rewards: [{
-				count: 9
-				id: "205A9C75B9EC0411"
-				item: {
-					components: {
-						"enderio:conduit": "enderio:energy"
-					}
-					count: 1
-					id: "enderio:conduit"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6348E6F8D221D481"
 				item: { count: 1, id: "enderio:alloy_smelter" }

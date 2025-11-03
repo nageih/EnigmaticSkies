@@ -33,11 +33,6 @@
 	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
-	quest.000E41CCCDD048C3.quest_desc: [
-		"Don’t want to place logs by hand? "
-		""
-		"Fill up a Block Placer with a bunch of logs and let it do the job for you!"
-	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -89,16 +84,6 @@
 		"Rather than forming a force field, the blocks will be placed wherever a force field block would have been created."
 	]
 	quest.0233E4C65745EEB0.title: "Building"
-	quest.0267B2A5D784EF45.quest_desc: [
-		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
-		""
-		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
-		""
-		"This way it can run larger batches as you work on other things."
-		""
-		"&6⚠ Note: The input items can be in any "
-		"&6    order!"
-	]
 	quest.03405336161EF1B5.quest_desc: [
 		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various Machine Addons that may be attached to these machines. "
 		""
@@ -192,7 +177,8 @@
 		""
 		"&7Pressure Chamber Glass&r is optional, but recommended to see what's happening inside."
 		""
-		"&a🛈 Tip: The PNC guidebook covers the requirements in detail."
+		"&a🛈 Tip: The PNC guidebook covers the multiblock"
+		"&a    requirements in detail."
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
@@ -607,16 +593,6 @@
 		"[\"Be sure to check out their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" while we get this quest section completed!\"]"
 	]
 	quest.0EEFC631A67266B1.title: "OriTech"
-	quest.0EF0F6D0012FB59E.quest_desc: [
-		"Need some Lava in a hurry? Dripstone letting you down? Try a Lava Factory!"
-		""
-		"This simple multiblock converts energy directly into delicious molten lava. "
-		""
-		"To build it, place the Controller on the ground and place a helper block on top of it, such as Cobblestone. Next, place the Casings against the helper block, one on each side. Finally, remove the helper block and supply power."
-		""
-		"Lava will be periodically generated in the block space where the helper block was. Just scoop it up with your preferred fluid pump and you’re all set!"
-	]
-	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0F185E80D0EFF772.quest_desc: [
@@ -625,11 +601,6 @@
 		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
 	]
 	quest.0F63D034A018A4FC.quest_desc: ["Placing a &7Sewer&r beneath your animals will allow you to collect &7Sewage&r which can be used to obtain more &7Water&r and eventually converted into &7Oil&r!"]
-	quest.0F8914EDAA7CD984.quest_desc: [
-		"A simple device, but quite useful. It can be set either to move baby animals from one side to the other, or adults. "
-		""
-		"It can be a handy way, therefore, to pull a few adults out of a breeding population for slaughter. "
-	]
 	quest.0F97525097FA4573.quest_desc: [
 		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
 		""
@@ -781,6 +752,21 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
+	quest.136AD444BD07EFCF.quest_desc: [
+		"The &7Plant Gatherer&r and &7Plant Sower&r are two machines that go hand in hand. "
+		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
+		""
+		"You’ll want to place the &7Gatherer&r on the edge of your field, while the &7Sower&r will go in the center just underground. "
+		""
+		"Be sure to check the Show Working area button in their GUI to get an idea of where they’ll be operating."
+		""
+		"With a &7+4 Range Addon&r, these machines will be able to work on the area of a standard 9x9 farm plot."
+		""
+		"&a🛈 Tip: Giving the Gatherer Ether Gas "
+		"&a    will allow it to harvest without "
+		"&a    breaking the crops. "
+	]
+	quest.136AD444BD07EFCF.title: "Crop Farming"
 	quest.136FD7D7C0EECAE3.quest_desc: [
 		"The first step to making our own Oil is, of course, lots of organic material. "
 		""
@@ -1268,6 +1254,11 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1D7DF143EDEAE1EC.quest_desc: [
+		"A clever device for growing more mushrooms without any hassle. "
+		""
+		"Simply provide power, water, and some mushrooms to get started and it’ll do the rest."
+	]
 	quest.1D9182A079919158.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
@@ -1363,10 +1354,11 @@
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.1FDA97FE562A2C4D.quest_desc: [
-		"Addons can be installed in most machines to speed them up and make them run more efficiently. "
+		"Addons can be installed in most Industrial Foregoing machines to speed them up and make them run more efficiently. "
 		""
 		"Don’t miss out!"
 	]
+	quest.1FDA97FE562A2C4D.title: "Addons"
 	quest.20454EB2C6E93573.quest_desc: [
 		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
 		""
@@ -1640,9 +1632,7 @@
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
 	]
 	quest.267FEB0BB5D9B4D9.quest_desc: [
-		"The Assembly Table is a multiblock machine capable of more advanced crafting. "
-		""
-		"In particular, it can be used to simplify the process of making more PCBs, completely bypassing the UV and Etching steps.          "
+		"The &7Assembly Table&r is a multiblock machine capable of more advanced crafting. "
 		""
 		"Each piece has requirements for valid placement; refer to the PNC:R manual for the exact rules."
 		""
@@ -1778,14 +1768,6 @@
 		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
 		""
 		"Dye it and show off your style!"
-	]
-	quest.29D1FB4380460203.quest_desc: [
-		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
-		"&n                                                  &r"
-		""
-		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
-		""
-		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
@@ -1945,13 +1927,6 @@
 		""
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
-	]
-	quest.2D5820091B6B2315.quest_desc: [
-		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
-		""
-		"Obtaining Latex will begin with a Fluid Extractor. Place an Acacia Log in front of the machine and it’ll slowly extract the Latex, breaking down the log over time."
-		""
-		"This machine doesn’t need power to run, but providing power will speed things up considerably!"
 	]
 	quest.2D689820562A9B9A.quest_desc: [
 		"Looking to craft your own Spell Scrolls? Craft a Scroll Forge!"
@@ -2263,6 +2238,15 @@
 		"  • &7Lapis Lazuli&r"
 		"  • &7Certus Quartz Crystals&r"
 		"  • &7Neptunium Nuggets&r"
+	]
+	quest.37AA9E6270DB015A.quest_desc: [
+		"This is a multiblock structure comprised of a central &7Empowerer&r and four &7Display Stands&r. "
+		""
+		"Each &7Display Stand&r must be placed three blocks away from the &7Empowerer&r in each of the cardinal directions. "
+		""
+		"When crafting, the central item in the recipe goes on the &7Empowerer&r while the other four blocks are placed in any order on the surrounding &7Display Stands&r. "
+		""
+		"Energy must be provided to each of the four Display Stands."
 	]
 	quest.37C965C1FA40221E.quest_desc: [
 		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
@@ -2883,21 +2867,6 @@
 		"  Any trade works!"
 	]
 	quest.407079BCE93817AC.title: "The Queen's Desire"
-	quest.40948DF54E7594A7.quest_desc: [
-		"Actually Additions uses altered forms of many of the materials you’re used to seeing. Lapis is converted to Palis Crystals, Iron to Enori Crystals, and so on. "
-		""
-		"These conversions are performed using the Atomic Reconstructor. "
-		""
-		"This machine, when powered, will periodically emit a beam of energy. Any appropriate items or blocks in its path will be converted. "
-		""
-		"&a🛈 Tip: Right-Click the machine with a "
-		"&a    Redstone Torch to change it to "
-		"&a    Pulse Redstone mode."
-		""
-		"&6⚠ Note: Blocks may be converted both"
-		"&6    in item form and as blocks placed"
-		"&6    in-world."
-	]
 	quest.410225ED927857D4.quest_desc: [
 		"These three machines can be put together to farm passive mobs automatically. "
 		""
@@ -2951,13 +2920,6 @@
 		"&a    on grass!"
 	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
-	quest.416D6EA79B73A4B9.quest_desc: [
-		"The Mob Duplicator is an excellent way to farm a specific mob, if you need a lot of just the drops it produces. "
-		""
-		"Simply capture the mob in a Mob Imprisonment Tool and insert it in the machine. "
-		""
-		"It will also need lots of Essence to operate, therefore you’ll want to keep your Mechanical Dirt and Mob Crusher running to produce the required Essence."
-	]
 	quest.422F7BABAAEE92E0.quest_desc: [
 		"Well worth the effort, the Diesel Jetpack functions much like an Elytra with the Space bar controlling it."
 		""
@@ -3312,15 +3274,6 @@
 		"Coupled with a QIO Redstone Adapter, these can be used to keep stock of various products."
 	]
 	quest.4840F7361DF70516.title: "QIO System"
-	quest.486FDAA44AED23C4.quest_desc: [
-		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
-		""
-		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
-		""
-		"&a🛈 Tip: Look at Uses for Heat Pipes in"
-		"&a    EMI for a list of heat sources."
-	]
-	quest.486FDAA44AED23C4.title: "Refinery"
 	quest.487C1E9850772F38.quest_desc: [
 		"At this point, you may be feeling the heat a bit, noticing your Boiler can’t keep up. Building more is an option, but upgrading infrastructure periodically will be more efficient in the long run. "
 		""
@@ -3341,21 +3294,6 @@
 		"Runes themselves are crafted on the Runic Workbench. This is done easily enough by clicking the central recipe item onto the Workbench, followed by the required Spirits."
 	]
 	quest.48B6E6CDBFFD77A7.title: "Runeworking"
-	quest.48F3D3784D8CE545.quest_desc: [
-		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
-		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
-		""
-		"You’ll want to place the Gatherer on the edge of your field, while the Sower will go in the center just underground. "
-		""
-		"Be sure to check the Show Working area button in their GUI to get an idea of where they’ll be operating."
-		""
-		"With a +4 Range Addon, these machines will be able to work on the area of a standard 9x9 farm plot."
-		""
-		"&a🛈 Tip: Giving the Gatherer Ether Gas "
-		"&a    will allow it to harvest without "
-		"&a    breaking the crops. "
-	]
-	quest.48F3D3784D8CE545.title: "Crop Farming"
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -3389,18 +3327,6 @@
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
-	quest.49958725A4710861.quest_desc: [
-		"Mechanical Dirt can be an excellent way to start farming monsters. By providing it with Liquid Meat and power in a dark area, it’ll quickly spawn in hostile mobs appropriate to the biome you’re in. "
-		""
-		"When combined with a Mob Slaughter Factory, it will easily produce enough Liquid Meat to run itself with plenty left over to run more Mechanical Dirt for a Mob Crusher, thus allowing you to farm monster drops quite effectively."
-		""
-		"This machine forms a rough multiblock, and automatically shares both power and Liquid Meat with any other adjacent Mechanical Dirt blocks. "
-		""
-		"&a🛈 Tip: An Inhibitor Obelisk will keep any "
-		"&a    Endermen that spawn contained in "
-		"&a    your farm. "
-	]
-	quest.49958725A4710861.title: "Monster Farming"
 	quest.49E18B07D6E4A5EB.quest_desc: [
 		"With the latent energies in Ambrosium, we can create a Fermentation Vat to magically transmute certain materials. "
 		""
@@ -3636,6 +3562,20 @@
 		"Once you've found the structure, climb atop and locate the Environmental Accumulator. This device will let you charge items with local weather and biome patterns."
 	]
 	quest.4DE1B1045507C72C.title: "Dark Temple"
+	quest.4DFD963932B9FF81.quest_desc: [
+		"With a &7Vortex Tube&r, you can easily create the very high, or very low, temperatures needed for many recipes."
+		""
+		"The &7Vortex Tube&r will consume air constantly to create a temperature differential. It is therefore advisable to use a &7Regulator Tube Module&r to limit or disable air flow."
+		""
+		"When operating, the red side will produce heat while the blue side will grow colder. "
+		""
+		"As this is operating on differentials, the warmer you make the blue side, the hotter the red side will get. "
+		""
+		"Very often, this just means adding a &7Heat Sink&r to the blue side to warm it up to ambient temperature. However, it can be useful at times to put hot blocks, such as &7Magma&r or &7Lava&r, on the blue side to really push temperatures higher on the red side.  "
+		""
+		"&a🛈 Tip: Use Thermal Lagging on "
+		"&a    machines to prevent heat loss."
+	]
 	quest.4E175A06927C3A75.quest_desc: [
 		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
@@ -3653,6 +3593,12 @@
 		"A Centrifuge allows for the production of a few unique materials that will be very important moving forward!"
 		""
 		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
+	]
+	quest.4E2F4A7BBD4D51E5.quest_desc: [
+		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
 	]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
@@ -3695,9 +3641,15 @@
 		""
 		"It can be incredibly power hungry!"
 		""
-		"&a🛈 Tip: Right-Click this machine with a "
-		"&a    Redstone Torch to set it to "
-		"&a    Pulse mode."
+		"This machine, when powered, will periodically emit a beam of energy. Any appropriate items or blocks in its path will be converted. "
+		""
+		"&a🛈 Tip: Right-Click the machine with a "
+		"&a    Redstone Torch to change it to "
+		"&a    Pulse Redstone mode."
+		""
+		"&6⚠ Note: Blocks may be converted both"
+		"&6    in item form and as blocks placed"
+		"&6    in-world."
 	]
 	quest.4F480CF26AB0F3CD.quest_desc: [
 		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
@@ -3835,20 +3787,6 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
-	quest.526BF0840C65855F.quest_desc: [
-		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
-		""
-		"No, really!"
-		""
-		"The process begins with the Washing Factory, which takes Power, Raw Ores, and Liquid meat as inputs."
-		""
-		"The result is then sent to a Fermentation Station where it is processed with an optional catalyst. By introducing Pink Slime, you can obtain up to a 4x yield on your ore. With Ether Gas, this goes up to a 5x yield."
-		""
-		"Finally, once properly fermented, the fluid must be passed into a Sieving Machine and filtered through Sand to produce nice clean metal dusts for you! "
-		""
-		"Tasty!"
-	]
-	quest.526BF0840C65855F.title: "Ore Processing"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
 		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
@@ -3917,15 +3855,6 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
-	quest.5572D4A6842BAAFA.quest_desc: [
-		"The Latex Processing unit will turn that liquid Latex and convert it to Rubber. "
-		""
-		"This requires Water and Power in addition to the Latex to operate."
-		""
-		"Once you’ve got some Rubber, you’ll want to smelt it in a Furnace to get Plastic. "
-		""
-		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
-	]
 	quest.55785C260809F141.title: "Foliot Crusher"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -3979,21 +3908,6 @@
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
 	]
-	quest.578401B6C9DA2747.quest_desc: [
-		"Before we can delve into High Pressure mechanics, we'll need to build a high-performance Compressor."
-		" "
-		"These compressors are capable of producing up to &720 bar&r of pressure. "
-		"&n                                                                          &r"
-		""
-		"The &7Advanced Liquid Compressor&r operates using the same liquid fuels you've been using thus far but does need to be cooled down."
-		""
-		"[\"For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
-		""
-		"The &7Electrostatic Compressor&r can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
-		""
-		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover valid "
-		"&a    blocks for an Electrostatic Grid."
-	]
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
 		""
@@ -4029,16 +3943,6 @@
 		"  handling."
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
-	quest.57DA648FF73A769A.quest_desc: [
-		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
-		""
-		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a &7Heat Sink&r placed opposite will be enough to produce the required differential. "
-		""
-		"Heat sources will degrade over time and will need to be replaced."
-		""
-		"&a🛈 Tip: Look at Uses for Heat Pipes in"
-		"&a    EMI for a list of heat sources."
-	]
 	quest.57E6258A93E53F95.quest_desc: [
 		"Your first order of business here will be to locate a Cell Maze. Here, you’ll find some very important objects to guide you on your quest. "
 		""
@@ -4158,7 +4062,6 @@
 		"&a    to automatically replace mined "
 		"&a    blocks with Stone!"
 	]
-	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
 	quest.5D1960D1AE64E4A2.quest_desc: [
 		"The Flourishing Island comes with a ready-made &7Natural Altar&r to get you started. "
 		""
@@ -4239,6 +4142,16 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
+	quest.5E727F7B600E0E91.quest_desc: [
+		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
+		""
+		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
+		""
+		"This way it can run larger batches as you work on other things."
+		""
+		"&6⚠ Note: The input items can be in any "
+		"&6    order!"
+	]
 	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
@@ -4665,7 +4578,6 @@
 		""
 		"The bottle may then be thrown to release that biome wherever you like, changing it permanently. "
 	]
-	quest.64E6D41378108B92.quest_desc: ["More than just a quick morning pick-me-up, this coffee offers the added benefits of some limited potion effects!"]
 	quest.6534548E8A6A318C.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
@@ -4817,15 +4729,6 @@
 		"&a    on the Actuator to link them."
 	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
-	quest.68A0052D169BB6E4.quest_desc: [
-		"The Mob Slaughter Factory is your source for liquefied monster products, both Liquid Meat and Pink Slime. Yum."
-		""
-		"While this can be coupled with any form of mob farm, Industrial Foregoing offers several ways to produce the mobs it requires. "
-		""
-		"&a🛈 Tip: Passive mobs produce more "
-		"&a    Pink Slime than hostiles mobs."
-	]
-	quest.68A0052D169BB6E4.title: "Meat Farming"
 	quest.68C212D2C7F8B308.quest_desc: [
 		"Animate a Wilden Defender and harvest it for parts."
 		""
@@ -4935,9 +4838,11 @@
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AA9F3E0D4BC181A.quest_desc: [
-		"You’ll find two important structures located on this island. The first is the Weeping Well, which can exchange certain items. Simply toss an item in and the new item will be thrown back at you."
+		"You’ll find two important structures located on this island. "
 		""
-		"The second is a Ritual for more elaborate requests. Look for the chalice surrounded by chalk marks."
+		"The first is the &7Weeping Well&r, which can exchange certain items. Simply toss an item in and the new item will be thrown back at you."
+		""
+		"The second is a &7Ritual&r for more elaborate requests. Look for the chalice surrounded by chalk marks."
 	]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
@@ -4952,19 +4857,6 @@
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
-	quest.6B0673A379D483A5.quest_desc: [
-		"Beyond the basic materials crafted with the Atomic Reconstructor, many crafts in AA will need some more advanced materials. "
-		"These materials are made using the Empowerer."
-		""
-		"This is a multiblock structure comprised of a central Empowerer and four Display Stands. Each Display Stand must be placed three blocks away from the Empowerer on each of the cardinal directions. "
-		""
-		"When crafting, then, the central item in the recipe goes on the Empowerer while the other four blocks are placed in any order on the surrounding Display Stands. "
-		""
-		"Energy must be provided to each of the four Display Stands as well."
-		""
-		"&6⚠ Note: All recipe items are consumed "
-		"&6    during the craft. "
-	]
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
@@ -5462,7 +5354,9 @@
 		"&a    them for you!"
 	]
 	quest.75BD1F2EB47FB7CF.quest_desc: [
-		"The Advanced Liquid Compressor operates using the same fuels you've been using thus far but does need to be cooled down. "
+		"The &7Advanced Liquid Compressor&r operates using the same fuels you've been using thus far and can reach up to &720 bar&r. "
+		""
+		"It does produce heat, however, and must be kept cool to run efficiently. At low speeds, a few &7Heat Sinks&r will suffice, especially at this altitude."
 		""
 		"[\"For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 	]
@@ -5557,14 +5451,6 @@
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
-	quest.77965E43351C263C.quest_desc: [
-		"Be it raising animals or farming crops, AA has a few blocks to help. "
-		""
-		"The Automatic Feeder will feed animals in a four-block radius around itself, stopping when there are too many animals present. "
-		""
-		"Similarly, the Farmer will automatically till the soil and plant it with seeds in a 9x9 area in front of it. "
-	]
-	quest.77965E43351C263C.title: "Simple Farming"
 	quest.779AE777BBC999AD.quest_desc: [
 		"Performing the Offering to the Gods ritual will unlock new materials used for more powerful contraptions. "
 		""
