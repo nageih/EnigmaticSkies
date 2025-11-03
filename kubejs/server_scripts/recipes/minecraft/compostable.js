@@ -7,7 +7,16 @@ const compostables = [
     { input: 'actuallyadditions:flax_seeds', chance: 0.35 },
     { input: 'actuallyadditions:coffee_beans', chance: 0.35 },
     { input: 'actuallyadditions:rice', chance: 0.65 },
-    { input: 'actuallyadditions:canola', chance: 0.65 }
+    { input: 'actuallyadditions:canola', chance: 0.65 },
+    { input: 'farmersdelight:straw', chance: 0.65 },
+    { input: 'farmersdelight:tomato', chance: 0.65 },
+    { input: 'farmersdelight:rice_panicle', chance: 0.65 },
+    { input: 'farmersdelight:rotten_tomato', chance: 0.65 },
+    { input: 'farmersdelight:cabbage_seeds', chance: 0.35 },
+    { input: 'farmersdelight:cabbage', chance: 0.65 },
+    { input: 'farmersdelight:onion', chance: 0.65 },
+    { input: 'supplementaries:flax_seeds', chance: 0.35 },
+    { input: 'minecraft:poisonous_potato', chance: 0.65 }
 ];
 
 ServerEvents.compostableRecipes((event) => {
