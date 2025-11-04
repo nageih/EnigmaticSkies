@@ -230,6 +230,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:vacuum_chest' },
         { id: 'enderio:vat' },
         { id: 'enderio:stick' },
+        { id: 'enderio:crafter' },
         { id: 'enderio:soulbinding/frank_n_zombie' },
         { id: 'enderio:slicing/z_logic_controller' },
         { id: 'enderio:slicing/guardian_diode' },

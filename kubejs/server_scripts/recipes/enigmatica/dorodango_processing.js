@@ -38,8 +38,8 @@ ServerEvents.recipes((event) => {
         },
         {
             outputs: [
-                { id: 'actuallyadditions:black_quartz', count: 3, chance: 1 / 2 },
-                { id: 'aquaculture:fish_bones', count: 8, chance: 1 / 4 },
+                { id: 'aquaculture:fish_bones', count: 4, chance: 1 / 2 },
+                { id: 'actuallyadditions:black_quartz', count: 2, chance: 1 / 4 },
                 { id: 'minecraft:rotten_flesh', count: 1, chance: 1 / 6 }
             ],
             input: { item: 'enigmatica:boggy_dorodango', count: 1 },

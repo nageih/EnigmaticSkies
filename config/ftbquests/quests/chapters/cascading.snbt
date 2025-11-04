@@ -36,17 +36,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "5226F1BC0A1B23D0"
-			tasks: [{
-				id: "73802C2C72AE8348"
-				item: { count: 1, id: "ars_nouveau:water_essence" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["7893072479F01DC2"]
 			id: "6534548E8A6A318C"
 			shape: "gear"

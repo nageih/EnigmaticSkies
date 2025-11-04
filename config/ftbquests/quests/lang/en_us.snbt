@@ -346,27 +346,6 @@
 		""
 		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
 	]
-	quest.0A5ED63B81C482B9.quest_desc: [
-		"Thanks for playtesting!"
-		""
-		"Before you get started, there are some design principles you should be aware of:"
-		""
-		"&n&6Water&r"
-		"Water is meant to be a challenge. You’ll notice that infinite water sources are disabled and efforts have been made to remove easy water sources. "
-		""
-		"That said, a few magical ones remain such as the Urn of Endless Waters and the Conjure Water glyph. These may get disabled in the future or may simply be gated until much later in progression. "
-		""
-		"&n&6Monsters&r"
-		"Natural spawns are disabled entirely. You’re safe from random mob invasions, but that means many of the items you’d get from monsters will either be coming from other sources or are gated until such time as you can summon monsters. "
-		""
-		"Monster spawners have also largely been disabled and replaced with custom recipes for obtaining different mobs. You’ll get into this in the Vexing chapter"
-		""
-		"&n&6Death"
-		"Just because there are no natural spawns doesn’t mean you won’t die. In fact, there’s a custom mechanic built in to cause certain animals to die after a set amount of time; this is explained later in the quests. Just be aware that some resources will need to be actively maintained."
-		""
-		"&n&6Automation"
-		"This, like all our Expert packs, is an automation challenge. Food, water, and other resources are all things you’ll need to automate to succeed. "
-	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -1210,6 +1189,22 @@
 		""
 		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
 	]
+	quest.1CF4103BFBCE0E29.quest_desc: [
+		"With an &7Imbuement Chamber&r, you can begin accessing new islands. "
+		""
+		"Each island has its own unique block transformations and resources. "
+		""
+		"They are not self-contained, however, and the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
+		""
+		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so begin by getting the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
+		""
+		"To use the &7Imbuement Chamber&r, you’ll need to place some &7Arcane Pedestals&r or &7Platforms&r directly adjacent to it. The item shown in the middle of the recipe goes in the &7Imbuement Chamber&r, while the rest must be placed in the &7Pedestals.&r "
+		""
+		"The &7Pedestal&r items are &nnot&r consumed. "
+		""
+		"&a🛈 Tip: Source is optional but will speed "
+		"&a    up the craft!"
+	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
 		""
@@ -1613,19 +1608,6 @@
 		"    • Phantom - Astral Weave "
 		"    • Zombie - Rotting Essence"
 	]
-	quest.26206EC1A2F0C9AF.quest_desc: [
-		"At the current time, the following quest lines are in a mostly-playable state:"
-		""
-		"1. Acclimation"
-		"2. It Takes a Village"
-		"3. Flourishing"
-		""
-		"Of course, these are still Works in Progress, but the rest is even more so! "
-		""
-		"While you go through them, keep an eye out for things that seem too grindy, unclear, unfun, or just downright broken."
-		""
-		"We’re currently focusing on these chapters for feedback, but if you get further and find something you feel is a little off or needs tweaking, feel free to let us know!"
-	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
@@ -1936,9 +1918,9 @@
 		"Some scrolls will only be available with higher tier inks!"
 	]
 	quest.2D755021F6490B86.quest_desc: [
-		"Obtain your first Sourceberry by enchanting a Cloud Berry. "
+		"Obtain your first &7Sourceberry&r by enchanting a &7Cloud Berry&r. "
 		""
-		"Be sure to plant the Sourceberry on Grass to grow more. The spells you have at your disposal should help tremendously with this task."
+		"Be sure to plant the &7Sourceberry&r on &7Grass&r to grow more. The spells you have at your disposal should help tremendously with this task."
 		""
 		"&6⚠ Note: Use a Cutting Board to grind "
 		"&6    Flour for Dough!"
@@ -2180,6 +2162,7 @@
 		"&6    must be within four blocks of "
 		"&6    the Altar."
 	]
+	quest.359A7C9127500D6C.quest_desc: ["A simple &7Furnace&r, despite the cold, should protect that precious heat well enough to get started."]
 	quest.35A8CEA408114638.quest_desc: [
 		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
@@ -3357,6 +3340,18 @@
 		""
 		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
 	]
+	quest.49F48B91801BE4FE.quest_desc: [
+		"&7Transfer Labels&r are a great way to move items between adjacent inventories, meaning a &7Chest&r next to a &7Furnace&r can now push without the need of a hopper or other pipes. "
+		""
+		"The direction of flow depends on the machine the &7Labels&r is placed against. "
+		""
+		"For example, an &7Insert Label&r placed on the side of a &7Furnace&r will pull items from an adjacent &7Chest&r into the &7Furnace&r. Alternatively, an &7Extract Label&r on the &7Chest&r would cause it to push items from the &7Chest&r into the &7Furnace&r."
+		""
+		"Use a &7Label Accessor&r to Right-Click your labels, even when hidden by a machine, to configure them. Sneak + Left Click will remove the &7Label&r"
+		""
+		"They allow quite sophisticated filtering and can even be sped up by simply inserting more &7Labels&r in the GUI."
+	]
+	quest.49F48B91801BE4FE.title: "Transfer Labels"
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"
@@ -5737,7 +5732,7 @@
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	quest.7EE93B81F83AD199.quest_desc: [
-		"Enchanting Clay appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
+		"Enchanting &7Clay&r appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
 		""
 		"No matter, this should prove quite useful."
 		"&n                                                  &r"
@@ -5843,6 +5838,7 @@
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.1E4E5D2B9B36005C.title: "Brilliant Blocks"
+	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"

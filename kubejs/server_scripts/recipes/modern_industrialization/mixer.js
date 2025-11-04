@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:nautilus_shell', amount: 12 },
+                { item: 'minecraft:nautilus_shell', amount: 24 },
                 { item: 'aquaculture:fish_bones', amount: 16 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 16000 }],
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:pelagite', amount: 1, probability: 0.75 }
             ],
             item_inputs: [
-                { item: 'minecraft:nautilus_shell', amount: 12 },
+                { item: 'minecraft:nautilus_shell', amount: 24 },
                 { item: 'aquaculture:fish_bones', amount: 16 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 16000 }],
@@ -194,12 +194,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}paper_from_rice`
         },
         {
-            item_outputs: [{ item: 'extended_industrialization:mulch', amount: 4 }],
+            item_outputs: [{ item: 'extended_industrialization:mulch', amount: 8 }],
             item_inputs: [
                 { item: 'farmersdelight:organic_compost', amount: 1 },
                 { item: 'modern_industrialization:wood_pulp', amount: 8 }
             ],
-            duration: 5,
+            duration: 1,
             eu: 2,
             id: `${id_prefix}mulch`
         }
@@ -250,8 +250,8 @@ ServerEvents.recipes((event) => {
                 { tag: material.input, amount: 4 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
-            duration: material.tier * 5,
-            eu: material.tier,
+            duration: 5,
+            eu: 2,
             id: `${id_prefix}${material.output.split(':')[1]}`
         });
     });
@@ -280,8 +280,8 @@ ServerEvents.recipes((event) => {
                 },
                 { fluid: material.additive, amount: 1000 }
             ],
-            duration: material.tier * 2,
-            eu: material.tier,
+            duration: 5,
+            eu: 2,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });
     });

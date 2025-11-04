@@ -11,17 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "0745FDF3F22807CA"
-			tasks: [{
-				id: "1A8E4D246E8B557E"
-				item: { count: 1, id: "ars_nouveau:air_essence" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
 			dependencies: ["0745FDF3F22807CA"]
 			id: "768869D763EC54EB"
 			min_width: 300

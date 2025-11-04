@@ -120,13 +120,21 @@
 		{
 			dependencies: ["23ED7167CB856D26"]
 			id: "1CF4103BFBCE0E29"
-			tasks: [{
-				id: "7DAC5388F81AED26"
-				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
-				type: "item"
-			}]
+			min_width: 200
+			tasks: [
+				{
+					id: "7DAC5388F81AED26"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "20B6CC540E82D042"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_pedestal)item(ars_nouveau:arcane_platform))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["605A60825B68C2D7"]
@@ -585,8 +593,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -635,13 +643,14 @@
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
 			id: "5550423B6E6BDBAF"
+			shape: "diamond"
 			tasks: [{
 				id: "74779A7784CF18C2"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			id: "53B43826C4CF310F"
@@ -756,6 +765,66 @@
 			]
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "6AC4CADE97CB512F"
+			shape: "diamond"
+			tasks: [{
+				id: "0881BE9F4BE61564"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "5226F1BC0A1B23D0"
+			shape: "diamond"
+			tasks: [{
+				id: "73802C2C72AE8348"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "008F3C0FB9F4B451"
+			shape: "diamond"
+			tasks: [{
+				id: "2D3475FF63025FDF"
+				item: { count: 1, id: "ars_nouveau:fire_essence" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "0745FDF3F22807CA"
+			shape: "diamond"
+			tasks: [{
+				id: "1A8E4D246E8B557E"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			id: "12E7105B33AC043E"
+			shape: "diamond"
+			tasks: [{
+				id: "1BE58172EFAB4ED0"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 }

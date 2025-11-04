@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
                 A: 'create:mechanical_arm',
-                B: 'ae2:quartz_glass',
+                B: 'ars_nouveau:wixie_charm',
                 C: '#c:gears/energized',
                 D: 'enderio:ensouled_chassis',
                 E: 'modern_industrialization:motor',
@@ -73,6 +73,19 @@ ServerEvents.recipes((event) => {
                 E: 'oritech:flux_gate'
             },
             id: `${id_prefix}vat`
+        },
+        {
+            output: `enderio:crafter`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'create:mechanical_arm',
+                B: 'ars_nouveau:wixie_charm',
+                C: '#c:gears/energized',
+                D: 'enderio:void_chassis',
+                E: 'modern_industrialization:motor',
+                F: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}crafter`
         }
     ];
 

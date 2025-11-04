@@ -58,17 +58,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "6AC4CADE97CB512F"
-			tasks: [{
-				id: "0881BE9F4BE61564"
-				item: { count: 1, id: "ars_nouveau:earth_essence" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -5.5d
-		}
-		{
 			dependencies: ["6490781066FAE8CF"]
 			icon: {
 				id: "naturesaura:nature_altar"
