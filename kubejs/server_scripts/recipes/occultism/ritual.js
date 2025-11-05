@@ -217,7 +217,7 @@ ServerEvents.recipes((event) => {
             },
             activation_item: { item: animated.block },
             ingredients: [
-                { tag: 'c:essences/hex_ash' },
+                { tag: 'c:gems/mnemonic_fragment' },
                 { item: 'industrialforegoing:pink_slime_block' },
                 { item: animated.spirit },
                 { item: 'industrialforegoing:pink_slime_block' }

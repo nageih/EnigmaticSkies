@@ -2,7 +2,7 @@
 version = 1
 debugMode = false
 parseChestLoot = false
-parseBlockLoot = false
+parseBlockLoot = true
 parseMobLoot = true
 parseGameplayLoot = false
 parseArchaeologyLoot = false

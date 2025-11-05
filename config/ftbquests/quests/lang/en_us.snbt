@@ -33,6 +33,8 @@
 	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
+	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
+	quest.008F3C0FB9F4B451.title: "Blazing Island"
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -208,7 +210,8 @@
 		""
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
-	quest.0745FDF3F22807CA.quest_desc: [""]
+	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
+	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
 		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
 		""
@@ -680,6 +683,8 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.12E7105B33AC043E.quest_desc: ["[ \"\", { \"text\": \"Abjuration Essence\", \"color\":\"gray\"}, \" grants access to the blighted lands of the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" } }, \".\" ]"]
+	quest.12E7105B33AC043E.title: "Vexing Island"
 	quest.130A2701B96A941D.quest_desc: [
 		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
 		""
@@ -2252,7 +2257,7 @@
 		""
 		"Gather some Spirits of Birthing by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a Scythed to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a Scythe to properly harvest the Spirits in them."
 		""
 		"&a🛈 Tip: Apply Spirit Plunder to your "
 		"&a    weapon for even more Spirits!"
@@ -3782,6 +3787,8 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.5226F1BC0A1B23D0.quest_desc: ["[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"]
+	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
 		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
@@ -3850,6 +3857,12 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.5550423B6E6BDBAF.quest_desc: [
+		"In need of some saplings? Maybe you’d like to get some bees producing honey? "
+		""
+		"Summon forth the Queen Bee in her throne and see what trades she has to offer!"
+	]
+	quest.5550423B6E6BDBAF.title: "Beehive Island"
 	quest.55785C260809F141.title: "Foliot Crusher"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -4839,6 +4852,8 @@
 		""
 		"The second is a &7Ritual&r for more elaborate requests. Look for the chalice surrounded by chalk marks."
 	]
+	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
+	quest.6AC4CADE97CB512F.title: "Flourishing Island"
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
 		""
@@ -5131,7 +5146,6 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
-	quest.6FA4894900E53B31.quest_desc: ["In need of some saplings? Maybe you’d like to get some bees producing honey? Summon forth the Queen Bee in her throne and see what trades she has to offer!"]
 	quest.6FC31B3806BF222A.quest_desc: [
 		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
 		""
@@ -5180,10 +5194,7 @@
 	]
 	quest.710D7615763E9945.title: "Geasa"
 	quest.714379744B3CF395.quest_desc: [
-		"The first few Gold Ingots you make should go towards making an Imbuement Chamber. "
-		""
-		""
-		""
+		"The first few &7Gold Ingots&r you make should go towards making an &7Imbuement Chamber&r. "
 		"&n                                                                          &r"
 		""
 		"The &7Digestion Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."

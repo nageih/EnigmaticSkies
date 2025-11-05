@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/energized',
                 D: 'enderio:ensouled_chassis',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}slice_and_splice`
         },
@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/energized',
                 D: 'enderio:void_chassis',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}crafter`
         }

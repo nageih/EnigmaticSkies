@@ -409,6 +409,7 @@ ServerEvents.recipes((event) => {
         { output: 'minecraft:chest' },
         { output: 'minecraft:cookie' },
         { output: 'minecraft:dispenser' },
+        { output: 'minecraft:slime_block' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
