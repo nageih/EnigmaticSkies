@@ -39,6 +39,23 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    const crystals = ['restonia', 'palis', 'diamatine', 'void', 'emeradic', 'enori'];
+
+    crystals.forEach((crystal) => {
+        recipes.push(
+            {
+                higher_input: { id: `actuallyadditions:${crystal}_crystal_block`, count: 1 },
+                lower_input: { id: `actuallyadditions:${crystal}_crystal`, count: 9 },
+                id: `${id_prefix}${crystal}_crystal_to_block`
+            },
+            {
+                higher_input: { id: `actuallyadditions:empowered_${crystal}_crystal_block`, count: 1 },
+                lower_input: { id: `actuallyadditions:empowered_${crystal}_crystal`, count: 9 },
+                id: `${id_prefix}empowered_${crystal}_crystal_to_block`
+            }
+        );
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'functionalstorage:custom_compacting';
         event.custom(recipe).id(recipe.id);

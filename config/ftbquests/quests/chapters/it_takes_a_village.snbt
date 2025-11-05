@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -114,19 +114,30 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["23ED7167CB856D26"]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
 			id: "1CF4103BFBCE0E29"
-			tasks: [{
-				id: "7DAC5388F81AED26"
-				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
-				type: "item"
-			}]
+			min_width: 200
+			tasks: [
+				{
+					id: "7DAC5388F81AED26"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "20B6CC540E82D042"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_pedestal)item(ars_nouveau:arcane_platform))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["605A60825B68C2D7"]
@@ -154,7 +165,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -175,8 +186,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03D475AF2266ECB6"]
@@ -196,7 +207,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -226,7 +237,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -267,7 +278,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -293,7 +304,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -328,7 +339,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -341,7 +352,7 @@
 				item: { count: 1, id: "ars_nouveau:storage_lectern" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -363,7 +374,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -390,7 +401,7 @@
 					type: "observation"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -417,7 +428,7 @@
 					type: "observation"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -444,7 +455,7 @@
 					type: "observation"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -471,7 +482,7 @@
 					type: "observation"
 				}
 			]
-			x: 4.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -498,7 +509,7 @@
 					type: "observation"
 				}
 			]
-			x: 6.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -525,7 +536,7 @@
 					type: "observation"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -537,7 +548,7 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -574,19 +585,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["5550423B6E6BDBAF"]
-			id: "6FA4894900E53B31"
-			tasks: [{
-				id: "74089801349D2850"
-				item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["14D946E0F94255AD"]
@@ -596,8 +596,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_end_portal" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["53B43826C4CF310F"]
@@ -607,8 +607,8 @@
 				item: { count: 1, id: "ars_elemental:anima_essence" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7905141BD2517471"]
@@ -618,8 +618,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["53B43826C4CF310F"]
@@ -629,19 +629,30 @@
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_geode"
+			}
 			id: "5550423B6E6BDBAF"
-			tasks: [{
-				id: "74779A7784CF18C2"
-				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.0d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "74779A7784CF18C2"
+					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+				{
+					id: "016CD61463DB9B50"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_geode" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			id: "53B43826C4CF310F"
@@ -649,8 +660,8 @@
 				id: "3FEC46CB05E92C9B"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -661,7 +672,7 @@
 				item: { count: 1, id: "farmersdelight:organic_compost" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -673,7 +684,7 @@
 				item: { count: 1, id: "actuallyadditions:worm" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -685,7 +696,7 @@
 				item: { count: 1, id: "actuallyadditions:feeder" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -697,7 +708,7 @@
 				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -721,7 +732,7 @@
 				to_observe: "naturesaura:animal_spawner"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -733,7 +744,7 @@
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -756,6 +767,81 @@
 			]
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_flourishing"
+			}
+			id: "6AC4CADE97CB512F"
+			shape: "diamond"
+			tasks: [{
+				id: "0881BE9F4BE61564"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_cascading"
+			}
+			id: "5226F1BC0A1B23D0"
+			shape: "diamond"
+			tasks: [{
+				id: "73802C2C72AE8348"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_blazing"
+			}
+			id: "008F3C0FB9F4B451"
+			shape: "diamond"
+			tasks: [{
+				id: "2D3475FF63025FDF"
+				item: { count: 1, id: "ars_nouveau:fire_essence" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_sculk"
+			}
+			id: "0745FDF3F22807CA"
+			shape: "diamond"
+			tasks: [{
+				id: "1A8E4D246E8B557E"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CF4103BFBCE0E29"]
+			icon: {
+				id: "ars_caelum:ritual_conjure_island_vexing"
+			}
+			id: "12E7105B33AC043E"
+			shape: "diamond"
+			tasks: [{
+				id: "1BE58172EFAB4ED0"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 }

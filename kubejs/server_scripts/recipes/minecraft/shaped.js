@@ -111,6 +111,19 @@ ServerEvents.recipes((event) => {
                 C: 'malum:strange_crystal'
             },
             id: `${id_prefix}observer`
+        },
+        {
+            output: 'minecraft:slime_block',
+            pattern: ['AAA', 'AAA', 'AAA'],
+            key: {
+                A: Ingredient.of([
+                    'minecraft:slime_ball',
+                    'aether:swet_ball',
+                    'malum:runic_sapball',
+                    'malum:cursed_sapball'
+                ])
+            },
+            id: `${id_prefix}slime_block`
         }
     ];
 

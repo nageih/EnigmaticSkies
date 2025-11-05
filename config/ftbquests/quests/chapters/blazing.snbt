@@ -36,17 +36,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "008F3C0FB9F4B451"
-			tasks: [{
-				id: "2D3475FF63025FDF"
-				item: { count: 1, id: "ars_nouveau:fire_essence" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["78626EE046E48EF3"]
 			id: "319FD618D4608068"
 			tasks: [{

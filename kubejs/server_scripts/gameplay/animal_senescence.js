@@ -6,7 +6,8 @@ LevelEvents.tick((event) => {
         if (!entity.isLiving() || entity.isPlayer()) {
             return;
         }
-        let max_senescence = 10 * 72000;
+        let ticks_per_day = 24000;
+        let max_senescence = ticks_per_day * 10;
 
         let age = entity.nbt.Age;
         let pData = entity.persistentData;

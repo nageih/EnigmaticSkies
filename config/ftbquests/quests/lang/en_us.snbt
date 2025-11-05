@@ -33,6 +33,8 @@
 	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
+	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
+	quest.008F3C0FB9F4B451.title: "Blazing Island"
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -208,7 +210,8 @@
 		""
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
-	quest.0745FDF3F22807CA.quest_desc: [""]
+	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
+	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
 		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
 		""
@@ -345,27 +348,6 @@
 		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
 		""
 		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
-	]
-	quest.0A5ED63B81C482B9.quest_desc: [
-		"Thanks for playtesting!"
-		""
-		"Before you get started, there are some design principles you should be aware of:"
-		""
-		"&n&6Water&r"
-		"Water is meant to be a challenge. You’ll notice that infinite water sources are disabled and efforts have been made to remove easy water sources. "
-		""
-		"That said, a few magical ones remain such as the Urn of Endless Waters and the Conjure Water glyph. These may get disabled in the future or may simply be gated until much later in progression. "
-		""
-		"&n&6Monsters&r"
-		"Natural spawns are disabled entirely. You’re safe from random mob invasions, but that means many of the items you’d get from monsters will either be coming from other sources or are gated until such time as you can summon monsters. "
-		""
-		"Monster spawners have also largely been disabled and replaced with custom recipes for obtaining different mobs. You’ll get into this in the Vexing chapter"
-		""
-		"&n&6Death"
-		"Just because there are no natural spawns doesn’t mean you won’t die. In fact, there’s a custom mechanic built in to cause certain animals to die after a set amount of time; this is explained later in the quests. Just be aware that some resources will need to be actively maintained."
-		""
-		"&n&6Automation"
-		"This, like all our Expert packs, is an automation challenge. Food, water, and other resources are all things you’ll need to automate to succeed. "
 	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
@@ -701,6 +683,8 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.12E7105B33AC043E.quest_desc: ["[ \"\", { \"text\": \"Abjuration Essence\", \"color\":\"gray\"}, \" grants access to the blighted lands of the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" } }, \".\" ]"]
+	quest.12E7105B33AC043E.title: "Vexing Island"
 	quest.130A2701B96A941D.quest_desc: [
 		"This place is mostly safe from monsters, however there are worse things than a few zombies or skeletons poking around."
 		""
@@ -1210,6 +1194,22 @@
 		""
 		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
 	]
+	quest.1CF4103BFBCE0E29.quest_desc: [
+		"With an &7Imbuement Chamber&r, you can begin accessing new islands. "
+		""
+		"Each island has its own unique block transformations and resources. "
+		""
+		"They are not self-contained, however, and the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
+		""
+		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so begin by getting the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
+		""
+		"To use the &7Imbuement Chamber&r, you’ll need to place some &7Arcane Pedestals&r or &7Platforms&r directly adjacent to it. The item shown in the middle of the recipe goes in the &7Imbuement Chamber&r, while the rest must be placed in the &7Pedestals.&r "
+		""
+		"The &7Pedestal&r items are &nnot&r consumed. "
+		""
+		"&a🛈 Tip: Source is optional but will speed "
+		"&a    up the craft!"
+	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
 		""
@@ -1613,19 +1613,6 @@
 		"    • Phantom - Astral Weave "
 		"    • Zombie - Rotting Essence"
 	]
-	quest.26206EC1A2F0C9AF.quest_desc: [
-		"At the current time, the following quest lines are in a mostly-playable state:"
-		""
-		"1. Acclimation"
-		"2. It Takes a Village"
-		"3. Flourishing"
-		""
-		"Of course, these are still Works in Progress, but the rest is even more so! "
-		""
-		"While you go through them, keep an eye out for things that seem too grindy, unclear, unfun, or just downright broken."
-		""
-		"We’re currently focusing on these chapters for feedback, but if you get further and find something you feel is a little off or needs tweaking, feel free to let us know!"
-	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
@@ -1936,9 +1923,9 @@
 		"Some scrolls will only be available with higher tier inks!"
 	]
 	quest.2D755021F6490B86.quest_desc: [
-		"Obtain your first Sourceberry by enchanting a Cloud Berry. "
+		"Obtain your first &7Sourceberry&r by enchanting a &7Cloud Berry&r. "
 		""
-		"Be sure to plant the Sourceberry on Grass to grow more. The spells you have at your disposal should help tremendously with this task."
+		"Be sure to plant the &7Sourceberry&r on &7Grass&r to grow more. The spells you have at your disposal should help tremendously with this task."
 		""
 		"&6⚠ Note: Use a Cutting Board to grind "
 		"&6    Flour for Dough!"
@@ -2180,6 +2167,7 @@
 		"&6    must be within four blocks of "
 		"&6    the Altar."
 	]
+	quest.359A7C9127500D6C.quest_desc: ["A simple &7Furnace&r, despite the cold, should protect that precious heat well enough to get started."]
 	quest.35A8CEA408114638.quest_desc: [
 		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
@@ -2269,7 +2257,7 @@
 		""
 		"Gather some Spirits of Birthing by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a Scythed to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a Scythe to properly harvest the Spirits in them."
 		""
 		"&a🛈 Tip: Apply Spirit Plunder to your "
 		"&a    weapon for even more Spirits!"
@@ -3357,6 +3345,18 @@
 		""
 		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
 	]
+	quest.49F48B91801BE4FE.quest_desc: [
+		"&7Transfer Labels&r are a great way to move items between adjacent inventories, meaning a &7Chest&r next to a &7Furnace&r can now push without the need of a hopper or other pipes. "
+		""
+		"The direction of flow depends on the machine the &7Labels&r is placed against. "
+		""
+		"For example, an &7Insert Label&r placed on the side of a &7Furnace&r will pull items from an adjacent &7Chest&r into the &7Furnace&r. Alternatively, an &7Extract Label&r on the &7Chest&r would cause it to push items from the &7Chest&r into the &7Furnace&r."
+		""
+		"Use a &7Label Accessor&r to Right-Click your labels, even when hidden by a machine, to configure them. Sneak + Left Click will remove the &7Label&r"
+		""
+		"They allow quite sophisticated filtering and can even be sped up by simply inserting more &7Labels&r in the GUI."
+	]
+	quest.49F48B91801BE4FE.title: "Transfer Labels"
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"
@@ -3787,6 +3787,8 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.5226F1BC0A1B23D0.quest_desc: ["[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"]
+	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
 		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
@@ -3855,6 +3857,12 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.5550423B6E6BDBAF.quest_desc: [
+		"In need of some saplings? Maybe you’d like to get some bees producing honey? "
+		""
+		"Summon forth the Queen Bee in her throne and see what trades she has to offer!"
+	]
+	quest.5550423B6E6BDBAF.title: "Beehive Island"
 	quest.55785C260809F141.title: "Foliot Crusher"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -4844,6 +4852,8 @@
 		""
 		"The second is a &7Ritual&r for more elaborate requests. Look for the chalice surrounded by chalk marks."
 	]
+	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
+	quest.6AC4CADE97CB512F.title: "Flourishing Island"
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
 		""
@@ -5136,7 +5146,6 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
-	quest.6FA4894900E53B31.quest_desc: ["In need of some saplings? Maybe you’d like to get some bees producing honey? Summon forth the Queen Bee in her throne and see what trades she has to offer!"]
 	quest.6FC31B3806BF222A.quest_desc: [
 		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
 		""
@@ -5185,10 +5194,7 @@
 	]
 	quest.710D7615763E9945.title: "Geasa"
 	quest.714379744B3CF395.quest_desc: [
-		"The first few Gold Ingots you make should go towards making an Imbuement Chamber. "
-		""
-		""
-		""
+		"The first few &7Gold Ingots&r you make should go towards making an &7Imbuement Chamber&r. "
 		"&n                                                                          &r"
 		""
 		"The &7Digestion Vat&r is operated by Right-Clicking the inputs into the machine. Once everything is in, Sneak Right-Click it again to ‘close’ it. It will only operate while closed."
@@ -5737,7 +5743,7 @@
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	quest.7EE93B81F83AD199.quest_desc: [
-		"Enchanting Clay appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
+		"Enchanting &7Clay&r appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
 		""
 		"No matter, this should prove quite useful."
 		"&n                                                  &r"
@@ -5843,6 +5849,7 @@
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.1E4E5D2B9B36005C.title: "Brilliant Blocks"
+	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"

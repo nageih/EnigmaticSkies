@@ -758,16 +758,5 @@
 			x: 6.0d
 			y: 6.5d
 		}
-		{
-			dependencies: ["1CF4103BFBCE0E29"]
-			id: "12E7105B33AC043E"
-			tasks: [{
-				id: "1BE58172EFAB4ED0"
-				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
 	]
 }
