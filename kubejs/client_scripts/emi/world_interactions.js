@@ -3,13 +3,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
 
     const descriptions = [
         {
-            left: 'item:minecraft:cauldron',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:minecraft:cauldron',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_cauldron',
@@ -18,13 +18,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_nouveau:wixie_cauldron'
         },
         {
-            left: 'item:ars_nouveau:enchanting_apparatus',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:ars_nouveau:enchanting_apparatus',
             output: {
                 type: 'item',
                 id: 'ars_additions:enchanting_wixie_cauldron',
@@ -33,13 +33,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_additions:enchanting_wixie_cauldron'
         },
         {
-            left: 'item:farmersdelight:cooking_pot',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:farmersdelight:cooking_pot',
             output: {
                 type: 'item',
                 id: 'starbunclemania:cooking_pot_wixie_cauldron',
@@ -48,13 +48,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:cooking_pot_wixie_cauldron'
         },
         {
-            left: 'item:minecraft:furnace',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:minecraft:furnace',
             output: {
                 type: 'item',
                 id: 'starbunclemania:smelting_wixie_cauldron',
@@ -63,13 +63,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:smelting_wixie_cauldron'
         },
         {
-            left: 'item:minecraft:stonecutter',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:minecraft:stonecutter',
             output: {
                 type: 'item',
                 id: 'starbunclemania:stonecutting_wixie_cauldron',
@@ -78,13 +78,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:stonecutting_wixie_cauldron'
         },
         {
-            left: 'item:farmersdelight:cutting_board',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:farmersdelight:cutting_board',
             output: {
                 type: 'item',
                 id: 'starbunclemania:cutting_wixie_cauldron',
@@ -93,13 +93,13 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:cutting_wixie_cauldron'
         },
         {
-            left: 'item:starbunclemania:fluid_jar',
-            right: {
+            left: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_charm',
                 nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
+            right: 'item:starbunclemania:fluid_jar',
             output: {
                 type: 'item',
                 id: 'starbunclemania:mixer_wixie_cauldron',
@@ -108,8 +108,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:mixer_wixie_cauldron'
         },
         {
-            left: 'item:minecraft:mossy_cobblestone',
-            right: 'item:ars_nouveau:drygmy_charm',
+            left: 'item:ars_nouveau:drygmy_charm',
+            right: 'item:minecraft:mossy_cobblestone',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:drygmy_stone',
@@ -118,8 +118,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_nouveau:drygmy_stone'
         },
         {
-            left: 'item:minecraft:prismarine',
-            right: 'item:ars_elemental:siren_charm',
+            left: 'item:ars_elemental:siren_charm',
+            right: 'item:minecraft:prismarine',
             output: {
                 type: 'item',
                 id: 'ars_elemental:mermaid_rock',
@@ -128,8 +128,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_elemental:mermaid_rock'
         },
         {
-            left: '#item:minecraft:flowers',
-            right: 'item:ars_nouveau:whirlisprig_charm',
+            left: 'item:ars_nouveau:whirlisprig_charm',
+            right: '#item:minecraft:flowers',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:whirlisprig_flower',
@@ -213,8 +213,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'justdirethings:goo_revive_tier_4'
         },
         {
-            left: ['item:minecraft:tall_grass', 'item:minecraft:short_grass'],
-            right: '#item:farmersdelight:straw_harvesters',
+            left: '#item:farmersdelight:straw_harvesters',
+            right: ['item:minecraft:tall_grass', 'item:minecraft:short_grass'],
             output: {
                 type: 'item',
                 id: 'farmersdelight:straw',
@@ -224,8 +224,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'farmersdelight:straw_from_grass'
         },
         {
-            left: 'item:handcrafted:witch_trophy',
-            right: 'item:enigmatica:antikythera_mechanism',
+            left: 'item:enigmatica:antikythera_mechanism',
+            right: 'item:handcrafted:witch_trophy',
             output: [
                 {
                     type: 'item',
@@ -241,8 +241,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'handcrafted:witch_trophy'
         },
         {
-            left: 'item:handcrafted:evoker_trophy',
-            right: 'item:enigmatica:antikythera_mechanism',
+            left: 'item:enigmatica:antikythera_mechanism',
+            right: 'item:handcrafted:evoker_trophy',
             output: [
                 {
                     type: 'item',
@@ -258,8 +258,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'handcrafted:evoker_trophy'
         },
         {
-            left: 'item:handcrafted:vindicator_trophy',
-            right: 'item:enigmatica:antikythera_mechanism',
+            left: 'item:enigmatica:antikythera_mechanism',
+            right: 'item:handcrafted:vindicator_trophy',
             output: [
                 {
                     type: 'item',
@@ -275,8 +275,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'handcrafted:vindicator_trophy'
         },
         {
-            left: 'item:handcrafted:pillager_trophy',
-            right: 'item:enigmatica:antikythera_mechanism',
+            left: 'item:enigmatica:antikythera_mechanism',
+            right: 'item:handcrafted:pillager_trophy',
             output: [
                 {
                     type: 'item',
