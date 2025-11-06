@@ -1654,7 +1654,7 @@
 		"&a    the bottom."
 	]
 	quest.271AC925824B553E.title: "Industrialist"
-	quest.2722D0A13CF02C73.quest_desc: ["A Source Condenser can be a handy way to convert Source into Liquefied Source!"]
+	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
