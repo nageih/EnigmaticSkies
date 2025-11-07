@@ -1,0 +1,12 @@
+{
+    "item.oritech.motor": "Rune of Swiftness",
+
+    "tooltip.oritech.item_pipe.3": [
+        "Click it with a ",
+        {
+            "text": "Rune of Swiftness",
+            "color": "#ff830e"
+        },
+        " to upgrade the pipe to extract from all slots."
+    ]
+}

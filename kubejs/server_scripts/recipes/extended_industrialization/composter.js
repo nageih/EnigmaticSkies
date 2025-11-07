@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}source_gem_from_ambrosium_shard`
         },
         {
-            item_outputs: [{ item: 'createsifter:raw_gold_piece', amount: 2 }],
+            item_outputs: [{ item: 'oritech:small_gold_clump', amount: 2 }],
             item_inputs: [
                 { item: 'aquaculture:goldfish', amount: 4 },
                 { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
@@ -59,10 +59,10 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
             duration: 4,
             eu: 2,
-            id: `${id_prefix}raw_gold_piece_from_goldfish`
+            id: `${id_prefix}small_gold_clump_from_goldfish`
         },
         {
-            item_outputs: [{ item: 'createsifter:raw_iron_piece', amount: 2 }],
+            item_outputs: [{ item: 'oritech:small_iron_clump', amount: 2 }],
             item_inputs: [
                 { tag: 'c:foods/raw_meat', amount: 6 },
                 { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
             duration: 4,
             eu: 2,
-            id: `${id_prefix}raw_iron_piece_from_raw_meats`
+            id: `${id_prefix}small_iron_clump_from_raw_meats`
         },
         {
             item_outputs: [{ item: 'minecraft:gunpowder', amount: 3 }],

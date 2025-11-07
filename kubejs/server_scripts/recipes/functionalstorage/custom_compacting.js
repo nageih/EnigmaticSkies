@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    const pebbles = ['andesite', 'basalt', 'blackstone', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
 
     pebbles.forEach((pebble) => {
         let stone = `minecraft:${pebble}`;
@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
 
         recipes.push({
             higher_input: { id: stone, count: 1 },
-            lower_input: { id: `createsifter:${pebble}_pebble`, count: 4 },
+            lower_input: { id: `enigmatica:${pebble}_pebble`, count: 4 },
             id: `${id_prefix}${pebble}_pebble_to_${getID(stone)}`
         });
     });

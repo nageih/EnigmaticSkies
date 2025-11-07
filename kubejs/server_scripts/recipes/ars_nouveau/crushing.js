@@ -33,19 +33,19 @@ ServerEvents.recipes((event) => {
             input: { item: 'aether:holystone' },
             output: [
                 { stack: { id: 'aether:ambrosium_shard', count: 1 }, chance: 0.25, maxRange: 1 },
-                { stack: { id: 'createsifter:andesite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:diorite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:granite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
+                { stack: { id: 'enigmatica:andesite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
+                { stack: { id: 'enigmatica:diorite_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
+                { stack: { id: 'enigmatica:granite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
             ],
             id: `${id_prefix}holystone_crushing`
         },
         {
             input: { item: 'minecraft:moss_block' },
             output: [
-                { stack: { id: 'createsifter:raw_copper_piece', count: 1 }, chance: 0.5, maxRange: 3 },
-                { stack: { id: 'createsifter:stone_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:tuff_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
-                { stack: { id: 'createsifter:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
+                { stack: { id: 'oritech:small_copper_clump', count: 1 }, chance: 0.5, maxRange: 3 },
+                { stack: { id: 'enigmatica:stone_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
+                { stack: { id: 'enigmatica:tuff_pebble', count: 1 }, chance: 0.5, maxRange: 4 },
+                { stack: { id: 'enigmatica:calcite_pebble', count: 1 }, chance: 0.5, maxRange: 4 }
             ],
             id: `${id_prefix}moss_block_crushing`
         },

@@ -175,6 +175,71 @@ ServerEvents.recipes((event) => {
                 D: 'minecraft:furnace'
             },
             id: `${id_prefix}powered_furnace_block`
+        },
+        {
+            output: `12x oritech:item_pipe`,
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick',
+                B: '#c:gems/restonia',
+                C: 'theurgy:copper_wire'
+            },
+            id: `${id_prefix}item_pipe`
+        },
+        {
+            output: `12x oritech:fluid_pipe`,
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: 'modern_industrialization:fire_clay_brick',
+                B: '#c:gems/palis',
+                C: 'theurgy:copper_wire'
+            },
+            id: `${id_prefix}fluid_pipe`
+        },
+        {
+            output: `4x oritech:framed_fluid_pipe`,
+            pattern: ['BAB', 'ABA', 'BAB'],
+            key: {
+                A: 'oritech:fluid_pipe',
+                B: '#c:rods/copper'
+            },
+            id: `${id_prefix}framed_fluid_pipe`
+        },
+        {
+            output: `4x oritech:framed_item_pipe`,
+            pattern: ['BAB', 'ABA', 'BAB'],
+            key: {
+                A: 'oritech:item_pipe',
+                B: '#c:rods/copper'
+            },
+            id: `${id_prefix}framed_item_pipe`
+        },
+        {
+            output: `4x oritech:fluid_pipe_duct_block`,
+            pattern: ['BAB', 'ABA', 'BAB'],
+            key: {
+                A: 'oritech:fluid_pipe',
+                B: '#c:plates/copper'
+            },
+            id: `${id_prefix}fluid_pipe_duct_block`
+        },
+        {
+            output: `4x oritech:item_pipe_duct_block`,
+            pattern: ['BAB', 'ABA', 'BAB'],
+            key: {
+                A: 'oritech:item_pipe',
+                B: '#c:plates/copper'
+            },
+            id: `${id_prefix}item_pipe_duct_block`
+        },
+        {
+            output: `oritech:item_filter_block`,
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:ingots/andesite_alloy',
+                B: '#minecraft:wool'
+            },
+            id: `${id_prefix}item_filter_block`
         }
     ];
 

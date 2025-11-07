@@ -8,6 +8,12 @@ ServerEvents.recipes((event) => {
             evaporant: { ingredient: { tag: 'theurgy:sal_ammoniac' }, amount: 1000 },
             time: 5,
             id: `${id_prefix}source_fluid`
+        },
+        {
+            result: { id: 'minecraft:water', amount: 250 },
+            solute: { item: 'aether:cold_aercloud' },
+            time: 5,
+            id: `${id_prefix}water`
         }
     ];
 

@@ -51,6 +51,38 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+
+    pebbles.forEach((pebble) => {
+        let stone = `minecraft:${pebble}`;
+
+        if (pebble == 'stone') {
+            stone = 'minecraft:cobblestone';
+        }
+
+        if (pebble == 'deepslate') {
+            stone = 'minecraft:cobbled_deepslate';
+        }
+
+        recipes.push(
+            {
+                output: `4x enigmatica:${pebble}_pebble`,
+                inputs: [stone],
+                id: `${id_prefix}${pebble}_pebble`
+            },
+            {
+                output: stone,
+                inputs: [
+                    `enigmatica:${pebble}_pebble`,
+                    `enigmatica:${pebble}_pebble`,
+                    `enigmatica:${pebble}_pebble`,
+                    `enigmatica:${pebble}_pebble`
+                ],
+                id: `${id_prefix}${getID(stone)}_from_pebble`
+            }
+        );
+    });
+
     recipes.forEach((recipe) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);

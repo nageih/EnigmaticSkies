@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'minecraft:amethyst_shard' },
-            ingredient: { item: 'createsifter:calcite_pebble' },
+            ingredient: { item: 'enigmatica:calcite_pebble' },
             energy: 4500,
             id: `${id_prefix}amethyst_shard`
         },

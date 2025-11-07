@@ -300,4 +300,14 @@ StartupEvents.registry('item', (event) => {
     simple_items.forEach((item) => {
         event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
     });
+
+    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+
+    pebbles.forEach((item) => {
+        event
+            .create(`enigmatica:${item}_pebble`)
+            .texture(`enigmatica:item/${item}_pebble`)
+            .tag('c:pebbles')
+            .tag(`c:pebbles/${item}`);
+    });
 });
