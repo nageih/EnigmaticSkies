@@ -274,15 +274,6 @@ StartupEvents.registry('item', (event) => {
         'ruby',
         'source_berry_roll_dough',
 
-        'melon_ball',
-        'boggy_dorodango',
-        'briny_dorodango',
-        'silty_dorodango',
-        'volcanic_dorodango',
-        'cloudy_dorodango',
-        'sulfurous_dorodango',
-        'reverberating_dorodango',
-
         'antikythera_mechanism',
         'dilapidated_mechanism',
 
@@ -299,6 +290,22 @@ StartupEvents.registry('item', (event) => {
 
     simple_items.forEach((item) => {
         event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
+    });
+
+    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'sulfurous', 'reverberating'];
+
+    dorodangos.forEach((type) => {
+        let item = `${type}_dorodango`;
+
+        if (type == 'melon_ball') {
+            item = type;
+        }
+
+        event
+            .create(`enigmatica:${item}`)
+            .texture(`enigmatica:item/${item}`)
+            .tag('c:dorodangos')
+            .tag(`c:dorodangos/${type}`);
     });
 
     const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];

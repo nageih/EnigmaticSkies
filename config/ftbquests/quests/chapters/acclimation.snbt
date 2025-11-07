@@ -1206,5 +1206,32 @@
 			x: 3.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["453240979BB90EBD"]
+			id: "123BB918DF6E3936"
+			rewards: [{
+				id: "331A0165E4E1643C"
+				item: {
+					count: 1
+					id: "oritech:motor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "53633C73339E2221"
+					item: { count: 1, id: "oritech:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "459B799ED969D5DE"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.5d
+		}
 	]
 }

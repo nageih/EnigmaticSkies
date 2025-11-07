@@ -221,6 +221,7 @@
 		""
 		"&6⚠ Note: Water Sources are &nnot&r &6infinite! "
 	]
+	quest.074827E52A09685F.title: "Water"
 	quest.0751B009795D7889.quest_desc: [
 		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
 		""
@@ -653,6 +654,15 @@
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
+	quest.123BB918DF6E3936.quest_desc: [
+		"Looking for a more traditional set of pipes? These pipes from Oritech will do the job. "
+		""
+		"Simply place them down and Right-Click any pipes that connect to an inventory to toggle between Extract and Insert mode."
+		""
+		"The &7Item Pipes&r have one small quirk, however, in that they only extract from the first slot of the connected inventory."
+		""
+		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
+	]
 	quest.128449F277949E31.quest_desc: [
 		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
 		""
@@ -4306,11 +4316,11 @@
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
 	quest.616862D8ADBE3928.quest_desc: [
-		"The Freezer uses &7Icestone&r as fuel to freeze items."
-		""
 		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
 		""
 		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r."
+		""
+		"The &7Freezer&r uses &7Icestone&r as fuel."
 	]
 	quest.619FB543EE458A0E.quest_desc: [
 		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."

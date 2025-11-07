@@ -3,13 +3,13 @@ MoreJS.registerPotionBrewing((event) => {
 
     const recipes = [
         {
-            reagent: 'ars_nouveau:bombegranate_pod',
-            input: 'minecraft:awkward',
+            reagent: 'ars_nouveau:bastion_pod',
+            input: 'ars_nouveau:blasting_potion',
             output: 'minecraft:fire_resistance'
         },
         {
-            reagent: 'ars_nouveau:frostaya_pod',
-            input: 'minecraft:awkward',
+            reagent: 'ars_nouveau:bastion_pod',
+            input: 'ars_nouveau:freezing_potion',
             output: 'cold_sweat:ice_resistance'
         },
         {

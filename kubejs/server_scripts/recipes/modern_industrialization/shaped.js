@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', ' A '],
             key: {
                 A: 'create:shaft',
-                B: '#c:plates/steel',
+                B: 'modern_industrialization:steel_large_plate',
                 C: 'modern_industrialization:conductive_coil'
             },
             id: `${id_prefix}motor`

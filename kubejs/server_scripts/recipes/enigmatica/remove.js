@@ -381,9 +381,6 @@ ServerEvents.recipes((event) => {
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
         { id: /malum:spirit_infusion\/.*_impetus/ },
         { id: /malum:spirit_crucible\/node_focusing/ },
-        {
-            id: /malum:spirit_repair\/fractured_(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_impetus_restoration/
-        },
         { id: /malum:.*_from_node_(smelting|blasting)/ },
 
         // Minecraft

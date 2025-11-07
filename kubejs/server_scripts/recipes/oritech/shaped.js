@@ -233,13 +233,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}item_pipe_duct_block`
         },
         {
-            output: `oritech:item_filter_block`,
+            output: `2x oritech:item_filter_block`,
             pattern: [' A ', 'ABA', ' A '],
             key: {
-                A: '#c:ingots/andesite_alloy',
+                A: 'oritech:item_pipe',
                 B: '#minecraft:wool'
             },
             id: `${id_prefix}item_filter_block`
+        },
+        {
+            output: `8x oritech:transparent_item_pipe`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: 'oritech:item_pipe',
+                B: '#c:essences/manipulation'
+            },
+            id: `${id_prefix}transparent_item_pipe`
         }
     ];
 
