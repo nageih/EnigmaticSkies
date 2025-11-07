@@ -996,7 +996,7 @@
 		{
 			dependencies: ["62C7492F54D80CBA"]
 			icon: {
-				id: "theurgy:crystallized_water"
+				id: "aether:skyroot_water_bucket"
 			}
 			id: "074827E52A09685F"
 			rewards: [{
@@ -1008,30 +1008,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "6B040741CCB09AD7"
-					item: { count: 1, id: "createsifter:string_mesh" }
-					type: "item"
-				}
-				{
-					id: "64C24F802CD9C37E"
-					item: { count: 1, id: "theurgy:crystallized_water" }
-					type: "item"
-				}
-				{
-					id: "3E373F27F280A517"
-					item: { count: 1, id: "ae2:sky_dust" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6695A4FECB7390C0"
-					item: { count: 1, id: "aether:blue_berry" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31F1EAE8BD835576"
+				item: { count: 1, id: "aether:cold_aercloud" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -9.0d
 		}

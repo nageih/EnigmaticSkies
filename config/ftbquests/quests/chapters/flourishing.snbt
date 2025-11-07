@@ -50,7 +50,7 @@
 				}
 				{
 					id: "18451747130589E3"
-					item: { count: 1, id: "createsifter:raw_copper_piece" }
+					item: { components: { "ftbquests:missing_item": "createsifter:raw_copper_piece" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

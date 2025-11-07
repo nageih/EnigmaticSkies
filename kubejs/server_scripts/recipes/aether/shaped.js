@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             output: `aether:altar`,
             pattern: ['CCC', 'CBC', 'AAA'],
             key: {
-                A: 'minecraft:polished_andesite',
+                A: 'aether:holystone',
                 B: 'aether:ambrosium_shard',
                 C: '#aether:planks_crafting'
             },
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             output: `aether:freezer`,
             pattern: ['AAA', 'ABA', 'CCC'],
             key: {
-                A: 'minecraft:polished_andesite',
+                A: 'aether:holystone',
                 B: 'aether:icestone',
                 C: '#aether:planks_crafting'
             },

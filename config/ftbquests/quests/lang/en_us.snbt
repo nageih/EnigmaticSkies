@@ -213,11 +213,11 @@
 	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
-		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
+		"Water, precious and rare, will be hard to come by in this place. "
 		""
-		"To Sift, hold a &7Mesh&r in one hand and &7Clouds&r in the other, then simply hold the &7Right Mouse Button&r. "
+		"For now, you'll be able to condense a very small amount from the clouds around you. "
 		""
-		"Remember to keep an eye on your Hearth as well! A bucket of water will only last about 12 minutes. "
+		"Remember to keep an eye on your Hearth! A bucket of water will only last about 12 minutes. "
 		""
 		"&6⚠ Note: Water Sources are &nnot&r &6infinite! "
 	]
