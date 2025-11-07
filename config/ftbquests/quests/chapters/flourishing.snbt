@@ -50,7 +50,7 @@
 				}
 				{
 					id: "18451747130589E3"
-					item: { count: 1, id: "createsifter:raw_copper_piece" }
+					item: { components: { "ftbquests:missing_item": "createsifter:raw_copper_piece" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -503,6 +503,15 @@
 				id: "minecraft:torchflower"
 			}
 			id: "53CE92319716971B"
+			rewards: [{
+				count: 16
+				id: "0CE66A58D99AB26A"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "15D7325C0C904192"
@@ -585,6 +594,15 @@
 				id: "industrialforegoing:sludge_refiner"
 			}
 			id: "603631404C9758EB"
+			rewards: [{
+				count: 8
+				id: "64A7DDED903082F4"
+				item: {
+					count: 1
+					id: "farmersdelight:rich_soil"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -604,6 +622,15 @@
 		{
 			dependencies: ["136AD444BD07EFCF"]
 			id: "1D7DF143EDEAE1EC"
+			rewards: [{
+				count: 8
+				id: "71021D525D1628AC"
+				item: {
+					count: 1
+					id: "minecraft:red_mushroom"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7461C9162D25AE91"

@@ -213,14 +213,15 @@
 	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
-		"Water, precious and rare, will be hard to come by in this place; try sifting some out of the clouds for now. You'll find a few other useful materials scattered amongst the clouds as well."
+		"Water, precious and rare, will be hard to come by in this place. "
 		""
-		"To Sift, hold a &7Mesh&r in one hand and &7Clouds&r in the other, then simply hold the &7Right Mouse Button&r. "
+		"For now, you'll be able to condense a very small amount from the clouds around you. "
 		""
-		"Remember to keep an eye on your Hearth as well! A bucket of water will only last about 12 minutes. "
+		"Remember to keep an eye on your Hearth! A bucket of water will only last about 12 minutes. "
 		""
 		"&6⚠ Note: Water Sources are &nnot&r &6infinite! "
 	]
+	quest.074827E52A09685F.title: "Water"
 	quest.0751B009795D7889.quest_desc: [
 		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
 		""
@@ -628,6 +629,16 @@
 		"Feed them a Gysahl Cake to instantly grow them to adults!"
 	]
 	quest.10A19420BCC6991C.title: "Shady Wizard"
+	quest.11B62E499806390F.quest_desc: [
+		"A &7Tablet of Harvest&r can be a great early way to start automating crop farming."
+		""
+		"Not only does it harvest the standard crops you’d grow on farmland, but it will also easily harvest pods grown on trees, such as &7Cocoa&r, &7Mendosteen&r, or any of the other Pods from Ars Nouveau."
+		""
+		"It will require a small amount of Source from a nearby &7Source Jar&r for each crop harvested and will deposit everything into an adjacent inventory. "
+		""
+		"&a🛈 Tip: The particles denote the Ritual's "
+		"&a    working area."
+	]
 	quest.11EDFB60C787114D.quest_desc: [
 		"Goo is used to transform other materials, and thus obtain all of the tiered crafting materials used in this mod. "
 		""
@@ -643,6 +654,15 @@
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
+	quest.123BB918DF6E3936.quest_desc: [
+		"Looking for a more traditional set of pipes? These pipes from Oritech will do the job. "
+		""
+		"Simply place them down and Right-Click any pipes that connect to an inventory to toggle between Extract and Insert mode."
+		""
+		"The &7Item Pipes&r have one small quirk, however, in that they only extract from the first slot of the connected inventory."
+		""
+		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
+	]
 	quest.128449F277949E31.quest_desc: [
 		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
 		""
@@ -692,19 +712,24 @@
 		""
 		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right."
 		""
-		"It will take a minute for the &7Hearth&r to warm up but you can open the &7Trap Door&r to ensure the &7Dilapidated Boiler&r is operating."
+		"It will take a minute for the &7Hearth&r to warm up but you can open the &7Trap Door&r and descend into the basement to ensure the &7Dilapidated Boiler&r is operating."
 		"&n                                                              &r"
 		""
 		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
 		"The center of the protected area may be moved by attaching &7Smokestacks&r to the top."
 		""
-		"Fuel and a Redstone Signal are required to operate a &7Hearth&r. For &cHeating&r, power the back or left side. For &9Cooling&r, power the right side."
+		"The &7Hearth&r has two sides marked for &cHeating&r (left and back) and two for &9Cooling&r (right and bottom). "
 		"&n                                                              &r"
 		""
 		"                          &6&nFuel"
 		"    &cHeating&r                               &9Cooling&r"
 		"     &7Steam                                 &7Water"
+		"&n                                                              &r"
+		""
+		"Appropriate &7Fuel&r and a &7Redstone&r signal must be provided on these faces. "
+		""
+		"For example, pipe &7Steam&r into the left and power the back with &7Redstone&r to start heating the area."
 	]
 	quest.130A2701B96A941D.title: "Welcome to the Skies!"
 	quest.130C6FC212F64474.quest_desc: [
@@ -738,7 +763,8 @@
 	]
 	quest.136AD444BD07EFCF.quest_desc: [
 		"The &7Plant Gatherer&r and &7Plant Sower&r are two machines that go hand in hand. "
-		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
+		""
+		"By default, when the Plant &7Gatherer harvests&r a crop, it breaks it, leaving an empty plot. Therefore, the &7Sower&r is used in tandem to re-plant those plots and keep the whole system running. "
 		""
 		"You’ll want to place the &7Gatherer&r on the edge of your field, while the &7Sower&r will go in the center just underground. "
 		""
@@ -1643,7 +1669,7 @@
 		"&a    the bottom."
 	]
 	quest.271AC925824B553E.title: "Industrialist"
-	quest.2722D0A13CF02C73.quest_desc: ["A Source Condenser can be a handy way to convert Source into Liquefied Source!"]
+	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -2637,6 +2663,11 @@
 		"These quests will help you discover this mod, which is largely centered around base defense, though offers some building aids as well."
 	]
 	quest.3D9527EAA5944C17.title: "Modular Force Fields"
+	quest.3DD21FD2F10FE43D.quest_desc: [
+		"Primarily used to make &7Rubber Sheets&r, &7Latex&r is also used in its raw form for a variety of recipes. "
+		""
+		"You’ll want to spend some time figuring out a way to automate production. "
+	]
 	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
@@ -2858,11 +2889,11 @@
 	quest.410225ED927857D4.quest_desc: [
 		"These three machines can be put together to farm passive mobs automatically. "
 		""
-		"First, the Animal Feeder will keep your animals fed, happy, and making babies. This will stop working automatically when there are too many animals in the working area. "
+		"First, the &7Animal Feeder&r will keep your animals fed, happy, and making babies. This will stop working automatically when there are too many animals in the working area. "
 		""
-		"The Animal Rancher can be used in the same area to gather Wool from Sheep and Milk from Cows. "
+		"The &7Animal Rancher&r can be used in the same area to gather Wool from Sheep and Milk from Cows. "
 		""
-		"The Animal Baby Separator can then be used to send the babies to a holding area while they grow up. This block also has a reverse mode to separate the grown animals out from the baby holding area and into their final destination, the Slaughter Factory."
+		"The &7Animal Baby Separator&r can then be used to send the babies to a holding area while they grow up. This block also has a reverse mode to separate the grown animals out from the baby holding area and into their final destination."
 		""
 		"&a🛈 Tip: Install matching Range Addons "
 		"&a    in each to cover the appropriate "
@@ -2928,9 +2959,14 @@
 		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.427846D4FFE678C5.quest_desc: [
-		"Consuming &7Life Shards&r has been known to provide certain health benefits. "
+		"Once viewed as barbaric superstition, the act of inserting &7Life Shards&r under one’s skin to boost vitality was ridiculed for centuries. "
+		""
+		"Once put to more empirical testing, however, their efficacy was undeniable. "
 		""
 		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
+		""
+		"&a🛈 Tip: Eating Life Shards will increase "
+		"&a    your max health by one Heart each!"
 	]
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
@@ -3201,7 +3237,9 @@
 	quest.47AFEF3DCB2990FB.quest_desc: [
 		"Operating the &7Large Steam Boiler&r will need some liquid fuel. "
 		""
-		"All available fuels are listed in EMI, just search the uses for the &7Boiler&r. To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
+		"All available fuels are listed in EMI, just search the uses for the &7Boiler&r. "
+		""
+		"To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
 	]
 	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
@@ -3314,6 +3352,11 @@
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
+	]
+	quest.49968116FCB311B0.quest_desc: [
+		"A precious gem known for its hardness, &7Ruby&r has long been used as a bearing in precision machinery. "
+		""
+		"It also makes an excellent focus for certain magical pursuits. "
 	]
 	quest.49E18B07D6E4A5EB.quest_desc: [
 		"With the latent energies in Ambrosium, we can create a Fermentation Vat to magically transmute certain materials. "
@@ -3825,9 +3868,9 @@
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
 	quest.538CE12C982D950E.title: "Strigeor's Higher Binding"
 	quest.53CE92319716971B.quest_desc: [
-		"Minecraft has long allowed you to duplicate tall flowers such as Rose Bushes by applying Bone Meal. "
+		"Minecraft has long allowed you to duplicate tall flowers such as &7Rose Bushes&r by applying &7Bone Meal&r. "
 		""
-		"Here, that ability is extended to small flowers as well. "
+		"Here, that ability is extended to &7small flowers&r as well. "
 	]
 	quest.53CE92319716971B.title: "Small Flower Duplication"
 	quest.540133B792547B21.quest_desc: [
@@ -4151,13 +4194,13 @@
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5E727F7B600E0E91.quest_desc: [
-		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
+		"The &7Dissolution Chamber&r combines multiple ingredients with some type of fluid. "
 		""
 		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
 		""
 		"This way it can run larger batches as you work on other things."
 		""
-		"&6⚠ Note: The input items can be in any "
+		"&6⚠ Note: The items may be input in any "
 		"&6    order!"
 	]
 	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
@@ -4198,7 +4241,7 @@
 		""
 		"In this case, the &7Large Steam Boiler&r only requires Fluid Hatches; it does not accept solid fuel."
 		""
-		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Large Steam Boiler block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. &7Large Steam Boiler&r block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -4278,11 +4321,11 @@
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
 	quest.616862D8ADBE3928.quest_desc: [
-		"The Freezer uses &7Icestone&r as fuel to freeze items."
-		""
 		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
 		""
 		"Freeze a &7Water Bucket&r and then re-freeze it until you get &7Blue Ice&r."
+		""
+		"The &7Freezer&r uses &7Icestone&r as fuel."
 	]
 	quest.619FB543EE458A0E.quest_desc: [
 		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
@@ -4353,7 +4396,7 @@
 	quest.625AE1AEF37DAE03.quest_desc: [
 		"One of several options for automated farming. It has its quirks, but it’ll do for now. "
 		""
-		"Remember to set up an Agronomic Sourcelink nearby to capture some extra Source from your crop farms!"
+		"Remember to set up an &7Agronomic Sourcelink&r nearby to capture some extra Source from your crop farms!"
 		""
 		"&a🛈 Tip: Right-Click this machine with a "
 		"&a    Compass to adjust the working "
@@ -4713,9 +4756,11 @@
 		"&a    easily configure the working area."
 	]
 	quest.6806970967942788.quest_desc: [
-		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. Who will, in exchange for a hearty breakfast, gladly provide you with all the parts you need to start making power and automating water production."
+		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r and &7automating water&r production."
 		""
-		"The &7Coffee Maker&r may also be used to automatically brew coffee. Simply pipe in the ingredients, supply some energy, and provide it a &7Redstone Signal&r to make it start."
+		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
+		""
+		"Simply pipe in the ingredients, supply some energy, and provide it a &7Redstone Signal&r to make it start."
 	]
 	quest.68079D29B91FC30A.quest_desc: [
 		"Modern Industrialization has its own Villager which can help you dramatically in the early game, selling you Steel Hammers, Analog Circuits, and other items to get you through the first tiers quickly."
@@ -5665,7 +5710,7 @@
 	quest.7A6226AD0E9C674F.quest_desc: [
 		"The &7Offering Table&r is a simple multi-block structure that requires two concentric circles of flowers around it. "
 		""
-		"The &7Book of Natural Aura&r will show you a preview of the layout."
+		"The &7Book of Natural Aura&r will show you a preview of the layout. "
 	]
 	quest.7AA55D33A2BD1E6E.quest_desc: [
 		"The Industrial Squeezer is primarily used for obtaining Plant Oil, it’s also the only source of HOP Graphite used in advanced crafts. "
@@ -5834,7 +5879,7 @@
 	task.1291CAC439E06D6C.title: "Rune"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
-	task.15D7325C0C904192.title: "Any #minecraft:small_flowers"
+	task.15D7325C0C904192.title: "Any Small Flower"
 	task.182F13A34DA8D2F3.title: "\"IOU\""
 	task.18527FE87BB2DCD9.title: "Industrial Foregoing"
 	task.18C2AC93B4E7D144.title: "Excavator"

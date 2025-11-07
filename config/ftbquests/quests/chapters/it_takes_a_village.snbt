@@ -55,7 +55,7 @@
 				}
 				{
 					id: "4D39133F906BA8E3"
-					item: { count: 1, id: "createsifter:raw_gold_piece" }
+					item: { components: { "ftbquests:missing_item": "createsifter:raw_gold_piece" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

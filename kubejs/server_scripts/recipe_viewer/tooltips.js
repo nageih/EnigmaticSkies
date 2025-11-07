@@ -172,9 +172,6 @@ ItemEvents.modifyTooltips((event) => {
                 'functionalstorage:ender_drawer',
                 'occultism:stable_wormhole',
                 'occultism:storage_controller',
-                'mekanism:qio_dashboard',
-                'mekanism:qio_drive_array',
-                'mekanism:portable_qio_dashboard',
                 'occultism:storage_remote',
                 'enderstorage:ender_pouch',
                 'enderstorage:ender_chest',
@@ -184,10 +181,6 @@ ItemEvents.modifyTooltips((event) => {
         },
         {
             items: [
-                'mekanism:quantum_entangloporter',
-                'mekanism:qio_redstone_adapter',
-                'mekanism:qio_exporter',
-                'mekanism:qio_importer',
                 'ae2:quantum_link',
                 'ae2:quantum_ring',
                 'laserio:laser_connector_advanced',

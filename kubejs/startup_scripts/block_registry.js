@@ -39,7 +39,7 @@ StartupEvents.registry('block', (event) => {
 
     const brilliant_dorodangos = [
         'Brilliant Cold Aercloud',
-        'Brilliant Crushed Basalt',
+        'Brilliant Smooth Basalt',
         'Brilliant Golden Aercloud',
         'Brilliant Mud',
         'Brilliant Salt',

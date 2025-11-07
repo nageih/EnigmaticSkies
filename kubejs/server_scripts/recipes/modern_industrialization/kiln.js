@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             item_outputs: { item: 'create:andesite_alloy', amount: 1 },
             item_inputs: [
                 { tag: 'c:dusts/sky_stone', amount: 1 },
-                { item: 'createsifter:andesite_pebble', amount: 1 }
+                { item: 'enigmatica:andesite_pebble', amount: 1 }
             ],
             duration: 10,
             eu: 2,

@@ -114,20 +114,20 @@ ServerEvents.recipes((event) => {
             {
                 output: AlmostUnified.getTagTargetItem(`c:raw_materials/${material}`).getId(),
                 inputs: [
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`
                 ],
                 id: `${id_prefix}raw_${material}_piece`
             },
             {
                 output: `3x ${AlmostUnified.getTagTargetItem(`c:raw_materials/${material}`).getId()}`,
                 inputs: [
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`,
-                    `createsifter:raw_${material}_piece`,
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`,
+                    `oritech:small_${material}_clump`,
                     `malum:${material}_node`
                 ],
                 id: `${id_prefix}raw_${material}_piece_with_node`

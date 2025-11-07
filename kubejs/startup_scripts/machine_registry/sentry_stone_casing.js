@@ -17,5 +17,5 @@
 */
 
 MIMachineEvents.registerCasings((event) => {
-    event.registerBlockImitation('andesite_casing', 'minecraft:polished_andesite');
+    event.registerBlockImitation('sentry_stone_casing', 'aether:sentry_stone');
 });

@@ -16,10 +16,15 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'minecraft:moss_block', count: 2 },
             lower_input: { id: 'minecraft:moss_carpet', count: 3 },
             id: `${id_prefix}moss_carpet_to_moss_block`
+        },
+        {
+            higher_input: { id: 'actuallyadditions:black_quartz_block', count: 1 },
+            lower_input: { id: 'actuallyadditions:black_quartz', count: 4 },
+            id: `${id_prefix}black_quartz_to_block`
         }
     ];
 
-    const pebbles = ['andesite', 'basalt', 'blackstone', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
 
     pebbles.forEach((pebble) => {
         let stone = `minecraft:${pebble}`;
@@ -34,7 +39,7 @@ ServerEvents.recipes((event) => {
 
         recipes.push({
             higher_input: { id: stone, count: 1 },
-            lower_input: { id: `createsifter:${pebble}_pebble`, count: 4 },
+            lower_input: { id: `enigmatica:${pebble}_pebble`, count: 4 },
             id: `${id_prefix}${pebble}_pebble_to_${getID(stone)}`
         });
     });

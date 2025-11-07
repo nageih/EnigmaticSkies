@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}silty_dorodango`
         },
         {
-            input: 'createsifter:crushed_basalt',
+            input: 'minecraft:smooth_basalt',
             table: 'enigmatica:archaeology/volcanic_dorodango',
             weight: 100,
             id: `${id_prefix}volcanic_dorodango`
@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}brilliant_silty_dorodango`
         },
         {
-            input: 'enigmatica:brilliant_crushed_basalt',
+            input: 'enigmatica:brilliant_smooth_basalt',
             table: 'enigmatica:archaeology/brilliant_volcanic_dorodango',
             weight: 100,
             id: `${id_prefix}brilliant_volcanic_dorodango`

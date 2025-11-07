@@ -27,10 +27,10 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}brilliant_mud`
         },
         {
-            result: { id: 'enigmatica:brilliant_crushed_basalt', count: 1 },
-            ingredient: { item: 'createsifter:crushed_basalt' },
+            result: { id: 'enigmatica:brilliant_smooth_basalt', count: 1 },
+            ingredient: { item: 'minecraft:smooth_basalt' },
             weight: 100,
-            id: `${id_prefix}brilliant_crushed_basalt`
+            id: `${id_prefix}brilliant_smooth_basalt`
         },
         {
             result: { id: 'enigmatica:brilliant_salt', count: 1 },
