@@ -44,7 +44,7 @@ MITweaksMachineEvents.registerPowerlessMachines((event) => {
         // Fluid slot positions
         (fluids) => fluids.addSlots(55, 35, 1, 1).addSlots(125, 35, 1, 1),
         // Casing of the machine, overlay folder, front overlay?, top overlay?, side overlay?
-        'bricks',
+        'sentry_stone_casing',
         'dilapidated_boiler',
         true,
         false,

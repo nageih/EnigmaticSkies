@@ -8,13 +8,6 @@ ServerEvents.recipes((event) => {
             cookingtime: 10,
             experience: 0.15,
             id: `${id_prefix}plastic`
-        },
-        {
-            result: { id: 'aether:blue_berry', count: 1 },
-            ingredient: { item: 'aether:blue_aercloud' },
-            cookingtime: 5,
-            experience: 0.15,
-            id: `${id_prefix}blue_berry`
         }
     ];
 
