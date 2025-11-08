@@ -464,7 +464,7 @@
 				}
 				{
 					id: "1E4E5D2B9B36005C"
-					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk)item(enigmatica:brilliant_crushed_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_cold_aercloud))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_cold_aercloud)item(enigmatica:brilliant_smooth_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

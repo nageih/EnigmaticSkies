@@ -1,7 +1,7 @@
 //priority: 1000
 LootJS.lootTables((event) => {
     const types = [
-        { id: 'melon_ball', rolls: [6, 9] },
+        { id: 'melon_ball', rolls: [6, 12] },
         { id: 'boggy_dorodango', rolls: [2, 5] },
         { id: 'briny_dorodango', rolls: [2, 5] },
         { id: 'silty_dorodango', rolls: [2, 5] },
@@ -18,7 +18,7 @@ LootJS.lootTables((event) => {
         });
 
         type.rolls = type.rolls.map((r) => {
-            return r * 4;
+            return r * 6;
         });
 
         event.create(`enigmatica:archaeology/brilliant_${type.id}`, LootType.ARCHAEOLOGY).createPool((pool) => {
