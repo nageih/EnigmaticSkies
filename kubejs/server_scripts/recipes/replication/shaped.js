@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: 'replication:matter_tank',
             pattern: ['ABA', 'ACA', 'ABA'],
             key: {
-                A: 'pneumaticcraft:plastic',
+                A: '#c:plates/silicon',
                 B: '#c:gems/empowered_void',
                 C: 'malum:spirit_jar'
             },
@@ -14,38 +14,49 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'replication:disintegrator',
-            pattern: ['ABA', 'CDC', 'AEA'],
+            pattern: ['AB ', 'CE ', 'FDF'],
             key: {
-                A: 'pneumaticcraft:plastic',
+                A: 'create:mechanical_arm',
                 B: 'ae2:annihilation_plane',
                 C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:iron_casing',
-                E: 'actuallyadditions:advanced_coil'
+                D: 'actuallyadditions:advanced_coil',
+                E: 'enderio:ensouled_chassis',
+                F: '#c:plates/silicon'
             },
             id: `${id_prefix}disintegrator`
         },
         {
             output: 'replication:replicator',
-            pattern: ['ABA', 'CDC', 'AEA'],
+            pattern: ['AB ', 'CE ', 'FDF'],
             key: {
-                A: 'pneumaticcraft:plastic',
+                A: 'create:mechanical_arm',
                 B: 'ae2:formation_plane',
                 C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:iron_casing',
-                E: 'actuallyadditions:advanced_coil'
+                D: 'actuallyadditions:advanced_coil',
+                E: 'enderio:ensouled_chassis',
+                F: '#c:plates/silicon'
             },
             id: `${id_prefix}replicator`
         },
         {
             output: 'replication:chip_storage',
-            pattern: ['BCB', 'ADA'],
+            pattern: ['CAC', 'ABA', 'CAC'],
             key: {
-                A: 'pneumaticcraft:plastic',
-                B: '#c:gems/empowered_emeradic',
-                C: 'ars_nouveau:repository_controller',
-                D: 'actuallyadditions:advanced_coil'
+                A: '#c:gems/empowered_emeradic',
+                B: 'ars_nouveau:repository_controller',
+                C: '#c:plates/silicon'
             },
             id: `${id_prefix}chip_storage`
+        },
+        {
+            output: 'replication:memory_chip',
+            pattern: [' AB', 'ACA', 'BA '],
+            key: {
+                A: 'malum:mnemonic_fragment',
+                B: '#c:plates/silicon',
+                C: '#c:gems/empowered_emeradic'
+            },
+            id: `${id_prefix}memory_chip`
         }
     ];
 

@@ -36,24 +36,34 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["45E411460C53A082"]
+			dependencies: ["37AA9E6270DB015A"]
 			id: "1BDCA4CF5ED739BA"
 			tasks: [{
 				id: "333A20DA4A9AE868"
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
+			icon: {
+				id: "malum:cursed_sapball"
+			}
 			id: "69EE67B1B612D74D"
-			tasks: [{
-				id: "3F351353614B5ED8"
-				item: { count: 1, id: "oritech:wither_crop_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D54ECB6FDA335B7"
+					item: { count: 1, id: "malum:cursed_sap" }
+					type: "item"
+				}
+				{
+					id: "63076E21C75B3AEE"
+					item: { count: 1, id: "malum:cursed_sapball" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.5d
 		}
@@ -66,7 +76,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["37ED5A328F30DD34"]
@@ -209,23 +219,12 @@
 		{
 			dependencies: [
 				"74F028BA5DC3CF54"
-				"07FFBD39930CE9F7"
+				"503873180200D878"
 			]
 			id: "67B5706C2EE25C56"
 			tasks: [{
 				id: "4B32443EB1E1FFB4"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["67B5706C2EE25C56"]
-			id: "4E2F4A7BBD4D51E5"
-			tasks: [{
-				id: "6707A2031976B863"
-				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -249,10 +248,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"42F2191B5C08849B"
-				"0458B6BC887C9725"
-			]
+			dependencies: ["1C9565D5C51B74CC"]
 			icon: {
 				id: "ars_nouveau:wilden_wing"
 			}
@@ -272,13 +268,10 @@
 				}
 			]
 			x: 4.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
-			dependencies: [
-				"6660BE0C308A1744"
-				"0458B6BC887C9725"
-			]
+			dependencies: ["1C9565D5C51B74CC"]
 			icon: {
 				id: "ars_nouveau:wilden_horn"
 			}
@@ -304,13 +297,10 @@
 				}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4B2DF8F028C3CFA0"
-				"619FB543EE458A0E"
-			]
+			dependencies: ["1C9565D5C51B74CC"]
 			icon: {
 				id: "ars_nouveau:wilden_spike"
 			}
@@ -331,7 +321,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -358,7 +348,7 @@
 				}
 			]
 			x: 3.0d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -389,7 +379,7 @@
 				}
 			]
 			x: 1.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -417,7 +407,7 @@
 				}
 			]
 			x: 2.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -445,7 +435,7 @@
 				}
 			]
 			x: 5.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -473,7 +463,7 @@
 				}
 			]
 			x: 4.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -501,13 +491,10 @@
 				}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
-			dependencies: [
-				"45E411460C53A082"
-				"5D74493BC797D6F0"
-			]
+			dependencies: ["46DDBE0A9170F54A"]
 			id: "0BB6D2595F99ADB4"
 			tasks: [{
 				id: "37B6111D465814BB"
@@ -515,10 +502,10 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4E2F4A7BBD4D51E5"]
+			dependencies: ["67B5706C2EE25C56"]
 			id: "45E411460C53A082"
 			tasks: [{
 				id: "3E4DCDF1FABBA45E"
@@ -536,11 +523,11 @@
 				item: { count: 1, id: "justdirethings:clickert2" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["45E411460C53A082"]
+			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
 					"ftbquests:icon": "occultism:item/mysterious_egg_icon"
@@ -561,8 +548,8 @@
 				id: "2A7052B5A35B4A22"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -595,7 +582,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -606,7 +593,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -617,7 +604,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -628,7 +615,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -655,18 +642,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["45E411460C53A082"]
-			id: "13C820C293A11CF5"
-			tasks: [{
-				id: "19AC1A63FDFB479A"
-				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["37AA9E6270DB015A"]
@@ -676,8 +652,8 @@
 				item: { count: 1, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["45E411460C53A082"]
@@ -695,8 +671,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 5.5d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["43580B4D15FCEF00"]
@@ -706,11 +682,11 @@
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.5d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["1D2F5CE5D285BAEA"]
+			dependencies: ["1C9565D5C51B74CC"]
 			icon: {
 				id: "ars_nouveau:whirlisprig_shards"
 			}
@@ -728,8 +704,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 7.5d
+			x: 5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -757,6 +733,129 @@
 			]
 			x: 6.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["37AA9E6270DB015A"]
+			id: "76C7791F65C766D7"
+			tasks: [{
+				id: "5FF0B115775E75EA"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"45E411460C53A082"
+				"5D74493BC797D6F0"
+			]
+			id: "46DDBE0A9170F54A"
+			tasks: [{
+				id: "037120BB32549D13"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6660BE0C308A1744"
+				"619FB543EE458A0E"
+				"42F2191B5C08849B"
+				"0458B6BC887C9725"
+				"4B2DF8F028C3CFA0"
+				"1D2F5CE5D285BAEA"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "enderio:slice_and_splice"
+			}
+			id: "1C9565D5C51B74CC"
+			rewards: [{
+				id: "385AFD16C89E2A2A"
+				item: {
+					count: 1
+					id: "enderio:basic_capacitor"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BB2AF24A54DD547"
+					item: { count: 1, id: "geneticsresequenced:cell_analyzer" }
+					type: "item"
+				}
+				{
+					id: "5F59D86D2518F1E6"
+					item: { count: 1, id: "geneticsresequenced:dna_extractor" }
+					type: "item"
+				}
+				{
+					id: "57DE069B7109EC28"
+					item: { count: 1, id: "enderio:slice_and_splice" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["45E411460C53A082"]
+			id: "32F0D3C28B904870"
+			tasks: [{
+				id: "6AF648BBD1E4EFA2"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67B5706C2EE25C56"]
+			icon: {
+				id: "replication:replicator"
+			}
+			id: "577337FFD6AD9C83"
+			tasks: [
+				{
+					id: "2FEE70AF4745A202"
+					item: { count: 1, id: "replication:disintegrator" }
+					type: "item"
+				}
+				{
+					id: "5669618BC505ACBE"
+					item: { count: 1, id: "replication:replicator" }
+					type: "item"
+				}
+				{
+					id: "0ADDA12DBBB2F3D0"
+					item: { count: 1, id: "replication:memory_chip" }
+					type: "item"
+				}
+				{
+					id: "6A094BB5D3367B42"
+					item: { count: 1, id: "replication:chip_storage" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5E727F7B600E0E91"
+				"3753A3EB1909F923"
+			]
+			id: "3D3DEDBC67E91455"
+			tasks: [{
+				id: "621871FD57676367"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
 		}
 	]
 }

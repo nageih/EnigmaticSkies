@@ -74,6 +74,26 @@ ServerEvents.recipes((event) => {
                 C: 'actuallyadditions:basic_coil'
             },
             id: `${id_prefix}advanced_coil`
+        },
+        {
+            output: 'actuallyadditions:empowerer',
+            pattern: [' A ', 'ABA'],
+            key: {
+                A: '#c:gems/empowered_restonia',
+                B: 'actuallyadditions:display_stand'
+            },
+            id: `${id_prefix}empowerer`
+        },
+        {
+            output: 'actuallyadditions:display_stand',
+            pattern: ['ABA', 'CDC'],
+            key: {
+                A: 'actuallyadditions:ethetic_green_block',
+                B: 'industrialforegoing:machine_frame_simple',
+                C: 'actuallyadditions:ethetic_white_block',
+                D: 'actuallyadditions:advanced_coil'
+            },
+            id: `${id_prefix}display_stand`
         }
     ];
 

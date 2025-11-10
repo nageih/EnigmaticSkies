@@ -63,25 +63,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}calling_spirit`
         },
         {
-            output: { id: 'justdirethings:gooblock_tier3', count: 1 },
-            ingredient: { item: 'justdirethings:gooblock_tier2', count: 1 },
-            extraIngredients: [
-                {
-                    type: 'neoforge:components',
-                    items: 'naturesaura:aura_bottle',
-                    components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:end' } },
-                    count: 16
-                },
-                { tag: 'c:gems/empowered_void', count: 16 }
-            ],
-            spirits: [
-                { type: 'arcane', count: 4 },
-                { type: 'eldritch', count: 4 },
-                { type: 'wicked', count: 4 }
-            ],
-            id: `${id_prefix}gooblock_tier3`
-        },
-        {
             output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
             ingredient: { tag: 'c:ingots/energetic_alloy', count: 1 },
             extraIngredients: [{ item: 'malum:paracausal_flame', count: 1 }],
@@ -238,9 +219,10 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: 'c:ingots/iesnium', count: 4 },
             extraIngredients: [{ item: 'minecraft:cookie', count: 12 }],
             spirits: [
-                { type: 'sacred', count: 16 },
-                { type: 'arcane', count: 16 },
-                { type: 'aerial', count: 16 }
+                { type: 'sacred', count: 4 },
+                { type: 'arcane', count: 4 },
+                { type: 'aqueous', count: 4 },
+                { type: 'aerial', count: 4 }
             ],
             id: `${id_prefix}magic_lamp_empty`
         },
@@ -258,6 +240,22 @@ ServerEvents.recipes((event) => {
                 { type: 'aqueous', count: 64 }
             ],
             id: `${id_prefix}large_steam_turbine`
+        },
+        {
+            output: { id: 'ae2:controller', count: 1 },
+            ingredient: { item: 'ae2:mysterious_cube', count: 1 },
+            extraIngredients: [
+                { tag: 'c:gems/mnemonic_fragment', count: 4 },
+                { item: 'enigmatica:magic_lamp', count: 1 },
+                { item: 'naturesaura:item_distributor', count: 1 }
+            ],
+            spirits: [
+                { type: 'sacred', count: 4 },
+                { type: 'arcane', count: 4 },
+                { type: 'aqueous', count: 4 },
+                { type: 'aerial', count: 4 }
+            ],
+            id: `${id_prefix}controller`
         }
     ];
 

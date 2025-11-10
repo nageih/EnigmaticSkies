@@ -36,10 +36,20 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'modern_industrialization:stainless_steel_large_plate',
-                B: 'modern_industrialization:digital_circuit',
-                C: '#c:gears/energized'
+                B: 'modern_industrialization:electronic_circuit',
+                C: '#c:gears/dark_steel'
             },
             id: `${id_prefix}clean_stainless_steel_machine_casing`
+        },
+        {
+            output: `modern_industrialization:quantum_machine_casing`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:iridium_large_plate',
+                B: 'modern_industrialization:digital_circuit',
+                C: '#c:gears/vibrant'
+            },
+            id: `${id_prefix}quantum_machine_casing`
         },
         {
             output: `modern_industrialization:bronze_compressor`,

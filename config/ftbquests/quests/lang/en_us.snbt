@@ -7,7 +7,6 @@
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
-	chapter.1514913DA64A98EB.title: "Ender IO"
 	chapter.17B9F323B083C6C2.title: "It Takes a Village"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.24DC8C08564BB550.title: "Actually Additions"
@@ -381,7 +380,7 @@
 	quest.0BB6D2595F99ADB4.quest_desc: [
 		"Now that we can animate blocks and start collecting more varied Spirits, it’s time to delve into genetic manipulation."
 		""
-		"Craft a Scraper and Right-Click any mob to gather Organic Matter. "
+		"Craft a &7Scraper&r and Right-Click mobs to gather their &7Organic Matter&r. "
 		""
 		"&a🛈 Tip: The Delicate Touch enchantment "
 		"&a    makes Scrapers deal no damage!"
@@ -1206,6 +1205,13 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1C9565D5C51B74CC.quest_desc: [
+		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
+		""
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
+	]
+	quest.1C9565D5C51B74CC.title: "Genetics"
 	quest.1CEDA28FD4CB759E.quest_desc: [
 		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
 		""
@@ -1251,7 +1257,7 @@
 		"This is where you'll want to set up an Excavator."
 	]
 	quest.1D2F5CE5D285BAEA.quest_desc: [
-		"Whirlisprigs once roamed the lands, tending to the natural world. It’s been an age since they’ve been seen, but perhaps that can be rectified?"
+		"&7Whirlisprigs&r once roamed the lands, tending to the natural world. It’s been an age since they’ve been seen, but perhaps that can be rectified?"
 		""
 		"Ancient texts alluded to them being related in nature to the &7Allay&r, a creature we can call forth with a little effort…"
 		"&n                                                  &r"
@@ -1262,6 +1268,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.1D2F5CE5D285BAEA.quest_subtitle: "Rub me the right way"
 	quest.1D2F5CE5D285BAEA.title: "Genie in a Bottle"
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1D5616DFA428D46F.quest_desc: [
@@ -1374,7 +1381,6 @@
 		"&c    will cast it, expending forever."
 	]
 	quest.1ED9BF551B4E2420.title: "Marid Crusher"
-	quest.1F1B78D4388E9332.quest_desc: [""]
 	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
 	quest.1FC45862126DC511.quest_desc: ["add iron's spell scrolls to witches, or otherwise make the research fragment useful in obtaining spells from Ars and Iron's"]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
@@ -1737,6 +1743,10 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
 		""
 		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
+	]
+	quest.28E44D5D6A6C1D6E.quest_desc: [
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
 	]
 	quest.28EAC6C33A575A42.quest_desc: [
 		"Transmutation is the process of turning one item type into another. In previous sections we used Lapis, a common gem, to make more Quartz, another common gem. "
@@ -2244,6 +2254,7 @@
 		""
 		"Well worth the extra energy costs, to be sure. "
 	]
+	quest.36A482587B5E89F7.quest_subtitle: "Dorodango Unchained"
 	quest.3753A3EB1909F923.quest_desc: [
 		"Made from &7Salt&r, &7Briny Dorodangos&r may be processed down into new materials!"
 		""
@@ -2258,9 +2269,9 @@
 		""
 		"Each &7Display Stand&r must be placed three blocks away from the &7Empowerer&r in each of the cardinal directions. "
 		""
-		"When crafting, the central item in the recipe goes on the &7Empowerer&r while the other four blocks are placed in any order on the surrounding &7Display Stands&r. "
+		"When crafting, the central item in the recipe goes on the &7Empowerer&r while the other four items are placed in any order on the surrounding &7Display Stands&r. "
 		""
-		"Energy must be provided to each of the four Display Stands."
+		"Energy must be provided to each of the four &7Display Stands&r. "
 	]
 	quest.37C965C1FA40221E.quest_desc: [
 		"&7Spell Turrets&r can be an incredibly powerful automation tool for casting prepared spells. "
@@ -2277,13 +2288,13 @@
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37ED5A328F30DD34.quest_desc: [
-		"Creating monsters is no small feat and we’re going to need some specific materials to pull it off. "
+		"Creating monsters is no small feat and we’re going to need some very specific materials to pull it off. "
 		""
 		"We’ll start with something easy, slimes. We can lean on the latent magic in certain foods to get the process going, though it's still going to need an extra nudge."
 		""
-		"Gather some Spirits of Birthing by manually breeding animals in a high Aura environment. "
+		"Gather some &7Spirits of Birthing&r by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a Scythe to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r to properly harvest the Spirits in them."
 		""
 		"&a🛈 Tip: Apply Spirit Plunder to your "
 		"&a    weapon for even more Spirits!"
@@ -2644,7 +2655,6 @@
 		""
 		"  • Auto-harvesting in &7Hydroponic Beds&r"
 		"  • Gentle-harvesting in the &7Plant Gatherer&r"
-		"  • Better rates in the &7Fermentation Station&r"
 		""
 		"It's also a vital component for more advanced machinery!"
 	]
@@ -3637,12 +3647,6 @@
 		""
 		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
 	]
-	quest.4E2F4A7BBD4D51E5.quest_desc: [
-		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
-		""
-		"&6⚠ Note: Machines require a Capacitor "
-		"&6    to store energy and operate."
-	]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -3732,6 +3736,15 @@
 		"The Hopper Enhancement is placed on top of a Hopper, allowing it to pick up items from up to seven blocks away. "
 		""
 		"When coupled with an Adept Hopper, it can be filtered to specific items."
+	]
+	quest.503873180200D878.quest_desc: [
+		"Made from &7Sculk&r, &7Reverberating Dorodangos&r may be processed down into new materials!"
+		""
+		"  &n&6Materials&r"
+		""
+		"  • &7Zanite Gemstone&r"
+		"  • &7Echo Dust&r"
+		"  • &7Otherworld Ashes&r"
 	]
 	quest.503E9805EC687D70.title: "Eziveus' Spectral Compulsion"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
@@ -3954,6 +3967,7 @@
 		""
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
+	quest.577337FFD6AD9C83.title: "Replication"
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""
@@ -4718,6 +4732,10 @@
 		""
 		"Overheating may not seem like a threat at the moment, but be aware that holding certain items, like Lava Buckets, will affect your body temperature."
 	]
+	quest.6705BECBD94CAAAD.quest_desc: [
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
+	]
 	quest.6728201CEC8220A3.quest_desc: [
 		"If, for whatever reason, your Pentacle becomes damaged, worry not. All the materials to recreate it are easily accessible at this point. "
 		""
@@ -4782,6 +4800,10 @@
 		"&a    on the Actuator to link them."
 	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
+	quest.687E532AD956C57A.quest_desc: [
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
+	]
 	quest.68C212D2C7F8B308.quest_desc: [
 		"Animate a Wilden Defender and harvest it for parts."
 		""
@@ -4880,7 +4902,15 @@
 		"  module. "
 	]
 	quest.69D23BB3D7670DFC.title: "Shape Modification"
-	quest.69EE67B1B612D74D.quest_desc: ["&7Soul Flowers&r may be planted and grown on any Farmland, making them considerably simpler to farm than &7Netherwart&r."]
+	quest.69EE67B1B612D74D.quest_desc: [
+		"Climb to the top of the island and approach the &7Soulwood Tree&r located there. "
+		""
+		"You’ll find several &7Exposed Soulwood Logs&r which can be stripped with an &7Axe&r. "
+		""
+		"Right Click the &7Revealed Soulwood Log&r with a &7Glass Bottle&r to obtain some &7Cursed Sap&r."
+		""
+		"A few of these &7Exposed Logs&r will spawn in every new &7Soulwood Tree&r you grow, allowing you to obtain more as needed."
+	]
 	quest.6A3F652A680598E6.quest_desc: [
 		"Exaltation is the process by which materials are changed between different qualities. "
 		""

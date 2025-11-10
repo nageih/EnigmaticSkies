@@ -81,11 +81,45 @@ ServerEvents.recipes((event) => {
                 A: 'create:mechanical_arm',
                 B: 'ars_nouveau:wixie_charm',
                 C: '#c:gears/energized',
-                D: 'enderio:void_chassis',
+                D: 'industrialforegoing:machine_frame_simple',
                 E: 'modern_industrialization:motor',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}crafter`
+        },
+        {
+            output: `enderio:ensouled_chassis`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'enderio:soul_chain',
+                B: '#c:ingots/soularium',
+                C: 'malum:cursed_sapball'
+            },
+            id: `${id_prefix}ensouled_chassis`
+        },
+        {
+            output: `enderio:sag_mill`,
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: '#c:gears/dark_steel',
+                C: 'industrialforegoing:machine_frame_simple',
+                D: 'modern_industrialization:motor',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}sag_mill`
+        },
+        {
+            output: `enderio:alloy_smelter`,
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'modern_industrialization:steel_furnace',
+                C: 'industrialforegoing:machine_frame_simple',
+                D: 'modern_industrialization:energetic_coil',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}alloy_smelter`
         }
     ];
 

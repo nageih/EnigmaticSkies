@@ -4,11 +4,10 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'geneticsresequenced:scraper[unbreakable={}]',
-            pattern: [' BC', ' AB', 'A  '],
+            pattern: [' BA', ' AB', 'A  '],
             key: {
-                A: `#c:rods/wooden`,
-                B: '#c:plates/steel',
-                C: `#c:gems/empowered_void`
+                A: `naturesaura:ancient_stick`,
+                B: 'malum:soul_stained_steel_plating'
             },
             id: `${id_prefix}scraper`
         },

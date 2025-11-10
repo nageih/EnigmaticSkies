@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:guardian_diode', count: 1 },
             inputs: [
                 { tag: 'c:ingots/brass' },
-                { item: 'aquaculture:fish_bones' },
+                { item: 'minecraft:conduit' },
                 { tag: 'c:ingots/brass' },
                 { item: 'minecraft:sea_lantern' },
                 { item: 'enderio:double_layer_capacitor' },
@@ -161,7 +161,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enderio:ender_crystal' },
                 { tag: 'c:ingots/end_steel' },
                 { item: 'enderio:prescient_powder' },
-                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'enderio:octadic_capacitor' },
                 { item: 'enderio:prescient_powder' }
             ],
             energy: 20000,

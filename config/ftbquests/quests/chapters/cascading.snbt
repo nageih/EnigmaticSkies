@@ -217,20 +217,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"5E727F7B600E0E91"
-				"3753A3EB1909F923"
-			]
-			id: "3D3DEDBC67E91455"
-			tasks: [{
-				id: "621871FD57676367"
-				item: { count: 1, id: "ae2:fluix_crystal" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["6534548E8A6A318C"]
 			icon: {
 				id: "enigmatica:silty_dorodango"
@@ -464,7 +450,7 @@
 				}
 				{
 					id: "1E4E5D2B9B36005C"
-					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk)item(enigmatica:brilliant_crushed_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_cold_aercloud))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_cold_aercloud)item(enigmatica:brilliant_smooth_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

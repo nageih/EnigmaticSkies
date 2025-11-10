@@ -3,13 +3,13 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: `2x modularrouters:modular_router`,
+            output: `modularrouters:modular_router`,
             pattern: ['ABA', 'CDC', 'ABA'],
             key: {
                 A: `#c:ingots/ferricore`,
-                B: `actuallyadditions:advanced_coil`,
+                B: `create:electron_tube`,
                 C: `ars_technica:calibrated_precision_mechanism`,
-                D: 'actuallyadditions:iron_casing'
+                D: 'enderio:ensouled_chassis'
             },
             id: `${id_prefix}modular_router`
         }
