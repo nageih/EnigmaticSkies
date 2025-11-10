@@ -96,13 +96,33 @@
 		}
 		{
 			dependencies: ["55D51F58CA3130AA"]
+			icon: {
+				id: "enigmatica:reverberating_dorodango"
+			}
 			id: "503873180200D878"
 			shape: "diamond"
-			tasks: [{
-				id: "42B238097C6577A0"
-				item: { count: 1, id: "enigmatica:reverberating_dorodango" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42B238097C6577A0"
+					item: { count: 1, id: "enigmatica:reverberating_dorodango" }
+					type: "item"
+				}
+				{
+					id: "3FEF47C56B171AE5"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+				{
+					id: "4BE1A7F09A6F6A3B"
+					item: { count: 1, id: "occultism:echo_dust" }
+					type: "item"
+				}
+				{
+					id: "5A20B8F13B4B0304"
+					item: { count: 1, id: "occultism:otherworld_ashes" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.5d
 		}
@@ -174,7 +194,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DE69E7B1359D76D"]
@@ -184,11 +204,11 @@
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["13C820C293A11CF5"]
+			dependencies: ["46DDBE0A9170F54A"]
 			id: "60DC19DA26E8CCA4"
 			tasks: [{
 				id: "00EC88E05F32FCEA"
@@ -196,7 +216,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]

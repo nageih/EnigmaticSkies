@@ -599,6 +599,11 @@ const villagerTrades = {
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 2
+        },
+        {
+            result: { id: 'ae2:mysterious_cube', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 2
         }
     ],
     // PNC Charging Station

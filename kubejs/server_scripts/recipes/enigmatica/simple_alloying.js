@@ -113,14 +113,24 @@ ServerEvents.recipes((event) => {
             id_suffix: `pulsating_alloy_ingot`
         },
         {
-            output: { id: 'enderio:soularium_ingot', count: 1 },
+            output: { id: 'enderio:soularium_ingot', count: 2 },
             inputs: [
-                { item: 'oritech:wither_crop_block', count: 13 },
-                { tag: 'c:ingots/hallowed_gold', count: 1 }
+                { tag: 'c:gems/soulstone', count: 1 },
+                { tag: 'c:ingots/pink_slime', count: 1 }
             ],
             tier: 1,
             exclusions: ['create'],
             id_suffix: `soularium_ingot`
+        },
+        {
+            output: { id: 'malum:refined_soulstone', count: 1 },
+            inputs: [
+                { item: 'malum:crushed_soulstone', count: 1 },
+                { tag: 'aether:gems/zanite', count: 1 }
+            ],
+            tier: 1,
+            exclusions: ['create'],
+            id_suffix: `refined_soulstone`
         }
     ];
 

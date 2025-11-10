@@ -16,13 +16,13 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'industrialforegoing:machine_frame_simple', count: 1 },
             input: [
-                { tag: 'c:plates/steel' },
+                { item: 'modern_industrialization:rubber_sheet' },
                 { item: 'enderio:industrial_insulation_block' },
-                { tag: 'c:plates/steel' },
-                { item: 'modern_industrialization:analog_circuit' },
-                { item: 'modern_industrialization:analog_circuit' },
+                { item: 'modern_industrialization:rubber_sheet' },
+                { item: 'modern_industrialization:steel_machine_casing' },
+                { item: 'modern_industrialization:steel_machine_casing' },
                 { item: 'oritech:basic_battery' },
-                { tag: 'c:gears/compressed_iron' },
+                { item: 'enderio:zombie_electrode' },
                 { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
@@ -32,18 +32,34 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'industrialforegoing:machine_frame_advanced', count: 1 },
             input: [
-                { tag: 'c:plates/plastic' },
+                { item: 'pneumaticcraft:plastic' },
                 { item: 'industrialforegoing:machine_frame_simple' },
-                { tag: 'c:plates/plastic' },
-                { item: 'modern_industrialization:electronic_circuit' },
-                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing' },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing' },
                 { item: 'oritech:advanced_battery' },
-                { item: 'enigmatica:antikythera_mechanism' },
+                { item: 'enderio:guardian_diode' },
                 { item: 'oritech:advanced_battery' }
             ],
             inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}machine_frame_advanced`
+        },
+        {
+            output: { id: 'industrialforegoing:machine_frame_supreme', count: 1 },
+            input: [
+                { item: 'modern_industrialization:cooling_cell' },
+                { item: 'industrialforegoing:machine_frame_advanced' },
+                { item: 'modern_industrialization:cooling_cell' },
+                { item: 'modern_industrialization:quantum_machine_casing' },
+                { item: 'modern_industrialization:quantum_machine_casing' },
+                { item: 'oritech:overcharged_crystal' },
+                { item: 'enderio:sentient_ender' },
+                { item: 'oritech:overcharged_crystal' }
+            ],
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
+            processingTime: 300,
+            id: `${id_prefix}machine_frame_supreme`
         },
         {
             output: { id: 'enderio:void_chassis', count: 1 },
@@ -60,22 +76,6 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
             processingTime: 300,
             id: `${id_prefix}void_chassis`
-        },
-        {
-            output: { id: 'enderio:ensouled_chassis', count: 1 },
-            input: [
-                { tag: 'c:ingots/pink_slime' },
-                { item: 'industrialforegoing:machine_frame_simple' },
-                { tag: 'c:ingots/pink_slime' },
-                { item: 'enderio:soul_chain' },
-                { item: 'enderio:soul_chain' },
-                { tag: 'c:gems/soulstone' },
-                { tag: 'c:gears/energized' },
-                { tag: 'c:gems/soulstone' }
-            ],
-            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
-            processingTime: 300,
-            id: `${id_prefix}ensouled_chassis`
         },
         {
             output: { id: 'industrialforegoing:processing_addon_tier_1', count: 1 },
@@ -188,6 +188,13 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 8000 },
             processingTime: 300,
             id: `${id_prefix}cooling_cell`
+        },
+        {
+            output: { id: 'industrialforegoing:pink_slime_ingot', count: 3 },
+            input: [{ tag: 'c:ingots/hallowed_gold' }, { tag: 'c:ingots/steel' }, { tag: 'c:ingots/bronze' }],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 3000 },
+            processingTime: 200,
+            id: `${id_prefix}pink_slime_ingot`
         }
     ];
 

@@ -3,13 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'modularrouters:modular_router', count: 4 },
-            input: { item: 'actuallyadditions:iron_casing', count: 1 },
-            program: 'drill',
-            id: `${id_prefix}modular_router`
-        },
-
-        {
             result: { id: 'modern_industrialization:steel_machine_casing_pipe', count: 1 },
             input: { item: 'modern_industrialization:steel_machine_casing', count: 1 },
             program: 'drill',

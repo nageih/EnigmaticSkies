@@ -57,6 +57,20 @@ ServerEvents.recipes((event) => {
             energy: 50000,
             time: 10,
             id: `${id_prefix}fused_consciousness`
+        },
+        {
+            result: { id: 'justdirethings:gooblock_tier3', count: 1 },
+            base: { item: 'justdirethings:gooblock_tier2' },
+            modifiers: [
+                { tag: 'c:storage_blocks/empowered_void' },
+                { tag: 'c:storage_blocks/dark_steel' },
+                { tag: 'c:storage_blocks/empowered_void' },
+                { tag: 'c:storage_blocks/dark_steel' }
+            ],
+            color: '#520f5f',
+            energy: 50000,
+            time: 10,
+            id: `${id_prefix}gooblock_tier3`
         }
     ];
 

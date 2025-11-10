@@ -115,6 +115,14 @@ ServerEvents.recipes((event) => {
             aura: 150000,
             time: 30,
             id: `${id_prefix}sugar_cane`
+        },
+        {
+            output: { id: 'minecraft:ender_pearl' },
+            input: { tag: 'c:dusts/grains_of_the_end' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 90000,
+            time: 15,
+            id: `${id_prefix}ender_pearl`
         }
     ];
 

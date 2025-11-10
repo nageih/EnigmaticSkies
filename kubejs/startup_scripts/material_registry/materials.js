@@ -15,7 +15,9 @@ MIMaterialEvents.addMaterials((event) => {
 });
 
 MIMaterialEvents.modifyMaterial('copper', (event) => {
-    event.builder
-        // Call any builder function, see above
-        .addParts('coil');
+    event.builder.addParts('coil');
+});
+
+MIMaterialEvents.modifyMaterial('iridium', (event) => {
+    event.builder.addParts('large_plate');
 });

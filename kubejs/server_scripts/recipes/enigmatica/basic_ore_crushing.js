@@ -75,6 +75,20 @@ ServerEvents.recipes((event) => {
         event.custom(r).id(r_id);
         if (debug) console.log(r_id);
 
+        // Enderio SAG Milling
+        r = {
+            type: 'enderio:sag_milling',
+            input: [recipe.input],
+            outputs: [],
+            energy: 9600
+        };
+        recipe.outputs.forEach((output) => {
+            r.outputs.push({ item: { id: output.id, count: output.count }, chance: output.chance });
+        });
+        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
+        event.custom(r).id(r_id);
+        if (debug) console.log(r_id);
+
         // Modern Industrialization Macerator
         recipe.input.amount = recipe.input.count;
         r = {

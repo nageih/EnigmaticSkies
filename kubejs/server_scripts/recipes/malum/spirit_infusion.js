@@ -63,25 +63,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}calling_spirit`
         },
         {
-            output: { id: 'justdirethings:gooblock_tier3', count: 1 },
-            ingredient: { item: 'justdirethings:gooblock_tier2', count: 1 },
-            extraIngredients: [
-                {
-                    type: 'neoforge:components',
-                    items: 'naturesaura:aura_bottle',
-                    components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:end' } },
-                    count: 16
-                },
-                { tag: 'c:gems/empowered_void', count: 16 }
-            ],
-            spirits: [
-                { type: 'arcane', count: 4 },
-                { type: 'eldritch', count: 4 },
-                { type: 'wicked', count: 4 }
-            ],
-            id: `${id_prefix}gooblock_tier3`
-        },
-        {
             output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
             ingredient: { tag: 'c:ingots/energetic_alloy', count: 1 },
             extraIngredients: [{ item: 'malum:paracausal_flame', count: 1 }],

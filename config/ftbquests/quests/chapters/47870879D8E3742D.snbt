@@ -211,7 +211,7 @@
 				}
 			]
 			tasks: [{
-				dimension: "ftbteambases:bases"
+				dimension: "ftbteambases:lobby"
 				icon: {
 					components: {
 						"ftbquests:icon": "kubejs:item/enigmatica_tree"

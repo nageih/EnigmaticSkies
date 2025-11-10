@@ -321,7 +321,7 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
@@ -348,7 +348,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -370,7 +370,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -381,7 +381,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -454,7 +454,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 5.5d
 		}
 		{
@@ -869,7 +869,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -898,7 +898,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{

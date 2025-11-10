@@ -19,8 +19,8 @@ ServerEvents.recipes((event) => {
                 A: 'pneumaticcraft:plastic',
                 B: 'ae2:annihilation_plane',
                 C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:iron_casing',
-                E: 'actuallyadditions:advanced_coil'
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}disintegrator`
         },
@@ -31,8 +31,8 @@ ServerEvents.recipes((event) => {
                 A: 'pneumaticcraft:plastic',
                 B: 'ae2:formation_plane',
                 C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:iron_casing',
-                E: 'actuallyadditions:advanced_coil'
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}replicator`
         },
@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
                 A: 'pneumaticcraft:plastic',
                 B: '#c:gems/empowered_emeradic',
                 C: 'ars_nouveau:repository_controller',
-                D: 'actuallyadditions:advanced_coil'
+                D: 'oritech:flux_gate'
             },
             id: `${id_prefix}chip_storage`
         }

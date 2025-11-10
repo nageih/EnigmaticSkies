@@ -27,5 +27,7 @@
     "block.modern_industrialization.steam_kiln": "Steam Kiln",
     "block.modern_industrialization.electric_kiln": "Electric Kiln",
     "rei_categories.modern_industrialization.steam_kiln": "Steam Kiln",
-    "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln"
+    "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln",
+
+    "item.modern_industrialization.iridium_large_plate": "Iridium Large Plate"
 }

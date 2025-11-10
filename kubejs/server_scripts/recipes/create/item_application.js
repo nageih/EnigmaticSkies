@@ -16,12 +16,6 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'create:copper_casing' }],
             ingredients: [{ item: 'actuallyadditions:wood_casing' }, { tag: 'c:ingots/copper' }],
             id: `${id_prefix}copper_casing`
-        },
-
-        {
-            results: [{ id: 'ae2:controller', count: 1 }],
-            ingredients: [{ item: 'ae2:mysterious_cube' }, { item: 'malum:fused_consciousness' }],
-            id: `${id_prefix}controller`
         }
     ];
 
