@@ -272,19 +272,9 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:motor`
         },
         {
-            filter: [{ id: /justdirethings:.*t1$/ }],
-            to_replace: `minecraft:ender_eye`,
-            replace_with: 'create:electron_tube'
-        },
-        {
             filter: [{ id: /justdirethings:.*t2$/ }, { id: 'justdirethings:portalgun' }],
             to_replace: `minecraft:ender_eye`,
             replace_with: '#c:gems/pulsating_crystal'
-        },
-        {
-            filter: [{ id: /justdirethings:.*t1$/ }],
-            to_replace: `#c:dusts/redstone`,
-            replace_with: 'actuallyadditions:advanced_coil'
         },
         {
             filter: [{ id: /justdirethings:.*t2$/ }],
@@ -292,7 +282,7 @@ ServerEvents.recipes((event) => {
             replace_with: 'oritech:flux_gate'
         },
         {
-            filter: [{ id: /justdirethings:.*t(1|2)$/ }],
+            filter: [{ id: /justdirethings:.*t2$/ }],
             to_replace: `#c:gems/lapis`,
             replace_with: 'ars_technica:calibrated_precision_mechanism'
         },
@@ -483,21 +473,15 @@ ServerEvents.recipes((event) => {
             filter: [
                 { id: 'naturesaura:placer' },
                 { id: 'prettypipes:random_sorting_modifier' },
-                { id: 'modularrouters:activator_module' },
-                { id: 'justdirethings:clickert1' }
+                { id: 'modularrouters:activator_module' }
             ],
             to_replace: `minecraft:dispenser`,
             replace_with: '#c:essences/manipulation'
         },
         {
-            filter: [{ id: 'justdirethings:blockplacert1' }, { id: 'modularrouters:placer_module' }],
+            filter: [{ id: 'modularrouters:placer_module' }],
             to_replace: `minecraft:dispenser`,
             replace_with: 'actuallyadditions:placer'
-        },
-        {
-            filter: [{ id: 'justdirethings:fluidcollectort1' }],
-            to_replace: `minecraft:dispenser`,
-            replace_with: 'actuallyadditions:fluid_collector'
         },
         {
             filter: [{ id: 'modularrouters:placer_module' }],

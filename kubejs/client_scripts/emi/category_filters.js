@@ -16,7 +16,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
     ];
 
     categories.forEach((category) => {
-        let payload = { filters: [{ id: category.id }] };
+        let payload = { filters: [{ category: category.id }] };
         event.json(`emi:recipe/filters/${getID(category.id)}`, payload);
     });
 });
