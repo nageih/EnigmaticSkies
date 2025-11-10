@@ -101,7 +101,7 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -236,10 +236,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4E2F4A7BBD4D51E5"
-				"2B759D4770C13739"
-			]
+			dependencies: ["2B759D4770C13739"]
 			id: "5FE4FD410171ABFD"
 			tasks: [{
 				id: "2680E5AC31798C7C"

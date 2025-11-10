@@ -1205,6 +1205,13 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1C9565D5C51B74CC.quest_desc: [
+		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
+		""
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
+	]
+	quest.1C9565D5C51B74CC.title: "Genetics"
 	quest.1CEDA28FD4CB759E.quest_desc: [
 		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
 		""
@@ -2281,7 +2288,7 @@
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37ED5A328F30DD34.quest_desc: [
-		"Creating monsters is no small feat and we’re going to need some specific materials to pull it off. "
+		"Creating monsters is no small feat and we’re going to need some very specific materials to pull it off. "
 		""
 		"We’ll start with something easy, slimes. We can lean on the latent magic in certain foods to get the process going, though it's still going to need an extra nudge."
 		""
@@ -3640,12 +3647,6 @@
 		""
 		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
 	]
-	quest.4E2F4A7BBD4D51E5.quest_desc: [
-		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
-		""
-		"&6⚠ Note: Enderio machines require  "
-		"&6    a Capacitor to function."
-	]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -3966,6 +3967,7 @@
 		""
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
+	quest.577337FFD6AD9C83.title: "Replication"
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""

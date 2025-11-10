@@ -131,6 +131,26 @@ ServerEvents.recipes((event) => {
             tier: 1,
             exclusions: ['create'],
             id_suffix: `refined_soulstone`
+        },
+        {
+            output: { id: 'enigmatica:magic_lamp', count: 1 },
+            inputs: [
+                { item: 'malum:iridescent_ether', count: 1 },
+                { item: 'occultism:magic_lamp_empty', count: 1 }
+            ],
+            tier: 1,
+            exclusions: ['create', 'modern_industrialization'],
+            id_suffix: `magic_lamp`
+        },
+        {
+            output: { id: 'modern_industrialization:stainless_steel_ingot', count: 1 },
+            inputs: [
+                { item: 'malum:iridescent_ether', count: 1 },
+                { tag: 'c:ingots/soul_stained_steel', count: 1 }
+            ],
+            tier: 2,
+            exclusions: ['create', 'modern_industrialization'],
+            id_suffix: `stainless_steel_ingot`
         }
     ];
 

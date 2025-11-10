@@ -785,6 +785,7 @@ ServerEvents.recipes((event) => {
         { output: 'replication:disintegrator' },
         { output: 'replication:replicator' },
         { output: 'replication:chip_storage' },
+        { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
 
         // Simple Magnets

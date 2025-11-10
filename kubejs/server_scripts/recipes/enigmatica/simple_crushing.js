@@ -105,12 +105,20 @@ ServerEvents.recipes((event) => {
         },
         {
             input: { item: 'minecraft:ender_pearl' },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 9 }],
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing'],
+            exclusions: [
+                'modern_industrialization',
+                'create:milling',
+                'create:crushing',
+                'oritech:pulverizer',
+                'oritech:grinder'
+            ],
             fe: 2400,
-            eu: 2,
-            duration: 5,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            create: { time: { crushing: 200, milling: 100 } },
+            na: { aura: 5000, time: 20 },
             id_suffix: 'ender_pearl_dust_from_ender_pearl'
         },
         {

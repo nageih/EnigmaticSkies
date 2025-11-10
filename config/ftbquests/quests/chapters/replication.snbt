@@ -24,7 +24,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6F1A7E1B49FCC4C0"]
@@ -40,8 +40,8 @@
 				item: { count: 1, id: "replication:replicator" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["223BE2F1F8A5C87C"]
@@ -69,8 +69,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4FDF4919248BFC3A"]
@@ -99,8 +99,8 @@
 				item: { count: 1, id: "replication:disintegrator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["307FEC610F0B542F"]
@@ -119,8 +119,8 @@
 				item: { count: 1, id: "replication:replication_terminal" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 		}
 	]
 }
