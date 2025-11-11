@@ -1196,9 +1196,9 @@
 		"Greater range will cost more power!"
 	]
 	quest.1C21EC957B97C70A.quest_desc: [
-		"An Advanced Clicker can be exceptionally useful for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
+		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
-		"Unlike a Simple Clicker, it acts in a large area. "
+		"Unlike a &7Simple Clicker&r, it acts in a large area. "
 	]
 	quest.1C83B47F599B117A.quest_desc: [
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."

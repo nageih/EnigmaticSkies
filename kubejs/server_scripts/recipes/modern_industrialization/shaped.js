@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'modern_industrialization:iridium_large_plate',
-                B: 'modern_industrialization:digital_circuit',
+                B: 'enderio:ender_resonator',
                 C: '#c:gears/vibrant'
             },
             id: `${id_prefix}quantum_machine_casing`

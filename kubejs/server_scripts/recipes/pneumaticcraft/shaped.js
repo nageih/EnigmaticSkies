@@ -103,6 +103,69 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:lubricant_bucket'
             },
             id: `${id_prefix}speed_upgrade`
+        },
+        {
+            output: 'pneumaticcraft:assembly_controller',
+            pattern: [' A ', 'BCB', 'CDC'],
+            key: {
+                A: 'supplementaries:crystal_display',
+                B: 'enderio:z_logic_controller',
+                C: '#c:ingots/compressed_iron',
+                D: 'pneumaticcraft:pressure_tube'
+            },
+            id: `${id_prefix}assembly_controller`
+        },
+        {
+            output: 'pneumaticcraft:assembly_platform',
+            pattern: ['A A', 'BBB', 'CCC'],
+            key: {
+                A: 'modern_industrialization:piston',
+                B: 'pneumaticcraft:plastic',
+                C: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}assembly_platform`
+        },
+        {
+            output: 'pneumaticcraft:assembly_laser',
+            pattern: ['DB ', 'ABB', 'CCC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'pneumaticcraft:plastic',
+                C: '#c:ingots/compressed_iron',
+                D: 'enderio:guardian_diode'
+            },
+            id: `${id_prefix}assembly_laser`
+        },
+        {
+            output: 'pneumaticcraft:assembly_drill',
+            pattern: ['DB ', 'ABB', 'CCC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'pneumaticcraft:plastic',
+                C: '#c:ingots/compressed_iron',
+                D: 'pneumaticcraft:drill_bit_diamond'
+            },
+            id: `${id_prefix}assembly_drill`
+        },
+        {
+            output: 'pneumaticcraft:assembly_io_unit_export',
+            pattern: ['BBA', 'CCC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'pneumaticcraft:plastic',
+                C: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}assembly_io_unit_export`
+        },
+        {
+            output: 'pneumaticcraft:assembly_io_unit_import',
+            pattern: ['ABB', 'CCC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'pneumaticcraft:plastic',
+                C: '#c:ingots/compressed_iron'
+            },
+            id: `${id_prefix}assembly_io_unit_import`
         }
     ];
 
