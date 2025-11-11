@@ -187,7 +187,7 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:zombie_head' },
                 { tag: 'c:plates/silicon' },
                 { tag: 'c:gems/pulsating_crystal' },
-                { item: 'enderio:double_layer_capacitor' },
+                { item: 'enderio:basic_capacitor' },
                 { tag: 'c:gems/pulsating_crystal' }
             ],
             energy: 20000,

@@ -92,7 +92,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:reinforced_carbon_sheet' },
                 { item: 'modern_industrialization:motor' },
                 { item: 'modern_industrialization:motor' },
-                { item: 'modern_industrialization:electronic_circuit' }
+                { item: 'enderio:skeletal_contractor' }
             ],
             time: 20,
             id: `${id_prefix}large_motor`

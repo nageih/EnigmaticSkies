@@ -294,6 +294,28 @@ ServerEvents.recipes((event) => {
                 B: `#c:rods/bronze`
             },
             id: `${id_prefix}bronze_blade`
+        },
+        {
+            output: `modern_industrialization:robot_arm`,
+            pattern: ['AAB', 'AC ', 'DC '],
+            key: {
+                A: `#c:plates/steel`,
+                B: `create:brass_hand`,
+                C: 'malum:imitation_flesh',
+                D: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}robot_arm`
+        },
+        {
+            output: `modern_industrialization:piston`,
+            pattern: [' CA', 'CAB', 'AD '],
+            key: {
+                A: `#c:plates/steel`,
+                B: `create:brass_hand`,
+                C: 'malum:imitation_flesh',
+                D: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}piston`
         }
     ];
 
