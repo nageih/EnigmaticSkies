@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_air_focus"
 	}
 	id: "300207E2557764E1"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -79,8 +79,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -182,8 +182,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
@@ -193,8 +193,8 @@
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3DE69E7B1359D76D"]
@@ -204,8 +204,8 @@
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["46DDBE0A9170F54A"]
@@ -215,8 +215,8 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -250,6 +250,126 @@
 			}]
 			x: -3.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["32873E9460FC001B"]
+			id: "1C9B3AFB2E0D20AF"
+			tasks: [{
+				id: "05914A1DE818C066"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5060A760B370E71F"]
+			icon: {
+				id: "oritech:accelerator_motor"
+			}
+			id: "454EB146FC67E3D5"
+			tasks: [
+				{
+					id: "0631C17F11710876"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "7397E3C825AEF4B9"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "725B8EEF8F6DC78D"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "5A6CD55E809E72C2"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "274C351C4A8F794F"
+			tasks: [{
+				id: "4A9AB408F75FC6AD"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C9B3AFB2E0D20AF"]
+			id: "2FE972CEA95E5FC0"
+			tasks: [{
+				id: "783CD6DBAFB42ED0"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "32873E9460FC001B"
+			tasks: [{
+				id: "74CBE0400F17BBD5"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["274C351C4A8F794F"]
+			id: "5060A760B370E71F"
+			tasks: [{
+				id: "4B56C311C690BBCD"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FE972CEA95E5FC0"]
+			id: "5A5596ED63306534"
+			tasks: [{
+				id: "58500629D1A5AB5E"
+				item: { count: 1, id: "malum:paracausal_flame" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "industrialforegoingsouls:soul_laser_base"
+			}
+			id: "1C4DB05778703E9B"
+			tasks: [
+				{
+					id: "33C9F1C066276C6E"
+					item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+					type: "item"
+				}
+				{
+					id: "13D17A2F50117B36"
+					item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
+					type: "item"
+				}
+				{
+					id: "3B16A2C0E4E12F82"
+					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 }

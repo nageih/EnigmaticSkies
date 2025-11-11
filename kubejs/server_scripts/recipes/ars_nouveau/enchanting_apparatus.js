@@ -552,6 +552,34 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}potion_diffuser`
+        },
+        {
+            result: { id: 'minecraft:skeleton_skull', count: 1 },
+            reagent: { item: 'malum:grim_talc' },
+            pedestalItems: [
+                { tag: 'c:essences/anima' },
+                { item: 'minecraft:bone' },
+                { item: 'minecraft:bone' },
+                { item: 'minecraft:bone' },
+                { item: 'minecraft:bone' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}skeleton_skull`
+        },
+        {
+            result: { id: 'minecraft:zombie_head', count: 1 },
+            reagent: { item: 'malum:grim_talc' },
+            pedestalItems: [
+                { tag: 'c:essences/anima' },
+                { item: 'minecraft:rotten_flesh' },
+                { item: 'minecraft:rotten_flesh' },
+                { item: 'minecraft:rotten_flesh' },
+                { item: 'minecraft:rotten_flesh' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}zombie_head`
         }
     ];
 

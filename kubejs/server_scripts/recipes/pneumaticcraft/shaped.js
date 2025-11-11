@@ -64,10 +64,10 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'modern_industrialization:stainless_steel_rotor',
                 B: 'pneumaticcraft:large_tank',
-                C: 'modern_industrialization:electronic_circuit',
+                C: 'pneumaticcraft:advanced_pressure_tube',
                 D: 'modern_industrialization:stainless_steel_machine_casing_pipe',
                 E: '#c:gears/compressed_iron',
-                F: 'pneumaticcraft:advanced_pressure_tube'
+                F: 'enderio:z_logic_controller'
             },
             id: `${id_prefix}advanced_liquid_compressor`
         },
@@ -77,10 +77,10 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'modern_industrialization:bronze_rotor',
                 B: 'pneumaticcraft:small_tank',
-                C: 'modern_industrialization:analog_circuit',
+                C: 'pneumaticcraft:pressure_tube',
                 D: 'modern_industrialization:bronze_machine_casing_pipe',
                 E: '#c:gears/compressed_iron',
-                F: 'pneumaticcraft:pressure_tube'
+                F: 'supplementaries:bellows'
             },
             id: `${id_prefix}liquid_compressor`
         },

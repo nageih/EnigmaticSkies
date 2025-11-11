@@ -190,9 +190,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}cooling_cell`
         },
         {
-            output: { id: 'industrialforegoing:pink_slime_ingot', count: 3 },
-            input: [{ tag: 'c:ingots/hallowed_gold' }, { tag: 'c:ingots/steel' }, { tag: 'c:ingots/bronze' }],
-            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 3000 },
+            output: { id: 'industrialforegoing:pink_slime_ingot', count: 2 },
+            input: [{ tag: 'c:ingots/infused_iron' }, { tag: 'c:ingots/infused_iron' }],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
             processingTime: 200,
             id: `${id_prefix}pink_slime_ingot`
         }

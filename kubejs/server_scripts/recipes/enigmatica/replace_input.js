@@ -400,11 +400,6 @@ ServerEvents.recipes((event) => {
             replace_with: 'industrialforegoing:machine_frame_advanced'
         },
         {
-            filter: [{ mod: 'pneumaticcraft' }],
-            to_replace: `pneumaticcraft:printed_circuit_board`,
-            replace_with: `modern_industrialization:electronic_circuit`
-        },
-        {
             filter: [{ mod: 'actuallyadditions' }],
             to_replace: `actuallyadditions:single_battery`,
             replace_with: `oritech:basic_battery`
@@ -428,11 +423,6 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:machine_plating_block`,
             replace_with: `oritech:machine_plating_block`
-        },
-        {
-            filter: [{ mod: 'oritech' }],
-            to_replace: `oritech:processing_unit`,
-            replace_with: 'modern_industrialization:analog_circuit'
         },
         {
             filter: [{ output: /aquaculture:neptunium_/ }],
@@ -506,6 +496,16 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `minecraft:obsidian`,
             replace_with: '#c:gems/void'
+        },
+        {
+            filter: [
+                { id: 'enderio:impulse_hopper' },
+                { id: 'enderio:drain' },
+                { id: 'enderio:painting_machine' },
+                { id: 'enderio:wired_charger' }
+            ],
+            to_replace: `enderio:void_chassis`,
+            replace_with: `actuallyadditions:iron_casing`
         }
     ];
 

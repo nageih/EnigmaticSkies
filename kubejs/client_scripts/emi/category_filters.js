@@ -6,10 +6,12 @@ ClientEvents.generateAssets('before_mods', (event) => {
         { id: 'industrialforegoing:fermentation_station' },
         { id: 'industrialforegoing:fluid_sieve' },
         { id: 'industrialforegoing:bioreactor' },
+        { id: '/industrialforegoing:mycellial_/' },
 
         { id: 'ars_nouveau:scry_ritual' },
         { id: 'oritech:reactor' },
         { id: 'oritech:laser' },
+        { id: 'oritech:steam_engine' },
         { id: 'modern_industrialization:neutron_interaction' },
         { id: 'modern_industrialization:thermal_interaction' },
         { id: 'trading_floor:potential_villager_trade' }

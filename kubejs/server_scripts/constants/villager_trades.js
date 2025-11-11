@@ -277,7 +277,7 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'modern_industrialization:analog_circuit', count: 4 },
+            result: { id: 'redstonepen:control_box', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         },

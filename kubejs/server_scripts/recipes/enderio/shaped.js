@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
                 B: 'ars_nouveau:wixie_charm',
                 C: '#c:gears/energized',
                 D: 'enderio:ensouled_chassis',
-                E: 'modern_industrialization:motor',
+                E: 'ars_technica:calibrated_precision_mechanism',
                 F: 'actuallyadditions:advanced_coil'
             },
             id: `${id_prefix}slice_and_splice`
@@ -103,7 +103,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'oritech:reinforced_carbon_sheet',
                 B: '#c:gears/dark_steel',
-                C: 'industrialforegoing:machine_frame_simple',
+                C: 'industrialforegoing:machine_frame_advanced',
                 D: 'modern_industrialization:motor',
                 E: 'oritech:flux_gate'
             },
@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'oritech:reinforced_carbon_sheet',
                 B: 'modern_industrialization:steel_furnace',
-                C: 'industrialforegoing:machine_frame_simple',
+                C: 'industrialforegoing:machine_frame_advanced',
                 D: 'modern_industrialization:energetic_coil',
                 E: 'oritech:flux_gate'
             },

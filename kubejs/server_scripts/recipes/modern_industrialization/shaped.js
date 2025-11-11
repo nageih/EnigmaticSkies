@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'modern_industrialization:steel_large_plate',
-                B: 'modern_industrialization:analog_circuit',
+                B: 'enderio:skeletal_contractor',
                 C: '#c:gears/compressed_iron'
             },
             id: `${id_prefix}steel_machine_casing`
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'modern_industrialization:stainless_steel_large_plate',
-                B: 'modern_industrialization:electronic_circuit',
+                B: 'enderio:z_logic_controller',
                 C: '#c:gears/dark_steel'
             },
             id: `${id_prefix}clean_stainless_steel_machine_casing`
@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: `modern_industrialization:bronze_plated_bricks`,
-                B: 'modern_industrialization:analog_circuit',
+                B: 'create:precision_mechanism',
                 C: 'modern_industrialization:bronze_tank'
             },
             id: `${id_prefix}large_steam_boiler`
@@ -156,27 +156,25 @@ ServerEvents.recipes((event) => {
 
         {
             output: `modern_industrialization:lv_steam_turbine`,
-            pattern: ['ABA', 'CDC', 'EFE'],
+            pattern: ['AAA', 'CDC', 'EBE'],
             key: {
                 A: `ppfluids:fluid_pipe`,
                 B: 'modern_industrialization:copper_cable',
                 C: 'create:propeller',
                 D: 'modern_industrialization:bronze_machine_casing',
-                E: 'create:precision_mechanism',
-                F: 'modern_industrialization:analog_circuit'
+                E: 'create:precision_mechanism'
             },
             id: `${id_prefix}lv_steam_turbine`
         },
         {
             output: `modern_industrialization:mv_steam_turbine`,
-            pattern: ['ABA', 'CDC', 'EFE'],
+            pattern: ['AAA', 'CDC', 'EBE'],
             key: {
                 A: '#modern_industrialization:fluid_pipes',
                 B: 'modern_industrialization:conductive_cable',
                 C: 'modern_industrialization:bronze_rotor',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
-                F: 'modern_industrialization:electronic_circuit'
+                E: 'modern_industrialization:motor'
             },
             id: `${id_prefix}mv_steam_turbine`
         },
@@ -270,12 +268,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `modern_industrialization:redstone_control_module`,
-            pattern: ['ABA', 'CDC'],
+            pattern: [' A ', 'BCB'],
             key: {
-                A: '#c:dusts/redstone',
-                B: 'minecraft:redstone_torch',
-                C: 'modern_industrialization:analog_circuit',
-                D: 'naturesaura:infused_slab'
+                A: 'minecraft:redstone_torch',
+                B: '#c:ingots/redstone_alloy',
+                C: 'naturesaura:infused_slab'
             },
             id: `${id_prefix}redstone_control_module`
         },

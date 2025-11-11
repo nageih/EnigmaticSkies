@@ -40,6 +40,7 @@
 
             "geneticsresequenced:coal_generator",
 
+            "/industrialforegoing:mycelial_/",
             "industrialforegoing:pitiful_generator",
             "industrialforegoing:fluid_extractor",
             "industrialforegoing:biofuel_generator",
