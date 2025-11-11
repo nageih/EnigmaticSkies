@@ -43,7 +43,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -66,17 +66,6 @@
 			]
 			x: 1.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["69EE67B1B612D74D"]
-			id: "74F028BA5DC3CF54"
-			tasks: [{
-				id: "388E2350381CE84A"
-				item: { count: 1, id: "enderio:soularium_ingot" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["37ED5A328F30DD34"]
@@ -218,8 +207,8 @@
 		}
 		{
 			dependencies: [
-				"74F028BA5DC3CF54"
 				"503873180200D878"
+				"69EE67B1B612D74D"
 			]
 			id: "67B5706C2EE25C56"
 			tasks: [{
@@ -227,8 +216,8 @@
 				item: { count: 1, id: "enderio:ensouled_chassis" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -268,7 +257,7 @@
 				}
 			]
 			x: 4.0d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1C9565D5C51B74CC"]
@@ -297,7 +286,7 @@
 				}
 			]
 			x: 3.0d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1C9565D5C51B74CC"]
@@ -321,7 +310,7 @@
 				}
 			]
 			x: 2.0d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -348,7 +337,7 @@
 				}
 			]
 			x: 3.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -379,7 +368,7 @@
 				}
 			]
 			x: 1.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -407,7 +396,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -435,7 +424,7 @@
 				}
 			]
 			x: 5.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -463,7 +452,7 @@
 				}
 			]
 			x: 4.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -491,7 +480,7 @@
 				}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["46DDBE0A9170F54A"]
@@ -502,10 +491,9 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["67B5706C2EE25C56"]
 			id: "45E411460C53A082"
 			tasks: [{
 				id: "3E4DCDF1FABBA45E"
@@ -516,15 +504,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1BDCA4CF5ED739BA"]
+			dependencies: [
+				"1BDCA4CF5ED739BA"
+				"76C7791F65C766D7"
+			]
 			id: "1C21EC957B97C70A"
 			tasks: [{
 				id: "315244A8A7EDAA04"
 				item: { count: 1, id: "justdirethings:clickert2" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -549,7 +540,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -582,7 +573,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -593,7 +584,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -604,7 +595,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0DE5D9ADB947B171"]
@@ -615,7 +606,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -642,7 +633,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["45E411460C53A082"]
@@ -660,8 +651,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 4.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["43580B4D15FCEF00"]
@@ -672,7 +663,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1C9565D5C51B74CC"]
@@ -694,7 +685,7 @@
 				}
 			]
 			x: 5.5d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -721,7 +712,7 @@
 				}
 			]
 			x: 6.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["37AA9E6270DB015A"]
@@ -731,8 +722,8 @@
 				item: { count: 1, id: "oritech:flux_gate" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -746,7 +737,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -775,21 +766,21 @@
 				}
 			]
 			x: 3.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["45E411460C53A082"]
+			dependencies: ["7D8AEEB13B201CFB"]
 			id: "32F0D3C28B904870"
 			tasks: [{
 				id: "6AF648BBD1E4EFA2"
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["67B5706C2EE25C56"]
+			dependencies: ["17198F7EC5DC1A4F"]
 			icon: {
 				id: "replication:replicator"
 			}
@@ -816,22 +807,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"5E727F7B600E0E91"
-				"3753A3EB1909F923"
-				"32F0D3C28B904870"
-			]
-			id: "3D3DEDBC67E91455"
-			tasks: [{
-				id: "621871FD57676367"
-				item: { count: 1, id: "ae2:fluix_crystal" }
-				type: "item"
-			}]
-			x: 1.0d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -842,8 +818,67 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["45E411460C53A082"]
+			id: "00946DF0B2C88A9F"
+			tasks: [{
+				id: "4237CD354E24534F"
+				item: { count: 1, id: "malum:imitation_flesh" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"00946DF0B2C88A9F"
+				"4D043DE8506F01AF"
+			]
+			id: "17198F7EC5DC1A4F"
+			tasks: [{
+				id: "34052439F672FEED"
+				item: { count: 1, id: "modern_industrialization:robot_arm" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["053C43E68E7ADB2B"]
+			id: "4D043DE8506F01AF"
+			tasks: [{
+				id: "20A53BFD08B2049E"
+				item: { count: 1, id: "enderio:skeletal_contractor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["577337FFD6AD9C83"]
+			id: "7D8AEEB13B201CFB"
+			tasks: [
+				{
+					id: "40A8EB5BEC26A7D2"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "490E6C822F135E45"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "5A9948C209877BC9"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 }

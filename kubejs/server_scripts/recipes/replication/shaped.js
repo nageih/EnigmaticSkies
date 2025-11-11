@@ -14,27 +14,25 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'replication:disintegrator',
-            pattern: ['AB ', 'CE ', 'FDF'],
+            pattern: ['AB', 'CD', 'EE'],
             key: {
-                A: 'create:mechanical_arm',
+                A: 'modern_industrialization:robot_arm',
                 B: 'ae2:annihilation_plane',
-                C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:advanced_coil',
-                E: 'enderio:ensouled_chassis',
-                F: '#c:plates/silicon'
+                C: 'actuallyadditions:advanced_coil',
+                D: 'enderio:ensouled_chassis',
+                E: '#c:plates/silicon'
             },
             id: `${id_prefix}disintegrator`
         },
         {
             output: 'replication:replicator',
-            pattern: ['AB ', 'CE ', 'FDF'],
+            pattern: ['AB', 'CD', 'EE'],
             key: {
-                A: 'create:mechanical_arm',
+                A: 'modern_industrialization:robot_arm',
                 B: 'ae2:formation_plane',
-                C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:advanced_coil',
-                E: 'enderio:ensouled_chassis',
-                F: '#c:plates/silicon'
+                C: 'actuallyadditions:advanced_coil',
+                D: 'enderio:ensouled_chassis',
+                E: '#c:plates/silicon'
             },
             id: `${id_prefix}replicator`
         },
