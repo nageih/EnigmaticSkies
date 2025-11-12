@@ -6,6 +6,16 @@ ServerEvents.recipes((event) => {
             output: 'oritech:motor',
             inputs: ['ars_nouveau:blank_parchment', 'enigmatica:source_ink'],
             id: `${id_prefix}motor`
+        },
+        {
+            output: 'oritech:enderic_compound',
+            inputs: [
+                Ingredient.of(['#c:buckets/water', 'theurgy:crystallized_water']),
+                '#c:dusts/grains_of_the_end',
+                '#c:dusts/grains_of_infinity',
+                '#c:dusts/otherworld_wood'
+            ],
+            id: `${id_prefix}enderic_compound`
         }
     ];
 

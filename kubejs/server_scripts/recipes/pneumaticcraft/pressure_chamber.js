@@ -243,6 +243,16 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}octadic_capacitor`
+        },
+        {
+            results: [{ id: 'ae2:fluix_pearl', count: 1 }],
+            inputs: [
+                { item: 'malum:strange_crystal', count: 1 },
+                { tag: 'c:dusts/ender_pearl', count: 4 },
+                { tag: 'c:dusts/fluix', count: 4 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}fluix_pearl`
         }
     ];
 

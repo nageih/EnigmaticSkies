@@ -249,6 +249,17 @@ ServerEvents.recipes((event) => {
                 B: '#c:essences/manipulation'
             },
             id: `${id_prefix}transparent_item_pipe`
+        },
+        {
+            output: `oritech:atomic_forge_block`,
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#c:gems/prescient_crystal',
+                B: 'enderio:sentient_ender',
+                C: 'modern_industrialization:cooling_cell',
+                D: 'industrialforegoing:machine_frame_advanced'
+            },
+            id: `${id_prefix}atomic_forge_block`
         }
     ];
 
