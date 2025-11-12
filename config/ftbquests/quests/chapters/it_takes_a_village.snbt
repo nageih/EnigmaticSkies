@@ -54,8 +54,8 @@
 					type: "item"
 				}
 				{
-					id: "4D39133F906BA8E3"
-					item: { components: { "ftbquests:missing_item": "createsifter:raw_gold_piece" }, count: 1, id: "ftbquests:missing_item" }
+					id: "160904B9D4F79576"
+					item: { count: 1, id: "oritech:small_gold_clump" }
 					type: "item"
 				}
 			]
