@@ -395,6 +395,21 @@ ServerEvents.recipes((event) => {
             replace_with: `ae2:charged_certus_quartz_crystal`
         },
         {
+            filter: [{ output: /ae2:cell_component/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: `#c:gems/brilliance`
+        },
+        {
+            filter: [{ output: /ae2:cell_component/ }, { output: /ae2:spatial_cell_component/ }],
+            to_replace: `#c:dusts/glowstone`,
+            replace_with: `#c:gems/pulsating_crystal`
+        },
+        {
+            filter: [{ output: /ae2:cell_component/ }],
+            to_replace: `#c:dusts/sky_stone`,
+            replace_with: `#c:gems/fluxite`
+        },
+        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'
