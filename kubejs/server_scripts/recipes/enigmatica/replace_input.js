@@ -521,6 +521,11 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `enderio:void_chassis`,
             replace_with: `actuallyadditions:iron_casing`
+        },
+        {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:printed_circuit_board`,
+            replace_with: `enderio:z_logic_controller`
         }
     ];
 
