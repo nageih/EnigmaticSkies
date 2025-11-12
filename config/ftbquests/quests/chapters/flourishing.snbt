@@ -50,7 +50,7 @@
 				}
 				{
 					id: "18451747130589E3"
-					item: { components: { "ftbquests:missing_item": "createsifter:raw_copper_piece" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "oritech:small_copper_clump" }
 					type: "item"
 				}
 			]
