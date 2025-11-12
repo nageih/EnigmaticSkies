@@ -488,6 +488,7 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:electric_composter' },
         { output: 'extended_industrialization:electric_honey_extractor' },
         { output: 'extended_industrialization:steam_farmer' },
+        { output: 'extended_industrialization:electric_farmer' },
         { output: /extended_industrialization:.*_solar_panel/ },
         { output: 'modern_industrialization:robot_arm' },
         { output: 'modern_industrialization:piston' },

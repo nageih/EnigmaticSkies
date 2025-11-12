@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
                 A: 'modern_industrialization:robot_arm',
                 B: 'pneumaticcraft:plastic',
                 C: '#c:ingots/compressed_iron',
-                D: 'enderio:guardian_diode'
+                D: 'oritech:enderic_lens'
             },
             id: `${id_prefix}assembly_laser`
         },

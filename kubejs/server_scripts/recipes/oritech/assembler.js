@@ -167,7 +167,7 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:enderic_lens', count: 1 }],
             ingredients: [
                 { item: 'oritech:enderic_compound' },
-                { item: 'glassential:glass_redstone_tinted' },
+                { tag: 'c:gems/ruby' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'enderio:guardian_diode' }
             ],

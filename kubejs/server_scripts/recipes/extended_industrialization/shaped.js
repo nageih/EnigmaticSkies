@@ -13,6 +13,18 @@ ServerEvents.recipes((event) => {
                 E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_composter`
+        },
+        {
+            output: `extended_industrialization:steam_farmer`,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: `modern_industrialization:bronze_plated_bricks`,
+                B: 'create:mechanical_harvester',
+                C: `create:mechanical_bearing`,
+                D: 'create:precision_mechanism',
+                E: `modern_industrialization:bronze_machine_casing_pipe`
+            },
+            id: `${id_prefix}steam_farmer`
         }
     ];
 
