@@ -14,12 +14,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}crying_obsidian`
         },
         {
-            results: [{ id: 'oritech:enderic_compound', count: 8 }],
-            ingredients: [{ tag: 'c:dusts/ender_pearl' }, { item: 'enderio:ender_crystal_powder' }],
-            time: 500,
-            id: `${id_prefix}enderic_compound`
-        },
-        {
             results: [{ id: 'minecraft:chorus_fruit', count: 1 }],
             ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:enchanted_berry' }],
             time: 500,

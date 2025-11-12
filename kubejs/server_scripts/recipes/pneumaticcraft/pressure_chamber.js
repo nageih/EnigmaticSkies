@@ -24,9 +24,9 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modularrouters:blank_module', count: 3 }],
             inputs: [
                 { item: 'prettypipes:blank_module', count: 1 },
-                { tag: 'c:gems/empowered_restonia', count: 1 },
-                { tag: 'pneumaticcraft:wiring', count: 3 },
-                { item: 'modern_industrialization:analog_circuit', count: 3 }
+                { tag: 'c:gems/empowered_restonia', count: 3 },
+                { item: 'modern_industrialization:copper_cable', count: 3 },
+                { item: 'enderio:skeletal_contractor', count: 1 }
             ],
             pressure: 1.0,
             id: `${id_prefix}blank_module`
@@ -35,9 +35,9 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modularrouters:blank_upgrade', count: 3 }],
             inputs: [
                 { item: 'prettypipes:blank_module', count: 1 },
-                { tag: 'c:gems/empowered_palis', count: 1 },
-                { tag: 'pneumaticcraft:wiring', count: 3 },
-                { item: 'modern_industrialization:analog_circuit', count: 3 }
+                { tag: 'c:gems/empowered_palis', count: 3 },
+                { item: 'modern_industrialization:copper_cable', count: 3 },
+                { item: 'enderio:skeletal_contractor', count: 1 }
             ],
             pressure: 1.0,
             id: `${id_prefix}blank_upgrade`
@@ -80,6 +80,19 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}annihilation_core`
+        },
+        {
+            results: [
+                { id: 'industrialforegoingsouls:soul_network_pipe', count: 3 },
+                { id: 'minecraft:glass_bottle', count: 1 }
+            ],
+            inputs: [
+                { item: 'arsdelight:activated_bastion_jam', count: 1 },
+                { item: 'prettypipes:pipe', count: 3 },
+                { item: 'minecraft:echo_shard', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}soul_network_pipe`
         },
         {
             results: [
@@ -230,6 +243,16 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}octadic_capacitor`
+        },
+        {
+            results: [{ id: 'ae2:fluix_pearl', count: 1 }],
+            inputs: [
+                { item: 'malum:strange_crystal', count: 1 },
+                { tag: 'c:dusts/ender_pearl', count: 4 },
+                { tag: 'c:dusts/fluix', count: 4 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}fluix_pearl`
         }
     ];
 

@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/energized',
                 D: 'industrialforegoing:machine_frame_simple',
                 E: 'modern_industrialization:motor',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}assembler_block`
         },
@@ -104,7 +104,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/energized',
                 D: 'industrialforegoing:machine_frame_simple',
                 E: 'modern_industrialization:motor',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}cooler_block`
         },
@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/energized',
                 D: 'industrialforegoing:machine_frame_simple',
                 E: 'modern_industrialization:motor',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}centrifuge_block`
         },
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
                 B: 'modern_industrialization:copper_coil',
                 C: 'oritech:refinery_module_block',
                 D: 'modern_industrialization:heatproof_machine_casing',
-                E: 'actuallyadditions:advanced_coil'
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}refinery_block`
         },
@@ -249,6 +249,17 @@ ServerEvents.recipes((event) => {
                 B: '#c:essences/manipulation'
             },
             id: `${id_prefix}transparent_item_pipe`
+        },
+        {
+            output: `oritech:atomic_forge_block`,
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#c:gems/prescient_crystal',
+                B: 'enderio:sentient_ender',
+                C: 'modern_industrialization:cooling_cell',
+                D: 'industrialforegoing:machine_frame_advanced'
+            },
+            id: `${id_prefix}atomic_forge_block`
         }
     ];
 

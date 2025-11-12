@@ -131,11 +131,11 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:z_logic_controller', count: 1 },
             inputs: [
-                { tag: 'c:ingots/soularium' },
-                { item: 'minecraft:zombie_head' },
-                { tag: 'c:ingots/soularium' },
+                { item: 'malum:soul_stained_steel_plating' },
+                { item: 'enderio:zombie_electrode' },
+                { item: 'malum:soul_stained_steel_plating' },
                 { item: 'malum:imitation_flesh' },
-                { item: 'modern_industrialization:electronic_circuit' },
+                { item: 'ae2:logic_processor' },
                 { item: 'malum:imitation_flesh' }
             ],
             energy: 20000,
@@ -144,12 +144,12 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:guardian_diode', count: 1 },
             inputs: [
-                { tag: 'c:ingots/brass' },
+                { tag: 'c:plates/brass' },
                 { item: 'minecraft:conduit' },
-                { tag: 'c:ingots/brass' },
-                { item: 'minecraft:sea_lantern' },
+                { tag: 'c:plates/brass' },
+                { item: 'malum:prismatic_focus_lens' },
                 { item: 'enderio:double_layer_capacitor' },
-                { item: 'minecraft:sea_lantern' }
+                { item: 'malum:prismatic_focus_lens' }
             ],
             energy: 20000,
             id: `${id_prefix}guardian_diode`
@@ -160,12 +160,38 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/end_steel' },
                 { item: 'enderio:ender_crystal' },
                 { tag: 'c:ingots/end_steel' },
-                { item: 'enderio:prescient_powder' },
+                { tag: 'c:gems/prescient_crystal' },
                 { item: 'enderio:octadic_capacitor' },
-                { item: 'enderio:prescient_powder' }
+                { tag: 'c:gems/prescient_crystal' }
             ],
             energy: 20000,
             id: `${id_prefix}ender_resonator`
+        },
+        {
+            output: { id: 'enderio:skeletal_contractor', count: 1 },
+            inputs: [
+                { tag: 'c:ingots/soularium' },
+                { item: 'minecraft:skeleton_skull' },
+                { tag: 'c:ingots/soularium' },
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'create:electron_tube' },
+                { item: 'ars_technica:calibrated_precision_mechanism' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}skeletal_contractor`
+        },
+        {
+            output: { id: 'enderio:zombie_electrode', count: 1 },
+            inputs: [
+                { tag: 'c:plates/silicon' },
+                { item: 'minecraft:zombie_head' },
+                { tag: 'c:plates/silicon' },
+                { tag: 'c:gems/pulsating_crystal' },
+                { item: 'enderio:basic_capacitor' },
+                { tag: 'c:gems/pulsating_crystal' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}zombie_electrode`
         },
         {
             output: {

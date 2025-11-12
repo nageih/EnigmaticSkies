@@ -155,6 +155,12 @@
 		"&a    in the area!"
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
+	quest.053C43E68E7ADB2B.quest_desc: [
+		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
+		""
+		"&6⚠ Note: Enderio machines require  "
+		"&6    a Capacitor to function."
+	]
 	quest.054093E1130E24C1.quest_desc: [
 		"An &7Automatic Feeder&r is a simple feeding station for nearby animals. "
 		""
@@ -1190,9 +1196,9 @@
 		"Greater range will cost more power!"
 	]
 	quest.1C21EC957B97C70A.quest_desc: [
-		"An Advanced Clicker can be exceptionally useful for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
+		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
-		"Unlike a Simple Clicker, it acts in a large area. "
+		"Unlike a &7Simple Clicker&r, it acts in a large area. "
 	]
 	quest.1C83B47F599B117A.quest_desc: [
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
@@ -1205,12 +1211,7 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
-	quest.1C9565D5C51B74CC.quest_desc: [
-		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
-		""
-		"&6⚠ Note: Enderio machines require  "
-		"&6    a Capacitor to function."
-	]
+	quest.1C9565D5C51B74CC.quest_desc: [""]
 	quest.1C9565D5C51B74CC.title: "Genetics"
 	quest.1CEDA28FD4CB759E.quest_desc: [
 		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
@@ -5222,7 +5223,7 @@
 		"&a    placed on Dense Cables."
 	]
 	quest.6FC31B3806BF222A.quest_desc: [
-		"The Thermal Compressor uses heat differentials to produce compressed air up to &710 bar&r. "
+		"The &7Thermal Compressor&r uses heat differentials to produce compressed air up to &710 bar&r. "
 		""
 		"Blocks such as &7Lava&r or &7Magma&r may be used to heat one side while a &7Heat Sink&r placed opposite will be enough to produce the required differential. "
 		""

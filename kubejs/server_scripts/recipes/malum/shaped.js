@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#malum:runewood_planks',
                 B: 'ars_additions:golden_chain',
-                C: 'enderio:ensouled_chassis',
+                C: 'aether:life_shard',
                 D: 'ars_nouveau:gold_grate'
             },
             id: `${id_prefix}spirit_altar`

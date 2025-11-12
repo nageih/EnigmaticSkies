@@ -24,6 +24,16 @@ ServerEvents.recipes((event) => {
                 D: 'pneumaticcraft:plastic'
             },
             id: `${id_prefix}conveyor_extraction_upgrade`
+        },
+        {
+            output: 'industrialforegoing:laser_drill',
+            pattern: [' A ', 'ABA', ' C '],
+            key: {
+                A: 'oritech:enderic_lens',
+                B: 'industrialforegoing:machine_frame_advanced',
+                C: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}laser_drill`
         }
     ];
 

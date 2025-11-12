@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:plates/iron',
                 B: 'create:electron_tube',
-                C: '#c:gears/copper'
+                C: '#c:gears/bronze'
             },
             id: `${id_prefix}iron_casing`
         },

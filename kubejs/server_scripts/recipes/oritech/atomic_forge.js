@@ -10,6 +10,16 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}duratium_ingot`
+        },
+        {
+            results: [{ id: 'oritech:enderic_compound', count: 1 }],
+            ingredients: [
+                { tag: 'c:dusts/grains_of_the_end' },
+                { item: 'minecraft:echo_shard' },
+                { item: 'minecraft:echo_shard' }
+            ],
+            time: 20,
+            id: `${id_prefix}enderic_compound`
         }
     ];
 

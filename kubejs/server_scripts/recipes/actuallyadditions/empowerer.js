@@ -17,20 +17,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluxite`
         },
         {
-            result: { id: 'modern_industrialization:digital_circuit', count: 1 },
-            base: { tag: 'c:plates/plastic' },
-            modifiers: [
-                { item: 'modern_industrialization:electronic_circuit' },
-                { tag: 'c:gems/prescient_crystal' },
-                { item: 'modern_industrialization:electronic_circuit' },
-                { tag: 'c:gems/prescient_crystal' }
-            ],
-            color: '#9e0313',
-            energy: 5000,
-            time: 10,
-            id: `${id_prefix}digital_circuit`
-        },
-        {
             result: { id: 'actuallyadditions:empowered_canola_seed', count: 1 },
             base: { item: 'actuallyadditions:crystallized_canola_seed' },
             modifiers: [

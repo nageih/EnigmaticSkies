@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
                 A: { item: 'pneumaticcraft:compressed_iron_helmet' },
                 C: { item: 'pneumaticcraft:air_canister' },
                 I: { tag: 'c:ingots/compressed_iron' },
-                P: { item: `modern_industrialization:electronic_circuit` }
+                P: { item: 'enderio:frank_n_zombie' }
             },
 
             id: `${id_prefix}pneumatic_helmet`
@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
                 A: { item: 'pneumaticcraft:compressed_iron_chestplate' },
                 C: { item: 'pneumaticcraft:air_canister' },
                 I: { tag: 'c:ingots/compressed_iron' },
-                P: { item: `modern_industrialization:electronic_circuit` }
+                P: { item: 'enderio:frank_n_zombie' }
             },
 
             id: `${id_prefix}pneumatic_chestplate`
@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
                 A: { item: 'pneumaticcraft:compressed_iron_leggings' },
                 C: { item: 'pneumaticcraft:air_canister' },
                 I: { tag: 'c:ingots/compressed_iron' },
-                P: { item: `modern_industrialization:electronic_circuit` }
+                P: { item: 'enderio:frank_n_zombie' }
             },
 
             id: `${id_prefix}pneumatic_leggings`
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 A: { item: 'pneumaticcraft:compressed_iron_boots' },
                 C: { item: 'pneumaticcraft:air_canister' },
                 I: { tag: 'c:ingots/compressed_iron' },
-                P: { item: `modern_industrialization:electronic_circuit` }
+                P: { item: 'enderio:frank_n_zombie' }
             },
 
             id: `${id_prefix}pneumatic_boots`

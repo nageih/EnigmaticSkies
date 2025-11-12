@@ -37,8 +37,8 @@ ServerEvents.recipes((event) => {
             key: {
                 A: `#c:gems/empowered_void`,
                 B: `geneticsresequenced:incubator`,
-                C: '#c:gears/vibrant',
-                D: 'modern_industrialization:electronic_circuit'
+                C: '#c:gears/dark_steel',
+                D: 'enderio:z_logic_controller'
             },
             id: `${id_prefix}advanced_incubator`
         },
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'ABA', ' C '],
             key: {
                 A: `#c:plates/plastic`,
-                B: 'enderio:z_logic_controller',
+                B: 'enderio:skeletal_contractor',
                 C: 'geneticsresequenced:syringe'
             },
             id: `${id_prefix}gene_checker`
@@ -65,11 +65,11 @@ ServerEvents.recipes((event) => {
     ];
 
     const machines = [
-        { output: 'cell_analyzer', input: 'enderio:z_logic_controller' },
-        { output: 'dna_extractor', input: 'create:mechanical_mixer' },
-        { output: 'dna_decryptor', input: 'enderio:frank_n_zombie' },
+        { output: 'cell_analyzer', input: 'enderio:skeletal_contractor' },
+        { output: 'dna_extractor', input: 'create:whisk' },
+        { output: 'dna_decryptor', input: 'enderio:z_logic_controller' },
         { output: 'blood_purifier', input: 'create:attribute_filter' },
-        { output: 'plasmid_infuser', input: 'create:mechanical_press' },
+        { output: 'plasmid_infuser', input: 'create:brass_hand' },
         { output: 'incubator', input: 'minecraft:copper_bulb' },
         { output: 'plasmid_injector', input: 'create:spout' }
     ];

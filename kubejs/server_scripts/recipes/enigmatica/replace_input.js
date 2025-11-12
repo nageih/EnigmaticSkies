@@ -272,19 +272,9 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:motor`
         },
         {
-            filter: [{ id: /justdirethings:.*t1$/ }],
-            to_replace: `minecraft:ender_eye`,
-            replace_with: 'create:electron_tube'
-        },
-        {
             filter: [{ id: /justdirethings:.*t2$/ }, { id: 'justdirethings:portalgun' }],
             to_replace: `minecraft:ender_eye`,
             replace_with: '#c:gems/pulsating_crystal'
-        },
-        {
-            filter: [{ id: /justdirethings:.*t1$/ }],
-            to_replace: `#c:dusts/redstone`,
-            replace_with: 'actuallyadditions:advanced_coil'
         },
         {
             filter: [{ id: /justdirethings:.*t2$/ }],
@@ -292,7 +282,7 @@ ServerEvents.recipes((event) => {
             replace_with: 'oritech:flux_gate'
         },
         {
-            filter: [{ id: /justdirethings:.*t(1|2)$/ }],
+            filter: [{ id: /justdirethings:.*t2$/ }],
             to_replace: `#c:gems/lapis`,
             replace_with: 'ars_technica:calibrated_precision_mechanism'
         },
@@ -405,14 +395,24 @@ ServerEvents.recipes((event) => {
             replace_with: `ae2:charged_certus_quartz_crystal`
         },
         {
+            filter: [{ output: /ae2:cell_component/ }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: `#c:gems/brilliance`
+        },
+        {
+            filter: [{ output: /ae2:cell_component/ }, { output: /ae2:spatial_cell_component/ }],
+            to_replace: `#c:dusts/glowstone`,
+            replace_with: `#c:gems/pulsating_crystal`
+        },
+        {
+            filter: [{ output: /ae2:cell_component/ }],
+            to_replace: `#c:dusts/sky_stone`,
+            replace_with: `#c:gems/fluxite`
+        },
+        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'
-        },
-        {
-            filter: [{ mod: 'pneumaticcraft' }],
-            to_replace: `pneumaticcraft:printed_circuit_board`,
-            replace_with: `modern_industrialization:electronic_circuit`
         },
         {
             filter: [{ mod: 'actuallyadditions' }],
@@ -438,11 +438,6 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:machine_plating_block`,
             replace_with: `oritech:machine_plating_block`
-        },
-        {
-            filter: [{ mod: 'oritech' }],
-            to_replace: `oritech:processing_unit`,
-            replace_with: 'modern_industrialization:analog_circuit'
         },
         {
             filter: [{ output: /aquaculture:neptunium_/ }],
@@ -483,21 +478,15 @@ ServerEvents.recipes((event) => {
             filter: [
                 { id: 'naturesaura:placer' },
                 { id: 'prettypipes:random_sorting_modifier' },
-                { id: 'modularrouters:activator_module' },
-                { id: 'justdirethings:clickert1' }
+                { id: 'modularrouters:activator_module' }
             ],
             to_replace: `minecraft:dispenser`,
             replace_with: '#c:essences/manipulation'
         },
         {
-            filter: [{ id: 'justdirethings:blockplacert1' }, { id: 'modularrouters:placer_module' }],
+            filter: [{ id: 'modularrouters:placer_module' }],
             to_replace: `minecraft:dispenser`,
             replace_with: 'actuallyadditions:placer'
-        },
-        {
-            filter: [{ id: 'justdirethings:fluidcollectort1' }],
-            to_replace: `minecraft:dispenser`,
-            replace_with: 'actuallyadditions:fluid_collector'
         },
         {
             filter: [{ id: 'modularrouters:placer_module' }],
@@ -522,6 +511,16 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `minecraft:obsidian`,
             replace_with: '#c:gems/void'
+        },
+        {
+            filter: [
+                { id: 'enderio:impulse_hopper' },
+                { id: 'enderio:drain' },
+                { id: 'enderio:painting_machine' },
+                { id: 'enderio:wired_charger' }
+            ],
+            to_replace: `enderio:void_chassis`,
+            replace_with: `actuallyadditions:iron_casing`
         }
     ];
 

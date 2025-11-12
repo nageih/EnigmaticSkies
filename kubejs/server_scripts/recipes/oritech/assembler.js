@@ -65,28 +65,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}advanced_battery`
         },
         {
-            results: [{ id: 'modern_industrialization:electronic_circuit_board', count: 1 }],
-            ingredients: [
-                { item: 'pneumaticcraft:plastic' },
-                { item: 'pneumaticcraft:transistor' },
-                { item: 'pneumaticcraft:transistor' },
-                { item: 'enderio:double_layer_capacitor' }
-            ],
-            time: 20,
-            id: `${id_prefix}electronic_circuit_board`
-        },
-        {
-            results: [{ id: 'modern_industrialization:electronic_circuit', count: 1 }],
-            ingredients: [
-                { item: 'modern_industrialization:electronic_circuit_board' },
-                { item: 'modern_industrialization:analog_circuit' },
-                { item: 'modern_industrialization:analog_circuit' },
-                { item: 'enderio:pulsating_crystal' }
-            ],
-            time: 20,
-            id: `${id_prefix}electronic_circuit`
-        },
-        {
             results: [{ id: 'modern_industrialization:pump', count: 1 }],
             ingredients: [
                 { item: 'modern_industrialization:steel_large_plate' },
@@ -114,7 +92,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:reinforced_carbon_sheet' },
                 { item: 'modern_industrialization:motor' },
                 { item: 'modern_industrialization:motor' },
-                { item: 'modern_industrialization:electronic_circuit' }
+                { item: 'enderio:skeletal_contractor' }
             ],
             time: 20,
             id: `${id_prefix}large_motor`
@@ -125,7 +103,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:reinforced_carbon_sheet' },
                 { item: 'modern_industrialization:advanced_motor' },
                 { item: 'modern_industrialization:advanced_motor' },
-                { item: 'modern_industrialization:digital_circuit' }
+                { item: 'enderio:z_logic_controller' }
             ],
             time: 20,
             id: `${id_prefix}large_advanced_motor`
@@ -184,6 +162,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}machine_fluid_addon`
+        },
+        {
+            results: [{ id: 'oritech:enderic_lens', count: 1 }],
+            ingredients: [
+                { item: 'oritech:enderic_compound' },
+                { tag: 'c:gems/ruby' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'enderio:guardian_diode' }
+            ],
+            time: 20,
+            id: `${id_prefix}enderic_lens`
         }
     ];
 

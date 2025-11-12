@@ -95,16 +95,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["016B7CA4A7FC58A1"]
-			id: "541CBBDB6401802C"
-			tasks: [{
-				id: "6BDBF20359D5E6B2"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"4F2E18DABA17E0AC"
 				"3753A3EB1909F923"
@@ -115,7 +105,7 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -171,7 +161,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["24095EE1A419152D"]
@@ -182,7 +172,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["59F0519A7ED69E19"]
@@ -203,7 +193,7 @@
 				}
 			]
 			x: 2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
@@ -315,7 +305,6 @@
 			dependencies: [
 				"4C91792ACCC53A2B"
 				"492FE8CF9B01FCBE"
-				"1476B02AA2977ACB"
 				"6FC31B3806BF222A"
 			]
 			dependency_requirement: "one_completed"
@@ -337,7 +326,7 @@
 				}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19F8B29D38CA31B8"]
@@ -409,7 +398,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -433,10 +422,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1476B02AA2977ACB"
-				"6FC31B3806BF222A"
-			]
+			dependencies: ["6FC31B3806BF222A"]
 			dependency_requirement: "one_completed"
 			icon: {
 				id: "actuallyadditions:lens_of_the_miner"
@@ -455,7 +441,7 @@
 				}
 			]
 			x: 5.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -634,7 +620,7 @@
 				}
 			]
 			x: 2.0d
-			y: 5.0d
+			y: 5.5d
 		}
 	]
 }
