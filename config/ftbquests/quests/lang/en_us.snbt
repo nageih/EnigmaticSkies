@@ -574,6 +574,11 @@
 		"&6    viewing the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
+	quest.0E1F3FCCA1A9E405.quest_desc: [
+		"These simple Platforms consist of little more than grass and clouds. "
+		""
+		"They can be used to help you expand your base if you wish!"
+	]
 	quest.0EEEA27699137B6C.quest_desc: [
 		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
 		""
@@ -4382,7 +4387,7 @@
 		"&a    lower tier recipes!"
 	]
 	quest.623B5F0C0464F907.quest_desc: [
-		"While it is true that a scurry of Starbuncles all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
+		"While it is true that a scurry of &7Starbuncles&r all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
 		""
 		"Naturally, each one can only manage a single task at once, but they can be instructed to do several different jobs depending on the hat you give them. "
 		""

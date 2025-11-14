@@ -355,7 +355,9 @@ ServerEvents.recipes((event) => {
                 { id: 'farmersdelight:cutting_board' },
                 { id: /functionalstorage:fluid/ },
                 { id: 'create:crafting/kinetics/cogwheel' },
-                { id: 'create:crafting/kinetics/large_cogwheel_from_little' }
+                { id: 'create:crafting/kinetics/large_cogwheel_from_little' },
+                { id: 'create:crafting/kinetics/water_wheel' },
+                { id: 'create:crafting/kinetics/large_water_wheel' }
             ],
             to_replace: `#minecraft:planks`,
             replace_with: `#enigmatica:planks`
