@@ -292,17 +292,7 @@ const villagerTrades = {
             ingredients: [{ id: 'minecraft:porkchop', count: { min: 8, max: 8 } }],
             level: 4
         },
-        {
-            result: { id: 'arsdelight:wilden_meat_slice', count: 6 },
-            ingredients: [{ id: 'arsdelight:wilden_meat', count: { min: 1, max: 1 } }],
-            level: 4
-        },
 
-        {
-            result: { id: 'arsdelight:chimera_meat_slice', count: 6 },
-            ingredients: [{ id: 'arsdelight:chimera_meat', count: { min: 1, max: 1 } }],
-            level: 5
-        },
         {
             result: {
                 id: 'occultism:butcher_knife[enchantments={levels:{"minecraft:looting":1,"minecraft:sharpness":1}}]',
