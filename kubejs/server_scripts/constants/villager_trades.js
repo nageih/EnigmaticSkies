@@ -261,6 +261,44 @@ const villagerTrades = {
             },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 1
+        },
+        {
+            result: { id: 'farmersdelight:minced_beef', count: 4 },
+            ingredients: [{ id: 'minecraft:beef', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: { id: 'farmersdelight:bacon', count: 4 },
+            ingredients: [{ id: 'minecraft:porkchop', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
+            result: { id: 'farmersdelight:chicken_cuts', count: 4 },
+            ingredients: [{ id: 'minecraft:chicken', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'farmersdelight:cod_slice', count: 4 },
+            ingredients: [{ id: 'minecraft:cod', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'farmersdelight:salmon_slice', count: 4 },
+            ingredients: [{ id: 'minecraft:salmon', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'farmersdelight:mutton_chops', count: 4 },
+            ingredients: [{ id: 'minecraft:mutton', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'farmersdelight:ham', count: 1 },
+            ingredients: [{ id: 'minecraft:porkchop', count: { min: 8, max: 8 } }],
+            level: 4
         }
     ],
     // Coffee Maker
@@ -350,6 +388,12 @@ const villagerTrades = {
             result: { id: `aether:hellfire_stone`, count: 32 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 3
+        },
+
+        {
+            result: { id: 'ars_nouveau:ritual_flight', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // Lectern
@@ -376,6 +420,11 @@ const villagerTrades = {
             level: 2
         },
 
+        {
+            result: { id: 'ars_caelum:ritual_conjure_island_village', count: 1 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            level: 3
+        },
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
@@ -605,6 +654,17 @@ const villagerTrades = {
             result: { id: 'ae2:blank_pattern', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 3
+        },
+        {
+            result: { id: 'ae2:item_cell_housing', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'ae2:fluid_cell_housing', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // PNC Charging Station
