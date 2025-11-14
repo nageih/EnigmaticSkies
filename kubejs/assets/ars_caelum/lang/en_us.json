@@ -13,5 +13,8 @@
     "ars_caelum.ritual_desc.ritual_conjure_island_blazing": "Creates an island of Blazing Archwoods. Converts the biome to Archwood Forest. Requires a full jar of Source to begin. NOTE: This ritual should be performed at least 32 blocks from any other block.",
 
     "item.ars_caelum.ritual_conjure_island_sculk": "Conjure Island: Flashing",
-    "ars_caelum.ritual_desc.ritual_conjure_island_sculk": "Creates an island of Flashing Archwoods. Converts the biome to Deep Dark. Requires a full jar of Source to begin. NOTE: This ritual should be performed at least 32 blocks from any other block."
+    "ars_caelum.ritual_desc.ritual_conjure_island_sculk": "Creates an island of Flashing Archwoods. Converts the biome to Deep Dark. Requires a full jar of Source to begin. NOTE: This ritual should be performed at least 32 blocks from any other block.",
+
+    "item.ars_caelum.ritual_conjure_island_village": "Conjure Island: Platform",
+    "ars_caelum.ritual_desc.ritual_conjure_island_village": "Conjures a small island suitable for building on."
 }
