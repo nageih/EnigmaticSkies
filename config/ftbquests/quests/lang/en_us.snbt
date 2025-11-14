@@ -994,7 +994,9 @@
 		"&a    valid locations for them."
 	]
 	quest.161CA05D18639AD4.quest_desc: [
-		"This workstation allows the Wixie to craft Farmer's Delight Cutting recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cutting&r recipes. "
+		""
+		"It will only produce the primary output of the craft, however. For example, &7Rice&r will &nnot&r produce &7Straw&r when processed this way. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Cutting Board&r "
@@ -1151,9 +1153,9 @@
 		"&c    available to receive the items!"
 	]
 	quest.1A2B5BCA37161B1A.quest_desc: [
-		"This workstation allows the Wixie to craft Enchanting Apparatus recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Enchanting Apparatus&r recipes. "
 		""
-		"This can be particularly helpful for repeat crafts as the Wixie will process ingredients more quickly than the standard Enchanting Apparatus."
+		"This can be particularly helpful for repeat crafts as the &7Wixie&r will process ingredients more quickly than the standard &7Enchanting Apparatus&r."
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Enchanting Apparatus&r "
@@ -2366,7 +2368,7 @@
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.39716C901B98BAF2.quest_desc: [
-		"This workstation allows the Wixie to craft Stonecutter recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Stonecutter&r recipes. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Stonecutter&r "
@@ -2546,7 +2548,7 @@
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3CBA1384BD3D28ED.quest_desc: [
-		"This workstation allows the Wixie to craft Furnace recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Furnace&r recipes. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Furnace&r "
@@ -5741,9 +5743,9 @@
 		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
 	quest.79DFBA1E35132332.quest_desc: [
-		"This workstation allows the Wixie to craft Farmer's Delight Cooking recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cooking&r recipes. "
 		""
-		"The Wixie is generally quicker than the Cooking Pot, and far easier to automate!"
+		"The &7Wixie&r is generally quicker than the &7Cooking Pot&r, and far easier to automate!"
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Cooking Pot&r "
