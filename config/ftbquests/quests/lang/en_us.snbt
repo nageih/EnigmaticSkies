@@ -34,6 +34,15 @@
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
+	quest.00946DF0B2C88A9F.quest_desc: [
+		"Long ago, roboticists attempted to mimic the flexibility of the flesh in their machines. "
+		""
+		"Metals and plastics can serve as wonderful analogs to bone for structure, but their dynamos could never quite match the flexibility of the flesh. "
+		""
+		"So, they shifted their focus and instead set out to improve upon what nature had already nearly perfected. "
+		""
+		"Through the combination of multiple disciplines, they brought life to dead flesh and then improved it to be stronger and more durable than ever.   "
+	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -715,11 +724,12 @@
 		""
 		"The &7Hearth&r in the gazebo will keep you warm within the bounds of the building once it is activated"
 		""
-		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right."
+		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right. Then locate the &7Trap Door&r in front and descend into the basement. "
 		""
-		"It will take a minute for the &7Hearth&r to warm up but you can open the &7Trap Door&r and descend into the basement to ensure the &7Dilapidated Boiler&r is operating."
-		"&n                                                              &r"
+		"There, you'll find a &7Lever&r to enable the &7Hearth&r."
 		""
+		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Dilapidated Boiler&r while you're down there to ensure it is operating."
+		"{@pagebreak}"
 		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
 		"The center of the protected area may be moved by attaching &7Smokestacks&r to the top."
@@ -3208,6 +3218,11 @@
 		""
 		"&6⚠ Note: The structure will accept "
 		"&6    any Steel Block. "
+	]
+	quest.46DDBE0A9170F54A.quest_desc: [
+		"Forging &7Steel&r in &7Blaze Ember&r has certain… advantages over traditional practices. "
+		""
+		"Not only is it strong and durable, but it is uniquely porous when it comes to &7Spirits&r; as if it has a thirst for souls that can never be quenched. "
 	]
 	quest.46F17885C957FD5C.quest_desc: [
 		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your Hearth."

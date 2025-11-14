@@ -737,7 +737,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -776,8 +776,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["17198F7EC5DC1A4F"]
@@ -877,8 +877,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 }
