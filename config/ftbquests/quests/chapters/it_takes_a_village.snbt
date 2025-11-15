@@ -637,6 +637,14 @@
 		{
 			dependencies: ["105CABB7D9705359"]
 			id: "054093E1130E24C1"
+			rewards: [{
+				id: "1CD3F21191E90CC5"
+				item: {
+					count: 1
+					id: "minecraft:comparator"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2D18ACA3004AE100"
