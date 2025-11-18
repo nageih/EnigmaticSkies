@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}water`
         },
         {
-            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 4 }],
+            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 8 }],
             fluid_outputs: [
                 { fluid: 'extended_industrialization:manure', amount: 1000 },
                 { fluid: 'enigmatica:wastewater', amount: 1000 }
