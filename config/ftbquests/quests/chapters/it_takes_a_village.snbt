@@ -186,7 +186,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -237,8 +237,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1D783196F551142F"]
@@ -339,8 +339,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -0.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2F9C801DFAC1C0D9"]
@@ -352,8 +352,8 @@
 				item: { count: 1, id: "ars_nouveau:storage_lectern" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["628A6A79EFA30990"]
@@ -374,8 +374,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -401,8 +401,8 @@
 					type: "observation"
 				}
 			]
-			x: 6.0d
-			y: 0.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -428,8 +428,8 @@
 					type: "observation"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -455,8 +455,8 @@
 					type: "observation"
 				}
 			]
-			x: 6.5d
-			y: 1.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -482,8 +482,8 @@
 					type: "observation"
 				}
 			]
-			x: 5.0d
-			y: 1.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -509,8 +509,8 @@
 					type: "observation"
 				}
 			]
-			x: 7.0d
-			y: 1.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["22344008D43D4710"]
@@ -536,8 +536,8 @@
 					type: "observation"
 				}
 			]
-			x: 5.5d
-			y: 1.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["56AD6E7F12056140"]
@@ -548,8 +548,8 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["15FAB1720AD470A0"]
@@ -620,7 +620,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -632,11 +632,19 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
 			id: "054093E1130E24C1"
+			rewards: [{
+				id: "1CD3F21191E90CC5"
+				item: {
+					count: 1
+					id: "minecraft:comparator"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2D18ACA3004AE100"
@@ -644,7 +652,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["105CABB7D9705359"]
@@ -656,7 +664,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -691,8 +699,8 @@
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -789,6 +797,18 @@
 			}]
 			x: -2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["2F9C801DFAC1C0D9"]
+			id: "0E1F3FCCA1A9E405"
+			shape: "diamond"
+			tasks: [{
+				id: "7346298BAA36BC29"
+				item: { count: 1, id: "ars_caelum:ritual_conjure_island_village" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 }

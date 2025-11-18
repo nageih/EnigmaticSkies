@@ -112,3 +112,6 @@ machine_namespace = "mi_tweaks"
 	#Whether item fuels should be blocked in multiblock boilers
 	#Default: false
 	disable_item_fuel_in_multiblock_boilers = true
+	#Whether temperature and fuel consumption should be locked when a redstone module locks a multiblock boiler, rather than losing fuel and heat
+	#Default: false
+	lock_boiler_temperature_with_redstone = false

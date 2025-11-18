@@ -21,8 +21,16 @@
             "/actuallyadditions:.*_battery$/",
             "/actuallyadditions:.*_crystal_shard/",
 
+            "/ae2:.*_processor_press/",
+            "/ae2:printed_.*_processor/",
+            "/ae2:.*_budding_quartz/",
+            "ae2:printed_silicon",
+
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
+            "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
+            "ars_nouveau:ritual_wilden_summon",
+            "ars_additions:ritual_locate_structure",
 
             "enderio:stirling_generator",
             "enderio:soul_engine",

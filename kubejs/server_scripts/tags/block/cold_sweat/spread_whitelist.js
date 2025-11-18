@@ -4,6 +4,7 @@ ServerEvents.tags('block', (event) => {
         '#create:fan_transparent',
         '#minecraft:leaves',
         '#minecraft:trapdoors',
+        '#minecraft:climbable',
         '#c:fence_gates',
         'create:encased_fluid_pipe',
         'enderio:dark_steel_bars',

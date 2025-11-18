@@ -34,6 +34,15 @@
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
+	quest.00946DF0B2C88A9F.quest_desc: [
+		"Long ago, roboticists attempted to mimic the flexibility of the flesh in their machines. "
+		""
+		"Metals and plastics can serve as wonderful analogs to bone for structure, but their dynamos could never quite match the flexibility of the flesh. "
+		""
+		"So, they shifted their focus and instead set out to improve upon what nature had already nearly perfected. "
+		""
+		"Through the combination of multiple disciplines, they brought life to dead flesh and then improved it to be stronger and more durable than ever.   "
+	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -165,6 +174,10 @@
 		"An &7Automatic Feeder&r is a simple feeding station for nearby animals. "
 		""
 		"Keep it filled with the items your animals need to breed, and they’ll take care of the rest. "
+		""
+		"The &7Automatic Feeder&r can also be used to count the animals in the area. "
+		""
+		"Place a &7Comparator&r against it to get a rough estimate, where each level of redstone means two animals. At a signal strength of 15, it can no longer breed and it's time to start culling."
 	]
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
@@ -565,6 +578,11 @@
 		"&6    viewing the recipe."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
+	quest.0E1F3FCCA1A9E405.quest_desc: [
+		"These simple Platforms consist of little more than grass and clouds. "
+		""
+		"They can be used to help you expand your base if you wish!"
+	]
 	quest.0EEEA27699137B6C.quest_desc: [
 		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
 		""
@@ -715,11 +733,12 @@
 		""
 		"The &7Hearth&r in the gazebo will keep you warm within the bounds of the building once it is activated"
 		""
-		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right."
+		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right. Then locate the &7Trap Door&r in front and descend into the basement. "
 		""
-		"It will take a minute for the &7Hearth&r to warm up but you can open the &7Trap Door&r and descend into the basement to ensure the &7Dilapidated Boiler&r is operating."
-		"&n                                                              &r"
+		"There, you'll find a &7Lever&r to enable the &7Hearth&r."
 		""
+		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Dilapidated Boiler&r while you're down there to ensure it is operating."
+		"{@pagebreak}"
 		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
 		"The center of the protected area may be moved by attaching &7Smokestacks&r to the top."
@@ -979,7 +998,9 @@
 		"&a    valid locations for them."
 	]
 	quest.161CA05D18639AD4.quest_desc: [
-		"This workstation allows the Wixie to craft Farmer's Delight Cutting recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cutting&r recipes. "
+		""
+		"It will only produce the primary output of the craft, however. For example, &7Rice&r will &nnot&r produce &7Straw&r when processed this way. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Cutting Board&r "
@@ -1136,9 +1157,9 @@
 		"&c    available to receive the items!"
 	]
 	quest.1A2B5BCA37161B1A.quest_desc: [
-		"This workstation allows the Wixie to craft Enchanting Apparatus recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Enchanting Apparatus&r recipes. "
 		""
-		"This can be particularly helpful for repeat crafts as the Wixie will process ingredients more quickly than the standard Enchanting Apparatus."
+		"This can be particularly helpful for repeat crafts as the &7Wixie&r will process ingredients more quickly than the standard &7Enchanting Apparatus&r."
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Enchanting Apparatus&r "
@@ -2351,7 +2372,7 @@
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.39716C901B98BAF2.quest_desc: [
-		"This workstation allows the Wixie to craft Stonecutter recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Stonecutter&r recipes. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Stonecutter&r "
@@ -2531,7 +2552,7 @@
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3CBA1384BD3D28ED.quest_desc: [
-		"This workstation allows the Wixie to craft Furnace recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Furnace&r recipes. "
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Furnace&r "
@@ -3208,6 +3229,11 @@
 		""
 		"&6⚠ Note: The structure will accept "
 		"&6    any Steel Block. "
+	]
+	quest.46DDBE0A9170F54A.quest_desc: [
+		"Forging &7Steel&r in &7Blaze Ember&r has certain… advantages over traditional practices. "
+		""
+		"Not only is it strong and durable, but it is uniquely porous when it comes to &7Spirits&r; as if it has a thirst for souls that can never be quenched. "
 	]
 	quest.46F17885C957FD5C.quest_desc: [
 		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your Hearth."
@@ -4367,7 +4393,7 @@
 		"&a    lower tier recipes!"
 	]
 	quest.623B5F0C0464F907.quest_desc: [
-		"While it is true that a scurry of Starbuncles all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
+		"While it is true that a scurry of &7Starbuncles&r all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
 		""
 		"Naturally, each one can only manage a single task at once, but they can be instructed to do several different jobs depending on the hat you give them. "
 		""
@@ -5721,9 +5747,9 @@
 		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
 	quest.79DFBA1E35132332.quest_desc: [
-		"This workstation allows the Wixie to craft Farmer's Delight Cooking recipes. "
+		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cooking&r recipes. "
 		""
-		"The Wixie is generally quicker than the Cooking Pot, and far easier to automate!"
+		"The &7Wixie&r is generally quicker than the &7Cooking Pot&r, and far easier to automate!"
 		""
 		"&6Formation&r "
 		"    Right-Click a &7Cooking Pot&r "

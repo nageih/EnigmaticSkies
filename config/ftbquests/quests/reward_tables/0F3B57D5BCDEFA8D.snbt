@@ -7,16 +7,18 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0F3B57D5BCDEFA8D"
-	loot_size: 2
+	loot_size: 1
 	order_index: 17
-	rewards: [{
-		count: 2
-		id: "0B1A9F4527D94E78"
-		item: {
-			count: 1
-			id: "ars_additions:ancient_codex_entry"
+	rewards: [
+		{
+			id: "0B1A9F4527D94E78"
+			item: {
+				count: 1
+				id: "ars_additions:ancient_codex_entry"
+			}
+			random_bonus: 1
 		}
-		random_bonus: 2
-	}]
+		{ id: "1878B0A004C0AF77", item: { count: 1, id: "ars_nouveau:starbuncle_shards" } }
+	]
 	use_title: true
 }
