@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             fluid_outputs: [{ fluid: `extended_industrialization:composted_manure`, amount: 1000 }],
             item_inputs: [
-                { item: 'minecraft:bone_meal', amount: 9 },
+                { item: 'minecraft:bone_meal', amount: 4 },
                 { item: 'extended_industrialization:mulch', amount: 4 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 1000 }],
