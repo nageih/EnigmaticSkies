@@ -47,14 +47,14 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'ars_nouveau:water_essence', count: 1 },
             input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'theurgy:crystallized_water' }],
+            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'minecraft:blue_ice' }],
             source: 2000,
             id: `${id_prefix}water_essence`
         },
         {
             output: { id: 'ars_nouveau:water_essence', count: 4 },
             input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'theurgy:crystallized_water' }],
+            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'minecraft:blue_ice' }],
             source: 6000,
             id: `${id_prefix}water_essence_from_block`
         },
