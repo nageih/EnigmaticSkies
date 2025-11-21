@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
                 { item: 'minecraft:nautilus_shell', amount: 24 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'aquaculture:fish_bones', amount: 18 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 16000 }],
             duration: 20,
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
             ],
             item_inputs: [
                 { item: 'minecraft:nautilus_shell', amount: 24 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'aquaculture:fish_bones', amount: 18 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 16000 }],
             duration: 20,

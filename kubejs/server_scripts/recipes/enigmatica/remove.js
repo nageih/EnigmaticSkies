@@ -353,14 +353,18 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:machine_frame_pity' },
         { output: 'industrialforegoing:conveyor_extraction_upgrade' },
         { output: 'industrialforegoing:laser_drill' },
+        { output: 'industrialforegoing:stasis_chamber' },
+        { output: /industrialforegoing:.*_laser_lens/ },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: 'industrialforegoing:dissolution_chamber/pink_slime_ingot' },
         { id: /industrialforegoing:dissolution_chamber\/.*_machine_frame/ },
         { id: /industrialforegoing:dissolution_chamber\/.*_addon_tier/ },
+        { id: /industrialforegoing:dissolution_chamber\/.*_laser_lens/ },
 
         { id: 'industrialforegoingsouls:soul_network_pipe' },
         { id: 'industrialforegoingsouls:soul_laser_base' },
+        { id: 'industrialforegoingsouls:soul_surge' },
 
         // Just Dire Things
         { output: /justdirethings:gooblock/ },
@@ -446,6 +450,8 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:coke_oven' },
         { type: 'modern_industrialization:wiremill' },
         { type: 'modern_industrialization:electrolyzer' },
+        { type: 'modern_industrialization:vacuum_freezer' },
+        { type: 'modern_industrialization:polarizer' },
         { type: 'extended_industrialization:alloy_smelter' },
         {
             type: 'modern_industrialization:mixer',

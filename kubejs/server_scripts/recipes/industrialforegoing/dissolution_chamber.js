@@ -195,6 +195,54 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
             processingTime: 200,
             id: `${id_prefix}pink_slime_ingot`
+        },
+        {
+            output: { id: 'industrialforegoing:red_laser_lens', count: 1 },
+            input: [
+                { tag: 'c:dusts/ruby' },
+                { tag: 'c:dusts/ruby' },
+                { tag: 'c:dusts/ruby' },
+                { tag: 'c:dusts/ruby' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}red_laser_lens`
+        },
+        {
+            output: { id: 'industrialforegoing:blue_laser_lens', count: 1 },
+            input: [
+                { tag: 'c:dusts/echo' },
+                { tag: 'c:dusts/echo' },
+                { tag: 'c:dusts/echo' },
+                { tag: 'c:dusts/echo' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}blue_laser_lens`
+        },
+        {
+            output: { id: 'industrialforegoing:black_laser_lens', count: 1 },
+            input: [
+                { tag: 'c:gems/enderic' },
+                { tag: 'c:gems/enderic' },
+                { tag: 'c:gems/enderic' },
+                { tag: 'c:gems/enderic' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' },
+                { item: 'minecraft:glass' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 200,
+            id: `${id_prefix}black_laser_lens`
         }
     ];
 

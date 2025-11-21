@@ -166,13 +166,24 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:enderic_lens', count: 1 }],
             ingredients: [
-                { item: 'oritech:enderic_compound' },
-                { tag: 'c:gems/ruby' },
+                { item: 'industrialforegoing:black_laser_lens' },
+                { item: 'industrialforegoing:red_laser_lens' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'enderio:guardian_diode' }
             ],
             time: 20,
             id: `${id_prefix}enderic_lens`
+        },
+        {
+            results: [{ id: 'industrialforegoingsouls:soul_surge', count: 1 }],
+            ingredients: [
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'apothic_enchanting:warden_tendril' },
+                { item: 'industrialforegoingsouls:soul_network_pipe' },
+                { item: 'pneumaticcraft:plastic' }
+            ],
+            time: 20,
+            id: `${id_prefix}soul_surge`
         }
     ];
 

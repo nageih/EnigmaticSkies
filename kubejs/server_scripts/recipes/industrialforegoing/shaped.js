@@ -34,6 +34,18 @@ ServerEvents.recipes((event) => {
                 C: 'oritech:flux_gate'
             },
             id: `${id_prefix}laser_drill`
+        },
+        {
+            output: 'industrialforegoing:stasis_chamber',
+            pattern: ['AAA', 'BCB', 'DED'],
+            key: {
+                A: 'apothic_enchanting:warden_tendril',
+                B: 'arsdelight:mendosteen_jelly',
+                C: 'industrialforegoing:machine_frame_advanced',
+                D: 'naturesaura:clock_hand',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}stasis_chamber`
         }
     ];
 
