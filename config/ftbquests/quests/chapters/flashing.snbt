@@ -361,6 +361,11 @@
 					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
 					type: "item"
 				}
+				{
+					id: "70DE4F1D9FBEDC8C"
+					item: { count: 1, id: "industrialforegoing:blue_laser_lens" }
+					type: "item"
+				}
 			]
 			x: -4.5d
 			y: 0.0d
