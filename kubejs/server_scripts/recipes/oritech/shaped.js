@@ -17,23 +17,24 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:accelerator_controller`,
-            pattern: ['A A', 'B B', 'CDC'],
+            pattern: ['ABA', 'CDC'],
             key: {
                 A: 'oritech:machine_frame_block',
-                B: '#c:ingots/duratium',
-                C: 'enderio:sentient_ender',
-                D: 'justdirethings:droppert2'
+                B: 'enderio:sentient_ender',
+                C: 'oritech:metal_beam_block',
+                D: 'justdirethings:droppert1'
             },
             id: `${id_prefix}accelerator_controller`
         },
         {
             output: `oritech:accelerator_motor`,
-            pattern: ['ABA', 'DCD'],
+            pattern: ['A A', 'BCB', 'DED'],
             key: {
-                A: 'oritech:flux_gate',
+                A: 'oritech:heisenberg_compensator',
                 B: 'modern_industrialization:superconductor_coil',
                 C: 'industrialforegoing:machine_frame_advanced',
-                D: '#c:ingots/duratium'
+                D: 'oritech:metal_beam_block',
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}accelerator_motor`
         },
@@ -48,11 +49,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:accelerator_ring`,
-            pattern: [' A ', 'ABA', 'CDC'],
+            pattern: [' D ', 'ABA', ' C '],
             key: {
                 A: '#ae2:glass_cable',
                 B: 'ae2:toggle_bus',
-                C: 'oritech:machine_frame_block',
+                C: 'oritech:metal_beam_block',
                 D: '#c:ingots/redstone_alloy'
             },
             id: `${id_prefix}accelerator_ring`

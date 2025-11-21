@@ -57,6 +57,20 @@ ServerEvents.recipes((event) => {
             energy: 50000,
             time: 10,
             id: `${id_prefix}gooblock_tier3`
+        },
+        {
+            result: { id: 'occultism:netherite_scrap_dust', count: 1 },
+            base: { tag: 'c:dusts/quartz' },
+            modifiers: [
+                { tag: 'c:dusts/carbon' },
+                { item: 'create:cinder_flour' },
+                { tag: 'c:dusts/carbon' },
+                { item: 'create:cinder_flour' }
+            ],
+            color: '#61061a',
+            energy: 50000,
+            time: 2,
+            id: `${id_prefix}netherite_scrap_dust`
         }
     ];
 

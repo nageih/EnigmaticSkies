@@ -652,6 +652,7 @@ ServerEvents.recipes((event) => {
         { output: 'occultism:sacrificial_bowl' },
         { output: 'occultism:dark_sacrificial_bowl' },
         { output: 'occultism:magic_lamp_empty' },
+        { input: 'occultism:netherite_scrap_dust' },
         { input: 'occultism:gray_paste' },
         { input: 'occultism:raw_iesnium' },
 
@@ -762,6 +763,8 @@ ServerEvents.recipes((event) => {
         { id: /oritech:splashing\/compat\/create/ },
         { id: 'oritech:atomicforge/urandust' },
         { id: 'oritech:atomicforge/duratium' },
+        { id: 'oritech:atomicforge/compensator' },
+        { id: 'oritech:atomicforge/compensatoralt' },
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:particle/echo_shard' },
         { id: /oritech:mixing\/compat\/create/ },

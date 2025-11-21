@@ -2,24 +2,14 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/atomic_forge/';
     const recipes = [
         {
-            results: [{ id: 'oritech:duratium_ingot', count: 1 }],
+            results: [{ id: 'oritech:heisenberg_compensator', count: 1 }],
             ingredients: [
-                { tag: 'c:ingots/end_steel' },
-                { item: 'oritech:reinforced_carbon_sheet' },
-                { item: 'oritech:reinforced_carbon_sheet' }
+                { item: 'ae2:calculation_processor' },
+                { item: 'ae2:quantum_entangled_singularity' },
+                { item: 'enderio:sentient_ender' }
             ],
             time: 20,
-            id: `${id_prefix}duratium_ingot`
-        },
-        {
-            results: [{ id: 'oritech:enderic_compound', count: 1 }],
-            ingredients: [
-                { tag: 'c:dusts/grains_of_the_end' },
-                { item: 'minecraft:echo_shard' },
-                { item: 'minecraft:echo_shard' }
-            ],
-            time: 20,
-            id: `${id_prefix}enderic_compound`
+            id: `${id_prefix}heisenberg_compensator`
         }
     ];
 
