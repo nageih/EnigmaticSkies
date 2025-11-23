@@ -7,11 +7,11 @@ ServerEvents.recipes((event) => {
 
     materials.forEach((material) => {
         recipes.push({
-            output: { id: `malum:${material}_node`, count: 1 },
-            ingredient: { item: `malum:${material}_impetus` },
+            result: { id: `malum:${material}_node`, count: 1 },
+            input: { item: `malum:${material}_impetus` },
             spirits: [
-                { type: 'earthen', count: 2 },
-                { type: 'infernal', count: 2 }
+                { type: 'malum:earthen', count: 2 },
+                { type: 'malum:infernal', count: 2 }
             ],
             durabilityCost: 2,
             time: 15,

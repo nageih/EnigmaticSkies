@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:heisenberg_compensator', count: 1 }],
             ingredients: [
-                { item: 'ae2:calculation_processor' },
+                { item: 'ae2:cell_component_256k' },
                 { item: 'ae2:quantum_entangled_singularity' },
                 { item: 'enderio:sentient_ender' }
             ],
