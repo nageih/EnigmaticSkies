@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:bronze_machine_casing`,
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:plates/bronze',
+                A: `#c:plates/andesite_alloy`,
                 B: 'create:electron_tube',
                 C: '#c:gears/iron'
             },
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: '#c:nuggets/iron',
-                B: '#c:plates/bronze',
+                B: `#c:plates/andesite_alloy`,
                 C: 'modern_industrialization:fire_clay_bricks'
             },
             id: `${id_prefix}bronze_plated_bricks`
@@ -354,6 +354,46 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/andesite_alloy`
             },
             id: `${id_prefix}andesite_alloy_large_plate`
+        },
+        {
+            output: `modern_industrialization:bronze_furnace`,
+            pattern: ['AAA', 'ABA', 'CCC'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: 'minecraft:furnace',
+                C: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}bronze_furnace`
+        },
+        {
+            output: `modern_industrialization:bronze_alluvial_trommel`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: `create:nozzle`,
+                B: 'create:precision_mechanism',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_alluvial_trommel`
+        },
+        {
+            output: `modern_industrialization:bronze_tank`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: '#c:glass_blocks'
+            },
+            id: `${id_prefix}bronze_tank`
+        },
+        {
+            output: `modern_industrialization:bronze_barrel`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: '#c:barrels/wooden'
+            },
+            id: `${id_prefix}bronze_barrel`
         }
     ];
 
