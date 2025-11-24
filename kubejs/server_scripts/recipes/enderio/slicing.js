@@ -168,19 +168,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ender_resonator`
         },
         {
-            output: { id: 'enderio:skeletal_contractor', count: 1 },
-            inputs: [
-                { tag: 'c:ingots/soularium' },
-                { item: 'minecraft:skeleton_skull' },
-                { tag: 'c:ingots/soularium' },
-                { item: 'ars_technica:calibrated_precision_mechanism' },
-                { item: 'create:electron_tube' },
-                { item: 'ars_technica:calibrated_precision_mechanism' }
-            ],
-            energy: 20000,
-            id: `${id_prefix}skeletal_contractor`
-        },
-        {
             output: { id: 'enderio:zombie_electrode', count: 1 },
             inputs: [
                 { tag: 'c:plates/silicon' },

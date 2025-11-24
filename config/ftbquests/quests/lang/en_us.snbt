@@ -1958,8 +1958,6 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
-	quest.2D190518ABA42A1F.quest_desc: ["Highly corrosion resistant, Silicon Bronze will be a suitable material to get into more complex machinery."]
-	quest.2D190518ABA42A1F.title: "Bronze"
 	quest.2D4B890D1BE63327.quest_desc: [
 		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
 		"&n                                                  "
@@ -2400,7 +2398,7 @@
 	quest.39E9D5470F347400.quest_desc: [
 		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals. "
 		""
-		"Craft an Encased Fan and process your Crushed Ores to obtain them. "
+		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain them. "
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -2824,6 +2822,14 @@
 		"&a    create custom shops to trade "
 		"&a    with each other!"
 	]
+	quest.3F20E7D7E1C07311.quest_desc: [
+		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		""
+		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into &7Dorodangos&r. "
+		""
+		"These &7Dorodangos&r may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+	]
+	quest.3F20E7D7E1C07311.title: "They See Me Ballin'"
 	quest.3F2E1099BB66AFEB.title: "Abra's Fortified Conjure"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
@@ -3807,13 +3813,10 @@
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
 	quest.513BDF32A8F6EF45.quest_desc: [
-		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		"Alakarkinos is eager and ready to assist! "
 		""
-		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into &7Dorodangos&r. "
-		""
-		"These &7Dorodangos&r may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+		"New Dorodangos await you with the materials available on this island. "
 	]
-	quest.513BDF32A8F6EF45.title: "They See Me Ballin'"
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
 		""
@@ -4476,7 +4479,6 @@
 		"&6Binding Storage&r"
 		"Bind an inventory to your &7Primary Lectern&r using the Dominion Wand; Sneak Right-Click the inventory, then Right-Click the &7Primary Lectern&r."
 	]
-	quest.62ABC26128284A71.quest_desc: ["Using Black Quartz from Copper, some Strange Crystals from Gold, and a few other bits and pieces, it seems possible to make an object that exhibits a strange sense of intelligence. "]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
 		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."

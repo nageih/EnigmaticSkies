@@ -39,12 +39,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}cloudy_dorodango`
         },
         {
-            input: 'aether:golden_aercloud',
-            table: 'enigmatica:archaeology/sulfurous_dorodango',
-            weight: 100,
-            id: `${id_prefix}sulfurous_dorodango`
-        },
-        {
             input: 'minecraft:sculk',
             table: 'enigmatica:archaeology/reverberating_dorodango',
             weight: 100,
@@ -80,12 +74,6 @@ ServerEvents.recipes((event) => {
             table: 'enigmatica:archaeology/brilliant_cloudy_dorodango',
             weight: 100,
             id: `${id_prefix}brilliant_cloudy_dorodango`
-        },
-        {
-            input: 'enigmatica:brilliant_golden_aercloud',
-            table: 'enigmatica:archaeology/brilliant_sulfurous_dorodango',
-            weight: 100,
-            id: `${id_prefix}brilliant_sulfurous_dorodango`
         },
         {
             input: 'enigmatica:brilliant_sculk',

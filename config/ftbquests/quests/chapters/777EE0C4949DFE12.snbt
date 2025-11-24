@@ -566,7 +566,7 @@
 			}]
 			tasks: [{
 				id: "3F1A9E00960E4043"
-				item: { count: 1, id: "advanced_ae:quantum_core" }
+				item: { components: { "ftbquests:missing_item": "advanced_ae:quantum_core" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -575,37 +575,43 @@
 		{
 			dependencies: ["1BAEB780F38B1C56"]
 			icon: {
-				id: "advanced_ae:quantum_chestplate"
+				components: {
+					"ftbquests:missing_item": "advanced_ae:quantum_chestplate"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "21A7F863BCFB2177"
 			rewards: [{
 				count: 4
 				id: "0D420101609F1CDD"
 				item: {
+					components: {
+						"ftbquests:missing_item": "advanced_ae:quantum_upgrade_base"
+					}
 					count: 1
-					id: "advanced_ae:quantum_upgrade_base"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "06A75C88CDF3BCA1"
-					item: { count: 1, id: "advanced_ae:quantum_helmet" }
+					item: { components: { "ftbquests:missing_item": "advanced_ae:quantum_helmet" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "77C8C847E070482B"
-					item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+					item: { components: { "ftbquests:missing_item": "advanced_ae:quantum_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "383E560DD2D5ED04"
-					item: { count: 1, id: "advanced_ae:quantum_leggings" }
+					item: { components: { "ftbquests:missing_item": "advanced_ae:quantum_leggings" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "0CD81A5A08FC0503"
-					item: { count: 1, id: "advanced_ae:quantum_boots" }
+					item: { components: { "ftbquests:missing_item": "advanced_ae:quantum_boots" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -615,14 +621,20 @@
 		{
 			dependencies: ["631AA5AAA6EF687C"]
 			icon: {
-				id: "advanced_ae:small_adv_pattern_provider"
+				components: {
+					"ftbquests:missing_item": "advanced_ae:small_adv_pattern_provider"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "415D9A877B172BBC"
 			rewards: [{
 				id: "27E67BBA79C5AE4F"
 				item: {
+					components: {
+						"ftbquests:missing_item": "advanced_ae:adv_pattern_provider_capacity_upgrade"
+					}
 					count: 1
-					id: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -634,7 +646,7 @@
 				}
 				{
 					id: "22EBD02E284FBE51"
-					item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
+					item: { components: { "ftbquests:missing_item": "advanced_ae:adv_pattern_encoder" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

@@ -810,5 +810,16 @@
 			x: 2.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["56AD6E7F12056140"]
+			id: "3F20E7D7E1C07311"
+			tasks: [{
+				id: "2D7CDAEE7CFB1DDE"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
 	]
 }

@@ -7,8 +7,8 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: `modern_industrialization:andesite_alloy_large_plate`,
-                B: 'create:electron_tube',
-                C: '#c:gears/iron'
+                B: '#c:gears/copper',
+                C: 'enderio:skeletal_contractor'
             },
             id: `${id_prefix}bronze_machine_casing`
         },

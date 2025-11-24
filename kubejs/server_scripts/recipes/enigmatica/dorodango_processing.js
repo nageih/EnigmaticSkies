@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: [
                 { id: 'malum:blazing_quartz', count: 3, chance: 1 / 3 },
-                { id: 'modern_industrialization:carbon_dust', count: 2, chance: 1 / 3 },
+                { id: 'theurgy:crystallized_lava', count: 2, chance: 1 / 3 },
                 { id: 'create:cinder_flour', count: 1, chance: 1 / 3 }
             ],
             input: { item: 'enigmatica:volcanic_dorodango', count: 1 },
@@ -53,14 +53,6 @@ ServerEvents.recipes((event) => {
             ],
             input: { item: 'enigmatica:cloudy_dorodango', count: 1 },
             id_suffix: `cloudy_dorodango_processing`
-        },
-        {
-            outputs: [
-                { id: 'modern_industrialization:sulfur_dust', count: 3, chance: 1 / 2 },
-                { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 2 }
-            ],
-            input: { item: 'enigmatica:sulfurous_dorodango', count: 1 },
-            id_suffix: `sulfurous_dorodango_processing`
         },
         {
             outputs: [

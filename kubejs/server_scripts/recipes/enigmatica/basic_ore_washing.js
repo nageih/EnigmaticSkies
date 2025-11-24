@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 },
-                { id: 'oritech:clay_catalyst_beads', count: 2, chance: 0.25 }
+                { id: 'modern_industrialization:silicon_dust', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 },
-                { id: 'oritech:raw_silicon', count: 2, chance: 0.25 }
+                { id: 'modern_industrialization:carbon_dust', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,

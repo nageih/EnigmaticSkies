@@ -89,21 +89,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"772F618AA5A15F74"
-				"4C54C9BE017CBC67"
-				"733B6E9FCE8A20D1"
-			]
-			id: "62ABC26128284A71"
-			tasks: [{
-				id: "7C797505C6313EEA"
-				item: { count: 1, id: "create:electron_tube" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["3BCD9E36D48B205A"]
 			id: "4F2E18DABA17E0AC"
 			rewards: [{
@@ -134,7 +119,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["62ABC26128284A71"]
 			id: "31903F40C2037EBD"
 			shape: "diamond"
 			tasks: [{
@@ -142,8 +126,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -165,7 +149,7 @@
 				}
 			]
 			x: 3.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -181,44 +165,23 @@
 				}
 				{
 					id: "52FBA77CCD4EA054"
-					item: { count: 1, id: "oritech:raw_silicon" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5AFB064A80189AA4"]
-			id: "39E9D5470F347400"
-			tasks: [{
-				id: "12DAA678727A6EEA"
-				item: { count: 1, id: "create:encased_fan" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1446CD6DE9426AE7"]
-			icon: {
-				id: "modern_industrialization:bronze_ingot"
-			}
-			id: "2D190518ABA42A1F"
-			tasks: [
-				{
-					id: "0FC5A570B985E7A8"
 					item: { count: 1, id: "modern_industrialization:silicon_dust" }
 					type: "item"
 				}
-				{
-					id: "28D6BB7D38B62D9F"
-					item: { count: 1, id: "modern_industrialization:bronze_ingot" }
-					type: "item"
-				}
 			]
-			x: 4.0d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C3B39CD6A7E044C"]
+			id: "39E9D5470F347400"
+			tasks: [{
+				id: "12DAA678727A6EEA"
+				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -226,25 +189,13 @@
 				id: "create:crushed_raw_copper"
 			}
 			id: "733B6E9FCE8A20D1"
-			tasks: [
-				{
-					id: "199D930CB7058044"
-					item: { count: 1, id: "create:crushed_raw_copper" }
-					type: "item"
-				}
-				{
-					id: "318A7884A6EEFA3B"
-					item: { count: 1, id: "oritech:clay_catalyst_beads" }
-					type: "item"
-				}
-				{
-					id: "35E753BE95FAD4BF"
-					item: { count: 1, id: "actuallyadditions:black_quartz" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 0.0d
+			tasks: [{
+				id: "199D930CB7058044"
+				item: { count: 1, id: "create:crushed_raw_copper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -264,8 +215,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -279,8 +230,8 @@
 				item: { count: 1, id: "create:sand_paper" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -294,35 +245,33 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2D190518ABA42A1F"
-				"62ABC26128284A71"
-			]
+			dependencies: ["5AFB064A80189AA4"]
 			id: "2C3B39CD6A7E044C"
 			tasks: [{
 				id: "38C5C4FA923CC378"
 				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"56AD6E7F12056140"
-				"794A9B29DAADD021"
+				"6490781066FAE8CF"
 			]
 			icon: {
 				id: "ars_nouveau:alakarkinos_charm"
 			}
 			id: "513BDF32A8F6EF45"
+			shape: "gear"
 			tasks: [{
 				id: "711421AA88900691"
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -348,8 +297,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 5.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -370,8 +319,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 5.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
@@ -382,7 +331,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -454,8 +403,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 5.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4F2E18DABA17E0AC"]
@@ -494,8 +443,8 @@
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EA0560551B821B3"]
@@ -518,8 +467,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -869,8 +818,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -898,8 +847,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 4.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -1052,6 +1001,17 @@
 			]
 			x: 4.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["427846D4FFE678C5"]
+			id: "47CB92C2ECBB7FF4"
+			tasks: [{
+				id: "47AEEC89A256A20B"
+				item: { count: 1, id: "enderio:skeletal_contractor" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 }

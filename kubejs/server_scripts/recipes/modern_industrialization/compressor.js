@@ -50,6 +50,13 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}andesite_alloy_plate`
+        },
+        {
+            item_outputs: { item: 'create:cardboard', amount: 1 },
+            item_inputs: { item: 'create:pulp', amount: 1 },
+            duration: 2,
+            eu: 1,
+            id: `${id_prefix}cardboard`
         }
     ];
 

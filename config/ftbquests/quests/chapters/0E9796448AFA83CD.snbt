@@ -243,7 +243,7 @@
 			id: "11FE0DE653577AFB"
 			tasks: [{
 				id: "57966CE2447E26C4"
-				item: { count: 1, id: "charginggadgets:charging_station" }
+				item: { components: { "ftbquests:missing_item": "charginggadgets:charging_station" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d

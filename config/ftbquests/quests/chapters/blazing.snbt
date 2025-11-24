@@ -355,14 +355,17 @@
 		{
 			dependencies: ["5F9A998072170415"]
 			icon: {
-				id: "enigmatica:sulfurous_dorodango"
+				components: {
+					"ftbquests:missing_item": "enigmatica:sulfurous_dorodango"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "21EEF7F2B5A695AB"
 			shape: "diamond"
 			tasks: [
 				{
 					id: "7E9CC56AAD6E6007"
-					item: { count: 1, id: "enigmatica:sulfurous_dorodango" }
+					item: { components: { "ftbquests:missing_item": "enigmatica:sulfurous_dorodango" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

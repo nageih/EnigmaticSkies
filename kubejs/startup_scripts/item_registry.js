@@ -276,6 +276,8 @@ StartupEvents.registry('item', (event) => {
 
         'antikythera_mechanism',
         'dilapidated_mechanism',
+        'pulsating_mechanism',
+        'gusting_mechanism',
 
         'fire_clay_ball',
         'cookie_dough',
@@ -292,7 +294,7 @@ StartupEvents.registry('item', (event) => {
         event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
     });
 
-    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'sulfurous', 'reverberating'];
+    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'reverberating'];
 
     dorodangos.forEach((type) => {
         let item = `${type}_dorodango`;

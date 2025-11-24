@@ -6,6 +6,17 @@ ServerEvents.recipes((event) => {
             output: 'create:purple_seat',
             inputs: ['ars_nouveau:magebloom_block', '#minecraft:wooden_slabs'],
             id: `${id_prefix}purple_seat`
+        },
+        {
+            output: 'create:pulp',
+            inputs: [
+                '#create:pulpifiable',
+                '#create:pulpifiable',
+                '#create:pulpifiable',
+                '#create:pulpifiable',
+                '#c:buckets/water'
+            ],
+            id: `${id_prefix}pulp`
         }
     ];
 

@@ -34,6 +34,13 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:block.wool.break' },
             tool: { tag: 'handcrafted:sheets' },
             id: `${id_prefix}charged_certus_quartz_crystal`
+        },
+        {
+            result: [{ item: { id: 'create:cardboard', count: 1 }, chance: 0.5 }],
+            ingredients: [{ item: 'create:pulp' }],
+            sound: { sound_id: 'minecraft:block.gravel.break' },
+            tool: { tag: 'minecraft:shovels' },
+            id: `${id_prefix}cardboard`
         }
     ];
 

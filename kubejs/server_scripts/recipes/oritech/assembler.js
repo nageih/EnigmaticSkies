@@ -34,12 +34,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'oritech:clay_catalyst_beads', count: 8 }],
-            ingredients: [
-                { item: 'minecraft:clay' },
-                { item: 'minecraft:clay' },
-                { tag: 'c:storage_blocks/sulfur' },
-                { item: 'oritech:raw_silicon' }
-            ],
+            ingredients: [{ item: 'minecraft:clay' }, { item: 'minecraft:clay' }, { item: 'oritech:raw_silicon' }],
             time: 30,
             id: `${id_prefix}clay_catalyst_beads`
         },

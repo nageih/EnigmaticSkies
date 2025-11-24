@@ -454,7 +454,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:essences/anima' }
             ],
             keepNbtOfReagent: false,
-            sourceCost: 10000,
+            sourceCost: 0,
             id: `${id_prefix}life_shard`
         },
         {
@@ -555,13 +555,13 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'minecraft:skeleton_skull', count: 1 },
-            reagent: { item: 'malum:grim_talc' },
+            reagent: { item: 'create:cardboard_helmet' },
             pedestalItems: [
                 { tag: 'c:essences/anima' },
-                { item: 'minecraft:bone' },
-                { item: 'minecraft:bone' },
-                { item: 'minecraft:bone' },
-                { item: 'minecraft:bone' }
+                { item: 'malum:grim_talc' },
+                { item: 'malum:grim_talc' },
+                { item: 'malum:grim_talc' },
+                { item: 'malum:grim_talc' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -569,13 +569,13 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'minecraft:zombie_head', count: 1 },
-            reagent: { item: 'malum:grim_talc' },
+            reagent: { item: 'minecraft:skeleton_skull' },
             pedestalItems: [
                 { tag: 'c:essences/anima' },
-                { item: 'minecraft:rotten_flesh' },
-                { item: 'minecraft:rotten_flesh' },
-                { item: 'minecraft:rotten_flesh' },
-                { item: 'minecraft:rotten_flesh' }
+                { item: 'malum:rotting_essence' },
+                { item: 'malum:rotting_essence' },
+                { item: 'malum:rotting_essence' },
+                { item: 'malum:rotting_essence' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -597,6 +597,22 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 0,
             id: `${id_prefix}elytra`
+        },
+        {
+            result: { id: 'enderio:skeletal_contractor', count: 1 },
+            reagent: { item: 'minecraft:skeleton_skull' },
+            pedestalItems: [
+                { item: 'aether:life_shard' },
+
+                { tag: 'c:bones' },
+                { tag: 'c:bones' },
+                { item: 'prettypipes:blank_module' },
+                { tag: 'c:bones' },
+                { tag: 'c:bones' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}skeletal_contractor`
         }
     ];
 
