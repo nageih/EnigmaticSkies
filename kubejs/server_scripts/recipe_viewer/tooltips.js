@@ -97,7 +97,7 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Knocks Foes Back`).gold()]
         },
         {
-            items: ['naturesaura:aura_timer'],
+            items: ['naturesaura:aura_timer', 'malum:wavemaker'],
             text: [Text.of(`Timer`).green()]
         },
         {

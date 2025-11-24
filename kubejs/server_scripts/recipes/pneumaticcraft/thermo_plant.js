@@ -52,6 +52,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ether_gas`
         },
         {
+            outputs: { fluid_output: { id: 'enderio:fluid_vapor_of_levity_still', amount: 60 } },
+            inputs: { item: { item: 'ars_elemental:flashpine_pod' } },
+            pressure: 2.0,
+            speed: 0.5,
+            id: `${id_prefix}fluid_vapor_of_levity_still`
+        },
+        {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,

@@ -21,10 +21,10 @@ let ELECTRIC_KILN;
 MIMachineEvents.registerRecipeTypes((event) => {
     ELECTRIC_KILN = event
         .register('electric_kiln')
-        .withItemInputs() // enable item inputs
-        .withItemOutputs() // enable item outputs
-        .withFluidInputs() // enable fluid inputs
-        .withFluidOutputs(); // enable fluid outputs
+        .withItemInputs()
+        .withItemOutputs()
+        .withFluidInputs()
+        .withFluidOutputs();
 });
 
 MIMachineEvents.registerMachines((event) => {

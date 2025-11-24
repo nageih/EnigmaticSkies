@@ -31,16 +31,6 @@ ServerEvents.recipes((event) => {
         },
         {
             validItems: [],
-            regex: { itemIdRegex: `neptunium_.+` },
-            repairMaterial: { tag: `c:ingots/neptunium`, count: 1 },
-            spirits: [
-                { type: 'malum:aqueous', count: 8 },
-                { type: 'malum:arcane', count: 8 }
-            ],
-            id: `${id_prefix}neptunium`
-        },
-        {
-            validItems: [],
             regex: { itemIdRegex: `gravitite_.+` },
             repairMaterial: { tag: 'aether:gravitite_repairing', count: 1 },
             spirits: [

@@ -132,21 +132,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             id: `${id_prefix}chocolate_from_bar`
         },
-        {
-            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_acid', amount: 500 }],
-            item_inputs: [{ tag: 'c:dusts/sulfur', amount: 1 }],
-            fluid_inputs: [{ tag: `c:lumisene`, amount: 250 }],
-            duration: 5,
-            eu: 2,
-            id: `${id_prefix}sulfuric_acid`
-        },
 
         {
             fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 100 }],
             item_inputs: [{ tag: 'c:dusts/carbon', amount: 1 }],
             fluid_inputs: [
                 { tag: `c:latex`, amount: 1000 },
-                { fluid: 'modern_industrialization:sulfuric_acid', amount: 100 }
+                { tag: `c:lumisene`, amount: 250 }
             ],
             duration: 5,
             eu: 2,

@@ -2,7 +2,7 @@ ServerEvents.tags('block', (event) => {
     let additions = {
         pickaxe: [
             'minecraft:reinforced_deepslate',
-            /modern_industrialization:(bronze|steel)_(assembler|centrifuge)/,
+            /modern_industrialization:(bronze|steel)_(assembler|centrifuge|alluvial_trommel)/,
             /modern_industrialization:fire_clay_brick_.*_hatch/,
             /modern_industrialization:(steam|energetic)_kiln/,
             /modern_industrialization:(copper|vibrant|conductive|energetic)_coil/,

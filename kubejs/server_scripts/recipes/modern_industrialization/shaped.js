@@ -338,6 +338,22 @@ ServerEvents.recipes((event) => {
                 D: 'modern_industrialization:large_motor'
             },
             id: `${id_prefix}configurable_chest`
+        },
+        {
+            output: `modern_industrialization:iridium_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/iridium`
+            },
+            id: `${id_prefix}iridium_large_plate`
+        },
+        {
+            output: `modern_industrialization:andesite_alloy_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/andesite_alloy`
+            },
+            id: `${id_prefix}andesite_alloy_large_plate`
         }
     ];
 

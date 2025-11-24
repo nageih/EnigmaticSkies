@@ -43,6 +43,13 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}brass_plate`
+        },
+        {
+            item_outputs: { item: 'modern_industrialization:andesite_alloy_plate', amount: 1 },
+            item_inputs: { tag: 'c:ingots/andesite_alloy', amount: 1 },
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}andesite_alloy_plate`
         }
     ];
 

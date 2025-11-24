@@ -11,6 +11,11 @@ ServerEvents.recipes((event) => {
             output: 'modern_industrialization:steel_centrifuge',
             inputs: ['modern_industrialization:bronze_centrifuge', 'modern_industrialization:steel_upgrade'],
             id: `${id_prefix}steel_centrifuge`
+        },
+        {
+            output: 'modern_industrialization:steel_alluvial_trommel',
+            inputs: ['modern_industrialization:bronze_alluvial_trommel', 'modern_industrialization:steel_upgrade'],
+            id: `${id_prefix}steel_alluvial_trommel`
         }
     ];
 
