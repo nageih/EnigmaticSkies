@@ -1,7 +1,20 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:malum/spirit_focusing/';
 
-    const recipes = [];
+    const recipes = [
+        {
+            result: { id: 'enderio:pulsating_crystal', count: 1 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:arcane', count: 4 },
+                { type: 'malum:earthen', count: 2 },
+                { type: 'malum:aqueous', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 15,
+            id: `${id_prefix}pulsating_crystal`
+        }
+    ];
 
     const materials = ['copper', 'gold', 'iron'];
 

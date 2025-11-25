@@ -195,12 +195,12 @@ const villagerTrades = {
 
         {
             result: { id: 'enigmatica:moa_iou', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
             result: { id: 'enigmatica:goat_iou', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         }
     ],

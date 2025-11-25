@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'enderio:soularium_ingot', count: 2 },
             inputs: [
                 { tag: 'c:gems/soulstone', count: 1 },
-                { tag: 'c:ingots/pink_slime', count: 1 }
+                { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
             tier: 1,
             exclusions: ['create'],

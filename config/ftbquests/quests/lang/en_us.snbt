@@ -4145,6 +4145,7 @@
 		""
 		"Using &7Bone Meal&r on Moss will cause it to spread to nearby blocks, such as &7Mud&r and &7Dirt&r. As long as you keep at least one &7Moss&r, you will have an infinite supply!"
 	]
+	quest.5AFB064A80189AA4.title: "Copper"
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
@@ -4189,9 +4190,13 @@
 		"&6    the max transfer rate."
 	]
 	quest.5D74493BC797D6F0.quest_desc: [
-		"Only the most evil and malicious of creatures have Wicked Spirits within them to harvest. "
+		"Only the most evil and malicious of creatures have &7Wicked Spirits&r within them to harvest. "
 		""
 		"Maybe go see what your Goats have in their bleating hearts."
+		""
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
@@ -5701,14 +5706,6 @@
 		"As a first recipe, make some &7Rice&r by transmuting a &7Straw Bale&r, then plant the rice in water to get it growing. "
 		""
 		"From that, you'll be able to create a &7Magebloom Seed&r."
-	]
-	quest.794A9B29DAADD021.quest_desc: [
-		"A Centrifuge is a great way to get more out of those hard-earned ores of yours. "
-		""
-		"Make a couple, you're going to need them!"
-		""
-		"&a🛈 Tip: Remember to lock the slots to "
-		"&a    control what recipe is processed!"
 	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "

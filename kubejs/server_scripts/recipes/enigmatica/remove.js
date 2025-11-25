@@ -405,6 +405,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:zombie_head_from_grim_talc' },
         { id: 'malum:skeleton_skull_from_grim_talc' },
         { output: 'malum:refined_soulstone' },
+        { output: 'malum:mimicry_relay' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
         { id: /malum:spirit_infusion\/.*_impetus/ },
         { id: /malum:spirit_crucible\/node_focusing/ },

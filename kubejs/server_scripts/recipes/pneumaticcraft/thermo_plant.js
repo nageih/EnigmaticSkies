@@ -167,7 +167,7 @@ ServerEvents.recipes((event) => {
                 fluid: { tag: 'c:lava', amount: 500 },
                 item: { tag: 'c:dusts/obsidian' }
             },
-            pressure: 7.5,
+            pressure: 2.0,
             id: `${id_prefix}sturdy_sheet`
         },
         {
@@ -182,7 +182,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'minecraft:lava', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_lava' } },
             pressure: 1.0,
-            temperature: { min: CtoK(0) },
+            temperature: { min: CtoK(1000) },
             speed: 2.0,
             id: `${id_prefix}lava`
         },
