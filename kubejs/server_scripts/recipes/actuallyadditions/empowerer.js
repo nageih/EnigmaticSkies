@@ -3,20 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'oritech:fluxite', count: 1 },
-            base: { item: 'enderio:pulsating_crystal' },
-            modifiers: [
-                { tag: 'c:essences/null_slate' },
-                { tag: 'c:gems/mnemonic_fragment' },
-                { tag: 'c:essences/null_slate' },
-                { tag: 'c:gems/mnemonic_fragment' }
-            ],
-            color: '#320a37',
-            energy: 5000,
-            time: 10,
-            id: `${id_prefix}fluxite`
-        },
-        {
             result: { id: 'actuallyadditions:empowered_canola_seed', count: 1 },
             base: { item: 'actuallyadditions:crystallized_canola_seed' },
             modifiers: [

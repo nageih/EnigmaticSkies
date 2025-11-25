@@ -37,17 +37,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            item_outputs: [{ item: 'oritech:raw_silicon', amount: 3 }],
-            fluid_inputs: [{ tag: 'c:water', amount: 1000 }],
-            item_inputs: [
-                { tag: 'c:sands/colorless', amount: 2 },
-                { tag: 'c:dusts/certus_quartz', amount: 4 }
-            ],
-            duration: 10,
-            eu: 2,
-            id: `${id_prefix}raw_silicon`
-        },
-        {
             item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 2 }],
             fluid_inputs: [{ tag: 'theurgy:solvent', amount: 250 }],
             item_inputs: [

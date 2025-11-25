@@ -13,6 +13,18 @@ ServerEvents.recipes((event) => {
             durabilityCost: 1,
             time: 15,
             id: `${id_prefix}pulsating_crystal`
+        },
+        {
+            result: { id: 'enderio:weather_crystal', count: 1 },
+            input: { item: 'malum:zephyr_impetus' },
+            spirits: [
+                { type: 'malum:aerial', count: 8 },
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:infernal', count: 8 }
+            ],
+            durabilityCost: 1,
+            time: 15,
+            id: `${id_prefix}weather_crystal`
         }
     ];
 

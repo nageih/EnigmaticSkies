@@ -66,32 +66,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ranged_collector`
         },
         {
-            output: 'actuallyadditions:advanced_coil',
-            pattern: ['ABA', 'ACA', 'ABA'],
-            key: {
-                A: '#c:nuggets/hallowed_gold',
-                B: '#c:gems/void',
-                C: 'actuallyadditions:basic_coil'
-            },
-            id: `${id_prefix}advanced_coil`
-        },
-        {
             output: 'actuallyadditions:empowerer',
-            pattern: [' A ', 'ABA'],
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:gems/empowered_restonia',
-                B: 'actuallyadditions:display_stand'
+                A: '#c:gems/empowered_void',
+                B: 'enderio:zombie_electrode',
+                C: 'actuallyadditions:display_stand'
             },
             id: `${id_prefix}empowerer`
         },
         {
             output: 'actuallyadditions:display_stand',
-            pattern: ['ABA', 'CDC'],
+            pattern: ['BAB', 'CDC'],
             key: {
                 A: 'actuallyadditions:ethetic_green_block',
-                B: 'industrialforegoing:machine_frame_simple',
+                B: '#c:gems/empowered_enori',
                 C: 'actuallyadditions:ethetic_white_block',
-                D: 'actuallyadditions:advanced_coil'
+                D: 'oritech:flux_gate'
             },
             id: `${id_prefix}display_stand`
         }

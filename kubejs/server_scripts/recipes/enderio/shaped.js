@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gears/compressed_iron',
                 D: 'enderio:ensouled_chassis',
                 E: 'ars_technica:calibrated_precision_mechanism',
-                F: 'actuallyadditions:advanced_coil'
+                F: 'oritech:flux_gate'
             },
             id: `${id_prefix}slice_and_splice`
         },

@@ -123,6 +123,22 @@ ServerEvents.recipes((event) => {
             aura: 90000,
             time: 15,
             id: `${id_prefix}ender_pearl`
+        },
+        {
+            output: { id: 'minecraft:amethyst_block' },
+            input: { tag: 'minecraft:calcite' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 7500,
+            time: 2,
+            id: `${id_prefix}amethyst_block`
+        },
+        {
+            output: { id: 'minecraft:amethyst_shard' },
+            input: { tag: 'enigmatica:calcite_pebble' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 7500,
+            time: 2,
+            id: `${id_prefix}amethyst_block`
         }
     ];
 

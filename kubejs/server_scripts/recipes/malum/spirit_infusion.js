@@ -273,19 +273,43 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ensouled_chassis`
         },
         {
-            result: { id: 'enigmatica:pulsating_mechanism', count: 1 },
+            result: { id: 'oritech:flux_gate', count: 1 },
             input: { tag: 'c:plates/obsidian', count: 1 },
+            extraInputs: [
+                { tag: 'c:gems/amethyst', count: 1 },
+                { tag: 'c:nuggets/hallowed_gold', count: 4 }
+            ],
+            spirits: [
+                { type: 'malum:eldritch', count: 4 },
+                { type: 'malum:aqueous', count: 4 },
+                { type: 'malum:earthen', count: 4 }
+            ],
+            id: `${id_prefix}flux_gate`
+        },
+        {
+            result: { id: 'enigmatica:pulsating_mechanism', count: 1 },
+            input: { item: 'oritech:flux_gate', count: 1 },
             extraInputs: [
                 { tag: 'c:gems/pulsating_crystal', count: 2 },
                 { item: 'malum:mimicry_relay', count: 1 },
                 { item: 'enderio:basic_capacitor', count: 3 }
             ],
             spirits: [
-                { type: 'malum:sacred', count: 8 },
-                { type: 'malum:aqueous', count: 8 },
-                { type: 'malum:earthen', count: 8 }
+                { type: 'malum:arcane', count: 4 },
+                { type: 'malum:infernal', count: 4 },
+                { type: 'malum:aerial', count: 4 }
             ],
             id: `${id_prefix}pulsating_mechanism`
+        },
+        {
+            result: { id: 'malum:alchemical_calx', count: 4 },
+            input: { item: 'occultism:otherworld_ashes', count: 4 },
+            spirits: [
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:earthen', count: 2 },
+                { type: 'malum:aqueous', count: 2 }
+            ],
+            id: `${id_prefix}alchemical_calx`
         }
     ];
 

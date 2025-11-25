@@ -398,7 +398,7 @@ ServerEvents.recipes((event) => {
     ];
 
     const electrical_components = [
-        { material: 'copper', tier: 'lv', casing: 'actuallyadditions:iron_casing' },
+        { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
         { material: 'conductive', tier: 'mv', casing: 'industrialforegoing:machine_frame_simple' },
         { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_advanced' },
         { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },

@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_summon_focus"
 	}
 	id: "72447ED7D54B4AF7"
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -43,8 +43,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
@@ -92,8 +92,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 2.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["37ED5A328F30DD34"]
@@ -148,8 +148,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13F15094F3AF4A73"]
@@ -502,18 +502,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1BDCA4CF5ED739BA"
-				"76C7791F65C766D7"
-			]
+			dependencies: ["1BDCA4CF5ED739BA"]
 			id: "1C21EC957B97C70A"
 			tasks: [{
 				id: "315244A8A7EDAA04"
 				item: { count: 1, id: "justdirethings:clickert2" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.5d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -634,6 +631,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["053C43E68E7ADB2B"]
 			id: "37AA9E6270DB015A"
 			tasks: [
 				{
@@ -648,8 +646,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 9.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["43580B4D15FCEF00"]
@@ -712,17 +710,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["37AA9E6270DB015A"]
-			id: "76C7791F65C766D7"
-			tasks: [{
-				id: "5FF0B115775E75EA"
-				item: { count: 1, id: "oritech:flux_gate" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: 10.5d
-		}
-		{
 			dependencies: ["5D74493BC797D6F0"]
 			id: "46DDBE0A9170F54A"
 			tasks: [{
@@ -770,8 +757,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["17198F7EC5DC1A4F"]
@@ -805,15 +792,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["26188F1C7EBA08B6"]
+			dependencies: [
+				"26188F1C7EBA08B6"
+				"17198F7EC5DC1A4F"
+			]
 			id: "053C43E68E7ADB2B"
 			tasks: [{
 				id: "0F88DA07D04A3432"
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["45E411460C53A082"]
@@ -824,18 +814,21 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["00946DF0B2C88A9F"]
+			dependencies: [
+				"00946DF0B2C88A9F"
+				"05F232C12FA99F92"
+			]
 			id: "17198F7EC5DC1A4F"
 			tasks: [{
 				id: "34052439F672FEED"
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["577337FFD6AD9C83"]
@@ -858,7 +851,7 @@
 				}
 			]
 			x: 7.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
@@ -873,17 +866,6 @@
 		}
 		{
 			dependencies: ["5D74493BC797D6F0"]
-			id: "309B8C10E5A80C1A"
-			tasks: [{
-				id: "72366983FFBA2202"
-				item: { count: 1, id: "naturesaura:calling_spirit" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["309B8C10E5A80C1A"]
 			icon: {
 				id: "malum:eldritch_spirit"
 			}
@@ -902,8 +884,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 }

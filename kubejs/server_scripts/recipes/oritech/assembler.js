@@ -22,19 +22,8 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}advanced_motor`
         },
         {
-            results: [{ id: 'oritech:flux_gate', count: 1 }],
-            ingredients: [
-                { item: 'actuallyadditions:advanced_coil' },
-                { tag: 'c:gems/fluxite' },
-                { tag: 'c:ingots/energetic_alloy' },
-                { tag: 'c:plates/silicon' }
-            ],
-            time: 10,
-            id: `${id_prefix}flux_gate`
-        },
-        {
-            results: [{ id: 'oritech:clay_catalyst_beads', count: 8 }],
-            ingredients: [{ item: 'minecraft:clay' }, { item: 'minecraft:clay' }, { item: 'oritech:raw_silicon' }],
+            results: [{ id: 'oritech:clay_catalyst_beads', count: 2 }],
+            ingredients: [{ item: 'minecraft:clay_ball' }, { item: 'occultism:otherworld_ashes' }],
             time: 30,
             id: `${id_prefix}clay_catalyst_beads`
         },

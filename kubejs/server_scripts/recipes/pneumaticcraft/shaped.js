@@ -39,8 +39,8 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:essences/air',
                 B: 'minecraft:lightning_rod',
-                C: 'minecraft:conduit',
-                D: 'actuallyadditions:advanced_coil',
+                C: '#c:gems/weather_crystal',
+                D: 'minecraft:conduit',
                 E: '#c:essences/earth',
                 F: 'pneumaticcraft:pressure_chamber_valve'
             },
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
             output: 'pneumaticcraft:liquid_compressor[pneumaticcraft:upgrades={map:{"pneumaticcraft:security":1},upgrades:[{item:{count:1,id:"pneumaticcraft:security_upgrade"},slot:0}]}]',
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: 'modern_industrialization:bronze_rotor',
+                A: 'create:propeller',
                 B: 'pneumaticcraft:small_tank',
                 C: 'pneumaticcraft:pressure_tube',
                 D: 'modern_industrialization:bronze_machine_casing_pipe',

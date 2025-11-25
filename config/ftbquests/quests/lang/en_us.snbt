@@ -255,6 +255,7 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.07EC0853BE4C6391.title: "Earthen Spirit"
 	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
 	quest.0842BA3FA770788D.quest_desc: [
 		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
@@ -1334,7 +1335,7 @@
 		"  &n&6Materials&r"
 		""
 		"  • &7Blazing Quartz&r"
-		"  • &7Carbon Dust&r"
+		"  • &7Crystallized Lava&r"
 		"  • &7Cinder Flour&r"
 	]
 	quest.1E0B03155C2CAEE7.quest_desc: [
@@ -1496,14 +1497,6 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
-	quest.21EEF7F2B5A695AB.quest_desc: [
-		"Made from &7Golden Aerclouds&r, &7Sulfurous Dorodangos&r may be processed down into new materials!"
-		""
-		"  &n&6Materials&r"
-		""
-		"  • &7Sulfur Dust&r"
-		"  • &7Crystallized Lava&r"
-	]
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
@@ -1667,6 +1660,7 @@
 		"    • Phantom - Astral Weave "
 		"    • Zombie - Rotting Essence"
 	]
+	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
@@ -2569,6 +2563,7 @@
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.3CC1C6949E17A1B9.quest_subtitle: "Basic Pressure"
+	quest.3D1D6D17B2900DF0.title: "Infernal Spirit"
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
 		""
@@ -4198,6 +4193,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.5D74493BC797D6F0.title: "Wicked Spirit"
 	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
@@ -4953,6 +4949,7 @@
 		"This process can go both ways, meaning a rare material can be converted into a large quantity of lower quality items."
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
+	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AA9F3E0D4BC181A.quest_desc: [
 		"You’ll find two important structures located on this island. "

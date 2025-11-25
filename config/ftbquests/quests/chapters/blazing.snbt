@@ -7,7 +7,7 @@
 		id: "ars_nouveau:thread_fire_focus"
 	}
 	id: "0A799F91D9A1C8A1"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["319FD618D4608068"]
@@ -102,7 +102,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -113,7 +113,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["09F0F09E20B4EAC7"]
@@ -135,7 +135,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["07FFBD39930CE9F7"]
@@ -146,7 +146,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["226D25DA9ACF10D1"]
@@ -178,7 +178,7 @@
 				}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -200,7 +200,7 @@
 				}
 			]
 			x: 3.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -211,7 +211,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -222,7 +222,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -233,7 +233,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -244,13 +244,10 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
-			dependencies: [
-				"4DE9FAFF137A075F"
-				"3C905ECF6E0A543E"
-			]
+			dependencies: ["3C905ECF6E0A543E"]
 			icon: {
 				id: "modern_industrialization:electric_kiln"
 			}
@@ -273,18 +270,7 @@
 				}
 			]
 			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["21EEF7F2B5A695AB"]
-			id: "4DE9FAFF137A075F"
-			tasks: [{
-				id: "46E6D3A918A8044A"
-				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DB63D0AAD1F0E11"]
@@ -305,7 +291,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -328,7 +314,7 @@
 				}
 				{
 					id: "4B577D9CC7036853"
-					item: { count: 1, id: "modern_industrialization:carbon_dust" }
+					item: { count: 1, id: "theurgy:crystallized_lava" }
 					type: "item"
 				}
 				{
@@ -337,7 +323,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
@@ -353,36 +339,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5F9A998072170415"]
-			icon: {
-				components: {
-					"ftbquests:missing_item": "enigmatica:sulfurous_dorodango"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "21EEF7F2B5A695AB"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "7E9CC56AAD6E6007"
-					item: { components: { "ftbquests:missing_item": "enigmatica:sulfurous_dorodango" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "21BFC219B266E5AE"
-					item: { count: 1, id: "modern_industrialization:sulfur_dust" }
-					type: "item"
-				}
-				{
-					id: "0FD4A5644A26C2BA"
-					item: { count: 1, id: "theurgy:crystallized_lava" }
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -0.5d
-		}
-		{
 			dependencies: [
 				"46DDBE0A9170F54A"
 				"687E532AD956C57A"
@@ -394,7 +350,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
@@ -405,7 +361,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["32873E9460FC001B"]
@@ -416,7 +372,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 6.0d
 		}
 	]
 }
