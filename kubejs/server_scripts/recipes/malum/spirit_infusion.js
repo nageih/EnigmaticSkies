@@ -14,6 +14,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soul_stained_steel_ingot`
         },
         {
+            result: { id: 'malum:living_flesh', count: 2 },
+            input: { item: 'minecraft:rotten_flesh', count: 4 },
+            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 2 }],
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:wicked', count: 2 }
+            ],
+            id: `${id_prefix}living_flesh`
+        },
+        {
             result: { id: 'malum:imitation_flesh', count: 4 },
             input: { item: 'malum:alchemical_calx', count: 4 },
             extraInputs: [

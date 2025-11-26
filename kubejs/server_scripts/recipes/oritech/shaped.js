@@ -60,11 +60,12 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:basic_battery`,
-            pattern: ['A', 'B', 'C'],
+            pattern: ['AB', 'CD'],
             key: {
-                A: '#c:gems/restonia',
-                B: 'actuallyadditions:advanced_coil',
-                C: '#c:gems/enori'
+                A: 'modern_industrialization:steel_large_plate',
+                B: '#c:plates/andesite_alloy',
+                C: '#c:plates/carbon',
+                D: 'industrialforegoing:pink_slime'
             },
             id: `${id_prefix}basic_battery`
         },

@@ -16,14 +16,14 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:steel_machine_casing', count: 1 },
             input: [
-                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'enderio:zombie_electrode' },
                 { item: 'enderio:industrial_insulation_block' },
-                { item: 'modern_industrialization:steel_large_plate' },
-                { item: 'enderio:zombie_electrode' },
                 { item: 'enderio:zombie_electrode' },
                 { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'oritech:basic_battery' },
                 { item: 'enderio:skeletal_contractor' },
-                { item: 'modern_industrialization:steel_large_plate' }
+                { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
             processingTime: 300,

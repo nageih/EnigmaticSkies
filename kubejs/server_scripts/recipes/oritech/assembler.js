@@ -30,9 +30,10 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:basic_battery', count: 2 }],
             ingredients: [
-                { tag: 'c:gems/restonia' },
-                { item: 'actuallyadditions:advanced_coil' },
-                { tag: 'c:gems/enori' }
+                { item: 'modern_industrialization:steel_large_plate' },
+                { tag: 'c:plates/andesite_alloy' },
+                { tag: 'c:plates/carbon' },
+                { item: 'industrialforegoing:pink_slime' }
             ],
             time: 10,
             id: `${id_prefix}basic_battery`

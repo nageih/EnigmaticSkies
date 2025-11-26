@@ -398,6 +398,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:void_favor/anomalous_design' },
         { id: 'malum:void_favor/fused_consciousness' },
         { id: 'malum:spirit_infusion/soul_stained_steel_ingot' },
+        { id: 'malum:spirit_infusion/living_flesh' },
         { id: 'malum:spirit_infusion/imitation_flesh' },
         { id: 'malum:spirit_infusion/tainted_rock' },
         { id: 'malum:spirit_infusion/twisted_rock' },
