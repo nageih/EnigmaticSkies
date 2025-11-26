@@ -89,25 +89,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
-			id: "4F2E18DABA17E0AC"
-			rewards: [{
-				id: "749D44B09FDCD01F"
-				item: {
-					count: 1
-					id: "minecraft:redstone_torch"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E26DAA418B8367F"
-				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["47AFEF3DCB2990FB"]
 			icon: {
 				id: "modern_industrialization:lv_steam_turbine"
@@ -417,7 +398,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4F2E18DABA17E0AC"]
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "625AE1AEF37DAE03"
 			rewards: [
 				{
@@ -442,8 +423,8 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]

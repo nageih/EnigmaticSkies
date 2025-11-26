@@ -275,7 +275,6 @@ StartupEvents.registry('item', (event) => {
         'source_berry_roll_dough',
 
         'antikythera_mechanism',
-        'dilapidated_mechanism',
         'pulsating_mechanism',
         'gusting_mechanism',
 

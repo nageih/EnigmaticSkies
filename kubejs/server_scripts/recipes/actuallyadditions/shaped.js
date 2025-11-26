@@ -148,7 +148,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/empowered_diamatine',
                 B: 'pneumaticcraft:cannon_barrel',
                 C: 'pneumaticcraft:turbine_rotor',
-                D: 'modern_industrialization:motor',
+                D: '#c:essences/air',
                 E: '#c:plates/copper'
             },
             id: `${id_prefix}advanced_leaf_blower`

@@ -3704,7 +3704,7 @@
 		"Set up some Lasers nearby and use the Target Designator to link them to the Forge. "
 	]
 	quest.4F2E18DABA17E0AC.quest_desc: [
-		"The Atomic Reconstructor is a powerful device used to transmute certain materials such as Mud to Moss or Calcite to Amethyst."
+		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as Mud to Moss."
 		""
 		"It can be incredibly power hungry!"
 		""

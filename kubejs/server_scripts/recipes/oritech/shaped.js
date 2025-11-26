@@ -8,10 +8,10 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'oritech:machine_plating_block',
                 B: 'create:mechanical_arm',
-                C: '#c:gears/energized',
-                D: 'industrialforegoing:machine_frame_simple',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}assembler_block`
         },
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
                 B: 'modern_industrialization:superconductor_coil',
                 C: 'industrialforegoing:machine_frame_advanced',
                 D: 'oritech:metal_beam_block',
-                E: 'oritech:flux_gate'
+                E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}accelerator_motor`
         },
@@ -103,10 +103,10 @@ ServerEvents.recipes((event) => {
             pattern: ['AAA', 'CDC', 'EFE'],
             key: {
                 A: 'oritech:industrial_glass_block',
-                C: '#c:gears/energized',
-                D: 'industrialforegoing:machine_frame_simple',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}cooler_block`
         },
@@ -115,10 +115,10 @@ ServerEvents.recipes((event) => {
             pattern: ['AAA', 'CDC', 'EFE'],
             key: {
                 A: 'supplementaries:jar',
-                C: '#c:gears/energized',
-                D: 'industrialforegoing:machine_frame_simple',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor',
-                F: 'oritech:flux_gate'
+                F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}centrifuge_block`
         },
@@ -130,7 +130,7 @@ ServerEvents.recipes((event) => {
                 B: 'modern_industrialization:copper_coil',
                 C: 'oritech:refinery_module_block',
                 D: 'modern_industrialization:heatproof_machine_casing',
-                E: 'oritech:flux_gate'
+                E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}refinery_block`
         },
@@ -151,7 +151,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'actuallyadditions:display_stand',
                 B: 'oritech:basic_battery',
-                C: 'oritech:flux_gate'
+                C: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}charger_block`
         },

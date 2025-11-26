@@ -374,5 +374,35 @@
 			x: 8.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["05F232C12FA99F92"]
+			id: "6849CF8933FC70F9"
+			tasks: [{
+				id: "179958B71C0E0BDD"
+				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6849CF8933FC70F9"]
+			id: "4F2E18DABA17E0AC"
+			rewards: [{
+				id: "749D44B09FDCD01F"
+				item: {
+					count: 1
+					id: "minecraft:redstone_torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E26DAA418B8367F"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
 	]
 }
