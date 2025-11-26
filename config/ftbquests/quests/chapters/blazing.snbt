@@ -382,8 +382,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6849CF8933FC70F9"]
@@ -401,8 +401,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 }

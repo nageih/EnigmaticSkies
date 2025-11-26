@@ -94,20 +94,13 @@
 				id: "modern_industrialization:lv_steam_turbine"
 			}
 			id: "3BCD9E36D48B205A"
-			tasks: [
-				{
-					id: "128597849E5D0BC1"
-					item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
-					type: "item"
-				}
-				{
-					id: "7DE4687B49A4DFBE"
-					item: { count: 1, id: "modern_industrialization:copper_cable" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "128597849E5D0BC1"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
 			x: 9.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -219,21 +212,6 @@
 			]
 			x: 4.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["7893072479F01DC2"]
-			icon: {
-				id: "create:sand_paper"
-			}
-			id: "4C54C9BE017CBC67"
-			shape: "diamond"
-			tasks: [{
-				id: "1A48350F1FF93EDE"
-				item: { count: 1, id: "create:sand_paper" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -423,7 +401,7 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -462,7 +440,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["2C3B39CD6A7E044C"]
 			icon: {
 				id: "modern_industrialization:large_steam_boiler"
 			}
@@ -504,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 2.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -526,7 +504,7 @@
 				}
 			]
 			x: 6.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -613,7 +591,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.5d
 			y: 7.0d
 		}
 		{
@@ -697,7 +675,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2C3B39CD6A7E044C"]
+			dependencies: ["3BCD9E36D48B205A"]
 			icon: {
 				id: "actuallyadditions:coffee_machine"
 			}
@@ -714,8 +692,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -745,8 +723,8 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -843,8 +821,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]

@@ -3524,11 +3524,6 @@
 		""
 		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
 	]
-	quest.4C54C9BE017CBC67.quest_desc: [
-		"&7Sand&r is a little hard to come by in this swampy environment. "
-		""
-		"[\"You may find it easier to obtain on the \",{ \"text\": \"Cascading Isle\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40C97D6332BD825B\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\".\"]"
-	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
 		""

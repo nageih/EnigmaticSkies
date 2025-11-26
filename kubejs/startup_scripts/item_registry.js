@@ -3,6 +3,7 @@ StartupEvents.registry('item', (event) => {
     const delivery_bags = [
         { name: `Dumpling Drop`, color: '#a832a8', magic: true },
         { name: `Great Eggspectations`, color: '#e35e0b' },
+        { name: `Flappin' Jack's Trove`, color: '#0be3d1' },
         { name: `Cozy Cauldron`, color: '#22e610', magic: true },
         { name: `La Drygmese Poutine`, color: '#ed094a', magic: true },
         { name: `Bun-Believable Burger`, color: '#02610d' },

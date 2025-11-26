@@ -24,6 +24,18 @@ ServerEvents.recipes((event) => {
         },
 
         {
+            item_outputs: [{ item: 'enigmatica:flappin_jack_s_trove', amount: 1 }],
+            item_inputs: [
+                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'supplementaries:pancake', amount: 12 },
+                { item: 'farmersdelight:cooked_bacon', amount: 4 },
+                { item: 'minecraft:honey_bottle', amount: 1 },
+                { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
+            ],
+            duration: 1,
+            id: `${id_prefix}flappin_jacks_trove`
+        },
+        {
             item_outputs: [{ item: 'enigmatica:great_eggspectations', amount: 1 }],
             item_inputs: [
                 { item: 'minecraft:paper', amount: 1, probability: 0.5 },
