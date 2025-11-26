@@ -25,6 +25,9 @@
             "/actuallyadditions:lava_factory/",
             "/actuallyadditions:.*_battery$/",
             "/actuallyadditions:.*_crystal_shard/",
+            "actuallyadditions:laser_relay",
+            "actuallyadditions:laser_relay_advanced",
+            "actuallyadditions:laser_relay_extreme",
 
             "/ae2:.*_processor_press/",
             "/ae2:printed_.*_processor/",

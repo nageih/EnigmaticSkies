@@ -48,6 +48,17 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}farmer`
         },
         {
+            output: 'actuallyadditions:powered_furnace',
+            pattern: ['AAA', 'BCB', 'ADA'],
+            key: {
+                A: '#c:gems/enori',
+                B: 'minecraft:furnace',
+                C: 'modern_industrialization:bronze_machine_casing',
+                D: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}powered_furnace`
+        },
+        {
             output: 'actuallyadditions:ranged_collector',
             pattern: [' A ', 'ABA', ' C '],
             key: {
@@ -108,6 +119,72 @@ ServerEvents.recipes((event) => {
                 D: 'minecraft:dropper'
             },
             id: `${id_prefix}dropper`
+        },
+        {
+            output: 'actuallyadditions:laser_relay_item_advanced',
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:nuggets/pulsating_alloy',
+                B: 'actuallyadditions:laser_relay_item'
+            },
+            id: `${id_prefix}laser_relay_item_advanced`
+        },
+        {
+            output: 'actuallyadditions:leaf_blower',
+            pattern: [' B ', 'ACE', 'ADE'],
+            key: {
+                A: '#c:gems/enori',
+                B: 'pneumaticcraft:cannon_barrel',
+                C: 'create:propeller',
+                D: '#c:essences/air',
+                E: '#c:plates/copper'
+            },
+            id: `${id_prefix}leaf_blower`
+        },
+        {
+            output: 'actuallyadditions:advanced_leaf_blower',
+            pattern: [' B ', 'ACE', 'ADE'],
+            key: {
+                A: '#c:gems/empowered_diamatine',
+                B: 'pneumaticcraft:cannon_barrel',
+                C: 'pneumaticcraft:turbine_rotor',
+                D: 'modern_industrialization:motor',
+                E: '#c:plates/copper'
+            },
+            id: `${id_prefix}advanced_leaf_blower`
+        },
+        {
+            output: 'actuallyadditions:xp_solidifier',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'minecraft:experience_bottle',
+                B: '#c:gems/empowered_emeradic',
+                C: 'modern_industrialization:bronze_machine_casing'
+            },
+            id: `${id_prefix}xp_solidifier`
+        },
+        {
+            output: 'actuallyadditions:energizer',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/empowered_restonia',
+                B: '#c:chests/wooden',
+                C: 'create:electron_tube',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}energizer`
+        },
+        {
+            output: 'actuallyadditions:shock_suppressor',
+            pattern: ['ABA', 'ACA', 'ADA'],
+            key: {
+                A: '#c:gems/empowered_void',
+                B: 'minecraft:slime_block',
+                C: 'modern_industrialization:bronze_machine_casing',
+                D: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}shock_suppressor`
         }
     ];
 

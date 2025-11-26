@@ -319,6 +319,28 @@ const villagerTrades = {
             result: { id: 'modern_industrialization:copper_cable', count: 8 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
+        },
+        {
+            result: { id: 'actuallyadditions:lens', count: 8 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
+            result: { id: 'actuallyadditions:laser_relay_item', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'actuallyadditions:laser_relay_fluids', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'actuallyadditions:item_interface', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // Forge Hammer

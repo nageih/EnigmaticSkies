@@ -33,6 +33,11 @@ ServerEvents.recipes((event) => {
                 '#c:eggs'
             ],
             id: `${id_prefix}rice_dough_with_egg`
+        },
+        {
+            output: 'actuallyadditions:item_interface',
+            inputs: ['actuallyadditions:hopping_item_interface'],
+            id: `${id_prefix}item_interface`
         }
     ];
 
