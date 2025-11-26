@@ -305,21 +305,16 @@ const villagerTrades = {
     // Coffee Maker
     'actuallyadditions:engineer': [
         {
-            result: { id: 'actuallyadditions:basic_coil', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
-            level: 1
-        },
-        {
             result: { id: 'create:precision_mechanism', count: 4 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 1
         },
-
         {
             result: { id: 'redstonepen:control_box', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
-            level: 2
+            level: 1
         },
+
         {
             result: { id: 'modern_industrialization:copper_cable', count: 8 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],

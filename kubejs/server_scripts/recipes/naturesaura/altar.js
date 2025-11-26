@@ -27,8 +27,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'minecraft:quartz' },
-            input: { tag: 'c:dusts/silicon' },
-            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            input: { tag: 'c:dusts/quartz' },
             aura: 4500,
             time: 6,
             id: `${id_prefix}quartz`

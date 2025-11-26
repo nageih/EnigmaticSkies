@@ -14,20 +14,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluix_crystal`
         },
         {
-            output: { id: 'industrialforegoing:machine_frame_simple', count: 1 },
+            output: { id: 'modern_industrialization:steel_machine_casing', count: 1 },
             input: [
-                { item: 'modern_industrialization:rubber_sheet' },
+                { item: 'modern_industrialization:steel_large_plate' },
                 { item: 'enderio:industrial_insulation_block' },
-                { item: 'modern_industrialization:rubber_sheet' },
-                { item: 'modern_industrialization:steel_machine_casing' },
-                { item: 'modern_industrialization:steel_machine_casing' },
-                { item: 'oritech:basic_battery' },
+                { item: 'modern_industrialization:steel_large_plate' },
                 { item: 'enderio:zombie_electrode' },
-                { item: 'oritech:basic_battery' }
+                { item: 'enderio:zombie_electrode' },
+                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'enderio:skeletal_contractor' },
+                { item: 'modern_industrialization:steel_large_plate' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
             processingTime: 300,
-            id: `${id_prefix}machine_frame_simple`
+            id: `${id_prefix}steel_machine_casing`
         },
         {
             output: { id: 'industrialforegoing:machine_frame_advanced', count: 1 },

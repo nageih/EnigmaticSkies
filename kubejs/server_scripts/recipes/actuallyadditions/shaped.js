@@ -13,16 +13,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}wood_casing`
         },
         {
-            output: 'actuallyadditions:iron_casing',
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: '#c:plates/iron',
-                B: 'create:electron_tube',
-                C: '#c:gears/bronze'
-            },
-            id: `${id_prefix}iron_casing`
-        },
-        {
             output: '8x actuallyadditions:empty_cup',
             pattern: ['BBB', 'BAB', 'BBB'],
             key: {
@@ -33,13 +23,15 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:coffee_machine',
-            pattern: ['BA', 'DE', 'CC'],
+            pattern: ['ABC', 'DEC', 'FGC'],
             key: {
-                A: 'supplementaries:lumisene_bottle',
-                B: 'minecraft:hopper',
-                C: '#c:gems/enori',
-                D: 'actuallyadditions:coffee_cup',
-                E: 'actuallyadditions:iron_casing'
+                A: 'minecraft:hopper',
+                B: 'minecraft:tinted_glass',
+                C: '#c:gems/empowered_enori',
+                D: 'actuallyadditions:empty_cup',
+                E: 'modern_industrialization:bronze_machine_casing_pipe',
+                F: 'minecraft:copper_bulb',
+                G: 'oritech:flux_gate'
             },
             id: `${id_prefix}coffee_machine`
         },
@@ -50,8 +42,8 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/enori',
                 B: 'minecraft:iron_hoe',
                 C: 'ars_technica:calibrated_precision_mechanism',
-                D: 'actuallyadditions:iron_casing',
-                E: 'actuallyadditions:advanced_coil'
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}farmer`
         },
@@ -85,6 +77,37 @@ ServerEvents.recipes((event) => {
                 D: 'oritech:flux_gate'
             },
             id: `${id_prefix}display_stand`
+        },
+        {
+            output: 'actuallyadditions:breaker',
+            pattern: ['AAA', 'ABC', 'AAA'],
+            key: {
+                A: 'minecraft:tuff',
+                B: 'create:electron_tube',
+                C: '#c:gems/void'
+            },
+            id: `${id_prefix}breaker`
+        },
+        {
+            output: 'actuallyadditions:placer',
+            pattern: ['AAA', 'ABC', 'AAA'],
+            key: {
+                A: 'minecraft:tuff',
+                B: 'create:electron_tube',
+                C: '#c:gems/palis'
+            },
+            id: `${id_prefix}placer`
+        },
+        {
+            output: 'actuallyadditions:dropper',
+            pattern: ['ABA', 'ADA', 'ACA'],
+            key: {
+                A: 'minecraft:tuff',
+                B: 'create:electron_tube',
+                C: '#c:gems/palis',
+                D: 'minecraft:dropper'
+            },
+            id: `${id_prefix}dropper`
         }
     ];
 

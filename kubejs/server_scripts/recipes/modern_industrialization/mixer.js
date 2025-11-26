@@ -37,15 +37,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 2 }],
+            item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 1 }],
             fluid_inputs: [{ tag: 'theurgy:solvent', amount: 250 }],
             item_inputs: [
-                { item: 'minecraft:glass', amount: 1 },
                 { item: 'aether:aerogel', amount: 8 },
-                { tag: 'c:gems/black_quartz', amount: 2 }
+                { tag: 'c:gems/empowered_void', amount: 4 }
             ],
             duration: 10,
-            eu: 4,
+            eu: 2,
             id: `${id_prefix}industrial_insulation_block`
         },
         {

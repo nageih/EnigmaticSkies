@@ -198,18 +198,8 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/gold',
-            replace_with: 'actuallyadditions:advanced_coil'
-        },
-        {
-            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:gears/diamond',
             replace_with: '#c:gears/bronze'
-        },
-        {
-            filter: {},
-            to_replace: `industrialforegoing:machine_frame_pity`,
-            replace_with: 'actuallyadditions:iron_casing'
         },
         {
             filter: [{ mod: 'industrialforegoing' }],
@@ -513,16 +503,6 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `minecraft:obsidian`,
             replace_with: '#c:gems/void'
-        },
-        {
-            filter: [
-                { id: 'enderio:impulse_hopper' },
-                { id: 'enderio:drain' },
-                { id: 'enderio:painting_machine' },
-                { id: 'enderio:wired_charger' }
-            ],
-            to_replace: `enderio:void_chassis`,
-            replace_with: `actuallyadditions:iron_casing`
         },
         {
             filter: [{ mod: 'pneumaticcraft' }],

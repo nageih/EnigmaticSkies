@@ -166,6 +166,15 @@ ServerEvents.recipes((event) => {
                 C: '#c:ingots/compressed_iron'
             },
             id: `${id_prefix}assembly_io_unit_import`
+        },
+        {
+            output: 'pneumaticcraft:turbine_rotor',
+            pattern: [' A ', ' B ', 'A A'],
+            key: {
+                A: 'pneumaticcraft:turbine_blade',
+                B: '#c:gears/compressed_iron'
+            },
+            id: `${id_prefix}turbine_rotor`
         }
     ];
 

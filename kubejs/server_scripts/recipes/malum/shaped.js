@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:essences/alchemical_calx',
                 B: '#c:nuggets/hallowed_gold',
-                C: '#c:gems/empowered_restonia'
+                C: 'create:electron_tube'
             },
             id: `${id_prefix}mimicry_relay`
         }

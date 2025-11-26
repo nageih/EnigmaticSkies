@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:ingots/andesite_alloy',
                 B: 'prettypipes:high_speed_module',
-                C: 'actuallyadditions:advanced_coil'
+                C: 'create:electron_tube'
             },
             id: `${id_prefix}pressurizer`
         }

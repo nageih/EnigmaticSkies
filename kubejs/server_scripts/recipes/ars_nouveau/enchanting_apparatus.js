@@ -399,13 +399,13 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:atomic_reconstructor', count: 1 },
-            reagent: { item: 'actuallyadditions:iron_casing' },
+            reagent: { item: 'modern_industrialization:steel_machine_casing' },
             pedestalItems: [
                 { item: 'ars_elemental:manipulation_turret' },
                 { item: 'actuallyadditions:lens' },
                 { item: 'create:rose_quartz_lamp' },
                 { item: 'actuallyadditions:lens' },
-                { item: 'actuallyadditions:advanced_coil' },
+                { item: 'oritech:flux_gate' },
                 { item: 'actuallyadditions:lens' },
                 { item: 'create:rose_quartz_lamp' },
                 { item: 'actuallyadditions:lens' }

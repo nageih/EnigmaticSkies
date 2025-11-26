@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'create:rose_quartz', count: 2 },
             inputs: [
                 { item: 'malum:strange_crystal', count: 1 },
-                { tag: 'c:gems/black_quartz', count: 1 }
+                { tag: 'c:gems/quartz', count: 1 }
             ],
             tier: 1,
             exclusions: [],

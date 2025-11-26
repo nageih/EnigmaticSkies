@@ -22,16 +22,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
         {
-            output: `modern_industrialization:steel_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:steel_large_plate',
-                B: 'enderio:skeletal_contractor',
-                C: '#c:gears/compressed_iron'
-            },
-            id: `${id_prefix}steel_machine_casing`
-        },
-        {
             output: `modern_industrialization:clean_stainless_steel_machine_casing`,
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
@@ -172,7 +162,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#modern_industrialization:fluid_pipes',
                 B: 'modern_industrialization:conductive_cable',
-                C: 'modern_industrialization:bronze_rotor',
+                C: 'pneumaticcraft:turbine_rotor',
                 D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor'
             },
@@ -394,6 +384,19 @@ ServerEvents.recipes((event) => {
                 B: '#c:barrels/wooden'
             },
             id: `${id_prefix}bronze_barrel`
+        },
+        {
+            output: `2x modern_industrialization:steel_upgrade`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: `#c:rods/steel`,
+                B: 'pneumaticcraft:turbine_rotor',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: '#modern_industrialization:fluid_pipes',
+                F: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}steel_upgrade`
         }
     ];
 
