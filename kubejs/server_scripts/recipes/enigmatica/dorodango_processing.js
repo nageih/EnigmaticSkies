@@ -3,61 +3,53 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             outputs: [
-                { id: 'aquaculture:neptunium_nugget', count: 3, chance: 1 / 2 },
-                { id: 'ae2:certus_quartz_crystal', count: 2, chance: 1 / 4 },
-                { id: 'minecraft:lapis_lazuli', count: 1, chance: 1 / 6 }
+                { id: 'aquaculture:neptunium_nugget', count: 3, chance: 1 / 3 },
+                { id: 'ae2:certus_quartz_crystal', count: 2, chance: 1 / 3 },
+                { id: 'minecraft:lapis_lazuli', count: 1, chance: 1 / 3 }
             ],
             input: { item: 'enigmatica:briny_dorodango', count: 1 },
             id_suffix: `briny_dorodango_processing`
         },
         {
             outputs: [
-                { id: 'minecraft:nautilus_shell', count: 3, chance: 1 / 2 },
-                { id: 'minecraft:prismarine_shard', count: 2, chance: 1 / 4 },
-                { id: 'minecraft:prismarine_crystals', count: 1, chance: 1 / 6 }
+                { id: 'minecraft:nautilus_shell', count: 4, chance: 1 / 3 },
+                { id: 'minecraft:prismarine_shard', count: 2, chance: 1 / 3 },
+                { id: 'minecraft:prismarine_crystals', count: 1, chance: 1 / 3 }
             ],
             input: { item: 'enigmatica:silty_dorodango', count: 1 },
             id_suffix: `silty_dorodango_processing`
         },
         {
             outputs: [
-                { id: 'malum:blazing_quartz', count: 3, chance: 1 / 2 },
-                { id: 'modern_industrialization:carbon_dust', count: 2, chance: 1 / 4 },
-                { id: 'create:cinder_flour', count: 1, chance: 1 / 6 }
-            ],
-            input: { item: 'enigmatica:volcanic_dorodango', count: 1 },
-            id_suffix: `volcanic_dorodango_processing`
-        },
-        {
-            outputs: [
-                { id: 'modern_industrialization:sulfur_dust', count: 3, chance: 1 / 2 },
-                { id: 'theurgy:crystallized_lava', count: 1, chance: 1 / 4 }
-            ],
-            input: { item: 'enigmatica:sulfurous_dorodango', count: 1 },
-            id_suffix: `sulfurous_dorodango_processing`
-        },
-        {
-            outputs: [
-                { id: 'aquaculture:fish_bones', count: 4, chance: 1 / 2 },
-                { id: 'actuallyadditions:black_quartz', count: 2, chance: 1 / 4 },
-                { id: 'minecraft:rotten_flesh', count: 1, chance: 1 / 6 }
+                { id: 'aquaculture:fish_bones', count: 3, chance: 1 / 3 },
+                { id: 'actuallyadditions:black_quartz', count: 2, chance: 1 / 3 },
+                { id: 'minecraft:rotten_flesh', count: 1, chance: 1 / 3 }
             ],
             input: { item: 'enigmatica:boggy_dorodango', count: 1 },
             id_suffix: `boggy_dorodango_processing`
         },
         {
             outputs: [
-                { id: 'aether:zanite_gemstone', count: 3, chance: 1 / 2 },
-                { id: 'occultism:echo_dust', count: 2, chance: 1 / 4 },
-                { id: 'occultism:otherworld_ashes', count: 1, chance: 1 / 6 }
+                { id: 'aether:zanite_gemstone', count: 3, chance: 1 / 3 },
+                { id: 'occultism:echo_dust', count: 2, chance: 1 / 3 },
+                { id: 'occultism:otherworld_ashes', count: 1, chance: 1 / 3 }
             ],
             input: { item: 'enigmatica:reverberating_dorodango', count: 1 },
             id_suffix: `reverberating_dorodango_processing`
         },
         {
             outputs: [
+                { id: 'malum:blazing_quartz', count: 3, chance: 1 / 3 },
+                { id: 'theurgy:crystallized_lava', count: 2, chance: 1 / 3 },
+                { id: 'create:cinder_flour', count: 1, chance: 1 / 3 }
+            ],
+            input: { item: 'enigmatica:volcanic_dorodango', count: 1 },
+            id_suffix: `volcanic_dorodango_processing`
+        },
+        {
+            outputs: [
                 { id: 'theurgy:sal_ammoniac_crystal', count: 3, chance: 1 / 2 },
-                { id: 'ae2:sky_dust', count: 2, chance: 1 / 4 }
+                { id: 'ae2:sky_dust', count: 2, chance: 1 / 2 }
             ],
             input: { item: 'enigmatica:cloudy_dorodango', count: 1 },
             id_suffix: `cloudy_dorodango_processing`

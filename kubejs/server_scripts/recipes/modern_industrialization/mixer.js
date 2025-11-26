@@ -37,26 +37,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}empowered_oil`
         },
         {
-            item_outputs: [{ item: 'oritech:raw_silicon', amount: 3 }],
-            fluid_inputs: [{ tag: 'c:water', amount: 1000 }],
+            item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 1 }],
+            fluid_inputs: [{ tag: 'theurgy:solvent', amount: 250 }],
             item_inputs: [
-                { tag: 'c:sands/colorless', amount: 2 },
-                { tag: 'c:dusts/certus_quartz', amount: 4 }
+                { item: 'aether:aerogel', amount: 8 },
+                { tag: 'c:gems/empowered_void', amount: 4 }
             ],
             duration: 10,
             eu: 2,
-            id: `${id_prefix}raw_silicon`
-        },
-        {
-            item_outputs: [{ item: 'enderio:industrial_insulation_block', amount: 2 }],
-            fluid_inputs: [{ tag: 'theurgy:solvent', amount: 250 }],
-            item_inputs: [
-                { item: 'minecraft:glass', amount: 1 },
-                { item: 'aether:aerogel', amount: 8 },
-                { tag: 'c:gems/black_quartz', amount: 2 }
-            ],
-            duration: 10,
-            eu: 4,
             id: `${id_prefix}industrial_insulation_block`
         },
         {
@@ -81,7 +69,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'enigmatica:pelagite', amount: 1 }],
             item_inputs: [
                 { item: 'minecraft:nautilus_shell', amount: 24 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'aquaculture:fish_bones', amount: 18 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:manure', amount: 16000 }],
             duration: 20,
@@ -95,7 +83,7 @@ ServerEvents.recipes((event) => {
             ],
             item_inputs: [
                 { item: 'minecraft:nautilus_shell', amount: 24 },
-                { item: 'aquaculture:fish_bones', amount: 16 }
+                { item: 'aquaculture:fish_bones', amount: 18 }
             ],
             fluid_inputs: [{ fluid: 'extended_industrialization:composted_manure', amount: 16000 }],
             duration: 20,
@@ -132,21 +120,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             id: `${id_prefix}chocolate_from_bar`
         },
-        {
-            fluid_outputs: [{ fluid: 'modern_industrialization:sulfuric_acid', amount: 500 }],
-            item_inputs: [{ tag: 'c:dusts/sulfur', amount: 1 }],
-            fluid_inputs: [{ tag: `c:lumisene`, amount: 250 }],
-            duration: 5,
-            eu: 2,
-            id: `${id_prefix}sulfuric_acid`
-        },
 
         {
             fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 100 }],
             item_inputs: [{ tag: 'c:dusts/carbon', amount: 1 }],
             fluid_inputs: [
                 { tag: `c:latex`, amount: 1000 },
-                { fluid: 'modern_industrialization:sulfuric_acid', amount: 100 }
+                { tag: `c:lumisene`, amount: 250 }
             ],
             duration: 5,
             eu: 2,

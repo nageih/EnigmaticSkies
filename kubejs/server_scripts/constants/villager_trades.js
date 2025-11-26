@@ -195,12 +195,12 @@ const villagerTrades = {
 
         {
             result: { id: 'enigmatica:moa_iou', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
             result: { id: 'enigmatica:goat_iou', count: 1 },
-            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            ingredients: [{ id: 'enigmatica:dumpling_drop', count: { min: 1, max: 1 } }],
             level: 4
         }
     ],
@@ -305,13 +305,13 @@ const villagerTrades = {
     // Coffee Maker
     'actuallyadditions:engineer': [
         {
-            result: { id: 'actuallyadditions:basic_coil', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            result: { id: 'create:precision_mechanism', count: 4 },
+            ingredients: [{ id: 'enigmatica:flappin_jack_s_trove', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
-            result: { id: 'create:precision_mechanism', count: 4 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            result: { id: 'modern_industrialization:copper_cable', count: 8 },
+            ingredients: [{ id: 'enigmatica:flappin_jack_s_trove', count: { min: 1, max: 1 } }],
             level: 1
         },
 
@@ -321,9 +321,26 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'modern_industrialization:copper_cable', count: 8 },
+            result: { id: 'actuallyadditions:lens', count: 8 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
+        },
+
+        {
+            result: { id: 'actuallyadditions:laser_relay_item', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'actuallyadditions:laser_relay_fluids', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: { id: 'actuallyadditions:item_interface', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // Forge Hammer

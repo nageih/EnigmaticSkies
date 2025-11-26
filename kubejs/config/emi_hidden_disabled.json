@@ -2,7 +2,12 @@
     "items": {
         "hidden": [
             "/createsifter:.*sifter/",
-            "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/"
+            "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
+            "/modern_industrialization:.*_diesel_generator/",
+            "modern_industrialization:bronze_boiler",
+            "modern_industrialization:steel_boiler",
+            "extended_industrialization:bronze_solar_boiler",
+            "extended_industrialization:steel_solar_boiler"
         ],
         "disabled": [
             "actuallyadditions:rice",
@@ -20,6 +25,9 @@
             "/actuallyadditions:lava_factory/",
             "/actuallyadditions:.*_battery$/",
             "/actuallyadditions:.*_crystal_shard/",
+            "actuallyadditions:laser_relay",
+            "actuallyadditions:laser_relay_advanced",
+            "actuallyadditions:laser_relay_extreme",
 
             "/ae2:.*_processor_press/",
             "/ae2:printed_.*_processor/",
@@ -81,7 +89,6 @@
             "/modern_industrialization:(he|le)_(uranium|mox)_.*/",
             "/modern_industrialization:.*_double_ingot/",
             "/modern_industrialization:.*_drill/",
-            "/modern_industrialization:.*_diesel_generator/",
             "/modern_industrialization:(lv|mv|hv|ev|superconductor)_storage_unit/",
             "/modern_industrialization:.*_quarry/",
             "/modern_industrialization:.*_battery/",

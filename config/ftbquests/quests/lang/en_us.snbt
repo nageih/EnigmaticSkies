@@ -114,7 +114,7 @@
 		""
 		"&6&nUseful Keybinds&r"
 		""
-		"  Press &6U&r while overing over a "
+		"  Press &6U&r while hovering over a "
 		"  &7Villager Spawn Egg&r to see all of "
 		"  their workstations."
 		""
@@ -255,6 +255,7 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.07EC0853BE4C6391.title: "Earthen Spirit"
 	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
 	quest.0842BA3FA770788D.quest_desc: [
 		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
@@ -1088,14 +1089,6 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
-	quest.18665DD014E5055C.quest_desc: [
-		"Insert your cups in the &7Offering Table&r and then toss your sacrificial &7Life Shard&r on the ground. "
-		""
-		"After the lightning strikes, your reward will come falling from the sky!"
-		""
-		"&a🛈 Tip: A single Life Shard can make "
-		"&a    as many as 16 cups of coffee!"
-	]
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
@@ -1334,7 +1327,7 @@
 		"  &n&6Materials&r"
 		""
 		"  • &7Blazing Quartz&r"
-		"  • &7Carbon Dust&r"
+		"  • &7Crystallized Lava&r"
 		"  • &7Cinder Flour&r"
 	]
 	quest.1E0B03155C2CAEE7.quest_desc: [
@@ -1496,14 +1489,6 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
-	quest.21EEF7F2B5A695AB.quest_desc: [
-		"Made from &7Golden Aerclouds&r, &7Sulfurous Dorodangos&r may be processed down into new materials!"
-		""
-		"  &n&6Materials&r"
-		""
-		"  • &7Sulfur Dust&r"
-		"  • &7Crystallized Lava&r"
-	]
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
@@ -1667,6 +1652,7 @@
 		"    • Phantom - Astral Weave "
 		"    • Zombie - Rotting Essence"
 	]
+	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
@@ -1958,8 +1944,6 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
-	quest.2D190518ABA42A1F.quest_desc: ["Highly corrosion resistant, Silicon Bronze will be a suitable material to get into more complex machinery."]
-	quest.2D190518ABA42A1F.title: "Bronze"
 	quest.2D4B890D1BE63327.quest_desc: [
 		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
 		"&n                                                  "
@@ -2400,7 +2384,7 @@
 	quest.39E9D5470F347400.quest_desc: [
 		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals. "
 		""
-		"Craft an Encased Fan and process your Crushed Ores to obtain them. "
+		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain them. "
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -2571,6 +2555,7 @@
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.3CC1C6949E17A1B9.quest_subtitle: "Basic Pressure"
+	quest.3D1D6D17B2900DF0.title: "Infernal Spirit"
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
 		""
@@ -2824,6 +2809,14 @@
 		"&a    create custom shops to trade "
 		"&a    with each other!"
 	]
+	quest.3F20E7D7E1C07311.quest_desc: [
+		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		""
+		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into &7Dorodangos&r. "
+		""
+		"These &7Dorodangos&r may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+	]
+	quest.3F20E7D7E1C07311.title: "They See Me Ballin'"
 	quest.3F2E1099BB66AFEB.title: "Abra's Fortified Conjure"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
@@ -3531,11 +3524,6 @@
 		""
 		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
 	]
-	quest.4C54C9BE017CBC67.quest_desc: [
-		"&7Sand&r is a little hard to come by in this swampy environment. "
-		""
-		"[\"You may find it easier to obtain on the \",{ \"text\": \"Cascading Isle\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40C97D6332BD825B\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\".\"]"
-	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
 		""
@@ -3711,7 +3699,7 @@
 		"Set up some Lasers nearby and use the Target Designator to link them to the Forge. "
 	]
 	quest.4F2E18DABA17E0AC.quest_desc: [
-		"The Atomic Reconstructor is a powerful device used to transmute certain materials such as Mud to Moss or Calcite to Amethyst."
+		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as Mud to Moss."
 		""
 		"It can be incredibly power hungry!"
 		""
@@ -3807,13 +3795,10 @@
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
 	quest.513BDF32A8F6EF45.quest_desc: [
-		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
+		"Alakarkinos is eager and ready to assist! "
 		""
-		"Right-Click the &7Alakarkinos Charm&r to place it in-world, then use a &7Wand of Dominion&r to link it to any nearby inventory. The Alakarkinos will then consume nearby Source from &7Source Jars&r to convert different blocks into &7Dorodangos&r. "
-		""
-		"These &7Dorodangos&r may then be processed down into other key ingredients, like Water, Lava, Black Quartz, and more!"
+		"New Dorodangos await you with the materials available on this island. "
 	]
-	quest.513BDF32A8F6EF45.title: "They See Me Ballin'"
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
 		""
@@ -4142,6 +4127,7 @@
 		""
 		"Using &7Bone Meal&r on Moss will cause it to spread to nearby blocks, such as &7Mud&r and &7Dirt&r. As long as you keep at least one &7Moss&r, you will have an infinite supply!"
 	]
+	quest.5AFB064A80189AA4.title: "Copper"
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
@@ -4186,10 +4172,15 @@
 		"&6    the max transfer rate."
 	]
 	quest.5D74493BC797D6F0.quest_desc: [
-		"Only the most evil and malicious of creatures have Wicked Spirits within them to harvest. "
+		"Only the most evil and malicious of creatures have &7Wicked Spirits&r within them to harvest. "
 		""
 		"Maybe go see what your Goats have in their bleating hearts."
+		""
+		"&6⚠ Note: The Spawn Egg is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
+	quest.5D74493BC797D6F0.title: "Wicked Spirit"
 	quest.5D8073141AD2D279.title: "Engineer"
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
@@ -4476,7 +4467,6 @@
 		"&6Binding Storage&r"
 		"Bind an inventory to your &7Primary Lectern&r using the Dominion Wand; Sneak Right-Click the inventory, then Right-Click the &7Primary Lectern&r."
 	]
-	quest.62ABC26128284A71.quest_desc: ["Using Black Quartz from Copper, some Strange Crystals from Gold, and a few other bits and pieces, it seems possible to make an object that exhibits a strange sense of intelligence. "]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
 		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."
@@ -4946,6 +4936,7 @@
 		"This process can go both ways, meaning a rare material can be converted into a large quantity of lower quality items."
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
+	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AA9F3E0D4BC181A.quest_desc: [
 		"You’ll find two important structures located on this island. "
@@ -5700,14 +5691,6 @@
 		""
 		"From that, you'll be able to create a &7Magebloom Seed&r."
 	]
-	quest.794A9B29DAADD021.quest_desc: [
-		"A Centrifuge is a great way to get more out of those hard-earned ores of yours. "
-		""
-		"Make a couple, you're going to need them!"
-		""
-		"&a🛈 Tip: Remember to lock the slots to "
-		"&a    control what recipe is processed!"
-	]
 	quest.7973D06875662CFE.quest_desc: [
 		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "
 		""
@@ -5763,11 +5746,6 @@
 		"The Anti-Field Orb and Block both function to suppress certain genes; specifically the Item Attraction and XP Attraction traits."
 		""
 		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
-	]
-	quest.7A6226AD0E9C674F.quest_desc: [
-		"The &7Offering Table&r is a simple multi-block structure that requires two concentric circles of flowers around it. "
-		""
-		"The &7Book of Natural Aura&r will show you a preview of the layout. "
 	]
 	quest.7AA55D33A2BD1E6E.quest_desc: [
 		"The Industrial Squeezer is primarily used for obtaining Plant Oil, it’s also the only source of HOP Graphite used in advanced crafts. "

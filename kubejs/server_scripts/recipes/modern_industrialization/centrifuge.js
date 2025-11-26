@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}water`
         },
         {
-            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 4 }],
+            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 6 }],
             fluid_outputs: [
                 { fluid: 'extended_industrialization:manure', amount: 1000 },
                 { fluid: 'enigmatica:wastewater', amount: 1000 }
@@ -43,11 +43,10 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}pink_slime`
         },
         {
-            fluid_outputs: [{ fluid: 'industrialforegoing:meat', amount: 100 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
-            item_inputs: [{ tag: 'c:foods/raw_meats', amount: 1 }],
-            eu: 4,
-            duration: 10,
+            item_outputs: [{ item: 'modern_industrialization:carbon_dust', amount: 1 }],
+            item_inputs: [{ tag: 'c:essences/rotting_essence', amount: 4 }],
+            eu: 2,
+            duration: 5,
             id: `${id_prefix}meat`
         }
     ];

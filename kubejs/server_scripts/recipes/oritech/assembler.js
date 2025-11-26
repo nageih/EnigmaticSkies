@@ -22,33 +22,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}advanced_motor`
         },
         {
-            results: [{ id: 'oritech:flux_gate', count: 1 }],
-            ingredients: [
-                { item: 'actuallyadditions:advanced_coil' },
-                { tag: 'c:gems/fluxite' },
-                { tag: 'c:ingots/energetic_alloy' },
-                { tag: 'c:plates/silicon' }
-            ],
-            time: 10,
-            id: `${id_prefix}flux_gate`
-        },
-        {
-            results: [{ id: 'oritech:clay_catalyst_beads', count: 8 }],
-            ingredients: [
-                { item: 'minecraft:clay' },
-                { item: 'minecraft:clay' },
-                { tag: 'c:storage_blocks/sulfur' },
-                { item: 'oritech:raw_silicon' }
-            ],
+            results: [{ id: 'oritech:clay_catalyst_beads', count: 2 }],
+            ingredients: [{ item: 'minecraft:clay_ball' }, { item: 'occultism:otherworld_ashes' }],
             time: 30,
             id: `${id_prefix}clay_catalyst_beads`
         },
         {
             results: [{ id: 'oritech:basic_battery', count: 2 }],
             ingredients: [
-                { tag: 'c:gems/restonia' },
-                { item: 'actuallyadditions:advanced_coil' },
-                { tag: 'c:gems/enori' }
+                { item: 'modern_industrialization:steel_large_plate' },
+                { tag: 'c:plates/andesite_alloy' },
+                { tag: 'c:plates/carbon' },
+                { item: 'industrialforegoing:pink_slime' }
             ],
             time: 10,
             id: `${id_prefix}basic_battery`
@@ -166,13 +151,24 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:enderic_lens', count: 1 }],
             ingredients: [
-                { item: 'oritech:enderic_compound' },
-                { tag: 'c:gems/ruby' },
+                { item: 'industrialforegoing:black_laser_lens' },
+                { item: 'industrialforegoing:red_laser_lens' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'enderio:guardian_diode' }
             ],
             time: 20,
             id: `${id_prefix}enderic_lens`
+        },
+        {
+            results: [{ id: 'industrialforegoingsouls:soul_surge', count: 1 }],
+            ingredients: [
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'apothic_enchanting:warden_tendril' },
+                { item: 'industrialforegoingsouls:soul_network_pipe' },
+                { item: 'pneumaticcraft:plastic' }
+            ],
+            time: 20,
+            id: `${id_prefix}soul_surge`
         }
     ];
 

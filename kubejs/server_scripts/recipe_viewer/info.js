@@ -223,7 +223,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
     ];
 
     Object.keys(spiritEntities).forEach((type) => {
-        let description = { filter: [`malum:${type}_spirit`], text: ['Obtained from the following mobs:'] };
+        let description = { filter: [`${type}_spirit`], text: ['Obtained from the following mobs:'] };
         let previous_mod = '';
 
         spiritEntities[type].sort().forEach((entity) => {

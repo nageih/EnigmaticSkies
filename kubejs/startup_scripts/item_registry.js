@@ -3,6 +3,7 @@ StartupEvents.registry('item', (event) => {
     const delivery_bags = [
         { name: `Dumpling Drop`, color: '#a832a8', magic: true },
         { name: `Great Eggspectations`, color: '#e35e0b' },
+        { name: `Flappin' Jack's Trove`, color: '#0be3d1' },
         { name: `Cozy Cauldron`, color: '#22e610', magic: true },
         { name: `La Drygmese Poutine`, color: '#ed094a', magic: true },
         { name: `Bun-Believable Burger`, color: '#02610d' },
@@ -275,7 +276,8 @@ StartupEvents.registry('item', (event) => {
         'source_berry_roll_dough',
 
         'antikythera_mechanism',
-        'dilapidated_mechanism',
+        'pulsating_mechanism',
+        'gusting_mechanism',
 
         'fire_clay_ball',
         'cookie_dough',
@@ -292,7 +294,7 @@ StartupEvents.registry('item', (event) => {
         event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
     });
 
-    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'sulfurous', 'reverberating'];
+    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'reverberating'];
 
     dorodangos.forEach((type) => {
         let item = `${type}_dorodango`;

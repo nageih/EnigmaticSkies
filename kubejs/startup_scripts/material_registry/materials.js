@@ -9,7 +9,7 @@ MIMaterialEvents.addMaterials((event) => {
 
     cables.forEach((cable) => {
         event.createMaterial(cable.name, getID(cable.name), cable.color, (builder) => {
-            builder.hardness('soft').materialSet('shiny').addParts('coil').cable(cable.tier);
+            builder.hardness('soft').materialSet('shiny').addParts('coil', 'wire').cable(cable.tier);
         });
     });
 });
@@ -20,4 +20,11 @@ MIMaterialEvents.modifyMaterial('copper', (event) => {
 
 MIMaterialEvents.modifyMaterial('iridium', (event) => {
     event.builder.addParts('large_plate');
+});
+
+MIMaterialEvents.addMaterials((event) => {
+    let material = 'Andesite Alloy';
+    event.createMaterial(material, getID(material), 0xa8b3ab, (builder) => {
+        builder.hardness('soft').materialSet('stone').addParts('plate', 'rod', 'large_plate');
+    });
 });

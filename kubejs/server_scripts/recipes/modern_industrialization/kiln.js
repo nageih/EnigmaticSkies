@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
             item_outputs: { item: 'naturesaura:sky_ingot', amount: 1 },
             fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
             item_inputs: [
-                { tag: 'c:ingots/stainless_steel', amount: 1 },
+                { tag: 'c:dusts/sky_stone', amount: 1 },
                 { tag: 'aether:gems/zanite', amount: 1 }
             ],
             duration: 20,

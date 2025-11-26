@@ -1,13 +1,18 @@
 {
-    "block.modern_industrialization.bronze_assembler": "Bronze Assembler",
+    "block.modern_industrialization.bronze_assembler": "Assembler",
     "block.modern_industrialization.steel_assembler": "Steel Assembler",
     "rei_categories.modern_industrialization.bronze_assembler": "Assembler",
     "rei_categories.modern_industrialization.steel_assembler": "Steel Assembler",
 
-    "block.modern_industrialization.bronze_centrifuge": "Bronze Centrifuge",
+    "block.modern_industrialization.bronze_centrifuge": "Centrifuge",
     "block.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
     "rei_categories.modern_industrialization.bronze_centrifuge": "Centrifuge",
     "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
+
+    "block.modern_industrialization.bronze_alluvial_trommel": "Alluvial Trommel",
+    "block.modern_industrialization.steel_alluvial_trommel": "Steel Alluvial Trommel",
+    "rei_categories.modern_industrialization.bronze_alluvial_trommel": "Alluvial Trommel",
+    "rei_categories.modern_industrialization.steel_alluvial_trommel": "Steel Alluvial Trommel",
 
     "item.modern_industrialization.copper_cable": "Copper Cable (LV)",
     "block.modern_industrialization.copper_coil": "Copper Coil",
@@ -19,15 +24,42 @@
 
     "block.modern_industrialization.vibrant_coil": "Vibrant Coil",
     "item.modern_industrialization.vibrant_cable": "Vibrant Cable (EV)",
+    "item.modern_industrialization.vibrant_wire": "Vibrant Wire",
+
     "block.modern_industrialization.energetic_coil": "Energetic Coil",
     "item.modern_industrialization.energetic_cable": "Energetic Cable (HV)",
+    "item.modern_industrialization.energetic_wire": "Energetic Wire",
+
     "block.modern_industrialization.conductive_coil": "Conductive Coil",
     "item.modern_industrialization.conductive_cable": "Conductive Cable (MV)",
+    "item.modern_industrialization.conductive_wire": "Conductive Wire",
 
     "block.modern_industrialization.steam_kiln": "Steam Kiln",
     "block.modern_industrialization.electric_kiln": "Electric Kiln",
     "rei_categories.modern_industrialization.steam_kiln": "Steam Kiln",
     "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln",
 
-    "item.modern_industrialization.iridium_large_plate": "Iridium Large Plate"
+    "item.modern_industrialization.iridium_large_plate": "Iridium Large Plate",
+
+    "item.modern_industrialization.andesite_alloy_rod": "Andesite Alloy Rod",
+    "item.modern_industrialization.andesite_alloy_plate": "Andesite Alloy Plate",
+    "item.modern_industrialization.andesite_alloy_large_plate": "Andesite Alloy Large Plate",
+
+    "block.modern_industrialization.bronze_tank": "Andesite Alloy Tank",
+    "block.modern_industrialization.bronze_barrel": "Andesite Alloy Barrel",
+
+    "block.modern_industrialization.bronze_mixer": "Andesite Alloy Mixer",
+    "block.modern_industrialization.bronze_furnace": "Andesite Alloy Furnace",
+    "block.modern_industrialization.bronze_macerator": "Andesite Alloy Macerator",
+    "block.modern_industrialization.bronze_compressor": "Andesite Alloy Compressor",
+
+    "block.modern_industrialization.bronze_plated_bricks": "Andesite Alloy Plated Bricks",
+    "block.modern_industrialization.bronze_machine_casing": "Andesite Alloy Machine Casing",
+    "block.modern_industrialization.bronze_machine_casing_pipe": "Andesite Alloy Pipe Machine Casing",
+
+    "block.modern_industrialization.bronze_cutting_machine": "Andesite Alloy Cutting Machine",
+    "block.modern_industrialization.bronze_fluid_input_hatch": "Andesite Alloy Fluid Input Hatch",
+    "block.modern_industrialization.bronze_fluid_output_hatch": "Andesite Alloy Fluid Output Hatch",
+    "block.modern_industrialization.bronze_item_input_hatch": "Andesite Alloy Item Input Hatch",
+    "block.modern_industrialization.bronze_item_output_hatch": "Andesite Alloy Item Output Hatch"
 }

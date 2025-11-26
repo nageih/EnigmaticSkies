@@ -4,12 +4,11 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'malum:spirit_altar',
-            pattern: ['ADA', 'BCB', 'AAA'],
+            pattern: ['ABA', 'ACA', 'AAA'],
             key: {
                 A: '#malum:runewood_planks',
-                B: 'ars_additions:golden_chain',
-                C: 'aether:life_shard',
-                D: 'ars_nouveau:gold_grate'
+                B: '#c:ingots/hallowed_gold',
+                C: 'aether:life_shard'
             },
             id: `${id_prefix}spirit_altar`
         },
@@ -22,6 +21,16 @@ ServerEvents.recipes((event) => {
                 C: '#c:essences/abjuration'
             },
             id: `${id_prefix}spirit_jar`
+        },
+        {
+            output: 'malum:mimicry_relay',
+            pattern: [' A ', 'BCB', ' A '],
+            key: {
+                A: '#c:essences/alchemical_calx',
+                B: '#c:nuggets/hallowed_gold',
+                C: 'create:electron_tube'
+            },
+            id: `${id_prefix}mimicry_relay`
         }
     ];
 

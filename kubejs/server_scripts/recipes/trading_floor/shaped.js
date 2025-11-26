@@ -6,8 +6,8 @@ ServerEvents.recipes((event) => {
             output: `trading_floor:trading_depot`,
             pattern: ['A', 'C'],
             key: {
-                A: 'create:electron_tube',
-                C: 'actuallyadditions:wood_casing'
+                A: 'enderio:skeletal_contractor',
+                C: 'create:depot'
             },
             id: `${id_prefix}trading_depot`
         }

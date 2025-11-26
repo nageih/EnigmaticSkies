@@ -20,7 +20,7 @@ ItemEvents.modification((event) => {
                 /enderio:.*_capacitor/,
 
                 //signs
-                /(minecraft|supplementaries|occultism|deeperdarker|farmersdelight|productivetrees|arts_and_crafts|framedblocks|aether):\w+_sign/,
+                /(minecraft|supplementaries|occultism|farmersdelight|arts_and_crafts|framedblocks|aether):\w+_sign/,
                 // shulker boxes
                 /shulker_box/,
                 // boats

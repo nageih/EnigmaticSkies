@@ -6,9 +6,9 @@ ServerEvents.recipes((event) => {
             output: `modern_industrialization:bronze_machine_casing`,
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:plates/bronze',
-                B: 'create:electron_tube',
-                C: '#c:gears/iron'
+                A: `modern_industrialization:andesite_alloy_large_plate`,
+                B: '#c:gears/copper',
+                C: 'enderio:skeletal_contractor'
             },
             id: `${id_prefix}bronze_machine_casing`
         },
@@ -20,16 +20,6 @@ ServerEvents.recipes((event) => {
                 B: `modern_industrialization:bronze_machine_casing`
             },
             id: `${id_prefix}bronze_machine_casing_pipe`
-        },
-        {
-            output: `modern_industrialization:steel_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:steel_large_plate',
-                B: 'enderio:skeletal_contractor',
-                C: '#c:gears/compressed_iron'
-            },
-            id: `${id_prefix}steel_machine_casing`
         },
         {
             output: `modern_industrialization:clean_stainless_steel_machine_casing`,
@@ -128,7 +118,7 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: '#c:nuggets/iron',
-                B: '#c:plates/bronze',
+                B: `#c:plates/andesite_alloy`,
                 C: 'modern_industrialization:fire_clay_bricks'
             },
             id: `${id_prefix}bronze_plated_bricks`
@@ -172,7 +162,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#modern_industrialization:fluid_pipes',
                 B: 'modern_industrialization:conductive_cable',
-                C: 'modern_industrialization:bronze_rotor',
+                C: 'pneumaticcraft:turbine_rotor',
                 D: 'modern_industrialization:steel_machine_casing',
                 E: 'modern_industrialization:motor'
             },
@@ -338,11 +328,80 @@ ServerEvents.recipes((event) => {
                 D: 'modern_industrialization:large_motor'
             },
             id: `${id_prefix}configurable_chest`
+        },
+        {
+            output: `modern_industrialization:iridium_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/iridium`
+            },
+            id: `${id_prefix}iridium_large_plate`
+        },
+        {
+            output: `modern_industrialization:andesite_alloy_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/andesite_alloy`
+            },
+            id: `${id_prefix}andesite_alloy_large_plate`
+        },
+        {
+            output: `modern_industrialization:bronze_furnace`,
+            pattern: ['AAA', 'ABA', 'CCC'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: 'minecraft:furnace',
+                C: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}bronze_furnace`
+        },
+        {
+            output: `modern_industrialization:bronze_alluvial_trommel`,
+            pattern: ['BAB', 'CDC', 'EEE'],
+            key: {
+                A: `create:nozzle`,
+                B: 'create:precision_mechanism',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: `ppfluids:fluid_pipe`
+            },
+            id: `${id_prefix}bronze_alluvial_trommel`
+        },
+        {
+            output: `modern_industrialization:bronze_tank`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: '#c:glass_blocks'
+            },
+            id: `${id_prefix}bronze_tank`
+        },
+        {
+            output: `modern_industrialization:bronze_barrel`,
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: `#c:plates/andesite_alloy`,
+                B: '#c:barrels/wooden'
+            },
+            id: `${id_prefix}bronze_barrel`
+        },
+        {
+            output: `2x modern_industrialization:steel_upgrade`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: `#c:rods/steel`,
+                B: 'pneumaticcraft:turbine_rotor',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: '#modern_industrialization:fluid_pipes',
+                F: 'modern_industrialization:fire_clay_bricks'
+            },
+            id: `${id_prefix}steel_upgrade`
         }
     ];
 
     const electrical_components = [
-        { material: 'copper', tier: 'lv', casing: 'actuallyadditions:iron_casing' },
+        { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
         { material: 'conductive', tier: 'mv', casing: 'industrialforegoing:machine_frame_simple' },
         { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_advanced' },
         { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },

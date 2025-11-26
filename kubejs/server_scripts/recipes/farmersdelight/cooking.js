@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:source_berry_jam' },
                 { item: 'arsdelight:source_berry_jam' },
                 { item: 'arsdelight:source_berry_jam' },
-                { item: 'industrialforegoing:pink_slime' }
+                { item: 'minecraft:slime_ball' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:bastion_pod' },
                 { item: 'arsdelight:vexing_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'industrialforegoing:pink_slime' },
+                { item: 'minecraft:slime_ball' },
                 { item: 'minecraft:sugar' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:bombegranate_pod' },
                 { item: 'arsdelight:blazing_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'industrialforegoing:pink_slime' },
+                { item: 'minecraft:slime_ball' },
                 { item: 'minecraft:sugar' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:mendosteen_pod' },
                 { item: 'arsdelight:flourishing_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'industrialforegoing:pink_slime' },
+                { item: 'minecraft:slime_ball' },
                 { item: 'minecraft:sugar' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:frostaya_pod' },
                 { item: 'arsdelight:cascading_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'industrialforegoing:pink_slime' },
+                { item: 'minecraft:slime_ball' },
                 { item: 'minecraft:sugar' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },

@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 },
-                { id: 'oritech:clay_catalyst_beads', count: 2, chance: 0.25 }
+                { id: 'modern_industrialization:quartz_dust', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 3, chance: 1.0 },
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 },
-                { id: 'oritech:raw_silicon', count: 2, chance: 0.25 }
+                { id: 'modern_industrialization:silicon_dust', count: 2, chance: 0.25 }
             ],
             exclusions: [],
             tier: 1,
@@ -50,37 +50,15 @@ ServerEvents.recipes((event) => {
             if (debug) console.log(r_id);
         }
 
-        // Modern Industrialization Centrifuge Water
         if (!recipe.exclusions.includes('modern_industrialization')) {
             recipe.input.amount = recipe.input.count;
             let r = {
-                type: 'modern_industrialization:centrifuge',
+                type: 'modern_industrialization:alluvial_trommel',
                 fluid_inputs: { tag: 'minecraft:water', amount: 1000 },
-                item_inputs: recipe.input,
-                item_outputs: [],
-                eu: recipe.tier * 2,
-                duration: recipe.tier * 5 * 20
-            };
-
-            recipe.outputs.forEach((output) => {
-                r.item_outputs.push({ item: output.id, amount: output.count, probability: output.chance });
-            });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_water`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
-        }
-
-        // Modern Industrialization Centrifuge Sulfuric Acid
-        if (!recipe.exclusions.includes('modern_industrialization')) {
-            recipe.input.amount = recipe.input.count;
-            let r = {
-                type: 'modern_industrialization:centrifuge',
-                fluid_inputs: { fluid: 'modern_industrialization:sulfuric_acid', amount: 100 },
                 item_inputs: recipe.input,
                 fluid_outputs: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
                 item_outputs: [],
-                eu: recipe.tier * 4,
+                eu: recipe.tier * 2,
                 duration: recipe.tier * 5 * 20
             };
 
@@ -88,7 +66,7 @@ ServerEvents.recipes((event) => {
                 r.item_outputs.push({ item: output.id, amount: output.count * 1.5, probability: output.chance });
             });
 
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}_with_sulfuric_acid`;
+            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
             event.custom(r).id(r_id);
             if (debug) console.log(r_id);
         }

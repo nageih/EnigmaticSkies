@@ -47,6 +47,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}adamant_ingot`
         },
         {
+            results: [{ id: 'minecraft:netherite_scrap' }],
+            fluidOutputs: [],
+            ingredients: [{ tag: 'c:dusts/netherite_scrap' }],
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 2000 },
+            time: 12,
+            id: `${id_prefix}netherite_scrap`
+        },
+        {
             results: [{ id: 'oritech:energite_ingot' }],
             fluidOutputs: [],
             ingredients: [{ tag: 'c:storage_blocks/fluxite' }],

@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'modern_industrialization:robot_arm',
                 B: 'ae2:annihilation_plane',
-                C: 'actuallyadditions:advanced_coil',
+                C: 'oritech:flux_gate',
                 D: 'enderio:ensouled_chassis',
                 E: '#c:plates/silicon'
             },
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'modern_industrialization:robot_arm',
                 B: 'ae2:formation_plane',
-                C: 'actuallyadditions:advanced_coil',
+                C: 'oritech:flux_gate',
                 D: 'enderio:ensouled_chassis',
                 E: '#c:plates/silicon'
             },

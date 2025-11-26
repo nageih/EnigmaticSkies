@@ -142,16 +142,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'obsidian_dust_from_obsidian'
         },
         {
-            input: { item: 'advanced_ae:shattered_singularity' },
-            outputs: [{ id: 'advanced_ae:quantum_infused_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'quantum_infused_dust_from_shattered_singularity'
-        },
-        {
             input: { tag: 'c:ingots/adamant' },
             outputs: [{ id: 'oritech:adamant_dust', count: 1 }],
             multiply: 'none',

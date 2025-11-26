@@ -52,6 +52,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ether_gas`
         },
         {
+            outputs: { fluid_output: { id: 'enderio:fluid_vapor_of_levity_still', amount: 60 } },
+            inputs: { item: { item: 'ars_elemental:flashpine_pod' } },
+            pressure: 2.0,
+            speed: 0.5,
+            id: `${id_prefix}fluid_vapor_of_levity_still`
+        },
+        {
             outputs: { fluid_output: { id: 'supplementaries:lumisene', amount: 125 } },
             inputs: { item: { item: 'minecraft:glow_berries' } },
             pressure: 1.0,
@@ -160,7 +167,7 @@ ServerEvents.recipes((event) => {
                 fluid: { tag: 'c:lava', amount: 500 },
                 item: { tag: 'c:dusts/obsidian' }
             },
-            pressure: 7.5,
+            pressure: 2.0,
             id: `${id_prefix}sturdy_sheet`
         },
         {
@@ -175,7 +182,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'minecraft:lava', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_lava' } },
             pressure: 1.0,
-            temperature: { min: CtoK(0) },
+            temperature: { min: CtoK(1000) },
             speed: 2.0,
             id: `${id_prefix}lava`
         },

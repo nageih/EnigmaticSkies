@@ -160,9 +160,9 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"mininggadgets:forge_energy": 1000000
+					"ftbquests:missing_item": "mininggadgets:mininggadget"
 				}
-				id: "mininggadgets:mininggadget"
+				id: "ftbquests:missing_item"
 			}
 			id: "15CECF38FB6CEADE"
 			rewards: [
@@ -170,8 +170,11 @@
 					count: 4
 					id: "6DAA8A0C0DAD35D9"
 					item: {
+						components: {
+							"ftbquests:missing_item": "mininggadgets:upgrade_empty"
+						}
 						count: 1
-						id: "mininggadgets:upgrade_empty"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -185,7 +188,7 @@
 			tasks: [
 				{
 					id: "70A1A6D22D654CDD"
-					item: { count: 1, id: "mininggadgets:modificationtable" }
+					item: { components: { "ftbquests:missing_item": "mininggadgets:modificationtable" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{

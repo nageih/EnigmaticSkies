@@ -26,12 +26,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coal_block`
         },
         {
-            output: { id: 'actuallyadditions:black_quartz' },
-            input: { item: 'oritech:clay_catalyst_beads' },
-            catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura: 150000,
-            time: 2,
-            id: `${id_prefix}black_quartz`
+            output: { id: 'minecraft:quartz' },
+            input: { tag: 'c:dusts/quartz' },
+            aura: 4500,
+            time: 6,
+            id: `${id_prefix}quartz`
         },
         {
             output: { id: 'minecraft:sugar', count: 2 },
@@ -123,6 +122,14 @@ ServerEvents.recipes((event) => {
             aura: 90000,
             time: 15,
             id: `${id_prefix}ender_pearl`
+        },
+        {
+            output: { id: 'minecraft:amethyst_shard' },
+            input: { item: 'enigmatica:calcite_pebble' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura: 7500,
+            time: 2,
+            id: `${id_prefix}amethyst_shard`
         }
     ];
 

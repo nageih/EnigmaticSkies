@@ -77,10 +77,10 @@ ServerEvents.recipes((event) => {
                 `geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:whirlisprig"]`
             ).toJson(),
             ingredients: [
-                { tag: 'c:essences/hex_ash' },
-                { item: 'industrialforegoing:pink_slime_block' },
+                { item: 'naturesaura:ancient_sapling' },
+                { item: 'ars_nouveau:ritual_harvest' },
                 { item: 'naturesaura:calling_spirit' },
-                { item: 'industrialforegoing:pink_slime_block' }
+                { item: 'ars_nouveau:ritual_harvest' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/animate_whirlisprig`, count: 1 },
             duration: 30,
@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
             entity: 'the_bumblezone:honey_slime',
             egg: 'the_bumblezone:honey_slime_spawn_egg',
             block: 'minecraft:honey_block',
-            spirit: 'naturesaura:birth_spirit'
+            spirit: 'naturesaura:calling_spirit'
         },
         {
             entity: 'aether:zephyr',
@@ -218,9 +218,9 @@ ServerEvents.recipes((event) => {
             activation_item: { item: animated.block },
             ingredients: [
                 { tag: 'c:gems/mnemonic_fragment' },
-                { item: 'industrialforegoing:pink_slime_block' },
+                { item: 'oritech:wither_crop_block' },
                 { item: animated.spirit },
-                { item: 'industrialforegoing:pink_slime_block' }
+                { item: 'oritech:wither_crop_block' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
             duration: 30,

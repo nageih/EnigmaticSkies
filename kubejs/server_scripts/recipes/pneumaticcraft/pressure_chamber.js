@@ -253,6 +253,16 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}fluix_pearl`
+        },
+        {
+            results: [{ id: 'pneumaticcraft:turbine_blade', count: 1 }],
+            inputs: [
+                { tag: 'c:plates/steel', count: 1 },
+                { tag: 'c:rods/steel', count: 1 },
+                { tag: 'c:gems/empowered_restonia', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}turbine_blade`
         }
     ];
 

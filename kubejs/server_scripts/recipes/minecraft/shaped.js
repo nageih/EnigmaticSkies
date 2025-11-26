@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:andesite',
                 B: '#c:gems/restonia',
-                C: 'malum:strange_crystal'
+                C: 'create:electron_tube'
             },
             id: `${id_prefix}observer`
         },

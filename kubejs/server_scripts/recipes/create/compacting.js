@@ -13,6 +13,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ether_gas`
         },
         {
+            results: [{ id: 'enderio:fluid_vapor_of_levity_still', amount: 60 }],
+            ingredients: [{ item: 'ars_elemental:flashpine_pod' }],
+            id: `${id_prefix}fluid_vapor_of_levity_still`
+        },
+        {
             results: [{ id: 'industrialforegoing:latex', amount: 60 }],
             ingredients: [{ item: 'minecraft:dandelion' }],
             id: `${id_prefix}latex_from_dandelion`

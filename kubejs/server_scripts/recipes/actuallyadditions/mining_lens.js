@@ -9,12 +9,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}brilliant_cold_aercloud`
         },
         {
-            result: { id: 'enigmatica:brilliant_golden_aercloud', count: 1 },
-            ingredient: { item: 'aether:golden_aercloud' },
-            weight: 100,
-            id: `${id_prefix}brilliant_golden_aercloud`
-        },
-        {
             result: { id: 'enigmatica:brilliant_sand', count: 1 },
             ingredient: { item: 'minecraft:sand' },
             weight: 100,
