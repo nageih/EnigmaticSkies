@@ -28,8 +28,8 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { item: 'minecraft:paper', amount: 1, probability: 0.5 },
                 { item: 'supplementaries:pancake', amount: 12 },
-                { item: 'farmersdelight:cooked_bacon', amount: 4 },
                 { item: 'minecraft:honey_bottle', amount: 1 },
+                { item: 'farmersdelight:cooked_bacon', amount: 4 },
                 { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
             ],
             duration: 1,

@@ -22,16 +22,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
         {
-            output: `modern_industrialization:clean_stainless_steel_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:stainless_steel_large_plate',
-                B: 'enderio:z_logic_controller',
-                C: '#c:gears/dark_steel'
-            },
-            id: `${id_prefix}clean_stainless_steel_machine_casing`
-        },
-        {
             output: `modern_industrialization:quantum_machine_casing`,
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {

@@ -99,7 +99,7 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -151,7 +151,7 @@
 				}
 				{
 					id: "52FBA77CCD4EA054"
-					item: { count: 1, id: "modern_industrialization:carbon_dust" }
+					item: { count: 1, id: "modern_industrialization:silicon_dust" }
 					type: "item"
 				}
 			]
@@ -184,7 +184,7 @@
 				}
 				{
 					id: "65AE88CD2FBA09C9"
-					item: { count: 1, id: "modern_industrialization:silicon_dust" }
+					item: { count: 1, id: "modern_industrialization:quartz_dust" }
 					type: "item"
 				}
 			]
@@ -214,15 +214,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "5E727F7B600E0E91"
 			tasks: [{
 				id: "22F25CA36A232063"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -376,7 +376,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "625AE1AEF37DAE03"
 			rewards: [
 				{
@@ -401,8 +401,8 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -534,8 +534,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 7.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -555,8 +555,8 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["410225ED927857D4"]
@@ -591,8 +591,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 7.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -627,8 +627,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 6.0d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -675,7 +675,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			icon: {
 				id: "actuallyadditions:coffee_machine"
 			}
@@ -692,8 +692,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -821,8 +821,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 5.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -843,8 +843,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 5.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -908,8 +908,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 5.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -946,8 +946,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 6.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -959,6 +959,20 @@
 			}]
 			x: 5.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"45E411460C53A082"
+				"3BCD9E36D48B205A"
+			]
+			id: "7B9D8AD7BFC1E87D"
+			tasks: [{
+				id: "1027C803FC43B8F7"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
 		}
 	]
 }

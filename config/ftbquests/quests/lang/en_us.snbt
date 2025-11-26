@@ -3372,7 +3372,7 @@
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
 	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
 		""
 		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
 		""
@@ -3936,6 +3936,11 @@
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
 		"Be sure to stock up!"
+	]
+	quest.55D51F58CA3130AA.quest_desc: [
+		"Alakarkinos is eager and ready to assist! "
+		""
+		"New Dorodangos await you with the materials available on this island. "
 	]
 	quest.56AD6E7F12056140.quest_desc: [
 		"The &7Enchanting Apparatus&r is a vital tool in and of itself and will become important soon enough. "
@@ -5789,6 +5794,13 @@
 		"These dapper ocean critters have a knack for digging up lost treasures from sand. "
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
+	]
+	quest.7B9D8AD7BFC1E87D.quest_desc: [
+		"As a wise old man once said, \"Power concedes nothing without a demand.\""
+		""
+		"That shiny Turbine is looking mighty useless right now with no machines to power. "
+		""
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to remedy that. \" ]"
 	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "

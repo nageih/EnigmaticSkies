@@ -216,6 +216,8 @@ ServerEvents.recipes((event) => {
         { type: 'enderio:fire_crafting' },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
+        { output: 'enderio:soul_binder' },
+        { output: 'enderio:powered_spawner' },
         { output: /enderio:.*photovoltaic_module/ },
         { output: /enderio:.*capacitor/ },
         { output: /enderio:.*capacitor_bank/ },
@@ -665,6 +667,7 @@ ServerEvents.recipes((event) => {
         { id: `naturesaura:altar/water` },
         { id: `naturesaura:altar/ender_pearl` },
         { id: 'naturesaura:offering_table' },
+        { id: 'naturesaura:animal_spawner' },
 
         // Occultism
         { type: 'occultism:miner' },

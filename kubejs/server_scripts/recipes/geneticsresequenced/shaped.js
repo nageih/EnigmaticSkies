@@ -65,9 +65,9 @@ ServerEvents.recipes((event) => {
     ];
 
     const machines = [
-        { output: 'cell_analyzer', input: 'enderio:skeletal_contractor' },
+        { output: 'cell_analyzer', input: 'minecraft:observer' },
         { output: 'dna_extractor', input: 'create:whisk' },
-        { output: 'dna_decryptor', input: 'enderio:z_logic_controller' },
+        { output: 'dna_decryptor', input: 'create:content_observer' },
         { output: 'blood_purifier', input: 'create:attribute_filter' },
         { output: 'plasmid_infuser', input: 'create:brass_hand' },
         { output: 'incubator', input: 'minecraft:copper_bulb' },
@@ -80,10 +80,10 @@ ServerEvents.recipes((event) => {
             pattern: ['ACA', 'ABA', 'DED'],
             key: {
                 A: `#c:plates/plastic`,
-                B: 'enderio:ensouled_chassis',
+                B: 'modern_industrialization:steel_machine_casing',
                 C: recipe.input,
-                D: '#c:gears/energized',
-                E: 'oritech:flux_gate'
+                D: '#c:gears/compressed_iron',
+                E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}${recipe.output}`
         });
