@@ -330,6 +330,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'malum:alchemical_calx', count: 4 },
             input: { item: 'occultism:otherworld_ashes', count: 4 },
+            extraInputs: [],
             spirits: [
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:earthen', count: 2 },
