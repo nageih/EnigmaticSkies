@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ tag: 'c:voidflame', amount: 250 }],
             item_inputs: [
                 { tag: 'c:ingots/stainless_steel', amount: 1 },
-                { tag: 'c:dusts/grains_of_the_end', amount: 8 }
+                { tag: 'c:gems/enderic', amount: 4 }
             ],
             duration: 20,
             eu: 64,

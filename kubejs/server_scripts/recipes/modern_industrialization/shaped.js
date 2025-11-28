@@ -247,25 +247,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}redstone_control_module`
         },
         {
-            output: `modern_industrialization:bronze_rotor`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: `#c:nuggets/bronze`,
-                B: `modern_industrialization:bronze_blade`,
-                C: '#c:gems/ruby'
-            },
-            id: `${id_prefix}bronze_rotor`
-        },
-        {
-            output: `4x modern_industrialization:bronze_blade`,
-            pattern: ['  A', ' A ', 'B  '],
-            key: {
-                A: `#c:plates/bronze`,
-                B: `#c:rods/bronze`
-            },
-            id: `${id_prefix}bronze_blade`
-        },
-        {
             output: `modern_industrialization:robot_arm`,
             pattern: ['AAB', 'AC ', 'DC '],
             key: {
@@ -488,18 +469,7 @@ ServerEvents.recipes((event) => {
         }
     });
 
-    const gears = [
-        'aluminum',
-        'bronze',
-        'copper',
-        'gold',
-        'invar',
-        'iron',
-        'stainless_steel',
-        'steel',
-        'tin',
-        'titanium'
-    ];
+    const gears = ['copper', 'gold', 'iron', 'stainless_steel', 'steel'];
 
     gears.forEach((material) => {
         recipes.push({

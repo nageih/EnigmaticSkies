@@ -151,6 +151,16 @@ ServerEvents.recipes((event) => {
             tier: 2,
             exclusions: ['create', 'modern_industrialization'],
             id_suffix: `stainless_steel_ingot`
+        },
+        {
+            output: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
+            inputs: [
+                { tag: 'c:dusts/grains_of_vibrancy', count: 4 },
+                { tag: 'c:ingots/sky', count: 1 }
+            ],
+            tier: 2,
+            exclusions: ['create', 'modern_industrialization'],
+            id_suffix: `vibrant_alloy_ingot`
         }
     ];
 

@@ -347,6 +347,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}steel_rod_magnetic`
         },
         {
+            result: { id: 'modern_industrialization:stainless_steel_rod_magnetic', count: 1 },
+            reagent: { tag: 'c:rods/stainless_steel' },
+            pedestalItems: [
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}stainless_steel_rod_magnetic`
+        },
+        {
             result: { id: 'modern_industrialization:heatproof_machine_casing', count: 1 },
             reagent: { item: 'modern_industrialization:bronze_machine_casing' },
             pedestalItems: [
