@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'justdirethings:time_crystal' },
-            input: { tag: 'c:dusts/grains_of_the_end' },
+            input: { tag: 'c:gems/ender_crystal' },
             aura: 1800000,
             time: 300,
             id: `${id_prefix}time_crystal`

@@ -29,6 +29,30 @@ ServerEvents.recipes((event) => {
                 B: 'justdirethings:blockbreakert1'
             },
             id: `${id_prefix}fluidcollectort1`
+        },
+        {
+            output: 'justdirethings:blockswappert1',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:ingots/blazegold',
+                B: 'create:content_observer',
+                C: '#c:gems/empowered_restonia',
+                D: 'actuallyadditions:ender_casing',
+                E: 'ars_technica:calibrated_precision_mechanism'
+            },
+            id: `${id_prefix}blockswappert1`
+        },
+        {
+            output: 'justdirethings:blockswappert2',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:ingots/eclipsealloy',
+                B: 'justdirethings:blockswappert1',
+                C: '#c:gems/empowered_restonia',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}blockswappert2`
         }
     ];
 
@@ -52,6 +76,31 @@ ServerEvents.recipes((event) => {
                 E: recipe.input
             },
             id: `${id_prefix}${recipe.output.split(':')[1]}`
+        });
+    });
+
+    const advanced_tier = [
+        'justdirethings:blockbreakert2',
+        'justdirethings:blockplacert2',
+        'justdirethings:clickert2',
+        'justdirethings:sensort2',
+        'justdirethings:droppert2',
+        'justdirethings:fluidplacert2',
+        'justdirethings:fluidcollectort2'
+    ];
+
+    advanced_tier.forEach((output) => {
+        recipes.push({
+            output: output,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/celestigem',
+                B: output.replace('t2', 't1'),
+                C: '#c:gems/empowered_restonia',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}${output.split(':')[1]}`
         });
     });
 

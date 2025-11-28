@@ -316,7 +316,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'enigmatica:pulsating_mechanism', count: 1 },
             extraInputs: [
                 { tag: 'c:gems/weather_crystal', count: 2 },
-                { item: 'enderio:ender_resonator', count: 1 },
+                { item: 'enderio:sentient_ender', count: 1 },
                 { item: 'enderio:octadic_capacitor', count: 3 }
             ],
             spirits: [

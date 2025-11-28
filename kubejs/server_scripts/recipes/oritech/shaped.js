@@ -254,14 +254,26 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:atomic_forge_block`,
-            pattern: ['ABA', 'CDC', 'ABA'],
+            pattern: ['ABA', 'ACA', 'DED'],
             key: {
                 A: '#c:gems/prescient_crystal',
-                B: 'enderio:sentient_ender',
-                C: 'modern_industrialization:cooling_cell',
-                D: 'industrialforegoing:machine_frame_advanced'
+                B: 'pneumaticcraft:assembly_platform',
+                C: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                D: 'oritech:metal_beam_block',
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}atomic_forge_block`
+        },
+        {
+            output: `oritech:laser_arm_block`,
+            pattern: [' A ', ' B ', 'CDC'],
+            key: {
+                A: 'pneumaticcraft:assembly_laser',
+                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                C: 'oritech:metal_beam_block',
+                D: 'enigmatica:tempestuous_mechanism'
+            },
+            id: `${id_prefix}laser_arm_block`
         }
     ];
 

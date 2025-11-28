@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
             input: [
                 { item: 'enderio:z_logic_controller' },
-                { item: 'enderio:industrial_insulation_block' },
+                { item: 'modern_industrialization:cooling_cell' },
                 { item: 'enderio:z_logic_controller' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
@@ -44,6 +44,22 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
             processingTime: 15,
             id: `${id_prefix}clean_stainless_steel_machine_casing`
+        },
+        {
+            output: { id: 'modern_industrialization:quantum_machine_casing', count: 1 },
+            input: [
+                { item: 'enderio:sentient_ender' },
+                { item: 'modern_industrialization:cooling_cell' },
+                { item: 'enderio:sentient_ender' },
+                { item: 'modern_industrialization:iridium_large_plate' },
+                { item: 'modern_industrialization:iridium_large_plate' },
+                { item: 'oritech:overcharged_crystal' },
+                { item: 'enderio:ensouled_chassis' },
+                { item: 'oritech:overcharged_crystal' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}quantum_machine_casing`
         },
         // {
         //     output: { id: 'industrialforegoing:machine_frame_advanced', count: 1 },
@@ -192,14 +208,14 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:cooling_cell', count: 1 },
             input: [
-                { tag: 'c:plates/stainless_steel' },
-                { item: 'pneumaticcraft:heat_sink' },
-                { tag: 'c:plates/stainless_steel' },
-                { tag: 'modern_industrialization:fluid_pipes' },
-                { tag: 'modern_industrialization:fluid_pipes' },
-                { tag: 'c:plates/stainless_steel' },
-                { item: 'pneumaticcraft:heat_sink' },
-                { tag: 'c:plates/stainless_steel' }
+                { item: 'pneumaticcraft:advanced_pressure_tube' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'pneumaticcraft:advanced_pressure_tube' },
+                { item: 'modern_industrialization:sky_large_plate' },
+                { item: 'modern_industrialization:sky_large_plate' },
+                { item: 'pneumaticcraft:advanced_pressure_tube' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'pneumaticcraft:advanced_pressure_tube' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 8000 },
             processingTime: 15,

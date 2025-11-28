@@ -339,7 +339,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["32873E9460FC001B"]
 			icon: {
 				id: "industrialforegoingsouls:soul_laser_base"
 			}

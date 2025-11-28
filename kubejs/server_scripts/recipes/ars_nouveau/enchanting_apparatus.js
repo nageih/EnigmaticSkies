@@ -603,7 +603,6 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'minecraft:skeleton_skull' },
             pedestalItems: [
                 { item: 'aether:life_shard' },
-
                 { tag: 'c:bones' },
                 { tag: 'c:bones' },
                 { item: 'prettypipes:blank_module' },
@@ -613,6 +612,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}skeletal_contractor`
+        },
+        {
+            result: { id: 'actuallyadditions:ender_casing', count: 1 },
+            reagent: { item: 'enderio:ensouled_chassis' },
+            pedestalItems: [
+                { tag: 'c:gems/ender_crystal' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:gems/ender_crystal' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:essences/void_salts' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}ender_casing`
         }
     ];
 

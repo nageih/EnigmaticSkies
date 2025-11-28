@@ -22,16 +22,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
         {
-            output: `modern_industrialization:quantum_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:iridium_large_plate',
-                B: 'enderio:ender_resonator',
-                C: '#c:gears/vibrant'
-            },
-            id: `${id_prefix}quantum_machine_casing`
-        },
-        {
             output: `modern_industrialization:bronze_compressor`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
@@ -334,6 +324,14 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/andesite_alloy`
             },
             id: `${id_prefix}andesite_alloy_large_plate`
+        },
+        {
+            output: `modern_industrialization:sky_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/sky`
+            },
+            id: `${id_prefix}sky_large_plate`
         },
         {
             output: `modern_industrialization:bronze_furnace`,
