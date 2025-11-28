@@ -25,6 +25,72 @@ ServerEvents.recipes((event) => {
                 E: `modern_industrialization:bronze_machine_casing_pipe`
             },
             id: `${id_prefix}steam_farmer`
+        },
+        {
+            output: `extended_industrialization:large_steam_macerator`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:bronze_machine_casing_pipe`,
+                B: `modern_industrialization:bronze_plated_bricks`,
+                C: `modern_industrialization:bronze_macerator`
+            },
+            id: `${id_prefix}large_steam_macerator`
+        },
+        {
+            output: `extended_industrialization:large_electric_macerator`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:conductive_coil`,
+                B: `modern_industrialization:bronze_plated_bricks`,
+                C: `modern_industrialization:bronze_macerator`
+            },
+            id: `${id_prefix}large_electric_macerator`
+        },
+        {
+            output: `extended_industrialization:large_steam_furnace`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:bronze_machine_casing_pipe`,
+                B: `modern_industrialization:bronze_plated_bricks`,
+                C: `modern_industrialization:bronze_furnace`
+            },
+            id: `${id_prefix}large_steam_furnace`
+        },
+        {
+            output: `extended_industrialization:steel_brewery`,
+            pattern: ['ABA', 'CDC', 'EEE'],
+            key: {
+                A: `#c:glass_blocks/colorless`,
+                B: `minecraft:brewing_stand`,
+                C: `#c:gears/compressed_iron`,
+                D: `modern_industrialization:steel_machine_casing`,
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}steel_brewery`
+        },
+        {
+            output: `extended_industrialization:steel_honey_extractor`,
+            pattern: ['ABA', 'CDC', 'EEE'],
+            key: {
+                A: `#c:glass_blocks/colorless`,
+                B: `minecraft:beehive`,
+                C: `#c:gears/compressed_iron`,
+                D: `modern_industrialization:steel_machine_casing`,
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}steel_honey_extractor`
+        },
+        {
+            output: `extended_industrialization:steel_canning_machine`,
+            pattern: ['ABA', 'CDC', 'EEE'],
+            key: {
+                A: `#c:glass_blocks/colorless`,
+                B: `create:spout`,
+                C: `#c:gears/compressed_iron`,
+                D: `modern_industrialization:steel_machine_casing`,
+                E: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}steel_canning_machine`
         }
     ];
 
