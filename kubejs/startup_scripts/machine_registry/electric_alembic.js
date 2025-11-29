@@ -16,11 +16,11 @@
     Similarly, be sure to update the `minecraft/needs_tool` and `minecraft/mineable` block tags.
 */
 
-let ELECTRIC_KILN;
+let ELECTRIC_ALEMBIC;
 
 MIMachineEvents.registerRecipeTypes((event) => {
-    ELECTRIC_KILN = event
-        .register('electric_kiln')
+    ELECTRIC_ALEMBIC = event
+        .register('electric_alembic')
         .withItemInputs()
         .withItemOutputs()
         .withFluidInputs()
@@ -28,38 +28,44 @@ MIMachineEvents.registerRecipeTypes((event) => {
 });
 
 MIMachineEvents.registerMachines((event) => {
-    const mbHatch = event.hatchOf('item_input', 'item_output', 'fluid_input', 'fluid_output', 'energy_input');
+    const mbHatchTop = event.hatchOf('fluid_output');
+    const mbHatchMiddle = event.hatchOf('item_output');
+    const mbHatchBottom = event.hatchOf('item_input', 'fluid_input');
     const heatproofMember = event.memberOfBlock('modern_industrialization:heatproof_machine_casing');
     const coilMember = event.memberOfBlock('modern_industrialization:conductive_coil');
+    const pipeMember = event.memberOfBlock('modern_industrialization:steel_machine_casing_pipe');
     const mbShape = event
         .layeredShape('heatproof_machine_casing', [
-            ['HHH', 'CCC', 'CCC', 'HHH'],
-            ['HHH', 'C C', 'C C', 'HHH'],
-            ['H#H', 'CCC', 'CCC', 'HHH']
+            ['BBB', ' W ', ' W ', ' R ', '   '],
+            ['BBB', 'WPW', 'WPW', 'RPR', ' T '],
+            ['B#B', ' W ', ' W ', ' R ', '   ']
         ])
-        .key('H', heatproofMember, mbHatch)
-        .key('C', coilMember, event.noHatch())
+        .key('T', heatproofMember, mbHatchTop)
+        .key('R', heatproofMember, mbHatchMiddle)
+        .key('B', heatproofMember, mbHatchBottom)
+        .key('W', coilMember, event.noHatch())
+        .key('P', pipeMember, event.noHatch())
         .build();
 
     event.simpleElectricCraftingMultiBlock(
         /* GENERAL PARAMETERS */
         // English name, internal name, recipe type, multiblock shape
-        'Electric Kiln',
-        'electric_kiln',
-        ELECTRIC_KILN,
+        'Electric Alembic',
+        'electric_alembic',
+        ELECTRIC_ALEMBIC,
         mbShape,
-        /* REI DISPLAY CONFIGURATION */
-        // REI progress bar
-        event.progressBar(77, 33, 'arrow'),
-        // REI item inputs, item outputs, fluid inputs, fluid outputs
-        (itemInputs) => itemInputs.addSlots(56, 35, 1, 2),
-        (itemOutputs) => itemOutputs.addSlot(102, 35),
-        (fluidInputs) => fluidInputs.addSlot(36, 35),
-        (fluidOutputs) => fluidOutputs.addSlot(122, 35),
+        /* RECIPE VIEWER DISPLAY CONFIGURATION */
+        // Recipe Viewer progress bar
+        event.progressBar(65, 33, 'arrow'),
+        // Recipe Viewer item inputs, item outputs, fluid inputs, fluid outputs
+        (itemInputs) => itemInputs.addSlot(42, 27),
+        (itemOutputs) => itemOutputs.addSlots(93, 27, 2, 2),
+        (fluidInputs) => fluidInputs.addSlot(42, 45),
+        (fluidOutputs) => fluidOutputs.addSlot(131, 27),
         /* MODEL CONFIGUATION */
         // casing of the controller, overlay folder, front overlay?, top overlay?, side overlay?
         'heatproof_machine_casing',
-        'electric_blast_furnace',
+        'electrolyzer',
         true,
         false,
         false

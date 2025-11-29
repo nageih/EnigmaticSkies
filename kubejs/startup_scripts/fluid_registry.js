@@ -18,7 +18,7 @@ StartupEvents.registry('fluid', (event) => {
         {
             name: 'Wastewater',
             type: 'thick',
-            color: '#7d5f33'
+            color: '#99948c'
         },
         {
             name: 'Espresso',

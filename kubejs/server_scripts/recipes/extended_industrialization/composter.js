@@ -126,6 +126,17 @@ ServerEvents.recipes((event) => {
             duration: 4,
             eu: 2,
             id: `${id_prefix}ender_crystal_powder_from_flashpine_pod`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:emerald_dust', amount: 3 }],
+            item_inputs: [
+                { item: 'minecraft:sea_lantern', amount: 1 },
+                { item: 'theurgy:alchemical_salt_mineral', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 15 }],
+            duration: 4,
+            eu: 2,
+            id: `${id_prefix}emerald_dust_from_sea_lantern`
         }
     ];
 

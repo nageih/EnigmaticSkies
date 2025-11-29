@@ -296,46 +296,46 @@ const spiritData = [
     {
         registry_name: 'ars_elemental:flashing_weald_walker',
         spirits: [
-            { spirit: 'malum:aerial', count: 2 },
-            { spirit: 'malum:arcane', count: 3 }
+            { spirit: 'malum:aerial', count: 8 },
+            { spirit: 'malum:arcane', count: 8 }
         ]
     },
     {
         registry_name: 'ars_nouveau:flourishing_weald_walker',
         spirits: [
-            { spirit: 'malum:earthen', count: 2 },
-            { spirit: 'malum:arcane', count: 3 }
+            { spirit: 'malum:earthen', count: 8 },
+            { spirit: 'malum:arcane', count: 8 }
         ]
     },
     {
         registry_name: 'ars_nouveau:blazing_weald_walker',
         spirits: [
-            { spirit: 'malum:infernal', count: 2 },
-            { spirit: 'malum:arcane', count: 3 }
+            { spirit: 'malum:infernal', count: 8 },
+            { spirit: 'malum:arcane', count: 8 }
         ]
     },
     {
         registry_name: 'ars_nouveau:cascading_weald_walker',
         spirits: [
-            { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:arcane', count: 3 }
+            { spirit: 'malum:aqueous', count: 8 },
+            { spirit: 'malum:arcane', count: 8 }
         ]
     },
     {
         registry_name: 'ars_nouveau:vexing_weald_walker',
         spirits: [
-            { spirit: 'malum:eldritch', count: 2 },
-            { spirit: 'malum:arcane', count: 3 }
+            { spirit: 'malum:eldritch', count: 8 },
+            { spirit: 'malum:arcane', count: 8 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_boss',
         spirits: [
-            { spirit: 'malum:arcane', count: 3 },
-            { spirit: 'malum:wicked', count: 2 },
-            { spirit: 'malum:aerial', count: 1 },
-            { spirit: 'malum:aqueous', count: 1 },
-            { spirit: 'malum:earthen', count: 1 }
+            { spirit: 'malum:arcane', count: 8 },
+            { spirit: 'malum:wicked', count: 8 },
+            { spirit: 'malum:aerial', count: 8 },
+            { spirit: 'malum:aqueous', count: 8 },
+            { spirit: 'malum:earthen', count: 8 }
         ]
     },
     {

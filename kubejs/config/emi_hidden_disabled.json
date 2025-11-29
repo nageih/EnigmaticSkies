@@ -94,6 +94,12 @@
             "/modern_industrialization:.*_battery/",
             "/modern_industrialization:.*tungsten/",
             "/modern_industrialization:.*_ore$/",
+            "modern_industrialization:packer_block_template",
+            "modern_industrialization:steel_packer",
+            "modern_industrialization:steel_unpacker",
+            "modern_industrialization:electric_packer",
+            "modern_industrialization:electric_unpacker",
+            "modern_industrialization:centrifuge",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

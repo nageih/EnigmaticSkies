@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modern_industrialization:motor', count: 2 }],
             ingredients: [
-                { item: 'modern_industrialization:conductive_coil' },
+                { item: 'modern_industrialization:copper_coil' },
                 { item: 'modern_industrialization:steel_rod_magnetic' },
                 { item: 'modern_industrialization:steel_rod_magnetic' },
                 { item: 'modern_industrialization:steel_large_plate' }

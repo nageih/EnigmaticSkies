@@ -374,7 +374,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['create:milling'],
             fe: 9600,
             eu: 2,
-            duration: 40,
+            duration: 20,
             id_suffix: 'crushed_end_stone'
         },
         {

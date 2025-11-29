@@ -366,12 +366,42 @@ ServerEvents.recipes((event) => {
                 F: 'modern_industrialization:fire_clay_bricks'
             },
             id: `${id_prefix}steel_upgrade`
+        },
+        {
+            output: `modern_industrialization:wrench`,
+            pattern: ['A A', ' A ', ' A '],
+            key: {
+                A: `#c:plates/andesite_alloy`
+            },
+            id: `${id_prefix}wrench`
+        },
+        {
+            output: 'modern_industrialization:steam_alembic',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'modern_industrialization:bronze_machine_casing_pipe',
+                B: '#c:storage_blocks/ambrosium',
+                C: 'create:fluid_tank',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'create:basin'
+            },
+            id: `${id_prefix}steam_alembic`
+        },
+        {
+            output: 'modern_industrialization:electric_alembic',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: 'modern_industrialization:heatproof_machine_casing',
+                B: 'modern_industrialization:steam_alembic',
+                C: 'modern_industrialization:conductive_coil'
+            },
+            id: `${id_prefix}electric_alembic`
         }
     ];
 
     const electrical_components = [
         { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
-        { material: 'conductive', tier: 'mv', casing: 'industrialforegoing:machine_frame_simple' },
+        { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
         { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_advanced' },
         { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
         { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }

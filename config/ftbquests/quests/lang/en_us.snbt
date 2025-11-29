@@ -2471,7 +2471,7 @@
 	quest.3BCD9E36D48B205A.quest_desc: [
 		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."
 		""
-		"Be sure to grab some LV Cables from your Villagers too!"
+		"Be sure to grab some &7LV Cables&r from your Villagers too!"
 		""
 		"&a🛈 Tip: EU converts directly to FE!"
 	]
@@ -4273,8 +4273,9 @@
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
 		"That little boiler back in the &7Gazebo&r is undoubtedly looking rather insufficient by now, so let’s work on a “little” upgrade."
+		"&n                                                                          &r"
 		""
-		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
 		""
 		"In this case, the &7Large Steam Boiler&r only requires Fluid Hatches; it does not accept solid fuel."
 		""
@@ -5826,6 +5827,20 @@
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
+	quest.7D63AB919406E5AD.quest_desc: [
+		"&7Dorodangos&r produced by &7Alakarkinos&r are suffused with magic, full of latent potential. The &7Steam Alembic&r is capable of transmuting them into invaluable resources. "
+		""
+		"Of course, only &7Alakarkinos&r knows how to operate the device in this way. Consider setting its home to the &7Input Hatch&r to ensure one is always nearby."
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Steam Alembic&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
 		""

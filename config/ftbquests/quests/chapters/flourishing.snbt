@@ -155,7 +155,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -166,7 +166,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -188,7 +188,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -210,7 +210,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -765,8 +765,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -782,6 +782,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3D866F25445DB9D1"
@@ -794,8 +795,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -973,6 +974,72 @@
 			}]
 			x: 7.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["2C3B39CD6A7E044C"]
+			icon: {
+				id: "modern_industrialization:steam_alembic"
+			}
+			id: "7D63AB919406E5AD"
+			min_width: 300
+			rewards: [{
+				count: 16
+				id: "39F4F015A6E2D43C"
+				item: {
+					count: 1
+					id: "minecraft:melon"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49A88C25137EAC94"
+					item: { count: 1, id: "modern_industrialization:steam_alembic" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E6A3D68179E4F98"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6F7CB6BD5105C470"
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "252BA23A3D370C4D"
+					item: { count: 1, id: "minecraft:polished_andesite" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0BB96E58A01F180D"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "083303CA128E5B22"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "40A7E30D465D0168"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6DE11EA8A586D544"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 }

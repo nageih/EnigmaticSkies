@@ -10,20 +10,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
-            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 4000 }],
-            item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1 }],
-            eu: 4,
-            duration: 1,
-            id: `${id_prefix}lava`
-        },
-        {
-            fluid_outputs: [{ fluid: 'minecraft:water', amount: 8000 }],
-            item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1 }],
-            eu: 2,
-            duration: 1,
-            id: `${id_prefix}water`
-        },
-        {
             item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 6 }],
             fluid_outputs: [
                 { fluid: 'extended_industrialization:manure', amount: 1000 },
@@ -35,19 +21,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}manure`
         },
         {
-            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
-            item_inputs: [{ tag: 'c:foods/cooked_meats', amount: 1 }],
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}pink_slime`
+            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
+            item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1, probability: 1 / 4 }],
+            eu: 4,
+            duration: 1,
+            id: `${id_prefix}lava`
         },
         {
-            item_outputs: [{ item: 'modern_industrialization:carbon_dust', amount: 1 }],
-            item_inputs: [{ tag: 'c:essences/rotting_essence', amount: 4 }],
+            fluid_outputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1, probability: 1 / 8 }],
             eu: 2,
-            duration: 5,
-            id: `${id_prefix}meat`
+            duration: 1,
+            id: `${id_prefix}water`
         }
     ];
 

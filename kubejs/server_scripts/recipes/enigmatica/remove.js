@@ -476,6 +476,8 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:electrolyzer' },
         { type: 'modern_industrialization:vacuum_freezer' },
         { type: 'modern_industrialization:polarizer' },
+        { type: 'modern_industrialization:unpacker' },
+        { type: 'modern_industrialization:packer' },
         {
             type: 'modern_industrialization:mixer',
             output: /(kanthal|soldering_alloy|stainless_steel|superconductor|cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
@@ -599,6 +601,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:bronze_tank' },
         { output: 'modern_industrialization:bronze_barrel' },
         { output: 'modern_industrialization:coke' },
+        { output: 'modern_industrialization:wrench' },
         { output: 'modern_industrialization:steel_upgrade' },
         { output: 'modern_industrialization:oil_drilling_rig' },
         { output: 'modern_industrialization:steam_quarry' },
@@ -606,6 +609,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:large_steam_turbine' },
         { output: 'modern_industrialization:fire_clay_dust' },
         { output: 'modern_industrialization:steam_blast_furnace' },
+        { output: 'modern_industrialization:packer_block_template' },
         { input: 'modern_industrialization:fire_clay_dust' },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
