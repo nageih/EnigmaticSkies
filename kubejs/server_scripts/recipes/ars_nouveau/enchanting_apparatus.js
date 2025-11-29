@@ -254,11 +254,11 @@ ServerEvents.recipes((event) => {
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
                 { tag: 'c:plates/brass' },
-                { tag: 'c:gears/energized' },
+                { item: 'enigmatica:pulsating_mechanism' },
                 { tag: 'c:plates/brass' },
                 { tag: 'c:gems/vibrant_crystal' },
                 { tag: 'c:plates/brass' },
-                { tag: 'c:gears/energized' },
+                { item: 'enigmatica:pulsating_mechanism' },
                 { tag: 'c:plates/brass' }
             ],
             keepNbtOfReagent: false,
