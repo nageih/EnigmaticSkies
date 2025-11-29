@@ -277,7 +277,7 @@ StartupEvents.registry('item', (event) => {
 
         'antikythera_mechanism',
         'pulsating_mechanism',
-        'gusting_mechanism',
+        'tempestuous_mechanism',
 
         'fire_clay_ball',
         'cookie_dough',

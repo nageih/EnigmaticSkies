@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ender_crystal_powder_from_flashpine_pod`
         },
         {
-            result: { id: 'modern_industrialization:emerald_dust', count: 4 },
+            result: { id: 'modern_industrialization:emerald_dust', count: 2 },
             ingredients: [
                 { ingredient: { item: 'theurgy:alchemical_salt_mineral' }, count: 1 },
                 { ingredient: { item: 'minecraft:sea_lantern' }, count: 1 }

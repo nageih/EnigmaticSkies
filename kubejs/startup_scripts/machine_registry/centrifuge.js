@@ -44,7 +44,6 @@ MIMachineEvents.registerMachines((event) => {
         // Capacity for fluid slots
         16,
         // Slot positions: items and fluids.
-        // Explanation: 3x3 grid of item slots starting at position (42, 27), then 1x3 grid of item slots starting at position (139, 27).
         (items) => items.addSlot(42, 27).addSlots(93, 27, 2, 2),
         (fluids) => fluids.addSlot(42, 45).addSlots(131, 27, 2, 2),
 

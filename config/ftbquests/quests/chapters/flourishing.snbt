@@ -99,7 +99,7 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -151,11 +151,11 @@
 				}
 				{
 					id: "52FBA77CCD4EA054"
-					item: { count: 1, id: "modern_industrialization:carbon_dust" }
+					item: { count: 1, id: "modern_industrialization:silicon_dust" }
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -166,7 +166,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -184,11 +184,11 @@
 				}
 				{
 					id: "65AE88CD2FBA09C9"
-					item: { count: 1, id: "modern_industrialization:silicon_dust" }
+					item: { count: 1, id: "modern_industrialization:quartz_dust" }
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -210,19 +210,19 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "5E727F7B600E0E91"
 			tasks: [{
 				id: "22F25CA36A232063"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -376,7 +376,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "625AE1AEF37DAE03"
 			rewards: [
 				{
@@ -401,8 +401,8 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -534,8 +534,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 7.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -555,8 +555,8 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["410225ED927857D4"]
@@ -591,8 +591,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 7.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -627,8 +627,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 6.0d
+			x: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -675,7 +675,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3BCD9E36D48B205A"]
+			dependencies: ["7B9D8AD7BFC1E87D"]
 			icon: {
 				id: "actuallyadditions:coffee_machine"
 			}
@@ -692,8 +692,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -765,8 +765,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -782,6 +782,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3D866F25445DB9D1"
@@ -794,8 +795,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -821,8 +822,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 5.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -843,8 +844,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 5.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -908,8 +909,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 5.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -946,8 +947,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 6.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -959,6 +960,86 @@
 			}]
 			x: 5.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"45E411460C53A082"
+				"3BCD9E36D48B205A"
+			]
+			id: "7B9D8AD7BFC1E87D"
+			tasks: [{
+				id: "1027C803FC43B8F7"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C3B39CD6A7E044C"]
+			icon: {
+				id: "modern_industrialization:steam_alembic"
+			}
+			id: "7D63AB919406E5AD"
+			min_width: 300
+			rewards: [{
+				count: 16
+				id: "39F4F015A6E2D43C"
+				item: {
+					count: 1
+					id: "minecraft:melon"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49A88C25137EAC94"
+					item: { count: 1, id: "modern_industrialization:steam_alembic" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E6A3D68179E4F98"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6F7CB6BD5105C470"
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "252BA23A3D370C4D"
+					item: { count: 1, id: "minecraft:polished_andesite" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0BB96E58A01F180D"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "083303CA128E5B22"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "40A7E30D465D0168"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6DE11EA8A586D544"
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 }

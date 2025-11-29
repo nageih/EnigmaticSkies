@@ -2471,7 +2471,7 @@
 	quest.3BCD9E36D48B205A.quest_desc: [
 		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."
 		""
-		"Be sure to grab some LV Cables from your Villagers too!"
+		"Be sure to grab some &7LV Cables&r from your Villagers too!"
 		""
 		"&a🛈 Tip: EU converts directly to FE!"
 	]
@@ -3372,7 +3372,7 @@
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
 	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
 		""
 		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
 		""
@@ -3937,6 +3937,11 @@
 		""
 		"Be sure to stock up!"
 	]
+	quest.55D51F58CA3130AA.quest_desc: [
+		"Alakarkinos is eager and ready to assist! "
+		""
+		"New Dorodangos await you with the materials available on this island. "
+	]
 	quest.56AD6E7F12056140.quest_desc: [
 		"The &7Enchanting Apparatus&r is a vital tool in and of itself and will become important soon enough. "
 		""
@@ -4268,8 +4273,9 @@
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
 		"That little boiler back in the &7Gazebo&r is undoubtedly looking rather insufficient by now, so let’s work on a “little” upgrade."
+		"&n                                                                          &r"
 		""
-		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
 		""
 		"In this case, the &7Large Steam Boiler&r only requires Fluid Hatches; it does not accept solid fuel."
 		""
@@ -5790,6 +5796,13 @@
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
+	quest.7B9D8AD7BFC1E87D.quest_desc: [
+		"As a wise old man once said, \"Power concedes nothing without a demand.\""
+		""
+		"That shiny Turbine is looking mighty useless right now with no machines to power. "
+		""
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to remedy that. \" ]"
+	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "
 		""
@@ -5814,6 +5827,20 @@
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
+	quest.7D63AB919406E5AD.quest_desc: [
+		"&7Dorodangos&r produced by &7Alakarkinos&r are suffused with magic, full of latent potential. The &7Steam Alembic&r is capable of transmuting them into invaluable resources. "
+		""
+		"Of course, only &7Alakarkinos&r knows how to operate the device in this way. Consider setting its home to the &7Input Hatch&r to ensure one is always nearby."
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Steam Alembic&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
 		""

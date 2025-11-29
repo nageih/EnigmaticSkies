@@ -45,51 +45,51 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}vacuum_chest`
         },
         {
-            output: 'enderio:vat',
-            pattern: ['AAA', 'BCB', 'DED'],
-            key: {
-                A: 'modern_industrialization:steel_tank',
-                B: 'oritech:carbon_plating_block',
-                C: 'industrialforegoing:machine_frame_simple',
-                D: '#c:gears/energized',
-                E: 'oritech:flux_gate'
-            },
-            id: `${id_prefix}vat`
-        },
-        {
             output: `enderio:crafter`,
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {
-                A: 'create:mechanical_arm',
+                A: 'modern_industrialization:robot_arm',
                 B: 'ars_nouveau:wixie_charm',
-                C: '#c:gears/energized',
-                D: 'industrialforegoing:machine_frame_simple',
-                E: 'modern_industrialization:motor',
+                C: '#c:gears/copper',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'ars_technica:calibrated_precision_mechanism',
                 F: 'oritech:flux_gate'
             },
             id: `${id_prefix}crafter`
         },
         {
-            output: `enderio:sag_mill`,
-            pattern: ['ABA', 'BCB', 'DED'],
+            output: 'enderio:vat',
+            pattern: ['BAB', 'ACA', 'DED'],
             key: {
-                A: 'oritech:reinforced_carbon_sheet',
-                B: '#c:gears/dark_steel',
-                C: 'industrialforegoing:machine_frame_advanced',
-                D: 'modern_industrialization:motor',
-                E: 'oritech:flux_gate'
+                A: 'modern_industrialization:steel_tank',
+                B: 'oritech:carbon_plating_block',
+                C: 'modern_industrialization:steel_machine_casing',
+                D: 'modern_industrialization:pump',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}vat`
+        },
+        {
+            output: `enderio:sag_mill`,
+            pattern: ['BAB', 'ACA', 'DED'],
+            key: {
+                A: '#c:gears/dark_steel',
+                B: 'oritech:carbon_plating_block',
+                C: 'modern_industrialization:steel_machine_casing',
+                D: 'modern_industrialization:large_motor',
+                E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}sag_mill`
         },
         {
             output: `enderio:alloy_smelter`,
-            pattern: ['ABA', 'BCB', 'DED'],
+            pattern: ['BAB', 'ACA', 'DED'],
             key: {
-                A: 'oritech:reinforced_carbon_sheet',
-                B: 'modern_industrialization:steel_furnace',
-                C: 'industrialforegoing:machine_frame_advanced',
+                A: 'minecraft:blast_furnace',
+                B: 'oritech:carbon_plating_block',
+                C: 'modern_industrialization:steel_machine_casing',
                 D: 'modern_industrialization:energetic_coil',
-                E: 'oritech:flux_gate'
+                E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}alloy_smelter`
         }

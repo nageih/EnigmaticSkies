@@ -354,24 +354,13 @@
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
-			id: "32873E9460FC001B"
-			tasks: [{
-				id: "74CBE0400F17BBD5"
-				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["32873E9460FC001B"]
 			id: "1C9B3AFB2E0D20AF"
 			tasks: [{
 				id: "05914A1DE818C066"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 6.0d
 		}
 		{

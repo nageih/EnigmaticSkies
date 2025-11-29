@@ -23,6 +23,13 @@ MIMaterialEvents.modifyMaterial('iridium', (event) => {
 });
 
 MIMaterialEvents.addMaterials((event) => {
+    let material = 'Sky';
+    event.createMaterial(material, getID(material), 0x57dffa, (builder) => {
+        builder.hardness('soft').materialSet('stone').addParts('plate', 'large_plate');
+    });
+});
+
+MIMaterialEvents.addMaterials((event) => {
     let material = 'Andesite Alloy';
     event.createMaterial(material, getID(material), 0xa8b3ab, (builder) => {
         builder.hardness('soft').materialSet('stone').addParts('plate', 'rod', 'large_plate');

@@ -38,7 +38,7 @@ MITweaksMachineEvents.registerPowerlessMachines((event) => {
         1,
         1,
         // Capacity for fluid slots
-        16,
+        1,
         // Item slot positions
         (items) => items.addSlots(25, 35, 1, 1),
         // Fluid slot positions

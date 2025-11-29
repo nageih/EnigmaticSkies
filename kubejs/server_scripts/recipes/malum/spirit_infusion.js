@@ -73,23 +73,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}calling_spirit`
         },
         {
-            result: { id: 'enderio:vibrant_alloy_ingot', count: 1 },
-            input: { tag: 'c:ingots/energetic_alloy', count: 1 },
+            result: { id: 'enderio:vibrant_crystal', count: 1 },
+            input: { tag: 'c:gems/emerald', count: 1 },
             extraInputs: [{ item: 'malum:paracausal_flame', count: 1 }],
             spirits: [
-                { type: 'malum:infernal', count: 8 },
-                { type: 'malum:arcane', count: 8 },
-                { type: 'malum:earthen', count: 8 }
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:infernal', count: 32 },
+                { type: 'malum:earthen', count: 32 }
             ],
-            id: `${id_prefix}vibrant_alloy_ingot`
+            id: `${id_prefix}vibrant_crystal`
         },
         {
             result: { id: 'malum:soulwoven_silk', count: 4 },
-            input: { tag: 'minecraft:wool', count: 2 },
-            extraInputs: [{ item: 'ars_nouveau:magebloom_fiber', count: 2 }],
+            input: { tag: 'cold_sweat:goat_fur', count: 8 },
+            extraInputs: [{ item: 'ars_nouveau:magebloom_fiber', count: 4 }],
             spirits: [
-                { type: 'malum:aerial', count: 3 },
-                { type: 'malum:earthen', count: 3 }
+                { type: 'malum:aerial', count: 8 },
+                { type: 'malum:earthen', count: 8 }
             ],
             id: `${id_prefix}soulwoven_silk`
         },
@@ -165,7 +165,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'enderio:ender_crystal', count: 1 },
-            input: { item: 'minecraft:ender_pearl', count: 1 },
+            input: { item: 'enderio:pulsating_crystal', count: 1 },
             extraInputs: [
                 { item: 'enderio:ender_crystal_powder', count: 4 },
                 { item: 'occultism:crushed_end_stone', count: 4 }
@@ -305,15 +305,32 @@ ServerEvents.recipes((event) => {
                 { item: 'enderio:basic_capacitor', count: 3 }
             ],
             spirits: [
-                { type: 'malum:arcane', count: 4 },
-                { type: 'malum:infernal', count: 4 },
-                { type: 'malum:aerial', count: 4 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:infernal', count: 16 },
+                { type: 'malum:aerial', count: 16 }
             ],
             id: `${id_prefix}pulsating_mechanism`
         },
         {
+            result: { id: 'enigmatica:tempestuous_mechanism', count: 1 },
+            input: { item: 'enigmatica:pulsating_mechanism', count: 1 },
+            extraInputs: [
+                { tag: 'c:gems/weather_crystal', count: 2 },
+                { item: 'enderio:sentient_ender', count: 1 },
+                { item: 'enderio:octadic_capacitor', count: 3 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aqueous', count: 32 },
+                { type: 'malum:aerial', count: 32 },
+                { type: 'malum:eldritch', count: 32 }
+            ],
+            id: `${id_prefix}tempestuous_mechanism`
+        },
+        {
             result: { id: 'malum:alchemical_calx', count: 4 },
             input: { item: 'occultism:otherworld_ashes', count: 4 },
+            extraInputs: [],
             spirits: [
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:earthen', count: 2 },

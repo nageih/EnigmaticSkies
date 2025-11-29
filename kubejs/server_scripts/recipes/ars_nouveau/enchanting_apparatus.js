@@ -254,11 +254,11 @@ ServerEvents.recipes((event) => {
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
                 { tag: 'c:plates/brass' },
-                { tag: 'c:gears/energized' },
+                { item: 'enigmatica:pulsating_mechanism' },
                 { tag: 'c:plates/brass' },
                 { tag: 'c:gems/vibrant_crystal' },
                 { tag: 'c:plates/brass' },
-                { tag: 'c:gears/energized' },
+                { item: 'enigmatica:pulsating_mechanism' },
                 { tag: 'c:plates/brass' }
             ],
             keepNbtOfReagent: false,
@@ -345,6 +345,18 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 2000,
             id: `${id_prefix}steel_rod_magnetic`
+        },
+        {
+            result: { id: 'modern_industrialization:stainless_steel_rod_magnetic', count: 1 },
+            reagent: { tag: 'c:rods/stainless_steel' },
+            pedestalItems: [
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' },
+                { tag: 'c:ingots/redstone_alloy' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 2000,
+            id: `${id_prefix}stainless_steel_rod_magnetic`
         },
         {
             result: { id: 'modern_industrialization:heatproof_machine_casing', count: 1 },
@@ -603,7 +615,6 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'minecraft:skeleton_skull' },
             pedestalItems: [
                 { item: 'aether:life_shard' },
-
                 { tag: 'c:bones' },
                 { tag: 'c:bones' },
                 { item: 'prettypipes:blank_module' },
@@ -613,6 +624,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}skeletal_contractor`
+        },
+        {
+            result: { id: 'actuallyadditions:ender_casing', count: 1 },
+            reagent: { item: 'enderio:ensouled_chassis' },
+            pedestalItems: [
+                { tag: 'c:gems/ender_crystal' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:gems/ender_crystal' },
+                { tag: 'c:essences/void_salts' },
+                { tag: 'c:essences/void_salts' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}ender_casing`
         }
     ];
 

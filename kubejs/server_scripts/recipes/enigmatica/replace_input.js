@@ -262,19 +262,9 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:motor`
         },
         {
-            filter: [{ id: /justdirethings:.*t2$/ }, { id: 'justdirethings:portalgun' }],
+            filter: [{ id: 'justdirethings:portalgun' }],
             to_replace: `minecraft:ender_eye`,
             replace_with: '#c:gems/pulsating_crystal'
-        },
-        {
-            filter: [{ id: /justdirethings:.*t2$/ }],
-            to_replace: `#c:dusts/redstone`,
-            replace_with: 'oritech:flux_gate'
-        },
-        {
-            filter: [{ id: /justdirethings:.*t2$/ }],
-            to_replace: `#c:gems/lapis`,
-            replace_with: 'ars_technica:calibrated_precision_mechanism'
         },
         {
             filter: [
@@ -389,7 +379,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: /ae2:cell_component/ }],
             to_replace: `#c:dusts/redstone`,
-            replace_with: `#c:gems/brilliance`
+            replace_with: `#c:gems/mnemonic_fragment`
         },
         {
             filter: [{ output: /ae2:cell_component/ }, { output: /ae2:spatial_cell_component/ }],
@@ -399,7 +389,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: /ae2:cell_component/ }],
             to_replace: `#c:dusts/sky_stone`,
-            replace_with: `#c:gems/fluxite`
+            replace_with: `#c:gems/prescient_crystal`
         },
         {
             filter: {},

@@ -20,7 +20,7 @@
 
 [spirit]
 	#If set to true, any spirits dropped will simply take the form of an item.
-	noFancySpirits = false
+	noFancySpirits = true
 
 	[spirit.spawner]
 		#If set to true, mob spawners will create soulless mobs instead.
@@ -28,7 +28,7 @@
 
 	[spirit.defaults]
 		#Whether entities without spirit jsons will use the default spirit data for their category.
-		defaultSpiritValues = true
+		defaultSpiritValues = false
 
 	[compat.irons_spellbooks]
 		#Should Iron's Spellbooks' magic damage count as Soul Damage?

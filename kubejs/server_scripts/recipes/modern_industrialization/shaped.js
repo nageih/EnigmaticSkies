@@ -22,26 +22,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_machine_casing_pipe`
         },
         {
-            output: `modern_industrialization:clean_stainless_steel_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:stainless_steel_large_plate',
-                B: 'enderio:z_logic_controller',
-                C: '#c:gears/dark_steel'
-            },
-            id: `${id_prefix}clean_stainless_steel_machine_casing`
-        },
-        {
-            output: `modern_industrialization:quantum_machine_casing`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'modern_industrialization:iridium_large_plate',
-                B: 'enderio:ender_resonator',
-                C: '#c:gears/vibrant'
-            },
-            id: `${id_prefix}quantum_machine_casing`
-        },
-        {
             output: `modern_industrialization:bronze_compressor`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
@@ -267,25 +247,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}redstone_control_module`
         },
         {
-            output: `modern_industrialization:bronze_rotor`,
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: `#c:nuggets/bronze`,
-                B: `modern_industrialization:bronze_blade`,
-                C: '#c:gems/ruby'
-            },
-            id: `${id_prefix}bronze_rotor`
-        },
-        {
-            output: `4x modern_industrialization:bronze_blade`,
-            pattern: ['  A', ' A ', 'B  '],
-            key: {
-                A: `#c:plates/bronze`,
-                B: `#c:rods/bronze`
-            },
-            id: `${id_prefix}bronze_blade`
-        },
-        {
             output: `modern_industrialization:robot_arm`,
             pattern: ['AAB', 'AC ', 'DC '],
             key: {
@@ -346,6 +307,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}andesite_alloy_large_plate`
         },
         {
+            output: `modern_industrialization:sky_large_plate`,
+            pattern: ['AA', 'AA'],
+            key: {
+                A: `#c:plates/sky`
+            },
+            id: `${id_prefix}sky_large_plate`
+        },
+        {
             output: `modern_industrialization:bronze_furnace`,
             pattern: ['AAA', 'ABA', 'CCC'],
             key: {
@@ -397,12 +366,42 @@ ServerEvents.recipes((event) => {
                 F: 'modern_industrialization:fire_clay_bricks'
             },
             id: `${id_prefix}steel_upgrade`
+        },
+        {
+            output: `modern_industrialization:wrench`,
+            pattern: ['A A', ' A ', ' A '],
+            key: {
+                A: `#c:plates/andesite_alloy`
+            },
+            id: `${id_prefix}wrench`
+        },
+        {
+            output: 'modern_industrialization:steam_alembic',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'modern_industrialization:bronze_machine_casing_pipe',
+                B: '#c:storage_blocks/ambrosium',
+                C: 'create:fluid_tank',
+                D: 'modern_industrialization:bronze_machine_casing',
+                E: 'create:basin'
+            },
+            id: `${id_prefix}steam_alembic`
+        },
+        {
+            output: 'modern_industrialization:electric_alembic',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: 'modern_industrialization:heatproof_machine_casing',
+                B: 'modern_industrialization:steam_alembic',
+                C: 'modern_industrialization:conductive_coil'
+            },
+            id: `${id_prefix}electric_alembic`
         }
     ];
 
     const electrical_components = [
         { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
-        { material: 'conductive', tier: 'mv', casing: 'industrialforegoing:machine_frame_simple' },
+        { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
         { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_advanced' },
         { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
         { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }
@@ -500,18 +499,7 @@ ServerEvents.recipes((event) => {
         }
     });
 
-    const gears = [
-        'aluminum',
-        'bronze',
-        'copper',
-        'gold',
-        'invar',
-        'iron',
-        'stainless_steel',
-        'steel',
-        'tin',
-        'titanium'
-    ];
+    const gears = ['copper', 'gold', 'iron', 'stainless_steel', 'steel'];
 
     gears.forEach((material) => {
         recipes.push({

@@ -2,26 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/assembler/';
     const recipes = [
         {
-            results: [{ id: 'modern_industrialization:motor', count: 1 }],
-            ingredients: [
-                { item: 'modern_industrialization:conductive_coil' },
-                { item: 'modern_industrialization:steel_large_plate' },
-                { item: 'create:shaft' }
-            ],
-            time: 10,
-            id: `${id_prefix}motor`
-        },
-        {
-            results: [{ id: 'modern_industrialization:advanced_motor', count: 1 }],
-            ingredients: [
-                { item: 'modern_industrialization:energetic_coil' },
-                { item: 'modern_industrialization:stainless_steel_large_plate' },
-                { tag: 'c:rods/stainless_steel' }
-            ],
-            time: 10,
-            id: `${id_prefix}advanced_motor`
-        },
-        {
             results: [{ id: 'oritech:clay_catalyst_beads', count: 2 }],
             ingredients: [{ item: 'minecraft:clay_ball' }, { item: 'occultism:otherworld_ashes' }],
             time: 30,
@@ -53,8 +33,8 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:pump', count: 1 }],
             ingredients: [
                 { item: 'modern_industrialization:steel_large_plate' },
-                { item: 'modern_industrialization:bronze_rotor' },
-                { item: 'modern_industrialization:bronze_rotor' },
+                { item: 'pneumaticcraft:turbine_rotor' },
+                { item: 'pneumaticcraft:turbine_rotor' },
                 { item: 'modern_industrialization:large_motor' }
             ],
             time: 20,
@@ -72,9 +52,31 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}advanced_pump`
         },
         {
+            results: [{ id: 'modern_industrialization:motor', count: 2 }],
+            ingredients: [
+                { item: 'modern_industrialization:copper_coil' },
+                { item: 'modern_industrialization:steel_rod_magnetic' },
+                { item: 'modern_industrialization:steel_rod_magnetic' },
+                { item: 'modern_industrialization:steel_large_plate' }
+            ],
+            time: 10,
+            id: `${id_prefix}motor`
+        },
+        {
+            results: [{ id: 'modern_industrialization:advanced_motor', count: 2 }],
+            ingredients: [
+                { item: 'modern_industrialization:energetic_coil' },
+                { item: 'modern_industrialization:stainless_steel_rod_magnetic' },
+                { item: 'modern_industrialization:stainless_steel_rod_magnetic' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' }
+            ],
+            time: 10,
+            id: `${id_prefix}advanced_motor`
+        },
+        {
             results: [{ id: 'modern_industrialization:large_motor', count: 1 }],
             ingredients: [
-                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:carbon_plating_block' },
                 { item: 'modern_industrialization:motor' },
                 { item: 'modern_industrialization:motor' },
                 { item: 'enderio:skeletal_contractor' }
@@ -85,7 +87,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modern_industrialization:large_advanced_motor', count: 1 }],
             ingredients: [
-                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:carbon_plating_block' },
                 { item: 'modern_industrialization:advanced_motor' },
                 { item: 'modern_industrialization:advanced_motor' },
                 { item: 'enderio:z_logic_controller' }

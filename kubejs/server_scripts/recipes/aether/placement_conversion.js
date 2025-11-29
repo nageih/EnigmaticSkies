@@ -3,40 +3,46 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ingredient: { block: 'the_bumblezone:super_candle_base', properties: { lit: 'true' } },
             result: { block: 'the_bumblezone:super_candle_base', properties: { lit: 'false' } },
+            ingredient: { block: 'the_bumblezone:super_candle_base', properties: { lit: 'true' } },
             biome: '#aether:ultracold',
             id: `${id_prefix}the_bumblezone_super_candle_base`
         },
         {
-            ingredient: { block: 'occultism:large_candle', properties: { lit: 'true' } },
             result: { block: 'occultism:large_candle', properties: { lit: 'false' } },
+            ingredient: { block: 'occultism:large_candle', properties: { lit: 'true' } },
             biome: '#aether:ultracold',
             id: `${id_prefix}occultism_large_candle`
         },
         {
-            ingredient: { block: 'supplementaries:candle_holder', properties: { lit: 'true' } },
             result: { block: 'supplementaries:candle_holder', properties: { lit: 'false' } },
+            ingredient: { block: 'supplementaries:candle_holder', properties: { lit: 'true' } },
             biome: '#aether:ultracold',
             id: `${id_prefix}supplementaries_candle_holder`
         },
         {
-            ingredient: { block: 'minecraft:end_portal' },
             result: { block: 'supplementaries:end_stone_lamp', properties: { rune: 'e' } },
+            ingredient: { block: 'minecraft:end_portal' },
             biome: '#enigmatica:global',
             id: `${id_prefix}minecraft_end_portal`
         },
         {
-            ingredient: { block: 'minecraft:nether_portal' },
             result: { block: 'minecraft:crying_obsidian' },
+            ingredient: { block: 'minecraft:nether_portal' },
             biome: '#enigmatica:global',
             id: `${id_prefix}minecraft_nether_portal`
         },
         {
-            ingredient: { block: 'minecraft:sculk_shrieker' },
             result: { block: 'minecraft:sculk_shrieker', properties: { can_summon: 'true' } },
+            ingredient: { block: 'minecraft:sculk_shrieker' },
             biome: 'minecraft:deep_dark',
             id: `${id_prefix}minecraft_sculk_shrieker`
+        },
+        {
+            result: { block: 'justdirethings:time_crystal_block' },
+            ingredient: { block: 'justdirethings:time_crystal_budding_block' },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}time_crystal_block`
         }
     ];
 
@@ -120,8 +126,8 @@ ServerEvents.recipes((event) => {
     Object.keys(terrain_blocks).forEach((biome) => {
         terrain_blocks[biome].forEach((block) => {
             recipes.push({
-                ingredient: { block: block.in },
                 result: { block: block.out },
+                ingredient: { block: block.in },
                 biome: biome,
                 id: `${id_prefix}${biome.split(':')[1]}/${getID(block.in)}_to_${getID(block.out)}`
             });
@@ -134,8 +140,8 @@ ServerEvents.recipes((event) => {
     materials.forEach((material) => {
         mcw_types.forEach((type) => {
             recipes.push({
-                ingredient: { block: `mcwlights:${material}_${type}_holder`, properties: { lit: 'true' } },
                 result: { block: `mcwlights:${material}_${type}_holder`, properties: { lit: 'false' } },
+                ingredient: { block: `mcwlights:${material}_${type}_holder`, properties: { lit: 'true' } },
                 biome: '#aether:ultracold',
                 id: `${id_prefix}mcwlights_${material}_${type}_holder`
             });
@@ -145,20 +151,20 @@ ServerEvents.recipes((event) => {
     colors.forEach((color) => {
         recipes.push(
             {
-                ingredient: { block: `supplementaries:candle_holder_${color}`, properties: { lit: 'true' } },
                 result: { block: `supplementaries:candle_holder_${color}`, properties: { lit: 'false' } },
+                ingredient: { block: `supplementaries:candle_holder_${color}`, properties: { lit: 'true' } },
                 biome: '#aether:ultracold',
                 id: `${id_prefix}supplementaries_candle_holder_${color}`
             },
             {
-                ingredient: { block: `occultism:large_candle_${color}`, properties: { lit: 'true' } },
                 result: { block: `occultism:large_candle_${color}`, properties: { lit: 'false' } },
+                ingredient: { block: `occultism:large_candle_${color}`, properties: { lit: 'true' } },
                 biome: '#aether:ultracold',
                 id: `${id_prefix}occultism_large_candle_${color}`
             },
             {
-                ingredient: { block: `the_bumblezone:super_candle_base_${color}`, properties: { lit: 'true' } },
                 result: { block: `the_bumblezone:super_candle_base_${color}`, properties: { lit: 'false' } },
+                ingredient: { block: `the_bumblezone:super_candle_base_${color}`, properties: { lit: 'true' } },
                 biome: '#aether:ultracold',
                 id: `${id_prefix}the_bumblezone_super_candle_base_${color}`
             }

@@ -66,8 +66,8 @@ ServerEvents.recipes((event) => {
                 B: 'pneumaticcraft:large_tank',
                 C: 'pneumaticcraft:advanced_pressure_tube',
                 D: 'modern_industrialization:stainless_steel_machine_casing_pipe',
-                E: '#c:gears/compressed_iron',
-                F: 'enderio:z_logic_controller'
+                E: '#c:gears/dark_steel',
+                F: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}advanced_liquid_compressor`
         },
@@ -109,9 +109,9 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', 'CDC'],
             key: {
                 A: 'supplementaries:crystal_display',
-                B: 'enderio:z_logic_controller',
+                B: 'pneumaticcraft:pressure_tube',
                 C: '#c:ingots/compressed_iron',
-                D: 'pneumaticcraft:pressure_tube'
+                D: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}assembly_controller`
         },

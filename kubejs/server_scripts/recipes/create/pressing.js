@@ -6,18 +6,13 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:andesite_alloy_plate' }],
             ingredients: [{ tag: 'c:ingots/andesite_alloy' }],
             id: `${id_prefix}andesite_alloy_plate`
+        },
+        {
+            results: [{ id: 'modern_industrialization:sky_plate' }],
+            ingredients: [{ tag: 'c:ingots/sky' }],
+            id: `${id_prefix}sky_plate`
         }
     ];
-
-    const materials = ['bronze', 'invar', 'platinum', 'tin', 'tungsten'];
-
-    materials.forEach((material) => {
-        recipes.push({
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:plates/${material}`).getId() }],
-            ingredients: [{ tag: `c:ingots/${material}` }],
-            id: `${id_prefix}${material}_plate`
-        });
-    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'create:pressing';

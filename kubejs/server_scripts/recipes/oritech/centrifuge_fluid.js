@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
             fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 100 },
             time: 5,
-            id: `${id_prefix}polymer_resin_from_naphtha`
+            id: `${id_prefix}polymer_resin`
         },
         {
             results: [],
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'oritech:polymer_resin' }],
             fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
             time: 10,
-            id: `${id_prefix}plastic_from_polymer_resin`
+            id: `${id_prefix}plastic`
         },
         {
             results: [{ id: 'theurgy:crystallized_water', count: 2 }],

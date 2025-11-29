@@ -39,11 +39,19 @@
     "rei_categories.modern_industrialization.steam_kiln": "Steam Kiln",
     "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln",
 
+    "block.modern_industrialization.steam_alembic": "Steam Alembic",
+    "block.modern_industrialization.electric_alembic": "Electric Alembic",
+    "rei_categories.modern_industrialization.steam_alembic": "Steam Alembic",
+    "rei_categories.modern_industrialization.electric_alembic": "Electric Alembic",
+
     "item.modern_industrialization.iridium_large_plate": "Iridium Large Plate",
 
     "item.modern_industrialization.andesite_alloy_rod": "Andesite Alloy Rod",
     "item.modern_industrialization.andesite_alloy_plate": "Andesite Alloy Plate",
     "item.modern_industrialization.andesite_alloy_large_plate": "Andesite Alloy Large Plate",
+
+    "item.modern_industrialization.sky_large_plate": "Sky Large Plate",
+    "item.modern_industrialization.sky_plate": "Sky Plate",
 
     "block.modern_industrialization.bronze_tank": "Andesite Alloy Tank",
     "block.modern_industrialization.bronze_barrel": "Andesite Alloy Barrel",

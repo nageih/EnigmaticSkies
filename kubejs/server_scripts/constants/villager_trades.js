@@ -321,7 +321,7 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'actuallyadditions:lens', count: 8 },
+            result: { id: 'actuallyadditions:lens', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 2
         },

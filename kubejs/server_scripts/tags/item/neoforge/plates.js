@@ -1,7 +1,8 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
         plastic: ['pneumaticcraft:plastic', 'oritech:plastic_sheet', 'industrialforegoing:plastic'],
-        andesite_alloy: ['modern_industrialization:andesite_alloy_plate']
+        andesite_alloy: ['modern_industrialization:andesite_alloy_plate'],
+        sky: ['modern_industrialization:sky_plate']
     };
 
     Object.keys(additions).forEach((tag) => {

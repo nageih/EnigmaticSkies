@@ -52,6 +52,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}andesite_alloy_plate`
         },
         {
+            item_outputs: { item: 'modern_industrialization:sky_plate', amount: 1 },
+            item_inputs: { tag: 'c:ingots/sky', amount: 1 },
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}sky_plate`
+        },
+        {
             item_outputs: { item: 'create:cardboard', amount: 1 },
             item_inputs: { item: 'create:pulp', amount: 1 },
             duration: 2,
