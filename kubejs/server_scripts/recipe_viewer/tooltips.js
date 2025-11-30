@@ -97,8 +97,14 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Knocks Foes Back`).gold()]
         },
         {
-            items: ['naturesaura:aura_timer', 'malum:wavemaker'],
-            text: [Text.of(`Timer`).green()]
+            items: [
+                'naturesaura:aura_timer',
+                'malum:wavemaker',
+                'utilitarian:redstone_clock',
+                'ars_nouveau:timer_spell_turret',
+                'create:pulse_timer'
+            ],
+            text: [Text.of(`Redstone Timer`).green()]
         },
         {
             items: ['naturesaura:animal_container'],
