@@ -2448,9 +2448,9 @@
 		"&a    hatches."
 	]
 	quest.3B609B8A4DE93B53.quest_desc: [
-		"Why don't you retire that mesh and upgrade to a more automated means of obtaining Water?"
-		""
 		"Build a &7Melon&r farm and set your Alakarkinos to work making &7Melon Balls&r!"
+		""
+		"These will net you far more water than those clouds you've been using."
 	]
 	quest.3B77FB0A8CFAAB97.quest_desc: [
 		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."

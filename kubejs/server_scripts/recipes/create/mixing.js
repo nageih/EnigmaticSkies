@@ -58,6 +58,15 @@ ServerEvents.recipes((event) => {
             ],
             heat_requirement: 'none',
             id: `${id_prefix}paper_from_rice`
+        },
+        {
+            results: [{ id: 'actuallyadditions:rice_dough', count: 1 }],
+            ingredients: [
+                { item: 'farmersdelight:rice' },
+                { type: 'fluid_stack', fluid: 'minecraft:water', amount: 1000 }
+            ],
+            heat_requirement: 'none',
+            id: `${id_prefix}rice_dough`
         }
     ];
 

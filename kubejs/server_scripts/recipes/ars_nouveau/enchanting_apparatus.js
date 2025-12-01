@@ -457,16 +457,16 @@ ServerEvents.recipes((event) => {
             reagent: { tag: 'c:gems/ruby' },
             pedestalItems: [
                 { tag: 'c:ingots/hallowed_gold' },
-                { tag: 'c:essences/anima' },
+                { item: 'malum:strange_crystal' },
                 { item: 'arsdelight:activated_mendosteen_jam' },
-                { tag: 'c:essences/anima' },
+                { item: 'malum:strange_crystal' },
                 { tag: 'c:ingots/hallowed_gold' },
-                { tag: 'c:essences/anima' },
+                { item: 'malum:strange_crystal' },
                 { item: 'arsdelight:activated_mendosteen_jam' },
-                { tag: 'c:essences/anima' }
+                { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
-            sourceCost: 0,
+            sourceCost: 5000,
             id: `${id_prefix}life_shard`
         },
         {
@@ -569,14 +569,14 @@ ServerEvents.recipes((event) => {
             result: { id: 'minecraft:skeleton_skull', count: 1 },
             reagent: { item: 'create:cardboard_helmet' },
             pedestalItems: [
-                { tag: 'c:essences/anima' },
+                { item: 'malum:grim_talc' },
                 { item: 'malum:grim_talc' },
                 { item: 'malum:grim_talc' },
                 { item: 'malum:grim_talc' },
                 { item: 'malum:grim_talc' }
             ],
             keepNbtOfReagent: false,
-            sourceCost: 0,
+            sourceCost: 1000,
             id: `${id_prefix}skeleton_skull`
         },
         {
