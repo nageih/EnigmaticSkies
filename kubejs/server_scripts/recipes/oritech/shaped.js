@@ -274,6 +274,19 @@ ServerEvents.recipes((event) => {
                 D: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}laser_arm_block`
+        },
+        {
+            output: `oritech:treefeller_block`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:machine_plating_block',
+                B: 'create:mechanical_saw',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}treefeller_block`
         }
     ];
 

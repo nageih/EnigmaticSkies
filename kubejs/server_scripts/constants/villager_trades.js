@@ -28,7 +28,7 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            result: { id: 'modern_industrialization:forge_hammer', count: 1 },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 3
         },
@@ -439,8 +439,8 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_caelum:ritual_conjure_island_village', count: 1 },
-            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
@@ -452,6 +452,11 @@ const villagerTrades = {
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'ars_caelum:ritual_conjure_island_village', count: 1 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 4
         },
 
