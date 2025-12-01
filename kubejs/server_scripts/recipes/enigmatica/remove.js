@@ -217,6 +217,7 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
+        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
         { output: 'enderio:soul_binder' },
@@ -231,7 +232,6 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:sag_milling/coal' },
         { id: 'enderio:sag_milling/ender_pearl' },
         { id: /enderio:sag_milling\/raw_/ },
-        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
@@ -245,6 +245,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:ensouled_chassis' },
         { id: 'enderio:soul_chain' },
         { id: 'enderio:vacuum_chest' },
+        { id: 'enderio:weather_crystal' },
         { id: 'enderio:vat' },
         { id: 'enderio:stick' },
         { id: 'enderio:crafter' },
