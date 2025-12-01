@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:lumisene_bottle' }
             ],
             category: 'misc',
-            id: `ars_nouveau:apprentice_book_upgrade`
+            id: `${id_prefix}apprentice_book_upgrade`
         }
     ];
 
