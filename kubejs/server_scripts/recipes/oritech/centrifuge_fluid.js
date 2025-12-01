@@ -75,6 +75,13 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
             time: 10,
             id: `${id_prefix}meat`
+        },
+        {
+            results: [{ id: 'actuallyadditions:rice_dough', count: 1 }],
+            ingredients: [{ item: 'farmersdelight:rice' }],
+            fluidInput: { fluid: 'minecraft:water', amount: 1000 },
+            time: 5,
+            id: `${id_prefix}rice_dough`
         }
     ];
 
