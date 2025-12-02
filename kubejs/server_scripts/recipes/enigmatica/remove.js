@@ -85,8 +85,9 @@ ServerEvents.recipes((event) => {
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
         { type: 'ae2:charger' },
+        { output: 'ae2:vibration_chamber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
-        { id: 'ae2:network/blocks/controller' },
+        { id: /ae2:transform\/.*(quartz|fluix)/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
@@ -94,8 +95,9 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/cells/item_cell_housing' },
         { id: 'ae2:network/cells/fluid_cell_housing' },
         { id: 'ae2:network/parts/quartz_fiber_part' },
+        { id: 'ae2:network/blocks/controller' },
+        { id: 'ae2:network/blocks/interfaces_interface' },
         { id: 'ae2:misc/fluixpearl' },
-        { id: /ae2:transform\/.*(quartz|fluix)/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -350,6 +352,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:plant_gatherer' },
         { output: 'industrialforegoing:plant_sower' },
         { output: 'industrialforegoing:sewer' },
+        { output: 'industrialforegoing:dye_mixer' },
         { output: 'industrialforegoing:sewage_composter' },
         { output: 'industrialforegoing:animal_feeder' },
         { output: 'industrialforegoing:dissolution_chamber' },
@@ -370,6 +373,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:laser_drill' },
         { output: 'industrialforegoing:stasis_chamber' },
         { output: /industrialforegoing:.*_laser_lens/ },
+        { output: /industrialforegoing:.*_transporter_type/ },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: 'industrialforegoing:dissolution_chamber/pink_slime_ingot' },
@@ -614,6 +618,9 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:steam_blast_furnace' },
         { output: 'modern_industrialization:packer_block_template' },
         { output: 'modern_industrialization:forge_hammer' },
+        { output: 'modern_industrialization:small_heat_exchanger' },
+        { output: 'modern_industrialization:high_pressure_large_steam_boiler' },
+        { output: 'modern_industrialization:heat_exchanger' },
         { input: 'modern_industrialization:fire_clay_dust' },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
@@ -844,6 +851,7 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
         { type: 'pneumaticcraft:refinery' },
+        { type: 'pneumaticcraft:amadron' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: 'pneumaticcraft:crop_support' },
         { output: 'pneumaticcraft:compressed_iron_gear' },
@@ -914,7 +922,10 @@ ServerEvents.recipes((event) => {
         { output: 'replication:matter_tank' },
 
         // Simple Magnets
-        { id: 'simplemagnets:basicmagnet' },
+        { output: 'simplemagnets:basicmagnet' },
+        { output: 'simplemagnets:advancedmagnet' },
+        { output: 'simplemagnets:basic_demagnetization_coil' },
+        { output: 'simplemagnets:advanced_demagnetization_coil' },
 
         // Sophisticated Storage
         { id: 'sophisticatedstorage:magnet_upgrade' },

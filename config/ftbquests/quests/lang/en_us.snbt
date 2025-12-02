@@ -2068,6 +2068,11 @@
 		"&6    you’ve made rather than all Glyph "
 		"&6    knowledge."
 	]
+	quest.30FE41CF0C7F1270.quest_desc: [
+		"Need a fuel boost? "
+		""
+		"&7Primal Coal&r burns 16 times longer than a log and can be produced quite easily in the &7Calcination Oven&r."
+	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31903F40C2037EBD.quest_desc: [
 		"With a &7Trading Depot&r, you may begin to automate trades with &7Villagers&r. "

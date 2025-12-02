@@ -353,28 +353,35 @@ ServerEvents.recipes((event) => {
             replace_with: 'pneumaticcraft:upgrade_matrix'
         },
         {
-            filter: [
-                { mod: 'ae2' },
-                { mod: 'ae2importexportcard' },
-                { mod: 'merequester' },
-                { mod: 'appflux' },
-                { mod: 'advanced_ae' },
-                { mod: 'ae2netanalyser' }
-            ],
+            filter: [{ mod: 'ae2' }, { mod: 'ae2importexportcard' }, { mod: 'merequester' }, { mod: 'ae2netanalyser' }],
             to_replace: `#c:ingots/iron`,
             replace_with: `#c:ingots/compressed_iron`
         },
         {
-            filter: [
-                { mod: 'ae2' },
-                { mod: 'ae2importexportcard' },
-                { mod: 'merequester' },
-                { mod: 'appflux' },
-                { mod: 'advanced_ae' },
-                { mod: 'ae2netanalyser' }
-            ],
+            filter: [{ mod: 'ae2' }, { mod: 'ae2importexportcard' }, { mod: 'merequester' }, { mod: 'ae2netanalyser' }],
             to_replace: `#c:gems/certus_quartz`,
             replace_with: `ae2:charged_certus_quartz_crystal`
+        },
+        {
+            filter: [{ mod: 'ae2' }],
+            to_replace: `minecraft:piston`,
+            replace_with: `modern_industrialization:piston`
+        },
+        {
+            filter: [
+                { output: 'ae2:terminal' },
+                { output: 'merequester:requester_terminal' },
+                { output: 'ae2:network_tool' },
+                { output: 'ae2:storage_monitor' },
+                { output: 'ae2:pattern_access_terminal' }
+            ],
+            to_replace: `#ae2:illuminated_panel`,
+            replace_with: `ae2:semi_dark_monitor`
+        },
+        {
+            filter: [{ output: 'ae2:pattern_provider' }],
+            to_replace: `minecraft:crafting_table`,
+            replace_with: `modern_industrialization:robot_arm`
         },
         {
             filter: [{ output: /ae2:cell_component/ }],

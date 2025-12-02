@@ -23,8 +23,8 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'pneumaticcraft:plastic' },
                 { item: 'oritech:basic_battery' },
-                { tag: 'c:gems/fluxite' },
-                { tag: 'c:ingots/steel' }
+                { tag: 'c:gems/vibrant_crystal' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' }
             ],
             time: 10,
             id: `${id_prefix}advanced_battery`

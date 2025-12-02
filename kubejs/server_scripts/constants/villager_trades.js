@@ -674,18 +674,18 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ae2:blank_pattern', count: 1 },
+            result: { id: 'ae2:item_cell_housing', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
-            result: { id: 'ae2:item_cell_housing', count: 1 },
+            result: { id: 'ae2:fluid_cell_housing', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
-            result: { id: 'ae2:fluid_cell_housing', count: 1 },
+            result: { id: 'ae2:blank_pattern', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 4
         }

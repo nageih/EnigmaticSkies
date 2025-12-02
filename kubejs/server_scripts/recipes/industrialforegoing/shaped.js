@@ -46,10 +46,38 @@ ServerEvents.recipes((event) => {
                 E: 'oritech:flux_gate'
             },
             id: `${id_prefix}stasis_chamber`
+        },
+        {
+            output: '2x industrialforegoing:fluid_transporter_type',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: 'pneumaticcraft:compressed_stone_slab',
+                B: '#c:gems/palis'
+            },
+            id: `${id_prefix}fluid_transporter_type`
+        },
+        {
+            output: '2x industrialforegoing:item_transporter_type',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: 'pneumaticcraft:compressed_stone_slab',
+                B: '#c:gems/enori'
+            },
+            id: `${id_prefix}item_transporter_type`
+        },
+        {
+            output: '2x industrialforegoing:world_transporter_type',
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: 'pneumaticcraft:compressed_stone_slab',
+                B: '#c:gems/emeradic'
+            },
+            id: `${id_prefix}world_transporter_type`
         }
     ];
 
     const simple_machines = [
+        { id: 'dye_mixer', item: 'create:whisk' },
         { id: 'spores_recreator', item: 'farmersdelight:organic_compost' },
         { id: 'sewer', item: 'handcrafted:terracotta_wide_pot' },
         { id: 'animal_feeder', item: 'minecraft:golden_carrot' },

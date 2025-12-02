@@ -396,13 +396,23 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:conductive_coil'
             },
             id: `${id_prefix}electric_alembic`
+        },
+        {
+            output: 'modern_industrialization:small_heat_exchanger',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:advanced_pump',
+                B: 'pneumaticcraft:heat_sink',
+                C: 'modern_industrialization:stainless_steel_large_plate'
+            },
+            id: `${id_prefix}small_heat_exchanger`
         }
     ];
 
     const electrical_components = [
         { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
         { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
-        { material: 'energetic', tier: 'hv', casing: 'industrialforegoing:machine_frame_advanced' },
+        { material: 'energetic', tier: 'hv', casing: 'modern_industrialization:clean_stainless_steel_machine_casing' },
         { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
         { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }
     ];

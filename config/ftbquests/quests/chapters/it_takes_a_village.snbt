@@ -20,6 +20,15 @@
 				id: "theurgy:calcination_oven"
 			}
 			id: "540133B792547B21"
+			rewards: [{
+				count: 8
+				id: "52D69308B1B8BACD"
+				item: {
+					count: 1
+					id: "justdirethings:coal_t1"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2002A1386F565014"
@@ -820,6 +829,18 @@
 			}]
 			x: 2.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["540133B792547B21"]
+			id: "30FE41CF0C7F1270"
+			shape: "diamond"
+			tasks: [{
+				id: "1A13B1B4A1F4EFEB"
+				item: { count: 1, id: "justdirethings:coal_t1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 }
