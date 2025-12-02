@@ -384,6 +384,11 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:robot_arm`
         },
         {
+            filter: [{ output: 'ae2:molecular_assembler' }],
+            to_replace: `minecraft:crafting_table`,
+            replace_with: `ars_nouveau:wixie_charm`
+        },
+        {
             filter: [{ output: /ae2:cell_component/ }],
             to_replace: `#c:dusts/redstone`,
             replace_with: `#c:gems/mnemonic_fragment`
