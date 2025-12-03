@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:soulwoven_silk', count: 4 },
-            input: { tag: 'cold_sweat:goat_fur', count: 8 },
+            input: { item: 'cold_sweat:goat_fur', count: 8 },
             extraInputs: [{ item: 'ars_nouveau:magebloom_fiber', count: 4 }],
             spirits: [
                 { type: 'malum:aerial', count: 8 },
