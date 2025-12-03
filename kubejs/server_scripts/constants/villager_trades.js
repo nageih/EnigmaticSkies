@@ -668,22 +668,30 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'ae2:mysterious_cube', count: 1 },
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:quantum_circuit"},Progress:1.0d}]',
+                count: 1
+            },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 2
         },
 
         {
+            result: { id: 'ae2:mysterious_cube', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
+            level: 3
+        },
+        {
             result: { id: 'ae2:item_cell_housing', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 3
         },
+
         {
             result: { id: 'ae2:fluid_cell_housing', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 4
         },
-
         {
             result: { id: 'ae2:blank_pattern', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],

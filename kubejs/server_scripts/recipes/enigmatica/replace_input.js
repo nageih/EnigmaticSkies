@@ -385,8 +385,13 @@ ServerEvents.recipes((event) => {
         },
         {
             filter: [{ output: 'ae2:molecular_assembler' }],
-            to_replace: `minecraft:crafting_table`,
+            to_replace: `ae2:quartz_glass`,
             replace_with: `ars_nouveau:wixie_charm`
+        },
+        {
+            filter: [{ output: 'ae2:molecular_assembler' }],
+            to_replace: `minecraft:crafting_table`,
+            replace_with: `modern_industrialization:quantum_circuit`
         },
         {
             filter: [{ output: /ae2:cell_component/ }],

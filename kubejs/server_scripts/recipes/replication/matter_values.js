@@ -5,7 +5,10 @@ ServerEvents.recipes((event) => {
         // Raw Materials
         {
             input: { item: 'naturesaura:token_sorrow' },
-            matter: [{ type: 'replication:precious', amount: 32.0 }],
+            matter: [
+                { type: 'replication:precious', amount: 16.0 },
+                { type: 'replication:living', amount: 8.0 }
+            ],
             id: `${id_prefix}token_sorrow`
         },
         {
@@ -19,7 +22,10 @@ ServerEvents.recipes((event) => {
 
         {
             input: { item: 'naturesaura:token_joy' },
-            matter: [{ type: 'replication:ender', amount: 32.0 }],
+            matter: [
+                { type: 'replication:ender', amount: 16.0 },
+                { type: 'replication:quantum', amount: 8.0 }
+            ],
             id: `${id_prefix}token_joy`
         },
         {
@@ -33,7 +39,10 @@ ServerEvents.recipes((event) => {
 
         {
             input: { item: 'naturesaura:token_fear' },
-            matter: [{ type: 'replication:earth', amount: 32.0 }],
+            matter: [
+                { type: 'replication:earth', amount: 16.0 },
+                { type: 'replication:organic', amount: 8.0 }
+            ],
             id: `${id_prefix}token_fear`
         },
         {
@@ -47,7 +56,10 @@ ServerEvents.recipes((event) => {
 
         {
             input: { item: 'naturesaura:token_anger' },
-            matter: [{ type: 'replication:metallic', amount: 32.0 }],
+            matter: [
+                { type: 'replication:metallic', amount: 16.0 },
+                { type: 'replication:nether', amount: 8.0 }
+            ],
             id: `${id_prefix}token_anger`
         },
         {
@@ -64,51 +76,71 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'ae2:engineering_processor' },
             matter: [
-                { type: 'replication:ender', amount: 50 },
-                { type: 'replication:earth', amount: 100 },
-                { type: 'replication:precious', amount: 25 },
-                { type: 'replication:metallic', amount: 25 }
+                { type: 'replication:ender', amount: 128 },
+                { type: 'replication:earth', amount: 128 },
+                { type: 'replication:precious', amount: 128 },
+                { type: 'replication:metallic', amount: 128 },
+
+                { type: 'replication:organic', amount: 64 }
             ],
             id: `${id_prefix}engineering_processor`
         },
         {
             input: { item: 'ae2:logic_processor' },
             matter: [
-                { type: 'replication:ender', amount: 50 },
-                { type: 'replication:earth', amount: 25 },
-                { type: 'replication:precious', amount: 25 },
-                { type: 'replication:metallic', amount: 100 }
+                { type: 'replication:ender', amount: 128 },
+                { type: 'replication:earth', amount: 128 },
+                { type: 'replication:precious', amount: 128 },
+                { type: 'replication:metallic', amount: 128 },
+
+                { type: 'replication:nether', amount: 64 }
             ],
             id: `${id_prefix}logic_processor`
         },
         {
             input: { item: 'ae2:calculation_processor' },
             matter: [
-                { type: 'replication:ender', amount: 50 },
-                { type: 'replication:earth', amount: 25 },
-                { type: 'replication:precious', amount: 100 },
-                { type: 'replication:metallic', amount: 25 }
+                { type: 'replication:ender', amount: 128 },
+                { type: 'replication:earth', amount: 128 },
+                { type: 'replication:precious', amount: 128 },
+                { type: 'replication:metallic', amount: 128 },
+
+                { type: 'replication:living', amount: 64 }
             ],
             id: `${id_prefix}calculation_processor`
+        },
+        {
+            input: { item: 'modern_industrialization:quantum_circuit' },
+            matter: [
+                { type: 'replication:ender', amount: 128 },
+                { type: 'replication:earth', amount: 128 },
+                { type: 'replication:precious', amount: 128 },
+                { type: 'replication:metallic', amount: 128 },
+
+                { type: 'replication:quantum', amount: 64 }
+            ],
+            id: `${id_prefix}quantum_circuit`
         }
     ];
 
     /*
     Types
 
-    Tier 1:
-        ender       Token of Joy (Air)
-        earth       Token of Fear (Earth)
-        precious    Token of Sorrow (Water)
-        metallic    Token of Anger (Fire)
-    
-    Tier 2: 
+    Token of Joy/Euphoria (Air)
+        ender
+        quantum
 
-        quantum     Token of Euphoria (Air)
-        organic     Token of Terror (Earth) 
-        living      Token of Grief (Water)       
-        nether      Token of Rage (Fire)
+    Token of Fear/Terror (Earth)
+        earth
+        organic
 
+    Token of Sorrow/Grief (Water)
+        precious
+        living
+
+    Token of Anger/Rage (Fire)
+        metallic
+        nether
     */
 
     recipes.forEach((recipe) => {

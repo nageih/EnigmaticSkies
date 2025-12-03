@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'ABA', ' C '],
             key: {
                 A: 'oritech:enderic_lens',
-                B: 'industrialforegoing:machine_frame_advanced',
+                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
                 C: 'oritech:flux_gate'
             },
             id: `${id_prefix}laser_drill`
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'apothic_enchanting:warden_tendril',
                 B: 'arsdelight:mendosteen_jelly',
-                C: 'industrialforegoing:machine_frame_advanced',
+                C: 'modern_industrialization:clean_stainless_steel_machine_casing',
                 D: 'naturesaura:clock_hand',
                 E: 'oritech:flux_gate'
             },

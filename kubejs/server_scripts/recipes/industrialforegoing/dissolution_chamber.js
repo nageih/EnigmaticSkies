@@ -32,9 +32,9 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
             input: [
-                { item: 'enderio:z_logic_controller' },
+                { item: 'enderio:frank_n_zombie' },
                 { item: 'modern_industrialization:cooling_cell' },
-                { item: 'enderio:z_logic_controller' },
+                { item: 'enderio:frank_n_zombie' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'oritech:advanced_battery' },

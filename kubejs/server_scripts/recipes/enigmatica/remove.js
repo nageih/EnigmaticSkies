@@ -148,6 +148,8 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
 
+        { id: 'ars_controle:scryers_linkage' },
+
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
         { id: 'arsdelight:mendosteen_pie' },
@@ -276,6 +278,10 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/ender_crystal' },
         { id: 'enderio:soulbinding/sentient_ender' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
+
+        // Entangled
+        { id: 'entangled:block' },
+        { id: 'entangled:item' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -628,6 +634,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:small_heat_exchanger' },
         { output: 'modern_industrialization:high_pressure_large_steam_boiler' },
         { output: 'modern_industrialization:heat_exchanger' },
+        { output: 'modern_industrialization:quantum_circuit' },
         { input: 'modern_industrialization:fire_clay_dust' },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
