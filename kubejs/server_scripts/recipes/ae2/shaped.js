@@ -13,6 +13,72 @@ ServerEvents.recipes((event) => {
                 E: 'ae2:formation_core'
             },
             id: `${id_prefix}interface`
+        },
+        {
+            output: `ae2:quantum_ring`,
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#c:ingots/compressed_iron',
+                B: 'modern_industrialization:quantum_circuit',
+                C: '#ae2:smart_dense_cable',
+                D: 'ae2:energy_cell'
+            },
+            id: `${id_prefix}quantum_ring`
+        },
+        {
+            output: `ae2:cell_component_1k`,
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#c:gems/mnemonic_fragment',
+                B: 'ae2:logic_processor',
+                C: '#c:gems/charged_certus',
+                D: 'ae2:fluix_pearl'
+            },
+            id: `${id_prefix}cell_component_1k`
+        },
+        {
+            output: `ae2:cell_component_4k`,
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#c:gems/pulsating_crystal',
+                B: 'ae2:calculation_processor',
+                C: `ae2:cell_component_1k`,
+                D: 'ae2:fluix_pearl'
+            },
+            id: `${id_prefix}cell_component_4k`
+        },
+        {
+            output: `ae2:cell_component_16k`,
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#c:gems/pulsating_crystal',
+                B: 'ae2:calculation_processor',
+                C: `ae2:cell_component_4k`,
+                D: 'ae2:fluix_pearl'
+            },
+            id: `${id_prefix}cell_component_16k`
+        },
+        {
+            output: `ae2:cell_component_64k`,
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#c:gems/prescient_crystal',
+                B: 'ae2:calculation_processor',
+                C: `ae2:cell_component_16k`,
+                D: 'ae2:fluix_pearl'
+            },
+            id: `${id_prefix}cell_component_64k`
+        },
+        {
+            output: `ae2:cell_component_256k`,
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#c:gems/prescient_crystal',
+                B: 'modern_industrialization:quantum_circuit',
+                C: `ae2:cell_component_64k`,
+                D: 'ae2:fluix_pearl'
+            },
+            id: `${id_prefix}cell_component_256k`
         }
     ];
 

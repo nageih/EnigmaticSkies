@@ -85,9 +85,10 @@ ServerEvents.recipes((event) => {
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
         { type: 'ae2:charger' },
+        { type: 'ae2:transform' },
         { output: 'ae2:vibration_chamber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
-        { id: /ae2:transform\/.*(quartz|fluix)/ },
+        { id: /ae2:network\/cells\/item_storage_components_cell_.*_part/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
@@ -97,6 +98,7 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/parts/quartz_fiber_part' },
         { id: 'ae2:network/blocks/controller' },
         { id: 'ae2:network/blocks/interfaces_interface' },
+        { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
 
         // Aquaculture
@@ -935,6 +937,9 @@ ServerEvents.recipes((event) => {
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
 
+        // Shrink
+        { id: `shrink:shrinking_device` },
+
         // Simple Magnets
         { output: 'simplemagnets:basicmagnet' },
         { output: 'simplemagnets:advancedmagnet' },
@@ -955,9 +960,6 @@ ServerEvents.recipes((event) => {
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
         { id: 'supplementaries:dispenser_minecart' },
-
-        // Tempad
-        { id: 'tempad:time_steel_create' },
 
         // Theurgy
         { type: 'theurgy:digestion' },

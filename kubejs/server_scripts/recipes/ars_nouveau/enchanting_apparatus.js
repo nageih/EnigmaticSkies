@@ -466,7 +466,7 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
-            sourceCost: 5000,
+            sourceCost: 10000,
             id: `${id_prefix}life_shard`
         },
         {
