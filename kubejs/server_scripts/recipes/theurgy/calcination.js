@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'justdirethings:coal_t1', count: 1 },
             ingredient: { ingredient: { tag: 'minecraft:logs_that_burn' }, count: 1 },
-            time: 30,
+            time: 5,
             id: `${id_prefix}coal_t1`
         },
         {

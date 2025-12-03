@@ -13,7 +13,7 @@ noSolicitingChunkRangePlayer = 6
 # Range: > 1
 noSolicitingChunkRangeCarpet = 6
 #Enable Hoe planting module
-hoePlantingEnabled = true
+hoePlantingEnabled = false
 #Additional height for sugar cane and cactus when growing on snad
 # Default: 3
 # Range: > 0

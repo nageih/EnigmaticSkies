@@ -64,6 +64,7 @@ ServerEvents.recipes((event) => {
             ],
             inputs: [
                 { item: 'arsdelight:neutralized_frostaya_jam', count: 1 },
+                { tag: 'c:gems/empowered_void', count: 1 },
                 { item: 'malum:anomalous_design', count: 1 }
             ],
             pressure: 4.0,
@@ -76,6 +77,7 @@ ServerEvents.recipes((event) => {
             ],
             inputs: [
                 { item: 'arsdelight:neutralized_bombegrante_jam', count: 1 },
+                { tag: 'c:gems/empowered_void', count: 1 },
                 { item: 'malum:anomalous_design', count: 1 }
             ],
             pressure: 4.0,

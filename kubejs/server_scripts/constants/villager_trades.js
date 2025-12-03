@@ -28,7 +28,7 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            result: { id: 'modern_industrialization:forge_hammer', count: 1 },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 3
         },
@@ -439,8 +439,8 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'ars_caelum:ritual_conjure_island_village', count: 1 },
-            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
+            result: { id: 'ars_nouveau:arcane_core', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
@@ -452,6 +452,11 @@ const villagerTrades = {
         {
             result: { id: 'ars_additions:lost_codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'ars_caelum:ritual_conjure_island_village', count: 1 },
+            ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
             level: 4
         },
 
@@ -663,14 +668,17 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'ae2:mysterious_cube', count: 1 },
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"modern_industrialization:quantum_circuit"},Progress:1.0d}]',
+                count: 1
+            },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 2
         },
 
         {
-            result: { id: 'ae2:blank_pattern', count: 1 },
-            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            result: { id: 'ae2:mysterious_cube', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 3
         },
         {
@@ -681,6 +689,11 @@ const villagerTrades = {
 
         {
             result: { id: 'ae2:fluid_cell_housing', count: 1 },
+            ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'ae2:blank_pattern', count: 1 },
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 1, max: 1 } }],
             level: 4
         }

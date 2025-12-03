@@ -1906,7 +1906,7 @@
 		"&a    Genes on them."
 	]
 	quest.2C3B39CD6A7E044C.quest_desc: [
-		"Bronze tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
+		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
 		""
 		"Your &7Dilapidated Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
 	]
@@ -2067,6 +2067,11 @@
 		"&6    just means losing the spell combos"
 		"&6    you’ve made rather than all Glyph "
 		"&6    knowledge."
+	]
+	quest.30FE41CF0C7F1270.quest_desc: [
+		"Need a fuel boost? "
+		""
+		"&7Primal Coal&r burns 16 times longer than a log and can be produced quite easily in the &7Calcination Oven&r."
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31903F40C2037EBD.quest_desc: [
@@ -5797,8 +5802,6 @@
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
-		"As a wise old man once said, \"Power concedes nothing without a demand.\""
-		""
 		"That shiny Turbine is looking mighty useless right now with no machines to power. "
 		""
 		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to remedy that. \" ]"

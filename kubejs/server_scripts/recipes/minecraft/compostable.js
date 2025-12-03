@@ -16,7 +16,8 @@ const compostables = [
     { input: 'farmersdelight:cabbage', chance: 0.65 },
     { input: 'farmersdelight:onion', chance: 0.65 },
     { input: 'supplementaries:flax_seeds', chance: 0.35 },
-    { input: 'minecraft:poisonous_potato', chance: 0.65 }
+    { input: 'minecraft:poisonous_potato', chance: 0.65 },
+    { input: 'oritech:wither_crop_block', chance: 0.65 }
 ];
 
 ServerEvents.compostableRecipes((event) => {

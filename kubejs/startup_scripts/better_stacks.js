@@ -16,6 +16,8 @@ ItemEvents.modification((event) => {
                 'minecraft:cake',
                 'the_bumblezone:pollen_puff',
                 'oritech:heisenberg_compensator',
+                'modern_industrialization:small_heat_exchanger',
+                'aether:life_shard',
                 /occultism:book_of_binding_(empty|foliot|djinni|afrit|marid)/,
                 /enderio:.*_capacitor/,
 

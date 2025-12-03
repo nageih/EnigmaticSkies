@@ -33,6 +33,9 @@
             "/ae2:printed_.*_processor/",
             "/ae2:.*_budding_quartz/",
             "ae2:printed_silicon",
+            "ae2:silicon_press",
+            "ae2:meteorite_compass",
+            "ae2:vibration_chamber",
 
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
@@ -100,6 +103,7 @@
             "modern_industrialization:electric_packer",
             "modern_industrialization:electric_unpacker",
             "modern_industrialization:centrifuge",
+            "modern_industrialization:hv_steam_turbine",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
@@ -171,7 +175,8 @@
 
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
-            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]"
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"modern_industrialization:quantum_circuit\"},Progress:1.0d}]"
         ]
     },
     "fluids": {

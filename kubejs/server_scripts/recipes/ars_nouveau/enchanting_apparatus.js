@@ -453,7 +453,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}enchanted_berry`
         },
         {
-            result: { id: 'aether:life_shard', count: 1 },
+            result: { id: 'aether:life_shard', count: 4 },
             reagent: { tag: 'c:gems/ruby' },
             pedestalItems: [
                 { tag: 'c:ingots/hallowed_gold' },
@@ -466,7 +466,7 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:strange_crystal' }
             ],
             keepNbtOfReagent: false,
-            sourceCost: 5000,
+            sourceCost: 10000,
             id: `${id_prefix}life_shard`
         },
         {
@@ -639,6 +639,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}ender_casing`
+        },
+        {
+            result: { id: 'ars_controle:scryers_linkage', count: 1 },
+            reagent: { item: 'ars_nouveau:scryers_crystal' },
+            pedestalItems: [
+                { tag: 'c:ender_pearls' },
+                { tag: 'c:ender_pearls' },
+                { tag: 'c:ender_pearls' },
+                { tag: 'c:ender_pearls' },
+                { tag: 'c:plates/obsidian' },
+                { tag: 'c:plates/obsidian' },
+                { tag: 'c:plates/obsidian' },
+                { tag: 'c:plates/obsidian' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}scryers_linkage`
         }
     ];
 

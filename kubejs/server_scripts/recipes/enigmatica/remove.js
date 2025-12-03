@@ -85,8 +85,10 @@ ServerEvents.recipes((event) => {
         // Applied Energistics and Addons
         { type: 'ae2:inscriber' },
         { type: 'ae2:charger' },
+        { type: 'ae2:transform' },
+        { output: 'ae2:vibration_chamber' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
-        { id: 'ae2:network/blocks/controller' },
+        { id: /ae2:network\/cells\/item_storage_components_cell_.*_part/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
@@ -94,8 +96,10 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/cells/item_cell_housing' },
         { id: 'ae2:network/cells/fluid_cell_housing' },
         { id: 'ae2:network/parts/quartz_fiber_part' },
+        { id: 'ae2:network/blocks/controller' },
+        { id: 'ae2:network/blocks/interfaces_interface' },
+        { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
-        { id: /ae2:transform\/.*(quartz|fluix)/ },
 
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
@@ -146,6 +150,8 @@ ServerEvents.recipes((event) => {
         { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
         { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
 
+        { id: 'ars_controle:scryers_linkage' },
+
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
         { id: 'arsdelight:mendosteen_pie' },
@@ -170,6 +176,13 @@ ServerEvents.recipes((event) => {
         { id: 'starbunclemania:star_miner' },
         { id: 'starbunclemania:star_build' },
         { id: 'starbunclemania:star_battery' },
+
+        // Building Gadgets
+        { output: 'buildinggadgets2:gadget_building' },
+        { output: 'buildinggadgets2:gadget_exchanging' },
+        { output: 'buildinggadgets2:gadget_copy_paste' },
+        { output: 'buildinggadgets2:gadget_cut_paste' },
+        { output: 'buildinggadgets2:gadget_destruction' },
 
         // Cold Sweat
         { output: `cold_sweat:hearth` },
@@ -217,6 +230,7 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
+        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
         { output: 'enderio:soul_binder' },
@@ -231,7 +245,6 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:sag_milling/coal' },
         { id: 'enderio:sag_milling/ender_pearl' },
         { id: /enderio:sag_milling\/raw_/ },
-        { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { id: /enderio:alloy_smelting\/(redstone|pulsating|conductive)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(copper|energetic|vibrant)_alloy_ingot/ },
         { id: /enderio:alloy_smelting\/(soularium|end_steel)_ingot/ },
@@ -245,6 +258,7 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:ensouled_chassis' },
         { id: 'enderio:soul_chain' },
         { id: 'enderio:vacuum_chest' },
+        { id: 'enderio:weather_crystal' },
         { id: 'enderio:vat' },
         { id: 'enderio:stick' },
         { id: 'enderio:crafter' },
@@ -266,6 +280,10 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/ender_crystal' },
         { id: 'enderio:soulbinding/sentient_ender' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
+
+        // Entangled
+        { id: 'entangled:block' },
+        { id: 'entangled:item' },
 
         // Enigmatic Unity
         { mod: 'enigmaticunity' },
@@ -349,6 +367,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:plant_gatherer' },
         { output: 'industrialforegoing:plant_sower' },
         { output: 'industrialforegoing:sewer' },
+        { output: 'industrialforegoing:dye_mixer' },
         { output: 'industrialforegoing:sewage_composter' },
         { output: 'industrialforegoing:animal_feeder' },
         { output: 'industrialforegoing:dissolution_chamber' },
@@ -369,6 +388,7 @@ ServerEvents.recipes((event) => {
         { output: 'industrialforegoing:laser_drill' },
         { output: 'industrialforegoing:stasis_chamber' },
         { output: /industrialforegoing:.*_laser_lens/ },
+        { output: /industrialforegoing:.*_transporter_type/ },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
         { id: 'industrialforegoing:dissolution_chamber/pink_slime_ingot' },
@@ -612,6 +632,11 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:fire_clay_dust' },
         { output: 'modern_industrialization:steam_blast_furnace' },
         { output: 'modern_industrialization:packer_block_template' },
+        { output: 'modern_industrialization:forge_hammer' },
+        { output: 'modern_industrialization:small_heat_exchanger' },
+        { output: 'modern_industrialization:high_pressure_large_steam_boiler' },
+        { output: 'modern_industrialization:heat_exchanger' },
+        { output: 'modern_industrialization:quantum_circuit' },
         { input: 'modern_industrialization:fire_clay_dust' },
         { input: 'modern_industrialization:stainless_steel_hot_ingot' },
         { id: 'modern_industrialization:petrochem/distillation/crude_oil_full' },
@@ -752,6 +777,7 @@ ServerEvents.recipes((event) => {
         { output: 'oritech:machine_yield_addon' },
         { output: 'oritech:machine_capacitor_addon' },
         { output: 'oritech:machine_processing_addon' },
+        { output: 'oritech:treefeller_block' },
         { output: 'oritech:jetpack' },
         { output: /oritech:reactor_/ },
         { output: /oritech:.*(energy|item|fluid)_pipe/ },
@@ -841,6 +867,7 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:explosion_crafting' },
         { type: 'pneumaticcraft:fuel_quality' },
         { type: 'pneumaticcraft:refinery' },
+        { type: 'pneumaticcraft:amadron' },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: 'pneumaticcraft:crop_support' },
         { output: 'pneumaticcraft:compressed_iron_gear' },
@@ -910,8 +937,14 @@ ServerEvents.recipes((event) => {
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
 
+        // Shrink
+        { id: `shrink:shrinking_device` },
+
         // Simple Magnets
-        { id: 'simplemagnets:basicmagnet' },
+        { output: 'simplemagnets:basicmagnet' },
+        { output: 'simplemagnets:advancedmagnet' },
+        { output: 'simplemagnets:basic_demagnetization_coil' },
+        { output: 'simplemagnets:advanced_demagnetization_coil' },
 
         // Sophisticated Storage
         { id: 'sophisticatedstorage:magnet_upgrade' },
@@ -927,9 +960,6 @@ ServerEvents.recipes((event) => {
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
         { id: 'supplementaries:dispenser_minecart' },
-
-        // Tempad
-        { id: 'tempad:time_steel_create' },
 
         // Theurgy
         { type: 'theurgy:digestion' },

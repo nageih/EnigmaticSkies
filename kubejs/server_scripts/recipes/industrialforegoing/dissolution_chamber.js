@@ -5,11 +5,11 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'ae2:fluix_crystal', count: 2 },
             input: [
-                { item: 'enderio:pulsating_powder' },
+                { tag: 'c:gems/pulsating_crystal' },
                 { tag: 'c:gems/charged_certus' },
                 { item: 'arsdelight:activated_bastion_jam' }
             ],
-            inputFluid: { fluid: `theurgy:sal_ammoniac`, amount: 100 },
+            inputFluid: { fluid: `sauce:source_fluid`, amount: 1000 },
             processingTime: 5,
             id: `${id_prefix}fluix_crystal`
         },
@@ -32,9 +32,9 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
             input: [
-                { item: 'enderio:z_logic_controller' },
+                { item: 'enderio:frank_n_zombie' },
                 { item: 'modern_industrialization:cooling_cell' },
-                { item: 'enderio:z_logic_controller' },
+                { item: 'enderio:frank_n_zombie' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'oritech:advanced_battery' },

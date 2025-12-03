@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:soulwoven_silk', count: 4 },
-            input: { tag: 'cold_sweat:goat_fur', count: 8 },
+            input: { item: 'cold_sweat:goat_fur', count: 8 },
             extraInputs: [{ item: 'ars_nouveau:magebloom_fiber', count: 4 }],
             spirits: [
                 { type: 'malum:aerial', count: 8 },
@@ -237,21 +237,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}magic_lamp_empty`
         },
         {
-            result: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
-            input: { item: 'industrialforegoing:machine_frame_advanced', count: 1 },
-            extraInputs: [
-                { item: 'modern_industrialization:stainless_steel_rotor', count: 12 },
-                { item: 'modern_industrialization:advanced_pump', count: 6 },
-                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 }
-            ],
-            spirits: [
-                { type: 'malum:arcane', count: 64 },
-                { type: 'malum:aerial', count: 64 },
-                { type: 'malum:aqueous', count: 64 }
-            ],
-            id: `${id_prefix}large_steam_turbine`
-        },
-        {
             result: { id: 'ae2:controller', count: 1 },
             input: { item: 'ae2:mysterious_cube', count: 1 },
             extraInputs: [
@@ -337,6 +322,55 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:aqueous', count: 2 }
             ],
             id: `${id_prefix}alchemical_calx`
+        },
+
+        {
+            result: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
+            input: { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
+            extraInputs: [
+                { item: 'ae2:engineering_processor', count: 4 },
+                { item: 'modern_industrialization:stainless_steel_rotor', count: 8 },
+                { item: 'modern_industrialization:advanced_pump', count: 4 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}large_steam_turbine`
+        },
+        {
+            result: { id: 'modern_industrialization:high_pressure_large_steam_boiler', count: 1 },
+            input: { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
+            extraInputs: [
+                { item: 'ae2:engineering_processor', count: 4 },
+                { item: 'modern_industrialization:small_heat_exchanger', count: 4 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}high_pressure_large_steam_boiler`
+        },
+        {
+            result: { id: 'modern_industrialization:heat_exchanger', count: 1 },
+            input: { item: 'modern_industrialization:stainless_steel_machine_casing_pipe', count: 1 },
+            extraInputs: [
+                { item: 'ae2:engineering_processor', count: 4 },
+                { item: 'modern_industrialization:heatproof_machine_casing', count: 2 },
+                { item: 'modern_industrialization:small_heat_exchanger', count: 2 },
+                { item: 'modern_industrialization:frostproof_machine_casing', count: 2 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}heat_exchanger`
         }
     ];
 
