@@ -173,6 +173,13 @@ ServerEvents.recipes((event) => {
         { id: 'starbunclemania:star_build' },
         { id: 'starbunclemania:star_battery' },
 
+        // Building Gadgets
+        { output: 'buildinggadgets2:gadget_building' },
+        { output: 'buildinggadgets2:gadget_exchanging' },
+        { output: 'buildinggadgets2:gadget_copy_paste' },
+        { output: 'buildinggadgets2:gadget_cut_paste' },
+        { output: 'buildinggadgets2:gadget_destruction' },
+
         // Cold Sweat
         { output: `cold_sweat:hearth` },
         { id: 'cold_sweat:ice_packed_to_normal' },
