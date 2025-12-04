@@ -623,26 +623,44 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["75BD1F2EB47FB7CF"]
+			dependencies: [
+				"75BD1F2EB47FB7CF"
+				"1476B02AA2977ACB"
+			]
+			dependency_requirement: "one_completed"
 			id: "739A201F595E3EFE"
+			min_width: 300
 			tasks: [{
 				id: "02AB4930C4BB8CFE"
 				item: { count: 1, id: "modern_industrialization:heat_exchanger" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["739A201F595E3EFE"]
 			id: "6EB5108D30F5A94A"
+			min_width: 300
 			tasks: [{
 				id: "6FD7E610F5BA91D5"
 				item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EB5108D30F5A94A"]
+			id: "1CBC50FA40BFB54A"
+			min_width: 300
+			tasks: [{
+				id: "6C1BEADC0F34C2DE"
+				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
 		}
 	]
 }

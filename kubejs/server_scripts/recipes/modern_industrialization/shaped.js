@@ -275,7 +275,7 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/steel`,
                 B: `enderio:z_logic_controller`,
                 C: '#c:glass_blocks/colorless',
-                D: 'modern_industrialization:pump'
+                D: 'utilitarian:fluid_hopper'
             },
             id: `${id_prefix}configurable_tank`
         },
@@ -286,7 +286,7 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/steel`,
                 B: `enderio:z_logic_controller`,
                 C: '#c:chests/wooden',
-                D: 'modern_industrialization:large_motor'
+                D: 'minecraft:hopper'
             },
             id: `${id_prefix}configurable_chest`
         },
@@ -426,6 +426,46 @@ ServerEvents.recipes((event) => {
                 C: 'prettypipes:pipe'
             },
             id: `${id_prefix}item_pipe`
+        },
+        {
+            output: '2x modern_industrialization:basic_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:andesite_alloy_large_plate',
+                B: 'prettypipes:low_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}basic_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:advanced_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:basic_upgrade',
+                B: 'prettypipes:medium_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}advanced_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:turbo_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:stainless_steel_large_plate',
+                B: 'prettypipes:medium_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}turbo_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:highly_advanced_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:turbo_upgrade',
+                B: 'prettypipes:high_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}highly_advanced_upgrade`
         }
     ];
 

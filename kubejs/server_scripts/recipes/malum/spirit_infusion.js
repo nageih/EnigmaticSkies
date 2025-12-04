@@ -351,8 +351,8 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'malum:arcane', count: 64 },
-                { type: 'malum:aerial', count: 64 },
-                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:earthen', count: 64 },
+                { type: 'malum:infernal', count: 64 },
                 { type: 'malum:eldritch', count: 64 }
             ],
             id: `${id_prefix}high_pressure_advanced_large_steam_boiler`
@@ -368,7 +368,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'malum:arcane', count: 64 },
-                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:infernal', count: 64 },
                 { type: 'malum:aqueous', count: 64 },
                 { type: 'malum:eldritch', count: 64 }
             ],
