@@ -121,24 +121,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}replication_terminal`
         },
         {
-            results: [{ id: 'enderio:frank_n_zombie', count: 1 }],
-            inputs: [
-                { item: 'malum:fused_consciousness', count: 1 },
-                { item: 'enderio:z_logic_controller', count: 1 }
-            ],
-            pressure: 4.0,
-            id: `${id_prefix}frank_n_zombie`
-        },
-        {
-            results: [{ id: 'enderio:sentient_ender', count: 1 }],
-            inputs: [
-                { item: 'malum:fused_consciousness', count: 1 },
-                { item: 'enderio:ender_resonator', count: 1 }
-            ],
-            pressure: 4.0,
-            id: `${id_prefix}sentient_ender`
-        },
-        {
             results: [{ id: 'oritech:machine_core_2', count: 4 }],
             inputs: [
                 { item: 'industrialforegoing:machine_frame_simple', count: 1 },
@@ -162,8 +144,7 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:lubricant_bucket', count: 1 }],
             inputs: [
                 { item: 'justdirethings:polymorphic_fluid_bucket', count: 1 },
-                { tag: 'c:dusts/grains_of_infinity', count: 2 },
-                { tag: 'c:dusts/redstone', count: 2 },
+                { tag: 'c:dusts/grains_of_infinity', count: 4 },
                 { item: 'ars_nouveau:starbuncle_charm', count: 4 }
             ],
             pressure: 1.0,

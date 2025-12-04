@@ -502,21 +502,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}trident`
         },
         {
-            result: { id: 'minecraft:heavy_core', count: 1 },
-            reagent: { item: 'enderio:ensouled_chassis' },
-            pedestalItems: [
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' },
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' },
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' }
-            ],
-            keepNbtOfReagent: false,
-            sourceCost: 10000,
-            id: `${id_prefix}heavy_core`
-        },
-        {
             result: { id: 'ars_nouveau:relay_splitter', count: 1 },
             reagent: { item: 'ars_nouveau:relay' },
             pedestalItems: [

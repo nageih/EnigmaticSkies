@@ -424,6 +424,11 @@ ServerEvents.recipes((event) => {
             replace_with: `#c:gems/prescient_crystal`
         },
         {
+            filter: [{ output: 'ae2:energy_acceptor' }],
+            to_replace: `#c:ingots/copper`,
+            replace_with: `oritech:flux_gate`
+        },
+        {
             filter: {},
             to_replace: `modern_industrialization:basic_machine_hull`,
             replace_with: 'industrialforegoing:machine_frame_advanced'

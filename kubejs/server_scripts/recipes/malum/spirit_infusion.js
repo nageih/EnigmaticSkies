@@ -157,10 +157,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'enderio:prescient_crystal', count: 1 },
             input: { item: 'enderio:vibrant_crystal', count: 1 },
             extraInputs: [],
-            spirits: [
-                { type: 'malum:eldritch', count: 8 },
-                { type: 'malum:arcane', count: 8 }
-            ],
+            spirits: [{ type: 'malum:eldritch', count: 42 }],
             id: `${id_prefix}prescient_crystal`
         },
         {

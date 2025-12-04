@@ -17,24 +17,22 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:accelerator_controller`,
-            pattern: ['ABA', 'CDC'],
+            pattern: [' A ', 'BCB'],
             key: {
-                A: 'oritech:machine_frame_block',
-                B: 'enderio:sentient_ender',
-                C: 'oritech:metal_beam_block',
-                D: 'justdirethings:droppert1'
+                A: 'supplementaries:crystal_display',
+                B: 'oritech:metal_beam_block',
+                C: 'justdirethings:droppert1'
             },
             id: `${id_prefix}accelerator_controller`
         },
         {
             output: `oritech:accelerator_motor`,
-            pattern: ['A A', 'BCB', 'DED'],
+            pattern: ['BAB', 'CDC'],
             key: {
-                A: 'oritech:heisenberg_compensator',
-                B: 'modern_industrialization:superconductor_coil',
-                C: 'industrialforegoing:machine_frame_advanced',
-                D: 'oritech:metal_beam_block',
-                E: 'enigmatica:pulsating_mechanism'
+                A: '#c:gems/celestigem',
+                B: 'modern_industrialization:energetic_coil',
+                C: 'oritech:metal_beam_block',
+                D: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}accelerator_motor`
         },

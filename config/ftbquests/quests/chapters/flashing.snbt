@@ -76,8 +76,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -137,7 +137,7 @@
 		{
 			dependencies: [
 				"6728201CEC8220A3"
-				"768869D763EC54EB"
+				"454EB146FC67E3D5"
 			]
 			icon: {
 				components: {
@@ -159,8 +159,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -4.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0C32904CD01E4743"]
@@ -180,18 +180,21 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -3.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["60DC19DA26E8CCA4"]
+			dependencies: [
+				"60DC19DA26E8CCA4"
+				"5A5596ED63306534"
+			]
 			id: "3DE69E7B1359D76D"
 			tasks: [{
 				id: "2DEA097945501D0C"
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -242,7 +245,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["53D3092CA777D3B5"]
+			dependencies: [
+				"1BDCA4CF5ED739BA"
+				"768869D763EC54EB"
+			]
 			icon: {
 				id: "oritech:accelerator_motor"
 			}
@@ -269,41 +275,33 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["454EB146FC67E3D5"]
+			dependencies: ["47A2DB9344C8CE26"]
 			id: "274C351C4A8F794F"
 			tasks: [{
 				id: "4A9AB408F75FC6AD"
 				item: { count: 1, id: "oritech:overcharged_crystal" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["2960228C632FA877"]
+			dependencies: [
+				"454EB146FC67E3D5"
+				"41F0CA5ACE335062"
+			]
 			id: "2FE972CEA95E5FC0"
 			tasks: [{
 				id: "783CD6DBAFB42ED0"
 				item: { count: 1, id: "oritech:enderic_compound" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["274C351C4A8F794F"]
-			id: "5060A760B370E71F"
-			tasks: [{
-				id: "4B56C311C690BBCD"
-				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2FE972CEA95E5FC0"]
@@ -328,15 +326,15 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5A5596ED63306534"]
+			dependencies: ["398AE848C969FCEF"]
 			id: "521DE7879A4B6F03"
 			tasks: [{
 				id: "2A9581A6E07AAF32"
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -376,8 +374,8 @@
 				item: { count: 1, id: "modern_industrialization:cooling_cell" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -390,8 +388,8 @@
 				item: { count: 1, id: "modern_industrialization:superconductor_cable" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 		}
 	]
 }

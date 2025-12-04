@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
-                item: { tag: 'c:dusts/redstone' }
+                item: { tag: 'c:dusts/grains_of_infinity' }
             },
             temperature: { min: CtoK(100) },
             id: `${id_prefix}lubricant`
