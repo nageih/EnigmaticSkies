@@ -5183,6 +5183,11 @@
 		"&a🛈 Tip: Harvest Rituals can be an easy "
 		"&a    way to farm these fruit!"
 	]
+	quest.6EB5108D30F5A94A.quest_desc: [
+		"Notes:"
+		""
+		"Each Boiler produces a max of 1024 mb of HP Steam per tick, meaning one Heat Exchanger can support 2 boilers."
+	]
 	quest.6EB6E8DEEBB32911.quest_desc: [
 		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."
 		""
@@ -5384,6 +5389,7 @@
 	]
 	quest.7327D905FE8B38FC.title: "Pretty Pipes"
 	quest.73430E6390B7D125.title: "Sevira's Permanent Confinement"
+	quest.739A201F595E3EFE.quest_desc: ["1 heat exchanger with upgrades (max useful = 592 or 8 turbo) can support 2048 mb per tick of HP Steam."]
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""

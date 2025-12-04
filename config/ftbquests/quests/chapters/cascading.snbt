@@ -622,5 +622,27 @@
 			x: 2.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["75BD1F2EB47FB7CF"]
+			id: "739A201F595E3EFE"
+			tasks: [{
+				id: "02AB4930C4BB8CFE"
+				item: { count: 1, id: "modern_industrialization:heat_exchanger" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["739A201F595E3EFE"]
+			id: "6EB5108D30F5A94A"
+			tasks: [{
+				id: "6FD7E610F5BA91D5"
+				item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
 	]
 }

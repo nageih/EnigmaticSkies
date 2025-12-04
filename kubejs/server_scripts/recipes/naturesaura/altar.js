@@ -116,6 +116,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}sugar_cane`
         },
         {
+            output: { id: 'minecraft:cocoa_beans' },
+            input: { item: 'actuallyadditions:coffee_beans' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura_multiplier: 200,
+            time: 30,
+            id: `${id_prefix}cocoa_beans`
+        },
+        {
             output: { id: 'minecraft:ender_pearl' },
             input: { tag: 'c:dusts/grains_of_the_end' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },

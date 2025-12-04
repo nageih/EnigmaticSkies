@@ -406,6 +406,26 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:stainless_steel_large_plate'
             },
             id: `${id_prefix}small_heat_exchanger`
+        },
+        {
+            output: '3x modern_industrialization:fluid_pipe',
+            pattern: ['ABC', 'BCB', 'CBA'],
+            key: {
+                A: 'enderio:conduit_binder',
+                B: 'ae2:quartz_glass',
+                C: 'ppfluids:fluid_pipe'
+            },
+            id: `${id_prefix}fluid_pipe`
+        },
+        {
+            output: '3x modern_industrialization:item_pipe',
+            pattern: ['ABC', 'BCB', 'CBA'],
+            key: {
+                A: 'enderio:conduit_binder',
+                B: '#c:nuggets/pulsating_alloy',
+                C: 'prettypipes:pipe'
+            },
+            id: `${id_prefix}item_pipe`
         }
     ];
 
@@ -413,7 +433,7 @@ ServerEvents.recipes((event) => {
         { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
         { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
         { material: 'energetic', tier: 'hv', casing: 'modern_industrialization:clean_stainless_steel_machine_casing' },
-        { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
+        { material: 'vibrant', tier: 'ev', casing: 'modern_industrialization:quantum_machine_casing' },
         { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }
     ];
 

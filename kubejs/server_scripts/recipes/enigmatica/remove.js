@@ -635,6 +635,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:forge_hammer' },
         { output: 'modern_industrialization:small_heat_exchanger' },
         { output: 'modern_industrialization:high_pressure_large_steam_boiler' },
+        { output: 'modern_industrialization:high_pressure_advanced_large_steam_boiler' },
         { output: 'modern_industrialization:heat_exchanger' },
         { output: 'modern_industrialization:quantum_circuit' },
         { input: 'modern_industrialization:fire_clay_dust' },

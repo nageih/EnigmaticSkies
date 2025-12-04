@@ -3,6 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            output: '3x pneumaticcraft:advanced_pressure_tube',
+            pattern: ['ABC', 'BAB', 'CBA'],
+            key: {
+                A: 'pneumaticcraft:reinforced_pressure_tube',
+                B: 'malum:soulwoven_silk',
+                C: 'enderio:conduit_binder'
+            },
+            id: `${id_prefix}advanced_pressure_tube`
+        },
+        {
             output: 'pneumaticcraft:compressed_iron_gear',
             pattern: [' B ', 'BAB', ' B '],
             key: {
