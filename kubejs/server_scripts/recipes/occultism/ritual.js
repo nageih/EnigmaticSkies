@@ -85,6 +85,30 @@ ServerEvents.recipes((event) => {
             ritual_dummy: { id: `occultism:ritual_dummy/animate_whirlisprig`, count: 1 },
             duration: 30,
             id: `${id_prefix}animate_whirlisprig`
+        },
+        {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: 'ars_nouveau:drygmy',
+            result: {
+                id: 'ars_nouveau:drygmy_se',
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_drygmy"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_drygmy.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: Ingredient.of(
+                `geneticsresequenced:organic_matter[geneticsresequenced:entity_type="ars_nouveau:drygmy"]`
+            ).toJson(),
+            ingredients: [
+                { item: 'arsdelight:wilden_salad' },
+                { item: 'ars_nouveau:ritual_fertility' },
+                { item: 'naturesaura:calling_spirit' },
+                { item: 'ars_nouveau:ritual_fertility' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_drygmy`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_drygmy`
         }
     ];
 

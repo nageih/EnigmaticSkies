@@ -1,16 +1,4 @@
 ServerEvents.tags('entity_type', (event) => {
-    let additions = [
-        'minecraft:mooshroom',
-        'minecraft:cow',
-        'aether:flying_cow',
-        'minecraft:pig',
-        'aether:phyg',
-        'minecraft:sheep',
-        'aether:sheepuff',
-        'minecraft:rabbit',
-        'aether:aerbunny',
-        'minecraft:chicken',
-        'minecraft:goat'
-    ];
+    let additions = senescence;
     event.get('enigmatica:senescence').add(additions);
 });

@@ -37,7 +37,7 @@
             "ae2:meteorite_compass",
             "ae2:vibration_chamber",
 
-            "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation)/",
+            "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
             "ars_nouveau:ritual_wilden_summon",
@@ -78,6 +78,8 @@
             "justdirethings:raw_coal_t1_ore",
             "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
             "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
+            "justdirethings:polymorphic_wand",
+            "justdirethings:polymorphic_wand_v2",
 
             "/malum:.*(aluminum|cobalt|lead|nickel|osmium|silver|tin|uranium|zinc)_(impetus|node)/",
 
@@ -172,6 +174,8 @@
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"aether:cockatrice\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:whirlisprig\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:drygmy\"]",
 
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",

@@ -27,5 +27,6 @@ ServerEvents.tags('entity_type', (event) => {
             // 'evilcraft:netherfish',
             // 'evilcraft:poisonous_libelle',
             // 'evilcraft:werewolf'
-        ]);
+        ])
+        .remove(senescence);
 });

@@ -196,7 +196,7 @@ ServerEvents.recipes((event) => {
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:bee' }
                 },
                 { item: 'malum:runic_sapball' },
                 { item: 'justdirethings:polymorphic_catalyst' },
@@ -204,6 +204,31 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}whirlisprig`
+        },
+        {
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'ars_nouveau:drygmy' },
+                count: 8
+            },
+            inputs: [
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                },
+                { item: 'starbunclemania:drygmy_horns' },
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:goat' }
+                },
+                { item: 'cold_sweat:goat_fur' },
+                { item: 'justdirethings:polymorphic_catalyst' },
+                { item: 'cold_sweat:goat_fur' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}drygmy`
         }
     ];
 

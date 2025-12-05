@@ -223,6 +223,12 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_whirlisprig.tooltip')
         },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_drygmy'),
+            id: 'occultism:ritual_dummy/animate_drygmy',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_drygmy.tooltip')
+        },
 
         // Transmuted Creatures
         {
