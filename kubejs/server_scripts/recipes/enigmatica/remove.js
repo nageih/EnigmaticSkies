@@ -93,6 +93,7 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:materials/annihilationcore' },
         { id: 'ae2:materials/formationcore' },
         { id: 'ae2:network/crafting/patterns_blank' },
+        { id: 'ae2:network/crafting/molecular_assembler' },
         { id: 'ae2:network/cells/item_cell_housing' },
         { id: 'ae2:network/cells/fluid_cell_housing' },
         { id: 'ae2:network/parts/quartz_fiber_part' },
@@ -500,6 +501,7 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:polarizer' },
         { type: 'modern_industrialization:unpacker' },
         { type: 'modern_industrialization:packer' },
+        { type: 'modern_industrialization:pressurizer' },
         {
             type: 'modern_industrialization:mixer',
             output: /(kanthal|soldering_alloy|stainless_steel|superconductor|cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/

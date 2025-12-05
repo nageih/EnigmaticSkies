@@ -79,6 +79,18 @@ ServerEvents.recipes((event) => {
                 D: 'ae2:fluix_pearl'
             },
             id: `${id_prefix}cell_component_256k`
+        },
+        {
+            output: `ae2:molecular_assembler`,
+            pattern: ['ABA', 'CDE', 'ABA'],
+            key: {
+                A: '#c:ingots/compressed_iron',
+                B: 'ae2:quartz_glass',
+                C: `ae2:annihilation_core`,
+                D: 'ars_nouveau:wixie_charm',
+                E: 'ae2:formation_core'
+            },
+            id: `${id_prefix}molecular_assembler`
         }
     ];
 

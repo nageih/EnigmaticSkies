@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
                 '#create:pulpifiable',
                 '#create:pulpifiable',
                 '#create:pulpifiable',
-                '#c:buckets/water'
+                Ingredient.of(['#c:buckets/water', 'theurgy:crystallized_water'])
             ],
             id: `${id_prefix}pulp`
         }

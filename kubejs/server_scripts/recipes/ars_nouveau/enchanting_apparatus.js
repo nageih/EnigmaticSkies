@@ -579,17 +579,21 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}zombie_head`
         },
         {
-            result: { id: 'minecraft:elytra', count: 1 },
+            result: {
+                type: 'neoforge:components',
+                id: 'minecraft:elytra',
+                components: { unbreakable: {} },
+                count: 1
+            },
             reagent: { item: 'aether:gravitite_chestplate' },
             pedestalItems: [
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
+                { tag: 'c:essences/air' },
+                { tag: 'c:plates/andesite_alloy' },
                 { tag: 'c:feathers' },
                 { tag: 'c:feathers' },
                 { tag: 'c:feathers' },
-                { tag: 'c:essences/air' }
+                { tag: 'c:feathers' },
+                { tag: 'c:plates/andesite_alloy' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
