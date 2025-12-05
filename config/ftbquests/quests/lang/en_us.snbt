@@ -4288,7 +4288,7 @@
 	quest.5FE4FD410171ABFD.quest_desc: [
 		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
-		"Each one produces four times the power as compared to your current boilers"
+		"Each one produces four times the power as compared to its smaller counterpart."
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [

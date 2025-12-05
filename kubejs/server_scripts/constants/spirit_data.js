@@ -923,12 +923,7 @@ const spiritData = [
     },
     {
         registry_name: 'minecraft:warden',
-        spirits: [
-            { spirit: 'malum:eldritch', count: 6 },
-            { spirit: 'malum:wicked', count: 6 },
-            { spirit: 'malum:arcane', count: 6 },
-            { spirit: 'malum:earthen', count: 6 }
-        ]
+        spirits: [{ spirit: 'malum:eldritch', count: 6 }]
     },
     {
         registry_name: 'minecraft:witch',

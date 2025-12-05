@@ -74,6 +74,18 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'malum:fused_consciousness' }, { item: 'enderio:ender_resonator' }],
             time: 10000,
             id: `${id_prefix}sentient_ender`
+        },
+        {
+            results: [{ id: 'justdirethings:gooblock_tier4', count: 1 }],
+            ingredients: [{ item: 'justdirethings:gooblock_tier3' }, { item: 'apothic_enchanting:warden_tendril' }],
+            time: 1000,
+            id: `${id_prefix}gooblock_tier4`
+        },
+        {
+            results: [{ id: 'the_bumblezone:royal_jelly_bottle', count: 1 }],
+            ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'ars_nouveau:wilden_tribute' }],
+            time: 15000,
+            id: `${id_prefix}royal_jelly_bottle`
         }
     ];
 

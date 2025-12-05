@@ -236,13 +236,13 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'naturesaura:infused_stone' },
             pedestalItems: [
                 { tag: 'c:essences/earth' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:essences/air' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { item: 'malum:strange_crystal' }
+                { tag: 'c:gems/zanite' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

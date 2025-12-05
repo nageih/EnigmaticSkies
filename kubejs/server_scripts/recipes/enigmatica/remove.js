@@ -662,6 +662,7 @@ ServerEvents.recipes((event) => {
         { id: 'modern_industrialization:materials/mixer/gunpowder' },
         { id: 'modern_industrialization:materials/blast_furnace/raw_oil_to_oil' },
         { id: `modern_industrialization:materials/stainless_steel/blast_furnace/dust` },
+        { id: 'modern_industrialization:oil/mixer/diethyl_ether_diesel_boost' },
 
         { type: 'extended_industrialization:alloy_smelter' },
         { output: /extended_industrialization:.*_solar_panel/ },
