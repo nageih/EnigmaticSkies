@@ -128,6 +128,13 @@
     "ritual.enigmatica.ritual/animate_whirlisprig.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_whirlisprig.started": "Started transmuting Whirlisprig.",
 
+    "item.occultism.ritual_dummy.animate_drygmy": "§6Ritual: Transmute Drygmy",
+    "item.occultism.ritual_dummy.animate_drygmy.tooltip": "§5Transmute a Drygmy from raw materials.",
+    "ritual.enigmatica.ritual/animate_drygmy.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_drygmy.finished": "Successfully transmuted a Drygmy.",
+    "ritual.enigmatica.ritual/animate_drygmy.interrupted": "Transmutation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_drygmy.started": "Started transmuting Drygmy.",
+
     "item.occultism.ritual_dummy.transmute_wilden_stalker": "§6Ritual: Transmute Wilden Stalker",
     "item.occultism.ritual_dummy.transmute_wilden_stalker.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.conditions": "Not all requirements for this ritual are met.",

@@ -95,20 +95,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4F2E18DABA17E0AC"
-				"3753A3EB1909F923"
-			]
-			id: "016B7CA4A7FC58A1"
-			tasks: [{
-				id: "79CD23399878FC63"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["323D480E3C37579E"]
 			id: "3D6441ECF951BAD4"
 			min_width: 250
@@ -148,20 +134,6 @@
 			}]
 			x: 4.0d
 			y: 0.5d
-		}
-		{
-			dependencies: [
-				"60DC19DA26E8CCA4"
-				"1476B02AA2977ACB"
-			]
-			id: "75BD1F2EB47FB7CF"
-			tasks: [{
-				id: "0E481B6BCEB5CC82"
-				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["24095EE1A419152D"]
@@ -338,67 +310,6 @@
 			}]
 			x: 1.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["2BB91161DB6B6AF5"]
-			id: "1476B02AA2977ACB"
-			min_width: 250
-			tasks: [{
-				id: "648C3CABA9F6ECE9"
-				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["016B7CA4A7FC58A1"]
-			icon: {
-				id: "ars_nouveau:potion_diffuser"
-			}
-			id: "46F17885C957FD5C"
-			rewards: [
-				{
-					id: "18702459C0CC8913"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:fire_resistance"
-							}
-						}
-						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					id: "20389EFA7D343DE8"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "cold_sweat:ice_resistance"
-							}
-						}
-						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "12A643F7B4597C8C"
-					item: { count: 1, id: "ars_nouveau:potion_diffuser" }
-					type: "item"
-				}
-				{
-					id: "64696B7B29B83C9B"
-					item: { count: 1, id: "ars_nouveau:potion_jar" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]

@@ -275,7 +275,7 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/steel`,
                 B: `enderio:z_logic_controller`,
                 C: '#c:glass_blocks/colorless',
-                D: 'modern_industrialization:pump'
+                D: 'utilitarian:fluid_hopper'
             },
             id: `${id_prefix}configurable_tank`
         },
@@ -286,7 +286,7 @@ ServerEvents.recipes((event) => {
                 A: `#c:plates/steel`,
                 B: `enderio:z_logic_controller`,
                 C: '#c:chests/wooden',
-                D: 'modern_industrialization:large_motor'
+                D: 'minecraft:hopper'
             },
             id: `${id_prefix}configurable_chest`
         },
@@ -406,6 +406,66 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:stainless_steel_large_plate'
             },
             id: `${id_prefix}small_heat_exchanger`
+        },
+        {
+            output: '3x modern_industrialization:fluid_pipe',
+            pattern: ['ABC', 'BCB', 'CBA'],
+            key: {
+                A: 'enderio:conduit_binder',
+                B: 'ae2:quartz_glass',
+                C: 'ppfluids:fluid_pipe'
+            },
+            id: `${id_prefix}fluid_pipe`
+        },
+        {
+            output: '3x modern_industrialization:item_pipe',
+            pattern: ['ABC', 'BCB', 'CBA'],
+            key: {
+                A: 'enderio:conduit_binder',
+                B: '#c:nuggets/pulsating_alloy',
+                C: 'prettypipes:pipe'
+            },
+            id: `${id_prefix}item_pipe`
+        },
+        {
+            output: '2x modern_industrialization:basic_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:andesite_alloy_large_plate',
+                B: 'prettypipes:low_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}basic_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:advanced_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:basic_upgrade',
+                B: 'prettypipes:medium_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}advanced_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:turbo_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:stainless_steel_large_plate',
+                B: 'prettypipes:medium_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}turbo_upgrade`
+        },
+        {
+            output: '2x modern_industrialization:highly_advanced_upgrade',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:turbo_upgrade',
+                B: 'prettypipes:high_speed_module',
+                C: 'modern_industrialization:lubricant_bucket'
+            },
+            id: `${id_prefix}highly_advanced_upgrade`
         }
     ];
 
@@ -413,7 +473,7 @@ ServerEvents.recipes((event) => {
         { material: 'copper', tier: 'lv', casing: 'modern_industrialization:bronze_machine_casing' },
         { material: 'conductive', tier: 'mv', casing: 'modern_industrialization:steel_machine_casing' },
         { material: 'energetic', tier: 'hv', casing: 'modern_industrialization:clean_stainless_steel_machine_casing' },
-        { material: 'vibrant', tier: 'ev', casing: 'industrialforegoing:machine_frame_supreme' },
+        { material: 'vibrant', tier: 'ev', casing: 'modern_industrialization:quantum_machine_casing' },
         { material: 'superconductor', tier: 'superconductor', casing: 'industrialforegoing:machine_frame_supreme' }
     ];
 

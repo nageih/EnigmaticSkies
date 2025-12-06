@@ -9,8 +9,8 @@ ServerEvents.recipes((event) => {
                 A: '#c:gems/empowered_void',
                 B: 'malum:spirit_jar',
                 C: 'minecraft:echo_shard',
-                D: 'industrialforegoing:machine_frame_advanced',
-                E: 'enderio:ender_resonator'
+                D: 'modern_industrialization:steel_machine_casing',
+                E: '#c:gems/ender_crystal'
             },
             id: `${id_prefix}soul_laser_base`
         }

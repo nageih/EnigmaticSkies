@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}poutine`
         },
         {
-            output: '4x enigmatica:source_berry_roll_dough',
+            output: '6x enigmatica:source_berry_roll_dough',
             inputs: ['farmersdelight:wheat_dough', 'ars_nouveau:sourceberry_bush'],
             id: `${id_prefix}source_berry_roll_dough`
         },

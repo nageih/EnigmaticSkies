@@ -182,9 +182,9 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:doughs/wheat'
         },
         {
-            filter: [{ id: /modern_industrialization:.*item_pipe/ }],
-            to_replace: '#c:gears/steel',
-            replace_with: '#c:gears/copper'
+            filter: [{ output: /modern_industrialization:(item|fluid)_pipe/ }],
+            to_replace: 'minecraft:water_bucket',
+            replace_with: '#ae2:can_remove_color'
         },
         {
             filter: {},
@@ -255,6 +255,21 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: `modern_industrialization:annealed_copper_cable`,
             replace_with: `modern_industrialization:vibrant_cable`
+        },
+        {
+            filter: [{ output: /modern_industrialization:(bronze|steel|advanced|turbo)_fluid_.*_hatch/ }],
+            to_replace: /modern_industrialization:.*_tank/,
+            replace_with: `utilitarian:fluid_hopper`
+        },
+        {
+            filter: [{ output: /modern_industrialization:advanced_.*_hatch/ }],
+            to_replace: /modern_industrialization:.*_machine_hull/,
+            replace_with: 'modern_industrialization:clean_stainless_steel_machine_casing'
+        },
+        {
+            filter: [{ output: /modern_industrialization:turbo_.*_hatch/ }],
+            to_replace: /modern_industrialization:.*_machine_hull/,
+            replace_with: 'modern_industrialization:quantum_machine_casing'
         },
         {
             filter: {},
@@ -384,16 +399,6 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:robot_arm`
         },
         {
-            filter: [{ output: 'ae2:molecular_assembler' }],
-            to_replace: `ae2:quartz_glass`,
-            replace_with: `ars_nouveau:wixie_charm`
-        },
-        {
-            filter: [{ output: 'ae2:molecular_assembler' }],
-            to_replace: `minecraft:crafting_table`,
-            replace_with: `modern_industrialization:quantum_circuit`
-        },
-        {
             filter: [{ output: /ae2:cell_component/ }],
             to_replace: `#c:dusts/redstone`,
             replace_with: `#c:gems/mnemonic_fragment`
@@ -407,6 +412,11 @@ ServerEvents.recipes((event) => {
             filter: [{ output: /ae2:cell_component/ }],
             to_replace: `#c:dusts/sky_stone`,
             replace_with: `#c:gems/prescient_crystal`
+        },
+        {
+            filter: [{ output: 'ae2:energy_acceptor' }],
+            to_replace: `#c:ingots/copper`,
+            replace_with: `oritech:flux_gate`
         },
         {
             filter: {},

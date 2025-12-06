@@ -602,9 +602,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:evoker',
         spirits: [
-            { spirit: 'malum:eldritch', count: 2 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:arcane', count: 2 }
+            { spirit: 'malum:wicked', count: 8 },
+            { spirit: 'malum:aerial', count: 8 }
         ]
     },
     {
@@ -758,7 +757,10 @@ const spiritData = [
     },
     {
         registry_name: 'minecraft:pillager',
-        spirits: [{ spirit: 'malum:wicked', count: 2 }]
+        spirits: [
+            { spirit: 'malum:wicked', count: 8 },
+            { spirit: 'malum:earthen', count: 8 }
+        ]
     },
     {
         registry_name: 'minecraft:polar_bear',
@@ -912,7 +914,10 @@ const spiritData = [
     },
     {
         registry_name: 'minecraft:vindicator',
-        spirits: [{ spirit: 'malum:wicked', count: 4 }]
+        spirits: [
+            { spirit: 'malum:wicked', count: 8 },
+            { spirit: 'malum:infernal', count: 8 }
+        ]
     },
     {
         registry_name: 'minecraft:wandering_trader',
@@ -923,18 +928,13 @@ const spiritData = [
     },
     {
         registry_name: 'minecraft:warden',
-        spirits: [
-            { spirit: 'malum:eldritch', count: 6 },
-            { spirit: 'malum:wicked', count: 6 },
-            { spirit: 'malum:arcane', count: 6 },
-            { spirit: 'malum:earthen', count: 6 }
-        ]
+        spirits: [{ spirit: 'malum:eldritch', count: 6 }]
     },
     {
         registry_name: 'minecraft:witch',
         spirits: [
-            { spirit: 'malum:wicked', count: 2 },
-            { spirit: 'malum:arcane', count: 2 }
+            { spirit: 'malum:wicked', count: 8 },
+            { spirit: 'malum:aqueous', count: 8 }
         ]
     },
     {

@@ -46,14 +46,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `enderio:crafter`,
-            pattern: ['ABA', 'CDC', 'EFE'],
+            pattern: [' A ', 'BCB', 'DED'],
             key: {
-                A: 'modern_industrialization:robot_arm',
-                B: 'ars_nouveau:wixie_charm',
-                C: '#c:gears/copper',
-                D: 'modern_industrialization:bronze_machine_casing',
-                E: 'ars_technica:calibrated_precision_mechanism',
-                F: 'oritech:flux_gate'
+                A: 'ars_nouveau:wixie_charm',
+                B: '#c:gears/copper',
+                C: 'modern_industrialization:bronze_machine_casing',
+                D: 'ars_technica:calibrated_precision_mechanism',
+                E: 'oritech:flux_gate'
             },
             id: `${id_prefix}crafter`
         },

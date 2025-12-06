@@ -32,8 +32,8 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -43,8 +43,8 @@
 				item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -54,8 +54,8 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["319FD618D4608068"]
@@ -65,8 +65,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier2" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -87,47 +87,33 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"5E727F7B600E0E91"
-				"05F232C12FA99F92"
-			]
-			id: "07FFBD39930CE9F7"
-			tasks: [{
-				id: "7986D8EC49A44922"
-				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["09F0F09E20B4EAC7"]
+			dependencies: ["6849CF8933FC70F9"]
 			id: "2B759D4770C13739"
 			tasks: [{
 				id: "74B3D01F5E27F9F2"
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["09F0F09E20B4EAC7"]
+			dependencies: ["6849CF8933FC70F9"]
 			id: "699B01CFAEE29827"
 			tasks: [{
 				id: "0FBBEBF5CE61813D"
 				item: { count: 1, id: "oritech:cooler_block" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["09F0F09E20B4EAC7"]
+			dependencies: ["6849CF8933FC70F9"]
 			id: "5FC9979B966955DE"
 			tasks: [{
 				id: "23E25E62847B9FD8"
@@ -135,32 +121,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["07FFBD39930CE9F7"]
-			id: "09F0F09E20B4EAC7"
-			tasks: [{
-				id: "05FFA89B0470B6B0"
-				item: { count: 1, id: "oritech:machine_plating_block" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2B759D4770C13739"]
-			id: "226D25DA9ACF10D1"
-			tasks: [{
-				id: "6FBB86394CFC8C35"
-				item: { count: 1, id: "oritech:carbon_plating_block" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["226D25DA9ACF10D1"]
+			dependencies: ["5FC9979B966955DE"]
 			icon: {
 				id: "oritech:refinery_block"
 			}
@@ -177,8 +141,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 6.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -199,8 +163,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 5.0d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -210,8 +174,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -221,8 +185,8 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -232,8 +196,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2B759D4770C13739"]
@@ -243,8 +207,8 @@
 				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3C905ECF6E0A543E"]
@@ -269,8 +233,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 1.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1DB63D0AAD1F0E11"]
@@ -291,8 +255,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 0.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5F9A998072170415"]
@@ -323,8 +287,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["78626EE046E48EF3"]
@@ -335,8 +299,8 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -349,8 +313,8 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
@@ -360,8 +324,8 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["05F232C12FA99F92"]
@@ -371,8 +335,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6849CF8933FC70F9"]
@@ -390,8 +354,71 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F2E18DABA17E0AC"
+				"3753A3EB1909F923"
+			]
+			id: "016B7CA4A7FC58A1"
+			tasks: [{
+				id: "79CD23399878FC63"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["016B7CA4A7FC58A1"]
+			icon: {
+				id: "ars_nouveau:potion_diffuser"
+			}
+			id: "46F17885C957FD5C"
+			rewards: [
+				{
+					id: "18702459C0CC8913"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "20389EFA7D343DE8"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "cold_sweat:ice_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12A643F7B4597C8C"
+					item: { count: 1, id: "ars_nouveau:potion_diffuser" }
+					type: "item"
+				}
+				{
+					id: "64696B7B29B83C9B"
+					item: { count: 1, id: "ars_nouveau:potion_jar" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 }

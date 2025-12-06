@@ -157,10 +157,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'enderio:prescient_crystal', count: 1 },
             input: { item: 'enderio:vibrant_crystal', count: 1 },
             extraInputs: [],
-            spirits: [
-                { type: 'malum:eldritch', count: 8 },
-                { type: 'malum:arcane', count: 8 }
-            ],
+            spirits: [{ type: 'malum:eldritch', count: 42 }],
             id: `${id_prefix}prescient_crystal`
         },
         {
@@ -326,11 +323,12 @@ ServerEvents.recipes((event) => {
 
         {
             result: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
-            input: { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
+            input: { item: 'modern_industrialization:mv_steam_turbine', count: 4 },
             extraInputs: [
                 { item: 'ae2:engineering_processor', count: 4 },
                 { item: 'modern_industrialization:stainless_steel_rotor', count: 8 },
-                { item: 'modern_industrialization:advanced_pump', count: 4 }
+                { item: 'modern_industrialization:advanced_pump', count: 4 },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 }
             ],
             spirits: [
                 { type: 'malum:arcane', count: 64 },
@@ -341,19 +339,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}large_steam_turbine`
         },
         {
-            result: { id: 'modern_industrialization:high_pressure_large_steam_boiler', count: 1 },
-            input: { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
+            result: { id: 'modern_industrialization:high_pressure_advanced_large_steam_boiler', count: 1 },
+            input: { item: 'modern_industrialization:advanced_large_steam_boiler', count: 1 },
             extraInputs: [
                 { item: 'ae2:engineering_processor', count: 4 },
-                { item: 'modern_industrialization:small_heat_exchanger', count: 4 }
+                { item: 'modern_industrialization:small_heat_exchanger', count: 4 },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 }
             ],
             spirits: [
                 { type: 'malum:arcane', count: 64 },
-                { type: 'malum:aerial', count: 64 },
-                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:earthen', count: 64 },
+                { type: 'malum:infernal', count: 64 },
                 { type: 'malum:eldritch', count: 64 }
             ],
-            id: `${id_prefix}high_pressure_large_steam_boiler`
+            id: `${id_prefix}high_pressure_advanced_large_steam_boiler`
         },
         {
             result: { id: 'modern_industrialization:heat_exchanger', count: 1 },
@@ -366,7 +365,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'malum:arcane', count: 64 },
-                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:infernal', count: 64 },
                 { type: 'malum:aqueous', count: 64 },
                 { type: 'malum:eldritch', count: 64 }
             ],

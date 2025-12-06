@@ -32,7 +32,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 		}
 		{
@@ -44,7 +44,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19F8B29D38CA31B8"]
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["47A2DB9344C8CE26"]
@@ -76,8 +76,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -88,8 +88,8 @@
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["55D51F58CA3130AA"]
@@ -120,8 +120,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -3.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["503873180200D878"]
@@ -131,13 +131,13 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"6728201CEC8220A3"
-				"768869D763EC54EB"
+				"454EB146FC67E3D5"
 			]
 			icon: {
 				components: {
@@ -159,8 +159,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -4.0d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0C32904CD01E4743"]
@@ -180,33 +180,33 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["60DC19DA26E8CCA4"]
+			dependencies: [
+				"60DC19DA26E8CCA4"
+				"5A5596ED63306534"
+			]
 			id: "3DE69E7B1359D76D"
 			tasks: [{
 				id: "2DEA097945501D0C"
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3DE69E7B1359D76D"
-				"521DE7879A4B6F03"
-			]
+			dependencies: ["3DE69E7B1359D76D"]
 			id: "53D3092CA777D3B5"
 			tasks: [{
 				id: "2F50E74D6D74CC5F"
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -227,8 +227,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -5.0d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2960228C632FA877"]
@@ -238,11 +238,14 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["53D3092CA777D3B5"]
+			dependencies: [
+				"1BDCA4CF5ED739BA"
+				"768869D763EC54EB"
+			]
 			icon: {
 				id: "oritech:accelerator_motor"
 			}
@@ -269,41 +272,33 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["454EB146FC67E3D5"]
+			dependencies: ["4EA58751A74DABAA"]
 			id: "274C351C4A8F794F"
 			tasks: [{
 				id: "4A9AB408F75FC6AD"
 				item: { count: 1, id: "oritech:overcharged_crystal" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["2960228C632FA877"]
+			dependencies: [
+				"454EB146FC67E3D5"
+				"41F0CA5ACE335062"
+			]
 			id: "2FE972CEA95E5FC0"
 			tasks: [{
 				id: "783CD6DBAFB42ED0"
 				item: { count: 1, id: "oritech:enderic_compound" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["274C351C4A8F794F"]
-			id: "5060A760B370E71F"
-			tasks: [{
-				id: "4B56C311C690BBCD"
-				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2FE972CEA95E5FC0"]
@@ -314,7 +309,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4A8A8EBE444FB3FE"]
@@ -325,20 +320,21 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["5A5596ED63306534"]
+			dependencies: ["4EA58751A74DABAA"]
 			id: "521DE7879A4B6F03"
 			tasks: [{
 				id: "2A9581A6E07AAF32"
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["2960228C632FA877"]
 			icon: {
 				id: "industrialforegoingsouls:soul_laser_base"
 			}
@@ -365,33 +361,104 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["60DC19DA26E8CCA4"]
-			id: "56460487F3642888"
+			dependencies: ["6EB5108D30F5A94A"]
+			id: "1CBC50FA40BFB54A"
+			min_width: 300
 			tasks: [{
-				id: "3F49DC183A974B51"
-				item: { count: 1, id: "modern_industrialization:cooling_cell" }
+				id: "6C1BEADC0F34C2DE"
+				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
 				type: "item"
 			}]
 			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["739A201F595E3EFE"]
+			icon: {
+				id: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
+			}
+			id: "6EB5108D30F5A94A"
+			min_width: 300
+			tasks: [
+				{
+					id: "6FD7E610F5BA91D5"
+					item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					id: "561998A954F6820E"
+					item: { count: 1, id: "modern_industrialization:high_pressure_water_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["398AE848C969FCEF"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "modern_industrialization:heat_exchanger"
+			}
+			id: "739A201F595E3EFE"
+			min_width: 300
+			tasks: [
+				{
+					id: "02AB4930C4BB8CFE"
+					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
+					type: "item"
+				}
+				{
+					id: "0E5708C1045AB0B5"
+					item: { count: 1, id: "modern_industrialization:high_pressure_steam_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: [
-				"398AE848C969FCEF"
-				"56460487F3642888"
+				"2BB91161DB6B6AF5"
+				"47A2DB9344C8CE26"
 			]
-			id: "6C07458338B78EA4"
+			id: "1476B02AA2977ACB"
+			min_width: 250
 			tasks: [{
-				id: "7CFBE7CA7EF0A625"
-				item: { count: 1, id: "modern_industrialization:superconductor_cable" }
+				id: "648C3CABA9F6ECE9"
+				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53D3092CA777D3B5"]
+			id: "75BD1F2EB47FB7CF"
+			tasks: [{
+				id: "0E481B6BCEB5CC82"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A5596ED63306534"]
+			id: "4EA58751A74DABAA"
+			tasks: [{
+				id: "30E4EA5D9DB99AFD"
+				item: { count: 1, id: "enderio:vibrant_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 }

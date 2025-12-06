@@ -1227,6 +1227,21 @@
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
 	quest.1C9565D5C51B74CC.quest_desc: [""]
 	quest.1C9565D5C51B74CC.title: "Genetics"
+	quest.1CBC50FA40BFB54A.quest_desc: [
+		"The &7Large Steam Turbine&r operates on standard &7Steam&r, just as your previous power infrastructure. The &7Heat Exchanger&r is more than capable of keeping up with it. "
+		""
+		"It can also accept &7High Pressure Steam&r, but for reasons mentioned previously, this is &nnot recommended&r. "
+		""
+		"                         &n&6A Note on Ratios&r"
+		""
+		"Each &7Turbine&r can handle up to 16k EU/t of Steam for a final ratio of &7Two Boilers&r to &7One Heat Exchanger&r to &7One Large Turbine&r. "
+		""
+		"However, for the &7Turbine&r to reach this capacity it will require an &7EV Tier Energy Hatch&r and cabling. It may use lower tier Hatches, but be aware that these will limit throughput."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.1CEDA28FD4CB759E.quest_desc: [
 		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
 		""
@@ -4273,7 +4288,7 @@
 	quest.5FE4FD410171ABFD.quest_desc: [
 		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
-		"Each one produces four times the power as compared to your current boilers"
+		"Each one produces four times the power as compared to its smaller counterpart."
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
@@ -5183,6 +5198,19 @@
 		"&a🛈 Tip: Harvest Rituals can be an easy "
 		"&a    way to farm these fruit!"
 	]
+	quest.6EB5108D30F5A94A.quest_desc: [
+		"With a &7Heat Exchanger&r and &7High Pressure Water&r secured, we can start feeding it into a &7High Pressure Boiler&r to recycle it back into steam. "
+		""
+		"Early on, this process may stutter a bit due to the low volume of fluids; leave your &7TPP&r configured to generate more &7High Pressure Steam&r to fill the system over time. Things will smooth out soon enough."
+		""
+		"                         &n&6A Note on Ratios&r"
+		""
+		"Each &7Boiler&r produces a max of 8k EU/t worth of &7High Pressure Steam&r, meaning it will take two &7Boilers&r to max out a single &7Heat Exchanger&r."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.6EB6E8DEEBB32911.quest_desc: [
 		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."
 		""
@@ -5339,6 +5367,13 @@
 	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.71E753FE9B4E1707.title: "Mason"
+	quest.7234B1B299DE122D.quest_desc: [
+		"Finally, craft yourself a &7Drygmy Charm&r. These items may be Right-Clicked on &7Mossy Cobblestone&r to make a home for your new friend."
+		""
+		"The &7Drygmy&r will manage creatures in a large area, gently harvesting drops and depositing them in an inventory &nadjacent&r to its &7Henge&r."
+		""
+		"Source is required and will be taken from a nearby &7Source Jar&r."
+	]
 	quest.72591AAEA1E6DE38.quest_desc: [
 		"The Particle Accelerator has a few hidden interactions which can be quite interesting to play around with."
 		""
@@ -5384,6 +5419,27 @@
 	]
 	quest.7327D905FE8B38FC.title: "Pretty Pipes"
 	quest.73430E6390B7D125.title: "Sevira's Permanent Confinement"
+	quest.739A201F595E3EFE.quest_desc: [
+		"You always have the option of simply scaling out more Boilers as you need more power, but that gets cumbersome as power needs increase."
+		""
+		"Instead, consider an upgrade to a &7High Pressure Steam&r system. "
+		""
+		"To get started, you’ll need to produce some &7High Pressure Steam&r with a TPP. This is an energy intensive process and very slow, far too slow to run a Turbine. A Turbine would also consume the &7High Pressure Steam&r, leaving you with nothing in return."
+		""
+		"The &7Heat Exchanger&r solves this problem handily. When fed &7Water&r and &7High Pressure Steam&r, it will transfer the heat into the &7Water&r, generating regular &7Steam&r and &7High Pressure Water&r. "
+		""
+		"This &7High Pressure Water&r can then be heated back into &7High Pressure Steam&r in and &7Advanced High Pressure Boiler&r and recycled endlessly."
+		""
+		"                         &n&6A Note on Ratios&r"
+		""
+		"A single upgraded &7Heat Exchanger&r can handle &716k EU/t&r of &7High Pressure Steam&r."
+		""
+		"Max Efficiency: &n592&r"
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""
@@ -5543,6 +5599,15 @@
 		""
 		"&7Conjure Deepslate&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
+	]
+	quest.76EC73B59502E2A5.quest_desc: [
+		"A bit of slicing and splicing will get us what we need. Prepare the required items for the ritual and create your very own &7Drygmy&r. "
+		""
+		"To earn a &7Token&r of its trust, toss it a &7Wilden Horn&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.773105FB99015746.quest_desc: [
 		"The Result Pedestal is where our output will be generated. "

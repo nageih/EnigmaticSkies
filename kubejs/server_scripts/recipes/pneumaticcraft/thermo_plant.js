@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
-                item: { tag: 'c:dusts/redstone' }
+                item: { tag: 'c:dusts/grains_of_infinity' }
             },
             temperature: { min: CtoK(100) },
             id: `${id_prefix}lubricant`
@@ -272,6 +272,16 @@ ServerEvents.recipes((event) => {
             },
             temperature: { min: CtoK(1500) },
             id: `${id_prefix}breeze_rod`
+        },
+
+        {
+            outputs: { fluid_output: { id: 'modern_industrialization:high_pressure_steam', amount: 125 } },
+            inputs: { fluid: { fluid: 'modern_industrialization:steam', amount: 1000 } },
+            air_use_multiplier: 10.0,
+            temperature: { min: CtoK(1000) },
+            speed: 0.5,
+            pressure: 9.0,
+            id: `${id_prefix}high_pressure_steam`
         }
     ];
 

@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ fluid: 'modern_industrialization:liquid_air', amount: 1000 }],
             item_inputs: [
                 { tag: 'c:dusts/sky_stone', amount: 1 },
-                { tag: 'aether:gems/zanite', amount: 1 }
+                { tag: 'c:gems/weather_crystal', amount: 1 }
             ],
             duration: 20,
             eu: 64,
@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
             fluid_inputs: [{ tag: 'c:voidflame', amount: 250 }],
             item_inputs: [
                 { tag: 'c:ingots/stainless_steel', amount: 1 },
-                { tag: 'c:gems/enderic', amount: 4 }
+                { item: 'malum:paracausal_flame', amount: 1 }
             ],
             duration: 20,
             eu: 64,

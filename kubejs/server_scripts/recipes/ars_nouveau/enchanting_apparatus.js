@@ -236,13 +236,13 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'naturesaura:infused_stone' },
             pedestalItems: [
                 { tag: 'c:essences/earth' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:essences/air' },
-                { item: 'malum:strange_crystal' },
+                { tag: 'c:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { item: 'malum:strange_crystal' }
+                { tag: 'c:gems/zanite' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
@@ -502,21 +502,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}trident`
         },
         {
-            result: { id: 'minecraft:heavy_core', count: 1 },
-            reagent: { item: 'enderio:ensouled_chassis' },
-            pedestalItems: [
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' },
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' },
-                { tag: 'c:storage_blocks/compressed_iron' },
-                { tag: 'c:storage_blocks/neptunium' }
-            ],
-            keepNbtOfReagent: false,
-            sourceCost: 10000,
-            id: `${id_prefix}heavy_core`
-        },
-        {
             result: { id: 'ars_nouveau:relay_splitter', count: 1 },
             reagent: { item: 'ars_nouveau:relay' },
             pedestalItems: [
@@ -594,17 +579,21 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}zombie_head`
         },
         {
-            result: { id: 'minecraft:elytra', count: 1 },
+            result: {
+                type: 'neoforge:components',
+                id: 'minecraft:elytra',
+                components: { unbreakable: {} },
+                count: 1
+            },
             reagent: { item: 'aether:gravitite_chestplate' },
             pedestalItems: [
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
-                { tag: 'c:ingots/gold' },
+                { tag: 'c:essences/air' },
+                { tag: 'c:plates/andesite_alloy' },
                 { tag: 'c:feathers' },
                 { tag: 'c:feathers' },
                 { tag: 'c:feathers' },
-                { tag: 'c:essences/air' }
+                { tag: 'c:feathers' },
+                { tag: 'c:plates/andesite_alloy' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,
