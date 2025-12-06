@@ -275,18 +275,11 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "48CF8923A1279290"
-					item: { count: 1, id: "actuallyadditions:feeder" }
-					type: "item"
-				}
-				{
-					id: "61E3FA71A9FFA249"
-					item: { count: 1, id: "enigmatica:flying_cow_iou" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "61E3FA71A9FFA249"
+				item: { count: 1, id: "enigmatica:flying_cow_iou" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: -1.5d
 		}
@@ -365,7 +358,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["628A6A79EFA30990"]
+			dependencies: [
+				"628A6A79EFA30990"
+				"2F9C801DFAC1C0D9"
+			]
 			icon: {
 				id: "ars_nouveau:repository_controller"
 			}
