@@ -236,13 +236,13 @@ ServerEvents.recipes((event) => {
             reagent: { item: 'naturesaura:infused_stone' },
             pedestalItems: [
                 { tag: 'c:essences/earth' },
-                { tag: 'c:gems/zanite' },
+                { tag: 'aether:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { tag: 'c:gems/zanite' },
+                { tag: 'aether:gems/zanite' },
                 { tag: 'c:essences/air' },
-                { tag: 'c:gems/zanite' },
+                { tag: 'aether:gems/zanite' },
                 { tag: 'c:dusts/grains_of_the_end' },
-                { tag: 'c:gems/zanite' }
+                { tag: 'aether:gems/zanite' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 0,

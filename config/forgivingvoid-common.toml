@@ -21,7 +21,19 @@ dimensionAllowList = []
 #List of additional dimension ids to be deny-listed from Forgiving Void. Options triggerInOverworld etc. take priority. Ignored if dimensionAllowList is set.
 dimensionDenyList = []
 #List of entity ids to be allowed for Forgiving Void. On Forge this only supports living entities.
-entityAllowList = ["minecraft:player"]
+entityAllowList = [
+    "minecraft:player", 
+    "minecraft:villager", 
+    "minecraft:chicken",
+    "minecraft:bee",
+    "aether:flying_cow", 
+    "aether:phyg", 
+    "aether:sheepuff", 
+    "aether:aerbunny",
+    "aether:zephyr", 
+    "aether:moa",
+    "aether:cockatrice"    
+    ]
 #Set to ABSOLUTE for absolute fall damage in half hearts, RELATIVE_CURRENT for a percentage of their current health, or RELATIVE_MAX for a percentage of their max health.
 #Allowed Values: ABSOLUTE, RELATIVE_CURRENT, RELATIVE_MAX
 damageOnFallMode = "ABSOLUTE"

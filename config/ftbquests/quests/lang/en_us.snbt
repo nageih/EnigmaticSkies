@@ -677,7 +677,6 @@
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
-	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.123BB918DF6E3936.quest_desc: [
 		"Looking for a more traditional set of pipes? These pipes from Oritech will do the job. "
 		""
@@ -2868,11 +2867,6 @@
 		"They need power, of course, but still accept enchants making them a great early alternative to an Axe, Shovel, and Pickaxe. "
 	]
 	quest.3FF8D40CD4CB33BB.title: "Power Tools"
-	quest.4068ABB6B3C24FEC.quest_desc: [
-		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
-		""
-		"They have a relatively short range but can be chained quite effectively!"
-	]
 	quest.407079BCE93817AC.quest_desc: [
 		"The Queen’s Desire is a series of repeatable Advancements used to obtain special boons from the Queen Bee. "
 		""

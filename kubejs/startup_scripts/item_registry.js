@@ -217,17 +217,30 @@ StartupEvents.registry('item', (event) => {
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.animate_flashing_weald_walker.tooltip')
         },
+
         {
-            name: Text.translate('item.occultism.ritual_dummy.animate_whirlisprig'),
-            id: 'occultism:ritual_dummy/animate_whirlisprig',
+            name: Text.translate('item.occultism.ritual_dummy.animate_skeleton'),
+            id: 'occultism:ritual_dummy/animate_skeleton',
             type: 'summon',
-            tooltip: Text.translate('item.occultism.ritual_dummy.animate_whirlisprig.tooltip')
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_skeleton.tooltip')
         },
         {
-            name: Text.translate('item.occultism.ritual_dummy.animate_drygmy'),
-            id: 'occultism:ritual_dummy/animate_drygmy',
+            name: Text.translate('item.occultism.ritual_dummy.animate_stray'),
+            id: 'occultism:ritual_dummy/animate_stray',
             type: 'summon',
-            tooltip: Text.translate('item.occultism.ritual_dummy.animate_drygmy.tooltip')
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_stray.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_bogged'),
+            id: 'occultism:ritual_dummy/animate_bogged',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_bogged.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.animate_phantom'),
+            id: 'occultism:ritual_dummy/animate_phantom',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.animate_phantom.tooltip')
         },
 
         // Transmuted Creatures
@@ -266,6 +279,18 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/transmute_cockatrice',
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.transmute_cockatrice.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_whirlisprig'),
+            id: 'occultism:ritual_dummy/transmute_whirlisprig',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_whirlisprig.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_drygmy'),
+            id: 'occultism:ritual_dummy/transmute_drygmy',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_drygmy.tooltip')
         }
     ];
 

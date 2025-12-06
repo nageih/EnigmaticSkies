@@ -456,6 +456,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:skeleton_skull_from_grim_talc' },
         { output: 'malum:refined_soulstone' },
         { output: 'malum:mimicry_relay' },
+        { output: 'malum:spirit_jar' },
         { id: /malum:spirit_infusion\/.*_spirited_glass/ },
         { id: /malum:spirit_infusion\/.*_impetus/ },
         { id: /malum:spirit_crucible\/node_focusing/ },
@@ -688,6 +689,12 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:bronze_composter' },
         { output: 'extended_industrialization:bronze_bending_machine' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
+
+        // LaserIO
+        { output: 'laserio:laser_connector' },
+        { output: 'laserio:logic_chip_raw' },
+        { output: 'laserio:logic_chip' },
+        { output: 'laserio:card_energy' },
 
         // Modular Routers
         { id: 'modularrouters:vacuum_module' },

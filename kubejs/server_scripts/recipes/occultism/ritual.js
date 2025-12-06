@@ -68,8 +68,8 @@ ServerEvents.recipes((event) => {
             result: {
                 id: 'ars_nouveau:whirlisprig_se',
                 components: {
-                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_whirlisprig"}`,
-                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_whirlisprig.tooltip"}`]
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.transmute_whirlisprig"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.transmute_whirlisprig.tooltip"}`]
                 },
                 count: 1
             },
@@ -82,9 +82,9 @@ ServerEvents.recipes((event) => {
                 { item: 'naturesaura:calling_spirit' },
                 { item: 'ars_nouveau:ritual_harvest' }
             ],
-            ritual_dummy: { id: `occultism:ritual_dummy/animate_whirlisprig`, count: 1 },
+            ritual_dummy: { id: `occultism:ritual_dummy/transmute_whirlisprig`, count: 1 },
             duration: 30,
-            id: `${id_prefix}animate_whirlisprig`
+            id: `${id_prefix}transmute_whirlisprig`
         },
         {
             ritual_type: 'occultism:summon',
@@ -92,8 +92,8 @@ ServerEvents.recipes((event) => {
             result: {
                 id: 'ars_nouveau:drygmy_se',
                 components: {
-                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_drygmy"}`,
-                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_drygmy.tooltip"}`]
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.transmute_drygmy"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.transmute_drygmy.tooltip"}`]
                 },
                 count: 1
             },
@@ -106,9 +106,9 @@ ServerEvents.recipes((event) => {
                 { item: 'naturesaura:calling_spirit' },
                 { item: 'ars_nouveau:ritual_fertility' }
             ],
-            ritual_dummy: { id: `occultism:ritual_dummy/animate_drygmy`, count: 1 },
+            ritual_dummy: { id: `occultism:ritual_dummy/transmute_drygmy`, count: 1 },
             duration: 30,
-            id: `${id_prefix}animate_drygmy`
+            id: `${id_prefix}transmute_drygmy`
         }
     ];
 
@@ -305,6 +305,70 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}transmute_${mob_id}`
         };
         if (transmuted.entity_to_sacrifice) recipe.entity_to_sacrifice = transmuted.entity_to_sacrifice;
+        recipes.push(recipe);
+    });
+
+    const animated_skeletons = [
+        {
+            entity: 'minecraft:skeleton',
+            egg: 'minecraft:skeleton_spawn_egg',
+            block: 'enderio:skeletal_contractor',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:bone_block'
+        },
+        {
+            entity: 'minecraft:stray',
+            egg: 'minecraft:skeleton_spawn_egg',
+            block: 'enderio:skeletal_contractor',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: '#handcrafted:sheets'
+        },
+        {
+            entity: 'minecraft:bogged',
+            egg: 'minecraft:skeleton_spawn_egg',
+            block: 'enderio:skeletal_contractor',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:vine'
+        },
+        {
+            entity: 'minecraft:phantom',
+            egg: 'minecraft:skeleton_spawn_egg',
+            block: 'enderio:skeletal_contractor',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:elytra'
+        }
+    ];
+
+    animated_skeletons.forEach((animated) => {
+        let mob_id = animated.entity.split(':')[1];
+        let recipe = {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: animated.entity,
+            result: {
+                id: animated.egg,
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_${mob_id}"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_${mob_id}.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: { item: animated.block },
+            ingredients: [
+                { tag: 'c:gems/mnemonic_fragment' },
+                { item: 'oritech:wither_crop_block' },
+                { item: animated.spirit },
+                { item: 'oritech:wither_crop_block' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_${mob_id}`
+        };
+
+        if (animated.modifier.startsWith('#')) {
+            recipe.ingredients.push({ tag: animated.modifier.slice(1) });
+        } else {
+            recipe.ingredients.push({ item: animated.modifier });
+        }
         recipes.push(recipe);
     });
 
