@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:novice_spellbook_alt' },
         { id: 'ars_nouveau:apprentice_book_upgrade' },
 
-        { id: 'ars_additions:source_spawner' },
+        { id: 'ars_additions:apparatus/source_spawner' },
 
         { id: 'ars_controle:scryers_linkage' },
 
