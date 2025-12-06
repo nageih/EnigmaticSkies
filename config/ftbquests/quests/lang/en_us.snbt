@@ -5367,6 +5367,13 @@
 	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.71E753FE9B4E1707.title: "Mason"
+	quest.7234B1B299DE122D.quest_desc: [
+		"Finally, craft yourself a &7Drygmy Charm&r. These items may be Right-Clicked on &7Mossy Cobblestone&r to make a home for your new friend."
+		""
+		"The &7Drygmy&r will manage creatures in a large area, gently harvesting drops and depositing them in an inventory &nadjacent&r to its &7Henge&r."
+		""
+		"Source is required and will be taken from a nearby &7Source Jar&r."
+	]
 	quest.72591AAEA1E6DE38.quest_desc: [
 		"The Particle Accelerator has a few hidden interactions which can be quite interesting to play around with."
 		""
@@ -5592,6 +5599,15 @@
 		""
 		"&7Conjure Deepslate&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
+	]
+	quest.76EC73B59502E2A5.quest_desc: [
+		"A bit of slicing and splicing will get us what we need. Prepare the required items for the ritual and create your very own &7Drygmy&r. "
+		""
+		"To earn a &7Token&r of its trust, toss it a &7Wilden Horn&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.773105FB99015746.quest_desc: [
 		"The Result Pedestal is where our output will be generated. "

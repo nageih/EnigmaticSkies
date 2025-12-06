@@ -116,8 +116,12 @@ ServerEvents.recipes((event) => {
         { output: /ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/ },
         { output: /ars.*:ritual_(overgrowth|flight|fertility|cloudshaping|moonfall|sunrise')/ },
         { id: /ars_(nouveau|elemental):imbuement_(manipulation|conjuration|abjuration|anima)_essence/ },
-        { id: `ars_nouveau:imbuement_chamber` },
+        { id: /ars_nouveau:manipulation_essence_to_.*_sapling/ },
+        { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
+        { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
+        { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
         { id: /ars_nouveau:.*_sourcelink/ },
+        { id: `ars_nouveau:imbuement_chamber` },
         { id: `ars_nouveau:enchanting_apparatus` },
         { id: `ars_nouveau:arcane_core` },
         { id: `ars_nouveau:relay_splitter` },
@@ -140,14 +144,12 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:novice_spell_book' },
         { id: 'ars_nouveau:novice_spellbook_alt' },
         { id: 'ars_nouveau:apprentice_book_upgrade' },
-        { id: /ars_nouveau:manipulation_essence_to_.*_sapling/ },
-        { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
-        { id: /ars_nouveau:(cobblestone|stone|sand|gravel)/ },
-        { id: /ars_nouveau:imbuement_(fire|air|water|earth)_essence/ },
-        { id: /ars_nouveau:imbuement_(lapis|amethyst)/ },
+
+        { id: 'ars_additions:source_spawner' },
 
         { id: 'ars_controle:scryers_linkage' },
 
+        { output: 'arsdelight:source_berry_cookie' },
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
         { id: 'arsdelight:mendosteen_pie' },
@@ -155,15 +157,14 @@ ServerEvents.recipes((event) => {
         { id: 'arsdelight:bombegrante_pie' },
         { id: 'arsdelight:frostaya_pie' },
         { id: 'arsdelight:paper_from_barks' },
-        { output: 'arsdelight:source_berry_cookie' },
 
+        { id: /ars_elemental:(piercing|homing|arc|deceleration|acceleration)_prism_lens/ },
         { id: 'ars_elemental:wool_to_string' },
         { id: 'ars_elemental:flashing_sapling' },
         { id: 'ars_elemental:everfull_urn' },
 
-        {
-            id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing|vexing|geode|sculk|village|end_portal)/
-        },
+        { id: /ars_caelum:ritual_conjure_island_(vexing|geode|sculk|village|end_portal)/ },
+        { id: /ars_caelum:ritual_conjure_island_(flourishing|cascading|blazing)/ },
         { id: `ars_caelum:heart_of_the_sea` },
 
         { id: 'ars_technica:mark_of_technomancy' },

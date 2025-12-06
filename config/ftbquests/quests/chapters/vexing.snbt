@@ -658,7 +658,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1C9565D5C51B74CC"]
@@ -680,7 +680,7 @@
 				}
 			]
 			x: 5.5d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0BB6D2595F99ADB4"]
@@ -886,6 +886,39 @@
 			]
 			x: 3.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["1C9565D5C51B74CC"]
+			icon: {
+				id: "ars_nouveau:drygmy_shard"
+			}
+			id: "76EC73B59502E2A5"
+			tasks: [
+				{
+					id: "685C6BD5530D888E"
+					item: { count: 1, id: "occultism:ritual_dummy/animate_drygmy" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49E28C6742F9CE6B"
+					item: { count: 1, id: "ars_nouveau:drygmy_shard" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76EC73B59502E2A5"]
+			id: "7234B1B299DE122D"
+			tasks: [{
+				id: "6520190EF2022C75"
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
 		}
 	]
 }
