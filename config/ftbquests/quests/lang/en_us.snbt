@@ -1794,6 +1794,9 @@
 		"If you’d like to wear other armor pieces, you can insulate them at a Sewing Table."
 		""
 		"Insulation can always be removed by placing Shears in the bottom slot. This does not damage the insulation or the armor."
+		""
+		"&a🛈 Tip: Search \"Insulate\" in EMI to find "
+		"&a    suitable insulation items."
 	]
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
