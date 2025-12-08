@@ -223,7 +223,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
     ];
 
     Object.keys(spiritEntities).forEach((type) => {
-        let description = { filter: [`${type}_spirit`], text: ['Obtained from the following mobs:'] };
+        let description = {
+            filter: [`${type}_spirit`],
+            text: ['Obtained with a Soul Shattering weapon from the following mobs:']
+        };
         let previous_mod = '';
 
         spiritEntities[type].sort().forEach((entity) => {
@@ -247,7 +250,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
     });
 
     Object.keys(essenceEntities).forEach((type) => {
-        let description = { filter: [type], text: ['Obtained from the following mobs:'] };
+        let description = { filter: [type], text: ['Obtained with a Soul Shattering weapon from the following mobs:'] };
         let previous_mod = '';
 
         essenceEntities[type].sort().forEach((entity) => {

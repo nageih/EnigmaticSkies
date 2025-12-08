@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `modern_industrialization:bronze_mixer`,
-            pattern: ['BAB', 'CDC', 'EEE'],
+            pattern: ['BCB', 'ADA', 'EEE'],
             key: {
                 A: '#c:gears/copper',
                 B: '#c:glass_blocks',
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
             pattern: ['BAB', 'CDC', 'EEE'],
             key: {
                 A: `create:mechanical_pump`,
-                B: 'create:precision_mechanism',
+                B: '#c:glass_blocks',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: `ppfluids:fluid_pipe`
@@ -329,7 +329,7 @@ ServerEvents.recipes((event) => {
             pattern: ['BAB', 'CDC', 'EEE'],
             key: {
                 A: `create:nozzle`,
-                B: 'create:precision_mechanism',
+                B: '#c:glass_blocks',
                 C: '#c:gears/copper',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: `ppfluids:fluid_pipe`

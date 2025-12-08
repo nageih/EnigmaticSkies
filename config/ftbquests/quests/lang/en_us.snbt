@@ -4811,7 +4811,7 @@
 		"&a    easily configure the working area."
 	]
 	quest.6806970967942788.quest_desc: [
-		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r and &7automating water&r production."
+		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -5861,9 +5861,9 @@
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
-		"That shiny Turbine is looking mighty useless right now with no machines to power. "
+		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
 		""
-		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to remedy that. \" ]"
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
 	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "

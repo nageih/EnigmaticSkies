@@ -68,6 +68,19 @@ const reapingData = [
     {
         registry_name: 'minecraft:drowned',
         drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '0.1', min: '1', max: '3' }]
+    },
+
+    {
+        registry_name: 'ars_nouveau:wilden_hunter',
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_horn' }, chance: '1.0', min: '1', max: '2' }]
+    },
+    {
+        registry_name: 'ars_nouveau:wilden_guardian',
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_spike' }, chance: '1.0', min: '1', max: '2' }]
+    },
+    {
+        registry_name: 'ars_nouveau:wilden_stalker',
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_wing' }, chance: '1.0', min: '1', max: '2' }]
     }
 ];
 
@@ -76,7 +89,11 @@ const essenceEntities = {
     'malum:grim_talc': [],
     'malum:rotting_essence': [],
     'malum:warp_flux': [],
-    'malum:wind_nucleus': []
+    'malum:wind_nucleus': [],
+
+    'ars_nouveau:wilden_horn': [],
+    'ars_nouveau:wilden_spike': [],
+    'ars_nouveau:wilden_wing': []
 };
 
 reapingData.forEach((data) => {

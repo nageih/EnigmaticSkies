@@ -50,11 +50,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}amethyst_shard`
         },
         {
-            output: '2x minecraft:name_tag',
-            inputs: ['#c:strings', 'minecraft:paper'],
-            id: `${id_prefix}name_tag`
-        },
-        {
             output: 'minecraft:dead_bush',
             inputs: ['#minecraft:saplings', 'minecraft:shears'],
             damage: { item: 'minecraft:shears', amount: 1 },
