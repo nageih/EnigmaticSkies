@@ -525,6 +525,31 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'pneumaticcraft' }],
             to_replace: `pneumaticcraft:printed_circuit_board`,
             replace_with: `enderio:z_logic_controller`
+        },
+        {
+            filter: [{ mod: 'laserio' }],
+            to_replace: `laserio:logic_chip`,
+            replace_with: `enderio:z_logic_controller`
+        },
+        {
+            filter: [{ mod: 'laserio' }],
+            to_replace: `#c:ingots/iron`,
+            replace_with: '#c:gems/empowered_enori'
+        },
+        {
+            filter: [{ mod: 'laserio' }],
+            to_replace: `#c:dusts/redstone`,
+            replace_with: '#c:gems/empowered_restonia'
+        },
+        {
+            filter: [{ mod: 'laserio' }],
+            to_replace: `#c:gems/lapis`,
+            replace_with: '#c:gems/empowered_palis'
+        },
+        {
+            filter: [{ mod: 'laserio' }],
+            to_replace: `#c:ender_pearls`,
+            replace_with: '#c:gems/pulsating_crystal'
         }
     ];
 

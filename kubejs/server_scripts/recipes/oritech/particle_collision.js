@@ -28,8 +28,8 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}crying_obsidian`
         },
         {
-            results: [{ id: 'minecraft:chorus_fruit', count: 1 }],
-            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:enchanted_berry' }],
+            results: [{ id: 'minecraft:chorus_fruit', count: 4 }],
+            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:blue_berry' }],
             time: 100,
             id: `${id_prefix}chorus_fruit`
         },

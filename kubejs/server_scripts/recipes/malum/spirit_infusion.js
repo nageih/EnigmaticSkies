@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
             extraInputs: [
                 { item: 'malum:living_flesh', count: 8 },
                 { item: 'oritech:wither_crop_block', count: 4 },
-                { item: 'modern_industrialization:rubber_sheet', count: 8 }
+                { item: 'modern_industrialization:rubber_sheet', count: 4 }
             ],
             spirits: [
                 { type: 'malum:sacred', count: 16 },
@@ -38,6 +38,7 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}imitation_flesh`
         },
+
         {
             result: { id: 'naturesaura:birth_spirit', count: 4 },
             input: {

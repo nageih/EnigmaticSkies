@@ -239,17 +239,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0230942DF53BB9E5"]
-			id: "11FE0DE653577AFB"
-			tasks: [{
-				id: "57966CE2447E26C4"
-				item: { components: { "ftbquests:missing_item": "charginggadgets:charging_station" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["5047A6F1EF472407"]
 			id: "4C7D7FC6EEB07515"
 			rewards: [{
@@ -385,7 +374,7 @@
 				item: { count: 1, id: "actuallyadditions:energizer" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 3.0d
 		}
 	]

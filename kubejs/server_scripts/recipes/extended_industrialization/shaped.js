@@ -4,11 +4,11 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: `extended_industrialization:bronze_composter`,
-            pattern: ['ABA', 'CDC', 'EEE'],
+            pattern: ['CBC', 'ADA', 'EEE'],
             key: {
                 A: `#c:gears/copper`,
                 B: 'theurgy:digestion_vat',
-                C: `create:propeller`,
+                C: `#c:glass_blocks`,
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: `ppfluids:fluid_pipe`
             },

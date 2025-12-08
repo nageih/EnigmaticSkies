@@ -225,3 +225,4 @@ config/ftbchunks-client.snbt
 config/crash_assistant/lang
 /dynamic-resource-pack-cache
 /dynamic-data-pack-cache
+/config/coldsweat/dump

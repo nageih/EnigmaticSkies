@@ -396,7 +396,7 @@ const villagerTrades = {
             level: 2
         },
         {
-            result: { id: 'malum:astral_weave', count: 1 },
+            result: { id: 'occultism:celestial_chalice', count: 1 },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
             level: 2
         },

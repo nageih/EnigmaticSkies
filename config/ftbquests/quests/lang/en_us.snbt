@@ -257,13 +257,6 @@
 	]
 	quest.07EC0853BE4C6391.title: "Earthen Spirit"
 	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
-	quest.0842BA3FA770788D.quest_desc: [
-		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
-		""
-		"The Quantum Computer Core effectively replaces all your Crafting CPUs by spawning new virtual CPUs whenever a new craft is requested, each with 256M Bytes of storage capacity and 8 co-processors. "
-		""
-		"And if that still isn’t enough for you, the Core may be incorporated into a larger multiblock which grants more storage and co-processing capabilities. "
-	]
 	quest.089E7173573C5A8E.quest_desc: [
 		"You’ll find at first, you’re not able to cast spells for very long before you need to resort to whacking things with a chunk of metal again. Improving your Max Mana will give you a large pool to spend before running dry. "
 		""
@@ -677,7 +670,6 @@
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
-	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.123BB918DF6E3936.quest_desc: [
 		"Looking for a more traditional set of pipes? These pipes from Oritech will do the job. "
 		""
@@ -1488,12 +1480,6 @@
 		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
-	quest.21A7F863BCFB2177.quest_desc: [
-		"The Quantum Armor set is a powerful set of armor that is integrated into your AE system to provide such benefits as auto-feeding from your system and automatically requesting crafts for blocks you select."
-		""
-		"Of course, the benefits don’t end there as you’ll be nearly unkillable in the suit, be able to jump higher, run faster, swim longer, and even fly with appropriate upgrades. "
-	]
-	quest.21A7F863BCFB2177.title: "Quantum Armor"
 	quest.21C1CAA38D040AC8.quest_desc: [
 		"Functional Storage is an expandable storage solution capable of holding all of your items and liquids. "
 		""
@@ -1795,6 +1781,9 @@
 		"If you’d like to wear other armor pieces, you can insulate them at a Sewing Table."
 		""
 		"Insulation can always be removed by placing Shears in the bottom slot. This does not damage the insulation or the armor."
+		""
+		"&a🛈 Tip: Search \"Insulate\" in EMI to find "
+		"&a    suitable insulation items."
 	]
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
@@ -1868,24 +1857,6 @@
 		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
 	]
 	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
-	quest.2AF1CE73E140D685.quest_desc: [
-		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
-		""
-		"Charge some Certus Quartz and use it to craft a Flawed Budding Certus Quartz block."
-		""
-		"Place this block in the world and wait for buds to grow. Once they’ve transitioned from Bud to Cluster, they’re ready to break. Using Fortune will result in more output!"
-		""
-		"This process can be slow at the start and is something you’ll surely wish to automate."
-		""
-		"&a🛈 Tip: The AE Guide book has an excellent chapter on"
-		"&a    automating Certus Quartz:"
-		"&a     ╰┈➤ &3Example Setups > Simple Certus Farm"
-		""
-		"&6⚠ Note: Budding Certus blocks do degrade over time and"
-		"&6    must be repaired unless you succeed at moving a"
-		"&6    Flawless Budding Certus Quartz."
-	]
-	quest.2AF1CE73E140D685.title: "Farming Certus"
 	quest.2B0DDF8003305DB6.quest_desc: [
 		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
 		""
@@ -2120,13 +2091,6 @@
 		"Alternatively, Right-Click a &7Blackstone&r with a &7Fire Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.31CAA3BC20CCDF25.title: "Biome Conversion"
-	quest.31CACA407D4ADCA5.quest_desc: [
-		"FE Storage Cells allow you to turn your AE system into a power substation, providing not just recipe components to machines, but also the power to run them."
-		""
-		"You’ll need at least one FE Storage Cell installed in an ME drive and an Interface with an Induction Card installed to receive energy from your power generators. "
-		""
-		"The stored energy may then be accessed through a Flux Accessor to power machines. A Pattern Provider may also have an Induction Card installed in it to provide power to the machine it’s attached to!"
-	]
 	quest.3202466CAE3744A9.quest_desc: [
 		"The manipulation of Spirits is an important part of being Evil. You’ll need some tools to interact with them, however."
 		""
@@ -2706,16 +2670,6 @@
 		"You’ll want to spend some time figuring out a way to automate production. "
 	]
 	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
-	quest.3E622F93756E9BFA.quest_desc: [
-		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
-		""
-		"Certus Quartz, a fantastical material formed in deep space, is only found in crashed meteorites here on the surface. "
-		""
-		"Prepare yourself for a trek as you follow a Meteorite Compass to one such location. There you’ll dig through the tough outer layer of the meteorite to discover both Certus Quartz, and the tools you’ll need to begin working with it."
-		""
-		"Inside the Meteorite, you will also find a Mysterious Cube. Break it to obtain all four Circuit Presses."
-	]
-	quest.3E622F93756E9BFA.title: "Meteor Hunting"
 	quest.3E7A4470BD04F2A1.quest_desc: [
 		"The Simple Sensor is an all purpose block and entity sensor that emits a signal according to its settings. "
 		""
@@ -2868,11 +2822,6 @@
 		"They need power, of course, but still accept enchants making them a great early alternative to an Axe, Shovel, and Pickaxe. "
 	]
 	quest.3FF8D40CD4CB33BB.title: "Power Tools"
-	quest.4068ABB6B3C24FEC.quest_desc: [
-		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
-		""
-		"They have a relatively short range but can be chained quite effectively!"
-	]
 	quest.407079BCE93817AC.quest_desc: [
 		"The Queen’s Desire is a series of repeatable Advancements used to obtain special boons from the Queen Bee. "
 		""
@@ -2949,25 +2898,6 @@
 		"A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "
 		""
 		"Attaching a Machine Yield Addon will also increase the amount of secondary outputs from this machine."
-	]
-	quest.415D9A877B172BBC.quest_desc: [
-		"An advanced form of Pattern Provider is made available through the Advanced AE addon. This Pattern Provider offers two key features."
-		""
-		" 1. It may be configured to insert items "
-		"    into specific sides of a machine. "
-		"    One item may go in one side while "
-		"    the res may go in through the top, "
-		"    for instance. This is achieved by "
-		"    using an Advanced Pattern Encoder "
-		"    to set the direction for each item."
-		""
-		" 2. It can hold more Patterns, 36 to"
-		"    be precise, but be warned that "
-		"    consolidating all patterns into a "
-		"    single machine is not always helpful. "
-		"    Often it’s best to spread recipes "
-		"    across multiple machines for the "
-		"    sake of parallel processing."
 	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
@@ -3791,14 +3721,6 @@
 		""
 		"Running it is no small task, however, as the UU Matter that it operates on is exceedingly costly to create. "
 	]
-	quest.5089FD9AEDB1D3D0.quest_desc: [
-		"Having trouble finding a Meteorite?"
-		""
-		"The Fluix Researcher Villager can also offer you everything you need to get started with Applied Energistics.They use a Charger as their workstation."
-		""
-		"They’ll only sell two random Presses at their Expert level, so be prepared to do a bit of trading to get them all. "
-	]
-	quest.5089FD9AEDB1D3D0.title: "Fluix Researchers"
 	quest.50BCEB07C736B906.quest_desc: [
 		"The Force Field Projector, despite the name, can do considerably more, depending on the modules involved. At its simplest, it puts up a wall to prevent passage. However, it can also be used to damage mobs, clear blocks and fluids, or to place blocks."
 		""
@@ -4699,15 +4621,6 @@
 		"Be sure to refer to the guidebook as it is full of excellent examples and suggestions for automation!"
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
-	quest.653E696688BBBB12.quest_desc: [
-		"You will have likely mined up a decent amount of Sky Stone when you found your first Meteorite and Certus Quartz. That supply won't last forever, however."
-		""
-		"Thankfully, getting more is quite simple, and you don’t even need to leave home. Just look to the skies themselves."
-		"&n                                                  &r"
-		""
-		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
-	]
-	quest.653E696688BBBB12.title: "Farming Sky Stone"
 	quest.65996A36FB1B58B0.quest_desc: [
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
@@ -4817,7 +4730,7 @@
 		"&a    easily configure the working area."
 	]
 	quest.6806970967942788.quest_desc: [
-		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r and &7automating water&r production."
+		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -5867,9 +5780,9 @@
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
-		"That shiny Turbine is looking mighty useless right now with no machines to power. "
+		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
 		""
-		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to remedy that. \" ]"
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
 	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "

@@ -3,25 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 5 },
-            item_inputs: [{ tag: 'c:foods/cooked_meats', amount: 1 }],
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}pink_slime`
-        },
-        {
-            item_outputs: [{ item: 'modern_industrialization:carbon_dust', amount: 1 }],
-            item_inputs: [{ tag: 'c:essences/rotting_essence', amount: 4 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 5 },
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}carbon_dust`
-        },
-
-        {
             item_outputs: [
                 { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
                 { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },

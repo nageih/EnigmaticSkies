@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             result: { id: 'ae2:quantum_entangled_singularity', count: 2 },
-            ingredients: [{ item: 'ae2:singularity' }, { tag: 'c:tokens/air' }],
+            ingredients: [{ item: 'ae2:singularity' }, { item: 'malum:warp_flux' }],
             circumstance: { type: 'explosion' },
             id: `${id_prefix}quantum_entangled_singularity`
         }
