@@ -64,17 +64,8 @@ ServerEvents.recipes((event) => {
             results: [],
             fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
             ingredients: [{ tag: 'c:foods/cooked_meats' }],
-            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
             time: 10,
             id: `${id_prefix}pink_slime`
-        },
-        {
-            results: [],
-            fluidOutputs: [{ fluid: 'industrialforegoing:meat', amount: 100 }],
-            ingredients: [{ tag: 'c:foods/raw_meats' }],
-            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 10 },
-            time: 10,
-            id: `${id_prefix}meat`
         },
         {
             results: [{ id: 'actuallyadditions:rice_dough', count: 1 }],

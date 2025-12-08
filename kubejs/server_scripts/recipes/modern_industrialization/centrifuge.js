@@ -33,6 +33,21 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 1,
             id: `${id_prefix}water`
+        },
+
+        {
+            fluid_outputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
+            item_inputs: [{ tag: 'c:foods/cooked_meats', amount: 1 }],
+            eu: 2,
+            duration: 5,
+            id: `${id_prefix}pink_slime`
+        },
+        {
+            item_outputs: [{ item: 'modern_industrialization:carbon_dust', amount: 1 }],
+            item_inputs: [{ tag: 'c:essences/rotting_essence', amount: 4 }],
+            eu: 2,
+            duration: 5,
+            id: `${id_prefix}carbon_dust`
         }
     ];
 
