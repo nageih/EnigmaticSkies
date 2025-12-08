@@ -2,63 +2,29 @@ ServerEvents.generateData('before_mods', (event) => {
     const recipes = [
         {
             name: 'warm_stackables',
-            item: {
-                items: [
-                    '#c:rods/blaze',
-                    '#c:dusts/blaze',
-                    '#chipped:magma_blocks',
-                    'minecraft:magma_block',
-                    'minecraft:magma_cream'
-                ]
-            },
-            slots: [{ min: 0, max: 44 }],
+            item: { items: ['#enigmatica:warm_stackables'] },
+            slots: ['hotbar', 'inventory'],
             temperature: 0.2 / 64,
             trait: 'core'
         },
         {
             name: 'hot_unstackables',
-            item: {
-                items: [
-                    'enderio:fire_water_bucket',
-                    'minecraft:lava_bucket',
-                    'oritech:still_sheol_fire_bucket',
-                    'oritech:still_strange_matter_bucket',
-                    'enderio:liquid_sunshine_bucket'
-                ]
-            },
-            slots: [{ min: 0, max: 44 }],
+            item: { items: ['#enigmatica:hot_unstackables'] },
+            slots: ['hotbar', 'inventory'],
             temperature: 0.5,
             trait: 'core'
         },
         {
             name: 'cold_stackables',
-            item: {
-                items: [
-                    '#chipped:snow_block',
-                    '#chipped:ice',
-                    '#chisel:ice',
-                    '#chipped:packed_ice',
-                    '#chipped:blue_ice',
-                    'minecraft:snowball',
-                    'aether:icestone'
-                ]
-            },
-            slots: [{ min: 0, max: 44 }],
+            item: { items: ['#enigmatica:cold_stackables'] },
+            slots: ['hotbar', 'inventory'],
             temperature: -0.2 / 64,
             trait: 'core'
         },
         {
             name: 'cold_unstackables',
-            item: {
-                items: [
-                    'justdirethings:time_fluid_bucket',
-                    'starbunclemania:source_fluid_bucket',
-                    'sauce:source_fluid_bucket',
-                    'industrialforegoing:ether_gas_bucket',
-                    'enderio:liquid_darkness_bucket'
-                ]
-            },
-            slots: [{ min: 0, max: 44 }],
+            item: { items: ['#enigmatica:cold_unstackables'] },
+            slots: ['hotbar', 'inventory'],
             temperature: -0.2,
             trait: 'core'
         }
