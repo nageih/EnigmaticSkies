@@ -78,7 +78,7 @@
 	    ["minecraft:eroded_badlands", 88, 120, "F"],
 	    ["minecraft:dripstone_caves", "disable"],
 	    ["minecraft:the_void", -40, -20, "C"],
-	    ["minecraft:mushroom_fields", 0, 15, "F"],
+	    ["minecraft:mushroom_fields", -40, -20, "C"],
 	    ["minecraft:deep_dark", -40, -20, "C"],
 	    ["minecraft:mangrove_swamp", -40, -20, "C"],
 	    ["minecraft:warm_ocean", -40, -20, "C"],
