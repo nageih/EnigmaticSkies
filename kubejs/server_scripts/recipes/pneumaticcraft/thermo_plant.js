@@ -163,7 +163,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}sturdy_sheet`
         },
         {
-            outputs: { fluid_output: { id: 'minecraft:water', amount: 8000 } },
+            outputs: { fluid_output: { id: 'minecraft:water', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_water' } },
             pressure: 1.0,
             temperature: { min: CtoK(0) },

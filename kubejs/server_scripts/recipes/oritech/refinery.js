@@ -54,14 +54,7 @@ ServerEvents.recipes((event) => {
             time: 12,
             id: `${id_prefix}netherite_scrap`
         },
-        {
-            results: [{ id: 'oritech:energite_ingot' }],
-            fluidOutputs: [],
-            ingredients: [{ tag: 'c:storage_blocks/fluxite' }],
-            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
-            time: 12,
-            id: `${id_prefix}energite_ingot`
-        },
+
         {
             results: [{ id: 'malum:cthonic_gold', count: 4 }],
             fluidOutputs: [],
@@ -73,10 +66,18 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             fluidOutputs: [{ fluid: 'oritech:still_fuel', amount: 1000 }],
-            ingredients: [{ tag: 'c:gems/fluxite' }],
+            ingredients: [{ tag: 'c:gems/amethyst' }],
             fluidInput: { fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 },
             time: 10,
             id: `${id_prefix}still_fuel`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 1000 }],
+            ingredients: [{ tag: 'c:gems/ambrosium' }],
+            fluidInput: { fluid: 'minecraft:water', amount: 1000 },
+            time: 5,
+            id: `${id_prefix}sal_ammoniac`
         }
     ];
 

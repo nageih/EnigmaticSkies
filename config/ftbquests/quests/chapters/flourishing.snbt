@@ -155,7 +155,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -166,7 +166,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -188,8 +188,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -210,8 +210,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -536,7 +536,7 @@
 				}
 			]
 			x: 7.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -557,7 +557,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["410225ED927857D4"]
@@ -593,7 +593,7 @@
 				}
 			]
 			x: 4.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -628,7 +628,7 @@
 				}
 			]
 			x: 7.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -765,8 +765,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -795,8 +795,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -947,7 +947,7 @@
 				}
 			]
 			x: 4.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]

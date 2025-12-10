@@ -2119,7 +2119,7 @@
 	quest.3282293AB6B43287.quest_desc: [
 		"Slow but steady, this Compressor will get you started making &7Compressed Iron&r and &7Diamonds&r. "
 		""
-		"It's also a great way to make plates going forward."
+		"It's also a simple way to make plates going forward."
 		""
 		"&a🛈 Tip: Remember to lock the slots to "
 		"&a    control what recipe is processed!"
@@ -4742,19 +4742,6 @@
 		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
 	]
 	quest.68079D29B91FC30A.title: "Industrialists"
-	quest.684A0E52D7BAC37C.quest_desc: [
-		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
-		""
-		"Stabilized Wormholes offer remote access so items can be piped in from remote farms."
-		""
-		"A Storage Accessor grants personal access to the storage from anywhere at all. "
-		""
-		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"0095002B3E34FD9A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Occultism\",\"underlined\":true},\" chapter. \"]"
-		""
-		"&a🛈 Tip: Sneak Right-Click a Stabilized "
-		"&a    Wormhole or Storage Accessor"
-		"&a    on the Actuator to link them."
-	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.687E532AD956C57A.quest_desc: [
 		"&6⚠ Note: Enderio machines require  "

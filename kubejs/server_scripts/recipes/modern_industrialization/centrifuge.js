@@ -21,15 +21,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}manure`
         },
         {
-            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 1000 }],
-            item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1, probability: 1 / 4 }],
+            fluid_outputs: [{ fluid: 'minecraft:lava', amount: 250 }],
+            item_inputs: [{ item: 'theurgy:crystallized_lava', amount: 1, probability: 1 / 16 }],
             eu: 4,
             duration: 1,
             id: `${id_prefix}lava`
         },
         {
-            fluid_outputs: [{ fluid: 'minecraft:water', amount: 1000 }],
-            item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1, probability: 1 / 8 }],
+            fluid_outputs: [{ fluid: 'minecraft:water', amount: 250 }],
+            item_inputs: [{ item: 'theurgy:crystallized_water', amount: 1, probability: 1 / 16 }],
             eu: 2,
             duration: 1,
             id: `${id_prefix}water`

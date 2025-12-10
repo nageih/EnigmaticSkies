@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'minecraft:water', amount: 8000 }],
+            fluidOutputs: [{ fluid: 'minecraft:water', amount: 4000 }],
             ingredients: [{ item: 'theurgy:crystallized_water' }],
             time: 1,
             id: `${id_prefix}water`

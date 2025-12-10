@@ -36,35 +36,6 @@
 		}
 		{
 			dependencies: ["0B04BC5F88746182"]
-			icon: {
-				id: "occultism:storage_remote"
-			}
-			id: "684A0E52D7BAC37C"
-			rewards: [{
-				id: "13469B824E37905B"
-				item: {
-					count: 1
-					id: "occultism:storage_remote"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "59D5FAADEACD0F56"
-					item: { count: 1, id: "occultism:storage_controller" }
-					type: "item"
-				}
-				{
-					id: "3C62B793851D88DA"
-					item: { count: 1, id: "occultism:stable_wormhole" }
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0B04BC5F88746182"]
 			id: "3FF6566453299DC1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -363,7 +334,7 @@
 				item: { count: 1, id: "ars_nouveau:storage_lectern" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
