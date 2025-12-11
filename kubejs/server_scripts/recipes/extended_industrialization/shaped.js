@@ -91,6 +91,15 @@ ServerEvents.recipes((event) => {
                 E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}steel_canning_machine`
+        },
+        {
+            output: `extended_industrialization:large_configurable_chest`,
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: `modern_industrialization:configurable_chest`,
+                B: `minecraft:slime_ball`
+            },
+            id: `${id_prefix}large_configurable_chest`
         }
     ];
 

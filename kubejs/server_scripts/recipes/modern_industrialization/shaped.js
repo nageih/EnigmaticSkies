@@ -269,28 +269,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}piston`
         },
         {
-            output: `modern_industrialization:configurable_tank`,
-            pattern: ['ABA', 'ACA', 'ADA'],
-            key: {
-                A: `#c:plates/steel`,
-                B: `enderio:z_logic_controller`,
-                C: '#c:glass_blocks/colorless',
-                D: 'utilitarian:fluid_hopper'
-            },
-            id: `${id_prefix}configurable_tank`
-        },
-        {
-            output: `modern_industrialization:configurable_chest`,
-            pattern: ['ABA', 'ACA', 'ADA'],
-            key: {
-                A: `#c:plates/steel`,
-                B: `enderio:z_logic_controller`,
-                C: '#c:chests/wooden',
-                D: 'minecraft:hopper'
-            },
-            id: `${id_prefix}configurable_chest`
-        },
-        {
             output: `modern_industrialization:iridium_large_plate`,
             pattern: ['AA', 'AA'],
             key: {
