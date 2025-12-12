@@ -2,6 +2,7 @@
     "item.occultism.fragile_soul_gem.tooltip_empty": "Use on a creature to capture it. §cSingle Use!",
     "item.occultism.fragile_soul_gem.tooltip_filled": "Contains a bound %s soul. §cWill shatter on release!",
 
+    "item.occultism.ritual_dummy.sm/ritual/rift_slime_apocalypse": "§6Slime Apocalypse Rift",
     "item.occultism.ritual_dummy.rift_slime_apocalypse": "§6Ritual: Slime Apocalypse Rift",
     "item.occultism.ritual_dummy.rift_slime_apocalypse.tooltip": "§5Tear a open a dimensional rift, calling forth nightmares from another world.",
     "ritual.enigmatica.ritual/rift_slime_apocalypse.conditions": "Not all requirements for this ritual are met.",
@@ -9,6 +10,7 @@
     "ritual.enigmatica.ritual/rift_slime_apocalypse.interrupted": "Rift opening interrupted.",
     "ritual.enigmatica.ritual/rift_slime_apocalypse.started": "Started opening rift.",
 
+    "item.occultism.ritual_dummy.sm/ritual/rift_wilden_calamity": "§6Wilden Calamity Rift",
     "item.occultism.ritual_dummy.rift_wilden_calamity": "§6Ritual: Wilden Calamity Rift",
     "item.occultism.ritual_dummy.rift_wilden_calamity.tooltip": "§5Tear a open a dimensional rift, calling forth nightmares from another world.",
     "ritual.enigmatica.ritual/rift_wilden_calamity.conditions": "Not all requirements for this ritual are met.",
@@ -16,6 +18,7 @@
     "ritual.enigmatica.ritual/rift_wilden_calamity.interrupted": "Rift opening interrupted.",
     "ritual.enigmatica.ritual/rift_wilden_calamity.started": "Started opening rift.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_blue_swet": "§6Animate Blue Swet",
     "item.occultism.ritual_dummy.animate_blue_swet": "§6Ritual: Animate Blue Swet",
     "item.occultism.ritual_dummy.animate_blue_swet.tooltip": "§5Infuse a jelly with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_blue_swet.conditions": "Not all requirements for this ritual are met.",
@@ -23,6 +26,7 @@
     "ritual.enigmatica.ritual/animate_blue_swet.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_blue_swet.started": "Started animating Blue Swet.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_golden_swet": "§6Animate Golden Swet",
     "item.occultism.ritual_dummy.animate_golden_swet": "§6Ritual: Animate Golden Swet",
     "item.occultism.ritual_dummy.animate_golden_swet.tooltip": "§5Infuse a jelly with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_golden_swet.conditions": "Not all requirements for this ritual are met.",
@@ -30,6 +34,7 @@
     "ritual.enigmatica.ritual/animate_golden_swet.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_golden_swet.started": "Started animating Golden Swet.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_slime": "§6Animate Slime",
     "item.occultism.ritual_dummy.animate_slime": "§6Ritual: Animate Slime",
     "item.occultism.ritual_dummy.animate_slime.tooltip": "§5Infuse a jelly with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_slime.conditions": "Not all requirements for this ritual are met.",
@@ -37,6 +42,7 @@
     "ritual.enigmatica.ritual/animate_slime.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_slime.started": "Started animating Slime.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_magma_cube": "§6Animate Magma Cube",
     "item.occultism.ritual_dummy.animate_magma_cube": "§6Ritual: Animate Magma Cube",
     "item.occultism.ritual_dummy.animate_magma_cube.tooltip": "§5Infuse a jelly with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_magma_cube.conditions": "Not all requirements for this ritual are met.",
@@ -44,6 +50,7 @@
     "ritual.enigmatica.ritual/animate_magma_cube.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_magma_cube.started": "Started animating Magma Cube.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_zephyr": "§6Animate Zephyr",
     "item.occultism.ritual_dummy.animate_zephyr": "§6Ritual: Animate Zephyr",
     "item.occultism.ritual_dummy.animate_zephyr.tooltip": "§5Infuse a cloud with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_zephyr.conditions": "Not all requirements for this ritual are met.",
@@ -51,6 +58,7 @@
     "ritual.enigmatica.ritual/animate_zephyr.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_zephyr.started": "Started animating Zephyr.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_sentry": "§6Animate Sentry",
     "item.occultism.ritual_dummy.animate_sentry": "§6Ritual: Animate Sentry",
     "item.occultism.ritual_dummy.animate_sentry.tooltip": "§5Infuse bricks with magic to bring them to life.",
     "ritual.enigmatica.ritual/animate_sentry.conditions": "Not all requirements for this ritual are met.",
@@ -58,6 +66,7 @@
     "ritual.enigmatica.ritual/animate_sentry.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_sentry.started": "Started animating Sentry.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_rootmin": "§6Animate Rootmin",
     "item.occultism.ritual_dummy.animate_rootmin": "§6Ritual: Animate Rootmin",
     "item.occultism.ritual_dummy.animate_rootmin.tooltip": "§5Infuse mud with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_rootmin.conditions": "Not all requirements for this ritual are met.",
@@ -65,6 +74,7 @@
     "ritual.enigmatica.ritual/animate_rootmin.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_rootmin.started": "Started animating Rootmin.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_guardian": "§6Animate Guardian",
     "item.occultism.ritual_dummy.animate_guardian": "§6Ritual: Animate Guardian",
     "item.occultism.ritual_dummy.animate_guardian.tooltip": "§5Infuse prismarine with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_guardian.conditions": "Not all requirements for this ritual are met.",
@@ -72,6 +82,7 @@
     "ritual.enigmatica.ritual/animate_guardian.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_guardian.started": "Started animating Guardian.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_honey_slime": "§6Animate Honey Slime",
     "item.occultism.ritual_dummy.animate_honey_slime": "§6Ritual: Animate Honey Slime",
     "item.occultism.ritual_dummy.animate_honey_slime.tooltip": "§5Infuse honey with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_honey_slime.conditions": "Not all requirements for this ritual are met.",
@@ -79,6 +90,7 @@
     "ritual.enigmatica.ritual/animate_honey_slime.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_honey_slime.started": "Started animating Honey Slime.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_shulker": "§6Animate Shulker",
     "item.occultism.ritual_dummy.animate_shulker": "§6Ritual: Animate Shulker",
     "item.occultism.ritual_dummy.animate_shulker.tooltip": "§5Infuse purpur with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_shulker.conditions": "Not all requirements for this ritual are met.",
@@ -86,6 +98,7 @@
     "ritual.enigmatica.ritual/animate_shulker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_shulker.started": "Started animating Shulker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_flourishing_weald_walker": "§6Animate Flourishing Weald Walker",
     "item.occultism.ritual_dummy.animate_flourishing_weald_walker": "§6Ritual: Animate Flourishing Weald Walker",
     "item.occultism.ritual_dummy.animate_flourishing_weald_walker.tooltip": "§5Infuse an Archwood Sapling with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_flourishing_weald_walker.conditions": "Not all requirements for this ritual are met.",
@@ -93,6 +106,7 @@
     "ritual.enigmatica.ritual/animate_flourishing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_flourishing_weald_walker.started": "Started animating Flourishing Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_blazing_weald_walker": "§6Animate Blazing Weald Walker",
     "item.occultism.ritual_dummy.animate_blazing_weald_walker": "§6Ritual: Animate Blazing Weald Walker",
     "item.occultism.ritual_dummy.animate_blazing_weald_walker.tooltip": "§5Infuse an Archwood Sapling with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_blazing_weald_walker.conditions": "Not all requirements for this ritual are met.",
@@ -100,6 +114,7 @@
     "ritual.enigmatica.ritual/animate_blazing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_blazing_weald_walker.started": "Started animating Blazing Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_cascading_weald_walker": "§6Animate Cascading Weald Walker",
     "item.occultism.ritual_dummy.animate_cascading_weald_walker": "§6Ritual: Animate Cascading Weald Walker",
     "item.occultism.ritual_dummy.animate_cascading_weald_walker.tooltip": "§5Infuse an Archwood Sapling with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_cascading_weald_walker.conditions": "Not all requirements for this ritual are met.",
@@ -107,6 +122,7 @@
     "ritual.enigmatica.ritual/animate_cascading_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_cascading_weald_walker.started": "Started animating Cascading Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_vexing_weald_walker": "§6Animate Vexing Weald Walker",
     "item.occultism.ritual_dummy.animate_vexing_weald_walker": "§6Ritual: Animate Vexing Weald Walker",
     "item.occultism.ritual_dummy.animate_vexing_weald_walker.tooltip": "§5Infuse an Archwood Sapling with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_vexing_weald_walker.conditions": "Not all requirements for this ritual are met.",
@@ -114,6 +130,7 @@
     "ritual.enigmatica.ritual/animate_vexing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_vexing_weald_walker.started": "Started animating Vexing Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_flashing_weald_walker": "§6Animate Flashing Weald Walker",
     "item.occultism.ritual_dummy.animate_flashing_weald_walker": "§6Ritual: Animate Flashing Weald Walker",
     "item.occultism.ritual_dummy.animate_flashing_weald_walker.tooltip": "§5Infuse an Archwood Sapling with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.conditions": "Not all requirements for this ritual are met.",
@@ -121,6 +138,7 @@
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.started": "Started animating Flashing Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_skeleton": "§6Animate Skeleton",
     "item.occultism.ritual_dummy.animate_skeleton": "§6Ritual: Animate Skeleton",
     "item.occultism.ritual_dummy.animate_skeleton.tooltip": "§5Infuse an Skeletal Contractor with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_skeleton.conditions": "Not all requirements for this ritual are met.",
@@ -128,6 +146,7 @@
     "ritual.enigmatica.ritual/animate_skeleton.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_skeleton.started": "Started transmuting Skeleton.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_stray": "§6Animate Stray",
     "item.occultism.ritual_dummy.animate_stray": "§6Ritual: Animate Stray",
     "item.occultism.ritual_dummy.animate_stray.tooltip": "§5Infuse an Skeletal Contractor with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_stray.conditions": "Not all requirements for this ritual are met.",
@@ -135,6 +154,7 @@
     "ritual.enigmatica.ritual/animate_stray.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_stray.started": "Started transmuting Stray.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_bogged": "§6Animate Bogged",
     "item.occultism.ritual_dummy.animate_bogged": "§6Ritual: Animate Bogged",
     "item.occultism.ritual_dummy.animate_bogged.tooltip": "§5Infuse an Skeletal Contractor with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_bogged.conditions": "Not all requirements for this ritual are met.",
@@ -142,6 +162,7 @@
     "ritual.enigmatica.ritual/animate_bogged.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_bogged.started": "Started transmuting Bogged.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_phantom": "§6Animate Phantom",
     "item.occultism.ritual_dummy.animate_phantom": "§6Ritual: Animate Phantom",
     "item.occultism.ritual_dummy.animate_phantom.tooltip": "§5Infuse an Skeletal Contractor with magic to bring it to life.",
     "ritual.enigmatica.ritual/animate_phantom.conditions": "Not all requirements for this ritual are met.",
@@ -149,6 +170,7 @@
     "ritual.enigmatica.ritual/animate_phantom.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_phantom.started": "Started transmuting Phantom.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_whirlisprig": "§6Transmute Whirlisprig",
     "item.occultism.ritual_dummy.transmute_whirlisprig": "§6Ritual: Transmute Whirlisprig",
     "item.occultism.ritual_dummy.transmute_whirlisprig.tooltip": "§5Transmute a Whirlisprig from raw materials.",
     "ritual.enigmatica.ritual/transmute_whirlisprig.conditions": "Not all requirements for this ritual are met.",
@@ -156,6 +178,7 @@
     "ritual.enigmatica.ritual/transmute_whirlisprig.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_whirlisprig.started": "Started transmuting Whirlisprig.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_drygmy": "§6Transmute Drygmy",
     "item.occultism.ritual_dummy.transmute_drygmy": "§6Ritual: Transmute Drygmy",
     "item.occultism.ritual_dummy.transmute_drygmy.tooltip": "§5Transmute a Drygmy from raw materials.",
     "ritual.enigmatica.ritual/transmute_drygmy.conditions": "Not all requirements for this ritual are met.",
@@ -163,6 +186,7 @@
     "ritual.enigmatica.ritual/transmute_drygmy.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_drygmy.started": "Started transmuting Drygmy.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_wilden_stalker": "§6Transmute Wilden Stalker",
     "item.occultism.ritual_dummy.transmute_wilden_stalker": "§6Ritual: Transmute Wilden Stalker",
     "item.occultism.ritual_dummy.transmute_wilden_stalker.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.conditions": "Not all requirements for this ritual are met.",
@@ -170,6 +194,7 @@
     "ritual.enigmatica.ritual/transmute_wilden_stalker.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_wilden_stalker.started": "Started transmuting Wilden Stalker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_wilden_hunter": "§6Transmute Wilden Pack Hunter",
     "item.occultism.ritual_dummy.transmute_wilden_hunter": "§6Ritual: Transmute Wilden Pack Hunter",
     "item.occultism.ritual_dummy.transmute_wilden_hunter.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_hunter.conditions": "Not all requirements for this ritual are met.",
@@ -177,6 +202,7 @@
     "ritual.enigmatica.ritual/transmute_wilden_hunter.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_wilden_hunter.started": "Started transmuting Wilden Pack Hunter.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_wilden_guardian": "§6Transmute Wilden Defender",
     "item.occultism.ritual_dummy.transmute_wilden_guardian": "§6Ritual: Transmute Wilden Defender",
     "item.occultism.ritual_dummy.transmute_wilden_guardian.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_guardian.conditions": "Not all requirements for this ritual are met.",
@@ -184,6 +210,7 @@
     "ritual.enigmatica.ritual/transmute_wilden_guardian.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_wilden_guardian.started": "Started transmuting Wilden Defender.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_wilden_boss": "§6Transmute Wilden Chimera",
     "item.occultism.ritual_dummy.transmute_wilden_boss": "§6Ritual: Transmute Wilden Chimera",
     "item.occultism.ritual_dummy.transmute_wilden_boss.tooltip": "§5Infuse a villager with monstrous attributes.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.conditions": "Not all requirements for this ritual are met.",
@@ -191,6 +218,7 @@
     "ritual.enigmatica.ritual/transmute_wilden_boss.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_wilden_boss.started": "Started transmuting Wilden Chimera.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_mooshroom": "§6Transmute Mooshroom",
     "item.occultism.ritual_dummy.transmute_mooshroom": "§6Ritual: Transmute Mooshroom",
     "item.occultism.ritual_dummy.transmute_mooshroom.tooltip": "§5Transmute a Mooshroom from raw materials.",
     "ritual.enigmatica.ritual/transmute_mooshroom.conditions": "Not all requirements for this ritual are met.",
@@ -198,6 +226,7 @@
     "ritual.enigmatica.ritual/transmute_mooshroom.interrupted": "Transmutation ritual interrupted.",
     "ritual.enigmatica.ritual/transmute_mooshroom.started": "Started transmuting Mooshroom.",
 
+    "item.occultism.ritual_dummy.sm/ritual/transmute_cockatrice": "§6Transmute Cockatrice",
     "item.occultism.ritual_dummy.transmute_cockatrice": "§6Ritual: Transmute Cockatrice",
     "item.occultism.ritual_dummy.transmute_cockatrice.tooltip": "§5Transmute a Cockatrice from raw materials.",
     "ritual.enigmatica.ritual/transmute_cockatrice.conditions": "Not all requirements for this ritual are met.",

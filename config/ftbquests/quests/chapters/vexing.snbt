@@ -343,7 +343,8 @@
 			]
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:guardian"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -919,6 +920,35 @@
 			}]
 			x: 1.0d
 			y: 11.0d
+		}
+		{
+			dependencies: ["7234B1B299DE122D"]
+			icon: {
+				id: "arsdelight:wilden_meat"
+			}
+			id: "3D7B773741D78864"
+			rewards: [{
+				id: "0C239829459D3013"
+				item: {
+					count: 1
+					id: "ars_nouveau:arcane_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03DF0245816D38A4"
+					item: { components: { "ftbfiltersystem:filter": "or(item(arsdelight:wilden_meat)item(arsdelight:chimera_meat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "24F2BEBFC964C83B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 12.0d
 		}
 	]
 }

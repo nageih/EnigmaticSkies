@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
                 'occultism:fragile_soul_gem[entity_data={id:"minecraft:villager",VillagerData:{type:"minecraft:snow"}}]'
             ).toJson(),
             ingredient: { item: 'supplementaries:statue' },
-            cookingtime: 10,
+            cookingtime: 1,
             experience: 0.15,
             id: `${id_prefix}villager`
         },
