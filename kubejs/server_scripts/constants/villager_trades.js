@@ -492,7 +492,7 @@ const villagerTrades = {
             level: 5
         },
         {
-            result: { id: 'enigmatica:antikythera_mechanism', count: 16 },
+            result: { id: 'enigmatica:antikythera_mechanism', count: 4 },
             ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }

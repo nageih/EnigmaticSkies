@@ -134,7 +134,8 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:no_fall_damage': 1,
                 'geneticsresequenced:jump_boost': 5,
                 'geneticsresequenced:luck': 4,
-                'geneticsresequenced:speed': 3
+                'geneticsresequenced:speed': 2,
+                'geneticsresequenced:fertile': 3
             }
         },
         {
