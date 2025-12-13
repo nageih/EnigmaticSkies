@@ -57,6 +57,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}large_steam_furnace`
         },
         {
+            output: `extended_industrialization:large_electric_furnace`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:conductive_coil`,
+                B: `modern_industrialization:bronze_plated_bricks`,
+                C: `modern_industrialization:bronze_furnace`
+            },
+            id: `${id_prefix}large_electric_furnace`
+        },
+        {
             output: `extended_industrialization:steel_brewery`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
@@ -91,6 +101,15 @@ ServerEvents.recipes((event) => {
                 E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}steel_canning_machine`
+        },
+        {
+            output: `extended_industrialization:large_configurable_chest`,
+            pattern: ['A', 'B', 'A'],
+            key: {
+                A: `modern_industrialization:configurable_chest`,
+                B: `minecraft:slime_ball`
+            },
+            id: `${id_prefix}large_configurable_chest`
         }
     ];
 

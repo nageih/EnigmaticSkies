@@ -5,7 +5,7 @@
     minimap: {
 		# Enable minimap
 		# Default: false
-		enabled: false
+		enabled: true
 	}
      waypoints: {
 		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
@@ -15,7 +15,7 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: false
+		death_waypoints: true
 		
 	}
 }

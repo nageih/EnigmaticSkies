@@ -23,19 +23,19 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'malum:grim_talc', count: 1 },
             ingredient: { ingredient: { item: 'minecraft:bone' }, count: 3 },
-            time: 5,
+            time: 2,
             id: `${id_prefix}grim_talc_from_bone`
         },
         {
             result: { id: 'malum:grim_talc', count: 1 },
             ingredient: { ingredient: { item: 'aquaculture:fish_bones' }, count: 9 },
-            time: 5,
+            time: 2,
             id: `${id_prefix}grim_talc_from_fish_bones`
         },
         {
             result: { id: 'malum:rotting_essence', count: 1 },
-            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 6 },
-            time: 5,
+            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 9 },
+            time: 2,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }
     ];

@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'minecraft:water', amount: 8000 }],
+            fluidOutputs: [{ fluid: 'minecraft:water', amount: 4000 }],
             ingredients: [{ item: 'theurgy:crystallized_water' }],
             time: 1,
             id: `${id_prefix}water`
@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             fluidOutputs: [{ fluid: 'industrialforegoing:pink_slime', amount: 100 }],
-            ingredients: [{ tag: 'c:foods/cooked_meats' }],
+            ingredients: [{ tag: 'c:foods/cooked_meat' }],
             time: 10,
             id: `${id_prefix}pink_slime`
         },

@@ -3,7 +3,7 @@ ServerEvents.tags('item', (event) => {
         tier_1: ['ars_nouveau:source_berry_roll'],
         tier_2: ['arsdelight:activated_mendosteen_jam'],
         tier_3: ['arsdelight:mendosteen_pie'],
-        tier_4: ['arsdelight:mendosteen_chicken']
+        tier_4: ['arsdelight:source_berry_cupcake']
     };
 
     Object.keys(additions).forEach((tag) => {

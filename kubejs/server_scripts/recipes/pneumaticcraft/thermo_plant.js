@@ -132,14 +132,14 @@ ServerEvents.recipes((event) => {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
             inputs: { item: { item: 'minecraft:dandelion' } },
             pressure: 2.0,
-            speed: 4.0,
+            speed: 40.0,
             id: `${id_prefix}latex_from_dandelion`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
             inputs: { item: { item: 'minecraft:vine' } },
             pressure: 2.0,
-            speed: 2.0,
+            speed: 20.0,
             id: `${id_prefix}latex_from_vine`
         },
         {
@@ -163,7 +163,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}sturdy_sheet`
         },
         {
-            outputs: { fluid_output: { id: 'minecraft:water', amount: 8000 } },
+            outputs: { fluid_output: { id: 'minecraft:water', amount: 4000 } },
             inputs: { item: { item: 'theurgy:crystallized_water' } },
             pressure: 1.0,
             temperature: { min: CtoK(0) },

@@ -515,7 +515,6 @@ ServerEvents.recipes((event) => {
         { output: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { output: /modern_industrialization:.*_diesel_generator/ },
         { output: /modern_industrialization:(lv|mv|hv|ev|superconductor)_storage_unit/ },
-        { output: /extended_industrialization:.*_alloy_smelter/ },
         { output: /modern_industrialization:.*_battery/ },
         { output: /modern_industrialization:dyes\/.*\/mixer\/benzene/ },
         { output: /modern_industrialization:.*tungsten/ },
@@ -669,6 +668,7 @@ ServerEvents.recipes((event) => {
         { output: /extended_industrialization:.*_solar_panel/ },
         { output: /extended_industrialization:(steel|bronze)_solar_boiler/ },
         { output: /extended_industrialization:.*_waste_collector/ },
+        { output: /extended_industrialization:.*_alloy_smelter/ },
         { id: /extended_industrialization:canning_machine\/(emptying|filling)\/minecraft\/water_bottle/ },
         { output: 'extended_industrialization:machine_config_card' },
         { output: 'extended_industrialization:mulch' },
@@ -688,6 +688,7 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:electric_farmer' },
         { output: 'extended_industrialization:bronze_composter' },
         { output: 'extended_industrialization:bronze_bending_machine' },
+        { output: 'extended_industrialization:large_configurable_chest' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
 
         // LaserIO
@@ -986,6 +987,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:soap' },
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
+        { output: 'supplementaries:pancake' },
         { id: 'supplementaries:dispenser_minecart' },
 
         // Theurgy

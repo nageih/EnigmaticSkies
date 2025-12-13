@@ -6,7 +6,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
                 { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 }
+                { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:briny_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -28,7 +29,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'minecraft:nautilus_shell', amount: 4, probability: 1 / 3 },
                 { item: 'minecraft:prismarine_shard', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_crystals', amount: 1, probability: 1 / 3 }
+                { item: 'minecraft:prismarine_crystals', amount: 1, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:silty_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -50,7 +52,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'aquaculture:fish_bones', amount: 3, probability: 1 / 3 },
                 { item: 'actuallyadditions:black_quartz', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:rotten_flesh', amount: 1, probability: 1 / 3 }
+                { item: 'minecraft:rotten_flesh', amount: 1, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:boggy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -72,7 +75,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'aether:zanite_gemstone', amount: 3, probability: 1 / 3 },
                 { item: 'occultism:echo_dust', amount: 2, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 }
+                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:reverberating_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -94,7 +98,8 @@ ServerEvents.recipes((event) => {
             item_outputs: [
                 { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
                 { item: 'theurgy:crystallized_lava', amount: 2, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 }
+                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
@@ -114,8 +119,9 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:sal_ammoniac_crystal', amount: 3, probability: 1 / 2 },
-                { item: 'ae2:sky_dust', amount: 2, probability: 1 / 2 }
+                { item: 'theurgy:sal_ammoniac_crystal', amount: 3, probability: 1 / 3 },
+                { item: 'ae2:sky_dust', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 1, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:cloudy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },

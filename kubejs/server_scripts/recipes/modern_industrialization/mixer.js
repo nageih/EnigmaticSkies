@@ -122,7 +122,7 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 100 }],
+            fluid_outputs: [{ fluid: 'enigmatica:vulcanized_rubber', amount: 1000 }],
             item_inputs: [{ tag: 'c:dusts/carbon', amount: 1 }],
             fluid_inputs: [
                 { tag: `c:latex`, amount: 1000 },

@@ -2119,7 +2119,7 @@
 	quest.3282293AB6B43287.quest_desc: [
 		"Slow but steady, this Compressor will get you started making &7Compressed Iron&r and &7Diamonds&r. "
 		""
-		"It's also a great way to make plates going forward."
+		"It's also a simple way to make plates going forward."
 		""
 		"&a🛈 Tip: Remember to lock the slots to "
 		"&a    control what recipe is processed!"
@@ -2656,6 +2656,14 @@
 		""
 		"This can be used, for instance, to set Gold Powder on a ring of Stone Bricks to constantly replenish your Ritual of the Forest!"
 	]
+	quest.3D7B773741D78864.quest_desc: [
+		"Harvesting edible meat from &7Wilden&r is a task that requires both skill and focus; one slip and the meat may be fouled by the cursed magic flowing through them."
+		""
+		"Such a delicate process can only be completed with a &7Knife&r. "
+		""
+		"By placing the &7Knife&r in an &7Arcane Pedestal&r next to a &7Drygmy Henge&r, they will be able to harvest the &7Meat&r for you."
+	]
+	quest.3D7B773741D78864.title: "Wilden Meat"
 	quest.3D91A9DBE0B091AE.quest_desc: ["Ranking low in protection and durability, but very high in cute factor, the Chocodisguise is a suit of armor that will make you feel as if you’re one of the herd. "]
 	quest.3D91A9DBE0B091AE.title: "Chocodisguise"
 	quest.3D9527EAA5944C17.quest_desc: [
@@ -4742,19 +4750,6 @@
 		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
 	]
 	quest.68079D29B91FC30A.title: "Industrialists"
-	quest.684A0E52D7BAC37C.quest_desc: [
-		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
-		""
-		"Stabilized Wormholes offer remote access so items can be piped in from remote farms."
-		""
-		"A Storage Accessor grants personal access to the storage from anywhere at all. "
-		""
-		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"0095002B3E34FD9A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Occultism\",\"underlined\":true},\" chapter. \"]"
-		""
-		"&a🛈 Tip: Sneak Right-Click a Stabilized "
-		"&a    Wormhole or Storage Accessor"
-		"&a    on the Actuator to link them."
-	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.687E532AD956C57A.quest_desc: [
 		"&6⚠ Note: Enderio machines require  "
@@ -5897,6 +5892,7 @@
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0271A5B9C85AB38D.title: "Any Small Flowers"
 	task.02EFB7B55C020448.title: "Chemicals and Gas"
+	task.03DF0245816D38A4.title: "Wilden Meat"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.066938F7CBA7C454.title: "Advanced Pattern Provider"
@@ -5944,6 +5940,7 @@
 	task.2404D63C45135601.title: "Spirit Aspects"
 	task.241DC4DBEF1C8648.title: "Observation: &2Wixie Cauldron&r"
 	task.2443C92B985E88B2.title: "Ender Cells"
+	task.24F2BEBFC964C83B.title: "Knives"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"

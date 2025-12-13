@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'actuallyadditions:empowered_canola_seed', count: 1 },
+            result: { id: 'actuallyadditions:empowered_canola_seed', count: 5 },
             base: { item: 'actuallyadditions:crystallized_canola_seed' },
             modifiers: [
                 { item: 'actuallyadditions:canola_seeds' },
@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:canola_seeds' }
             ],
             color: '#FF5B4C',
-            energy: 1000,
+            energy: 10000,
             time: 1,
             id: `${id_prefix}empowered_canola_seed`
         },
