@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'handcrafted:witch_trophy', count: 4 },
             input: { item: 'minecraft:clay', count: 8 },
             extraInputs: [
-                { tag: 'c:essences/anima', count: 4 },
+                { tag: 'c:essences/anima', count: 1 },
                 { item: 'naturesaura:token_sorrow', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
@@ -113,7 +113,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'handcrafted:evoker_trophy', count: 4 },
             input: { item: 'minecraft:clay', count: 8 },
             extraInputs: [
-                { tag: 'c:essences/anima', count: 4 },
+                { tag: 'c:essences/anima', count: 1 },
                 { item: 'naturesaura:token_joy', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'handcrafted:pillager_trophy', count: 4 },
             input: { item: 'minecraft:clay', count: 8 },
             extraInputs: [
-                { tag: 'c:essences/anima', count: 4 },
+                { tag: 'c:essences/anima', count: 1 },
                 { item: 'naturesaura:token_fear', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],
@@ -143,7 +143,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'handcrafted:vindicator_trophy', count: 4 },
             input: { item: 'minecraft:clay', count: 8 },
             extraInputs: [
-                { tag: 'c:essences/anima', count: 4 },
+                { tag: 'c:essences/anima', count: 1 },
                 { item: 'naturesaura:token_anger', count: 1 },
                 { item: 'ars_additions:ancient_codex_entry', count: 1 }
             ],

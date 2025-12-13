@@ -13,6 +13,21 @@ ServerEvents.recipes((event) => {
             ],
             replace: { item: 'enigmatica:source_ink', replacement: 'minecraft:glass_bottle' },
             id: `${id_prefix}statue`
+        },
+        {
+            output: '24x supplementaries:pancake',
+            inputs: [
+                '#c:foods/milk',
+                'pneumaticcraft:wheat_flour',
+                'pneumaticcraft:wheat_flour',
+                'pneumaticcraft:wheat_flour',
+                'pneumaticcraft:wheat_flour',
+                'pneumaticcraft:wheat_flour',
+                'pneumaticcraft:wheat_flour',
+                '#c:eggs',
+                'minecraft:sugar'
+            ],
+            id: `${id_prefix}pancake`
         }
     ];
 

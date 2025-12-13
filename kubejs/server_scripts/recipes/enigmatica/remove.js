@@ -987,6 +987,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:soap' },
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
+        { output: 'supplementaries:pancake' },
         { id: 'supplementaries:dispenser_minecart' },
 
         // Theurgy
