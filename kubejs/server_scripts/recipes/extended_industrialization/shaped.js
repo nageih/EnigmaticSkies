@@ -57,6 +57,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}large_steam_furnace`
         },
         {
+            output: `extended_industrialization:large_electric_furnace`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: `modern_industrialization:conductive_coil`,
+                B: `modern_industrialization:bronze_plated_bricks`,
+                C: `modern_industrialization:bronze_furnace`
+            },
+            id: `${id_prefix}large_electric_furnace`
+        },
+        {
             output: `extended_industrialization:steel_brewery`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {

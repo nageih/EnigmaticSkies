@@ -296,6 +296,11 @@ const villagerTrades = {
             ingredients: [{ id: 'minecraft:porkchop', count: { min: 8, max: 8 } }],
             level: 4
         },
+        {
+            result: { id: 'arsdelight:chimera_meat', count: 2 },
+            ingredients: [{ id: 'ars_nouveau:wilden_tribute', count: { min: 1, max: 1 } }],
+            level: 4
+        },
 
         {
             result: {
@@ -487,7 +492,7 @@ const villagerTrades = {
             level: 5
         },
         {
-            result: { id: 'enigmatica:antikythera_mechanism', count: 4 },
+            result: { id: 'enigmatica:antikythera_mechanism', count: 16 },
             ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }
