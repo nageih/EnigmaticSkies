@@ -110,6 +110,8 @@
             "modern_industrialization:electric_unpacker",
             "modern_industrialization:centrifuge",
             "modern_industrialization:hv_steam_turbine",
+            "modern_industrialization:diesel_chainsaw",
+            "modern_industrialization:diesel_mining_drill",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

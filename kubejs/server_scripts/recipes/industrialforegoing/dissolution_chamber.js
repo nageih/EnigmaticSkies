@@ -304,8 +304,8 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:restonia_crystal' },
                 { item: 'prettypipes:blank_module' },
                 { item: `minecraft:${color}_wool` },
-                { item: 'actuallyadditions:basic_coil' },
-                { item: 'actuallyadditions:basic_coil' },
+                { item: 'create:precision_mechanism' },
+                { item: 'create:precision_mechanism' },
                 { item: `minecraft:${color}_wool` },
                 { item: 'prettypipes:blank_module' },
                 { item: 'actuallyadditions:palis_crystal' }
