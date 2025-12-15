@@ -141,16 +141,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_core_4`
         },
         {
-            results: [{ id: 'modern_industrialization:lubricant_bucket', count: 1 }],
-            inputs: [
-                { item: 'justdirethings:polymorphic_fluid_bucket', count: 1 },
-                { tag: 'c:dusts/grains_of_infinity', count: 4 },
-                { item: 'ars_nouveau:starbuncle_charm', count: 4 }
-            ],
-            pressure: 1.0,
-            id: `${id_prefix}lubricant_bucket`
-        },
-        {
             results: [{ id: 'modern_industrialization:conductive_cable', count: 6 }],
             inputs: [
                 { tag: 'c:ingots/conductive_alloy', count: 3 },

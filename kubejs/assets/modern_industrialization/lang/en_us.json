@@ -69,5 +69,12 @@
     "block.modern_industrialization.bronze_fluid_input_hatch": "Andesite Alloy Fluid Input Hatch",
     "block.modern_industrialization.bronze_fluid_output_hatch": "Andesite Alloy Fluid Output Hatch",
     "block.modern_industrialization.bronze_item_input_hatch": "Andesite Alloy Item Input Hatch",
-    "block.modern_industrialization.bronze_item_output_hatch": "Andesite Alloy Item Output Hatch"
+    "block.modern_industrialization.bronze_item_output_hatch": "Andesite Alloy Item Output Hatch",
+
+    "item.modern_industrialization.diesel_chainsaw": "Mechanical Chainsaw",
+    "advancements.modern_industrialization.diesel_chainsaw.description": "Craft a Mechanical Chainsaw",
+    "item.modern_industrialization.diesel_jetpack": "Turbo Jetpack",
+    "advancements.modern_industrialization.diesel_jetpack.description": "Craft a Turbo Jetpack",
+    "item.modern_industrialization.diesel_mining_drill": "Mechanical Mining Drill",
+    "advancements.modern_industrialization.diesel_mining_drill.description": "Craft a Mechanical Mining Drill"
 }

@@ -154,18 +154,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}charger_block`
         },
         {
-            output: `oritech:jetpack`,
-            pattern: ['ABA', 'CDC', 'EAE'],
-            key: {
-                A: '#c:plates/steel',
-                B: 'ars_nouveau:belt_of_levitation',
-                C: 'pneumaticcraft:cannon_barrel',
-                D: 'actuallyadditions:advanced_coil',
-                E: '#c:essences/fire'
-            },
-            id: `${id_prefix}jetpack`
-        },
-        {
             output: `oritech:powered_furnace_block`,
             pattern: ['AAA', ' B ', 'CDC'],
             key: {
@@ -285,8 +273,62 @@ ServerEvents.recipes((event) => {
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}treefeller_block`
+        },
+
+        {
+            output: `oritech:jetpack`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/steel',
+                B: 'ars_nouveau:belt_of_levitation',
+                C: 'pneumaticcraft:cannon_barrel',
+                D: 'oritech:basic_battery',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}jetpack`
+        },
+        {
+            output: `oritech:jetpack_elytra`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `oritech:jetpack`,
+                E: 'minecraft:elytra'
+            },
+            id: `${id_prefix}jetpack_elytra`
+        },
+        {
+            output: `oritech:jetpack_exo_elytra`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `oritech:exo_jetpack`,
+                E: 'minecraft:elytra'
+            },
+            id: `${id_prefix}jetpack_exo_elytra`
         }
     ];
+
+    const exo_armor = ['helmet', 'chestplate', 'leggings', 'boots'];
+
+    exo_armor.forEach((armor) => {
+        recipes.push({
+            output: `oritech:exo_${armor}`,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `minecraft:leather_${armor}`,
+                E: 'oritech:basic_battery'
+            },
+            id: `${id_prefix}exo_${armor}`
+        });
+    });
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

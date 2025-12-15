@@ -3,28 +3,98 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            result: { id: 'enderio:pulsating_crystal', count: 1 },
+            result: { id: 'enderio:pulsating_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
             spirits: [
                 { type: 'malum:arcane', count: 4 },
-                { type: 'malum:earthen', count: 2 },
-                { type: 'malum:aqueous', count: 2 }
+                { type: 'malum:earthen', count: 4 },
+                { type: 'malum:aqueous', count: 4 }
             ],
             durabilityCost: 1,
-            time: 15,
+            time: 64,
             id: `${id_prefix}pulsating_crystal`
         },
         {
             result: { id: 'enderio:weather_crystal', count: 1 },
             input: { item: 'malum:zephyr_impetus' },
             spirits: [
-                { type: 'malum:aerial', count: 8 },
+                { type: 'malum:aerial', count: 16 },
                 { type: 'malum:arcane', count: 16 },
-                { type: 'malum:infernal', count: 8 }
+                { type: 'malum:infernal', count: 16 }
             ],
             durabilityCost: 1,
-            time: 15,
+            time: 64,
             id: `${id_prefix}weather_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:emeradic_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}emeradic_crystal`
+        },
+        {
+            result: { id: 'aether:ambrosium_shard', count: 4 },
+            input: { item: 'malum:gold_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}ambrosium_shard`
+        },
+        {
+            result: { id: 'actuallyadditions:palis_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:aqueous', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}palis_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:diamatine_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:aerial', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}diamatine_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:restonia_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:infernal', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}restonia_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:enori_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:earthen', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}enori_crystal`
         }
     ];
 
@@ -39,7 +109,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:infernal', count: 2 }
             ],
             durabilityCost: 2,
-            time: 15,
+            time: 32,
             id: `${id_prefix}node_focusing_${material}`
         });
     });

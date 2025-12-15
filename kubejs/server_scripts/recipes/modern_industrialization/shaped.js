@@ -444,6 +444,18 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:lubricant_bucket'
             },
             id: `${id_prefix}highly_advanced_upgrade`
+        },
+        {
+            output: 'modern_industrialization:diesel_jetpack',
+            pattern: ['ABA', 'CDC', 'EBE'],
+            key: {
+                A: 'modern_industrialization:bronze_tank',
+                B: '#c:plates/andesite_alloy',
+                C: 'pneumaticcraft:cannon_barrel',
+                D: 'minecraft:elytra',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}diesel_jetpack`
         }
     ];
 

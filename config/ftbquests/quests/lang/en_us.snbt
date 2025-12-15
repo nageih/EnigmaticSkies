@@ -6,12 +6,9 @@
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
-	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.17B9F323B083C6C2.title: "It Takes a Village"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
-	chapter.24DC8C08564BB550.title: "Actually Additions"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
-	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.300207E2557764E1.title: "Flashing Island"
 	chapter.402AE6264B81A84B.title: "Logistics"
 	chapter.40C97D6332BD825B.title: "Cascading Island"
@@ -129,13 +126,6 @@
 		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
 	]
 	quest.04107677B244E672.title: "Abra's Open Conjure"
-	quest.042650AE25DAC4CA.quest_desc: [
-		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
-		""
-		"Thankfully, there’s a similar upgrade for your Boiler. "
-		""
-		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
-	]
 	quest.0458B6BC887C9725.quest_desc: [
 		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
 		""
@@ -151,6 +141,22 @@
 		""
 		"&a🛈 Tip: You can use more than four "
 		"&a    Laser Drills on a Laser Base!"
+	]
+	quest.04AE4EA4C7CFB080.quest_desc: [
+		"Well worth the effort, the Turbo Jetpack functions much like an Elytra with the Space bar controlling it."
+		""
+		"[\"• Toggle Flight (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Toggle Flight\"}]},\"keybind\":\"key.modern_industrialization.toggle_flight\"},\")\"]"
+		""
+		"• Hold Space while on the ground to be "
+		"  propelled straight up"
+		""
+		"• Tap Space to begin gliding"
+		""
+		"• While gliding, hold Space to provide a "
+		"  speed boost in the direction you’re "
+		"  looking"
+		""
+		"&c⚠ Warning: Not for Indoor Use."
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
@@ -347,16 +353,6 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
-	quest.0A0D539C1285F40F.quest_desc: [
-		"Getting started with Nature’s Aura will require using some Brilliant Fibers on leaves. "
-		""
-		"Just right click these fibers onto leaves and wait. Over time, they’ll slowly convert and spread, turning the leaves a vibrant gold color. "
-		""
-		"These Golden Leaves will drop Gold Leaf when broken, but they’ll also continue to spread indefinitely, so long as there are adjacent leaves. "
-		""
-		"So, consider leaving a few un-broken so they can spread to new leaves. "
-	]
-	quest.0A0D539C1285F40F.title: "Gold Leaf"
 	quest.0A170AE8092145FA.quest_desc: [
 		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
 		""
@@ -384,12 +380,6 @@
 		"&a    renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
-	quest.0BA9F73FFBAAB6E7.quest_desc: [
-		"As in previous tiers, our efforts have opened up new technology, this time in the form of advanced computer components. "
-		""
-		"Once you’re able to reliably craft these components, you should be ready to proceed on to the EV Tier."
-	]
-	quest.0BA9F73FFBAAB6E7.title: "Advanced Computing"
 	quest.0BB6D2595F99ADB4.quest_desc: [
 		"Now that we can animate blocks and start collecting more varied Spirits, it’s time to delve into genetic manipulation."
 		""
@@ -417,24 +407,6 @@
 	]
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
-	quest.0CBCE3A0D149AED0.quest_desc: [
-		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
-		"&n                                                  &r"
-		""
-		"Running a Nuclear Reactor will take a little more effort than most machines. Not only does it require fuel and cooling, but those materials change the way the Reactor operates depending on which hatch they go into. "
-		""
-		"[\"The following website has a reactor planner to help with this, as well as several example builds to get you started: \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/warbaque/MI-Reactor-Planner/blob/main/README.md\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"MI Reactor Planner\",\"underlined\":true}]"
-		""
-		"It may be tempting to start with a small reactor, but it will be slow and inefficient. If you have the materials, jump straight to the Extreme size."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-		""
-		"&6⚠ Note: Reactors cannot melt down "
-		"&6    and do not explode.&r"
-	]
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
@@ -477,16 +449,6 @@
 		"Have a trait you don’t want anymore? You can remove them by crafting an Anti-Plasmid. "
 		""
 		"Attune it to the trait you wish to remove by crafting it together with a Plasmid of that type. Then inject it into a blood sample, just as you would with a regular Plasmid."
-	]
-	quest.0D80520D08A5C287.quest_desc: [
-		"MV Steam Turbines make more energy, but also consume steam faster. Upgrading to an Advanced Large Steam Boiler sooner, rather than later, will make life easier. "
-		""
-		"Just like with previous boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
 	]
 	quest.0DA6F0172E06CCB1.quest_desc: [
 		"Building on its tool upgrade system, Just Dire Things also introduces a number of abilities for its armor tiers. "
@@ -685,19 +647,6 @@
 		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
 		""
 		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
-		""
-		"&6⚠ Note: Only the Spirits are consumed "
-		"&6    by this process."
-	]
-	quest.12903CD319AE35B9.quest_desc: [
-		"With the Steam Blast Furnace, Steel production can begin. "
-		""
-		"This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
 	]
 	quest.12AF74656C5F124A.quest_desc: [
 		"The SAG Mill is used for grinding and crushing anything from ores to plant matter. "
@@ -799,25 +748,12 @@
 		""
 		"You should have plenty of raw materials for this from your various animal farms and dorodangos. "
 	]
-	quest.1386A595D84FE6FC.quest_desc: [
-		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
-		""
-		"Consider setting up a few to continuously process materials like Lava, Redstone, and Raw Iron to obtain some very useful byproducts."
-	]
 	quest.13B5382C24CB79B3.quest_desc: [
 		"Work in progress."
 		""
 		"Content coming Soon™!"
 	]
 	quest.13B5382C24CB79B3.title: "Redstone"
-	quest.13D810A6AB4FACC0.quest_desc: [
-		"The next big material advance will be Stainless Steel, made in the Vacuum Freezer. This machine will be key for several other materials going forward."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.13F15094F3AF4A73.quest_desc: [
 		"&6&nBiome: Mushroom Fields&r&r"
 		""
@@ -1061,26 +997,6 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
-	quest.1824109EF4F096A1.quest_desc: [
-		"Power requirements are going to rapidly increase in this stage. Setting up some extra boilers in advance will save you trouble down the road. "
-		""
-		"Of course, transferring all that extra power is going to need something better than MV cables. "
-		""
-		"Transforming to HV will allow you to carry much more power along a trunk line which can then be transformed it back to MV at an isolated cluster of machines."
-		""
-		"Consider multiple setups like this:"
-		""
-		"&eAdvanced Boiler"
-		"  &e╰┈➤ &3MV Turbine Cluster"
-		"  &3╰┈➤ &aMV to HV Transformer"
-		"  &a╰┈➤ &bAluminum Cables"
-		"  &b╰┈➤ &aHV to MV Transformer"
-		"  &a╰┈➤ &3Machine Cluster"
-		""
-		"&6⚠ Note: Keep your MV subnetworks "
-		"&6    separate so they aren't limited by"
-		"&6    the max transfer rate."
-	]
 	quest.18A17E8080792318.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
@@ -1123,24 +1039,6 @@
 		"&a🛈 Tip: Harvest Rituals can be an easy "
 		"&a    way to farm these fruit!"
 	]
-	quest.1A0A7309D9B2F4FF.quest_desc: [
-		"Tired of mining yet? Look no further. "
-		""
-		"The design concept of Modern Industrialization is to minimize manual labor, including mining. There will be times where it is required to move forward, but rest assured, there’s an automated method coming soon after. "
-		""
-		"With the Steam Quarry, basic materials such as Iron, Copper, Tin, Coal, and more may be collected automatically. The results of an operation depend on the Drill installed; at this point only Copper and Bronze drills are available. "
-		""
-		"Drills do break over time, so setting up a production line for them will be important. "
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-		""
-		"&c⚠ Warning: Outputs will be voided if"
-		"&c    there are insufficient Hatches"
-		"&c    available to receive the items!"
-	]
 	quest.1A2B5BCA37161B1A.quest_desc: [
 		"This workstation allows the &7Wixie&r to craft &7Enchanting Apparatus&r recipes. "
 		""
@@ -1154,18 +1052,6 @@
 		"&6    step must be specified separately."
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
-	quest.1A650F4235F6204A.quest_desc: [
-		"Upgrade time again!"
-		""
-		"As usual, when changing tiers it is a good idea to sit back and review your machines. Upgrading to LV Electric Tier is going to speed up many processes. It may also enable recipes that lower tier machines couldn’t handle at all. "
-		""
-		"Since Tin Cables can occupy the same space as Fluid Pipes, this upgrade process shouldn’t be too daunting. Just lay some Tin Cables along your Steam Fluid Pipes and you can start swapping out machines as you’re able to craft them. "
-		""
-		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable "
-		"&a    against a machine to easily create"
-		"&a    a connection."
-	]
-	quest.1A650F4235F6204A.title: "Upgrade Electric"
 	quest.1AB4455F15DF1F84.quest_desc: [
 		"The Natural Altar is likely going to be the first device you make use of that consumes Aura."
 		""
@@ -1173,10 +1059,9 @@
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are Aura Generators to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen, however."
+		"There are Aura Generators to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
 		""
 		"Luckily for you, this Natural Altar will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
-		""
 		"&n                                                              &r"
 		""
 		"This devices requires a multiblock structure to function. "
@@ -1341,7 +1226,7 @@
 		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
 		"&n                                                  "
 		""
-		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials; Arcane for Redstone, Infernal for Glowstone, and more. "
+		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials."
 		""
 		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
 	]
@@ -1380,11 +1265,6 @@
 		"The &7Whirlisprig&r will manage the plants in a large area, gently harvesting small quantities of everything in its home area and depositing them in an inventory &nadjacent&r to its &7Blossom&r."
 		""
 		"Source is required and will be taken from a nearby &7Source Jar&r."
-	]
-	quest.1E78584388808899.quest_desc: [
-		"Finally a multiblock to replace all of those individual turbines you’ve been using. "
-		""
-		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
 	]
 	quest.1E8C6CE5E863EC0F.quest_desc: [
 		""
@@ -1431,19 +1311,6 @@
 		"&6    default. Either supply a Redstone "
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
-	]
-	quest.20877ECE7619845D.quest_desc: [
-		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
-		""
-		"It’s good to start with the power infrastructure, however. Consider building some MV Turbines and down converting the power from MV to LV for now with a Transformer."
-		"&n                                                  &r"
-		""
-		"As you expand your MV power grid, your existing LV machines can be easily upgraded to run on MV instead."
-		""
-		"Advanced Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
-		""
-		"&6⚠ Note: Machines simply do not run if"
-		"&6    given the wrong tier of power."
 	]
 	quest.2098F9F6E49956A5.quest_desc: [
 		"During the Calcination step, related materials are refined into an Alchemical Salt. "
@@ -1544,11 +1411,6 @@
 		""
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
-	]
-	quest.235AA993029F7277.quest_desc: [
-		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
-		""
-		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
 	]
 	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in Enigmatica 10."]
 	quest.235D7EF41916E480.title: "Power"
@@ -1918,13 +1780,6 @@
 		""
 		"To use the Focus, simply press and hold Right-Click. You’ll see a stream of particles that you’ll want to aim at the Spirit. Hold it long enough and the Spirit will be absorbed by the Box."
 	]
-	quest.2C84374CBB186FE2.quest_desc: [
-		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
-		""
-		"&a🛈 Tip: Right-Clicking many Bronze Tier"
-		"&a    machines with Gunpowder will briefly"
-		"&a    speed them up."
-	]
 	quest.2CA1A8A7B84FAD71.quest_desc: [
 		"Modular Routers is a catch all logistics mod capable of many things. "
 		""
@@ -1973,14 +1828,6 @@
 		"You can convert these into &7Brown Mushrooms&r, perfect for making &7Dumplings&r!"
 	]
 	quest.2F1EA0B091C700E1.title: "Fisherman"
-	quest.2F797BC2E447F9BF.quest_desc: [
-		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.2F9C801DFAC1C0D9.quest_desc: [
 		"Librarians will sell you everything you need to set up your own &7Storage Lectern&r to organize all of your goods. "
 		""
@@ -2146,7 +1993,6 @@
 		"&a    which ones go where."
 	]
 	quest.3456EED039818662.title: "Quantum Bridge"
-	quest.349B97172AB3E56E.quest_desc: ["Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."]
 	quest.34F48A8F71A7C937.quest_desc: [
 		"Ender Crates represent an upgrade over Ender Chests. Not only can they be accessed by automation and logistics, but they can also be separated into multiple channels based on their name."
 		""
@@ -2160,24 +2006,7 @@
 		"You won’t be able to afford much yet but be sure to buy yourself a &7Tablet of Conjure Island: Lush Garden&r."
 	]
 	quest.34FB10F0A2504973.title: "Shepherd"
-	quest.34FFE863EB846035.quest_desc: [
-		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
-		""
-		"To begin, you’ll need 8 Wooden Stands and 16 Gold Powder. These will be laid out in concentric circles with the ingredients for the craft going on a Wooden Stand in any order. "
-		""
-		"Refer to the Book of Natural Aura for a preview of their placement."
-		""
-		"Once all the items and powder are in place, plant the requested sapling in the center and grow it. Upon growing, the ritual will begin. "
-		""
-		"&6⚠ Note: Golden Powder is consumed "
-		"&6    during the craft!"
-		""
-		"&a🛈 Tip: An Environmental Eye will allow "
-		"&a    you to see local Aura levels!"
-	]
-	quest.34FFE863EB846035.title: "Ritual of the Forest"
 	quest.356670417C9A6BB8.title: "Foliot Crusher"
-	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
 	quest.359562022532BAE1.quest_desc: [
 		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
 		"&n                                                   &r"
@@ -2205,13 +2034,6 @@
 		""
 		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
 	]
-	quest.35FB0C624C95D506.quest_desc: [
-		"The Altar of Birthing can be an excellent way to call forth more creatures, as needed. "
-		""
-		"It’s not a full-fledged mob farm, but it can be a great way to get a few rare mobs for use in another farm of your choosing. "
-		""
-		"Try summoning a few Rabbits with the rewards from this quest!"
-	]
 	quest.35FD905A4A4EB1F5.quest_desc: [
 		"Pretty Pipes: Fluids is an addon to Pretty Pipes which allows the network to carry fluids in addition to items. The same network will effectively carry both, allowing everything to flow through a single block space. "
 		""
@@ -2220,18 +2042,10 @@
 		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
 	quest.35FDFEDE5CAC0303.title: "Farmer"
-	quest.368DC26C96A32AB7.quest_desc: [
-		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.369D0F2CC8D028D2.quest_desc: [
-		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment."
+		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment. Catalyzers may be similarly augmented, though each may only hold a single Augment."
 		""
-		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the best results. "
+		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the desired results. "
 		""
 		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
 		""
@@ -2383,11 +2197,6 @@
 		""
 		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
 	]
-	quest.3A347A9576A5D514.quest_desc: [
-		"Quantum Upgrades unlock the greatest potential of your machines, with a single upgrade allowing it to reach its maximum potential."
-		""
-		"Be sure to combine them with Quantum Machine Hulls, as they’re going to need an enormous amount of power to run. This will allow them to accept Superconductor Power directly."
-	]
 	quest.3A7AD25302240A1B.quest_desc: [
 		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
 		""
@@ -2417,20 +2226,6 @@
 		"This chapter will help you discover these lovely birds, their favorite snacks, and how to obtain each variety."
 	]
 	quest.3AB9D7E7D4205334.title: "ChocoCraft"
-	quest.3AD70D3BEF01A693.quest_desc: [
-		"The Coke Oven will be the first of many multi-block machines."
-		""
-		"Every multiblock in Modern Industrialization will require input and output hatches commensurate with the recipes it handles."
-		""
-		"In this case, the Coke Oven requires both Item and Fluid inputs and outputs. Steam and Coal in, Coke and Creosote out."
-		""
-		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Coke Oven block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.3B609B8A4DE93B53.quest_desc: [
 		"Build a &7Melon&r farm and set your Alakarkinos to work making &7Melon Balls&r!"
 		""
@@ -2468,16 +2263,6 @@
 		"We’ll learn ways to further refine this later. "
 		""
 		"For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
-	]
-	quest.3C169A2002B47DC5.quest_desc: [
-		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
-		""
-		"Ultimately, you will need five of these. It is recommended to start off with four right now, however, as the fifth will require more precious materials to operate."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
 	]
 	quest.3C4305830D6978C5.quest_desc: [
 		"Looking for an upgrade to your mining?"
@@ -2518,7 +2303,6 @@
 		"&a    debug channels on your network!"
 	]
 	quest.3CA4472228D0F866.title: "ME Networks"
-	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3CBA1384BD3D28ED.quest_desc: [
 		"This workstation allows the &7Wixie&r to craft &7Furnace&r recipes. "
 		""
@@ -2618,23 +2402,6 @@
 		"    are capable flyers."
 	]
 	quest.3D307863E39B9EFE.title: "Breeding and Mutations"
-	quest.3D334F8BDD0E4046.quest_desc: [
-		"The Pressurizer should be the first stop after manufacturing Titanium. "
-		""
-		"It’ll be used to upgrade our power generation, as well as granting access to new materials. Notably, Liquid Air which will be centrifuged for Argon and Nitrogen; both of which are used to enable more advanced electronics."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
-	quest.3D4F8ED65C176071.quest_desc: [
-		"Steam Turbines usher in a new age of power and productivity. "
-		""
-		"LV Tier machines can operate faster than Steel Tier, and introduce an Efficiency mechanic that allows them to run very fast over time; the longer they run the same recipe uninterrupted, the faster they’ll process. "
-		""
-		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
-	]
 	quest.3D59639F51E89CF9.quest_desc: [
 		"The Advanced Clicker gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
@@ -2800,7 +2567,6 @@
 	]
 	quest.3F20E7D7E1C07311.title: "They See Me Ballin'"
 	quest.3F2E1099BB66AFEB.title: "Abra's Fortified Conjure"
-	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
 		""
@@ -2922,20 +2688,6 @@
 		"&a    on grass!"
 	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
-	quest.422F7BABAAEE92E0.quest_desc: [
-		"Well worth the effort, the Diesel Jetpack functions much like an Elytra with the Space bar controlling it."
-		""
-		"• Hold Space while on the ground to be "
-		"  propelled straight up."
-		""
-		"• Tap Space to begin gliding."
-		""
-		"• While gliding, hold Space to provide a "
-		"  speed boost in the direction you’re "
-		"  looking."
-		""
-		"&c⚠ Warning: Not for indoor use."
-	]
 	quest.425A0A28D31DC15F.quest_desc: [
 		"Very handy for in-world crafting, the Ranged Collector is a filterable vacuum which sucks up items in a large area. "
 		""
@@ -2962,22 +2714,6 @@
 		"&a    contain your bats!"
 	]
 	quest.42F2191B5C08849B.title: "Bat"
-	quest.42F410023D62E6CB.quest_desc: [
-		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
-		""
-		"Setting up an Oil Drilling Rig or two will open the door to those materials so that we may continue our trek into ever more advanced technology."
-		""
-		"Similar to the Quarry, the Oil Drilling Rig consumes Drills to produce its outputs."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-		""
-		"&c⚠ Warning: Outputs will be voided if"
-		"&c    there are insufficient Hatches"
-		"&c    available to receive the items!"
-	]
 	quest.433DD2ED590790F8.quest_desc: [
 		"Used for mixing Concrete, Potions, and other materials, the Mixer is a vital part of any factory."
 		"&n                                                  "
@@ -3288,17 +3024,6 @@
 		"Coupled with a QIO Redstone Adapter, these can be used to keep stock of various products."
 	]
 	quest.4840F7361DF70516.title: "QIO System"
-	quest.487C1E9850772F38.quest_desc: [
-		"At this point, you may be feeling the heat a bit, noticing your Boiler can’t keep up. Building more is an option, but upgrading infrastructure periodically will be more efficient in the long run. "
-		""
-		"Build an upgrade kit for each Bronze machine and install them via Sneak Right-Click; there’s no need to pick up the machine to upgrade them!"
-		""
-		"Hatches should also be upgraded to Steel. Having at least one Steel Hatch installed in a multiblock will upgrade its tier to Steel. Hatches must be picked up to upgrade them."
-		""
-		"&a🛈 Tip: Steel Tier Machines run faster"
-		"&a    than their Bronze counterparts."
-	]
-	quest.487C1E9850772F38.title: "Steel Upgrades"
 	quest.48B6E6CDBFFD77A7.quest_desc: [
 		"Runes may be imbued with powerful effects that become active when worn. Equipping them, however, requires an appropriate receptacle. "
 		"&n                                                  "
@@ -3388,7 +3113,6 @@
 		"They allow quite sophisticated filtering and can even be sped up by simply inserting more &7Labels&r in the GUI."
 	]
 	quest.49F48B91801BE4FE.title: "Transfer Labels"
-	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"
 		""
@@ -3418,24 +3142,6 @@
 		""
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
-	]
-	quest.4A8EF3D657CEAED5.quest_desc: [
-		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
-		""
-		"The Electric Quarry is the answer to this very issue. "
-		""
-		"With it, more advanced materials such as Lead, Antimony, Bauxite, and various gems may be collected automatically. As with the Steam Quarry, the results of an operation depend on the Drill installed. The Electric Quarry can use the same Bronze and Copper Drills as the Steam Quarry, in addition to others; notably Gold and Steel Drills. "
-		""
-		"Upgrading to Electric is as simple as swapping the controller block and replacing the Steam Hatch with an LV Hatch."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-		""
-		"&c⚠ Warning: Outputs will be voided if"
-		"&c    there are insufficient Hatches"
-		"&c    available to receive the items!"
 	]
 	quest.4AA912FDACFC1654.quest_desc: [
 		"Next, we need to Digest our materials. When exalting to a higher tier, we also need to add Purified Gold to the mix. Refer to EMI for recipes. "
@@ -3522,18 +3228,6 @@
 		"&6    still process basic recipes if they "
 		"&6    don’t conflict."
 	]
-	quest.4CB37C07E76303A6.quest_desc: [
-		"Crafting the Implosion Compressor is going to require a new alloy, Blastproof Alloy. Once the machine is built it can be used to greatly simplify the process. For now, however, you’ll need to do things the hard way."
-		""
-		"Titanium and Stainless Steel shouldn’t be an issue at this point, but Tungsten will be. "
-		""
-		"For now, the best way to obtain it will be by the nugget: Tiny Tungsten Dust can be compressed in an Electric Compressor to obtain Tungsten Nuggets. These can then be crafted into the Ingots you’ll need."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.4CC1CF537349C2D6.quest_desc: [
 		"Need a little more room to work? Summoning another island is always an option. "
 		""
@@ -3556,14 +3250,6 @@
 		"&a    more information!"
 	]
 	quest.4CE65730937AB775.title: "Ritual Magic"
-	quest.4CE66DC7BB1AC84B.quest_desc: [
-		"Plasma Turbines are used to convert the Helium Plasma created by the Fusion Reactor into useful EU. "
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.4D1EE65F80F50090.quest_desc: [
 		"The Reformation Source Pedestal is used to hold our input ingredients; Lapis Sulfur for the time being."
 		""
@@ -3649,7 +3335,6 @@
 		"&6⚠ Note: The structure will accept "
 		"&6    any Steel Block. "
 	]
-	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F19A0AECC129216.quest_desc: [
 		"The Atomic Forge is an advanced crafting device which uses Enderic Lasers to operate. "
@@ -3722,13 +3407,6 @@
 	quest.503E9805EC687D70.title: "Eziveus' Spectral Compulsion"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
-	quest.5078D0CBD8AB602E.quest_desc: [
-		"You’ve officially reached the end of your journey through Modern Industrialization. Congratulations! "
-		""
-		"With the Replicator, you can now freely duplicate just about whatever you want."
-		""
-		"Running it is no small task, however, as the UU Matter that it operates on is exceedingly costly to create. "
-	]
 	quest.50BCEB07C736B906.quest_desc: [
 		"The Force Field Projector, despite the name, can do considerably more, depending on the modules involved. At its simplest, it puts up a wall to prevent passage. However, it can also be used to damage mobs, clear blocks and fluids, or to place blocks."
 		""
@@ -3859,22 +3537,6 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
-	quest.5521F91C980C5007.quest_desc: [
-		"The Heat Exchanger will soon replace the Vacuum Freezer for many recipes which require cooling. However, it plays a critical role in expanding our current power generation capabilities."
-		""
-		"First, use a Pressurizer to obtain some High Pressure Water. This process is slow, but the HP Water will be recycled during this process."
-		""
-		"Next, the HP Water will be input into a High Pressure Large Steam Boiler; it won’t accept regular water. This results in High Pressure Steam."
-		""
-		"Now the HP Steam and normal Water may be input into the Heat Exchanger. Those will result in HP Water and a bunch of regular Steam to turn a Turbine."
-		""
-		"Finally, the resulting HP Water can be looped back to the HP Large Steam Boiler.This entire loop should be lossless, so the Pressurizer will only be required to get it started."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-	]
 	quest.5550423B6E6BDBAF.quest_desc: [
 		"In need of some saplings? Maybe you’d like to get some bees producing honey? "
 		""
@@ -3935,11 +3597,6 @@
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
 	quest.577337FFD6AD9C83.title: "Replication"
-	quest.577377C909FF0001.quest_desc: [
-		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
-		""
-		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
-	]
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
 		""
@@ -4085,7 +3742,6 @@
 	quest.5AFB064A80189AA4.title: "Copper"
 	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
-	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
 		""
@@ -4107,24 +3763,6 @@
 		""
 		"&a🛈 Tip: Harvest Rituals can be an easy "
 		"&a    way to farm these fruit!"
-	]
-	quest.5D52341DC77AFE8D.quest_desc: [
-		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
-		""
-		"As with the MV Tier, it’s advised to keep separate HV sub networks fed by an EV trunk line."
-		""
-		"Consider multiple setups like this:"
-		""
-		"&eAdvanced Boiler"
-		"  &e╰┈➤ &3HV Turbine Cluster"
-		"  &3╰┈➤ &aHV to EV Transformer"
-		"  &a╰┈➤ &bAnnealed Copper Cables"
-		"  &b╰┈➤ &aEV to HV Transformer"
-		"  &a╰┈➤ &3Machine Cluster"
-		""
-		"&6⚠ Note: Keep your HV subnetworks "
-		"&6    separate so they aren't limited by"
-		"&6    the max transfer rate."
 	]
 	quest.5D74493BC797D6F0.quest_desc: [
 		"Only the most evil and malicious of creatures have &7Wicked Spirits&r within them to harvest. "
@@ -4302,12 +3940,6 @@
 		"&c    the force field are destroyed."
 	]
 	quest.6118F241A056954F.title: "Fluid Removal"
-	quest.6133CA58FE668DA6.quest_desc: [
-		"Analog Circuits will soon enable us to jump to the next tier of machines running on LV electricity. Making the components right now is a little costly, but once we can make an Assembler, the crafts will be much more efficient. "
-		""
-		"Consider making a small batch here and automating later."
-	]
-	quest.6133CA58FE668DA6.title: "Analog Circuitry"
 	quest.616862D8ADBE3928.quest_desc: [
 		"Water will freeze, of course, if left out in the cold. But you’ll need some particularly cold, dense ice soon. "
 		""
@@ -4544,13 +4176,6 @@
 		""
 		"&a🛈 Tip: Try adding more AOE or stacking spell casts!"
 	]
-	quest.63B019541F72C712.quest_desc: [
-		"Looking for a nice invisible fence to keep mobs contained? This is the block for you. "
-		""
-		"With a full Redstone signal, this will emit an invisible wall encompassing a 15x15x15 area where mobs cannot enter or exit. "
-		""
-		"This makes it a great way to keep livestock safe without having to resort to a simple fence. "
-	]
 	quest.63DDC1FFF52DC39F.quest_desc: [
 		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
 		""
@@ -4650,19 +4275,6 @@
 		"&6    viewing the recipe."
 	]
 	quest.6660BE0C308A1744.title: "Goat"
-	quest.66AE19141D8F5604.quest_desc: [
-		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."
-		""
-		"Fusion will require some power and fluids in and will generate Helium Plasma and some other byproducts.  "
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see the "
-		"&a    structure or valid places for "
-		"&a    hatches."
-		""
-		"&6⚠ Note: Reactors cannot melt down "
-		"&6    and do not explode.&r"
-	]
 	quest.66BC8A8EB33B0677.quest_desc: [
 		"A Piercing Vengeance Focus is a more powerful form of your normal Focus. Rather than trapping a Spirit in a box, however, it completely obliterates it."
 		""
@@ -4825,19 +4437,6 @@
 		""
 		"For now, any color will do, but you’ll eventually want to collect some saplings from each variety."
 	]
-	quest.69AAE7C502629B3E.quest_desc: [
-		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
-		""
-		"If you’ve begun using Transformers to separate your power networks, this should be a fairly straightforward task, however."
-		"&n                                                  &r"
-		""
-		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
-		""
-		"Turbo Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
-		""
-		"&6⚠ Note: Machines simply do not run if"
-		"&6    given the wrong tier of power."
-	]
 	quest.69D23BB3D7670DFC.quest_desc: [
 		"When used in the Force Field Projector, these upgrades can adjust the shape and size of the field. "
 		""
@@ -4881,27 +4480,12 @@
 	]
 	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
 	quest.6AC4CADE97CB512F.title: "Flourishing Island"
-	quest.6AFB99D4F0107184.quest_desc: [
-		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
-		""
-		"The ores mined with it in the Quarry are vital to this stage of production, so that should be a priority."
-		""
-		"They also allow us to obtain Shale Oil, which would be used in that 5th refinery, however this won’t give us access to anything new, just an alternate source of Helium."
-	]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"The Building section covers mods and tools to help you build up or tear down. "
 		""
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
-	quest.6B6898F3520BA8F7.quest_desc: [
-		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
-		""
-		"&a🛈 Tip: Upgrades are only effective in"
-		"&a    machines that run constantly. "
-		"&a    Process large batches to make "
-		"&a    the most of them."
-	]
 	quest.6BA05AC6ECC577DA.quest_desc: [
 		"By now, you should have everything you need to summon your first Island, the Lush Garden. "
 		""
@@ -5209,17 +4793,6 @@
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
-	quest.70C8E621A4B76BD6.quest_desc: [
-		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
-		"&n                                                  &r"
-		""
-		"As you expand your EV power grid, your existing HV machines can be easily upgraded to run on EV instead."
-		""
-		"Highly Advanced Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
-		""
-		"&6⚠ Note: Machines simply do not run if"
-		"&6    given the wrong tier of power."
-	]
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
 		""
@@ -5407,9 +4980,6 @@
 		"Bottled Aura is mostly used as a crafting component throughout Nature’s Aura, though it does have a few other uses."
 		""
 		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
-		""
-		"&6⚠ Note: Different dimensions all have "
-		"&6    their own aura types. "
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.75507A3DE753BC75.quest_desc: ["Tired of losing drops in the clouds? Make yourself a magnet and you won't need to worry about it any longer."]
@@ -5433,24 +5003,6 @@
 		"It does produce heat, however, and must be kept cool to run efficiently. At low speeds, a few &7Heat Sinks&r will suffice, especially at this altitude."
 		""
 		"[\"For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
-	]
-	quest.760BD47C6B67D645.quest_desc: [
-		"Ever onward the march of progress. Expect power use to grow continuously as your factory grows. "
-		""
-		"As with the HV Tier, it’s advised to keep separate EV sub networks fed by a Superconductive trunk line."
-		""
-		"Consider multiple setups like this:"
-		""
-		"&eSteam Production"
-		"  &e╰┈➤ &3Advanced Turbines"
-		"  &3╰┈➤ &aEV to Superconductor Transformer"
-		"  &a╰┈➤ &bSuperconductive Cables"
-		"  &b╰┈➤ &aSuperconductor to EV Transformer"
-		"  &a╰┈➤ &3Machine Cluster"
-		""
-		"&6⚠ Note: Keep your EV subnetworks "
-		"&6    separate so they aren't limited by"
-		"&6    the max transfer rate."
 	]
 	quest.76467C03A27E54BD.quest_desc: [
 		"Configuring many machines in AA is done by Right-Clicking them with either a Redstone Torch or a Compass. "
@@ -5661,13 +5213,6 @@
 		""
 		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. It makes an indispensable addition to any enchanting area. "
 	]
-	quest.78D83E33F82D6015.quest_desc: [
-		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
-		""
-		"Some machines, however, can take a very long time to get up to speed, and you may not want to wait for them just to get a process going. Right-Click a machine with a Bucket or Tank filled with Lubricant to give them an immediate boost to Efficiency! "
-		""
-		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
-	]
 	quest.78E557B17D1EB84F.quest_desc: [
 		"The Altar uses &7Ambrosium&r as fuel to transmute items. "
 		""
@@ -5784,12 +5329,6 @@
 		""
 		"For fluids that may be generating endlessly, such as Lava or Water, an Overflow Destruction Card can be a handy way to keep your Interfaces from clogging as any excess will simply be voided."
 	]
-	quest.7BEE7FAD21AFEB68.quest_desc: [
-		"With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. "
-		""
-		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
-	]
-	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
 	quest.7BF8A53EADB35F49.title: "Abra's Conjure"
 	quest.7C0E7547D266C45D.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
@@ -6011,7 +5550,6 @@
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.4484CC7F88D33D12.title: "Arcane Platforms"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
-	task.456BBAC38A4A3719.title: "Soul Shattering Weapons"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4648E821F02A741D.title: "Refinery"
 	task.4775BC243353527B.title: "Any Mining Gadget"
@@ -6083,6 +5621,7 @@
 	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6BDBF20359D5E6B2.title: "Advanced Create"
+	task.6C573946ECF532BC.title: "Soul Shattering Weapons"
 	task.6D1A048396918DF0.title: "Fluids"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"
