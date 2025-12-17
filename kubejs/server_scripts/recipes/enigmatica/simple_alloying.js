@@ -2,16 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:simple_alloying/';
     const recipes = [
         {
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
-            inputs: [
-                { tag: 'c:ingots/gold', count: 1 },
-                { tag: 'c:ingots/silver', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `electrum_ingot`
-        },
-        {
             output: { id: 'occultism:iesnium_ingot', count: 1 },
             inputs: [
                 { tag: 'c:ingots/silver', count: 1 },

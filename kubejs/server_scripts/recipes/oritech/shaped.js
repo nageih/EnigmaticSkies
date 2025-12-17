@@ -349,6 +349,105 @@ ServerEvents.recipes((event) => {
                 E: 'minecraft:elytra'
             },
             id: `${id_prefix}jetpack_exo_elytra`
+        },
+        {
+            output: `oritech:target_designator`,
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:plates/steel',
+                C: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}target_designator`
+        },
+        {
+            output: 'oritech:wrench[unbreakable={}]',
+            pattern: [' A ', ' BA', 'A  '],
+            key: {
+                A: '#c:ingots/iron',
+                B: '#c:ingots/copper_alloy'
+            },
+            id: `${id_prefix}wrench`
+        },
+        {
+            output: `oritech:drone_port_block`,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'oritech:machine_plating_block',
+                B: 'pneumaticcraft:drone',
+                C: '#c:chests/wooden',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}drone_port_block`
+        },
+        {
+            output: `oritech:hand_drill`,
+            pattern: ['AAA', 'BCB', 'DED'],
+            key: {
+                A: '#c:gems/diamond',
+                B: 'ars_technica:calibrated_precision_mechanism',
+                C: 'actuallyadditions:drill_core',
+                D: '#c:gems/enori',
+                E: 'oritech:machine_plating_block'
+            },
+            id: `${id_prefix}hand_drill`
+        },
+        {
+            output: `oritech:electric_mace`,
+            pattern: ['AB ', 'BCB', 'DBA'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: '#c:plates/stainless_steel',
+                C: 'minecraft:heavy_core',
+                D: '#c:rods/stainless_steel'
+            },
+            id: `${id_prefix}electric_mace`
+        },
+        {
+            output: `oritech:chainsaw`,
+            pattern: ['  A', 'BA ', 'CD '],
+            key: {
+                A: '#c:gems/celestigem',
+                B: 'modern_industrialization:motor',
+                C: 'oritech:machine_plating_block',
+                D: 'oritech:basic_battery'
+            },
+            id: `${id_prefix}chainsaw`
+        },
+        {
+            output: `oritech:machine_extender`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'oritech:machine_core_2',
+                B: 'oritech:machine_plating_block',
+                C: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}machine_extender`
+        },
+        {
+            output: `oritech:enchanter_block`,
+            pattern: ['ABA', 'CDC', 'EBE'],
+            key: {
+                A: '#c:gems/celestigem',
+                B: 'apothic_enchanting:draconic_endshelf',
+                C: 'apothic_enchanting:heart_seashelf',
+                D: 'oritech:enchantment_catalyst_block',
+                E: '#c:ingots/eclipsealloy'
+            },
+            id: `${id_prefix}enchanter_block`
+        },
+        {
+            output: `oritech:enchantment_catalyst_block`,
+            pattern: [' A ', 'BCB', 'EDE'],
+            key: {
+                A: 'minecraft:heart_of_the_sea',
+                B: 'enderio:end_steel_bars',
+                C: 'enderio:ender_resonator',
+                D: 'minecraft:enchanting_table',
+                E: '#c:gems/celestigem'
+            },
+            id: `${id_prefix}enchantment_catalyst_block`
         }
     ];
 

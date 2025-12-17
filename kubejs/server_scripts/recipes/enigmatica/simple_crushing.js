@@ -142,36 +142,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'obsidian_dust_from_obsidian'
         },
         {
-            input: { tag: 'c:ingots/adamant' },
-            outputs: [{ id: 'oritech:adamant_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'adamant_dust_from_adamant'
-        },
-        {
-            input: { tag: 'c:ingots/duratium' },
-            outputs: [{ id: 'oritech:duratium_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'duratium_dust_from_duratium'
-        },
-        {
-            input: { tag: 'c:ingots/energite' },
-            outputs: [{ id: 'oritech:energite_dust', count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'energite_dust_from_energite'
-        },
-        {
             input: { tag: 'c:gems/coal' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 }],
             multiply: 'none',

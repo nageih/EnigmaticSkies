@@ -137,6 +137,8 @@
             "/oritech:reactor_/",
             "/oritech:.*_generator_block/",
             "/oritech:resource_node/",
+            "/oritech:(uranium|energite|biosteel|adamant|duratium)_(ingot|dust|block)/",
+            "/oritech:(fluxite|biomass)/",
             "oritech:small_platinum_clump",
             "oritech:small_nickel_clump",
             "oritech:pulverizer_block",
@@ -168,6 +170,7 @@
             "oritech:uranium_pellet",
             "oritech:small_uranium_pellet",
             "oritech:uranium_gem",
+            "oritech:unstable_container",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
             "pneumaticcraft:biodiesel_bucket",

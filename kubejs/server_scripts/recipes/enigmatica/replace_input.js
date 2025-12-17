@@ -468,6 +468,16 @@ ServerEvents.recipes((event) => {
             replace_with: `oritech:machine_plating_block`
         },
         {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `#c:ingots/nickel`,
+            replace_with: '#c:ingots/copper_alloy'
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `#c:ingots/adamant`,
+            replace_with: '#c:gems/celestigem'
+        },
+        {
             filter: [{ output: /aquaculture:neptunium_/ }],
             to_replace: `#c:rods/wooden`,
             replace_with: 'naturesaura:ancient_stick'
