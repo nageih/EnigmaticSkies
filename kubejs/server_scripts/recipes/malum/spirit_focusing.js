@@ -95,6 +95,18 @@ ServerEvents.recipes((event) => {
             durabilityCost: 1,
             time: 32,
             id: `${id_prefix}enori_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:void_crystal', count: 4 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:eldritch', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 32,
+            id: `${id_prefix}void_crystal`
         }
     ];
 

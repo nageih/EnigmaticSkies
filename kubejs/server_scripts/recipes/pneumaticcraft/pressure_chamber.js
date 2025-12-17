@@ -121,11 +121,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}replication_terminal`
         },
         {
-            results: [{ id: 'oritech:machine_core_2', count: 4 }],
+            results: [{ id: 'oritech:machine_core_2', count: 1 }],
             inputs: [
-                { item: 'industrialforegoing:machine_frame_simple', count: 1 },
-                { item: 'enderio:pulsating_crystal', count: 8 },
-                { tag: 'c:gems/diamatine', count: 8 }
+                { item: 'modern_industrialization:steel_machine_casing', count: 1 },
+                { item: 'enderio:pulsating_crystal', count: 3 },
+                { tag: 'c:plates/iron', count: 6 }
             ],
             pressure: 4.0,
             id: `${id_prefix}machine_core_2`
@@ -134,11 +134,29 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:machine_core_4', count: 1 }],
             inputs: [
                 { item: 'oritech:machine_core_2', count: 1 },
-                { item: 'oritech:reinforced_carbon_sheet', count: 2 },
-                { tag: 'c:plates/obsidian', count: 2 }
+                { item: 'oritech:reinforced_carbon_sheet', count: 6 }
             ],
             pressure: 4.0,
             id: `${id_prefix}machine_core_4`
+        },
+        {
+            results: [{ id: 'oritech:machine_core_5', count: 1 }],
+            inputs: [
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
+                { item: 'enderio:weather_crystal', count: 3 },
+                { item: 'oritech:reinforced_carbon_sheet', count: 6 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}machine_core_5`
+        },
+        {
+            results: [{ id: 'oritech:machine_core_7', count: 1 }],
+            inputs: [
+                { item: 'oritech:machine_core_5', count: 1 },
+                { item: 'modern_industrialization:cooling_cell', count: 6 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}machine_core_7`
         },
         {
             results: [{ id: 'modern_industrialization:conductive_cable', count: 6 }],

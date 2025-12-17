@@ -121,6 +121,45 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}centrifuge_block`
         },
         {
+            output: `oritech:fertilizer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:spout',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}fertilizer_block`
+        },
+        {
+            output: `oritech:placer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:deployer',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}placer_block`
+        },
+        {
+            output: `oritech:destroyer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:mechanical_drill',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}destroyer_block`
+        },
+        {
             output: `oritech:refinery_block`,
             pattern: ['ABA', 'CDC', 'AEA'],
             key: {
