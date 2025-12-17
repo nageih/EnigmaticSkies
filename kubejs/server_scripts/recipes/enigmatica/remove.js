@@ -109,6 +109,10 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
 
+        // Apotheosis and Addons
+        { type: 'apothic_spawners:spawner_modifier' },
+        // { id: /apotheosis:salvaging\/other/ },
+
         // Aquaculture
         { id: 'aquaculture:gold_nugget_from_gold_fish' },
         { id: 'aquaculture:jellyfish_to_slimeball' },
@@ -151,6 +155,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:novice_spell_book' },
         { id: 'ars_nouveau:novice_spellbook_alt' },
         { id: 'ars_nouveau:apprentice_book_upgrade' },
+        { id: 'ars_nouveau:archmage_book_upgrade' },
 
         { id: 'ars_additions:apparatus/source_spawner' },
 

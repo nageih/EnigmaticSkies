@@ -17,6 +17,22 @@ ServerEvents.recipes((event) => {
             ],
             category: 'misc',
             id: `${id_prefix}apprentice_book_upgrade`
+        },
+        {
+            result: { id: 'ars_nouveau:archmage_spell_book', count: 1 },
+            ingredients: [
+                { item: 'ars_nouveau:novice_spell_book' },
+                { tag: 'c:gems/prescient_crystal' },
+                { tag: 'c:gems/prescient_crystal' },
+                { tag: 'c:gems/prescient_crystal' },
+                { tag: 'c:gems/time' },
+                { tag: 'c:gems/time' },
+                { tag: 'c:gems/overcharged_crystal' },
+                { item: 'malum:fused_consciousness' },
+                { item: 'apotheosis:mythic_material' }
+            ],
+            category: 'misc',
+            id: `${id_prefix}archmage_book_upgrade`
         }
     ];
 
