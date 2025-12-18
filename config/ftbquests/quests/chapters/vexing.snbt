@@ -982,7 +982,7 @@
 				item: { count: 1, id: "oritech:advanced_augment_station" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -994,7 +994,7 @@
 				item: { count: 1, id: "oritech:arcane_augment_station" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 6.5d
 		}
 	]
