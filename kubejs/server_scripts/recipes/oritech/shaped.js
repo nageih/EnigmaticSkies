@@ -448,6 +448,20 @@ ServerEvents.recipes((event) => {
                 E: '#c:gems/celestigem'
             },
             id: `${id_prefix}enchantment_catalyst_block`
+        },
+        {
+            output: `oritech:augment_application_block`,
+            pattern: ['ABC', 'DED', 'FGF'],
+            key: {
+                A: 'minecraft:diamond_axe',
+                B: 'enigmatica:magic_lamp',
+                C: 'farmersdelight:diamond_knife',
+                D: 'modern_industrialization:robot_arm',
+                E: 'enderio:ensouled_chassis',
+                F: 'ars_technica:calibrated_precision_mechanism',
+                G: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}augment_application_block`
         }
     ];
 

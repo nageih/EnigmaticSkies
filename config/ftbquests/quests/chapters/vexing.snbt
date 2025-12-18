@@ -950,5 +950,52 @@
 			x: 0.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["053C43E68E7ADB2B"]
+			id: "3BF458796782EB49"
+			tasks: [{
+				id: "02BD76CF31C3F3D5"
+				item: { count: 1, id: "oritech:augment_application_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3BF458796782EB49"]
+			id: "194F0C0226F28E93"
+			shape: "diamond"
+			tasks: [{
+				id: "2F37A64DEA384442"
+				item: { count: 1, id: "oritech:simple_augment_station" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["194F0C0226F28E93"]
+			id: "5399C87E90057480"
+			shape: "diamond"
+			tasks: [{
+				id: "2EF1F7A5E9C75C81"
+				item: { count: 1, id: "oritech:advanced_augment_station" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5399C87E90057480"]
+			id: "256287E76219CC70"
+			shape: "diamond"
+			tasks: [{
+				id: "23EAD7790B8ADD6F"
+				item: { count: 1, id: "oritech:arcane_augment_station" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
 	]
 }

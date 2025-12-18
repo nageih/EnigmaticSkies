@@ -155,7 +155,6 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { tag: 'modern_industrialization:fluid_pipes' },
-                { tag: 'modern_industrialization:fluid_pipes' },
                 { item: 'modern_industrialization:steel_tank' }
             ],
             time: 20,
@@ -214,6 +213,36 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}soul_surge`
+        },
+        {
+            results: [{ id: 'oritech:simple_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:skeletal_contractor' },
+                { tag: 'c:gems/pulsating_crystal' }
+            ],
+            time: 20,
+            id: `${id_prefix}simple_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:advanced_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:z_logic_controller' },
+                { tag: 'c:gems/vibrant_crystal' }
+            ],
+            time: 20,
+            id: `${id_prefix}advanced_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:arcane_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:ender_resonator' },
+                { item: 'malum:paracausal_flame' }
+            ],
+            time: 20,
+            id: `${id_prefix}arcane_augment_station`
         }
     ];
 

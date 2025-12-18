@@ -835,6 +835,10 @@ ServerEvents.recipes((event) => {
         { output: 'oritech:unstable_container' },
         { output: 'oritech:enchanter_block' },
         { output: 'oritech:enchantment_catalyst_block' },
+        { output: 'oritech:augment_application_block' },
+        { output: 'oritech:simple_augment_station' },
+        { output: 'oritech:advanced_augment_station' },
+        { output: 'oritech:arcane_augment_station' },
         { output: /oritech:reactor_/ },
         { output: /oritech:exo_(helmet|chestplate|leggings|boots)/ },
         { output: /oritech:.*(energy|item|fluid)_pipe/ },
@@ -939,7 +943,7 @@ ServerEvents.recipes((event) => {
         { output: /oritech:(fluxite|biomass)/ },
         { output: /oritech:accelerator_/ },
 
-        { id: 'oritech:augment/attackdamage' },
+        // { id: 'oritech:augment/orefinder' },
 
         // PneumaticCraft
         { type: 'pneumaticcraft:explosion_crafting' },
