@@ -48,9 +48,9 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:quantum_machine_casing', count: 1 },
             input: [
-                { item: 'enderio:sentient_ender' },
+                { item: 'oritech:heisenberg_compensator' },
                 { item: 'modern_industrialization:cooling_cell' },
-                { item: 'enderio:sentient_ender' },
+                { item: 'oritech:heisenberg_compensator' },
                 { item: 'modern_industrialization:iridium_large_plate' },
                 { item: 'modern_industrialization:iridium_large_plate' },
                 { item: 'oritech:overcharged_crystal' },
@@ -304,8 +304,8 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:restonia_crystal' },
                 { item: 'prettypipes:blank_module' },
                 { item: `minecraft:${color}_wool` },
-                { item: 'actuallyadditions:basic_coil' },
-                { item: 'actuallyadditions:basic_coil' },
+                { item: 'create:precision_mechanism' },
+                { item: 'create:precision_mechanism' },
                 { item: `minecraft:${color}_wool` },
                 { item: 'prettypipes:blank_module' },
                 { item: 'actuallyadditions:palis_crystal' }

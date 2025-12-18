@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
                 'aether:neptune_gloves'
             ],
             regex: { itemIdRegex: `neptune_.+` },
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            repairMaterial: { tag: `c:essences/water`, count: 1 },
             spirits: [
                 { type: 'malum:aqueous', count: 8 },
                 { type: 'malum:arcane', count: 8 }
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
                 'aether:phoenix_gloves'
             ],
             regex: { itemIdRegex: `phoenix_.+` },
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            repairMaterial: { tag: `c:essences/fire`, count: 1 },
             spirits: [
                 { type: 'malum:infernal', count: 8 },
                 { type: 'malum:arcane', count: 8 }
@@ -106,7 +106,7 @@ ServerEvents.recipes((event) => {
                 'aether:valkyrie_gloves'
             ],
             regex: { itemIdRegex: `valkyrie_.+` },
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            repairMaterial: { tag: `c:ingots/iridium`, count: 2 },
             spirits: [
                 { type: 'malum:sacred', count: 8 },
                 { type: 'malum:arcane', count: 8 }

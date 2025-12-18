@@ -282,6 +282,15 @@ ServerEvents.recipes((event) => {
             speed: 0.25,
             pressure: 9.0,
             id: `${id_prefix}high_pressure_steam`
+        },
+        {
+            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 250 } },
+            inputs: {
+                fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 250 },
+                item: { item: 'ars_nouveau:starbuncle_charm' }
+            },
+            pressure: 1.0,
+            id: `${id_prefix}lubricant_from_starbuncle`
         }
     ];
 

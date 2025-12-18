@@ -118,6 +118,17 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_speed_addon`
         },
         {
+            results: [{ id: 'oritech:machine_burst_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:z_logic_controller' },
+                { item: 'modern_industrialization:large_advanced_motor' },
+                { item: 'industrialforegoing:speed_addon_tier_1' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_burst_addon`
+        },
+        {
             results: [{ id: 'oritech:machine_efficiency_addon', count: 1 }],
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
@@ -144,11 +155,43 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { tag: 'modern_industrialization:fluid_pipes' },
-                { tag: 'modern_industrialization:fluid_pipes' },
                 { item: 'modern_industrialization:steel_tank' }
             ],
             time: 20,
             id: `${id_prefix}machine_fluid_addon`
+        },
+        {
+            results: [{ id: 'oritech:machine_acceptor_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enigmatica:pulsating_mechanism' },
+                { item: 'pneumaticcraft:plastic' },
+                { item: 'oritech:basic_battery' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_acceptor_addon`
+        },
+        {
+            results: [{ id: 'oritech:machine_inventory_proxy_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:skeletal_contractor' },
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { tag: 'c:chests/wooden' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_inventory_proxy_addon`
+        },
+        {
+            results: [{ id: 'oritech:crop_filter_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:skeletal_contractor' },
+                { item: 'modern_industrialization:motor' },
+                { tag: 'c:seeds' }
+            ],
+            time: 20,
+            id: `${id_prefix}crop_filter_addon`
         },
         {
             results: [{ id: 'oritech:enderic_lens', count: 1 }],
@@ -166,11 +209,40 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'pneumaticcraft:plastic' },
                 { item: 'apothic_enchanting:warden_tendril' },
-                { item: 'industrialforegoingsouls:soul_network_pipe' },
-                { item: 'pneumaticcraft:plastic' }
+                { item: 'industrialforegoingsouls:soul_network_pipe' }
             ],
             time: 20,
             id: `${id_prefix}soul_surge`
+        },
+        {
+            results: [{ id: 'oritech:simple_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:skeletal_contractor' },
+                { tag: 'c:gems/pulsating_crystal' }
+            ],
+            time: 20,
+            id: `${id_prefix}simple_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:advanced_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:z_logic_controller' },
+                { tag: 'c:gems/vibrant_crystal' }
+            ],
+            time: 20,
+            id: `${id_prefix}advanced_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:arcane_augment_station', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'enderio:ender_resonator' },
+                { item: 'malum:paracausal_flame' }
+            ],
+            time: 20,
+            id: `${id_prefix}arcane_augment_station`
         }
     ];
 

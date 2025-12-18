@@ -39,6 +39,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}reinforced_carbon_sheet`
         },
         {
+            results: [{ id: 'create:sturdy_sheet' }],
+            fluidOutputs: [],
+            ingredients: [{ item: 'create:powdered_obsidian' }],
+            fluidInput: { fluid: 'minecraft:lava', amount: 500 },
+            time: 12,
+            id: `${id_prefix}sturdy_sheet`
+        },
+        {
             results: [{ id: 'oritech:adamant_ingot' }],
             fluidOutputs: [],
             ingredients: [{ tag: 'c:storage_blocks/diamond' }],

@@ -185,6 +185,109 @@ ServerEvents.recipes((event) => {
                 D: 'oritech:flux_gate'
             },
             id: `${id_prefix}shock_suppressor`
+        },
+        {
+            output: 'actuallyadditions:drill_upgrade_speed',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/enori',
+                B: '#c:gems/restonia',
+                C: 'prettypipes:low_speed_module'
+            },
+            id: `${id_prefix}drill_upgrade_speed`
+        },
+        {
+            output: 'actuallyadditions:drill_upgrade_speed_ii',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/enori',
+                B: '#c:gems/restonia',
+                C: 'prettypipes:medium_speed_module'
+            },
+            id: `${id_prefix}drill_upgrade_speed_ii`
+        },
+        {
+            output: 'actuallyadditions:drill_upgrade_speed_iii',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/empowered_enori',
+                B: '#c:gems/empowered_restonia',
+                C: 'prettypipes:high_speed_module'
+            },
+            id: `${id_prefix}drill_upgrade_speed_iii`
+        },
+        {
+            output: 'actuallyadditions:drill_upgrade_fortune',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/palis',
+                B: '#c:gems/diamatine',
+                C: 'create:precision_mechanism'
+            },
+            id: `${id_prefix}drill_upgrade_fortune`
+        },
+        {
+            output: 'actuallyadditions:drill_upgrade_fortune_ii',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/empowered_palis',
+                B: '#c:gems/empowered_diamatine',
+                C: 'ars_technica:calibrated_precision_mechanism'
+            },
+            id: `${id_prefix}drill_upgrade_fortune_ii`
+        },
+        {
+            output: 'actuallyadditions:player_interface',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/empowered_enori',
+                B: 'minecraft:ender_eye',
+                C: '#c:ender_pearls',
+                D: 'actuallyadditions:ender_casing',
+                E: '#c:gems/lapis'
+            },
+            id: `${id_prefix}player_interface`
+        },
+        {
+            output: 'actuallyadditions:handheld_filler',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/enori',
+                B: 'supplementaries:crystal_display',
+                C: 'ae2:formation_core',
+                D: '#c:gems/emerald',
+                E: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}handheld_filler`
+        },
+        {
+            output: 'actuallyadditions:laser_wrench',
+            pattern: [' AB', ' AA', 'A  '],
+            key: {
+                A: '#c:gems/enori',
+                B: '#c:gems/void'
+            },
+            id: `${id_prefix}laser_wrench`
+        },
+        {
+            output: '2x actuallyadditions:laser_upgrade_range',
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: '#c:gems/restonia',
+                B: 'minecraft:compass',
+                C: 'prettypipes:blank_module'
+            },
+            id: `${id_prefix}laser_upgrade_range`
+        },
+        {
+            output: '4x actuallyadditions:laser_upgrade_invisibility',
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: 'minecraft:tinted_glass',
+                B: '#c:gems/void',
+                C: 'prettypipes:blank_module'
+            },
+            id: `${id_prefix}laser_upgrade_invisibility`
         }
     ];
 

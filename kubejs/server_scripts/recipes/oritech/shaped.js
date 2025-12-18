@@ -121,6 +121,45 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}centrifuge_block`
         },
         {
+            output: `oritech:fertilizer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:spout',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}fertilizer_block`
+        },
+        {
+            output: `oritech:placer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:deployer',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}placer_block`
+        },
+        {
+            output: `oritech:destroyer_block`,
+            pattern: ['BAB', 'CDC', 'EFE'],
+            key: {
+                A: 'create:mechanical_drill',
+                B: 'oritech:machine_frame_block',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}destroyer_block`
+        },
+        {
             output: `oritech:refinery_block`,
             pattern: ['ABA', 'CDC', 'AEA'],
             key: {
@@ -152,18 +191,6 @@ ServerEvents.recipes((event) => {
                 C: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}charger_block`
-        },
-        {
-            output: `oritech:jetpack`,
-            pattern: ['ABA', 'CDC', 'EAE'],
-            key: {
-                A: '#c:plates/steel',
-                B: 'ars_nouveau:belt_of_levitation',
-                C: 'pneumaticcraft:cannon_barrel',
-                D: 'actuallyadditions:advanced_coil',
-                E: '#c:essences/fire'
-            },
-            id: `${id_prefix}jetpack`
         },
         {
             output: `oritech:powered_furnace_block`,
@@ -285,8 +312,186 @@ ServerEvents.recipes((event) => {
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}treefeller_block`
+        },
+
+        {
+            output: `oritech:jetpack`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/steel',
+                B: 'ars_nouveau:belt_of_levitation',
+                C: 'pneumaticcraft:cannon_barrel',
+                D: 'oritech:basic_battery',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}jetpack`
+        },
+        {
+            output: `oritech:jetpack_elytra`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `oritech:jetpack`,
+                E: 'minecraft:elytra'
+            },
+            id: `${id_prefix}jetpack_elytra`
+        },
+        {
+            output: `oritech:jetpack_exo_elytra`,
+            pattern: ['ABA', 'CDC', 'EAE'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `oritech:exo_jetpack`,
+                E: 'minecraft:elytra'
+            },
+            id: `${id_prefix}jetpack_exo_elytra`
+        },
+        {
+            output: `oritech:target_designator`,
+            pattern: [' A ', 'BCB', ' B '],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:plates/steel',
+                C: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}target_designator`
+        },
+        {
+            output: 'oritech:wrench[unbreakable={}]',
+            pattern: [' A ', ' BA', 'A  '],
+            key: {
+                A: '#c:ingots/iron',
+                B: '#c:ingots/copper_alloy'
+            },
+            id: `${id_prefix}wrench`
+        },
+        {
+            output: `oritech:drone_port_block`,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'oritech:machine_plating_block',
+                B: 'pneumaticcraft:drone',
+                C: '#c:chests/wooden',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}drone_port_block`
+        },
+        {
+            output: `oritech:hand_drill`,
+            pattern: ['AAA', 'BCB', 'DED'],
+            key: {
+                A: '#c:gems/diamond',
+                B: 'ars_technica:calibrated_precision_mechanism',
+                C: 'actuallyadditions:drill_core',
+                D: '#c:gems/enori',
+                E: 'oritech:machine_plating_block'
+            },
+            id: `${id_prefix}hand_drill`
+        },
+        {
+            output: `oritech:electric_mace`,
+            pattern: ['AB ', 'BCB', 'DBA'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: '#c:plates/stainless_steel',
+                C: 'minecraft:heavy_core',
+                D: '#c:rods/stainless_steel'
+            },
+            id: `${id_prefix}electric_mace`
+        },
+        {
+            output: `oritech:chainsaw`,
+            pattern: ['  A', 'BA ', 'CD '],
+            key: {
+                A: '#c:gems/celestigem',
+                B: 'modern_industrialization:motor',
+                C: 'oritech:machine_plating_block',
+                D: 'oritech:basic_battery'
+            },
+            id: `${id_prefix}chainsaw`
+        },
+        {
+            output: `oritech:machine_extender`,
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'oritech:machine_core_2',
+                B: 'oritech:machine_plating_block',
+                C: 'enderio:skeletal_contractor'
+            },
+            id: `${id_prefix}machine_extender`
+        },
+        {
+            output: `oritech:enchanter_block`,
+            pattern: ['ABA', 'CDC', 'EBE'],
+            key: {
+                A: '#c:gems/celestigem',
+                B: 'apothic_enchanting:draconic_endshelf',
+                C: 'apothic_enchanting:heart_seashelf',
+                D: 'oritech:enchantment_catalyst_block',
+                E: '#c:ingots/eclipsealloy'
+            },
+            id: `${id_prefix}enchanter_block`
+        },
+        {
+            output: `oritech:enchantment_catalyst_block`,
+            pattern: [' A ', 'BCB', 'EDE'],
+            key: {
+                A: 'minecraft:heart_of_the_sea',
+                B: 'enderio:end_steel_bars',
+                C: 'enderio:ender_resonator',
+                D: 'minecraft:enchanting_table',
+                E: '#c:gems/celestigem'
+            },
+            id: `${id_prefix}enchantment_catalyst_block`
+        },
+        {
+            output: `oritech:augment_application_block`,
+            pattern: ['ABC', 'DED', 'FGF'],
+            key: {
+                A: 'minecraft:diamond_axe',
+                B: 'enigmatica:magic_lamp',
+                C: 'farmersdelight:diamond_knife',
+                D: 'modern_industrialization:robot_arm',
+                E: 'enderio:ensouled_chassis',
+                F: 'ars_technica:calibrated_precision_mechanism',
+                G: 'oritech:flux_gate'
+            },
+            id: `${id_prefix}augment_application_block`
+        },
+        {
+            output: `oritech:shrinker_block`,
+            pattern: ['ABA', 'CDC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                C: '#c:gears/dark_steel',
+                D: 'enigmatica:tempestuous_mechanism'
+            },
+            id: `${id_prefix}shrinker_block`
         }
     ];
+
+    const exo_armor = ['helmet', 'chestplate', 'leggings', 'boots'];
+
+    exo_armor.forEach((armor) => {
+        recipes.push({
+            output: `oritech:exo_${armor}`,
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:plates/reinforced_carbon',
+                B: 'enderio:z_logic_controller',
+                C: 'modern_industrialization:piston',
+                D: `minecraft:leather_${armor}`,
+                E: 'oritech:basic_battery'
+            },
+            id: `${id_prefix}exo_${armor}`
+        });
+    });
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

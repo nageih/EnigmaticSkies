@@ -24,11 +24,6 @@ ServerEvents.recipes((event) => {
             replace_with: `morphtool:tool[morphtool:tool_content=${JSON.stringify(morph_tools)}]`
         },
         {
-            filter: [{ mod: 'oritech' }],
-            to_replace: `oritech:wrench`,
-            replace_with: `oritech:wrench[unbreakable={}]`
-        },
-        {
             filter: [{ output: 'create:dough' }],
             to_replace: 'create:dough',
             replace_with: 'farmersdelight:wheat_dough'

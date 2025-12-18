@@ -439,6 +439,25 @@ ServerEvents.recipes((event) => {
             replace_with: `oritech:basic_battery`
         },
         {
+            filter: [
+                { output: 'actuallyadditions:drill_core' },
+                { output: 'actuallyadditions:drill_upgrade_three_by_three' },
+                { output: 'actuallyadditions:drill_upgrade_block_placing' }
+            ],
+            to_replace: `actuallyadditions:basic_coil`,
+            replace_with: 'create:precision_mechanism'
+        },
+        {
+            filter: [
+                { output: 'actuallyadditions:drill_light_blue' },
+                { output: 'actuallyadditions:drill_upgrade_five_by_five' },
+                { output: 'actuallyadditions:drill_upgrade_silk_touch' },
+                { output: 'actuallyadditions:phantom_itemface' }
+            ],
+            to_replace: `actuallyadditions:advanced_coil`,
+            replace_with: 'ars_technica:calibrated_precision_mechanism'
+        },
+        {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:fluid_pipe`,
             replace_with: `ppfluids:fluid_pipe`
@@ -447,6 +466,16 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: `oritech:machine_plating_block`,
             replace_with: `oritech:machine_plating_block`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `#c:ingots/nickel`,
+            replace_with: '#c:ingots/copper_alloy'
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `#c:ingots/adamant`,
+            replace_with: '#c:gems/celestigem'
         },
         {
             filter: [{ output: /aquaculture:neptunium_/ }],
@@ -491,6 +520,11 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `minecraft:dispenser`,
             replace_with: '#c:essences/manipulation'
+        },
+        {
+            filter: [{ id: 'modularrouters:player_module' }],
+            to_replace: `minecraft:wither_skeleton_skull`,
+            replace_with: 'actuallyadditions:player_interface'
         },
         {
             filter: [{ id: 'modularrouters:placer_module' }],

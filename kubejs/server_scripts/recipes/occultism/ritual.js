@@ -11,34 +11,34 @@ ServerEvents.recipes((event) => {
     };
 
     const recipes = [
-        {
-            ritual_type: 'occultism:craft',
-            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:slime_apocalypse"]').toJson(),
-            activation_item: { item: 'minecraft:conduit' },
-            ingredients: [
-                { item: 'industrialforegoing:pink_slime_block' },
-                { item: 'malum:earthen_spirit' },
-                { item: 'malum:infernal_spirit' },
-                { item: 'malum:aqueous_spirit' }
-            ],
-            ritual_dummy: { id: 'occultism:ritual_dummy/rift_slime_apocalypse', count: 1 },
-            duration: 30,
-            id: `${id_prefix}rift_slime_apocalypse`
-        },
-        {
-            ritual_type: 'occultism:craft',
-            result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:wilden_calamity"]').toJson(),
-            activation_item: { item: 'minecraft:conduit' },
-            ingredients: [
-                { item: 'ars_elemental:mark_of_mastery' },
-                { item: 'malum:earthen_spirit' },
-                { item: 'malum:aerial_spirit' },
-                { item: 'malum:aqueous_spirit' }
-            ],
-            ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
-            duration: 30,
-            id: `${id_prefix}rift_wilden_calamity`
-        },
+        // {
+        //     ritual_type: 'occultism:craft',
+        //     result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:slime_apocalypse"]').toJson(),
+        //     activation_item: { item: 'minecraft:conduit' },
+        //     ingredients: [
+        //         { item: 'industrialforegoing:pink_slime_block' },
+        //         { item: 'malum:earthen_spirit' },
+        //         { item: 'malum:infernal_spirit' },
+        //         { item: 'malum:aqueous_spirit' }
+        //     ],
+        //     ritual_dummy: { id: 'occultism:ritual_dummy/rift_slime_apocalypse', count: 1 },
+        //     duration: 30,
+        //     id: `${id_prefix}rift_slime_apocalypse`
+        // },
+        // {
+        //     ritual_type: 'occultism:craft',
+        //     result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:wilden_calamity"]').toJson(),
+        //     activation_item: { item: 'minecraft:conduit' },
+        //     ingredients: [
+        //         { item: 'ars_elemental:mark_of_mastery' },
+        //         { item: 'malum:earthen_spirit' },
+        //         { item: 'malum:aerial_spirit' },
+        //         { item: 'malum:aqueous_spirit' }
+        //     ],
+        //     ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
+        //     duration: 30,
+        //     id: `${id_prefix}rift_wilden_calamity`
+        // },
         {
             ritual_type: 'occultism:summon',
             entity_to_summon: 'ars_nouveau:wilden_boss',
@@ -51,12 +51,13 @@ ServerEvents.recipes((event) => {
                 },
                 count: 1
             },
-            activation_item: { item: 'arsdelight:wilden_sauce' },
+            activation_item: { item: 'arsdelight:wilden_salad' },
             ingredients: [
-                { item: 'malum:imitation_heart' },
-                { item: 'arsdelight:wilden_meat' },
-                { item: 'arsdelight:wilden_meat' },
-                { item: 'arsdelight:wilden_meat' }
+                { item: 'arsdelight:bombegrante_steak' },
+                { item: 'arsdelight:frostaya_mutton' },
+                { item: 'arsdelight:mendosteen_chicken' },
+                { item: 'arsdelight:bastion_pork' },
+                { item: 'malum:imitation_heart' }
             ],
             ritual_dummy: { id: `occultism:ritual_dummy/transmute_wilden_boss`, count: 1 },
             duration: 30,
