@@ -462,6 +462,17 @@ ServerEvents.recipes((event) => {
                 G: 'oritech:flux_gate'
             },
             id: `${id_prefix}augment_application_block`
+        },
+        {
+            output: `oritech:shrinker_block`,
+            pattern: ['ABA', 'CDC'],
+            key: {
+                A: 'modern_industrialization:robot_arm',
+                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                C: '#c:gears/dark_steel',
+                D: 'enigmatica:tempestuous_mechanism'
+            },
+            id: `${id_prefix}shrinker_block`
         }
     ];
 

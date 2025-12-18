@@ -839,6 +839,7 @@ ServerEvents.recipes((event) => {
         { output: 'oritech:simple_augment_station' },
         { output: 'oritech:advanced_augment_station' },
         { output: 'oritech:arcane_augment_station' },
+        { output: 'oritech:shrinker_block' },
         { output: /oritech:reactor_/ },
         { output: /oritech:exo_(helmet|chestplate|leggings|boots)/ },
         { output: /oritech:.*(energy|item|fluid)_pipe/ },
