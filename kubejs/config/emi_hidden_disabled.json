@@ -243,6 +243,7 @@
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:mooshroom\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:whirlisprig\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:drygmy\"]",
+            "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"minecraft:ravager\"]",
 
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
