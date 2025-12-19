@@ -209,6 +209,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crafting/appliances/slime_ball' },
         { id: 'create:crafting/appliances/chain_from_zinc' },
         { id: 'create:crafting/appliances/dough' },
+        { id: 'create:crafting/tree_fertilizer' },
         { id: /create:crushing\/(gravel|asurine|diorite|veridium|crimsite|ochrum|tuff)/ },
         { id: /create:crushing\/.*_horse_armor/ },
         { id: 'create:crushing/prismarine_crystals' },
