@@ -549,11 +549,28 @@ const villagerTrades = {
 
         {
             result: {
+                id: 'malum:crude_scythe[enchantments={levels:{"malum:spirit_plunder":3}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: {
+                id: 'farmersdelight:skillet[enchantments={levels:{"minecraft:bane_of_arthropods":5}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
+            result: {
                 id: 'aether:holy_sword[enchantments={levels:{"apothic_enchanting:knowledge_of_the_ages":1,"ars_elemental:soulbound":1,"minecraft:smite":3,"minecraft:unbreaking":2}}]',
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 5
         },
         {
             result: {
@@ -561,7 +578,7 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 5
         }
     ],
     // Blast Furnace
