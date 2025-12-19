@@ -291,6 +291,17 @@ ServerEvents.recipes((event) => {
             },
             pressure: 1.0,
             id: `${id_prefix}lubricant_from_starbuncle`
+        },
+
+        {
+            outputs: { item_output: { id: 'modern_industrialization:rubber_sheet', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'enigmatica:vulcanized_rubber', amount: 50 },
+                item: { item: 'farmersdelight:canvas' }
+            },
+            pressure: 2.0,
+            speed: 8.0,
+            id: `${id_prefix}rubber_sheet`
         }
     ];
 

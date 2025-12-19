@@ -14,27 +14,27 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soul_stained_steel_ingot`
         },
         {
-            result: { id: 'malum:living_flesh', count: 2 },
-            input: { item: 'minecraft:rotten_flesh', count: 4 },
-            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 2 }],
+            result: { id: 'malum:living_flesh', count: 16 },
+            input: { item: 'minecraft:rotten_flesh', count: 32 },
+            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 16 }],
             spirits: [
-                { type: 'malum:sacred', count: 2 },
-                { type: 'malum:wicked', count: 2 }
+                { type: 'malum:sacred', count: 16 },
+                { type: 'malum:wicked', count: 16 }
             ],
             id: `${id_prefix}living_flesh`
         },
         {
-            result: { id: 'malum:imitation_flesh', count: 4 },
-            input: { item: 'malum:alchemical_calx', count: 4 },
+            result: { id: 'malum:imitation_flesh', count: 8 },
+            input: { item: 'malum:alchemical_calx', count: 8 },
             extraInputs: [
-                { item: 'malum:living_flesh', count: 8 },
-                { item: 'oritech:wither_crop_block', count: 4 },
-                { item: 'modern_industrialization:rubber_sheet', count: 4 }
+                { item: 'malum:living_flesh', count: 16 },
+                { item: 'oritech:wither_crop_block', count: 8 },
+                { item: 'modern_industrialization:rubber_sheet', count: 8 }
             ],
             spirits: [
-                { type: 'malum:sacred', count: 16 },
-                { type: 'malum:arcane', count: 16 },
-                { type: 'malum:aqueous', count: 16 }
+                { type: 'malum:sacred', count: 32 },
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aqueous', count: 32 }
             ],
             id: `${id_prefix}imitation_flesh`
         },

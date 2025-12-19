@@ -9,7 +9,7 @@ MIMaterialEvents.addMaterials((event) => {
 
     cables.forEach((cable) => {
         event.createMaterial(cable.name, getID(cable.name), cable.color, (builder) => {
-            builder.hardness('soft').materialSet('shiny').addParts('coil', 'wire').cable(cable.tier);
+            builder.hardness('soft').materialSet('shiny').addParts('coil').cable(cable.tier);
         });
     });
 });

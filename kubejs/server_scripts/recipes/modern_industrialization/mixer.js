@@ -135,7 +135,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'modern_industrialization:rubber_sheet', amount: 1 }],
             item_inputs: [{ item: 'farmersdelight:canvas', amount: 1 }],
-            fluid_inputs: [{ tag: `c:vulcanized_rubber`, amount: 50 }],
+            fluid_inputs: [{ tag: `c:vulcanized_rubber`, amount: 100 }],
             duration: 5,
             eu: 2,
             id: `${id_prefix}rubber_sheet`
