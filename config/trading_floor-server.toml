@@ -1,7 +1,7 @@
 #Controls how many trades a worker can perform in one work cycle
 # Default: 4
 # Range: > 1
-maxTradePerWork = 4
+maxTradePerWork = 8
 #Controls whether depots produce experience when trading
 shouldProduceExperience = false
 #The chance for each experience item to be produced when trading

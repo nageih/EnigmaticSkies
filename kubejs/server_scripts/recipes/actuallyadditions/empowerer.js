@@ -26,8 +26,8 @@ ServerEvents.recipes((event) => {
                 { item: 'naturesaura:token_grief' }
             ],
             color: '#0f5f23',
-            energy: 50000,
-            time: 10,
+            energy: 500000,
+            time: 1,
             id: `${id_prefix}fused_consciousness`
         },
         {
