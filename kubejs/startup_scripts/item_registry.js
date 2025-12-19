@@ -291,6 +291,12 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/transmute_drygmy',
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.transmute_drygmy.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_ravager'),
+            id: 'occultism:ritual_dummy/transmute_ravager',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_ravager.tooltip')
         }
     ];
 

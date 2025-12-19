@@ -114,7 +114,6 @@ ServerEvents.recipes((event) => {
             source: 6000,
             id: `${id_prefix}anima_essence_from_block`
         },
-
         {
             output: Item.of(
                 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
@@ -122,14 +121,11 @@ ServerEvents.recipes((event) => {
             input: Ingredient.of(
                 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
             ).toJson(),
-            pedestalItems: [
-                { item: 'actuallyadditions:restonia_crystal' },
-                { item: 'enderio:soul_powder' },
-                { item: 'minecraft:netherrack' }
-            ],
-            source: 2000,
-            id: `${id_prefix}nether_aura`
+            pedestalItems: [{ item: 'enderio:soul_powder' }, { item: 'minecraft:netherrack' }],
+            source: 1000,
+            id: `${id_prefix}bottled_ghosts`
         },
+
         // Glyph removal fixes
         {
             output: { id: 'ars_elemental:acceleration_prism_lens', count: 1 },

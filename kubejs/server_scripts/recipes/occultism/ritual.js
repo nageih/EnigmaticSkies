@@ -263,6 +263,10 @@ ServerEvents.recipes((event) => {
             egg: 'aether:cockatrice_spawn_egg'
         },
         {
+            entity: 'minecraft:ravager',
+            egg: 'minecraft:ravager_spawn_egg'
+        },
+        {
             entity: 'ars_nouveau:wilden_hunter',
             egg: 'ars_nouveau:wilden_hunter_se',
             entity_to_sacrifice: sacrifice.villager
