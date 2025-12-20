@@ -73,6 +73,34 @@ ServerEvents.recipes((event) => {
             duration: 20,
             eu: 64,
             id: `${id_prefix}end_steel_ingot`
+        },
+        {
+            item_outputs: [{ item: 'extended_industrialization:crystallized_honey', amount: 3 }],
+            fluid_inputs: [{ tag: 'c:honey', amount: 250 }],
+            duration: 10,
+            eu: 2,
+            id: `${id_prefix}crystallized_honey`
+        },
+        {
+            fluid_outputs: [{ fluid: 'extended_industrialization:honey', amount: 1000 }],
+            item_inputs: [{ item: 'minecraft:honey_block', amount: 1 }],
+            duration: 10,
+            eu: 2,
+            id: `${id_prefix}honey_from_block`
+        },
+        {
+            fluid_outputs: [{ fluid: 'extended_industrialization:honey', amount: 400 }],
+            item_inputs: [{ item: 'the_bumblezone:honey_crystal', amount: 1 }],
+            duration: 4,
+            eu: 2,
+            id: `${id_prefix}honey_from_crystal`
+        },
+        {
+            fluid_outputs: [{ fluid: 'extended_industrialization:honey', amount: 100 }],
+            item_inputs: [{ item: 'the_bumblezone:honey_crystal_shards', amount: 1 }],
+            duration: 1,
+            eu: 2,
+            id: `${id_prefix}honey_from_crystal_shards`
         }
     ];
 
