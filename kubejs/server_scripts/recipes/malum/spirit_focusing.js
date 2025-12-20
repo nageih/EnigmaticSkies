@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:aqueous', count: 4 }
             ],
             durabilityCost: 1,
-            time: 64,
+            time: 20,
             id: `${id_prefix}pulsating_crystal`
         },
         {
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:infernal', count: 16 }
             ],
             durabilityCost: 1,
-            time: 64,
+            time: 60,
             id: `${id_prefix}weather_crystal`
         },
         {
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:arcane', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}emeradic_crystal`
         },
         {
@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:arcane', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}ambrosium_shard`
         },
         {
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:aqueous', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}palis_crystal`
         },
         {
@@ -69,7 +69,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:aerial', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}diamatine_crystal`
         },
         {
@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:infernal', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}restonia_crystal`
         },
         {
@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:earthen', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}enori_crystal`
         },
         {
@@ -105,7 +105,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:eldritch', count: 2 }
             ],
             durabilityCost: 1,
-            time: 32,
+            time: 10,
             id: `${id_prefix}void_crystal`
         }
     ];
@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:infernal', count: 2 }
             ],
             durabilityCost: 2,
-            time: 32,
+            time: 30,
             id: `${id_prefix}node_focusing_${material}`
         });
     });
