@@ -11,7 +11,6 @@ ServerEvents.recipes((event) => {
                 'ars_nouveau:blank_parchment',
                 'enigmatica:source_ink'
             ],
-            replace: { item: 'enigmatica:source_ink', replacement: 'minecraft:glass_bottle' },
             id: `${id_prefix}statue`
         },
         {
