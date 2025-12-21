@@ -165,6 +165,7 @@ ServerEvents.recipes((event) => {
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
         { id: 'arsdelight:cooking/cooking/wilden_sauce' },
+        { id: 'arsdelight:cooking/cooking/source_berry_tea' },
         { id: 'arsdelight:mendosteen_pie' },
         { id: 'arsdelight:bastion_pie' },
         { id: 'arsdelight:bombegrante_pie' },

@@ -166,6 +166,20 @@ ServerEvents.recipes((event) => {
             experience: 0.1,
             recipe_book_tab: 'meals',
             id: `${id_prefix}wilden_sauce_bucket`
+        },
+        {
+            result: { count: 1, id: 'arsdelight:source_berry_tea' },
+            ingredients: [
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { tag: 'arsdelight:leaves' },
+                { tag: 'c:sugars' }
+            ],
+            container: { count: 1, id: 'minecraft:glass_bottle' },
+            experience: 0.1,
+            recipe_book_tab: 'drinks',
+            id: `${id_prefix}source_berry_tea`
         }
     ];
 
