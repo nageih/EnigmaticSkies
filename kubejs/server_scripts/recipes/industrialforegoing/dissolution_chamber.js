@@ -3,14 +3,18 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: { id: 'ae2:fluix_crystal', count: 2 },
+            output: { id: 'ae2:fluix_crystal', count: 6 },
             input: [
-                { tag: 'c:gems/pulsating_crystal' },
+                { item: 'arsdelight:activated_bastion_jam' },
                 { tag: 'c:gems/charged_certus' },
-                { item: 'arsdelight:activated_bastion_jam' }
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/charged_certus' },
+                { tag: 'c:gems/pulsating_crystal' },
+                { tag: 'c:gems/pulsating_crystal' },
+                { tag: 'c:gems/pulsating_crystal' }
             ],
             inputFluid: { fluid: `sauce:source_fluid`, amount: 1000 },
-            processingTime: 5,
+            processingTime: 30,
             id: `${id_prefix}fluix_crystal`
         },
         {
@@ -26,7 +30,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:basic_battery' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
-            processingTime: 15,
+            processingTime: 60,
             id: `${id_prefix}steel_machine_casing`
         },
         {
@@ -42,7 +46,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:advanced_battery' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
-            processingTime: 15,
+            processingTime: 120,
             id: `${id_prefix}clean_stainless_steel_machine_casing`
         },
         {
@@ -58,41 +62,9 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:overcharged_crystal' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
-            processingTime: 15,
+            processingTime: 180,
             id: `${id_prefix}quantum_machine_casing`
         },
-        // {
-        //     output: { id: 'industrialforegoing:machine_frame_advanced', count: 1 },
-        //     input: [
-        //         { item: 'pneumaticcraft:plastic' },
-        //         { item: 'industrialforegoing:machine_frame_simple' },
-        //         { item: 'pneumaticcraft:plastic' },
-        //         { item: 'modern_industrialization:clean_stainless_steel_machine_casing' },
-        //         { item: 'modern_industrialization:clean_stainless_steel_machine_casing' },
-        //         { item: 'oritech:advanced_battery' },
-        //         { item: 'enderio:guardian_diode' },
-        //         { item: 'oritech:advanced_battery' }
-        //     ],
-        //     inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
-        //     processingTime: 15,
-        //     id: `${id_prefix}machine_frame_advanced`
-        // },
-        // {
-        //     output: { id: 'industrialforegoing:machine_frame_supreme', count: 1 },
-        //     input: [
-        //         { item: 'modern_industrialization:cooling_cell' },
-        //         { item: 'industrialforegoing:machine_frame_advanced' },
-        //         { item: 'modern_industrialization:cooling_cell' },
-        //         { item: 'modern_industrialization:quantum_machine_casing' },
-        //         { item: 'modern_industrialization:quantum_machine_casing' },
-        //         { item: 'oritech:overcharged_crystal' },
-        //         { item: 'enderio:sentient_ender' },
-        //         { item: 'oritech:overcharged_crystal' }
-        //     ],
-        //     inputFluid: { fluid: 'oritech:still_strange_matter', amount: 1000 },
-        //     processingTime: 15,
-        //     id: `${id_prefix}machine_frame_supreme`
-        // },
         {
             output: { id: 'enderio:void_chassis', count: 1 },
             input: [
@@ -106,7 +78,7 @@ ServerEvents.recipes((event) => {
                 { item: 'oritech:advanced_battery' }
             ],
             inputFluid: { fluid: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
-            processingTime: 15,
+            processingTime: 60,
             id: `${id_prefix}void_chassis`
         },
         {
@@ -122,7 +94,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:source_berry_pie' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}processing_addon_tier_1`
         },
         {
@@ -138,7 +110,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:source_berry_pie' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}processing_addon_tier_2`
         },
         {
@@ -154,7 +126,7 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:rice_roll_medley_block' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}efficiency_addon_tier_1`
         },
         {
@@ -170,7 +142,7 @@ ServerEvents.recipes((event) => {
                 { item: 'farmersdelight:rice_roll_medley_block' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}efficiency_addon_tier_2`
         },
         {
@@ -186,7 +158,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:the_bun_also_rises' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}speed_addon_tier_1`
         },
         {
@@ -202,7 +174,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:the_bun_also_rises' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 15,
             id: `${id_prefix}speed_addon_tier_2`
         },
         {
@@ -218,14 +190,14 @@ ServerEvents.recipes((event) => {
                 { item: 'pneumaticcraft:advanced_pressure_tube' }
             ],
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 8000 },
-            processingTime: 15,
+            processingTime: 90,
             id: `${id_prefix}cooling_cell`
         },
         {
             output: { id: 'industrialforegoing:pink_slime_ingot', count: 2 },
             input: [{ tag: 'c:ingots/infused_iron' }, { tag: 'c:ingots/infused_iron' }],
             inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
-            processingTime: 10,
+            processingTime: 30,
             id: `${id_prefix}pink_slime_ingot`
         },
         {
@@ -241,7 +213,7 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:lens' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 30,
             id: `${id_prefix}red_laser_lens`
         },
         {
@@ -257,7 +229,7 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:lens' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 30,
             id: `${id_prefix}blue_laser_lens`
         },
         {
@@ -273,7 +245,7 @@ ServerEvents.recipes((event) => {
                 { item: 'actuallyadditions:lens' }
             ],
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
-            processingTime: 10,
+            processingTime: 30,
             id: `${id_prefix}black_laser_lens`
         }
     ];

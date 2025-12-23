@@ -190,13 +190,13 @@ ServerEvents.recipes((event) => {
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:bee' }
                 },
                 { item: 'starbunclemania:whirli_prop' },
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:bee' }
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
                 },
                 { item: 'malum:runic_sapball' },
                 { item: 'justdirethings:polymorphic_catalyst' },
@@ -215,13 +215,13 @@ ServerEvents.recipes((event) => {
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:goat' }
                 },
                 { item: 'starbunclemania:drygmy_horns' },
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:goat' }
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:allay' }
                 },
                 { item: 'cold_sweat:goat_fur' },
                 { item: 'justdirethings:polymorphic_catalyst' },
@@ -229,6 +229,31 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}drygmy`
+        },
+        {
+            output: {
+                id: 'geneticsresequenced:organic_matter',
+                components: { 'geneticsresequenced:entity_type': 'minecraft:ravager' },
+                count: 8
+            },
+            inputs: [
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:sniffer' }
+                },
+                { item: 'ars_nouveau:wilden_horn' },
+                {
+                    type: 'neoforge:components',
+                    items: 'geneticsresequenced:dna_helix',
+                    components: { 'geneticsresequenced:entity_type': 'minecraft:villager' }
+                },
+                { item: 'malum:imitation_flesh' },
+                { item: 'justdirethings:polymorphic_catalyst' },
+                { item: 'malum:imitation_flesh' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}ravager`
         }
     ];
 

@@ -917,30 +917,6 @@
 				item: { count: 1, id: "transfer_labels:label_accessor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["15FAB1720AD470A0"]
-			icon: {
-				id: "create:large_cogwheel"
-			}
-			id: "63AFE7CB35AE94BF"
-			min_width: 300
-			rewards: [{
-				id: "29405C2898AA59C3"
-				item: {
-					count: 1
-					id: "ars_nouveau:basic_spell_turret"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "75F35EC4088EBA42"
-				item: { components: { "ftbfiltersystem:filter": "or(item(create:deployer)item(create:encased_fan)item(create:mechanical_mixer)item(create:sand_paper)item(create:mechanical_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
 			x: 4.0d
 			y: -4.5d
 		}

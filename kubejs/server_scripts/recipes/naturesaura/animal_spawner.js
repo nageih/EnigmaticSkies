@@ -141,6 +141,13 @@ ServerEvents.recipes((event) => {
             aura: 30000,
             time: 60,
             id: `${id_prefix}chameleon`
+        },
+        {
+            entity: 'minecraft:sniffer',
+            ingredients: [{ item: 'naturesaura:birth_spirit' }, { item: 'minecraft:torchflower' }],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}sniffer`
         }
     ];
 

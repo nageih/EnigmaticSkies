@@ -1,5 +1,28 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
+    const simple_items = [
+        'ruby',
+        'source_berry_roll_dough',
+
+        'antikythera_mechanism',
+        'pulsating_mechanism',
+        'tempestuous_mechanism',
+
+        'fire_clay_ball',
+        'cookie_dough',
+        'sweet_berry_cookie_dough',
+        'honey_cookie_dough',
+        'source_berry_cookie_dough',
+        'pelagite',
+        'kerogen',
+
+        'magic_lamp'
+    ];
+
+    simple_items.forEach((item) => {
+        event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
+    });
+
     const delivery_bags = [
         { name: `Dumpling Drop`, color: '#a832a8', magic: true },
         { name: `Great Eggspectations`, color: '#e35e0b' },
@@ -16,16 +39,16 @@ StartupEvents.registry('item', (event) => {
         { name: `Jax's Snax`, color: '#b285e6', magic: true }
     ];
 
-    delivery_bags.forEach((item) => {
-        let id = getID(item.name);
+    delivery_bags.forEach((delivery_bag) => {
+        let id = getID(delivery_bag.name);
         event
             .create(`enigmatica:${id}`)
             .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
             .texture('layer1', `enigmatica:item/delivery_bags/label`)
             .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
-            .color(1, item.magic ? '#ebcafc' : '#ddc8b1')
-            .color(2, item.color)
-            .displayName(`§6CloudDash: ${item.magic ? '§d' : '§r'}${item.name}`)
+            .color(1, delivery_bag.magic ? '#ebcafc' : '#ddc8b1')
+            .color(2, delivery_bag.color)
+            .displayName(`§6CloudDash: ${delivery_bag.magic ? '§d' : '§r'}${delivery_bag.name}`)
             .tag('enigmatica:deliveries');
     });
 
@@ -59,16 +82,17 @@ StartupEvents.registry('item', (event) => {
         }
     ];
 
-    bottles.forEach((item) => {
-        let id = getID(item.name);
-        let bottle = event.create(`enigmatica:${id}`).displayName(item.name);
+    bottles.forEach((bottle) => {
+        let id = getID(bottle.name);
+        let item = event.create(`enigmatica:${id}`).displayName(bottle.name);
+        item.containerItem('minecraft:glass_bottle');
 
-        item.layers.forEach((layer, index) => {
-            bottle.texture(`layer${index}`, `enigmatica:item/${layer}`);
+        bottle.layers.forEach((layer, index) => {
+            item.texture(`layer${index}`, `enigmatica:item/${layer}`);
         });
 
-        item.colors.forEach((color, index) => {
-            if (color != '') bottle.color(index, color);
+        bottle.colors.forEach((color, index) => {
+            if (color != '') item.color(index, color);
         });
     });
 
@@ -90,25 +114,56 @@ StartupEvents.registry('item', (event) => {
         }
     ];
 
-    simple_foods.forEach((item) => {
-        let id = getID(item.name);
-        let realNutrition = item.nutrition * 2;
-        let realSaturation = item.saturation / realNutrition;
+    simple_foods.forEach((simple_food) => {
+        let id = getID(simple_food.name);
+        let realNutrition = simple_food.nutrition * 2;
+        let realSaturation = simple_food.saturation / realNutrition;
         event
             .create(`enigmatica:${id}`)
-            .texture(`enigmatica:item/${item.layer}`)
-            .displayName(item.name)
+            .texture(`enigmatica:item/${simple_food.layer}`)
+            .displayName(simple_food.name)
             .maxStackSize(64)
             .useAnimation('eat')
             .food((food) => {
                 food.nutrition(realNutrition).saturation(realSaturation);
-                if (item.effect) {
-                    food.effect(item.effect.id, item.effect.duration * 20, item.effect.amplifier, 1);
+                if (simple_food.effect) {
+                    food.effect(
+                        simple_food.effect.id,
+                        simple_food.effect.duration * 20,
+                        simple_food.effect.amplifier,
+                        1
+                    );
                 }
 
-                if (item.alwaysEdible) food.alwaysEdible();
-                if (item.fastToEat) food.fastToEat();
+                if (simple_food.alwaysEdible) food.alwaysEdible();
+                if (simple_food.fastToEat) food.fastToEat();
             });
+    });
+
+    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'reverberating'];
+
+    dorodangos.forEach((dorodango) => {
+        let item = `${dorodango}_dorodango`;
+
+        if (dorodango == 'melon_ball') {
+            item = dorodango;
+        }
+
+        event
+            .create(`enigmatica:${item}`)
+            .texture(`enigmatica:item/${item}`)
+            .tag('c:dorodangos')
+            .tag(`c:dorodangos/${dorodango}`);
+    });
+
+    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
+
+    pebbles.forEach((pebble) => {
+        event
+            .create(`enigmatica:${pebble}_pebble`)
+            .texture(`enigmatica:item/${pebble}_pebble`)
+            .tag('c:pebbles')
+            .tag(`c:pebbles/${pebble}`);
     });
 
     const ritual_dummies = [
@@ -291,63 +346,20 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/transmute_drygmy',
             type: 'summon',
             tooltip: Text.translate('item.occultism.ritual_dummy.transmute_drygmy.tooltip')
+        },
+        {
+            name: Text.translate('item.occultism.ritual_dummy.transmute_ravager'),
+            id: 'occultism:ritual_dummy/transmute_ravager',
+            type: 'summon',
+            tooltip: Text.translate('item.occultism.ritual_dummy.transmute_ravager.tooltip')
         }
     ];
 
-    ritual_dummies.forEach((item) => {
+    ritual_dummies.forEach((ritual_dummy) => {
         event
-            .create(item.id, 'occultism:ritual_dummy')
-            .displayName(item.name)
-            .pentacleType(item.type)
-            .ritualTooltip(item.tooltip);
-    });
-
-    const simple_items = [
-        'ruby',
-        'source_berry_roll_dough',
-
-        'antikythera_mechanism',
-        'pulsating_mechanism',
-        'tempestuous_mechanism',
-
-        'fire_clay_ball',
-        'cookie_dough',
-        'sweet_berry_cookie_dough',
-        'honey_cookie_dough',
-        'source_berry_cookie_dough',
-        'pelagite',
-        'kerogen',
-
-        'magic_lamp'
-    ];
-
-    simple_items.forEach((item) => {
-        event.create(`enigmatica:${item}`).texture(`enigmatica:item/${item}`);
-    });
-
-    const dorodangos = ['melon_ball', 'boggy', 'briny', 'silty', 'volcanic', 'cloudy', 'reverberating'];
-
-    dorodangos.forEach((type) => {
-        let item = `${type}_dorodango`;
-
-        if (type == 'melon_ball') {
-            item = type;
-        }
-
-        event
-            .create(`enigmatica:${item}`)
-            .texture(`enigmatica:item/${item}`)
-            .tag('c:dorodangos')
-            .tag(`c:dorodangos/${type}`);
-    });
-
-    const pebbles = ['andesite', 'basalt', 'calcite', 'deepslate', 'diorite', 'granite', 'stone', 'tuff'];
-
-    pebbles.forEach((item) => {
-        event
-            .create(`enigmatica:${item}_pebble`)
-            .texture(`enigmatica:item/${item}_pebble`)
-            .tag('c:pebbles')
-            .tag(`c:pebbles/${item}`);
+            .create(ritual_dummy.id, 'occultism:ritual_dummy')
+            .displayName(ritual_dummy.name)
+            .pentacleType(ritual_dummy.type)
+            .ritualTooltip(ritual_dummy.tooltip);
     });
 });

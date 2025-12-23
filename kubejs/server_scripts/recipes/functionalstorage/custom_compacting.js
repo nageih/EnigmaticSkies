@@ -21,6 +21,27 @@ ServerEvents.recipes((event) => {
             higher_input: { id: 'actuallyadditions:black_quartz_block', count: 1 },
             lower_input: { id: 'actuallyadditions:black_quartz', count: 4 },
             id: `${id_prefix}black_quartz_to_block`
+        },
+        {
+            higher_input: { id: 'minecraft:copper_block', count: 1 },
+            lower_input: { id: 'minecraft:copper_ingot', count: 9 },
+            id: `${id_prefix}copper_ingot_to_copper_block`
+        },
+        {
+            higher_input: { id: 'minecraft:copper_ingot', count: 1 },
+            lower_input: { id: 'modern_industrialization:copper_nugget', count: 9 },
+            id: `${id_prefix}copper_nugget_to_copper_ingot`
+        },
+
+        {
+            higher_input: { id: 'malum:block_of_cthonic_gold', count: 1 },
+            lower_input: { id: 'malum:cthonic_gold', count: 8 },
+            id: `${id_prefix}cthonic_gold_to_block_of_cthonic_gold`
+        },
+        {
+            higher_input: { id: 'malum:cthonic_gold', count: 1 },
+            lower_input: { id: 'malum:cthonic_gold_fragment', count: 8 },
+            id: `${id_prefix}cthonic_gold_fragment_to_cthonic_gold`
         }
     ];
 

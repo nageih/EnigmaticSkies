@@ -152,6 +152,34 @@ ServerEvents.recipes((event) => {
             experience: 0.1,
             recipe_book_tab: 'misc',
             id: `${id_prefix}soap`
+        },
+        {
+            result: { id: 'enigmatica:wilden_sauce_bucket', count: 1 },
+            ingredients: [
+                { item: 'arsdelight:wilden_horn_powder' },
+                { item: 'arsdelight:wilden_spike_powder' },
+                { item: 'ars_nouveau:wilden_wing' },
+                { item: 'occultism:tallow' },
+                { item: 'occultism:tallow' }
+            ],
+            container: { id: 'minecraft:bucket', count: 1 },
+            experience: 0.1,
+            recipe_book_tab: 'meals',
+            id: `${id_prefix}wilden_sauce_bucket`
+        },
+        {
+            result: { count: 1, id: 'arsdelight:source_berry_tea' },
+            ingredients: [
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { tag: 'arsdelight:leaves' },
+                { tag: 'c:sugars' }
+            ],
+            container: { count: 1, id: 'minecraft:glass_bottle' },
+            experience: 0.1,
+            recipe_book_tab: 'drinks',
+            id: `${id_prefix}source_berry_tea`
         }
     ];
 

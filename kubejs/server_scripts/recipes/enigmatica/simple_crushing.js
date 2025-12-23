@@ -74,16 +74,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'steel_dust_from_steel'
         },
         {
-            input: { tag: `c:ingots/bronze` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/bronze`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization'],
-            fe: 2400,
-            eu: 2,
-            duration: 5,
-            id_suffix: 'bronze_dust_from_bronze'
-        },
-        {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',

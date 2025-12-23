@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:the_bun_also_rises', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'ars_nouveau:source_berry_roll', amount: 6 }
             ],
             duration: 1,
@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:jaxs_snax', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'enigmatica:lilys_lilac_cotton_candy', amount: 6 },
                 { item: 'arsdelight:source_berry_cookie', amount: 12 }
             ],
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:flappin_jack_s_trove', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'supplementaries:pancake', amount: 12 },
                 { item: 'minecraft:honey_bottle', amount: 1 },
                 { item: 'farmersdelight:cooked_bacon', amount: 4 },
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:great_eggspectations', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'supplementaries:pancake', amount: 6 },
                 { item: 'farmersdelight:bacon_and_eggs', amount: 1 },
                 { item: 'actuallyadditions:coffee_cup', amount: 1 },
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:la_drygmese_poutine', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'enigmatica:poutine', amount: 1 },
                 { item: 'enigmatica:lilys_lilac_cotton_candy', amount: 1 },
                 { item: 'arsdelight:source_berry_tea', amount: 1 }
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:cozy_cauldron', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/soup', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/sandwich', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/magic_drink', amount: 1 },
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:dumpling_drop', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:dumplings', amount: 2 },
                 { item: 'farmersdelight:noodle_soup', amount: 1 },
                 { item: 'farmersdelight:fried_rice', amount: 1 },
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:suns_out_buns_out', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:dumplings', amount: 6 }
             ],
             duration: 1,
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:bun_believable_burger', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:hamburger', amount: 1 },
                 { item: 'farmersdelight:stuffed_potato', amount: 1 }
             ],
@@ -105,7 +105,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:sheep_eatin_green', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:mutton_wrap', amount: 1 },
                 { item: 'farmersdelight:mixed_salad', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:flyin_fox', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:chicken_sandwich', amount: 1 },
                 { item: 'farmersdelight:fruit_salad', amount: 1 },
                 { item: 'farmersdelight:sweet_berry_cheesecake', amount: 1 },
@@ -128,7 +128,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:braising_cain', amount: 1 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'farmersdelight:bacon_sandwich', amount: 1 },
                 { item: 'farmersdelight:stuffed_potato', amount: 1 }
             ],
@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [{ item: 'enigmatica:glazed_and_confused', amount: 4 }],
             item_inputs: [
-                { item: 'minecraft:paper', amount: 1, probability: 0.5 },
+                { item: 'minecraft:paper', amount: 1 },
                 { item: 'arsdelight:honey_glazed_chimera', amount: 1 },
                 { item: 'arsdelight:wilden_salad', amount: 1 },
                 { item: 'arsdelight:source_berry_cupcake', amount: 4 },

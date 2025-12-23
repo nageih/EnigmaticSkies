@@ -148,6 +148,11 @@ ServerEvents.recipes((event) => {
             replace_with: 'minecraft:andesite'
         },
         {
+            filter: [{ output: `supplementaries:bomb_spiky` }],
+            to_replace: '#c:ingots/lead',
+            replace_with: '#c:ingots/iron'
+        },
+        {
             filter: [{ output: `minecraft:repeater` }, { output: `minecraft:comparator` }],
             to_replace: 'minecraft:stone',
             replace_with: 'minecraft:andesite'
@@ -195,11 +200,6 @@ ServerEvents.recipes((event) => {
             filter: [{ input: `industrialforegoing:machine_frame_pity` }],
             to_replace: '#c:plates/plastic',
             replace_with: 'actuallyadditions:enori_crystal'
-        },
-        {
-            filter: [{ input: `industrialforegoing:machine_frame_pity` }],
-            to_replace: '#c:gears/diamond',
-            replace_with: '#c:gears/bronze'
         },
         {
             filter: [{ mod: 'industrialforegoing' }],
@@ -419,9 +419,24 @@ ServerEvents.recipes((event) => {
             replace_with: `oritech:flux_gate`
         },
         {
+            filter: [{ output: 'extended_industrialization:tin_can' }],
+            to_replace: 'modern_industrialization:tin_curved_plate',
+            replace_with: `#c:plates/steel`
+        },
+        {
+            filter: [{ output: 'extended_industrialization:steel_combine' }],
+            to_replace: 'modern_industrialization:steel_curved_plate',
+            replace_with: `#c:plates/steel`
+        },
+        {
             filter: {},
-            to_replace: `modern_industrialization:basic_machine_hull`,
-            replace_with: 'industrialforegoing:machine_frame_advanced'
+            to_replace: 'modern_industrialization:iridium_curved_plate',
+            replace_with: `#c:plates/iridium`
+        },
+        {
+            filter: [{ output: /modern_industrialization:.*me_wire/ }],
+            to_replace: 'modern_industrialization:bronze_curved_plate',
+            replace_with: `#c:ingots/copper_alloy`
         },
         {
             filter: [{ mod: 'actuallyadditions' }],
@@ -586,28 +601,6 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:gems/pulsating_crystal'
         }
     ];
-
-    const curved_plates = [
-        'aluminum',
-        'battery_alloy',
-        'blastproof_alloy',
-        'bronze',
-        'copper',
-        'gold',
-        'iridium',
-        'stainless_steel',
-        'steel',
-        'tin',
-        'titanium'
-    ];
-
-    curved_plates.forEach((material) => {
-        recipes.push({
-            filter: {},
-            to_replace: `modern_industrialization:${material}_curved_plate`,
-            replace_with: Ingredient.of([`#c:ingots/${material}`])
-        });
-    });
 
     const bolts = [
         'aluminum',

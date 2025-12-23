@@ -234,6 +234,15 @@
 		""
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
+	quest.07189DA532A429AE.quest_desc: [
+		"Whirl can be an exceptionally useful spell, but getting the glyphs to make it yourself may take some time. "
+		""
+		"For now, you can craft some specially prepared Caster Tomes with pre-set spells to make use of it!"
+		""
+		"&a🛈 Tip: Caster Tomes can be used to "
+		"&a    set Spell Turrets!"
+	]
+	quest.07189DA532A429AE.title: "Whirligig"
 	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
@@ -690,7 +699,7 @@
 		""
 		"                          &6&nFuel"
 		"    &cHeating&r                               &9Cooling&r"
-		"     &7Steam                                 &7Water"
+		"     &7Steam                                  &7Ice"
 		"&n                                                              &r"
 		""
 		"Appropriate &7Fuel&r and a &7Redstone&r signal must be provided on these faces. "
