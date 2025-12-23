@@ -26,20 +26,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}plastic`
         },
         {
-            results: [{ id: 'theurgy:crystallized_water', count: 2 }],
-            ingredients: [{ item: 'enigmatica:melon_ball' }],
-            fluidInput: { fluid: 'theurgy:sal_ammoniac', amount: 20 },
-            time: 5,
-            id: `${id_prefix}crystallized_water_from_sal_ammoniac`
-        },
-        {
-            results: [{ id: 'theurgy:crystallized_water', count: 8 }],
-            ingredients: [{ item: 'enigmatica:melon_ball' }],
-            fluidInput: { fluid: 'oritech:still_strange_matter', amount: 100 },
-            time: 5,
-            id: `${id_prefix}crystallized_water_from_strange_matter`
-        },
-        {
             results: [],
             fluidOutputs: [{ fluid: 'actuallyadditions:canola_oil', amount: 160 }],
             ingredients: [{ item: 'actuallyadditions:canola' }],

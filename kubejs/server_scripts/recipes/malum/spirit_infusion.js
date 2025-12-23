@@ -15,8 +15,8 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:living_flesh', count: 16 },
-            input: { item: 'minecraft:rotten_flesh', count: 32 },
-            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 16 }],
+            input: { item: 'minecraft:rotten_flesh', count: 8 },
+            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 8 }],
             spirits: [
                 { type: 'malum:sacred', count: 16 },
                 { type: 'malum:wicked', count: 16 }

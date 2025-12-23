@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 1 },
+                { item: 'theurgy:crystallized_water', amount: 3 },
                 { item: 'theurgy:crystallized_water', amount: 1, probability: 1 / 2 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],

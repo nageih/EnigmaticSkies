@@ -976,6 +976,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:particle/overcharged_crystal' },
         { id: 'oritech:particle/elytra' },
         { id: 'oritech:particle/echo_shard' },
+        { id: 'oritech:particle/diamond' },
         { id: 'oritech:cooler/snow' },
         { id: /oritech:mixing\/compat\/create/ },
         { id: /oritech:compat\/enderio\/alloy/ },

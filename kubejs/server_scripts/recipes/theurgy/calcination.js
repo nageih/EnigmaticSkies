@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:rotting_essence', count: 1 },
-            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 9 },
+            ingredient: { ingredient: { item: 'minecraft:rotten_flesh' }, count: 3 },
             time: 2,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }
