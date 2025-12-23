@@ -699,7 +699,7 @@
 		""
 		"                          &6&nFuel"
 		"    &cHeating&r                               &9Cooling&r"
-		"     &7Steam                                 &7Water"
+		"     &7Steam                                  &7Ice"
 		"&n                                                              &r"
 		""
 		"Appropriate &7Fuel&r and a &7Redstone&r signal must be provided on these faces. "

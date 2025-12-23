@@ -3,11 +3,11 @@ ServerEvents.generateData('before_mods', (event) => {
 
     const recipes = [
         { input: '#c:steam', fuel: 1000 },
-        { input: '#c:sludge', fuel: -1000 },
-        { input: '#c:water', fuel: -1000 },
-        { input: '#chipped:ice', fuel: -500 },
-        { input: '#chipped:packed_ice', fuel: -750 },
-        { input: '#chipped:blue_ice', fuel: -1000 }
+        // { input: '#c:water', fuel: -1000 },
+        // { input: '#c:buckets/water', fuel: -1000 },
+        { input: 'minecraft:ice', fuel: -500 },
+        { input: 'minecraft:packed_ice', fuel: -750 },
+        { input: 'minecraft:blue_ice', fuel: -1000 }
     ];
 
     recipes.forEach((recipe) => {
