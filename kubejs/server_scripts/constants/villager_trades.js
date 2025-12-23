@@ -274,12 +274,12 @@ const villagerTrades = {
             ingredients: [{ id: 'minecraft:chicken', count: { min: 1, max: 1 } }],
             level: 2
         },
-
         {
             result: { id: 'farmersdelight:mutton_chops', count: 4 },
             ingredients: [{ id: 'minecraft:mutton', count: { min: 1, max: 1 } }],
             level: 2
         },
+
         {
             result: { id: 'farmersdelight:salmon_slice', count: 4 },
             ingredients: [{ id: 'minecraft:salmon', count: { min: 1, max: 1 } }],
