@@ -49,6 +49,8 @@
 
     "item.modern_industrialization.sky_large_plate": "Sky Large Plate",
     "item.modern_industrialization.sky_plate": "Sky Plate",
+    "block.modern_industrialization.sky_machine_casing": "Sky Machine Casing",
+    "block.modern_industrialization.sky_machine_casing_pipe": "Sky Pipe Machine Casing",
 
     "block.modern_industrialization.bronze_tank": "Andesite Alloy Tank",
     "block.modern_industrialization.bronze_barrel": "Andesite Alloy Barrel",

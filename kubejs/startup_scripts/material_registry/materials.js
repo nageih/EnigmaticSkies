@@ -25,7 +25,7 @@ MIMaterialEvents.modifyMaterial('iridium', (event) => {
 MIMaterialEvents.addMaterials((event) => {
     let material = 'Sky';
     event.createMaterial(material, getID(material), 0x57dffa, (builder) => {
-        builder.hardness('soft').materialSet('stone').addParts('plate', 'large_plate');
+        builder.hardness('soft').materialSet('stone').addParts('plate', 'large_plate').machineCasing().pipeCasing();
     });
 });
 
