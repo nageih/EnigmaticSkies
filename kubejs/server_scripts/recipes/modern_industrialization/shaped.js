@@ -469,40 +469,39 @@ ServerEvents.recipes((event) => {
             material: 'conductive',
             tier: 'mv',
             casing: 'modern_industrialization:steel_machine_casing',
-            hull: 'modern_industrialization:advanced_machine_hull'
+            hull: 'modern_industrialization:advanced_machine_hull',
+            hull_covering: `#c:plates/andesite_alloy`
         },
         {
             material: 'energetic',
             tier: 'hv',
             casing: 'modern_industrialization:clean_stainless_steel_machine_casing',
-            hull: 'modern_industrialization:turbo_machine_hull'
+            hull: 'modern_industrialization:turbo_machine_hull',
+            hull_covering: `#c:plates/andesite_alloy`
         },
         {
             material: 'vibrant',
             tier: 'ev',
             casing: 'modern_industrialization:sky_machine_casing',
-            hull: 'modern_industrialization:highly_advanced_machine_hull'
+            hull: 'modern_industrialization:highly_advanced_machine_hull',
+            hull_covering: 'pneumaticcraft:plastic'
         },
         {
             material: 'superconductor',
             tier: 'superconductor',
             casing: 'modern_industrialization:quantum_machine_casing',
-            hull: 'modern_industrialization:quantum_machine_hull'
+            hull: 'modern_industrialization:quantum_machine_hull',
+            hull_covering: 'pneumaticcraft:plastic'
         }
     ];
 
     electrical_components.forEach((component, i) => {
         if (component.hull) {
-            let covering = `#c:plates/andesite_alloy`;
-            if (component.tier == 'ev' || component.tier == 'superconductor') {
-                covering = 'pneumaticcraft:plastic';
-            }
-
             recipes.push({
                 output: component.hull,
                 pattern: [' A ', 'ABA', ' A '],
                 key: {
-                    A: covering,
+                    A: component.hull_covering,
                     B: component.casing
                 },
                 id: `${id_prefix}${component.tier}_hull`
