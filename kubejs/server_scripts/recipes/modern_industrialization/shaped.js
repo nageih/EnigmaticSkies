@@ -456,6 +456,68 @@ ServerEvents.recipes((event) => {
                 E: '#c:essences/fire'
             },
             id: `${id_prefix}diesel_jetpack`
+        },
+        {
+            output: 'modern_industrialization:electric_furnace',
+            pattern: ['AAA', 'ABA', 'CDC'],
+            key: {
+                A: 'modern_industrialization:heatproof_machine_casing',
+                B: 'modern_industrialization:steel_machine_casing',
+                C: 'modern_industrialization:copper_coil',
+                D: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_furnace`
+        },
+        {
+            output: 'modern_industrialization:electric_compressor',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'modern_industrialization:piston',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_compressor`
+        },
+        {
+            output: 'modern_industrialization:electric_cutting_machine',
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: '#c:plates/steel',
+                B: '#c:gears/compressed_iron',
+                C: 'modern_industrialization:steel_machine_casing',
+                D: 'modern_industrialization:motor',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_cutting_machine`
+        },
+        {
+            output: 'modern_industrialization:electric_macerator',
+            pattern: ['ABA', 'BCB', 'DED'],
+            key: {
+                A: '#c:gems/diamond',
+                B: '#c:gears/compressed_iron',
+                C: 'modern_industrialization:steel_machine_casing',
+                D: 'modern_industrialization:motor',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_macerator`
+        },
+
+        {
+            output: 'modern_industrialization:electric_mixer',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'pneumaticcraft:turbine_rotor',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_mixer`
         }
     ];
 
