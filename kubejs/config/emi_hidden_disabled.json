@@ -167,6 +167,8 @@
             "modern_industrialization:and_gate",
             "modern_industrialization:or_gate",
             "modern_industrialization:not_gate",
+            "modern_industrialization:advanced_machine_casing",
+            "modern_industrialization:highly_advanced_machine_casing",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

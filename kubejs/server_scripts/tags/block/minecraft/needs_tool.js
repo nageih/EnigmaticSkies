@@ -1,8 +1,9 @@
 ServerEvents.tags('block', (event) => {
     let additions = {
         stone: [
-            /modern_industrialization:(bronze|steel)_(assembler|centrifuge|alluvial_trommel)/,
+            /modern_industrialization:(bronze|steel|electric)_(assembler|centrifuge|alluvial_trommel)/,
             /modern_industrialization:fire_clay_brick_.*_hatch/,
+            /modern_industrialization:sky_machine/,
             /modern_industrialization:(steam|energetic)_(kiln|alembic)/,
             /modern_industrialization:(copper|vibrant|conductive|energetic)_coil/,
             'mi_tweaks:dilapidated_boiler',

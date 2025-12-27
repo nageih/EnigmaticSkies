@@ -34,14 +34,14 @@ MIMachineEvents.registerMachines((event) => {
         'Alluvial Trommel',
         'alluvial_trommel',
         ALLUVIAL_TROMMEL,
-        ['bronze', 'steel'],
+        ['bronze', 'steel', 'electric'],
 
         /* GUI CONFIGURATION */
         // Background height (or -1 for default value), progress bar, efficiency bar, energy bar
         -1,
         event.progressBar(65, 33, 'centrifuge'),
         event.efficiencyBar(50, 66),
-        event.energyBar(42, 27),
+        event.energyBar(18, 34),
 
         /* SLOT CONFIGURATION */
         // Number of slots: item inputs, item outputs, fluid inputs, fluid outputs

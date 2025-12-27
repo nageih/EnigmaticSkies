@@ -110,6 +110,19 @@ ServerEvents.recipes((event) => {
                 B: `minecraft:slime_ball`
             },
             id: `${id_prefix}large_configurable_chest`
+        },
+        {
+            output: 'extended_industrialization:electric_composter',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'theurgy:digestion_vat',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_composter`
         }
     ];
 

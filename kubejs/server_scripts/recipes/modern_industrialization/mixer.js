@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:abjuration_essence', amount: 1, probability: 0.0 },
                 { tag: 'c:ingots/blazegold', amount: 1 }
             ],
-            duration: 1,
+            duration: 5,
             eu: 2,
             id: `${id_prefix}polymorphic_catalyst`
         },
@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
             fluid_outputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
             item_inputs: [{ item: 'justdirethings:polymorphic_catalyst', amount: 1 }],
             fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
-            duration: 1,
+            duration: 10,
             eu: 2,
             id: `${id_prefix}polymorphic_fluid_source`
         },
@@ -24,16 +24,16 @@ ServerEvents.recipes((event) => {
             fluid_outputs: [{ fluid: 'actuallyadditions:crystallized_oil', amount: 1000 }],
             item_inputs: [{ item: 'actuallyadditions:crystallized_canola_seed', amount: 1 }],
             fluid_inputs: [{ fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 }],
-            duration: 1,
-            eu: 1,
+            duration: 10,
+            eu: 8,
             id: `${id_prefix}crystallized_oil`
         },
         {
             fluid_outputs: [{ fluid: 'actuallyadditions:empowered_oil', amount: 1000 }],
             item_inputs: [{ item: 'actuallyadditions:empowered_canola_seed', amount: 1 }],
             fluid_inputs: [{ fluid: 'actuallyadditions:crystallized_oil', amount: 1000 }],
-            duration: 1,
-            eu: 1,
+            duration: 10,
+            eu: 16,
             id: `${id_prefix}empowered_oil`
         },
         {
@@ -230,8 +230,8 @@ ServerEvents.recipes((event) => {
                 { tag: material.input, amount: 4 },
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
-            duration: 5,
-            eu: 2,
+            duration: 10,
+            eu: Math.pow(2, material.tier),
             id: `${id_prefix}${material.output.split(':')[1]}`
         });
     });
@@ -260,8 +260,8 @@ ServerEvents.recipes((event) => {
                 },
                 { fluid: material.additive, amount: 1000 }
             ],
-            duration: 5,
-            eu: 2,
+            duration: 10,
+            eu: Math.pow(2, material.tier),
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });
     });

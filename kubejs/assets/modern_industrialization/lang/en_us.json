@@ -1,18 +1,20 @@
 {
-    "block.modern_industrialization.bronze_assembler": "Assembler",
+    "block.modern_industrialization.bronze_assembler": "Andesite Alloy Assembler",
     "block.modern_industrialization.steel_assembler": "Steel Assembler",
-    "rei_categories.modern_industrialization.bronze_assembler": "Assembler",
+    "rei_categories.modern_industrialization.bronze_assembler": "Andesite Alloy Assembler",
     "rei_categories.modern_industrialization.steel_assembler": "Steel Assembler",
 
-    "block.modern_industrialization.bronze_centrifuge": "Centrifuge",
+    "block.modern_industrialization.bronze_centrifuge": "Andesite Alloy Centrifuge",
     "block.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
-    "rei_categories.modern_industrialization.bronze_centrifuge": "Centrifuge",
+    "rei_categories.modern_industrialization.bronze_centrifuge": "Andesite Alloy Centrifuge",
     "rei_categories.modern_industrialization.steel_centrifuge": "Steel Centrifuge",
 
-    "block.modern_industrialization.bronze_alluvial_trommel": "Alluvial Trommel",
+    "block.modern_industrialization.bronze_alluvial_trommel": "Andesite Alloy Alluvial Trommel",
     "block.modern_industrialization.steel_alluvial_trommel": "Steel Alluvial Trommel",
+    "block.modern_industrialization.electric_alluvial_trommel": "Electric Alluvial Trommel",
     "rei_categories.modern_industrialization.bronze_alluvial_trommel": "Alluvial Trommel",
     "rei_categories.modern_industrialization.steel_alluvial_trommel": "Steel Alluvial Trommel",
+    "rei_categories.modern_industrialization.electric_alluvial_trommel": "Electric Alluvial Trommel",
 
     "item.modern_industrialization.copper_cable": "Copper Cable (LV)",
     "block.modern_industrialization.copper_coil": "Copper Coil",

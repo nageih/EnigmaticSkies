@@ -14,7 +14,6 @@ ClientEvents.generateAssets('before_mods', (event) => {
         { id: 'oritech:steam_engine' },
         { id: 'modern_industrialization:neutron_interaction' },
         { id: 'modern_industrialization:thermal_interaction' },
-        { id: 'modern_industrialization:centrifuge' },
         { id: 'trading_floor:potential_villager_trade' },
         { id: 'pneumaticcraft:uv_light_box' }
     ];

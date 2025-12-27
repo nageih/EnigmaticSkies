@@ -505,7 +505,6 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}electric_macerator`
         },
-
         {
             output: 'modern_industrialization:electric_mixer',
             pattern: ['ABA', 'CDC', 'EFE'],
@@ -518,6 +517,32 @@ ServerEvents.recipes((event) => {
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_mixer`
+        },
+        {
+            output: 'modern_industrialization:centrifuge',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'modern_industrialization:pump',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}centrifuge`
+        },
+        {
+            output: 'modern_industrialization:electric_alluvial_trommel',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'create:nozzle',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_alluvial_trommel`
         }
     ];
 
@@ -525,46 +550,48 @@ ServerEvents.recipes((event) => {
         {
             material: 'copper',
             tier: 'lv',
-            casing: 'modern_industrialization:bronze_machine_casing'
+            casing: 'modern_industrialization:bronze_machine_casing',
+            hull: 'modern_industrialization:bronze_machine_casing'
         },
         {
             material: 'conductive',
             tier: 'mv',
             casing: 'modern_industrialization:steel_machine_casing',
             hull: 'modern_industrialization:advanced_machine_hull',
-            hull_covering: `#c:plates/andesite_alloy`
+            covering: `#c:plates/andesite_alloy`
         },
         {
             material: 'energetic',
             tier: 'hv',
             casing: 'modern_industrialization:clean_stainless_steel_machine_casing',
             hull: 'modern_industrialization:turbo_machine_hull',
-            hull_covering: `#c:plates/andesite_alloy`
+            covering: `#c:plates/andesite_alloy`
         },
         {
             material: 'vibrant',
             tier: 'ev',
             casing: 'modern_industrialization:sky_machine_casing',
             hull: 'modern_industrialization:highly_advanced_machine_hull',
-            hull_covering: 'pneumaticcraft:plastic'
+            covering: 'pneumaticcraft:plastic'
         },
         {
             material: 'superconductor',
             tier: 'superconductor',
             casing: 'modern_industrialization:quantum_machine_casing',
             hull: 'modern_industrialization:quantum_machine_hull',
-            hull_covering: 'pneumaticcraft:plastic'
+            covering: 'pneumaticcraft:plastic'
         }
     ];
 
     electrical_components.forEach((component, i) => {
-        if (component.hull) {
+        if (component.covering) {
             recipes.push({
                 output: component.hull,
-                pattern: [' A ', 'ABA', ' A '],
+                pattern: [' A ', 'CBC', ' A '],
                 key: {
-                    A: component.hull_covering,
-                    B: component.casing
+                    A: component.covering,
+                    B: component.casing,
+                    C: `modern_industrialization:${component.material}_cable`
                 },
                 id: `${id_prefix}${component.tier}_hull`
             });
@@ -584,7 +611,7 @@ ServerEvents.recipes((event) => {
                 pattern: ['A', 'B'],
                 key: {
                     A: `modern_industrialization:${component.material}_cable`,
-                    B: component.casing
+                    B: component.hull
                 },
                 id: `${id_prefix}${component.tier}_energy_input_hatch`
             },
@@ -593,7 +620,7 @@ ServerEvents.recipes((event) => {
                 pattern: ['B', 'A'],
                 key: {
                     A: `modern_industrialization:${component.material}_cable`,
-                    B: component.casing
+                    B: component.hull
                 },
                 id: `${id_prefix}${component.tier}_energy_output_hatch`
             },
