@@ -736,6 +736,7 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:electric_farmer' },
         { output: 'extended_industrialization:bronze_composter' },
         { output: 'extended_industrialization:bronze_bending_machine' },
+        { output: 'extended_industrialization:robot_auto_feeder' },
         { output: 'extended_industrialization:large_configurable_chest' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
 

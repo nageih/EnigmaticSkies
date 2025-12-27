@@ -1,5 +1,5 @@
 LevelEvents.tick((event) => {
-    const { level } = event;
+    const { level, server } = event;
     // console.log(level.tickCount);
 
     level.level.entities.forEach((entity) => {
@@ -29,7 +29,9 @@ LevelEvents.tick((event) => {
         if (pData.getInt('senescence')) {
             if (pData.getInt('senescence') > max_senescence) {
                 console.log(`${entity.type} has reached the end of it's life. Time to go.`);
-                entity.discard();
+                server.scheduleInTicks(2, () => {
+                    entity.discard();
+                });
             } else {
                 pData.putInt('senescence', pData.getInt('senescence') + 1);
             }
