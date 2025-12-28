@@ -11,14 +11,14 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'industrialforegoing:fertilizer', amount: 1 },
+                { item: 'industrialforegoing:fertilizer', amount: 2 },
                 { item: 'industrialforegoing:fertilizer', amount: 1, probability: 0.5 }
             ],
             fluid_outputs: [
-                { fluid: 'extended_industrialization:manure', amount: 100 },
-                { fluid: 'enigmatica:wastewater', amount: 900 }
+                { fluid: 'extended_industrialization:manure', amount: 1000 },
+                { fluid: 'enigmatica:wastewater', amount: 3000 }
             ],
-            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
+            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 4000 },
             eu: 2,
             duration: 5,
             id: `${id_prefix}manure`
