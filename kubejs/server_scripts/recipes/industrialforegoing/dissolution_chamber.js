@@ -36,9 +36,9 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 },
             input: [
-                { item: 'enderio:frank_n_zombie' },
-                { item: 'modern_industrialization:cooling_cell' },
-                { item: 'enderio:frank_n_zombie' },
+                { item: 'enderio:z_logic_controller' },
+                { item: 'enderio:industrial_insulation_block' },
+                { item: 'enderio:z_logic_controller' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'modern_industrialization:stainless_steel_large_plate' },
                 { item: 'oritech:advanced_battery' },
@@ -48,6 +48,22 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
             processingTime: 120,
             id: `${id_prefix}clean_stainless_steel_machine_casing`
+        },
+        {
+            output: { id: 'modern_industrialization:sky_machine_casing', count: 1 },
+            input: [
+                { item: 'enderio:frank_n_zombie' },
+                { item: 'modern_industrialization:cooling_cell' },
+                { item: 'enderio:frank_n_zombie' },
+                { item: 'modern_industrialization:sky_large_plate' },
+                { item: 'modern_industrialization:sky_large_plate' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enderio:ensouled_chassis' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:ether_gas', amount: 1000 },
+            processingTime: 120,
+            id: `${id_prefix}sky_machine_casing`
         },
         {
             output: { id: 'modern_industrialization:quantum_machine_casing', count: 1 },

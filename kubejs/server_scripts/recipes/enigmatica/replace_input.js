@@ -257,19 +257,14 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:vibrant_cable`
         },
         {
-            filter: [{ output: /modern_industrialization:(bronze|steel|advanced|turbo)_fluid_.*_hatch/ }],
+            filter: [{ output: /modern_industrialization:(bronze|steel|advanced|highly_advanced)_fluid_.*_hatch/ }],
             to_replace: /modern_industrialization:.*_tank/,
             replace_with: `utilitarian:fluid_hopper`
         },
         {
-            filter: [{ output: /modern_industrialization:advanced_.*_hatch/ }],
-            to_replace: /modern_industrialization:.*_machine_hull/,
-            replace_with: 'modern_industrialization:clean_stainless_steel_machine_casing'
-        },
-        {
-            filter: [{ output: /modern_industrialization:turbo_.*_hatch/ }],
-            to_replace: /modern_industrialization:.*_machine_hull/,
-            replace_with: 'modern_industrialization:quantum_machine_casing'
+            filter: [{ output: 'extended_industrialization:universal_transformer' }],
+            to_replace: 'modern_industrialization:basic_machine_hull',
+            replace_with: `modern_industrialization:bronze_machine_casing`
         },
         {
             filter: {},

@@ -16,6 +16,8 @@
     Similarly, be sure to update the `minecraft/needs_tool` and `minecraft/mineable` block tags.
 */
 
+// Casings: https://github.com/AztechMC/Modern-Industrialization/blob/8574d53686c0785ce5deac3b103d2239faca2a4c/src/main/java/aztech/modern_industrialization/machines/models/MachineCasings.java
+
 let ELECTRIC_ALEMBIC;
 
 MIMachineEvents.registerRecipeTypes((event) => {

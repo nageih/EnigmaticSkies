@@ -1,7 +1,0 @@
-{
-    "casing": "clean_stainless_steel_machine_casing",
-    "default_overlays": {
-        "side": "modern_industrialization:block/machines/hatch_energy/overlay_side"
-    },
-    "loader": "modern_industrialization:machine"
-}

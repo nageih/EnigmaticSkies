@@ -110,6 +110,43 @@ ServerEvents.recipes((event) => {
                 B: `minecraft:slime_ball`
             },
             id: `${id_prefix}large_configurable_chest`
+        },
+        {
+            output: 'extended_industrialization:electric_composter',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'theurgy:digestion_vat',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_composter`
+        },
+        {
+            output: 'extended_industrialization:robot_auto_feeder',
+            pattern: [' A ', 'ABA', 'CDC'],
+            key: {
+                A: '#c:plates/copper',
+                B: 'modern_industrialization:robot_arm',
+                C: 'oritech:basic_battery',
+                D: 'enderio:z_logic_controller'
+            },
+            id: `${id_prefix}robot_auto_feeder`
+        },
+        {
+            output: 'extended_industrialization:electric_canning_machine',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'create:spout',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_canning_machine`
         }
     ];
 
