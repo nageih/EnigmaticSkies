@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sorcerer_leggings' },
                 { item: 'ars_nouveau:sorcerer_boots' }
             ],
-            id: `${id_prefix}cardboard_tools`
+            id: `${id_prefix}magebloom_armor`
         },
 
         {

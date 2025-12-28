@@ -141,12 +141,12 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 3 },
-                { item: 'theurgy:crystallized_water', amount: 1, probability: 1 / 2 }
+                { item: 'theurgy:crystallized_water', amount: 6 },
+                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 2 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 500 },
             process_conditions: [
                 {
                     type: 'mi_tweaks:nearby_entity',

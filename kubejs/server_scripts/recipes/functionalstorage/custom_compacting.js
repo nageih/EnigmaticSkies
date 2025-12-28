@@ -35,13 +35,24 @@ ServerEvents.recipes((event) => {
 
         {
             higher_input: { id: 'malum:block_of_cthonic_gold', count: 1 },
-            lower_input: { id: 'malum:cthonic_gold', count: 8 },
+            lower_input: { id: 'malum:cthonic_gold', count: 9 },
             id: `${id_prefix}cthonic_gold_to_block_of_cthonic_gold`
         },
         {
             higher_input: { id: 'malum:cthonic_gold', count: 1 },
-            lower_input: { id: 'malum:cthonic_gold_fragment', count: 8 },
+            lower_input: { id: 'malum:cthonic_gold_fragment', count: 9 },
             id: `${id_prefix}cthonic_gold_fragment_to_cthonic_gold`
+        },
+
+        {
+            higher_input: { id: 'malum:block_of_blazing_quartz', count: 1 },
+            lower_input: { id: 'malum:blazing_quartz', count: 9 },
+            id: `${id_prefix}block_of_blazing_quartz_to_blazing_quartz`
+        },
+        {
+            higher_input: { id: 'malum:blazing_quartz', count: 1 },
+            lower_input: { id: 'malum:blazing_quartz_fragment', count: 9 },
+            id: `${id_prefix}blazing_quartz_to_blazing_quartz_fragment`
         }
     ];
 
