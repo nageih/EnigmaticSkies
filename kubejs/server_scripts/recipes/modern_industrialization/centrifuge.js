@@ -10,12 +10,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}canola_oil`
         },
         {
-            item_outputs: [{ item: 'industrialforegoing:fertilizer', amount: 6 }],
-            fluid_outputs: [
-                { fluid: 'extended_industrialization:manure', amount: 1000 },
-                { fluid: 'enigmatica:wastewater', amount: 1000 }
+            item_outputs: [
+                { item: 'industrialforegoing:fertilizer', amount: 1 },
+                { item: 'industrialforegoing:fertilizer', amount: 1, probability: 0.5 }
             ],
-            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 8000 },
+            fluid_outputs: [
+                { fluid: 'extended_industrialization:manure', amount: 100 },
+                { fluid: 'enigmatica:wastewater', amount: 900 }
+            ],
+            fluid_inputs: { fluid: 'industrialforegoing:sewage', amount: 1000 },
             eu: 2,
             duration: 5,
             id: `${id_prefix}manure`
