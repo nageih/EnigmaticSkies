@@ -445,10 +445,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // EnderIO
@@ -465,10 +462,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Crushing
@@ -479,10 +473,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 2 * 20
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Milling
@@ -493,10 +484,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 1.5 * 20
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Macerator
@@ -517,10 +505,7 @@ ServerEvents.recipes((event) => {
                     probability: output.chance ? output.chance : 1.0
                 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

@@ -382,6 +382,6 @@ ServerEvents.recipes((event) => {
         recipe.pentacle_id = 'occultism:contact_eldritch_spirit';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

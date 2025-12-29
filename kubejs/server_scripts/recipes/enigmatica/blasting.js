@@ -17,6 +17,6 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         event.blasting(recipe.output, recipe.input, recipe.xp, recipe.cookingTime).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

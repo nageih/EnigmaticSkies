@@ -66,6 +66,6 @@ ServerEvents.recipes((event) => {
         recipe.color = hexToRgb(recipe.color);
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

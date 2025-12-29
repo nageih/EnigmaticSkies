@@ -86,6 +86,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'geneticsresequenced:incubator/gmo';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

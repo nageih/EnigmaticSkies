@@ -83,6 +83,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'malum:void_favor';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

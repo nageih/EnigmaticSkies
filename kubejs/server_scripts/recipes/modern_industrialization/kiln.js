@@ -110,13 +110,9 @@ ServerEvents.recipes((event) => {
         if (recipe.eu <= 4) {
             recipe.type = 'modern_industrialization:steam_kiln';
             event.custom(recipe).id(`${recipe.id}/steam`);
-
-            if (debug) console.log(`${recipe.id}/steam`);
         }
 
         recipe.type = 'modern_industrialization:electric_kiln';
         event.custom(recipe).id(`${recipe.id}/electric`);
-
-        if (debug) console.log(`${recipe.id}/electric`);
     });
 });

@@ -76,9 +76,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}chips`
         },
         {
-            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
+            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 250 } },
             inputs: {
-                fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
+                fluid: { fluid: 'enigmatica:heavy_oil', amount: 250 },
                 item: { tag: 'c:dusts/grains_of_infinity' }
             },
             temperature: { min: CtoK(100) },
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { amount: 500, id: 'pneumaticcraft:plastic' } },
             inputs: {
-                fluid: { amount: 100, fluid: 'modern_industrialization:naphtha' },
+                fluid: { amount: 100, fluid: 'enigmatica:light_oil' },
                 item: { tag: 'c:gems/primal_coal' }
             },
             temperature: { min: CtoK(100) },
@@ -309,6 +309,6 @@ ServerEvents.recipes((event) => {
         recipe.type = `pneumaticcraft:thermo_plant`;
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

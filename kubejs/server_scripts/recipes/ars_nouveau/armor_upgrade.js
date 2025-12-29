@@ -20,6 +20,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'ars_nouveau:armor_upgrade';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

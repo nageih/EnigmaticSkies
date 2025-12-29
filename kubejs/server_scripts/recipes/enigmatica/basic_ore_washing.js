@@ -44,10 +44,7 @@ ServerEvents.recipes((event) => {
                 ingredients: [recipe.input],
                 results: recipe.outputs
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         if (!recipe.exclusions.includes('modern_industrialization')) {
@@ -65,10 +62,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.item_outputs.push({ item: output.id, amount: output.count * 1.5, probability: output.chance });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });
