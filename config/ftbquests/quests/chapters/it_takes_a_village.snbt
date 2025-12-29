@@ -260,6 +260,7 @@
 				id: "enigmatica:flying_cow_iou"
 			}
 			id: "605A60825B68C2D7"
+			min_width: 250
 			rewards: [
 				{
 					count: 16

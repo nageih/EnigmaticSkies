@@ -1,17 +1,18 @@
 LevelEvents.tick((event) => {
     const { level, server } = event;
+
+    const ticks_per_day = 24000;
+    const max_senescence = ticks_per_day * 10;
+
     const dimension = String(level.getDimension());
     const execute = `execute in ${dimension} run`;
+
     // console.log(level.tickCount);
 
     level.level.entities.forEach((entity) => {
         if (!entity.isLiving() || entity.isPlayer()) {
             return;
         }
-
-        let ticks_per_day = 24000;
-        let max_senescence = ticks_per_day * 10;
-        // let max_senescence = ticks_per_day / 24;
 
         let age = entity.nbt.Age;
         let pData = entity.persistentData;
@@ -25,20 +26,19 @@ LevelEvents.tick((event) => {
             .getTags()
             .anyMatch((tag) => tag.location() == 'enigmatica:senescence');
 
-        // Mark the mob for death
+        // Mark the mob for senescence system
         if (isSenescent && age == 0 && !pData.getInt('senescence')) {
-            // console.log(`${entity.type} has an age of ${age}. Let it Die.`);
             pData.putInt('senescence', 1);
             pData.putInt('original_max_health', entity.getMaxHealth());
         }
 
         if (pData.getInt('senescence')) {
             let senescence = pData.getInt('senescence');
-            let original_max_health = pData.getInt('original_max_health');
-
             pData.putInt('senescence', senescence + 1);
 
-            if (senescence % 20 == 0) {
+            // Only check if effects need to be applied once per minute
+            if (senescence % 1200 == 0) {
+                let original_max_health = pData.getInt('original_max_health');
                 let commands = [];
 
                 if (senescence > max_senescence * 0.5) {
