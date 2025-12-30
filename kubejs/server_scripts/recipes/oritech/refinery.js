@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
             fluidOutputs: [{ fluid: 'oritech:still_strange_matter', amount: 1000 }],
             ingredients: [{ item: 'malum:strange_crystal' }],
             fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 1000 },
-            time: 2,
+            time: 4,
             id: `${id_prefix}strange_matter_from_strange_crystal`
         },
         {

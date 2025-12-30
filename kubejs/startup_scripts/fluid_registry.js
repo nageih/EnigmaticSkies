@@ -39,7 +39,7 @@ StartupEvents.registry('fluid', (event) => {
         {
             name: 'Heavy Oil',
             type: 'thin',
-            color: '#b96c00'
+            color: '#e98c00'
         },
         {
             name: 'Pitch',

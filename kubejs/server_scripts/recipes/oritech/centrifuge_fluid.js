@@ -4,18 +4,10 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:polymer_resin', count: 2 }],
             fluidOutputs: [],
-            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
-            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 100 },
+            ingredients: [{ item: 'occultism:otherworld_ashes' }],
+            fluidInput: { fluid: 'enigmatica:pitch', amount: 100 },
             time: 5,
             id: `${id_prefix}polymer_resin`
-        },
-        {
-            results: [],
-            fluidOutputs: [{ fluid: 'oritech:still_silicon_wash', amount: 1000 }],
-            ingredients: [{ tag: 'c:dusts/certus_quartz' }],
-            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 1000 },
-            time: 5,
-            id: `${id_prefix}silicon_wash`
         },
         {
             results: [],
@@ -77,7 +69,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'oritech:centrifuge_fluid';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

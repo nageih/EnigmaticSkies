@@ -2,12 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/assembler/';
     const recipes = [
         {
-            results: [{ id: 'oritech:clay_catalyst_beads', count: 2 }],
-            ingredients: [{ item: 'minecraft:clay_ball' }, { item: 'occultism:otherworld_ashes' }],
-            time: 30,
-            id: `${id_prefix}clay_catalyst_beads`
-        },
-        {
             results: [{ id: 'oritech:basic_battery', count: 2 }],
             ingredients: [
                 { item: 'modern_industrialization:steel_large_plate' },
@@ -250,7 +244,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'oritech:assembler';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

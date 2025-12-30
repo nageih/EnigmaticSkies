@@ -956,6 +956,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:centrifuge/fluid/compat/actuallyadditions/empoweredoil' },
         { id: 'oritech:refinery/compat/create/rawsheol/zinc' },
         { id: 'oritech:refinery/quartz' },
+        { id: 'oritech:refinery/siliconwashing' },
         { id: /oritech:refinery\/rawsheol/ },
         { id: /oritech:refinery\/(biodiesel|heavyoil|oil|lava|carbonsheet)/ },
         { id: /oritech:splashing\/compat\/create/ },

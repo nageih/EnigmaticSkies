@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { item_output: { count: 1, id: 'oritech:reinforced_carbon_sheet' } },
             inputs: {
-                fluid: { fluid: 'modern_industrialization:naphtha', amount: 500 },
+                fluid: { fluid: 'pneumaticcraft:plastic', amount: 500 },
                 item: { item: 'oritech:carbon_fibre_strands' }
             },
             pressure: 7.5,
@@ -308,7 +308,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:thermo_plant`;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
