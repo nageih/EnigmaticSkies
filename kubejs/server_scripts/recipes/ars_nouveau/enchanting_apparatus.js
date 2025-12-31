@@ -457,9 +457,13 @@ ServerEvents.recipes((event) => {
             reagent: { tag: 'c:gems/ruby' },
             pedestalItems: [
                 { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/emeradic' },
                 { item: 'arsdelight:activated_mendosteen_jam' },
+                { tag: 'c:gems/emeradic' },
                 { tag: 'c:ingots/hallowed_gold' },
-                { item: 'arsdelight:activated_mendosteen_jam' }
+                { tag: 'c:gems/emeradic' },
+                { item: 'arsdelight:activated_mendosteen_jam' },
+                { tag: 'c:gems/emeradic' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 10000,
