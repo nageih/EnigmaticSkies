@@ -457,13 +457,9 @@ ServerEvents.recipes((event) => {
             reagent: { tag: 'c:gems/ruby' },
             pedestalItems: [
                 { tag: 'c:ingots/hallowed_gold' },
-                { item: 'malum:strange_crystal' },
                 { item: 'arsdelight:activated_mendosteen_jam' },
-                { item: 'malum:strange_crystal' },
                 { tag: 'c:ingots/hallowed_gold' },
-                { item: 'malum:strange_crystal' },
-                { item: 'arsdelight:activated_mendosteen_jam' },
-                { item: 'malum:strange_crystal' }
+                { item: 'arsdelight:activated_mendosteen_jam' }
             ],
             keepNbtOfReagent: false,
             sourceCost: 10000,
@@ -651,7 +647,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:enchanting_apparatus';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

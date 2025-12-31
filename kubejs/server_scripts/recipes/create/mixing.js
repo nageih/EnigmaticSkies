@@ -67,13 +67,33 @@ ServerEvents.recipes((event) => {
             ],
             heat_requirement: 'none',
             id: `${id_prefix}rice_dough`
+        },
+
+        {
+            results: [
+                { id: 'oritech:still_sheol_fire', amount: 1000 },
+                { id: 'minecraft:bowl', count: 1 }
+            ],
+            ingredients: [
+                { item: 'arsdelight:bombegrante_jelly' },
+                { type: 'fluid_stack', fluid: 'minecraft:lava', amount: 1000 }
+            ],
+            heat_requirement: 'superheated',
+            id: `${id_prefix}still_sheol_fire`
+        },
+        {
+            results: [{ id: 'oritech:still_strange_matter', amount: 1000 }],
+            ingredients: [
+                { item: 'malum:strange_crystal' },
+                { type: 'fluid_stack', fluid: 'oritech:still_sheol_fire', amount: 250 }
+            ],
+            heat_requirement: 'superheated',
+            id: `${id_prefix}still_strange_matter`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'create:mixing';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

@@ -10,24 +10,24 @@ ServerEvents.recipes((event) => {
             ],
             ingredients: [],
             fluidInput: { fluid: 'pneumaticcraft:oil', amount: 1000 },
-            time: 2,
+            time: 4,
             id: `${id_prefix}oil_processing`
         },
 
         {
-            results: [],
+            results: [{ id: 'minecraft:bowl' }],
             fluidOutputs: [{ fluid: 'oritech:still_sheol_fire', amount: 1000 }],
-            ingredients: [{ item: 'ars_nouveau:bombegranate_pod' }],
+            ingredients: [{ item: 'arsdelight:bombegrante_jelly' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 1000 },
-            time: 2,
+            time: 1,
             id: `${id_prefix}sheol_fire_from_lava`
         },
         {
             results: [],
             fluidOutputs: [{ fluid: 'oritech:still_strange_matter', amount: 1000 }],
             ingredients: [{ item: 'malum:strange_crystal' }],
-            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 1000 },
-            time: 4,
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+            time: 1,
             id: `${id_prefix}strange_matter_from_strange_crystal`
         },
         {
@@ -43,14 +43,14 @@ ServerEvents.recipes((event) => {
             fluidOutputs: [],
             ingredients: [{ item: 'create:powdered_obsidian' }],
             fluidInput: { fluid: 'minecraft:lava', amount: 500 },
-            time: 2,
+            time: 1,
             id: `${id_prefix}sturdy_sheet`
         },
         {
             results: [{ id: 'minecraft:netherite_scrap' }],
             fluidOutputs: [],
             ingredients: [{ tag: 'c:dusts/netherite_scrap' }],
-            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 2000 },
+            fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
             time: 10,
             id: `${id_prefix}netherite_scrap`
         },

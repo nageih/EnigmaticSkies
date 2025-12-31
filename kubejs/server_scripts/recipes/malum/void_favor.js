@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:raw_soulstone' },
-            input: { tag: 'c:raw_materials/iron' },
+            input: { tag: 'c:storage_blocks/neptunium' },
             id: `${id_prefix}raw_soulstone`
         },
         {
@@ -82,7 +82,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'malum:void_favor';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

@@ -5,8 +5,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/gold' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 },
-                { id: 'malum:strange_crystal', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,
@@ -16,8 +15,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/copper' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 },
-                { id: 'modern_industrialization:quartz_dust', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,
@@ -27,8 +25,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/iron' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 },
-                { id: 'modern_industrialization:silicon_dust', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,

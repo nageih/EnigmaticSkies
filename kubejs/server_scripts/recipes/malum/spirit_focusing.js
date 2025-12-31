@@ -107,6 +107,14 @@ ServerEvents.recipes((event) => {
             durabilityCost: 1,
             time: 10,
             id: `${id_prefix}void_crystal`
+        },
+        {
+            result: { id: 'malum:strange_crystal', count: 8 },
+            input: { item: 'malum:alchemical_impetus' },
+            spirits: [{ type: 'malum:eldritch', count: 1 }],
+            durabilityCost: 1,
+            time: 10,
+            id: `${id_prefix}strange_crystal`
         }
     ];
 
@@ -130,7 +138,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'malum:spirit_focusing';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

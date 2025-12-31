@@ -277,7 +277,7 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Feeds animals and induces them to breed`).green()]
         },
         {
-            items: ['minecraft:torchflower'],
+            items: ['minecraft:torchflower', 'ars_elemental:spore_blossom_up'],
             text: [Text.of(`Found on Flourishing Islands`).gold()]
         },
         {
@@ -285,8 +285,16 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Found on Cascading Islands`).gold()]
         },
         {
+            items: ['aether:white_flower', 'aether:purple_flower'],
+            text: [Text.of(`Found on Platform Islands`).gold()]
+        },
+        {
             items: ['minecraft:pink_petals'],
             text: [Text.of(`Found on Flashing Islands`).gold()]
+        },
+        {
+            items: ['malum:strange_crystal', 'malum:large_strange_crystal'],
+            text: [Text.of(`Found on Vexing Islands`).gold()]
         },
         {
             items: ['malum:void_depot'],

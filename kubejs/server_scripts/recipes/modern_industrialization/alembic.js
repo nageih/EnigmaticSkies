@@ -11,38 +11,22 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:briny_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}briny_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'aquaculture:neptunium_nugget', amount: 12, probability: 1 / 3 },
-                { item: 'ae2:certus_quartz_crystal', amount: 8, probability: 1 / 3 },
-                { item: 'minecraft:lapis_lazuli', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'aquaculture:neptunium_nugget', amount: 6, probability: 1 / 3 },
+                { item: 'ae2:certus_quartz_crystal', amount: 4, probability: 1 / 3 },
+                { item: 'minecraft:lapis_lazuli', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:briny_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}briny_dorodango_processing_from_strange_matter`
@@ -56,38 +40,22 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:silty_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}silty_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'minecraft:nautilus_shell', amount: 12, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_shard', amount: 8, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_crystals', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'minecraft:nautilus_shell', amount: 6, probability: 1 / 3 },
+                { item: 'minecraft:prismarine_shard', amount: 4, probability: 1 / 3 },
+                { item: 'minecraft:prismarine_crystals', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:silty_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}silty_dorodango_processing_from_strange_matter`
@@ -101,38 +69,22 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:boggy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}boggy_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'aquaculture:fish_bones', amount: 12, probability: 1 / 3 },
-                { item: 'actuallyadditions:black_quartz', amount: 8, probability: 1 / 3 },
-                { item: 'minecraft:rotten_flesh', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'aquaculture:fish_bones', amount: 6, probability: 1 / 3 },
+                { item: 'actuallyadditions:black_quartz', amount: 4, probability: 1 / 3 },
+                { item: 'minecraft:rotten_flesh', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:boggy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}boggy_dorodango_processing_from_strange_matter`
@@ -146,38 +98,22 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:reverberating_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}reverberating_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'aether:zanite_gemstone', amount: 12, probability: 1 / 3 },
-                { item: 'occultism:echo_dust', amount: 8, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'aether:zanite_gemstone', amount: 6, probability: 1 / 3 },
+                { item: 'occultism:echo_dust', amount: 4, probability: 1 / 3 },
+                { item: 'occultism:otherworld_ashes', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:reverberating_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}reverberating_dorodango_processing_from_strange_matter`
@@ -191,38 +127,22 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}volcanic_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'malum:blazing_quartz', amount: 12, probability: 1 / 3 },
-                { item: 'theurgy:crystallized_lava', amount: 8, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'malum:blazing_quartz', amount: 6, probability: 1 / 3 },
+                { item: 'theurgy:crystallized_lava', amount: 4, probability: 1 / 3 },
+                { item: 'create:cinder_flour', amount: 2, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}volcanic_dorodango_processing_from_strange_matter`
@@ -235,37 +155,21 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:cloudy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}cloudy_dorodango_processing`
         },
         {
             item_outputs: [
-                { item: 'theurgy:sal_ammoniac_crystal', amount: 12, probability: 1 / 3 },
-                { item: 'ae2:sky_dust', amount: 8, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 4, probability: 1 / 3 }
+                { item: 'theurgy:sal_ammoniac_crystal', amount: 6, probability: 1 / 3 },
+                { item: 'ae2:sky_dust', amount: 4, probability: 1 / 3 },
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:cloudy_dorodango', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 64,
             duration: 10,
             id: `${id_prefix}cloudy_dorodango_processing_from_strange_matter`
@@ -278,15 +182,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 500 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 5,
             id: `${id_prefix}melon_ball_processing`
@@ -299,15 +195,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 2000 },
-            process_conditions: [
-                {
-                    type: 'mi_tweaks:nearby_entity',
-                    relative: 'all',
-                    range: 5,
-                    entity: 'ars_nouveau:alakarkinos',
-                    count: 1
-                }
-            ],
+            alakarkinos: true,
             eu: 2,
             duration: 10,
             id: `${id_prefix}melon_ball_processing_from_strange_matter`
@@ -316,6 +204,18 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.duration *= 20;
+
+        if (recipe.alakarkinos) {
+            recipe.process_conditions = [
+                {
+                    type: 'mi_tweaks:nearby_entity',
+                    relative: 'all',
+                    range: 5,
+                    entity: 'ars_nouveau:alakarkinos',
+                    count: 1
+                }
+            ];
+        }
 
         if (recipe.eu <= 4) {
             recipe.type = 'modern_industrialization:steam_alembic';

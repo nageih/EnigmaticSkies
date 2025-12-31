@@ -143,18 +143,11 @@
 			}
 			id: "1446CD6DE9426AE7"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "6FC55AC0C8F2C52C"
-					item: { count: 1, id: "create:crushed_raw_iron" }
-					type: "item"
-				}
-				{
-					id: "52FBA77CCD4EA054"
-					item: { count: 1, id: "modern_industrialization:silicon_dust" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FC55AC0C8F2C52C"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 2.0d
 		}
@@ -176,18 +169,11 @@
 			}
 			id: "733B6E9FCE8A20D1"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "199D930CB7058044"
-					item: { count: 1, id: "create:crushed_raw_copper" }
-					type: "item"
-				}
-				{
-					id: "65AE88CD2FBA09C9"
-					item: { count: 1, id: "modern_industrialization:quartz_dust" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "199D930CB7058044"
+				item: { count: 1, id: "create:crushed_raw_copper" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 1.0d
 		}
@@ -198,18 +184,11 @@
 			}
 			id: "772F618AA5A15F74"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "51B67ABBAFB4AAE0"
-					item: { count: 1, id: "create:crushed_raw_gold" }
-					type: "item"
-				}
-				{
-					id: "72B093131D5A6916"
-					item: { count: 1, id: "malum:strange_crystal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "51B67ABBAFB4AAE0"
+				item: { count: 1, id: "create:crushed_raw_gold" }
+				type: "item"
+			}]
 			x: 0.5d
 			y: 1.5d
 		}
