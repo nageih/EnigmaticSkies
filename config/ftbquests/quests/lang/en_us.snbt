@@ -753,7 +753,7 @@
 	]
 	quest.136AD444BD07EFCF.title: "Crop Farming"
 	quest.136FD7D7C0EECAE3.quest_desc: [
-		"The first step to making our own Oil is, of course, lots of organic material. "
+		"The first step to making our own &7Oil&r is, of course, lots of organic material. "
 		""
 		"You should have plenty of raw materials for this from your various animal farms and dorodangos. "
 	]
@@ -801,7 +801,6 @@
 		"&7Conjure Smooth Twisted Rock&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
-	quest.1446CD6DE9426AE7.quest_desc: [""]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14555CEDF53F68FC.quest_desc: [
@@ -2051,6 +2050,7 @@
 		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
 	quest.35FDFEDE5CAC0303.title: "Farmer"
+	quest.363AB8EC195285BE.quest_desc: ["&7Sludge Refiners&r sort all the gunk fed into them to create more useful materials, such as &7Soul Sand&r, &7Clay&r, and &7Rich Soil&r. "]
 	quest.369D0F2CC8D028D2.quest_desc: [
 		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment. Catalyzers may be similarly augmented, though each may only hold a single Augment."
 		""
@@ -2189,9 +2189,11 @@
 		"The Cache can be filled in a Natural Altar, or if Aura is exceptionally high in an area, will fill passively while worn. "
 	]
 	quest.39E9D5470F347400.quest_desc: [
-		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals. "
+		"Raw Gold, Copper, and Iron can contain some very useful secondary minerals, obtainable with just a little bit of extra processing. "
 		""
-		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain them. "
+		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain &7Wastewater&r. "
+		""
+		"This may then be recycled into fresh &7Water&r and a variety of other blocks. "
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -3227,7 +3229,7 @@
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
-	quest.4C91792ACCC53A2B.quest_desc: ["By applying high heat in a low-oxygen environment, we can convert Pelagite into Kerogen. "]
+	quest.4C91792ACCC53A2B.quest_desc: ["By applying high heat in a low-oxygen environment, we can convert &7Pelagite&r into &7Kerogen&r. "]
 	quest.4CB21D6351486281.quest_desc: [
 		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
 		""
@@ -3692,7 +3694,7 @@
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
-		"Oil is normally formed under intense pressure over millions of years."
+		"&7Oil&r is normally formed under intense pressure over millions of years."
 		""
 		"Ain't nobody got time for that."
 		""
@@ -3943,6 +3945,11 @@
 		"None"
 	]
 	quest.61090C5F8E435E7A.title: "Osorin's Unbound Calling"
+	quest.611439A59DB6826E.quest_desc: [
+		"&7Sand&r and &7Gravel&r make an excellent filter, capturing particles out of otherwise filthy &7Wastewater&r and producing clean &7Water&r. "
+		""
+		"Don’t overlook the &7Sludge&r produced by this operation, however, as it can be an invaluable source of building materials."
+	]
 	quest.6118F241A056954F.quest_desc: [
 		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
 		""
@@ -5485,6 +5492,7 @@
 	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
+	task.23CDBB8A570B6689.title: "Blocks Obtained from Sludge"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2404D63C45135601.title: "Spirit Aspects"
 	task.241DC4DBEF1C8648.title: "Observation: &2Wixie Cauldron&r"

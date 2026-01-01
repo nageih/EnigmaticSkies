@@ -137,60 +137,15 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_iron"
-			}
-			id: "1446CD6DE9426AE7"
-			shape: "diamond"
-			tasks: [{
-				id: "6FC55AC0C8F2C52C"
-				item: { count: 1, id: "create:crushed_raw_iron" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2C3B39CD6A7E044C"]
+			dependencies: ["6806970967942788"]
 			id: "39E9D5470F347400"
 			tasks: [{
 				id: "12DAA678727A6EEA"
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_copper"
-			}
-			id: "733B6E9FCE8A20D1"
-			shape: "diamond"
-			tasks: [{
-				id: "199D930CB7058044"
-				item: { count: 1, id: "create:crushed_raw_copper" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_gold"
-			}
-			id: "772F618AA5A15F74"
-			shape: "diamond"
-			tasks: [{
-				id: "51B67ABBAFB4AAE0"
-				item: { count: 1, id: "create:crushed_raw_gold" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -801,7 +756,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1028,8 +983,40 @@
 				item: { components: { "cold_sweat:armor_insulation": { insulation: [ ] } }, count: 1, id: "modern_industrialization:diesel_jetpack" }
 				type: "item"
 			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39E9D5470F347400"]
+			id: "611439A59DB6826E"
+			tasks: [{
+				id: "2562816525686AA2"
+				item: { count: 1, id: "mi_tweaks:settling_tank" }
+				type: "item"
+			}]
 			x: 2.5d
-			y: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["611439A59DB6826E"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
+			id: "363AB8EC195285BE"
+			tasks: [
+				{
+					id: "21FE3A71001056DA"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "23CDBB8A570B6689"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 }

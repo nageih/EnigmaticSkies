@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}void_crystal`
         },
         {
-            result: { id: 'malum:strange_crystal', count: 8 },
+            result: { id: 'malum:strange_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
             spirits: [{ type: 'malum:eldritch', count: 1 }],
             durabilityCost: 1,
