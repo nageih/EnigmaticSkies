@@ -161,6 +161,8 @@ ServerEvents.recipes((event) => {
 
         { id: 'ars_controle:scryers_linkage' },
 
+        { id: 'not_enough_glyphs:spell_binder' },
+
         { output: 'arsdelight:source_berry_cookie' },
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
@@ -292,6 +294,9 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/ender_crystal' },
         { id: 'enderio:soulbinding/sentient_ender' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
+
+        // Ender Storage
+        { id: 'enderstorage:ender_pouch' },
 
         // Entangled
         { id: 'entangled:block' },
@@ -1081,6 +1086,7 @@ ServerEvents.recipes((event) => {
         { id: 'sophisticatedstorage:upgrade_base' },
         { id: 'sophisticatedstorage:magnet_upgrade' },
 
+        { id: 'sophisticatedbackpacks:backpack' },
         { id: 'sophisticatedbackpacks:upgrade_base' },
         { id: 'sophisticatedbackpacks:magnet_upgrade' },
         { id: 'sophisticatedbackpacks:advanced_pump_upgrade' },
@@ -1118,6 +1124,10 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:mercurial_wand' },
         { output: /theurgy:crystallized_(water|lava)/ },
         { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
+
+        // Tool Belt
+        { id: 'toolbelt:pouch' },
+        { id: 'toolbelt:belt' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

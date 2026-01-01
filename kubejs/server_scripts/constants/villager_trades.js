@@ -798,6 +798,75 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:great_eggspectations', count: { min: 8, max: 12 } }],
             level: 5
         }
+    ],
+    // Cauldron
+    'minecraft:leatherworker': [
+        {
+            result: {
+                id: 'minecraft:leather_helmet[enchantments={levels:{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:protection":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+        {
+            result: { id: 'toolbelt:belt', count: 1 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
+            level: 1
+        },
+
+        {
+            result: {
+                id: 'minecraft:leather_chestplate[enchantments={levels:{"ars_nouveau:mana_regen":1,"minecraft:projectile_protection":1,"minecraft:unbreaking":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+        {
+            result: { id: 'toolbelt:pouch', count: 1 },
+            ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
+            level: 2
+        },
+
+        {
+            result: {
+                id: 'minecraft:leather_leggings[enchantments={levels:{"ars_nouveau:mana_boost":1,"minecraft:blast_protection":1,"minecraft:swift_sneak":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'sophisticatedbackpacks:backpack', count: 1 },
+            ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+
+        {
+            result: {
+                id: 'minecraft:leather_boots[enchantments={levels:{"apothic_enchanting:stable_footing":1,"minecraft:feather_falling":1,"minecraft:fire_protection":1}}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+        {
+            result: { id: 'not_enough_glyphs:spell_binder', count: 1 },
+            ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
+            level: 4
+        },
+
+        {
+            result: { id: 'enderstorage:ender_pouch', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'minecraft:rabbit_foot', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 5
+        }
     ]
 };
 
