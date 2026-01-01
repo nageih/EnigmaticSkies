@@ -26,11 +26,7 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
             level: 2
         },
-        // {
-        //     result: { id: 'ars_nouveau:arcane_core', count: 1 },
-        //     ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
-        //     level: 3
-        // },
+
         {
             result: { id: 'modern_industrialization:forge_hammer', count: 1 },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
@@ -350,6 +346,11 @@ const villagerTrades = {
             result: { id: 'actuallyadditions:item_interface', count: 1 },
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 4
+        },
+        {
+            result: { id: 'modern_industrialization:overdrive_module', count: 1 },
+            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
+            level: 4
         }
     ],
     // Forge Hammer
@@ -472,6 +473,11 @@ const villagerTrades = {
         {
             result: { id: 'ars_additions:codex_entry', count: 1 },
             ingredients: [{ id: 'enigmatica:the_bun_also_rises', count: { min: 1, max: 1 } }],
+            level: 3
+        },
+        {
+            result: { id: 'minecraft:enchanting_table', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 3
         },
 

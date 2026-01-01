@@ -80,6 +80,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 5,
             experience: 0.15,
             id: `${id_prefix}pitcher_pod`
+        },
+        {
+            result: { id: 'minecraft:torchflower_seeds', count: 1 },
+            ingredient: { item: 'minecraft:torchflower' },
+            cookingtime: 5,
+            experience: 0.15,
+            id: `${id_prefix}torchflower_seeds`
         }
     ];
 
@@ -88,7 +95,5 @@ ServerEvents.recipes((event) => {
         recipe.category = 'enchanting_misc';
         recipe.cookingtime *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
