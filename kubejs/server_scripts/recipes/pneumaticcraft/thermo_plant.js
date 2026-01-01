@@ -321,7 +321,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 20.0,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
-            time: 16.0,
+            time: 4.0,
             id: `${id_prefix}still_sheol_fire`
         },
         {
@@ -333,8 +333,36 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 20.0,
             temperature: { min: CtoK(1666) },
             pressure: 6.66,
-            time: 16.0,
+            time: 4.0,
             id: `${id_prefix}still_strange_matter`
+        },
+        {
+            outputs: {
+                item_output: { id: 'minecraft:netherite_scrap', count: 1 }
+            },
+            inputs: {
+                fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+                item: { tag: 'c:dusts/netherite_scrap' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}netherite_scrap`
+        },
+        {
+            outputs: {
+                item_output: { id: 'malum:cthonic_gold', count: 1 }
+            },
+            inputs: {
+                fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+                item: { tag: 'c:storage_blocks/hallowed_gold' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}cthonic_gold`
         }
     ];
 

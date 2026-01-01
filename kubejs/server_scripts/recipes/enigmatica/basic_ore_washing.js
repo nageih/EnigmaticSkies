@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
                 type: 'modern_industrialization:alluvial_trommel',
                 fluid_inputs: { tag: 'minecraft:water', amount: 1000 },
                 item_inputs: recipe.input,
-                fluid_outputs: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
+                fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
                 item_outputs: [],
                 eu: recipe.tier * 2,
                 duration: recipe.tier * 5 * 20

@@ -89,6 +89,24 @@ ServerEvents.recipes((event) => {
             ],
             heat_requirement: 'superheated',
             id: `${id_prefix}still_strange_matter`
+        },
+        {
+            results: [{ id: 'minecraft:netherite_scrap', count: 1 }],
+            ingredients: [
+                { tag: 'c:dusts/netherite_scrap' },
+                { type: 'fluid_stack', fluid: 'oritech:still_sheol_fire', amount: 250 }
+            ],
+            heat_requirement: 'superheated',
+            id: `${id_prefix}netherite_scrap`
+        },
+        {
+            results: [{ id: 'malum:cthonic_gold', count: 1 }],
+            ingredients: [
+                { tag: 'c:storage_blocks/hallowed_gold' },
+                { type: 'fluid_stack', fluid: 'oritech:still_sheol_fire', amount: 250 }
+            ],
+            heat_requirement: 'superheated',
+            id: `${id_prefix}cthonic_gold`
         }
     ];
 

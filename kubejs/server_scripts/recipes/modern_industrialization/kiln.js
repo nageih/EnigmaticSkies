@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: { item: 'ae2:quartz_fiber', amount: 3 },
-            fluid_inputs: [{ tag: 'c:mineral_slurry', amount: 250 }],
+            fluid_inputs: [{ fluid: 'oritech:still_strange_matter', amount: 250 }],
             item_inputs: [
                 { tag: 'c:gems/amethyst', amount: 6 },
                 { tag: 'c:gems/charged_certus', amount: 6 }

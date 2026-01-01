@@ -143,7 +143,7 @@
 		"&a    Laser Drills on a Laser Base!"
 	]
 	quest.04AE4EA4C7CFB080.quest_desc: [
-		"Well worth the effort, the Turbo Jetpack functions much like an Elytra with the Space bar controlling it."
+		"The &7Turbo Jetpack&r functions much like an Elytra with the Space bar used to control it."
 		""
 		"[\"• Toggle Flight (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Toggle Flight\"}]},\"keybind\":\"key.modern_industrialization.toggle_flight\"},\")\"]"
 		""

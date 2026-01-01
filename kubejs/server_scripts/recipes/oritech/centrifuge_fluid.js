@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [
         {
-            results: [{ id: 'oritech:polymer_resin', count: 2 }],
+            results: [{ id: 'oritech:polymer_resin', count: 1 }],
             fluidOutputs: [],
             ingredients: [{ item: 'occultism:otherworld_ashes' }],
             fluidInput: { fluid: 'enigmatica:pitch', amount: 100 },
@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
             results: [],
             fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 250 }],
             ingredients: [{ item: 'oritech:polymer_resin' }],
-            fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 1000 },
+            fluidInput: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             time: 10,
             id: `${id_prefix}plastic`
         },
