@@ -227,15 +227,11 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: 'item:enigmatica:antikythera_mechanism',
             right: 'item:handcrafted:witch_trophy',
             output: [
+                { type: 'item', id: 'naturesaura:token_grief' },
                 {
                     type: 'item',
                     id: 'minecraft:witch_spawn_egg',
                     nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
-                },
-                {
-                    type: 'item',
-                    id: 'naturesaura:token_grief',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Drops from the awakened Trophy."}\u0027]}'
                 }
             ],
             id: 'handcrafted:witch_trophy'
@@ -244,15 +240,11 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: 'item:enigmatica:antikythera_mechanism',
             right: 'item:handcrafted:evoker_trophy',
             output: [
+                { type: 'item', id: 'naturesaura:token_euphoria' },
                 {
                     type: 'item',
                     id: 'minecraft:evoker_spawn_egg',
                     nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
-                },
-                {
-                    type: 'item',
-                    id: 'naturesaura:token_euphoria',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Drops from the awakened Trophy."}\u0027]}'
                 }
             ],
             id: 'handcrafted:evoker_trophy'
@@ -261,15 +253,11 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: 'item:enigmatica:antikythera_mechanism',
             right: 'item:handcrafted:vindicator_trophy',
             output: [
+                { type: 'item', id: 'naturesaura:token_rage' },
                 {
                     type: 'item',
                     id: 'minecraft:vindicator_spawn_egg',
                     nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
-                },
-                {
-                    type: 'item',
-                    id: 'naturesaura:token_rage',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Drops from the awakened Trophy."}\u0027]}'
                 }
             ],
             id: 'handcrafted:vindicator_trophy'
@@ -278,15 +266,11 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: 'item:enigmatica:antikythera_mechanism',
             right: 'item:handcrafted:pillager_trophy',
             output: [
+                { type: 'item', id: 'naturesaura:token_terror' },
                 {
                     type: 'item',
                     id: 'minecraft:pillager_spawn_egg',
                     nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Right-Click the Trophy with an Antikythera Mechanism to awaken it."}\u0027]}'
-                },
-                {
-                    type: 'item',
-                    id: 'naturesaura:token_terror',
-                    nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Drops from the awakened Trophy."}\u0027]}'
                 }
             ],
             id: 'handcrafted:pillager_trophy'
