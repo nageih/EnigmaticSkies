@@ -7,7 +7,6 @@ ServerEvents.tags('mob_effect', (event) => {
         'ars_additions:marked',
         'ars_nouveau:soaked',
 
-        'malum:oaken_might',
         'malum:sacred_nourishment',
         'malum:wicked_empowerment'
     ];

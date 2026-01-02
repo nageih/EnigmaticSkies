@@ -100,7 +100,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -137,15 +137,15 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["2C3B39CD6A7E044C"]
 			id: "39E9D5470F347400"
 			tasks: [{
 				id: "12DAA678727A6EEA"
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -156,7 +156,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -266,7 +266,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5D1960D1AE64E4A2"]
+			dependencies: ["6490781066FAE8CF"]
 			id: "33679351A7B6D8E6"
 			shape: "diamond"
 			tasks: [{
@@ -274,8 +274,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer)item(starbunclemania:star_miner)item(starbunclemania:star_build))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -337,7 +337,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -418,7 +418,7 @@
 				}
 			]
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -439,7 +439,7 @@
 				}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -470,7 +470,7 @@
 				}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -491,7 +491,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["410225ED927857D4"]
@@ -527,7 +527,7 @@
 				}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -562,7 +562,7 @@
 				}
 			]
 			x: 7.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -573,11 +573,11 @@
 				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5D1960D1AE64E4A2"]
+			dependencies: ["6490781066FAE8CF"]
 			id: "1ABB07894781F511"
 			rewards: [{
 				id: "63AC63598CAC94A9"
@@ -594,8 +594,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -658,7 +658,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -756,7 +756,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -779,7 +779,7 @@
 				}
 			]
 			x: 5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3DD21FD2F10FE43D"]
@@ -844,7 +844,7 @@
 				}
 			]
 			x: 5.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -881,7 +881,7 @@
 				}
 			]
 			x: 4.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -984,7 +984,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["39E9D5470F347400"]
@@ -994,8 +994,8 @@
 				item: { count: 1, id: "mi_tweaks:settling_tank" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["611439A59DB6826E"]
@@ -1015,8 +1015,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 0.5d
+			y: 2.0d
 		}
 	]
 }

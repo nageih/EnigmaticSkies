@@ -214,6 +214,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 100.0,
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
+            time: 1.0,
             id: `${id_prefix}kerogen`
         },
         {
