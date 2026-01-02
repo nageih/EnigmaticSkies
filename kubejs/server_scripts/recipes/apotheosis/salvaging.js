@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:sorcerer_leggings' },
                 { item: 'ars_nouveau:sorcerer_boots' }
             ],
-            id: `${id_prefix}cardboard_tools`
+            id: `${id_prefix}magebloom_armor`
         },
 
         {
@@ -154,6 +154,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'apotheosis:salvaging';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

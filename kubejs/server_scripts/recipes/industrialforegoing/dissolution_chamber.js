@@ -319,6 +319,6 @@ ServerEvents.recipes((event) => {
         event.custom(recipe).id(recipe.id);
         recipe.processingTime *= 20;
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

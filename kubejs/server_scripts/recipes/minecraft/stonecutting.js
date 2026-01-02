@@ -22,6 +22,6 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         event.stonecutting(recipe.output, recipe.input).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

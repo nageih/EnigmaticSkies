@@ -17,6 +17,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'enderio:sag_milling';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

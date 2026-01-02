@@ -143,8 +143,8 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["59F0519A7ED69E19"]
@@ -164,8 +164,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
@@ -257,7 +257,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["136FD7D7C0EECAE3"]
@@ -270,8 +270,8 @@
 				item: { count: 1, id: "enigmatica:kerogen" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -297,8 +297,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 2.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19F8B29D38CA31B8"]
@@ -308,8 +308,8 @@
 				item: { count: 1, id: "justdirethings:time_crystal" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -347,12 +347,12 @@
 				}
 				{
 					id: "1E4E5D2B9B36005C"
-					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_cold_aercloud)item(enigmatica:brilliant_smooth_basalt)item(enigmatica:brilliant_golden_aercloud)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_salt)item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(enigmatica:brilliant_sand)item(enigmatica:brilliant_sculk)item(enigmatica:brilliant_cold_aercloud)item(enigmatica:brilliant_smooth_basalt)item(enigmatica:brilliant_mud)item(enigmatica:brilliant_salt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.5d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
@@ -381,7 +381,7 @@
 				}
 			]
 			x: 4.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -530,7 +530,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 5.5d
 		}
 	]

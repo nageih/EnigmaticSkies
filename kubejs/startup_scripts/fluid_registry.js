@@ -30,6 +30,21 @@ StartupEvents.registry('fluid', (event) => {
             name: 'Wilden Sauce',
             type: 'thin',
             color: '#412f16'
+        },
+        {
+            name: 'Light Oil',
+            type: 'thin',
+            color: '#f5dc00'
+        },
+        {
+            name: 'Heavy Oil',
+            type: 'thin',
+            color: '#e98c00'
+        },
+        {
+            name: 'Pitch',
+            type: 'thick',
+            color: '#29251f'
         }
     ];
 

@@ -2,26 +2,18 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [
         {
-            results: [{ id: 'oritech:polymer_resin', count: 2 }],
+            results: [{ id: 'oritech:polymer_resin', count: 1 }],
             fluidOutputs: [],
-            ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
-            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 100 },
+            ingredients: [{ item: 'occultism:otherworld_ashes' }],
+            fluidInput: { fluid: 'enigmatica:pitch', amount: 100 },
             time: 5,
             id: `${id_prefix}polymer_resin`
         },
         {
             results: [],
-            fluidOutputs: [{ fluid: 'oritech:still_silicon_wash', amount: 1000 }],
-            ingredients: [{ tag: 'c:dusts/certus_quartz' }],
-            fluidInput: { fluid: 'modern_industrialization:naphtha', amount: 1000 },
-            time: 5,
-            id: `${id_prefix}silicon_wash`
-        },
-        {
-            results: [],
-            fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 1000 }],
+            fluidOutputs: [{ fluid: 'pneumaticcraft:plastic', amount: 250 }],
             ingredients: [{ item: 'oritech:polymer_resin' }],
-            fluidInput: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
+            fluidInput: { fluid: 'oritech:still_strange_matter', amount: 1000 },
             time: 10,
             id: `${id_prefix}plastic`
         },
@@ -77,7 +69,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'oritech:centrifuge_fluid';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        if (debug) console.log(recipe.id);
     });
 });

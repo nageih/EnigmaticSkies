@@ -161,6 +161,8 @@ ServerEvents.recipes((event) => {
 
         { id: 'ars_controle:scryers_linkage' },
 
+        { id: 'not_enough_glyphs:spell_binder' },
+
         { output: 'arsdelight:source_berry_cookie' },
         { id: /arsdelight:cooking\/cooking\/.*_jelly/ },
         { id: 'arsdelight:cooking/cooking/source_berry_cupcake' },
@@ -292,6 +294,9 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:soulbinding/ender_crystal' },
         { id: 'enderio:soulbinding/sentient_ender' },
         { id: /enderio:soulbinding\/.*photovoltaic_module/ },
+
+        // Ender Storage
+        { id: 'enderstorage:ender_pouch' },
 
         // Entangled
         { id: 'entangled:block' },
@@ -469,6 +474,10 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_altar' },
         { id: 'malum:zombie_head_from_grim_talc' },
         { id: 'malum:skeleton_skull_from_grim_talc' },
+        { id: 'malum:blazing_quartz_from_fragment' },
+        { id: 'malum:blazing_quartz_fragment' },
+        { id: 'malum:cthonic_gold_from_fragment' },
+        { id: 'malum:cthonic_gold_fragment' },
         { output: 'malum:refined_soulstone' },
         { output: 'malum:mimicry_relay' },
         { output: 'malum:spirit_jar' },
@@ -495,6 +504,7 @@ ServerEvents.recipes((event) => {
         { output: 'minecraft:cookie' },
         { output: 'minecraft:dispenser' },
         { output: 'minecraft:slime_block' },
+        { output: 'minecraft:enchanting_table' },
         { output: /minecraft:infested/ },
         { output: /minecraft:(blast_furnace|furnace|smoker|cauldron|grindstone|loom)/ },
         { output: /minecraft:(composter|barrel|stonecutter|lectern|smithing_table|brewing_stand)/ },
@@ -596,6 +606,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:transistor' },
         { output: 'modern_industrialization:inductor' },
         { output: 'modern_industrialization:resistor' },
+        { output: 'modern_industrialization:overdrive_module' },
         { output: 'modern_industrialization:memory_management_unit' },
         { output: 'modern_industrialization:arithmetic_logic_unit' },
         { output: 'modern_industrialization:and_gate' },
@@ -952,6 +963,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:centrifuge/fluid/compat/actuallyadditions/empoweredoil' },
         { id: 'oritech:refinery/compat/create/rawsheol/zinc' },
         { id: 'oritech:refinery/quartz' },
+        { id: 'oritech:refinery/siliconwashing' },
         { id: /oritech:refinery\/rawsheol/ },
         { id: /oritech:refinery\/(biodiesel|heavyoil|oil|lava|carbonsheet)/ },
         { id: /oritech:splashing\/compat\/create/ },
@@ -1076,6 +1088,7 @@ ServerEvents.recipes((event) => {
         { id: 'sophisticatedstorage:upgrade_base' },
         { id: 'sophisticatedstorage:magnet_upgrade' },
 
+        { id: 'sophisticatedbackpacks:backpack' },
         { id: 'sophisticatedbackpacks:upgrade_base' },
         { id: 'sophisticatedbackpacks:magnet_upgrade' },
         { id: 'sophisticatedbackpacks:advanced_pump_upgrade' },
@@ -1113,6 +1126,10 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:mercurial_wand' },
         { output: /theurgy:crystallized_(water|lava)/ },
         { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
+
+        // Tool Belt
+        { id: 'toolbelt:pouch' },
+        { id: 'toolbelt:belt' },
 
         // Utilitarian
         { mod: 'utilitarian', id: /snad/ },

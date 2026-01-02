@@ -32,17 +32,10 @@ ServerEvents.recipes((event) => {
             inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
-
         {
             output: 'minecraft:yellow_dye',
             inputs: ['minecraft:glow_berries'],
             id: `${id_prefix}yellow_dye_from_glow_berries`
-        },
-
-        {
-            output: '4x minecraft:quartz',
-            inputs: ['#c:storage_blocks/quartz'],
-            id: `${id_prefix}quartz`
         },
         {
             output: '4x minecraft:amethyst_shard',
@@ -134,7 +127,5 @@ ServerEvents.recipes((event) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
         if (recipe.replace) r.replaceIngredient(recipe.replace.item, recipe.replace.replacement);
-
-        if (debug) console.log(recipe.id);
     });
 });

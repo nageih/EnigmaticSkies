@@ -32,10 +32,10 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: { item: 'ae2:quartz_fiber', amount: 3 },
-            fluid_inputs: [{ tag: 'c:mineral_slurry', amount: 50 }],
+            fluid_inputs: [{ fluid: 'oritech:still_strange_matter', amount: 250 }],
             item_inputs: [
                 { tag: 'c:gems/amethyst', amount: 6 },
-                { tag: 'c:dusts/certus_quartz', amount: 3 }
+                { tag: 'c:gems/charged_certus', amount: 6 }
             ],
             duration: 5,
             eu: 16,
@@ -110,13 +110,9 @@ ServerEvents.recipes((event) => {
         if (recipe.eu <= 4) {
             recipe.type = 'modern_industrialization:steam_kiln';
             event.custom(recipe).id(`${recipe.id}/steam`);
-
-            if (debug) console.log(`${recipe.id}/steam`);
         }
 
         recipe.type = 'modern_industrialization:electric_kiln';
         event.custom(recipe).id(`${recipe.id}/electric`);
-
-        if (debug) console.log(`${recipe.id}/electric`);
     });
 });

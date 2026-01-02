@@ -48,6 +48,6 @@ ServerEvents.recipes((event) => {
         recipe.air_per_bucket = recipe.air_per_mb * 1000 * multiplier;
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

@@ -21,6 +21,6 @@ ServerEvents.recipes((event) => {
         recipe.type = 'sophisticatedcore:upgrade_next_tier';
         event.custom(recipe).id(recipe.id);
 
-        if (debug) console.log(recipe.id);
+        
     });
 });

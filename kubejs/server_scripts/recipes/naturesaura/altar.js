@@ -27,7 +27,8 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'minecraft:quartz' },
-            input: { tag: 'c:dusts/quartz' },
+            input: { item: 'malum:blazing_quartz' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura_multiplier: 50,
             time: 6,
             id: `${id_prefix}quartz`
@@ -158,7 +159,5 @@ ServerEvents.recipes((event) => {
         recipe.aura = recipe.time * recipe.aura_multiplier;
 
         event.custom(recipe).id(recipe.id);
-
-        if (debug) console.log(recipe.id);
     });
 });

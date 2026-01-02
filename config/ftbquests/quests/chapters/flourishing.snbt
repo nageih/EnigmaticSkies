@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EA0560551B821B3"]
@@ -55,7 +55,7 @@
 				}
 			]
 			x: 0.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -86,7 +86,7 @@
 				}
 			]
 			x: 5.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -100,7 +100,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -134,29 +134,7 @@
 				}
 			]
 			x: 3.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_iron"
-			}
-			id: "1446CD6DE9426AE7"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "6FC55AC0C8F2C52C"
-					item: { count: 1, id: "create:crushed_raw_iron" }
-					type: "item"
-				}
-				{
-					id: "52FBA77CCD4EA054"
-					item: { count: 1, id: "modern_industrialization:silicon_dust" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
@@ -166,51 +144,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_copper"
-			}
-			id: "733B6E9FCE8A20D1"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "199D930CB7058044"
-					item: { count: 1, id: "create:crushed_raw_copper" }
-					type: "item"
-				}
-				{
-					id: "65AE88CD2FBA09C9"
-					item: { count: 1, id: "modern_industrialization:quartz_dust" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["39E9D5470F347400"]
-			icon: {
-				id: "create:crushed_raw_gold"
-			}
-			id: "772F618AA5A15F74"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "51B67ABBAFB4AAE0"
-					item: { count: 1, id: "create:crushed_raw_gold" }
-					type: "item"
-				}
-				{
-					id: "72B093131D5A6916"
-					item: { count: 1, id: "malum:strange_crystal" }
-					type: "item"
-				}
-			]
-			x: 0.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -222,7 +156,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
@@ -251,7 +185,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -278,7 +212,7 @@
 				}
 			]
 			x: 4.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -300,7 +234,7 @@
 				}
 			]
 			x: 3.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -313,7 +247,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -329,10 +263,10 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["5D1960D1AE64E4A2"]
+			dependencies: ["6490781066FAE8CF"]
 			id: "33679351A7B6D8E6"
 			shape: "diamond"
 			tasks: [{
@@ -340,8 +274,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer)item(starbunclemania:star_miner)item(starbunclemania:star_build))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -373,7 +307,7 @@
 				}
 			]
 			x: 3.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3BCD9E36D48B205A"]
@@ -403,7 +337,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -414,7 +348,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5AFB064A80189AA4"]
@@ -438,7 +372,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -484,7 +418,7 @@
 				}
 			]
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -505,7 +439,7 @@
 				}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -536,7 +470,7 @@
 				}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
@@ -557,7 +491,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["410225ED927857D4"]
@@ -593,7 +527,7 @@
 				}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -628,7 +562,7 @@
 				}
 			]
 			x: 7.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
@@ -639,11 +573,11 @@
 				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["5D1960D1AE64E4A2"]
+			dependencies: ["6490781066FAE8CF"]
 			id: "1ABB07894781F511"
 			rewards: [{
 				id: "63AC63598CAC94A9"
@@ -660,8 +594,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -672,7 +606,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7B9D8AD7BFC1E87D"]
@@ -704,7 +638,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -724,7 +658,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["49968116FCB311B0"]
@@ -755,7 +689,7 @@
 				}
 			]
 			x: 7.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
@@ -766,7 +700,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3282293AB6B43287"]
@@ -796,7 +730,7 @@
 				}
 			]
 			x: 0.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -845,7 +779,7 @@
 				}
 			]
 			x: 5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3DD21FD2F10FE43D"]
@@ -910,7 +844,7 @@
 				}
 			]
 			x: 5.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5E727F7B600E0E91"]
@@ -947,7 +881,7 @@
 				}
 			]
 			x: 4.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["427846D4FFE678C5"]
@@ -958,7 +892,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1038,7 +972,7 @@
 				}
 			]
 			x: 3.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -1049,8 +983,40 @@
 				item: { components: { "cold_sweat:armor_insulation": { insulation: [ ] } }, count: 1, id: "modern_industrialization:diesel_jetpack" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39E9D5470F347400"]
+			id: "611439A59DB6826E"
+			tasks: [{
+				id: "2562816525686AA2"
+				item: { count: 1, id: "mi_tweaks:settling_tank" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["611439A59DB6826E"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
+			id: "363AB8EC195285BE"
+			tasks: [
+				{
+					id: "21FE3A71001056DA"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "23CDBB8A570B6689"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
 		}
 	]
 }

@@ -74,6 +74,26 @@ ServerEvents.recipes((event) => {
             id_suffix: 'steel_dust_from_steel'
         },
         {
+            input: { tag: `c:gems/black_quartz` },
+            outputs: [{ id: 'modern_industrialization:silicon_dust', count: 1 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'silicon_dust_from_black_quartz'
+        },
+        {
+            input: { item: `malum:large_strange_crystal` },
+            outputs: [{ id: 'malum:strange_crystal', count: 2 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'strange_crystal_from_large_strange_crystal'
+        },
+        {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',
@@ -445,10 +465,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.output.push({ stack: output, chance: output.chance ? output.chance : 1.0, maxRange: 1 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // EnderIO
@@ -465,10 +482,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.outputs.push({ item: output, chance: output.chance ? output.chance : 1.0 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Crushing
@@ -479,10 +493,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 2 * 20
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Create Milling
@@ -493,10 +504,7 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.duration * 1.5 * 20
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         // Modern Industrialization Macerator
@@ -517,10 +525,7 @@ ServerEvents.recipes((event) => {
                     probability: output.chance ? output.chance : 1.0
                 });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

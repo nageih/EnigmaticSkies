@@ -5,8 +5,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/gold' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 },
-                { id: 'malum:strange_crystal', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,
@@ -16,8 +15,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/copper' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 },
-                { id: 'modern_industrialization:quartz_dust', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,
@@ -27,8 +25,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:clumps/iron' },
             outputs: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 3, chance: 1.0 },
-                { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 },
-                { id: 'modern_industrialization:silicon_dust', count: 2, chance: 0.25 }
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 2, chance: 0.33 }
             ],
             exclusions: [],
             tier: 1,
@@ -44,10 +41,7 @@ ServerEvents.recipes((event) => {
                 ingredients: [recipe.input],
                 results: recipe.outputs
             };
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
 
         if (!recipe.exclusions.includes('modern_industrialization')) {
@@ -56,7 +50,7 @@ ServerEvents.recipes((event) => {
                 type: 'modern_industrialization:alluvial_trommel',
                 fluid_inputs: { tag: 'minecraft:water', amount: 1000 },
                 item_inputs: recipe.input,
-                fluid_outputs: { fluid: 'oritech:still_mineral_slurry', amount: 250 },
+                fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
                 item_outputs: [],
                 eu: recipe.tier * 2,
                 duration: recipe.tier * 5 * 20
@@ -65,10 +59,7 @@ ServerEvents.recipes((event) => {
             recipe.outputs.forEach((output) => {
                 r.item_outputs.push({ item: output.id, amount: output.count * 1.5, probability: output.chance });
             });
-
-            let r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-            event.custom(r).id(r_id);
-            if (debug) console.log(r_id);
+            event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
         }
     });
 });

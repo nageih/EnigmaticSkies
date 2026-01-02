@@ -15,6 +15,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}glowstone`
         },
         {
+            result: { id: 'minecraft:quartz' },
+            ingredient: { item: 'malum:blazing_quartz' },
+            energy: 4500,
+            id: `${id_prefix}quartz`
+        },
+        {
             result: { id: 'minecraft:ochre_froglight' },
             ingredient: { item: 'minecraft:honey_block' },
             energy: 4500,
@@ -122,7 +128,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'actuallyadditions:laser';
         event.custom(recipe).id(recipe.id);
-
-        if (debug) console.log(recipe.id);
     });
 });

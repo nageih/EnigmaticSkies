@@ -290,6 +290,30 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 }
             ],
             id: 'handcrafted:pillager_trophy'
+        },
+        {
+            left: 'item:malum:exposed_runewood_log',
+            right: ['#item:minecraft:axes'],
+            output: 'item:malum:revealed_runewood_log',
+            id: 'malum:revealed_runewood_log'
+        },
+        {
+            left: 'item:malum:revealed_runewood_log',
+            right: ['item:minecraft:glass_bottle'],
+            output: 'item:malum:runic_sap',
+            id: 'malum:runic_sap'
+        },
+        {
+            left: 'item:malum:exposed_soulwood_log',
+            right: ['#item:minecraft:axes'],
+            output: 'item:malum:revealed_soulwood_log',
+            id: 'malum:revealed_soulwood_log'
+        },
+        {
+            left: 'item:malum:revealed_soulwood_log',
+            right: ['item:minecraft:glass_bottle'],
+            output: 'item:malum:cursed_sap',
+            id: 'malum:cursed_sap'
         }
     ];
 

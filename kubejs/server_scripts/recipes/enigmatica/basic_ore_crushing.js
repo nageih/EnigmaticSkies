@@ -60,9 +60,7 @@ ServerEvents.recipes((event) => {
         recipe.outputs.forEach((output) => {
             r.output.push({ stack: output, chance: output.chance, maxRange: 1 });
         });
-        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-        event.custom(r).id(r_id);
-        if (debug) console.log(r_id);
+        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Create Crushing
         r = {
@@ -71,9 +69,7 @@ ServerEvents.recipes((event) => {
             results: recipe.outputs,
             processing_time: recipe.tier * 5 * 20
         };
-        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-        event.custom(r).id(r_id);
-        if (debug) console.log(r_id);
+        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Enderio SAG Milling
         r = {
@@ -85,9 +81,7 @@ ServerEvents.recipes((event) => {
         recipe.outputs.forEach((output) => {
             r.outputs.push({ item: { id: output.id, count: output.count }, chance: output.chance });
         });
-        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-        event.custom(r).id(r_id);
-        if (debug) console.log(r_id);
+        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
 
         // Modern Industrialization Macerator
         recipe.input.amount = recipe.input.count;
@@ -101,8 +95,6 @@ ServerEvents.recipes((event) => {
         recipe.outputs.forEach((output) => {
             r.item_outputs.push({ item: output.id, amount: output.count, probability: output.chance });
         });
-        r_id = `${id_prefix}${getID(r.type)}/${recipe.id_suffix}`;
-        event.custom(r).id(r_id);
-        if (debug) console.log(r_id);
+        event.custom(r).id(`${id_prefix}${getID(r.type)}/${recipe.id_suffix}`);
     });
 });

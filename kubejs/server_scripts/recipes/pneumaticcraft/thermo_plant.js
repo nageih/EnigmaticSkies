@@ -1,12 +1,16 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:pneumaticcraft/thermo_plant/';
 
+    // Default Recipe Speed = 60 ticks or 3 seconds
+    // Specify time in seconds
+
     const recipes = [
         {
             outputs: { fluid_output: { id: 'actuallyadditions:canola_oil', amount: 160 } },
             inputs: { item: { item: 'actuallyadditions:canola' } },
             temperature: { min: CtoK(0) },
             pressure: 2.0,
+            time: 0.05,
             id: `${id_prefix}canola_oil`
         },
         {
@@ -16,6 +20,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'theurgy:fermentation_starter' }
             },
             temperature: { min: CtoK(30), max: CtoK(100) },
+            time: 1,
             id: `${id_prefix}refined_canola_oil`
         },
         {
@@ -25,6 +30,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'actuallyadditions:crystallized_canola_seed' }
             },
             temperature: { min: CtoK(0) },
+            time: 1,
             id: `${id_prefix}crystallized_oil`
         },
         {
@@ -34,20 +40,21 @@ ServerEvents.recipes((event) => {
                 item: { item: 'actuallyadditions:empowered_canola_seed' }
             },
             temperature: { min: CtoK(0) },
+            time: 1,
             id: `${id_prefix}empowered_oil`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:ether_gas', amount: 60 } },
             inputs: { item: { item: 'ars_nouveau:frostaya_pod' } },
             pressure: 2.0,
-            speed: 0.5,
+            time: 4,
             id: `${id_prefix}ether_gas`
         },
         {
             outputs: { fluid_output: { id: 'enderio:fluid_vapor_of_levity_still', amount: 60 } },
             inputs: { item: { item: 'ars_elemental:flashpine_pod' } },
             pressure: 2.0,
-            speed: 0.5,
+            time: 4,
             id: `${id_prefix}fluid_vapor_of_levity_still`
         },
         {
@@ -76,9 +83,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}chips`
         },
         {
-            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
+            outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 250 } },
             inputs: {
-                fluid: { fluid: 'modern_industrialization:diesel', amount: 1000 },
+                fluid: { fluid: 'enigmatica:heavy_oil', amount: 250 },
                 item: { tag: 'c:dusts/grains_of_infinity' }
             },
             temperature: { min: CtoK(100) },
@@ -87,7 +94,7 @@ ServerEvents.recipes((event) => {
         {
             outputs: { fluid_output: { amount: 500, id: 'pneumaticcraft:plastic' } },
             inputs: {
-                fluid: { amount: 100, fluid: 'modern_industrialization:naphtha' },
+                fluid: { amount: 100, fluid: 'enigmatica:light_oil' },
                 item: { tag: 'c:gems/primal_coal' }
             },
             temperature: { min: CtoK(100) },
@@ -101,7 +108,7 @@ ServerEvents.recipes((event) => {
             },
             air_use_multiplier: 2.0,
             pressure: 3.0,
-            speed: 0.5,
+            time: 6.0,
             id: `${id_prefix}drill_bit_iron`
         },
         {
@@ -112,8 +119,8 @@ ServerEvents.recipes((event) => {
             },
             air_use_multiplier: 5.0,
             pressure: 4.0,
-            speed: 0.25,
             temperature: { min: CtoK(200) },
+            time: 12.0,
             id: `${id_prefix}drill_bit_compressed_iron`
         },
         {
@@ -124,33 +131,33 @@ ServerEvents.recipes((event) => {
             },
             air_use_multiplier: 10.0,
             pressure: 7.5,
-            speed: 0.1,
             temperature: { min: CtoK(500) },
+            time: 3.0,
             id: `${id_prefix}drill_bit_diamond`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 60 } },
             inputs: { item: { item: 'minecraft:dandelion' } },
             pressure: 2.0,
-            speed: 40.0,
+            time: 0.05,
             id: `${id_prefix}latex_from_dandelion`
         },
         {
             outputs: { fluid_output: { id: 'industrialforegoing:latex', amount: 120 } },
             inputs: { item: { item: 'minecraft:vine' } },
             pressure: 2.0,
-            speed: 20.0,
+            time: 0.1,
             id: `${id_prefix}latex_from_vine`
         },
         {
             outputs: { item_output: { count: 1, id: 'oritech:reinforced_carbon_sheet' } },
             inputs: {
-                fluid: { fluid: 'modern_industrialization:naphtha', amount: 500 },
+                fluid: { fluid: 'pneumaticcraft:plastic', amount: 500 },
                 item: { item: 'oritech:carbon_fibre_strands' }
             },
             pressure: 7.5,
             temperature: { min: CtoK(500) },
-            speed: 0.1,
+            time: 32,
             id: `${id_prefix}reinforced_carbon_sheet`
         },
         {
@@ -167,7 +174,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'theurgy:crystallized_water' } },
             pressure: 1.0,
             temperature: { min: CtoK(0) },
-            speed: 2.0,
+            time: 1.5,
             id: `${id_prefix}water`
         },
         {
@@ -175,7 +182,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'theurgy:crystallized_lava' } },
             pressure: 1.0,
             temperature: { min: CtoK(1000) },
-            speed: 2.0,
+            time: 1.5,
             id: `${id_prefix}lava`
         },
         {
@@ -186,7 +193,6 @@ ServerEvents.recipes((event) => {
             },
             pressure: 9.0,
             temperature: { min: CtoK(90), max: CtoK(96) },
-            speed: 1.0,
             id: `${id_prefix}espresso`
         },
         {
@@ -196,7 +202,7 @@ ServerEvents.recipes((event) => {
                 item: { item: 'actuallyadditions:empty_cup' }
             },
             temperature: { min: CtoK(0) },
-            speed: 2.0,
+            time: 1.5,
             id: `${id_prefix}coffee_cup`
         },
         {
@@ -208,7 +214,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 100.0,
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            speed: 1.0,
+            time: 1.0,
             id: `${id_prefix}kerogen`
         },
         {
@@ -220,7 +226,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 100.0,
             temperature: { min: CtoK(1500) },
             pressure: 9.0,
-            speed: 2.0,
+            time: 2.0,
             id: `${id_prefix}crude_oil`
         },
         {
@@ -229,7 +235,7 @@ ServerEvents.recipes((event) => {
             air_use_multiplier: 1800.0,
             temperature: { max: CtoK(-175) },
             pressure: 9.0,
-            speed: 0.1,
+            time: 32.0,
             id: `${id_prefix}liquid_air`
         },
         {
@@ -240,8 +246,8 @@ ServerEvents.recipes((event) => {
             },
             air_use_multiplier: 10.0,
             pressure: 7.5,
-            speed: 0.1,
             temperature: { min: CtoK(500) },
+            time: 32.0,
             id: `${id_prefix}lens_of_the_miner`
         },
         {
@@ -279,8 +285,8 @@ ServerEvents.recipes((event) => {
             inputs: { fluid: { fluid: 'modern_industrialization:steam', amount: 1000 } },
             air_use_multiplier: 500.0,
             temperature: { min: CtoK(1500) },
-            speed: 0.25,
             pressure: 9.0,
+            time: 16.0,
             id: `${id_prefix}high_pressure_steam`
         },
         {
@@ -300,15 +306,73 @@ ServerEvents.recipes((event) => {
                 item: { item: 'farmersdelight:canvas' }
             },
             pressure: 2.0,
-            speed: 8.0,
+            time: 0.5,
             id: `${id_prefix}rubber_sheet`
+        },
+
+        {
+            outputs: {
+                fluid_output: { id: 'oritech:still_sheol_fire', amount: 1000 },
+                item_output: { id: 'minecraft:bowl', count: 1 }
+            },
+            inputs: {
+                fluid: { fluid: 'minecraft:lava', amount: 1000 },
+                item: { item: 'arsdelight:bombegrante_jelly' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}still_sheol_fire`
+        },
+        {
+            outputs: { fluid_output: { id: 'oritech:still_strange_matter', amount: 1000 } },
+            inputs: {
+                fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+                item: { item: 'malum:strange_crystal' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}still_strange_matter`
+        },
+        {
+            outputs: {
+                item_output: { id: 'minecraft:netherite_scrap', count: 1 }
+            },
+            inputs: {
+                fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+                item: { tag: 'c:dusts/netherite_scrap' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}netherite_scrap`
+        },
+        {
+            outputs: {
+                item_output: { id: 'malum:cthonic_gold', count: 1 }
+            },
+            inputs: {
+                fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
+                item: { tag: 'c:storage_blocks/hallowed_gold' }
+            },
+            air_use_multiplier: 20.0,
+            temperature: { min: CtoK(1666) },
+            pressure: 6.66,
+            time: 4.0,
+            id: `${id_prefix}cthonic_gold`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:thermo_plant`;
-        event.custom(recipe).id(recipe.id);
+        if (recipe.time) {
+            recipe.speed = 3 / recipe.time;
+        }
 
-        if (debug) console.log(recipe.id);
+        event.custom(recipe).id(recipe.id);
     });
 });
