@@ -182,6 +182,13 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:water_breathing': 4,
                 'geneticsresequenced:frost_proof': 2
             }
+        },
+        {
+            entities: ['aether:sentry'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:stone_skin': 3
+            }
         }
     ];
 

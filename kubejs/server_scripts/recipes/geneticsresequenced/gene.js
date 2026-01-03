@@ -14,6 +14,11 @@ ServerEvents.generateData('before_mods', (event) => {
             dna_points_required: 50,
             potion_details: [{ effect: 'arsdelight:wilden', level: 4 }],
             id: 'wilden_4'
+        },
+        {
+            dna_points_required: 24,
+            potion_details: [{ effect: 'malum:stone_ward' }],
+            id: 'stone_skin'
         }
     ];
 
