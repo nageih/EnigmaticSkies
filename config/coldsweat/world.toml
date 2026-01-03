@@ -20,7 +20,8 @@
 	    ["minecraft:the_nether", 32, "f"],
 	    ["minecraft:the_end", -5, "f"],
 	    ["ftbteambases:bases", -5, "f"],
-	    ["aether:the_aether", 32, "f"]
+	    ["minecraft:overworld", -5, "f"],
+	    ["aether:the_aether", -5, "f"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a dimension, overriding biome and elevation temperature
@@ -41,7 +42,9 @@
 	# • highTemp: The temperature offset at noon
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# • *waterTemp: Offsets the temperature of water in the biome
-	"Biome Temperature Offsets" = []
+	"Biome Temperature Offsets" = [
+	    ["minecraft:warm_ocean", -3, -3, "mc"]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a biome, overriding the biome's default temperature
 	# ├── Format: [["biome_id", lowTemp, highTemp, *units, *waterTemp], [...], etc]
@@ -52,38 +55,14 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# • *waterTemp: The temperature of water in the biome
 	"Biome Temperatures" = [
-	    ["minecraft:soul_sand_valley", 53, 53, "F"],
-	    ["minecraft:old_growth_birch_forest", 58, 72, "F"],
-	    ["minecraft:river", 59, 82, "F"],
-	    ["minecraft:swamp", 72, 84, "F"],
-	    ["minecraft:savanna", 70, 95, "F"],
-	    ["minecraft:savanna_plateau", 76, 98, "F"],
-	    ["minecraft:windswept_savanna", 67, 90, "F"],
-	    ["minecraft:taiga", 44, 62, "F"],
-	    ["minecraft:snowy_taiga", 19, 48, "F"],
-	    ["minecraft:old_growth_pine_taiga", 48, 62, "F"],
-	    ["minecraft:old_growth_spruce_taiga", 48, 62, "F"],
-	    ["minecraft:desert", 48, 115, "F"],
-	    ["minecraft:stony_shore", 50, 64, "F"],
-	    ["minecraft:snowy_beach", 38, 52, "F"],
-	    ["minecraft:snowy_slopes", 24, 38, "F"],
-	    ["minecraft:windswept_forest", 48, 66, "F"],
-	    ["minecraft:frozen_peaks", 15, 33, "F"],
-	    ["minecraft:warm_ocean", 67, 76, "F"],
-	    ["minecraft:deep_frozen_ocean", 56, 65, "F"],
-	    ["minecraft:jungle", 76, 87, "F"],
-	    ["minecraft:bamboo_jungle", 76, 87, "F"],
-	    ["minecraft:badlands", 84, 120, "F"],
-	    ["minecraft:wooded_badlands", 80, 108, "F"],
-	    ["minecraft:eroded_badlands", 88, 120, "F"],
-	    ["minecraft:dripstone_caves", "disable"],
-	    ["minecraft:the_void", -40, -20, "C"],
-	    ["minecraft:mushroom_fields", -40, -20, "C"],
-	    ["minecraft:deep_dark", -40, -20, "C"],
-	    ["minecraft:mangrove_swamp", -40, -20, "C"],
-	    ["minecraft:warm_ocean", -40, -20, "C"],
-	    ["ars_nouveau:archwood_forest", 100, 120, "C"],
-	    ["minecraft:plains", 59, 82, "F"]
+	    ["minecraft:the_void", -2, -2, "mc"],
+	    ["minecraft:mushroom_fields", -2, -2, "mc"],
+	    ["minecraft:deep_dark", -2, -2, "mc"],
+	    ["minecraft:mangrove_swamp", -2, -2, "mc"],
+	    ["minecraft:warm_ocean", -2, -2, "mc"],
+	    ["ars_nouveau:archwood_forest", 8, 8, "mc"],
+	    ["ars_nouveau:jar", -2, -2, "mc"],
+	    ["hyperbox:hyperbox", -2, -2, "mc"]
 	]
 
 [Blocks]
