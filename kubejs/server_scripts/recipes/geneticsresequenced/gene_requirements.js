@@ -13,6 +13,39 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             gene: 'geneticsresequenced:photosynthesis',
             requirements: ['geneticsresequenced:eat_grass']
+        },
+        {
+            gene: 'geneticsresequenced:frost_proof',
+            requirements: [
+                'geneticsresequenced:strength_2',
+                'geneticsresequenced:more_hearts',
+                'geneticsresequenced:regeneration'
+            ]
+        },
+        {
+            gene: 'geneticsresequenced:fire_proof',
+            requirements: [
+                'geneticsresequenced:strength_2',
+                'geneticsresequenced:more_hearts',
+                'geneticsresequenced:regeneration'
+            ]
+        },
+        {
+            gene: 'geneticsresequenced:wilden',
+            requirements: [
+                'geneticsresequenced:strength',
+                'geneticsresequenced:more_hearts',
+                'geneticsresequenced:regeneration'
+            ]
+        },
+        {
+            gene: 'geneticsresequenced:wilden_4',
+            requirements: [
+                'geneticsresequenced:wilden',
+                'geneticsresequenced:strength_2',
+                'geneticsresequenced:more_hearts_2',
+                'geneticsresequenced:regeneration_4'
+            ]
         }
     ];
 

@@ -1,7 +1,6 @@
 {
     "items": {
         "hidden": [
-            "/createsifter:.*sifter/",
             "/occultism:ritual_dummy.(summon|familiar|possess|craft|resurrect|misc|wild|repair|custom_ritual)/",
             "/modern_industrialization:.*_diesel_generator/",
             "modern_industrialization:bronze_boiler",
