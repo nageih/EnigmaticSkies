@@ -30,44 +30,44 @@ const reapingData = [
 
     {
         registry_name: 'minecraft:skeleton',
-        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '2', max: '4' }]
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:stray',
-        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '2', max: '4' }]
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:wither_skeleton',
-        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '2', max: '4' }]
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:bogged',
-        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '2', max: '4' }]
+        drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '1.0', min: '1', max: '2' }]
     },
 
     {
         registry_name: 'minecraft:zoglin',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:zombie',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:zombie_villager',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:zombified_piglin',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:husk',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
     {
         registry_name: 'minecraft:drowned',
-        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '3' }]
+        drops: [{ ingredient: { item: 'malum:rotting_essence' }, chance: '1.0', min: '1', max: '2' }]
     },
 
     {
