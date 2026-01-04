@@ -20,10 +20,10 @@ ServerEvents.recipes((event) => {
             result: { id: 'malum:fused_consciousness', count: 1 },
             base: { item: 'malum:complete_design' },
             modifiers: [
-                { item: 'naturesaura:token_euphoria' },
-                { item: 'naturesaura:token_terror' },
-                { item: 'naturesaura:token_rage' },
-                { item: 'naturesaura:token_grief' }
+                { tag: 'c:tokens/greater_air' },
+                { tag: 'c:tokens/greater_earth' },
+                { tag: 'c:tokens/greater_fire' },
+                { tag: 'c:tokens/greater_water' }
             ],
             color: '#0f5f23',
             energy: 500000,
@@ -65,7 +65,5 @@ ServerEvents.recipes((event) => {
         recipe.time *= 20;
         recipe.color = hexToRgb(recipe.color);
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

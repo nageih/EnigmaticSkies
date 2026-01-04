@@ -51,6 +51,13 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'minecraft:water', amount: 1000 },
             time: 5,
             id: `${id_prefix}rice_dough`
+        },
+        {
+            results: [{ id: 'modern_industrialization:rubber_sheet', count: 1 }],
+            ingredients: [{ item: 'farmersdelight:canvas' }],
+            fluidInput: { fluid: 'enigmatica:vulcanized_rubber', amount: 50 },
+            time: 5,
+            id: `${id_prefix}rubber_sheet`
         }
     ];
 

@@ -265,7 +265,7 @@ ServerEvents.recipes((event) => {
             outputs: { item_output: { id: 'minecraft:blaze_rod', count: 1 } },
             inputs: {
                 fluid: { fluid: 'supplementaries:lumisene', amount: 1000 },
-                item: { tag: 'c:rods/iron' }
+                item: { item: 'enderio:infinity_rod' }
             },
             temperature: { min: CtoK(1500) },
             id: `${id_prefix}blaze_rod`
@@ -274,9 +274,9 @@ ServerEvents.recipes((event) => {
             outputs: { item_output: { id: 'minecraft:breeze_rod', count: 1 } },
             inputs: {
                 fluid: { fluid: 'modern_industrialization:liquid_air', amount: 1000 },
-                item: { tag: 'c:rods/copper' }
+                item: { item: 'enderio:infinity_rod' }
             },
-            temperature: { min: CtoK(1500) },
+            temperature: { max: CtoK(-175) },
             id: `${id_prefix}breeze_rod`
         },
 

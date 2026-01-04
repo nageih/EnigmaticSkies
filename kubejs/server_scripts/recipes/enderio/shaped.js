@@ -91,12 +91,49 @@ ServerEvents.recipes((event) => {
                 E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}alloy_smelter`
+        },
+        {
+            output: `enderio:infinity_rod`,
+            pattern: [' A ', 'ABA', ' A '],
+            key: {
+                A: '#c:dusts/grains_of_infinity',
+                B: '#c:rods/steel'
+            },
+            id: `${id_prefix}infinity_rod`
+        },
+        {
+            output: `enderio:staff_of_levity`,
+            pattern: ['  A', ' BC', 'B  '],
+            key: {
+                A: '#c:gems/empowered_diamatine',
+                B: `enderio:infinity_rod`,
+                C: '#c:essences/air'
+            },
+            id: `${id_prefix}staff_of_levity`
+        },
+        {
+            output: `enderio:staff_of_travelling`,
+            pattern: ['  A', ' BC', 'B  '],
+            key: {
+                A: '#c:gems/pulsating_crystal',
+                B: `enderio:infinity_rod`,
+                C: '#c:tokens/air'
+            },
+            id: `${id_prefix}staff_of_travelling`
+        },
+        {
+            output: `enderio:cold_fire_igniter`,
+            pattern: ['BA', 'C '],
+            key: {
+                A: '#c:gems/empowered_void',
+                B: `enderio:infinity_rod`,
+                C: '#c:tokens/fire'
+            },
+            id: `${id_prefix}cold_fire_igniter`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

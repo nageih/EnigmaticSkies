@@ -191,7 +191,7 @@ function convertToBiome(event, biome, particle, radius) {
     });
 }
 
-function convertToEntity(event, entity, particle, radius, height) {
+function convertToEntity(event, entity, mobData) {
     const { block, item, player, level, server } = event;
     const dimension = String(level.getDimension());
     const execute = `execute in ${dimension} run`;
@@ -203,19 +203,21 @@ function convertToEntity(event, entity, particle, radius, height) {
     let yOffset = block.getProperties().half == 'upper' ? 1 : 0;
     let effect = { x: block.x + 0.5, y: Math.floor(block.y - yOffset), z: block.z + 0.5 };
 
-    let mobRotation = `Rotation:[${directions[block.getProperties().facing]}F,0F]`;
-    let mobLoot = `DeathLootTable:"enigmatica:statue_tokens/${entity.split(':')[1]}"`;
-    let mobName = `CustomName:'{"color":"gold","text":"Clockwork ${toTitleCase(entity.split(':')[1])}"}'`;
-    let mobAttributes = `attributes:[{id:"minecraft:generic.armor",base:20},{id:"minecraft:generic.armor_toughness",base:10}]`;
-    let mobData = `{PatrolLeader:0b,${mobLoot},${mobRotation},${mobName},${mobAttributes}}`;
+    let mob = block.createEntity(entity);
+    mob.setPos(effect.x, effect.y, effect.z);
+    mob.setRotation(directions[block.getProperties().facing], 0);
+    mob.mergeNbt(mobData);
 
     let commands = [
         `fill ${block.x} ${effect.y} ${block.z} ${block.x} ${effect.y} ${block.z} air replace`,
-        `summon ${entity} ${effect.x} ${effect.y} ${effect.z}`,
         `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`
     ];
 
     // Inject VFX
+    let particle = 'supplementaries:air_burst';
+    let radius = 1;
+    let height = 0.75;
+
     getCircleCoordinates(effect.x, effect.y, effect.z, radius, 5).forEach((c) => {
         commands.push(`particle cold_sweat:ground_mist ${c.x} ${c.y + 0.5} ${c.z}`);
         commands.push(`particle ${particle} ${c.x} ${c.y + height + Math.random() * 2} ${c.z}`);
@@ -225,11 +227,7 @@ function convertToEntity(event, entity, particle, radius, height) {
         server.runCommandSilent(`${execute} ${command}`);
     });
 
-    // Force rotation to match statue and set other data
-    server.scheduleInTicks(1, () => {
-        let command = `data merge entity @e[type=${entity},sort=nearest,limit=1,x=${effect.x},y=${effect.y},z=${effect.z}] ${mobData}`;
-        server.runCommandSilent(`${execute} ${command}`);
-    });
+    mob.spawn();
 
     // Creepy SFX
     for (let i = 1; i <= 3; i++) {

@@ -76,6 +76,23 @@ ServerEvents.recipes((event) => {
             fluidInput: { fluid: 'oritech:still_sheol_fire', amount: 250 },
             time: 2,
             id: `${id_prefix}cthonic_gold`
+        },
+
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'modern_industrialization:lubricant', amount: 250 }],
+            ingredients: [{ tag: 'c:dusts/grains_of_infinity' }],
+            fluidInput: { fluid: 'enigmatica:heavy_oil', amount: 250 },
+            time: 2,
+            id: `${id_prefix}lubricant`
+        },
+        {
+            results: [],
+            fluidOutputs: [{ fluid: 'modern_industrialization:lubricant', amount: 250 }],
+            ingredients: [{ item: 'ars_nouveau:starbuncle_charm' }],
+            fluidInput: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 250 },
+            time: 2,
+            id: `${id_prefix}lubricant_from_starbuncle`
         }
     ];
 
