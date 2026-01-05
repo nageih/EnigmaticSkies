@@ -36,6 +36,8 @@
             "ae2:meteorite_compass",
             "ae2:vibration_chamber",
 
+            "rep_ae2_bridge:universal_matter",
+
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
@@ -44,6 +46,10 @@
 
             "enderio:stirling_generator",
             "enderio:soul_engine",
+            "enderio:mind_killer",
+            "enderio:broken_spawner",
+            "enderio:powered_spawner",
+
             "enderio:conduit[enderio:conduit=\"enderio:ender_energy\"]",
             "enderio:conduit[enderio:conduit=\"enderio:enhanced_energy\"]",
             "enderio:conduit[enderio:conduit=\"enderio:energy\"]",
@@ -166,8 +172,15 @@
             "modern_industrialization:and_gate",
             "modern_industrialization:or_gate",
             "modern_industrialization:not_gate",
+            "modern_industrialization:qubit",
+            "modern_industrialization:random_access_memory",
+            "modern_industrialization:memory_management_unit",
+            "modern_industrialization:arithmetic_logic_unit",
             "modern_industrialization:advanced_machine_casing",
             "modern_industrialization:highly_advanced_machine_casing",
+            "modern_industrialization:silicon_n_doped_plate",
+            "modern_industrialization:silicon_p_doped_plate",
+            "modern_industrialization:stainless_steel_hot_ingot",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
