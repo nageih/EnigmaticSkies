@@ -291,12 +291,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:laser_arm_block`,
-            pattern: [' A ', ' B ', 'CDC'],
+            pattern: [' A ', 'EBE', 'CDC'],
             key: {
                 A: 'pneumaticcraft:assembly_laser',
                 B: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                C: 'oritech:metal_beam_block',
-                D: 'enigmatica:tempestuous_mechanism'
+                C: 'modern_industrialization:large_advanced_motor',
+                D: 'enigmatica:tempestuous_mechanism',
+                E: '#c:gears/dark_steel'
             },
             id: `${id_prefix}laser_arm_block`
         },
@@ -465,12 +466,14 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:shrinker_block`,
-            pattern: ['ABA', 'CDC'],
+            pattern: ['A B', 'DCD', 'FEF'],
             key: {
-                A: 'modern_industrialization:robot_arm',
-                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                C: '#c:gears/dark_steel',
-                D: 'enigmatica:tempestuous_mechanism'
+                A: 'pneumaticcraft:assembly_drill',
+                B: 'pneumaticcraft:assembly_laser',
+                C: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                D: '#c:gears/dark_steel',
+                E: 'enigmatica:tempestuous_mechanism',
+                F: 'modern_industrialization:large_advanced_motor'
             },
             id: `${id_prefix}shrinker_block`
         }
@@ -495,7 +498,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

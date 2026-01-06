@@ -149,7 +149,7 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { tag: 'modern_industrialization:fluid_pipes' },
-                { item: 'modern_industrialization:steel_tank' }
+                { item: 'starbunclemania:fluid_jar' }
             ],
             time: 20,
             id: `${id_prefix}machine_fluid_addon`

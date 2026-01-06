@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             entity_type: 'ars_nouveau:wilden_stalker',
             gene_chance: 0.5,
             needs_mutation_potion: true,
-            id: `${id_prefix}speed_2_from_aerbunny`
+            id: `${id_prefix}speed_2_from_wilden_stalker`
         },
         {
             ideal_gene: 'geneticsresequenced:efficiency_4',
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
             entity_type: 'ars_nouveau:wilden_stalker',
             gene_chance: 0.5,
             needs_mutation_potion: true,
-            id: `${id_prefix}speed_4_from_cat`
+            id: `${id_prefix}speed_4_from_wilden_stalker`
         },
         {
             ideal_gene: 'geneticsresequenced:claws_2',
@@ -79,13 +79,19 @@ ServerEvents.recipes((event) => {
             entity_type: 'ars_nouveau:wilden_guardian',
             gene_chance: 0.3,
             id: `${id_prefix}regeneration_from_wilden_guardian`
+        },
+        {
+            ideal_gene: 'geneticsresequenced:wilden_4',
+            ingredient: { item: 'arsdelight:horn_roll' },
+            entity_type: 'ars_nouveau:wilden_boss',
+            gene_chance: 0.5,
+            needs_mutation_potion: true,
+            id: `${id_prefix}wilden_4_from_wilden_boss`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'geneticsresequenced:incubator/gmo';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

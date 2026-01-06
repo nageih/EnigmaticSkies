@@ -117,12 +117,22 @@ ServerEvents.recipes((event) => {
                 F: 'minecraft:dark_prismarine'
             },
             id: `${id_prefix}weather_changer`
+        },
+        {
+            output: 'naturesaura:death_ring',
+            pattern: ['ABC', 'D D', 'EDE'],
+            key: {
+                A: '#c:tokens/earth',
+                B: 'minecraft:skeleton_skull',
+                C: '#c:tokens/air',
+                D: '#c:ingots/hallowed_gold',
+                E: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]'
+            },
+            id: `${id_prefix}death_ring`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

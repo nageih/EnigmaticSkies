@@ -13,6 +13,7 @@ LootJS.lootTables((event) => {
             .createPool((pool) => {
                 pool.addEntry(
                     LootEntry.of(`naturesaura:token_${mob.token}`)
+                        .applyEnchantmentBonus([0, 1])
                         .killedByPlayer()
                         .matchAttackerCustom((attacker) => attacker.uuid.toString() != DRYGMY_UUID)
                 );

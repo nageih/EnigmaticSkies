@@ -148,6 +148,28 @@ ServerEvents.recipes((event) => {
             aura: 30000,
             time: 60,
             id: `${id_prefix}sniffer`
+        },
+        {
+            entity: 'minecraft:spider',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:cobweb' },
+                { tag: 'c:foods/raw_meat' }
+            ],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}spider`
+        },
+        {
+            entity: 'minecraft:cave_spider',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:cobweb' },
+                { item: 'minecraft:rotten_flesh' }
+            ],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}cave_spider`
         }
     ];
 
@@ -155,7 +177,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'naturesaura:animal_spawner';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

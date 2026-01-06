@@ -3,150 +3,104 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         // Raw Materials
+
         {
             input: { item: 'naturesaura:token_sorrow' },
-            matter: [
-                { type: 'replication:precious', amount: 16.0 },
-                { type: 'replication:living', amount: 8.0 }
-            ],
+            matter_types: { water: 1 },
             id: `${id_prefix}token_sorrow`
         },
         {
             input: { item: 'naturesaura:token_grief' },
-            matter: [
-                { type: 'replication:precious', amount: 64.0 },
-                { type: 'replication:living', amount: 32.0 }
-            ],
+            matter_types: { water: 4, earth: 1 },
             id: `${id_prefix}token_grief`
         },
 
         {
             input: { item: 'naturesaura:token_joy' },
-            matter: [
-                { type: 'replication:ender', amount: 16.0 },
-                { type: 'replication:quantum', amount: 8.0 }
-            ],
+            matter_types: { air: 1 },
             id: `${id_prefix}token_joy`
         },
         {
             input: { item: 'naturesaura:token_euphoria' },
-            matter: [
-                { type: 'replication:ender', amount: 64.0 },
-                { type: 'replication:quantum', amount: 32.0 }
-            ],
+            matter_types: { air: 4, water: 1 },
             id: `${id_prefix}token_euphoria`
         },
 
         {
             input: { item: 'naturesaura:token_fear' },
-            matter: [
-                { type: 'replication:earth', amount: 16.0 },
-                { type: 'replication:organic', amount: 8.0 }
-            ],
+            matter_types: { earth: 1 },
             id: `${id_prefix}token_fear`
         },
         {
             input: { item: 'naturesaura:token_terror' },
-            matter: [
-                { type: 'replication:earth', amount: 64.0 },
-                { type: 'replication:organic', amount: 32.0 }
-            ],
+            matter_types: { earth: 4, fire: 1 },
             id: `${id_prefix}token_terror`
         },
 
         {
             input: { item: 'naturesaura:token_anger' },
-            matter: [
-                { type: 'replication:metallic', amount: 16.0 },
-                { type: 'replication:nether', amount: 8.0 }
-            ],
+            matter_types: { fire: 1 },
             id: `${id_prefix}token_anger`
         },
         {
             input: { item: 'naturesaura:token_rage' },
-            matter: [
-                { type: 'replication:metallic', amount: 64.0 },
-                { type: 'replication:nether', amount: 32.0 }
-            ],
+            matter_types: { fire: 4, air: 1 },
             id: `${id_prefix}token_rage`
         },
 
-        // Components
-
-        {
-            input: { item: 'ae2:engineering_processor' },
-            matter: [
-                { type: 'replication:ender', amount: 128 },
-                { type: 'replication:earth', amount: 128 },
-                { type: 'replication:precious', amount: 128 },
-                { type: 'replication:metallic', amount: 128 },
-
-                { type: 'replication:organic', amount: 64 }
-            ],
-            id: `${id_prefix}engineering_processor`
-        },
+        // Replicatable Components
         {
             input: { item: 'ae2:logic_processor' },
-            matter: [
-                { type: 'replication:ender', amount: 128 },
-                { type: 'replication:earth', amount: 128 },
-                { type: 'replication:precious', amount: 128 },
-                { type: 'replication:metallic', amount: 128 },
-
-                { type: 'replication:nether', amount: 64 }
-            ],
+            matter_types: { fire: 16, air: 8, earth: 8 },
             id: `${id_prefix}logic_processor`
         },
         {
             input: { item: 'ae2:calculation_processor' },
-            matter: [
-                { type: 'replication:ender', amount: 128 },
-                { type: 'replication:earth', amount: 128 },
-                { type: 'replication:precious', amount: 128 },
-                { type: 'replication:metallic', amount: 128 },
-
-                { type: 'replication:living', amount: 64 }
-            ],
+            matter_types: { water: 16, air: 8, earth: 8 },
             id: `${id_prefix}calculation_processor`
         },
         {
+            input: { item: 'ae2:engineering_processor' },
+            matter_types: { earth: 16, water: 8, fire: 8 },
+            id: `${id_prefix}engineering_processor`
+        },
+        {
             input: { item: 'modern_industrialization:quantum_circuit' },
-            matter: [
-                { type: 'replication:ender', amount: 128 },
-                { type: 'replication:earth', amount: 128 },
-                { type: 'replication:precious', amount: 128 },
-                { type: 'replication:metallic', amount: 128 },
-
-                { type: 'replication:quantum', amount: 64 }
-            ],
+            matter_types: { air: 16, water: 8, fire: 8 },
             id: `${id_prefix}quantum_circuit`
         }
     ];
 
-    /*
-    Types
-
-    Token of Joy/Euphoria (Air)
-        ender
-        quantum
-
-    Token of Fear/Terror (Earth)
-        earth
-        organic
-
-    Token of Sorrow/Grief (Water)
-        precious
-        living
-
-    Token of Anger/Rage (Fire)
-        metallic
-        nether
-    */
+    const matter_rates = {
+        water: [
+            { type: 'replication:precious', amount: 16.0 },
+            { type: 'replication:living', amount: 8.0 }
+        ],
+        air: [
+            { type: 'replication:ender', amount: 16.0 },
+            { type: 'replication:quantum', amount: 8.0 }
+        ],
+        earth: [
+            { type: 'replication:earth', amount: 16.0 },
+            { type: 'replication:organic', amount: 8.0 }
+        ],
+        fire: [
+            { type: 'replication:metallic', amount: 16.0 },
+            { type: 'replication:nether', amount: 8.0 }
+        ]
+    };
 
     recipes.forEach((recipe) => {
         recipe.type = 'replication:matter_value';
-        event.custom(recipe).id(recipe.id);
 
-        
+        recipe.matter = [];
+        Object.keys(recipe.matter_types).forEach((type) => {
+            let multiplier = recipe.matter_types[type];
+            matter_rates[type].forEach((matter) => {
+                recipe.matter.push({ type: matter.type, amount: matter.amount * multiplier });
+            });
+        });
+
+        event.custom(recipe).id(recipe.id);
     });
 });

@@ -77,13 +77,14 @@ ServerEvents.recipes((event) => {
     machines.forEach((recipe) => {
         recipes.push({
             output: `geneticsresequenced:${recipe.output}`,
-            pattern: ['ACA', 'ABA', 'DED'],
+            pattern: ['ACA', 'DBD', 'EFE'],
             key: {
                 A: `#c:plates/plastic`,
                 B: 'modern_industrialization:steel_machine_casing',
                 C: recipe.input,
                 D: '#c:gears/compressed_iron',
-                E: 'enigmatica:pulsating_mechanism'
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}${recipe.output}`
         });
@@ -91,7 +92,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

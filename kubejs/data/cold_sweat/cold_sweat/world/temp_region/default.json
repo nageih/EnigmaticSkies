@@ -1,5 +1,5 @@
 {
-    "dimensions": ["#forge:overworld_like"],
+    "dimensions": ["#c:overworld_like"],
     "regions": [
         {
             "type": "constant",

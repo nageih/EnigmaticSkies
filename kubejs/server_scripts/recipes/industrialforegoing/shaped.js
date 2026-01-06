@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#c:gems/enori',
                 B: 'naturesaura:conversion_catalyst',
-                C: 'modern_industrialization:bronze_tank',
+                C: 'starbunclemania:fluid_jar',
                 D: 'modern_industrialization:bronze_machine_casing',
                 E: 'oritech:flux_gate'
             },
@@ -27,11 +27,12 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'industrialforegoing:laser_drill',
-            pattern: [' A ', 'ABA', ' C '],
+            pattern: ['DAD', 'ABA', 'DCD'],
             key: {
                 A: 'oritech:enderic_lens',
                 B: 'modern_industrialization:steel_machine_casing',
-                C: 'enigmatica:pulsating_mechanism'
+                C: 'enigmatica:pulsating_mechanism',
+                D: 'pneumaticcraft:plastic'
             },
             id: `${id_prefix}laser_drill`
         },
@@ -73,6 +74,115 @@ ServerEvents.recipes((event) => {
                 B: '#c:gems/emeradic'
             },
             id: `${id_prefix}world_transporter_type`
+        },
+        {
+            output: 'industrialforegoing:simulated_hydroponic_bed',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'industrialforegoing:hydroponic_simulation_processor',
+                C: 'aquaculture:neptunium_hoe',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: 'modern_industrialization:large_advanced_motor',
+                F: 'enigmatica:tempestuous_mechanism'
+            },
+            id: `${id_prefix}simulated_hydroponic_bed`
+        },
+        {
+            output: 'industrialforegoing:enchantment_applicator',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:tokens/water',
+                C: '#c:storage_blocks/empowered_diamatine',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}enchantment_applicator`
+        },
+        {
+            output: 'industrialforegoing:potion_brewer',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:tokens/fire',
+                C: '#c:storage_blocks/empowered_restonia',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}potion_brewer`
+        },
+        {
+            output: 'industrialforegoing:enchantment_extractor',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:tokens/air',
+                C: '#c:storage_blocks/empowered_void',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}enchantment_extractor`
+        },
+        {
+            output: 'industrialforegoing:material_stonework_factory',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: '#c:tokens/earth',
+                C: '#c:storage_blocks/empowered_emeradic',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}material_stonework_factory`
+        },
+        {
+            output: 'industrialforegoing:enchantment_sorter',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'apothic_enchanting:warden_tendril',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}enchantment_sorter`
+        },
+        {
+            output: 'industrialforegoing:enchantment_factory',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'minecraft:enchanting_table',
+                C: 'apothic_enchanting:geode_shelf',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}enchantment_factory`
+        },
+        {
+            output: 'industrialforegoing:fluid_laser_base',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#c:gems/empowered_palis',
+                B: 'starbunclemania:fluid_jar',
+                C: 'minecraft:conduit',
+                D: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                E: '#c:gems/weather_crystal'
+            },
+            id: `${id_prefix}fluid_laser_base`
+        },
+        {
+            output: 'industrialforegoing:infinity_charger',
+            pattern: ['ABA', 'BCB', 'ADA'],
+            key: {
+                A: 'pneumaticcraft:plastic',
+                B: 'modern_industrialization:superconductor_coil',
+                C: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                D: 'enigmatica:tempestuous_mechanism'
+            },
+            id: `${id_prefix}infinity_charger`
         }
     ];
 
@@ -83,9 +193,13 @@ ServerEvents.recipes((event) => {
         { id: 'animal_feeder', item: 'minecraft:golden_carrot' },
         { id: 'animal_baby_separator', item: 'minecraft:iron_bars' },
         { id: 'sludge_refiner', item: 'minecraft:bucket' },
+        { id: 'plant_fertilizer', item: 'create:nozzle' },
+        { id: 'mob_detector', item: 'minecraft:observer' },
         { id: 'animal_rancher', item: 'minecraft:shears', adv: true },
+        { id: 'marine_fisher', item: 'farmersdelight:safety_net', adv: true },
         { id: 'plant_gatherer', item: 'create:mechanical_harvester', adv: true },
         { id: 'plant_sower', item: 'naturesaura:infused_iron_hoe', adv: true },
+        { id: 'hydroponic_bed', item: 'farmersdelight:rich_soil', adv: true },
         { id: 'block_placer', item: 'actuallyadditions:placer', adv: true },
         { id: 'block_breaker', item: 'actuallyadditions:breaker', adv: true },
         { id: 'fluid_placer', item: 'actuallyadditions:fluid_placer', adv: true },
@@ -117,7 +231,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

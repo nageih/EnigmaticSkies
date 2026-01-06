@@ -70,7 +70,8 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:basic': 5,
                 'geneticsresequenced:chilling': 2,
                 'geneticsresequenced:thorns': 2,
-                'geneticsresequenced:claws': 1
+                'geneticsresequenced:claws': 1,
+                'geneticsresequenced:wilden': 1
             }
         },
         {
@@ -80,7 +81,8 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:speed': 2,
                 'geneticsresequenced:night_vision': 1,
                 'geneticsresequenced:hunger': 1,
-                'geneticsresequenced:claws': 1
+                'geneticsresequenced:claws': 1,
+                'geneticsresequenced:wilden': 1
             }
         },
         {
@@ -89,18 +91,20 @@ ServerEvents.generateData('before_mods', (event) => {
                 'geneticsresequenced:basic': 5,
                 'geneticsresequenced:night_vision': 1,
                 'geneticsresequenced:no_fall_damage': 1,
-                'geneticsresequenced:claws': 1
+                'geneticsresequenced:claws': 1,
+                'geneticsresequenced:wilden': 1
             }
         },
         {
             entities: ['ars_nouveau:wilden_boss'],
             genes: {
-                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:basic': 3,
                 'geneticsresequenced:mob_sight': 1,
                 'geneticsresequenced:speed': 1,
                 'geneticsresequenced:flight': 1,
                 'geneticsresequenced:thorns': 1,
-                'geneticsresequenced:claws': 1
+                'geneticsresequenced:claws': 1,
+                'geneticsresequenced:wilden': 1
             }
         },
         {
@@ -152,6 +156,38 @@ ServerEvents.generateData('before_mods', (event) => {
             genes: {
                 'geneticsresequenced:item_magnet': 2,
                 'geneticsresequenced:xp_magnet': 3
+            }
+        },
+        {
+            entities: ['minecraft:stray'],
+            genes: {
+                'geneticsresequenced:basic': 6,
+                'geneticsresequenced:frost_proof': 1,
+                'geneticsresequenced:infinity': 3
+            }
+        },
+        {
+            entities: ['minecraft:breeze', 'aether:zephyr'],
+            genes: {
+                'geneticsresequenced:basic': 2,
+                'geneticsresequenced:jump_boost': 5,
+                'geneticsresequenced:wind_charged': 4,
+                'geneticsresequenced:frost_proof': 1
+            }
+        },
+        {
+            entities: ['minecraft:elder_guardian'],
+            genes: {
+                'geneticsresequenced:mob_sight': 3,
+                'geneticsresequenced:water_breathing': 4,
+                'geneticsresequenced:frost_proof': 2
+            }
+        },
+        {
+            entities: ['aether:sentry'],
+            genes: {
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:stone_skin': 3
             }
         }
     ];

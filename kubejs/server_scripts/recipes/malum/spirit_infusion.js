@@ -356,6 +356,38 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}high_pressure_advanced_large_steam_boiler`
         },
         {
+            result: { id: 'modern_industrialization:plasma_turbine', count: 1 },
+            input: { item: 'modern_industrialization:quantum_machine_casing', count: 1 },
+            extraInputs: [
+                { item: 'modern_industrialization:quantum_circuit', count: 4 },
+                { item: 'modern_industrialization:sky_rotor', count: 8 },
+                { item: 'modern_industrialization:advanced_pump', count: 4 },
+                { item: 'modern_industrialization:superconductor_coil', count: 4 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}plasma_turbine`
+        },
+        {
+            result: { id: 'modern_industrialization:fusion_reactor', count: 1 },
+            input: { item: 'modern_industrialization:quantum_machine_casing', count: 1 },
+            extraInputs: [
+                { item: 'modern_industrialization:quantum_circuit', count: 4 },
+                { item: 'modern_industrialization:fusion_chamber', count: 8 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:earthen', count: 64 },
+                { type: 'malum:infernal', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}fusion_reactor`
+        },
+        {
             result: { id: 'modern_industrialization:heat_exchanger', count: 1 },
             input: { item: 'modern_industrialization:stainless_steel_machine_casing_pipe', count: 1 },
             extraInputs: [
@@ -371,6 +403,31 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:eldritch', count: 64 }
             ],
             id: `${id_prefix}heat_exchanger`
+        },
+        {
+            result: { id: 'industrialforegoing:hydroponic_simulation_processor', count: 1 },
+            input: { item: 'enderio:frank_n_zombie', count: 1 },
+            extraInputs: [
+                { item: 'pneumaticcraft:plastic', count: 4 },
+                { item: 'minecraft:heart_of_the_sea', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aqueous', count: 64 },
+                { type: 'malum:sacred', count: 32 }
+            ],
+            id: `${id_prefix}hydroponic_simulation_processor`
+        },
+        {
+            result: { id: 'modern_industrialization:iridium_plate', count: 1 },
+            input: { tag: 'c:ingots/iridium', count: 1 },
+            extraInputs: [{ item: 'malum:auric_embers', count: 4 }],
+            spirits: [
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:infernal', count: 16 },
+                { type: 'malum:earthen', count: 16 }
+            ],
+            id: `${id_prefix}iridium_plate`
         }
     ];
 
@@ -408,7 +465,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'malum:spirit_infusion';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
