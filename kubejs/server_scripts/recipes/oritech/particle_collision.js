@@ -86,13 +86,17 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'ars_nouveau:wilden_tribute' }],
             time: 15000,
             id: `${id_prefix}royal_jelly_bottle`
+        },
+        {
+            results: [{ id: 'malum:umbral_spirit', count: 1 }],
+            ingredients: [{ item: 'malum:null_slate' }, { tag: 'c:gems/empowered_void' }],
+            time: 15000,
+            id: `${id_prefix}umbral_spirit`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:particle_collision';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

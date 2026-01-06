@@ -82,22 +82,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}quantum_machine_casing`
         },
         {
-            output: { id: 'enderio:void_chassis', count: 1 },
-            input: [
-                { tag: 'c:essences/void_salts' },
-                { item: 'industrialforegoing:machine_frame_simple' },
-                { tag: 'c:essences/void_salts' },
-                { item: 'oritech:carbon_plating_block' },
-                { item: 'oritech:carbon_plating_block' },
-                { item: 'oritech:advanced_battery' },
-                { tag: 'c:gears/dark_steel' },
-                { item: 'oritech:advanced_battery' }
-            ],
-            inputFluid: { fluid: 'enderio:fluid_liquid_darkness_still', amount: 1000 },
-            processingTime: 60,
-            id: `${id_prefix}void_chassis`
-        },
-        {
             output: { id: 'industrialforegoing:processing_addon_tier_1', count: 1 },
             input: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
@@ -233,6 +217,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}red_laser_lens`
         },
         {
+            output: { id: 'industrialforegoing:cyan_laser_lens', count: 1 },
+            input: [
+                { tag: 'c:dusts/diamond' },
+                { tag: 'c:dusts/diamond' },
+                { tag: 'c:dusts/diamond' },
+                { tag: 'c:dusts/diamond' },
+                { item: 'actuallyadditions:lens' },
+                { item: 'actuallyadditions:lens' },
+                { item: 'actuallyadditions:lens' },
+                { item: 'actuallyadditions:lens' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
+            processingTime: 30,
+            id: `${id_prefix}cyan_laser_lens`
+        },
+        {
             output: { id: 'industrialforegoing:blue_laser_lens', count: 1 },
             input: [
                 { tag: 'c:dusts/echo' },
@@ -263,6 +263,175 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:latex', amount: 1000 },
             processingTime: 30,
             id: `${id_prefix}black_laser_lens`
+        },
+        {
+            outputFluid: { amount: 250, id: 'industrialforegoing:essence' },
+            input: [{ tag: 'c:gems/brilliance' }],
+            inputFluid: { amount: 50, fluid: 'theurgy:sal_ammoniac' },
+            processingTime: 5,
+            id: `${id_prefix}essence`
+        },
+        {
+            outputFluid: { amount: 1000, id: 'industrialforegoing:biofuel' },
+            input: [{ tag: 'c:dusts/grains_of_infinity' }],
+            inputFluid: { amount: 1000, fluid: 'justdirethings:refined_t2_fluid_source' },
+            processingTime: 10,
+            id: `${id_prefix}biofuel`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_drill',
+                components: {
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false
+                },
+                count: 1
+            },
+            input: [
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'aquaculture:neptunium_shovel' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:gears/dark_steel' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_drill`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_hammer',
+                components: {
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_hammer_beheading': 0,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false
+                },
+                count: 1
+            },
+            input: [
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'aquaculture:neptunium_sword' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:gears/dark_steel' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_hammer`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_trident',
+                components: {
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false,
+                    'industrialforegoing:infinity_trident_channeling': false,
+                    'industrialforegoing:infinity_trident_loyalty': 0,
+                    'industrialforegoing:infinity_trident_riptide': 0
+                },
+                count: 1
+            },
+            input: [
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'minecraft:trident' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:gears/dark_steel' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_trident`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_saw',
+                components: {
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false
+                },
+                count: 1
+            },
+            input: [
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'aquaculture:neptunium_axe' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:gears/dark_steel' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_saw`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_nuke',
+                components: {
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false
+                },
+                count: 1
+            },
+            input: [
+                { item: 'minecraft:tnt' },
+                { item: 'minecraft:nether_star' },
+                { item: 'minecraft:tnt' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'oritech:heisenberg_compensator' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:heisenberg_compensator' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_nuke`
+        },
+        {
+            output: {
+                id: 'industrialforegoing:infinity_launcher',
+                components: {
+                    'industrialforegoing:configuration_action': 'RELEASE',
+                    'industrialforegoing:infinity_can_charge': true,
+                    'industrialforegoing:infinity_item_power': 0,
+                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_special': false
+                },
+                count: 1
+            },
+            input: [
+                { tag: 'c:storage_blocks/celestigem' },
+                { item: 'aquaculture:neptunium_bow' },
+                { tag: 'c:storage_blocks/celestigem' },
+                { tag: 'c:gears/dark_steel' },
+                { tag: 'c:gears/dark_steel' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:advanced_battery' }
+            ],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            processingTime: 60,
+            id: `${id_prefix}infinity_launcher`
         }
     ];
 
@@ -318,7 +487,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'industrialforegoing:dissolution_chamber';
         event.custom(recipe).id(recipe.id);
         recipe.processingTime *= 20;
-
-        
     });
 });

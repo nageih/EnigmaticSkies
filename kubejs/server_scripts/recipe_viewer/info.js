@@ -219,6 +219,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['ae2:logic_processor', 'ae2:calculation_processor', 'ae2:engineering_processor'],
             text: [`Crafted using a Replicator.`, ` `, `Purchase a Blueprint from a Fluix Researcher.`]
+        },
+        {
+            filter: [`enderio:wireless_charger_antenna`, `enderio:wireless_charger_antenna_advanced`],
+            text: [`Place on top of an Enderio Wireless Charger to increase its range.`]
         }
     ];
 

@@ -257,7 +257,9 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:vibrant_cable`
         },
         {
-            filter: [{ output: /modern_industrialization:(bronze|steel|advanced|highly_advanced)_fluid_.*_hatch/ }],
+            filter: [
+                { output: /modern_industrialization:(bronze|steel|advanced|turbo|highly_advanced)_fluid_.*_hatch/ }
+            ],
             to_replace: /modern_industrialization:.*_tank/,
             replace_with: `utilitarian:fluid_hopper`
         },

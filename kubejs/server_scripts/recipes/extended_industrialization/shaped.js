@@ -117,9 +117,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'theurgy:digestion_vat',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_composter`
@@ -141,9 +141,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'create:spout',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_canning_machine`
@@ -152,7 +152,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

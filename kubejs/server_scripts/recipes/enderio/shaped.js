@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'ABA', ' A '],
             key: {
                 A: '#c:ingots/dark_steel',
-                B: '#c:gears/iron'
+                B: '#c:gears/compressed_iron'
             },
             id: `${id_prefix}dark_bimetal_gear`
         },
@@ -60,8 +60,8 @@ ServerEvents.recipes((event) => {
             output: 'enderio:vat',
             pattern: ['BAB', 'ACA', 'DED'],
             key: {
-                A: 'modern_industrialization:steel_tank',
-                B: 'oritech:carbon_plating_block',
+                A: 'starbunclemania:fluid_jar',
+                B: 'oritech:reinforced_carbon_sheet',
                 C: 'modern_industrialization:steel_machine_casing',
                 D: 'modern_industrialization:pump',
                 E: 'enigmatica:pulsating_mechanism'
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
             pattern: ['BAB', 'ACA', 'DED'],
             key: {
                 A: '#c:gears/dark_steel',
-                B: 'oritech:carbon_plating_block',
+                B: 'oritech:reinforced_carbon_sheet',
                 C: 'modern_industrialization:steel_machine_casing',
                 D: 'modern_industrialization:large_motor',
                 E: 'enigmatica:pulsating_mechanism'
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
             pattern: ['BAB', 'ACA', 'DED'],
             key: {
                 A: 'minecraft:blast_furnace',
-                B: 'oritech:carbon_plating_block',
+                B: 'oritech:reinforced_carbon_sheet',
                 C: 'modern_industrialization:steel_machine_casing',
                 D: 'modern_industrialization:energetic_coil',
                 E: 'enigmatica:pulsating_mechanism'
@@ -130,6 +130,108 @@ ServerEvents.recipes((event) => {
                 C: '#c:tokens/fire'
             },
             id: `${id_prefix}cold_fire_igniter`
+        },
+        {
+            output: `enderio:drain`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'utilitarian:fluid_hopper',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}drain`
+        },
+        {
+            output: `enderio:wired_charger`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'modern_industrialization:conductive_coil',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}wired_charger`
+        },
+        {
+            output: `enderio:impulse_hopper`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'minecraft:hopper',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}impulse_hopper`
+        },
+        {
+            output: `enderio:painting_machine`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'minecraft:brush',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}painting_machine`
+        },
+        {
+            output: `enderio:weather_obelisk`,
+            pattern: [' A ', 'BCB', 'CDC'],
+            key: {
+                A: '#c:gems/weather_crystal',
+                B: '#c:ingots/energetic_alloy',
+                C: '#c:ingots/soularium',
+                D: 'enderio:ensouled_chassis'
+            },
+            id: `${id_prefix}weather_obelisk`
+        },
+        {
+            output: `enderio:wireless_charger`,
+            pattern: [' A ', ' A ', 'ABA'],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: 'enderio:wired_charger'
+            },
+            id: `${id_prefix}wireless_charger`
+        },
+        {
+            output: `enderio:wireless_charger_antenna`,
+            pattern: [' A ', 'CAC', 'ABA'],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: 'modern_industrialization:steel_machine_casing',
+                C: '#c:gems/pulsating_crystal'
+            },
+            id: `${id_prefix}wireless_charger_antenna`
+        },
+        {
+            output: `enderio:wireless_charger_antenna_advanced`,
+            pattern: [' A ', 'CAC', 'ABA'],
+            key: {
+                A: '#c:ingots/copper_alloy',
+                B: 'modern_industrialization:clean_stainless_steel_machine_casing',
+                C: '#c:gems/vibrant_crystal'
+            },
+            id: `${id_prefix}wireless_charger_antenna_advanced`
+        },
+        {
+            output: `enderio:electromagnet`,
+            pattern: ['ABA', 'A A', 'C C'],
+            key: {
+                A: '#c:ingots/conductive_alloy',
+                B: '#c:gems/empowered_emeradic',
+                C: '#c:ingots/copper_alloy'
+            },
+            id: `${id_prefix}electromagnet`
         }
     ];
 

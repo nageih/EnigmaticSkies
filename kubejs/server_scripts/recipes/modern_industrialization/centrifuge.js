@@ -51,6 +51,16 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id: `${id_prefix}carbon_dust`
+        },
+        {
+            fluid_outputs: [
+                { fluid: 'enigmatica:wastewater', amount: 750 },
+                { fluid: 'industrialforegoing:sludge', amount: 250 }
+            ],
+            fluid_inputs: { fluid: 'enigmatica:briny_seawater', amount: 1000 },
+            eu: 128,
+            duration: 10,
+            id: `${id_prefix}wastewater_from_briny_seawater`
         }
     ];
 
@@ -58,7 +68,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'modern_industrialization:centrifuge';
         recipe.duration *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

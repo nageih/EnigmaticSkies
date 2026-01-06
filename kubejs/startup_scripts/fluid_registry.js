@@ -45,6 +45,11 @@ StartupEvents.registry('fluid', (event) => {
             name: 'Pitch',
             type: 'thick',
             color: '#29251f'
+        },
+        {
+            name: 'Vapours of Nyx',
+            type: 'thin',
+            color: '#19021a'
         }
     ];
 
@@ -57,11 +62,3 @@ StartupEvents.registry('fluid', (event) => {
             .bucketItem.containerItem('minecraft:bucket');
     });
 });
-
-// ItemEvents.modification((event) => {
-//     fluids.forEach((fluid) => {
-//         event.modify(`enigmatica:${getID(fluid.name)}_bucket`, (item) => {
-//             item.setCraftingRemainder('minecraft:bucket');
-//         });
-//     });
-// });

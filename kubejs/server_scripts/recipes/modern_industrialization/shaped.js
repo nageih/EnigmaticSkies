@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: `modern_industrialization:bronze_plated_bricks`,
                 B: 'create:precision_mechanism',
-                C: 'modern_industrialization:bronze_tank'
+                C: 'starbunclemania:fluid_jar'
             },
             id: `${id_prefix}large_steam_boiler`
         },
@@ -449,7 +449,7 @@ ServerEvents.recipes((event) => {
             output: 'modern_industrialization:diesel_jetpack',
             pattern: ['ABA', 'CDC', 'EBE'],
             key: {
-                A: 'modern_industrialization:bronze_tank',
+                A: 'starbunclemania:fluid_jar',
                 B: '#c:plates/andesite_alloy',
                 C: 'pneumaticcraft:cannon_barrel',
                 D: 'minecraft:elytra',
@@ -474,9 +474,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'modern_industrialization:piston',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_compressor`
@@ -486,9 +486,9 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'DED'],
             key: {
                 A: '#c:plates/steel',
-                B: '#c:gears/compressed_iron',
+                B: '#c:gears/dark_steel',
                 C: 'modern_industrialization:steel_machine_casing',
-                D: 'modern_industrialization:motor',
+                D: 'modern_industrialization:large_motor',
                 E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_cutting_machine`
@@ -498,9 +498,9 @@ ServerEvents.recipes((event) => {
             pattern: ['ABA', 'BCB', 'DED'],
             key: {
                 A: '#c:gems/diamond',
-                B: '#c:gears/compressed_iron',
+                B: '#c:gears/dark_steel',
                 C: 'modern_industrialization:steel_machine_casing',
-                D: 'modern_industrialization:motor',
+                D: 'modern_industrialization:large_motor',
                 E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_macerator`
@@ -511,9 +511,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'pneumaticcraft:turbine_rotor',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_mixer`
@@ -524,9 +524,9 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'modern_industrialization:pump',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}centrifuge`
@@ -537,12 +537,33 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: 'create:nozzle',
-                C: '#c:gears/compressed_iron',
+                C: '#c:gears/dark_steel',
                 D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:motor',
+                E: 'modern_industrialization:large_motor',
                 F: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}electric_alluvial_trommel`
+        },
+        {
+            output: 'modern_industrialization:fusion_chamber',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'modern_industrialization:superconductor_coil',
+                B: 'modern_industrialization:small_heat_exchanger',
+                C: 'modern_industrialization:sky_large_plate',
+                D: 'modern_industrialization:quantum_machine_casing'
+            },
+            id: `${id_prefix}fusion_chamber`
+        },
+        {
+            output: 'modern_industrialization:plasma_handling_iridium_machine_casing',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'modern_industrialization:superconductor_coil',
+                B: 'modern_industrialization:iridium_large_plate',
+                C: 'modern_industrialization:sky_machine_casing'
+            },
+            id: `${id_prefix}plasma_handling_iridium_machine_casing`
         }
     ];
 
@@ -551,35 +572,40 @@ ServerEvents.recipes((event) => {
             material: 'copper',
             tier: 'lv',
             casing: 'modern_industrialization:bronze_machine_casing',
-            hull: 'modern_industrialization:bronze_machine_casing'
+            hull: 'modern_industrialization:bronze_machine_casing',
+            magnet: 'modern_industrialization:steel_rod_magnetic'
         },
         {
             material: 'conductive',
             tier: 'mv',
             casing: 'modern_industrialization:steel_machine_casing',
             hull: 'modern_industrialization:advanced_machine_hull',
-            covering: `#c:plates/andesite_alloy`
+            covering: `#c:plates/andesite_alloy`,
+            magnet: 'modern_industrialization:steel_rod_magnetic'
         },
         {
             material: 'energetic',
             tier: 'hv',
             casing: 'modern_industrialization:clean_stainless_steel_machine_casing',
             hull: 'modern_industrialization:turbo_machine_hull',
-            covering: `#c:plates/andesite_alloy`
+            covering: `#c:plates/andesite_alloy`,
+            magnet: 'modern_industrialization:steel_rod_magnetic'
         },
         {
             material: 'vibrant',
             tier: 'ev',
             casing: 'modern_industrialization:sky_machine_casing',
             hull: 'modern_industrialization:highly_advanced_machine_hull',
-            covering: 'pneumaticcraft:plastic'
+            covering: 'pneumaticcraft:plastic',
+            magnet: 'modern_industrialization:stainless_steel_rod_magnetic'
         },
         {
             material: 'superconductor',
             tier: 'superconductor',
             casing: 'modern_industrialization:quantum_machine_casing',
             hull: 'modern_industrialization:quantum_machine_hull',
-            covering: 'pneumaticcraft:plastic'
+            covering: 'pneumaticcraft:plastic',
+            magnet: 'modern_industrialization:stainless_steel_rod_magnetic'
         }
     ];
 
@@ -602,7 +628,7 @@ ServerEvents.recipes((event) => {
                 pattern: ['AAA', 'ABA', 'AAA'],
                 key: {
                     A: `modern_industrialization:${component.material}_cable`,
-                    B: 'modern_industrialization:steel_rod_magnetic'
+                    B: component.magnet
                 },
                 id: `${id_prefix}${component.material}_coil`
             },
@@ -703,7 +729,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });
