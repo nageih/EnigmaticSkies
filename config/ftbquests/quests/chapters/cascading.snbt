@@ -533,5 +533,17 @@
 			x: 2.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["2BB91161DB6B6AF5"]
+			id: "04AE4EA4C7CFB080"
+			shape: "diamond"
+			tasks: [{
+				id: "3B2223F74349886E"
+				item: { components: { "cold_sweat:armor_insulation": { insulation: [ ] } }, count: 1, id: "modern_industrialization:diesel_jetpack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 }

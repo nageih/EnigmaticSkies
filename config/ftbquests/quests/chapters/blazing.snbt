@@ -54,7 +54,7 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -163,7 +163,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 2.5d
 		}
 		{
@@ -174,7 +174,7 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -185,29 +185,7 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2B759D4770C13739"]
-			id: "7F43653C4B9A96CE"
-			tasks: [{
-				id: "4AC1218F30C1A46D"
-				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2B759D4770C13739"]
-			id: "5FE4FD410171ABFD"
-			tasks: [{
-				id: "2680E5AC31798C7C"
-				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
-				type: "item"
-			}]
-			x: 4.5d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -313,7 +291,7 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.5d
 			y: 2.5d
 		}
 		{
@@ -324,7 +302,7 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: 3.0d
 		}
 		{

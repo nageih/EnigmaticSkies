@@ -850,6 +850,11 @@
 					item: { count: 1, id: "ae2:engineering_processor" }
 					type: "item"
 				}
+				{
+					id: "6C45CAE3FA533D3B"
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+					type: "item"
+				}
 			]
 			x: 7.0d
 			y: 4.5d

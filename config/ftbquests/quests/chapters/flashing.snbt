@@ -365,65 +365,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6EB5108D30F5A94A"]
-			id: "1CBC50FA40BFB54A"
-			min_width: 300
-			tasks: [{
-				id: "6C1BEADC0F34C2DE"
-				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["739A201F595E3EFE"]
-			icon: {
-				id: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
-			}
-			id: "6EB5108D30F5A94A"
-			min_width: 300
-			tasks: [
-				{
-					id: "6FD7E610F5BA91D5"
-					item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
-					type: "item"
-				}
-				{
-					id: "561998A954F6820E"
-					item: { count: 1, id: "modern_industrialization:high_pressure_water_bucket" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["398AE848C969FCEF"]
-			dependency_requirement: "one_completed"
-			icon: {
-				id: "modern_industrialization:heat_exchanger"
-			}
-			id: "739A201F595E3EFE"
-			min_width: 300
-			tasks: [
-				{
-					id: "02AB4930C4BB8CFE"
-					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
-					type: "item"
-				}
-				{
-					id: "0E5708C1045AB0B5"
-					item: { count: 1, id: "modern_industrialization:high_pressure_steam_bucket" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"2BB91161DB6B6AF5"
 				"47A2DB9344C8CE26"
