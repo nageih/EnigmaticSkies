@@ -910,5 +910,24 @@
 			x: 0.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["7B9D8AD7BFC1E87D"]
+			id: "4F2E18DABA17E0AC"
+			rewards: [{
+				id: "749D44B09FDCD01F"
+				item: {
+					count: 1
+					id: "minecraft:redstone_torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E26DAA418B8367F"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
 	]
 }
