@@ -77,6 +77,13 @@ ServerEvents.recipes((event) => {
             xp: 0.0,
             duration: 10,
             id: `${id_prefix}demagnetize_iron_rod`
+        },
+        {
+            output: 'farmersdelight:cooked_chicken_cuts',
+            input: 'enigmatica:raw_chicken_cuts',
+            xp: 0.35,
+            duration: 10,
+            id: `${id_prefix}cooked_chicken_cuts`
         }
     ];
 

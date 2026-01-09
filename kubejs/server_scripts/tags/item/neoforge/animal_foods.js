@@ -1,5 +1,5 @@
 ServerEvents.tags('item', (event) => {
     let additions = ['enigmatica:raw_chicken_cuts'];
 
-    event.get('minecraft:meat').add(additions);
+    event.get('c:animal_foods').add(additions);
 });

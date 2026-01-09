@@ -266,7 +266,7 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'farmersdelight:chicken_cuts', count: 4 },
+            result: { id: 'enigmatica:raw_chicken_cuts', count: 4 },
             ingredients: [{ id: 'minecraft:chicken', count: { min: 1, max: 1 } }],
             level: 2
         },

@@ -111,6 +111,12 @@ StartupEvents.registry('item', (event) => {
             effect: { id: 'minecraft:speed', duration: 60, amplifier: 0 },
             fastToEat: true,
             alwaysEdible: true
+        },
+        {
+            name: 'Raw Chicken Cuts',
+            layer: 'chicken_cuts',
+            nutrition: 0.5,
+            saturation: 0.5
         }
     ];
 
