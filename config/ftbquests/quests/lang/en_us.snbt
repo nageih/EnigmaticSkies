@@ -3671,6 +3671,11 @@
 		"&a    auto-collect these drops, keeping "
 		"&a    your inventory clean!"
 	]
+	quest.58A3F58B7F1C580B.quest_desc: [
+		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
+		""
+		"Consider upgrading to this as your Water recycling needs grow."
+	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
 		""
@@ -3698,6 +3703,11 @@
 		"The Pyromantic Brazier goes directly under the Incubator."
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
+	]
+	quest.59DC95275C1091C6.quest_desc: [
+		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort as your power needs increase. "
+		""
+		"Spend some time automating production now and it should last you a good long while. "
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
 		"&7Oil&r is normally formed under intense pressure over millions of years."
@@ -3873,7 +3883,11 @@
 	quest.5FE4FD410171ABFD.quest_desc: [
 		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
-		"Each one produces four times the power as compared to its smaller counterpart."
+		"Each one produces four times the power as its smaller counterpart."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
@@ -4374,6 +4388,8 @@
 	]
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
+		""
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""

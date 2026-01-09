@@ -2,7 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:modern_industrialization/settling_tank/';
 
     const recipes = [
-        ,
         {
             fluid_outputs: [
                 { fluid: 'minecraft:water', amount: 1000 },

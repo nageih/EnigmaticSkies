@@ -143,7 +143,7 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -530,7 +530,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 5.5d
 		}
 		{
@@ -544,6 +544,17 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0C0A7017CEF34F6C"]
+			id: "58A3F58B7F1C580B"
+			tasks: [{
+				id: "784F7F6FB2028EF4"
+				item: { count: 1, id: "mi_tweaks:large_settling_tank" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
 		}
 	]
 }
