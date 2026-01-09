@@ -573,7 +573,7 @@ ServerEvents.recipes((event) => {
             tier: 'lv',
             casing: 'modern_industrialization:bronze_machine_casing',
             hull: 'modern_industrialization:bronze_machine_casing',
-            magnet: 'modern_industrialization:steel_rod_magnetic'
+            magnet: 'modern_industrialization:iron_rod_magnetic'
         },
         {
             material: 'conductive',
@@ -581,7 +581,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:steel_machine_casing',
             hull: 'modern_industrialization:advanced_machine_hull',
             covering: `#c:plates/andesite_alloy`,
-            magnet: 'modern_industrialization:steel_rod_magnetic'
+            magnet: 'modern_industrialization:iron_rod_magnetic'
         },
         {
             material: 'energetic',
@@ -678,16 +678,16 @@ ServerEvents.recipes((event) => {
                         A: 'pneumaticcraft:heat_sink',
                         B: `modern_industrialization:${component.material}_coil`,
                         C: component.casing,
-                        D: `modern_industrialization:${next_component.material}_cable`
+                        D: `modern_industrialization:${next_component.material}_coil`
                     },
                     id: `${id_prefix}${component.tier}_${next_component.tier}_transformer`
                 },
                 {
                     output: `modern_industrialization:${next_component.tier}_${component.tier}_transformer`,
-                    pattern: [' A ', 'BCD', ' A '],
+                    pattern: [' A ', 'DCB', ' A '],
                     key: {
                         A: 'pneumaticcraft:heat_sink',
-                        B: `modern_industrialization:${component.material}_cable`,
+                        B: `modern_industrialization:${component.material}_coil`,
                         C: component.casing,
                         D: `modern_industrialization:${next_component.material}_coil`
                     },

@@ -79,5 +79,7 @@
 
     "advancements.modern_industrialization.plasma_turbine.description": "Craft a Plasma Turbine to transform Luminiferous Aether into energy",
     "block.modern_industrialization.helium_plasma": "Luminiferous Aether",
-    "item.modern_industrialization.helium_plasma_bucket": "Luminiferous Aether Bucket"
+    "item.modern_industrialization.helium_plasma_bucket": "Luminiferous Aether Bucket",
+
+    "item.modern_industrialization.iron_rod_magnetic": "Magnetic Iron Rod"
 }

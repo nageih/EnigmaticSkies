@@ -109,6 +109,8 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
 
+        { output: `rep_ae2_bridge:rep_ae2_bridge` },
+
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
         // { id: /apotheosis:salvaging\/other/ },
@@ -558,6 +560,7 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:packer' },
         { type: 'modern_industrialization:pressurizer' },
         { type: 'modern_industrialization:fusion_reactor' },
+        { type: 'modern_industrialization:implosion_compressor' },
         {
             type: 'modern_industrialization:mixer',
             output: /(kanthal|soldering_alloy|stainless_steel|superconductor|cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/

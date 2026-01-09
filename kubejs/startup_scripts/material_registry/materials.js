@@ -18,6 +18,10 @@ MIMaterialEvents.modifyMaterial('copper', (event) => {
     event.builder.addParts('coil');
 });
 
+MIMaterialEvents.modifyMaterial('iron', (event) => {
+    event.builder.addParts('rod_magnetic');
+});
+
 MIMaterialEvents.modifyMaterial('iridium', (event) => {
     event.builder.addParts('large_plate');
 });
