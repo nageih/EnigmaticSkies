@@ -70,12 +70,17 @@ ServerEvents.recipes((event) => {
             xp: 0.1,
             duration: 10,
             id: `${id_prefix}smelt_copper`
+        },
+        {
+            output: AlmostUnified.getTagTargetItem(`c:rods/iron`).getId(),
+            input: 'modern_industrialization:iron_rod_magnetic',
+            xp: 0.0,
+            duration: 10,
+            id: `${id_prefix}demagnetize_iron_rod`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.smelting(recipe.output, recipe.input, recipe.xp, recipe.duration * 20).id(recipe.id);
-
-        
     });
 });

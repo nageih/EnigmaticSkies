@@ -651,6 +651,13 @@
 		""
 		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
 	]
+	quest.1275C61F2390D761.quest_desc: [
+		"The AE2-Replication Bridge allows you to interface your Replication network with your AE2 network. AE2 will then be able to request anything from your Replication network for auto-crafting."
+		""
+		"Note that AE2 must be taught how to create each Matter Type. This can be done by placing Pattern Providers against Disintegrators and setting up patterns for each matter type. "
+		""
+		"It works best if you create one pattern per matter type."
+	]
 	quest.128449F277949E31.quest_desc: [
 		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
 		""
@@ -1422,9 +1429,9 @@
 	]
 	quest.22344008D43D4710.title: "Chef's Aid"
 	quest.223BE2F1F8A5C87C.quest_desc: [
-		"The Replication Terminal is used to request crafts from patterns stored on Memory Chips. "
+		"The &7Replication Terminal&r is used to request crafts from patterns stored on &7Memory Chips&r. "
 		""
-		"It also gives you an overview of the total amount of each Matter stored on the network and allows you to manage any ongoing requests. "
+		"It also gives you an overview of the total amount of each &7Matter&r stored on the network and allows you to manage any ongoing requests. "
 	]
 	quest.2285070A43A12190.quest_desc: [
 		"With a Scroll inserted into your Spell Book, you’re nearly ready to begin casting. You'll also want to equip your Spell Book in the corresponding Curios slot. "

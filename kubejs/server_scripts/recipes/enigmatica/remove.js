@@ -109,6 +109,8 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
 
+        { output: `rep_ae2_bridge:rep_ae2_bridge` },
+
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
         // { id: /apotheosis:salvaging\/other/ },

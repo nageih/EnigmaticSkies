@@ -573,7 +573,7 @@ ServerEvents.recipes((event) => {
             tier: 'lv',
             casing: 'modern_industrialization:bronze_machine_casing',
             hull: 'modern_industrialization:bronze_machine_casing',
-            magnet: 'modern_industrialization:steel_rod_magnetic'
+            magnet: 'modern_industrialization:iron_rod_magnetic'
         },
         {
             material: 'conductive',
@@ -581,7 +581,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:steel_machine_casing',
             hull: 'modern_industrialization:advanced_machine_hull',
             covering: `#c:plates/andesite_alloy`,
-            magnet: 'modern_industrialization:steel_rod_magnetic'
+            magnet: 'modern_industrialization:iron_rod_magnetic'
         },
         {
             material: 'energetic',
