@@ -411,7 +411,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:atomic_reconstructor', count: 1 },
-            reagent: { item: 'modern_industrialization:steel_machine_casing' },
+            reagent: { item: 'modern_industrialization:bronze_machine_casing' },
             pedestalItems: [
                 { item: 'ars_elemental:manipulation_turret' },
                 { item: 'actuallyadditions:lens' },

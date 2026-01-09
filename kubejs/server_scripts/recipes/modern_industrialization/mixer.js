@@ -210,13 +210,13 @@ ServerEvents.recipes((event) => {
     });
 
     const jdt_materials = [
-        { input: 'c:ingots/iron', output: 'justdirethings:ferricore_ingot', tier: 1 },
-        { input: 'c:ingots/gold', output: 'justdirethings:blazegold_ingot', tier: 2 },
-        { input: 'c:gems/blazing_quartz', output: 'justdirethings:coal_t2', tier: 2 },
-        { input: 'c:gems/diamond', output: 'justdirethings:celestigem', tier: 3 },
-        { input: 'c:gems/blaze_ember', output: 'justdirethings:coal_t3', tier: 3 },
-        { input: 'c:ingots/netherite', output: 'justdirethings:eclipsealloy_ingot', tier: 4 },
-        { input: 'c:gems/voidflame', output: 'justdirethings:coal_t4', tier: 4 }
+        { input: 'c:ingots/iron', output: 'justdirethings:ferricore_ingot', tier: 1, eu: 2 },
+        { input: 'c:ingots/gold', output: 'justdirethings:blazegold_ingot', tier: 2, eu: 2 },
+        { input: 'c:gems/blazing_quartz', output: 'justdirethings:coal_t2', tier: 2, eu: 2 },
+        { input: 'c:gems/diamond', output: 'justdirethings:celestigem', tier: 3, eu: 8 },
+        { input: 'c:gems/blaze_ember', output: 'justdirethings:coal_t3', tier: 3, eu: 8 },
+        { input: 'c:ingots/netherite', output: 'justdirethings:eclipsealloy_ingot', tier: 4, eu: 32 },
+        { input: 'c:gems/voidflame', output: 'justdirethings:coal_t4', tier: 4, eu: 32 }
     ];
 
     jdt_materials.forEach((material) => {
@@ -231,15 +231,15 @@ ServerEvents.recipes((event) => {
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
             duration: 10,
-            eu: Math.pow(2, material.tier),
+            eu: material.eu,
             id: `${id_prefix}${material.output.split(':')[1]}`
         });
     });
 
     const jdt_fuels = [
-        { input: 'c:gems/blaze_ember', additive: 'actuallyadditions:refined_canola_oil', tier: 2 },
-        { input: 'c:gems/voidflame', additive: 'actuallyadditions:crystallized_oil', tier: 3 },
-        { input: 'c:gems/eclipse_ember', additive: 'actuallyadditions:empowered_oil', tier: 4 }
+        { input: 'c:gems/blaze_ember', additive: 'actuallyadditions:refined_canola_oil', tier: 2, eu: 2 },
+        { input: 'c:gems/voidflame', additive: 'actuallyadditions:crystallized_oil', tier: 3, eu: 8 },
+        { input: 'c:gems/eclipse_ember', additive: 'actuallyadditions:empowered_oil', tier: 4, eu: 32 }
     ];
 
     jdt_fuels.forEach((material) => {
@@ -261,7 +261,7 @@ ServerEvents.recipes((event) => {
                 { fluid: material.additive, amount: 1000 }
             ],
             duration: 10,
-            eu: Math.pow(2, material.tier),
+            eu: material.eu,
             id: `${id_prefix}refined_t${material.tier}_fluid_source`
         });
     });
@@ -287,7 +287,7 @@ ServerEvents.recipes((event) => {
                 { tag: `justdirethings:goo_revive_tier_${material.tier}`, amount: 1, probability: 0.1 }
             ],
             duration: material.tier * 5,
-            eu: material.tier,
+            eu: 2,
             id: `${id_prefix}${getID(material.output)}`
         });
     });

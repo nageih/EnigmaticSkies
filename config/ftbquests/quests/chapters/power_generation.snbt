@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: "1C7CD605A8DD7732"
+	icon: {
+		id: "minecraft:burn_pottery_sherd"
+	}
+	id: "0FF1E0FF9CAD1914"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60239B38B7288779"]
+			icon: {
+				id: "modern_industrialization:lv_steam_turbine"
+			}
+			id: "3BCD9E36D48B205A"
+			tasks: [{
+				id: "128597849E5D0BC1"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47AFEF3DCB2990FB"]
+			icon: {
+				id: "modern_industrialization:large_steam_boiler"
+			}
+			id: "60239B38B7288779"
+			min_width: 300
+			tasks: [
+				{
+					id: "309F63672661FCFE"
+					item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "750E82A1ACB1DED1"
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "27D30ACAFD32C120"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "26971F8428A8F97F"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71A479E92219AB03"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4F21DF4EFC469AAC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6806970967942788"]
+			icon: {
+				id: "actuallyadditions:fermenting_barrel"
+			}
+			id: "47AFEF3DCB2990FB"
+			tasks: [
+				{
+					id: "55C6D9B53E5ACF8D"
+					item: { count: 1, id: "actuallyadditions:refined_canola_oil_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46F9E188B94D64D5"
+					item: { count: 1, id: "modern_industrialization:bronze_centrifuge" }
+					type: "item"
+				}
+				{
+					id: "406FDC7C2C5A0002"
+					item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60239B38B7288779"]
+			id: "7B4E085679031F8B"
+			rewards: [{
+				id: "6B6EA478153E48C6"
+				item: {
+					count: 1
+					id: "create:stockpile_switch"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "65D163051F91779C"
+				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"59DC95275C1091C6"
+				"1BDCA4CF5ED739BA"
+			]
+			icon: {
+				id: "justdirethings:refined_t3_fluid_bucket"
+			}
+			id: "48C487AF892A80B2"
+			tasks: [
+				{
+					id: "18A4CA604C79A983"
+					item: { count: 1, id: "justdirethings:refined_t3_fluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10372B58E810A58B"
+					item: { count: 1, id: "justdirethings:coal_t3" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"48C487AF892A80B2"
+				"537EDDC45D94BDE4"
+			]
+			icon: {
+				id: "justdirethings:refined_t4_fluid_bucket"
+			}
+			id: "1B0718B6BDA972F0"
+			tasks: [
+				{
+					id: "1017047F516D849D"
+					item: { count: 1, id: "justdirethings:refined_t4_fluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "156A89CBD4C31B1D"
+					item: { count: 1, id: "justdirethings:coal_t4" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["739A201F595E3EFE"]
+			icon: {
+				id: "enigmatica:vapours_of_nyx_bucket"
+			}
+			id: "36A18D327A03810B"
+			tasks: [
+				{
+					id: "0DA93B91F138387A"
+					item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "422830C3718262F1"
+					item: { count: 1, id: "malum:umbral_spirit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2B759D4770C13739"
+				"60239B38B7288779"
+			]
+			id: "5FE4FD410171ABFD"
+			min_width: 300
+			tasks: [{
+				id: "2680E5AC31798C7C"
+				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FE4FD410171ABFD"]
+			id: "7F43653C4B9A96CE"
+			tasks: [{
+				id: "4AC1218F30C1A46D"
+				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"47AFEF3DCB2990FB"
+				"5AC80FA3683D9E45"
+			]
+			icon: {
+				id: "justdirethings:refined_t2_fluid_bucket"
+			}
+			id: "59DC95275C1091C6"
+			tasks: [
+				{
+					id: "05900E7DD4281412"
+					item: { count: 1, id: "justdirethings:refined_t2_fluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7384028C3B935AD7"
+					item: { count: 1, id: "justdirethings:coal_t2" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"398AE848C969FCEF"
+				"5FE4FD410171ABFD"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "modern_industrialization:heat_exchanger"
+			}
+			id: "739A201F595E3EFE"
+			min_width: 300
+			tasks: [
+				{
+					id: "0E5708C1045AB0B5"
+					item: { count: 1, id: "modern_industrialization:high_pressure_steam_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BC2F5AF84D45BDD"
+					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["739A201F595E3EFE"]
+			icon: {
+				id: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
+			}
+			id: "6EB5108D30F5A94A"
+			min_width: 300
+			tasks: [
+				{
+					id: "561998A954F6820E"
+					item: { count: 1, id: "modern_industrialization:high_pressure_water_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3214202487830AB0"
+					item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					id: "55298A26BD47F94D"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "492CDE424F2E73A8"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "26E7AC6E9EE7B30D"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EB5108D30F5A94A"]
+			id: "1CBC50FA40BFB54A"
+			min_width: 300
+			tasks: [{
+				id: "6C1BEADC0F34C2DE"
+				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36A18D327A03810B"]
+			icon: {
+				id: "modern_industrialization:fusion_reactor"
+			}
+			id: "154F980273016EAF"
+			min_width: 300
+			tasks: [
+				{
+					id: "09ADA821CAE930FF"
+					item: { count: 1, id: "modern_industrialization:fusion_reactor" }
+					type: "item"
+				}
+				{
+					id: "22B946B9208FD163"
+					item: { count: 1, id: "modern_industrialization:fusion_chamber" }
+					type: "item"
+				}
+				{
+					id: "5A3F0EFD1B991298"
+					item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["154F980273016EAF"]
+			id: "1B276AC6C7D95526"
+			tasks: [{
+				id: "709841C0A3752FFD"
+				item: { count: 1, id: "modern_industrialization:plasma_turbine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+}

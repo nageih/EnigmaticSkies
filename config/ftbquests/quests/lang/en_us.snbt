@@ -4,6 +4,7 @@
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.0FF1E0FF9CAD1914.title: "Energy"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.17B9F323B083C6C2.title: "It Takes a Village"
@@ -870,6 +871,11 @@
 		"This device uses an impressive amount of Blood to do its job, and it must be supplied through 8 tanks placed in a ring around the device."
 		""
 		"Once you've placed the Accumulator, look for Smoke Particles which highlight the expected placement of Dark Tanks."
+	]
+	quest.154F980273016EAF.quest_desc: [
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
@@ -3665,6 +3671,11 @@
 		"&a    auto-collect these drops, keeping "
 		"&a    your inventory clean!"
 	]
+	quest.58A3F58B7F1C580B.quest_desc: [
+		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
+		""
+		"Consider upgrading to this as your Water recycling needs grow."
+	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
 		""
@@ -3692,6 +3703,11 @@
 		"The Pyromantic Brazier goes directly under the Incubator."
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
+	]
+	quest.59DC95275C1091C6.quest_desc: [
+		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort as your power needs increase. "
+		""
+		"Spend some time automating production now and it should last you a good long while. "
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
 		"&7Oil&r is normally formed under intense pressure over millions of years."
@@ -3867,7 +3883,11 @@
 	quest.5FE4FD410171ABFD.quest_desc: [
 		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
-		"Each one produces four times the power as compared to its smaller counterpart."
+		"Each one produces four times the power as its smaller counterpart."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
@@ -4368,6 +4388,8 @@
 	]
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
+		""
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -5315,7 +5337,7 @@
 		""
 		"Simply point the &7Threshold Switch&r at a buffer tank and use the signal from that to enable and disable the boiler. "
 		""
-		"Keep in mind tha the higher your power consumption, the larger the buffer you'll need to make this tactic viable. Otherwise the time spent warming back up could very well cost you more fuel compared to simply leaving the Boiler running. "
+		"Keep in mind that the higher your power consumption, the larger the buffer you'll need to make this tactic viable. Otherwise the time spent warming back up could very well cost you more fuel compared to simply leaving the Boiler running. "
 	]
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
@@ -5459,6 +5481,7 @@
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0A6B7C2DD1294121.title: "Crusher"
 	task.0A88D092C4C370AC.title: "Observe: Possessed Drowned"
+	task.0C02B6FCCE5FAF0A.title: "Power Generation"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
@@ -5471,6 +5494,7 @@
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.11787E00D496F55D.title: "Fuel Progression"
 	task.1291CAC439E06D6C.title: "Rune"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
