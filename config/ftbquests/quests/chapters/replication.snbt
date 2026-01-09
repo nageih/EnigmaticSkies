@@ -11,22 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4FDF4919248BFC3A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D14610EFE8B0C44"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0A6EACA2F3A79738"
-				item: { count: 1, id: "replication:replica_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["6F1A7E1B49FCC4C0"]
 			id: "307FEC610F0B542F"
 			rewards: [{
@@ -59,12 +43,12 @@
 			}]
 			tasks: [
 				{
-					id: "09946EECA2001D7D"
+					id: "0E96A2CE061F51F6"
 					item: { count: 1, id: "replication:identification_chamber" }
 					type: "item"
 				}
 				{
-					id: "49D8FBBB74F64CCF"
+					id: "2A5D484AD0920CE6"
 					item: { count: 1, id: "replication:chip_storage" }
 					type: "item"
 				}
@@ -73,8 +57,12 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4FDF4919248BFC3A"]
+			dependencies: ["577337FFD6AD9C83"]
+			icon: {
+				id: "replication:disintegrator"
+			}
 			id: "6F1A7E1B49FCC4C0"
+			min_width: 300
 			rewards: [
 				{
 					id: "4BA7C9A737BCB773"
@@ -94,11 +82,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "3A127950391395CF"
-				item: { count: 1, id: "replication:disintegrator" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A127950391395CF"
+					item: { count: 1, id: "replication:disintegrator" }
+					type: "item"
+				}
+				{
+					id: "31508ACE862B4A9A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tokens)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -2.5d
 		}

@@ -32,7 +32,7 @@
 				item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: -1.0d
 		}
 		{
@@ -43,7 +43,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 19.0d
 			y: 6.0d
 		}
 		{
@@ -64,7 +64,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 15.0d
 			y: 0.5d
 		}
 		{
@@ -92,7 +92,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -120,7 +120,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 2.0d
 		}
 		{
@@ -148,7 +148,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 17.5d
 			y: 2.0d
 		}
 		{
@@ -162,7 +162,7 @@
 				id: "79CE5559C7D6E3EB"
 				type: "biome"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 1.0d
 		}
 		{
@@ -230,7 +230,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -253,7 +253,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 17.5d
 			y: 10.5d
 		}
 		{
@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 10.5d
 		}
 		{
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 15.5d
 			y: 10.5d
 		}
 		{
@@ -333,7 +333,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 11.5d
 		}
 		{
@@ -365,7 +365,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 14.5d
 			y: 8.5d
 		}
 		{
@@ -393,7 +393,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 15.5d
 			y: 8.5d
 		}
 		{
@@ -421,7 +421,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 18.5d
 			y: 8.5d
 		}
 		{
@@ -449,7 +449,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 17.5d
 			y: 8.5d
 		}
 		{
@@ -477,7 +477,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 8.5d
 		}
 		{
@@ -488,7 +488,7 @@
 				item: { count: 1, id: "geneticsresequenced:scraper" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: 7.5d
 		}
 		{
@@ -499,7 +499,7 @@
 				item: { count: 1, id: "malum:spirit_altar" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 18.5d
 			y: 1.5d
 		}
 		{
@@ -510,7 +510,7 @@
 				item: { count: 1, id: "justdirethings:clickert2" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 19.0d
 			y: 7.0d
 		}
 		{
@@ -535,7 +535,7 @@
 				id: "2A7052B5A35B4A22"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 13.5d
 			y: 8.0d
 		}
 		{
@@ -557,7 +557,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 17.5d
 			y: -0.5d
 		}
 		{
@@ -568,7 +568,7 @@
 				item: { count: 1, id: "naturesaura:token_euphoria" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 15.0d
 			y: 12.5d
 		}
 		{
@@ -579,7 +579,7 @@
 				item: { count: 1, id: "naturesaura:token_terror" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 16.0d
 			y: 12.5d
 		}
 		{
@@ -590,7 +590,7 @@
 				item: { count: 1, id: "naturesaura:token_rage" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 17.0d
 			y: 12.5d
 		}
 		{
@@ -601,7 +601,7 @@
 				item: { count: 1, id: "naturesaura:token_grief" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 18.0d
 			y: 12.5d
 		}
 		{
@@ -612,7 +612,7 @@
 				item: { count: 1, id: "ars_nouveau:bastion_pod" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 15.5d
 			y: -0.5d
 		}
 		{
@@ -628,7 +628,7 @@
 				item: { count: 1, id: "malum:fused_consciousness" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: 13.5d
 		}
 		{
@@ -647,7 +647,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 18.0d
 			y: 5.5d
 		}
 		{
@@ -658,7 +658,7 @@
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 18.5d
 			y: 11.0d
 		}
 		{
@@ -680,7 +680,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 19.0d
 			y: 10.0d
 		}
 		{
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 19.5d
 			y: 8.0d
 		}
 		{
@@ -718,7 +718,7 @@
 				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: 6.5d
 		}
 		{
@@ -747,7 +747,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 9.5d
 		}
 		{
@@ -758,7 +758,7 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 20.5d
 			y: 5.5d
 		}
 		{
@@ -789,7 +789,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 19.5d
 			y: 4.0d
 		}
 		{
@@ -803,7 +803,7 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 16.5d
 			y: 5.0d
 		}
 		{
@@ -814,7 +814,7 @@
 				item: { count: 1, id: "malum:imitation_flesh" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 18.5d
 			y: 2.5d
 		}
 		{
@@ -828,7 +828,7 @@
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 18.0d
 			y: 3.5d
 		}
 		{
@@ -856,7 +856,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 20.5d
 			y: 4.5d
 		}
 		{
@@ -867,7 +867,7 @@
 				item: { count: 1, id: "malum:runewood_sapling" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 18.0d
 			y: 0.5d
 		}
 		{
@@ -890,7 +890,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 16.5d
 			y: 4.0d
 		}
 		{
@@ -912,7 +912,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 14.0d
 			y: 10.0d
 		}
 		{
@@ -923,7 +923,7 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 14.5d
 			y: 11.0d
 		}
 		{
@@ -952,7 +952,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 14.0d
 			y: 12.0d
 		}
 		{
@@ -963,7 +963,7 @@
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 15.0d
 			y: 5.5d
 		}
 		{
@@ -975,7 +975,7 @@
 				item: { count: 1, id: "oritech:simple_augment_station" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -987,7 +987,7 @@
 				item: { count: 1, id: "oritech:advanced_augment_station" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 14.5d
 			y: 6.5d
 		}
 		{
@@ -999,7 +999,7 @@
 				item: { count: 1, id: "oritech:arcane_augment_station" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 13.5d
 			y: 6.5d
 		}
 	]

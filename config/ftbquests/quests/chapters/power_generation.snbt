@@ -114,8 +114,8 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -168,25 +168,20 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["739A201F595E3EFE"]
+			dependencies: [
+				"739A201F595E3EFE"
+				"6EB5108D30F5A94A"
+			]
 			icon: {
-				id: "enigmatica:vapours_of_nyx_bucket"
+				id: "malum:umbral_spirit"
 			}
 			id: "36A18D327A03810B"
-			tasks: [
-				{
-					id: "0DA93B91F138387A"
-					item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "422830C3718262F1"
-					item: { count: 1, id: "malum:umbral_spirit" }
-					type: "item"
-				}
-			]
-			x: 1.5d
+			tasks: [{
+				id: "422830C3718262F1"
+				item: { count: 1, id: "malum:umbral_spirit" }
+				type: "item"
+			}]
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -207,6 +202,14 @@
 		{
 			dependencies: ["5FE4FD410171ABFD"]
 			id: "7F43653C4B9A96CE"
+			rewards: [{
+				id: "0951501A9B16EE32"
+				item: {
+					count: 1
+					id: "modern_industrialization:mv_lv_transformer"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AC1218F30C1A46D"
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
@@ -302,7 +305,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -318,7 +321,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["36A18D327A03810B"]
+			dependencies: ["21B7BDFCF5144431"]
 			icon: {
 				id: "modern_industrialization:fusion_reactor"
 			}
@@ -340,20 +343,38 @@
 					item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
 					type: "item"
 				}
+				{
+					id: "34E11B6056A135F1"
+					item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
+					type: "item"
+				}
 			]
 			x: 2.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["154F980273016EAF"]
 			id: "1B276AC6C7D95526"
+			min_width: 300
 			tasks: [{
 				id: "709841C0A3752FFD"
 				item: { count: 1, id: "modern_industrialization:plasma_turbine" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36A18D327A03810B"]
+			id: "21B7BDFCF5144431"
+			min_width: 250
+			tasks: [{
+				id: "678D630492F602D7"
+				item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 }

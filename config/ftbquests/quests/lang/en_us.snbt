@@ -873,6 +873,8 @@
 		"Once you've placed the Accumulator, look for Smoke Particles which highlight the expected placement of Dark Tanks."
 	]
 	quest.154F980273016EAF.quest_desc: [
+		"With but a spark, the &7Vapours&r ignite into the &7Luminiferous Aether&r. "
+		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
 		"&a    valid locations for them."
@@ -1095,6 +1097,14 @@
 		"&a🛈 Tip: Powders may be removed  "
 		"&a    by punching them."
 	]
+	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
+	quest.1B276AC6C7D95526.quest_desc: [
+		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.1BAEB780F38B1C56.quest_desc: [
 		"Connect an Access Point to your network, then place a Wireless Terminal inside it to link them and gain wireless access to the entire network."
 		""
@@ -1104,6 +1114,18 @@
 		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
 		"Unlike a &7Simple Clicker&r, it acts in a large area. "
+	]
+	quest.1C4DB05778703E9B.quest_desc: [
+		"&7Wardens&r were built for protection. That was the original purpose, at least."
+		""
+		"Somewhere along the way, they decided the best way to protect was to consume the souls of those they watched over. No more harm can come, after all, if there’s no body to be harmed."
+		""
+		"By harvesting the souls from these creatures, we can use them to make many of our machines operate quicker. "
+		"&n                                                  &r"
+		""
+		"Many machines have built-in ways to speed themselves up; addons, upgrades, and the like. Sometimes, that's simply not enough, however. And in other cases, there's simply no built-in way to speed up the device."
+		""
+		"This system can be a great way to speed up things like the &7Cooking Pot&r and the &7Natural Altar&r, among others."
 	]
 	quest.1C83B47F599B117A.quest_desc: [
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
@@ -1361,6 +1383,13 @@
 		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.21B7BDFCF5144431.quest_desc: [
+		"The very mists of creation, this primordial substance existed before anything. "
+		""
+		"Before even the concept of “thing”. "
+		""
+		"Raw creation is at your fingertips."
+	]
 	quest.21C1CAA38D040AC8.quest_desc: [
 		"Functional Storage is an expandable storage solution capable of holding all of your items and liquids. "
 		""
@@ -2067,6 +2096,16 @@
 		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
 		""
 		"Experiment with them to see what you like best!"
+	]
+	quest.36A18D327A03810B.quest_desc: [
+		"The Weeping Well has been generous with you, you have only one last thing to give it; yourself."
+		""
+		"Trust it. Jump in. "
+		"&n                                                  &r"
+		""
+		"By jumping into the Well, you will receive an Umbral Spirit. "
+		""
+		"If you've lost yours, or simply need more, you can recreate it with some effort in the Particle Accelerator. "
 	]
 	quest.36A482587B5E89F7.quest_desc: [
 		"Infused with brilliant light, these blocks are favored by &7Alakarkinos&r for their beauty. They’ll produce even more &7Dorodangos&r from each block! "
@@ -3050,6 +3089,11 @@
 		"Runes themselves are crafted on the Runic Workbench. This is done easily enough by clicking the central recipe item onto the Workbench, followed by the required Spirits."
 	]
 	quest.48B6E6CDBFFD77A7.title: "Runeworking"
+	quest.48C487AF892A80B2.quest_desc: [
+		"Once you’re able to upgrade your Goo to &7VoidShimmer Goo&r, you’ll want to start refining your fuel into &7Voidflame Fuel&r."
+		""
+		"This will stretch your input materials, thus increasing efficiency and allowing your slower machines to keep up with demands. "
+	]
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -3382,12 +3426,6 @@
 		"• &7Productivity&r – Chance to reduce blood cost."
 	]
 	quest.4F480CF26AB0F3CD.title: "Machine Upgrades"
-	quest.4FDF4919248BFC3A.quest_desc: [
-		"Welcome to Replication, a sci-fi inspired tech mod that breaks items down into their component parts in order to reconfigure them into more useful materials. "
-		""
-		"The following quests will help you understand how all the pieces work together."
-	]
-	quest.4FDF4919248BFC3A.title: "Replication"
 	quest.4FEA49AD05720ED7.quest_desc: [
 		"Ah, the simple joys of playing with chalk outside. "
 		""
@@ -3613,6 +3651,7 @@
 		""
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
+	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
 	quest.577337FFD6AD9C83.title: "Replication"
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
@@ -3705,9 +3744,9 @@
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
 	quest.59DC95275C1091C6.quest_desc: [
-		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort as your power needs increase. "
+		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort of producing it. "
 		""
-		"Spend some time automating production now and it should last you a good long while. "
+		"Spend some time automating production now and it should keep your machines powered for a while to come."
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
 		"&7Oil&r is normally formed under intense pressure over millions of years."
@@ -3881,9 +3920,11 @@
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
 	]
 	quest.5FE4FD410171ABFD.quest_desc: [
-		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
+		"As power needs increase, it is generally better to upgrade your &7Boilers&r instead of building more of the same. "
 		""
-		"Each one produces four times the power as its smaller counterpart."
+		"After all, a single &7Advanced Boiler&r is worth four standard &7Boilers&r."
+		"&n                                                                           &r"
+		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -4742,6 +4783,7 @@
 		"&a    to see the structure. Similarly, hold a Hatch to see "
 		"&a    valid locations for them."
 	]
+	quest.6EB5108D30F5A94A.title: "High Pressure Advanced Large Steam Boiler"
 	quest.6EB6E8DEEBB32911.quest_desc: [
 		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."
 		""
@@ -4757,21 +4799,16 @@
 	quest.6F1A7E1B49FCC4C0.quest_desc: [
 		"Replication begins by breaking down material into their base components. "
 		""
-		"There are eight of these in total and materials may consist of more than one. You'll likely wish to start by looking for materials that are easy to farm to convert into the matter types you wish. "
+		"There are eight of these Matter types in total and materials may consist of more than one. You'll be able to obtain them all by crafting Tokens."
+		"&n                                                                          &r"
 		""
-		"For instance, a mob farm can be an excellent renewable source for Living matter, while a crop farm might supply you with all of the Organic matter you'll need. "
-		"&n                                                  &r"
+		"Place the &7Disintegrator&r then connect the provided &7Matter Pipes&r and &7Matter Tank&r to it. "
 		""
-		"Place the Disintegrator, then connect the provided Matter Pipes and Matter Tank to it. "
+		"&7Matter Tanks&r only connect to &7Pipes&r from the top and bottom faces. &7Tanks&r can also be stacked on top of each other and will still connect through to the network. "
 		""
-		"Matter Tanks only connect to Pipes from the top and bottom faces. Tanks can also be stacked on top of each other and will still connect through to the network. "
+		"Replication also uses a fair amount of power, which can be provided directly to machines or transmitted through Matter Pipes to any machines on the network."
 		""
-		"Replication also uses a fair amount of power and Matter Pipes may be used to transmit that power when connected to a source of FE. "
-		""
-		"Once everything is connected, toss some items in the Disintegrator. The matter will automatically flow out from this machine and be stored in the Matter Tank. From here, it's available to other machines for use. "
-		""
-		"&a🛈 Tip: Hold Shift over different items "
-		"&a    to see what matter they’re made of. "
+		"Once everything is connected, toss some items in the &7Disintegrator&r. The matter will automatically flow out from this machine and be stored in the &7Matter Tank&r. From here, it's available to other machines for use. "
 	]
 	quest.6F354A767B138CA3.quest_desc: [
 		"Want to make a nice stable for your Chocobos? Be sure to cover the floor in Straw and place a Cauldron full of Water nearby. "
@@ -4960,6 +4997,7 @@
 		"&a    to see the structure. Similarly, hold a Hatch to see "
 		"&a    valid locations for them."
 	]
+	quest.739A201F595E3EFE.title: "Heat Exchanger"
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""
@@ -5415,6 +5453,11 @@
 		""
 		"A &7Source Berry Roll&r ought to suffice for now."
 	]
+	quest.7F43653C4B9A96CE.quest_desc: [
+		"Made from sturdier materials capable of greater rotational speeds, the &7MV Steam Turbine&r is a logical replacement for any &7LV Steam Turbines&r you’ve been using."
+		""
+		"It only outputs MV power, so you’ll either need to replace wiring or bridge the two networks with a &7Transformer&r."
+	]
 	quest.7F445C22C528AC1F.quest_desc: [
 		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
 		""
@@ -5544,6 +5587,7 @@
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.2F65A10B08073D6D.title: "Spirit Crucible Augments"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
+	task.31508ACE862B4A9A.title: "Tokens"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"
 	task.328C56BA23A70B8F.title: "Power"

@@ -420,7 +420,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'modern_industrialization:iridium_plate', count: 1 },
-            input: { tag: 'c:ingots/iridium', count: 1 },
+            input: { item: 'modern_industrialization:mixed_ingot_iridium', count: 1 },
             extraInputs: [{ item: 'malum:auric_embers', count: 4 }],
             spirits: [
                 { type: 'malum:arcane', count: 16 },

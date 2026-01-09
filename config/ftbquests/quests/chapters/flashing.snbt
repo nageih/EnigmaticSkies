@@ -194,7 +194,7 @@
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{

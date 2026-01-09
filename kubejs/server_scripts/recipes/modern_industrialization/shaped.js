@@ -678,16 +678,16 @@ ServerEvents.recipes((event) => {
                         A: 'pneumaticcraft:heat_sink',
                         B: `modern_industrialization:${component.material}_coil`,
                         C: component.casing,
-                        D: `modern_industrialization:${next_component.material}_cable`
+                        D: `modern_industrialization:${next_component.material}_coil`
                     },
                     id: `${id_prefix}${component.tier}_${next_component.tier}_transformer`
                 },
                 {
                     output: `modern_industrialization:${next_component.tier}_${component.tier}_transformer`,
-                    pattern: [' A ', 'BCD', ' A '],
+                    pattern: [' A ', 'DCB', ' A '],
                     key: {
                         A: 'pneumaticcraft:heat_sink',
-                        B: `modern_industrialization:${component.material}_cable`,
+                        B: `modern_industrialization:${component.material}_coil`,
                         C: component.casing,
                         D: `modern_industrialization:${next_component.material}_coil`
                     },
