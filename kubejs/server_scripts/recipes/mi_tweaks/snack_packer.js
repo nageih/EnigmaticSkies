@@ -146,6 +146,43 @@ ServerEvents.recipes((event) => {
             ],
             duration: 1,
             id: `${id_prefix}glazed_and_confused`
+        },
+
+        {
+            item_outputs: [{ item: 'enigmatica:beef_bits', amount: 1 }],
+            item_inputs: [
+                { item: 'minecraft:paper', amount: 1 },
+                { item: 'minecraft:beef', amount: 8 }
+            ],
+            duration: 1,
+            id: `${id_prefix}beef_bits`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:pork_pieces', amount: 1 }],
+            item_inputs: [
+                { item: 'minecraft:paper', amount: 1 },
+                { item: 'minecraft:porkchop', amount: 8 }
+            ],
+            duration: 1,
+            id: `${id_prefix}pork_pieces`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:chicken_chunks', amount: 1 }],
+            item_inputs: [
+                { item: 'minecraft:paper', amount: 1 },
+                { item: 'minecraft:chicken', amount: 8 }
+            ],
+            duration: 1,
+            id: `${id_prefix}chicken_chunks`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:mutton_morsels', amount: 1 }],
+            item_inputs: [
+                { item: 'minecraft:paper', amount: 1 },
+                { item: 'minecraft:mutton', amount: 8 }
+            ],
+            duration: 1,
+            id: `${id_prefix}mutton_morsels`
         }
     ];
 
@@ -155,7 +192,5 @@ ServerEvents.recipes((event) => {
         recipe.duration *= 20;
 
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

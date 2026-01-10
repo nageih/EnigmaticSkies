@@ -35,13 +35,6 @@ ServerEvents.recipes((event) => {
             xp: 0.1,
             duration: 5,
             id: `${id_prefix}source_berry_cookie`
-        },
-        {
-            output: 'farmersdelight:cooked_chicken_cuts',
-            input: 'enigmatica:raw_chicken_cuts',
-            xp: 0.35,
-            duration: 5,
-            id: `${id_prefix}cooked_chicken_cuts`
         }
     ];
 

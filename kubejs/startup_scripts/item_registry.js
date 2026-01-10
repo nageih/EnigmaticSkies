@@ -52,6 +52,26 @@ StartupEvents.registry('item', (event) => {
             .tag('enigmatica:deliveries');
     });
 
+    const meat_bags = [
+        { name: `Chicken Chunks`, color: '#f7f307' },
+        { name: `Beef Bits`, color: '#145ee6' },
+        { name: `Pork Pieces`, color: '#e70bb8' },
+        { name: `Mutton Morsels`, color: '#1cf339' }
+    ];
+
+    meat_bags.forEach((meat_bag) => {
+        let id = getID(meat_bag.name);
+        event
+            .create(`enigmatica:${id}`)
+            .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
+            .texture('layer1', `enigmatica:item/delivery_bags/label`)
+            .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
+            .color(1, '#c9c9c9')
+            .color(2, meat_bag.color)
+            .displayName(`§aMeatFresh: §7${meat_bag.name}`)
+            .tag('enigmatica:deliveries');
+    });
+
     const iou_slips = [
         { name: 'Flying Cow', layer: 'beef' },
         { name: 'Phyg', layer: 'porkchop' },
@@ -111,12 +131,6 @@ StartupEvents.registry('item', (event) => {
             effect: { id: 'minecraft:speed', duration: 60, amplifier: 0 },
             fastToEat: true,
             alwaysEdible: true
-        },
-        {
-            name: 'Raw Chicken Cuts',
-            layer: 'chicken_cuts',
-            nutrition: 0.5,
-            saturation: 0.5
         }
     ];
 

@@ -6,8 +6,7 @@
             "modern_industrialization:bronze_boiler",
             "modern_industrialization:steel_boiler",
             "extended_industrialization:bronze_solar_boiler",
-            "extended_industrialization:steel_solar_boiler",
-            "farmersdelight:chicken_cuts"
+            "extended_industrialization:steel_solar_boiler"
         ],
         "disabled": [
             "actuallyadditions:rice",
