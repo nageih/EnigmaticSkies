@@ -255,24 +255,24 @@ const villagerTrades = {
     // Butcher
     'minecraft:butcher': [
         {
-            result: { id: 'farmersdelight:minced_beef', count: 4 },
-            ingredients: [{ id: 'minecraft:beef', count: { min: 1, max: 1 } }],
+            result: { id: 'farmersdelight:minced_beef', count: 32 },
+            ingredients: [{ id: 'enigmatica:beef_bits', count: { min: 1, max: 1 } }],
             level: 1
         },
         {
-            result: { id: 'farmersdelight:bacon', count: 4 },
-            ingredients: [{ id: 'minecraft:porkchop', count: { min: 1, max: 1 } }],
+            result: { id: 'farmersdelight:bacon', count: 32 },
+            ingredients: [{ id: 'enigmatica:pork_pieces', count: { min: 1, max: 1 } }],
             level: 1
         },
 
         {
-            result: { id: 'enigmatica:raw_chicken_cuts', count: 4 },
-            ingredients: [{ id: 'minecraft:chicken', count: { min: 1, max: 1 } }],
+            result: { id: 'farmersdelight:chicken_cuts', count: 32 },
+            ingredients: [{ id: 'enigmatica:chicken_chunks', count: { min: 1, max: 1 } }],
             level: 2
         },
         {
-            result: { id: 'farmersdelight:mutton_chops', count: 4 },
-            ingredients: [{ id: 'minecraft:mutton', count: { min: 1, max: 1 } }],
+            result: { id: 'farmersdelight:mutton_chops', count: 32 },
+            ingredients: [{ id: 'enigmatica:mutton_morsels', count: { min: 1, max: 1 } }],
             level: 2
         },
 

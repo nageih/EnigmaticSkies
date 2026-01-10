@@ -332,13 +332,9 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:apple_pie' },
         { id: 'farmersdelight:chocolate_pie' },
         { id: 'farmersdelight:paper_from_tree_bark' },
-        { id: 'farmersdelight:cooked_chicken_cuts' },
-        { id: 'farmersdelight:cooked_chicken_cuts_from_smoking' },
-        { id: 'farmersdelight:cooked_chicken_cuts_from_campfire_cooking' },
         { id: 'farmersdelight:integration/create/mixing/pie_crust_from_mixing' },
         { id: /farmersdelight:cutting\/.*_(door|sign|trapdoor)/ },
         { id: 'farmersdelight:cutting/gravel' },
-        { id: 'farmersdelight:cutting/chicken' },
 
         // Framed Blocks
         { output: 'framedblocks:phantom_paste' },

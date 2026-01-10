@@ -41,15 +41,6 @@ ServerEvents.recipes((event) => {
             sound: { sound_id: 'minecraft:block.gravel.break' },
             tool: { tag: 'minecraft:shovels' },
             id: `${id_prefix}cardboard`
-        },
-        {
-            result: [
-                { item: { id: 'enigmatica:raw_chicken_cuts', count: 2 } },
-                { item: { id: 'minecraft:bone_meal', count: 1 } }
-            ],
-            ingredients: [{ item: 'minecraft:chicken' }],
-            tool: { tag: 'c:tools/knife' },
-            id: `${id_prefix}chicken_cuts`
         }
     ];
 
