@@ -68,7 +68,7 @@ StartupEvents.registry('item', (event) => {
             .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
             .color(1, '#c9c9c9')
             .color(2, meat_bag.color)
-            .displayName(`§aMeatFresh: §r${meat_bag.name}`)
+            .displayName(`§aMeatFresh: §7${meat_bag.name}`)
             .tag('enigmatica:deliveries');
     });
 
