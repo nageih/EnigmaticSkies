@@ -16,7 +16,9 @@ StartupEvents.registry('item', (event) => {
         'pelagite',
         'kerogen',
 
-        'magic_lamp'
+        'magic_lamp',
+
+        'elemental_matrix'
     ];
 
     simple_items.forEach((item) => {

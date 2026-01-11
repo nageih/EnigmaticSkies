@@ -751,6 +751,14 @@ const villagerTrades = {
             result: { id: 'ae2:mysterious_cube', count: 1 },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
             level: 5
+        },
+        {
+            result: {
+                id: 'replication:matter_blueprint[replication:blueprint={Item:{count:1,id:"enigmatica:elemental_matrix"},Progress:1.0d}]',
+                count: 1
+            },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 4, max: 8 } }],
+            level: 5
         }
     ],
     // PNC Charging Station

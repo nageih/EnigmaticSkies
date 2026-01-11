@@ -1002,5 +1002,30 @@
 			x: 13.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["577337FFD6AD9C83"]
+			id: "36BCEB3B27822AD1"
+			rewards: [{
+				id: "0DDA05F56F7B0FBC"
+				item: {
+					components: {
+						"titanium:augments": {
+							Processing: 2.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:processing_addon_tier_1"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0A5147D32925110F"
+				item: { count: 1, id: "enigmatica:elemental_matrix" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
 	]
 }

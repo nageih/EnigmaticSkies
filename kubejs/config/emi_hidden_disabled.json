@@ -240,6 +240,8 @@
             "oritech:small_uranium_pellet",
             "oritech:uranium_gem",
             "oritech:unstable_container",
+            "oritech:machine_yield_addon",
+            "oritech:machine_silk_touch_addon",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
             "pneumaticcraft:biodiesel_bucket",
@@ -265,7 +267,8 @@
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:engineering_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]",
-            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"modern_industrialization:quantum_circuit\"},Progress:1.0d}]"
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"modern_industrialization:quantum_circuit\"},Progress:1.0d}]",
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"enigmatica:elemental_matrix\"},Progress:1.0d}]"
         ]
     },
     "fluids": {
