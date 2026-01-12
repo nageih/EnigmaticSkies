@@ -209,6 +209,17 @@
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
+	quest.05F232C12FA99F92.quest_desc: [
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Electric Kiln&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -313,6 +324,11 @@
 		"&a🛈 Tip: Refer to the guide for more examples."
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
+	]
+	quest.0916404C0979D753.quest_desc: [
+		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the Steel version. "
+		""
+		"The target machine will retain all filters and inventory, making it a painless way to upgrade your machines."
 	]
 	quest.0988DC06DD5A6935.quest_desc: [
 		"Have a curse you’d like to remove from your tool? Toss it in the Purifier with some Blood to get it cleansed away."
@@ -1619,6 +1635,18 @@
 		""
 		"Brew the Cell samples with the potion of Mutation to obtain a Potion of Mutation with that mob set as the entity."
 	]
+	quest.288F7A968693F3E5.quest_desc: [
+		"When supplied the appropriate fluid and a &7Firework Rocket&r to deliver it high into the atmosphere, this &7Obelisk&r will control the weather, keeping things as temperate or tempestuous as you wish."
+		""
+		"  • &6Liquid Sunshine&r Clears the weather, bringing "
+		"    back sunny skies."
+		""
+		"  • &6Cloud Seed&r Calls forth clouds and rainy or "
+		"    snowy weather."
+		""
+		"  • &6Cloud Seed Concentrated&r Calls forth a mighty "
+		"    storm with lightning and thunder."
+	]
 	quest.289433DE16324150.quest_desc: [
 		"Sal Ammoniac is a powerful alchemical solvent. It can be found in the ground in crystallized form, or simply extracted from Water."
 		"&n                                                  &r"
@@ -1666,6 +1694,12 @@
 		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
 	]
 	quest.28E44D5D6A6C1D6E.quest_desc: [
+		"An alchemical device used in the production of world-shaping materials of magical importance. "
+		""
+		"With a VAT you can produce fluids which can shift the weather to your advantage. "
+		""
+		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of Steel: Dark Steel."
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -1777,6 +1811,11 @@
 		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
 		""
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
+	quest.2B759D4770C13739.quest_desc: [
+		"There’s a certain charm to hand-made objects, but for some things it’s best to relegate the task to a machine that can do the task more efficiently. "
+		""
+		"Like those &7Motors&r you’ve been manhandling. Do better."
 	]
 	quest.2BB91161DB6B6AF5.quest_desc: [
 		"What, you thought you’d have to blow up a bunch of &7Iron&r to make yourself some &7Compressed Iron&r? "
@@ -3046,6 +3085,11 @@
 		""
 		"For now, we’ll put them to work controlling some of our more basic machinery. "
 	]
+	quest.47FF0CFF9CC92DBE.quest_desc: [
+		"A powered &7Refinery&r that handles the more complicated aspects of the process for you by regulating heat and pressure automatically!"
+		""
+		"For recipes with multiple fluid outputs, be sure to stack &7Refinery Chamber Modules&r atop the Refinery to get the extra outputs."
+	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -3735,6 +3779,15 @@
 		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
 		""
 		"Consider upgrading to this as your Water recycling needs grow."
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Large Settling Tank&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
@@ -3931,6 +3984,7 @@
 		""
 		"It can be an excellent way to automate the creation of Treated Wood!"
 	]
+	quest.5FC9979B966955DE.quest_desc: ["Spin up an Oritech &7Centrifuge&r and start producing &7Carbon Fibre Strands&r. You’ll need these to create parts for more advanced machinery. "]
 	quest.5FD8F4BE050D55B2.quest_desc: [
 		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
 		""
@@ -4012,6 +4066,7 @@
 		"      &7Goats"
 	]
 	quest.605A60825B68C2D7.title: "Animal Senescence"
+	quest.60DC19DA26E8CCA4.quest_desc: ["With all of the impurities purged, &7Stainless Steel&r should prove useful in more advanced technology where a stray soul or two might otherwise disturb the process and prove disastrous. "]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [
@@ -4408,6 +4463,10 @@
 		"Overheating may not seem like a threat at the moment, but be aware that holding certain items, like Lava Buckets, will affect your body temperature."
 	]
 	quest.6705BECBD94CAAAD.quest_desc: [
+		"With stronger gearing and motors, this &7SAG Mill&r can help you get more from your ores than before. "
+		""
+		"Be sure to supply it with Grinding Balls to get the best results. "
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -4463,8 +4522,17 @@
 		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
 	]
 	quest.68079D29B91FC30A.title: "Industrialists"
+	quest.6849CF8933FC70F9.quest_desc: [
+		"With &7Steel Machine Casings&r, a whole new world of technology becomes available. In particular, many Oritech machines will now be craftable. "
+		""
+		"Be sure to check the uses for this casing in EMI to find more devices that you may now have access to."
+		""
+		"[ \"Also take a look in the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on upgrading your power infrastructure. \" ]"
+	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.687E532AD956C57A.quest_desc: [
+		"With excellent insulation and heating capabilities, this &7Alloy Smelter&r can reach temperatures capable of burning the Hell out of things."
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -4533,6 +4601,7 @@
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
 	]
+	quest.699B01CFAEE29827.quest_desc: ["An excellent way to cool &7Plastic&r or simply make &7Ice&r. "]
 	quest.69A9A6E9B7CB34B4.quest_desc: [
 		"The first thing you’ll need to do to get started with Ars Nouveau is find some Archwood trees. "
 		""

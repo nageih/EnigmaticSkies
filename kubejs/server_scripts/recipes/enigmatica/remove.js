@@ -1020,6 +1020,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:atomicforge/compensator' },
         { id: 'oritech:atomicforge/compensatoralt' },
         { id: 'oritech:atomicforge/advcomputer' },
+        { id: 'oritech:atomicforge/reinfdeepslate' },
         { id: 'oritech:atomicforge/aicomputer' },
         { id: 'oritech:atomicforge/wafer' },
         { id: 'oritech:particle/enderic_compound' },
