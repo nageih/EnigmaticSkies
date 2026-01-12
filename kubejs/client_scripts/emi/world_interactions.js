@@ -213,6 +213,146 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'justdirethings:goo_revive_tier_4'
         },
         {
+            left: 'item:justdirethings:raw_coal_t1_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:coal_t1',
+                amount: 3
+            },
+            id: 'justdirethings:coal_t1'
+        },
+        {
+            left: 'item:justdirethings:raw_coal_t2_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:coal_t2',
+                amount: 3
+            },
+            id: 'justdirethings:coal_t2'
+        },
+        {
+            left: 'item:justdirethings:raw_coal_t3_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:coal_t3',
+                amount: 3
+            },
+            id: 'justdirethings:coal_t3'
+        },
+        {
+            left: 'item:justdirethings:raw_coal_t4_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:coal_t4',
+                amount: 3
+            },
+            id: 'justdirethings:coal_t4'
+        },
+        {
+            left: 'item:justdirethings:raw_ferricore_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:raw_ferricore',
+                amount: 3
+            },
+            id: 'justdirethings:raw_ferricore'
+        },
+        {
+            left: 'item:justdirethings:raw_blazegold_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:raw_blazegold',
+                amount: 3
+            },
+            id: 'justdirethings:raw_blazegold'
+        },
+        {
+            left: 'item:justdirethings:raw_celestigem_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:celestigem',
+                amount: 3
+            },
+            id: 'justdirethings:celestigem'
+        },
+        {
+            left: 'item:justdirethings:raw_eclipsealloy_ore',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'justdirethings:raw_eclipsealloy',
+                amount: 3
+            },
+            id: 'justdirethings:raw_eclipsealloy'
+        },
+        {
+            left: 'item:actuallyadditions:enori_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:enori_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:enori_crystal'
+        },
+        {
+            left: 'item:actuallyadditions:restonia_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:restonia_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:restonia_crystal'
+        },
+        {
+            left: 'item:actuallyadditions:palis_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:palis_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:palis_crystal'
+        },
+        {
+            left: 'item:actuallyadditions:diamatine_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:diamatine_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:diamatine_crystal'
+        },
+        {
+            left: 'item:actuallyadditions:void_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:void_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:void_crystal'
+        },
+        {
+            left: 'item:actuallyadditions:emeradic_crystal_cluster',
+            right: '#item:minecraft:pickaxes',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:emeradic_crystal',
+                amount: 3
+            },
+            id: 'actuallyadditions:emeradic_crystal'
+        },
+        {
             left: '#item:farmersdelight:straw_harvesters',
             right: ['item:minecraft:tall_grass', 'item:minecraft:short_grass'],
             output: {

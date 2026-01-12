@@ -2014,7 +2014,7 @@
 	]
 	quest.3263757C9A240C70.title: "Chipped"
 	quest.3282293AB6B43287.quest_desc: [
-		"Slow but steady, this Compressor will get you started making &7Compressed Iron&r and &7Diamonds&r. "
+		"Slow but steady, this &7Compressor&r will get you started making &7Compressed Iron&r and &7Diamonds&r. "
 		""
 		"It's also a simple way to make plates going forward."
 		""
@@ -3041,6 +3041,11 @@
 		""
 		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
 	]
+	quest.47CB92C2ECBB7FF4.quest_desc: [
+		"Bones are among the simplest things to re-animate. They hold a memory of life in them still and an urge to move; they simply lack the impetus to do so. "
+		""
+		"For now, we’ll put them to work controlling some of our more basic machinery. "
+	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -3130,7 +3135,7 @@
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
 	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
 		""
 		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
 		""
@@ -3667,7 +3672,7 @@
 		""
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
-	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
+	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
 	quest.577337FFD6AD9C83.title: "Replication"
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
@@ -4446,7 +4451,7 @@
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
-		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -5413,7 +5418,7 @@
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
 		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
 		""
-		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
 	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "
