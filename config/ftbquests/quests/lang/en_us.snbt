@@ -623,9 +623,9 @@
 	]
 	quest.105622B089F794C8.title: "Ronaza's Contact"
 	quest.105CABB7D9705359.quest_desc: [
-		"Farmers have some very helpful tools to help you speed up your farms. Be sure to check out their wares!"
+		"&7Farmers&r have some very helpful tools to help you speed up your crop farms. Be sure to check out their wares!"
 		""
-		"They'll also help you get started with Source production with a Mycelial Sourcelink which will convert food items directly to Source."
+		"They'll also help you get started with Source production with a &7Mycelial Sourcelink&r which will convert food items directly to Source."
 	]
 	quest.105CABB7D9705359.title: "Farmer"
 	quest.10762E4BB7F187BE.quest_desc: [
@@ -1193,20 +1193,19 @@
 		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
 	]
 	quest.1CF4103BFBCE0E29.quest_desc: [
-		"With an &7Imbuement Chamber&r, you can begin accessing new islands. "
+		"With an &7Imbuement Chamber&r, you can begin accessing new islands, each with its own unique block transformations and resources. "
 		""
-		"Each island has its own unique block transformations and resources. "
+		"They are not self-contained, however; the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
 		""
-		"They are not self-contained, however, and the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
+		"Summon them all as soon as you're able. "
 		""
-		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so begin by getting the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
+		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so get the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
 		""
 		"To use the &7Imbuement Chamber&r, you’ll need to place some &7Arcane Pedestals&r or &7Platforms&r directly adjacent to it. The item shown in the middle of the recipe goes in the &7Imbuement Chamber&r, while the rest must be placed in the &7Pedestals.&r "
 		""
-		"The &7Pedestal&r items are &nnot&r consumed. "
+		"&6⚠ Note: The Pedestal items are &nnot&r &6consumed. "
 		""
-		"&a🛈 Tip: Source is optional but will speed "
-		"&a    up the craft!"
+		"&a🛈 Tip: Source is optional but will speed up the craft!"
 	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
@@ -1253,6 +1252,33 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1D783196F551142F.quest_desc: [
+		"Better food, better work. "
+		""
+		"Keep your Villages stocked up with the very finest cooking you can manage, and they’ll be able to create wonders. "
+		""
+		"                 &n&7A Note on Automation&r&r"
+		""
+		"The &7Cooking Pot&r is a sided machine, much like a &7Furnace&r. This means that specific items must be inserted on specific sides when using any form of logistics."
+		""
+		" • Food Ingredients must be inserted from "
+		"   the top face."
+		""
+		" • Serving containers, such as &7Bottles&r and"
+		"   &7Bowls&r, must be inserted on a side face."
+		""
+		" • The Result of the craft can only be "
+		"   extracted from the bottom."
+		""
+		" • Any remainders, such as Bottles used in "
+		"   the inputs, will be thrown on the floor. "
+		""
+		"The order of the input items does not matter, and duplicate items can be stacked in the same slot."
+		""
+		"Due to these requirements, it can prove difficult to automate the &7Cooking Pot&r early on since few things can extract from the bottom while the &7Heat Source&r is under the &7Pot&r. "
+		""
+		"&7Starbuncles&r can be very useful for extracting from the bottom, however. "
+	]
 	quest.1D7DF143EDEAE1EC.quest_desc: [
 		"A clever device for growing more mushrooms without any hassle. "
 		""
@@ -1427,11 +1453,11 @@
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
 		""
-		"The Wixie represents a very simple means of automating various kitchen appliances, among other things. "
+		"The &7Wixie&r represents a very simple means of automating various kitchen appliances, among other things. "
 		""
 		"                            &n&7Care and Use&r&r"
 		""
-		"In order to get your Wixie working, you'll need to set up their area appropriately. "
+		"In order to get your &7Wixie&r working, you'll need to set up their area appropriately. "
 		""
 		"First, place their workstation. For general crafting, this will be a &7Cauldron&r. Right-Click the workstation with the &7Wixie Charm&r to summon them."
 		""
@@ -3575,9 +3601,9 @@
 		"&6    the interface."
 	]
 	quest.51A88370BE1CAC99.quest_desc: [
-		"Not only do &7Worms&r speed up crop growth, but they’ll also keep soil hydrated. "
+		"Not only do &7Worms&r speed up crop growth, but they’ll also keep the soil mostly hydrated. "
 		""
-		"A single worm will help maintain a 3x3 plot of farmland."
+		"A single &7Worm&r will help maintain a 3x3 plot of farmland."
 	]
 	quest.51AF97CE4E91A2D9.quest_desc: [
 		"Getting started with Immersive Engineering involves a few key machines and resources; perhaps the most important of which is the Coke Oven. "
@@ -4128,7 +4154,7 @@
 	quest.623B5F0C0464F907.quest_desc: [
 		"While it is true that a scurry of &7Starbuncles&r all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
 		""
-		"Naturally, each one can only manage a single task at once, but they can be instructed to do several different jobs depending on the hat you give them. "
+		"Naturally, each one can only manage a single task at a time, but they can be instructed to do several different jobs depending on the hat you give them. "
 		""
 		"&6Default Jobs&r"
 		"  • Collect items on the ground and deposit them into a "
@@ -5147,7 +5173,13 @@
 		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
-	quest.75507A3DE753BC75.quest_desc: ["Tired of losing drops in the clouds? Make yourself a magnet and you won't need to worry about it any longer."]
+	quest.75507A3DE753BC75.quest_desc: [
+		"Tired of losing drops in the clouds? "
+		""
+		"Make yourself a &7Magnet&r and you won't need to worry about it any longer."
+		""
+		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things where you'd like to avoid picking things up."
+	]
 	quest.75765D97E7ACC6FC.quest_desc: [
 		"Getting started, the first machine you’ll want to craft is the Foundry. This will allow you to create the various alloys you’ll need to proceed with more powerful machines. "
 		"&n                                                  &r"

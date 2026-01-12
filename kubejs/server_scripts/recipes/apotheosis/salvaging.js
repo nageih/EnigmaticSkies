@@ -131,7 +131,6 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}magebloom_armor`
         },
-
         {
             outputs: [
                 { stack: { id: 'minecraft:string', count: 1 }, min_count: 0, max_count: 1 },
@@ -139,6 +138,70 @@ ServerEvents.recipes((event) => {
             ],
             input: [{ item: 'minecraft:crossbow' }, { item: 'minecraft:bow' }],
             id: `${id_prefix}bows`
+        },
+        {
+            outputs: [{ stack: { id: 'malum:soul_stained_steel_ingot', count: 1 }, min_count: 0, max_count: 1 }],
+            input: [
+                { item: 'malum:soul_stained_steel_scythe' },
+                { item: 'malum:soul_stained_steel_knife' },
+                { item: 'malum:soul_stained_steel_sword' },
+                { item: 'malum:soul_stained_steel_pickaxe' },
+                { item: 'malum:soul_stained_steel_axe' },
+                { item: 'malum:soul_stained_steel_shovel' },
+                { item: 'malum:soul_stained_steel_hoe' },
+                { item: 'malum:mnemonic_hex_staff' },
+                { item: 'malum:tyrving' },
+                { item: 'malum:spellweaving_pickaxe' },
+                { item: 'malum:spellweaving_axe' }
+            ],
+            id: `${id_prefix}soul_stained_steel_tools`
+        },
+        {
+            outputs: [{ stack: { id: 'malum:soul_stained_steel_ingot', count: 1 }, min_count: 1, max_count: 3 }],
+            input: [
+                { item: 'malum:soul_stained_steel_helmet' },
+                { item: 'malum:soul_stained_steel_chestplate' },
+                { item: 'malum:soul_stained_steel_leggings' },
+                { item: 'malum:soul_stained_steel_boots' }
+            ],
+            id: `${id_prefix}soul_stained_steel_armor`
+        },
+        {
+            outputs: [{ stack: { id: 'malum:malignant_pewter_ingot', count: 1 }, min_count: 0, max_count: 1 }],
+            input: [
+                { item: 'malum:erosion_scepter' },
+                { item: 'malum:unwinding_chaos' },
+                { item: 'malum:sundering_anchor' },
+                { item: 'malum:weight_of_worlds' },
+                { item: 'malum:edge_of_deliverance' }
+            ],
+            id: `${id_prefix}malignant_pewter_ingot_tools`
+        },
+        {
+            outputs: [
+                { stack: { id: 'malum:soulwoven_silk', count: 1 }, min_count: 1, max_count: 3 },
+                { stack: { id: 'malum:malignant_pewter_ingot', count: 1 }, min_count: 0, max_count: 1 }
+            ],
+            input: [
+                { item: 'malum:malignant_stronghold_helmet' },
+                { item: 'malum:malignant_stronghold_chestplate' },
+                { item: 'malum:malignant_stronghold_leggings' },
+                { item: 'malum:malignant_stronghold_boots' }
+            ],
+            id: `${id_prefix}malignant_pewter_ingot_armor`
+        },
+        {
+            outputs: [
+                { stack: { id: 'malum:soulwoven_silk', count: 1 }, min_count: 0, max_count: 1 },
+                { stack: { id: 'malum:refined_soulstone', count: 1 }, min_count: 0, max_count: 1 }
+            ],
+            input: [
+                { item: 'malum:soul_hunter_cloak' },
+                { item: 'malum:soul_hunter_robe' },
+                { item: 'malum:soul_hunter_leggings' },
+                { item: 'malum:soul_hunter_boots' }
+            ],
+            id: `${id_prefix}soulwoven_silk_armor`
         }
     ];
 
@@ -153,7 +216,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'apotheosis:salvaging';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
