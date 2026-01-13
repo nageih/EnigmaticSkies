@@ -141,6 +141,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}amethyst_shard`
         },
         {
+            output: { id: 'minecraft:egg' },
+            input: { item: 'ars_nouveau:bastion_pod' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura_multiplier: 50,
+            time: 2,
+            id: `${id_prefix}egg`
+        },
+        {
             output: { id: 'simplemagnets:advanced_demagnetization_coil' },
             input: { item: 'simplemagnets:basic_demagnetization_coil' },
             aura_multiplier: 50,

@@ -840,6 +840,7 @@ ServerEvents.recipes((event) => {
         { id: `naturesaura:altar/crimson_fungus` },
         { id: `naturesaura:altar/tainted_gold` },
         { id: `naturesaura:altar/tainted_gold_block` },
+        { id: `naturesaura:altar/egg` },
         { id: `naturesaura:altar/water` },
         { id: `naturesaura:altar/ender_pearl` },
         { id: 'naturesaura:offering_table' },
