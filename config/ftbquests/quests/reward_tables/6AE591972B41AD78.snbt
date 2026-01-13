@@ -1,0 +1,83 @@
+{
+	icon: {
+		id: "create:cardboard_package_12x12"
+	}
+	id: "6AE591972B41AD78"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 4
+			id: "607268EB6A0713FF"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			count: 16
+			id: "579D798E942D4F6A"
+			item: {
+				count: 1
+				id: "modern_industrialization:fire_clay_brick"
+			}
+		}
+		{
+			count: 4
+			id: "01A0E3FFB3789C92"
+			item: {
+				count: 1
+				id: "actuallyadditions:restonia_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "6A4B32F4AFFD7A3C"
+			item: {
+				count: 1
+				id: "actuallyadditions:palis_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "3306AAB37FBA5446"
+			item: {
+				count: 1
+				id: "actuallyadditions:diamatine_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "03B223765F6BA33D"
+			item: {
+				count: 1
+				id: "actuallyadditions:void_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "672DE1B2417B1C21"
+			item: {
+				count: 1
+				id: "actuallyadditions:emeradic_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "5A19A27DC7F0EFBC"
+			item: {
+				count: 1
+				id: "actuallyadditions:enori_crystal"
+			}
+		}
+		{
+			count: 8
+			id: "62A44E77D36DC452"
+			item: {
+				count: 1
+				id: "theurgy:mercury_shard"
+			}
+		}
+		{ id: "199EBAAB2F0949E2", item: { count: 1, id: "create:sturdy_sheet" } }
+	]
+}

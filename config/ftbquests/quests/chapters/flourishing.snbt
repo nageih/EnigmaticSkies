@@ -91,6 +91,12 @@
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
 			id: "31903F40C2037EBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11E3DA5853BA0843"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0EDBE4085F6E8A75"
@@ -147,6 +153,12 @@
 		{
 			dependencies: ["47CB92C2ECBB7FF4"]
 			id: "2C3B39CD6A7E044C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55BA60516EC72960"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "38C5C4FA923CC378"
 				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
@@ -254,6 +266,12 @@
 		{
 			dependencies: ["6490781066FAE8CF"]
 			id: "33679351A7B6D8E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64051DD22588223A"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5FD033C23F211569"
@@ -519,6 +537,12 @@
 		{
 			dependencies: ["49968116FCB311B0"]
 			id: "427846D4FFE678C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4168436C046662"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "62C88406B051D97A"
 				item: { count: 1, id: "aether:life_shard" }
@@ -556,6 +580,12 @@
 		{
 			dependencies: ["5D1960D1AE64E4A2"]
 			id: "49968116FCB311B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EC745BB73EEFA61"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "4921B0118A5CD213"
 				item: { count: 1, id: "enigmatica:ruby" }
@@ -598,6 +628,12 @@
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
 			id: "3282293AB6B43287"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D60A3D9CC5E7040"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "0BC36E74BFF15D3C"
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
@@ -790,6 +826,12 @@
 		{
 			dependencies: ["427846D4FFE678C5"]
 			id: "47CB92C2ECBB7FF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C3382C5A2C0E84A"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "47AEEC89A256A20B"
 				item: { count: 1, id: "enderio:skeletal_contractor" }
@@ -926,8 +968,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 5.5d
+			y: 2.5d
 		}
 	]
 }

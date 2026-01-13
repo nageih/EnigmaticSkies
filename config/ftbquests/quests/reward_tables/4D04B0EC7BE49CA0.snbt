@@ -8,7 +8,7 @@
 	}
 	id: "4D04B0EC7BE49CA0"
 	loot_size: 2
-	order_index: 12
+	order_index: 5
 	rewards: [
 		{ id: "5C524A7AAEDBB57D", item: { components: { "pneumaticcraft:main_tank": { amount: 16000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:small_tank" } }
 		{ id: "0B8E155B35C4CEF7", item: { count: 1, id: "pneumaticcraft:speed_upgrade" } }

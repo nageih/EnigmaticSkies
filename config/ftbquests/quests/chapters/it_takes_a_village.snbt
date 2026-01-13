@@ -116,6 +116,14 @@
 				id: "minecraft:barrel"
 			}
 			id: "2F1EA0B091C700E1"
+			rewards: [{
+				id: "194418153191E9C7"
+				item: {
+					count: 1
+					id: "actuallyadditions:travelers_sack"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D83B2509B34391D"
@@ -209,6 +217,12 @@
 				id: "minecraft:brewing_stand"
 			}
 			id: "04D144DC0EAE8BE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18691A2847906A72"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "5D587C3F4108AE35"
