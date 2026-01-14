@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'malum:raw_soulstone' },
-            input: { tag: 'c:storage_blocks/neptunium' },
+            input: { tag: 'c:ingots/neptunium' },
             id: `${id_prefix}raw_soulstone`
         },
         {
