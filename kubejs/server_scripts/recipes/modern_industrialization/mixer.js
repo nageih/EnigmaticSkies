@@ -182,6 +182,130 @@ ServerEvents.recipes((event) => {
             duration: 1,
             eu: 2,
             id: `${id_prefix}mulch`
+        },
+        {
+            item_outputs: [{ item: 'oritech:diamond_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/cyan', amount: 8 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}diamond_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:redstone_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/red', amount: 8 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}redstone_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:netherite_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/black', amount: 4 },
+                { tag: 'c:dyes/yellow', amount: 4 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}netherite_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:orange_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/orange', amount: 8 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}orange_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:industrial_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/yellow', amount: 8 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}industrial_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:white_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/white', amount: 8 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}white_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:sculk_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/black', amount: 4 },
+                { tag: 'c:dyes/cyan', amount: 3 },
+                { tag: 'c:dyes/purple', amount: 1 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}sculk_paint`
+        },
+        {
+            item_outputs: [{ item: 'oritech:camo_paint', amount: 4 }],
+            item_inputs: [
+                { item: 'minecraft:bucket', amount: 1 },
+                { item: 'malum:malignant_lead', amount: 1 },
+                { tag: 'c:dyes/green', amount: 4 },
+                { tag: 'c:dyes/brown', amount: 4 }
+            ],
+            fluid_inputs: [
+                { fluid: 'industrialforegoing:latex', amount: 1000 },
+                { fluid: 'minecraft:water', amount: 3000 }
+            ],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}camo_paint`
         }
     ];
 

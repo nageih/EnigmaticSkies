@@ -384,6 +384,19 @@
 		""
 		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
 	]
+	quest.0A8B7FD4A52663D3.quest_desc: [
+		"Enigmatic Skies is an automation focused Expert pack designed to challenge you in new and exciting ways. "
+		""
+		"The Skies questline is your primary source of guidance through major progression goals. These quests serve to give you valuable information and to point you towards the next step. "
+		""
+		"        &n&7A Note on Information Sources&r"
+		""
+		"As an Expert pack, a great deal of the basic progression for each mod has changed. This means that guidebooks for the various mods included in this pack may give you incorrect information. They are still an invaluable source for how blocks and items work, but don’t assume that recipes found in the books are accurate. "
+		""
+		"For recipes, your best source of information is EMI. When looking at an item’s recipe, be sure to check every tab as there may be more than one way to obtain something.  "
+		""
+		"Extra tooltips and information panes have also been added to many items to help explain how to use them or to highlight important information that's either custom to the pack or otherwise undocumented. "
+	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -943,17 +956,6 @@
 		""
 		"Check the tooltips on each Bound Script to see what it has to offer you!"
 	]
-	quest.15CECF38FB6CEADE.quest_desc: [
-		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
-		""
-		"Place the tool in a Modification Table to insert the modules you wish to use. You’ll find modules covering standard enchantments like Silk Touch and Fortune, while others increase the battery life, range, and mining area."
-		""
-		"Don’t worry, there’s no difference between the different models, pick your favorite. "
-		""
-		"&a🛈 Tip: Search &3@mininggadgets&r &ain EMI to"
-		"&a    discover more."
-	]
-	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
@@ -5675,6 +5677,7 @@
 	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
+	task.2249B1CA280D4531.title: "Skies"
 	task.23CDBB8A570B6689.title: "Blocks Obtained from Sludge"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2404D63C45135601.title: "Spirit Aspects"
