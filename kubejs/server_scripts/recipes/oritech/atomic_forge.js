@@ -10,6 +10,12 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}heisenberg_compensator`
+        },
+        {
+            results: [{ id: 'modern_industrialization:mixed_ingot_iridium', count: 1 }],
+            ingredients: [{ tag: 'c:ingots/iridium' }, { item: 'malum:null_slate' }, { tag: 'c:ingots/eclipsealloy' }],
+            time: 20,
+            id: `${id_prefix}mixed_ingot_iridium`
         }
     ];
 
@@ -17,7 +23,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'oritech:atomic_forge';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

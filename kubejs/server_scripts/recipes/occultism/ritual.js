@@ -377,11 +377,164 @@ ServerEvents.recipes((event) => {
         recipes.push(recipe);
     });
 
+    const animated_creepers = [
+        {
+            entity: 'minecraft:creeper',
+            egg: 'minecraft:creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:moss_block'
+        },
+        {
+            entity: 'creeperoverhaul:jungle_creeper',
+            egg: 'creeperoverhaul:jungle_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:vine'
+        },
+        {
+            entity: 'creeperoverhaul:bamboo_creeper',
+            egg: 'creeperoverhaul:bamboo_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:stick'
+        },
+        {
+            entity: 'creeperoverhaul:desert_creeper',
+            egg: 'creeperoverhaul:desert_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:sand'
+        },
+        {
+            entity: 'creeperoverhaul:badlands_creeper',
+            egg: 'creeperoverhaul:badlands_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:yellow_terracotta'
+        },
+        {
+            entity: 'creeperoverhaul:hills_creeper',
+            egg: 'creeperoverhaul:hills_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'aether:aether_dirt'
+        },
+        {
+            entity: 'creeperoverhaul:savannah_creeper',
+            egg: 'creeperoverhaul:savannah_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:granite'
+        },
+        {
+            entity: 'creeperoverhaul:mushroom_creeper',
+            egg: 'creeperoverhaul:mushroom_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'farmersdelight:organic_compost'
+        },
+        {
+            entity: 'creeperoverhaul:swamp_creeper',
+            egg: 'creeperoverhaul:swamp_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'aquaculture:fish_bones'
+        },
+        {
+            entity: 'creeperoverhaul:dripstone_creeper',
+            egg: 'creeperoverhaul:dripstone_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:packed_mud'
+        },
+        {
+            entity: 'creeperoverhaul:cave_creeper',
+            egg: 'creeperoverhaul:cave_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:tuff'
+        },
+        {
+            entity: 'creeperoverhaul:dark_oak_creeper',
+            egg: 'creeperoverhaul:dark_oak_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:brown_mushroom'
+        },
+        {
+            entity: 'creeperoverhaul:spruce_creeper',
+            egg: 'creeperoverhaul:spruce_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:andesite'
+        },
+        {
+            entity: 'creeperoverhaul:beach_creeper',
+            egg: 'creeperoverhaul:beach_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:nautilus_shell'
+        },
+        {
+            entity: 'creeperoverhaul:snowy_creeper',
+            egg: 'creeperoverhaul:snowy_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:snow_block'
+        },
+        {
+            entity: 'creeperoverhaul:ocean_creeper',
+            egg: 'creeperoverhaul:ocean_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:slime_ball'
+        },
+        {
+            entity: 'creeperoverhaul:birch_creeper',
+            egg: 'creeperoverhaul:birch_creeper_spawn_egg',
+            block: 'minecraft:creeper_head',
+            spirit: 'naturesaura:calling_spirit',
+            modifier: 'minecraft:red_mushroom'
+        }
+    ];
+
+    animated_creepers.forEach((animated) => {
+        let mob_id = animated.entity.split(':')[1];
+        let recipe = {
+            ritual_type: 'occultism:summon',
+            entity_to_summon: animated.entity,
+            result: {
+                id: animated.egg,
+                components: {
+                    'minecraft:item_name': `{"color":"gold","translate":"item.occultism.ritual_dummy.animate_${mob_id}"}`,
+                    'minecraft:lore': [`{"translate":"item.occultism.ritual_dummy.animate_${mob_id}.tooltip"}`]
+                },
+                count: 1
+            },
+            activation_item: { item: animated.block },
+            ingredients: [
+                { tag: 'c:gems/mnemonic_fragment' },
+                { item: 'oritech:wither_crop_block' },
+                { item: animated.spirit },
+                { item: 'oritech:wither_crop_block' }
+            ],
+            ritual_dummy: { id: `occultism:ritual_dummy/animate_${mob_id}`, count: 1 },
+            duration: 30,
+            id: `${id_prefix}animate_${mob_id}`
+        };
+
+        if (animated.modifier.startsWith('#')) {
+            recipe.ingredients.push({ tag: animated.modifier.slice(1) });
+        } else {
+            recipe.ingredients.push({ item: animated.modifier });
+        }
+        recipes.push(recipe);
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'occultism:ritual';
         recipe.pentacle_id = 'occultism:contact_eldritch_spirit';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

@@ -591,6 +591,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}zombie_head`
         },
         {
+            result: { id: 'minecraft:creeper_head', count: 1 },
+            reagent: { item: 'minecraft:skeleton_skull' },
+            pedestalItems: [
+                { item: 'ars_nouveau:bombegranate_pod' },
+                { tag: 'minecraft:leaves' },
+                { tag: 'minecraft:leaves' },
+                { tag: 'minecraft:leaves' },
+                { tag: 'minecraft:leaves' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 0,
+            id: `${id_prefix}creeper_head`
+        },
+        {
             result: {
                 type: 'neoforge:components',
                 id: 'minecraft:elytra',
