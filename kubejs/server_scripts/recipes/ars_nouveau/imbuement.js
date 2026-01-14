@@ -3,118 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: { id: 'ars_nouveau:air_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'c:feathers' }],
-            source: 2000,
-            id: `${id_prefix}air_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:air_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'c:feathers' }],
-            source: 6000,
-            id: `${id_prefix}air_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:earth_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
-            source: 2000,
-            id: `${id_prefix}earth_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:earth_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }],
-            source: 6000,
-            id: `${id_prefix}earth_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:fire_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ tag: 'c:crops/wasabi_root' }, { item: 'supplementaries:lumisene_bottle' }],
-            source: 2000,
-            id: `${id_prefix}fire_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:fire_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ tag: 'c:crops/wasabi_root' }, { item: 'supplementaries:lumisene_bottle' }],
-            source: 6000,
-            id: `${id_prefix}fire_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:water_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'minecraft:blue_ice' }],
-            source: 2000,
-            id: `${id_prefix}water_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:water_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'minecraft:blue_ice' }],
-            source: 6000,
-            id: `${id_prefix}water_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:manipulation_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'minecraft:glow_berries' }, { item: 'actuallyadditions:restonia_crystal' }],
-            source: 2000,
-            id: `${id_prefix}manipulation_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:manipulation_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'minecraft:glow_berries' }, { item: 'actuallyadditions:restonia_crystal' }],
-            source: 6000,
-            id: `${id_prefix}manipulation_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:abjuration_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'minecraft:nether_wart' }, { item: 'actuallyadditions:diamatine_crystal' }],
-            source: 2000,
-            id: `${id_prefix}abjuration_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:abjuration_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'minecraft:nether_wart' }, { item: 'actuallyadditions:diamatine_crystal' }],
-            source: 6000,
-            id: `${id_prefix}abjuration_essence_from_block`
-        },
-        {
-            output: { id: 'ars_nouveau:conjuration_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'ars_nouveau:magebloom' }, { item: 'actuallyadditions:palis_crystal' }],
-            source: 2000,
-            id: `${id_prefix}conjuration_essence`
-        },
-        {
-            output: { id: 'ars_nouveau:conjuration_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'ars_nouveau:magebloom' }, { item: 'actuallyadditions:palis_crystal' }],
-            source: 6000,
-            id: `${id_prefix}conjuration_essence_from_block`
-        },
-        {
-            output: { id: 'ars_elemental:anima_essence', count: 1 },
-            input: { tag: 'c:gems/source' },
-            pedestalItems: [{ item: 'actuallyadditions:coffee_beans' }, { item: 'actuallyadditions:void_crystal' }],
-            source: 2000,
-            id: `${id_prefix}anima_essence`
-        },
-        {
-            output: { id: 'ars_elemental:anima_essence', count: 4 },
-            input: { tag: 'c:storage_blocks/source' },
-            pedestalItems: [{ item: 'actuallyadditions:coffee_beans' }, { item: 'actuallyadditions:void_crystal' }],
-            source: 6000,
-            id: `${id_prefix}anima_essence_from_block`
-        },
-        {
             output: Item.of(
                 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
             ).toJson(),
@@ -163,11 +51,76 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}piercing_prism_lens`
         }
     ];
+    const essences = [
+        {
+            output: 'ars_nouveau:air_essence',
+            pedestalItems: [{ item: 'aether:blue_berry' }, { tag: 'c:feathers' }]
+        },
+        {
+            output: 'ars_nouveau:earth_essence',
+            pedestalItems: [{ tag: 'c:crops/potato' }, { tag: 'c:clay' }]
+        },
+        {
+            output: 'ars_nouveau:fire_essence',
+            pedestalItems: [{ tag: 'c:crops/wasabi_root' }, { item: 'supplementaries:lumisene_bottle' }]
+        },
+        {
+            output: 'ars_nouveau:water_essence',
+            pedestalItems: [{ item: 'farmersdelight:rice_panicle' }, { item: 'minecraft:blue_ice' }]
+        },
+        {
+            output: 'ars_nouveau:manipulation_essence',
+            pedestalItems: [{ item: 'minecraft:glow_berries' }, { item: 'actuallyadditions:restonia_crystal' }]
+        },
+        {
+            output: 'ars_nouveau:abjuration_essence',
+            pedestalItems: [{ item: 'minecraft:nether_wart' }, { item: 'actuallyadditions:diamatine_crystal' }]
+        },
+        {
+            output: 'ars_nouveau:conjuration_essence',
+            pedestalItems: [{ item: 'ars_nouveau:magebloom' }, { item: 'actuallyadditions:palis_crystal' }]
+        },
+        {
+            output: 'ars_elemental:anima_essence',
+            pedestalItems: [{ item: 'actuallyadditions:coffee_beans' }, { item: 'actuallyadditions:void_crystal' }]
+        }
+    ];
+
+    essences.forEach((essence) => {
+        recipes.push(
+            {
+                output: { id: essence.output, count: 1 },
+                input: { tag: 'c:gems/source' },
+                pedestalItems: essence.pedestalItems,
+                source: 2000,
+                id: `${id_prefix}${essence.output.split(':')[1]}_from_source_gem`
+            },
+            {
+                output: { id: essence.output, count: 4 },
+                input: { tag: 'c:storage_blocks/source' },
+                pedestalItems: essence.pedestalItems,
+                source: 6000,
+                id: `${id_prefix}${essence.output.split(':')[1]}_from_source_block`
+            },
+            {
+                output: { id: essence.output, count: 8 },
+                input: { tag: 'c:gems/fluix' },
+                pedestalItems: essence.pedestalItems,
+                source: 500,
+                id: `${id_prefix}${essence.output.split(':')[1]}_from_fluix_gem`
+            },
+            {
+                output: { id: essence.output, count: 16 },
+                input: { tag: 'c:storage_blocks/fluix' },
+                pedestalItems: essence.pedestalItems,
+                source: 1500,
+                id: `${id_prefix}${essence.output.split(':')[1]}_from_fluix_block`
+            }
+        );
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:imbuement';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

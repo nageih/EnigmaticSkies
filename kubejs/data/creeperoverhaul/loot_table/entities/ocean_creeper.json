@@ -1,0 +1,531 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "minecraft:cod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "minecraft:salmon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "minecraft:tropical_fish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "minecraft:pufferfish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:atlantic_cod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:blackfish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:pacific_halibut"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:atlantic_halibut"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:atlantic_herring"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:pink_salmon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:pollock"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:rainbow_trout"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:bayad"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:boulti"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:capitaine"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:synodontis"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:smallmouth_bass"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:bluegill"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:brown_trout"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:carp"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:catfish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:gar"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:minnow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:muskellunge"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:perch"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:arapaima"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:piranha"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:tambaqui"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:red_grouper"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 }
+                        }
+                    ],
+                    "name": "aquaculture:tuna"
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "theurgy:crystallized_water"
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:creeper_drop_music_discs",
+                    "expand": true
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "predicate": { "type": "#minecraft:skeletons" },
+                    "entity": "attacker"
+                }
+            ]
+        }
+    ]
+}

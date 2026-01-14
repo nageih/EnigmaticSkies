@@ -79,7 +79,7 @@
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
-		"Facades may be crafted from most solid blocks and act as a nice cover for cables and cable subparts, making your AE system look like an integrated part of your base."
+		"&7Facades&r may be crafted from most solid blocks and act as a nice cover for cables and cable subparts, making your AE system look like an integrated part of your base."
 	]
 	quest.0227D9EC391788D6.title: "Cable Facades"
 	quest.0230942DF53BB9E5.quest_desc: ["The following are blocks that can be used to charge energy based items and equipment."]
@@ -209,6 +209,17 @@
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
+	quest.05F232C12FA99F92.quest_desc: [
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Electric Kiln&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
+	]
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -314,6 +325,11 @@
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
+	quest.0916404C0979D753.quest_desc: [
+		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the Steel version. "
+		""
+		"The target machine will retain all filters and inventory, making it a painless way to upgrade your machines."
+	]
 	quest.0988DC06DD5A6935.quest_desc: [
 		"Have a curse you’d like to remove from your tool? Toss it in the Purifier with some Blood to get it cleansed away."
 		""
@@ -367,6 +383,19 @@
 		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
 		""
 		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
+	]
+	quest.0A8B7FD4A52663D3.quest_desc: [
+		"Enigmatic Skies is an automation focused Expert pack designed to challenge you in new and exciting ways. "
+		""
+		"The Skies questline is your primary source of guidance through major progression goals. These quests serve to give you valuable information and to point you towards the next step. "
+		""
+		"        &n&7A Note on Information Sources&r"
+		""
+		"As an Expert pack, a great deal of the basic progression for each mod has changed. This means that guidebooks for the various mods included in this pack may give you incorrect information. They are still an invaluable source for how blocks and items work, but don’t assume that recipes found in the books are accurate. "
+		""
+		"For recipes, your best source of information is EMI. When looking at an item’s recipe, be sure to check every tab as there may be more than one way to obtain something.  "
+		""
+		"Extra tooltips and information panes have also been added to many items to help explain how to use them or to highlight important information that's either custom to the pack or otherwise undocumented. "
 	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
@@ -607,9 +636,9 @@
 	]
 	quest.105622B089F794C8.title: "Ronaza's Contact"
 	quest.105CABB7D9705359.quest_desc: [
-		"Farmers have some very helpful tools to help you speed up your farms. Be sure to check out their wares!"
+		"&7Farmers&r have some very helpful tools to help you speed up your crop farms. Be sure to check out their wares!"
 		""
-		"They'll also help you get started with Source production with a Mycelial Sourcelink which will convert food items directly to Source."
+		"They'll also help you get started with Source production with a &7Mycelial Sourcelink&r which will convert food items directly to Source."
 	]
 	quest.105CABB7D9705359.title: "Farmer"
 	quest.10762E4BB7F187BE.quest_desc: [
@@ -927,17 +956,6 @@
 		""
 		"Check the tooltips on each Bound Script to see what it has to offer you!"
 	]
-	quest.15CECF38FB6CEADE.quest_desc: [
-		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
-		""
-		"Place the tool in a Modification Table to insert the modules you wish to use. You’ll find modules covering standard enchantments like Silk Touch and Fortune, while others increase the battery life, range, and mining area."
-		""
-		"Don’t worry, there’s no difference between the different models, pick your favorite. "
-		""
-		"&a🛈 Tip: Search &3@mininggadgets&r &ain EMI to"
-		"&a    discover more."
-	]
-	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
 		""
@@ -1177,20 +1195,19 @@
 		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
 	]
 	quest.1CF4103BFBCE0E29.quest_desc: [
-		"With an &7Imbuement Chamber&r, you can begin accessing new islands. "
+		"With an &7Imbuement Chamber&r, you can begin accessing new islands, each with its own unique block transformations and resources. "
 		""
-		"Each island has its own unique block transformations and resources. "
+		"They are not self-contained, however; the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
 		""
-		"They are not self-contained, however, and the deeper you go into each Island’s quests, the more you’ll need resources from the other Islands. "
+		"Summon them all as soon as you're able. "
 		""
-		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so begin by getting the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
+		"[ \"A good place to start will be the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \", so get the materials together for \", { \"text\": \"Essence of Earth\" , \"color\":\"gray\"}, \".\" ]"
 		""
 		"To use the &7Imbuement Chamber&r, you’ll need to place some &7Arcane Pedestals&r or &7Platforms&r directly adjacent to it. The item shown in the middle of the recipe goes in the &7Imbuement Chamber&r, while the rest must be placed in the &7Pedestals.&r "
 		""
-		"The &7Pedestal&r items are &nnot&r consumed. "
+		"&6⚠ Note: The Pedestal items are &nnot&r &6consumed. "
 		""
-		"&a🛈 Tip: Source is optional but will speed "
-		"&a    up the craft!"
+		"&a🛈 Tip: Source is optional but will speed up the craft!"
 	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
@@ -1237,6 +1254,33 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1D783196F551142F.quest_desc: [
+		"Better food, better work. "
+		""
+		"Keep your Villages stocked up with the very finest cooking you can manage, and they’ll be able to create wonders. "
+		""
+		"                 &n&7A Note on Automation&r&r"
+		""
+		"The &7Cooking Pot&r is a sided machine, much like a &7Furnace&r. This means that specific items must be inserted on specific sides when using any form of logistics."
+		""
+		" • Food Ingredients must be inserted from "
+		"   the top face."
+		""
+		" • Serving containers, such as &7Bottles&r and"
+		"   &7Bowls&r, must be inserted on a side face."
+		""
+		" • The Result of the craft can only be "
+		"   extracted from the bottom."
+		""
+		" • Any remainders, such as Bottles used in "
+		"   the inputs, will be thrown on the floor. "
+		""
+		"The order of the input items does not matter, and duplicate items can be stacked in the same slot."
+		""
+		"Due to these requirements, it can prove difficult to automate the &7Cooking Pot&r early on since few things can extract from the bottom while the &7Heat Source&r is under the &7Pot&r. "
+		""
+		"&7Starbuncles&r can be very useful for extracting from the bottom, however. "
+	]
 	quest.1D7DF143EDEAE1EC.quest_desc: [
 		"A clever device for growing more mushrooms without any hassle. "
 		""
@@ -1411,11 +1455,11 @@
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
 		""
-		"The Wixie represents a very simple means of automating various kitchen appliances, among other things. "
+		"The &7Wixie&r represents a very simple means of automating various kitchen appliances, among other things. "
 		""
 		"                            &n&7Care and Use&r&r"
 		""
-		"In order to get your Wixie working, you'll need to set up their area appropriately. "
+		"In order to get your &7Wixie&r working, you'll need to set up their area appropriately. "
 		""
 		"First, place their workstation. For general crafting, this will be a &7Cauldron&r. Right-Click the workstation with the &7Wixie Charm&r to summon them."
 		""
@@ -1619,6 +1663,18 @@
 		""
 		"Brew the Cell samples with the potion of Mutation to obtain a Potion of Mutation with that mob set as the entity."
 	]
+	quest.288F7A968693F3E5.quest_desc: [
+		"When supplied the appropriate fluid and a &7Firework Rocket&r to deliver it high into the atmosphere, this &7Obelisk&r will control the weather, keeping things as temperate or tempestuous as you wish."
+		""
+		"  • &6Liquid Sunshine&r Clears the weather, bringing "
+		"    back sunny skies."
+		""
+		"  • &6Cloud Seed&r Calls forth clouds and rainy or "
+		"    snowy weather."
+		""
+		"  • &6Cloud Seed Concentrated&r Calls forth a mighty "
+		"    storm with lightning and thunder."
+	]
 	quest.289433DE16324150.quest_desc: [
 		"Sal Ammoniac is a powerful alchemical solvent. It can be found in the ground in crystallized form, or simply extracted from Water."
 		"&n                                                  &r"
@@ -1632,7 +1688,7 @@
 		"&a    speed it up."
 	]
 	quest.289A1CE4C4092687.quest_desc: [
-		"Interfaces are essentially a combined Import/Export Bus."
+		"&7Interfaces&r are essentially a combined Import/Export Bus."
 		""
 		"For example, one might be used to stock coal for a power generator, while a nearby automated wheat farm might send all of its wheat back through the same interface. "
 		""
@@ -1666,6 +1722,12 @@
 		"&6⚠ Note: Apply Amplify to a Break spell to harvest Aerogel."
 	]
 	quest.28E44D5D6A6C1D6E.quest_desc: [
+		"An alchemical device used in the production of world-shaping materials of magical importance. "
+		""
+		"With a VAT you can produce fluids which can shift the weather to your advantage. "
+		""
+		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of Steel: Dark Steel."
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -1777,6 +1839,11 @@
 		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
 		""
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
+	quest.2B759D4770C13739.quest_desc: [
+		"There’s a certain charm to hand-made objects, but for some things it’s best to relegate the task to a machine that can do the task more efficiently. "
+		""
+		"Like those &7Motors&r you’ve been manhandling. Do better."
 	]
 	quest.2BB91161DB6B6AF5.quest_desc: [
 		"What, you thought you’d have to blow up a bunch of &7Iron&r to make yourself some &7Compressed Iron&r? "
@@ -2014,7 +2081,7 @@
 	]
 	quest.3263757C9A240C70.title: "Chipped"
 	quest.3282293AB6B43287.quest_desc: [
-		"Slow but steady, this Compressor will get you started making &7Compressed Iron&r and &7Diamonds&r. "
+		"Slow but steady, this &7Compressor&r will get you started making &7Compressed Iron&r and &7Diamonds&r. "
 		""
 		"It's also a simple way to make plates going forward."
 		""
@@ -2032,9 +2099,9 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r"
 	]
 	quest.3456EED039818662.quest_desc: [
-		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
+		"The &7Quantum Bridge&r is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight &7Quantum Rings&r and a &7Quantum Link Chamber&r set in the center."
 		""
-		"In most cases, you’ll need one at both ends with a linked pair of Entangled Singularities in each. However, there exists the very handy Quantum Bridge Card which may be installed in your Wireless Terminal, allowing it to link up to a Quantum Bridge as well. "
+		"In most cases, you’ll need one at both ends with a linked pair of &7Entangled Singularities&r in each. However, there exists the very handy &7Quantum Bridge Card&r which may be installed in your &7Wireless Terminal&r, allowing it to link up to a &7Quantum Bridge&r as well. "
 		""
 		"This means infinite cross-dimensional access to your home network at the tips of your fingers!"
 		""
@@ -2120,6 +2187,13 @@
 		"Well worth the extra energy costs, to be sure. "
 	]
 	quest.36A482587B5E89F7.quest_subtitle: "Dorodango Unchained"
+	quest.36BCEB3B27822AD1.quest_desc: [
+		"These curious gems seem barely capable of holding their own form. "
+		""
+		"When paired with certain other items, they'll immediately assume the new form and stabilize. "
+		""
+		"Most device upgrades can be duplicated in this way, though some may require more &7Elemental Matrices&r than others. "
+	]
 	quest.3753A3EB1909F923.quest_desc: [
 		"Made from &7Salt&r, &7Briny Dorodangos&r may be processed down into new materials!"
 		""
@@ -2345,9 +2419,9 @@
 		"The Fuel is also vital to the production of Steel, which will open numerous doors for you."
 	]
 	quest.3CA4472228D0F866.quest_desc: [
-		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
+		"By adding an &7ME Controller&r to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
-		"It doesn’t stop there, however. Multiple ME Controllers can be built together to form a larger multiblock structure. "
+		"It doesn’t stop there, however. Multiple &7ME Controllers&r can be built together to form a larger multiblock structure. "
 		""
 		"Building such a multiblock must follow these rules:"
 		""
@@ -2360,7 +2434,7 @@
 		"  3. A controller can have two "
 		"     adjacent blocks in at most 1 axis"
 		""
-		"The AE Guide goes into greater technical details for those interested and includes helpful images!"
+		"The &7AE Guide&r goes into greater technical details for those interested and includes helpful images!"
 		""
 		"&a🛈 Tip: Use an ME Network Analyzer to "
 		"&a    debug channels on your network!"
@@ -2608,7 +2682,7 @@
 	]
 	quest.3ED6754FC6B0A36D.title: "Just Dire Tools"
 	quest.3F021EBB71F4BC70.quest_desc: [
-		"Smart Cables are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
+		"&7Smart Cables&r are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
 		""
 		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
 	]
@@ -3034,6 +3108,16 @@
 		""
 		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
 	]
+	quest.47CB92C2ECBB7FF4.quest_desc: [
+		"Bones are among the simplest things to re-animate. They hold a memory of life in them still and an urge to move; they simply lack the impetus to do so. "
+		""
+		"For now, we’ll put them to work controlling some of our more basic machinery. "
+	]
+	quest.47FF0CFF9CC92DBE.quest_desc: [
+		"A powered &7Refinery&r that handles the more complicated aspects of the process for you by regulating heat and pressure automatically!"
+		""
+		"For recipes with multiple fluid outputs, be sure to stack &7Refinery Chamber Modules&r atop the Refinery to get the extra outputs."
+	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -3123,7 +3207,7 @@
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
 	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
 		""
 		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
 		""
@@ -3478,11 +3562,11 @@
 		"&6    the interface."
 	]
 	quest.51233852CD921F79.quest_desc: [
-		"Drives act as compact storage capable of holding tens of thousands of items."
+		"&7Drives&r act as compact storage capable of holding tens of thousands of items."
 		""
-		"A single drive may contain up to 10 Storage Cells, each with their own capacity and limitations. "
+		"A single drive may contain up to 10 &7Storage Cells&r, each with their own capacity and limitations. "
 		""
-		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
+		"Cells may also be filtered in a &7Cell Workbench&r, allowing you to dictate exactly what materials will be stored on that cell. "
 	]
 	quest.513BDF32A8F6EF45.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
@@ -3519,9 +3603,9 @@
 		"&6    the interface."
 	]
 	quest.51A88370BE1CAC99.quest_desc: [
-		"Not only do &7Worms&r speed up crop growth, but they’ll also keep soil hydrated. "
+		"Not only do &7Worms&r speed up crop growth, but they’ll also keep the soil mostly hydrated. "
 		""
-		"A single worm will help maintain a 3x3 plot of farmland."
+		"A single &7Worm&r will help maintain a 3x3 plot of farmland."
 	]
 	quest.51AF97CE4E91A2D9.quest_desc: [
 		"Getting started with Immersive Engineering involves a few key machines and resources; perhaps the most important of which is the Coke Oven. "
@@ -3549,9 +3633,9 @@
 	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
-		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
+		"&7Terminals&r grant you visibility into the network and allow you to manually interact with the contents."
 		""
-		"Crafting Terminals also have a built in crafting grid, making them the better choice most of the time."
+		"&7Crafting Terminals&r also have a built in crafting grid, making them the better choice most of the time."
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
@@ -3626,13 +3710,15 @@
 	quest.56AD6E7F12056140.title: "Shady Wizard"
 	quest.56D926386FC532B2.title: "Ihagan's Enthrallment"
 	quest.56DDD2327724F715.quest_desc: [
-		"Cables come in a variety of sizes and colors to suit your needs. "
+		"&7Cables&r come in a variety of sizes and colors to suit your needs. "
 		""
-		"Different colors of cable will not interconnect, meaning they can be easily run alongside each other without risk. Fluix Cables, on the other hand, will connect to any other cable."
+		"Different colors of cable will not interconnect, meaning they can be easily run alongside each other without risk. "
 		""
-		"Glass and Covered Cables can support up to eight channels, while Dense Cables can carry a full 32 channels. "
+		"&7Fluix Cables&r, on the other hand, will connect to any other cable."
 		""
-		"Typically, these would be run from an ME Controller with smaller cables branching off where needed."
+		"&7Glass&r and &7Covered Cables&r can support up to eight channels, while &7Dense Cables&r can carry a full 32 channels. "
+		""
+		"Typically, these would be run from an &7ME Controller&r with smaller cables branching off where needed."
 		""
 		"&a🛈 Tip: Cable Anchors may be used to "
 		"&a    prevent connections between"
@@ -3658,7 +3744,7 @@
 		""
 		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
 	]
-	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
+	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
 	quest.577337FFD6AD9C83.title: "Replication"
 	quest.579B2C5CB83022ED.quest_desc: [
 		"The &7Manipulation Infused Turret&r combines the benefits of a &7Focus of Block Shaping&r with an &7Enchanted Turret&r, meaning it can not only cast all the examples from the previous quest, but it gets an enormous mana discount in doing so. "
@@ -3721,6 +3807,15 @@
 		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
 		""
 		"Consider upgrading to this as your Water recycling needs grow."
+		"&n                                                                          &r"
+		""
+		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
+		""
+		"In this case, the &7Large Settling Tank&r requires both fluid and item hatches."
+		""
+		"&a🛈 Tip: Place the controller block, then hold a Wrench "
+		"&a    to see the structure. Similarly, hold a Hatch to see "
+		"&a    valid locations for them."
 	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
@@ -3917,6 +4012,7 @@
 		""
 		"It can be an excellent way to automate the creation of Treated Wood!"
 	]
+	quest.5FC9979B966955DE.quest_desc: ["Spin up an Oritech &7Centrifuge&r and start producing &7Carbon Fibre Strands&r. You’ll need these to create parts for more advanced machinery. "]
 	quest.5FD8F4BE050D55B2.quest_desc: [
 		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
 		""
@@ -3998,6 +4094,7 @@
 		"      &7Goats"
 	]
 	quest.605A60825B68C2D7.title: "Animal Senescence"
+	quest.60DC19DA26E8CCA4.quest_desc: ["With all of the impurities purged, &7Stainless Steel&r should prove useful in more advanced technology where a stray soul or two might otherwise disturb the process and prove disastrous. "]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [
@@ -4059,7 +4156,7 @@
 	quest.623B5F0C0464F907.quest_desc: [
 		"While it is true that a scurry of &7Starbuncles&r all share a single over-worked brain cell, they can be immensely helpful, nonetheless. "
 		""
-		"Naturally, each one can only manage a single task at once, but they can be instructed to do several different jobs depending on the hat you give them. "
+		"Naturally, each one can only manage a single task at a time, but they can be instructed to do several different jobs depending on the hat you give them. "
 		""
 		"&6Default Jobs&r"
 		"  • Collect items on the ground and deposit them into a "
@@ -4164,11 +4261,11 @@
 	]
 	quest.62CD365A54A0DE47.title: "Immersive Engineering"
 	quest.62E2DEBF71698376.quest_desc: [
-		"Import, Export, and Storage Buses are your primary interface with the network. "
+		"&7Import&r, &7Export&r, and &7Storage Buses&r are your primary interface with the network. "
 		""
-		"Import and Export Buses act as one might expect, pulling items into, or pushing them out of the network. "
+		"&7Import&r and &7Export Buses&r act as one might expect, pulling items into, or pushing them out of the network. "
 		""
-		"Storage Buses, on the other hand, effectively make the attached inventory a part of the network; anything in it can be accessed by the network and it can be used to store anything coming into the network."
+		"&7Storage Buses&r, on the other hand, effectively make the attached inventory a part of the network; anything in it can be accessed by the network and it can be used to store anything coming into the network."
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
@@ -4394,6 +4491,10 @@
 		"Overheating may not seem like a threat at the moment, but be aware that holding certain items, like Lava Buckets, will affect your body temperature."
 	]
 	quest.6705BECBD94CAAAD.quest_desc: [
+		"With stronger gearing and motors, this &7SAG Mill&r can help you get more from your ores than before. "
+		""
+		"Be sure to supply it with Grinding Balls to get the best results. "
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -4437,7 +4538,7 @@
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
-		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -4449,8 +4550,17 @@
 		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
 	]
 	quest.68079D29B91FC30A.title: "Industrialists"
+	quest.6849CF8933FC70F9.quest_desc: [
+		"With &7Steel Machine Casings&r, a whole new world of technology becomes available. In particular, many Oritech machines will now be craftable. "
+		""
+		"Be sure to check the uses for this casing in EMI to find more devices that you may now have access to."
+		""
+		"[ \"Also take a look in the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on upgrading your power infrastructure. \" ]"
+	]
 	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.687E532AD956C57A.quest_desc: [
+		"With excellent insulation and heating capabilities, this &7Alloy Smelter&r can reach temperatures capable of burning the Hell out of things."
+		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
 	]
@@ -4519,6 +4629,7 @@
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
 	]
+	quest.699B01CFAEE29827.quest_desc: ["An excellent way to cool &7Plastic&r or simply make &7Ice&r. "]
 	quest.69A9A6E9B7CB34B4.quest_desc: [
 		"The first thing you’ll need to do to get started with Ars Nouveau is find some Archwood trees. "
 		""
@@ -4583,7 +4694,9 @@
 		""
 		"So, if anything is in the way, you may miss out on important blocks."
 		""
-		"Use a Potion of Flying to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on. Your &7Ritual Brazier&r may then be set atop that block."
+		"Use a &7Potion of Flying&r to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on."
+		""
+		"Your &7Ritual Brazier&r may then be set atop that block."
 		""
 		"Once the &7Brazier&r has been placed, Right-Click it with the &7Tablet&r and then once once more with an empty hand to start the ritual."
 		""
@@ -4841,11 +4954,9 @@
 		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
 		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
 		""
-		"Pattern Terminals are used to set up autocrafting within Applied Energistics."
+		"In order to craft anything automatically, the system must first be taught a pattern. These patterns are configured at the &7Pattern Encoding Terminal&r."
 		""
-		"In order to craft anything automatically, the system must first be taught the pattern. These patterns are configured at the Pattern Encoding Terminal."
-		""
-		"Those Patterns must then be put into a Pattern Provider. This can be done directly at the Provider, but a Pattern Access Terminal also gives you access to all of them in a single place for easy management."
+		"Configured &7Patterns&r must then be put into a &7Pattern Provider&r. This can be done directly at the &7Provider&r, but a &7Pattern Access Terminal&r also gives you access to all of them in a single place for easy management."
 		"&n                                                  &r"
 		""
 		"We won’t fully cover Autocrafting in the quests here; it’s already explained quite well in the AE Guidebook. We will touch on a few key pieces, however."
@@ -5066,7 +5177,13 @@
 		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
-	quest.75507A3DE753BC75.quest_desc: ["Tired of losing drops in the clouds? Make yourself a magnet and you won't need to worry about it any longer."]
+	quest.75507A3DE753BC75.quest_desc: [
+		"Tired of losing drops in the clouds? "
+		""
+		"Make yourself a &7Magnet&r and you won't need to worry about it any longer."
+		""
+		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things where you'd like to avoid picking things up."
+	]
 	quest.75765D97E7ACC6FC.quest_desc: [
 		"Getting started, the first machine you’ll want to craft is the Foundry. This will allow you to create the various alloys you’ll need to proceed with more powerful machines. "
 		"&n                                                  &r"
@@ -5406,7 +5523,7 @@
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
 		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
 		""
-		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
+		"[ \"Head on over to the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to begin. \" ]"
 	]
 	quest.7BEC7AF0176EA162.quest_desc: [
 		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "
@@ -5445,7 +5562,7 @@
 		""
 		"The following chapter will take you through getting started with this mod as well as some basic concepts. "
 		""
-		"We recommend that you also check out the guides and tutorials built into the mod’s own Guide."
+		"We recommend that you also check out the guides and tutorials built into the mod’s own &7Guide&r."
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	quest.7EE93B81F83AD199.quest_desc: [
@@ -5496,23 +5613,17 @@
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
-	reward_table.0765A447BA2E5EDF.title: "MI Lootbox: Quantum Tier"
 	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"
-	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
 	reward_table.0F3B57D5BCDEFA8D.title: "Ars Nouveau Lootbox: Legendary"
-	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
 	reward_table.304C87B452C4DF86.title: "OriTech Lootbox"
-	reward_table.3989965A6A96B854.title: "MI Lootbox: MV Tier"
-	reward_table.4AD226E979319EAB.title: "MI Lootbox: Steel Tier"
 	reward_table.4D04B0EC7BE49CA0.title: "PneumaticCraft Lootbox: Rare"
 	reward_table.506FFF33A24A6C87.title: "Sorcerer's Delight"
-	reward_table.523EF680C25C2831.title: "MI Lootbox: LV Tier"
 	reward_table.57D690FA70BABEA6.title: "PneumaticCraft Lootbox: Legendary"
 	reward_table.63595DAD65E0F896.title: "Ars Nouveau Lootbox: Epic"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
+	reward_table.6AE591972B41AD78.title: "Spare Parts"
 	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
-	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.011E5EACB5A34253.title: "Rainbow and Void Chalks"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
@@ -5566,6 +5677,7 @@
 	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
+	task.2249B1CA280D4531.title: "Skies"
 	task.23CDBB8A570B6689.title: "Blocks Obtained from Sludge"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2404D63C45135601.title: "Spirit Aspects"

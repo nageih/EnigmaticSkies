@@ -93,9 +93,9 @@ ServerEvents.recipes((event) => {
             id_suffix: `pulsating_alloy_ingot`
         },
         {
-            output: { id: 'enderio:soularium_ingot', count: 2 },
+            output: { id: 'enderio:soularium_ingot', count: 1 },
             inputs: [
-                { tag: 'c:gems/soulstone', count: 1 },
+                { tag: 'c:gems/soulstone', count: 2 },
                 { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
             tier: 1,

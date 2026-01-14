@@ -68,6 +68,11 @@ ServerEvents.recipes((event) => {
             input: { item: 'modern_industrialization:quantum_circuit' },
             matter_types: { air: 16, water: 8, fire: 8 },
             id: `${id_prefix}quantum_circuit`
+        },
+        {
+            input: { item: 'enigmatica:elemental_matrix' },
+            matter_types: { air: 4, water: 4, fire: 4, earth: 4 },
+            id: `${id_prefix}elemental_matrix`
         }
     ];
 

@@ -548,6 +548,7 @@
 		{
 			dependencies: ["0C0A7017CEF34F6C"]
 			id: "58A3F58B7F1C580B"
+			min_width: 300
 			tasks: [{
 				id: "784F7F6FB2028EF4"
 				item: { count: 1, id: "mi_tweaks:large_settling_tank" }

@@ -119,7 +119,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -265,7 +265,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 6.0d
 		}
 		{
@@ -295,7 +295,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["631AA5AAA6EF687C"]
@@ -328,7 +328,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.0d
 			y: 7.0d
 		}
 		{
@@ -348,7 +348,7 @@
 				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 6.0d
 		}
 		{
@@ -367,7 +367,7 @@
 				item: { components: { "ae2:facade_item": "minecraft:stone_bricks" }, count: 1, id: "ae2:facade" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 7.0d
 		}
 		{
@@ -401,7 +401,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -422,7 +422,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
@@ -442,7 +442,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
@@ -462,7 +462,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 7.5d
 		}
 	]
 }

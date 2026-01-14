@@ -5,11 +5,11 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'malum:soul_stained_steel_ingot', count: 1 },
             input: { tag: 'c:ingots/steel', count: 1 },
-            extraInputs: [{ item: 'malum:refined_soulstone', count: 4 }],
+            extraInputs: [{ item: 'enderio:soul_chain', count: 3 }],
             spirits: [
-                { type: 'malum:wicked', count: 8 },
-                { type: 'malum:earthen', count: 8 },
-                { type: 'malum:arcane', count: 8 }
+                { type: 'malum:arcane', count: 6 },
+                { type: 'malum:wicked', count: 6 },
+                { type: 'malum:infernal', count: 6 }
             ],
             id: `${id_prefix}soul_stained_steel_ingot`
         },

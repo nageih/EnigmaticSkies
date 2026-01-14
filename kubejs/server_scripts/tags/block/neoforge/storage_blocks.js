@@ -72,7 +72,9 @@ ServerEvents.tags('block', (event) => {
         empowered_diamatine: ['actuallyadditions:empowered_diamatine_crystal_block'],
         empowered_void: ['actuallyadditions:empowered_void_crystal_block'],
         empowered_emeradic: ['actuallyadditions:empowered_emeradic_crystal_block'],
-        empowered_enori: ['actuallyadditions:empowered_enori_crystal_block']
+        empowered_enori: ['actuallyadditions:empowered_enori_crystal_block'],
+
+        fluix: ['ae2:fluix_block']
     };
 
     Object.keys(additions).forEach((tag) => {

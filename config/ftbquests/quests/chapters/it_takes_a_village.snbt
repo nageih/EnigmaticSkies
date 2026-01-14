@@ -116,6 +116,14 @@
 				id: "minecraft:barrel"
 			}
 			id: "2F1EA0B091C700E1"
+			rewards: [{
+				id: "194418153191E9C7"
+				item: {
+					count: 1
+					id: "actuallyadditions:travelers_sack"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D83B2509B34391D"
@@ -137,7 +145,7 @@
 				id: "ars_nouveau:imbuement_chamber"
 			}
 			id: "1CF4103BFBCE0E29"
-			min_width: 200
+			min_width: 300
 			tasks: [
 				{
 					id: "7DAC5388F81AED26"
@@ -209,6 +217,12 @@
 				id: "minecraft:brewing_stand"
 			}
 			id: "04D144DC0EAE8BE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18691A2847906A72"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "5D587C3F4108AE35"
@@ -295,6 +309,25 @@
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "1D783196F551142F"
+			min_width: 250
+			rewards: [
+				{
+					id: "4ED3D9B7B411B88C"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "25182BB1574A9A49"
+					item: {
+						count: 1
+						id: "ars_nouveau:purple_sbed"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6E0AB2F0B23E5F4E"
@@ -323,10 +356,11 @@
 			id: "22344008D43D4710"
 			min_width: 300
 			rewards: [{
-				id: "5FF4CB76AF603F14"
+				count: 8
+				id: "0B329AD3354CCA97"
 				item: {
 					count: 1
-					id: "ars_nouveau:starbuncle_charm"
+					id: "ars_nouveau:source_berry_pie"
 				}
 				type: "item"
 			}]
@@ -554,6 +588,14 @@
 			dependencies: ["56AD6E7F12056140"]
 			id: "623B5F0C0464F907"
 			min_width: 300
+			rewards: [{
+				id: "0ECF5B8B2CC85248"
+				item: {
+					count: 1
+					id: "ars_nouveau:purple_sbed"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D73E9E528FA62B1"
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
@@ -704,6 +746,14 @@
 		{
 			dependencies: ["56AD6E7F12056140"]
 			id: "75507A3DE753BC75"
+			rewards: [{
+				id: "009E607A512A4F1D"
+				item: {
+					count: 1
+					id: "simplemagnets:basic_demagnetization_coil"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "60F91E4C7D974E6D"
@@ -711,7 +761,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["714379744B3CF395"]
@@ -824,6 +874,15 @@
 		{
 			dependencies: ["56AD6E7F12056140"]
 			id: "3F20E7D7E1C07311"
+			rewards: [{
+				count: 8
+				id: "2D269EAEC4C5E7E3"
+				item: {
+					count: 1
+					id: "farmersdelight:rice_roll_medley_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D7CDAEE7CFB1DDE"
 				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }

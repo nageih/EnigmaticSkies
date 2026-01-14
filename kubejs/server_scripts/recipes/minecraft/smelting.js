@@ -77,6 +77,34 @@ ServerEvents.recipes((event) => {
             xp: 0.0,
             duration: 10,
             id: `${id_prefix}demagnetize_iron_rod`
+        },
+        {
+            output: 'arsdelight:grilled_wilden_meat',
+            input: 'arsdelight:wilden_meat',
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}grilled_wilden_meat`
+        },
+        {
+            output: 'arsdelight:grilled_wilden_meat_slice',
+            input: 'arsdelight:wilden_meat_slice',
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}grilled_wilden_meat_slice`
+        },
+        {
+            output: 'arsdelight:grilled_chimera_meat',
+            input: 'arsdelight:chimera_meat',
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}grilled_chimera_meat`
+        },
+        {
+            output: 'arsdelight:grilled_chimera_meat_slice',
+            input: 'arsdelight:chimera_meat_slice',
+            xp: 0.1,
+            duration: 10,
+            id: `${id_prefix}grilled_chimera_meat_slice`
         }
     ];
 

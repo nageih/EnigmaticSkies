@@ -239,7 +239,7 @@
 				id: "0DE0A9A5505F1850"
 				type: "checkmark"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
@@ -257,8 +257,25 @@
 				id: "7C0E5A805AE1132B"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6DE4258F18A7A321"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cold_sweat:textures/mob_effect/frigidness.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0A8B7FD4A52663D3"
+			min_width: 250
+			tasks: [{
+				id: "2249B1CA280D4531"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.5d
 		}
 	]
 }

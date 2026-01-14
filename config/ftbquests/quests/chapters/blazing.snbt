@@ -47,17 +47,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["28E44D5D6A6C1D6E"]
-			id: "41F0CA5ACE335062"
-			tasks: [{
-				id: "788CFD1256DA5172"
-				item: { count: 1, id: "enderio:dark_steel_ingot" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["319FD618D4608068"]
 			id: "5AC80FA3683D9E45"
 			tasks: [{
@@ -114,12 +103,22 @@
 		}
 		{
 			dependencies: ["6849CF8933FC70F9"]
+			icon: {
+				id: "oritech:centrifuge_block"
+			}
 			id: "5FC9979B966955DE"
-			tasks: [{
-				id: "23E25E62847B9FD8"
-				item: { count: 1, id: "oritech:centrifuge_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "23E25E62847B9FD8"
+					item: { count: 1, id: "oritech:centrifuge_block" }
+					type: "item"
+				}
+				{
+					id: "04AD623DA3D38EAD"
+					item: { count: 1, id: "oritech:carbon_fibre_strands" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.0d
 		}
@@ -152,14 +151,19 @@
 			id: "28E44D5D6A6C1D6E"
 			tasks: [
 				{
-					id: "133E72B2ADC417DC"
+					id: "4CD95D37244069A5"
+					item: { count: 1, id: "enderio:liquid_darkness_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B06DB2DD74EB35C"
 					item: { count: 1, id: "enderio:vat" }
 					type: "item"
 				}
 				{
-					id: "4CD95D37244069A5"
-					item: { count: 1, id: "enderio:liquid_darkness_bucket" }
-					optional_task: true
+					id: "57E249A373B29B96"
+					item: { count: 1, id: "enderio:dark_steel_ingot" }
 					type: "item"
 				}
 			]
@@ -169,13 +173,22 @@
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
 			id: "6705BECBD94CAAAD"
+			rewards: [{
+				count: 8
+				id: "21E2820BE78AC461"
+				item: {
+					count: 1
+					id: "enderio:pulsating_alloy_grinding_ball"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2686F24449713987"
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
@@ -185,8 +198,8 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3C905ECF6E0A543E"]
@@ -194,6 +207,7 @@
 				id: "modern_industrialization:electric_kiln"
 			}
 			id: "05F232C12FA99F92"
+			min_width: 300
 			tasks: [
 				{
 					id: "59E75142C9BB8CD0"
@@ -206,7 +220,17 @@
 					type: "item"
 				}
 				{
-					id: "13A267A28217248A"
+					id: "4CE3790DFB30D6B6"
+					item: { count: 1, id: "modern_industrialization:conductive_coil" }
+					type: "item"
+				}
+				{
+					id: "0F167DC0C7C13D0C"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "47B5FD189B258820"
 					item: { count: 1, id: "modern_industrialization:steel_ingot" }
 					type: "item"
 				}
@@ -287,12 +311,12 @@
 			]
 			id: "60DC19DA26E8CCA4"
 			tasks: [{
-				id: "00EC88E05F32FCEA"
-				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				id: "622474CE7FE0B24F"
+				item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
@@ -302,8 +326,8 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["05F232C12FA99F92"]
@@ -315,6 +339,38 @@
 			}]
 			x: 2.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6849CF8933FC70F9"]
+			id: "0916404C0979D753"
+			tasks: [{
+				id: "6AFD3DA3FA91EDA5"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28E44D5D6A6C1D6E"]
+			id: "288F7A968693F3E5"
+			min_width: 250
+			rewards: [{
+				count: 16
+				id: "0EF38DC737F8115B"
+				item: {
+					count: 1
+					id: "minecraft:firework_rocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "194B43E06EF1CA8F"
+				item: { count: 1, id: "enderio:weather_obelisk" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 }

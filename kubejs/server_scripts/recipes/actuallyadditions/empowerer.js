@@ -57,20 +57,6 @@ ServerEvents.recipes((event) => {
             energy: 50000,
             time: 2,
             id: `${id_prefix}netherite_scrap_dust`
-        },
-        {
-            result: { id: 'modern_industrialization:mixed_ingot_iridium', count: 1 },
-            base: { tag: 'c:ingots/iridium' },
-            modifiers: [
-                { tag: 'c:ingots/eclipsealloy' },
-                { item: 'malum:null_slate' },
-                { tag: 'c:ingots/eclipsealloy' },
-                { item: 'malum:null_slate' }
-            ],
-            color: '#eee8e9',
-            energy: 5000,
-            time: 2,
-            id: `${id_prefix}mixed_ingot_iridium`
         }
     ];
 
