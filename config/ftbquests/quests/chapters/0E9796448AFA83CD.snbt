@@ -262,8 +262,11 @@
 					type: "item"
 				}
 				{
+					icon: {
+						id: "functionalstorage:storage_controller"
+					}
 					id: "466DBFDDD1C1C5A6"
-					item: { count: 1, id: "functionalstorage:storage_controller" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:framed_storage_controller)item(functionalstorage:storage_controller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
