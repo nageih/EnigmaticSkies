@@ -258,11 +258,11 @@
 	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
-		"Water, precious and rare, will be hard to come by in this place. "
+		"&7Water&r, precious and rare, will be hard to come by in this place. "
 		""
 		"For now, you'll be able to condense a very small amount from the clouds around you. "
 		""
-		"Remember to keep an eye on your Hearth! A bucket of water will only last about 12 minutes. "
+		"Remember to keep an eye on your &7Hearth&r! A bucket of water will only last about 12 minutes. "
 		""
 		"&6⚠ Note: Water Sources are &nnot&r &6infinite! "
 	]
@@ -674,11 +674,11 @@
 		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
 	quest.123BB918DF6E3936.quest_desc: [
-		"Looking for a more traditional set of pipes? These pipes from Oritech will do the job. "
+		"Looking for a more traditional set of pipes? These pipes from Oritech should get the job done. "
 		""
 		"Simply place them down and Right-Click any pipes that connect to an inventory to toggle between Extract and Insert mode."
 		""
-		"The &7Item Pipes&r have one small quirk, however, in that they only extract from the first slot of the connected inventory."
+		"The &7Item Pipes&r have one small quirk, however; they only extract from the first slot of the connected inventory by default."
 		""
 		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
 	]
@@ -4241,7 +4241,7 @@
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
-		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full Spell Book. Fully recovering that is going to take time but we can get a start on it now."
+		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full &7Spell Book&r. Fully recovering that is going to take time but we can get a start on it now."
 		""
 		"Gather some wood and craft up some basic tools. "
 		""
@@ -5623,7 +5623,7 @@
 	reward_table.57D690FA70BABEA6.title: "PneumaticCraft Lootbox: Legendary"
 	reward_table.63595DAD65E0F896.title: "Ars Nouveau Lootbox: Epic"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
-	reward_table.6AE591972B41AD78.title: "Spare Parts"
+	reward_table.6AE591972B41AD78.title: "Spare Parts: Common"
 	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
