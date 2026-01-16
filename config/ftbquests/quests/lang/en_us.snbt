@@ -4071,7 +4071,6 @@
 		""
 		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
 	]
-	quest.603631404C9758EB.quest_desc: ["The &7Sludge&r recovered from &7Plant Gatherers&r and other machines can be filtered through a &7Sludge Refiner&r to obtain more useful blocks, like &7Gravel&r and &7Rich Soil&r."]
 	quest.605A60825B68C2D7.quest_desc: [
 		"Many animals are not well adapted to these heights, and as such have a diminished lifespan. "
 		""
@@ -5613,6 +5612,7 @@
 	reward.34CE01457EC3BF54.title: "Bed"
 	reward.5D6111B63CFD94D8.title: "Beehive with Bees!"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
+	reward_table.01958857E91F63D0.title: "Spare Parts: Rare"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"

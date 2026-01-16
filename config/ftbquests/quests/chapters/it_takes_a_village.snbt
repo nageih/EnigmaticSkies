@@ -56,12 +56,26 @@
 			}
 			id: "714379744B3CF395"
 			min_width: 300
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08DDAE84132361C8"
-				table_id: 7702722816138915192L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "4A52171926CB11F8"
+					item: {
+						count: 1
+						id: "malum:gold_node"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B517C28C2F77889"
+					item: {
+						count: 1
+						id: "malum:iron_node"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2D1ED5D64999A68A"
