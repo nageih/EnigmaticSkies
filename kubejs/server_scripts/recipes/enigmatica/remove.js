@@ -822,6 +822,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:weather_changer' },
         { id: 'naturesaura:oak_generator' },
         { id: 'naturesaura:spring' },
+        { id: 'naturesaura:light_staff' },
         { id: 'naturesaura:auto_crafter' },
         { id: 'naturesaura:depth_ingot_creation' },
         { id: 'naturesaura:blast_furnace_booster' },

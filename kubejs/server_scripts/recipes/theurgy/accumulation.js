@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'sauce:source_fluid', amount: 1000 },
             solute: { item: 'ars_additions:codex_entry' },
-            evaporant: { ingredient: { tag: 'theurgy:sal_ammoniac' }, amount: 1000 },
+            evaporant: { ingredient: { tag: 'theurgy:sal_ammoniac' }, amount: 100 },
             time: 5,
             id: `${id_prefix}source_fluid`
         },
@@ -22,7 +22,5 @@ ServerEvents.recipes((event) => {
         recipe.category = 'misc';
         recipe.time *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

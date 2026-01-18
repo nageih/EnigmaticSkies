@@ -121,6 +121,17 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}machine_burst_addon`
         },
         {
+            results: [{ id: 'oritech:machine_capacitor_addon', count: 1 }],
+            ingredients: [
+                { item: 'oritech:machine_plating_block' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'oritech:advanced_battery' },
+                { item: 'enderio:z_logic_controller' }
+            ],
+            time: 20,
+            id: `${id_prefix}machine_capacitor_addon`
+        },
+        {
             results: [{ id: 'oritech:machine_efficiency_addon', count: 1 }],
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
