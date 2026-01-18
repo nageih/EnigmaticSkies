@@ -3062,9 +3062,12 @@
 		"Not only is it strong and durable, but it is uniquely porous when it comes to &7Spirits&r; as if it has a thirst for souls that can never be quenched. "
 	]
 	quest.46F17885C957FD5C.quest_desc: [
-		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your Hearth."
+		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your &7Hearth&r."
 		""
-		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends or other entities in the area."
+		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends or &oother creatures&r in the area."
+		""
+		"&a🛈 Tip: Diffusers can be bound to "
+		"&a    Jars that are &overy far away&r&a."
 	]
 	quest.471571E3E382B404.quest_desc: [
 		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
@@ -4111,11 +4114,6 @@
 		"None"
 	]
 	quest.61090C5F8E435E7A.title: "Osorin's Unbound Calling"
-	quest.611439A59DB6826E.quest_desc: [
-		"&7Sand&r and &7Gravel&r make an excellent filter, capturing particles out of otherwise filthy &7Wastewater&r and producing clean &7Water&r. "
-		""
-		"Don’t overlook the &7Sludge&r produced by this operation, however, as it can be an invaluable source of building materials."
-	]
 	quest.6118F241A056954F.quest_desc: [
 		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
 		""

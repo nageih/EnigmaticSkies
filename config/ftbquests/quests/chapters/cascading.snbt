@@ -50,6 +50,12 @@
 		{
 			dependencies: ["7893072479F01DC2"]
 			id: "323D480E3C37579E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1930CCA6A71CCB65"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6198E25ED4186983"
 				item: { count: 1, id: "ars_nouveau:frostaya_pod" }
@@ -64,6 +70,12 @@
 				id: "pneumaticcraft:ingot_iron_compressed"
 			}
 			id: "2BB91161DB6B6AF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C031F065F9CF44D"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "070982C11D21C047"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
@@ -170,6 +182,12 @@
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
 			id: "2C07E148B9B60809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF709F31478C34D"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0D1A66DA69E01B7D"
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
@@ -360,14 +378,22 @@
 				id: "pneumaticcraft:thermal_compressor"
 			}
 			id: "6FC31B3806BF222A"
-			rewards: [{
-				id: "072E28B488CCFBE3"
-				item: {
-					count: 1
-					id: "pneumaticcraft:heat_sink"
+			rewards: [
+				{
+					id: "072E28B488CCFBE3"
+					item: {
+						count: 1
+						id: "pneumaticcraft:heat_sink"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "68B0439DB76C68D3"
+					table_id: 5549755170564644000L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "396F0D469F59671F"
@@ -470,14 +496,22 @@
 		{
 			dependencies: ["3CC1C6949E17A1B9"]
 			id: "4DFD963932B9FF81"
-			rewards: [{
-				id: "4AE7978B8E434969"
-				item: {
-					count: 1
-					id: "pneumaticcraft:regulator_tube_module"
+			rewards: [
+				{
+					id: "4AE7978B8E434969"
+					item: {
+						count: 1
+						id: "pneumaticcraft:regulator_tube_module"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "6CD5A951D63A63E7"
+					table_id: 5549755170564644000L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6F7A2A69B151DEF6"
 				item: { count: 1, id: "pneumaticcraft:vortex_tube" }
@@ -619,6 +653,44 @@
 			]
 			x: 0.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["305A56BDCBE2D2AE"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
+			id: "363AB8EC195285BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F0BF3F51C205544"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					count: 8
+					id: "7E237C9FFD423912"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21FE3A71001056DA"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "23CDBB8A570B6689"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
 		}
 	]
 }

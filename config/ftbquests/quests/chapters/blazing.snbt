@@ -38,6 +38,12 @@
 		{
 			dependencies: ["78626EE046E48EF3"]
 			id: "319FD618D4608068"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E8E16E592DF1EB4"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "429FDEE5564317E8"
 				item: { count: 1, id: "ars_nouveau:bombegranate_pod" }

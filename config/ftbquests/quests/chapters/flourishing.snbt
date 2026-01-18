@@ -375,12 +375,18 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
 			id: "6EA0560551B821B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15A4462A438927C6"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "38684C42523A88CF"
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
@@ -712,7 +718,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -951,61 +957,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["39E9D5470F347400"]
-			id: "611439A59DB6826E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E7B064BBCE78B70"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "2562816525686AA2"
-				item: { count: 1, id: "mi_tweaks:settling_tank" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["611439A59DB6826E"]
-			icon: {
-				id: "industrialforegoing:sludge_refiner"
-			}
-			id: "363AB8EC195285BE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4F0BF3F51C205544"
-					table_id: 167859363417192230L
-					type: "loot"
-				}
-				{
-					count: 8
-					id: "7E237C9FFD423912"
-					item: {
-						count: 1
-						id: "farmersdelight:rich_soil"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "21FE3A71001056DA"
-					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
-					type: "item"
-				}
-				{
-					id: "23CDBB8A570B6689"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "4F2E18DABA17E0AC"
 			rewards: [
@@ -1029,8 +980,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 }

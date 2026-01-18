@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             item_inputs: { item: 'malum:umbral_spirit', amount: 1, probability: 0.0 },
             fluid_inputs: [
                 { fluid: 'modern_industrialization:high_pressure_steam', amount: 1024 },
-                { fluid: 'minecraft:water', amount: 2000 }
+                { fluid: 'modern_industrialization:heavy_water', amount: 10 }
             ],
             duration: 30,
             eu: 16,

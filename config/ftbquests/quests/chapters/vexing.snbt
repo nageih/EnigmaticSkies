@@ -607,6 +607,12 @@
 		{
 			dependencies: ["13F15094F3AF4A73"]
 			id: "5D50FB987FCA7BB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43A7135837466CD2"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "02A287BBC378001D"
 				item: { count: 1, id: "ars_nouveau:bastion_pod" }

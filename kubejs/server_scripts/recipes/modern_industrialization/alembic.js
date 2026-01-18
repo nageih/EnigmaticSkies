@@ -3,6 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            fluid_outputs: { fluid: 'modern_industrialization:heavy_water', amount: 1 },
+            item_inputs: [{ tag: 'c:gems/source', amount: 1, probability: 1 / 4 }],
+            fluid_inputs: { fluid: 'minecraft:water', amount: 32000 },
+            eu: 32,
+            duration: 10,
+            id: `${id_prefix}heavy_water`
+        },
+
+        // Dorodangos
+        {
             item_outputs: [
                 { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
                 { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },
