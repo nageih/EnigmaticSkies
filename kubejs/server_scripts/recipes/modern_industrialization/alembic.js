@@ -7,17 +7,17 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ tag: 'c:gems/source', amount: 1, probability: 1 / 4 }],
             fluid_inputs: { fluid: 'minecraft:water', amount: 64000 },
             duration: 10,
-            eu: 32,
+            eu: 128,
             id: `${id_prefix}heavy_water`
         },
         {
             item_outputs: [
                 { item: 'theurgy:crystallized_water', amount: 6 },
-                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 2 }
+                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 500 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 2000 },
             alakarkinos: true,
             duration: 5,
             eu: 2,
@@ -25,16 +25,29 @@ ServerEvents.recipes((event) => {
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 24 },
-                { item: 'theurgy:crystallized_water', amount: 4, probability: 1 / 2 }
+                { item: 'theurgy:crystallized_water', amount: 18 },
+                { item: 'theurgy:crystallized_water', amount: 6, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 2000 },
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 6000 },
             alakarkinos: true,
-            duration: 10,
-            eu: 2,
+            duration: 5,
+            eu: 64,
             id: `${id_prefix}melon_ball_processing_from_strange_matter`
+        },
+        {
+            item_outputs: [
+                { item: 'theurgy:crystallized_water', amount: 24 },
+                { item: 'theurgy:crystallized_water', amount: 8, probability: 1 / 3 }
+            ],
+            item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1, probability: 1 / 2 }],
+            fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 8000 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 128,
+            id: `${id_prefix}melon_ball_processing_from_vapours_of_nyx`
         }
     ];
 
@@ -105,10 +118,10 @@ ServerEvents.recipes((event) => {
         payload = {
             item_outputs: [],
             item_inputs: [{ item: dorodango.id, amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
             fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
             alakarkinos: true,
-            duration: 10,
+            duration: 5,
             eu: 64,
             id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_strange_matter`
         };
@@ -117,6 +130,27 @@ ServerEvents.recipes((event) => {
             payload.item_outputs.push({
                 item: output.item,
                 amount: output.amount * 2,
+                probability: output.probability
+            });
+        });
+
+        recipes.push(payload);
+
+        payload = {
+            item_outputs: [],
+            item_inputs: [{ item: dorodango.id, amount: 1, probability: 1 / 2 }],
+            fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 128,
+            id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_vapours_of_nyx`
+        };
+
+        dorodango.item_outputs.forEach((output) => {
+            payload.item_outputs.push({
+                item: output.item,
+                amount: output.amount * 4,
                 probability: output.probability
             });
         });

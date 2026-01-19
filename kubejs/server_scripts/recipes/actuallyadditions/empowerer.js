@@ -45,11 +45,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}gooblock_tier3`
         },
         {
-            result: { id: 'occultism:netherite_scrap_dust', count: 1 },
-            base: { tag: 'c:dusts/quartz' },
+            result: { id: 'occultism:netherite_scrap_dust', count: 4 },
+            base: { tag: 'c:essences/null_slate' },
             modifiers: [
                 { tag: 'c:dusts/carbon' },
-                { item: 'create:cinder_flour' },
+                { tag: 'c:dusts/quartze' },
                 { tag: 'c:dusts/carbon' },
                 { item: 'create:cinder_flour' }
             ],

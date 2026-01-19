@@ -338,9 +338,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}still_strange_matter`
         },
         {
-            outputs: {
-                item_output: { id: 'minecraft:netherite_scrap', count: 1 }
-            },
+            outputs: { item_output: { id: 'minecraft:netherite_scrap', count: 1 } },
             inputs: {
                 fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
                 item: { tag: 'c:dusts/netherite_scrap' }
@@ -352,9 +350,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}netherite_scrap`
         },
         {
-            outputs: {
-                item_output: { id: 'malum:cthonic_gold', count: 1 }
-            },
+            outputs: { item_output: { id: 'malum:cthonic_gold', count: 1 } },
             inputs: {
                 fluid: { fluid: 'oritech:still_sheol_fire', amount: 250 },
                 item: { tag: 'c:storage_blocks/hallowed_gold' }
@@ -364,6 +360,55 @@ ServerEvents.recipes((event) => {
             pressure: 6.66,
             time: 4.0,
             id: `${id_prefix}cthonic_gold`
+        },
+
+        {
+            outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 8 } },
+            inputs: { item: { tag: 'c:pebbles' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 1.0,
+            id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
+        },
+        {
+            outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 32 } },
+            inputs: { item: { tag: 'c:gravels' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 4.0,
+            id: `${id_prefix}alchemical_salt_mineral_from_gravels`
+        },
+        {
+            outputs: { item_output: { id: 'justdirethings:coal_t1', count: 2 } },
+            inputs: { item: { tag: 'minecraft:logs_that_burn' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 1.0,
+            id: `${id_prefix}coal_t1`
+        },
+        {
+            outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
+            inputs: { item: { item: 'minecraft:bone' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 1.0,
+            id: `${id_prefix}grim_talc_from_bone`
+        },
+        {
+            outputs: { item_output: { id: 'malum:grim_talc', count: 1 } },
+            inputs: { item: { item: 'aquaculture:fish_bones' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 1.0,
+            id: `${id_prefix}grim_talc_from_fish_bones`
+        },
+        {
+            outputs: { item_output: { id: 'malum:rotting_essence', count: 1 } },
+            inputs: { item: { item: 'minecraft:rotten_flesh' } },
+            temperature: { min: CtoK(1500) },
+            pressure: -0.75,
+            time: 1.0,
+            id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }
     ];
 

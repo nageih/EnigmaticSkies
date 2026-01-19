@@ -109,6 +109,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}cooler_block`
         },
         {
+            output: `oritech:pipe_booster_block`,
+            pattern: ['AAA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:fluid_pipe',
+                C: '#c:gears/compressed_iron',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}pipe_booster_block`
+        },
+        {
             output: `oritech:centrifuge_block`,
             pattern: ['AAA', 'CDC', 'EFE'],
             key: {
