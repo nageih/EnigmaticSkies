@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
             base: { tag: 'c:essences/null_slate' },
             modifiers: [
                 { tag: 'c:dusts/carbon' },
-                { tag: 'c:dusts/quartze' },
+                { tag: 'c:dusts/quartz' },
                 { tag: 'c:dusts/carbon' },
                 { item: 'create:cinder_flour' }
             ],
@@ -57,6 +57,20 @@ ServerEvents.recipes((event) => {
             energy: 50000,
             time: 2,
             id: `${id_prefix}netherite_scrap_dust`
+        },
+        {
+            result: { id: 'enigmatica:welkin_decanter', count: 1 },
+            base: { item: 'malum:spirit_jar' },
+            modifiers: [
+                { item: 'malum:astral_weave' },
+                { item: 'the_bumblezone:essence_radiance' },
+                { tag: 'c:plates/sky' },
+                { item: 'malum:wind_nucleus' }
+            ],
+            color: '#c1fffc',
+            energy: 50000,
+            time: 2,
+            id: `${id_prefix}welkin_decanter`
         }
     ];
 

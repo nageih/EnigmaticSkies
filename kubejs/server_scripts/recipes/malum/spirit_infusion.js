@@ -428,6 +428,20 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}iridium_plate`
+        },
+        {
+            result: { id: 'enigmatica:tumultuous_anemoi', count: 1 },
+            input: { item: 'enigmatica:welkin_decanter', count: 1 },
+            extraInputs: [
+                { item: 'malum:rune_of_sky_tether', count: 4 },
+                { item: 'oritech:overcharged_crystal', count: 1 },
+                { item: 'malum:rune_of_howling_gale', count: 4 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:aerial', count: 16 }
+            ],
+            id: `${id_prefix}tumultuous_anemoi`
         }
     ];
 

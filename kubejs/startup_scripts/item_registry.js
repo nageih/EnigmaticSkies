@@ -142,6 +142,11 @@ StartupEvents.registry('item', (event) => {
             name: 'Forest Essentia',
             colors: ['', '#379401'],
             layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_vortex']
+        },
+        {
+            name: 'Luminiferous Aether Bottle',
+            colors: ['', ''],
+            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_phlogiston']
         }
     ];
 

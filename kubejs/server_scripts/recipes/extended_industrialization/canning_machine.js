@@ -30,6 +30,23 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}filling_water_bottle`
+        },
+
+        {
+            item_outputs: [{ item: 'minecraft:glass_bottle', amount: 1 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:helium_plasma', amount: 250 }],
+            item_inputs: [{ item: 'enigmatica:luminiferous_aether_bottle' }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}emptying_luminiferous_aether_bottle`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:luminiferous_aether_bottle' }],
+            item_inputs: [{ item: 'minecraft:glass_bottle', amount: 1 }],
+            fluid_inputs: [{ fluid: 'modern_industrialization:helium_plasma', amount: 250 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}filling_luminiferous_aether_bottle`
         }
     ];
 
@@ -37,7 +54,5 @@ ServerEvents.recipes((event) => {
         recipe.type = 'extended_industrialization:canning_machine';
         recipe.duration *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
