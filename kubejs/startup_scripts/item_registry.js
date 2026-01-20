@@ -18,7 +18,13 @@ StartupEvents.registry('item', (event) => {
 
         'magic_lamp',
 
-        'elemental_matrix'
+        'elemental_matrix',
+
+        'dormant_wildroot',
+        'suffused_wildroot',
+
+        'welkin_decanter',
+        'tumultuous_anemoi'
     ];
 
     simple_items.forEach((item) => {
@@ -101,6 +107,46 @@ StartupEvents.registry('item', (event) => {
             name: 'Source Ink',
             colors: ['', '#7d20ab', ''],
             layers: ['alchemy_bottle', 'alchemy_bottle_normal_contents_swirling', 'alchemy_bottle_label_black']
+        },
+        {
+            name: 'Desert Essentia',
+            colors: ['', '#fcc924'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_pulsing']
+        },
+        {
+            name: 'Savanna Essentia',
+            colors: ['', '#a4b641'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_bubbling']
+        },
+        {
+            name: 'Taiga Essentia',
+            colors: ['', '#56bd9b'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_swirling']
+        },
+        {
+            name: 'Swamp Essentia',
+            colors: ['', '#4b9902'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_roiling']
+        },
+        {
+            name: 'Plains Essentia',
+            colors: ['', '#05dcf8'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_still']
+        },
+        {
+            name: 'Tundra Essentia',
+            colors: ['', '#bae6f0'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_gyre']
+        },
+        {
+            name: 'Forest Essentia',
+            colors: ['', '#379401'],
+            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_vortex']
+        },
+        {
+            name: 'Luminiferous Aether Bottle',
+            colors: ['', ''],
+            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_phlogiston']
         }
     ];
 
@@ -110,7 +156,7 @@ StartupEvents.registry('item', (event) => {
         item.containerItem('minecraft:glass_bottle');
 
         bottle.layers.forEach((layer, index) => {
-            item.texture(`layer${index}`, `enigmatica:item/${layer}`);
+            item.texture(`layer${index}`, `enigmatica:item/alchemy_bottles/${layer}`);
         });
 
         bottle.colors.forEach((color, index) => {
@@ -194,42 +240,43 @@ StartupEvents.registry('item', (event) => {
         { id: 'rift_wilden_calamity', type: 'misc' },
 
         // Animated Creatures
-        { id: 'animate_blue_swet', type: 'summon' },
-        { id: 'animate_golden_swet', type: 'summon' },
-        { id: 'animate_slime', type: 'summon' },
-        { id: 'animate_magma_cube', type: 'summon' },
-        { id: 'animate_zephyr', type: 'summon' },
-        { id: 'animate_sentry', type: 'summon' },
-        { id: 'animate_rootmin', type: 'summon' },
-        { id: 'animate_guardian', type: 'summon' },
-        { id: 'animate_honey_slime', type: 'summon' },
-        { id: 'animate_shulker', type: 'summon' },
-        { id: 'animate_flourishing_weald_walker', type: 'summon' },
-        { id: 'animate_blazing_weald_walker', type: 'summon' },
-        { id: 'animate_cascading_weald_walker', type: 'summon' },
-        { id: 'animate_vexing_weald_walker', type: 'summon' },
-        { id: 'animate_flashing_weald_walker', type: 'summon' },
-        { id: 'animate_skeleton', type: 'summon' },
-        { id: 'animate_stray', type: 'summon' },
-        { id: 'animate_bogged', type: 'summon' },
-        { id: 'animate_phantom', type: 'summon' },
+        { id: 'animate_blue_swet', type: 'possess' },
+        { id: 'animate_golden_swet', type: 'possess' },
+        { id: 'animate_slime', type: 'possess' },
+        { id: 'animate_magma_cube', type: 'possess' },
+        { id: 'animate_zephyr', type: 'possess' },
+        { id: 'animate_sentry', type: 'possess' },
+        { id: 'animate_rootmin', type: 'possess' },
+        { id: 'animate_guardian', type: 'possess' },
+        { id: 'animate_honey_slime', type: 'possess' },
+        { id: 'animate_shulker', type: 'possess' },
+        { id: 'animate_flourishing_weald_walker', type: 'possess' },
+        { id: 'animate_blazing_weald_walker', type: 'possess' },
+        { id: 'animate_cascading_weald_walker', type: 'possess' },
+        { id: 'animate_vexing_weald_walker', type: 'possess' },
+        { id: 'animate_flashing_weald_walker', type: 'possess' },
+        { id: 'animate_skeleton', type: 'possess' },
+        { id: 'animate_stray', type: 'possess' },
+        { id: 'animate_bogged', type: 'possess' },
+        { id: 'animate_phantom', type: 'possess' },
 
-        { id: 'animate_creeper', type: 'summon' },
-        { id: 'animate_badlands_creeper', type: 'summon' },
-        { id: 'animate_bamboo_creeper', type: 'summon' },
-        { id: 'animate_beach_creeper', type: 'summon' },
-        { id: 'animate_birch_creeper', type: 'summon' },
-        { id: 'animate_cave_creeper', type: 'summon' },
-        { id: 'animate_desert_creeper', type: 'summon' },
-        { id: 'animate_dripstone_creeper', type: 'summon' },
-        { id: 'animate_hills_creeper', type: 'summon' },
-        { id: 'animate_jungle_creeper', type: 'summon' },
-        { id: 'animate_mushroom_creeper', type: 'summon' },
-        { id: 'animate_ocean_creeper', type: 'summon' },
-        { id: 'animate_savannah_creeper', type: 'summon' },
-        { id: 'animate_snowy_creeper', type: 'summon' },
-        { id: 'animate_spruce_creeper', type: 'summon' },
-        { id: 'animate_swamp_creeper', type: 'summon' },
+        { id: 'animate_creeper', type: 'possess' },
+        { id: 'animate_badlands_creeper', type: 'possess' },
+        { id: 'animate_bamboo_creeper', type: 'possess' },
+        { id: 'animate_beach_creeper', type: 'possess' },
+        { id: 'animate_birch_creeper', type: 'possess' },
+        { id: 'animate_cave_creeper', type: 'possess' },
+        { id: 'animate_dark_oak_creeper', type: 'possess' },
+        { id: 'animate_desert_creeper', type: 'possess' },
+        { id: 'animate_dripstone_creeper', type: 'possess' },
+        { id: 'animate_hills_creeper', type: 'possess' },
+        { id: 'animate_jungle_creeper', type: 'possess' },
+        { id: 'animate_mushroom_creeper', type: 'possess' },
+        { id: 'animate_ocean_creeper', type: 'possess' },
+        { id: 'animate_savannah_creeper', type: 'possess' },
+        { id: 'animate_snowy_creeper', type: 'possess' },
+        { id: 'animate_spruce_creeper', type: 'possess' },
+        { id: 'animate_swamp_creeper', type: 'possess' },
 
         // Transmuted Creatures
         { id: 'transmute_wilden_stalker', type: 'summon' },

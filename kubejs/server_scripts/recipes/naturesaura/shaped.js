@@ -129,6 +129,17 @@ ServerEvents.recipes((event) => {
                 E: 'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]'
             },
             id: `${id_prefix}death_ring`
+        },
+        {
+            output: 'naturesaura:light_staff',
+            pattern: [' CB', ' DA', 'D  '],
+            key: {
+                A: '#c:essences/fire',
+                B: '#c:dusts/glowstone',
+                C: '#c:essences/air',
+                D: 'naturesaura:ancient_stick'
+            },
+            id: `${id_prefix}light_staff`
         }
     ];
 

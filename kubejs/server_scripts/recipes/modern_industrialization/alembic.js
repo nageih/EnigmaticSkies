@@ -3,204 +3,160 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            item_outputs: [
-                { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
-                { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:briny_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}briny_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'aquaculture:neptunium_nugget', amount: 6, probability: 1 / 3 },
-                { item: 'ae2:certus_quartz_crystal', amount: 4, probability: 1 / 3 },
-                { item: 'minecraft:lapis_lazuli', amount: 2, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:briny_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
+            fluid_outputs: { fluid: 'modern_industrialization:heavy_water', amount: 40 },
+            item_inputs: [{ tag: 'c:gems/source', amount: 1, probability: 1 / 4 }],
+            fluid_inputs: { fluid: 'minecraft:water', amount: 64000 },
             duration: 10,
-            id: `${id_prefix}briny_dorodango_processing_from_strange_matter`
-        },
-        {
-            item_outputs: [
-                { item: 'minecraft:nautilus_shell', amount: 3, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_shard', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_crystals', amount: 1, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:silty_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}silty_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'minecraft:nautilus_shell', amount: 6, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_shard', amount: 4, probability: 1 / 3 },
-                { item: 'minecraft:prismarine_crystals', amount: 2, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:silty_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
-            duration: 10,
-            id: `${id_prefix}silty_dorodango_processing_from_strange_matter`
-        },
-        {
-            item_outputs: [
-                { item: 'aquaculture:fish_bones', amount: 3, probability: 1 / 3 },
-                { item: 'actuallyadditions:black_quartz', amount: 2, probability: 1 / 3 },
-                { item: 'minecraft:rotten_flesh', amount: 1, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:boggy_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}boggy_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'aquaculture:fish_bones', amount: 6, probability: 1 / 3 },
-                { item: 'actuallyadditions:black_quartz', amount: 4, probability: 1 / 3 },
-                { item: 'minecraft:rotten_flesh', amount: 2, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:boggy_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
-            duration: 10,
-            id: `${id_prefix}boggy_dorodango_processing_from_strange_matter`
-        },
-        {
-            item_outputs: [
-                { item: 'aether:zanite_gemstone', amount: 3, probability: 1 / 3 },
-                { item: 'occultism:echo_dust', amount: 2, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:reverberating_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}reverberating_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'aether:zanite_gemstone', amount: 6, probability: 1 / 3 },
-                { item: 'occultism:echo_dust', amount: 4, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 2, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:reverberating_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
-            duration: 10,
-            id: `${id_prefix}reverberating_dorodango_processing_from_strange_matter`
-        },
-        {
-            item_outputs: [
-                { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
-                { item: 'theurgy:crystallized_lava', amount: 2, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}volcanic_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'malum:blazing_quartz', amount: 6, probability: 1 / 3 },
-                { item: 'theurgy:crystallized_lava', amount: 4, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 2, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:volcanic_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
-            duration: 10,
-            id: `${id_prefix}volcanic_dorodango_processing_from_strange_matter`
-        },
-        {
-            item_outputs: [
-                { item: 'theurgy:sal_ammoniac_crystal', amount: 3, probability: 1 / 3 },
-                { item: 'ae2:sky_dust', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:cloudy_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
-            alakarkinos: true,
-            eu: 2,
-            duration: 5,
-            id: `${id_prefix}cloudy_dorodango_processing`
-        },
-        {
-            item_outputs: [
-                { item: 'theurgy:sal_ammoniac_crystal', amount: 6, probability: 1 / 3 },
-                { item: 'ae2:sky_dust', amount: 4, probability: 1 / 3 },
-                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 }
-            ],
-            item_inputs: [{ item: 'enigmatica:cloudy_dorodango', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
-            alakarkinos: true,
-            eu: 64,
-            duration: 10,
-            id: `${id_prefix}cloudy_dorodango_processing_from_strange_matter`
+            eu: 128,
+            id: `${id_prefix}heavy_water`
         },
         {
             item_outputs: [
                 { item: 'theurgy:crystallized_water', amount: 6 },
-                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 2 }
+                { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
             fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 500 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 2000 },
             alakarkinos: true,
-            eu: 2,
             duration: 5,
+            eu: 2,
             id: `${id_prefix}melon_ball_processing`
         },
         {
             item_outputs: [
-                { item: 'theurgy:crystallized_water', amount: 24 },
-                { item: 'theurgy:crystallized_water', amount: 4, probability: 1 / 2 }
+                { item: 'theurgy:crystallized_water', amount: 18 },
+                { item: 'theurgy:crystallized_water', amount: 6, probability: 1 / 3 }
             ],
             item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1 }],
-            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 50 },
-            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 2000 },
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 6000 },
             alakarkinos: true,
-            eu: 2,
-            duration: 10,
+            duration: 5,
+            eu: 64,
             id: `${id_prefix}melon_ball_processing_from_strange_matter`
+        },
+        {
+            item_outputs: [
+                { item: 'theurgy:crystallized_water', amount: 24 },
+                { item: 'theurgy:crystallized_water', amount: 8, probability: 1 / 3 }
+            ],
+            item_inputs: [{ item: 'enigmatica:melon_ball', amount: 1, probability: 1 / 2 }],
+            fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 8000 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 128,
+            id: `${id_prefix}melon_ball_processing_from_vapours_of_nyx`
         }
     ];
+
+    const dorodangos = [
+        {
+            id: 'enigmatica:briny_dorodango',
+            item_outputs: [
+                { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
+                { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },
+                { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 }
+            ]
+        },
+        {
+            id: 'enigmatica:silty_dorodango',
+            item_outputs: [
+                { item: 'minecraft:nautilus_shell', amount: 3, probability: 1 / 3 },
+                { item: 'minecraft:prismarine_shard', amount: 2, probability: 1 / 3 },
+                { item: 'minecraft:prismarine_crystals', amount: 1, probability: 1 / 3 }
+            ]
+        },
+        {
+            id: 'enigmatica:boggy_dorodango',
+            item_outputs: [
+                { item: 'aquaculture:fish_bones', amount: 3, probability: 1 / 3 },
+                { item: 'actuallyadditions:black_quartz', amount: 2, probability: 1 / 3 },
+                { item: 'minecraft:rotten_flesh', amount: 1, probability: 1 / 3 }
+            ]
+        },
+        {
+            id: 'enigmatica:reverberating_dorodango',
+            item_outputs: [
+                { item: 'aether:zanite_gemstone', amount: 3, probability: 1 / 3 },
+                { item: 'occultism:echo_dust', amount: 2, probability: 1 / 3 },
+                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 }
+            ]
+        },
+        {
+            id: 'enigmatica:volcanic_dorodango',
+            item_outputs: [
+                { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
+                { item: 'theurgy:crystallized_lava', amount: 2, probability: 1 / 3 },
+                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 }
+            ]
+        },
+        {
+            id: 'enigmatica:cloudy_dorodango',
+            item_outputs: [
+                { item: 'theurgy:sal_ammoniac_crystal', amount: 3, probability: 1 / 3 },
+                { item: 'ae2:sky_dust', amount: 2, probability: 1 / 3 }
+            ]
+        }
+    ];
+
+    dorodangos.forEach((dorodango) => {
+        let payload = {
+            item_outputs: dorodango.item_outputs,
+            item_inputs: [{ item: dorodango.id, amount: 1 }],
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 25 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_sal_ammoniac`
+        };
+
+        recipes.push(payload);
+
+        payload = {
+            item_outputs: [],
+            item_inputs: [{ item: dorodango.id, amount: 1 }],
+            fluid_inputs: { fluid: 'oritech:still_strange_matter', amount: 25 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 100 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 64,
+            id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_strange_matter`
+        };
+
+        dorodango.item_outputs.forEach((output) => {
+            payload.item_outputs.push({
+                item: output.item,
+                amount: output.amount * 2,
+                probability: output.probability
+            });
+        });
+
+        recipes.push(payload);
+
+        payload = {
+            item_outputs: [],
+            item_inputs: [{ item: dorodango.id, amount: 1, probability: 1 / 2 }],
+            fluid_inputs: { fluid: 'enigmatica:vapours_of_nyx', amount: 5 },
+            fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
+            alakarkinos: true,
+            duration: 5,
+            eu: 128,
+            id: `${id_prefix}${dorodango.id.split(':')[1]}_processing_from_vapours_of_nyx`
+        };
+
+        dorodango.item_outputs.forEach((output) => {
+            payload.item_outputs.push({
+                item: output.item,
+                amount: output.amount * 4,
+                probability: output.probability
+            });
+        });
+
+        recipes.push(payload);
+    });
 
     recipes.forEach((recipe) => {
         recipe.duration *= 20;

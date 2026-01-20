@@ -38,6 +38,12 @@
 		{
 			dependencies: ["768869D763EC54EB"]
 			id: "19F8B29D38CA31B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A6A7398AD845A83"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "282D385C49F82087"
 				item: { count: 1, id: "ars_elemental:flashpine_pod" }

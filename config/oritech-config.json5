@@ -5,19 +5,19 @@
             energyCapacity: 50000,
             maxEnergyInsertion: 1024,
             maxEnergyExtraction: 0,
-            energyPerTick: 128
+            energyPerTick: 256
         },
         atomicForgeData: {
-            energyCapacity: 1024,
+            energyCapacity: 50000,
             maxEnergyInsertion: 0,
             maxEnergyExtraction: 0,
-            energyPerTick: 1024
+            energyPerTick: 4096
         },
         centrifugeData: {
-            energyCapacity: 10000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 512,
-            energyPerTick: 64,
-            tankSizeInBuckets: 8
+            energyPerTick: 1024,
+            tankSizeInBuckets: 64
         },
         foundryData: {
             energyCapacity: 50000,
@@ -29,7 +29,7 @@
             energyCapacity: 50000,
             maxEnergyInsertion: 256,
             maxEnergyExtraction: 0,
-            energyPerTick: 32
+            energyPerTick: 64
         },
         fragmentForgeData: {
             energyCapacity: 50000,
@@ -38,13 +38,13 @@
             energyPerTick: 256
         },
         furnaceData: {
-            energyCapacity: 10000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 256,
             energyPerTick: 32,
             speedMultiplier: 0.5
         },
         pulverizerData: {
-            energyCapacity: 25000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 256,
             maxEnergyExtraction: 0,
             energyPerTick: 32

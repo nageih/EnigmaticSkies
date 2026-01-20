@@ -41,6 +41,15 @@
 				id: "minecraft:moss_block"
 			}
 			id: "5AFB064A80189AA4"
+			rewards: [{
+				count: 8
+				id: "762CF5A2A5637EFF"
+				item: {
+					count: 1
+					id: "malum:copper_node"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7EB17A8C21C157CA"
@@ -131,6 +140,12 @@
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
 			id: "39E9D5470F347400"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1266D0B735B6DFB3"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "12DAA678727A6EEA"
 				item: { count: 1, id: "modern_industrialization:bronze_alluvial_trommel" }
@@ -142,6 +157,12 @@
 		{
 			dependencies: ["6806970967942788"]
 			id: "5E727F7B600E0E91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10A13E35513A6CCF"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "22F25CA36A232063"
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
@@ -238,6 +259,12 @@
 			dependencies: ["49968116FCB311B0"]
 			id: "63944BDC078E728A"
 			min_width: 400
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1754F34F4B5376B3"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6059DD0F3986707D"
@@ -254,6 +281,14 @@
 			]
 			id: "579B2C5CB83022ED"
 			min_width: 250
+			rewards: [{
+				id: "669263D237B31BCC"
+				item: {
+					count: 1
+					id: "ars_nouveau:relay_splitter"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "32BB268124E0C570"
@@ -340,12 +375,18 @@
 				item: { count: 1, id: "actuallyadditions:farmer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
 			id: "6EA0560551B821B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15A4462A438927C6"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "38684C42523A88CF"
 				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
@@ -380,37 +421,6 @@
 		}
 		{
 			dependencies: ["136AD444BD07EFCF"]
-			icon: {
-				id: "industrialforegoing:sludge_refiner"
-			}
-			id: "603631404C9758EB"
-			rewards: [{
-				count: 8
-				id: "64A7DDED903082F4"
-				item: {
-					count: 1
-					id: "farmersdelight:rich_soil"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "252404641962A0A3"
-					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
-					type: "item"
-				}
-				{
-					id: "400A6759534EF6D4"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["136AD444BD07EFCF"]
 			id: "1D7DF143EDEAE1EC"
 			rewards: [{
 				count: 8
@@ -427,7 +437,7 @@
 				item: { count: 1, id: "industrialforegoing:spores_recreator" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 5.5d
 		}
 		{
@@ -463,7 +473,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -472,20 +482,28 @@
 				id: "industrialforegoing:plant_gatherer"
 			}
 			id: "136AD444BD07EFCF"
-			rewards: [{
-				count: 2
-				id: "223900AE466245AE"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
+			rewards: [
+				{
+					count: 2
+					id: "223900AE466245AE"
+					item: {
+						components: {
+							"titanium:augments": {
+								Range: 3.0f
+							}
 						}
+						count: 1
+						id: "industrialforegoing:range_addon_tier_3"
 					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "444BA79BE64E8F2F"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "4006D332A5602C64"
@@ -557,6 +575,12 @@
 				id: "actuallyadditions:coffee_machine"
 			}
 			id: "6806970967942788"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E91FC358C75BA37"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "22FD87401BAEB840"
@@ -649,12 +673,10 @@
 			}
 			id: "17553CF42EDC67A6"
 			rewards: [{
-				id: "7DE089CA75BC4E7A"
-				item: {
-					count: 1
-					id: "ars_additions:lost_codex_entry"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7A7F4241944D4472"
+				table_id: 7158856082002081942L
+				type: "loot"
 			}]
 			shape: "diamond"
 			tasks: [
@@ -696,7 +718,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -789,20 +811,28 @@
 		{
 			dependencies: ["5E727F7B600E0E91"]
 			id: "410225ED927857D4"
-			rewards: [{
-				count: 3
-				id: "2D97EA4CC60D74C9"
-				item: {
-					components: {
-						"titanium:augments": {
-							Range: 3.0f
+			rewards: [
+				{
+					count: 3
+					id: "2D97EA4CC60D74C9"
+					item: {
+						components: {
+							"titanium:augments": {
+								Range: 3.0f
+							}
 						}
+						count: 1
+						id: "industrialforegoing:range_addon_tier_3"
 					}
-					count: 1
-					id: "industrialforegoing:range_addon_tier_3"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "66FE8F1A1404489B"
+					table_id: 114147276722496464L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "70F2249949E43952"
@@ -846,6 +876,12 @@
 				"2C3B39CD6A7E044C"
 			]
 			id: "7B9D8AD7BFC1E87D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C79CE8CD63716BF"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "1027C803FC43B8F7"
 				item: { count: 1, id: "oritech:flux_gate" }
@@ -921,55 +957,31 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["39E9D5470F347400"]
-			id: "611439A59DB6826E"
-			tasks: [{
-				id: "2562816525686AA2"
-				item: { count: 1, id: "mi_tweaks:settling_tank" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["611439A59DB6826E"]
-			icon: {
-				id: "industrialforegoing:sludge_refiner"
-			}
-			id: "363AB8EC195285BE"
-			tasks: [
-				{
-					id: "21FE3A71001056DA"
-					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
-					type: "item"
-				}
-				{
-					id: "23CDBB8A570B6689"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(industrialforegoing:sludge)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["7B9D8AD7BFC1E87D"]
 			id: "4F2E18DABA17E0AC"
-			rewards: [{
-				id: "749D44B09FDCD01F"
-				item: {
-					count: 1
-					id: "minecraft:redstone_torch"
+			rewards: [
+				{
+					id: "749D44B09FDCD01F"
+					item: {
+						count: 1
+						id: "minecraft:redstone_torch"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "55C4201829E545F8"
+					table_id: 114147276722496464L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "6E26DAA418B8367F"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 }

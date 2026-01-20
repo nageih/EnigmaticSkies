@@ -3,6 +3,19 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            result: { id: 'enderio:weather_crystal', count: 1 },
+            input: { item: 'malum:zephyr_impetus' },
+            spirits: [
+                { type: 'malum:aerial', count: 16 },
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:infernal', count: 16 }
+            ],
+            durabilityCost: 1,
+            time: 60,
+            id: `${id_prefix}weather_crystal`
+        },
+
+        {
             result: { id: 'enderio:pulsating_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
             spirits: [
@@ -15,28 +28,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}pulsating_crystal`
         },
         {
-            result: { id: 'enderio:weather_crystal', count: 1 },
-            input: { item: 'malum:zephyr_impetus' },
-            spirits: [
-                { type: 'malum:aerial', count: 16 },
-                { type: 'malum:arcane', count: 16 },
-                { type: 'malum:infernal', count: 16 }
-            ],
-            durabilityCost: 1,
-            time: 60,
-            id: `${id_prefix}weather_crystal`
-        },
-        {
-            result: { id: 'actuallyadditions:emeradic_crystal', count: 4 },
+            result: { id: 'malum:strange_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
-            spirits: [
-                { type: 'malum:sacred', count: 2 },
-                { type: 'malum:arcane', count: 2 }
-            ],
+            spirits: [{ type: 'malum:eldritch', count: 1 }],
             durabilityCost: 1,
             time: 10,
-            id: `${id_prefix}emeradic_crystal`
+            id: `${id_prefix}strange_crystal`
         },
+
         {
             result: { id: 'aether:ambrosium_shard', count: 4 },
             input: { item: 'malum:gold_impetus' },
@@ -49,10 +48,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}ambrosium_shard`
         },
         {
-            result: { id: 'actuallyadditions:palis_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
+            result: { id: 'actuallyadditions:emeradic_crystal', count: 4 },
+            input: { item: 'malum:copper_impetus' },
             spirits: [
-                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:arcane', count: 2 },
+                { type: 'malum:sacred', count: 2 }
+            ],
+            durabilityCost: 1,
+            time: 10,
+            id: `${id_prefix}emeradic_crystal`
+        },
+        {
+            result: { id: 'actuallyadditions:palis_crystal', count: 4 },
+            input: { item: 'malum:copper_impetus' },
+            spirits: [
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:aqueous', count: 2 }
             ],
@@ -62,9 +71,8 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:diamatine_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
+            input: { item: 'malum:copper_impetus' },
             spirits: [
-                { type: 'malum:sacred', count: 2 },
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:aerial', count: 2 }
             ],
@@ -74,9 +82,8 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:restonia_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
+            input: { item: 'malum:copper_impetus' },
             spirits: [
-                { type: 'malum:sacred', count: 2 },
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:infernal', count: 2 }
             ],
@@ -86,9 +93,8 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:enori_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
+            input: { item: 'malum:copper_impetus' },
             spirits: [
-                { type: 'malum:sacred', count: 2 },
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:earthen', count: 2 }
             ],
@@ -98,23 +104,14 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'actuallyadditions:void_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
+            input: { item: 'malum:copper_impetus' },
             spirits: [
-                { type: 'malum:sacred', count: 2 },
                 { type: 'malum:arcane', count: 2 },
                 { type: 'malum:eldritch', count: 2 }
             ],
             durabilityCost: 1,
             time: 10,
             id: `${id_prefix}void_crystal`
-        },
-        {
-            result: { id: 'malum:strange_crystal', count: 4 },
-            input: { item: 'malum:alchemical_impetus' },
-            spirits: [{ type: 'malum:eldritch', count: 1 }],
-            durabilityCost: 1,
-            time: 10,
-            id: `${id_prefix}strange_crystal`
         }
     ];
 

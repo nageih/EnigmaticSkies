@@ -432,6 +432,119 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
             processingTime: 60,
             id: `${id_prefix}infinity_launcher`
+        },
+
+        {
+            output: { id: 'enigmatica:forest_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:dark_oak_sapling' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:birch_sapling' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:honeycomb' },
+                { item: 'minecraft:mycelium' },
+                { item: 'minecraft:lilac' },
+                { item: 'minecraft:red_mushroom_block' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}forest_essentia`
+        },
+        {
+            output: { id: 'enigmatica:desert_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:cactus' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:dead_bush' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:rabbit_foot' },
+                { item: 'minecraft:red_sandstone' },
+                { item: 'minecraft:poppy' },
+                { item: 'minecraft:sandstone' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}desert_essentia`
+        },
+        {
+            output: { id: 'enigmatica:taiga_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:spruce_sapling' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:fern' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:feather' },
+                { item: 'minecraft:podzol' },
+                { item: 'minecraft:sweet_berries' },
+                { item: 'minecraft:mossy_cobblestone' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}taiga_essentia`
+        },
+        {
+            output: { id: 'enigmatica:tundra_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:glow_lichen' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:pumpkin' },
+                { item: 'minecraft:goat_horn' },
+                { item: 'cold_sweat:goat_fur' },
+                { item: 'minecraft:blue_ice' },
+                { item: 'minecraft:beetroot' },
+                { item: 'minecraft:snow_block' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}tundra_essentia`
+        },
+        {
+            output: { id: 'enigmatica:savanna_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:acacia_sapling' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'arts_and_crafts:cork_sapling' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:armadillo_scute' },
+                { item: 'minecraft:grass_block' },
+                { item: 'minecraft:rose_bush' },
+                { item: 'minecraft:granite' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}savanna_essentia`
+        },
+        {
+            output: { id: 'enigmatica:plains_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:oak_sapling' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:sugar_cane' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:leather' },
+                { item: 'minecraft:grass_block' },
+                { item: 'minecraft:sunflower' },
+                { item: 'minecraft:andesite' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}plains_essentia`
+        },
+        {
+            output: { id: 'enigmatica:swamp_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:mangrove_propagule' },
+                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:glow_berries' },
+                { item: 'supplementaries:statue' },
+                { item: 'minecraft:verdant_froglight' },
+                { item: 'minecraft:moss_block' },
+                { item: 'minecraft:blue_orchid' },
+                { item: 'minecraft:mud' }
+            ],
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            processingTime: 15,
+            id: `${id_prefix}swamp_essentia`
         }
     ];
 

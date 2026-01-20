@@ -1,0 +1,41 @@
+{
+	icon: {
+		id: "create:cardboard_package_12x10"
+	}
+	id: "01958857E91F63D0"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ id: "787DD4E0FBF3EDD5", item: { count: 1, id: "create:pulse_repeater" } }
+		{ id: "3A1FAE45BDDF7752", item: { count: 1, id: "create:pulse_extender" } }
+		{ id: "045F7AF7FC9896C3", item: { count: 1, id: "create:pulse_timer" } }
+		{ id: "5C4D7DC6A8D59069", item: { count: 1, id: "ars_nouveau:timer_spell_turret" } }
+		{
+			count: 4
+			id: "777E068D8DD8096B"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_plated_bricks"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "317EA0CE0FC000B7"
+			item: {
+				count: 1
+				id: "modern_industrialization:fluid_pipe"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "45746D2F13DFC858"
+			item: {
+				count: 1
+				id: "modern_industrialization:item_pipe"
+			}
+			random_bonus: 2
+		}
+	]
+}

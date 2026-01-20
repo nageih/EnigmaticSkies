@@ -1031,6 +1031,12 @@
 				id: "justdirethings:gooblock_tier1"
 			}
 			id: "7EE93B81F83AD199"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7043ED2B1D49469D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "1DCBD70622DFEE82"
@@ -1145,6 +1151,15 @@
 			dependencies: ["359A7C9127500D6C"]
 			id: "28ACDB98DC2B9D41"
 			min_width: 300
+			rewards: [{
+				count: 16
+				id: "5AE673FFA724F70E"
+				item: {
+					count: 1
+					id: "modern_industrialization:fire_clay_brick"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "656B418F5DE5B9EE"
 				item: { count: 1, id: "modern_industrialization:fire_clay_brick" }

@@ -13,8 +13,12 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'modern_industrialization:mixed_ingot_iridium', count: 1 }],
-            ingredients: [{ tag: 'c:ingots/iridium' }, { tag: 'c:ingots/eclipsealloy' }, { item: 'malum:null_slate' }],
-            time: 20,
+            ingredients: [
+                { tag: 'c:ingots/iridium' },
+                { tag: 'c:ingots/eclipsealloy' },
+                { tag: 'c:ingots/eclipsealloy' }
+            ],
+            time: 5,
             id: `${id_prefix}mixed_ingot_iridium`
         }
     ];

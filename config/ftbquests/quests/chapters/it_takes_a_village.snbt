@@ -56,6 +56,26 @@
 			}
 			id: "714379744B3CF395"
 			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "4A52171926CB11F8"
+					item: {
+						count: 1
+						id: "malum:gold_node"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B517C28C2F77889"
+					item: {
+						count: 1
+						id: "malum:iron_node"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2D1ED5D64999A68A"
@@ -196,6 +216,12 @@
 				id: "minecraft:composter"
 			}
 			id: "105CABB7D9705359"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E854362E9FBF3C"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "5690D2B09D261DEF"
@@ -388,6 +414,12 @@
 			dependencies: ["2F9C801DFAC1C0D9"]
 			id: "628A6A79EFA30990"
 			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F86A1984FB63F4A"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5A72DDC1A67F5A53"
@@ -406,6 +438,12 @@
 				id: "ars_nouveau:repository_controller"
 			}
 			id: "149BC66585EA0C34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36721ACBE55F290E"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -428,6 +466,12 @@
 				id: "ars_nouveau:wixie_cauldron"
 			}
 			id: "6D09D016EDE0AAFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08CE1E6BDAA35072"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -455,6 +499,12 @@
 				id: "starbunclemania:cooking_pot_wixie_cauldron"
 			}
 			id: "79DFBA1E35132332"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "147A01D011B963F3"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -482,6 +532,12 @@
 				id: "starbunclemania:cutting_wixie_cauldron"
 			}
 			id: "161CA05D18639AD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4CCF79FD9C91CE"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -509,6 +565,12 @@
 				id: "starbunclemania:smelting_wixie_cauldron"
 			}
 			id: "3CBA1384BD3D28ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72153C87ED0BA184"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -536,6 +598,12 @@
 				id: "starbunclemania:stonecutting_wixie_cauldron"
 			}
 			id: "39716C901B98BAF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37E61627973E8B34"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -563,6 +631,12 @@
 				id: "ars_additions:enchanting_wixie_cauldron"
 			}
 			id: "1A2B5BCA37161B1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493BD8022E35850B"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -589,12 +663,10 @@
 			id: "623B5F0C0464F907"
 			min_width: 300
 			rewards: [{
-				id: "0ECF5B8B2CC85248"
-				item: {
-					count: 1
-					id: "ars_nouveau:purple_sbed"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "38D86E0A10CE3647"
+				table_id: 8645512365595340409L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "0D73E9E528FA62B1"
@@ -647,6 +719,12 @@
 				id: "ars_caelum:ritual_conjure_island_geode"
 			}
 			id: "5550423B6E6BDBAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B092DD3244E313F"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -666,6 +744,15 @@
 		{
 			dependencies: ["105CABB7D9705359"]
 			id: "72B6C89DB165BB07"
+			rewards: [{
+				count: 4
+				id: "73E44E9FEE682824"
+				item: {
+					count: 1
+					id: "farmersdelight:rich_soil"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "20DC49381E87AE07"
@@ -678,6 +765,12 @@
 		{
 			dependencies: ["105CABB7D9705359"]
 			id: "51A88370BE1CAC99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128A365F2ABE7313"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "39AA129375EBE0A9"
@@ -710,6 +803,12 @@
 		{
 			dependencies: ["105CABB7D9705359"]
 			id: "6DA23C4B7F016B1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63358F3D7BD14203"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4D0B9AFE5BCD65A5"
@@ -730,6 +829,12 @@
 			}
 			id: "6BA05AC6ECC577DA"
 			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67CA0EAC96EE5D72"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				icon: {
 					id: "naturesaura:animal_spawner"
@@ -769,6 +874,12 @@
 				id: "ars_nouveau:source_gem"
 			}
 			id: "23ED7167CB856D26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28734AC08E8B5DF9"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "5CF9CE6DAE03311B"
@@ -790,6 +901,12 @@
 				id: "ars_caelum:ritual_conjure_island_flourishing"
 			}
 			id: "6AC4CADE97CB512F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB4343D825FDA3D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0881BE9F4BE61564"
@@ -805,6 +922,12 @@
 				id: "ars_caelum:ritual_conjure_island_cascading"
 			}
 			id: "5226F1BC0A1B23D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "630BF164FE17043F"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "73802C2C72AE8348"
@@ -820,6 +943,12 @@
 				id: "ars_caelum:ritual_conjure_island_blazing"
 			}
 			id: "008F3C0FB9F4B451"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688161DEFC217B0D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2D3475FF63025FDF"
@@ -835,6 +964,12 @@
 				id: "ars_caelum:ritual_conjure_island_sculk"
 			}
 			id: "0745FDF3F22807CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28CDFA28094D1CCE"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1A8E4D246E8B557E"
@@ -850,6 +985,12 @@
 				id: "ars_caelum:ritual_conjure_island_vexing"
 			}
 			id: "12E7105B33AC043E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4221CA3432639D82"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1BE58172EFAB4ED0"
@@ -862,6 +1003,12 @@
 		{
 			dependencies: ["2F9C801DFAC1C0D9"]
 			id: "0E1F3FCCA1A9E405"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171AB09B23D05AE7"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7346298BAA36BC29"
@@ -894,6 +1041,12 @@
 		{
 			dependencies: ["540133B792547B21"]
 			id: "30FE41CF0C7F1270"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "465B16E725CF8F32"
+				table_id: 167859363417192230L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1A13B1B4A1F4EFEB"

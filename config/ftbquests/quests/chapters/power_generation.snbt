@@ -367,7 +367,7 @@
 		{
 			dependencies: ["36A18D327A03810B"]
 			id: "21B7BDFCF5144431"
-			min_width: 250
+			min_width: 300
 			tasks: [{
 				id: "678D630492F602D7"
 				item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }

@@ -3,7 +3,7 @@
 	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
 	# Default: 1
 	# Range: 1 ~ 100
-	minimum_machine_tick_speed = 1
+	minimum_machine_tick_speed = 2
 
 #Generator T1
 [generator_t1]
@@ -113,98 +113,104 @@
 
 #Ability settings: For disabling certain abilities
 [abilities]
-	#mobscanner
-	mobscanner = false
-	#oreminer
-	oreminer = true
-	#orescanner
-	orescanner = false
-	#lawnmower
-	lawnmower = true
-	#skysweeper
-	skysweeper = false
-	#treefeller
-	treefeller = true
-	#leafbreaker
-	leafbreaker = true
-	#runspeed
-	runspeed = true
-	#walkspeed
-	walkspeed = true
-	#stepheight
-	stepheight = true
-	#jumpboost
-	jumpboost = true
-	#mindfog
-	mindfog = false
-	#invulnerability
-	invulnerability = false
-	#smelter
-	smelter = true
-	#smoker
-	smoker = true
-	#hammer
-	hammer = true
-	#lavarepair
-	lavarepair = true
-	#cauterizewounds
-	cauterizewounds = true
 	#airburst
 	airburst = true
-	#dropteleport
-	dropteleport = true
-	#voidshift
-	voidshift = true
-	#orexray
-	orexray = false
-	#glowing
-	glowing = false
-	#instabreak
-	instabreak = true
-	#eclipsegate
-	eclipsegate = true
-	#swimspeed
-	swimspeed = true
-	#groundstomp
-	groundstomp = true
-	#extinguish
-	extinguish = true
-	#stupefy
-	stupefy = false
-	#negatefalldamage
-	negatefalldamage = true
-	#nightvision
-	nightvision = true
-	#elytra
-	elytra = true
-	#decoy
-	decoy = true
-	#potionarrow
-	potionarrow = true
-	#splash
-	splash = true
-	#lingering
-	lingering = true
-	#homing
-	homing = true
+	#cauterizewounds
+	cauterizewounds = true
 	#deathprotection
 	deathprotection = true
 	#debuffremover
 	debuffremover = true
+	#decoy
+	decoy = true
+	#dropteleport
+	dropteleport = true
 	#earthquake
 	earthquake = true
-	#noai
-	noai = false
-	#flight
-	flight = true
-	#lavaimmunity
-	lavaimmunity = true
-	#phase
-	phase = true
+	#eclipsegate
+	eclipsegate = true
+	#elytra
+	elytra = true
 	#epicarrow
 	epicarrow = true
+	#extinguish
+	extinguish = true
+	#flight
+	flight = true
+	#glowing
+	glowing = false
+	#groundstomp
+	groundstomp = true
+	#hammer
+	hammer = true
+	#homing
+	homing = true
+	#instabreak
+	instabreak = true
+	#invulnerability
+	invulnerability = false
+	#jumpboost
+	jumpboost = true
+	#lavaimmunity
+	lavaimmunity = true
+	#lavarepair
+	lavarepair = true
+	#lawnmower
+	lawnmower = true
+	#leafbreaker
+	leafbreaker = true
+	#lingering
+	lingering = true
+	#mindfog
+	mindfog = false
+	#mobscanner
+	mobscanner = false
+	#negatefalldamage
+	negatefalldamage = true
+	#nightvision
+	nightvision = true
+	#noai
+	noai = false
+	#oreminer
+	oreminer = true
+	#orescanner
+	orescanner = false
+	#orexray
+	orexray = false
+	#phase
+	phase = true
+	#polymorph_random
+	polymorph_random = false
+	#polymorph_target
+	polymorph_target = false
+	#potionarrow
+	potionarrow = true
+	#runspeed
+	runspeed = true
+	#skysweeper
+	skysweeper = false
+	#smelter
+	smelter = true
+	#smoker
+	smoker = true
+	#splash
+	splash = true
+	#stepheight
+	stepheight = true
+	#stupefy
+	stupefy = false
+	#swimspeed
+	swimspeed = true
 	#timeprotection
 	timeprotection = true
+	#treefeller
+	treefeller = true
+	#voidshift
+	voidshift = true
+	#walkspeed
+	walkspeed = true
+	#waterbreathing
+	waterbreathing = true
 	#The maximum number of blocks that a Ferricore tool can break as a result of abilities, such as ore miner or tree feller.
 	# Default: 64
 	# Range: 1 ~ 2048
@@ -221,12 +227,6 @@
 	# Default: 256
 	# Range: 1 ~ 2048
 	tool_max_break_eclipsealloy = 256
-	#waterbreathing
-	waterbreathing = true
-	#polymorph_random
-	polymorph_random = false
-	#polymorph_target
-	polymorph_target = false
 
 #Goo settings
 [goo]
@@ -242,11 +242,11 @@
 	#The maximum amount of Forge Energy the Time Wand can hold in its buffer
 	# Default: 100000
 	# Range: > 1
-	time_wand_rf_capacity = 100000
+	time_wand_rf_capacity = 5000000
 	#The Forge Energy cost to use the Time wand. This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in FE cost.
 	# Default: 100
 	# Range: > 0
-	time_wand_rf_cost = 100
+	time_wand_rf_cost = 5000
 	#The Time Fluid cost to use the time wand.  This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in Time Fluid.
 	# Default: 0.5
 	# Range: 0.0 ~ 1.7976931348623157E308
@@ -340,8 +340,8 @@
 	#Do you want to customize Time Crystal Growth Dimensions? If set to true, the following 3 fields MUST be populated. Don't leave any blank! Defaults to false, which means normal growth rules occur - Stage 1 = Overworld (or any other dimension besides Nether/End), Stage 2 = Nether, Stage 3 = End.
 	time_crystal_custom_dimensions = true
 	#A list of dimensions that Time Crystals can Advance to Stage 1 in.
-	time_crystal_stage_1_dims = ["ftbteambases:bases"]
+	time_crystal_stage_1_dims = []
 	#A list of dimensions that Time Crystals can Advance to Stage 2 in.
-	time_crystal_stage_2_dims = ["ftbteambases:bases"]
+	time_crystal_stage_2_dims = []
 	#A list of dimensions that Time Crystals can Advance to Stage 3 in.
-	time_crystal_stage_3_dims = ["ftbteambases:bases"]
+	time_crystal_stage_3_dims = []

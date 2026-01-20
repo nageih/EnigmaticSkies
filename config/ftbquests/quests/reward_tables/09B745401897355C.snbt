@@ -35,7 +35,6 @@
 			}
 			random_bonus: 1
 		}
-		{ id: "301950889223F9E7", item: { count: 1, id: "pneumaticcraft:smart_chest_kit" } }
 		{
 			id: "2096292BF88A876F"
 			item: {
