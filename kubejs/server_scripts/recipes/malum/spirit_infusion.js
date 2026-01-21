@@ -453,7 +453,7 @@ ServerEvents.recipes((event) => {
             ],
             spirits: [
                 { type: 'malum:arcane', count: 32 },
-                { type: 'malum:aerial', count: 32 }
+                { type: 'malum:aqueous', count: 32 }
             ],
             id: `${id_prefix}everfull_urn`
         }

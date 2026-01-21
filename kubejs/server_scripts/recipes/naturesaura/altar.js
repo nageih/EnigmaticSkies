@@ -154,6 +154,14 @@ ServerEvents.recipes((event) => {
             aura_multiplier: 50,
             time: 10,
             id: `${id_prefix}advanced_demagnetization_coil`
+        },
+        {
+            output: { id: 'minecraft:red_sandstone', count: 1 },
+            input: { item: 'minecraft:terracotta' },
+            catalyst: { item: 'naturesaura:conversion_catalyst' },
+            aura_multiplier: 50,
+            time: 2,
+            id: `${id_prefix}red_sandstone`
         }
     ];
 

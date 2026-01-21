@@ -109,8 +109,7 @@
 		""
 		"They must also be kept warm! If your Hearth goes out they'll die just as surely as you will."
 		""
-		""
-		"&6&nUseful Keybinds&r"
+		"              &6&nUseful Keybinds&r"
 		""
 		"  Press &6U&r while hovering over a "
 		"  &7Villager Spawn Egg&r to see all of "
@@ -145,6 +144,8 @@
 	]
 	quest.04AE4EA4C7CFB080.quest_desc: [
 		"The &7Turbo Jetpack&r functions much like an Elytra with the Space bar used to control it."
+		""
+		"It burns the same types of fuel as your &7Boilers&r do."
 		""
 		"[\"• Toggle Flight (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Toggle Flight\"}]},\"keybind\":\"key.modern_industrialization.toggle_flight\"},\")\"]"
 		""
@@ -182,9 +183,13 @@
 		""
 		"Keep it filled with the items your animals need to breed, and they’ll take care of the rest. "
 		""
-		"The &7Automatic Feeder&r can also be used to count the animals in the area. "
+		"            &6&nA Note on Automation&r"
 		""
-		"Place a &7Comparator&r against it to get a rough estimate, where each level of redstone means two animals. At a signal strength of 15, it can no longer breed and it's time to start culling."
+		"The &7Automatic Feeder&r can be used to count the animals in the area. "
+		""
+		"Place a &7Comparator&r against it to get a rough estimate, where each level of redstone means two animals. "
+		""
+		"At a signal of 15, it can no longer breed, meaning it's time to start culling."
 	]
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
@@ -1124,6 +1129,19 @@
 		"&a🛈 Tip: Powders may be removed  "
 		"&a    by punching them."
 	]
+	quest.1ACB8880980AF206.quest_desc: [
+		"There’s much to do and you’re going to need help. With everyone else gone, you'll have to make your own friends."
+		""
+		"For ages, homunculi have been crafted in the same way; clay formed into the shape of a person and a note bearing instructions inserted into their head. "
+		""
+		"Then, just a touch of magic to bring animate it with a semblance of life."
+		"&n                                                  &r"
+		""
+		"Craft some &7Source Ink&r and &7Blank Parchment&r, you'll need these to make a &7Statue&r. "
+		""
+		"&7Quick Soil&r will make a form of glass suitable for making &7Bottles&r. "
+	]
+	quest.1ACB8880980AF206.title: "Wit by Writ"
 	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
@@ -1261,7 +1279,7 @@
 		""
 		"Keep your Villages stocked up with the very finest cooking you can manage, and they’ll be able to create wonders. "
 		""
-		"                 &n&7A Note on Automation&r&r"
+		"                 &6&nA Note on Automation&r&r"
 		""
 		"The &7Cooking Pot&r is a sided machine, much like a &7Furnace&r. This means that specific items must be inserted on specific sides when using any form of logistics."
 		""
@@ -1459,7 +1477,7 @@
 		""
 		"The &7Wixie&r represents a very simple means of automating various kitchen appliances, among other things. "
 		""
-		"                            &n&7Care and Use&r&r"
+		"                            &6&nCare and Use&r&r"
 		""
 		"In order to get your &7Wixie&r working, you'll need to set up their area appropriately. "
 		""
@@ -4509,7 +4527,7 @@
 		""
 		"Feel free to recreate the pentacle elsewhere as desired if you need more room for automation."
 		""
-		"                 &n&7A Note on Automation&r&r"
+		"                 &6&nA Note on Automation&r&r"
 		""
 		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, read on. "
 		""
@@ -4800,7 +4818,7 @@
 	]
 	quest.6D9008779F35E755.title: "Quarry"
 	quest.6DA23C4B7F016B1D.quest_desc: [
-		"Greenhouse Glass provides a significant growth boost to the crop directly below it. "
+		"&7Greenhouse Glass&r provides a significant growth boost to the crop directly below it. "
 		""
 		"Use it to build yourself a nice enclosure for your plants that is also functional. "
 	]

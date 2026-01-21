@@ -677,7 +677,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["15FAB1720AD470A0"]
+			dependencies: ["1ACB8880980AF206"]
 			icon: {
 				components: {
 					"minecraft:entity_data": {
@@ -1116,6 +1116,37 @@
 			]
 			x: -1.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["15FAB1720AD470A0"]
+			icon: {
+				id: "enigmatica:source_ink"
+			}
+			id: "1ACB8880980AF206"
+			tasks: [
+				{
+					id: "44D58A201923273D"
+					item: { count: 1, id: "aether:quicksoil_glass" }
+					type: "item"
+				}
+				{
+					id: "647DD7707ECF29C2"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+				{
+					id: "0976CBD59FF898BE"
+					item: { count: 1, id: "enigmatica:source_ink" }
+					type: "item"
+				}
+				{
+					id: "43C53F435C8F3D86"
+					item: { count: 1, id: "ars_nouveau:blank_parchment" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 }

@@ -39,6 +39,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}pearlescent_froglight`
         },
         {
+            result: { id: 'minecraft:red_sandstone' },
+            ingredient: { item: 'minecraft:terracotta' },
+            energy: 4500,
+            id: `${id_prefix}red_sandstone`
+        },
+        {
             result: { id: AlmostUnified.getTagTargetItem('c:nuggets/brass').getId() },
             ingredient: { item: 'aquaculture:neptunium_nugget' },
             energy: 1000,

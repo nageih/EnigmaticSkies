@@ -174,7 +174,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'aether:placement_conversion';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

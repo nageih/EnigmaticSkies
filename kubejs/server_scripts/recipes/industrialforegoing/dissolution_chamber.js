@@ -265,16 +265,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}black_laser_lens`
         },
         {
-            outputFluid: { amount: 250, id: 'industrialforegoing:essence' },
+            outputFluid: { id: 'industrialforegoing:essence', amount: 250 },
             input: [{ tag: 'c:gems/brilliance' }],
-            inputFluid: { amount: 50, fluid: 'theurgy:sal_ammoniac' },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             processingTime: 5,
             id: `${id_prefix}essence`
         },
         {
-            outputFluid: { amount: 1000, id: 'industrialforegoing:biofuel' },
+            outputFluid: { id: 'industrialforegoing:biofuel', amount: 1000 },
             input: [{ tag: 'c:dusts/grains_of_infinity' }],
-            inputFluid: { amount: 1000, fluid: 'justdirethings:refined_t2_fluid_source' },
+            inputFluid: { fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 },
             processingTime: 10,
             id: `${id_prefix}biofuel`
         },
@@ -446,7 +446,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:red_mushroom_block' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}forest_essentia`
         },
@@ -462,7 +462,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:sandstone' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}desert_essentia`
         },
@@ -478,7 +478,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:mossy_cobblestone' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}taiga_essentia`
         },
@@ -494,7 +494,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:snow_block' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}tundra_essentia`
         },
@@ -510,7 +510,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:granite' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}savanna_essentia`
         },
@@ -526,7 +526,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:andesite' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}plains_essentia`
         },
@@ -542,7 +542,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:suffused_wildroot' },
                 { item: 'minecraft:mud' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}swamp_essentia`
         }
