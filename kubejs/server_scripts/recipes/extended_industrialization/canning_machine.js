@@ -47,6 +47,23 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}filling_luminiferous_aether_bottle`
+        },
+
+        {
+            item_outputs: [{ item: 'minecraft:glass_bottle', amount: 1 }],
+            fluid_outputs: [{ fluid: 'enigmatica:vapours_of_nyx', amount: 250 }],
+            item_inputs: [{ item: 'enigmatica:vapours_of_nyx_bottle' }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}emptying_vapours_of_nyx_bottle`
+        },
+        {
+            item_outputs: [{ item: 'enigmatica:vapours_of_nyx_bottle' }],
+            item_inputs: [{ item: 'minecraft:glass_bottle', amount: 1 }],
+            fluid_inputs: [{ fluid: 'enigmatica:vapours_of_nyx', amount: 250 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}filling_vapours_of_nyx_bottle`
         }
     ];
 

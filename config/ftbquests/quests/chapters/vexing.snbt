@@ -676,7 +676,7 @@
 			tasks: [
 				{
 					id: "684B205D28CC5FB4"
-					item: { components: { "ftbquests:missing_item": "occultism:ritual_dummy/animate_whirlisprig" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "occultism:ritual_dummy/transmute_whirlisprig" }
 					optional_task: true
 					type: "item"
 				}
@@ -908,7 +908,7 @@
 			tasks: [
 				{
 					id: "685C6BD5530D888E"
-					item: { components: { "ftbquests:missing_item": "occultism:ritual_dummy/animate_drygmy" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "occultism:ritual_dummy/transmute_drygmy" }
 					optional_task: true
 					type: "item"
 				}

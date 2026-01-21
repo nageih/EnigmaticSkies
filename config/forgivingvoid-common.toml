@@ -36,4 +36,4 @@ entityAllowList = [
     ]
 #Set to ABSOLUTE for absolute fall damage in half hearts, RELATIVE_CURRENT for a percentage of their current health, or RELATIVE_MAX for a percentage of their max health.
 #Allowed Values: ABSOLUTE, RELATIVE_CURRENT, RELATIVE_MAX
-damageOnFallMode = "ABSOLUTE"
+damageOnFallMode = "RELATIVE_MAX"

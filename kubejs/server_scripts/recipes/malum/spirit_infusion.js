@@ -409,7 +409,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'enderio:frank_n_zombie', count: 1 },
             extraInputs: [
                 { item: 'pneumaticcraft:plastic', count: 4 },
-                { item: 'minecraft:heart_of_the_sea', count: 1 }
+                { item: 'minecraft:conduit', count: 1 }
             ],
             spirits: [
                 { type: 'malum:arcane', count: 32 },
@@ -433,15 +433,29 @@ ServerEvents.recipes((event) => {
             result: { id: 'enigmatica:tumultuous_anemoi', count: 1 },
             input: { item: 'enigmatica:welkin_decanter', count: 1 },
             extraInputs: [
-                { item: 'malum:rune_of_sky_tether', count: 4 },
+                { item: 'malum:rune_of_sky_tether', count: 1 },
                 { item: 'oritech:overcharged_crystal', count: 1 },
-                { item: 'malum:rune_of_howling_gale', count: 4 }
+                { item: 'malum:rune_of_howling_gale', count: 1 }
             ],
             spirits: [
-                { type: 'malum:arcane', count: 16 },
-                { type: 'malum:aerial', count: 16 }
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aerial', count: 32 }
             ],
             id: `${id_prefix}tumultuous_anemoi`
+        },
+        {
+            result: { id: 'ars_elemental:everfull_urn', count: 1 },
+            input: { item: 'handcrafted:terracotta_thick_pot', count: 1 },
+            extraInputs: [
+                { item: 'malum:rune_of_flowing_grasp', count: 1 },
+                { item: 'oritech:overcharged_crystal', count: 1 },
+                { item: 'malum:rune_of_good_tides', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aerial', count: 32 }
+            ],
+            id: `${id_prefix}everfull_urn`
         }
     ];
 

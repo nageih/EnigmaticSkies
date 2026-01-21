@@ -146,7 +146,12 @@ StartupEvents.registry('item', (event) => {
         {
             name: 'Luminiferous Aether Bottle',
             colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_phlogiston']
+            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_luminiferous_aether']
+        },
+        {
+            name: 'Vapours of Nyx Bottle',
+            colors: ['', ''],
+            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_vapours_of_nyx']
         }
     ];
 

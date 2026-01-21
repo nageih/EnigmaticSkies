@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:entity",
+    "random_sequence": "the_bumblezone:entities",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "enigmatica:dormant_wildroot"
+                }
+            ]
+        }
+    ]
+}

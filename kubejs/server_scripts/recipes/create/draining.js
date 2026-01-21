@@ -15,7 +15,12 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'minecraft:glass_bottle' }, { id: 'modern_industrialization:helium_plasma', amount: 250 }],
             ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }],
-            id: `${id_prefix}luminiferous_aether_bottle_from_bottle`
+            id: `${id_prefix}luminiferous_aether_from_bottle`
+        },
+        {
+            results: [{ id: 'minecraft:glass_bottle' }, { id: 'enigmatica:vapours_of_nyx', amount: 250 }],
+            ingredients: [{ item: 'enigmatica:vapours_of_nyx_bottle' }],
+            id: `${id_prefix}vapours_of_nyx_from_bottle`
         }
     ];
 

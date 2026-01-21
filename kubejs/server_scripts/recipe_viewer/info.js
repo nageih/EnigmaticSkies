@@ -223,6 +223,18 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: [`enderio:wireless_charger_antenna`, `enderio:wireless_charger_antenna_advanced`],
             text: [`Place on top of an Enderio Wireless Charger to increase its range.`]
+        },
+        {
+            filter: [
+                'enigmatica:forest_essentia',
+                'enigmatica:desert_essentia',
+                'enigmatica:taiga_essentia',
+                'enigmatica:tundra_essentia',
+                'enigmatica:savanna_essentia',
+                'enigmatica:plains_essentia',
+                'enigmatica:swamp_essentia'
+            ],
+            text: [`Use on a Block of the Skies to convert the biome in a large area.`]
         }
     ];
 
