@@ -545,6 +545,22 @@ ServerEvents.recipes((event) => {
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}swamp_essentia`
+        },
+        {
+            output: { id: 'enigmatica:ocean_essentia', count: 1 },
+            input: [
+                { item: 'minecraft:nautilus_shell' },
+                { item: 'minecraft:sea_pickle' },
+                { item: 'minecraft:pufferfish' },
+                { item: 'enderio:guardian_diode' },
+                { item: 'minecraft:sponge' },
+                { item: 'minecraft:prismarine' },
+                { item: 'enigmatica:suffused_wildroot' },
+                { item: 'minecraft:tube_coral_block' }
+            ],
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
+            processingTime: 15,
+            id: `${id_prefix}ocean_essentia`
         }
     ];
 

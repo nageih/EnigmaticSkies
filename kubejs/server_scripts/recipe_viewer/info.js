@@ -289,6 +289,8 @@ RecipeViewerEvents.addInformation('item', (event) => {
         descriptions.push(description);
     });
 
+    const villagerTradesClient = { trades: [] };
+
     Object.keys(villagerTrades).forEach((profession) => {
         villagerTrades[profession].forEach((recipe) => {
             // "entity.minecraft.villager.farmer"
@@ -302,13 +304,51 @@ RecipeViewerEvents.addInformation('item', (event) => {
                     Text.string(`Obtained by trading with `)
                         .append(Text.translate(lang_key))
                         .append(Text.string(' Villagers.')),
-
                     ` `,
                     Text.string(`Trade Level: `).append(Text.translate(`merchant.level.${recipe.level}`))
                 ]
             });
+
+            let payload = {
+                left: [],
+                right: [
+                    {
+                        type: 'item',
+                        id: villagerWorkstations[profession],
+                        nbt: `{"minecraft:lore":[\u0027[{"color":"green","text":"Obtained from "},{"color":"green","translate":"merchant.level.${recipe.level}"},{"color":"green","text":" "},{"color":"green","translate":"${lang_key}"},{"color":"green","text":" Villagers!"}]\u0027]}`,
+                        amount: 1
+                    }
+                ]
+            };
+
+            // Generate formatted JSON for EMI to display Villager Trades as World Interaction recipes
+            let output_data = JSON.parse(Ingredient.of(recipe.result.id).toJson());
+
+            payload.output = {
+                type: 'item',
+                id: output_data.items ? output_data.items : output_data.item,
+                amount: recipe.result.count
+            };
+
+            payload.id = `${output_data.items ? output_data.items : output_data.item}_from_${profession}`;
+
+            if (output_data.components) {
+                payload.output.nbt = JSON.stringify(output_data.components);
+            }
+
+            recipe.ingredients.forEach((input) => {
+                payload.left.push({
+                    type: 'item',
+                    id: input.id,
+                    count: input.count.min
+                });
+            });
+
+            villagerTradesClient.trades.push(payload);
         });
     });
+
+    JsonIO.write('kubejs/config/emi_villagers.json', villagerTradesClient);
 
     descriptions.forEach((description) => {
         event.add(description.filter, description.text);

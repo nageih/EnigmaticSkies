@@ -1,7 +1,7 @@
 ClientEvents.generateAssets('before_mods', (event) => {
     // https://github.com/emilyploszaj/emi/wiki/Adding-Recipes#adding-info-recipes
 
-    const descriptions = [
+    const recipes = [
         {
             left: {
                 type: 'item',
@@ -441,8 +441,12 @@ ClientEvents.generateAssets('before_mods', (event) => {
         }
     ];
 
-    descriptions.forEach((description) => {
-        description.type = 'emi:world_interaction';
-        event.json(`emi:recipe/additions/${description.id.replace(/\:/g, '_')}`, description);
+    emi_villagers.trades.forEach((trade) => {
+        recipes.push(trade);
+    });
+
+    recipes.forEach((recipe) => {
+        recipe.type = 'emi:world_interaction';
+        event.json(`emi:recipe/additions/${recipe.id.replace(/\:/g, '_')}`, recipe);
     });
 });

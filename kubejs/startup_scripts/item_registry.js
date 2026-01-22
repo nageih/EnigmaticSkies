@@ -105,53 +105,63 @@ StartupEvents.registry('item', (event) => {
     const bottles = [
         {
             name: 'Source Ink',
-            colors: ['', '#7d20ab', ''],
-            layers: ['alchemy_bottle', 'alchemy_bottle_normal_contents_swirling', 'alchemy_bottle_label_black']
+            colors: ['#7d20ab', '', ''],
+            layers: ['alchemy_bottle_normal_contents_swirling', 'alchemy_bottle', 'alchemy_bottle_label_black']
         },
         {
             name: 'Desert Essentia',
-            colors: ['', '#fcc924'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_pulsing']
+            // colors: ['', '#fcc924'],
+            colors: ['#c0b985', ''],
+            layers: ['alchemy_bottle_warded_contents_pulsing', 'alchemy_bottle_warded']
         },
         {
             name: 'Savanna Essentia',
-            colors: ['', '#a4b641'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_bubbling']
+            colors: ['#a4b641', ''],
+            layers: ['alchemy_bottle_warded_contents_bubbling', 'alchemy_bottle_warded']
         },
         {
             name: 'Taiga Essentia',
-            colors: ['', '#56bd9b'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_swirling']
+            // colors: ['', '#56bd9b'],
+            colors: ['#86B783', ''],
+            layers: ['alchemy_bottle_warded_contents_swirling', 'alchemy_bottle_warded']
         },
         {
             name: 'Swamp Essentia',
-            colors: ['', '#4b9902'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_roiling']
+            // colors: ['', '#4b9902'],
+            colors: ['#4C763C', ''],
+            layers: ['alchemy_bottle_warded_contents_roiling', 'alchemy_bottle_warded']
         },
         {
             name: 'Plains Essentia',
-            colors: ['', '#05dcf8'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_still']
+            colors: ['#05dcf8', ''],
+            layers: ['alchemy_bottle_warded_contents_still', 'alchemy_bottle_warded']
         },
         {
             name: 'Tundra Essentia',
-            colors: ['', '#bae6f0'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_gyre']
+            colors: ['#bae6f0', ''],
+            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
+        },
+        {
+            name: 'Ocean Essentia',
+            // colors: ['', '#0178BD'],
+            colors: ['#1463A5', ''],
+            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
         },
         {
             name: 'Forest Essentia',
-            colors: ['', '#379401'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_vortex']
+            // colors: ['', '#379401'],
+            colors: ['#59AE30', ''],
+            layers: ['alchemy_bottle_warded_contents_vortex', 'alchemy_bottle_warded']
         },
         {
             name: 'Luminiferous Aether Bottle',
             colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_luminiferous_aether']
+            layers: ['alchemy_bottle_reinforced_contents_luminiferous_aether', 'alchemy_bottle_reinforced']
         },
         {
             name: 'Vapours of Nyx Bottle',
             colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_vapours_of_nyx']
+            layers: ['alchemy_bottle_reinforced_contents_vapours_of_nyx', 'alchemy_bottle_reinforced']
         }
     ];
 
