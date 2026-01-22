@@ -21,11 +21,15 @@ StartupEvents.registry('item', (event) => {
         'elemental_matrix',
 
         'dormant_wildroot',
+        'primordial_mud',
         'suffused_wildroot',
 
+        'boreas_anemoi',
+        'eurus_anemoi',
+        'notus_anemoi',
+        'zephyrus_anemoi',
         'welkin_decanter',
-        'tumultuous_anemoi',
-        'primordial_mud'
+        'flask_of_four_winds'
     ];
 
     simple_items.forEach((item) => {

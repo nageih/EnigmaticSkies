@@ -59,18 +59,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}netherite_scrap_dust`
         },
         {
-            result: { id: 'enigmatica:welkin_decanter', count: 1 },
-            base: { item: 'malum:spirit_jar' },
+            result: { id: 'enigmatica:flask_of_four_winds', count: 1 },
+            base: { item: 'enigmatica:welkin_decanter' },
             modifiers: [
-                { item: 'malum:astral_weave' },
-                { item: 'the_bumblezone:essence_radiance' },
-                { tag: 'c:plates/sky' },
-                { item: 'malum:wind_nucleus' }
+                { item: 'enigmatica:boreas_anemoi' },
+                { item: 'enigmatica:eurus_anemoi' },
+                { item: 'enigmatica:notus_anemoi' },
+                { item: 'enigmatica:zephyrus_anemoi' }
             ],
             color: '#c1fffc',
             energy: 50000,
             time: 2,
-            id: `${id_prefix}welkin_decanter`
+            id: `${id_prefix}flask_of_four_winds`
         }
     ];
 

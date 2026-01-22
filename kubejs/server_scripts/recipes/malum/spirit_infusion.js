@@ -430,18 +430,20 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}iridium_plate`
         },
         {
-            result: { id: 'enigmatica:tumultuous_anemoi', count: 1 },
-            input: { item: 'enigmatica:welkin_decanter', count: 1 },
+            result: { id: 'enigmatica:welkin_decanter', count: 1 },
+            input: { item: 'malum:spirit_jar', count: 1 },
             extraInputs: [
                 { item: 'malum:rune_of_sky_tether', count: 1 },
+                { item: 'malum:astral_weave', count: 7 },
                 { item: 'oritech:overcharged_crystal', count: 1 },
+                { tag: 'c:plates/sky', count: 7 },
                 { item: 'malum:rune_of_howling_gale', count: 1 }
             ],
             spirits: [
                 { type: 'malum:arcane', count: 32 },
                 { type: 'malum:aerial', count: 32 }
             ],
-            id: `${id_prefix}tumultuous_anemoi`
+            id: `${id_prefix}welkin_decanter`
         },
         {
             result: { id: 'ars_elemental:everfull_urn', count: 1 },

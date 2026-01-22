@@ -97,37 +97,37 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'the_bumblezone:essence_calming', count: 1 }],
             ingredients: [{ item: 'enigmatica:vapours_of_nyx_bottle' }, { tag: 'c:tokens/greater_water' }],
-            time: 10000,
+            time: 15000,
             id: `${id_prefix}essence_calming`
         },
         {
             results: [{ id: 'the_bumblezone:essence_life', count: 1 }],
             ingredients: [{ item: 'enigmatica:suffused_wildroot' }, { tag: 'c:tokens/greater_earth' }],
-            time: 10000,
+            time: 15000,
             id: `${id_prefix}essence_life`
         },
         {
             results: [{ id: 'the_bumblezone:essence_radiance', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { tag: 'c:tokens/greater_air' }],
-            time: 10000,
+            ingredients: [{ item: 'enigmatica:flask_of_four_winds' }, { tag: 'c:tokens/greater_air' }],
+            time: 15000,
             id: `${id_prefix}essence_radiance`
         },
         {
             results: [{ id: 'the_bumblezone:essence_raging', count: 1 }],
             ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { tag: 'c:tokens/greater_fire' }],
-            time: 10000,
+            time: 15000,
             id: `${id_prefix}essence_raging`
         },
         {
             results: [{ id: 'the_bumblezone:essence_knowing', count: 1 }],
             ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:z_logic_controller' }],
-            time: 10000,
+            time: 15000,
             id: `${id_prefix}essence_knowing`
         },
         {
             results: [{ id: 'the_bumblezone:essence_continuity', count: 1 }],
             ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:ender_resonator' }],
-            time: 10000,
+            time: 15000,
             id: `${id_prefix}essence_continuity`
         }
     ];

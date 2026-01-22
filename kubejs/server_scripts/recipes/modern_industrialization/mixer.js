@@ -309,6 +309,31 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const anemoi = [
+        { id: 'boreas', essentia: ['tundra', 'taiga'] },
+        { id: 'eurus', essentia: ['desert', 'savanna'] },
+        { id: 'notus', essentia: ['ocean', 'swamp'] },
+        { id: 'zephyrus', essentia: ['plains', 'forest'] }
+    ];
+
+    anemoi.forEach((recipe) => {
+        recipes.push({
+            item_outputs: [{ item: `enigmatica:${recipe.id}_anemoi`, amount: 1, probability: 1 / 500 }],
+            item_inputs: [
+                { item: `enigmatica:${recipe.essentia[0]}_essentia`, amount: 1, probability: 0 },
+                { item: `malum:wind_nucleus`, amount: 1 },
+                { item: `enigmatica:${recipe.essentia[1]}_essentia`, amount: 1, probability: 0 }
+            ],
+            fluid_inputs: [
+                { fluid: `modern_industrialization:helium_plasma`, amount: 30 },
+                { fluid: `enigmatica:vapours_of_nyx`, amount: 30 }
+            ],
+            duration: 10,
+            eu: 512,
+            id: `${id_prefix}${recipe.id}_anemoi`
+        });
+    });
+
     ae_washables.forEach((washable) => {
         recipes.push({
             item_outputs: [{ item: `ae2:fluix_${washable}_cable`, amount: 1 }],
