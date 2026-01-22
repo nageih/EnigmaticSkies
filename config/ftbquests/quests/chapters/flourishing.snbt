@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2C3B39CD6A7E044C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flourishing"
@@ -112,8 +113,8 @@
 				item: { count: 1, id: "trading_floor:trading_depot" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6490781066FAE8CF"]
@@ -258,7 +259,7 @@
 		{
 			dependencies: ["49968116FCB311B0"]
 			id: "63944BDC078E728A"
-			min_width: 400
+			min_width: 300
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1754F34F4B5376B3"
@@ -271,13 +272,13 @@
 				item: { count: 1, id: "ars_nouveau:shapers_focus" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"63944BDC078E728A"
 				"37C965C1FA40221E"
+				"63944BDC078E728A"
 			]
 			id: "579B2C5CB83022ED"
 			min_width: 250
@@ -295,12 +296,13 @@
 				item: { count: 1, id: "ars_elemental:manipulation_turret" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["6490781066FAE8CF"]
+			dependencies: ["5AFB064A80189AA4"]
 			id: "33679351A7B6D8E6"
+			min_width: 300
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64051DD22588223A"
@@ -313,8 +315,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:breaker)item(actuallyadditions:placer)item(actuallyadditions:fluid_collector)item(actuallyadditions:fluid_placer)item(starbunclemania:star_miner)item(starbunclemania:star_build))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["513BDF32A8F6EF45"]
@@ -381,17 +383,25 @@
 		{
 			dependencies: ["6490781066FAE8CF"]
 			id: "6EA0560551B821B3"
+			min_width: 300
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "15A4462A438927C6"
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "38684C42523A88CF"
-				item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38684C42523A88CF"
+					item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+					type: "item"
+				}
+				{
+					id: "43A54BE3B18C2E96"
+					item: { count: 1, id: "minecraft:glow_berries" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -4.0d
 		}
@@ -528,11 +538,11 @@
 				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["6490781066FAE8CF"]
+			dependencies: ["6EA0560551B821B3"]
 			id: "1ABB07894781F511"
 			rewards: [{
 				id: "63AC63598CAC94A9"
@@ -549,7 +559,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -646,8 +656,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -3.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2C3B39CD6A7E044C"]
@@ -691,8 +701,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6806970967942788"]
@@ -933,23 +943,23 @@
 				{
 					count: 2L
 					id: "0BB96E58A01F180D"
-					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_input_hatch" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "083303CA128E5B22"
-					item: { count: 1, id: "modern_industrialization:fire_clay_brick_fluid_output_hatch" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:fire_clay_brick_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "40A7E30D465D0168"
-					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_input_hatch" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:fire_clay_brick_item_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "6DE11EA8A586D544"
-					item: { count: 1, id: "modern_industrialization:fire_clay_brick_item_output_hatch" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:fire_clay_brick_item_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

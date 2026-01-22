@@ -261,9 +261,9 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:dormant_wildroot' },
                 { item: 'ars_nouveau:whirlisprig_charm' },
                 { item: 'enigmatica:dormant_wildroot' },
-                { item: 'the_bumblezone:essence_life' },
+                { item: 'enigmatica:primordial_mud' },
                 { item: 'malum:rune_of_oaken_might' },
-                { item: 'the_bumblezone:essence_life' }
+                { item: 'enigmatica:primordial_mud' }
             ],
             energy: 20000,
             id: `${id_prefix}suffused_wildroot`

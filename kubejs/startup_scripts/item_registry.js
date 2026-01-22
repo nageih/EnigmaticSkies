@@ -24,7 +24,8 @@ StartupEvents.registry('item', (event) => {
         'suffused_wildroot',
 
         'welkin_decanter',
-        'tumultuous_anemoi'
+        'tumultuous_anemoi',
+        'primordial_mud'
     ];
 
     simple_items.forEach((item) => {

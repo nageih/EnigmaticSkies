@@ -235,6 +235,25 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'enigmatica:swamp_essentia'
             ],
             text: [`Use on a Block of the Skies to convert the biome in a large area.`]
+        },
+        {
+            filter: [
+                'minecraft:brain_coral',
+                'minecraft:tube_coral',
+                'minecraft:horn_coral',
+                'minecraft:bubble_coral',
+                'minecraft:fire_coral',
+                'minecraft:horn_coral_fan',
+                'minecraft:tube_coral_fan',
+                'minecraft:bubble_coral_fan',
+                'minecraft:fire_coral_fan',
+                'minecraft:brain_coral_fan'
+            ],
+            text: [
+                `May be obtained by using Bone Meal on Gravel or Sand under water in an Ocean Biome.`,
+                ` `,
+                `The Cascading Islands count as an Ocean Biome.`
+            ]
         }
     ];
 

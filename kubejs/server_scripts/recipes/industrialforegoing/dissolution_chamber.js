@@ -443,7 +443,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:honeycomb' },
                 { item: 'minecraft:mycelium' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:red_mushroom_block' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -459,7 +459,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:rabbit_foot' },
                 { item: 'minecraft:red_sandstone' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:sandstone' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -475,7 +475,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:feather' },
                 { item: 'minecraft:podzol' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:mossy_cobblestone' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -491,7 +491,7 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:goat_horn' },
                 { item: 'cold_sweat:goat_fur' },
                 { item: 'minecraft:blue_ice' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:snow_block' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -507,7 +507,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:armadillo_scute' },
                 { item: 'minecraft:grass_block' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:granite' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -523,7 +523,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:leather' },
                 { item: 'minecraft:grass_block' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:andesite' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -539,7 +539,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:verdant_froglight' },
                 { item: 'minecraft:moss_block' },
-                { item: 'enigmatica:suffused_wildroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:mud' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
@@ -555,8 +555,8 @@ ServerEvents.recipes((event) => {
                 { item: 'enderio:guardian_diode' },
                 { item: 'minecraft:sponge' },
                 { item: 'minecraft:prismarine' },
-                { item: 'enigmatica:suffused_wildroot' },
-                { item: 'minecraft:tube_coral_block' }
+                { tag: 'c:essences/greater_water' },
+                { tag: 'minecraft:coral_plants' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,

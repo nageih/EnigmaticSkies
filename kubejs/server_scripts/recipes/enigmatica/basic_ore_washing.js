@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
             recipe.input.amount = recipe.input.count;
             let r = {
                 type: 'modern_industrialization:alluvial_trommel',
-                fluid_inputs: { tag: 'minecraft:water', amount: 1000 },
+                fluid_inputs: { fluid: 'minecraft:water', amount: 1000 },
                 item_inputs: recipe.input,
                 fluid_outputs: { fluid: 'enigmatica:wastewater', amount: 1000 },
                 item_outputs: [],

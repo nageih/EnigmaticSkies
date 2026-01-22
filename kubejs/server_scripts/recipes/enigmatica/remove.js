@@ -532,6 +532,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:packed_ice' },
         { id: 'minecraft:blue_ice' },
         { id: 'minecraft:wind_charge' },
+        { id: 'minecraft:turtle_egg' },
         { id: 'minecraft:observer' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
