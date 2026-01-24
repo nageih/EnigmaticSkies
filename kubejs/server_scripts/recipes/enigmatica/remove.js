@@ -1029,6 +1029,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:atomicforge/advcomputer' },
         { id: 'oritech:atomicforge/reinfdeepslate' },
         { id: 'oritech:atomicforge/aicomputer' },
+        { id: 'oritech:atomicforge/prometheum' },
         { id: 'oritech:atomicforge/wafer' },
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:particle/platinum_dust' },

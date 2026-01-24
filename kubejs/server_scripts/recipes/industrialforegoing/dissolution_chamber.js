@@ -387,23 +387,23 @@ ServerEvents.recipes((event) => {
                 id: 'industrialforegoing:infinity_nuke',
                 components: {
                     'industrialforegoing:infinity_can_charge': true,
-                    'industrialforegoing:infinity_item_power': 0,
-                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_power': 9223372036854775807,
+                    'industrialforegoing:infinity_item_selected_tier': 'artifact',
                     'industrialforegoing:infinity_item_special': false
                 },
                 count: 1
             },
             input: [
-                { item: 'minecraft:tnt' },
-                { item: 'minecraft:nether_star' },
-                { item: 'minecraft:tnt' },
-                { tag: 'c:storage_blocks/celestigem' },
-                { tag: 'c:storage_blocks/celestigem' },
-                { item: 'oritech:heisenberg_compensator' },
+                { item: 'malum:rune_of_fiery_embrace' },
+                { item: 'modern_industrialization:quantum_machine_hull' },
+                { item: 'malum:rune_of_fiery_embrace' },
+                { tag: 'c:essences/greater_fire' },
+                { tag: 'c:essences/greater_fire' },
+                { item: 'malum:rune_of_igneous_solace' },
                 { item: 'enigmatica:tempestuous_mechanism' },
-                { item: 'oritech:heisenberg_compensator' }
+                { item: 'malum:rune_of_igneous_solace' }
             ],
-            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 8000 },
             processingTime: 60,
             id: `${id_prefix}infinity_nuke`
         },
@@ -435,7 +435,7 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            output: { id: 'enigmatica:forest_essentia', count: 1 },
+            output: { id: 'enigmatica:forest_essentia', count: 4 },
             input: [
                 { item: 'minecraft:dark_oak_sapling' },
                 { item: 'minecraft:lilac' },
@@ -451,7 +451,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}forest_essentia`
         },
         {
-            output: { id: 'enigmatica:desert_essentia', count: 1 },
+            output: { id: 'enigmatica:desert_essentia', count: 4 },
             input: [
                 { item: 'minecraft:cactus' },
                 { item: 'minecraft:poppy' },
@@ -467,7 +467,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}desert_essentia`
         },
         {
-            output: { id: 'enigmatica:taiga_essentia', count: 1 },
+            output: { id: 'enigmatica:taiga_essentia', count: 4 },
             input: [
                 { item: 'minecraft:spruce_sapling' },
                 { item: 'minecraft:sweet_berries' },
@@ -483,7 +483,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}taiga_essentia`
         },
         {
-            output: { id: 'enigmatica:tundra_essentia', count: 1 },
+            output: { id: 'enigmatica:tundra_essentia', count: 4 },
             input: [
                 { item: 'minecraft:glow_lichen' },
                 { item: 'minecraft:beetroot' },
@@ -499,7 +499,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}tundra_essentia`
         },
         {
-            output: { id: 'enigmatica:savanna_essentia', count: 1 },
+            output: { id: 'enigmatica:savanna_essentia', count: 4 },
             input: [
                 { item: 'minecraft:acacia_sapling' },
                 { item: 'minecraft:rose_bush' },
@@ -515,7 +515,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}savanna_essentia`
         },
         {
-            output: { id: 'enigmatica:plains_essentia', count: 1 },
+            output: { id: 'enigmatica:plains_essentia', count: 4 },
             input: [
                 { item: 'minecraft:oak_sapling' },
                 { item: 'minecraft:sunflower' },
@@ -531,7 +531,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}plains_essentia`
         },
         {
-            output: { id: 'enigmatica:swamp_essentia', count: 1 },
+            output: { id: 'enigmatica:swamp_essentia', count: 4 },
             input: [
                 { item: 'minecraft:mangrove_propagule' },
                 { item: 'minecraft:blue_orchid' },
@@ -547,7 +547,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}swamp_essentia`
         },
         {
-            output: { id: 'enigmatica:ocean_essentia', count: 1 },
+            output: { id: 'enigmatica:ocean_essentia', count: 4 },
             input: [
                 { item: 'minecraft:nautilus_shell' },
                 { item: 'minecraft:sea_pickle' },

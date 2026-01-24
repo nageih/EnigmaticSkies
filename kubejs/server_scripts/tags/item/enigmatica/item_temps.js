@@ -1,20 +1,23 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        warm_stackables: [
+        warm: [
             '#c:rods/blaze',
             '#c:dusts/blaze',
             '#chipped:magma_blocks',
             'minecraft:magma_block',
             'minecraft:magma_cream'
         ],
-        hot_unstackables: [
+        hot: [
+            'enigmatica:qulliq_vessel',
+
             'enderio:fire_water_bucket',
             'minecraft:lava_bucket',
             'oritech:still_sheol_fire_bucket',
             'oritech:still_strange_matter_bucket',
             'enderio:liquid_sunshine_bucket'
         ],
-        cold_stackables: [
+        super_hot: ['enigmatica:borrowed_flame'],
+        cold: [
             '#c:rods/breeze',
             '#chipped:snow_block',
             '#chipped:ice',
@@ -24,9 +27,8 @@ ServerEvents.tags('item', (event) => {
             '#aether:aerclouds',
             'minecraft:snowball',
             'minecraft:wind_charge',
-            'aether:icestone'
-        ],
-        cold_unstackables: [
+            'aether:icestone',
+
             'justdirethings:time_fluid_bucket',
             'starbunclemania:source_fluid_bucket',
             'sauce:source_fluid_bucket',

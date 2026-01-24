@@ -458,6 +458,24 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:aqueous', count: 32 }
             ],
             id: `${id_prefix}everfull_urn`
+        },
+        {
+            result: { id: 'enigmatica:unfired_vessel', count: 1 },
+            input: { item: 'minecraft:clay', count: 4 },
+            extraInputs: [
+                { item: 'malum:alchemical_calx', count: 1 },
+                {
+                    type: 'neoforge:components',
+                    items: 'apotheosis:potion_charm',
+                    components: { potion_contents: { potion: 'minecraft:weaving' } }
+                },
+                { item: 'enigmatica:primordial_mud', count: 16 }
+            ],
+            spirits: [
+                { type: 'malum:sacred', count: 32 },
+                { type: 'malum:earthen', count: 32 }
+            ],
+            id: `${id_prefix}unfired_vessel`
         }
     ];
 

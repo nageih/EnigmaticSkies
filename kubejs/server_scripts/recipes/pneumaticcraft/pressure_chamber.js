@@ -272,6 +272,16 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}mycelium`
+        },
+        {
+            results: [{ id: 'create:blaze_cake_base', count: 1 }],
+            inputs: [
+                { tag: 'c:eggs', count: 1 },
+                { item: 'minecraft:sugar', count: 1 },
+                { item: 'create:cinder_flour', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}blaze_cake_base`
         }
     ];
 

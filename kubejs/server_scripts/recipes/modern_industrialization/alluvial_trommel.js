@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: { item: 'enigmatica:primordial_mud', amount: 1, probability: 1 / 500 },
             fluid_inputs: { fluid: 'minecraft:water', amount: 1000 },
-            item_inputs: { item: 'enigmatica:ocean_essentia', amount: 1, probability: 0 },
+            item_inputs: { item: 'enigmatica:ocean_essentia', amount: 1, probability: 1 / 25 },
             process_conditions: [
                 {
                     type: 'mi_tweaks:nearby_entity',

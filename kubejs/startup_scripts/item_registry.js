@@ -29,7 +29,9 @@ StartupEvents.registry('item', (event) => {
         'notus_anemoi',
         'zephyrus_anemoi',
         'welkin_decanter',
-        'flask_of_four_winds'
+        'flask_of_four_winds',
+
+        'borrowed_flame'
     ];
 
     simple_items.forEach((item) => {
@@ -184,6 +186,42 @@ StartupEvents.registry('item', (event) => {
         });
     });
 
+    const alchemy_pots = [
+        {
+            name: 'Unfired Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_unfired']
+        },
+        {
+            name: 'Stoneware Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_ceramic']
+        },
+        {
+            name: 'Warded Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_stone']
+        },
+        {
+            name: 'Qulliq Vessel',
+            colors: ['', '#ff9100'],
+            layers: ['alchemy_pot_stone', 'alchemy_pot_contents_glossy']
+        }
+    ];
+
+    alchemy_pots.forEach((pot) => {
+        let id = getID(pot.name);
+        let item = event.create(`enigmatica:${id}`).displayName(pot.name);
+
+        pot.layers.forEach((layer, index) => {
+            item.texture(`layer${index}`, `enigmatica:item/alchemy_pots/${layer}`);
+        });
+
+        pot.colors.forEach((color, index) => {
+            if (color != '') item.color(index, color);
+        });
+    });
+
     const simple_foods = [
         {
             name: 'Poutine',
@@ -256,8 +294,7 @@ StartupEvents.registry('item', (event) => {
 
     const ritual_dummies = [
         // Rifts
-        { id: 'rift_slime_apocalypse', type: 'misc' },
-        { id: 'rift_wilden_calamity', type: 'misc' },
+        { id: 'catching_fire', type: 'misc' },
 
         // Animated Creatures
         { id: 'animate_blue_swet', type: 'possess' },

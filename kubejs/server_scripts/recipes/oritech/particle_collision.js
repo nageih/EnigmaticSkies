@@ -114,13 +114,13 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'the_bumblezone:essence_raging', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { tag: 'c:tokens/greater_fire' }],
+            ingredients: [{ item: 'enigmatica:qulliq_vessel' }, { tag: 'c:tokens/greater_fire' }],
             time: 15000,
             id: `${id_prefix}essence_raging`
         },
         {
             results: [{ id: 'the_bumblezone:essence_knowing', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:z_logic_controller' }],
+            ingredients: [{ tag: 'c:ingots/prometheum' }, { item: 'enderio:z_logic_controller' }],
             time: 15000,
             id: `${id_prefix}essence_knowing`
         },

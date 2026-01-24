@@ -217,6 +217,7 @@
             "oritech:solid_biofuel",
             "oritech:raw_biopolymer",
             "oritech:deep_drill_block",
+            "oritech:magnetic_coil",
             "oritech:small_storage_block",
             "oritech:large_storage_block",
             "oritech:foundry_block",
@@ -288,7 +289,22 @@
         ]
     },
     "categories": {
-        "hidden": []
+        "hidden": [
+            "industrialforegoing:ore_washing",
+            "industrialforegoing:fermentation_station",
+            "industrialforegoing:fluid_sieve",
+            "industrialforegoing:bioreactor",
+            "/industrialforegoing:mycellial_/",
+
+            "ars_nouveau:scry_ritual",
+            "oritech:reactor",
+            "oritech:laser",
+            "oritech:steam_engine",
+            "modern_industrialization:neutron_interaction",
+            "modern_industrialization:thermal_interaction",
+            "trading_floor:potential_villager_trade",
+            "pneumaticcraft:uv_light_box"
+        ]
     },
     "recipes": {
         "hidden": []

@@ -254,6 +254,14 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ` `,
                 `The Cascading Islands count as an Ocean Biome.`
             ]
+        },
+        {
+            filter: ['enigmatica:borrowed_flame'],
+            text: [
+                `Perform the Catching Fire Ritual to summon a Gateway. `,
+                ` `,
+                `Defeat the Gateway to obtain "Borrowed" Flame.`
+            ]
         }
     ];
 
@@ -334,7 +342,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
                     {
                         type: 'item',
                         id: villagerWorkstations[profession],
-                        nbt: `{"minecraft:lore":[\u0027[{"color":"green","text":"Obtained from "},{"color":"green","translate":"merchant.level.${recipe.level}"},{"color":"green","text":" "},{"color":"green","translate":"${lang_key}"},{"color":"green","text":" Villagers!"}]\u0027]}`,
+                        nbt: `{"minecraft:lore":[\u0027[{"color":"green","text":"Trade with "},{"color":"green","translate":"merchant.level.${recipe.level}"},{"color":"green","text":" "},{"color":"green","translate":"${lang_key}"},{"color":"green","text":" Villagers!"}]\u0027]}`,
                         amount: 1
                     }
                 ]

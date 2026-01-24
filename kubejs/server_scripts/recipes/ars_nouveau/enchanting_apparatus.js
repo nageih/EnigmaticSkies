@@ -671,6 +671,19 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}scryers_linkage`
+        },
+        {
+            result: { id: 'enigmatica:warded_vessel', count: 1 },
+            reagent: { item: 'enigmatica:stoneware_vessel' },
+            pedestalItems: [
+                { item: 'malum:rune_of_stone_ward' },
+                { item: 'malum:rune_of_stone_ward' },
+                { item: 'malum:rune_of_stone_ward' },
+                { item: 'malum:rune_of_stone_ward' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 5000,
+            id: `${id_prefix}warded_vessel`
         }
     ];
 

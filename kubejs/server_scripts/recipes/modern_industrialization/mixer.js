@@ -320,9 +320,9 @@ ServerEvents.recipes((event) => {
         recipes.push({
             item_outputs: [{ item: `enigmatica:${recipe.id}_anemoi`, amount: 1, probability: 1 / 500 }],
             item_inputs: [
-                { item: `enigmatica:${recipe.essentia[0]}_essentia`, amount: 1, probability: 0 },
+                { item: `enigmatica:${recipe.essentia[0]}_essentia`, amount: 1, probability: 1 / 50 },
                 { item: `malum:wind_nucleus`, amount: 1 },
-                { item: `enigmatica:${recipe.essentia[1]}_essentia`, amount: 1, probability: 0 }
+                { item: `enigmatica:${recipe.essentia[1]}_essentia`, amount: 1, probability: 1 / 50 }
             ],
             fluid_inputs: [
                 { fluid: `modern_industrialization:helium_plasma`, amount: 30 },

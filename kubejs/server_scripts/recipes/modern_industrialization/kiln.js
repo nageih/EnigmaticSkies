@@ -101,6 +101,13 @@ ServerEvents.recipes((event) => {
             duration: 1,
             eu: 2,
             id: `${id_prefix}honey_from_crystal_shards`
+        },
+        {
+            item_outputs: { item: 'enigmatica:stoneware_vessel', amount: 1 },
+            item_inputs: [{ item: 'enigmatica:unfired_vessel', amount: 1 }],
+            duration: 10,
+            eu: 32,
+            id: `${id_prefix}stoneware_vessel`
         }
     ];
 

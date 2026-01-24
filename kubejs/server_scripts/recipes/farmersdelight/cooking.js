@@ -180,13 +180,28 @@ ServerEvents.recipes((event) => {
             experience: 0.1,
             recipe_book_tab: 'drinks',
             id: `${id_prefix}source_berry_tea`
+        },
+
+        {
+            result: { id: 'enigmatica:qulliq_vessel', count: 1 },
+            ingredients: [
+                { item: 'occultism:tallow_block' },
+                { item: 'enigmatica:borrowed_flame' },
+                { item: 'occultism:tallow_block' },
+
+                { item: 'farmersdelight:straw' },
+                { item: 'farmersdelight:straw' },
+                { item: 'farmersdelight:straw' }
+            ],
+            container: { id: 'enigmatica:warded_vessel', count: 1 },
+            experience: 0.1,
+            recipe_book_tab: 'meals',
+            id: `${id_prefix}qulliq_vessel`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'farmersdelight:cooking';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
