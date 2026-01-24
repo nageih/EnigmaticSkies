@@ -3,6 +3,6 @@ ClientEvents.generateAssets('before_mods', (event) => {
 
     emi.categories.hidden.forEach((category) => {
         let payload = { filters: [{ category: category }] };
-        event.json(`emi:recipe/filters/${getID(category.id)}`, payload);
+        event.json(`emi:recipe/filters/${getID(category)}`, payload);
     });
 });
