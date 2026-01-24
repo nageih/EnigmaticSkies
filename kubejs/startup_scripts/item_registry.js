@@ -51,7 +51,7 @@ StartupEvents.registry('item', (event) => {
         { name: `The Bun Also Rises`, color: '#139df2', magic: true },
         { name: `Glazed and Confused`, color: '#070ff7', magic: true },
         { name: `Braising Cain`, color: '#f578f1' },
-        { name: `Jax's Snax`, color: '#b285e6', magic: true }
+        { name: `Jax's Snax`, color: '#9851e9', magic: true }
     ];
 
     delivery_bags.forEach((delivery_bag) => {
@@ -61,7 +61,7 @@ StartupEvents.registry('item', (event) => {
             .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
             .texture('layer1', `enigmatica:item/delivery_bags/label`)
             .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
-            .color(1, delivery_bag.magic ? '#ebcafc' : '#ddc8b1')
+            .color(1, delivery_bag.magic ? '#e0abfa' : '#ddc8b1')
             .color(2, delivery_bag.color)
             .displayName(`§6CloudDash: ${delivery_bag.magic ? '§d' : '§r'}${delivery_bag.name}`)
             .tag('enigmatica:deliveries');

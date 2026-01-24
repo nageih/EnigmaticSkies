@@ -64,11 +64,6 @@ ServerEvents.recipes((event) => {
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['#c:gems/quartz', 'ae2:certus_quartz_crystal', '#c:gems/black_quartz'])
         },
-        {
-            filter: [{ mod: 'functionalstorage' }],
-            to_replace: 'minecraft:quartz_block',
-            replace_with: 'naturesaura:infused_stone'
-        },
 
         {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
@@ -566,6 +561,11 @@ ServerEvents.recipes((event) => {
             ],
             to_replace: `minecraft:obsidian`,
             replace_with: '#c:gems/void'
+        },
+        {
+            filter: [{ output: 'sophisticatedstorage:storage_link' }],
+            to_replace: `minecraft:ender_pearl`,
+            replace_with: 'create:transmitter'
         },
         {
             filter: [{ mod: 'pneumaticcraft' }],

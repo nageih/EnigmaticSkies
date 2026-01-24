@@ -11,9 +11,41 @@ ServerEvents.generateData('before_mods', (event) => {
                     stacks: [{ id: 'enigmatica:borrowed_flame', count: 25 }]
                 }
             ],
+            failures: [
+                {
+                    type: 'gateways:mob_effect',
+                    effect: 'supplementaries:flammable',
+                    duration: 18000
+                },
+                {
+                    type: 'gateways:mob_effect',
+                    effect: 'ars_nouveau:hex',
+                    duration: 18000
+                },
+                {
+                    type: 'gateways:summon',
+                    entity: {
+                        type: 'gateways:standard',
+                        entity: 'minecraft:blaze',
+                        count: 25,
+                        nbt: { DeathLootTable: 'minecraft:empty' },
+                        finalize_spawn: false
+                    }
+                },
+                {
+                    type: 'gateways:summon',
+                    entity: {
+                        type: 'gateways:standard',
+                        entity: 'aether:fire_minion',
+                        count: 11,
+                        nbt: { DeathLootTable: 'minecraft:empty' },
+                        finalize_spawn: false
+                    }
+                }
+            ],
             waves: [
                 {
-                    max_wave_time: 800,
+                    max_wave_time: 600,
                     setup_time: 20,
                     entities: [
                         {
@@ -29,12 +61,35 @@ ServerEvents.generateData('before_mods', (event) => {
                             count: 1,
                             nbt: { DeathLootTable: 'minecraft:empty' },
                             finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:skeleton',
+                            count: 3,
+                            nbt: {
+                                DeathLootTable: 'minecraft:empty',
+                                Fire: 72000
+                            },
+                            modifiers: [
+                                {
+                                    type: 'gateways:gear_set',
+                                    gear_set: 'gateways:phoenix'
+                                },
+                                {
+                                    type: 'gateways:mob_effect',
+                                    effect: {
+                                        effect: 'minecraft:fire_resistance',
+                                        amplifier: 0
+                                    }
+                                }
+                            ],
+                            finalize_spawn: false
                         }
                     ],
                     rewards: [{ type: 'gateways:experience', experience: 10, orb_size: 2 }]
                 },
                 {
-                    max_wave_time: 800,
+                    max_wave_time: 600,
                     setup_time: 20,
                     entities: [
                         {
@@ -50,9 +105,32 @@ ServerEvents.generateData('before_mods', (event) => {
                             count: 2,
                             nbt: { DeathLootTable: 'minecraft:empty' },
                             finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:skeleton',
+                            count: 3,
+                            nbt: {
+                                DeathLootTable: 'minecraft:empty',
+                                Fire: 72000
+                            },
+                            modifiers: [
+                                {
+                                    type: 'gateways:gear_set',
+                                    gear_set: 'gateways:phoenix'
+                                },
+                                {
+                                    type: 'gateways:mob_effect',
+                                    effect: {
+                                        effect: 'minecraft:fire_resistance',
+                                        amplifier: 0
+                                    }
+                                }
+                            ],
+                            finalize_spawn: false
                         }
                     ],
-                    rewards: [{ type: 'gateways:experience', experience: 10, orb_size: 2 }],
+                    rewards: [{ type: 'gateways:experience', experience: 20, orb_size: 5 }],
                     modifiers: [
                         {
                             type: 'gateways:attribute',
@@ -93,7 +171,7 @@ ServerEvents.generateData('before_mods', (event) => {
                     ]
                 },
                 {
-                    max_wave_time: 800,
+                    max_wave_time: 600,
                     setup_time: 20,
                     entities: [
                         {
@@ -108,6 +186,29 @@ ServerEvents.generateData('before_mods', (event) => {
                             entity: 'aether:fire_minion',
                             count: 2,
                             nbt: { DeathLootTable: 'minecraft:empty' },
+                            finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:skeleton',
+                            count: 3,
+                            nbt: {
+                                DeathLootTable: 'minecraft:empty',
+                                Fire: 72000
+                            },
+                            modifiers: [
+                                {
+                                    type: 'gateways:gear_set',
+                                    gear_set: 'gateways:phoenix'
+                                },
+                                {
+                                    type: 'gateways:mob_effect',
+                                    effect: {
+                                        effect: 'minecraft:fire_resistance',
+                                        amplifier: 0
+                                    }
+                                }
+                            ],
                             finalize_spawn: false
                         }
                     ],
@@ -152,7 +253,7 @@ ServerEvents.generateData('before_mods', (event) => {
                     ]
                 },
                 {
-                    max_wave_time: 1000,
+                    max_wave_time: 600,
                     setup_time: 20,
                     entities: [
                         {
@@ -167,6 +268,29 @@ ServerEvents.generateData('before_mods', (event) => {
                             entity: 'aether:fire_minion',
                             count: 3,
                             nbt: { DeathLootTable: 'minecraft:empty' },
+                            finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:skeleton',
+                            count: 3,
+                            nbt: {
+                                DeathLootTable: 'minecraft:empty',
+                                Fire: 72000
+                            },
+                            modifiers: [
+                                {
+                                    type: 'gateways:gear_set',
+                                    gear_set: 'gateways:phoenix'
+                                },
+                                {
+                                    type: 'gateways:mob_effect',
+                                    effect: {
+                                        effect: 'minecraft:fire_resistance',
+                                        amplifier: 0
+                                    }
+                                }
+                            ],
                             finalize_spawn: false
                         }
                     ],
@@ -211,7 +335,7 @@ ServerEvents.generateData('before_mods', (event) => {
                     ]
                 },
                 {
-                    max_wave_time: 1200,
+                    max_wave_time: 600,
                     setup_time: 20,
                     entities: [
                         {
@@ -226,6 +350,29 @@ ServerEvents.generateData('before_mods', (event) => {
                             entity: 'aether:fire_minion',
                             count: 3,
                             nbt: { DeathLootTable: 'minecraft:empty' },
+                            finalize_spawn: false
+                        },
+                        {
+                            type: 'gateways:standard',
+                            entity: 'minecraft:skeleton',
+                            count: 3,
+                            nbt: {
+                                DeathLootTable: 'minecraft:empty',
+                                Fire: 72000
+                            },
+                            modifiers: [
+                                {
+                                    type: 'gateways:gear_set',
+                                    gear_set: 'gateways:phoenix'
+                                },
+                                {
+                                    type: 'gateways:mob_effect',
+                                    effect: {
+                                        effect: 'minecraft:fire_resistance',
+                                        amplifier: 0
+                                    }
+                                }
+                            ],
                             finalize_spawn: false
                         }
                     ],

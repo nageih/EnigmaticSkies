@@ -395,7 +395,7 @@ ServerEvents.recipes((event) => {
             },
             input: [
                 { item: 'malum:rune_of_fiery_embrace' },
-                { item: 'modern_industrialization:quantum_machine_hull' },
+                { item: 'modern_industrialization:fusion_chamber' },
                 { item: 'malum:rune_of_fiery_embrace' },
                 { tag: 'c:essences/greater_fire' },
                 { tag: 'c:essences/greater_fire' },

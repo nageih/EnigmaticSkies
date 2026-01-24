@@ -346,6 +346,11 @@ ServerEvents.recipes((event) => {
         { output: 'functionalstorage:obsidian_upgrade' },
         { output: 'functionalstorage:water_generator_upgrade' },
 
+        { output: 'functionalstorage:storage_controller' },
+        { output: 'functionalstorage:framed_storage_controller' },
+        { output: 'functionalstorage:controller_extension' },
+        { output: 'functionalstorage:framed_controller_extension' },
+
         // Gateways
         { output: /gateways:gate_pearl/ },
 
@@ -1143,6 +1148,7 @@ ServerEvents.recipes((event) => {
         // Sophisticated Storage
         { id: 'sophisticatedstorage:upgrade_base' },
         { id: 'sophisticatedstorage:magnet_upgrade' },
+        { id: 'sophisticatedstorage:controller' },
 
         { id: 'sophisticatedbackpacks:backpack' },
         { id: 'sophisticatedbackpacks:upgrade_base' },

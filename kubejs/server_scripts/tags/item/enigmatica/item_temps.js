@@ -28,6 +28,11 @@ ServerEvents.tags('item', (event) => {
             'minecraft:snowball',
             'minecraft:wind_charge',
             'aether:icestone',
+            'enigmatica:boreas_anemoi',
+            'enigmatica:eurus_anemoi',
+            'enigmatica:notus_anemoi',
+            'enigmatica:zephyrus_anemoi',
+            'enigmatica:flask_of_four_winds',
 
             'justdirethings:time_fluid_bucket',
             'starbunclemania:source_fluid_bucket',
