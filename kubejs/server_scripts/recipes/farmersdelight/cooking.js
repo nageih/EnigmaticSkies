@@ -189,9 +189,9 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:borrowed_flame' },
                 { item: 'occultism:tallow_block' },
 
-                { item: 'farmersdelight:straw' },
-                { item: 'farmersdelight:straw' },
-                { item: 'farmersdelight:straw' }
+                { item: 'farmersdelight:straw_bale' },
+                { item: 'farmersdelight:straw_bale' },
+                { item: 'farmersdelight:straw_bale' }
             ],
             container: { id: 'enigmatica:warded_vessel', count: 1 },
             experience: 0.1,

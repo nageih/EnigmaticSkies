@@ -290,20 +290,24 @@
     },
     "categories": {
         "hidden": [
+            "ars_nouveau:scry_ritual",
+
+            "/industrialforegoing:mycellial_/",
             "industrialforegoing:ore_washing",
             "industrialforegoing:fermentation_station",
             "industrialforegoing:fluid_sieve",
             "industrialforegoing:bioreactor",
-            "/industrialforegoing:mycellial_/",
 
-            "ars_nouveau:scry_ritual",
+            "modern_industrialization:neutron_interaction",
+            "modern_industrialization:thermal_interaction",
+
             "oritech:reactor",
             "oritech:laser",
             "oritech:steam_engine",
-            "modern_industrialization:neutron_interaction",
-            "modern_industrialization:thermal_interaction",
-            "trading_floor:potential_villager_trade",
-            "pneumaticcraft:uv_light_box"
+
+            "pneumaticcraft:uv_light_box",
+
+            "trading_floor:potential_villager_trade"
         ]
     },
     "recipes": {
