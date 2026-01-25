@@ -117,7 +117,6 @@ StartupEvents.registry('item', (event) => {
         },
         {
             name: 'Desert Essentia',
-            // colors: ['', '#fcc924'],
             colors: ['#c0b985', ''],
             layers: ['alchemy_bottle_warded_contents_pulsing', 'alchemy_bottle_warded']
         },
@@ -128,13 +127,11 @@ StartupEvents.registry('item', (event) => {
         },
         {
             name: 'Taiga Essentia',
-            // colors: ['', '#56bd9b'],
             colors: ['#86B783', ''],
             layers: ['alchemy_bottle_warded_contents_swirling', 'alchemy_bottle_warded']
         },
         {
             name: 'Swamp Essentia',
-            // colors: ['', '#4b9902'],
             colors: ['#4C763C', ''],
             layers: ['alchemy_bottle_warded_contents_roiling', 'alchemy_bottle_warded']
         },
@@ -150,13 +147,11 @@ StartupEvents.registry('item', (event) => {
         },
         {
             name: 'Ocean Essentia',
-            // colors: ['', '#0178BD'],
             colors: ['#1463A5', ''],
             layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
         },
         {
             name: 'Forest Essentia',
-            // colors: ['', '#379401'],
             colors: ['#59AE30', ''],
             layers: ['alchemy_bottle_warded_contents_vortex', 'alchemy_bottle_warded']
         },
