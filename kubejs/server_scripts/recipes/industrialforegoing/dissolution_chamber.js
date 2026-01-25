@@ -403,7 +403,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enigmatica:tempestuous_mechanism' },
                 { item: 'malum:rune_of_igneous_solace' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 8000 },
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 8000 },
             processingTime: 60,
             id: `${id_prefix}infinity_nuke`
         },
