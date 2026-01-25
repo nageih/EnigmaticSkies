@@ -59,6 +59,11 @@ ServerEvents.recipes((event) => {
             result: { id: AlmostUnified.getTagTargetItem(`c:ingots/silver`).getId() },
             input: { tag: 'c:ingots/gold' },
             id: `${id_prefix}silver_ingot`
+        },
+        {
+            result: { id: 'oritech:prometheum_ingot' },
+            input: { item: 'industrialforegoing:infinity_nuke' },
+            id: `${id_prefix}prometheum_ingot`
         }
     ];
 

@@ -150,6 +150,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_nouveau:basic_spell_turret' },
         { id: 'ars_nouveau:spell_turret' },
         { id: 'ars_nouveau:spell_prism' },
+        { id: 'ars_nouveau:terracotta' },
         { id: 'ars_nouveau:first_armor_upgrade' },
         { id: 'ars_nouveau:second_armor_upgrade' },
         { id: 'ars_nouveau:splash_flask_cannon' },
@@ -221,7 +222,7 @@ ServerEvents.recipes((event) => {
         { id: 'create:crushing/gilded_blackstone' },
         { id: 'create:crushing/netherrack' },
         { id: 'create:mixing/compat/ae2/fluix_crystal' },
-        { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle)/ },
+        { id: /create:milling\/(dripstone|cobblestone|andesite|calcite|granite|saddle|terracotta)/ },
         { id: 'create:crafting/kinetics/large_cogwheel' },
         { id: 'create:crafting/kinetics/propeller' },
         { id: 'create:crafting/kinetics/whisk' },
@@ -344,6 +345,11 @@ ServerEvents.recipes((event) => {
         { output: 'functionalstorage:dripping_upgrade' },
         { output: 'functionalstorage:obsidian_upgrade' },
         { output: 'functionalstorage:water_generator_upgrade' },
+
+        { output: 'functionalstorage:storage_controller' },
+        { output: 'functionalstorage:framed_storage_controller' },
+        { output: 'functionalstorage:controller_extension' },
+        { output: 'functionalstorage:framed_controller_extension' },
 
         // Gateways
         { output: /gateways:gate_pearl/ },
@@ -531,6 +537,7 @@ ServerEvents.recipes((event) => {
         { id: 'minecraft:packed_ice' },
         { id: 'minecraft:blue_ice' },
         { id: 'minecraft:wind_charge' },
+        { id: 'minecraft:turtle_egg' },
         { id: 'minecraft:observer' },
         { id: /minecraft:dried_kelp_from_(smelting|smoking|campfire_cooking)/ },
         { type: 'minecraft:crafting_shaped', output: 'minecraft:cake' },
@@ -1027,6 +1034,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:atomicforge/advcomputer' },
         { id: 'oritech:atomicforge/reinfdeepslate' },
         { id: 'oritech:atomicforge/aicomputer' },
+        { id: 'oritech:atomicforge/prometheum' },
         { id: 'oritech:atomicforge/wafer' },
         { id: 'oritech:particle/enderic_compound' },
         { id: 'oritech:particle/platinum_dust' },
@@ -1140,6 +1148,7 @@ ServerEvents.recipes((event) => {
         // Sophisticated Storage
         { id: 'sophisticatedstorage:upgrade_base' },
         { id: 'sophisticatedstorage:magnet_upgrade' },
+        { id: 'sophisticatedstorage:controller' },
 
         { id: 'sophisticatedbackpacks:backpack' },
         { id: 'sophisticatedbackpacks:upgrade_base' },

@@ -254,13 +254,39 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}turbine_blade`
+        },
+        {
+            results: [{ id: 'minecraft:podzol', count: 1 }],
+            inputs: [
+                { item: 'minecraft:mud', count: 1 },
+                { item: 'minecraft:spruce_leaves', count: 16 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}podzol`
+        },
+        {
+            results: [{ id: 'minecraft:mycelium', count: 1 }],
+            inputs: [
+                { item: 'minecraft:mud', count: 1 },
+                { tag: 'c:mushrooms', count: 16 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}mycelium`
+        },
+        {
+            results: [{ id: 'create:blaze_cake_base', count: 1 }],
+            inputs: [
+                { tag: 'c:eggs', count: 1 },
+                { item: 'minecraft:sugar', count: 1 },
+                { item: 'create:cinder_flour', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}blaze_cake_base`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = `pneumaticcraft:pressure_chamber`;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

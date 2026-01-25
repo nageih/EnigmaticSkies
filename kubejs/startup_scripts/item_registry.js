@@ -21,10 +21,17 @@ StartupEvents.registry('item', (event) => {
         'elemental_matrix',
 
         'dormant_wildroot',
+        'primordial_mud',
         'suffused_wildroot',
 
+        'boreas_anemoi',
+        'eurus_anemoi',
+        'notus_anemoi',
+        'zephyrus_anemoi',
         'welkin_decanter',
-        'tumultuous_anemoi'
+        'flask_of_four_winds',
+
+        'borrowed_flame'
     ];
 
     simple_items.forEach((item) => {
@@ -44,7 +51,7 @@ StartupEvents.registry('item', (event) => {
         { name: `The Bun Also Rises`, color: '#139df2', magic: true },
         { name: `Glazed and Confused`, color: '#070ff7', magic: true },
         { name: `Braising Cain`, color: '#f578f1' },
-        { name: `Jax's Snax`, color: '#b285e6', magic: true }
+        { name: `Jax's Snax`, color: '#9851e9', magic: true }
     ];
 
     delivery_bags.forEach((delivery_bag) => {
@@ -54,7 +61,7 @@ StartupEvents.registry('item', (event) => {
             .texture('layer0', `enigmatica:item/delivery_bags/delivery_bag`)
             .texture('layer1', `enigmatica:item/delivery_bags/label`)
             .texture('layer2', `enigmatica:item/delivery_bags/sticker`)
-            .color(1, delivery_bag.magic ? '#ebcafc' : '#ddc8b1')
+            .color(1, delivery_bag.magic ? '#e0abfa' : '#ddc8b1')
             .color(2, delivery_bag.color)
             .displayName(`§6CloudDash: ${delivery_bag.magic ? '§d' : '§r'}${delivery_bag.name}`)
             .tag('enigmatica:deliveries');
@@ -105,48 +112,63 @@ StartupEvents.registry('item', (event) => {
     const bottles = [
         {
             name: 'Source Ink',
-            colors: ['', '#7d20ab', ''],
-            layers: ['alchemy_bottle', 'alchemy_bottle_normal_contents_swirling', 'alchemy_bottle_label_black']
+            colors: ['#7d20ab', '', ''],
+            layers: ['alchemy_bottle_normal_contents_swirling', 'alchemy_bottle', 'alchemy_bottle_label_black']
         },
         {
             name: 'Desert Essentia',
-            colors: ['', '#fcc924'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_pulsing']
+            // colors: ['', '#fcc924'],
+            colors: ['#c0b985', ''],
+            layers: ['alchemy_bottle_warded_contents_pulsing', 'alchemy_bottle_warded']
         },
         {
             name: 'Savanna Essentia',
-            colors: ['', '#a4b641'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_bubbling']
+            colors: ['#a4b641', ''],
+            layers: ['alchemy_bottle_warded_contents_bubbling', 'alchemy_bottle_warded']
         },
         {
             name: 'Taiga Essentia',
-            colors: ['', '#56bd9b'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_swirling']
+            // colors: ['', '#56bd9b'],
+            colors: ['#86B783', ''],
+            layers: ['alchemy_bottle_warded_contents_swirling', 'alchemy_bottle_warded']
         },
         {
             name: 'Swamp Essentia',
-            colors: ['', '#4b9902'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_roiling']
+            // colors: ['', '#4b9902'],
+            colors: ['#4C763C', ''],
+            layers: ['alchemy_bottle_warded_contents_roiling', 'alchemy_bottle_warded']
         },
         {
             name: 'Plains Essentia',
-            colors: ['', '#05dcf8'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_still']
+            colors: ['#05dcf8', ''],
+            layers: ['alchemy_bottle_warded_contents_still', 'alchemy_bottle_warded']
         },
         {
             name: 'Tundra Essentia',
-            colors: ['', '#bae6f0'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_gyre']
+            colors: ['#bae6f0', ''],
+            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
+        },
+        {
+            name: 'Ocean Essentia',
+            // colors: ['', '#0178BD'],
+            colors: ['#1463A5', ''],
+            layers: ['alchemy_bottle_warded_contents_gyre', 'alchemy_bottle_warded']
         },
         {
             name: 'Forest Essentia',
-            colors: ['', '#379401'],
-            layers: ['alchemy_bottle_warded', 'alchemy_bottle_warded_contents_vortex']
+            // colors: ['', '#379401'],
+            colors: ['#59AE30', ''],
+            layers: ['alchemy_bottle_warded_contents_vortex', 'alchemy_bottle_warded']
         },
         {
             name: 'Luminiferous Aether Bottle',
             colors: ['', ''],
-            layers: ['alchemy_bottle_reinforced', 'alchemy_bottle_reinforced_contents_phlogiston']
+            layers: ['alchemy_bottle_reinforced_contents_luminiferous_aether', 'alchemy_bottle_reinforced']
+        },
+        {
+            name: 'Vapours of Nyx Bottle',
+            colors: ['', ''],
+            layers: ['alchemy_bottle_reinforced_contents_vapours_of_nyx', 'alchemy_bottle_reinforced']
         }
     ];
 
@@ -160,6 +182,42 @@ StartupEvents.registry('item', (event) => {
         });
 
         bottle.colors.forEach((color, index) => {
+            if (color != '') item.color(index, color);
+        });
+    });
+
+    const alchemy_pots = [
+        {
+            name: 'Unfired Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_unfired']
+        },
+        {
+            name: 'Stoneware Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_ceramic']
+        },
+        {
+            name: 'Warded Vessel',
+            colors: [''],
+            layers: ['alchemy_pot_stone']
+        },
+        {
+            name: 'Qulliq Vessel',
+            colors: ['', '#ff9100'],
+            layers: ['alchemy_pot_stone', 'alchemy_pot_contents_glossy']
+        }
+    ];
+
+    alchemy_pots.forEach((pot) => {
+        let id = getID(pot.name);
+        let item = event.create(`enigmatica:${id}`).displayName(pot.name);
+
+        pot.layers.forEach((layer, index) => {
+            item.texture(`layer${index}`, `enigmatica:item/alchemy_pots/${layer}`);
+        });
+
+        pot.colors.forEach((color, index) => {
             if (color != '') item.color(index, color);
         });
     });
@@ -236,8 +294,7 @@ StartupEvents.registry('item', (event) => {
 
     const ritual_dummies = [
         // Rifts
-        { id: 'rift_slime_apocalypse', type: 'misc' },
-        { id: 'rift_wilden_calamity', type: 'misc' },
+        { id: 'catching_fire', type: 'misc' },
 
         // Animated Creatures
         { id: 'animate_blue_swet', type: 'possess' },

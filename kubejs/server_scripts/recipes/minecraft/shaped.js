@@ -127,9 +127,20 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    const corals = ['tube', 'brain', 'bubble', 'fire', 'horn'];
+
+    corals.forEach((coral) => {
+        recipes.push({
+            output: `minecraft:${coral}_coral_block`,
+            pattern: ['AAA', 'AAA', 'AAA'],
+            key: {
+                A: Ingredient.of([`minecraft:${coral}_coral`, `minecraft:${coral}_coral_fan`])
+            },
+            id: `${id_prefix}${coral}_coral_block`
+        });
+    });
+
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

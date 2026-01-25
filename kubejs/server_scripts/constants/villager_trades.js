@@ -156,6 +156,11 @@ const villagerTrades = {
             result: { id: 'sushigocrafting:shrimp[sushigocrafting:amount=100]', count: 1 },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
             level: 5
+        },
+        {
+            result: { id: 'minecraft:sponge', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ],
     // Loom
@@ -252,7 +257,7 @@ const villagerTrades = {
             level: 1
         }
     ],
-    // Butcher
+    // Smoker
     'minecraft:butcher': [
         {
             result: { id: 'farmersdelight:minced_beef', count: 32 },
@@ -498,7 +503,7 @@ const villagerTrades = {
             level: 5
         },
         {
-            result: { id: 'enigmatica:antikythera_mechanism', count: 4 },
+            result: { id: 'enigmatica:antikythera_mechanism', count: 1 },
             ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
             level: 5
         }
@@ -909,39 +914,3 @@ stonecutter_stones.forEach((stones) => {
         });
     });
 });
-
-// const aquacultureFish = [
-//     'aquaculture:atlantic_cod',
-//     'aquaculture:blackfish',
-//     'aquaculture:pacific_halibut',
-//     'aquaculture:atlantic_halibut',
-//     'aquaculture:atlantic_herring',
-//     'aquaculture:pink_salmon',
-//     'aquaculture:pollock',
-//     'aquaculture:rainbow_trout',
-//     'aquaculture:bayad',
-//     'aquaculture:boulti',
-//     'aquaculture:capitaine',
-//     'aquaculture:synodontis',
-//     'aquaculture:smallmouth_bass',
-//     'aquaculture:bluegill',
-//     'aquaculture:brown_trout',
-//     'aquaculture:carp',
-//     'aquaculture:catfish',
-//     'aquaculture:gar',
-//     'aquaculture:muskellunge',
-//     'aquaculture:tuna',
-//     'aquaculture:red_grouper',
-//     'aquaculture:tambaqui',
-//     'aquaculture:piranha',
-//     'aquaculture:arapaima',
-//     'aquaculture:perch'
-// ];
-
-// aquacultureFish.forEach((fish) => {
-//     villagerTrades['minecraft:fisherman'].push({
-//         result: { id: fish, count: 4 },
-//         ingredients: [{ id: 'farmersdelight:shepherds_pie_block', count: { min: 1, max: 1 } }],
-//         level: 5
-//     });
-// });

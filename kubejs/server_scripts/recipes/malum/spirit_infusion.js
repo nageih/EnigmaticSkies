@@ -409,7 +409,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'enderio:frank_n_zombie', count: 1 },
             extraInputs: [
                 { item: 'pneumaticcraft:plastic', count: 4 },
-                { item: 'minecraft:heart_of_the_sea', count: 1 }
+                { item: 'minecraft:conduit', count: 1 }
             ],
             spirits: [
                 { type: 'malum:arcane', count: 32 },
@@ -430,18 +430,52 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}iridium_plate`
         },
         {
-            result: { id: 'enigmatica:tumultuous_anemoi', count: 1 },
-            input: { item: 'enigmatica:welkin_decanter', count: 1 },
+            result: { id: 'enigmatica:welkin_decanter', count: 1 },
+            input: { item: 'malum:spirit_jar', count: 1 },
             extraInputs: [
-                { item: 'malum:rune_of_sky_tether', count: 4 },
+                { item: 'malum:rune_of_sky_tether', count: 1 },
+                { item: 'malum:astral_weave', count: 7 },
                 { item: 'oritech:overcharged_crystal', count: 1 },
-                { item: 'malum:rune_of_howling_gale', count: 4 }
+                { tag: 'c:plates/sky', count: 7 },
+                { item: 'malum:rune_of_howling_gale', count: 1 }
             ],
             spirits: [
-                { type: 'malum:arcane', count: 16 },
-                { type: 'malum:aerial', count: 16 }
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aerial', count: 32 }
             ],
-            id: `${id_prefix}tumultuous_anemoi`
+            id: `${id_prefix}welkin_decanter`
+        },
+        {
+            result: { id: 'ars_elemental:everfull_urn', count: 1 },
+            input: { item: 'handcrafted:terracotta_thick_pot', count: 1 },
+            extraInputs: [
+                { item: 'malum:rune_of_flowing_grasp', count: 1 },
+                { item: 'oritech:overcharged_crystal', count: 1 },
+                { item: 'malum:rune_of_good_tides', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aqueous', count: 32 }
+            ],
+            id: `${id_prefix}everfull_urn`
+        },
+        {
+            result: { id: 'enigmatica:unfired_vessel', count: 1 },
+            input: { item: 'minecraft:clay', count: 4 },
+            extraInputs: [
+                { item: 'malum:alchemical_calx', count: 1 },
+                {
+                    type: 'neoforge:components',
+                    items: 'apotheosis:potion_charm',
+                    components: { potion_contents: { potion: 'minecraft:weaving' } }
+                },
+                { item: 'enigmatica:primordial_mud', count: 16 }
+            ],
+            spirits: [
+                { type: 'malum:sacred', count: 32 },
+                { type: 'malum:earthen', count: 32 }
+            ],
+            id: `${id_prefix}unfired_vessel`
         }
     ];
 

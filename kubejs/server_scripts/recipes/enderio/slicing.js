@@ -254,13 +254,24 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}ravager`
+        },
+        {
+            output: { id: 'enigmatica:suffused_wildroot', count: 2 },
+            inputs: [
+                { item: 'enigmatica:dormant_wildroot' },
+                { item: 'ars_nouveau:whirlisprig_charm' },
+                { item: 'enigmatica:dormant_wildroot' },
+                { item: 'enigmatica:primordial_mud' },
+                { item: 'malum:rune_of_oaken_might' },
+                { item: 'enigmatica:primordial_mud' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}suffused_wildroot`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'enderio:slicing';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

@@ -361,6 +361,16 @@ ServerEvents.recipes((event) => {
             time: 4.0,
             id: `${id_prefix}cthonic_gold`
         },
+        {
+            outputs: { item_output: { id: 'create:blaze_cake', count: 1 } },
+            inputs: {
+                fluid: { fluid: 'minecraft:lava', amount: 250 },
+                item: { item: 'create:blaze_cake_base' }
+            },
+            pressure: 1.0,
+            time: 0.05,
+            id: `${id_prefix}blaze_cake`
+        },
 
         {
             outputs: { item_output: { id: 'theurgy:alchemical_salt_mineral', count: 8 } },

@@ -132,5 +132,6 @@
 			}
 			random_bonus: 2
 		}
+		{ id: "365FADF58BA80F7B", item: { count: 1, id: "aether:life_shard" } }
 	]
 }

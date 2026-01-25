@@ -20,4 +20,32 @@ BlockEvents.rightClicked((event) => {
     if (item.id == 'ars_nouveau:air_essence' && block.id == 'minecraft:sculk') {
         convertToBiome(event, 'minecraft:deep_dark', 'minecraft:sculk_soul', 10);
     }
+
+    if (item.id == 'enigmatica:forest_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:dark_forest', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:desert_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:desert', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:taiga_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:taiga', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:tundra_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:snowy_plains', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:savanna_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:savanna', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:plains_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:plains', 'supplementaries:green_flame', 64);
+    }
+
+    if (item.id == 'enigmatica:swamp_essentia' && block.id == 'naturesaura:sky_ingot_block') {
+        convertToBiome(event, 'minecraft:swamp', 'supplementaries:green_flame', 64);
+    }
 });

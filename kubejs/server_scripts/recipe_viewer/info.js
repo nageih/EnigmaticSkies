@@ -223,6 +223,45 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: [`enderio:wireless_charger_antenna`, `enderio:wireless_charger_antenna_advanced`],
             text: [`Place on top of an Enderio Wireless Charger to increase its range.`]
+        },
+        {
+            filter: [
+                'enigmatica:forest_essentia',
+                'enigmatica:desert_essentia',
+                'enigmatica:taiga_essentia',
+                'enigmatica:tundra_essentia',
+                'enigmatica:savanna_essentia',
+                'enigmatica:plains_essentia',
+                'enigmatica:swamp_essentia'
+            ],
+            text: [`Use on a Block of the Skies to convert the biome in a large area.`]
+        },
+        {
+            filter: [
+                'minecraft:brain_coral',
+                'minecraft:tube_coral',
+                'minecraft:horn_coral',
+                'minecraft:bubble_coral',
+                'minecraft:fire_coral',
+                'minecraft:horn_coral_fan',
+                'minecraft:tube_coral_fan',
+                'minecraft:bubble_coral_fan',
+                'minecraft:fire_coral_fan',
+                'minecraft:brain_coral_fan'
+            ],
+            text: [
+                `May be obtained by using Bone Meal on Gravel or Sand under water in an Ocean Biome.`,
+                ` `,
+                `The Cascading Islands count as an Ocean Biome.`
+            ]
+        },
+        {
+            filter: ['enigmatica:borrowed_flame'],
+            text: [
+                `Perform the Catching Fire Ritual to summon a Gateway. `,
+                ` `,
+                `Defeat the Gateway to obtain "Borrowed" Flame.`
+            ]
         }
     ];
 
@@ -277,6 +316,8 @@ RecipeViewerEvents.addInformation('item', (event) => {
         descriptions.push(description);
     });
 
+    const villagerTradesClient = { trades: [] };
+
     Object.keys(villagerTrades).forEach((profession) => {
         villagerTrades[profession].forEach((recipe) => {
             // "entity.minecraft.villager.farmer"
@@ -290,13 +331,51 @@ RecipeViewerEvents.addInformation('item', (event) => {
                     Text.string(`Obtained by trading with `)
                         .append(Text.translate(lang_key))
                         .append(Text.string(' Villagers.')),
-
                     ` `,
                     Text.string(`Trade Level: `).append(Text.translate(`merchant.level.${recipe.level}`))
                 ]
             });
+
+            let payload = {
+                left: [],
+                right: [
+                    {
+                        type: 'item',
+                        id: villagerWorkstations[profession],
+                        nbt: `{"minecraft:lore":[\u0027[{"color":"green","text":"Trade with "},{"color":"green","translate":"merchant.level.${recipe.level}"},{"color":"green","text":" "},{"color":"green","translate":"${lang_key}"},{"color":"green","text":" Villagers!"}]\u0027]}`,
+                        amount: 1
+                    }
+                ]
+            };
+
+            // Generate formatted JSON for EMI to display Villager Trades as World Interaction recipes
+            let output_data = JSON.parse(Ingredient.of(recipe.result.id).toJson());
+
+            payload.output = {
+                type: 'item',
+                id: output_data.items ? output_data.items : output_data.item,
+                amount: recipe.result.count
+            };
+
+            payload.id = `${output_data.items ? output_data.items : output_data.item}_from_${profession}`;
+
+            if (output_data.components) {
+                payload.output.nbt = JSON.stringify(output_data.components);
+            }
+
+            recipe.ingredients.forEach((input) => {
+                payload.left.push({
+                    type: 'item',
+                    id: input.id,
+                    count: input.count.min
+                });
+            });
+
+            villagerTradesClient.trades.push(payload);
         });
     });
+
+    JsonIO.write('kubejs/config/emi_villagers.json', villagerTradesClient);
 
     descriptions.forEach((description) => {
         event.add(description.filter, description.text);

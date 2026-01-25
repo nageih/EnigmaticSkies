@@ -265,16 +265,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}black_laser_lens`
         },
         {
-            outputFluid: { amount: 250, id: 'industrialforegoing:essence' },
+            outputFluid: { id: 'industrialforegoing:essence', amount: 250 },
             input: [{ tag: 'c:gems/brilliance' }],
-            inputFluid: { amount: 50, fluid: 'theurgy:sal_ammoniac' },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 50 },
             processingTime: 5,
             id: `${id_prefix}essence`
         },
         {
-            outputFluid: { amount: 1000, id: 'industrialforegoing:biofuel' },
+            outputFluid: { id: 'industrialforegoing:biofuel', amount: 1000 },
             input: [{ tag: 'c:dusts/grains_of_infinity' }],
-            inputFluid: { amount: 1000, fluid: 'justdirethings:refined_t2_fluid_source' },
+            inputFluid: { fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 },
             processingTime: 10,
             id: `${id_prefix}biofuel`
         },
@@ -387,23 +387,23 @@ ServerEvents.recipes((event) => {
                 id: 'industrialforegoing:infinity_nuke',
                 components: {
                     'industrialforegoing:infinity_can_charge': true,
-                    'industrialforegoing:infinity_item_power': 0,
-                    'industrialforegoing:infinity_item_selected_tier': 'poor',
+                    'industrialforegoing:infinity_item_power': 9223372036854775807,
+                    'industrialforegoing:infinity_item_selected_tier': 'artifact',
                     'industrialforegoing:infinity_item_special': false
                 },
                 count: 1
             },
             input: [
-                { item: 'minecraft:tnt' },
-                { item: 'minecraft:nether_star' },
-                { item: 'minecraft:tnt' },
-                { tag: 'c:storage_blocks/celestigem' },
-                { tag: 'c:storage_blocks/celestigem' },
-                { item: 'oritech:heisenberg_compensator' },
+                { item: 'malum:rune_of_fiery_embrace' },
+                { item: 'modern_industrialization:fusion_chamber' },
+                { item: 'malum:rune_of_fiery_embrace' },
+                { tag: 'c:essences/greater_fire' },
+                { tag: 'c:essences/greater_fire' },
+                { item: 'malum:rune_of_igneous_solace' },
                 { item: 'enigmatica:tempestuous_mechanism' },
-                { item: 'oritech:heisenberg_compensator' }
+                { item: 'malum:rune_of_igneous_solace' }
             ],
-            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
+            inputFluid: { fluid: 'oritech:still_strange_matter', amount: 8000 },
             processingTime: 60,
             id: `${id_prefix}infinity_nuke`
         },
@@ -435,116 +435,132 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            output: { id: 'enigmatica:forest_essentia', count: 1 },
+            output: { id: 'enigmatica:forest_essentia', count: 4 },
             input: [
                 { item: 'minecraft:dark_oak_sapling' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:lilac' },
                 { item: 'minecraft:birch_sapling' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:honeycomb' },
                 { item: 'minecraft:mycelium' },
-                { item: 'minecraft:lilac' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:red_mushroom_block' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}forest_essentia`
         },
         {
-            output: { id: 'enigmatica:desert_essentia', count: 1 },
+            output: { id: 'enigmatica:desert_essentia', count: 4 },
             input: [
                 { item: 'minecraft:cactus' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:poppy' },
                 { item: 'minecraft:dead_bush' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:rabbit_foot' },
                 { item: 'minecraft:red_sandstone' },
-                { item: 'minecraft:poppy' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:sandstone' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}desert_essentia`
         },
         {
-            output: { id: 'enigmatica:taiga_essentia', count: 1 },
+            output: { id: 'enigmatica:taiga_essentia', count: 4 },
             input: [
                 { item: 'minecraft:spruce_sapling' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:sweet_berries' },
                 { item: 'minecraft:fern' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:feather' },
                 { item: 'minecraft:podzol' },
-                { item: 'minecraft:sweet_berries' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:mossy_cobblestone' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}taiga_essentia`
         },
         {
-            output: { id: 'enigmatica:tundra_essentia', count: 1 },
+            output: { id: 'enigmatica:tundra_essentia', count: 4 },
             input: [
                 { item: 'minecraft:glow_lichen' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:beetroot' },
                 { item: 'minecraft:pumpkin' },
                 { item: 'minecraft:goat_horn' },
                 { item: 'cold_sweat:goat_fur' },
                 { item: 'minecraft:blue_ice' },
-                { item: 'minecraft:beetroot' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:snow_block' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}tundra_essentia`
         },
         {
-            output: { id: 'enigmatica:savanna_essentia', count: 1 },
+            output: { id: 'enigmatica:savanna_essentia', count: 4 },
             input: [
                 { item: 'minecraft:acacia_sapling' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:rose_bush' },
                 { item: 'arts_and_crafts:cork_sapling' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:armadillo_scute' },
                 { item: 'minecraft:grass_block' },
-                { item: 'minecraft:rose_bush' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:granite' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}savanna_essentia`
         },
         {
-            output: { id: 'enigmatica:plains_essentia', count: 1 },
+            output: { id: 'enigmatica:plains_essentia', count: 4 },
             input: [
                 { item: 'minecraft:oak_sapling' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:sunflower' },
                 { item: 'minecraft:sugar_cane' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:leather' },
                 { item: 'minecraft:grass_block' },
-                { item: 'minecraft:sunflower' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:andesite' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}plains_essentia`
         },
         {
-            output: { id: 'enigmatica:swamp_essentia', count: 1 },
+            output: { id: 'enigmatica:swamp_essentia', count: 4 },
             input: [
                 { item: 'minecraft:mangrove_propagule' },
-                { item: 'the_bumblezone:royal_jelly_bottle' },
+                { item: 'minecraft:blue_orchid' },
                 { item: 'minecraft:glow_berries' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:verdant_froglight' },
                 { item: 'minecraft:moss_block' },
-                { item: 'minecraft:blue_orchid' },
+                { tag: 'c:essences/greater_earth' },
                 { item: 'minecraft:mud' }
             ],
-            inputFluid: { fluid: 'modern_industrialization:helium_plasma', amount: 1000 },
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
             id: `${id_prefix}swamp_essentia`
+        },
+        {
+            output: { id: 'enigmatica:ocean_essentia', count: 4 },
+            input: [
+                { item: 'minecraft:nautilus_shell' },
+                { item: 'minecraft:sea_pickle' },
+                { item: 'minecraft:pufferfish' },
+                { item: 'enderio:guardian_diode' },
+                { item: 'minecraft:sponge' },
+                { item: 'minecraft:prismarine' },
+                { tag: 'c:essences/greater_water' },
+                { tag: 'minecraft:coral_plants' }
+            ],
+            inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
+            processingTime: 15,
+            id: `${id_prefix}ocean_essentia`
         }
     ];
 

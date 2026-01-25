@@ -22,7 +22,14 @@ ServerEvents.tags('item', (event) => {
         rotting_essence: ['malum:rotting_essence'],
         hex_ash: ['malum:hex_ash'],
         grim_talc: ['malum:grim_talc'],
-        alchemical_calx: ['malum:alchemical_calx']
+        alchemical_calx: ['malum:alchemical_calx'],
+
+        greater_air: ['the_bumblezone:essence_radiance'],
+        greater_fire: ['the_bumblezone:essence_raging'],
+        greater_earth: ['the_bumblezone:essence_life'],
+        greater_water: ['the_bumblezone:essence_calming'],
+        knowledge: ['the_bumblezone:essence_knowing'],
+        rebirth: ['the_bumblezone:essence_continuity']
     };
 
     Object.keys(additions).forEach((tag) => {

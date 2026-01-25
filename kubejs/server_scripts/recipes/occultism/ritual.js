@@ -11,34 +11,24 @@ ServerEvents.recipes((event) => {
     };
 
     const recipes = [
-        // {
-        //     ritual_type: 'occultism:craft',
-        //     result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:slime_apocalypse"]').toJson(),
-        //     activation_item: { item: 'minecraft:conduit' },
-        //     ingredients: [
-        //         { item: 'industrialforegoing:pink_slime_block' },
-        //         { item: 'malum:earthen_spirit' },
-        //         { item: 'malum:infernal_spirit' },
-        //         { item: 'malum:aqueous_spirit' }
-        //     ],
-        //     ritual_dummy: { id: 'occultism:ritual_dummy/rift_slime_apocalypse', count: 1 },
-        //     duration: 30,
-        //     id: `${id_prefix}rift_slime_apocalypse`
-        // },
-        // {
-        //     ritual_type: 'occultism:craft',
-        //     result: Item.of('gateways:gate_pearl[gateways:gateway="gateways:wilden_calamity"]').toJson(),
-        //     activation_item: { item: 'minecraft:conduit' },
-        //     ingredients: [
-        //         { item: 'ars_elemental:mark_of_mastery' },
-        //         { item: 'malum:earthen_spirit' },
-        //         { item: 'malum:aerial_spirit' },
-        //         { item: 'malum:aqueous_spirit' }
-        //     ],
-        //     ritual_dummy: { id: 'occultism:ritual_dummy/rift_wilden_calamity', count: 1 },
-        //     duration: 30,
-        //     id: `${id_prefix}rift_wilden_calamity`
-        // },
+        {
+            ritual_type: 'occultism:craft',
+            result: {
+                id: 'gateways:gate_pearl',
+                components: { 'gateways:gateway': 'gateways:catching_fire' },
+                count: 1
+            },
+            activation_item: { item: 'arsdelight:bombegrante_steak' },
+            ingredients: [
+                { item: 'malum:blazing_diode' },
+                { item: 'create:blaze_cake' },
+                { tag: 'c:essences/greater_air' },
+                { item: 'create:blaze_cake' }
+            ],
+            ritual_dummy: { id: 'occultism:ritual_dummy/catching_fire', count: 1 },
+            duration: 30,
+            id: `${id_prefix}catching_fire`
+        },
         {
             ritual_type: 'occultism:summon',
             entity_to_summon: 'ars_nouveau:wilden_boss',

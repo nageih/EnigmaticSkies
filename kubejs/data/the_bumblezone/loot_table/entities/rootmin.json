@@ -1,0 +1,92 @@
+{
+    "type": "minecraft:entity",
+    "random_sequence": "the_bumblezone:entities",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "enigmatica:dormant_wildroot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "farmersdelight:onion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "minecraft:potato"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "minecraft:beetroot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": { "type": "minecraft:uniform", "min": 0.0, "max": 1.0 }
+                        }
+                    ],
+                    "name": "minecraft:rooted_dirt"
+                }
+            ]
+        }
+    ]
+}

@@ -1,29 +1,29 @@
 ServerEvents.generateData('before_mods', (event) => {
     const recipes = [
         {
-            name: 'warm_stackables',
-            item: { items: ['#enigmatica:warm_stackables'] },
+            name: 'warm',
+            item: { items: ['#enigmatica:warm'] },
             slots: ['hotbar', 'inventory'],
-            temperature: 0.2 / 64,
+            temperature: 0.2,
             trait: 'core'
         },
         {
-            name: 'hot_unstackables',
-            item: { items: ['#enigmatica:hot_unstackables'] },
+            name: 'hot',
+            item: { items: ['#enigmatica:hot'] },
             slots: ['hotbar', 'inventory'],
-            temperature: 0.5,
+            temperature: 2.0,
             trait: 'core'
         },
         {
-            name: 'cold_stackables',
-            item: { items: ['#enigmatica:cold_stackables'] },
+            name: 'super_hot',
+            item: { items: ['#enigmatica:super_hot'] },
             slots: ['hotbar', 'inventory'],
-            temperature: -0.2 / 64,
+            temperature: 10.0,
             trait: 'core'
         },
         {
-            name: 'cold_unstackables',
-            item: { items: ['#enigmatica:cold_unstackables'] },
+            name: 'cold',
+            item: { items: ['#enigmatica:cold'] },
             slots: ['hotbar', 'inventory'],
             temperature: -0.2,
             trait: 'core'

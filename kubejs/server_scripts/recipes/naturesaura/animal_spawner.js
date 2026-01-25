@@ -170,6 +170,39 @@ ServerEvents.recipes((event) => {
             aura: 30000,
             time: 60,
             id: `${id_prefix}cave_spider`
+        },
+        {
+            entity: 'aquaculture:arrau_turtle',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:turtle_egg' },
+                { item: 'minecraft:glow_berries' }
+            ],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}arrau_turtle`
+        },
+        {
+            entity: 'aquaculture:starshell_turtle',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:turtle_egg' },
+                { item: 'aether:blue_berry' }
+            ],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}starshell_turtle`
+        },
+        {
+            entity: 'aquaculture:box_turtle',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:turtle_egg' },
+                { item: 'oritech:banana' }
+            ],
+            aura: 30000,
+            time: 60,
+            id: `${id_prefix}box_turtle`
         }
     ];
 
