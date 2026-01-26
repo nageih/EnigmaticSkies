@@ -43,6 +43,12 @@ ServerEvents.recipes((event) => {
             input: { item: 'modern_industrialization:sky_blade', count: 4 },
             program: 'laser',
             id: `${id_prefix}sky_rotor`
+        },
+        {
+            result: { id: 'extended_industrialization:silver_tesla_top_load', count: 1 },
+            input: { tag: 'c:plates/silver', count: 1 },
+            program: 'drill',
+            id: `${id_prefix}silver_tesla_top_load`
         }
     ];
 

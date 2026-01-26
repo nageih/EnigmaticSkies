@@ -255,7 +255,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'enderio:soul_chain', count: 8 },
             extraInputs: [
                 { tag: 'c:gems/mnemonic_fragment', count: 4 },
-                { item: 'malum:cursed_sapball', count: 1 },
+                { item: 'malum:cursed_sapball', count: 4 },
                 { item: 'enderio:skeletal_contractor', count: 1 }
             ],
             spirits: [

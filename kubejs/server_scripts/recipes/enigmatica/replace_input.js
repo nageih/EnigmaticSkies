@@ -252,6 +252,11 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:vibrant_cable`
         },
         {
+            filter: [{ mod: 'extended_industrialization' }],
+            to_replace: `modern_industrialization:basic_machine_hull`,
+            replace_with: `modern_industrialization:bronze_machine_casing`
+        },
+        {
             filter: [
                 { output: /modern_industrialization:(bronze|steel|advanced|turbo|highly_advanced)_fluid_.*_hatch/ }
             ],

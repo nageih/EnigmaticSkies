@@ -902,6 +902,14 @@ let stonecutter_stones = [
             'arts_and_crafts:cobbled_verdant_pietraforte'
         ],
         level: 3
+    },
+    {
+        ids: ['arts_and_crafts:jet_pietraforte', 'arts_and_crafts:hazel_pietraforte'],
+        level: 4
+    },
+    {
+        ids: ['arts_and_crafts:beige_pietraforte', 'arts_and_crafts:ivory_pietraforte'],
+        level: 5
     }
 ];
 
