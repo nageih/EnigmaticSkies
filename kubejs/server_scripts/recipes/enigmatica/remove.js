@@ -669,6 +669,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:op_amp' },
         { output: 'modern_industrialization:qubit' },
         { output: 'modern_industrialization:sulfur_dust' },
+        { output: 'modern_industrialization:vacuum_freezer' },
         { output: 'modern_industrialization:quantum_upgrade' },
         { output: 'modern_industrialization:analog_circuit_board' },
         { output: 'modern_industrialization:processing_unit' },
