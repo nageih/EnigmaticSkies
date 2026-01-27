@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:ingots/gold',
-            replace_with: '#c:ingots/copper_alloy'
+            replace_with: '#c:ingots/copper'
         },
         {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
@@ -252,6 +252,11 @@ ServerEvents.recipes((event) => {
             replace_with: `modern_industrialization:vibrant_cable`
         },
         {
+            filter: [{ mod: 'extended_industrialization' }],
+            to_replace: `modern_industrialization:basic_machine_hull`,
+            replace_with: `modern_industrialization:bronze_machine_casing`
+        },
+        {
             filter: [
                 { output: /modern_industrialization:(bronze|steel|advanced|turbo|highly_advanced)_fluid_.*_hatch/ }
             ],
@@ -428,7 +433,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ output: /modern_industrialization:.*me_wire/ }],
             to_replace: 'modern_industrialization:bronze_curved_plate',
-            replace_with: `#c:ingots/copper_alloy`
+            replace_with: `#c:ingots/conductive_alloy`
         },
         {
             filter: [{ mod: 'actuallyadditions' }],
@@ -477,7 +482,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ mod: 'oritech' }],
             to_replace: `#c:ingots/nickel`,
-            replace_with: '#c:ingots/copper_alloy'
+            replace_with: '#c:ingots/conductive_alloy'
         },
         {
             filter: [{ mod: 'oritech' }],

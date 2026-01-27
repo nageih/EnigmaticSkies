@@ -564,6 +564,27 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:sky_machine_casing'
             },
             id: `${id_prefix}plasma_handling_iridium_machine_casing`
+        },
+        {
+            output: 'modern_industrialization:large_tank_hatch',
+            pattern: ['A', 'B', 'C'],
+            key: {
+                A: 'modern_industrialization:steel_tank',
+                B: 'modern_industrialization:pump',
+                C: 'modern_industrialization:steel_machine_casing'
+            },
+            id: `${id_prefix}large_tank_hatch`
+        },
+        {
+            output: 'modern_industrialization:large_tank',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'modern_industrialization:steel_tank',
+                B: 'modern_industrialization:pump',
+                C: 'pneumaticcraft:turbine_rotor',
+                D: 'modern_industrialization:steel_machine_casing'
+            },
+            id: `${id_prefix}large_tank`
         }
     ];
 

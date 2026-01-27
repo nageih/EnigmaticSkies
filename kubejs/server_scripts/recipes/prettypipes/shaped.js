@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
             output: 'prettypipes:medium_speed_module',
             pattern: ['BA ', ' CA', 'BA '],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:ingots/conductive_alloy',
                 B: 'supplementaries:soap',
                 C: 'prettypipes:low_speed_module'
             },
@@ -137,7 +137,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

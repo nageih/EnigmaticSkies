@@ -43,16 +43,6 @@ ServerEvents.recipes((event) => {
             id_suffix: `rose_quartz`
         },
         {
-            output: { id: 'enderio:copper_alloy_ingot', count: 2 },
-            inputs: [
-                { tag: 'c:ingots/copper', count: 1 },
-                { tag: 'c:ingots/andesite_alloy', count: 1 }
-            ],
-            tier: 1,
-            exclusions: [],
-            id_suffix: `copper_alloy_ingot`
-        },
-        {
             output: { id: 'enderio:redstone_alloy_ingot', count: 1 },
             inputs: [
                 { tag: 'c:dusts/redstone', count: 1 },

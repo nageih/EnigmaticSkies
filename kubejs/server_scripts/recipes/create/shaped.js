@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
             output: `create:propeller`,
             pattern: [' B ', 'BAB', ' B '],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:ingots/copper',
                 B: '#c:plates/iron'
             },
             id: `${id_prefix}propeller`
@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
             output: `create:whisk`,
             pattern: [' A ', 'BAB', 'BBB'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:ingots/copper',
                 B: '#c:plates/iron'
             },
             id: `${id_prefix}whisk`
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             output: `create:mechanical_harvester`,
             pattern: ['ABA', 'ABA', ' C '],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:ingots/copper',
                 B: '#c:plates/iron',
                 C: 'create:andesite_casing'
             },
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
             output: `create:mechanical_plough`,
             pattern: ['BBB', 'AAA', ' C '],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:ingots/copper',
                 B: '#c:plates/iron',
                 C: 'create:andesite_casing'
             },
@@ -163,7 +163,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

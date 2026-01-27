@@ -196,18 +196,18 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `enderio:wireless_charger`,
-            pattern: [' A ', ' A ', 'ABA'],
+            pattern: ['A', 'B'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: 'minecraft:lightning_rod',
                 B: 'enderio:wired_charger'
             },
             id: `${id_prefix}wireless_charger`
         },
         {
             output: `enderio:wireless_charger_antenna`,
-            pattern: [' A ', 'CAC', 'ABA'],
+            pattern: [' A ', 'CBC'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: 'minecraft:lightning_rod',
                 B: 'modern_industrialization:steel_machine_casing',
                 C: '#c:gems/pulsating_crystal'
             },
@@ -215,9 +215,9 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `enderio:wireless_charger_antenna_advanced`,
-            pattern: [' A ', 'CAC', 'ABA'],
+            pattern: [' A ', 'CBC'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: 'minecraft:lightning_rod',
                 B: 'modern_industrialization:clean_stainless_steel_machine_casing',
                 C: '#c:gems/vibrant_crystal'
             },
@@ -225,11 +225,10 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `enderio:electromagnet`,
-            pattern: ['ABA', 'A A', 'C C'],
+            pattern: ['ABA', 'A A', 'A A'],
             key: {
                 A: '#c:ingots/conductive_alloy',
-                B: '#c:gems/empowered_emeradic',
-                C: '#c:ingots/copper_alloy'
+                B: '#c:gems/empowered_emeradic'
             },
             id: `${id_prefix}electromagnet`
         }

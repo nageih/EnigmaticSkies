@@ -28,11 +28,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}green_dye_from_short_grass`
         },
         {
-            output: '2x minecraft:yellow_dye',
-            inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
-            id: `${id_prefix}yellow_dye_from_sulfur`
-        },
-        {
             output: 'minecraft:yellow_dye',
             inputs: ['minecraft:glow_berries'],
             id: `${id_prefix}yellow_dye_from_glow_berries`

@@ -65,12 +65,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'minecraft:cake',
-            pattern: ['ADA', 'BCB'],
+            pattern: ['AEA', 'BCB', 'DDD'],
             key: {
                 A: '#c:foods/milk',
                 B: '#c:sugars',
-                C: 'enderio:cake_base',
-                D: 'minecraft:sweet_berries'
+                C: '#c:eggs',
+                D: 'pneumaticcraft:wheat_flour',
+                E: 'minecraft:sweet_berries'
             },
             id: `${id_prefix}cake`
         },
