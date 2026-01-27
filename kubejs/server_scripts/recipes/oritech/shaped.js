@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
             output: `oritech:machine_plating_block`,
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:plates/copper',
                 B: '#c:plates/steel',
                 C: 'pneumaticcraft:reinforced_stone'
             },
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
             output: `16x oritech:machine_frame_block`,
             pattern: ['ABA', 'BAB', 'ABA'],
             key: {
-                A: '#c:ingots/copper_alloy',
+                A: '#c:rods/copper',
                 B: '#c:rods/steel'
             },
             id: `${id_prefix}machine_frame_block`
@@ -378,7 +378,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', ' BA', 'A  '],
             key: {
                 A: '#c:ingots/iron',
-                B: '#c:ingots/copper_alloy'
+                B: '#c:ingots/conductive_alloy'
             },
             id: `${id_prefix}wrench`
         },
@@ -419,12 +419,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `oritech:chainsaw`,
-            pattern: ['  A', 'BA ', 'CD '],
+            pattern: [' AA', 'BFA', 'CD '],
             key: {
                 A: '#c:gems/celestigem',
                 B: 'modern_industrialization:motor',
                 C: 'oritech:machine_plating_block',
-                D: 'oritech:basic_battery'
+                D: 'oritech:basic_battery',
+                F: '#c:gears/compressed_iron'
             },
             id: `${id_prefix}chainsaw`
         },

@@ -188,7 +188,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:drill_upgrade_speed',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' AA', 'BCA', 'BB '],
             key: {
                 A: '#c:gems/enori',
                 B: '#c:gems/restonia',
@@ -198,7 +198,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:drill_upgrade_speed_ii',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' AA', 'BCA', 'BB '],
             key: {
                 A: '#c:gems/enori',
                 B: '#c:gems/restonia',
@@ -208,7 +208,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:drill_upgrade_speed_iii',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' AA', 'BCA', 'BB '],
             key: {
                 A: '#c:gems/empowered_enori',
                 B: '#c:gems/empowered_restonia',
@@ -217,8 +217,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}drill_upgrade_speed_iii`
         },
         {
+            output: 'actuallyadditions:drill_upgrade_silk_touch',
+            pattern: [' AA', 'BCA', 'BB '],
+            key: {
+                A: '#c:gems/empowered_emeradic',
+                B: '#c:gems/empowered_diamatine',
+                C: 'ars_technica:calibrated_precision_mechanism'
+            },
+            id: `${id_prefix}drill_upgrade_silk_touch`
+        },
+        {
             output: 'actuallyadditions:drill_upgrade_fortune',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' AA', 'BCA', 'BB '],
             key: {
                 A: '#c:gems/palis',
                 B: '#c:gems/diamatine',
@@ -228,7 +238,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'actuallyadditions:drill_upgrade_fortune_ii',
-            pattern: ['ABA', 'BCB', 'ABA'],
+            pattern: [' AA', 'BCA', 'BB '],
             key: {
                 A: '#c:gems/empowered_palis',
                 B: '#c:gems/empowered_diamatine',
@@ -293,7 +303,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

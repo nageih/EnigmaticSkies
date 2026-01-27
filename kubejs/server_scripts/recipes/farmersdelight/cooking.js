@@ -190,7 +190,7 @@ ServerEvents.recipes((event) => {
                 { item: 'occultism:tallow_block' },
 
                 { item: 'farmersdelight:straw_bale' },
-                { item: 'farmersdelight:straw_bale' },
+                { item: 'occultism:tallow_block' },
                 { item: 'farmersdelight:straw_bale' }
             ],
             container: { id: 'enigmatica:warded_vessel', count: 1 },

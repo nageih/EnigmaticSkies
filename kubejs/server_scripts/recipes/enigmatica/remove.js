@@ -39,6 +39,7 @@ ServerEvents.recipes((event) => {
         { output: 'actuallyadditions:laser_wrench' },
         { output: 'actuallyadditions:laser_upgrade_range' },
         { output: 'actuallyadditions:laser_upgrade_invisibility' },
+        { output: 'actuallyadditions:drill_upgrade_silk_touch' },
         { output: /actuallyadditions:laser_relay/ },
         { output: /actuallyadditions:drill_upgrade_speed/ },
         { output: /actuallyadditions:drill_upgrade_fortune/ },
@@ -189,6 +190,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_technica:mark_of_technomancy' },
 
         { id: 'ars_ocultas:silver_transmute' },
+        { id: 'ars_ocultas:gold_transmute' },
 
         { id: 'starbunclemania:star_bucket' },
         { id: 'starbunclemania:star_miner' },
@@ -743,6 +745,9 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:platinum_ingot' },
         { output: 'modern_industrialization:superconductor_ingot' },
         { output: 'modern_industrialization:titanium_ingot' },
+        { output: 'modern_industrialization:large_tank_hatch' },
+        { output: 'modern_industrialization:large_tank' },
+        { output: 'modern_industrialization:titanium_ingot' },
         { input: /modern_industrialization:.*_double_ingot/ },
         { input: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { input: /modern_industrialization:.*_ring$/ },
@@ -825,6 +830,9 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:tesla_calibrator' },
         { output: 'extended_industrialization:tesla_handheld_receiver' },
         { output: 'extended_industrialization:tesla_particle_generator' },
+        { output: 'extended_industrialization:looting_module' },
+        { output: 'extended_industrialization:silk_touch_module' },
+        { output: 'extended_industrialization:processing_array' },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
 
         // LaserIO

@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
             output: `extended_industrialization:steel_brewery`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: `#c:glass_blocks/colorless`,
+                A: `minecraft:glass`,
                 B: `minecraft:brewing_stand`,
                 C: `#c:gears/compressed_iron`,
                 D: `modern_industrialization:steel_machine_casing`,
@@ -91,10 +91,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}steel_brewery`
         },
         {
+            output: `extended_industrialization:electric_brewery`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: `minecraft:glass`,
+                B: `minecraft:brewing_stand`,
+                C: `#c:gears/dark_steel`,
+                D: `modern_industrialization:steel_machine_casing`,
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_brewery`
+        },
+        {
             output: `extended_industrialization:steel_honey_extractor`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: `#c:glass_blocks/colorless`,
+                A: `minecraft:glass`,
                 B: `minecraft:beehive`,
                 C: `#c:gears/compressed_iron`,
                 D: `modern_industrialization:steel_machine_casing`,
@@ -103,16 +116,42 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}steel_honey_extractor`
         },
         {
+            output: `extended_industrialization:electric_honey_extractor`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: `minecraft:glass`,
+                B: `minecraft:beehive`,
+                C: `#c:gears/dark_steel`,
+                D: `modern_industrialization:steel_machine_casing`,
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_honey_extractor`
+        },
+        {
             output: `extended_industrialization:steel_canning_machine`,
             pattern: ['ABA', 'CDC', 'EEE'],
             key: {
-                A: `#c:glass_blocks/colorless`,
+                A: `minecraft:glass`,
                 B: `create:spout`,
                 C: `#c:gears/compressed_iron`,
                 D: `modern_industrialization:steel_machine_casing`,
                 E: '#modern_industrialization:fluid_pipes'
             },
             id: `${id_prefix}steel_canning_machine`
+        },
+        {
+            output: 'extended_industrialization:electric_canning_machine',
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'create:spout',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}electric_canning_machine`
         },
         {
             output: `extended_industrialization:large_configurable_chest`,
@@ -146,19 +185,6 @@ ServerEvents.recipes((event) => {
                 D: 'enderio:z_logic_controller'
             },
             id: `${id_prefix}robot_auto_feeder`
-        },
-        {
-            output: 'extended_industrialization:electric_canning_machine',
-            pattern: ['ABA', 'CDC', 'EFE'],
-            key: {
-                A: 'minecraft:glass',
-                B: 'create:spout',
-                C: '#c:gears/dark_steel',
-                D: 'modern_industrialization:steel_machine_casing',
-                E: 'modern_industrialization:large_motor',
-                F: 'enigmatica:pulsating_mechanism'
-            },
-            id: `${id_prefix}electric_canning_machine`
         },
         {
             output: 'extended_industrialization:polished_silver_machine_casing',
@@ -234,6 +260,27 @@ ServerEvents.recipes((event) => {
                 B: 'enderio:zombie_electrode'
             },
             id: `${id_prefix}tesla_particle_generator`
+        },
+
+        {
+            output: 'extended_industrialization:silk_touch_module',
+            pattern: [' AA', 'BCA', 'BB '],
+            key: {
+                A: '#c:gems/empowered_emeradic',
+                B: '#c:gems/empowered_diamatine',
+                C: 'modern_industrialization:advanced_upgrade'
+            },
+            id: `${id_prefix}silk_touch_module`
+        },
+        {
+            output: 'extended_industrialization:looting_module',
+            pattern: [' AA', 'BCA', 'BB '],
+            key: {
+                A: '#c:gems/empowered_palis',
+                B: '#c:gems/empowered_diamatine',
+                C: 'modern_industrialization:advanced_upgrade'
+            },
+            id: `${id_prefix}looting_module`
         }
     ];
 

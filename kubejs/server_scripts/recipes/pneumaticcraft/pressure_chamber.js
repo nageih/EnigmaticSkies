@@ -282,6 +282,57 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}blaze_cake_base`
+        },
+
+        {
+            results: [{ id: 'modern_industrialization:lv_storage_unit', count: 1 }],
+            inputs: [
+                { item: 'oritech:flux_gate', count: 1 },
+                { item: 'modern_industrialization:bronze_machine_casing', count: 1 },
+                { item: 'ae2:cell_component_1k', count: 24 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}lv_storage_unit`
+        },
+        {
+            results: [{ id: 'modern_industrialization:mv_storage_unit', count: 1 }],
+            inputs: [
+                { item: 'enigmatica:pulsating_mechanism', count: 1 },
+                { item: 'modern_industrialization:advanced_machine_hull', count: 1 },
+                { item: 'ae2:cell_component_4k', count: 24 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}mv_storage_unit`
+        },
+        {
+            results: [{ id: 'modern_industrialization:hv_storage_unit', count: 1 }],
+            inputs: [
+                { item: 'enigmatica:pulsating_mechanism', count: 1 },
+                { item: 'modern_industrialization:turbo_machine_hull', count: 1 },
+                { item: 'ae2:cell_component_16k', count: 24 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}hv_storage_unit`
+        },
+        {
+            results: [{ id: 'modern_industrialization:ev_storage_unit', count: 1 }],
+            inputs: [
+                { item: 'enigmatica:tempestuous_mechanism', count: 1 },
+                { item: 'modern_industrialization:highly_advanced_machine_hull', count: 1 },
+                { item: 'ae2:cell_component_64k', count: 24 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}ev_storage_unit`
+        },
+        {
+            results: [{ id: 'modern_industrialization:superconductor_storage_unit', count: 1 }],
+            inputs: [
+                { item: 'enigmatica:tempestuous_mechanism', count: 1 },
+                { item: 'modern_industrialization:quantum_machine_hull', count: 1 },
+                { item: 'ae2:cell_component_256k', count: 24 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}superconductor_storage_unit`
         }
     ];
 

@@ -405,6 +405,24 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}heat_exchanger`
         },
         {
+            result: { id: 'extended_industrialization:processing_array', count: 1 },
+            input: { item: 'ae2:molecular_assembler', count: 1 },
+            extraInputs: [
+                { item: 'ae2:engineering_processor', count: 4 },
+                { item: 'modern_industrialization:robot_arm', count: 4 },
+                { item: 'modern_industrialization:large_advanced_motor', count: 4 },
+                { item: 'modern_industrialization:clean_stainless_steel_machine_casing', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 64 },
+                { type: 'malum:aerial', count: 64 },
+                { type: 'malum:earthen', count: 64 },
+                { type: 'malum:eldritch', count: 64 }
+            ],
+            id: `${id_prefix}processing_array`
+        },
+
+        {
             result: { id: 'industrialforegoing:hydroponic_simulation_processor', count: 1 },
             input: { item: 'enderio:frank_n_zombie', count: 1 },
             extraInputs: [

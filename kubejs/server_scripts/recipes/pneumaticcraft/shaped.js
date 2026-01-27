@@ -63,7 +63,7 @@ ServerEvents.recipes((event) => {
                 A: '#c:ingots/compressed_iron',
                 B: 'pneumaticcraft:pressure_chamber_valve',
                 C: 'modern_industrialization:heatproof_machine_casing',
-                D: '#c:ingots/copper_alloy',
+                D: '#c:ingots/conductive_alloy',
                 E: 'modern_industrialization:frostproof_machine_casing'
             },
             id: `${id_prefix}thermal_compressor`
@@ -190,7 +190,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });
