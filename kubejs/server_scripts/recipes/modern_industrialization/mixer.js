@@ -103,6 +103,39 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}sal_ammoniac`
         },
         {
+            fluid_outputs: [{ fluid: 'sauce:source_fluid', amount: 1000 }],
+            item_inputs: [
+                { tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 },
+                { item: 'ars_additions:codex_entry', amount: 1, probability: 1 / 2 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 100 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}source_fluid_from_codex_entry`
+        },
+        {
+            fluid_outputs: [{ fluid: 'sauce:source_fluid', amount: 1000 }],
+            item_inputs: [
+                { tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 },
+                { item: 'ars_additions:lost_codex_entry', amount: 1, probability: 1 / 4 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 100 }],
+            duration: 5,
+            eu: 4,
+            id: `${id_prefix}source_fluid_from_lost_codex_entry`
+        },
+        {
+            fluid_outputs: [{ fluid: 'sauce:source_fluid', amount: 1000 }],
+            item_inputs: [
+                { tag: 'c:gems/ambrosium', amount: 1, probability: 0.0 },
+                { item: 'ars_additions:ancient_codex_entry', amount: 1, probability: 1 / 8 }
+            ],
+            fluid_inputs: [{ fluid: 'theurgy:sal_ammoniac', amount: 100 }],
+            duration: 5,
+            eu: 16,
+            id: `${id_prefix}source_fluid_from_ancient_codex_entry`
+        },
+        {
             fluid_outputs: [{ fluid: 'create:chocolate', amount: 250 }],
             item_inputs: [
                 { tag: 'c:sugars', amount: 1 },

@@ -25,7 +25,7 @@ ServerEvents.generateData('before_mods', (event) => {
             name: 'cold',
             item: { items: ['#enigmatica:cold'] },
             slots: ['hotbar', 'inventory'],
-            temperature: -0.2,
+            temperature: -0.5,
             trait: 'core'
         }
     ];
