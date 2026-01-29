@@ -5,6 +5,7 @@
             "/modern_industrialization:.*_diesel_generator/",
             "modern_industrialization:bronze_boiler",
             "modern_industrialization:steel_boiler",
+            "modern_industrialization:high_pressure_large_steam_boiler",
             "extended_industrialization:bronze_solar_boiler",
             "extended_industrialization:steel_solar_boiler"
         ],
@@ -151,6 +152,11 @@
             "modern_industrialization:electric_wiremill",
             "modern_industrialization:electrolyzer",
             "modern_industrialization:chemical_reactor",
+            "modern_industrialization:conveyor",
+            "modern_industrialization:large_pump",
+            "modern_industrialization:nuke",
+            "modern_industrialization:replicator",
+            "modern_industrialization:large_advanced_pump",
             "modern_industrialization:hv_steam_turbine",
             "modern_industrialization:diesel_chainsaw",
             "modern_industrialization:diesel_mining_drill",
@@ -186,6 +192,7 @@
             "modern_industrialization:silicon_p_doped_plate",
             "modern_industrialization:stainless_steel_hot_ingot",
             "modern_industrialization:electric_blast_furnace",
+            "modern_industrialization:vacuum_freezer",
 
             "modern_industrialization:vinyl_chloride_bucket",
             "modern_industrialization:tritium_bucket",

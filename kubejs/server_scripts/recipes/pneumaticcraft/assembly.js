@@ -21,6 +21,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}iridium_machine_casing_pipe`
         },
         {
+            result: { id: 'modern_industrialization:sky_machine_casing_pipe', count: 1 },
+            input: { item: 'modern_industrialization:sky_machine_casing', count: 1 },
+            program: 'drill',
+            id: `${id_prefix}sky_machine_casing_pipe`
+        },
+        {
             result: { id: 'modern_industrialization:stainless_steel_blade', count: 4 },
             input: { tag: 'c:plates/stainless_steel', count: 3 },
             program: 'drill',

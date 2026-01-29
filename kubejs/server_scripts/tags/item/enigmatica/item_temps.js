@@ -14,20 +14,44 @@ ServerEvents.tags('item', (event) => {
             'minecraft:lava_bucket',
             'oritech:still_sheol_fire_bucket',
             'oritech:still_strange_matter_bucket',
-            'enderio:liquid_sunshine_bucket'
+            'enderio:liquid_sunshine_bucket',
+
+            'modern_industrialization:steam_bucket',
+            'modern_industrialization:heavy_water_steam_bucket'
         ],
-        super_hot: ['enigmatica:borrowed_flame'],
-        cold: [
-            '#c:rods/breeze',
+        super_hot: [
+            'enigmatica:borrowed_flame',
+            'modern_industrialization:high_pressure_steam_bucket',
+            'modern_industrialization:high_pressure_heavy_water_steam_bucket'
+        ],
+        chilled: [
             '#chipped:snow_block',
             '#chipped:ice',
             '#chisel:ice',
+            'aether:cold_aercloud',
+            'aether:golden_aercloud',
+
+            'minecraft:snowball',
+            'aether:icestone'
+        ],
+        cold: [
+            '#c:rods/breeze',
+            '#c:buckets/water',
             '#chipped:packed_ice',
-            '#chipped:blue_ice',
-            '#aether:aerclouds',
+
+            'aether:blue_aercloud',
             'minecraft:snowball',
             'minecraft:wind_charge',
-            'aether:icestone',
+
+            'the_bumblezone:sugar_water_bucket',
+            'enigmatica:briny_seawater_bucket',
+            'enigmatica:wastewater_bucket',
+            'modern_industrialization:heavy_water_bucket',
+            'extended_industrialization:distilled_water_bucket'
+        ],
+        super_cold: [
+            '#chipped:blue_ice',
+
             'enigmatica:boreas_anemoi',
             'enigmatica:eurus_anemoi',
             'enigmatica:notus_anemoi',

@@ -494,6 +494,21 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:earthen', count: 32 }
             ],
             id: `${id_prefix}unfired_vessel`
+        },
+        {
+            result: { id: 'extended_industrialization:tesla_interdimensional_upgrade', count: 1 },
+            input: { item: 'ae2:quantum_link', count: 1 },
+            extraInputs: [
+                { item: 'ae2:singularity', count: 1 },
+                { item: 'ae2:quantum_ring', count: 8 },
+                { item: 'malum:warp_flux', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 32 },
+                { type: 'malum:aerial', count: 32 },
+                { type: 'malum:eldritch', count: 32 }
+            ],
+            id: `${id_prefix}tesla_interdimensional_upgrade`
         }
     ];
 

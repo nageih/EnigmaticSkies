@@ -333,6 +333,19 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}superconductor_storage_unit`
+        },
+        {
+            results: [{ id: 'extended_industrialization:machine_chainer', count: 1 }],
+            inputs: [
+                { tag: 'modern_industrialization:item_pipes', count: 64 },
+                { tag: 'modern_industrialization:fluid_pipes', count: 64 },
+                { item: 'modern_industrialization:conductive_cable', count: 64 },
+                { item: 'modern_industrialization:advanced_machine_hull', count: 1 },
+                { item: 'modern_industrialization:large_motor', count: 2 },
+                { item: 'modern_industrialization:pump', count: 2 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}machine_chainer`
         }
     ];
 

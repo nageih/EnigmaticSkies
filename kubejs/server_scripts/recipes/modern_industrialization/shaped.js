@@ -585,6 +585,16 @@ ServerEvents.recipes((event) => {
                 D: 'modern_industrialization:steel_machine_casing'
             },
             id: `${id_prefix}large_tank`
+        },
+        {
+            output: 'modern_industrialization:trash_can',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:gems/void',
+                B: '#c:plates/andesite_alloy',
+                C: 'theurgy:crystallized_lava'
+            },
+            id: `${id_prefix}trash_can`
         }
     ];
 
