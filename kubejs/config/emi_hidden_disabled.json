@@ -141,6 +141,7 @@
             "/modern_industrialization:tin_(block|blade|dust|gear|ingot|nugget|plate|ring|rod|rotor|tiny|wire)/",
             "/modern_industrialization:.*titanium/",
             "/modern_industrialization:.*nuclear/",
+            "/modern_industrialization:.*_tiny_dust/",
             "modern_industrialization:portable_storage_unit",
             "modern_industrialization:bronze_plate",
             "modern_industrialization:packer_block_template",
