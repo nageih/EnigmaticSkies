@@ -217,7 +217,7 @@
     spawnerCostMultiplier: 1,
     maxGateDist: 10,
     bendFactor: 3,
-    accelerationRFCost: 10,
+    accelerationRFCost: 32,
     endPortalRequiredSpeed: 10000,
     netherPortalRequiredSpeed: 5000,
     blackHoleRequiredSpeed: 15000,
