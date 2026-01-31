@@ -55,12 +55,12 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             hint: { key: 'tooltip.hint.enigmatica.extended_industrialization_nano_armor_set' },
-            id: `${id_prefix}nano_armor_set`
+            id: `${id_prefix}extended_industrialization_nano_armor_set`
         },
         {
             item: {
                 items: ['ars_nouveau:sorcerer_robes', 'ars_nouveau:arcanist_robes', 'ars_nouveau:battlemage_robes'],
-                components: { 'ars_nouveau:armor_perks': { tier: '1:' } }
+                components: { 'ars_nouveau:armor_perks': { tier: '1:1' } }
             },
             insulation: { heat: 0, cold: 0 },
             entity: {
@@ -72,7 +72,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_hood',
                             'ars_nouveau:battlemage_hood'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '1:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '1:1' } }
                     },
                     chest: {
                         items: [
@@ -80,7 +80,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_robes',
                             'ars_nouveau:battlemage_robes'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '1:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '1:1' } }
                     },
                     legs: {
                         items: [
@@ -88,7 +88,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_leggings',
                             'ars_nouveau:battlemage_leggings'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '1:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '1:1' } }
                     },
                     feet: {
                         items: [
@@ -96,7 +96,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_boots',
                             'ars_nouveau:battlemage_boots'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '1:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '1:1' } }
                     }
                 }
             },
@@ -110,13 +110,12 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             hint: { key: 'tooltip.hint.enigmatica.ars_nouveau_armor_tier_2' },
-            id: `${id_prefix}ars_nouveau_boots_tier_2`
+            id: `${id_prefix}ars_nouveau_armor_tier_2`
         },
-
         {
             item: {
                 items: ['ars_nouveau:sorcerer_robes', 'ars_nouveau:arcanist_robes', 'ars_nouveau:battlemage_robes'],
-                components: { 'ars_nouveau:armor_perks': { tier: '2:' } }
+                components: { 'ars_nouveau:armor_perks': { tier: '2:2' } }
             },
             insulation: { heat: 0, cold: 0 },
             entity: {
@@ -128,7 +127,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_hood',
                             'ars_nouveau:battlemage_hood'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '2:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '2:2' } }
                     },
                     chest: {
                         items: [
@@ -136,7 +135,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_robes',
                             'ars_nouveau:battlemage_robes'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '2:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '2:2' } }
                     },
                     legs: {
                         items: [
@@ -144,7 +143,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_leggings',
                             'ars_nouveau:battlemage_leggings'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '2:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '2:2' } }
                     },
                     feet: {
                         items: [
@@ -152,7 +151,7 @@ ServerEvents.generateData('before_mods', (event) => {
                             'ars_nouveau:arcanist_boots',
                             'ars_nouveau:battlemage_boots'
                         ],
-                        components: { 'ars_nouveau:armor_perks': { tier: '2:' } }
+                        components: { 'ars_nouveau:armor_perks': { tier: '2:2' } }
                     }
                 }
             },
@@ -166,7 +165,38 @@ ServerEvents.generateData('before_mods', (event) => {
                 ]
             },
             hint: { key: 'tooltip.hint.enigmatica.ars_nouveau_armor_tier_3' },
-            id: `${id_prefix}ars_nouveau_boots_tier_3`
+            id: `${id_prefix}ars_nouveau_armor_tier_3`
+        },
+        {
+            item: { items: ['ars_technica:technomancer_chestplate'] },
+            insulation: { heat: 0, cold: 0 },
+            entity: {
+                entities: ['*'],
+                equipment: {
+                    head: { items: ['ars_technica:technomancer_helmet'] },
+                    chest: { items: ['ars_technica:technomancer_chestplate'] },
+                    legs: { items: ['ars_technica:technomancer_leggings'] },
+                    feet: { items: ['ars_technica:technomancer_boots'] }
+                }
+            },
+            attributes: {
+                'cold_sweat:cold_dampening': [
+                    {
+                        name: 'enigmatica:cold_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ],
+                'cold_sweat:heat_dampening': [
+                    {
+                        name: 'enigmatica:heat_dampening_set_bonus',
+                        operation: 'add_value',
+                        amount: 0.375
+                    }
+                ]
+            },
+            hint: { key: 'tooltip.hint.enigmatica.ars_technica_technomancer_armor_set' },
+            id: `${id_prefix}ars_technica_technomancer_armor_set`
         }
     ];
 
@@ -243,7 +273,7 @@ ServerEvents.generateData('before_mods', (event) => {
                 },
                 attributes: elemental_bonuses[element],
                 hint: { key: `tooltip.hint.enigmatica.ars_elemental_${element}_${set.chestplate}_set` },
-                id: `${id_prefix}${element}_${set.chestplate}_set`
+                id: `${id_prefix}ars_elemental_${element}_${set.chestplate}_set`
             });
         });
     });
