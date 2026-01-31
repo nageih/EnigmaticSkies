@@ -1,3 +1,24 @@
 {
-  "base.enigmatica.sky_block": "Sky Block"
+    "base.enigmatica.sky_block": "Sky Block",
+
+    "tooltip.hint.enigmatica.extended_industrialization_nano_armor_set": "Wearing Full Nano Suit",
+
+    "tooltip.hint.enigmatica.ars_nouveau_armor_tier_2": "Wearing Full Tier 2",
+    "tooltip.hint.enigmatica.ars_nouveau_armor_tier_3": "Wearing Full Tier 3",
+
+    "tooltip.hint.enigmatica.ars_elemental_fire_tunic_set": "Wearing Full Pyromaniac's Set",
+    "tooltip.hint.enigmatica.ars_elemental_fire_robes_set": "Wearing Full Pyromancer's Set",
+    "tooltip.hint.enigmatica.ars_elemental_fire_chestplate_set": "Wearing Full Netherguard's Set",
+
+    "tooltip.hint.enigmatica.ars_elemental_aqua_tunic_set": "Wearing Full Nereid's Set",
+    "tooltip.hint.enigmatica.ars_elemental_aqua_robes_set": "Wearing Full Aquamancer's Set",
+    "tooltip.hint.enigmatica.ars_elemental_aqua_chestplate_set": "Wearing Full Winterguard's Set",
+
+    "tooltip.hint.enigmatica.ars_elemental_air_tunic_set": "Wearing Full Olympian's Set",
+    "tooltip.hint.enigmatica.ars_elemental_air_robes_set": "Wearing Full Aethermancer's Set",
+    "tooltip.hint.enigmatica.ars_elemental_air_chestplate_set": "Wearing Full Thunderguard's Set",
+
+    "tooltip.hint.enigmatica.ars_elemental_earth_tunic_set": "Wearing Full Nymph's Set",
+    "tooltip.hint.enigmatica.ars_elemental_earth_robes_set": "Wearing Full Geomancer's Set",
+    "tooltip.hint.enigmatica.ars_elemental_earth_chestplate_set": "Wearing Full Wealdguard's Set"
 }

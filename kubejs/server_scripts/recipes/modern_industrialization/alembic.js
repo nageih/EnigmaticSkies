@@ -11,6 +11,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}heavy_water`
         },
         {
+            fluid_outputs: { fluid: 'extended_industrialization:blazing_essence', amount: 20 },
+            item_inputs: [{ item: 'minecraft:blaze_powder', amount: 1 }],
+            fluid_inputs: { fluid: 'theurgy:sal_ammoniac', amount: 5 },
+            duration: 10,
+            eu: 4,
+            id: `${id_prefix}blazing_essence`
+        },
+        {
             item_outputs: [
                 { item: 'theurgy:crystallized_water', amount: 6 },
                 { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
