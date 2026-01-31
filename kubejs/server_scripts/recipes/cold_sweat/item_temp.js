@@ -25,7 +25,7 @@ ServerEvents.generateData('before_mods', (event) => {
             name: 'chilled',
             item: { items: ['#enigmatica:chilled'] },
             slots: ['hotbar', 'inventory'],
-            temperature: -0.01,
+            temperature: -0.005,
             trait: 'core'
         },
         {

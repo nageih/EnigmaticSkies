@@ -2945,15 +2945,6 @@
 		"Have a free book! This section is under construction!"
 	]
 	quest.4421EB35235888DF.title: "Nature's Aura"
-	quest.44388FAFA8CEE204.quest_desc: [
-		"Need some &7Ice&r? Silk Touch is &nnot&r required!"
-		""
-		"Regular &7Ice&r may be harvested with a &7Stone Pickaxe&r or better."
-		""
-		"&7Packed Ice&r and &7Blue Ice&r may similarly be harvested with an &7Iron Pickaxe&r or better. "
-		""
-		"A &7Spell Book&r will still need the &7Extract Glyph&r to pick up &7Ice&r, however."
-	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -3608,10 +3599,6 @@
 		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
 		""
 		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
-		""
-		"&6⚠ Note: Sneak to cast Touch Spells "
-		"&6    on certain blocks like Machines "
-		"&6    or Icestone."
 	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."

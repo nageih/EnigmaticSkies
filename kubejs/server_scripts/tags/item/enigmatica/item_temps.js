@@ -30,6 +30,7 @@ ServerEvents.tags('item', (event) => {
             '#chisel:ice',
             'aether:cold_aercloud',
             'aether:golden_aercloud',
+            /aether:icestone/,
 
             'minecraft:snowball',
             'aether:icestone'
