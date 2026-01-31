@@ -684,6 +684,23 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}warded_vessel`
+        },
+        {
+            result: { id: 'extended_industrialization:nano_gravichestplate', count: 1 },
+            reagent: { item: 'extended_industrialization:nano_chestplate' },
+            pedestalItems: [
+                { tag: 'c:tokens/greater_air' },
+                { item: 'oritech:ion_thruster' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:ion_thruster' },
+                { tag: 'c:tokens/greater_air' },
+                { item: 'oritech:ion_thruster' },
+                { item: 'enigmatica:tempestuous_mechanism' },
+                { item: 'oritech:ion_thruster' }
+            ],
+            keepNbtOfReagent: true,
+            sourceCost: 10000,
+            id: `${id_prefix}nano_gravichestplate`
         }
     ];
 
