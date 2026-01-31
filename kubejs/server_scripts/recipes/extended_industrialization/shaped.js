@@ -281,6 +281,50 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:advanced_upgrade'
             },
             id: `${id_prefix}looting_module`
+        },
+        {
+            output: 'extended_industrialization:nano_helmet',
+            pattern: ['ABA', 'ACA', 'D D'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: 'oritech:heisenberg_compensator',
+                C: 'justdirethings:eclipsealloy_helmet',
+                D: '#c:plates/reinforced_carbon'
+            },
+            id: `${id_prefix}nano_helmet`
+        },
+        {
+            output: 'extended_industrialization:nano_chestplate',
+            pattern: ['ABA', 'ACA', 'D D'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: 'oritech:heisenberg_compensator',
+                C: 'justdirethings:eclipsealloy_chestplate',
+                D: '#c:plates/reinforced_carbon'
+            },
+            id: `${id_prefix}nano_chestplate`
+        },
+        {
+            output: 'extended_industrialization:nano_leggings',
+            pattern: ['ABA', 'ACA', 'D D'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: 'oritech:heisenberg_compensator',
+                C: 'justdirethings:eclipsealloy_leggings',
+                D: '#c:plates/reinforced_carbon'
+            },
+            id: `${id_prefix}nano_leggings`
+        },
+        {
+            output: 'extended_industrialization:nano_boots',
+            pattern: ['ABA', 'ACA', 'D D'],
+            key: {
+                A: 'oritech:advanced_battery',
+                B: 'oritech:heisenberg_compensator',
+                C: 'justdirethings:eclipsealloy_boots',
+                D: '#c:plates/reinforced_carbon'
+            },
+            id: `${id_prefix}nano_boots`
         }
     ];
 
