@@ -1,7 +1,7 @@
 	[ReplicationConfig.Disintegrator]
 		# Default: 40
 		# Range: > 1
-		MAX_PROGRESS = 40
+		MAX_PROGRESS = 20
 		# Default: 1500
 		# Range: > 1
 		POWER_USAGE = 10000
@@ -55,7 +55,7 @@
 	[ReplicationConfig.MatterTank]
 		# Default: 256000
 		# Range: > 1
-		CAPACITY = 6400
+		CAPACITY = 64000
 
 	[ReplicationConfig.Client]
 		SHOW_PRESS_SHIFT_TEXT = true
