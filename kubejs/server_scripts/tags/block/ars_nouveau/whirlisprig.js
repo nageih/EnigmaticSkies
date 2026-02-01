@@ -1,17 +1,16 @@
 ServerEvents.tags('block', (event) => {
     let additions = {
         greatly_likes: [
-            'deeperdarker:gloomy_cactus',
-            'deeperdarker:sculk_gleam',
             'minecraft:melon',
             'minecraft:pumpkin',
             'naturesaura:aura_bloom',
             'naturesaura:aura_cactus',
             'naturesaura:warped_aura_mushroom',
             'naturesaura:crimson_aura_mushroom',
-            'naturesaura:aura_mushroom'
+            'naturesaura:aura_mushroom',
+            'arts_and_crafts:lotus_flower'
         ],
-        kinda_likes: []
+        kinda_likes: ['malum:large_strange_crystal', 'malum:strange_crystal']
     };
 
     Object.keys(additions).forEach((tag) => {
