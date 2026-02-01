@@ -15,7 +15,7 @@
 	chapter.40C97D6332BD825B.title: "Cascading Island"
 	chapter.47870879D8E3742D.title: "To the Skies!"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
-	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
+	chapter.5957A1DE2E537AC3.title: "PneumaticCraft"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
@@ -172,6 +172,13 @@
 		"&a    in the area!"
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
+	quest.0537E3C9A2164A7D.quest_desc: [
+		"Oritech’s Fluid Pipes may not have many fancy features, but they’ll get the job done. "
+		""
+		"These come in three varieties, though the differences are mainly cosmetic. Framed Pipes have a nice supporting structure around them, while Duct Pipes are a full block for passing through a wall without gaps. Duct Pipes only connect to other pipes, however."
+		""
+		"Right-Click the pipe connecting to a machine or tank to set it to Extract mode."
+	]
 	quest.053C43E68E7ADB2B.quest_desc: [
 		"With the &7Slice'N'Splice&r, we can rebuild and splice together the genetic material from different creatures to create the monsters we need. "
 		""
@@ -5566,6 +5573,14 @@
 	quest.7C0E7547D266C45D.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
 	quest.7C174D5E3A7084B6.quest_desc: ["Move to Afrit Crusher"]
+	quest.7C1E4DDAAA75E58F.quest_desc: [
+		"Oritech’s Item Pipes offer limited logistics and filtering, perfect for point-to-point transfers. "
+		""
+		"These come in four varieties, though the differences are mainly cosmetic. "
+		"Framed Pipes have a nice supporting structure around them, while Duct Pipes are a full block for passing through a wall without gaps. Duct Pipes only connect to other pipes, however."
+		""
+		"Right-Click the pipe connecting to a machine or tank to set it to Extract mode."
+	]
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
@@ -5761,6 +5776,7 @@
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.350C549315B84B13.title: "Diesel Generator"
 	task.3529B56D2654D2C2.title: "A Note for Playtesters"
+	task.358F07DD4EF00930.title: "Item Pipes"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"
 	task.360DFCFD6400CADB.title: "Latex Materials"
@@ -5783,6 +5799,7 @@
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
+	task.3F1AFB75DEE21F65.title: "Fluid Pipes"
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.3FEC46CB05E92C9B.title: "WIP Islands"
 	task.400A6759534EF6D4.title: "Sludge Products"

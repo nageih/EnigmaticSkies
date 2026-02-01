@@ -194,13 +194,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}cooling_cell`
         },
         {
-            output: { id: 'industrialforegoing:pink_slime_ingot', count: 2 },
-            input: [{ tag: 'c:ingots/infused_iron' }, { tag: 'c:ingots/infused_iron' }],
-            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2000 },
-            processingTime: 30,
-            id: `${id_prefix}pink_slime_ingot`
-        },
-        {
             output: { id: 'industrialforegoing:red_laser_lens', count: 1 },
             input: [
                 { tag: 'c:dusts/ruby' },

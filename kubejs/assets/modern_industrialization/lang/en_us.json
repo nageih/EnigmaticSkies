@@ -81,5 +81,7 @@
     "block.modern_industrialization.helium_plasma": "Luminiferous Aether",
     "item.modern_industrialization.helium_plasma_bucket": "Luminiferous Aether Bucket",
 
-    "item.modern_industrialization.iron_rod_magnetic": "Magnetic Iron Rod"
+    "item.modern_industrialization.iron_rod_magnetic": "Magnetic Iron Rod",
+
+    "item.modern_industrialization.quantum_circuit": "Quantum Processor"
 }
