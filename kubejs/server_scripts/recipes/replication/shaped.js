@@ -4,11 +4,12 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             output: 'replication:matter_tank',
-            pattern: ['ABA', 'ACA', 'ABA'],
+            pattern: ['ABA', 'DCD', 'ABA'],
             key: {
                 A: '#c:plates/silicon',
                 B: '#c:gems/empowered_void',
-                C: 'malum:spirit_jar'
+                C: 'malum:spirit_jar',
+                D: '#c:gems/empowered_emeradic'
             },
             id: `${id_prefix}matter_tank`
         },
@@ -60,7 +61,5 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

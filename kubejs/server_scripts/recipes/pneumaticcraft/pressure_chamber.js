@@ -394,6 +394,18 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}nano_boots`
+        },
+        {
+            results: [{ id: 'extended_industrialization:nano_saber', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:eclipsealloy_sword', count: 1 },
+                { tag: 'c:plates/reinforced_carbon', count: 4 },
+                { item: 'oritech:advanced_battery', count: 2 },
+
+                { item: 'oritech:heisenberg_compensator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}nano_saber`
         }
     ];
 

@@ -109,8 +109,19 @@ ServerEvents.recipes((event) => {
         { id: 'ae2:network/blocks/interfaces_interface' },
         { id: 'ae2:network/blocks/quantum_ring' },
         { id: 'ae2:misc/fluixpearl' },
+        { id: 'ae2:network/cells/fluid_storage_cell_1k' },
+        { id: 'ae2:network/cells/fluid_storage_cell_4k' },
+        { id: 'ae2:network/cells/fluid_storage_cell_16k' },
+        { id: 'ae2:network/cells/fluid_storage_cell_64k' },
+        { id: 'ae2:network/cells/fluid_storage_cell_256k' },
+        { id: 'ae2:network/cells/item_storage_cell_1k' },
+        { id: 'ae2:network/cells/item_storage_cell_4k' },
+        { id: 'ae2:network/cells/item_storage_cell_16k' },
+        { id: 'ae2:network/cells/item_storage_cell_64k' },
+        { id: 'ae2:network/cells/item_storage_cell_256k' },
 
-        { output: `rep_ae2_bridge:rep_ae2_bridge` },
+        { output: `apprep:replication_connector` },
+        { mod: 'apprep', input: `replication:replica_ingot` },
 
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
@@ -1192,6 +1203,7 @@ ServerEvents.recipes((event) => {
         { output: 'replication:chip_storage' },
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
+        { output: 'replication:replicator_enclosure' },
 
         // Shrink
         { id: `shrink:shrinking_device` },

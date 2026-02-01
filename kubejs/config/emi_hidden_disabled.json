@@ -37,8 +37,6 @@
             "ae2:meteorite_compass",
             "ae2:vibration_chamber",
 
-            "rep_ae2_bridge:universal_matter",
-
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
@@ -79,11 +77,12 @@
             "industrialforegoing:resourceful_furnace",
             "industrialforegoing:machine_frame_pity",
 
+            "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
+            "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
+            "/justdirethings:unrefined_.*_fluid_bucket/",
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
             "justdirethings:raw_coal_t1_ore",
-            "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
-            "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
             "justdirethings:polymorphic_wand",
             "justdirethings:polymorphic_wand_v2",
 
@@ -451,7 +450,9 @@
 
             "pneumaticcraft:biodiesel",
             "pneumaticcraft:diesel",
-            "pneumaticcraft:lubricant"
+            "pneumaticcraft:lubricant",
+
+            "/justdirethings:unrefined_.*_fluid/"
         ]
     },
     "categories": {

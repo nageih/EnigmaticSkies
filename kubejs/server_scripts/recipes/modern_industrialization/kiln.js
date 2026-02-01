@@ -108,6 +108,17 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 32,
             id: `${id_prefix}stoneware_vessel`
+        },
+        {
+            item_outputs: { item: 'replication:replicator_enclosure', amount: 1 },
+            fluid_inputs: [{ fluid: 'oritech:still_strange_matter', amount: 1000 }],
+            item_inputs: [
+                { item: 'minecraft:tinted_glass', amount: 1 },
+                { item: 'malum:void_salts', amount: 4 }
+            ],
+            duration: 10,
+            eu: 32,
+            id: `${id_prefix}replicator_enclosure`
         }
     ];
 

@@ -68,13 +68,16 @@ const villagerTrades = {
             level: 1
         },
         {
-            result: { id: 'actuallyadditions:feeder', count: 1 },
+            result: {
+                id: 'aether:holystone_hoe[enchantments={levels:{"apothic_enchanting:natures_blessing":1,"minecraft:silk_touch":1}}]',
+                count: 1
+            },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 1
         },
 
         {
-            result: { id: 'actuallyadditions:worm', count: 4 },
+            result: { id: 'actuallyadditions:feeder', count: 1 },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 2
         },
@@ -85,25 +88,36 @@ const villagerTrades = {
         },
 
         {
-            result: { id: 'pneumaticcraft:crop_support', count: 4 },
-            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            result: { id: 'actuallyadditions:worm', count: 4 },
+            ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
             level: 3
         },
         {
-            result: { id: 'actuallyadditions:greenhouse_glass', count: 2 },
+            result: { id: 'pneumaticcraft:crop_support', count: 4 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 3
         },
 
         {
-            result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
+            result: { id: 'actuallyadditions:greenhouse_glass', count: 2 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 4
         },
         {
-            result: { id: 'ars_nouveau:ritual_fertility', count: 1 },
+            result: { id: 'ars_nouveau:ritual_overgrowth', count: 1 },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 4
+        },
+
+        {
+            result: { id: 'ars_nouveau:ritual_fertility', count: 1 },
+            ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'the_bumblezone:royal_jelly_bottle', count: 1 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ],
     // Barrel

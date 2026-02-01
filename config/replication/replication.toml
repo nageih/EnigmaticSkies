@@ -4,7 +4,7 @@
 		MAX_PROGRESS = 40
 		# Default: 1500
 		# Range: > 1
-		POWER_USAGE = 1500
+		POWER_USAGE = 10000
 		# Default: 16000
 		# Range: > 1
 		TANK_CAPACITY = 16000
@@ -16,14 +16,14 @@
 		#Setting this to 0 will disable the recipe calculation
 		# Default: 11
 		# Range: > 0
-		MAX_RECIPE_DEPTH = 11
+		MAX_RECIPE_DEPTH = 0
 		#If enabled, values of items that have a crafting remaining item like milk buckets in the cake recipe, will subtract their remaining item matter value from the calculation
 		SUBTRACT_CRAFTING_REMAINING_ITEM = true
 
 	[ReplicationConfig.MatterPipe]
 		# Default: 2560
 		# Range: > 1
-		POWER_TRANSFER = 2560
+		POWER_TRANSFER = 20000
 
 	[ReplicationConfig.IdentificationChamber]
 		#The progress shown in game will be double
@@ -44,7 +44,7 @@
 		MAX_PROGRESS = 100
 		# Default: 80
 		# Range: > 1
-		POWER_TICK = 80
+		POWER_TICK = 1000
 		# Default: 0.8
 		# Range: 0.0 ~ 1.0
 		ENCLOSURE_SPEED_MULTIPLIER = 0.8
@@ -55,7 +55,7 @@
 	[ReplicationConfig.MatterTank]
 		# Default: 256000
 		# Range: > 1
-		CAPACITY = 256000
+		CAPACITY = 6400
 
 	[ReplicationConfig.Client]
 		SHOW_PRESS_SHIFT_TEXT = true

@@ -688,7 +688,7 @@
 		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
 	]
 	quest.1275C61F2390D761.quest_desc: [
-		"The AE2-Replication Bridge allows you to interface your Replication network with your AE2 network. AE2 will then be able to request anything from your Replication network for auto-crafting."
+		"The &7ME Replication Connector&r allows you to interface your Replication network with your AE2 network. With it in place, AE2 will be able to request anything from your Replication network for auto-crafting."
 		""
 		"Note that AE2 must be taught how to create each Matter Type. This can be done by placing Pattern Providers against Disintegrators and setting up patterns for each matter type. "
 		""
