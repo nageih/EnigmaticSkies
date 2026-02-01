@@ -9,8 +9,7 @@ ServerEvents.tags('block', (event) => {
             'naturesaura:crimson_aura_mushroom',
             'naturesaura:aura_mushroom',
             'arts_and_crafts:lotus_flower'
-        ],
-        kinda_likes: ['malum:large_strange_crystal', 'malum:strange_crystal']
+        ]
     };
 
     Object.keys(additions).forEach((tag) => {
