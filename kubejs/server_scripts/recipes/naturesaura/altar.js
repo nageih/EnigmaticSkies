@@ -94,10 +94,10 @@ ServerEvents.recipes((event) => {
         },
         {
             output: { id: 'arts_and_crafts:lotus_pistils' },
-            input: { item: 'ars_elemental:spore_blossom_up' },
+            input: { tag: 'enigmatica:spore_blossoms' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
-            aura_multiplier: 200,
-            time: 30,
+            aura_multiplier: 100,
+            time: 2,
             id: `${id_prefix}lotus_pistils`
         },
         {

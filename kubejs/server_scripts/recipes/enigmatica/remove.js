@@ -123,6 +123,13 @@ ServerEvents.recipes((event) => {
         { output: `apprep:replication_connector` },
         { mod: 'apprep', input: `replication:replica_ingot` },
 
+        { output: 'appliedsoul:soul_cell_housing' },
+        { id: 'appliedsoul:soul_storage_cell_1k' },
+        { id: 'appliedsoul:soul_storage_cell_4k' },
+        { id: 'appliedsoul:soul_storage_cell_16k' },
+        { id: 'appliedsoul:soul_storage_cell_64k' },
+        { id: 'appliedsoul:soul_storage_cell_256k' },
+
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
         // { id: /apotheosis:salvaging\/other/ },

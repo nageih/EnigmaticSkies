@@ -29,9 +29,21 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'minecraft:chorus_fruit', count: 4 }],
-            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:blue_berry' }],
+            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:aechor_petal' }],
             time: 100,
             id: `${id_prefix}chorus_fruit`
+        },
+        {
+            results: [{ id: 'aether:life_shard', count: 4 }],
+            ingredients: [{ tag: 'c:dusts/echo' }, { tag: 'c:gems/ruby' }],
+            time: 100,
+            id: `${id_prefix}life_shard`
+        },
+        {
+            results: [{ id: 'minecraft:heart_of_the_sea', count: 2 }],
+            ingredients: [{ tag: 'c:storage_blocks/empowered_diamatine' }, { tag: 'c:storage_blocks/neptunium' }],
+            time: 100,
+            id: `${id_prefix}heart_of_the_sea`
         },
         {
             results: [{ id: 'minecraft:diamond', count: 1 }],
@@ -58,8 +70,8 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}heavy_core`
         },
         {
-            results: [{ id: 'minecraft:echo_shard', count: 1 }],
-            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'aether:life_shard' }],
+            results: [{ id: 'minecraft:echo_shard', count: 2 }],
+            ingredients: [{ tag: 'c:dusts/echo' }, { item: 'the_bumblezone:honey_crystal_shards' }],
             time: 100,
             id: `${id_prefix}echo_shard`
         },

@@ -71,6 +71,34 @@ ServerEvents.recipes((event) => {
             energy: 50000,
             time: 2,
             id: `${id_prefix}flask_of_four_winds`
+        },
+        {
+            result: { id: 'minecraft:trident', count: 1 },
+            base: { item: 'apothic_enchanting:inert_trident' },
+            modifiers: [
+                { tag: 'c:dusts/prismarine' },
+                { tag: 'c:gems/prismarine' },
+                { tag: 'c:dusts/prismarine' },
+                { tag: 'c:gems/prismarine' }
+            ],
+            color: '#2e8cf7',
+            energy: 5000,
+            time: 1,
+            id: `${id_prefix}trident`
+        },
+        {
+            result: { id: 'ars_technica:calibrated_precision_mechanism', count: 1 },
+            base: { item: 'create:precision_mechanism' },
+            modifiers: [
+                { tag: 'c:gems/amethyst' },
+                { tag: 'c:gems/source' },
+                { tag: 'c:gems/amethyst' },
+                { tag: 'c:gems/source' }
+            ],
+            color: '#d156f7',
+            energy: 1000,
+            time: 1,
+            id: `${id_prefix}calibrated_precision_mechanism`
         }
     ];
 
