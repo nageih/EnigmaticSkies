@@ -4,7 +4,7 @@
 		MAX_PROGRESS = 20
 		# Default: 1500
 		# Range: > 1
-		POWER_USAGE = 10000
+		POWER_USAGE = 8000
 		# Default: 16000
 		# Range: > 1
 		TANK_CAPACITY = 16000
