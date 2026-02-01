@@ -394,7 +394,7 @@
 		""
 		"The Skies questline is your primary source of guidance through major progression goals. "
 		""
-		"          &n&6A Note on Information Sources&r"
+		"            &n&6A Note on Information Sources&r"
 		""
 		"As an Expert pack, a great deal of the default progression and recipes for each mod has changed. This means that guidebooks for the various mods included in this pack may give you incorrect information. They are still an invaluable source for how blocks and items work, but don’t assume that recipes or progression requirements found in the books are accurate. "
 		""
@@ -688,7 +688,7 @@
 		"To allow them to extract from any slot, you just need to slap a &7Rune of Swiftness&r on the connection."
 	]
 	quest.1275C61F2390D761.quest_desc: [
-		"The AE2-Replication Bridge allows you to interface your Replication network with your AE2 network. AE2 will then be able to request anything from your Replication network for auto-crafting."
+		"The &7ME Replication Connector&r allows you to interface your Replication network with your AE2 network. With it in place, AE2 will be able to request anything from your Replication network for auto-crafting."
 		""
 		"Note that AE2 must be taught how to create each Matter Type. This can be done by placing Pattern Providers against Disintegrators and setting up patterns for each matter type. "
 		""
@@ -2135,11 +2135,11 @@
 	]
 	quest.3456EED039818662.title: "Quantum Bridge"
 	quest.34F48A8F71A7C937.quest_desc: [
-		"Ender Crates represent an upgrade over Ender Chests. Not only can they be accessed by automation and logistics, but they can also be separated into multiple channels based on their name."
+		"&7Ender Crates&r represent an upgrade over Ender Chests. Not only can they be accessed by automation and logistics, but they can also be separated into multiple channels based on their name."
 		""
-		"To set a channel, place the Crate in an Anvil with an Eye of Ender, then set a name. The name becomes the channel and any other Crate with the same name will share the same inventory."
+		"To set a channel, place the &7Crate&r in an &7Anvil&r with an &7Eye of Ender&r, then set a name. The name becomes the channel and any other &7Crate&r with the same name will share the same inventory."
 		""
-		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
+		"Additionally, an &7Ender Ocular&r may be used to remotely access the &7Ender Crate&r. Rename it the same way as the &7Crate&r to set the channel. "
 	]
 	quest.34FB10F0A2504973.quest_desc: [
 		"Buy a &7Loom&r to gain access to a &7Shepherd Villager&r. "
@@ -2945,15 +2945,6 @@
 		"Have a free book! This section is under construction!"
 	]
 	quest.4421EB35235888DF.title: "Nature's Aura"
-	quest.44388FAFA8CEE204.quest_desc: [
-		"Need some &7Ice&r? Silk Touch is &nnot&r required!"
-		""
-		"Regular &7Ice&r may be harvested with a &7Stone Pickaxe&r or better."
-		""
-		"&7Packed Ice&r and &7Blue Ice&r may similarly be harvested with an &7Iron Pickaxe&r or better. "
-		""
-		"A &7Spell Book&r will still need the &7Extract Glyph&r to pick up &7Ice&r, however."
-	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -3401,9 +3392,9 @@
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
 	quest.4C91792ACCC53A2B.quest_desc: ["By applying high heat in a low-oxygen environment, we can convert &7Pelagite&r into &7Kerogen&r. "]
 	quest.4CB21D6351486281.quest_desc: [
-		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
+		"Catalysts may be installed on a &7Natural Altar&r to modify the recipes it can process."
 		""
-		"Place them on the short stone pillars of the Altar to use them."
+		"Place them on the &7short stone pillars&r of the structure to use them."
 		""
 		"&6⚠ Note: An Altar with a Catalyst can "
 		"&6    still process basic recipes if they "
@@ -3608,10 +3599,6 @@
 		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
 		""
 		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
-		""
-		"&6⚠ Note: Sneak to cast Touch Spells "
-		"&6    on certain blocks like Machines "
-		"&6    or Icestone."
 	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."
@@ -4545,7 +4532,13 @@
 		"&a🛈 Tip: The shape of individual chalk marks is "
 		"&a    random and doesn’t affect the ritual!"
 	]
-	quest.672B88E9A3FA1FCE.quest_desc: ["With the Winter’s Calling active, snow will slowly accumulate in the area and water will freeze to ice. Snow Golems may also appear to further spread the snowy goodness!"]
+	quest.672B88E9A3FA1FCE.quest_desc: [
+		"With the &7Winter’s Calling&r active, snow will rapidly accumulate in the area and water will freeze to ice. "
+		""
+		"Snow Golems may also appear to further spread the snowy goodness!"
+		""
+		"Needless to say, this can be a great way to get some &7Snow&r to make &7Ice&r!"
+	]
 	quest.673C6861CC3A781C.quest_desc: [
 		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
 		""

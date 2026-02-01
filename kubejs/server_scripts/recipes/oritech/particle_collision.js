@@ -82,12 +82,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}gooblock_tier4`
         },
         {
-            results: [{ id: 'the_bumblezone:royal_jelly_bottle', count: 1 }],
-            ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'ars_nouveau:wilden_tribute' }],
-            time: 15000,
-            id: `${id_prefix}royal_jelly_bottle`
-        },
-        {
             results: [{ id: 'malum:umbral_spirit', count: 1 }],
             ingredients: [{ item: 'malum:null_slate' }, { tag: 'c:gems/eclipse_ember' }],
             time: 15000,

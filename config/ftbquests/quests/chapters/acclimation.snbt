@@ -18,19 +18,6 @@
 	quests: [
 		{
 			dependencies: ["6703E3A9E3571660"]
-			id: "44388FAFA8CEE204"
-			shape: "diamond"
-			tasks: [{
-				id: "495BC6C0DD9CC574"
-				item: { count: 1, id: "minecraft:ice" }
-				optional_task: true
-				type: "item"
-			}]
-			x: 2.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["6703E3A9E3571660"]
 			id: "4ACD723FC7EB7CD6"
 			shape: "diamond"
 			tasks: [{
@@ -541,8 +528,8 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.5d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6703E3A9E3571660"]

@@ -573,6 +573,11 @@ ServerEvents.recipes((event) => {
             replace_with: 'create:transmitter'
         },
         {
+            filter: [{ mod: 'enderio' }],
+            to_replace: '#c:gears/iron',
+            replace_with: '#c:gears/compressed_iron'
+        },
+        {
             filter: [{ mod: 'pneumaticcraft' }],
             to_replace: `pneumaticcraft:printed_circuit_board`,
             replace_with: `enderio:z_logic_controller`

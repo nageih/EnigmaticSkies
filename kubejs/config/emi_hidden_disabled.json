@@ -37,8 +37,6 @@
             "ae2:meteorite_compass",
             "ae2:vibration_chamber",
 
-            "rep_ae2_bridge:universal_matter",
-
             "/ars.*:ritual_(awakening|challenge|burrowing|sedimentation|containment)/",
             "/ars.*:ritual_(animal_summon|elder_summon|mana_regeneration)/",
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
@@ -79,11 +77,12 @@
             "industrialforegoing:resourceful_furnace",
             "industrialforegoing:machine_frame_pity",
 
+            "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
+            "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
+            "/justdirethings:unrefined_.*_fluid_bucket/",
             "justdirethings:generatort1",
             "justdirethings:generatorfluidt1",
             "justdirethings:raw_coal_t1_ore",
-            "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
-            "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
             "justdirethings:polymorphic_wand",
             "justdirethings:polymorphic_wand_v2",
 
@@ -141,6 +140,19 @@
             "/modern_industrialization:tin_(block|blade|dust|gear|ingot|nugget|plate|ring|rod|rotor|tiny|wire)/",
             "/modern_industrialization:.*titanium/",
             "/modern_industrialization:.*nuclear/",
+            "/modern_industrialization:.*_tiny_dust/",
+            "/modern_industrialization:(iron|steel|diamond|netherite)_hammer/",
+            "/modern_industrialization:quantum_(helmet|chestplate|leggings|boots)/",
+            "modern_industrialization:gravichestplate",
+            "modern_industrialization:sulfur_block",
+            "modern_industrialization:sulfur_dust",
+            "modern_industrialization:diamond_large_plate",
+            "modern_industrialization:diamond_plate",
+            "modern_industrialization:emerald_plate",
+            "modern_industrialization:copper_rotor",
+            "modern_industrialization:copper_blade",
+            "modern_industrialization:copper_wire",
+            "modern_industrialization:silver_wire",
             "modern_industrialization:portable_storage_unit",
             "modern_industrialization:bronze_plate",
             "modern_industrialization:packer_block_template",
@@ -258,7 +270,16 @@
             "/extended_industrialization:.*_tesla_winding/",
             "/extended_industrialization:.*_photovoltaic_cell/",
             "/extended_industrialization:.*_solar_panel/",
+            "/extended_industrialization:nano_quantum_(helmet|chestplate|leggings|boots)/",
             "extended_industrialization:steel_combine",
+            "extended_industrialization:netherite_rotary_blade",
+            "extended_industrialization:granite_dust",
+
+            "extended_industrialization:distilled_water_bucket",
+            "extended_industrialization:npk_fertilizer_bucket",
+            "extended_industrialization:phosphoric_acid_bucket",
+            "extended_industrialization:potassium_chloride_bucket",
+            "extended_industrialization:potassium_hydroxide_bucket",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",
@@ -413,6 +434,12 @@
             "modern_industrialization:acrylic_acid",
             "modern_industrialization:acetylene",
 
+            "extended_industrialization:distilled_water",
+            "extended_industrialization:npk_fertilizer",
+            "extended_industrialization:phosphoric_acid",
+            "extended_industrialization:potassium_chloride",
+            "extended_industrialization:potassium_hydroxide",
+
             "oritech:still_oil",
             "oritech:still_heavy_oil",
             "oritech:still_biofuel",
@@ -423,7 +450,9 @@
 
             "pneumaticcraft:biodiesel",
             "pneumaticcraft:diesel",
-            "pneumaticcraft:lubricant"
+            "pneumaticcraft:lubricant",
+
+            "/justdirethings:unrefined_.*_fluid/"
         ]
     },
     "categories": {

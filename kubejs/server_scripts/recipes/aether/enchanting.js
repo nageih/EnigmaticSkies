@@ -10,11 +10,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}golden_oak_sapling`
         },
         {
-            result: Item.of(
-                'occultism:fragile_soul_gem[entity_data={id:"minecraft:villager",VillagerData:{type:"minecraft:snow"}}]'
-            ).toJson(),
+            result: {
+                id: 'occultism:fragile_soul_gem',
+                components: {
+                    'minecraft:entity_data': { VillagerData: { type: 'minecraft:snow' }, id: 'minecraft:villager' }
+                },
+                count: 1
+            },
             ingredient: { item: 'supplementaries:statue' },
-            cookingtime: 1,
+            cookingtime: 10,
             experience: 0.15,
             id: `${id_prefix}villager`
         },
@@ -87,6 +91,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 5,
             experience: 0.15,
             id: `${id_prefix}torchflower_seeds`
+        },
+        {
+            result: { id: 'minecraft:ice', count: 1 },
+            ingredient: { item: 'theurgy:crystallized_water' },
+            cookingtime: 10,
+            experience: 0.15,
+            id: `${id_prefix}ice_from_crystallized_water`
         }
     ];
 

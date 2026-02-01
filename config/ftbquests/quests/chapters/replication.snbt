@@ -122,7 +122,7 @@
 			id: "1275C61F2390D761"
 			tasks: [{
 				id: "4CDFD0A97FE71A40"
-				item: { count: 1, id: "rep_ae2_bridge:rep_ae2_bridge" }
+				item: { count: 1, id: "apprep:replication_connector" }
 				type: "item"
 			}]
 			x: 3.5d
