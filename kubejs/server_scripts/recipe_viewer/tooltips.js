@@ -299,6 +299,30 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['malum:void_depot'],
             text: [Text.of(`The Weeping Well is located on the Vexing Island`).gold()]
+        },
+        {
+            items: ['#enigmatica:chilled'],
+            text: [Text.of(`Cool to the Touch`).aqua()]
+        },
+        {
+            items: ['#enigmatica:cold'],
+            text: [Text.of(`Cold to the Touch`).aqua()]
+        },
+        {
+            items: ['#enigmatica:super_cold'],
+            text: [Text.of(`Freezing to the Touch`).aqua()]
+        },
+        {
+            items: ['#enigmatica:warm'],
+            text: [Text.of(`Warm to the Touch`).red()]
+        },
+        {
+            items: ['#enigmatica:hot'],
+            text: [Text.of(`Hot to the Touch`).red()]
+        },
+        {
+            items: ['#enigmatica:super_hot'],
+            text: [Text.of(`Burning to the Touch`).red()]
         }
     ];
 

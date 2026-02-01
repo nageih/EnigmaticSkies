@@ -307,6 +307,7 @@ StartupEvents.registry('item', (event) => {
         { id: 'animate_cascading_weald_walker', type: 'possess' },
         { id: 'animate_vexing_weald_walker', type: 'possess' },
         { id: 'animate_flashing_weald_walker', type: 'possess' },
+        { id: 'animate_aechor_plant', type: 'possess' },
         { id: 'animate_skeleton', type: 'possess' },
         { id: 'animate_stray', type: 'possess' },
         { id: 'animate_bogged', type: 'possess' },

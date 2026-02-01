@@ -28,7 +28,68 @@ ServerEvents.recipes((event) => {
                 B: 'minecraft:moss_block',
                 C: 'naturesaura:infused_stone'
             },
-            id: 'naturesaura:moss_generator'
+            id: `${id_prefix}moss_generator`
+        },
+        {
+            output: 'naturesaura:firework_generator',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'naturesaura:infused_stone',
+                B: 'minecraft:firework_rocket',
+                C: '#c:essences/air',
+                D: 'pneumaticcraft:cannon_barrel',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}firework_generator`
+        },
+        {
+            output: 'naturesaura:potion_generator',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'minecraft:nether_bricks',
+                B: '#c:ingots/hallowed_gold',
+                C: 'supplementaries:lumisene_bottle',
+                D: 'minecraft:sponge',
+                E: '#c:essences/earth'
+            },
+            id: `${id_prefix}potion_generator`
+        },
+        {
+            output: 'naturesaura:chorus_generator',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'minecraft:purpur_block',
+                B: '#c:gems/pulsating_crystal',
+                C: '#c:essences/air',
+                D: 'minecraft:chorus_flower',
+                E: '#c:essences/fire'
+            },
+            id: `${id_prefix}chorus_generator`
+        },
+        {
+            output: 'naturesaura:animal_generator',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: 'minecraft:nether_bricks',
+                B: '#c:gems/empowered_emeradic',
+                C: 'supplementaries:gold_bars',
+                D: '#c:nuggets/soularium',
+                E: '#c:essences/water'
+            },
+            id: `${id_prefix}animal_generator`
+        },
+        {
+            output: 'naturesaura:generator_limit_remover',
+            pattern: ['ABA', 'CFD', 'AEA'],
+            key: {
+                A: 'naturesaura:infused_stone',
+                B: '#c:essences/air',
+                C: '#c:essences/earth',
+                D: '#c:essences/fire',
+                E: '#c:essences/water',
+                F: 'create:electron_tube'
+            },
+            id: `${id_prefix}generator_limit_remover`
         },
         {
             output: 'naturesaura:nature_altar',
@@ -88,10 +149,21 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:glass',
                 B: '#c:essences/air',
-                C: '#c:gems/diamond',
+                C: '#c:gems/pulsating_crystal',
                 D: '#c:essences/earth'
             },
             id: `${id_prefix}field_creator`
+        },
+        {
+            output: 'naturesaura:snow_creator',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'naturesaura:infused_brick',
+                B: '#c:essences/water',
+                C: '#c:essences/air',
+                D: 'minecraft:pumpkin'
+            },
+            id: `${id_prefix}snow_creator`
         },
         {
             output: 'naturesaura:time_changer',

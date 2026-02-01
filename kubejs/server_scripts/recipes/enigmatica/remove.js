@@ -879,6 +879,7 @@ ServerEvents.recipes((event) => {
         { id: 'naturesaura:oak_generator' },
         { id: 'naturesaura:spring' },
         { id: 'naturesaura:light_staff' },
+        { id: 'naturesaura:snow_creator' },
         { id: 'naturesaura:auto_crafter' },
         { id: 'naturesaura:depth_ingot_creation' },
         { id: 'naturesaura:blast_furnace_booster' },
@@ -902,6 +903,12 @@ ServerEvents.recipes((event) => {
         { id: `naturesaura:altar/ender_pearl` },
         { id: 'naturesaura:offering_table' },
         { id: 'naturesaura:animal_spawner' },
+        { id: 'naturesaura:moss_generator' },
+        { id: 'naturesaura:firework_generator' },
+        { id: 'naturesaura:chorus_generator' },
+        { id: 'naturesaura:potion_generator' },
+        { id: 'naturesaura:animal_generator' },
+        { id: 'naturesaura:generator_limit_remover' },
 
         // Occultism
         { type: 'occultism:miner' },

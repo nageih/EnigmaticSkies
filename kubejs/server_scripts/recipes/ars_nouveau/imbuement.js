@@ -3,50 +3,176 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: Item.of(
-                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]'
-            ).toJson(),
-            input: Ingredient.of(
-                'naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]'
-            ).toJson(),
+            output: {
+                id: 'naturesaura:aura_bottle',
+                components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:nether' } },
+                count: 1
+            },
+            input: {
+                type: 'neoforge:components',
+                items: 'naturesaura:aura_bottle',
+                components: { 'naturesaura:aura_bottle_data': { aura_type: 'naturesaura:overworld' } }
+            },
             pedestalItems: [{ item: 'enderio:soul_powder' }, { item: 'minecraft:netherrack' }],
             source: 1000,
             id: `${id_prefix}bottled_ghosts`
+        },
+        {
+            output: {
+                id: 'occultism:fragile_soul_gem',
+                components: {
+                    'minecraft:entity_data': { VillagerData: { type: 'minecraft:snow' }, id: 'minecraft:villager' }
+                },
+                count: 1
+            },
+            input: { item: 'supplementaries:statue' },
+            pedestalItems: [{ tag: 'c:essences/anima' }, { tag: 'c:essences/anima' }],
+            source: 100,
+            id: `${id_prefix}villager`
+        },
+        {
+            output: { id: 'minecraft:wither_rose', count: 1 },
+            input: { item: 'aether:white_flower' },
+            pedestalItems: [{ tag: 'c:essences/anima' }, { tag: 'c:essences/anima' }],
+            source: 100,
+            id: `${id_prefix}wither_rose`
+        },
+        {
+            output: { id: 'aether:healing_stone', count: 1 },
+            input: { item: 'aether:holystone' },
+            pedestalItems: [{ tag: 'c:essences/anima' }, { tag: 'c:essences/anima' }],
+            source: 100,
+            id: `${id_prefix}healing_stone`
+        },
+        {
+            output: { id: 'mi_tweaks:snack_packer', count: 1 },
+            input: { item: 'modern_industrialization:fire_clay_bricks' },
+            pedestalItems: [{ tag: 'c:essences/anima' }, { tag: 'c:essences/anima' }],
+            source: 100,
+            id: `${id_prefix}snack_packer`
+        },
+
+        {
+            output: { id: 'minecraft:ice', count: 1 },
+            input: { item: 'theurgy:crystallized_water' },
+            pedestalItems: [{ tag: 'c:essences/water' }, { tag: 'c:essences/water' }],
+            source: 100,
+            id: `${id_prefix}ice_from_crystallized_water`
+        },
+        {
+            output: { id: 'minecraft:pitcher_pod', count: 1 },
+            input: { item: 'minecraft:pitcher_plant' },
+            pedestalItems: [{ tag: 'c:essences/water' }, { tag: 'c:essences/water' }],
+            source: 100,
+            id: `${id_prefix}pitcher_pod`
+        },
+
+        {
+            output: { id: 'aether:berry_bush_stem', count: 1 },
+            input: { item: 'minecraft:dead_bush' },
+            pedestalItems: [{ tag: 'c:essences/earth' }, { tag: 'c:essences/earth' }],
+            source: 100,
+            id: `${id_prefix}berry_bush_stem`
+        },
+        {
+            output: { id: 'ars_nouveau:magebloom_crop', count: 1 },
+            input: { item: 'farmersdelight:rice_bag' },
+            pedestalItems: [{ tag: 'c:essences/earth' }, { tag: 'c:essences/earth' }],
+            source: 100,
+            id: `${id_prefix}magebloom_crop`
+        },
+        {
+            output: { id: 'farmersdelight:rice', count: 1 },
+            input: { item: 'farmersdelight:straw_bale' },
+            pedestalItems: [{ tag: 'c:essences/earth' }, { tag: 'c:essences/earth' }],
+            source: 100,
+            id: `${id_prefix}rice`
+        },
+        {
+            output: { id: 'aether:golden_oak_sapling', count: 1 },
+            input: { item: 'aether:skyroot_sapling' },
+            pedestalItems: [{ tag: 'c:essences/earth' }, { tag: 'c:essences/earth' }],
+            source: 100,
+            id: `${id_prefix}golden_oak_sapling`
+        },
+
+        {
+            output: { id: 'aether:quicksoil_glass', count: 1 },
+            input: { item: 'aether:quicksoil' },
+            pedestalItems: [{ tag: 'c:essences/fire' }, { tag: 'c:essences/fire' }],
+            source: 100,
+            id: `${id_prefix}quicksoil_glass`
+        },
+        {
+            output: { id: 'aether:golden_gummy_swet', count: 1 },
+            input: { item: 'aether:blue_gummy_swet' },
+            pedestalItems: [{ tag: 'c:essences/fire' }, { tag: 'c:essences/fire' }],
+            source: 100,
+            id: `${id_prefix}golden_gummy_swet`
+        },
+        {
+            output: { id: 'minecraft:torchflower_seeds', count: 1 },
+            input: { item: 'minecraft:torchflower' },
+            pedestalItems: [{ tag: 'c:essences/fire' }, { tag: 'c:essences/fire' }],
+            source: 100,
+            id: `${id_prefix}torchflower_seeds`
+        },
+
+        {
+            output: { id: 'ars_nouveau:sourceberry_bush', count: 1 },
+            input: { item: 'aether:blue_berry' },
+            pedestalItems: [{ tag: 'c:essences/abjuration' }, { tag: 'c:essences/abjuration' }],
+            source: 100,
+            id: `${id_prefix}sourceberry_bush`
+        },
+        {
+            output: { id: 'justdirethings:gooblock_tier1', count: 1 },
+            input: { item: 'minecraft:clay' },
+            pedestalItems: [{ tag: 'c:essences/abjuration' }, { tag: 'c:essences/abjuration' }],
+            source: 100,
+            id: `${id_prefix}gooblock_tier1`
+        },
+        {
+            output: { id: 'aether:skyroot_remedy_bucket', count: 1 },
+            input: { item: 'aether:skyroot_poison_bucket' },
+            pedestalItems: [{ tag: 'c:essences/abjuration' }, { tag: 'c:essences/abjuration' }],
+            source: 100,
+            id: `${id_prefix}skyroot_remedy_bucket`
         },
 
         // Glyph removal fixes
         {
             output: { id: 'ars_elemental:acceleration_prism_lens', count: 1 },
             input: { tag: 'c:gems/quartz' },
-            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:powered_rail' }],
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'minecraft:powered_rail' }],
             source: 2000,
             id: `${id_prefix}acceleration_prism_lens`
         },
         {
             output: { id: 'ars_elemental:deceleration_prism_lens', count: 1 },
             input: { tag: 'c:gems/quartz' },
-            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:cobweb' }],
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'minecraft:cobweb' }],
             source: 2000,
             id: `${id_prefix}deceleration_prism_lens`
         },
         {
             output: { id: 'ars_elemental:arc_prism_lens', count: 1 },
             input: { tag: 'c:gems/quartz' },
-            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_pearl' }],
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'minecraft:ender_pearl' }],
             source: 2000,
             id: `${id_prefix}arc_prism_lens`
         },
         {
             output: { id: 'ars_elemental:homing_prism_lens', count: 1 },
             input: { tag: 'c:gems/quartz' },
-            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'minecraft:ender_eye' }],
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'minecraft:ender_eye' }],
             source: 2000,
             id: `${id_prefix}homing_prism_lens`
         },
         {
             output: { id: 'ars_elemental:piercing_prism_lens', count: 1 },
             input: { tag: 'c:gems/quartz' },
-            pedestalItems: [{ item: 'ars_nouveau:manipulation_essence' }, { item: 'ars_nouveau:wilden_spike' }],
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'ars_nouveau:wilden_spike' }],
             source: 2000,
             id: `${id_prefix}piercing_prism_lens`
         }

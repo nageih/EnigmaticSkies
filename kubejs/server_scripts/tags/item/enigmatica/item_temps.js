@@ -28,6 +28,7 @@ ServerEvents.tags('item', (event) => {
             '#chipped:snow_block',
             '#chipped:ice',
             '#chisel:ice',
+            'aether:skyroot_water_bucket',
             'aether:cold_aercloud',
             'aether:golden_aercloud',
             /aether:icestone/,
@@ -37,11 +38,11 @@ ServerEvents.tags('item', (event) => {
         ],
         cold: [
             '#c:rods/breeze',
-            '#c:buckets/water',
+            'minecraft:water_bucket',
+            'the_bumblezone:sugar_water_bucket',
             '#chipped:packed_ice',
 
             'aether:blue_aercloud',
-            'minecraft:snowball',
             'minecraft:wind_charge',
 
             'the_bumblezone:sugar_water_bucket',

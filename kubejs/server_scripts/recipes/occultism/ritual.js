@@ -214,6 +214,12 @@ ServerEvents.recipes((event) => {
             egg: 'ars_elemental:yellow_archwood_sapling',
             block: 'ars_elemental:yellow_archwood_sapling',
             spirit: 'naturesaura:calling_spirit'
+        },
+        {
+            entity: 'aether:aechor_plant',
+            egg: 'aether:aechor_plant_spawn_egg',
+            block: 'arts_and_crafts:lotus_pistils',
+            spirit: 'naturesaura:calling_spirit'
         }
     ];
 

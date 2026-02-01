@@ -8,6 +8,13 @@ ServerEvents.recipes((event) => {
             cookingtime: 10,
             experience: 0.15,
             id: `${id_prefix}plastic`
+        },
+        {
+            result: { id: 'minecraft:ice', count: 1 },
+            ingredient: { item: 'aether:blue_aercloud' },
+            cookingtime: 10,
+            experience: 0.15,
+            id: `${id_prefix}ice_from_blue_aercloud`
         }
     ];
 
@@ -16,7 +23,5 @@ ServerEvents.recipes((event) => {
         recipe.category = 'freezable_misc';
         recipe.cookingtime *= 20;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

@@ -346,6 +346,54 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}machine_chainer`
+        },
+        {
+            results: [{ id: 'extended_industrialization:nano_helmet', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:eclipsealloy_helmet', count: 1 },
+                { tag: 'c:plates/reinforced_carbon', count: 4 },
+                { item: 'oritech:advanced_battery', count: 2 },
+
+                { item: 'oritech:heisenberg_compensator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}nano_helmet`
+        },
+        {
+            results: [{ id: 'extended_industrialization:nano_chestplate', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:eclipsealloy_chestplate', count: 1 },
+                { tag: 'c:plates/reinforced_carbon', count: 4 },
+                { item: 'oritech:advanced_battery', count: 2 },
+
+                { item: 'oritech:heisenberg_compensator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}nano_chestplate`
+        },
+        {
+            results: [{ id: 'extended_industrialization:nano_leggings', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:eclipsealloy_leggings', count: 1 },
+                { tag: 'c:plates/reinforced_carbon', count: 4 },
+                { item: 'oritech:advanced_battery', count: 2 },
+
+                { item: 'oritech:heisenberg_compensator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}nano_leggings`
+        },
+        {
+            results: [{ id: 'extended_industrialization:nano_boots', count: 1 }],
+            inputs: [
+                { item: 'justdirethings:eclipsealloy_boots', count: 1 },
+                { tag: 'c:plates/reinforced_carbon', count: 4 },
+                { item: 'oritech:advanced_battery', count: 2 },
+
+                { item: 'oritech:heisenberg_compensator', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}nano_boots`
         }
     ];
 

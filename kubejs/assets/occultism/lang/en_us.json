@@ -130,6 +130,14 @@
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.interrupted": "Animation ritual interrupted.",
     "ritual.enigmatica.ritual/animate_flashing_weald_walker.started": "Started animating Flashing Weald Walker.",
 
+    "item.occultism.ritual_dummy.sm/ritual/animate_aechor_plant": "Animate Aechor Plant",
+    "item.occultism.ritual_dummy.animate_aechor_plant": "§6Ritual: Animate Aechor Plant",
+    "item.occultism.ritual_dummy.animate_aechor_plant.tooltip": "§5Infuse Lotus Pistils with magic to bring them to life.",
+    "ritual.enigmatica.ritual/animate_aechor_plant.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/animate_aechor_plant.finished": "Successfully animated a Aechor Plant.",
+    "ritual.enigmatica.ritual/animate_aechor_plant.interrupted": "Animation ritual interrupted.",
+    "ritual.enigmatica.ritual/animate_aechor_plant.started": "Started animating Aechor Plant.",
+
     "item.occultism.ritual_dummy.sm/ritual/animate_skeleton": "Animate Skeleton",
     "item.occultism.ritual_dummy.animate_skeleton": "§6Ritual: Animate Skeleton",
     "item.occultism.ritual_dummy.animate_skeleton.tooltip": "§5Infuse an Skeletal Contractor with magic to bring it to life.",
