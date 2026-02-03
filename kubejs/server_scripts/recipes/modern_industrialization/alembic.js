@@ -19,6 +19,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}blazing_essence`
         },
         {
+            fluid_outputs: { fluid: 'enigmatica:starbies_nitro_cold_brew', amount: 500 },
+            item_inputs: [{ item: 'actuallyadditions:coffee_beans', amount: 20 }],
+            fluid_inputs: { fluid: 'minecraft:water', amount: 500 },
+            starbuncle: true,
+            duration: 120,
+            eu: 2,
+            id: `${id_prefix}coffee_cup`
+        },
+        {
             item_outputs: [
                 { item: 'theurgy:crystallized_water', amount: 6 },
                 { item: 'theurgy:crystallized_water', amount: 2, probability: 1 / 3 }
@@ -176,6 +185,18 @@ ServerEvents.recipes((event) => {
                     relative: 'all',
                     range: 5,
                     entity: 'ars_nouveau:alakarkinos',
+                    count: 1
+                }
+            ];
+        }
+
+        if (recipe.starbuncle) {
+            recipe.process_conditions = [
+                {
+                    type: 'mi_tweaks:nearby_entity',
+                    relative: 'all',
+                    range: 5,
+                    entity: 'ars_nouveau:starbuncle',
                     count: 1
                 }
             ];

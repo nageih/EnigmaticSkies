@@ -64,6 +64,48 @@ ServerEvents.recipes((event) => {
             duration: 5,
             eu: 2,
             id: `${id_prefix}filling_vapours_of_nyx_bottle`
+        },
+
+        {
+            item_outputs: [
+                {
+                    item: 'actuallyadditions:coffee_cup',
+                    components: {
+                        'minecraft:custom_data': {
+                            1: { Amplifier: 0, Duration: 600, ID: 'cold_sweat:ice_resistance' },
+                            2: { Amplifier: 0, Duration: 600, ID: 'minecraft:speed' },
+                            Counter: 2
+                        }
+                    },
+                    count: 1
+                }
+            ],
+            item_inputs: [{ item: 'actuallyadditions:empty_cup', amount: 1 }],
+            fluid_inputs: [{ fluid: 'enigmatica:starbies_nitro_cold_brew', amount: 500 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}filling_cup_with_starbies_nitro_cold_brew`
+        },
+
+        {
+            item_outputs: [
+                {
+                    item: 'actuallyadditions:coffee_cup',
+                    components: {
+                        'minecraft:custom_data': {
+                            1: { Amplifier: 0, Duration: 600, ID: 'minecraft:fire_resistance' },
+                            2: { Amplifier: 0, Duration: 600, ID: 'minecraft:speed' },
+                            Counter: 2
+                        }
+                    },
+                    count: 1
+                }
+            ],
+            item_inputs: [{ item: 'actuallyadditions:empty_cup', amount: 1 }],
+            fluid_inputs: [{ fluid: 'enigmatica:espresso', amount: 50 }],
+            duration: 5,
+            eu: 2,
+            id: `${id_prefix}filling_cup_with_espresso`
         }
     ];
 

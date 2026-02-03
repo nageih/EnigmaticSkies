@@ -37,5 +37,6 @@
 			}
 			random_bonus: 2
 		}
+		{ id: "44B106A3E6973EAB", item: { components: { "minecraft:custom_data": { 1: { Amplifier: 3, Duration: 600, ID: "ars_nouveau:mana_regen" }, 2: { Amplifier: 0, Duration: 600, ID: "cold_sweat:ice_resistance" }, Counter: 2 } }, count: 1, id: "actuallyadditions:coffee_cup" } }
 	]
 }

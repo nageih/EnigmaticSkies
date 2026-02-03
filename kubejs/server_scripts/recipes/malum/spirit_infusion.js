@@ -5,10 +5,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'malum:soul_stained_steel_ingot', count: 1 },
             input: { tag: 'c:ingots/steel', count: 1 },
-            extraInputs: [
-                { item: 'enderio:soul_chain', count: 3 },
-                { item: 'minecraft:echo_shard', count: 3 }
-            ],
+            extraInputs: [{ item: 'enderio:soul_chain', count: 3 }],
             spirits: [
                 { type: 'malum:arcane', count: 6 },
                 { type: 'malum:wicked', count: 6 },
@@ -189,7 +186,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'malum:paracausal_flame', count: 1 },
             input: { item: 'malum:ether', count: 1 },
             extraInputs: [
-                { item: 'oritech:enderic_compound', count: 4 },
+                { item: 'oritech:enderic_compound', count: 1 },
                 { item: 'malum:hex_ash', count: 8 }
             ],
             spirits: [

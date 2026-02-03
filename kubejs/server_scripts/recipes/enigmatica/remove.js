@@ -270,6 +270,7 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
+        { type: 'enderio:soul_binding' },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },

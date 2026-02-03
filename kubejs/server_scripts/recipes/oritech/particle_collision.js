@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}overcharged_crystal`
         },
         {
-            results: [{ id: 'oritech:enderic_compound', count: 1 }],
+            results: [{ id: 'oritech:enderic_compound', count: 4 }],
             ingredients: [{ tag: 'c:gems/ender_crystal' }, { tag: 'c:nuggets/dark_steel' }],
             time: 100,
             id: `${id_prefix}enderic_compound`

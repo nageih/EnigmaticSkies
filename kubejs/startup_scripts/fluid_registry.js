@@ -27,6 +27,11 @@ StartupEvents.registry('fluid', (event) => {
             color: '#1f1200'
         },
         {
+            name: `Starbie's Nitro Cold Brew`,
+            type: 'thin',
+            color: '#352002'
+        },
+        {
             name: 'Wilden Sauce',
             type: 'thin',
             color: '#412f16'

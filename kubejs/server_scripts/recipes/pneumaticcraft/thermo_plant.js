@@ -196,16 +196,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}espresso`
         },
         {
-            outputs: { item_output: { id: 'actuallyadditions:coffee_cup', count: 1 } },
-            inputs: {
-                fluid: { fluid: 'enigmatica:espresso', amount: 50 },
-                item: { item: 'actuallyadditions:empty_cup' }
-            },
-            temperature: { min: CtoK(0) },
-            time: 1.5,
-            id: `${id_prefix}coffee_cup`
-        },
-        {
             outputs: { item_output: { id: 'enigmatica:kerogen', count: 1 } },
             inputs: {
                 fluid: { fluid: 'justdirethings:polymorphic_fluid_source', amount: 100 },
