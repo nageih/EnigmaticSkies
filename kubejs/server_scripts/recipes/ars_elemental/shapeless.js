@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:ars_nouveau/shapeless/';
+    const id_prefix = 'enigmatica:ars_elemental/shapeless/';
 
     const recipes = [
         {
@@ -36,7 +36,5 @@ ServerEvents.recipes((event) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
         if (recipe.replace) r.replaceIngredient(recipe.replace.item, recipe.replace.replacement);
-
-        
     });
 });

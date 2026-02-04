@@ -64,6 +64,11 @@ ServerEvents.recipes((event) => {
             result: { id: 'oritech:prometheum_ingot' },
             input: { item: 'industrialforegoing:infinity_nuke' },
             id: `${id_prefix}prometheum_ingot`
+        },
+        {
+            result: { id: 'enderio:player_token' },
+            input: { item: 'enderio:monster_token' },
+            id: `${id_prefix}player_token`
         }
     ];
 

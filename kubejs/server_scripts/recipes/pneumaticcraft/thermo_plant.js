@@ -367,7 +367,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { tag: 'c:pebbles' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 1.0,
+            time: 0.05,
             id: `${id_prefix}alchemical_salt_mineral_from_pebbles`
         },
         {
@@ -375,7 +375,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { tag: 'c:gravels' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 4.0,
+            time: 1.0,
             id: `${id_prefix}alchemical_salt_mineral_from_gravels`
         },
         {
@@ -383,7 +383,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { tag: 'minecraft:logs_that_burn' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 1.0,
+            time: 0.05,
             id: `${id_prefix}coal_t1`
         },
         {
@@ -391,7 +391,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'minecraft:bone' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 1.0,
+            time: 0.05,
             id: `${id_prefix}grim_talc_from_bone`
         },
         {
@@ -399,7 +399,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'aquaculture:fish_bones' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 1.0,
+            time: 0.05,
             id: `${id_prefix}grim_talc_from_fish_bones`
         },
         {
@@ -407,7 +407,7 @@ ServerEvents.recipes((event) => {
             inputs: { item: { item: 'minecraft:rotten_flesh' } },
             temperature: { min: CtoK(1500) },
             pressure: -0.75,
-            time: 1.0,
+            time: 0.05,
             id: `${id_prefix}rotting_essence_from_rotten_flesh`
         }
     ];
