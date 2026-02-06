@@ -14,13 +14,13 @@
 */
 
 const spiritData = [
-    // {
-    //     registry_name: 'aether:aechor_plant',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
+    {
+        registry_name: 'aether:aechor_plant',
+        spirits: [
+            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:earthen', count: 1 }
+        ]
+    },
     {
         registry_name: 'aether:aerbunny',
         spirits: [
@@ -148,9 +148,9 @@ const spiritData = [
     {
         registry_name: 'aether:zephyr',
         spirits: [
-            { spirit: 'malum:arcane', count: 2 },
-            { spirit: 'malum:wicked', count: 2 },
-            { spirit: 'malum:aerial', count: 3 }
+            { spirit: 'malum:arcane', count: 4 },
+            { spirit: 'malum:wicked', count: 4 },
+            { spirit: 'malum:aerial', count: 4 }
         ]
     },
     {
@@ -331,35 +331,35 @@ const spiritData = [
     {
         registry_name: 'ars_nouveau:wilden_boss',
         spirits: [
-            { spirit: 'malum:arcane', count: 8 },
-            { spirit: 'malum:wicked', count: 8 },
-            { spirit: 'malum:aerial', count: 8 },
-            { spirit: 'malum:aqueous', count: 8 },
-            { spirit: 'malum:earthen', count: 8 }
+            { spirit: 'malum:arcane', count: 12 },
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:aerial', count: 12 },
+            { spirit: 'malum:aqueous', count: 12 },
+            { spirit: 'malum:earthen', count: 12 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_guardian',
         spirits: [
-            { spirit: 'malum:aqueous', count: 1 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:aqueous', count: 6 },
+            { spirit: 'malum:wicked', count: 6 },
+            { spirit: 'malum:arcane', count: 6 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_hunter',
         spirits: [
-            { spirit: 'malum:earthen', count: 1 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:earthen', count: 6 },
+            { spirit: 'malum:wicked', count: 6 },
+            { spirit: 'malum:arcane', count: 6 }
         ]
     },
     {
         registry_name: 'ars_nouveau:wilden_stalker',
         spirits: [
-            { spirit: 'malum:aerial', count: 1 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:aerial', count: 6 },
+            { spirit: 'malum:wicked', count: 6 },
+            { spirit: 'malum:arcane', count: 6 }
         ]
     },
     {
@@ -513,8 +513,8 @@ const spiritData = [
         registry_name: 'minecraft:bogged',
         spirits: [
             { spirit: 'malum:arcane', count: 2 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:earthen', count: 1 }
+            { spirit: 'malum:wicked', count: 2 },
+            { spirit: 'malum:earthen', count: 2 }
         ]
     },
     {
@@ -577,22 +577,23 @@ const spiritData = [
     {
         registry_name: 'minecraft:drowned',
         spirits: [
+            { spirit: 'malum:arcane', count: 2 },
             { spirit: 'malum:aqueous', count: 2 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:wicked', count: 2 }
         ]
     },
     {
         registry_name: 'minecraft:elder_guardian',
         spirits: [
-            { spirit: 'malum:eldritch', count: 3 },
-            { spirit: 'malum:aqueous', count: 5 }
+            { spirit: 'malum:eldritch', count: 12 },
+            { spirit: 'malum:aqueous', count: 12 }
         ]
     },
     {
         registry_name: 'minecraft:enderman',
         spirits: [
             { spirit: 'malum:eldritch', count: 3 },
-            { spirit: 'malum:arcane', count: 1 }
+            { spirit: 'malum:arcane', count: 2 }
         ]
     },
     {
@@ -633,21 +634,20 @@ const spiritData = [
     },
     {
         registry_name: 'minecraft:goat',
-        spirits: [{ spirit: 'malum:wicked', count: 1 }]
+        spirits: [{ spirit: 'malum:wicked', count: 3 }]
     },
     {
         registry_name: 'minecraft:guardian',
         spirits: [
             { spirit: 'malum:aqueous', count: 3 },
-            { spirit: 'malum:sacred', count: 3 },
-            { spirit: 'malum:wicked', count: 3 }
+            { spirit: 'malum:sacred', count: 3 }
         ]
     },
     {
         registry_name: 'minecraft:hoglin',
         spirits: [
-            { spirit: 'malum:infernal', count: 1 },
-            { spirit: 'malum:earthen', count: 1 }
+            { spirit: 'malum:infernal', count: 2 },
+            { spirit: 'malum:earthen', count: 2 }
         ]
     },
     {
@@ -661,8 +661,9 @@ const spiritData = [
     {
         registry_name: 'minecraft:husk',
         spirits: [
-            { spirit: 'malum:infernal', count: 1 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:arcane', count: 2 },
+            { spirit: 'malum:infernal', count: 2 },
+            { spirit: 'malum:wicked', count: 2 }
         ]
     },
     {
@@ -684,7 +685,7 @@ const spiritData = [
         spirits: [
             { spirit: 'malum:earthen', count: 1 },
             { spirit: 'malum:aerial', count: 1 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:wicked', count: 3 }
         ]
     },
     {
@@ -780,15 +781,15 @@ const spiritData = [
     {
         registry_name: 'minecraft:rabbit',
         spirits: [
-            { spirit: 'malum:sacred', count: 1 },
+            { spirit: 'malum:sacred', count: 2 },
             { spirit: 'malum:aerial', count: 2 }
         ]
     },
     {
         registry_name: 'minecraft:ravager',
         spirits: [
-            { spirit: 'malum:eldritch', count: 4 },
-            { spirit: 'malum:wicked', count: 2 }
+            { spirit: 'malum:eldritch', count: 8 },
+            { spirit: 'malum:wicked', count: 8 }
         ]
     },
     {
@@ -820,15 +821,15 @@ const spiritData = [
         registry_name: 'minecraft:skeleton',
         spirits: [
             { spirit: 'malum:arcane', count: 2 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:wicked', count: 2 }
         ]
     },
     {
         registry_name: 'minecraft:skeleton_horse',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
-            { spirit: 'malum:aerial', count: 2 },
-            { spirit: 'malum:wicked', count: 1 }
+            { spirit: 'malum:arcane', count: 4 },
+            { spirit: 'malum:aerial', count: 4 },
+            { spirit: 'malum:wicked', count: 4 }
         ]
     },
     {
@@ -862,9 +863,9 @@ const spiritData = [
     {
         registry_name: 'minecraft:stray',
         spirits: [
-            { spirit: 'malum:arcane', count: 1 },
-            { spirit: 'malum:wicked', count: 1 },
-            { spirit: 'malum:aerial', count: 1 }
+            { spirit: 'malum:arcane', count: 2 },
+            { spirit: 'malum:wicked', count: 2 },
+            { spirit: 'malum:aerial', count: 2 }
         ]
     },
     {
@@ -995,226 +996,7 @@ const spiritData = [
             { spirit: 'malum:infernal', count: 2 }
         ]
     },
-    // {
-    //     registry_name: 'occultism:possessed_breeze',
-    //     spirits: [
-    //         { spirit: 'malum:aerial', count: 3 },
-    //         { spirit: 'malum:arcane', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_elder_guardian',
-    //     spirits: [
-    //         { spirit: 'malum:aqueous', count: 5 },
-    //         { spirit: 'malum:eldritch', count: 3 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_enderman',
-    //     spirits: [
-    //         { spirit: 'malum:eldritch', count: 3 },
-    //         { spirit: 'malum:arcane', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_endermite',
-    //     spirits: [{ spirit: 'malum:eldritch', count: 1 }]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_evoker',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:arcane', count: 2 },
-    //         { spirit: 'malum:eldritch', count: 2 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_ghast',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:infernal', count: 2 },
-    //         { spirit: 'malum:aqueous', count: 2 },
-    //         { spirit: 'malum:aerial', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_hoglin',
-    //     spirits: [
-    //         { spirit: 'malum:infernal', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_phantom',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 3 },
-    //         { spirit: 'malum:wicked', count: 3 },
-    //         { spirit: 'malum:aerial', count: 3 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_shulker',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:eldritch', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_skeleton',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 2 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_strong_breeze',
-    //     spirits: [
-    //         { spirit: 'malum:aerial', count: 6 },
-    //         { spirit: 'malum:arcane', count: 3 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_warden',
-    //     spirits: [
-    //         { spirit: 'malum:eldritch', count: 6 },
-    //         { spirit: 'malum:wicked', count: 6 },
-    //         { spirit: 'malum:arcane', count: 6 },
-    //         { spirit: 'malum:earthen', count: 6 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_weak_breeze',
-    //     spirits: [
-    //         { spirit: 'malum:aerial', count: 1 },
-    //         { spirit: 'malum:arcane', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_weak_shulker',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:eldritch', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_witch',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 2 },
-    //         { spirit: 'malum:arcane', count: 2 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:possessed_zombie_piglin',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 2 },
-    //         { spirit: 'malum:infernal', count: 2 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_bogged',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 2 },
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_cave_spider',
-    //     spirits: [
-    //         { spirit: 'malum:aerial', count: 1 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_horde_creeper',
-    //     spirits: [{ spirit: 'malum:infernal', count: 3 }]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_horde_drowned',
-    //     spirits: [
-    //         { spirit: 'malum:aqueous', count: 2 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_horde_husk',
-    //     spirits: [
-    //         { spirit: 'malum:infernal', count: 1 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_horde_silverfish',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_hunt_skeleton',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 3 },
-    //         { spirit: 'malum:wicked', count: 2 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_hunt_wither_skeleton',
-    //     spirits: [
-    //         { spirit: 'malum:infernal', count: 3 },
-    //         { spirit: 'malum:wicked', count: 3 },
-    //         { spirit: 'malum:arcane', count: 3 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_husk',
-    //     spirits: [
-    //         { spirit: 'malum:infernal', count: 1 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_silverfish',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_skeleton',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 2 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_slime',
-    //     spirits: [
-    //         { spirit: 'malum:aqueous', count: 1 },
-    //         { spirit: 'malum:arcane', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_spider',
-    //     spirits: [
-    //         { spirit: 'malum:aerial', count: 2 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_stray',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:aerial', count: 1 }
-    //     ]
-    // },
-    // {
-    //     registry_name: 'occultism:wild_zombie',
-    //     spirits: [
-    //         { spirit: 'malum:wicked', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 }
-    //     ]
-    // },
+
     {
         registry_name: 'sushigocrafting:shrimp',
         spirits: [{ spirit: 'malum:aqueous', count: 1 }]
