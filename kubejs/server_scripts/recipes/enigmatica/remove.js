@@ -470,6 +470,7 @@ ServerEvents.recipes((event) => {
         { output: /industrialforegoing:.*_transporter_type/ },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
+        { id: 'industrialforegoing:dissolution_chamber/pink_slime_ball' },
         { id: 'industrialforegoing:dissolution_chamber/pink_slime_ingot' },
         { id: /industrialforegoing:dissolution_chamber\/infinity/ },
         { id: /industrialforegoing:dissolution_chamber\/.*_machine_frame/ },

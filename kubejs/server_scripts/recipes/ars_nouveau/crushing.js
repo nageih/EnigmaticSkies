@@ -22,6 +22,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}snow_block`
         },
         {
+            input: { item: 'minecraft:mud' },
+            output: [{ stack: { id: 'minecraft:packed_mud', count: 1 }, chance: 1.0, maxRange: 1 }],
+            id: `${id_prefix}packed_mud`
+        },
+        {
             input: { item: 'aether:holystone' },
             output: [
                 { stack: { id: 'aether:ambrosium_shard', count: 1 }, chance: 0.5, maxRange: 3 },
@@ -123,7 +128,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:crush';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
