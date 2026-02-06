@@ -96,17 +96,17 @@ ServerEvents.recipes((event) => {
         {
             id: 'enigmatica:reverberating_dorodango',
             item_outputs: [
-                { item: 'aether:zanite_gemstone', amount: 3, probability: 1 / 3 },
-                { item: 'occultism:echo_dust', amount: 2, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 }
+                { item: 'occultism:otherworld_ashes', amount: 3, probability: 1 / 3 },
+                { item: 'aether:zanite_gemstone', amount: 2, probability: 1 / 3 },
+                { item: 'occultism:echo_dust', amount: 1, probability: 1 / 3 }
             ]
         },
         {
             id: 'enigmatica:volcanic_dorodango',
             item_outputs: [
                 { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
-                { item: 'theurgy:crystallized_lava', amount: 2, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 }
+                { item: 'create:cinder_flour', amount: 2, probability: 1 / 3 },
+                { item: 'theurgy:crystallized_lava', amount: 1, probability: 1 / 3 }
             ]
         },
         {
