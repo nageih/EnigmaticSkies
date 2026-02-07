@@ -193,8 +193,11 @@
 			]
 			tasks: [
 				{
+					icon: {
+						id: "malum:crude_scythe"
+					}
 					id: "7CDDB3E6855989E2"
-					item: { count: 1, id: "malum:crude_scythe" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:soul_shatter_capable_weapon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{

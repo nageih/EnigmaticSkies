@@ -66,15 +66,15 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'malum:hallowed_gold_ingot' },
             input: { tag: 'c:ingots/gold' },
-            aura_multiplier: 250,
-            time: 15,
+            aura_multiplier: 150,
+            time: 4,
             id: `${id_prefix}hallowed_gold_ingot`
         },
         {
             output: { id: 'malum:block_of_hallowed_gold' },
             input: { tag: 'c:storage_blocks/gold' },
-            aura_multiplier: 250,
-            time: 120,
+            aura_multiplier: 150,
+            time: 32,
             id: `${id_prefix}block_of_hallowed_gold`
         },
         {

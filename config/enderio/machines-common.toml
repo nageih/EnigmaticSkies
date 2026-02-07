@@ -6,7 +6,7 @@
 		#The base energy consumption in uI/t.
 		# Default: 20
 		# Range: > 1
-		usage = 20
+		usage = 2048
 		#The amount of energy to consume per vanilla smelting item in uI.
 		# Default: 1500
 		# Range: > 1
@@ -50,7 +50,7 @@
 		#The base energy consumption in uI/t.
 		# Default: 20
 		# Range: > 1
-		usage = 20
+		usage = 512
 
 	[energy.slicer]
 		#The base energy capacity in uI.
@@ -60,7 +60,7 @@
 		#The base energy consumption in uI/t.
 		# Default: 30
 		# Range: > 1
-		usage = 30
+		usage = 256
 
 	[energy.soulBinder]
 		#The base energy capacity in uI.

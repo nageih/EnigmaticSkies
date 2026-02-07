@@ -3,6 +3,22 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            output: { id: 'industrialforegoing:pink_slime', count: 1 },
+            outputFluid: { id: 'minecraft:water', amount: 150 },
+            input: [{ item: 'minecraft:glass_pane' }],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 300 },
+            processingTime: 5,
+            id: `${id_prefix}pink_slime`
+        },
+        {
+            output: { id: 'industrialforegoing:pink_slime_block', count: 1 },
+            outputFluid: { id: 'minecraft:water', amount: 1350 },
+            input: [{ item: 'minecraft:glass' }],
+            inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2700 },
+            processingTime: 20,
+            id: `${id_prefix}pink_slime_block`
+        },
+        {
             output: { id: 'ae2:fluix_crystal', count: 6 },
             input: [
                 { item: 'arsdelight:activated_bastion_jam' },

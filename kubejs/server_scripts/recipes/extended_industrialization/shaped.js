@@ -201,7 +201,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'BCB', 'DED'],
             key: {
                 A: 'extended_industrialization:silver_tesla_top_load',
-                B: '#c:plates/sky',
+                B: 'modern_industrialization:copper_coil',
                 C: 'modern_industrialization:steel_machine_casing',
                 D: '#c:plates/silver',
                 E: 'enigmatica:pulsating_mechanism'
@@ -215,7 +215,7 @@ ServerEvents.recipes((event) => {
                 A: 'extended_industrialization:silver_tesla_top_load',
                 B: '#c:plates/silver',
                 C: 'modern_industrialization:steel_machine_casing',
-                D: '#c:plates/sky',
+                D: 'modern_industrialization:copper_coil',
                 E: 'enigmatica:pulsating_mechanism'
             },
             id: `${id_prefix}tesla_receiver`

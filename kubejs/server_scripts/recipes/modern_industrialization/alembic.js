@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             fluid_outputs: { fluid: 'modern_industrialization:heavy_water', amount: 40 },
-            item_inputs: [{ tag: 'c:gems/source', amount: 1, probability: 1 / 4 }],
+            item_inputs: [{ tag: 'c:gems/fluix', amount: 1 }],
             fluid_inputs: { fluid: 'minecraft:water', amount: 64000 },
             duration: 10,
             eu: 128,
@@ -17,6 +17,15 @@ ServerEvents.recipes((event) => {
             duration: 10,
             eu: 4,
             id: `${id_prefix}blazing_essence`
+        },
+        {
+            fluid_outputs: { fluid: 'enigmatica:starbies_nitro_cold_brew', amount: 500 },
+            item_inputs: [{ item: 'actuallyadditions:coffee_beans', amount: 20 }],
+            fluid_inputs: { fluid: 'minecraft:water', amount: 500 },
+            starbuncle: true,
+            duration: 120,
+            eu: 2,
+            id: `${id_prefix}coffee_cup`
         },
         {
             item_outputs: [
@@ -87,17 +96,17 @@ ServerEvents.recipes((event) => {
         {
             id: 'enigmatica:reverberating_dorodango',
             item_outputs: [
-                { item: 'aether:zanite_gemstone', amount: 3, probability: 1 / 3 },
-                { item: 'occultism:echo_dust', amount: 2, probability: 1 / 3 },
-                { item: 'occultism:otherworld_ashes', amount: 1, probability: 1 / 3 }
+                { item: 'occultism:otherworld_ashes', amount: 3, probability: 1 / 3 },
+                { item: 'aether:zanite_gemstone', amount: 2, probability: 1 / 3 },
+                { item: 'occultism:echo_dust', amount: 1, probability: 1 / 3 }
             ]
         },
         {
             id: 'enigmatica:volcanic_dorodango',
             item_outputs: [
                 { item: 'malum:blazing_quartz', amount: 3, probability: 1 / 3 },
-                { item: 'theurgy:crystallized_lava', amount: 2, probability: 1 / 3 },
-                { item: 'create:cinder_flour', amount: 1, probability: 1 / 3 }
+                { item: 'create:cinder_flour', amount: 2, probability: 1 / 3 },
+                { item: 'theurgy:crystallized_lava', amount: 1, probability: 1 / 3 }
             ]
         },
         {
@@ -176,6 +185,18 @@ ServerEvents.recipes((event) => {
                     relative: 'all',
                     range: 5,
                     entity: 'ars_nouveau:alakarkinos',
+                    count: 1
+                }
+            ];
+        }
+
+        if (recipe.starbuncle) {
+            recipe.process_conditions = [
+                {
+                    type: 'mi_tweaks:nearby_entity',
+                    relative: 'all',
+                    range: 5,
+                    entity: 'ars_nouveau:starbuncle',
                     count: 1
                 }
             ];

@@ -30,6 +30,7 @@ ServerEvents.recipes((event) => {
                 { item: 'supplementaries:pancake', amount: 12 },
                 { item: 'minecraft:honey_bottle', amount: 1 },
                 { item: 'farmersdelight:cooked_bacon', amount: 4 },
+                { item: 'actuallyadditions:coffee_cup', amount: 1 },
                 { tag: 'enigmatica:meal_ingredients/drink', amount: 1 }
             ],
             duration: 1,

@@ -270,6 +270,7 @@ ServerEvents.recipes((event) => {
 
         // EnderIO
         { type: 'enderio:fire_crafting' },
+        { type: 'enderio:soul_binding' },
         { type: 'enderio:alloy_smelting', id: /enderio:.*dark_steel_ingot/ },
         { output: 'enderio:stirling_generator' },
         { output: 'enderio:soul_engine' },
@@ -469,6 +470,7 @@ ServerEvents.recipes((event) => {
         { output: /industrialforegoing:.*_transporter_type/ },
         { input: 'industrialforegoing:dryrubber' },
         { id: 'industrialforegoing:dissolution_chamber/mechanical_dirt' },
+        { id: 'industrialforegoing:dissolution_chamber/pink_slime_ball' },
         { id: 'industrialforegoing:dissolution_chamber/pink_slime_ingot' },
         { id: /industrialforegoing:dissolution_chamber\/infinity/ },
         { id: /industrialforegoing:dissolution_chamber\/.*_machine_frame/ },

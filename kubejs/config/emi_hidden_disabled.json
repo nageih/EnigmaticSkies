@@ -144,6 +144,7 @@
             "/modern_industrialization:(iron|steel|diamond|netherite)_hammer/",
             "/modern_industrialization:quantum_(helmet|chestplate|leggings|boots)/",
             "modern_industrialization:gravichestplate",
+            "modern_industrialization:basic_machine_hull",
             "modern_industrialization:sulfur_block",
             "modern_industrialization:sulfur_dust",
             "modern_industrialization:diamond_large_plate",

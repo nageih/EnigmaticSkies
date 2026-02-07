@@ -152,13 +152,6 @@ ServerEvents.generateData('before_mods', (event) => {
             }
         },
         {
-            entities: ['minecraft:endermite'],
-            genes: {
-                'geneticsresequenced:item_magnet': 2,
-                'geneticsresequenced:xp_magnet': 3
-            }
-        },
-        {
             entities: ['minecraft:stray'],
             genes: {
                 'geneticsresequenced:basic': 6,

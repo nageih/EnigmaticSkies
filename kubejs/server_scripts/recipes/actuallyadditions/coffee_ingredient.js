@@ -33,15 +33,38 @@ ServerEvents.recipes((event) => {
         },
         {
             effects: [{ effect: 'minecraft:slow_falling', amplifier: 0, duration: 60 * 10 }],
-            ingredient: { item: 'minecraft:phantom_membrane' },
-            max_amplifier: 2,
+            ingredient: { item: 'aether:cold_aercloud' },
+            max_amplifier: 1,
             id: `${id_prefix}slow_falling_from_phantom_membrane`
+        },
+        {
+            effects: [{ effect: 'cold_sweat:ice_resistance', amplifier: 0, duration: 60 * 10 }],
+            ingredient: { item: 'ars_nouveau:frostaya_pod' },
+            max_amplifier: 1,
+            id: `${id_prefix}ice_resistance_from_frostaya_pod`
+        },
+        {
+            effects: [{ effect: 'minecraft:fire_resistance', amplifier: 0, duration: 60 * 10 }],
+            ingredient: { item: 'ars_nouveau:bombegranate_pod' },
+            max_amplifier: 1,
+            id: `${id_prefix}fire_resistance_from_bombegranate_pod`
         }
     ];
 
     event.forEachRecipe({ type: 'actuallyadditions:coffee_ingredient' }, (r) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
+
+        let single_max_levels = [
+            'minecraft:blaze_powder',
+            'minecraft:fermented_spider_eye',
+            'minecraft:pufferfish',
+            'minecraft:golden_carrot'
+        ];
+
+        if (single_max_levels.includes(recipe.ingredient.item)) {
+            recipe.max_amplifier = 1;
+        }
 
         if (recipe.effects) {
             recipe.effects[0].duration = recipe.effects[0].effect == 'minecraft:regeneration' ? 2 * 60 : 10 * 60;
@@ -53,7 +76,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'actuallyadditions:coffee_ingredient';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

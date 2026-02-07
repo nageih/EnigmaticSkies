@@ -1,6 +1,12 @@
 {
     "base.enigmatica.sky_block": "Sky Block",
 
+    "fluid_type.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
+    "block.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
+    "fluid.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
+    "fluid.enigmatica.flowing_starbies_nitro_cold_brew": "Flowing §aStarbie's§r Nitro Cold Brew",
+    "item.enigmatica.starbies_nitro_cold_brew_bucket": "§aStarbie's§r Nitro Cold Brew Bucket",
+
     "tooltip.hint.enigmatica.extended_industrialization_nano_armor_set": "Wearing Full Nano Suit",
     "tooltip.hint.enigmatica.pneumaticcraft_pneumatic_armor_set": "Wearing Full Pneumatic Suit",
 

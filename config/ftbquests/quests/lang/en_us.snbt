@@ -2264,7 +2264,7 @@
 		""
 		"Gather some &7Spirits of Birthing&r by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r or other &7Soul Shattering Weapon&r to properly harvest the Spirits in them."
 		""
 		"&a🛈 Tip: Apply Spirit Plunder to your "
 		"&a    weapon for even more Spirits!"
@@ -4568,6 +4568,10 @@
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
 		"Simply pipe in the ingredients, supply some energy, and provide it a &7Redstone Signal&r to make it start."
+		""
+		"&6⚠ Note: The Steam Alembic may be used "
+		"&6    to brew a wicked cup of coffee to "
+		"&6    get you started!"
 	]
 	quest.68079D29B91FC30A.quest_desc: [
 		"Modern Industrialization has its own Villager which can help you dramatically in the early game, selling you Steel Hammers, Analog Circuits, and other items to get you through the first tiers quickly."
@@ -5920,6 +5924,7 @@
 	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7BBDAB866A167CE4.title: "Mercurial Item Transporters"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
+	task.7CDDB3E6855989E2.title: "Soul Shattering Weapons"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
