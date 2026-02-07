@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             outputFluid: { id: 'minecraft:water', amount: 150 },
             input: [{ item: 'minecraft:glass_pane' }],
             inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 300 },
-            processingTime: 8,
+            processingTime: 5,
             id: `${id_prefix}pink_slime`
         },
         {
@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
             outputFluid: { id: 'minecraft:water', amount: 1350 },
             input: [{ item: 'minecraft:glass' }],
             inputFluid: { fluid: 'industrialforegoing:pink_slime', amount: 2700 },
-            processingTime: 32,
+            processingTime: 20,
             id: `${id_prefix}pink_slime_block`
         },
         {
