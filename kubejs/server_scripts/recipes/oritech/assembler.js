@@ -253,6 +253,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 20,
             id: `${id_prefix}arcane_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:ion_thruster', count: 2 }],
+            ingredients: [
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:basic_battery' },
+                { item: 'oritech:flux_gate' }
+            ],
+            time: 10,
+            id: `${id_prefix}ion_thruster`
         }
     ];
 

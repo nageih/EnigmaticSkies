@@ -502,7 +502,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [{ not: { output: 'farmersdelight:milk_bottle' } }],
             to_replace: `minecraft:milk_bucket`,
-            replace_with: Ingredient.of(['#c:buckets/milk', '#c:foods/milk'])
+            replace_with: Ingredient.of(['#c:buckets/milk', '#c:drinks/milk'])
         },
         {
             filter: [{ output: 'farmersdelight:milk_bottle' }],
