@@ -288,6 +288,7 @@
             "naturesaura:spawn_lamp",
             "naturesaura:chunk_loader",
             "naturesaura:oak_generator",
+            "naturesaura:blast_furnace_booster",
             "naturesaura:spring",
             "naturesaura:auto_crafter",
             "naturesaura:tainted_gold_block",

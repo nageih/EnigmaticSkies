@@ -113,7 +113,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:eggs' },
                 { tag: 'c:flours/wheat' },
                 { tag: 'c:flours/wheat' },
-                { tag: 'c:foods/milk' }
+                { tag: 'c:drinks/milk' }
             ],
             container: { id: 'minecraft:paper', count: 1 },
             experience: 0.1,

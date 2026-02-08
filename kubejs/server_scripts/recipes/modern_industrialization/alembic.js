@@ -113,7 +113,8 @@ ServerEvents.recipes((event) => {
             id: 'enigmatica:cloudy_dorodango',
             item_outputs: [
                 { item: 'theurgy:sal_ammoniac_crystal', amount: 3, probability: 1 / 3 },
-                { item: 'ae2:sky_dust', amount: 2, probability: 1 / 3 }
+                { item: 'malum:refined_brilliance', amount: 2, probability: 1 / 3 },
+                { item: 'ae2:sky_dust', amount: 1, probability: 1 / 3 }
             ]
         }
     ];

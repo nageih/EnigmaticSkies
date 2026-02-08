@@ -11,7 +11,8 @@ ServerEvents.tags('item', (event) => {
         'create:ochrum',
         'create:veridium',
         'farmersdelight:rich_soil',
-        'minecraft:mud'
+        'minecraft:mud',
+        'malum:refined_brilliance'
     ];
     let exclusions = ['minecraft:dirt'];
 

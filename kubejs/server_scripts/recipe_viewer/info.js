@@ -256,9 +256,9 @@ RecipeViewerEvents.addInformation('item', (event) => {
             ]
         },
         {
-            filter: ['enigmatica:borrowed_flame'],
+            filter: ['enigmatica:borrowed_flame', 'gateways:gate_pearl[gateways:gateway="gateways:catching_fire"]'],
             text: [
-                `Perform the Catching Fire Ritual to summon a Gateway. `,
+                `Create a Catching Fire Gate Pearl in the Particle Accelerator to summon a Gateway. `,
                 ` `,
                 `Defeat the Gateway to obtain "Borrowed" Flame.`
             ]

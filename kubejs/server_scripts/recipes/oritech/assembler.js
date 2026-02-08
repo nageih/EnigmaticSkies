@@ -48,9 +48,10 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'modern_industrialization:motor', count: 2 }],
             ingredients: [
-                { item: 'modern_industrialization:copper_coil' },
-                { item: 'create:shaft' },
-                { item: 'modern_industrialization:steel_large_plate' }
+                { item: 'modern_industrialization:conductive_coil' },
+                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'modern_industrialization:steel_large_plate' },
+                { item: 'create:shaft' }
             ],
             time: 10,
             id: `${id_prefix}motor`
@@ -59,8 +60,9 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:advanced_motor', count: 2 }],
             ingredients: [
                 { item: 'modern_industrialization:energetic_coil' },
-                { item: 'create:shaft' },
-                { item: 'modern_industrialization:stainless_steel_large_plate' }
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'modern_industrialization:stainless_steel_large_plate' },
+                { item: 'create:shaft' }
             ],
             time: 10,
             id: `${id_prefix}advanced_motor`
@@ -158,7 +160,8 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { tag: 'modern_industrialization:fluid_pipes' },
-                { item: 'starbunclemania:fluid_jar' }
+                { item: 'starbunclemania:fluid_jar' },
+                { item: 'create:mechanical_pump' }
             ],
             time: 20,
             id: `${id_prefix}machine_fluid_addon`
@@ -212,7 +215,8 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'pneumaticcraft:plastic' },
                 { item: 'apothic_enchanting:warden_tendril' },
-                { item: 'industrialforegoingsouls:soul_network_pipe' }
+                { item: 'industrialforegoingsouls:soul_network_pipe' },
+                { item: 'pneumaticcraft:plastic' }
             ],
             time: 20,
             id: `${id_prefix}soul_surge`
@@ -222,6 +226,7 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { item: 'enderio:skeletal_contractor' },
+                { item: 'ae2:engineering_processor' },
                 { tag: 'c:gems/pulsating_crystal' }
             ],
             time: 20,
@@ -232,7 +237,8 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
                 { item: 'enderio:z_logic_controller' },
-                { tag: 'c:gems/vibrant_crystal' }
+                { tag: 'c:gems/vibrant_crystal' },
+                { item: 'modern_industrialization:quantum_circuit' }
             ],
             time: 20,
             id: `${id_prefix}advanced_augment_station`
@@ -241,17 +247,30 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:arcane_augment_station', count: 1 }],
             ingredients: [
                 { item: 'oritech:machine_plating_block' },
+                { item: 'malum:paracausal_flame' },
                 { item: 'enderio:ender_resonator' },
                 { item: 'malum:paracausal_flame' }
             ],
             time: 20,
             id: `${id_prefix}arcane_augment_station`
+        },
+        {
+            results: [{ id: 'oritech:ion_thruster', count: 2 }],
+            ingredients: [
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:reinforced_carbon_sheet' },
+                { item: 'oritech:basic_battery' },
+                { item: 'oritech:flux_gate' }
+            ],
+            time: 10,
+            id: `${id_prefix}ion_thruster`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:assembler';
         recipe.time *= 20;
+
         event.custom(recipe).id(recipe.id);
     });
 });

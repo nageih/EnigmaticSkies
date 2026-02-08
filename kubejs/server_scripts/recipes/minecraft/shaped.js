@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
             output: 'minecraft:cake',
             pattern: ['AEA', 'BCB', 'DDD'],
             key: {
-                A: '#c:foods/milk',
+                A: '#c:drinks/milk',
                 B: '#c:sugars',
                 C: '#c:eggs',
                 D: 'pneumaticcraft:wheat_flour',

@@ -397,7 +397,7 @@ ServerEvents.recipes((event) => {
         { input: 'c:gems/blazing_quartz', output: 'justdirethings:coal_t2', tier: 2, eu: 2 },
         { input: 'c:gems/diamond', output: 'justdirethings:celestigem', tier: 3, eu: 8 },
         { input: 'c:gems/blaze_ember', output: 'justdirethings:coal_t3', tier: 3, eu: 8 },
-        { input: 'c:ingots/netherite', output: 'justdirethings:eclipsealloy_ingot', tier: 4, eu: 32 },
+        { input: 'c:ingots/dark_steel', output: 'justdirethings:eclipsealloy_ingot', tier: 4, eu: 32 },
         { input: 'c:gems/voidflame', output: 'justdirethings:coal_t4', tier: 4, eu: 32 }
     ];
 

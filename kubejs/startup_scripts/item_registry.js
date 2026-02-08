@@ -289,7 +289,7 @@ StartupEvents.registry('item', (event) => {
 
     const ritual_dummies = [
         // Rifts
-        { id: 'catching_fire', type: 'misc' },
+        // { id: 'catching_fire', type: 'misc' },
 
         // Animated Creatures
         { id: 'animate_blue_swet', type: 'possess' },

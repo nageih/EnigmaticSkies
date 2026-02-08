@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
         {
             output: '24x supplementaries:pancake',
             inputs: [
-                '#c:foods/milk',
+                '#c:drinks/milk',
                 'pneumaticcraft:wheat_flour',
                 'pneumaticcraft:wheat_flour',
                 'pneumaticcraft:wheat_flour',

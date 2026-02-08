@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:charcoal' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura_multiplier: 200,
-            time: 6,
+            time: 4,
             id: `${id_prefix}coal`
         },
         {
@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
             input: { item: AlmostUnified.getTagTargetItem(`c:storage_blocks/charcoal`).getId() },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura_multiplier: 200,
-            time: 30,
+            time: 24,
             id: `${id_prefix}coal_block`
         },
         {
@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'malum:blazing_quartz' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura_multiplier: 50,
-            time: 6,
+            time: 4,
             id: `${id_prefix}quartz`
         },
         {
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'farmersdelight:rice' },
             catalyst: { item: 'naturesaura:crushing_catalyst' },
             aura_multiplier: 50,
-            time: 2,
+            time: 1,
             id: `${id_prefix}sugar_from_rice`
         },
         {
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
             output: { id: 'malum:block_of_hallowed_gold' },
             input: { tag: 'c:storage_blocks/gold' },
             aura_multiplier: 150,
-            time: 32,
+            time: 24,
             id: `${id_prefix}block_of_hallowed_gold`
         },
         {
@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:dusts/grains_of_the_end' },
             catalyst: { item: 'naturesaura:conversion_catalyst' },
             aura_multiplier: 200,
-            time: 15,
+            time: 2,
             id: `${id_prefix}ender_pearl`
         },
         {

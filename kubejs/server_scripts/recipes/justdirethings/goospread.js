@@ -2,7 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:justdirethings/goospread/';
 
     const recipes = [
-        // Tier 1
         {
             output: {
                 Name: 'actuallyadditions:enori_crystal_cluster',
@@ -49,8 +48,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}palis_crystal_cluster`
         },
 
-        // Tier 2
-
         {
             output: {
                 Name: 'actuallyadditions:diamatine_crystal_cluster',
@@ -68,16 +65,22 @@ ServerEvents.recipes((event) => {
             input: { Name: 'malum:block_of_blazing_quartz' },
             tierRequirement: 2,
             id: `${id_prefix}raw_coal_t2_ore`
-        }
+        },
 
-        // Tier 3
+        {
+            output: {
+                Name: 'justdirethings:raw_eclipsealloy_ore',
+                Properties: { facing: 'north' }
+            },
+            input: { Name: 'enderio:dark_steel_block' },
+            tierRequirement: 4,
+            id: `${id_prefix}raw_eclipsealloy_ore`
+        }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'justdirethings:goospread';
         recipe.craftingDuration = recipe.tierRequirement <= 2 ? 2400 : 4800;
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });

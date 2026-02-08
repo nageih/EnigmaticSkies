@@ -135,6 +135,18 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:ender_resonator' }],
             time: 15000,
             id: `${id_prefix}essence_continuity`
+        },
+        {
+            results: [
+                {
+                    id: 'gateways:gate_pearl',
+                    components: { 'gateways:gateway': 'gateways:catching_fire' },
+                    count: 1
+                }
+            ],
+            ingredients: [{ tag: 'c:essences/greater_air' }, { item: 'arsdelight:bombegrante_steak' }],
+            time: 15000,
+            id: `${id_prefix}gate_pearl_catching_fire`
         }
     ];
 

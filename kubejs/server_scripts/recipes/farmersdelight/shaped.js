@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             pattern: [' A ', 'ABA', ' A '],
             key: {
                 A: '#c:flours/wheat',
-                B: '#c:foods/milk'
+                B: '#c:drinks/milk'
             },
             id: `${id_prefix}pie_crust`
         },

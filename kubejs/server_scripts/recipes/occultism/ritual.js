@@ -12,24 +12,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            ritual_type: 'occultism:craft',
-            result: {
-                id: 'gateways:gate_pearl',
-                components: { 'gateways:gateway': 'gateways:catching_fire' },
-                count: 1
-            },
-            activation_item: { item: 'arsdelight:bombegrante_steak' },
-            ingredients: [
-                { item: 'malum:blazing_diode' },
-                { item: 'create:blaze_cake' },
-                { tag: 'c:essences/greater_air' },
-                { item: 'create:blaze_cake' }
-            ],
-            ritual_dummy: { id: 'occultism:ritual_dummy/catching_fire', count: 1 },
-            duration: 30,
-            id: `${id_prefix}catching_fire`
-        },
-        {
             ritual_type: 'occultism:summon',
             entity_to_summon: 'ars_nouveau:wilden_boss',
             entity_to_sacrifice: sacrifice.villager,
