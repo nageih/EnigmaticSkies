@@ -314,6 +314,8 @@ ServerEvents.recipes((event) => {
         { id: 'enderio:cold_fire_igniter' },
         { id: 'enderio:infinity_rod' },
         { id: 'enderio:weather_obelisk' },
+        { id: 'enderio:attractor_obelisk' },
+        { id: 'enderio:farming_station' },
         { id: 'enderio:painting_machine' },
         { id: 'enderio:wired_charger' },
         { id: 'enderio:wireless_charger' },

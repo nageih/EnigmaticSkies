@@ -184,6 +184,19 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}painting_machine`
         },
         {
+            output: `enderio:farming_station`,
+            pattern: ['ABA', 'CDC', 'EFE'],
+            key: {
+                A: 'oritech:reinforced_carbon_sheet',
+                B: 'create:mechanical_harvester',
+                C: '#c:gears/dark_steel',
+                D: 'modern_industrialization:steel_machine_casing',
+                E: 'modern_industrialization:large_motor',
+                F: 'enigmatica:pulsating_mechanism'
+            },
+            id: `${id_prefix}farming_station`
+        },
+        {
             output: `enderio:weather_obelisk`,
             pattern: [' A ', 'BCB', 'CDC'],
             key: {
@@ -193,6 +206,17 @@ ServerEvents.recipes((event) => {
                 D: 'enderio:ensouled_chassis'
             },
             id: `${id_prefix}weather_obelisk`
+        },
+        {
+            output: `enderio:attractor_obelisk`,
+            pattern: [' A ', 'BCB', 'CDC'],
+            key: {
+                A: 'enderio:electromagnet',
+                B: '#c:ingots/energetic_alloy',
+                C: '#c:ingots/soularium',
+                D: 'enderio:ensouled_chassis'
+            },
+            id: `${id_prefix}attractor_obelisk`
         },
         {
             output: `enderio:wireless_charger`,
