@@ -443,7 +443,7 @@ ServerEvents.recipes((event) => {
                 { id: 'farmersdelight:rice', count: 1 },
                 { id: 'farmersdelight:straw', count: 1 }
             ],
-            multiply: 'chance_only',
+            multiply: 'none',
             exclusions: ['create:crushing', 'create:milling'],
             fe: 2400,
             eu: 2,
