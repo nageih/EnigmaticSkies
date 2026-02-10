@@ -3,9 +3,14 @@ ServerEvents.tags('item', (event) => {
         durability: ['geneticsresequenced:scraper', /justdirethings:bow_(ferricore|blazegold)/, '#c:tools/knife'],
         vanishing: ['#c:tools/knife'],
         armor: ['minecraft:wolf_armor'],
-        weapon: ['#c:tools/knife'],
-        sword: ['#c:tools/knife'],
-        sharp_weapon: ['#c:tools/knife'],
+        weapon: ['#c:tools/knife', 'ars_hex:enchanter_scythe', 'malum:crude_scythe', 'malum:soul_stained_steel_scythe'],
+        sword: ['#c:tools/knife', 'ars_hex:enchanter_scythe', 'malum:crude_scythe', 'malum:soul_stained_steel_scythe'],
+        sharp_weapon: [
+            '#c:tools/knife',
+            'ars_hex:enchanter_scythe',
+            'malum:crude_scythe',
+            'malum:soul_stained_steel_scythe'
+        ],
         fire_aspect: ['#c:tools/knife']
     };
 

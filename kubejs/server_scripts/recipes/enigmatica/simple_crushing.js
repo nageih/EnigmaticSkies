@@ -435,6 +435,20 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'crushed_brilliance'
+        },
+
+        {
+            input: { item: 'farmersdelight:rice_panicle' },
+            outputs: [
+                { id: 'farmersdelight:rice', count: 1 },
+                { id: 'farmersdelight:straw', count: 1 }
+            ],
+            multiply: 'chance_only',
+            exclusions: ['create:crushing', 'create:milling'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'rice_panicle'
         }
     ];
 
