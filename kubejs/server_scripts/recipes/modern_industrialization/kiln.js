@@ -11,26 +11,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}steel_ingot`
         },
         {
-            item_outputs: { item: 'create:andesite_alloy', amount: 4 },
-            item_inputs: [
-                { tag: 'c:dusts/sky_stone', amount: 4 },
-                { item: 'minecraft:andesite', amount: 1 }
-            ],
-            duration: 40,
-            eu: 2,
-            id: `${id_prefix}andesite_alloy`
-        },
-        {
-            item_outputs: { item: 'create:andesite_alloy', amount: 1 },
-            item_inputs: [
-                { tag: 'c:dusts/sky_stone', amount: 1 },
-                { item: 'enigmatica:andesite_pebble', amount: 1 }
-            ],
-            duration: 10,
-            eu: 2,
-            id: `${id_prefix}andesite_alloy_from_pebble`
-        },
-        {
             item_outputs: { item: 'ae2:quartz_fiber', amount: 3 },
             fluid_inputs: [{ fluid: 'oritech:still_strange_matter', amount: 250 }],
             item_inputs: [

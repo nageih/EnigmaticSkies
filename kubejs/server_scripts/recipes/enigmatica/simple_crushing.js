@@ -449,6 +449,19 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 5,
             id_suffix: 'rice_panicle'
+        },
+        {
+            input: { item: 'minecraft:wheat' },
+            outputs: [
+                { id: 'pneumaticcraft:wheat_flour', count: 1 },
+                { id: 'pneumaticcraft:wheat_flour', count: 1, chance: 0.5 }
+            ],
+            multiply: 'chance_only',
+            exclusions: ['create:milling', 'create:crushing', 'modern_industrialization'],
+            fe: 2400,
+            eu: 2,
+            duration: 5,
+            id_suffix: 'wheat_flour'
         }
     ];
 
