@@ -993,5 +993,36 @@
 			x: 4.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["5D1960D1AE64E4A2"]
+			icon: {
+				id: "theurgy:mercury_catalyst"
+			}
+			id: "3104ECE58D5CC796"
+			rewards: [{
+				count: 16
+				id: "72881F49023450D6"
+				item: {
+					count: 1
+					id: "theurgy:mercury_shard"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "71AD99AA31711D83"
+					item: { count: 1, id: "theurgy:mercury_catalyst" }
+					type: "item"
+				}
+				{
+					id: "6A547F0571004CB0"
+					item: { count: 1, id: "theurgy:caloric_flux_emitter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
 	]
 }

@@ -18,6 +18,7 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
+	chapter.67558DB55ADC2157.title: "The Beginning"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.72447ED7D54B4AF7.title: "Vexing Island"
@@ -2053,6 +2054,15 @@
 		"Need a fuel boost? "
 		""
 		"&7Primal Coal&r burns 16 times longer than a log and can be produced quite easily in the &7Calcination Oven&r."
+	]
+	quest.3104ECE58D5CC796.quest_desc: [
+		"The &7Pyromantic Brazier&r can be quite wasteful when used to power Theurgy devices, since it simply keeps burning as long as fuel remains. "
+		""
+		"Consider using a &7Mercury Catalyst&r instead. This device accepts &7Mercury Shards&r and converts them to Flux, storing it much like a battery. "
+		""
+		"A &7Caloric Flux Emitter&r may then be linked to a device and placed on a nearby &7Mercury Catalyst&r, allowing it to remotely send Flux to the linked device. "
+		""
+		"This will only consume Flux when the linked device is running, allowing it to operate much more efficiently. "
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31903F40C2037EBD.quest_desc: [
@@ -4600,6 +4610,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.68FDE7C7357F9B5A.quest_desc: [""]
 	quest.690FB1A43ED247CF.quest_desc: [
 		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
 		""
@@ -4697,6 +4708,16 @@
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
+	quest.6A8ACE8E9B7A056D.quest_desc: [
+		"As the woman plummeted into the sea, the animals rushed to her knowing she would surely perish without a place to rest."
+		""
+		"They took it in turns to dive down into the depths, each attempting to bring up the mud from the bottom. Each boasted of their strengths, claiming they would be the one to reach the bottom. Each failed and upon resurfacing claimed the task to be impossible. "
+		""
+		"When hope was nearly lost, the smallest among them came forward and asked to be permitted to try. It made no boast and all doubted its ability, but the other animals stood aside to allow it to try. Through quiet determination, it dove deeper and deeper. It dove until its lungs burned and its limbs ached. It dove until at last, one small paw brushed the mud in the lightless depths. "
+		""
+		"Grasping a handful of the mud, it turned and swam to the surface. There, it was greeted with praise when the other animals saw what it held. It spread the mud on Turtle’s back and, knowing that more would be needed, it dove again and again, slowly covering Turtle’s back to build a new land where the woman could rest. "
+	]
+	quest.6A8ACE8E9B7A056D.title: "The Earth Diver"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AA9F3E0D4BC181A.quest_desc: [
 		"You’ll find two important structures located on this island. "
@@ -4707,6 +4728,20 @@
 	]
 	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
 	quest.6AC4CADE97CB512F.title: "Flourishing Island"
+	quest.6AF21EDF59FCE0D4.quest_desc: [
+		"In the time before Time, the Sky People lived high above on islands of clouds. "
+		""
+		"They knew no strife for all was changeless. They knew no grief because all were eternal. "
+		""
+		"Then, something changed. "
+		""
+		"One of the Sky People fell from on high. She fell, and fell, and all mourned her as she tumbled through the endless blue sky. The Sky People, seeing her falling, felt that loss cut them deeply. Loss for her and loss for what was and would be no more. "
+		""
+		"In their lamentation, their tears fell in great heaving sobs, racing the woman to the place below as if to cushion her fall. "
+		""
+		"There, they pooled. There, the oceans rose. And there, the woman landed."
+	]
+	quest.6AF21EDF59FCE0D4.title: "Innocence Lost"
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"The Building section covers mods and tools to help you build up or tear down. "
 		""
@@ -5502,6 +5537,18 @@
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
+	quest.799839991CC1DDF9.quest_desc: [
+		"It is no small wonder that ancient stories still resonate with us. "
+		""
+		"Some write them off as simplistic, even looking down on those that wrote them… and yet those memories linger, those stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
+		""
+		"They speak to something universal; an unbroken thread reaching back through the ages. A thread that binds us all together through shared experience and common plights."
+		""
+		"Here, we find ourselves at the end. And with every end, a new story takes root.  "
+		""
+		"What threads will we leave for those who will come after us?"
+	]
+	quest.799839991CC1DDF9.title: "The Formless Abyss"
 	quest.79DFBA1E35132332.quest_desc: [
 		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cooking&r recipes. "
 		""

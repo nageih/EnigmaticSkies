@@ -509,20 +509,6 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:eldritch', count: 32 }
             ],
             id: `${id_prefix}tesla_interdimensional_upgrade`
-        },
-        {
-            result: { id: 'appliedsoul:soul_cell_housing', count: 1 },
-            input: { item: 'ae2:fluid_cell_housing', count: 1 },
-            extraInputs: [
-                { item: 'enderio:soul_chain', count: 3 },
-                { item: 'minecraft:echo_shard', count: 3 }
-            ],
-            spirits: [
-                { type: 'malum:arcane', count: 6 },
-                { type: 'malum:wicked', count: 6 },
-                { type: 'malum:infernal', count: 6 }
-            ],
-            id: `${id_prefix}soul_cell_housing`
         }
     ];
 

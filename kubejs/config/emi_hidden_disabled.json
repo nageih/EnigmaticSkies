@@ -391,6 +391,7 @@
         ],
         "added": [
             "occultism:fragile_soul_gem[entity_data={id:\"minecraft:villager\",VillagerData:{type:\"minecraft:snow\"}}]",
+
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_guardian\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_stalker\"]",
             "geneticsresequenced:organic_matter[geneticsresequenced:entity_type=\"ars_nouveau:wilden_hunter\"]",
@@ -404,7 +405,9 @@
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:logic_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"ae2:calculation_processor\"},Progress:1.0d}]",
             "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"modern_industrialization:quantum_circuit\"},Progress:1.0d}]",
-            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"enigmatica:elemental_matrix\"},Progress:1.0d}]"
+            "replication:matter_blueprint[replication:blueprint={Item:{count:1,id:\"enigmatica:elemental_matrix\"},Progress:1.0d}]",
+
+            "malum:umbral_spirit"
         ]
     },
     "fluids": {
