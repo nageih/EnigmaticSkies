@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
                     count: 1
                 }
             ],
-            ingredients: [{ tag: 'c:essences/greater_air' }, { item: 'arsdelight:bombegrante_steak' }],
+            ingredients: [{ tag: 'c:essences/greater_air' }, { item: 'naturesaura:ancient_stick' }],
             time: 15000,
             id: `${id_prefix}gate_pearl_catching_fire`
         }

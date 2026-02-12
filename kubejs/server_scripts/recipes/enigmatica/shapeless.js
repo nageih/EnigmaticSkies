@@ -253,7 +253,7 @@ ServerEvents.recipes((event) => {
         { item: 'sophisticatedstorage:stack_downgrade_tier_2', matrix: 1 },
         { item: 'sophisticatedstorage:stack_downgrade_tier_3', matrix: 1 },
 
-        { item: 'sophisticatedstorage:stack_upgrade_tier_1', matrix: 3 },
+        { item: 'sophisticatedstorage:stack_upgrade_tier_1', matrix: 1 },
         { item: 'sophisticatedstorage:stack_upgrade_tier_1_plus', matrix: 1 },
         { item: 'sophisticatedstorage:stack_upgrade_tier_2', matrix: 1 },
         { item: 'sophisticatedstorage:stack_upgrade_tier_3', matrix: 1 },
@@ -262,12 +262,12 @@ ServerEvents.recipes((event) => {
 
         { item: 'sophisticatedstorage:basic_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:basic_to_copper_tier_upgrade', matrix: 1 },
-        { item: 'sophisticatedstorage:basic_to_iron_tier_upgrade', matrix: 3 },
+        { item: 'sophisticatedstorage:basic_to_iron_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:basic_to_gold_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:basic_to_diamond_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:basic_to_netherite_tier_upgrade', matrix: 1 },
 
-        { item: 'sophisticatedstorage:copper_to_iron_tier_upgrade', matrix: 3 },
+        { item: 'sophisticatedstorage:copper_to_iron_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:copper_to_gold_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:copper_to_diamond_tier_upgrade', matrix: 1 },
         { item: 'sophisticatedstorage:copper_to_netherite_tier_upgrade', matrix: 1 },
