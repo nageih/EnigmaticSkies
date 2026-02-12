@@ -783,6 +783,7 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:large_tank' },
         { output: 'modern_industrialization:trash_can' },
         { output: 'modern_industrialization:gravichestplate' },
+        { output: 'modern_industrialization:air_intake' },
         { input: /modern_industrialization:.*_double_ingot/ },
         { input: /modern_industrialization:(brick|brick_tiny)_dust/ },
         { input: /modern_industrialization:.*_ring$/ },

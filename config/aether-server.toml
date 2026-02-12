@@ -24,7 +24,7 @@
 	#Allows the Golden Feather to spawn in the Silver Dungeon loot table
 	"Golden Feather in loot" = false
 	#Allows the Valkyrie Cape to spawn in the Silver Dungeon loot table
-	"Valkyrie Cape in loot" = true
+	"Valkyrie Cape in loot" = false
 
 ["World Generation"]
 	#Determines whether the Aether should generate Tall Grass blocks on terrain or not
@@ -32,7 +32,7 @@
 	#Determines whether Holiday Trees should always be able to generate when exploring new chunks in the Aether, if true, this overrides 'Generate Holiday Trees seasonally'
 	"Generate Holiday Trees always" = false
 	#Determines whether Holiday Trees should be able to generate during the time frame of December and January when exploring new chunks in the Aether, only works if 'Generate Holiday Trees always' is set to false
-	"Generate Holiday Trees seasonally" = true
+	"Generate Holiday Trees seasonally" = false
 
 [Multiplayer]
 	#Makes the Invisibility Cloak more balanced in PVP by disabling equipment invisibility temporarily after attacks
@@ -42,7 +42,7 @@
 	#Makes it so that only whitelisted users or anyone with permission level 4 can use the Sun Altar on a server
 	"Only whitelisted users access Sun Altars" = false
 	#Configures what dimensions are able to have their time changed by the Sun Altar
-	"Configure Sun Altar dimensions" = ["aether:the_aether", "ftbteambases:bases"]
+	"Configure Sun Altar dimensions" = ["aether:the_aether", "ftbteambases:bases", "minecraft:overworld"]
 
 [Modpack]
 	#Spawns the player in the Aether dimension; this is best enabled alongside other modpack configuration to avoid issues

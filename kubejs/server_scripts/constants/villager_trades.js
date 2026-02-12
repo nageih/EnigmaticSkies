@@ -270,6 +270,8 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
             level: 1
         }
+
+        // Levels 2-5 covered below.
     ],
     // Smoker
     'minecraft:butcher': [

@@ -43,6 +43,14 @@
             "ars_nouveau:ritual_wilden_summon",
             "ars_additions:ritual_locate_structure",
 
+            "create:crushed_raw_zinc",
+            "create:crushed_raw_platinum",
+            "create:crushed_raw_silver",
+            "create:crushed_raw_tin",
+            "create:crushed_raw_lead",
+            "create:crushed_raw_uranium",
+            "create:crushed_raw_nickel",
+
             "enderio:stirling_generator",
             "enderio:soul_engine",
             "enderio:mind_killer",
@@ -85,6 +93,12 @@
             "justdirethings:raw_coal_t1_ore",
             "justdirethings:polymorphic_wand",
             "justdirethings:polymorphic_wand_v2",
+            "justdirethings:paradoxmachine",
+            "justdirethings:time_crystal_budding_block",
+            "justdirethings:time_crystal_cluster",
+            "justdirethings:time_crystal_cluster_small",
+            "justdirethings:time_crystal_cluster_medium",
+            "justdirethings:time_crystal_cluster_large",
 
             "laserio:logic_chip_raw",
             "laserio:logic_chip",
@@ -208,6 +222,7 @@
             "modern_industrialization:vacuum_freezer",
             "modern_industrialization:silicon_wafer",
             "modern_industrialization:monocrystalline_silicon",
+            "modern_industrialization:air_intake",
 
             "modern_industrialization:vinyl_chloride_bucket",
             "modern_industrialization:tritium_bucket",
@@ -352,6 +367,7 @@
             "oritech:unholy_intelligence",
             "oritech:advanced_computing_engine",
             "oritech:silicon_wafer",
+            "oritech:processing_unit",
 
             "oritech:still_oil_bucket",
             "oritech:still_heavy_oil_bucket",

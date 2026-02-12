@@ -37,12 +37,6 @@ ServerEvents.recipes((event) => {
             ingredient: { block: 'minecraft:sculk_shrieker' },
             biome: 'minecraft:deep_dark',
             id: `${id_prefix}minecraft_sculk_shrieker`
-        },
-        {
-            result: { block: 'justdirethings:time_crystal_block' },
-            ingredient: { block: 'justdirethings:time_crystal_budding_block' },
-            biome: '#enigmatica:global',
-            id: `${id_prefix}time_crystal_block`
         }
     ];
 

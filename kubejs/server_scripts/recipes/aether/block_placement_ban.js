@@ -21,13 +21,16 @@ ServerEvents.recipes((event) => {
             ingredient: { block: 'minecraft:kelp' },
             biome: '#enigmatica:global',
             id: `${id_prefix}kelp`
+        },
+        {
+            ingredient: { block: 'justdirethings:time_crystal_budding_block' },
+            biome: '#enigmatica:global',
+            id: `${id_prefix}time_crystal_block`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'aether:block_placement_ban';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
