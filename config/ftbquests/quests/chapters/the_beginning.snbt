@@ -33,8 +33,8 @@
 				item: { count: 1, id: "enigmatica:vapours_of_nyx_bottle" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["799839991CC1DDF9"]
@@ -44,8 +44,8 @@
 				item: { count: 1, id: "enigmatica:ocean_essentia" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6AF21EDF59FCE0D4"]
@@ -55,8 +55,74 @@
 				item: { count: 1, id: "enigmatica:primordial_mud" }
 				type: "item"
 			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A8ACE8E9B7A056D"]
+			id: "5E4077F317135E34"
+			tasks: [{
+				id: "6BADEE7B11F22282"
+				item: { count: 1, id: "enigmatica:suffused_wildroot" }
+				type: "item"
+			}]
 			x: 0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5E4077F317135E34"]
+			id: "6EBB293F3DDE5EC7"
+			tasks: [{
+				id: "2855B717B8433F32"
+				item: { count: 1, id: "enigmatica:eastern_anemo" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EBB293F3DDE5EC7"]
+			id: "63A7E92BBCEDF461"
+			tasks: [{
+				id: "537D9C982918C918"
+				item: { count: 1, id: "enigmatica:southern_anemo" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7413DDDB64FFAC2A"]
+			id: "6030BA17DB9228F2"
+			tasks: [{
+				id: "0A3CEAD2F3EA5515"
+				item: { count: 1, id: "enigmatica:northern_anemo" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63A7E92BBCEDF461"]
+			id: "7413DDDB64FFAC2A"
+			tasks: [{
+				id: "6BCAF3D509853520"
+				item: { count: 1, id: "enigmatica:western_anemo" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6030BA17DB9228F2"]
+			id: "7B6DF86E979614F4"
+			tasks: [{
+				id: "798D9D0EBC6D0E1D"
+				item: { count: 1, id: "enigmatica:flask_of_four_winds" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
 		}
 	]
 }

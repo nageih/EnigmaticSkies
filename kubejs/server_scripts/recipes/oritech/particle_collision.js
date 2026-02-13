@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'malum:umbral_spirit', count: 1 }],
-            ingredients: [{ item: 'malum:null_slate' }, { tag: 'c:gems/eclipse_ember' }],
+            ingredients: [{ item: 'malum:null_slate' }, { item: 'ae2:singularity' }],
             time: 15000,
             id: `${id_prefix}umbral_spirit`
         },

@@ -343,15 +343,15 @@ ServerEvents.recipes((event) => {
     ];
 
     const anemoi = [
-        { id: 'boreas', essentia: ['tundra', 'taiga'] },
-        { id: 'eurus', essentia: ['desert', 'savanna'] },
-        { id: 'notus', essentia: ['ocean', 'swamp'] },
-        { id: 'zephyrus', essentia: ['plains', 'forest'] }
+        { id: 'northern', essentia: ['tundra', 'taiga'] },
+        { id: 'western', essentia: ['desert', 'savanna'] },
+        { id: 'southern', essentia: ['ocean', 'swamp'] },
+        { id: 'eastern', essentia: ['plains', 'forest'] }
     ];
 
     anemoi.forEach((recipe) => {
         recipes.push({
-            item_outputs: [{ item: `enigmatica:${recipe.id}_anemoi`, amount: 1, probability: 1 / 500 }],
+            item_outputs: [{ item: `enigmatica:${recipe.id}_anemo`, amount: 1, probability: 1 / 500 }],
             item_inputs: [
                 { item: `enigmatica:${recipe.essentia[0]}_essentia`, amount: 1, probability: 1 / 50 },
                 { item: `malum:wind_nucleus`, amount: 1 },
@@ -362,8 +362,8 @@ ServerEvents.recipes((event) => {
                 { fluid: `enigmatica:vapours_of_nyx`, amount: 30 }
             ],
             duration: 10,
-            eu: 512,
-            id: `${id_prefix}${recipe.id}_anemoi`
+            eu: 5000,
+            id: `${id_prefix}${recipe.id}_anemo`
         });
     });
 

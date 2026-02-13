@@ -675,6 +675,8 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:configurable_chest' },
         { output: 'modern_industrialization:configurable_tank' },
         { output: 'modern_industrialization:capacitor' },
+        { output: 'modern_industrialization:quantum_barrel' },
+        { output: 'modern_industrialization:ultradense_metal_ball' },
         { output: 'modern_industrialization:transistor' },
         { output: 'modern_industrialization:inductor' },
         { output: 'modern_industrialization:resistor' },

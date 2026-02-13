@@ -24,10 +24,10 @@ StartupEvents.registry('item', (event) => {
         'primordial_mud',
         'suffused_wildroot',
 
-        'boreas_anemoi',
-        'eurus_anemoi',
-        'notus_anemoi',
-        'zephyrus_anemoi',
+        'northern_anemo',
+        'eastern_anemo',
+        'southern_anemo',
+        'western_anemo',
         'welkin_decanter',
         'flask_of_four_winds',
 

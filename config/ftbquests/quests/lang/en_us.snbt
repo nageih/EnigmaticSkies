@@ -4018,6 +4018,16 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5E4077F317135E34.quest_desc: [
+		"As the woman awoke on the newly formed earth, alone and surrounded by unfamiliar sights. Her belly rumbled and she knew hunger. Her people were gone and she knew fear. She shed tears for what was lost."
+		""
+		"The animals, seeing that she hungered, brought her roots to feed her. Seeing that she was alone, they gathered near to comfort her. "
+		""
+		"The woman ate her fill and sang her praises to the animals. With her heart full of company, she brushed her tears away. They spread across the sky where they glistened and became stars. With her belly full of nourishment, she pressed the roots into the newly formed earth. They flourished in the soil and multiplied."
+		""
+		"As she wandered the new earth, she sang to the animals and they adored her. When her hunger returned, the animals fed her. Each place she visited, she pressed roots into the ground. Each place, they flourished and multiplied. The land grew lush and was filled with new life.  "
+	]
+	quest.5E4077F317135E34.title: "Taking Root"
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5E727F7B600E0E91.quest_desc: [
 		"The &7Dissolution Chamber&r combines multiple ingredients with some type of fluid. "
@@ -4102,6 +4112,16 @@
 		""
 		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
 	]
+	quest.6030BA17DB9228F2.quest_desc: [
+		"One day the woman found herself in the North and few animals remained with her. "
+		""
+		"Here, the land was covered in deep snow and frozen in ice. Here, the woman’s wanderings slowed; she knew she had not the strength of body to traverse the land. She watched as the animals burrowed into the snow to stay warm and she did as they did. "
+		""
+		"There she sat, and there she thought as the North Wind blew bitter and cold. She reflected on her travels and all the wisdom she had gathered in her time on the earth. "
+		""
+		"The woman’s mind began to stir with possibilities as the Winter threatened to lock the world in snow and ice. "
+	]
+	quest.6030BA17DB9228F2.title: "Snowed Under"
 	quest.605A60825B68C2D7.quest_desc: [
 		"Many animals are not well adapted to these heights, and as such have a diminished lifespan. "
 		""
@@ -4358,6 +4378,16 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aBreak&r > "
 		"            &aSmelt&r > &6Sensitive&r > &aItem Pickup&r"
 	]
+	quest.63A7E92BBCEDF461.quest_desc: [
+		"All too soon, the woman felt she must move on. She headed into the South and the animals came with her."
+		""
+		"Here, forests gave way to wetlands, wetlands to sand-strewn shores. The woman, seeing how the animals swam along the winding waterways, made a canoe to follow them.  When she grew tired, she lay down amongst the sandy dunes of the coast to rest. When she grew unclean, she bathed in the warm waters of the seas. "
+		""
+		"Of the animals who accompanied the woman, some found homes in the rivers and seas and were content to stay. "
+		""
+		"The South Wind began to blow, hot and strong, bringing with it Summer and the promise of adventure."
+	]
+	quest.63A7E92BBCEDF461.title: "Soaking Up the Sun"
 	quest.63AFE7CB35AE94BF.quest_desc: [
 		"Want to change things up a bit? Looking for a more magical experience over Create’s normal machines?"
 		""
@@ -4993,6 +5023,16 @@
 		"&a🛈 Tip: You need to stand very close to "
 		"&a    a mob to extract their blood."
 	]
+	quest.6EBB293F3DDE5EC7.quest_desc: [
+		"The woman wandered into the East and the animals came with her."
+		""
+		"Here, everywhere she walked, the lands bloomed with flowers and lush grasslands. Everywhere she lay down to rest, dense woodlands grew to offer her shade. "
+		""
+		"Of the animals who accompanied the woman, some found homes amongst the trees and grasses and were content to stay. "
+		""
+		"The East Wind began to blow, gentle and warm, bringing with it Spring and the promise of a new beginning. "
+	]
+	quest.6EBB293F3DDE5EC7.title: "A Spring in Her Step"
 	quest.6F1A7E1B49FCC4C0.quest_desc: [
 		"Replication begins by breaking down material into their base components. "
 		""
@@ -5214,6 +5254,18 @@
 		""
 		"TNT cannon, anyone?"
 	]
+	quest.7413DDDB64FFAC2A.quest_desc: [
+		"In what seemed like no time at all, the woman’s explorations led her into the West and the animals came with her."
+		""
+		"Here, wetlands gave way to dry brushland and stifling deserts. The woman found travel difficult and though she grew tired faster, places to take rest were fewer and farther between. Food grew scarce and the days grew hard. "
+		""
+		"The woman watched the animals cache food when it was available. Doing as they did, she could eat when none could be found. Seeing that shelter was scarce, she made her own that she could carry and move with her."
+		""
+		"Of the animals who accompanied the woman, some took to the air and made homes in the trees and were content to stay."
+		""
+		"The West Wind began to blow, dry and harsh, bringing with it Autumn and the promise of challenges ahead."
+	]
+	quest.7413DDDB64FFAC2A.title: "Lay in Supplies"
 	quest.7431B398FFDF3DCA.quest_desc: [
 		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
 		""
@@ -5540,15 +5592,13 @@
 	quest.799839991CC1DDF9.quest_desc: [
 		"It is no small wonder that ancient stories still resonate with us. "
 		""
-		"Some write them off as simplistic, even looking down on those that wrote them… and yet those memories linger, those stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
-		""
-		"They speak to something universal; an unbroken thread reaching back through the ages. A thread that binds us all together through shared experience and common plights."
+		"They speak to something universal; an unbroken thread reaching back through the ages. A thread that binds us all together through shared experience and common plights. Memories linger, stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
 		""
 		"Here, we find ourselves at the end. And with every end, a new story takes root.  "
 		""
 		"What threads will we leave for those who will come after us?"
 	]
-	quest.799839991CC1DDF9.title: "The Formless Abyss"
+	quest.799839991CC1DDF9.title: "The Formless Void"
 	quest.79DFBA1E35132332.quest_desc: [
 		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cooking&r recipes. "
 		""
