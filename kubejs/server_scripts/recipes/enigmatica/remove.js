@@ -515,11 +515,19 @@ ServerEvents.recipes((event) => {
         // { output: 'laserio:card_energy' },
 
         // Malum
+        { output: 'malum:refined_soulstone' },
+        { output: 'malum:mimicry_relay' },
+        { output: 'malum:spirit_jar' },
+        { output: 'malum:totemic_staff' },
         { id: /malum:create\/washing\/.*_node/ },
         { id: /malum:create\/washing\/crushed_.*/ },
         { id: /malum:create\/crushing\/impetus/ },
         { id: /malum:uranium_from_node_(smelting|blasting)/ },
         { id: /malum:create\/crushing\/ore/ },
+        { id: /malum:spirit_infusion\/.*_spirited_glass/ },
+        { id: /malum:spirit_infusion\/.*_impetus/ },
+        { id: /malum:spirit_crucible\/node_focusing/ },
+        { id: /malum:.*_from_node_(smelting|blasting)/ },
         { id: 'malum:void_favor/raw_soulstone' },
         { id: 'malum:void_favor/anomalous_design' },
         { id: 'malum:void_favor/fused_consciousness' },
@@ -540,13 +548,6 @@ ServerEvents.recipes((event) => {
         { id: 'malum:blazing_quartz_fragment' },
         { id: 'malum:cthonic_gold_from_fragment' },
         { id: 'malum:cthonic_gold_fragment' },
-        { output: 'malum:refined_soulstone' },
-        { output: 'malum:mimicry_relay' },
-        { output: 'malum:spirit_jar' },
-        { id: /malum:spirit_infusion\/.*_spirited_glass/ },
-        { id: /malum:spirit_infusion\/.*_impetus/ },
-        { id: /malum:spirit_crucible\/node_focusing/ },
-        { id: /malum:.*_from_node_(smelting|blasting)/ },
 
         // Minecraft
         { id: 'minecraft:slime_block' },

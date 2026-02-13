@@ -1671,6 +1671,17 @@
 		"&a    Identification Chamber through"
 		"&a    the bottom."
 	]
+	quest.26D35A0B06B5EA35.quest_desc: [
+		"The woman’s walking stick began to burn to cinder as the Four Winds rushed her back to the earth’s embrace. "
+		""
+		"She thrust the flame, precious and frail, into a special earthen vessel. There, it was nurtured and kept strong."
+		""
+		"As the woman approached the earth once more, the heat of the vessel grew and spread. "
+		""
+		"It flowed across the land and pushed back the cold of Winter. "
+		""
+		"Forever after, the cold of Winter gave way to the gentle touch of Spring in an endless dance of seasons.  "
+	]
 	quest.271AC925824B553E.title: "Industrialist"
 	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
 	quest.27B747DE574CF261.quest_desc: [
@@ -4117,7 +4128,7 @@
 		""
 		"Here, the land was covered in deep snow and frozen in ice. Here, the woman’s wanderings slowed; she knew she had not the strength of body to traverse the land. She watched as the animals burrowed into the snow to stay warm and she did as they did. "
 		""
-		"There she sat, and there she thought as the North Wind blew bitter and cold. She reflected on her travels and all the wisdom she had gathered in her time on the earth. "
+		"There she sat, and there she thought as the North Wind blew strong and cold. She reflected on her travels and all the wisdom she had gathered in her time on the earth. "
 		""
 		"The woman’s mind began to stir with possibilities as the Winter threatened to lock the world in snow and ice. "
 	]
@@ -4738,6 +4749,21 @@
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
+	quest.6A4DD846F7E08FD6.quest_desc: [
+		"The woman flew higher and higher, up and up. She soared for what seemed like ages. "
+		""
+		"When the air grew thin and her lungs began to burn, the gentle winds of Spring filled her with breath."
+		""
+		"When the air grew cold and her limbs began to ache, the warm winds of Summer warmed her flesh. "
+		""
+		"Higher and higher, up and up. She soared until at last she approached the Sun."
+		""
+		"When the light grew bright and her eyes could not see, the Autumn winds guided her."
+		""
+		"When the light grew hot and scorched her flesh, the Winter Winds braced her. "
+		""
+		"She soared until at last, she plunged her walking stick into the burning heights."
+	]
 	quest.6A8ACE8E9B7A056D.quest_desc: [
 		"As the woman plummeted into the sea, the animals rushed to her knowing she would surely perish without a place to rest."
 		""
@@ -5265,7 +5291,7 @@
 		""
 		"The West Wind began to blow, dry and harsh, bringing with it Autumn and the promise of challenges ahead."
 	]
-	quest.7413DDDB64FFAC2A.title: "Lay in Supplies"
+	quest.7413DDDB64FFAC2A.title: "Laying in Supplies"
 	quest.7431B398FFDF3DCA.quest_desc: [
 		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
 		""
@@ -5659,6 +5685,19 @@
 		"These dapper ocean critters have a knack for digging up lost treasures from sand. "
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
+	]
+	quest.7B6DF86E979614F4.quest_desc: [
+		"Having sat for some time in thought and preparation, the woman stepped out from her snow-bound home."
+		""
+		"She looked to the East and implored the gentle winds of Spring to raise her. "
+		""
+		"She looked to the South and beseeched the warm winds of Summer to protect her."
+		""
+		"She looked to the West and urged the dry winds of Autumn to guide her."
+		""
+		"She looked to the North and pleaded that the cold winds of Winter brace her."
+		""
+		"The Four Winds came at her call and uplifted her into the heavens. Soaring higher than even the birds dare, joy and elation swelled in her heart."
 	]
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
 		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
