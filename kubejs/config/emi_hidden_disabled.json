@@ -42,6 +42,7 @@
             "/ars.*:ritual_(conjure_island_plains|archwood_forest|conjure_island_desert)/",
             "ars_nouveau:ritual_wilden_summon",
             "ars_additions:ritual_locate_structure",
+            "ars_additions:source_spawner",
 
             "create:crushed_raw_zinc",
             "create:crushed_raw_platinum",
@@ -84,6 +85,7 @@
             "industrialforegoing:latex_processing_unit",
             "industrialforegoing:resourceful_furnace",
             "industrialforegoing:machine_frame_pity",
+            "industrialforegoing:mob_duplicator",
 
             "/justdirethings:upgrade_(glowing|noai|mindfog|stupefy|mobscanner)/",
             "/justdirethings:upgrade_(orexray|orescanner|skysweeper|invulnerability)/",
@@ -380,6 +382,11 @@
             "oritech:still_mineral_slurry_bucket",
 
             "/pneumaticcraft:.*(air|flux|manual|solar)_compressor/",
+            "pneumaticcraft:pressurized_spawner",
+            "pneumaticcraft:spawner_extractor",
+            "pneumaticcraft:spawner_agitator",
+            "pneumaticcraft:empty_spawner",
+
             "pneumaticcraft:biodiesel_bucket",
             "pneumaticcraft:diesel_bucket",
             "pneumaticcraft:lubricant_bucket",
@@ -515,6 +522,7 @@
             "oritech:steam_engine",
 
             "pneumaticcraft:uv_light_box",
+            "pneumaticcraft:spawner_extractor",
 
             "trading_floor:potential_villager_trade"
         ]

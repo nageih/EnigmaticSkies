@@ -1092,6 +1092,8 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:compressed_iron_gear' },
         { output: 'pneumaticcraft:etching_tank' },
         { output: 'pneumaticcraft:pressurized_spawner' },
+        { output: 'pneumaticcraft:spawner_extractor' },
+        { output: 'pneumaticcraft:spawner_agitator' },
         { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
         { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
