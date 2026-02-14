@@ -1,6 +1,7 @@
 {
 	always_invisible: true
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_beginning"
 	group: "46AB9129BBE517B6"

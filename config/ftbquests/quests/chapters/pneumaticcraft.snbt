@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pneumaticcraft"
-	group: "264B8D62983BEFB4"
+	group: "440488E780593120"
 	icon: {
 		components: {
 			"patchouli:book": "pneumaticcraft:book"
@@ -10,7 +10,7 @@
 		id: "patchouli:guide_book"
 	}
 	id: "5957A1DE2E537AC3"
-	order_index: 4
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

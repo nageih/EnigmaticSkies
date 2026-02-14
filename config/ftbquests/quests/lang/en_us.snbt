@@ -19,15 +19,13 @@
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.67558DB55ADC2157.title: "The Beginning"
-	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.72447ED7D54B4AF7.title: "Vexing Island"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
 	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
-	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
-	chapter_group.440488E780593120.title: "&aLearning - Magic"
+	chapter_group.440488E780593120.title: "&aLearning"
 	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
@@ -243,6 +241,15 @@
 		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
 	quest.062BB5F675CF9F45.title: "Just Dire Things"
+	quest.064BF1AA27A01A3A.quest_desc: [
+		"BetterBlockZ is a decorative mod with a wide variety of sci-fi inspired elements to use in your builds!"
+		""
+		"Each block has multiple variants that can be easily selected through keybinds, and multiple wands exist to quickly modify blocks already placed in the world."
+		""
+		"&a🛈 Tip: Search &3@blockz&r &ain EMI to "
+		"&a    discover more."
+	]
+	quest.064BF1AA27A01A3A.title: "BetterBlockZ"
 	quest.064F6355185A51D4.quest_desc: [
 		"These adorable gold-loving critters can be a huge help in keeping your home tidy. "
 		""
@@ -1011,7 +1018,9 @@
 	]
 	quest.16BFB19411FE195F.title: "LaserIO"
 	quest.16C7D5478BF3D449.quest_desc: [
-		"The Learning Mods chapters are designed to help you get started with large content mods. These are broken up into Technology and Magic sections and will explain roughly how to progress through the mod as well as provide tips on how to use different features of the mod."
+		"The Learning Mods chapters are designed to help you discover useful aspects of major content mods. "
+		""
+		"They also provide tips on how to use different features of the mod."
 		""
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
@@ -1112,20 +1121,20 @@
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
 	quest.1AB4455F15DF1F84.quest_desc: [
-		"The Natural Altar is likely going to be the first device you make use of that consumes Aura."
+		"The &7Natural Altar&r is likely going to be the primary device you make use of that consumes Aura."
 		""
-		"The Book of Natural Aura goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you die."
+		"The &7Book of Natural Aura&r goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are Aura Generators to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
+		"There are &7Aura Generators&r to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
 		""
-		"Luckily for you, this Natural Altar will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		"Luckily for you, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
 		"&n                                                              &r"
 		""
 		"This devices requires a multiblock structure to function. "
 		""
-		"Refer to the Book of Natural Aura for a preview of block placement."
+		"Refer to the &7Book of Natural Aura&r for a preview of block placement."
 	]
 	quest.1ABB07894781F511.quest_desc: [
 		"By setting up some &7Powder of Fertility&r near your animals, you can keep them happy and breeding at the cost of Aura instead of food. "
@@ -2191,7 +2200,9 @@
 	]
 	quest.359A7C9127500D6C.quest_desc: ["A simple &7Furnace&r, despite the cold, should protect that precious heat well enough to get started."]
 	quest.35A8CEA408114638.quest_desc: [
-		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
+		"As mentioned, Aura is a finite resource that must be maintained. "
+		""
+		"Fortunately, there are multiple generators available for doing so. "
 		""
 		"Each has its advantages and disadvantages and each uses unique inputs to operate. Typically speaking, the easier it is to obtain the inputs, the less Aura they’ll generate. "
 		""
@@ -2199,7 +2210,7 @@
 		""
 		"If you just need a little Aura for a small contraption, you might be fine with an &2Herbivorous Absorber&r or &2Swamp Homi&r."
 		""
-		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
+		"All of these are detailed in the &7Book of Natural Aura&r, so be sure to refer to their entries for specific information on setting them up.  "
 	]
 	quest.35FD905A4A4EB1F5.quest_desc: [
 		"Pretty Pipes: Fluids is an addon to Pretty Pipes which allows the network to carry fluids in addition to items. The same network will effectively carry both, allowing everything to flow through a single block space. "
@@ -4126,9 +4137,9 @@
 		""
 		"Here, the land was covered in deep snow and frozen in ice. Here, the woman’s wanderings slowed; she knew she had not the strength of body to traverse the land. She watched as the animals burrowed into the snow to stay warm and she did as they did. "
 		""
-		"There she sat, and there she thought as the North Wind blew strong and cold. She reflected on her travels and all the wisdom she had gathered in her time on the earth. "
+		"There she sat, and there she reflected on her travels. "
 		""
-		"The woman’s mind began to stir with possibilities as the Winter threatened to lock the world in snow and ice. "
+		"The North Wind began to blow, strong and cold, and the world stood still."
 	]
 	quest.6030BA17DB9228F2.title: "Snowed Under"
 	quest.605A60825B68C2D7.quest_desc: [
@@ -4762,6 +4773,7 @@
 		""
 		"She soared until at last, she plunged her walking stick into the burning heights."
 	]
+	quest.6A4DD846F7E08FD6.title: "Borrowed Flame"
 	quest.6A8ACE8E9B7A056D.quest_desc: [
 		"As the woman plummeted into the sea, the animals rushed to her knowing she would surely perish without a place to rest."
 		""
@@ -5325,12 +5337,6 @@
 	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
-	quest.752DB3D467FFB259.quest_desc: [
-		"Bottled Aura is mostly used as a crafting component throughout Nature’s Aura, though it does have a few other uses."
-		""
-		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
-	]
-	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.75507A3DE753BC75.quest_desc: [
 		"Tired of losing drops in the clouds? "
 		""
@@ -5616,7 +5622,7 @@
 	quest.799839991CC1DDF9.quest_desc: [
 		"It is no small wonder that ancient stories still resonate with us. "
 		""
-		"They speak to something universal; an unbroken thread reaching back through the ages. A thread that binds us all together through shared experience and common plights. Memories linger, stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
+		"They speak to something universal; an unbroken thread reaching back through time. A thread that binds us all together through shared experience and common plights. Memories linger, stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
 		""
 		"Here, we find ourselves at the end. And with every end, a new story takes root.  "
 		""

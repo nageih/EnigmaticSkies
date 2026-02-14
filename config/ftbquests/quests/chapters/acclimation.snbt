@@ -6,11 +6,9 @@
 	group: "46AB9129BBE517B6"
 	icon: {
 		components: {
-			"cold_sweat:armor_insulation": {
-				insulation: [ ]
-			}
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/manipulation_tooltip.png"
 		}
-		id: "cold_sweat:goat_fur_helmet"
+		id: "ftbquests:custom_icon"
 	}
 	id: "7F9A789B53FAB216"
 	order_index: 0

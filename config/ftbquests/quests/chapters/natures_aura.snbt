@@ -11,7 +11,7 @@
 		id: "patchouli:guide_book"
 	}
 	id: "70FCD34EEFA2F001"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,42 +55,6 @@
 			}]
 			x: 0.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1AB4455F15DF1F84"]
-			icon: {
-				components: {
-					"naturesaura:aura_bottle_data": {
-						aura_type: "naturesaura:overworld"
-					}
-				}
-				id: "naturesaura:aura_bottle"
-			}
-			id: "752DB3D467FFB259"
-			rewards: [
-				{
-					count: 16
-					id: "79FEC94C6BE84378"
-					item: {
-						count: 1
-						id: "naturesaura:bottle_two_the_rebottling"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B085D9075EB3C10"
-					table_id: 8269958316442293849L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "5A59F28FB97067FB"
-				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]
@@ -177,8 +141,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:conversion_catalyst)item(naturesaura:crushing_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
