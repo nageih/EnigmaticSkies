@@ -58,13 +58,6 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
-	quest.01D2F67E2543155E.quest_desc: [
-		"These materials are obtained at the Weeping Well by throwing in some sacrificial item. "
-		""
-		"Explore this new chapter in the Encyclopedia to discover all the new possibilities that have opened to you. "
-		""
-		"Be sure to make note of this location as you’ll need it to obtain these powerful components for advanced crafts."
-	]
 	quest.01E9BF979ED779AE.quest_desc: [
 		"Welcome to Iron’s Spells and Spellbooks!"
 		""
@@ -710,9 +703,9 @@
 		"It works best if you create one pattern per matter type."
 	]
 	quest.128449F277949E31.quest_desc: [
-		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
+		"Placing a &7Repair Pylon&r near an active &7Spirit Crucible&r will allow you to keep an installed &7Impetus&r repaired and working at it’s best. "
 		""
-		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
+		"The &7Repair Pylon&r will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
 		""
 		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
 	]
@@ -1197,9 +1190,7 @@
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
 		"&n                                                  "
 		""
-		"Locate a Weeping Well deep underground and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
-		""
-		"This is easier said than done, of course, but you can use a Wayfinder to help you locate the structure. "
+		"Locate a Weeping Well and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
 		""
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
@@ -1231,9 +1222,9 @@
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
 	]
 	quest.1CF0D1E63C34AE6E.quest_desc: [
-		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
+		"&7Spirit Catalyzers&r help speed up the &7Spirit Crucible&r. Simply place them nearby and fill them with your choice of furnace fuel."
 		""
-		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
+		"Speeding up the &7Crucible&r in this way will cause the &7Impetus&r to take damage faster as well, but the trade-off is well worth the risk."
 	]
 	quest.1CF4103BFBCE0E29.quest_desc: [
 		"With an &7Imbuement Chamber&r, you can begin accessing new islands, each with its own unique block transformations and resources. "
@@ -1641,15 +1632,6 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
-	quest.26115C1BB363EF58.quest_desc: [
-		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
-		""
-		"    • Breeze - Wind Nucleus"
-		"    • Endermen - Warp Flux"
-		"    • Skeleton - Grim Talc"
-		"    • Phantom - Astral Weave "
-		"    • Zombie - Rotting Essence"
-	]
 	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -2222,15 +2204,13 @@
 	quest.35FDFEDE5CAC0303.title: "Farmer"
 	quest.363AB8EC195285BE.quest_desc: ["&7Sludge Refiners&r sort all the gunk fed into them to create more useful materials, such as &7Soul Sand&r, &7Clay&r, and &7Rich Soil&r. "]
 	quest.369D0F2CC8D028D2.quest_desc: [
-		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment. Catalyzers may be similarly augmented, though each may only hold a single Augment."
+		"The &7Spirit Crucible&r may be further augmented by placing up to four &7Augments&r on it and one &7Core Augment&r. Each nearby &7Catalyzer&r may be similarly augmented with a single &7Augment&r of your choosing."
 		""
-		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the desired results. "
+		"The same augment may be used more than once, however it may be best to mix and match them to achieve the desired results. "
 		""
-		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
+		"Holding a &7Tuning Fork&r in your hand will display the total effect of all installed augments. "
 		""
-		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
-		""
-		"Experiment with them to see what you like best!"
+		"Right-Clicking the &7Crucible&r with the &7Tuning Fork&r will also allow you to select one modifier that will receive an even greater boost."
 	]
 	quest.36A18D327A03810B.quest_desc: [
 		"The Weeping Well has been generous with you, you have only one last thing to give it; yourself."
@@ -2337,16 +2317,6 @@
 		"  • &7Black Quartz&r"
 		"  • &7Fish Bones&r"
 		"  • &7Rotten Flesh&r"
-	]
-	quest.391AE516AF1C26D6.quest_desc: [
-		"Obtaining Soulwood will involve performing an Undirected Rite. "
-		""
-		"Build a totem with five Runewood Logs atop a Runewood Base, then create an Arcane glyph on each of the logs. "
-		""
-		"Once activated, the surrounding land will be blighted, and Soulwood Saplings will appear."
-		""
-		"&6⚠ Note: Consider doing this away "
-		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.39716C901B98BAF2.quest_desc: [
@@ -2615,11 +2585,9 @@
 		"It's also a vital component for more advanced machinery!"
 	]
 	quest.3D76C219EB7EEC03.quest_desc: [
-		"A simple device for placing blocks in an area. It will pull from a chest above it and place whatever it finds there atop the specified block. "
+		"A simple device for placing blocks in an area. It will pull blocks from an inventory above it and place them atop the specified block. "
 		""
-		"Specify a block to place on by putting it in an Item Frame attached to the Builder. "
-		""
-		"This can be used, for instance, to set Gold Powder on a ring of Stone Bricks to constantly replenish your Ritual of the Forest!"
+		"Specify a block to place on by putting it in an &7Item Frame&r attached to the &7Builder&r. "
 	]
 	quest.3D7B773741D78864.quest_desc: [
 		"Harvesting edible meat from &7Wilden&r is a task that requires both skill and focus; one slip and the meat may be fouled by the cursed magic flowing through them."
@@ -3393,9 +3361,9 @@
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4C46DBD26BE50BCD.quest_desc: [
-		"Aura Field Creators are powerful block breakers that work in pairs, breaking every block between them. "
+		"&7Aura Field Creators&r are powerful block breakers that work in pairs, breaking every block between them. "
 		""
-		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
+		"They can be augmented with a tool by placing the tool in an &7Item Frame&r on one of the Creators, thus allowing it to use &7Silk Touch&r, &7Fortune&r, or any other special breaking property of the installed tool. "
 	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
@@ -3594,9 +3562,9 @@
 		"&6    the interface."
 	]
 	quest.5009BB4B0D1B459E.quest_desc: [
-		"The Hopper Enhancement is placed on top of a Hopper, allowing it to pick up items from up to seven blocks away. "
+		"The &7Hopper Enhancement&r is placed on top of a &7Hopper&r, allowing it to pick up items from up to seven blocks away. "
 		""
-		"When coupled with an Adept Hopper, it can be filtered to specific items."
+		"When coupled with an &7Adept Hopper&r, it can be filtered to specific items."
 	]
 	quest.503873180200D878.quest_desc: [
 		"Made from &7Sculk&r, &7Reverberating Dorodangos&r may be processed down into new materials!"
@@ -3850,7 +3818,7 @@
 	quest.58A275DB77CDF7F8.quest_desc: [
 		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
 		""
-		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+		"Normally, you will want to start by crafting a &7Crude Scythe&r, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
 		""
 		"&a🛈 Tip: A Soulwoven Pouch will "
 		"&a    auto-collect these drops, keeping "
@@ -3912,11 +3880,9 @@
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
-		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
+		"Slaughtering mobs with a &7Soul Shattering Weapon&r will cause Spirit Aspects to drop These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
-		"Many mobs are associated with different Spirit Aspects. For example, Zombies are a good source of Earthen and Wicked Spirits."
-		""
-		"Finding the right mob for the Aspect you need will require some experimentation."
+		"Check the Info tab in EMI on each Spirit Aspect to see where to obtain it."
 		""
 		"&a🛈 Tip: Spirit Jars can hold an "
 		"&a    enormous number of Spirits!"
@@ -4362,9 +4328,9 @@
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
 	quest.6384F08466CA9FB9.quest_desc: [
-		"The Redstone Aura Vaporizer is, quite simply, a clock. "
+		"The &7Redstone Aura Vaporizer&r is, quite simply, a clock. "
 		""
-		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
+		"Insert &7Bottled Aura&r into it to set different intervals. Each bottle of &7Sunlight&r is a second, &7Ghosts&r for minutes, and &7Darkness&r for hours. "
 	]
 	quest.63944BDC078E728A.quest_desc: [
 		"The &7Focus of Block Shaping&r is a powerful piece of kit for any spell-caster as it allows you to stack effects into a single spell that would normally take multiple casts. "
@@ -5143,7 +5109,7 @@
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
 		""
-		"The Soulbinding Brazier is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
+		"The &7Soulbinding Brazier&r is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
 		""
 		"Choose carefully, as breaking your pact is not done easily. "
 		"&n                                                  "
@@ -5733,7 +5699,7 @@
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
-	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
+	quest.7C3C0E6AC71F621B.quest_desc: ["The &7Item Distributor&r takes items from an inventory above it and evenly distributes them to inventories on each side. "]
 	quest.7D63AB919406E5AD.quest_desc: [
 		"&7Dorodangos&r produced by &7Alakarkinos&r are suffused with magic, full of latent potential. The &7Steam Alembic&r is capable of transmuting them into invaluable resources. "
 		""
@@ -5783,7 +5749,7 @@
 		""
 		"The following section will highlight some of the more interesting devices Nature’s Aura has to offer. It’s up to you to figure out when and where they make sense in your base!"
 		""
-		"For a full rundown of how to use these devices, remember to consult the Book of Natural Aura!"
+		"For a full rundown of how to use these devices, remember to consult the &7Book of Natural Aura&r!"
 	]
 	quest.7F829A1BFED304D0.title: "Natural Devices"
 	quest.7FAC3A637F82BFED.quest_desc: [
