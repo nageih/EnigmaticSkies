@@ -5,7 +5,10 @@
 	filename: "vexing"
 	group: "46AB9129BBE517B6"
 	icon: {
-		id: "ars_nouveau:thread_summon_focus"
+		components: {
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/abjuration_tooltip.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "72447ED7D54B4AF7"
 	order_index: 6

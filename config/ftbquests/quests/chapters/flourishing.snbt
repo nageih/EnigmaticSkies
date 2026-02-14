@@ -5,7 +5,10 @@
 	filename: "flourishing"
 	group: "46AB9129BBE517B6"
 	icon: {
-		id: "ars_nouveau:thread_earth_focus"
+		components: {
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/earth_tooltip.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "083FB2FC095A6686"
 	order_index: 2

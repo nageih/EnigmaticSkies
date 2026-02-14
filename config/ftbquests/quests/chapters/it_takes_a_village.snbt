@@ -6,7 +6,7 @@
 	group: "46AB9129BBE517B6"
 	icon: {
 		components: {
-			"ftbquests:icon": "farmersdelight:textures/mob_effect/nourishment.png"
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/necromancy_tooltip.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
