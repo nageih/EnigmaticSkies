@@ -18,15 +18,14 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.60E3192C798C2841.title: "OriTech"
-	chapter.6DB48898896BFFC9.title: "Bumblezone"
+	chapter.67558DB55ADC2157.title: "The Beginning"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.72447ED7D54B4AF7.title: "Vexing Island"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
 	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
-	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
-	chapter_group.440488E780593120.title: "&aLearning - Magic"
+	chapter_group.440488E780593120.title: "&aLearning"
 	chapter_group.46AB9129BBE517B6.title: "&aSkies"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
@@ -59,13 +58,6 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
-	quest.01D2F67E2543155E.quest_desc: [
-		"These materials are obtained at the Weeping Well by throwing in some sacrificial item. "
-		""
-		"Explore this new chapter in the Encyclopedia to discover all the new possibilities that have opened to you. "
-		""
-		"Be sure to make note of this location as you’ll need it to obtain these powerful components for advanced crafts."
-	]
 	quest.01E9BF979ED779AE.quest_desc: [
 		"Welcome to Iron’s Spells and Spellbooks!"
 		""
@@ -242,6 +234,15 @@
 		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
 	quest.062BB5F675CF9F45.title: "Just Dire Things"
+	quest.064BF1AA27A01A3A.quest_desc: [
+		"BetterBlockZ is a decorative mod with a wide variety of sci-fi inspired elements to use in your builds!"
+		""
+		"Each block has multiple variants that can be easily selected through keybinds, and multiple wands exist to quickly modify blocks already placed in the world."
+		""
+		"&a🛈 Tip: Search &3@blockz&r &ain EMI to "
+		"&a    discover more."
+	]
+	quest.064BF1AA27A01A3A.title: "BetterBlockZ"
 	quest.064F6355185A51D4.quest_desc: [
 		"These adorable gold-loving critters can be a huge help in keeping your home tidy. "
 		""
@@ -259,14 +260,14 @@
 		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
 	]
 	quest.07189DA532A429AE.quest_desc: [
-		"Whirl can be an exceptionally useful spell, but getting the glyphs to make it yourself may take some time. "
+		"The &7Whirl&r glyph can make some exceptionally useful spells, but getting the glyphs to make it yourself may take some time. "
 		""
-		"For now, you can craft some specially prepared Caster Tomes with pre-set spells to make use of it!"
+		"For now, you can craft some specially prepared &7Caster Tomes&r with pre-set spells to make use of it!"
 		""
 		"&a🛈 Tip: Caster Tomes can be used to "
 		"&a    set Spell Turrets!"
 	]
-	quest.07189DA532A429AE.title: "Whirligig"
+	quest.07189DA532A429AE.title: "Whirligigs"
 	quest.0745FDF3F22807CA.quest_desc: ["[ \"\", { \"text\": \"Air Essence\", \"color\":\"gray\"}, \" access to the dizzying heights of the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"768869D763EC54EB\" } }, \".\" ]"]
 	quest.0745FDF3F22807CA.title: "Flashing Island"
 	quest.074827E52A09685F.quest_desc: [
@@ -702,9 +703,9 @@
 		"It works best if you create one pattern per matter type."
 	]
 	quest.128449F277949E31.quest_desc: [
-		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
+		"Placing a &7Repair Pylon&r near an active &7Spirit Crucible&r will allow you to keep an installed &7Impetus&r repaired and working at it’s best. "
 		""
-		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
+		"The &7Repair Pylon&r will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
 		""
 		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
 	]
@@ -1010,7 +1011,9 @@
 	]
 	quest.16BFB19411FE195F.title: "LaserIO"
 	quest.16C7D5478BF3D449.quest_desc: [
-		"The Learning Mods chapters are designed to help you get started with large content mods. These are broken up into Technology and Magic sections and will explain roughly how to progress through the mod as well as provide tips on how to use different features of the mod."
+		"The Learning Mods chapters are designed to help you discover useful aspects of major content mods. "
+		""
+		"They also provide tips on how to use different features of the mod."
 		""
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
@@ -1111,20 +1114,20 @@
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
 	quest.1AB4455F15DF1F84.quest_desc: [
-		"The Natural Altar is likely going to be the first device you make use of that consumes Aura."
+		"The &7Natural Altar&r is likely going to be the primary device you make use of that consumes Aura."
 		""
-		"The Book of Natural Aura goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you die."
+		"The &7Book of Natural Aura&r goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are Aura Generators to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
+		"There are &7Aura Generators&r to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
 		""
-		"Luckily for you, this Natural Altar will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		"Luckily for you, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
 		"&n                                                              &r"
 		""
 		"This devices requires a multiblock structure to function. "
 		""
-		"Refer to the Book of Natural Aura for a preview of block placement."
+		"Refer to the &7Book of Natural Aura&r for a preview of block placement."
 	]
 	quest.1ABB07894781F511.quest_desc: [
 		"By setting up some &7Powder of Fertility&r near your animals, you can keep them happy and breeding at the cost of Aura instead of food. "
@@ -1187,9 +1190,7 @@
 		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
 		"&n                                                  "
 		""
-		"Locate a Weeping Well deep underground and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
-		""
-		"This is easier said than done, of course, but you can use a Wayfinder to help you locate the structure. "
+		"Locate a Weeping Well and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
 		""
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
@@ -1221,9 +1222,9 @@
 		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
 	]
 	quest.1CF0D1E63C34AE6E.quest_desc: [
-		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
+		"&7Spirit Catalyzers&r help speed up the &7Spirit Crucible&r. Simply place them nearby and fill them with your choice of furnace fuel."
 		""
-		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
+		"Speeding up the &7Crucible&r in this way will cause the &7Impetus&r to take damage faster as well, but the trade-off is well worth the risk."
 	]
 	quest.1CF4103BFBCE0E29.quest_desc: [
 		"With an &7Imbuement Chamber&r, you can begin accessing new islands, each with its own unique block transformations and resources. "
@@ -1631,15 +1632,6 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
-	quest.26115C1BB363EF58.quest_desc: [
-		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
-		""
-		"    • Breeze - Wind Nucleus"
-		"    • Endermen - Warp Flux"
-		"    • Skeleton - Grim Talc"
-		"    • Phantom - Astral Weave "
-		"    • Zombie - Rotting Essence"
-	]
 	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -1669,6 +1661,15 @@
 		"&a🛈 Tip: Items may be piped into the "
 		"&a    Identification Chamber through"
 		"&a    the bottom."
+	]
+	quest.26D35A0B06B5EA35.quest_desc: [
+		"The woman’s walking stick began to burn to cinder as the Four Winds rushed her back to the earth’s embrace. "
+		""
+		"She thrust the flame, precious and frail, into a special earthen vessel. There, it was nurtured and grew strong."
+		""
+		"As the woman approached the earth once more, the heat of the vessel grew and spread, flowing across the earth. "
+		""
+		"Forever after, the cold of Winter gave way to the gentle touch of Spring in an endless dance of seasons.  "
 	]
 	quest.271AC925824B553E.title: "Industrialist"
 	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
@@ -2054,6 +2055,15 @@
 		""
 		"&7Primal Coal&r burns 16 times longer than a log and can be produced quite easily in the &7Calcination Oven&r."
 	]
+	quest.3104ECE58D5CC796.quest_desc: [
+		"The &7Pyromantic Brazier&r can be quite wasteful when used to power Theurgy devices, since it simply keeps burning as long as fuel remains. "
+		""
+		"Consider using a &7Mercury Catalyst&r instead. This device accepts &7Mercury Shards&r and converts them to Flux, storing it much like a battery. "
+		""
+		"A &7Caloric Flux Emitter&r may then be linked to a device and placed on a nearby &7Mercury Catalyst&r, allowing it to remotely send Flux to the linked device. "
+		""
+		"This will only consume Flux when the linked device is running, allowing it to operate much more efficiently. "
+	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31903F40C2037EBD.quest_desc: [
 		"With a &7Trading Depot&r, you may begin to automate trades with &7Villagers&r. "
@@ -2172,7 +2182,9 @@
 	]
 	quest.359A7C9127500D6C.quest_desc: ["A simple &7Furnace&r, despite the cold, should protect that precious heat well enough to get started."]
 	quest.35A8CEA408114638.quest_desc: [
-		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
+		"As mentioned, Aura is a finite resource that must be maintained. "
+		""
+		"Fortunately, there are multiple generators available for doing so. "
 		""
 		"Each has its advantages and disadvantages and each uses unique inputs to operate. Typically speaking, the easier it is to obtain the inputs, the less Aura they’ll generate. "
 		""
@@ -2180,7 +2192,7 @@
 		""
 		"If you just need a little Aura for a small contraption, you might be fine with an &2Herbivorous Absorber&r or &2Swamp Homi&r."
 		""
-		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
+		"All of these are detailed in the &7Book of Natural Aura&r, so be sure to refer to their entries for specific information on setting them up.  "
 	]
 	quest.35FD905A4A4EB1F5.quest_desc: [
 		"Pretty Pipes: Fluids is an addon to Pretty Pipes which allows the network to carry fluids in addition to items. The same network will effectively carry both, allowing everything to flow through a single block space. "
@@ -2192,15 +2204,13 @@
 	quest.35FDFEDE5CAC0303.title: "Farmer"
 	quest.363AB8EC195285BE.quest_desc: ["&7Sludge Refiners&r sort all the gunk fed into them to create more useful materials, such as &7Soul Sand&r, &7Clay&r, and &7Rich Soil&r. "]
 	quest.369D0F2CC8D028D2.quest_desc: [
-		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment. Catalyzers may be similarly augmented, though each may only hold a single Augment."
+		"The &7Spirit Crucible&r may be further augmented by placing up to four &7Augments&r on it and one &7Core Augment&r. Each nearby &7Catalyzer&r may be similarly augmented with a single &7Augment&r of your choosing."
 		""
-		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the desired results. "
+		"The same augment may be used more than once, however it may be best to mix and match them to achieve the desired results. "
 		""
-		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
+		"Holding a &7Tuning Fork&r in your hand will display the total effect of all installed augments. "
 		""
-		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
-		""
-		"Experiment with them to see what you like best!"
+		"Right-Clicking the &7Crucible&r with the &7Tuning Fork&r will also allow you to select one modifier that will receive an even greater boost."
 	]
 	quest.36A18D327A03810B.quest_desc: [
 		"The Weeping Well has been generous with you, you have only one last thing to give it; yourself."
@@ -2307,16 +2317,6 @@
 		"  • &7Black Quartz&r"
 		"  • &7Fish Bones&r"
 		"  • &7Rotten Flesh&r"
-	]
-	quest.391AE516AF1C26D6.quest_desc: [
-		"Obtaining Soulwood will involve performing an Undirected Rite. "
-		""
-		"Build a totem with five Runewood Logs atop a Runewood Base, then create an Arcane glyph on each of the logs. "
-		""
-		"Once activated, the surrounding land will be blighted, and Soulwood Saplings will appear."
-		""
-		"&6⚠ Note: Consider doing this away "
-		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.39716C901B98BAF2.quest_desc: [
@@ -2585,11 +2585,9 @@
 		"It's also a vital component for more advanced machinery!"
 	]
 	quest.3D76C219EB7EEC03.quest_desc: [
-		"A simple device for placing blocks in an area. It will pull from a chest above it and place whatever it finds there atop the specified block. "
+		"A simple device for placing blocks in an area. It will pull blocks from an inventory above it and place them atop the specified block. "
 		""
-		"Specify a block to place on by putting it in an Item Frame attached to the Builder. "
-		""
-		"This can be used, for instance, to set Gold Powder on a ring of Stone Bricks to constantly replenish your Ritual of the Forest!"
+		"Specify a block to place on by putting it in an &7Item Frame&r attached to the &7Builder&r. "
 	]
 	quest.3D7B773741D78864.quest_desc: [
 		"Harvesting edible meat from &7Wilden&r is a task that requires both skill and focus; one slip and the meat may be fouled by the cursed magic flowing through them."
@@ -3363,9 +3361,9 @@
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4C46DBD26BE50BCD.quest_desc: [
-		"Aura Field Creators are powerful block breakers that work in pairs, breaking every block between them. "
+		"&7Aura Field Creators&r are powerful block breakers that work in pairs, breaking every block between them. "
 		""
-		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
+		"They can be augmented with a tool by placing the tool in an &7Item Frame&r on one of the Creators, thus allowing it to use &7Silk Touch&r, &7Fortune&r, or any other special breaking property of the installed tool. "
 	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
@@ -3564,9 +3562,9 @@
 		"&6    the interface."
 	]
 	quest.5009BB4B0D1B459E.quest_desc: [
-		"The Hopper Enhancement is placed on top of a Hopper, allowing it to pick up items from up to seven blocks away. "
+		"The &7Hopper Enhancement&r is placed on top of a &7Hopper&r, allowing it to pick up items from up to seven blocks away. "
 		""
-		"When coupled with an Adept Hopper, it can be filtered to specific items."
+		"When coupled with an &7Adept Hopper&r, it can be filtered to specific items."
 	]
 	quest.503873180200D878.quest_desc: [
 		"Made from &7Sculk&r, &7Reverberating Dorodangos&r may be processed down into new materials!"
@@ -3820,7 +3818,7 @@
 	quest.58A275DB77CDF7F8.quest_desc: [
 		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
 		""
-		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+		"Normally, you will want to start by crafting a &7Crude Scythe&r, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
 		""
 		"&a🛈 Tip: A Soulwoven Pouch will "
 		"&a    auto-collect these drops, keeping "
@@ -3882,11 +3880,9 @@
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
-		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
+		"Slaughtering mobs with a &7Soul Shattering Weapon&r will cause Spirit Aspects to drop These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
-		"Many mobs are associated with different Spirit Aspects. For example, Zombies are a good source of Earthen and Wicked Spirits."
-		""
-		"Finding the right mob for the Aspect you need will require some experimentation."
+		"Check the Info tab in EMI on each Spirit Aspect to see where to obtain it."
 		""
 		"&a🛈 Tip: Spirit Jars can hold an "
 		"&a    enormous number of Spirits!"
@@ -4008,6 +4004,16 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5E4077F317135E34.quest_desc: [
+		"As the woman awoke on the newly formed earth, alone and surrounded by unfamiliar sights. Her belly rumbled and she knew hunger. Her people were gone and she knew fear. She shed tears for what was lost."
+		""
+		"The animals, seeing that she hungered, brought her roots to feed her. Seeing that she was alone, they gathered near to comfort her. "
+		""
+		"The woman ate her fill and sang her praises to the animals. With her heart full of company, she brushed her tears away. They spread across the sky where they glistened and became stars. With her belly full of nourishment, she pressed the roots into the newly formed earth. They flourished in the soil and multiplied."
+		""
+		"As she wandered the new earth, she sang to the animals and they adored her. When her hunger returned, the animals fed her. Each place she visited, she pressed roots into the ground. Each place, they flourished and multiplied. The land grew lush and was filled with new life.  "
+	]
+	quest.5E4077F317135E34.title: "Taking Root"
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5E727F7B600E0E91.quest_desc: [
 		"The &7Dissolution Chamber&r combines multiple ingredients with some type of fluid. "
@@ -4092,6 +4098,16 @@
 		""
 		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
 	]
+	quest.6030BA17DB9228F2.quest_desc: [
+		"One day the woman found herself in the North and few animals remained with her. "
+		""
+		"Here, the land was covered in deep snow and frozen in ice. Here, the woman’s wanderings slowed; she knew she had not the strength of body to traverse the land. She watched as the animals burrowed into the snow to stay warm and she did as they did. "
+		""
+		"There she sat, and there she reflected on her travels. "
+		""
+		"The North Wind began to blow, strong and cold, and the world stood still."
+	]
+	quest.6030BA17DB9228F2.title: "Snowed Under"
 	quest.605A60825B68C2D7.quest_desc: [
 		"Many animals are not well adapted to these heights, and as such have a diminished lifespan. "
 		""
@@ -4312,9 +4328,9 @@
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
 	quest.6384F08466CA9FB9.quest_desc: [
-		"The Redstone Aura Vaporizer is, quite simply, a clock. "
+		"The &7Redstone Aura Vaporizer&r is, quite simply, a clock. "
 		""
-		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
+		"Insert &7Bottled Aura&r into it to set different intervals. Each bottle of &7Sunlight&r is a second, &7Ghosts&r for minutes, and &7Darkness&r for hours. "
 	]
 	quest.63944BDC078E728A.quest_desc: [
 		"The &7Focus of Block Shaping&r is a powerful piece of kit for any spell-caster as it allows you to stack effects into a single spell that would normally take multiple casts. "
@@ -4348,6 +4364,16 @@
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &aBreak&r > "
 		"            &aSmelt&r > &6Sensitive&r > &aItem Pickup&r"
 	]
+	quest.63A7E92BBCEDF461.quest_desc: [
+		"All too soon, the woman felt she must move on. She headed into the South and the animals came with her."
+		""
+		"Here, forests gave way to wetlands, wetlands to sand-strewn shores. The woman, seeing how the animals swam along the winding waterways, made a canoe to follow them.  When she grew tired, she lay down amongst the sandy dunes of the coast to rest. When she grew unclean, she bathed in the warm waters of the seas. "
+		""
+		"Of the animals who accompanied the woman, some found homes in the rivers and seas and were content to stay. "
+		""
+		"The South Wind began to blow, hot and strong, bringing with it Summer and the promise of adventure."
+	]
+	quest.63A7E92BBCEDF461.title: "Soaking Up the Sun"
 	quest.63AFE7CB35AE94BF.quest_desc: [
 		"Want to change things up a bit? Looking for a more magical experience over Create’s normal machines?"
 		""
@@ -4600,6 +4626,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.68FDE7C7357F9B5A.quest_desc: [""]
 	quest.690FB1A43ED247CF.quest_desc: [
 		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
 		""
@@ -4697,6 +4724,32 @@
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
+	quest.6A4DD846F7E08FD6.quest_desc: [
+		"The woman flew higher and higher, up and up. She soared for what seemed like ages. "
+		""
+		"When the air grew thin and her lungs began to burn, the gentle winds of Spring filled her with breath."
+		""
+		"When the air grew cold and her limbs began to ache, the warm winds of Summer warmed her flesh. "
+		""
+		"Higher and higher, up and up. She soared until at last she approached the Sun."
+		""
+		"When the light grew bright and her eyes could not see, the Autumn winds guided her."
+		""
+		"When the light grew hot and scorched her flesh, the Winter Winds braced her. "
+		""
+		"She soared until at last, she plunged her walking stick into the burning heights."
+	]
+	quest.6A4DD846F7E08FD6.title: "Borrowed Flame"
+	quest.6A8ACE8E9B7A056D.quest_desc: [
+		"As the woman plummeted into the sea, the animals rushed to her knowing she would surely perish without a place to rest."
+		""
+		"They took it in turns to dive down into the depths, each attempting to bring up the mud from the bottom. Each boasted of their strengths, claiming they would be the one to reach the bottom. Each failed and upon resurfacing claimed the task to be impossible. "
+		""
+		"When hope was nearly lost, the smallest among them came forward and asked to be permitted to try. It made no boast and all doubted its ability, but the other animals stood aside to allow it to try. Through quiet determination, it dove deeper and deeper. It dove until its lungs burned and its limbs ached. It dove until at last, one small paw brushed the mud in the lightless depths. "
+		""
+		"Grasping a handful of the mud, it turned and swam to the surface. There, it was greeted with praise when the other animals saw what it held. It spread the mud on Turtle’s back and, knowing that more would be needed, it dove again and again, slowly covering Turtle’s back to build a new land where the woman could rest. "
+	]
+	quest.6A8ACE8E9B7A056D.title: "The Earth Diver"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AA9F3E0D4BC181A.quest_desc: [
 		"You’ll find two important structures located on this island. "
@@ -4707,6 +4760,20 @@
 	]
 	quest.6AC4CADE97CB512F.quest_desc: ["[ \"\", { \"text\": \"Earth Essence\", \"color\":\"gray\"}, \" grants access to the swampy environs of the \", { \"text\": \"Flourishing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6490781066FAE8CF\" } }, \".\" ]"]
 	quest.6AC4CADE97CB512F.title: "Flourishing Island"
+	quest.6AF21EDF59FCE0D4.quest_desc: [
+		"In the time before Time, the Sky People lived high above on islands of clouds. "
+		""
+		"They knew no strife for all was changeless. They knew no grief because all were eternal. "
+		""
+		"Then, something changed. "
+		""
+		"One of the Sky People fell from on high. She fell, and fell, and all mourned her as she tumbled through the endless blue sky. The Sky People, seeing her falling, felt that loss cut them deeply. Loss for her and loss for what was and would be no more. "
+		""
+		"In their lamentation, their tears fell in great heaving sobs, racing the woman to the place below as if to cushion her fall. "
+		""
+		"There, they pooled. There, the oceans rose. And there, the woman landed."
+	]
+	quest.6AF21EDF59FCE0D4.title: "Innocence Lost"
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"The Building section covers mods and tools to help you build up or tear down. "
 		""
@@ -4958,6 +5025,16 @@
 		"&a🛈 Tip: You need to stand very close to "
 		"&a    a mob to extract their blood."
 	]
+	quest.6EBB293F3DDE5EC7.quest_desc: [
+		"The woman wandered into the East and the animals came with her."
+		""
+		"Here, everywhere she walked, the lands bloomed with flowers and lush grasslands. Everywhere she lay down to rest, dense woodlands grew to offer her shade. "
+		""
+		"Of the animals who accompanied the woman, some found homes amongst the trees and grasses and were content to stay. "
+		""
+		"The East Wind began to blow, gentle and warm, bringing with it Spring and the promise of a new beginning. "
+	]
+	quest.6EBB293F3DDE5EC7.title: "A Spring in Her Step"
 	quest.6F1A7E1B49FCC4C0.quest_desc: [
 		"Replication begins by breaking down material into their base components. "
 		""
@@ -5032,7 +5109,7 @@
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
 		""
-		"The Soulbinding Brazier is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
+		"The &7Soulbinding Brazier&r is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
 		""
 		"Choose carefully, as breaking your pact is not done easily. "
 		"&n                                                  "
@@ -5179,6 +5256,18 @@
 		""
 		"TNT cannon, anyone?"
 	]
+	quest.7413DDDB64FFAC2A.quest_desc: [
+		"In what seemed like no time at all, the woman’s explorations led her into the West and the animals came with her."
+		""
+		"Here, wetlands gave way to dry brushland and stifling deserts. The woman found travel difficult and though she grew tired faster, places to take rest were fewer and farther between. Food grew scarce and the days grew hard. "
+		""
+		"The woman watched the animals cache food when it was available. Doing as they did, she could eat when none could be found. Seeing that shelter was scarce, she made her own that she could carry and move with her."
+		""
+		"Of the animals who accompanied the woman, some took to the air and made homes in the trees and were content to stay."
+		""
+		"The West Wind began to blow, dry and harsh, bringing with it Autumn and the promise of challenges ahead."
+	]
+	quest.7413DDDB64FFAC2A.title: "Laying in Supplies"
 	quest.7431B398FFDF3DCA.quest_desc: [
 		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
 		""
@@ -5214,12 +5303,6 @@
 	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
-	quest.752DB3D467FFB259.quest_desc: [
-		"Bottled Aura is mostly used as a crafting component throughout Nature’s Aura, though it does have a few other uses."
-		""
-		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
-	]
-	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.75507A3DE753BC75.quest_desc: [
 		"Tired of losing drops in the clouds? "
 		""
@@ -5502,6 +5585,16 @@
 		"&6    To find what items work, search "
 		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
+	quest.799839991CC1DDF9.quest_desc: [
+		"It is no small wonder that ancient stories still resonate with us. "
+		""
+		"They speak to something universal; an unbroken thread reaching back through time. A thread that binds us all together through shared experience and common plights. Memories linger, stories repeat, and we find their echoes in our day-to-day, in the stories we tell of our lives. "
+		""
+		"Here, we find ourselves at the end. And with every end, a new story takes root.  "
+		""
+		"What threads will we leave for those who will come after us?"
+	]
+	quest.799839991CC1DDF9.title: "The Formless Void"
 	quest.79DFBA1E35132332.quest_desc: [
 		"This workstation allows the &7Wixie&r to craft &7Farmer's Delight Cooking&r recipes. "
 		""
@@ -5563,6 +5656,19 @@
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
+	quest.7B6DF86E979614F4.quest_desc: [
+		"Having sat for some time in thought and preparation, the woman stepped out from her snow-bound home."
+		""
+		"She looked to the East and implored the gentle winds of Spring to raise her. "
+		""
+		"She looked to the South and beseeched the warm winds of Summer to protect her."
+		""
+		"She looked to the West and urged the dry winds of Autumn to guide her."
+		""
+		"She looked to the North and pleaded that the cold winds of Winter brace her."
+		""
+		"The Four Winds came at her call and uplifted her into the heavens. Soaring higher than even the birds dare, joy and elation swelled in her heart."
+	]
 	quest.7B9D8AD7BFC1E87D.quest_desc: [
 		"Direct Steam power will only get you so far. To begin working with electricity, you'll need a very special device; a &7Flux Gate&r."
 		""
@@ -5593,7 +5699,7 @@
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
-	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
+	quest.7C3C0E6AC71F621B.quest_desc: ["The &7Item Distributor&r takes items from an inventory above it and evenly distributes them to inventories on each side. "]
 	quest.7D63AB919406E5AD.quest_desc: [
 		"&7Dorodangos&r produced by &7Alakarkinos&r are suffused with magic, full of latent potential. The &7Steam Alembic&r is capable of transmuting them into invaluable resources. "
 		""
@@ -5643,7 +5749,7 @@
 		""
 		"The following section will highlight some of the more interesting devices Nature’s Aura has to offer. It’s up to you to figure out when and where they make sense in your base!"
 		""
-		"For a full rundown of how to use these devices, remember to consult the Book of Natural Aura!"
+		"For a full rundown of how to use these devices, remember to consult the &7Book of Natural Aura&r!"
 	]
 	quest.7F829A1BFED304D0.title: "Natural Devices"
 	quest.7FAC3A637F82BFED.quest_desc: [

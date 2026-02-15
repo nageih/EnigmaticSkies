@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "7F17CDF8564DCC49"
-	group: "264B8D62983BEFB4"
+	group: "440488E780593120"
 	icon: {
 		components: {
 			"patchouli:book": "geneticsresequenced:guide"
@@ -11,7 +11,7 @@
 		id: "patchouli:guide_book"
 	}
 	id: "7F17CDF8564DCC49"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

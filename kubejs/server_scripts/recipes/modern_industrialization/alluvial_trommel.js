@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
                 }
             ],
             duration: 10,
-            eu: 512,
+            eu: 5000,
             id: `${id_prefix}primordial_mud`
         }
     ];

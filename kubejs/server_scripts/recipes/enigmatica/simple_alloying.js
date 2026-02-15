@@ -2,6 +2,27 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:simple_alloying/';
     const recipes = [
         {
+            output: { id: 'create:andesite_alloy', count: 4 },
+            inputs: [
+                { tag: 'c:dusts/sky_stone', count: 4 },
+                { item: 'minecraft:andesite', count: 1 }
+            ],
+            duration: 20,
+            tier: 0,
+            exclusions: ['create'],
+            id_suffix: `andesite_alloy`
+        },
+        {
+            output: { id: 'create:andesite_alloy', count: 1 },
+            inputs: [
+                { tag: 'c:dusts/sky_stone', count: 1 },
+                { item: 'enigmatica:andesite_pebble', count: 1 }
+            ],
+            tier: 0,
+            exclusions: ['create'],
+            id_suffix: `andesite_alloy_from_pebble`
+        },
+        {
             output: { id: 'occultism:iesnium_ingot', count: 1 },
             inputs: [
                 { tag: 'c:ingots/silver', count: 1 },
@@ -179,7 +200,7 @@ ServerEvents.recipes((event) => {
                     return input;
                 }),
                 item_outputs: [{ item: recipe.output.id, amount: recipe.output.count }],
-                duration: 10,
+                duration: recipe.duration ? recipe.duration : 10,
                 eu: tiers[recipe.tier].eu
             };
 

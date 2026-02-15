@@ -31,12 +31,19 @@ ServerEvents.recipes((event) => {
                 C: 'create:electron_tube'
             },
             id: `${id_prefix}mimicry_relay`
+        },
+        {
+            output: 'malum:totemic_staff',
+            pattern: ['  A', ' B ', 'B  '],
+            key: {
+                A: 'malum:runewood_planks',
+                B: 'naturesaura:ancient_stick'
+            },
+            id: `${id_prefix}totemic_staff`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

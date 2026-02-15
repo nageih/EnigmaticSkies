@@ -5,7 +5,10 @@
 	filename: "flashing"
 	group: "46AB9129BBE517B6"
 	icon: {
-		id: "ars_nouveau:thread_air_focus"
+		components: {
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/air_tooltip.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "300207E2557764E1"
 	order_index: 5

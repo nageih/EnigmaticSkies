@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:heisenberg_compensator', count: 1 }],
             ingredients: [
                 { item: 'ae2:cell_component_256k' },
-                { item: 'ae2:quantum_entangled_singularity' },
+                { item: 'ae2:singularity' },
                 { item: 'enderio:sentient_ender' }
             ],
             time: 20,
@@ -20,6 +20,16 @@ ServerEvents.recipes((event) => {
             ],
             time: 5,
             id: `${id_prefix}mixed_ingot_iridium`
+        },
+        {
+            results: [{ id: 'modern_industrialization:quantum_upgrade', count: 1 }],
+            ingredients: [
+                { item: 'modern_industrialization:quantum_machine_hull' },
+                { item: 'malum:umbral_spirit' },
+                { item: 'enigmatica:tempestuous_mechanism' }
+            ],
+            time: 60,
+            id: `${id_prefix}quantum_upgrade`
         }
     ];
 

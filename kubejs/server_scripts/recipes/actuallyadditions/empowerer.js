@@ -62,10 +62,10 @@ ServerEvents.recipes((event) => {
             result: { id: 'enigmatica:flask_of_four_winds', count: 1 },
             base: { item: 'enigmatica:welkin_decanter' },
             modifiers: [
-                { item: 'enigmatica:boreas_anemoi' },
-                { item: 'enigmatica:eurus_anemoi' },
-                { item: 'enigmatica:notus_anemoi' },
-                { item: 'enigmatica:zephyrus_anemoi' }
+                { item: 'enigmatica:northern_anemo' },
+                { item: 'enigmatica:eastern_anemo' },
+                { item: 'enigmatica:southern_anemo' },
+                { item: 'enigmatica:western_anemo' }
             ],
             color: '#c1fffc',
             energy: 50000,

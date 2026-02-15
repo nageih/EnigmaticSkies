@@ -467,9 +467,9 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:dead_bush' },
                 { item: 'supplementaries:statue' },
                 { item: 'minecraft:rabbit_foot' },
-                { item: 'minecraft:red_sandstone' },
+                { item: 'minecraft:red_sand' },
                 { tag: 'c:essences/greater_earth' },
-                { item: 'minecraft:sandstone' }
+                { item: 'minecraft:sand' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,
@@ -501,7 +501,7 @@ ServerEvents.recipes((event) => {
                 { item: 'cold_sweat:goat_fur' },
                 { item: 'minecraft:blue_ice' },
                 { tag: 'c:essences/greater_earth' },
-                { item: 'minecraft:snow_block' }
+                { item: 'minecraft:diorite' }
             ],
             inputFluid: { fluid: 'theurgy:sal_ammoniac', amount: 4000 },
             processingTime: 15,

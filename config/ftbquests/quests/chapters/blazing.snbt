@@ -5,7 +5,10 @@
 	filename: "blazing"
 	group: "46AB9129BBE517B6"
 	icon: {
-		id: "ars_nouveau:thread_fire_focus"
+		components: {
+			"ftbquests:icon": "ars_nouveau:textures/gui/schools/fire_tooltip.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "0A799F91D9A1C8A1"
 	order_index: 4

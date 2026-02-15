@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [{ item: 'actuallyadditions:coffee_beans', amount: 20 }],
             fluid_inputs: { fluid: 'minecraft:water', amount: 500 },
             starbuncle: true,
-            duration: 120,
+            duration: 60,
             eu: 2,
             id: `${id_prefix}coffee_cup`
         },
