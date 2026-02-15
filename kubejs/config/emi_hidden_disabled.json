@@ -378,6 +378,7 @@
             "occultism:iesnium_anvil",
             "occultism:soul_shard",
             "occultism:otherworld_goggles",
+            "occultism:spirit_attuned_gem",
 
             "/oritech:(nickel|platinum|iron|copper|gold)_gem/",
             "/oritech:.*energy_pipe/",
