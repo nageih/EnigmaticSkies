@@ -69,6 +69,26 @@ ServerEvents.recipes((event) => {
             result: { id: 'enderio:player_token' },
             input: { item: 'enderio:monster_token' },
             id: `${id_prefix}player_token`
+        },
+        {
+            result: { id: 'occultism:otherstone' },
+            input: { item: 'minecraft:diorite' },
+            id: `${id_prefix}otherstone`
+        },
+        {
+            result: { id: 'occultism:otherrock' },
+            input: { item: 'minecraft:andesite' },
+            id: `${id_prefix}otherrock`
+        },
+        {
+            result: { id: 'occultism:otherworld_essence' },
+            input: { item: 'occultism:demons_dream_essence' },
+            id: `${id_prefix}otherworld_essence`
+        },
+        {
+            result: { id: 'occultism:otherworld_sapling' },
+            input: { item: 'malum:soulwood_sapling' },
+            id: `${id_prefix}otherworld_sapling`
         }
     ];
 
