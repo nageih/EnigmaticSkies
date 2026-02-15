@@ -959,6 +959,7 @@ ServerEvents.recipes((event) => {
         { output: 'occultism:divination_rod' },
         { output: 'occultism:true_sight_staff' },
         { output: 'occultism:spirit_attuned_crystal' },
+        { output: 'occultism:otherworld_goggles' },
         { input: 'occultism:netherite_scrap_dust' },
         { input: 'occultism:gray_paste' },
         { input: 'occultism:raw_iesnium' },
