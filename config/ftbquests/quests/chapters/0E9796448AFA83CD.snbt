@@ -351,5 +351,27 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "140BFF0572840B6E"
+			tasks: [{
+				id: "2D58565836AB423E"
+				item: { count: 1, id: "oritech:charger_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "31FAEA42AC32BD3E"
+			tasks: [{
+				id: "19441FEE260AA388"
+				item: { count: 1, id: "industrialforegoing:infinity_charger" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
 	]
 }

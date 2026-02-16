@@ -84,7 +84,7 @@
 			id: "0D32F25CCBC9B192"
 			tasks: [{
 				id: "35B971D8A6CCBC94"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:copper_cable)item(modern_industrialization:silver_cable)item(modern_industrialization:tin_cable)item(modern_industrialization:cupronickel_cable)item(modern_industrialization:electrum_cable)item(modern_industrialization:aluminum_cable)item(modern_industrialization:kanthal_cable)item(modern_industrialization:annealed_copper_cable)item(modern_industrialization:platinum_cable)item(modern_industrialization:superconductor_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:copper_cable)item(modern_industrialization:conductive_cable)item(modern_industrialization:energetic_cable)item(modern_industrialization:vibrant_cable)item(modern_industrialization:superconductor_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -95,6 +95,9 @@
 				"235D7EF41916E480"
 				"2CA1A8A7B84FAD71"
 			]
+			icon: {
+				id: "modularrouters:energy_distributor_module"
+			}
 			id: "0E1258E2B2C7FFD5"
 			rewards: [{
 				count: 4
@@ -105,11 +108,18 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "0F4BBC1C83A4CD79"
-				item: { count: 1, id: "modularrouters:energy_distributor_module" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F4BBC1C83A4CD79"
+					item: { count: 1, id: "modularrouters:energy_distributor_module" }
+					type: "item"
+				}
+				{
+					id: "2D263309A4FF7233"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(modernindustrialrouters)item(modularrouters:energy_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -0.5d
 		}
@@ -131,13 +141,10 @@
 			]
 			id: "015857940250CE8D"
 			rewards: [{
-				id: "1B6FF48827CF6AE8"
+				id: "689037BAEA5B93A5"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mekanism:basic_fluid_tank"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "pneumaticcraft:small_tank"
 				}
 				type: "item"
 			}]

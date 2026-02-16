@@ -177,10 +177,11 @@ ServerEvents.generateData('before_mods', (event) => {
             }
         },
         {
-            entities: ['aether:sentry'],
+            entities: ['aether:sentry', 'the_bumblezone:rootmin'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:stone_skin': 3
+                'geneticsresequenced:stone_skin': 3,
+                'geneticsresequenced:efficiency': 1
             }
         }
     ];

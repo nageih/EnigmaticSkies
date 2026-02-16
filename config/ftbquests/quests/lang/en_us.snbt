@@ -48,9 +48,9 @@
 		"&a    discover more."
 	]
 	quest.015857940250CE8D.quest_desc: [
-		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
+		"&7Fluid Modules&r for &7Modular Routers&r allows them to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
 		""
-		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
+		"The &7Router&r needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
 	quest.01C6F096606E3638.quest_desc: [
 		"Welcome to Industrial Foregoing! "
@@ -165,9 +165,9 @@
 	]
 	quest.04D144DC0EAE8BE3.title: "Cleric"
 	quest.0537E3C9A2164A7D.quest_desc: [
-		"Oritech’s Fluid Pipes may not have many fancy features, but they’ll get the job done. "
+		"Oritech’s &7Fluid Pipes&r may not have many fancy features, but they’ll get the job done. "
 		""
-		"These come in three varieties, though the differences are mainly cosmetic. Framed Pipes have a nice supporting structure around them, while Duct Pipes are a full block for passing through a wall without gaps. Duct Pipes only connect to other pipes, however."
+		"These come in three varieties, though the differences are mainly cosmetic. &7Framed Pipes&r have a nice supporting structure around them, while &7Duct Pipes&r are a full block for passing through a wall without gaps. &7Duct Pipes&r only connect to other pipes, however."
 		""
 		"Right-Click the pipe connecting to a machine or tank to set it to Extract mode."
 	]
@@ -487,11 +487,11 @@
 		"They can power blocks that use FE, but can only accept power from Modern Industrialization generators."
 	]
 	quest.0D65061DFD04B301.quest_desc: [
-		"Item Modules for Modular Routers allow the Router to send to, or pull from an inventory. "
+		"&7Item Modules&r for &7Modular Routers&r allow them to send to or pull from an inventory. "
 		""
 		"The first tier, MK1, can only send in a straight line, while MK2 can interact with any linked inventory in range. MK3 Senders are special in that they have no range limits and work across dimensions."
 		""
-		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
+		"&7Distributor Modules&r can pull from or send to a maximum of up to eight inventories per module, making them perfect for distributed crafts or collecting from many machines."
 	]
 	quest.0D65061DFD04B301.title: "Item Modules"
 	quest.0D7299047145F61C.quest_desc: [
@@ -587,7 +587,11 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
-	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
+	quest.0E1258E2B2C7FFD5.quest_desc: [
+		"&7Modular Routers&r can be upgraded with an &7Energy Distributor Module&r, allowing them to deliver power wirelessly to eight different blocks per module."
+		""
+		"To use them, the &7Router&r must also have an &7Energy Upgrade&r installed, which determines the type of energy the &7Router&r will send. This is fully compatible with both FE and EU."
+	]
 	quest.0E1F3FCCA1A9E405.quest_desc: [
 		"These simple Platforms consist of little more than grass and clouds. "
 		""
@@ -666,11 +670,11 @@
 		"&a    working area."
 	]
 	quest.11EDFB60C787114D.quest_desc: [
-		"Goo is used to transform other materials, and thus obtain all of the tiered crafting materials used in this mod. "
+		"&7Goo&r is used to transmute materials placed next to it, converting them into far more valuable substances. "
 		""
-		"We’ll begin by making some Ferricore and Primal Coal. To do so, place the Primogel Goo and then place either Coal Blocks or Iron Blocks on any of the six sides. Feel free to use all six at once."
+		"Placing blocks against any face of the &7Goo&r will begin this transformation. Try placing some &7Iron Blocks&r to begin crafting &7Ferricore&r"
 		""
-		"When the Coal and Iron are fully engulfed by the goo, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials"
+		"When the blocks are fully engulfed by the &7Goo&r, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials."
 		""
 		"&6⚠ Note: Goo is hungry and needs to be "
 		"&6    fed to work! "
@@ -846,6 +850,7 @@
 		"&7Conjure Smooth Twisted Rock&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
+	quest.140BFF0572840B6E.quest_desc: ["A two in one charger, this device will not only fill the energy buffer on FE based equipment, but can also fill the fluid buffer at the same time, making it very useful for filling up a &7Jetpack&r."]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14555CEDF53F68FC.quest_desc: [
@@ -1206,13 +1211,13 @@
 		"&a    valid locations for them."
 	]
 	quest.1CEDA28FD4CB759E.quest_desc: [
-		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		"&7Transfer Labels&r slip between blocks to enable block-to-block transfer without a pipe. "
 		""
-		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a &7Label Accessor&r. "
 		""
 		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
 		""
-		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+		"The label may be removed by Left-Clicking it with another label or with a &7Label Accessor&r."
 	]
 	quest.1CF0D1E63C34AE6E.quest_desc: [
 		"&7Spirit Catalyzers&r help speed up the &7Spirit Crucible&r. Simply place them nearby and fill them with your choice of furnace fuel."
@@ -1406,7 +1411,7 @@
 	]
 	quest.1FDA97FE562A2C4D.title: "Addons"
 	quest.20454EB2C6E93573.quest_desc: [
-		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
+		"The &7Player Accessor &rallows any form of logistics to interact with your inventory as if it were a chest. "
 		""
 		"This could be used to automatically stock building materials for a large project, or automatically extract cobble and other materials while out mining, among other things. "
 		""
@@ -1476,7 +1481,11 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
-	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
+	quest.21FA8A625A79BE61.quest_desc: [
+		"Simple fluid pipes for getting fluid from one place to another. "
+		""
+		"Each one will only transfer a single fluid type at a time."
+	]
 	quest.22344008D43D4710.quest_desc: [
 		"Villagers are the soul source of many critical ingredients and their hunger knows no bounds. You’re going to need some help keeping them fed!"
 		""
@@ -1515,9 +1524,9 @@
 	quest.22ABFC3024E54FEA.quest_desc: [
 		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
 		""
-		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
+		"The &7Inserters&r and &7Extractors&r can be placed against machines or other inventories and then linked up with &7Mercurial Copper Wire&r. "
 		""
-		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.22ABFC3024E54FEA.title: "Mercurial Item Nodes"
 	quest.22FBFA5E2F891021.quest_desc: [
@@ -1680,11 +1689,11 @@
 		"&a    the formation block in &cred&r&a. "
 	]
 	quest.2850FCAFEEF5004C.quest_desc: [
-		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
+		"Some traits, such as &7Efficiency&r, may be leveled up through a process known as Mutation."
 		""
-		"The results of this process are not guaranteed, but your chances may be improved."
+		"The results of this process are not guaranteed but there are ways to improve your chances."
 		""
-		"To begin, craft some Potions of Mutation and an Advanced Incubator. Then get some Cell samples from the mob that gives the basic trait. In this case, Silverfish."
+		"To begin, craft some &7Potions of Mutation&r, then get some &7Cells&r from a mob that can provide the basic trait. In this case, Silverfish."
 		""
 		"Brew the Cell samples with the potion of Mutation to obtain a Potion of Mutation with that mob set as the entity."
 	]
@@ -1766,11 +1775,11 @@
 	]
 	quest.28EAC6C33A575A42.title: "Transmutation"
 	quest.28F4519591D71F80.quest_desc: [
-		"Item Laser Relays pair with an Item Interface to create a larger storage network from a bunch of small inventories. "
+		"&7Item Laser Relays&r pair with an &7Item Interface&r to create a larger storage network from a bunch of small inventories. "
 		""
-		"Place the Laser Relays against a series of chests and another against an Item Interface. Link them all together with a Laser Wrench and now any items that are pushed into the Interface will be stored in the chests. "
+		"Place the L&7aser Relays&r against a series of chests and another against an &7Item Interface&r. Link them all together with a &7Laser Wrench&r and now any items that are pushed into the &7Interface&r will be stored in the chests. "
 		""
-		"Similarly, items can be pulled out of the system from the Interface, meaning this can be paired nicely with AE2 or an Ars Nouveau Storage Lectern."
+		"Similarly, items can be pulled out of the system from the &7Interface&r, meaning this can be paired nicely with AE2 or an Ars Nouveau Storage Lectern."
 	]
 	quest.294B023DD4F19FE3.quest_desc: [
 		"Your &7Goat Fur Suit&r should keep you warm enough while stepping out into the cold. But it won’t offer much else. "
@@ -1855,13 +1864,13 @@
 	]
 	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
 	quest.2B0DDF8003305DB6.quest_desc: [
-		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		"&7Transfer Labels&r slip between blocks to enable block-to-block transfer without a pipe. "
 		""
-		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a &7Label Accessor&r. "
 		""
 		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
 		""
-		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+		"The label may be removed by Left-Clicking it with another label or with a &7Label Accessor&r."
 	]
 	quest.2B759D4770C13739.quest_desc: [
 		"There’s a certain charm to hand-made objects, but for some things it’s best to relegate the task to a machine that can do the task more efficiently. "
@@ -1938,6 +1947,7 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
+	quest.2D55E211F5B4F0BF.quest_desc: ["A simple equipment charger that will top off any FE based equipment placed inside."]
 	quest.2D689820562A9B9A.quest_desc: [
 		"Looking to craft your own Spell Scrolls? Craft a Scroll Forge!"
 		""
@@ -2118,6 +2128,7 @@
 		"Alternatively, Right-Click a &7Blackstone&r with a &7Fire Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.31CAA3BC20CCDF25.title: "Biome Conversion"
+	quest.31FAEA42AC32BD3E.quest_desc: ["This charger boasts an enormous buffer that can be used to rapidly charge items. "]
 	quest.3202466CAE3744A9.quest_desc: [
 		"The manipulation of Spirits is an important part of being Evil. You’ll need some tools to interact with them, however."
 		""
@@ -2219,9 +2230,9 @@
 	quest.35FD905A4A4EB1F5.quest_desc: [
 		"Pretty Pipes: Fluids is an addon to Pretty Pipes which allows the network to carry fluids in addition to items. The same network will effectively carry both, allowing everything to flow through a single block space. "
 		""
-		"Fluid Pipes are therefore only required at the end points where the pipes connect to a fluid tank. "
+		"&7Fluid Pipes&r are therefore only required at the end points where the pipes connect to a fluid tank. "
 		""
-		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
+		"Like Pretty Pipes, this addon includes &7Extraction&r and &7Retrieval Modules&r for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
 	quest.35FDFEDE5CAC0303.title: "Farmer"
 	quest.363AB8EC195285BE.quest_desc: ["&7Sludge Refiners&r sort all the gunk fed into them to create more useful materials, such as &7Soul Sand&r, &7Clay&r, and &7Rich Soil&r. "]
@@ -2643,7 +2654,7 @@
 	quest.3EA53BBEBC32F813.quest_desc: [
 		"Welcome to Genetics: Resequenced!"
 		""
-		"This mod is all about gaining special powers, for yourself and also for other mobs. "
+		"This mod is all about gaining special powers, for yourself and other mobs. "
 		""
 		"Ever wanted to shear meat off a pig? Milk a chicken? Eat grass like a sheep? How about feed yourself directly through the power of photosynthesis?"
 		""
@@ -3073,7 +3084,7 @@
 		"This quest is repeatable to get you going again!"
 	]
 	quest.4613FE560EAC7695.quest_desc: [
-		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
+		"Combine the &7Purified Blood&r with a filled &7Plasmid&r in the &7Plasmid Injector&r to set the trait in the blood sample. "
 		""
 		"You can inject multiple traits into the same sample if you like. "
 		""
@@ -3084,6 +3095,10 @@
 		"&6⚠ Note: Some traits have prerequisites "
 		"&6    that, if not met, will cause the "
 		"&6    injection to fail. Refer to EMI."
+		""
+		"&a🛈 Tip: Traits applied to breedable "
+		"&a    animals are transferred to their "
+		"&a    offspring!"
 	]
 	quest.46195E73798357D2.quest_desc: [
 		"Dark Tanks have the potential for incredibly dense storage. "
@@ -3177,7 +3192,7 @@
 		""
 		"To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
 	]
-	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
+	quest.47AFEF3DCB2990FB.title: "Basic Fuel"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
 		""
@@ -3888,9 +3903,9 @@
 	]
 	quest.5937576BD1069FC4.title: "Phantomfaces"
 	quest.598473588831F46D.quest_desc: [
-		"Fluid Laser Relays act as a wireless fluid pipe. Simply place them against the machines that need liquids and a tank, then link them all together with the Laser Wrench. "
+		"&7Fluid Laser Relays&r act as a wireless fluid pipe. Simply place them against the machines that need liquids and a tank, then link them all together with the Laser Wrench. "
 		""
-		"They have a relatively short range but can be chained quite effectively!"
+		"They have a relatively short range but can be chained to extend their reach!"
 		""
 		"&a🛈 Tip: Use a Compass to change modes"
 		"&a    to pull from the source tank!"
@@ -4097,11 +4112,11 @@
 		"You’ll need these to create parts for more advanced machinery. "
 	]
 	quest.5FD8F4BE050D55B2.quest_desc: [
-		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
+		"&7Pretty Pipes&r are a simple item logistics and sorting system with some powerful features. "
 		""
 		"Perhaps the biggest draw is that they show what’s moving through them for a more immersive experience. "
 		""
-		"Beyond this, however, they offer both push and pull functionality, where an Extraction Module can be used to pull items from an adjacent inventory and disperse them throughout the network, or a Retrieval Module may be used to pull items from any inventory on the network and push into the adjacent inventory. "
+		"Beyond this, however, they offer both push and pull functionality, where an &7Extraction Module&r can be used to pull items from an adjacent inventory and disperse them throughout the network, or a &7Retrieval Module&r may be used to pull items from any inventory on the network and push into the adjacent inventory. "
 		""
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
 	]
@@ -4697,7 +4712,7 @@
 		"&a    by a Relay using the Wololo Glyph!"
 	]
 	quest.692EDEAEC3F4A2AD.quest_desc: [
-		"The Swapper is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
+		"The &7Swapper&r is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
 		""
 		"This can be a great way to get around your base, teleport long distances, move babies out of a farm, and more. "
 		""
@@ -5289,20 +5304,20 @@
 	]
 	quest.7413DDDB64FFAC2A.title: "Laying in Supplies"
 	quest.7431B398FFDF3DCA.quest_desc: [
-		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
+		"With a &7Potion of Mutation&r set to the proper mob type, you’re ready for the next step. "
 		""
-		"This potion will again be combined in the Advanced Incubator, this time with a key item. Check the uses for your Potion of Mutation to see what it needs. In our case, Silverfish need a Netherite Pickaxe."
+		"This potion will again be combined in the &7Advanced Incubator&r, this time with a key item. Check the uses for your &7Potion of Mutation&r to see what it needs. "
 		""
 		"This process is slow and any attempt to speed it up will result in a lower chance of success. "
-		"Adding Chorus Fruit to the right-hand slot of the Advanced Incubator will increase your chances of success."
+		""
+		"Adding &7Chorus Fruit&r to the right-hand slot of the A&7dvanced Incubator&r will increase your chances of success."
 		""
 		"&a🛈 Tip: When looking for these recipes, "
 		"&a    check the Uses on the Potion of "
 		"&a    Mutation."
 		""
-		"&c⚠ Warning: Overclockers and Time in a "
-		"&c    Bottle will both drastically increase "
-		"&c    failure rates. "
+		"&c⚠ Warning: Overclockers drastically "
+		"&c    increase failure rates. "
 		"&c    Patience, grasshopper!"
 	]
 	quest.7431B398FFDF3DCA.title: "Mutation"
@@ -5690,19 +5705,19 @@
 	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
 	quest.7C174D5E3A7084B6.quest_desc: ["Move to Afrit Crusher"]
 	quest.7C1E4DDAAA75E58F.quest_desc: [
-		"Oritech’s Item Pipes offer limited logistics and filtering, perfect for point-to-point transfers. "
+		"Oritech’s &7Item Pipes&r offer limited logistics and filtering, perfect for point-to-point transfers. "
 		""
 		"These come in four varieties, though the differences are mainly cosmetic. "
-		"Framed Pipes have a nice supporting structure around them, while Duct Pipes are a full block for passing through a wall without gaps. Duct Pipes only connect to other pipes, however."
+		"&7Framed Pipes&r have a nice supporting structure around them, while &7Duct Pipes&r are a full block for passing through a wall without gaps. &7Duct Pipes&r only connect to other pipes, however."
 		""
 		"Right-Click the pipe connecting to a machine or tank to set it to Extract mode."
 	]
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
-		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
+		"The &7Inserters&r and &7Extractors&r can be placed against machines or other inventories and then linked up with &7Mercurial Copper Wire&r. "
 		""
-		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+		"&7Mercurial Connection Nodes&r allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C3C0E6AC71F621B.quest_desc: ["The &7Item Distributor&r takes items from an inventory above it and evenly distributes them to inventories on each side. "]
@@ -5881,6 +5896,7 @@
 	task.2B3416E3F3663598.title: "Block Conversions"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D01B317F079689C.title: "Heating and Cooling"
+	task.2D263309A4FF7233.title: "Energy Upgrades"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2D92956F1FC2B3EF.title: "Void Materials"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"

@@ -27,7 +27,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["062BB5F675CF9F45"]
+			dependencies: [
+				"062BB5F675CF9F45"
+				"7EE93B81F83AD199"
+			]
 			icon: {
 				id: "justdirethings:gooblock_tier1"
 			}
@@ -42,11 +45,6 @@
 				{
 					id: "5B3080D43B5E04A8"
 					item: { count: 1, id: "justdirethings:gooblock_tier1" }
-					type: "item"
-				}
-				{
-					id: "151461D43657149E"
-					item: { count: 1, id: "justdirethings:coal_t1" }
 					type: "item"
 				}
 				{
