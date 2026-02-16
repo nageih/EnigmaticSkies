@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equipment"
+	group: "1C7CD605A8DD7732"
+	icon: {
+		id: "minecraft:blade_pottery_sherd"
+	}
+	id: "21245A37A9042E2C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B9D8AD7BFC1E87D"]
+			id: "3FF8D40CD4CB33BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF1C2B9F00AEE91"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "363C5ADB7ECEA50C"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+				{
+					id: "4317EE4823470078"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FF0CFF9CC92DBE"]
+			icon: {
+				id: "oritech:exo_chestplate"
+			}
+			id: "66C2FBA12D91F642"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74EA8233178C4A4E"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "504D379255A4E578"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "25A3E7B85F5E15C9"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "277C71A4ABCBEF62"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "5E0CF6F60486829C"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ED6754FC6B0A36D"]
+			dependency_requirement: "one_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "justdirethings:item/eclipsealloy_chestplate"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0DA6F0172E06CCB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C3DBBB8E4A9297B"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57BE29AB834A63FE"
+				item: { components: { "ftbfiltersystem:filter": "and(mod(justdirethings)item_tag(c:armors))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EE93B81F83AD199"]
+			icon: {
+				components: {
+					"justdirethings:cauterizewounds_upgrade_installed": 1b
+					"justdirethings:dropteleport_upgrade_installed": 1b
+					"justdirethings:forge_energy": 500000
+					"justdirethings:glowing_upgrade_installed": 1b
+					"justdirethings:smoker_upgrade_installed": 1b
+				}
+				id: "justdirethings:eclipsealloy_sword"
+			}
+			id: "3ED6754FC6B0A36D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B40229FCC7CDB1D"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "34E6ED3A221ADB0E"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)not(item(justdirethings:ferricore_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5C006233B30BB427"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+				{
+					id: "0219421FBD8DB647"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(justdirethings:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+}

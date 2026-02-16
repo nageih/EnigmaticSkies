@@ -406,6 +406,16 @@ ServerEvents.recipes((event) => {
             ],
             pressure: 4.0,
             id: `${id_prefix}nano_saber`
+        },
+        {
+            results: [{ id: 'ae2wtlib:quantum_bridge_card', count: 1 }],
+            inputs: [
+                { item: 'ae2:quantum_ring', count: 8 },
+                { item: 'ae2:quantum_link', count: 1 },
+                { item: 'ae2:advanced_card', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}quantum_bridge_card`
         }
     ];
 

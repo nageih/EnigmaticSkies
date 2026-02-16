@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7D8AEEB13B201CFB"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ae2:item/singularity"
@@ -20,8 +21,8 @@
 			}
 			id: "7D82585D50D7207A"
 			tasks: [{
-				id: "444ABF0F1DA7E34B"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "57961EA9F4FC3596"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:logic_processor)item(ae2:calculation_processor)item(ae2:engineering_processor)item(modern_industrialization:quantum_circuit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -119,8 +120,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -242,9 +243,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6F8C048404EAF9FF"]
+			dependencies: ["5E581FAC8D96FC22"]
 			icon: {
-				id: "ae2:molecular_assembler"
+				id: "ae2:pattern_provider"
 			}
 			id: "631AA5AAA6EF687C"
 			rewards: [{
@@ -253,20 +254,13 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "2EFD078D0F36514F"
-					item: { count: 1, id: "ae2:pattern_provider" }
-					type: "item"
-				}
-				{
-					id: "21EBBF20665849BD"
-					item: { count: 1, id: "ae2:molecular_assembler" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2EFD078D0F36514F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -294,8 +288,8 @@
 				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["631AA5AAA6EF687C"]
@@ -328,11 +322,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 7.0d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["52E79B2EB7400D13"]
+			dependencies: ["56DDD2327724F715"]
 			id: "1BAEB780F38B1C56"
 			rewards: [{
 				count: 4
@@ -348,8 +342,8 @@
 				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -367,11 +361,11 @@
 				item: { components: { "ae2:facade_item": "minecraft:stone_bricks" }, count: 1, id: "ae2:facade" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["52E79B2EB7400D13"]
+			dependencies: ["1BAEB780F38B1C56"]
 			icon: {
 				id: "ae2wtlib:quantum_bridge_card"
 			}
@@ -401,8 +395,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
@@ -421,8 +415,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(arseng:source_storage_cell_1k)item(arseng:source_storage_cell_4k)item(arseng:source_storage_cell_16k)item(arseng:source_storage_cell_64k)item(arseng:source_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
@@ -441,8 +435,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:item_storage_cell_1k)item(ae2:item_storage_cell_4k)item(ae2:item_storage_cell_16k)item(ae2:item_storage_cell_64k)item(ae2:item_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["51233852CD921F79"]
@@ -461,8 +455,25 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F8C048404EAF9FF"]
+			id: "5E581FAC8D96FC22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E86E67130E65D5"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5450C07B5E987458"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
 		}
 	]
 }

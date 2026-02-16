@@ -5,7 +5,10 @@
 	filename: "47870879D8E3742D"
 	group: ""
 	icon: {
-		id: "minecraft:sheaf_pottery_sherd"
+		components: {
+			"ftbquests:icon": "malum:textures/mob_effect/ascension.png"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "47870879D8E3742D"
 	order_index: 0

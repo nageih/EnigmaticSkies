@@ -3,12 +3,13 @@
 	chapter.0A799F91D9A1C8A1.title: "Blazing Island"
 	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
-	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.0EFE9E753A92388D.title: "Building"
 	chapter.0FF1E0FF9CAD1914.title: "Energy"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.17B9F323B083C6C2.title: "It Takes a Village"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
+	chapter.21245A37A9042E2C.title: "Equipment"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.300207E2557764E1.title: "Flashing Island"
 	chapter.402AE6264B81A84B.title: "Logistics"
@@ -17,17 +18,16 @@
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
-	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.67558DB55ADC2157.title: "The Beginning"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.72447ED7D54B4AF7.title: "Vexing Island"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
 	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
-	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
-	chapter_group.440488E780593120.title: "&aLearning"
-	chapter_group.46AB9129BBE517B6.title: "&aSkies"
-	file.0000000000000001.title: "&n&6Enigmatica 10&r"
+	chapter_group.1C7CD605A8DD7732.title: "&bDiscovery"
+	chapter_group.440488E780593120.title: "&bLearning"
+	chapter_group.46AB9129BBE517B6.title: "&bSkies"
+	file.0000000000000001.title: "&n&6Enigmatic Skies&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
@@ -606,7 +606,7 @@
 	quest.0EEFC631A67266B1.quest_desc: [
 		"Welcome to OriTech, a new technology mod with a focus on amazing animations for its machines!"
 		""
-		"[\"Be sure to check out their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" while we get this quest section completed!\"]"
+		"[\"Be sure to check out their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" for more in-depth information on these devices.\"]"
 	]
 	quest.0EEFC631A67266B1.title: "OriTech"
 	quest.0F04956D59A78393.quest_desc: [""]
@@ -617,13 +617,6 @@
 		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
 	]
 	quest.0F63D034A018A4FC.quest_desc: ["Placing a &7Sewer&r beneath your animals will allow you to collect &7Sewage&r which can be used to obtain more &7Water&r and eventually converted into &7Oil&r!"]
-	quest.0F97525097FA4573.quest_desc: [
-		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
-		""
-		"Look no further than a Drone Port. "
-		""
-		"You’ll need one at each end and they must be linked together by using a Target Designator. Once linked, they’ll transport items one way from source to destination at regular intervals. "
-	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.0FE11A739BA3623E.quest_desc: [
@@ -1730,13 +1723,11 @@
 		"&a    placed on Dense Cables."
 	]
 	quest.289DEC367A80D718.quest_desc: [
-		"The Advanced machines operate much like their Simple counterparts, but with some added features."
+		"These Advanced devices operate much like their Simple counterparts, but with some added features and at the cost of energy."
 		""
-		"To begin with, they all use energy to operate. "
+		"First, they operate in a much larger area which may be configured to your needs."
 		""
-		"They also have their own robust filtering systems built in, so they no longer need external sensors to control them."
-		""
-		"Lastly, they can operate in a larger area."
+		"They also have their own robust filtering systems built in, so they can do more on their own without needing to build out Sensors to control them."
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
@@ -1994,6 +1985,37 @@
 		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
 	]
 	quest.300AE428F98F97AF.title: "Afrit Crusher"
+	quest.304838EDEC32DE97.quest_desc: [
+		"Thank you for playing &n&6Enigmatic Skies&r! We hope you enjoyed your time here!"
+		""
+		"                           &6&nFurther Reading&r"
+		""
+		"Inspiration comes from many sources and while there are some portions of this pack that draw on European traditions, it would be fair to say that the pack likely wouldn’t exist were it not for inspiration drawn from the myths and sacred stories of the native peoples of North America. "
+		""
+		"If you’re interested in learning more, please check out the links below."
+		""
+		"&6&nNations&r"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://anishinabek.ca/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Anishinaabe Nation\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.cherokee.org/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Cherokee Nation\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.lenape-nation.org/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Lenape Nation\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://ojibwe.net/stories/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Ojibwe Nation\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.wendake.ca/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wendat Nation\",\"underlined\":true}]"
+		""
+		"&6&nStories&r"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://thecanadianencyclopedia.ca/en/article/turtle-island\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Turtle Island\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.indigenouspeople.net/spider.htm\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Grandmother Spider Steals the Fire\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.americanfolklore.net/rainbow-crow/\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Rainbow Crow\",\"underlined\":true}]"
+		""
+		"[\" • \", {\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.ganondagan.org/legend-of-the-three-sisters\"}, \"color\":\"green\", \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"The Three Sisters\",\"underlined\":true}]"
+	]
 	quest.305A56BDCBE2D2AE.quest_desc: [
 		"The &7Settling Tank&r can filter &7Wastewater&r through &7Sand&r and &7Gravel&r to purify it, making it suitable for normal use. "
 		""
@@ -2366,23 +2388,23 @@
 		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
 	]
 	quest.3A7AD25302240A1B.quest_desc: [
-		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
+		"dAd-Hoc Networks are the simplest form of network in Applied Energistic; they consist of a length of &7Fluix Cable&r and some connected devices such as &7Storage Buses&r and &7Terminals&r."
 		""
-		"The system will need some power too. This can be provided passively by a Crystal Resonance Generator, or more actively with an Energy Acceptor, which accepts either EU or FE."
+		"The system will need some power too, which can be provided passively by a &7Crystal Resonance Generator&r, or more actively with an &7Energy Acceptor&r."
 		"&n                                                            "
 		""
 		"Set up a simple Ad-Hoc Network using the items you’ve gathered and the rewards from this quest. "
 		""
-		"1. Place a Storage Bus against each Barrel and "
-		"   connect them all with Fluix Cables. "
+		"1. Place a &7Storage Bus&r against each &7Barrel&r and "
+		"   connect them all with &7Fluix Cables&r. "
 		""
-		"2. Place the Crafting Terminal anywhere on the "
-		"   Fluix Cables."
+		"2. Place the &7Crafting Terminal&r anywhere on the "
+		"   &7Fluix Cables&r."
 		""
 		"3. Finally, attach your preferred source of "
 		"   power. "
 		""
-		"If done correctly, you should now have access to the contents of all six chests and be able to craft from them in the Terminal."
+		"If done correctly, you should now have access to the contents of all six &7Barrels&r and be able to craft using their contents at the &7Terminal&r."
 		""
 		"&6⚠ Note: An Ad-Hoc Network can have up to eight"
 		"&6    connections in total."
@@ -2400,14 +2422,12 @@
 		"These will net you far more water than the clouds you've been using."
 	]
 	quest.3B77FB0A8CFAAB97.quest_desc: [
-		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."
+		"Potentially quite dangerous, &7Enderic Lasers&r will destroy most any blocks in their path. Some, however, are instead empowered by it."
 		""
-		"Use a Target Designator to aim an Enderic Laser at a Budding Amethyst. The block will not be destroyed, rather its growth will be dramatically increased. "
-		""
-		"As Amethyst Clusters appear, the Lasers will harvest them as Fluxite, making this an excellent way to renewably produce this valuable resource."
+		"Use a &7Target Designator&r to aim an Enderic Laser at an &7Atomic Forge&r to deliver the power it needs to operate."
 		"&n                                                 &r"
 		""
-		"To target a block, Sneak + Right-Click it with the Target Designator, then Sneak + Right-Click the Laser. "
+		"To target a block, Sneak + Right-Click it with the &7Target Designator&r, then Sneak + Right-Click the &7Laser&r. "
 	]
 	quest.3BC8ED2BD4E5EEC6.quest_desc: [
 		"They may be tiny, but they pack a mighty punch. "
@@ -2452,7 +2472,7 @@
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an &7ME Controller&r to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
-		"It doesn’t stop there, however. Multiple &7ME Controllers&r can be built together to form a larger multiblock structure. "
+		"It doesn’t stop there, either. Multiple &7ME Controllers&r can be built together to form a larger multiblock structure with each exposed face giving you 32 more channels to work with. "
 		""
 		"Building such a multiblock must follow these rules:"
 		""
@@ -2571,7 +2591,7 @@
 	]
 	quest.3D307863E39B9EFE.title: "Breeding and Mutations"
 	quest.3D59639F51E89CF9.quest_desc: [
-		"The Advanced Clicker gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
+		"The &7Advanced Clicker&r gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
@@ -2635,7 +2655,7 @@
 	]
 	quest.3EA53BBEBC32F813.title: "Genetics: Resequenced"
 	quest.3ED6754FC6B0A36D.quest_desc: [
-		"The tools added by Just Dire Things have a variety of interesting properties which can be attached to them; simply craft the tool and the upgrade together in a Smithing Table."
+		"The tools added by Just Dire Things have a variety of interesting properties which can be attached to them; simply craft the tool and the upgrade together in a &7Smithing Table&r."
 		""
 		"Once installed, each can be enabled, disabled, or otherwise configured by Sneak Right-Clicking while holding the tool. "
 		""
@@ -2762,7 +2782,7 @@
 	quest.3FF8D40CD4CB33BB.quest_desc: [
 		"Looking for a simple unbreakable tool? These will have you covered. "
 		""
-		"They need power, of course, but still accept enchants making them a great early alternative to an Axe, Shovel, and Pickaxe. "
+		"They need power but can accept enchantments, making them a great alternative to normal tools. "
 	]
 	quest.3FF8D40CD4CB33BB.title: "Power Tools"
 	quest.407079BCE93817AC.quest_desc: [
@@ -2837,11 +2857,6 @@
 		"&a    area."
 	]
 	quest.410225ED927857D4.title: "Animal Farming"
-	quest.413A165C27E8E5A6.quest_desc: [
-		"A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "
-		""
-		"Attaching a Machine Yield Addon will also increase the amount of secondary outputs from this machine."
-	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -2983,6 +2998,40 @@
 		""
 		"&a🛈 Tip: Amethyst Golems works with"
 		"&a   Certus Quartz too!"
+	]
+	quest.454EB146FC67E3D5.quest_desc: [
+		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
+		""
+		"The &7Particle Accelerator&r consists of a large free form multiblock structure. The &7Accelerator&r itself is used to inject items into the beam and the &7Guide Rings&r are used to guide the beam along the desired path. "
+		""
+		"Typically, this path should be a loop to gain the momentum needed for various crafts. "
+		""
+		"Speeding up the particle will require one or more &7Linear Motors&r. Each only imparts a small amount of momentum, but you can place multiple in line to get things up to speed quicker. "
+		"&n                                                                          &r"
+		""
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" page, which does an excellent job of describing how this system works. \"]"
+		""
+		"To give you an idea of scope, however, consider a recipe that requires a collision &61000J&r to craft. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
+		""
+		"See the next page for a full list of speeds by &cRedstone Signal Strength&r as measured by the &7Sensor&r."
+		""
+		"{@pagebreak}"
+		"            &6&nSignal Strength&r            &6&nParticle Speed&r "
+		"                      1                             0"
+		"                      2                            10"
+		"                      3                            50"
+		"                      4                            75"
+		"                      5                           100"
+		"                      6                           150"
+		"                      7                           250"
+		"                      8                           500"
+		"                      9                           750"
+		"                     10                          1000"
+		"                     11                          2500"
+		"                     12                          5000"
+		"                     13                          7500"
+		"                     14                         10000"
+		"                     15                         15000"
 	]
 	quest.45754B11F5C290D5.quest_desc: [
 		"While out and about, you’ll want to keep your eyes open for some very special ingredients such as &7Inks&r, &7Arcane Essence&r, &7Runes&r, and even new &7Spell Scrolls&r!"
@@ -3478,11 +3527,6 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
-	quest.4E2C382FC583C03F.quest_desc: [
-		"A Centrifuge allows for the production of a few unique materials that will be very important moving forward!"
-		""
-		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
-	]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -3513,11 +3557,6 @@
 		"&6    any Steel Block. "
 	]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
-	quest.4F19A0AECC129216.quest_desc: [
-		"The Atomic Forge is an advanced crafting device which uses Enderic Lasers to operate. "
-		""
-		"Set up some Lasers nearby and use the Target Designator to link them to the Forge. "
-	]
 	quest.4F2E18DABA17E0AC.quest_desc: [
 		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as Mud to Moss."
 		""
@@ -3699,7 +3738,7 @@
 		"Items, such as &7Pebbles&r, may be Right-Clicked into the &7Oven&r while fuel may be Right-Clicked into the &7Brazier&r to begin processing."
 	]
 	quest.55065F1D9C6716C1.quest_desc: [
-		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
+		"The &7Advanced Sensor&r gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
@@ -3976,7 +4015,6 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.5DB469A00A023DCF.title: "Industrial Turbine"
-	quest.5DD76DB5C6220F40.quest_desc: ["With a Pulverizer, you’ll be able to get better yields from all those ores you’re mining up out of the ground!"]
 	quest.5DE688C9457D18DF.quest_desc: [
 		"A simple Wind Turbine. These produce more power the higher up they’re placed. "
 		""
@@ -4015,6 +4053,18 @@
 	]
 	quest.5E4077F317135E34.title: "Taking Root"
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
+	quest.5E581FAC8D96FC22.quest_desc: [
+		"The &7Molecular Assembler&r is a simple auto crafter that will repeatedly craft whatever recipe has been set in an installed Pattern. Items may be piped in and the results will be auto exported into an adjacent inventory. "
+		""
+		"These can be an excellent early way to automate basic crafting tasks. "
+		""
+		"&a🛈 Tip: Molecular Assemblers need "
+		"&a    power but do not consume a "
+		"&a    channel, allowing many to be set up "
+		"&a    on an Ad-Hoc Network for power "
+		"&a    while external pipes passively feed "
+		"&a    them crafting materials."
+	]
 	quest.5E727F7B600E0E91.quest_desc: [
 		"The &7Dissolution Chamber&r combines multiple ingredients with some type of fluid. "
 		""
@@ -4041,7 +4091,11 @@
 		""
 		"It can be an excellent way to automate the creation of Treated Wood!"
 	]
-	quest.5FC9979B966955DE.quest_desc: ["Spin up an Oritech &7Centrifuge&r and start producing &7Carbon Fibre Strands&r. You’ll need these to create parts for more advanced machinery. "]
+	quest.5FC9979B966955DE.quest_desc: [
+		"Spin up an Oritech &7Centrifuge&r and start producing &7Carbon Fibre Strands&r. "
+		""
+		"You’ll need these to create parts for more advanced machinery. "
+	]
 	quest.5FD8F4BE050D55B2.quest_desc: [
 		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
 		""
@@ -4320,11 +4374,17 @@
 	]
 	quest.6303A7113DE954DD.title: "Blood Automation"
 	quest.631AA5AAA6EF687C.quest_desc: [
-		"Pattern Providers are the network's means of interfacing with crafting machines. "
+		"&7Pattern Providers&r are the network's means of interfacing with crafting machines, both to insert crafting materials and to receive the crafting result. "
 		""
-		"For basic Crafting Patterns, such as you'd do at a Crafting Table, the Provider needs to be placed next to a Molecular Assembler. "
+		"For basic crafting patterns, such as you'd do at a &7Crafting Table&r, the &7Pattern Provider&r must be placed next to one or more &7Molecular Assemblers&r. "
 		""
-		"For machine crafting, or Processing Patterns, the Provider should be placed facing that machine. It can also feed into any inventory and you can pipe items from there. For example, an array of Furnaces could be fed by a single Provider pushing into a chest. Pipes would then carry items and distribute them amongst the Furnaces."
+		"For machine crafting, or processing patterns, the &7Provider&r should be placed facing that machine on a side where the machine can accept inputs. "
+		""
+		"It can also feed into any type of inventory, allowing you to route items from there. For example, an array of &7Furnaces&r could be fed by a single &7Provider&r pushing into a &7Barrel&r. Pipes would then carry items and distribute them amongst the Furnaces, as well as return the results back to the &7Pattern Provider&r."
+		""
+		"&a🛈 Tip: Consider using a Subnet for "
+		"&a    machines that need fluids and items "
+		"&a    delivered to separate faces!"
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
 	quest.6384F08466CA9FB9.quest_desc: [
@@ -4538,7 +4598,7 @@
 	quest.6705BECBD94CAAAD.quest_desc: [
 		"With stronger gearing and motors, this &7SAG Mill&r can help you get more from your ores than before. "
 		""
-		"Be sure to supply it with Grinding Balls to get the best results. "
+		"Be sure to supply it with &7Grinding Balls&r to get the best results. "
 		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
@@ -4581,7 +4641,7 @@
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
 	quest.679DACB985517C55.quest_desc: [
-		"The Advanced Dropper allows for dropping items further away and in more configurable amounts. "
+		"The &7Advanced Dropper&r allows for dropping items further away and in more configurable amounts. "
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
@@ -4612,7 +4672,6 @@
 		""
 		"[ \"Also take a look in the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on upgrading your power infrastructure. \" ]"
 	]
-	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.687E532AD956C57A.quest_desc: [
 		"With excellent insulation and heating capabilities, this &7Alloy Smelter&r can reach temperatures capable of burning the Hell out of things."
 		""
@@ -4627,22 +4686,6 @@
 		"&6    viewing the recipe."
 	]
 	quest.68FDE7C7357F9B5A.quest_desc: [""]
-	quest.690FB1A43ED247CF.quest_desc: [
-		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
-		""
-		"The particle accelerator consists of a large free form multiblock structure. The Accelerator itself is used to inject items into the beam and the Guide Rings are used to guide the beam along a safe path. "
-		""
-		"Typically, you’ll want this path to be a loop to gain the momentum needed for various crafts. "
-		""
-		"Speeding up the particle will require one or more Linear Motors. Each one doesn’t have much of an effect, but you can place multiple in line to get things up to speed quicker. "
-		"&n                                                                          &r"
-		""
-		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" page on their wiki, which does an excellent job of describing how this system works. \"]"
-		""
-		"To give you an idea of scope, however, consider the Echo Shard recipe that requires a collision &61000J&r to craft. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns. Incidentally, when your Sensor reaches a &cRedstone Signal of 10&r you’ll be ready to inject the second item to cause a collision."
-		""
-		"Similarly, the recipe for a Nether Star, which needs a collision of &615000J&r will take a much larger track with a minimum distance of about 34 blocks between turns. The appropriate speeds are reached at a &cRedstone Signal of 14&r. "
-	]
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""
@@ -5094,17 +5137,6 @@
 		"&a    EMI for a list of heat sources."
 	]
 	quest.6FC31B3806BF222A.quest_subtitle: "Raising the Bar"
-	quest.70122FCB0A26D96B.quest_desc: [
-		"You may have seen some suspicious looking Deepslate boulders lying around in certain biomes. While they might just seem like an easy way to get some early resources, they hide a treasure trove beneath them."
-		""
-		"Dig straight down to bedrock beneath them and you’ll find yourself a small cavity filled with fuel or oil. Beneath that fluid, embedded in the very Bedrock are Resource Nodes."
-		""
-		"These special nodes may be mined infinitely by placing a Bedrock Extractor above them. The machine will cover a 3x3 area, so try to get as many Resource Nodes under one as possible. "
-		""
-		"To power this machine, you’ll need to link Enderic Lasers to it. It won’t accept power any other way. "
-		""
-		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
-	]
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
@@ -5138,13 +5170,13 @@
 		"The front will output a signal when the device has finished a recipe, allowing finer control for small batches."
 	]
 	quest.7163E7EBDB861D72.quest_desc: [
-		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
+		"There is no advanced version of the &7Item Collector&r, instead tools at this tier may be given the ability to teleport items to a bound block."
 		""
-		"Running a mob farm? Use a Celestigem Sword bound to a storage system; all the mob drops will be inserted automatically."
+		"Running a mob farm? Use a &7Celestigem Sword&r bound to a storage system; all the mob drops will be inserted automatically."
 		""
-		"Setting up a tree farm? Use a Celestigem Axe to teleport the logs to storage. "
+		"Setting up a tree farm? Use a &7Celestigem Axe&r to teleport the logs to storage. "
 		""
-		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
+		"Farmland tilled with a &7Celestigem Hoe&r will self-harvest and teleport the drops to a bound storage as well. Handy!"
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
 	quest.717CCCD239144E0B.quest_desc: [
@@ -5169,18 +5201,6 @@
 		""
 		"Source is required and will be taken from a nearby &7Source Jar&r."
 	]
-	quest.72591AAEA1E6DE38.quest_desc: [
-		"The Particle Accelerator has a few hidden interactions which can be quite interesting to play around with."
-		""
-		"For instance, should you collide two Fire Charges at over &65000J&r, you’ll create a &cHellish Incursion&r and a portal to the Nether."
-		""
-		"Similarly, colliding two Ender Pearls at over &610000J&r will make an &aEnder Incursion&r and a portal to the End."
-		""
-		"Lastly, should you fire any item into one of these portals at greater than &615000J&r, you will generate a Black Hole which will quickly begin devouring blocks around it and spewing out a steady stream of Tachyons. "
-		""
-		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
-	]
-	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
 	quest.72B6C89DB165BB07.quest_desc: [
 		"When placed in-world, &7Organic Compost&r will slowly transform into &7Rich Soil&r, a particularly good soil for growing crops."
@@ -5309,20 +5329,6 @@
 		"Make yourself a &7Magnet&r and you won't need to worry about it any longer."
 		""
 		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things where you'd like to avoid picking things up."
-	]
-	quest.75765D97E7ACC6FC.quest_desc: [
-		"Getting started, the first machine you’ll want to craft is the Foundry. This will allow you to create the various alloys you’ll need to proceed with more powerful machines. "
-		"&n                                                  &r"
-		""
-		"As are most machines from OriTech, this is a multiblock machine. "
-		""
-		"Place the Foundry block and then Right-Click it to see where the Machine Cores must be placed. "
-		""
-		"Once you’ve placed all the required Cores, Right-Click the Foundry again to complete the structure. "
-		""
-		"&a🛈 Tip: Right-Click the machine with the "
-		"&a    Core blocks to automatically place "
-		"&a    them for you!"
 	]
 	quest.75BD1F2EB47FB7CF.quest_desc: [
 		"The &7Advanced Liquid Compressor&r operates using the same fuels you've been using thus far and can reach up to &720 bar&r. "
@@ -5715,13 +5721,19 @@
 		"&a    valid locations for them."
 	]
 	quest.7D82585D50D7207A.quest_desc: [
-		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
+		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting capable of interfacing with most any other mod."
 		""
 		"The following chapter will take you through getting started with this mod as well as some basic concepts. "
 		""
 		"We recommend that you also check out the guides and tutorials built into the mod’s own &7Guide&r."
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
+	quest.7D8AEEB13B201CFB.quest_desc: [
+		"Highly advanced processors which will enable setting up a powerful AE2 system to assist in crafting and stock management."
+		""
+		""
+		"[ \"Check out the \", { \"text\": \"Applied Energistics Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"777EE0C4949DFE12\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on setting up an ME Network. \" ]"
+	]
 	quest.7EE93B81F83AD199.quest_desc: [
 		"Enchanting &7Clay&r appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
 		""
@@ -5813,6 +5825,7 @@
 	task.0BB96E58A01F180D.title: "Fluid Input Hatch"
 	task.0C02B6FCCE5FAF0A.title: "Power Generation"
 	task.0C66972E31440AAF.title: "Ender Cells"
+	task.0C683224C0A3D09E.title: "Processors"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
@@ -5873,6 +5886,7 @@
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.2EFD078D0F36514F.title: "Pattern Provider"
 	task.2F65A10B08073D6D.title: "Spirit Crucible Augments"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.31508ACE862B4A9A.title: "Tokens"
@@ -5910,7 +5924,6 @@
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3F1AFB75DEE21F65.title: "Fluid Pipes"
-	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.3FEC46CB05E92C9B.title: "WIP Islands"
 	task.400A6759534EF6D4.title: "Sludge Products"
 	task.40A7E30D465D0168.title: "Item Input Hatch"
@@ -5923,7 +5936,6 @@
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.4315ED9269099C81.title: "Any Chest"
 	task.437A0173972D42B6.title: "Induction Matrix"
-	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.4484CC7F88D33D12.title: "Arcane Platforms"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
@@ -5962,6 +5974,7 @@
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
 	task.573110BB52169A48.title: "Observation: &2Wixie's Furnace&r"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
+	task.57961EA9F4FC3596.title: "Processors"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.58162F4C2BB35BA4.title: "Mercurial Fluid Transporters"
 	task.582472ED7BA0A212.title: "Item Storage"
@@ -6031,6 +6044,7 @@
 	task.7BBDAB866A167CE4.title: "Mercurial Item Transporters"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7CDDB3E6855989E2.title: "Soul Shattering Weapons"
+	task.7CE93020086E014B.title: "Fin"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"

@@ -260,6 +260,16 @@
 				id: "oritech:accelerator_motor"
 			}
 			id: "454EB146FC67E3D5"
+			min_width: 300
+			rewards: [{
+				count: 7
+				id: "2AC205C06E23FC0B"
+				item: {
+					count: 1
+					id: "oritech:accelerator_motor"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0631C17F11710876"

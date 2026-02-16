@@ -123,6 +123,8 @@ ServerEvents.recipes((event) => {
         { output: `apprep:replication_connector` },
         { mod: 'apprep', input: `replication:replica_ingot` },
 
+        { output: 'ae2wtlib:quantum_bridge_card' },
+
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
         // { id: /apotheosis:salvaging\/other/ },
