@@ -1667,7 +1667,7 @@
 		""
 		"As the woman approached the earth once more, the heat of the vessel grew and spread, flowing across the earth. "
 		""
-		"Forever after, the cold of Winter gave way to the gentle touch of Spring in an endless dance of seasons.  "
+		"Forever after, the cold of Winter would give way to the gentle touch of Spring in an endless dance of seasons.  "
 	]
 	quest.271AC925824B553E.title: "Industrialist"
 	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
@@ -2435,12 +2435,6 @@
 		"&n                                                 &r"
 		""
 		"To target a block, Sneak + Right-Click it with the &7Target Designator&r, then Sneak + Right-Click the &7Laser&r. "
-	]
-	quest.3BC8ED2BD4E5EEC6.quest_desc: [
-		"They may be tiny, but they pack a mighty punch. "
-		""
-		"&a🛈 Tip: Micromissiles may be restored "
-		"&a    with TNT in an Anvil!"
 	]
 	quest.3BCD9E36D48B205A.quest_desc: [
 		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."

@@ -165,8 +165,18 @@
 				id: "7CE93020086E014B"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "414458433C4734C6"
+			tasks: [{
+				id: "02C8D80D57093B59"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
 		}
 	]
 }
