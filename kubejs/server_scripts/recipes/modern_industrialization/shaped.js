@@ -156,6 +156,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}electric_kiln`
         },
         {
+            output: 'modern_industrialization:industrial_cauldron',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: 'modern_industrialization:bronze_machine_casing',
+                B: 'farmersdelight:cooking_pot',
+                C: 'modern_industrialization:conductive_coil'
+            },
+            id: `${id_prefix}industrial_cauldron`
+        },
+        {
             output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
             pattern: ['B', 'A'],
             key: {
