@@ -123,6 +123,8 @@ ServerEvents.recipes((event) => {
         { output: `apprep:replication_connector` },
         { mod: 'apprep', input: `replication:replica_ingot` },
 
+        { output: 'ae2wtlib:quantum_bridge_card' },
+
         // Apotheosis and Addons
         { type: 'apothic_spawners:spawner_modifier' },
         // { id: /apotheosis:salvaging\/other/ },
@@ -593,6 +595,7 @@ ServerEvents.recipes((event) => {
         { type: 'modern_industrialization:pressurizer' },
         { type: 'modern_industrialization:fusion_reactor' },
         { type: 'modern_industrialization:implosion_compressor' },
+        { type: 'modern_industrialization:assembler' },
         {
             type: 'modern_industrialization:mixer',
             output: /(kanthal|soldering_alloy|stainless_steel|superconductor|cupronickel|bronze|cupronickel_ingot|electrum|invar|battery_alloy)_(dust|tiny_dust)/
@@ -661,6 +664,7 @@ ServerEvents.recipes((event) => {
         { output: /modern_industrialization:.*_machine_casing/ },
         { output: /modern_industrialization:.*_tiny_dust/ },
         { output: /modern_industrialization:(iron|steel|diamond|netherite)_hammer/ },
+        { output: /modern_industrialization:(bronze|iron|steel|stainless_steel|quantum)_tank/ },
         { output: 'modern_industrialization:analog_circuit' },
         { output: 'modern_industrialization:plasma_turbine' },
         { output: 'modern_industrialization:fusion_chamber' },
@@ -751,7 +755,6 @@ ServerEvents.recipes((event) => {
         { output: 'modern_industrialization:electric_wiremill' },
         { output: 'modern_industrialization:electrolyzer' },
         { output: 'modern_industrialization:bronze_furnace' },
-        { output: 'modern_industrialization:bronze_tank' },
         { output: 'modern_industrialization:bronze_barrel' },
         { output: 'modern_industrialization:coke' },
         { output: 'modern_industrialization:wrench' },

@@ -1,7 +1,7 @@
 {
 	always_invisible: true
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 250
 	default_quest_shape: ""
 	filename: "the_beginning"
 	group: "46AB9129BBE517B6"
@@ -157,6 +157,26 @@
 			}]
 			x: 0.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["26D35A0B06B5EA35"]
+			id: "304838EDEC32DE97"
+			tasks: [{
+				id: "7CE93020086E014B"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "414458433C4734C6"
+			tasks: [{
+				id: "02C8D80D57093B59"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
 		}
 	]
 }

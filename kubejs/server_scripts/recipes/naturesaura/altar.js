@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enigmatica:ruby', count: 1 },
             input: { tag: 'c:dusts/ruby' },
-            aura_multiplier: 200,
+            aura_multiplier: 100,
             time: 30,
             id: `${id_prefix}ruby`
         },

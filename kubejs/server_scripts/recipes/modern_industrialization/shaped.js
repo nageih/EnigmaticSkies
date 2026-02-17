@@ -34,18 +34,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_compressor`
         },
         {
-            output: `modern_industrialization:bronze_assembler`,
-            pattern: ['BAB', 'CDC', 'EEE'],
-            key: {
-                A: `minecraft:crafting_table`,
-                B: '#c:essences/manipulation',
-                C: '#c:gears/copper',
-                D: 'modern_industrialization:bronze_machine_casing',
-                E: `ppfluids:fluid_pipe`
-            },
-            id: `${id_prefix}bronze_assembler`
-        },
-        {
             output: `modern_industrialization:bronze_mixer`,
             pattern: ['BCB', 'ADA', 'EEE'],
             key: {
@@ -166,6 +154,16 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:conductive_coil'
             },
             id: `${id_prefix}electric_kiln`
+        },
+        {
+            output: 'modern_industrialization:industrial_cauldron',
+            pattern: ['CAC', 'ABA', 'CAC'],
+            key: {
+                A: 'modern_industrialization:bronze_machine_casing',
+                B: 'farmersdelight:cooking_pot',
+                C: 'modern_industrialization:conductive_coil'
+            },
+            id: `${id_prefix}industrial_cauldron`
         },
         {
             output: `modern_industrialization:fire_clay_brick_fluid_input_hatch`,
@@ -313,15 +311,6 @@ ServerEvents.recipes((event) => {
                 E: `ppfluids:fluid_pipe`
             },
             id: `${id_prefix}bronze_alluvial_trommel`
-        },
-        {
-            output: `modern_industrialization:bronze_tank`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: `#c:plates/andesite_alloy`,
-                B: '#c:glass_blocks'
-            },
-            id: `${id_prefix}bronze_tank`
         },
         {
             output: `modern_industrialization:bronze_barrel`,
@@ -569,7 +558,7 @@ ServerEvents.recipes((event) => {
             output: 'modern_industrialization:large_tank_hatch',
             pattern: ['A', 'B', 'C'],
             key: {
-                A: 'modern_industrialization:steel_tank',
+                A: 'pneumaticcraft:large_tank',
                 B: 'modern_industrialization:pump',
                 C: 'modern_industrialization:steel_machine_casing'
             },
@@ -579,7 +568,7 @@ ServerEvents.recipes((event) => {
             output: 'modern_industrialization:large_tank',
             pattern: ['ABA', 'CDC', 'ABA'],
             key: {
-                A: 'modern_industrialization:steel_tank',
+                A: 'pneumaticcraft:large_tank',
                 B: 'modern_industrialization:pump',
                 C: 'pneumaticcraft:turbine_rotor',
                 D: 'modern_industrialization:steel_machine_casing'

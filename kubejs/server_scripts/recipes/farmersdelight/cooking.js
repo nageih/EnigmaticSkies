@@ -27,23 +27,25 @@ ServerEvents.recipes((event) => {
         },
         {
             result: { id: 'aether:blue_gummy_swet', count: 1 },
-            ingredients: [{ item: 'aether:swet_ball' }, { item: 'minecraft:sugar' }],
+            ingredients: [{ item: 'aether:swet_ball' }, { tag: 'c:sugars' }],
             recipe_book_tab: 'meals',
             experience: 1.0,
             id: `${id_prefix}blue_gummy_swet`
         },
         {
-            result: { id: 'arsdelight:source_berry_jelly', count: 1 },
+            result: { id: 'arsdelight:mendosteen_jelly', count: 1 },
             ingredients: [
-                { item: 'arsdelight:source_berry_jam' },
-                { item: 'arsdelight:source_berry_jam' },
-                { item: 'arsdelight:source_berry_jam' },
-                { item: 'minecraft:slime_ball' }
+                { item: 'ars_nouveau:mendosteen_pod' },
+                { item: 'ars_nouveau:mendosteen_pod' },
+                { item: 'arsdelight:flourishing_bark' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'minecraft:slime_ball' },
+                { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
             recipe_book_tab: 'misc',
-            id: `${id_prefix}source_berry_jelly`
+            id: `${id_prefix}mendosteen_jelly`
         },
         {
             result: { id: 'arsdelight:bastion_jelly', count: 1 },
@@ -53,7 +55,7 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:vexing_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
                 { item: 'minecraft:slime_ball' },
-                { item: 'minecraft:sugar' }
+                { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
@@ -68,27 +70,12 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:blazing_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
                 { item: 'minecraft:slime_ball' },
-                { item: 'minecraft:sugar' }
+                { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
             recipe_book_tab: 'misc',
             id: `${id_prefix}bombegrante_jelly`
-        },
-        {
-            result: { id: 'arsdelight:mendosteen_jelly', count: 1 },
-            ingredients: [
-                { item: 'ars_nouveau:mendosteen_pod' },
-                { item: 'ars_nouveau:mendosteen_pod' },
-                { item: 'arsdelight:flourishing_bark' },
-                { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'minecraft:slime_ball' },
-                { item: 'minecraft:sugar' }
-            ],
-            container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
-            recipe_book_tab: 'misc',
-            id: `${id_prefix}mendosteen_jelly`
         },
         {
             result: { id: 'arsdelight:frostaya_jelly', count: 1 },
@@ -98,12 +85,25 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:cascading_bark' },
                 { item: 'ars_nouveau:sourceberry_bush' },
                 { item: 'minecraft:slime_ball' },
-                { item: 'minecraft:sugar' }
+                { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
             recipe_book_tab: 'misc',
             id: `${id_prefix}frostaya_jelly`
+        },
+        {
+            result: { id: 'arsdelight:source_berry_jelly', count: 1 },
+            ingredients: [
+                { item: 'arsdelight:source_berry_jam' },
+                { item: 'arsdelight:source_berry_jam' },
+                { item: 'arsdelight:source_berry_jam' },
+                { item: 'minecraft:slime_ball' }
+            ],
+            container: { id: 'minecraft:bowl', count: 1 },
+            experience: 0.1,
+            recipe_book_tab: 'misc',
+            id: `${id_prefix}source_berry_jelly`
         },
         {
             result: { id: 'arsdelight:source_berry_cupcake', count: 4 },
@@ -180,29 +180,6 @@ ServerEvents.recipes((event) => {
             experience: 0.1,
             recipe_book_tab: 'drinks',
             id: `${id_prefix}source_berry_tea`
-        },
-        {
-            result: { id: 'enigmatica:qulliq_vessel', count: 1 },
-            ingredients: [
-                { item: 'occultism:tallow_block' },
-                { item: 'enigmatica:borrowed_flame' },
-                { item: 'occultism:tallow_block' },
-
-                { item: 'farmersdelight:straw_bale' },
-                { item: 'occultism:tallow_block' },
-                { item: 'farmersdelight:straw_bale' }
-            ],
-            container: { id: 'enigmatica:warded_vessel', count: 1 },
-            experience: 0.1,
-            recipe_book_tab: 'meals',
-            id: `${id_prefix}qulliq_vessel`
-        },
-        {
-            result: { id: 'theurgy:fermentation_starter', count: 40 },
-            ingredients: [{ item: 'ars_nouveau:sourceberry_bush' }, { tag: 'c:mushrooms' }, { tag: 'c:sugars' }],
-            experience: 0.1,
-            recipe_book_tab: 'misc',
-            id: `${id_prefix}fermentation_starter`
         }
     ];
 

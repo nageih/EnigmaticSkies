@@ -92,6 +92,12 @@
 		{
 			dependencies: ["6849CF8933FC70F9"]
 			id: "2B759D4770C13739"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7283D0697D0300F1"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "74B3D01F5E27F9F2"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -103,6 +109,12 @@
 		{
 			dependencies: ["6849CF8933FC70F9"]
 			id: "699B01CFAEE29827"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F85FBEEB05A2B74"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0FBBEBF5CE61813D"
 				item: { count: 1, id: "oritech:cooler_block" }
@@ -117,6 +129,12 @@
 				id: "oritech:centrifuge_block"
 			}
 			id: "5FC9979B966955DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECFD08B60410EE1"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "23E25E62847B9FD8"
@@ -329,17 +347,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["60DC19DA26E8CCA4"]
-			id: "1C9B3AFB2E0D20AF"
-			tasks: [{
-				id: "05914A1DE818C066"
-				item: { count: 1, id: "oritech:atomic_forge_block" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["05F232C12FA99F92"]
 			id: "6849CF8933FC70F9"
 			tasks: [{
@@ -374,6 +381,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "194B43E06EF1CA8F"
 				item: { count: 1, id: "enderio:weather_obelisk" }
@@ -381,6 +389,71 @@
 			}]
 			x: 4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["60DC19DA26E8CCA4"]
+			icon: {
+				id: "oritech:atomic_forge_block"
+			}
+			id: "3B77FB0A8CFAAB97"
+			rewards: [
+				{
+					id: "4B5123C225E226F3"
+					item: {
+						count: 1
+						id: "oritech:target_designator"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D3F2CA0C7B7F2B8"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1040686340598200"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "4A2E8097B81C1B6C"
+					item: { count: 1, id: "oritech:atomic_forge_block" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B759D4770C13739"]
+			id: "03405336161EF1B5"
+			rewards: [
+				{
+					id: "777138547AE437BB"
+					item: {
+						count: 1
+						id: "oritech:machine_extender"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50EDC3E6D2111FBE"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5A4465B1F1B8673A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_addons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 }

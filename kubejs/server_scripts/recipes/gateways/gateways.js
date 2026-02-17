@@ -8,7 +8,7 @@ ServerEvents.generateData('before_mods', (event) => {
             rewards: [
                 {
                     type: 'gateways:stack_list',
-                    stacks: [{ id: 'enigmatica:borrowed_flame', count: 25 }]
+                    stacks: [{ id: 'enigmatica:borrowed_flame', count: 1 }]
                 }
             ],
             failures: [

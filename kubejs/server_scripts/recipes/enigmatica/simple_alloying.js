@@ -76,8 +76,8 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:conductive_alloy_ingot', count: 2 },
             inputs: [
-                { tag: 'c:ingots/copper', count: 1 },
-                { tag: 'c:ingots/infused_iron', count: 1 }
+                { tag: 'c:ingots/infused_iron', count: 1 },
+                { tag: 'c:ingots/copper', count: 1 }
             ],
             tier: 0,
             exclusions: [],
@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/hallowed_gold', count: 1 },
                 { item: 'malum:strange_crystal', count: 1 }
             ],
-            tier: 0,
+            tier: 1,
             exclusions: [],
             id_suffix: `energetic_alloy_ingot`
         },
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:gems/soulstone', count: 2 },
                 { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
-            tier: 2,
+            tier: 0,
             exclusions: ['create'],
             id_suffix: `soularium_ingot`
         },
@@ -119,7 +119,7 @@ ServerEvents.recipes((event) => {
                 { item: 'malum:crushed_soulstone', count: 1 },
                 { tag: 'aether:gems/zanite', count: 1 }
             ],
-            tier: 1,
+            tier: 0,
             exclusions: ['create'],
             id_suffix: `refined_soulstone`
         },
