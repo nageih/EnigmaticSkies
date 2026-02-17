@@ -5733,6 +5733,13 @@
 		""
 		"[ \"Check out the \", { \"text\": \"Applied Energistics Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"777EE0C4949DFE12\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on setting up an ME Network. \" ]"
 	]
+	quest.7EBB38BA04910A92.quest_desc: [
+		"A cooking pot worthy of any industrial kitchen, this beast can handle larger batches of ingredients at a time. "
+		""
+		"&6⚠ Note: This structure must be built in "
+		"&6    a warm biome, such as the Archwood "
+		"&6    Forest on the Blazing Island. "
+	]
 	quest.7EE93B81F83AD199.quest_desc: [
 		"Enchanting &7Clay&r appears to impart it with its own form of transmutation magic, though it seems to need to eat to work?"
 		""

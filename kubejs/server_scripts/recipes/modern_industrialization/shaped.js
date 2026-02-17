@@ -601,6 +601,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:steel_machine_casing',
             hull: 'modern_industrialization:advanced_machine_hull',
             covering: `#c:plates/andesite_alloy`,
+            mechanism: 'enigmatica:pulsating_mechanism',
             magnet: 'modern_industrialization:iron_rod_magnetic'
         },
         {
@@ -609,6 +610,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:clean_stainless_steel_machine_casing',
             hull: 'modern_industrialization:turbo_machine_hull',
             covering: `#c:plates/andesite_alloy`,
+            mechanism: 'enigmatica:pulsating_mechanism',
             magnet: 'modern_industrialization:steel_rod_magnetic'
         },
         {
@@ -617,6 +619,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:sky_machine_casing',
             hull: 'modern_industrialization:highly_advanced_machine_hull',
             covering: 'pneumaticcraft:plastic',
+            mechanism: 'enigmatica:tempestuous_mechanism',
             magnet: 'modern_industrialization:stainless_steel_rod_magnetic'
         },
         {
@@ -625,6 +628,7 @@ ServerEvents.recipes((event) => {
             casing: 'modern_industrialization:quantum_machine_casing',
             hull: 'modern_industrialization:quantum_machine_hull',
             covering: 'pneumaticcraft:plastic',
+            mechanism: 'enigmatica:tempestuous_mechanism',
             magnet: 'modern_industrialization:stainless_steel_rod_magnetic'
         }
     ];
@@ -633,11 +637,12 @@ ServerEvents.recipes((event) => {
         if (component.covering) {
             recipes.push({
                 output: component.hull,
-                pattern: [' A ', 'CBC', ' A '],
+                pattern: ['AAA', 'CBC', 'ADA'],
                 key: {
                     A: component.covering,
                     B: component.casing,
-                    C: `modern_industrialization:${component.material}_cable`
+                    C: `modern_industrialization:${component.material}_cable`,
+                    D: component.mechanism
                 },
                 id: `${id_prefix}${component.tier}_hull`
             });

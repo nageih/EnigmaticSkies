@@ -46,6 +46,12 @@
             "ars_nouveau:ritual_wilden_summon",
             "ars_additions:ritual_locate_structure",
             "ars_additions:source_spawner",
+            "ars_zero:augment_aoe_two",
+            "ars_zero:augment_aoe_three",
+            "ars_zero:augment_amplify_two",
+            "ars_zero:augment_amplify_three",
+            "not_enough_glyphs:glyph_momentum",
+            "ars_elemental:glyph_nullify_defense",
 
             "create:crushed_raw_zinc",
             "create:crushed_raw_platinum",

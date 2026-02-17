@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
         {
             entity: 'minecraft:shulker',
             egg: 'minecraft:shulker_spawn_egg',
-            block: 'minecraft:purpur_block',
+            block: 'arsdelight:bastion_jelly',
             spirit: 'naturesaura:calling_spirit'
         },
         {

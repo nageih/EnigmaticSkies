@@ -154,32 +154,43 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soap`
         },
         {
-            result: { id: 'enigmatica:wilden_sauce_bucket', count: 1 },
+            result: { id: 'arsdelight:wilden_sauce', count: 1 },
             ingredients: [
                 { item: 'arsdelight:wilden_horn_powder' },
                 { item: 'arsdelight:wilden_spike_powder' },
                 { item: 'ars_nouveau:wilden_wing' },
-                { item: 'occultism:tallow' },
                 { item: 'occultism:tallow' }
             ],
-            container: { id: 'minecraft:bucket', count: 1 },
+            container: { id: 'minecraft:bowl', count: 1 },
             experience: 0.1,
             recipe_book_tab: 'meals',
-            id: `${id_prefix}wilden_sauce_bucket`
+            id: `${id_prefix}wilden_sauce`
         },
         {
             result: { id: 'arsdelight:source_berry_tea', count: 1 },
             ingredients: [
                 { item: 'ars_nouveau:sourceberry_bush' },
                 { item: 'ars_nouveau:sourceberry_bush' },
-                { item: 'ars_nouveau:sourceberry_bush' },
-                { tag: 'arsdelight:leaves' },
-                { tag: 'c:sugars' }
+                { tag: 'arsdelight:barks' },
+                { tag: 'arsdelight:leaves' }
             ],
             container: { id: 'minecraft:glass_bottle', count: 1 },
             experience: 0.1,
             recipe_book_tab: 'drinks',
             id: `${id_prefix}source_berry_tea`
+        },
+        {
+            result: { id: 'arsdelight:source_berry_jam', count: 1 },
+            ingredients: [
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
+                { tag: 'arsdelight:barks' },
+                { tag: 'c:sugars' }
+            ],
+            container: { id: 'minecraft:glass_bottle', count: 1 },
+            experience: 0.1,
+            recipe_book_tab: 'misc',
+            id: `${id_prefix}source_berry_jam`
         }
     ];
 

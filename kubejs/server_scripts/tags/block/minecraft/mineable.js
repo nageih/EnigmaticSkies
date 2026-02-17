@@ -11,7 +11,8 @@ ServerEvents.tags('block', (event) => {
             'mi_tweaks:dilapidated_boiler',
             'mi_tweaks:settling_tank',
             'mi_tweaks:snack_packer'
-        ]
+        ],
+        axe: ['oritech:wither_crop_block']
     };
 
     Object.keys(additions).forEach((tag) => {

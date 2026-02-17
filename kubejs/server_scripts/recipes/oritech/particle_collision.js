@@ -76,18 +76,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}echo_shard`
         },
         {
-            results: [{ id: 'enderio:frank_n_zombie', count: 1 }],
-            ingredients: [{ item: 'malum:fused_consciousness' }, { item: 'enderio:z_logic_controller' }],
-            time: 5000,
-            id: `${id_prefix}frank_n_zombie`
-        },
-        {
-            results: [{ id: 'enderio:sentient_ender', count: 1 }],
-            ingredients: [{ item: 'malum:fused_consciousness' }, { item: 'enderio:ender_resonator' }],
-            time: 10000,
-            id: `${id_prefix}sentient_ender`
-        },
-        {
             results: [{ id: 'justdirethings:gooblock_tier4', count: 1 }],
             ingredients: [{ item: 'justdirethings:gooblock_tier3' }, { item: 'apothic_enchanting:warden_tendril' }],
             time: 1000,
@@ -126,13 +114,13 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'the_bumblezone:essence_knowing', count: 1 }],
-            ingredients: [{ tag: 'c:ingots/prometheum' }, { item: 'enderio:z_logic_controller' }],
+            ingredients: [{ tag: 'c:ingots/prometheum' }, { item: 'enderio:frank_n_zombie' }],
             time: 15000,
             id: `${id_prefix}essence_knowing`
         },
         {
             results: [{ id: 'the_bumblezone:essence_continuity', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:ender_resonator' }],
+            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:sentient_ender' }],
             time: 15000,
             id: `${id_prefix}essence_continuity`
         },

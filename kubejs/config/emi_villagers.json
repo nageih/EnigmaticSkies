@@ -273,7 +273,7 @@
 				"type": "item",
 				"id": "aether:holystone_hoe",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:silk_touch\":1.0,\"apothic_enchanting:natures_blessing\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:natures_blessing\":1.0,\"minecraft:silk_touch\":1.0}}}"
 			},
 			"id": "aether:holystone_hoe_from_minecraft:farmer"
 		},
@@ -2562,7 +2562,7 @@
 				"type": "item",
 				"id": "aether:holy_sword",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"minecraft:smite\":3.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0,\"ars_elemental:soulbound\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"minecraft:smite\":3.0,\"ars_elemental:soulbound\":1.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0}}}"
 			},
 			"id": "aether:holy_sword_from_minecraft:weaponsmith"
 		},
@@ -3536,7 +3536,7 @@
 				"type": "item",
 				"id": "minecraft:leather_chestplate",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:projectile_protection\":1.0,\"ars_nouveau:mana_regen\":1.0,\"minecraft:unbreaking\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_nouveau:mana_regen\":1.0,\"minecraft:projectile_protection\":1.0,\"minecraft:unbreaking\":1.0}}}"
 			},
 			"id": "minecraft:leather_chestplate_from_minecraft:leatherworker"
 		},
@@ -3583,7 +3583,7 @@
 				"type": "item",
 				"id": "minecraft:leather_leggings",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:blast_protection\":1.0,\"minecraft:swift_sneak\":1.0,\"ars_nouveau:mana_boost\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_nouveau:mana_boost\":1.0,\"minecraft:swift_sneak\":1.0,\"minecraft:blast_protection\":1.0}}}"
 			},
 			"id": "minecraft:leather_leggings_from_minecraft:leatherworker"
 		},

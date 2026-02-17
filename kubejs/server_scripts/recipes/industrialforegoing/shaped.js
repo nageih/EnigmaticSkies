@@ -96,7 +96,7 @@ ServerEvents.recipes((event) => {
                 B: '#c:tokens/water',
                 C: '#c:storage_blocks/empowered_diamatine',
                 D: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                E: 'enigmatica:pulsating_mechanism'
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}enchantment_applicator`
         },
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
                 B: '#c:tokens/fire',
                 C: '#c:storage_blocks/empowered_restonia',
                 D: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                E: 'enigmatica:pulsating_mechanism'
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}potion_brewer`
         },
@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
                 B: '#c:tokens/air',
                 C: '#c:storage_blocks/empowered_void',
                 D: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                E: 'enigmatica:pulsating_mechanism'
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}enchantment_extractor`
         },
@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
                 B: '#c:tokens/earth',
                 C: '#c:storage_blocks/empowered_emeradic',
                 D: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                E: 'enigmatica:pulsating_mechanism'
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}material_stonework_factory`
         },
@@ -169,7 +169,7 @@ ServerEvents.recipes((event) => {
                 B: 'starbunclemania:fluid_jar',
                 C: 'minecraft:conduit',
                 D: 'modern_industrialization:clean_stainless_steel_machine_casing',
-                E: '#c:gems/weather_crystal'
+                E: 'enigmatica:tempestuous_mechanism'
             },
             id: `${id_prefix}fluid_laser_base`
         },
