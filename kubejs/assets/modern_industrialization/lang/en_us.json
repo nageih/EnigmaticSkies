@@ -38,8 +38,8 @@
     "rei_categories.modern_industrialization.steam_kiln": "Steam Kiln",
     "rei_categories.modern_industrialization.electric_kiln": "Electric Kiln",
 
-    "block.modern_industrialization.electric_cauldron": "Electric Cauldron",
-    "rei_categories.modern_industrialization.electric_cauldron": "Electric Cauldron",
+    "block.modern_industrialization.industrial_cauldron": "Industrial Cauldron",
+    "rei_categories.modern_industrialization.industrial_cauldron": "Industrial Cauldron",
 
     "block.modern_industrialization.steam_alembic": "Steam Alembic",
     "block.modern_industrialization.electric_alembic": "Electric Alembic",

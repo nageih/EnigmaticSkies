@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "modern_industrialization:electric_cauldron"
+          "name": "modern_industrialization:industrial_cauldron"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "modern_industrialization:blocks/electric_cauldron"
+  "random_sequence": "modern_industrialization:blocks/industrial_cauldron"
 }
