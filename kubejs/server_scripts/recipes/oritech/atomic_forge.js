@@ -30,6 +30,27 @@ ServerEvents.recipes((event) => {
             ],
             time: 60,
             id: `${id_prefix}quantum_upgrade`
+        },
+
+        {
+            results: [{ id: 'enderio:frank_n_zombie', count: 1 }],
+            ingredients: [
+                { item: 'enderio:z_logic_controller' },
+                { item: 'malum:fused_consciousness' },
+                { item: 'malum:imitation_heart' }
+            ],
+            time: 15,
+            id: `${id_prefix}frank_n_zombie`
+        },
+        {
+            results: [{ id: 'enderio:sentient_ender', count: 1 }],
+            ingredients: [
+                { item: 'enderio:ender_resonator' },
+                { item: 'malum:fused_consciousness' },
+                { item: 'malum:imitation_heart' }
+            ],
+            time: 30,
+            id: `${id_prefix}sentient_ender`
         }
     ];
 
