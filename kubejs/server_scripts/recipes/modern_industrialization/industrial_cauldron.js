@@ -536,9 +536,10 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}neutralized_frostaya_jam`
         },
         {
-            item_outputs: [{ item: 'arsdelight:source_berry_jam' }],
+            item_outputs: [{ item: 'arsdelight:source_berry_jam', amount: 1 }],
             item_inputs: [
-                { item: 'ars_nouveau:sourceberry_bush', amount: 3 },
+                { item: 'ars_nouveau:sourceberry_bush', amount: 2 },
+                { tag: 'arsdelight:barks', amount: 1 },
                 { tag: 'c:sugars', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
@@ -675,7 +676,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}source_berry_hornbeer`
         },
         {
-            item_outputs: [{ item: 'arsdelight:wilden_stew' }],
+            item_outputs: [{ item: 'arsdelight:wilden_stew', amount: 1 }],
             item_inputs: [
                 { tag: 'arsdelight:raw_wilden_meat', amount: 1 },
                 { tag: 'c:foods/tomato', amount: 1 },
@@ -808,13 +809,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}source_berry_cupcake`
         },
         {
-            item_outputs: [{ item: 'arsdelight:wilden_sauce', amount: 4 }],
+            item_outputs: [{ item: 'arsdelight:wilden_sauce', amount: 1 }],
             item_inputs: [
                 { item: 'arsdelight:wilden_horn_powder', amount: 1 },
                 { item: 'arsdelight:wilden_spike_powder', amount: 1 },
                 { item: 'ars_nouveau:wilden_wing', amount: 1 },
-                { item: 'occultism:tallow', amount: 2 },
-                { item: 'minecraft:bowl', amount: 4 }
+                { item: 'occultism:tallow', amount: 1 },
+                { item: 'minecraft:bowl', amount: 1 }
             ],
             duration: 10,
             eu: 16,
@@ -853,11 +854,11 @@ ServerEvents.recipes((event) => {
 
         if (!recipe.no_batch) {
             recipe.item_outputs = recipe.item_outputs.map((stack) => {
-                stack.amount *= 16;
+                stack.amount *= 64;
                 return stack;
             });
             recipe.item_inputs = recipe.item_inputs.map((stack) => {
-                stack.amount *= 16;
+                stack.amount *= 64;
                 return stack;
             });
         }
