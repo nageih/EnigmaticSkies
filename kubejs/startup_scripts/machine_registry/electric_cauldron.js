@@ -18,11 +18,11 @@
 
 // Casings: https://github.com/AztechMC/Modern-Industrialization/blob/8574d53686c0785ce5deac3b103d2239faca2a4c/src/main/java/aztech/modern_industrialization/machines/models/MachineCasings.java
 
-let ELECTRIC_CAULDRON;
+let INDUSTRIAL_CAULDRON;
 
 MIMachineEvents.registerRecipeTypes((event) => {
-    ELECTRIC_CAULDRON = event
-        .register('electric_cauldron')
+    INDUSTRIAL_CAULDRON = event
+        .register('industrial_cauldron')
         .withItemInputs()
         .withItemOutputs()
         .withFluidInputs()
@@ -59,9 +59,9 @@ MIMachineEvents.registerMachines((event) => {
     event.simpleElectricCraftingMultiBlock(
         /* GENERAL PARAMETERS */
         // English name, internal name, recipe type, multiblock shape
-        'Electric Cauldron',
-        'electric_cauldron',
-        ELECTRIC_CAULDRON,
+        'Industrial Cauldron',
+        'industrial_cauldron',
+        INDUSTRIAL_CAULDRON,
         mbShape,
         /* RECIPE VIEWER DISPLAY CONFIGURATION */
         // Recipe Viewer progress bar

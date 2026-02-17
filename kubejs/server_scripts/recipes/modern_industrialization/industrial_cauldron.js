@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:modern_industrialization/electric_cauldron/';
+    const id_prefix = 'enigmatica:modern_industrialization/industrial_cauldron/';
 
     const recipes = [
         {
@@ -848,7 +848,7 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        recipe.type = 'modern_industrialization:electric_cauldron';
+        recipe.type = 'modern_industrialization:industrial_cauldron';
         recipe.duration *= 20;
 
         if (!recipe.no_batch) {

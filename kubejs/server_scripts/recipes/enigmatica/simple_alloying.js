@@ -79,7 +79,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/copper', count: 1 },
                 { tag: 'c:ingots/infused_iron', count: 1 }
             ],
-            tier: 0,
+            tier: 1,
             exclusions: [],
             id_suffix: `conductive_alloy_ingot`
         },
@@ -89,7 +89,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/hallowed_gold', count: 1 },
                 { item: 'malum:strange_crystal', count: 1 }
             ],
-            tier: 0,
+            tier: 1,
             exclusions: [],
             id_suffix: `energetic_alloy_ingot`
         },
@@ -99,7 +99,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/infused_iron', count: 1 },
                 { tag: 'c:dusts/grains_of_pizeallity', count: 1 }
             ],
-            tier: 0,
+            tier: 1,
             exclusions: [],
             id_suffix: `pulsating_alloy_ingot`
         },
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:gems/soulstone', count: 2 },
                 { tag: 'c:ingots/hallowed_gold', count: 1 }
             ],
-            tier: 2,
+            tier: 1,
             exclusions: ['create'],
             id_suffix: `soularium_ingot`
         },
