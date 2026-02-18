@@ -373,5 +373,27 @@
 			x: 1.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "0963C14E9AF5A836"
+			tasks: [{
+				id: "7660A3F10F0C4450"
+				item: { count: 1, id: "enderio:wired_charger" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "12E0E45FC08A5912"
+			tasks: [{
+				id: "05D3A1B39FC0F352"
+				item: { count: 1, id: "wirelesschargers:basic_wireless_player_charger" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
 	]
 }

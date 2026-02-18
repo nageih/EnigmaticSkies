@@ -797,6 +797,11 @@
 		"&a    breaking the crops. "
 	]
 	quest.136AD444BD07EFCF.title: "Crop Farming"
+	quest.136EC4060E233E16.quest_desc: [
+		"Construction Sticks help with mass placement of blocks, such as for building out walls and floors. "
+		""
+		"They offer a variety of options out of the box, but can be upgraded with new features by applying a Template in a Smithing Table.  "
+	]
 	quest.136FD7D7C0EECAE3.quest_desc: [
 		"The first step to making our own &7Oil&r is, of course, lots of organic material. "
 		""
@@ -4844,6 +4849,11 @@
 		"&6  again in the same spot to refresh the island."
 	]
 	quest.6BA05AC6ECC577DA.title: "Lush Garden "
+	quest.6C4A7BF577605E4A.quest_desc: [
+		"The &7Time Wand&r uses Time Fluid and Energy to drastically accelerate machines for a brief period. "
+		""
+		"Simply Sneak + Right Click on a machine to apply stacking boosts up to 256x speed.   "
+	]
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
 		"Animate a Wilden Pack Hunter and harvest it for parts."
@@ -5967,6 +5977,7 @@
 	task.4DBE23AE12CB9448.title: "Observe Black Hole"
 	task.4EAFCD169CB43E2D.title: "Hearth and Home"
 	task.4F21DF4EFC469AAC.title: "Fluid Output Hatch"
+	task.4FE55FEB08DFF115.title: "Construction Sticks"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
 	task.5243C7DE02D7AA20.title: "Armor Insulation"

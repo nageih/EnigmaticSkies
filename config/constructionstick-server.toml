@@ -32,7 +32,7 @@
 	durability = 256
 	# Default: 10000
 	# Range: > 1
-	batteryStorage = 10000
+	batteryStorage = 20000
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
@@ -59,7 +59,7 @@
 	durability = 1024
 	# Default: 25000
 	# Range: > 1
-	batteryStorage = 25000
+	batteryStorage = 80000
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
@@ -86,7 +86,7 @@
 	durability = 4096
 	# Default: 100000
 	# Range: > 1
-	batteryStorage = 100000
+	batteryStorage = 320000
 	#Battery power storage
 	# Default: 10
 	# Range: > 1
@@ -113,7 +113,7 @@
 	durability = 16384
 	# Default: 200000
 	# Range: > 1
-	batteryStorage = 200000
+	batteryStorage = 1280000
 	#Battery power storage
 	# Default: 10
 	# Range: > 1

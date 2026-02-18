@@ -1258,6 +1258,9 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/logs_to_sticks' },
         { output: 'utilitarian:angel_block' },
 
+        // Wireless Chargers
+        { mod: 'wirelesschargers' },
+
         // Ore Processing Removals
         { input: '#c:ores' },
         { input: '#c:raw_materials/uranium' },
