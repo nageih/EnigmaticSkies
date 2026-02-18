@@ -472,5 +472,27 @@
 			x: 0.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["60DC19DA26E8CCA4"]
+			id: "3BBFA042D4C4EA4E"
+			tasks: [{
+				id: "7C73F828F5C8A7C9"
+				item: { count: 1, id: "extended_industrialization:processing_array" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60DC19DA26E8CCA4"]
+			id: "5A5706DE9011B222"
+			tasks: [{
+				id: "3AA5F6775182A086"
+				item: { count: 1, id: "extended_industrialization:tesla_tower" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
 	]
 }

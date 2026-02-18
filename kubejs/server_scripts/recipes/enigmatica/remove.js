@@ -545,6 +545,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/iridescent_ether' },
         { id: 'malum:spirit_infusion/paracausal_flame' },
         { id: 'malum:spirit_infusion/alchemical_calx' },
+        { id: 'malum:spirit_infusion/hex_ash' },
         { id: 'malum:spirit_altar' },
         { id: 'malum:zombie_head_from_grim_talc' },
         { id: 'malum:skeleton_skull_from_grim_talc' },

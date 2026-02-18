@@ -321,6 +321,13 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}alchemical_calx`
         },
+        {
+            result: { id: 'malum:hex_ash', count: 8 },
+            input: { tag: 'c:gunpowders', count: 8 },
+            extraInputs: [],
+            spirits: [{ type: 'malum:arcane', count: 8 }],
+            id: `${id_prefix}hex_ash`
+        },
 
         {
             result: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
