@@ -72,15 +72,15 @@ const reapingData = [
 
     {
         registry_name: 'ars_nouveau:wilden_hunter',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_horn' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_horn' }, chance: '1.0', min: '2', max: '2' }]
     },
     {
         registry_name: 'ars_nouveau:wilden_guardian',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_spike' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_spike' }, chance: '1.0', min: '2', max: '4' }]
     },
     {
         registry_name: 'ars_nouveau:wilden_stalker',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_wing' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_wing' }, chance: '1.0', min: '2', max: '2' }]
     }
 ];
 

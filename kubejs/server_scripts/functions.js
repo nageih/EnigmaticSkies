@@ -130,6 +130,20 @@ function getStarCoordinates(x, y, z, radius, num_points, density) {
     return coordinates;
 }
 
+function getCoordinateGrid(points, startX, startZ, spacing) {
+    const gridCoordinates = [];
+    for (let j = points / -2; j < points / 2; j++) {
+        for (let i = points / -2; i < points / 2; i++) {
+            let coords = {
+                x: startX + i * spacing,
+                z: startZ + j * spacing
+            };
+            gridCoordinates.push(coords);
+        }
+    }
+    return gridCoordinates;
+}
+
 function getCircleCoordinates(x, y, z, radius, density) {
     let circumference = 2 * 3.14159 * radius;
     let num_points = Math.floor(circumference * density);
