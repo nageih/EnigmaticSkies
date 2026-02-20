@@ -1,14 +1,11 @@
-const FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI').api();
-const FTBChunkDimPos = Java.loadClass('dev.ftb.mods.ftblibrary.math.ChunkDimPos');
-
 OritechEvents.particleCollided((event) => {
     const { level, pos, controller, collisionPos, itemA, itemB, speed, recipeId, recipe } = event;
+    const server = level.getServer();
     const dimension = String(level.getDimension());
     const execute = `execute in ${dimension} run`;
-    const server = level.getServer();
-    const source = server.createCommandSourceStack();
 
     if (recipeId == null) return;
+    // console.log(collisionPos);
 
     if (String(recipeId).includes('gate_pearl')) {
         let entity = level.getBlock(collisionPos).createEntity('minecraft:item');
@@ -44,28 +41,17 @@ OritechEvents.particleCollided((event) => {
         commands.forEach((command) => {
             server.scheduleInTicks(command.delay, () => {
                 server.runCommandSilent(`${command.parameters}`);
-                // console.log(command.parameters);
+                console.log(command.parameters);
             });
         });
 
-        // Somebody set up us the bomb
-        let entity = level.getBlock(collisionPos).createEntity('industrialforegoing:infinity_nuke');
-        entity.mergeNbt({ Radius: radius, Exploding: true, Armed: true, NoGravity: true });
-        entity.setY(collisionPos.y - 50);
-        entity.spawn();
+        server.scheduleInTicks(1, () => {
+            console.log(`Summoning Noodle: ${collisionPos}`);
+            summonDangerNoodle(event, collisionPos, radius);
+        });
 
-        let points = Math.floor(radius / 16);
-        let positions = getCoordinateGrid(points, collisionPos.x, collisionPos.z, 16);
-
-        positions.forEach((position) => {
-            let gridPos = new BlockPos(position.x, 0, position.z);
-            let claimPos = FTBChunkDimPos(level, gridPos);
-            let chunk = FTBChunksAPI.manager.getChunk(claimPos);
-
-            if (chunk) {
-                // console.log(chunk);
-                chunk.unclaim(source, true);
-            }
+        server.scheduleInTicks(35 * 20, () => {
+            forceUnclaim(server, level, pos, radius);
         });
     }
 });

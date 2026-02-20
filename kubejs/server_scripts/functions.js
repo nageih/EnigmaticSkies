@@ -262,3 +262,23 @@ function convertToEntity(event, entity, mobData) {
         });
     }
 }
+
+function summonDangerNoodle(event, pos, radius) {
+    const { level } = event;
+    let entity = level.getBlock(pos).createEntity('industrialforegoing:infinity_nuke');
+    entity.mergeNbt({ Radius: radius, Exploding: true, Armed: true, NoGravity: true });
+    entity.setY(pos.y - 2);
+    entity.spawn();
+}
+
+function forceUnclaim(server, level, pos, radius) {
+    let source = server.createCommandSourceStack();
+    let points = Math.floor(radius / 16);
+    let coordinates = getCoordinateGrid(points, pos.x, pos.z, 16);
+
+    coordinates.forEach((coord) => {
+        let pos = new BlockPos(coord.x, 0, coord.z);
+        let chunk = FTBChunksAPI.manager.getChunk(FTBChunkDimPos(level, pos));
+        if (chunk) chunk.unclaim(source, true);
+    });
+}
