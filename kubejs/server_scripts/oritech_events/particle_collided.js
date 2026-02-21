@@ -1,3 +1,5 @@
+// https://docs.almostreliable.com/kubejs-oritech/event/particle/collided.html
+
 OritechEvents.particleCollided((event) => {
     const { level, pos, controller, collisionPos, itemA, itemB, speed, recipeId, recipe } = event;
     const server = level.getServer();

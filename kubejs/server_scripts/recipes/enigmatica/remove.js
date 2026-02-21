@@ -1224,6 +1224,8 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:incubation' },
         { type: 'theurgy:reformation' },
         { type: 'theurgy:liquefaction' },
+        { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
+        { output: /theurgy:crystallized_(water|lava)/ },
         { output: 'theurgy:sal_ammoniac_accumulator' },
         { output: 'theurgy:sal_ammoniac_tank' },
         { output: 'theurgy:pyromantic_brazier' },
@@ -1233,11 +1235,9 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:distiller' },
         { output: 'theurgy:caloric_flux_emitter' },
         { output: 'theurgy:mercury_catalyst' },
-        { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
         { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
         { output: 'theurgy:mercurial_wand' },
-        { output: /theurgy:crystallized_(water|lava)/ },
         { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
 
         // Tool Belt

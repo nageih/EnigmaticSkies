@@ -603,8 +603,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:evoker',
         spirits: [
-            { spirit: 'malum:wicked', count: 8 },
-            { spirit: 'malum:aerial', count: 8 }
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:aerial', count: 12 }
         ]
     },
     {
@@ -759,8 +759,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:pillager',
         spirits: [
-            { spirit: 'malum:wicked', count: 8 },
-            { spirit: 'malum:earthen', count: 8 }
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:earthen', count: 12 }
         ]
     },
     {
@@ -916,8 +916,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:vindicator',
         spirits: [
-            { spirit: 'malum:wicked', count: 8 },
-            { spirit: 'malum:infernal', count: 8 }
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:infernal', count: 12 }
         ]
     },
     {
@@ -934,8 +934,8 @@ const spiritData = [
     {
         registry_name: 'minecraft:witch',
         spirits: [
-            { spirit: 'malum:wicked', count: 8 },
-            { spirit: 'malum:aqueous', count: 8 }
+            { spirit: 'malum:wicked', count: 12 },
+            { spirit: 'malum:aqueous', count: 12 }
         ]
     },
     {

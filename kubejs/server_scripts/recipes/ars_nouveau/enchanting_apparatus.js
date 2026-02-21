@@ -267,7 +267,7 @@ ServerEvents.recipes((event) => {
         },
 
         {
-            result: { id: 'naturesaura:token_joy', count: 4 },
+            result: { id: 'naturesaura:token_joy', count: 1 },
             reagent: { item: 'supplementaries:statue' },
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
@@ -284,7 +284,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}token_joy`
         },
         {
-            result: { id: 'naturesaura:token_fear', count: 4 },
+            result: { id: 'naturesaura:token_fear', count: 1 },
             reagent: { item: 'supplementaries:statue' },
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
@@ -301,7 +301,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}token_fear`
         },
         {
-            result: { id: 'naturesaura:token_anger', count: 4 },
+            result: { id: 'naturesaura:token_anger', count: 1 },
             reagent: { item: 'supplementaries:statue' },
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
@@ -318,7 +318,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}token_anger`
         },
         {
-            result: { id: 'naturesaura:token_sorrow', count: 4 },
+            result: { id: 'naturesaura:token_sorrow', count: 1 },
             reagent: { item: 'supplementaries:statue' },
             pedestalItems: [
                 { item: 'ars_technica:calibrated_precision_mechanism' },
@@ -671,19 +671,6 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: false,
             sourceCost: 5000,
             id: `${id_prefix}scryers_linkage`
-        },
-        {
-            result: { id: 'enigmatica:warded_vessel', count: 1 },
-            reagent: { item: 'enigmatica:stoneware_vessel' },
-            pedestalItems: [
-                { item: 'malum:rune_of_stone_ward' },
-                { item: 'malum:rune_of_stone_ward' },
-                { item: 'malum:rune_of_stone_ward' },
-                { item: 'malum:rune_of_stone_ward' }
-            ],
-            keepNbtOfReagent: false,
-            sourceCost: 5000,
-            id: `${id_prefix}warded_vessel`
         },
         {
             result: { id: 'extended_industrialization:nano_gravichestplate', count: 1 },

@@ -51,6 +51,16 @@ ServerEvents.recipes((event) => {
             ],
             time: 30,
             id: `${id_prefix}sentient_ender`
+        },
+        {
+            results: [{ id: 'enigmatica:warded_vessel', count: 1 }],
+            ingredients: [
+                { item: 'enigmatica:stoneware_vessel' },
+                { item: 'malum:rune_of_stone_ward' },
+                { item: 'malum:rune_of_stone_ward' }
+            ],
+            time: 30,
+            id: `${id_prefix}warded_vessel`
         }
     ];
 
