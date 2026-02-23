@@ -224,7 +224,7 @@ function convertToEntity(event, entity, mobData) {
 
     let commands = [
         `fill ${block.x} ${effect.y} ${block.z} ${block.x} ${effect.y} ${block.z} air replace`,
-        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`
+        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`
     ];
 
     // Inject VFX
@@ -247,17 +247,17 @@ function convertToEntity(event, entity, mobData) {
     for (let i = 1; i <= 3; i++) {
         let ticks = i * 20;
         server.scheduleInTicks(ticks + 5, () => {
-            let command = `playsound minecraft:entity.warden.heartbeat master @p ${effect.x} ${effect.y} ${effect.z} 1.0 0.5 1.0`;
+            let command = `playsound minecraft:entity.warden.heartbeat block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 0.5 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
 
         server.scheduleInTicks(ticks, () => {
-            let command = `playsound supplementaries:block.clock.tick_2 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
+            let command = `playsound supplementaries:block.clock.tick_2 block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
 
         server.scheduleInTicks(ticks + 10, () => {
-            let command = `playsound supplementaries:block.clock.tick_1 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
+            let command = `playsound supplementaries:block.clock.tick_1 block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
     }

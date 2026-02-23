@@ -72,8 +72,8 @@ ServerEvents.recipes((event) => {
         {
             id: 'enigmatica:briny_dorodango',
             item_outputs: [
-                { item: 'aquaculture:neptunium_nugget', amount: 3, probability: 1 / 3 },
-                { item: 'ae2:certus_quartz_crystal', amount: 2, probability: 1 / 3 },
+                { item: 'ae2:certus_quartz_crystal', amount: 3, probability: 1 / 3 },
+                { item: 'aquaculture:neptunium_nugget', amount: 2, probability: 1 / 3 },
                 { item: 'minecraft:lapis_lazuli', amount: 1, probability: 1 / 3 }
             ]
         },
