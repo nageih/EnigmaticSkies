@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'oritech:enderic_compound', count: 16 }],
-            ingredients: [{ tag: 'c:gems/ender_crystal' }, { tag: 'c:nuggets/dark_steel' }],
+            ingredients: [{ tag: 'c:gems/ender_crystal' }, { tag: 'c:ingots/dark_steel' }],
             time: 100,
             id: `${id_prefix}enderic_compound`
         },
