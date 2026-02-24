@@ -5,7 +5,7 @@
 	filename: "natures_aura"
 	group: "440488E780593120"
 	icon: {
-		id: "naturesaura:birth_spirit"
+		id: "malum:earthen_spirit"
 	}
 	id: "70FCD34EEFA2F001"
 	order_index: 5

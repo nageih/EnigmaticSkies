@@ -4,7 +4,7 @@
 	filename: "replication"
 	group: "440488E780593120"
 	icon: {
-		id: "replication:memory_chip"
+		id: "malum:infernal_spirit"
 	}
 	id: "13C15ACA23526F9E"
 	order_index: 7
