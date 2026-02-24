@@ -5,10 +5,7 @@
 	filename: "natures_aura"
 	group: "440488E780593120"
 	icon: {
-		components: {
-			"patchouli:book": "naturesaura:book"
-		}
-		id: "patchouli:guide_book"
+		id: "naturesaura:birth_spirit"
 	}
 	id: "70FCD34EEFA2F001"
 	order_index: 5

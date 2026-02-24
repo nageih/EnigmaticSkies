@@ -5,10 +5,7 @@
 	filename: "7F17CDF8564DCC49"
 	group: "440488E780593120"
 	icon: {
-		components: {
-			"patchouli:book": "geneticsresequenced:guide"
-		}
-		id: "patchouli:guide_book"
+		id: "geneticsresequenced:gmo_cell"
 	}
 	id: "7F17CDF8564DCC49"
 	order_index: 2
