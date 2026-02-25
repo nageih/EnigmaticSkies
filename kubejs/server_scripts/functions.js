@@ -130,6 +130,20 @@ function getStarCoordinates(x, y, z, radius, num_points, density) {
     return coordinates;
 }
 
+function getCoordinateGrid(points, startX, startZ, spacing) {
+    const gridCoordinates = [];
+    for (let j = points / -2; j < points / 2; j++) {
+        for (let i = points / -2; i < points / 2; i++) {
+            let coords = {
+                x: startX + i * spacing,
+                z: startZ + j * spacing
+            };
+            gridCoordinates.push(coords);
+        }
+    }
+    return gridCoordinates;
+}
+
 function getCircleCoordinates(x, y, z, radius, density) {
     let circumference = 2 * 3.14159 * radius;
     let num_points = Math.floor(circumference * density);
@@ -210,7 +224,7 @@ function convertToEntity(event, entity, mobData) {
 
     let commands = [
         `fill ${block.x} ${effect.y} ${block.z} ${block.x} ${effect.y} ${block.z} air replace`,
-        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`
+        `playsound the_bumblezone:entity.the_bumblezone.cosmic_crystal_entity.crash_charge block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`
     ];
 
     // Inject VFX
@@ -233,18 +247,44 @@ function convertToEntity(event, entity, mobData) {
     for (let i = 1; i <= 3; i++) {
         let ticks = i * 20;
         server.scheduleInTicks(ticks + 5, () => {
-            let command = `playsound minecraft:entity.warden.heartbeat master @p ${effect.x} ${effect.y} ${effect.z} 1.0 0.5 1.0`;
+            let command = `playsound minecraft:entity.warden.heartbeat block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 0.5 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
 
         server.scheduleInTicks(ticks, () => {
-            let command = `playsound supplementaries:block.clock.tick_2 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
+            let command = `playsound supplementaries:block.clock.tick_2 block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
 
         server.scheduleInTicks(ticks + 10, () => {
-            let command = `playsound supplementaries:block.clock.tick_1 master @p ${effect.x} ${effect.y} ${effect.z} 1.0 1.0 1.0`;
+            let command = `playsound supplementaries:block.clock.tick_1 block @a[x=${effect.x},y=${effect.y},z=${effect.z},distance=..20] ~ ~ ~ 1.0 1.0 1.0`;
             server.runCommandSilent(`${execute} ${command}`);
         });
     }
+}
+
+function summonDangerNoodle(event, pos, radius) {
+    const { level } = event;
+
+    let points = Math.floor(radius / 16);
+    let coordinates = getCoordinateGrid(points, pos.x, pos.z, 16);
+
+    coordinates.forEach((coord) => {
+        let entityPos = new BlockPos(coord.x, pos.y - 2, coord.z);
+        let entity = level.getBlock(entityPos).createEntity('industrialforegoing:infinity_nuke');
+        entity.mergeNbt({ Radius: 32, Exploding: true, Armed: true, NoGravity: true });
+        entity.spawn();
+    });
+}
+
+function forceUnclaim(server, level, pos, radius) {
+    let source = server.createCommandSourceStack();
+    let points = Math.floor(radius / 16);
+    let coordinates = getCoordinateGrid(points, pos.x, pos.z, 16);
+
+    coordinates.forEach((coord) => {
+        let pos = new BlockPos(coord.x, 0, coord.z);
+        let chunk = FTBChunksAPI.manager.getChunk(FTBChunkDimPos(level, pos));
+        if (chunk) chunk.unclaim(source, true);
+    });
 }

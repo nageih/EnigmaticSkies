@@ -182,6 +182,11 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:doughs/wheat'
         },
         {
+            filter: { output: 'create:purple_seat' },
+            to_replace: 'minecraft:purple_wool',
+            replace_with: Ingredient.of(['minecraft:purple_wool', 'ars_nouveau:magebloom_block'])
+        },
+        {
             filter: [{ output: /modern_industrialization:(item|fluid)_pipe/ }],
             to_replace: 'minecraft:water_bucket',
             replace_with: '#ae2:can_remove_color'

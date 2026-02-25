@@ -73,7 +73,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
-            level: 1
+            level: 1,
+            id_suffix: 'enchanted_holystone_hoe'
         },
 
         {
@@ -325,7 +326,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
-            level: 5
+            level: 5,
+            id_suffix: 'enchanted_butcher_knife'
         }
     ],
     // Coffee Maker
@@ -442,12 +444,14 @@ const villagerTrades = {
         {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'potion_flying'
         },
         {
             result: { id: 'minecraft:potion[potion_contents={potion:"apothic_attributes:knowledge"}]', count: 1 },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'potion_knowledge'
         },
 
         {
@@ -537,7 +541,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:jaxs_snax', count: { min: 1, max: 1 } }],
-            level: 1
+            level: 1,
+            id_suffix: 'enchanted_candy_cane_sword'
         },
 
         {
@@ -546,7 +551,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
-            level: 2
+            level: 2,
+            id_suffix: 'enchanted_zanite_sword'
         },
         {
             result: {
@@ -554,7 +560,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
-            level: 2
+            level: 2,
+            id_suffix: 'enchanted_zanite_axe'
         },
 
         {
@@ -563,7 +570,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'enchanted_vampire_blade'
         },
         {
             result: {
@@ -571,7 +579,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'enchanted_flaming_sword'
         },
 
         {
@@ -580,7 +589,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 4,
+            id_suffix: 'enchanted_crude_scythe'
         },
         {
             result: {
@@ -588,7 +598,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 4,
+            id_suffix: 'enchanted_skillet'
         },
 
         {
@@ -597,7 +608,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
-            level: 5
+            level: 5,
+            id_suffix: 'enchanted_holy_sword'
         },
         {
             result: {
@@ -605,7 +617,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:cozy_cauldron', count: { min: 1, max: 1 } }],
-            level: 5
+            level: 5,
+            id_suffix: 'enchanted_valkyrie_lance'
         }
     ],
     // Blast Furnace
@@ -729,7 +742,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
-            level: 2
+            level: 2,
+            id_suffix: 'matter_blueprint_logic_processor'
         },
         {
             result: {
@@ -737,7 +751,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
-            level: 2
+            level: 2,
+            id_suffix: 'matter_blueprint_engineering_processor'
         },
 
         {
@@ -746,7 +761,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'matter_blueprint_calculation_processor'
         },
         {
             result: {
@@ -754,7 +770,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 4, max: 8 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'matter_blueprint_quantum_circuit'
         },
 
         {
@@ -779,7 +796,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 4, max: 8 } }],
-            level: 5
+            level: 5,
+            id_suffix: 'matter_blueprint_elemental_matrix'
         }
     ],
     // PNC Charging Station
@@ -842,7 +860,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:bun_believable_burger', count: { min: 1, max: 1 } }],
-            level: 1
+            level: 1,
+            id_suffix: 'enchanted_leather_helmet'
         },
         {
             result: { id: 'toolbelt:belt', count: 1 },
@@ -856,7 +875,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:flyin_fox', count: { min: 1, max: 1 } }],
-            level: 2
+            level: 2,
+            id_suffix: 'enchanted_leather_chestplate'
         },
         {
             result: { id: 'toolbelt:pouch', count: 1 },
@@ -870,7 +890,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:braising_cain', count: { min: 1, max: 1 } }],
-            level: 3
+            level: 3,
+            id_suffix: 'enchanted_leather_leggings'
         },
         {
             result: { id: 'sophisticatedbackpacks:backpack', count: 1 },
@@ -884,7 +905,8 @@ const villagerTrades = {
                 count: 1
             },
             ingredients: [{ id: 'enigmatica:sheep_eatin_green', count: { min: 1, max: 1 } }],
-            level: 4
+            level: 4,
+            id_suffix: 'enchanted_leather_boots'
         },
         {
             result: { id: 'not_enough_glyphs:spell_binder', count: 1 },

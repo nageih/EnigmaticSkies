@@ -797,6 +797,11 @@
 		"&a    breaking the crops. "
 	]
 	quest.136AD444BD07EFCF.title: "Crop Farming"
+	quest.136EC4060E233E16.quest_desc: [
+		"Construction Sticks help with mass placement of blocks, such as for building out walls and floors. "
+		""
+		"They offer a variety of options out of the box, but can be upgraded with new features by applying a Template in a Smithing Table.  "
+	]
 	quest.136FD7D7C0EECAE3.quest_desc: [
 		"The first step to making our own &7Oil&r is, of course, lots of organic material. "
 		""
@@ -1994,9 +1999,9 @@
 	quest.304838EDEC32DE97.quest_desc: [
 		"Thank you for playing &n&6Enigmatic Skies&r! We hope you enjoyed your time here!"
 		""
-		"                           &6&nFurther Reading&r"
+		"                    &6&nFurther Reading&r"
 		""
-		"Inspiration comes from many sources and while there are some portions of this pack that draw on European traditions, it would be fair to say that the pack likely wouldn’t exist were it not for inspiration drawn from the myths and sacred stories of the native peoples of North America. "
+		"Inspiration comes from many sources and while there are some portions of this pack that draw on European traditions, it would be fair to say that the pack wouldn’t exist were it not for inspiration drawn from the myths and sacred stories of the native peoples of North America. "
 		""
 		"If you’re interested in learning more, please check out the links below."
 		""
@@ -2852,6 +2857,15 @@
 		"&a    area."
 	]
 	quest.410225ED927857D4.title: "Animal Farming"
+	quest.414458433C4734C6.quest_desc: [
+		"When the woman returned to the Earth, she looked around to see that life was flourishing in the new cycle. The animals, once her teachers and companions, had multiplied and spread across the land. "
+		""
+		"The world was blooming, but the woman felt alone again. She had learned much but now had no one with whom to share her knowledge. And so, she decided to create a new people."
+		""
+		"With her hands she dug into the damp earth, molding the clay there into her likeness. With the heat of her fire, she hardened the clay. With the breath in her lungs, she breathed life into the clay. "
+		""
+		"With the words in her heart, she taught the new people of the animals and the land. Taught them to hunt and to tend, to plant and to harvest. She taught them to tend to the fires, to create."
+	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -4684,7 +4698,6 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
-	quest.68FDE7C7357F9B5A.quest_desc: [""]
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""
@@ -4832,7 +4845,7 @@
 		""
 		"So, if anything is in the way, you may miss out on important blocks."
 		""
-		"Use a &7Potion of Flying&r to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on."
+		"Use the &7Potion of Flying&r from the previous quest to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on."
 		""
 		"Your &7Ritual Brazier&r may then be set atop that block."
 		""
@@ -4844,6 +4857,11 @@
 		"&6  again in the same spot to refresh the island."
 	]
 	quest.6BA05AC6ECC577DA.title: "Lush Garden "
+	quest.6C4A7BF577605E4A.quest_desc: [
+		"The &7Time Wand&r uses Time Fluid and Energy to drastically accelerate machines for a brief period. "
+		""
+		"Simply Sneak + Right Click on a machine to apply stacking boosts up to 256x speed.   "
+	]
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
 		"Animate a Wilden Pack Hunter and harvest it for parts."
@@ -5967,6 +5985,7 @@
 	task.4DBE23AE12CB9448.title: "Observe Black Hole"
 	task.4EAFCD169CB43E2D.title: "Hearth and Home"
 	task.4F21DF4EFC469AAC.title: "Fluid Output Hatch"
+	task.4FE55FEB08DFF115.title: "Construction Sticks"
 	task.51C59228A0E0612E.title: "Items"
 	task.51E7655F20B2B45A.title: "Modern Industrialization - Steam Only"
 	task.5243C7DE02D7AA20.title: "Armor Insulation"

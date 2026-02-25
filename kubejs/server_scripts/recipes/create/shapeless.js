@@ -3,11 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'create:purple_seat',
-            inputs: ['ars_nouveau:magebloom_block', '#minecraft:wooden_slabs'],
-            id: `${id_prefix}purple_seat`
-        },
-        {
             output: 'create:pulp',
             inputs: [
                 '#create:pulpifiable',
@@ -24,7 +19,5 @@ ServerEvents.recipes((event) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
         if (recipe.replace) r.replaceIngredient(recipe.replace.item, recipe.replace.replacement);
-
-        
     });
 });

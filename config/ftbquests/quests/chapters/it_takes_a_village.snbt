@@ -103,7 +103,7 @@
 			}
 			id: "34FB10F0A2504973"
 			rewards: [{
-				id: "0224223CE09B4AFA"
+				id: "4464072516313913"
 				item: {
 					components: {
 						"minecraft:potion_contents": {
@@ -831,7 +831,7 @@
 			min_width: 250
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "67CA0EAC96EE5D72"
+				id: "70B111C85D6D4631"
 				table_id: 7702722816138915192L
 				type: "choice"
 			}]

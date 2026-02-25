@@ -545,6 +545,7 @@ ServerEvents.recipes((event) => {
         { id: 'malum:spirit_infusion/iridescent_ether' },
         { id: 'malum:spirit_infusion/paracausal_flame' },
         { id: 'malum:spirit_infusion/alchemical_calx' },
+        { id: 'malum:spirit_infusion/hex_ash' },
         { id: 'malum:spirit_altar' },
         { id: 'malum:zombie_head_from_grim_talc' },
         { id: 'malum:skeleton_skull_from_grim_talc' },
@@ -1223,6 +1224,8 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:incubation' },
         { type: 'theurgy:reformation' },
         { type: 'theurgy:liquefaction' },
+        { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
+        { output: /theurgy:crystallized_(water|lava)/ },
         { output: 'theurgy:sal_ammoniac_accumulator' },
         { output: 'theurgy:sal_ammoniac_tank' },
         { output: 'theurgy:pyromantic_brazier' },
@@ -1232,11 +1235,9 @@ ServerEvents.recipes((event) => {
         { output: 'theurgy:distiller' },
         { output: 'theurgy:caloric_flux_emitter' },
         { output: 'theurgy:mercury_catalyst' },
-        { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
         { output: 'theurgy:copper_wire' },
         { output: 'theurgy:logistics_connector_node' },
         { output: 'theurgy:mercurial_wand' },
-        { output: /theurgy:crystallized_(water|lava)/ },
         { id: /theurgy:crafting\/shapeless\/(lava|water)_bucket/ },
 
         // Tool Belt
@@ -1256,6 +1257,9 @@ ServerEvents.recipes((event) => {
         { id: 'utilitarian:utility/packed_ice' },
         { id: 'utilitarian:utility/logs_to_sticks' },
         { output: 'utilitarian:angel_block' },
+
+        // Wireless Chargers
+        { mod: 'wirelesschargers' },
 
         // Ore Processing Removals
         { input: '#c:ores' },

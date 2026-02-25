@@ -267,6 +267,58 @@ ServerEvents.recipes((event) => {
             ],
             energy: 20000,
             id: `${id_prefix}suffused_wildroot`
+        },
+        {
+            output: { id: 'naturesaura:token_joy', count: 2 },
+            inputs: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/air' },
+                { item: 'supplementaries:statue' },
+                { tag: 'c:essences/air' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}token_joy`
+        },
+        {
+            output: { id: 'naturesaura:token_fear', count: 2 },
+            inputs: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/earth' },
+                { item: 'supplementaries:statue' },
+                { tag: 'c:essences/earth' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}token_fear`
+        },
+        {
+            output: { id: 'naturesaura:token_anger', count: 2 },
+            inputs: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/fire' },
+                { item: 'supplementaries:statue' },
+                { tag: 'c:essences/fire' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}token_anger`
+        },
+        {
+            output: { id: 'naturesaura:token_sorrow', count: 2 },
+            inputs: [
+                { item: 'ars_technica:calibrated_precision_mechanism' },
+                { item: 'ars_additions:lost_codex_entry' },
+                { item: 'ars_nouveau:magebloom_fiber' },
+                { tag: 'c:essences/water' },
+                { item: 'supplementaries:statue' },
+                { tag: 'c:essences/water' }
+            ],
+            energy: 20000,
+            id: `${id_prefix}token_sorrow`
         }
     ];
 

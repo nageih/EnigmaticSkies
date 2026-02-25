@@ -21,7 +21,7 @@
 				"id": "minecraft:brewing_stand",
 				"amount": 1
 			},
-			"id": "minecraft:brewing_stand_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_1_selling_minecraft:brewing_stand"
 		},
 		{
 			"left": [
@@ -44,7 +44,7 @@
 				"id": "minecraft:barrel",
 				"amount": 1
 			},
-			"id": "minecraft:barrel_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_1_selling_minecraft:barrel"
 		},
 		{
 			"left": [
@@ -67,7 +67,7 @@
 				"id": "minecraft:composter",
 				"amount": 1
 			},
-			"id": "minecraft:composter_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_2_selling_minecraft:composter"
 		},
 		{
 			"left": [
@@ -90,7 +90,7 @@
 				"id": "minecraft:loom",
 				"amount": 1
 			},
-			"id": "minecraft:loom_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_2_selling_minecraft:loom"
 		},
 		{
 			"left": [
@@ -113,7 +113,7 @@
 				"id": "modern_industrialization:forge_hammer",
 				"amount": 1
 			},
-			"id": "modern_industrialization:forge_hammer_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_3_selling_modern_industrialization:forge_hammer"
 		},
 		{
 			"left": [
@@ -136,7 +136,7 @@
 				"id": "minecraft:smoker",
 				"amount": 1
 			},
-			"id": "minecraft:smoker_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_3_selling_minecraft:smoker"
 		},
 		{
 			"left": [
@@ -159,7 +159,7 @@
 				"id": "minecraft:cauldron",
 				"amount": 1
 			},
-			"id": "minecraft:cauldron_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_4_selling_minecraft:cauldron"
 		},
 		{
 			"left": [
@@ -182,7 +182,7 @@
 				"id": "minecraft:grindstone",
 				"amount": 1
 			},
-			"id": "minecraft:grindstone_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_4_selling_minecraft:grindstone"
 		},
 		{
 			"left": [
@@ -205,7 +205,7 @@
 				"id": "minecraft:blast_furnace",
 				"amount": 1
 			},
-			"id": "minecraft:blast_furnace_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_5_selling_minecraft:blast_furnace"
 		},
 		{
 			"left": [
@@ -228,7 +228,7 @@
 				"id": "minecraft:stonecutter",
 				"amount": 1
 			},
-			"id": "minecraft:stonecutter_from_minecraft:toolsmith"
+			"id": "minecraft:toolsmith_tier_5_selling_minecraft:stonecutter"
 		},
 		{
 			"left": [
@@ -251,7 +251,7 @@
 				"id": "farmersdelight:organic_compost",
 				"amount": 8
 			},
-			"id": "farmersdelight:organic_compost_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_1_selling_farmersdelight:organic_compost"
 		},
 		{
 			"left": [
@@ -273,9 +273,9 @@
 				"type": "item",
 				"id": "aether:holystone_hoe",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:natures_blessing\":1.0,\"minecraft:silk_touch\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:silk_touch\":1.0,\"apothic_enchanting:natures_blessing\":1.0}}}"
 			},
-			"id": "aether:holystone_hoe_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_1_selling_aether:holystone_hoe"
 		},
 		{
 			"left": [
@@ -298,7 +298,7 @@
 				"id": "actuallyadditions:feeder",
 				"amount": 1
 			},
-			"id": "actuallyadditions:feeder_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_2_selling_actuallyadditions:feeder"
 		},
 		{
 			"left": [
@@ -321,7 +321,7 @@
 				"id": "ars_nouveau:mycelial_sourcelink",
 				"amount": 1
 			},
-			"id": "ars_nouveau:mycelial_sourcelink_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_2_selling_ars_nouveau:mycelial_sourcelink"
 		},
 		{
 			"left": [
@@ -344,7 +344,7 @@
 				"id": "actuallyadditions:worm",
 				"amount": 4
 			},
-			"id": "actuallyadditions:worm_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_3_selling_actuallyadditions:worm"
 		},
 		{
 			"left": [
@@ -367,7 +367,7 @@
 				"id": "pneumaticcraft:crop_support",
 				"amount": 4
 			},
-			"id": "pneumaticcraft:crop_support_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_3_selling_pneumaticcraft:crop_support"
 		},
 		{
 			"left": [
@@ -390,7 +390,7 @@
 				"id": "actuallyadditions:greenhouse_glass",
 				"amount": 2
 			},
-			"id": "actuallyadditions:greenhouse_glass_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_4_selling_actuallyadditions:greenhouse_glass"
 		},
 		{
 			"left": [
@@ -413,7 +413,7 @@
 				"id": "ars_nouveau:ritual_overgrowth",
 				"amount": 1
 			},
-			"id": "ars_nouveau:ritual_overgrowth_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_4_selling_ars_nouveau:ritual_overgrowth"
 		},
 		{
 			"left": [
@@ -436,7 +436,7 @@
 				"id": "ars_nouveau:ritual_fertility",
 				"amount": 1
 			},
-			"id": "ars_nouveau:ritual_fertility_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_5_selling_ars_nouveau:ritual_fertility"
 		},
 		{
 			"left": [
@@ -459,7 +459,7 @@
 				"id": "the_bumblezone:royal_jelly_bottle",
 				"amount": 1
 			},
-			"id": "the_bumblezone:royal_jelly_bottle_from_minecraft:farmer"
+			"id": "minecraft:farmer_tier_5_selling_the_bumblezone:royal_jelly_bottle"
 		},
 		{
 			"left": [
@@ -482,7 +482,7 @@
 				"id": "minecraft:dried_kelp",
 				"amount": 8
 			},
-			"id": "minecraft:dried_kelp_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_1_selling_minecraft:dried_kelp"
 		},
 		{
 			"left": [
@@ -505,7 +505,7 @@
 				"id": "aquaculture:brown_shrooma",
 				"amount": 8
 			},
-			"id": "aquaculture:brown_shrooma_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_1_selling_aquaculture:brown_shrooma"
 		},
 		{
 			"left": [
@@ -528,7 +528,7 @@
 				"id": "aquaculture:red_shrooma",
 				"amount": 8
 			},
-			"id": "aquaculture:red_shrooma_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_2_selling_aquaculture:red_shrooma"
 		},
 		{
 			"left": [
@@ -551,7 +551,7 @@
 				"id": "aquaculture:goldfish",
 				"amount": 8
 			},
-			"id": "aquaculture:goldfish_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_2_selling_aquaculture:goldfish"
 		},
 		{
 			"left": [
@@ -574,7 +574,7 @@
 				"id": "minecraft:cod",
 				"amount": 4
 			},
-			"id": "minecraft:cod_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_3_selling_minecraft:cod"
 		},
 		{
 			"left": [
@@ -597,7 +597,7 @@
 				"id": "minecraft:salmon",
 				"amount": 4
 			},
-			"id": "minecraft:salmon_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_3_selling_minecraft:salmon"
 		},
 		{
 			"left": [
@@ -620,7 +620,7 @@
 				"id": "minecraft:pufferfish",
 				"amount": 4
 			},
-			"id": "minecraft:pufferfish_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_4_selling_minecraft:pufferfish"
 		},
 		{
 			"left": [
@@ -643,7 +643,7 @@
 				"id": "sushigocrafting:raw_tuna",
 				"amount": 4
 			},
-			"id": "sushigocrafting:raw_tuna_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_4_selling_sushigocrafting:raw_tuna"
 		},
 		{
 			"left": [
@@ -667,7 +667,7 @@
 				"amount": 1,
 				"nbt": "{\"sushigocrafting:amount\":100.0}"
 			},
-			"id": "sushigocrafting:shrimp_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_5_selling_sushigocrafting:shrimp"
 		},
 		{
 			"left": [
@@ -690,7 +690,7 @@
 				"id": "minecraft:sponge",
 				"amount": 1
 			},
-			"id": "minecraft:sponge_from_minecraft:fisherman"
+			"id": "minecraft:fisherman_tier_5_selling_minecraft:sponge"
 		},
 		{
 			"left": [
@@ -713,7 +713,7 @@
 				"id": "ars_caelum:ritual_conjure_island_starter",
 				"amount": 1
 			},
-			"id": "ars_caelum:ritual_conjure_island_starter_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_1_selling_ars_caelum:ritual_conjure_island_starter"
 		},
 		{
 			"left": [
@@ -736,7 +736,7 @@
 				"id": "enigmatica:flying_cow_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:flying_cow_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_1_selling_enigmatica:flying_cow_iou"
 		},
 		{
 			"left": [
@@ -759,7 +759,7 @@
 				"id": "enigmatica:sheepuff_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:sheepuff_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_2_selling_enigmatica:sheepuff_iou"
 		},
 		{
 			"left": [
@@ -782,7 +782,7 @@
 				"id": "enigmatica:phyg_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:phyg_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_2_selling_enigmatica:phyg_iou"
 		},
 		{
 			"left": [
@@ -805,7 +805,7 @@
 				"id": "enigmatica:chicken_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:chicken_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_3_selling_enigmatica:chicken_iou"
 		},
 		{
 			"left": [
@@ -828,7 +828,7 @@
 				"id": "enigmatica:aerbunny_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:aerbunny_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_3_selling_enigmatica:aerbunny_iou"
 		},
 		{
 			"left": [
@@ -851,7 +851,7 @@
 				"id": "enigmatica:moa_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:moa_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_4_selling_enigmatica:moa_iou"
 		},
 		{
 			"left": [
@@ -874,7 +874,7 @@
 				"id": "enigmatica:goat_iou",
 				"amount": 1
 			},
-			"id": "enigmatica:goat_iou_from_minecraft:shepherd"
+			"id": "minecraft:shepherd_tier_4_selling_enigmatica:goat_iou"
 		},
 		{
 			"left": [
@@ -897,7 +897,7 @@
 				"id": "ars_nouveau:enchanting_apparatus",
 				"amount": 1
 			},
-			"id": "ars_nouveau:enchanting_apparatus_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_1_selling_ars_nouveau:enchanting_apparatus"
 		},
 		{
 			"left": [
@@ -920,7 +920,7 @@
 				"id": "minecraft:lectern",
 				"amount": 1
 			},
-			"id": "minecraft:lectern_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_1_selling_minecraft:lectern"
 		},
 		{
 			"left": [
@@ -943,7 +943,7 @@
 				"id": "ars_nouveau:alakarkinos_token",
 				"amount": 1
 			},
-			"id": "ars_nouveau:alakarkinos_token_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_2_selling_ars_nouveau:alakarkinos_token"
 		},
 		{
 			"left": [
@@ -966,7 +966,7 @@
 				"id": "ars_nouveau:starbuncle_shards",
 				"amount": 1
 			},
-			"id": "ars_nouveau:starbuncle_shards_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_2_selling_ars_nouveau:starbuncle_shards"
 		},
 		{
 			"left": [
@@ -989,7 +989,7 @@
 				"id": "ars_nouveau:wixie_shards",
 				"amount": 1
 			},
-			"id": "ars_nouveau:wixie_shards_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_3_selling_ars_nouveau:wixie_shards"
 		},
 		{
 			"left": [
@@ -1012,7 +1012,7 @@
 				"id": "ars_nouveau:amethyst_golem_charm",
 				"amount": 1
 			},
-			"id": "ars_nouveau:amethyst_golem_charm_from_ars_nouveau:shady_wizard"
+			"id": "ars_nouveau:shady_wizard_tier_3_selling_ars_nouveau:amethyst_golem_charm"
 		},
 		{
 			"left": [
@@ -1035,7 +1035,7 @@
 				"id": "pneumaticcraft:reinforced_stone",
 				"amount": 4
 			},
-			"id": "pneumaticcraft:reinforced_stone_from_minecraft:mason"
+			"id": "minecraft:mason_tier_1_selling_pneumaticcraft:reinforced_stone"
 		},
 		{
 			"left": [
@@ -1058,7 +1058,7 @@
 				"id": "cold_sweat:hearth",
 				"amount": 1
 			},
-			"id": "cold_sweat:hearth_from_minecraft:mason"
+			"id": "minecraft:mason_tier_1_selling_cold_sweat:hearth"
 		},
 		{
 			"left": [
@@ -1081,7 +1081,7 @@
 				"id": "create:crimsite",
 				"amount": 32
 			},
-			"id": "create:crimsite_from_minecraft:mason"
+			"id": "minecraft:mason_tier_2_selling_create:crimsite"
 		},
 		{
 			"left": [
@@ -1104,7 +1104,7 @@
 				"id": "create:ochrum",
 				"amount": 32
 			},
-			"id": "create:ochrum_from_minecraft:mason"
+			"id": "minecraft:mason_tier_2_selling_create:ochrum"
 		},
 		{
 			"left": [
@@ -1127,7 +1127,7 @@
 				"id": "create:veridium",
 				"amount": 32
 			},
-			"id": "create:veridium_from_minecraft:mason"
+			"id": "minecraft:mason_tier_2_selling_create:veridium"
 		},
 		{
 			"left": [
@@ -1150,7 +1150,7 @@
 				"id": "create:asurine",
 				"amount": 32
 			},
-			"id": "create:asurine_from_minecraft:mason"
+			"id": "minecraft:mason_tier_2_selling_create:asurine"
 		},
 		{
 			"left": [
@@ -1173,7 +1173,7 @@
 				"id": "create:limestone",
 				"amount": 32
 			},
-			"id": "create:limestone_from_minecraft:mason"
+			"id": "minecraft:mason_tier_2_selling_create:limestone"
 		},
 		{
 			"left": [
@@ -1196,7 +1196,7 @@
 				"id": "arts_and_crafts:gypsum",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:gypsum_from_minecraft:mason"
+			"id": "minecraft:mason_tier_3_selling_arts_and_crafts:gypsum"
 		},
 		{
 			"left": [
@@ -1219,7 +1219,7 @@
 				"id": "arts_and_crafts:soapstone",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:soapstone_from_minecraft:mason"
+			"id": "minecraft:mason_tier_3_selling_arts_and_crafts:soapstone"
 		},
 		{
 			"left": [
@@ -1242,7 +1242,7 @@
 				"id": "arts_and_crafts:cobbled_ochre_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:cobbled_ochre_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_3_selling_arts_and_crafts:cobbled_ochre_pietraforte"
 		},
 		{
 			"left": [
@@ -1265,7 +1265,7 @@
 				"id": "arts_and_crafts:cobbled_verdant_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:cobbled_verdant_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_3_selling_arts_and_crafts:cobbled_verdant_pietraforte"
 		},
 		{
 			"left": [
@@ -1288,7 +1288,7 @@
 				"id": "arts_and_crafts:jet_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:jet_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_4_selling_arts_and_crafts:jet_pietraforte"
 		},
 		{
 			"left": [
@@ -1311,7 +1311,7 @@
 				"id": "arts_and_crafts:hazel_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:hazel_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_4_selling_arts_and_crafts:hazel_pietraforte"
 		},
 		{
 			"left": [
@@ -1334,7 +1334,7 @@
 				"id": "arts_and_crafts:beige_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:beige_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_5_selling_arts_and_crafts:beige_pietraforte"
 		},
 		{
 			"left": [
@@ -1357,7 +1357,7 @@
 				"id": "arts_and_crafts:ivory_pietraforte",
 				"amount": 32
 			},
-			"id": "arts_and_crafts:ivory_pietraforte_from_minecraft:mason"
+			"id": "minecraft:mason_tier_5_selling_arts_and_crafts:ivory_pietraforte"
 		},
 		{
 			"left": [
@@ -1380,7 +1380,7 @@
 				"id": "farmersdelight:minced_beef",
 				"amount": 32
 			},
-			"id": "farmersdelight:minced_beef_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_1_selling_farmersdelight:minced_beef"
 		},
 		{
 			"left": [
@@ -1403,7 +1403,7 @@
 				"id": "farmersdelight:bacon",
 				"amount": 32
 			},
-			"id": "farmersdelight:bacon_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_1_selling_farmersdelight:bacon"
 		},
 		{
 			"left": [
@@ -1426,7 +1426,7 @@
 				"id": "farmersdelight:chicken_cuts",
 				"amount": 32
 			},
-			"id": "farmersdelight:chicken_cuts_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_2_selling_farmersdelight:chicken_cuts"
 		},
 		{
 			"left": [
@@ -1449,7 +1449,7 @@
 				"id": "farmersdelight:mutton_chops",
 				"amount": 32
 			},
-			"id": "farmersdelight:mutton_chops_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_2_selling_farmersdelight:mutton_chops"
 		},
 		{
 			"left": [
@@ -1472,7 +1472,7 @@
 				"id": "farmersdelight:salmon_slice",
 				"amount": 4
 			},
-			"id": "farmersdelight:salmon_slice_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_3_selling_farmersdelight:salmon_slice"
 		},
 		{
 			"left": [
@@ -1495,7 +1495,7 @@
 				"id": "farmersdelight:cod_slice",
 				"amount": 4
 			},
-			"id": "farmersdelight:cod_slice_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_3_selling_farmersdelight:cod_slice"
 		},
 		{
 			"left": [
@@ -1518,7 +1518,7 @@
 				"id": "farmersdelight:ham",
 				"amount": 1
 			},
-			"id": "farmersdelight:ham_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_4_selling_farmersdelight:ham"
 		},
 		{
 			"left": [
@@ -1541,7 +1541,7 @@
 				"id": "arsdelight:chimera_meat",
 				"amount": 2
 			},
-			"id": "arsdelight:chimera_meat_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_4_selling_arsdelight:chimera_meat"
 		},
 		{
 			"left": [
@@ -1563,9 +1563,9 @@
 				"type": "item",
 				"id": "occultism:butcher_knife",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:sharpness\":1.0,\"minecraft:looting\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":1.0,\"minecraft:sharpness\":1.0}}}"
 			},
-			"id": "occultism:butcher_knife_from_minecraft:butcher"
+			"id": "minecraft:butcher_tier_5_selling_occultism:butcher_knife"
 		},
 		{
 			"left": [
@@ -1588,7 +1588,7 @@
 				"id": "create:precision_mechanism",
 				"amount": 4
 			},
-			"id": "create:precision_mechanism_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_1_selling_create:precision_mechanism"
 		},
 		{
 			"left": [
@@ -1611,7 +1611,7 @@
 				"id": "modern_industrialization:copper_cable",
 				"amount": 8
 			},
-			"id": "modern_industrialization:copper_cable_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_1_selling_modern_industrialization:copper_cable"
 		},
 		{
 			"left": [
@@ -1634,7 +1634,7 @@
 				"id": "redstonepen:control_box",
 				"amount": 1
 			},
-			"id": "redstonepen:control_box_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_2_selling_redstonepen:control_box"
 		},
 		{
 			"left": [
@@ -1657,7 +1657,7 @@
 				"id": "actuallyadditions:lens",
 				"amount": 1
 			},
-			"id": "actuallyadditions:lens_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_2_selling_actuallyadditions:lens"
 		},
 		{
 			"left": [
@@ -1680,7 +1680,7 @@
 				"id": "actuallyadditions:laser_relay_item",
 				"amount": 1
 			},
-			"id": "actuallyadditions:laser_relay_item_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_3_selling_actuallyadditions:laser_relay_item"
 		},
 		{
 			"left": [
@@ -1703,7 +1703,7 @@
 				"id": "actuallyadditions:laser_relay_fluids",
 				"amount": 1
 			},
-			"id": "actuallyadditions:laser_relay_fluids_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_3_selling_actuallyadditions:laser_relay_fluids"
 		},
 		{
 			"left": [
@@ -1726,7 +1726,7 @@
 				"id": "actuallyadditions:item_interface",
 				"amount": 1
 			},
-			"id": "actuallyadditions:item_interface_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_4_selling_actuallyadditions:item_interface"
 		},
 		{
 			"left": [
@@ -1749,7 +1749,7 @@
 				"id": "modern_industrialization:overdrive_module",
 				"amount": 1
 			},
-			"id": "modern_industrialization:overdrive_module_from_actuallyadditions:engineer"
+			"id": "actuallyadditions:engineer_tier_4_selling_modern_industrialization:overdrive_module"
 		},
 		{
 			"left": [
@@ -1772,7 +1772,7 @@
 				"id": "prettypipes:pipe",
 				"amount": 8
 			},
-			"id": "prettypipes:pipe_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_1_selling_prettypipes:pipe"
 		},
 		{
 			"left": [
@@ -1795,7 +1795,7 @@
 				"id": "ppfluids:fluid_pipe",
 				"amount": 8
 			},
-			"id": "ppfluids:fluid_pipe_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_1_selling_ppfluids:fluid_pipe"
 		},
 		{
 			"left": [
@@ -1818,7 +1818,7 @@
 				"id": "prettypipes:blank_module",
 				"amount": 8
 			},
-			"id": "prettypipes:blank_module_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_2_selling_prettypipes:blank_module"
 		},
 		{
 			"left": [
@@ -1841,7 +1841,7 @@
 				"id": "modern_industrialization:config_card",
 				"amount": 1
 			},
-			"id": "modern_industrialization:config_card_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_3_selling_modern_industrialization:config_card"
 		},
 		{
 			"left": [
@@ -1864,7 +1864,7 @@
 				"id": "extended_industrialization:machine_config_card",
 				"amount": 1
 			},
-			"id": "extended_industrialization:machine_config_card_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_3_selling_extended_industrialization:machine_config_card"
 		},
 		{
 			"left": [
@@ -1887,7 +1887,7 @@
 				"id": "modern_industrialization:configurable_chest",
 				"amount": 1
 			},
-			"id": "modern_industrialization:configurable_chest_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_4_selling_modern_industrialization:configurable_chest"
 		},
 		{
 			"left": [
@@ -1910,7 +1910,7 @@
 				"id": "modern_industrialization:configurable_tank",
 				"amount": 1
 			},
-			"id": "modern_industrialization:configurable_tank_from_modern_industrialization:industrialist"
+			"id": "modern_industrialization:industrialist_tier_4_selling_modern_industrialization:configurable_tank"
 		},
 		{
 			"left": [
@@ -1933,7 +1933,7 @@
 				"id": "ars_nouveau:ritual_brazier",
 				"amount": 1
 			},
-			"id": "ars_nouveau:ritual_brazier_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_1_selling_ars_nouveau:ritual_brazier"
 		},
 		{
 			"left": [
@@ -1956,7 +1956,7 @@
 				"id": "occultism:fragile_soul_gem",
 				"amount": 1
 			},
-			"id": "occultism:fragile_soul_gem_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_1_selling_occultism:fragile_soul_gem"
 		},
 		{
 			"left": [
@@ -1979,7 +1979,7 @@
 				"id": "ars_nouveau:arcane_core",
 				"amount": 1
 			},
-			"id": "ars_nouveau:arcane_core_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_2_selling_ars_nouveau:arcane_core"
 		},
 		{
 			"left": [
@@ -2002,7 +2002,7 @@
 				"id": "occultism:celestial_chalice",
 				"amount": 1
 			},
-			"id": "occultism:celestial_chalice_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_2_selling_occultism:celestial_chalice"
 		},
 		{
 			"left": [
@@ -2026,7 +2026,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:flying\"}}"
 			},
-			"id": "minecraft:potion_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_3_selling_minecraft:potion"
 		},
 		{
 			"left": [
@@ -2050,7 +2050,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:knowledge\"}}"
 			},
-			"id": "minecraft:potion_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_3_selling_minecraft:potion"
 		},
 		{
 			"left": [
@@ -2073,7 +2073,7 @@
 				"id": "aether:angelic_stone",
 				"amount": 32
 			},
-			"id": "aether:angelic_stone_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_4_selling_aether:angelic_stone"
 		},
 		{
 			"left": [
@@ -2096,7 +2096,7 @@
 				"id": "aether:hellfire_stone",
 				"amount": 32
 			},
-			"id": "aether:hellfire_stone_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_4_selling_aether:hellfire_stone"
 		},
 		{
 			"left": [
@@ -2119,7 +2119,7 @@
 				"id": "ars_nouveau:ritual_flight",
 				"amount": 1
 			},
-			"id": "ars_nouveau:ritual_flight_from_minecraft:cleric"
+			"id": "minecraft:cleric_tier_5_selling_ars_nouveau:ritual_flight"
 		},
 		{
 			"left": [
@@ -2142,7 +2142,7 @@
 				"id": "ars_nouveau:bookwyrm_charm",
 				"amount": 1
 			},
-			"id": "ars_nouveau:bookwyrm_charm_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_1_selling_ars_nouveau:bookwyrm_charm"
 		},
 		{
 			"left": [
@@ -2165,7 +2165,7 @@
 				"id": "ars_nouveau:storage_lectern",
 				"amount": 1
 			},
-			"id": "ars_nouveau:storage_lectern_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_1_selling_ars_nouveau:storage_lectern"
 		},
 		{
 			"left": [
@@ -2188,7 +2188,7 @@
 				"id": "ars_nouveau:repository_controller",
 				"amount": 1
 			},
-			"id": "ars_nouveau:repository_controller_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_2_selling_ars_nouveau:repository_controller"
 		},
 		{
 			"left": [
@@ -2211,7 +2211,7 @@
 				"id": "ars_nouveau:repository",
 				"amount": 1
 			},
-			"id": "ars_nouveau:repository_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_2_selling_ars_nouveau:repository"
 		},
 		{
 			"left": [
@@ -2234,7 +2234,7 @@
 				"id": "ars_additions:codex_entry",
 				"amount": 1
 			},
-			"id": "ars_additions:codex_entry_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_3_selling_ars_additions:codex_entry"
 		},
 		{
 			"left": [
@@ -2257,7 +2257,7 @@
 				"id": "minecraft:enchanting_table",
 				"amount": 1
 			},
-			"id": "minecraft:enchanting_table_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_3_selling_minecraft:enchanting_table"
 		},
 		{
 			"left": [
@@ -2280,7 +2280,7 @@
 				"id": "ars_additions:lost_codex_entry",
 				"amount": 1
 			},
-			"id": "ars_additions:lost_codex_entry_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_4_selling_ars_additions:lost_codex_entry"
 		},
 		{
 			"left": [
@@ -2303,7 +2303,7 @@
 				"id": "ars_caelum:ritual_conjure_island_village",
 				"amount": 1
 			},
-			"id": "ars_caelum:ritual_conjure_island_village_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_4_selling_ars_caelum:ritual_conjure_island_village"
 		},
 		{
 			"left": [
@@ -2326,7 +2326,7 @@
 				"id": "ars_additions:ancient_codex_entry",
 				"amount": 1
 			},
-			"id": "ars_additions:ancient_codex_entry_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_5_selling_ars_additions:ancient_codex_entry"
 		},
 		{
 			"left": [
@@ -2349,7 +2349,7 @@
 				"id": "enigmatica:antikythera_mechanism",
 				"amount": 1
 			},
-			"id": "enigmatica:antikythera_mechanism_from_minecraft:librarian"
+			"id": "minecraft:librarian_tier_5_selling_enigmatica:antikythera_mechanism"
 		},
 		{
 			"left": [
@@ -2372,7 +2372,7 @@
 				"id": "naturesaura:break_prevention",
 				"amount": 1
 			},
-			"id": "naturesaura:break_prevention_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_1_selling_naturesaura:break_prevention"
 		},
 		{
 			"left": [
@@ -2396,7 +2396,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:scavenger\":1.0}}}"
 			},
-			"id": "aether:candy_cane_sword_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_1_selling_aether:candy_cane_sword"
 		},
 		{
 			"left": [
@@ -2420,7 +2420,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":2.0}}}"
 			},
-			"id": "aether:zanite_sword_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_2_selling_aether:zanite_sword"
 		},
 		{
 			"left": [
@@ -2444,7 +2444,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":2.0}}}"
 			},
-			"id": "aether:zanite_axe_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_2_selling_aether:zanite_axe"
 		},
 		{
 			"left": [
@@ -2468,7 +2468,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:mending\":1.0}}}"
 			},
-			"id": "aether:vampire_blade_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_3_selling_aether:vampire_blade"
 		},
 		{
 			"left": [
@@ -2492,7 +2492,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:sweeping_edge\":1.0}}}"
 			},
-			"id": "aether:flaming_sword_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_3_selling_aether:flaming_sword"
 		},
 		{
 			"left": [
@@ -2516,7 +2516,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"malum:spirit_plunder\":3.0}}}"
 			},
-			"id": "malum:crude_scythe_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_4_selling_malum:crude_scythe"
 		},
 		{
 			"left": [
@@ -2540,7 +2540,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:bane_of_arthropods\":5.0}}}"
 			},
-			"id": "farmersdelight:skillet_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_4_selling_farmersdelight:skillet"
 		},
 		{
 			"left": [
@@ -2562,9 +2562,9 @@
 				"type": "item",
 				"id": "aether:holy_sword",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"minecraft:smite\":3.0,\"ars_elemental:soulbound\":1.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_elemental:soulbound\":1.0,\"minecraft:smite\":3.0,\"minecraft:unbreaking\":2.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0}}}"
 			},
-			"id": "aether:holy_sword_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_5_selling_aether:holy_sword"
 		},
 		{
 			"left": [
@@ -2586,9 +2586,9 @@
 				"type": "item",
 				"id": "aether:valkyrie_lance",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:sharpness\":3.0,\"ars_elemental:soulbound\":1.0,\"minecraft:unbreaking\":2.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"minecraft:sharpness\":3.0,\"ars_elemental:soulbound\":1.0}}}"
 			},
-			"id": "aether:valkyrie_lance_from_minecraft:weaponsmith"
+			"id": "minecraft:weaponsmith_tier_5_selling_aether:valkyrie_lance"
 		},
 		{
 			"left": [
@@ -2611,7 +2611,7 @@
 				"id": "minecraft:host_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:host_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_1_selling_minecraft:host_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2634,7 +2634,7 @@
 				"id": "minecraft:wayfinder_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:wayfinder_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_1_selling_minecraft:wayfinder_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2657,7 +2657,7 @@
 				"id": "minecraft:shaper_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:shaper_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_1_selling_minecraft:shaper_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2680,7 +2680,7 @@
 				"id": "minecraft:raiser_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:raiser_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_1_selling_minecraft:raiser_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2703,7 +2703,7 @@
 				"id": "minecraft:dune_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:dune_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_1_selling_minecraft:dune_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2726,7 +2726,7 @@
 				"id": "minecraft:sentry_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:sentry_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_2_selling_minecraft:sentry_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2749,7 +2749,7 @@
 				"id": "minecraft:vex_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:vex_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_2_selling_minecraft:vex_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2772,7 +2772,7 @@
 				"id": "minecraft:wild_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:wild_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_2_selling_minecraft:wild_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2795,7 +2795,7 @@
 				"id": "minecraft:coast_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:coast_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_2_selling_minecraft:coast_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2818,7 +2818,7 @@
 				"id": "minecraft:tide_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:tide_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_3_selling_minecraft:tide_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2841,7 +2841,7 @@
 				"id": "minecraft:bolt_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:bolt_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_3_selling_minecraft:bolt_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2864,7 +2864,7 @@
 				"id": "minecraft:rib_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:rib_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_3_selling_minecraft:rib_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2887,7 +2887,7 @@
 				"id": "minecraft:snout_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:snout_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_3_selling_minecraft:snout_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2910,7 +2910,7 @@
 				"id": "minecraft:silence_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:silence_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_4_selling_minecraft:silence_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2933,7 +2933,7 @@
 				"id": "minecraft:ward_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:ward_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_4_selling_minecraft:ward_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2956,7 +2956,7 @@
 				"id": "minecraft:flow_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:flow_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_4_selling_minecraft:flow_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -2979,7 +2979,7 @@
 				"id": "minecraft:spire_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:spire_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_4_selling_minecraft:spire_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -3002,7 +3002,7 @@
 				"id": "minecraft:eye_armor_trim_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:eye_armor_trim_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_5_selling_minecraft:eye_armor_trim_smithing_template"
 		},
 		{
 			"left": [
@@ -3025,7 +3025,7 @@
 				"id": "minecraft:netherite_upgrade_smithing_template",
 				"amount": 1
 			},
-			"id": "minecraft:netherite_upgrade_smithing_template_from_minecraft:armorer"
+			"id": "minecraft:armorer_tier_5_selling_minecraft:netherite_upgrade_smithing_template"
 		},
 		{
 			"left": [
@@ -3048,7 +3048,7 @@
 				"id": "ae2:blank_pattern",
 				"amount": 1
 			},
-			"id": "ae2:blank_pattern_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_1_selling_ae2:blank_pattern"
 		},
 		{
 			"left": [
@@ -3071,7 +3071,7 @@
 				"id": "ae2:pattern_encoding_terminal",
 				"amount": 1
 			},
-			"id": "ae2:pattern_encoding_terminal_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_1_selling_ae2:pattern_encoding_terminal"
 		},
 		{
 			"left": [
@@ -3095,7 +3095,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:logic_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "replication:matter_blueprint_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_2_selling_replication:matter_blueprint"
 		},
 		{
 			"left": [
@@ -3119,7 +3119,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:engineering_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "replication:matter_blueprint_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_2_selling_replication:matter_blueprint"
 		},
 		{
 			"left": [
@@ -3143,7 +3143,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:calculation_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "replication:matter_blueprint_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_3_selling_replication:matter_blueprint"
 		},
 		{
 			"left": [
@@ -3167,7 +3167,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"modern_industrialization:quantum_circuit\"},\"Progress\":1.0}}"
 			},
-			"id": "replication:matter_blueprint_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_3_selling_replication:matter_blueprint"
 		},
 		{
 			"left": [
@@ -3190,7 +3190,7 @@
 				"id": "ae2:item_cell_housing",
 				"amount": 1
 			},
-			"id": "ae2:item_cell_housing_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_4_selling_ae2:item_cell_housing"
 		},
 		{
 			"left": [
@@ -3213,7 +3213,7 @@
 				"id": "ae2:fluid_cell_housing",
 				"amount": 1
 			},
-			"id": "ae2:fluid_cell_housing_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_4_selling_ae2:fluid_cell_housing"
 		},
 		{
 			"left": [
@@ -3236,7 +3236,7 @@
 				"id": "ae2:mysterious_cube",
 				"amount": 1
 			},
-			"id": "ae2:mysterious_cube_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_5_selling_ae2:mysterious_cube"
 		},
 		{
 			"left": [
@@ -3260,7 +3260,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"enigmatica:elemental_matrix\"},\"Progress\":1.0}}"
 			},
-			"id": "replication:matter_blueprint_from_ae2:fluix_researcher"
+			"id": "ae2:fluix_researcher_tier_5_selling_replication:matter_blueprint"
 		},
 		{
 			"left": [
@@ -3283,7 +3283,7 @@
 				"id": "pneumaticcraft:reinforced_pressure_tube",
 				"amount": 8
 			},
-			"id": "pneumaticcraft:reinforced_pressure_tube_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_1_selling_pneumaticcraft:reinforced_pressure_tube"
 		},
 		{
 			"left": [
@@ -3306,7 +3306,7 @@
 				"id": "pneumaticcraft:module_expansion_card",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:module_expansion_card_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_1_selling_pneumaticcraft:module_expansion_card"
 		},
 		{
 			"left": [
@@ -3329,7 +3329,7 @@
 				"id": "pneumaticcraft:collector_drone",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:collector_drone_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_2_selling_pneumaticcraft:collector_drone"
 		},
 		{
 			"left": [
@@ -3352,7 +3352,7 @@
 				"id": "pneumaticcraft:harvesting_drone",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:harvesting_drone_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_2_selling_pneumaticcraft:harvesting_drone"
 		},
 		{
 			"left": [
@@ -3375,7 +3375,7 @@
 				"id": "pneumaticcraft:guard_drone",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:guard_drone_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_3_selling_pneumaticcraft:guard_drone"
 		},
 		{
 			"left": [
@@ -3398,7 +3398,7 @@
 				"id": "pneumaticcraft:logistics_drone",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:logistics_drone_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_3_selling_pneumaticcraft:logistics_drone"
 		},
 		{
 			"left": [
@@ -3421,7 +3421,7 @@
 				"id": "pneumaticcraft:drone",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:drone_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_4_selling_pneumaticcraft:drone"
 		},
 		{
 			"left": [
@@ -3444,7 +3444,7 @@
 				"id": "pneumaticcraft:programming_puzzle",
 				"amount": 16
 			},
-			"id": "pneumaticcraft:programming_puzzle_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_4_selling_pneumaticcraft:programming_puzzle"
 		},
 		{
 			"left": [
@@ -3467,7 +3467,7 @@
 				"id": "pneumaticcraft:assembly_program_drill_laser",
 				"amount": 1
 			},
-			"id": "pneumaticcraft:assembly_program_drill_laser_from_pneumaticcraft:mechanic"
+			"id": "pneumaticcraft:mechanic_tier_5_selling_pneumaticcraft:assembly_program_drill_laser"
 		},
 		{
 			"left": [
@@ -3489,9 +3489,9 @@
 				"type": "item",
 				"id": "minecraft:leather_helmet",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:aqua_affinity\":1.0,\"minecraft:mending\":1.0,\"minecraft:protection\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:protection\":1.0,\"minecraft:mending\":1.0,\"minecraft:aqua_affinity\":1.0}}}"
 			},
-			"id": "minecraft:leather_helmet_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_1_selling_minecraft:leather_helmet"
 		},
 		{
 			"left": [
@@ -3514,7 +3514,7 @@
 				"id": "toolbelt:belt",
 				"amount": 1
 			},
-			"id": "toolbelt:belt_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_1_selling_toolbelt:belt"
 		},
 		{
 			"left": [
@@ -3536,9 +3536,9 @@
 				"type": "item",
 				"id": "minecraft:leather_chestplate",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_nouveau:mana_regen\":1.0,\"minecraft:projectile_protection\":1.0,\"minecraft:unbreaking\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":1.0,\"ars_nouveau:mana_regen\":1.0,\"minecraft:projectile_protection\":1.0}}}"
 			},
-			"id": "minecraft:leather_chestplate_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_2_selling_minecraft:leather_chestplate"
 		},
 		{
 			"left": [
@@ -3561,7 +3561,7 @@
 				"id": "toolbelt:pouch",
 				"amount": 1
 			},
-			"id": "toolbelt:pouch_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_2_selling_toolbelt:pouch"
 		},
 		{
 			"left": [
@@ -3583,9 +3583,9 @@
 				"type": "item",
 				"id": "minecraft:leather_leggings",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_nouveau:mana_boost\":1.0,\"minecraft:swift_sneak\":1.0,\"minecraft:blast_protection\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:swift_sneak\":1.0,\"minecraft:blast_protection\":1.0,\"ars_nouveau:mana_boost\":1.0}}}"
 			},
-			"id": "minecraft:leather_leggings_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_3_selling_minecraft:leather_leggings"
 		},
 		{
 			"left": [
@@ -3608,7 +3608,7 @@
 				"id": "sophisticatedbackpacks:backpack",
 				"amount": 1
 			},
-			"id": "sophisticatedbackpacks:backpack_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_3_selling_sophisticatedbackpacks:backpack"
 		},
 		{
 			"left": [
@@ -3630,9 +3630,9 @@
 				"type": "item",
 				"id": "minecraft:leather_boots",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:stable_footing\":1.0,\"minecraft:feather_falling\":1.0,\"minecraft:fire_protection\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:fire_protection\":1.0,\"apothic_enchanting:stable_footing\":1.0,\"minecraft:feather_falling\":1.0}}}"
 			},
-			"id": "minecraft:leather_boots_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_4_selling_minecraft:leather_boots"
 		},
 		{
 			"left": [
@@ -3655,7 +3655,7 @@
 				"id": "not_enough_glyphs:spell_binder",
 				"amount": 1
 			},
-			"id": "not_enough_glyphs:spell_binder_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_4_selling_not_enough_glyphs:spell_binder"
 		},
 		{
 			"left": [
@@ -3678,7 +3678,7 @@
 				"id": "enderstorage:ender_pouch",
 				"amount": 1
 			},
-			"id": "enderstorage:ender_pouch_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_5_selling_enderstorage:ender_pouch"
 		},
 		{
 			"left": [
@@ -3701,7 +3701,7 @@
 				"id": "minecraft:rabbit_foot",
 				"amount": 1
 			},
-			"id": "minecraft:rabbit_foot_from_minecraft:leatherworker"
+			"id": "minecraft:leatherworker_tier_5_selling_minecraft:rabbit_foot"
 		}
 	]
 }

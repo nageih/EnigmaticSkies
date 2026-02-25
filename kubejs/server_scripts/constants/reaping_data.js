@@ -71,33 +71,45 @@ const reapingData = [
     },
 
     {
+        registry_name: 'ars_elemental:flashing_weald_walker',
+        drops: [{ ingredient: { item: 'farmersdelight:tree_bark' }, chance: '1.0', min: '16', max: '32' }]
+    },
+    {
+        registry_name: 'ars_nouveau:flourishing_weald_walker',
+        drops: [{ ingredient: { item: 'arsdelight:flourishing_bark' }, chance: '1.0', min: '16', max: '32' }]
+    },
+    {
+        registry_name: 'ars_nouveau:blazing_weald_walker',
+        drops: [{ ingredient: { item: 'arsdelight:blazing_bark' }, chance: '1.0', min: '16', max: '32' }]
+    },
+    {
+        registry_name: 'ars_nouveau:cascading_weald_walker',
+        drops: [{ ingredient: { item: 'arsdelight:cascading_bark' }, chance: '1.0', min: '16', max: '32' }]
+    },
+    {
+        registry_name: 'ars_nouveau:vexing_weald_walker',
+        drops: [{ ingredient: { item: 'arsdelight:vexing_bark' }, chance: '1.0', min: '16', max: '32' }]
+    },
+
+    {
         registry_name: 'ars_nouveau:wilden_hunter',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_horn' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_horn' }, chance: '1.0', min: '2', max: '2' }]
     },
     {
         registry_name: 'ars_nouveau:wilden_guardian',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_spike' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_spike' }, chance: '1.0', min: '2', max: '4' }]
     },
     {
         registry_name: 'ars_nouveau:wilden_stalker',
-        drops: [{ ingredient: { item: 'ars_nouveau:wilden_wing' }, chance: '1.0', min: '1', max: '2' }]
+        drops: [{ ingredient: { item: 'ars_nouveau:wilden_wing' }, chance: '1.0', min: '2', max: '2' }]
     }
 ];
 
-const essenceEntities = {
-    'malum:astral_weave': [],
-    'malum:grim_talc': [],
-    'malum:rotting_essence': [],
-    'malum:warp_flux': [],
-    'malum:wind_nucleus': [],
-
-    'ars_nouveau:wilden_horn': [],
-    'ars_nouveau:wilden_spike': [],
-    'ars_nouveau:wilden_wing': []
-};
+const essenceEntities = {};
 
 reapingData.forEach((data) => {
     data.drops.forEach((entry) => {
+        if (!essenceEntities[entry.ingredient.item]) essenceEntities[entry.ingredient.item] = [];
         essenceEntities[entry.ingredient.item].push(data.registry_name);
     });
 });

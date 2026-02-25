@@ -321,6 +321,13 @@ ServerEvents.recipes((event) => {
             ],
             id: `${id_prefix}alchemical_calx`
         },
+        {
+            result: { id: 'malum:hex_ash', count: 8 },
+            input: { tag: 'c:gunpowders', count: 8 },
+            extraInputs: [],
+            spirits: [{ type: 'malum:arcane', count: 8 }],
+            id: `${id_prefix}hex_ash`
+        },
 
         {
             result: { id: 'modern_industrialization:large_steam_turbine', count: 1 },
@@ -482,11 +489,6 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:clay', count: 4 },
             extraInputs: [
                 { item: 'malum:alchemical_calx', count: 1 },
-                {
-                    type: 'neoforge:components',
-                    items: 'apotheosis:potion_charm',
-                    components: { potion_contents: { potion: 'minecraft:weaving' } }
-                },
                 { item: 'enigmatica:primordial_mud', count: 16 }
             ],
             spirits: [

@@ -1,6 +1,7 @@
 {
 	always_invisible: true
-	default_hide_dependency_lines: false
+	autofocus_id: "7B6DF86E979614F4"
+	default_hide_dependency_lines: true
 	default_min_width: 250
 	default_quest_shape: ""
 	filename: "the_beginning"
@@ -17,25 +18,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "68FDE7C7357F9B5A"
-			tasks: [{
-				id: "1E4B735AA9BC1A47"
-				item: { count: 1, id: "malum:umbral_spirit" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["68FDE7C7357F9B5A"]
+			dependencies: ["36A18D327A03810B"]
 			id: "799839991CC1DDF9"
 			tasks: [{
 				id: "129071987B99D5EF"
 				item: { count: 1, id: "enigmatica:vapours_of_nyx_bottle" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["799839991CC1DDF9"]
@@ -45,8 +36,8 @@
 				item: { count: 1, id: "enigmatica:ocean_essentia" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6AF21EDF59FCE0D4"]
@@ -56,8 +47,8 @@
 				item: { count: 1, id: "enigmatica:primordial_mud" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6A8ACE8E9B7A056D"]
@@ -67,8 +58,8 @@
 				item: { count: 1, id: "enigmatica:suffused_wildroot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5E4077F317135E34"]
@@ -78,8 +69,8 @@
 				item: { count: 1, id: "enigmatica:eastern_anemo" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EBB293F3DDE5EC7"]
@@ -89,8 +80,8 @@
 				item: { count: 1, id: "enigmatica:southern_anemo" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7413DDDB64FFAC2A"]
@@ -100,8 +91,8 @@
 				item: { count: 1, id: "enigmatica:northern_anemo" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["63A7E92BBCEDF461"]
@@ -111,8 +102,8 @@
 				item: { count: 1, id: "enigmatica:western_anemo" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6030BA17DB9228F2"]
@@ -122,8 +113,8 @@
 				item: { count: 1, id: "enigmatica:flask_of_four_winds" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7B6DF86E979614F4"]
@@ -144,8 +135,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -2.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6A4DD846F7E08FD6"]
@@ -155,28 +146,29 @@
 				item: { count: 1, id: "enigmatica:qulliq_vessel" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["26D35A0B06B5EA35"]
 			id: "304838EDEC32DE97"
+			shape: "heart"
 			tasks: [{
 				id: "7CE93020086E014B"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["26D35A0B06B5EA35"]
 			id: "414458433C4734C6"
 			tasks: [{
 				id: "02C8D80D57093B59"
 				item: { count: 1, id: "oritech:prometheum_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 7.0d
+			y: -7.0d
 		}
 	]
 }
