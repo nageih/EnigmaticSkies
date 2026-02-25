@@ -2864,7 +2864,7 @@
 		""
 		"With her hands she dug into the damp earth, molding the clay there into her likeness. With the heat of her fire, she hardened the clay. With the breath in her lungs, she breathed life into the clay. "
 		""
-		"With the words in her heart, she taught them of the animals and the land. Taught them to hunt and to tend, to plant and to harvest. She taught them to tend to the fires, to create."
+		"With the words in her heart, she taught the new people of the animals and the land. Taught them to hunt and to tend, to plant and to harvest. She taught them to tend to the fires, to create."
 	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
@@ -4698,7 +4698,6 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
-	quest.68FDE7C7357F9B5A.quest_desc: [""]
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""
@@ -4846,7 +4845,7 @@
 		""
 		"So, if anything is in the way, you may miss out on important blocks."
 		""
-		"Use a &7Potion of Flying&r to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on."
+		"Use the &7Potion of Flying&r from the previous quest to get a little ways from your main island and then cast your &7Holdfast&r spell to place a temporary block to build on."
 		""
 		"Your &7Ritual Brazier&r may then be set atop that block."
 		""

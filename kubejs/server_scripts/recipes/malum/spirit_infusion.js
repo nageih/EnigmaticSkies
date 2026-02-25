@@ -489,11 +489,6 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:clay', count: 4 },
             extraInputs: [
                 { item: 'malum:alchemical_calx', count: 1 },
-                {
-                    type: 'neoforge:components',
-                    items: 'apotheosis:potion_charm',
-                    components: { potion_contents: { potion: 'minecraft:weaving' } }
-                },
                 { item: 'enigmatica:primordial_mud', count: 16 }
             ],
             spirits: [

@@ -31,7 +31,9 @@ StartupEvents.registry('item', (event) => {
         'welkin_decanter',
         'flask_of_four_winds',
 
-        'borrowed_flame'
+        'borrowed_flame',
+
+        'world_seed'
     ];
 
     simple_items.forEach((item) => {

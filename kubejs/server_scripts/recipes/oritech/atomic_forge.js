@@ -56,7 +56,11 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'enigmatica:warded_vessel', count: 1 }],
             ingredients: [
                 { item: 'enigmatica:stoneware_vessel' },
-                { item: 'malum:rune_of_stone_ward' },
+                {
+                    type: 'neoforge:components',
+                    items: 'apotheosis:potion_charm',
+                    components: { potion_contents: { potion: 'minecraft:weaving' } }
+                },
                 { item: 'malum:rune_of_stone_ward' }
             ],
             time: 30,

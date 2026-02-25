@@ -357,7 +357,11 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 amount: recipe.result.count
             };
 
-            payload.id = `${output_data.items ? output_data.items : output_data.item}_from_${profession}`;
+            if (recipe.id_prefix) {
+                payload.id = `${profession}_tier_${recipe.level}_selling_${recipe.id_prefix}`;
+            } else {
+                payload.id = `${profession}_tier_${recipe.level}_selling_${output_data.items ? output_data.items : output_data.item}`;
+            }
 
             if (output_data.components) {
                 payload.output.nbt = JSON.stringify(output_data.components);

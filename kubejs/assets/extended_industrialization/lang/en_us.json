@@ -8,7 +8,7 @@
     "teslatower_tier.extended_industrialization.modern_industrialization.conductive_coil": "Conductive",
     "teslatower_tier.extended_industrialization.modern_industrialization.energetic_coil": "Energetic",
     "teslatower_tier.extended_industrialization.modern_industrialization.vibrant_coil": "Vibrant",
-    "teslatower_tier.extended_industrialization.extended_industrialization.superconductor_coil": "Superconductor",
+    "teslatower_tier.extended_industrialization.modern_industrialization.superconductor_coil": "Superconductor",
 
     "block.extended_industrialization.bronze_composter": "Andesite Alloy Composter"
 }
