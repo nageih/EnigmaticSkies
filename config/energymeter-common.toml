@@ -1,0 +1,15 @@
+[meter]
+	#Default interval of ticks.
+	# Default: 5
+	# Range: 1 ~ 200
+	default_interval = 5
+
+[monitor]
+	#Max width of monitor.
+	# Default: 32
+	# Range: 1 ~ 128
+	max_width = 32
+	#Max height of monitor.
+	# Default: 18
+	# Range: 1 ~ 128
+	max_height = 18

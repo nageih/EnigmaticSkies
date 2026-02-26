@@ -1,4 +1,6 @@
 {
+    "block.modern_industrialization.bronze_boiler": "Decrepit Boiler",
+
     "block.modern_industrialization.bronze_assembler": "Andesite Alloy Assembler",
     "block.modern_industrialization.steel_assembler": "Steel Assembler",
     "rei_categories.modern_industrialization.bronze_assembler": "Andesite Alloy Assembler",

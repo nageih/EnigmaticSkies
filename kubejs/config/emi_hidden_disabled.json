@@ -2,7 +2,6 @@
     "items": {
         "hidden": [
             "/modern_industrialization:.*_diesel_generator/",
-            "modern_industrialization:bronze_boiler",
             "modern_industrialization:steel_boiler",
             "modern_industrialization:high_pressure_large_steam_boiler",
             "extended_industrialization:bronze_solar_boiler",

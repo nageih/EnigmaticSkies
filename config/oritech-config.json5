@@ -142,7 +142,7 @@
     fluidPipeExtractIntervalDuration: 3,
     fluidPipeInternalStorageBuckets: 2.0,
     energyPipeTransferRate: 10000,
-    superConductorTransferRate: 4194304,
+    superConductorTransferRate: 2147483647,
     charger: {
         energyCapacity: 500000,
         maxEnergyInsertion: 10000,
