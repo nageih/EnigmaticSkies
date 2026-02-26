@@ -733,7 +733,7 @@
 		""
 		"If you wish to check on the it, locate the &7Trap Door&r in front and descend into the basement. "
 		""
-		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Dilapidated Boiler&r while you're down there to ensure it is operating."
+		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Decrepit Boiler&r while you're down there to ensure it is operating."
 		"{@pagebreak}"
 		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
@@ -1906,7 +1906,7 @@
 	quest.2C3B39CD6A7E044C.quest_desc: [
 		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
 		""
-		"Your &7Dilapidated Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
+		"Your &7Decrepit Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
 	]
 	quest.2C3B39CD6A7E044C.quest_subtitle: "Techonalogia!"
 	quest.2C7267F92822D2C1.quest_desc: [
