@@ -19,8 +19,8 @@
 			}
 			id: "062BB5F675CF9F45"
 			tasks: [{
-				id: "3E77920F150C9F9A"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "4D86E43DB5469CD0"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
 			x: 1.0d

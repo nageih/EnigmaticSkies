@@ -2888,11 +2888,7 @@
 		"Use this to encase a mob spawner to kill anything that spawns, or simply make a floor that damages anything standing on it. "
 	]
 	quest.441562EC913D1043.title: "Mob Farming"
-	quest.4421EB35235888DF.quest_desc: [
-		"Welcome to Nature's Aura! "
-		""
-		"Have a free book! This section is under construction!"
-	]
+	quest.4421EB35235888DF.quest_desc: ["Welcome to Nature's Aura! "]
 	quest.4421EB35235888DF.title: "Nature's Aura"
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
@@ -5821,7 +5817,6 @@
 	task.3D17C42035FE93C1.title: "Fluid Transfer Labels"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
-	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3F1AFB75DEE21F65.title: "Fluid Pipes"
 	task.3FEC46CB05E92C9B.title: "WIP Islands"
@@ -5945,7 +5940,6 @@
 	task.7BBDAB866A167CE4.title: "Mercurial Item Transporters"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7CDDB3E6855989E2.title: "Soul Shattering Weapons"
-	task.7CE93020086E014B.title: "Fin"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"

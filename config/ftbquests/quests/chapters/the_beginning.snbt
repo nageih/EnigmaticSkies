@@ -153,8 +153,9 @@
 			id: "304838EDEC32DE97"
 			shape: "heart"
 			tasks: [{
-				id: "7CE93020086E014B"
-				type: "checkmark"
+				id: "46F044415F5A7B03"
+				item: { count: 1, id: "enigmatica:world_seed" }
+				type: "item"
 			}]
 			x: 7.0d
 			y: -1.0d

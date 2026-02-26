@@ -29,11 +29,11 @@
 			}]
 			tasks: [{
 				id: "049F4B63ED48F239"
-				item: { count: 1, id: "minecraft:gold_ingot" }
+				item: { count: 1, id: "enigmatica:ruby" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4421EB35235888DF"]
@@ -46,8 +46,9 @@
 				type: "loot"
 			}]
 			tasks: [{
-				id: "492A33C1B5A86AF4"
+				id: "1A3FBD581936C240"
 				item: { count: 1, id: "naturesaura:nature_altar" }
+				optional_task: true
 				type: "item"
 			}]
 			x: 0.0d
