@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	autofocus_id: "7B6DF86E979614F4"
 	default_hide_dependency_lines: true
 	default_min_width: 250
@@ -150,6 +149,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["414458433C4734C6"]
 			id: "304838EDEC32DE97"
 			shape: "heart"
 			tasks: [{
@@ -157,7 +157,7 @@
 				type: "checkmark"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["26D35A0B06B5EA35"]
