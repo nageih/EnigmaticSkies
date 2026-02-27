@@ -1061,18 +1061,20 @@
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
 	quest.1AB4455F15DF1F84.quest_desc: [
-		"The &7Natural Altar&r is likely going to be the primary device you make use of that consumes Aura."
+		"The &7Natural Altar&r is the primary Aura consuming device you'll be using."
 		""
-		"The &7Book of Natural Aura&r goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
+		"Think of Aura like Oxygen and Carbon Dioxide. When you breathe, you inhale Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are &7Aura Generators&r to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
+		"There are &7Aura Generators&r to replenish it, but it is a finite resource that requires upkeep. Use too much and terrible things will start to happen."
 		""
-		"Luckily for you, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		"Luckily, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		""
+		"The &7Book of Natural Aura&r goes into more details on this mysterious force."
 		"&n                                                              &r"
 		""
-		"This devices requires a multiblock structure to function. "
+		"This device requires a multiblock structure to function. "
 		""
 		"Refer to the &7Book of Natural Aura&r for a preview of block placement."
 	]
@@ -5307,22 +5309,6 @@
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
-	quest.779AE777BBC999AD.quest_desc: [
-		"Performing the Offering to the Gods ritual will unlock new materials used for more powerful contraptions. "
-		""
-		"To make use of the Offering Table, flowers will need to be placed around it in two concentric rings."
-		""
-		"Refer to the Book of Natural Aura for a preview of their placement."
-		""
-		"With the structure in place, you’ll need to place the ingredients in the bowl, then throw a Spirit of Calling on the ground. After a moment, lightning will strike, and the results of the craft will fall from the sky."
-		""
-		"&6⚠ Note: Perform this in an area with "
-		"&6    clear access to the sky!"
-		""
-		"&a🛈 Tip: A single Spirit of Calling can "
-		"&a    convert up to 16 items!"
-	]
-	quest.779AE777BBC999AD.title: "Offering to the Gods"
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
