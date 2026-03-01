@@ -30,6 +30,8 @@
             "actuallyadditions:laser_relay",
             "actuallyadditions:laser_relay_advanced",
             "actuallyadditions:laser_relay_extreme",
+            "actuallyadditions:basic_coil",
+            "actuallyadditions:advanced_coil",
 
             "/ae2:.*_processor_press/",
             "/ae2:printed_.*_processor/",
@@ -310,6 +312,9 @@
             "extended_industrialization:phosphoric_acid_bucket",
             "extended_industrialization:potassium_chloride_bucket",
             "extended_industrialization:potassium_hydroxide_bucket",
+
+            "mi_tweaks:eu_transformer",
+            "mi_tweaks:flux_transformer",
 
             "/naturesaura:dimension_rail/",
             "/naturesaura:(cave|fortress|end_city|outpost|loot|netherite)_finder/",

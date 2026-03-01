@@ -281,6 +281,17 @@ ServerEvents.recipes((event) => {
                 C: 'modern_industrialization:advanced_upgrade'
             },
             id: `${id_prefix}looting_module`
+        },
+        {
+            output: 'extended_industrialization:machine_chainer_relay',
+            pattern: ['AAA', 'BCD', 'AAA'],
+            key: {
+                A: '#c:plates/iron',
+                B: '#modern_industrialization:item_pipes',
+                C: 'modern_industrialization:energetic_coil',
+                D: '#modern_industrialization:fluid_pipes'
+            },
+            id: `${id_prefix}machine_chainer_relay`
         }
     ];
 

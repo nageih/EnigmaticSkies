@@ -1109,6 +1109,8 @@
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
 		""
+		"One of these will likely replace all other &7Turbines&r you've been using up until now, but you'll need quite a few to get the most oout of your &7Fusion Reactor&r."
+		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
 		"&a    valid locations for them."
@@ -1854,9 +1856,9 @@
 		"&a    Genes on them."
 	]
 	quest.2C3B39CD6A7E044C.quest_desc: [
-		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
+		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped directly into the machine to power it. "
 		""
-		"Your &7Decrepit Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
+		"Your &7Decrepit Boiler&r should produce enough for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need to power more machines. "
 	]
 	quest.2C3B39CD6A7E044C.quest_subtitle: "Techonalogia!"
 	quest.2C7267F92822D2C1.quest_desc: [
@@ -2364,7 +2366,7 @@
 		"To target a block, Sneak + Right-Click it with the &7Target Designator&r, then Sneak + Right-Click the &7Laser&r. "
 	]
 	quest.3BCD9E36D48B205A.quest_desc: [
-		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."
+		"Piece together an &7LV Steam Turbine&r to begin producing electric power. "
 		""
 		"Be sure to grab some &7LV Cables&r from your Villagers too!"
 		""
@@ -2582,6 +2584,23 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/aaronhowser1/Genetics-Resequenced/wiki\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of supplemental information.\"]"
 	]
 	quest.3EA53BBEBC32F813.title: "Genetics: Resequenced"
+	quest.3EA705A9C893F04A.quest_desc: [
+		"Modern Industrialization’s &7Boilers&r and &7Turbines&r are the basis for most electricity that you’ll be producing, be it FE or EU. "
+		""
+		"EU converts to FE at a one-to-one ratio and Modern Industrialization’s &7Cables&r will do that conversion for you themselves, meaning you can run them straight to any FE consuming machine."
+		""
+		"                       &n&6A Note on Power Tiers&r&r"
+		""
+		"Modern Industrialization’s power tiers have two primary limitations that are worth keeping in mind."
+		""
+		"First, they limit the amount of power they can transfer across a given network of cables. It can therefore be useful to combine lower tier networks into a higher tier trunk line by using &7Transformers&r. For example, a cluster of eight &7LV Turbines&r will max out the transfer rate of an LV cable network. But that could be converted up to MV, allowing up to four of those clusters to power an MV cable network."
+		""
+		"Second, the cable tier affects the tier of EU machine they can connect to; an &7Energetic Cable (HV)&r simply won’t connect to a machine that isn’t HV tier and existing connections are dropped should the machine's tier change. Therefore, if you’re running a higher tier trunk line, you will need to use a &7Transformer&r to bring the tier down for the machine. This isn’t a concern for FE machines and they can be connected to any tier of EU cable."
+		""
+		"                           &n&6A Note on FE&r&r"
+		""
+		"So, how do you know what uses FE? A lot of mods, really. They just like to rename it to something different. In this pack, only Modern Industrialization and its addons use EU. Anything else that uses some form of electricity is using FE under the hood."
+	]
 	quest.3ED6754FC6B0A36D.quest_desc: [
 		"The tools added by Just Dire Things have a variety of interesting properties which can be attached to them; simply craft the tool and the upgrade together in a &7Smithing Table&r."
 		""
@@ -3107,6 +3126,9 @@
 		"All available fuels are listed in EMI, just search the uses for the &7Boiler&r. "
 		""
 		"To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
+		""
+		"&6⚠ Note: Multiblock Boilers &nonly&r &6accept "
+		"&6    liquid fuel."
 	]
 	quest.47AFEF3DCB2990FB.title: "Basic Fuel"
 	quest.47C5F9198615E0D5.quest_desc: [
@@ -3115,7 +3137,7 @@
 		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
 	]
 	quest.47CB92C2ECBB7FF4.quest_desc: [
-		"Bones are among the simplest things to re-animate. They hold a memory of life in them still and an urge to move; they simply lack the impetus to do so. "
+		"Bones are among the simplest things to re-animate. They hold in them a memory of life and an urge to move; they simply lack the impetus to do so. "
 		""
 		"For now, we’ll put them to work controlling some of our more basic machinery. "
 	]
@@ -3535,7 +3557,7 @@
 	quest.513BDF32A8F6EF45.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
@@ -3543,6 +3565,10 @@
 		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
 		""
 		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
+		""
+		"&6⚠ Note: Icestone is cold and holding "
+		"&6    too much will rapidly lower your "
+		"&6    body temperature!"
 	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."
@@ -3658,7 +3684,7 @@
 	quest.55D51F58CA3130AA.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.56AD6E7F12056140.quest_desc: [
 		"The &7Enchanting Apparatus&r is a vital tool in and of itself and will become important soon enough. "
@@ -3984,7 +4010,7 @@
 	quest.5F9A998072170415.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.5FBC1038ACB861CE.quest_desc: [
 		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
@@ -4424,7 +4450,7 @@
 	quest.6534548E8A6A318C.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
@@ -4542,7 +4568,7 @@
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
-		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to learn about better \", {\"text\": \"Boilers\", \"color\":\"gray\"}, \" as well as generating power with \", {\"text\": \"Turbines\", \"color\":\"gray\"}, \".\" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -5220,7 +5246,7 @@
 		""
 		"Make yourself a &7Magnet&r and you won't need to worry about it any longer."
 		""
-		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things where you'd like to avoid picking things up."
+		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things you'd like to avoid picking up."
 	]
 	quest.75BD1F2EB47FB7CF.quest_desc: [
 		"The &7Advanced Liquid Compressor&r operates using the same fuels you've been using thus far and can reach up to &720 bar&r. "
@@ -5864,6 +5890,7 @@
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
+	task.5ABB5D7B054177D0.title: "Energy"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CA2448AD3D03768.title: "Coke Oven"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"

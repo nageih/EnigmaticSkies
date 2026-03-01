@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["60239B38B7288779"]
+			dependencies: ["47AFEF3DCB2990FB"]
 			icon: {
 				id: "modern_industrialization:lv_steam_turbine"
 			}
@@ -22,7 +22,7 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -68,11 +68,11 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
 				id: "actuallyadditions:fermenting_barrel"
 			}
@@ -95,7 +95,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -115,8 +115,8 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -165,7 +165,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -182,7 +182,7 @@
 				item: { count: 1, id: "malum:umbral_spirit" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -201,7 +201,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5FE4FD410171ABFD"]
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "7F43653C4B9A96CE"
 			rewards: [{
 				id: "0951501A9B16EE32"
@@ -241,7 +241,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -268,7 +268,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -306,11 +306,14 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6EB5108D30F5A94A"]
+			dependencies: [
+				"6EB5108D30F5A94A"
+				"7F43653C4B9A96CE"
+			]
 			id: "1CBC50FA40BFB54A"
 			min_width: 300
 			tasks: [{
@@ -318,7 +321,7 @@
 				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -376,6 +379,55 @@
 			}]
 			x: 1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["6806970967942788"]
+			id: "3EA705A9C893F04A"
+			min_width: 300
+			rewards: [
+				{
+					count: 16
+					id: "405852AD8FB9DBA6"
+					item: {
+						count: 1
+						id: "modern_industrialization:conductive_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "507E20F15ECC9B06"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_mv_transformer"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "modern_industrialization:block/machines/steam_turbine/overlay_front_active"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5ABB5D7B054177D0"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 }

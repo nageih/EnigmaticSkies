@@ -877,9 +877,13 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:looting_module' },
         { output: 'extended_industrialization:silk_touch_module' },
         { output: 'extended_industrialization:processing_array' },
+        { output: 'extended_industrialization:machine_chainer_relay' },
         { input: 'extended_industrialization:granite_dust' },
         { id: /extended_industrialization:canning_machine\/(emptying|filling)\/minecraft\/water_bottle/ },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },
+
+        { output: 'mi_tweaks:eu_transformer' },
+        { output: 'mi_tweaks:flux_transformer' },
 
         // LaserIO
         { output: 'laserio:laser_connector' },
