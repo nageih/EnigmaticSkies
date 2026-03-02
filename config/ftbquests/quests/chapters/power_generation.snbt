@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["47AFEF3DCB2990FB"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
 				id: "modern_industrialization:lv_steam_turbine"
 			}
@@ -26,7 +26,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["47AFEF3DCB2990FB"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
 				id: "modern_industrialization:large_steam_boiler"
 			}
@@ -74,7 +74,7 @@
 		{
 			dependencies: ["3EA705A9C893F04A"]
 			icon: {
-				id: "actuallyadditions:fermenting_barrel"
+				id: "actuallyadditions:refined_canola_oil_bucket"
 			}
 			id: "47AFEF3DCB2990FB"
 			tasks: [
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -140,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -165,8 +165,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 4.0d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -241,8 +241,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 2.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -426,8 +426,8 @@
 				]
 				type: "location"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 }

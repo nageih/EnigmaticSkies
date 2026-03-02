@@ -3130,7 +3130,7 @@
 		"&6⚠ Note: Multiblock Boilers &nonly&r &6accept "
 		"&6    liquid fuel."
 	]
-	quest.47AFEF3DCB2990FB.title: "Basic Fuel"
+	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
 		""
@@ -3834,7 +3834,7 @@
 	quest.59DC95275C1091C6.quest_desc: [
 		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort of producing it. "
 		""
-		"Spend some time automating production now and it should keep your machines powered for a while to come."
+		"Spend some time automating production early and it should keep your machines powered for a while to come."
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
 		"&7Oil&r is normally formed under intense pressure over millions of years."
@@ -4045,6 +4045,8 @@
 	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.60239B38B7288779.quest_desc: [
 		"That little boiler back in the &7Gazebo&r is undoubtedly looking rather insufficient by now, so let’s work on a “little” upgrade."
+		""
+		"The &7Large Steam Boiler&r runs on liquid fuels such as &7Refined Canola Oil&r and will produce significantly more &7Steam&r per tick than its smaller cousin."
 		"&n                                                                          &r"
 		""
 		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
