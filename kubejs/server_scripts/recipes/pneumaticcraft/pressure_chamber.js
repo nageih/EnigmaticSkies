@@ -182,7 +182,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/vibrant_alloy', count: 3 },
                 { item: 'pneumaticcraft:plastic', count: 12 }
             ],
-            pressure: 4.0,
+            pressure: 10.0,
             id: `${id_prefix}vibrant_cable`
         },
         {
@@ -192,7 +192,7 @@ ServerEvents.recipes((event) => {
                 { item: 'pneumaticcraft:plastic', count: 12 },
                 { item: 'modern_industrialization:cooling_cell', count: 3 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}superconductor_cable`
         },
         {
@@ -232,7 +232,7 @@ ServerEvents.recipes((event) => {
                 { item: 'enderio:double_layer_capacitor', count: 2 },
                 { tag: 'c:plates/carbon', count: 2 }
             ],
-            pressure: 4.0,
+            pressure: 15.0,
             id: `${id_prefix}octadic_capacitor`
         },
         {
@@ -321,7 +321,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:highly_advanced_machine_hull', count: 1 },
                 { item: 'ae2:cell_component_64k', count: 24 }
             ],
-            pressure: 4.0,
+            pressure: 10.0,
             id: `${id_prefix}ev_storage_unit`
         },
         {
@@ -331,7 +331,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:quantum_machine_hull', count: 1 },
                 { item: 'ae2:cell_component_256k', count: 24 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}superconductor_storage_unit`
         },
         {
@@ -356,7 +356,7 @@ ServerEvents.recipes((event) => {
 
                 { item: 'oritech:heisenberg_compensator', count: 1 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}nano_helmet`
         },
         {
@@ -368,7 +368,7 @@ ServerEvents.recipes((event) => {
 
                 { item: 'oritech:heisenberg_compensator', count: 1 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}nano_chestplate`
         },
         {
@@ -380,7 +380,7 @@ ServerEvents.recipes((event) => {
 
                 { item: 'oritech:heisenberg_compensator', count: 1 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}nano_leggings`
         },
         {
@@ -392,7 +392,7 @@ ServerEvents.recipes((event) => {
 
                 { item: 'oritech:heisenberg_compensator', count: 1 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}nano_boots`
         },
         {
@@ -404,7 +404,7 @@ ServerEvents.recipes((event) => {
 
                 { item: 'oritech:heisenberg_compensator', count: 1 }
             ],
-            pressure: 4.0,
+            pressure: 19.0,
             id: `${id_prefix}nano_saber`
         },
         {

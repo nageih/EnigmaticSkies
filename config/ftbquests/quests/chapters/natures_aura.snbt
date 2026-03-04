@@ -29,11 +29,11 @@
 			}]
 			tasks: [{
 				id: "049F4B63ED48F239"
-				item: { count: 1, id: "minecraft:gold_ingot" }
+				item: { count: 1, id: "enigmatica:ruby" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4421EB35235888DF"]
@@ -46,50 +46,13 @@
 				type: "loot"
 			}]
 			tasks: [{
-				id: "492A33C1B5A86AF4"
+				id: "1A3FBD581936C240"
 				item: { count: 1, id: "naturesaura:nature_altar" }
+				optional_task: true
 				type: "item"
 			}]
 			x: 0.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1AB4455F15DF1F84"]
-			icon: {
-				id: "naturesaura:calling_spirit"
-			}
-			id: "779AE777BBC999AD"
-			rewards: [
-				{
-					count: 4
-					id: "102C3FBD2DE2848E"
-					item: {
-						count: 1
-						id: "naturesaura:calling_spirit"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2070BD699ED3BC0A"
-					table_id: 8269958316442293849L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "6A0409529F549EE5"
-					item: { count: 1, id: "naturesaura:offering_table" }
-					type: "item"
-				}
-				{
-					id: "0271A5B9C85AB38D"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]

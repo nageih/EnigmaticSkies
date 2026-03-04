@@ -158,6 +158,12 @@
 		{
 			dependencies: ["13F15094F3AF4A73"]
 			id: "6AA9F3E0D4BC181A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108D4A34A1FF2860"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				biome: "minecraft:mushroom_fields"
 				icon: {

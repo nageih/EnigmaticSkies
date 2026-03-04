@@ -47,12 +47,20 @@ ServerEvents.recipes((event) => {
                 A: '#aether:skyroot_logs'
             },
             id: `${id_prefix}skyroot_stick`
+        },
+        {
+            output: 'aether:sun_altar',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:plates/silver',
+                B: 'aether:hellfire_stone',
+                C: 'enigmatica:qulliq_vessel'
+            },
+            id: `${id_prefix}sun_altar`
         }
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
-
-        
     });
 });

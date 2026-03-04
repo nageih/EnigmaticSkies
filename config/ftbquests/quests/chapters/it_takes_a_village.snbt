@@ -725,7 +725,7 @@
 				table_id: 5796131842680319111L
 				type: "loot"
 			}]
-			shape: "diamond"
+			shape: "gear"
 			tasks: [
 				{
 					id: "74779A7784CF18C2"
@@ -907,13 +907,20 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0881BE9F4BE61564"
-				item: { count: 1, id: "ars_nouveau:earth_essence" }
-				type: "item"
-			}]
-			x: -1.5d
+			shape: "gear"
+			tasks: [
+				{
+					id: "0881BE9F4BE61564"
+					item: { count: 1, id: "ars_nouveau:earth_essence" }
+					type: "item"
+				}
+				{
+					id: "62D95901B6CF589D"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_flourishing" }
+					type: "item"
+				}
+			]
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -928,13 +935,20 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
-			tasks: [{
-				id: "73802C2C72AE8348"
-				item: { count: 1, id: "ars_nouveau:water_essence" }
-				type: "item"
-			}]
-			x: -2.5d
+			shape: "gear"
+			tasks: [
+				{
+					id: "73802C2C72AE8348"
+					item: { count: 1, id: "ars_nouveau:water_essence" }
+					type: "item"
+				}
+				{
+					id: "3DF61F4287EDADE3"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_cascading" }
+					type: "item"
+				}
+			]
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -949,14 +963,21 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
-			tasks: [{
-				id: "2D3475FF63025FDF"
-				item: { count: 1, id: "ars_nouveau:fire_essence" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
+			shape: "gear"
+			tasks: [
+				{
+					id: "2D3475FF63025FDF"
+					item: { count: 1, id: "ars_nouveau:fire_essence" }
+					type: "item"
+				}
+				{
+					id: "6A284C79E6497B07"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_blazing" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -970,14 +991,21 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1A8E4D246E8B557E"
-				item: { count: 1, id: "ars_nouveau:air_essence" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
+			shape: "gear"
+			tasks: [
+				{
+					id: "1A8E4D246E8B557E"
+					item: { count: 1, id: "ars_nouveau:air_essence" }
+					type: "item"
+				}
+				{
+					id: "675D77068105EF0D"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_sculk" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1CF4103BFBCE0E29"]
@@ -991,12 +1019,19 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1BE58172EFAB4ED0"
-				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
-				type: "item"
-			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1BE58172EFAB4ED0"
+					item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+					type: "item"
+				}
+				{
+					id: "3FE183CC278272DD"
+					item: { count: 1, id: "ars_caelum:ritual_conjure_island_vexing" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 3.0d
 		}

@@ -308,36 +308,6 @@
 		""
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
-	quest.08E99B65ABE19047.quest_desc: [
-		"Spellcraft is important to any practitioner of the arcane arts. Doubly so in Ars Nouveau where spells can be used both directly from the Spell Book, imbued into a Spell Turret to fire automatically, or even enchanted directly onto equipement to trigger on a condition. "
-		""
-		"Begin by making yourself the Novice Spell Book. It comes with a few glyphs that you’ll be able to put together, but you’ll soon want to explore more glyphs to pull off ever more impressive feats."
-		""
-		"&6&nUseful Keybinds&r"
-		""
-		"[\"• Open Book (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.ars_nouveau.open_book\"},\")\"]"
-		"[\"• Selection HUD (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Selection HUD\"}]},\"keybind\":\"key.ars_nouveau.selection_hud\"},\")\"]"
-		"[\"• Next Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Next Slot\"}]},\"keybind\":\"key.ars_nouveau.next_slot\"},\")\"]"
-		"[\"• Previous Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Previous Slot\"}]},\"keybind\":\"key.ars_nouveau.previous_slot\"},\")\"]"
-		""
-		"If you're feeling a little daunted by spellcraft, that's normal. It's a huge and very powerful system. We'll try to point out useful spells to know throughout the quests, however. "
-		""
-		"The guidebook also has a section that explains the rules, such as placing &5Form&r before &aEffect&r or where &6Augments&r are allowed. "
-		""
-		"[\"Lastly, the community driven \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://ars.guide/spells/introduction/compendium/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Ars.Guide\",\"underlined\":true},\" has a repository of useful spells. Feel free to explore them and submit your own creations!\"]"
-		""
-		"&6&nExample Spells&r"
-		""
-		"&7Multi-Tool&r"
-		"    &5Touch&r > &aBreak&r"
-		""
-		"&7Magic Missile&r"
-		"    &5Projectile&r > &aHarm&r"
-		""
-		"&a🛈 Tip: Refer to the guide for more examples."
-		""
-		"&6⚠ Note: Spells may contain up to thirty glyphs."
-	]
 	quest.0916404C0979D753.quest_desc: [
 		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the Steel version. "
 		""
@@ -733,7 +703,7 @@
 		""
 		"If you wish to check on the it, locate the &7Trap Door&r in front and descend into the basement. "
 		""
-		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Dilapidated Boiler&r while you're down there to ensure it is operating."
+		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Decrepit Boiler&r while you're down there to ensure it is operating."
 		"{@pagebreak}"
 		"A &7Hearth&r provides thermal regulation in a &7covered area&r within a &720 block spherical radius&r. "
 		""
@@ -891,28 +861,6 @@
 		""
 		"It is recommended that you use &7Repository Catalogs&r and &7Repositories&r, but any inventory will do."
 	]
-	quest.14CC5EDC04D6BAC7.quest_desc: [
-		"Unlocking Tier 3 Glyphs will require a fight with the Wilden Chimera. "
-		""
-		"The Tribute you obtain from defeating it will be used not only to upgrade your Spell Book but can also be used to upgrade Ars Nouveau’s armors to a higher tier."
-		""
-		"This fight is not easy. Come prepared."
-		"&n                                                 &r"
-		""
-		"To summon the Chimera, you’ll need to first place the Ritual Brazier, then Right-Click it with the Tablet of Summon Wilden."
-		""
-		"Next, throw a Wilden Spike, Wilden Horn, and Wilden Wing on the Brazier to augment it."
-		""
-		"Finally, Right-Click the brazier again and stand back. "
-		""
-		"&a🛈 Tip: If you’re missing one or more of "
-		"&a    these Wilden pieces, just use the "
-		"&a    Tablet un-augmented to summon "
-		"&a    regular Wilden."
-		""
-		"&c⚠ Warning: The Chimera breaks blocks."
-	]
-	quest.14CC5EDC04D6BAC7.title: "Summoning the Wilden"
 	quest.14DEE45EA9666015.quest_desc: [
 		"Prefer having an Environmental Accumulator at home? Or perhaps you'd like to collect the essence of a particular biome instead?"
 		""
@@ -1113,18 +1061,20 @@
 	]
 	quest.1A2B5BCA37161B1A.title: "Wixie Enchanting"
 	quest.1AB4455F15DF1F84.quest_desc: [
-		"The &7Natural Altar&r is likely going to be the primary device you make use of that consumes Aura."
+		"The &7Natural Altar&r is the primary Aura consuming device you'll be using."
 		""
-		"The &7Book of Natural Aura&r goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
+		"Think of Aura like Oxygen and Carbon Dioxide. When you breathe, you inhale Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you will die."
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are &7Aura Generators&r to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen."
+		"There are &7Aura Generators&r to replenish it, but it is a finite resource that requires upkeep. Use too much and terrible things will start to happen."
 		""
-		"Luckily for you, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		"Luckily, the &7Natural Altar&r will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		""
+		"The &7Book of Natural Aura&r goes into more details on this mysterious force."
 		"&n                                                              &r"
 		""
-		"This devices requires a multiblock structure to function. "
+		"This device requires a multiblock structure to function. "
 		""
 		"Refer to the &7Book of Natural Aura&r for a preview of block placement."
 	]
@@ -1158,6 +1108,8 @@
 	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
+		""
+		"One of these will likely replace all other &7Turbines&r you've been using up until now, but you'll need quite a few to get the most oout of your &7Fusion Reactor&r."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -1904,9 +1856,9 @@
 		"&a    Genes on them."
 	]
 	quest.2C3B39CD6A7E044C.quest_desc: [
-		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped into the machine directly to operate. "
+		"Andesite Alloy tier machines all run on &7Steam&r, which will need to be piped directly into the machine to power it. "
 		""
-		"Your &7Dilapidated Boiler&r should suffice for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need. "
+		"Your &7Decrepit Boiler&r should produce enough for now, but you’ll soon be able to build a better boiler to generate the &7Steam&r you need to power more machines. "
 	]
 	quest.2C3B39CD6A7E044C.quest_subtitle: "Techonalogia!"
 	quest.2C7267F92822D2C1.quest_desc: [
@@ -2054,34 +2006,6 @@
 		"&6⚠ Note: Items with extra data, such as "
 		"&6    batteries or inventories, will be"
 		"&6    cloned empty."
-	]
-	quest.309083107758B10C.quest_desc: [
-		"Now that you’ve got your first Spell Book, let’s see about adding some extra glyphs to spice things up."
-		""
-		"To make a new glyph, simply Right-Click on the Scribe’s Table with your Spell Book. This will show all known and unknown glyphs grouped by tier. It’s also searchable, so finding the Glyph you’re after shouldn’t be hard. "
-		""
-		"Let’s start with something easy to craft: Sensitive. "
-		""
-		"This allows you to change the target of a spell, such as hitting Water instead of the blocks below, or connecting with Grass and Saplings. "
-		""
-		"It also augments effects like Crush to work on items instead of blocks."
-		""
-		"&6&nExample Spells&r"
-		""
-		"&7Crush Items&r"
-		"    &5Projectile&r > &aCrush&r > &6Sensitive&r"
-		""
-		"&7Sapling Growth&r"
-		"    &5Projectile&r > &6Sensitive&r > &aGrow&r "
-		""
-		"&a🛈 Tip: The Scribe's Table will pull from "
-		"&a    nearby inventories automatically!"
-		""
-		"&6⚠ Note: Known Glyphs are stored in "
-		"&6    your player data. Losing a book "
-		"&6    just means losing the spell combos"
-		"&6    you’ve made rather than all Glyph "
-		"&6    knowledge."
 	]
 	quest.30FE41CF0C7F1270.quest_desc: [
 		"Need a fuel boost? "
@@ -2247,14 +2171,14 @@
 		"Right-Clicking the &7Crucible&r with the &7Tuning Fork&r will also allow you to select one modifier that will receive an even greater boost."
 	]
 	quest.36A18D327A03810B.quest_desc: [
-		"The Weeping Well has been generous with you, you have only one last thing to give it; yourself."
+		"The &7Weeping Well&r has been generous with you, you have only one last thing to give it; yourself."
 		""
 		"Trust it. Jump in. "
 		"&n                                                  &r"
 		""
-		"By jumping into the Well, you will receive an Umbral Spirit. "
+		"By jumping into the Well, you will receive an &7Umbral Spirit&r. "
 		""
-		"If you've lost yours, or simply need more, you can recreate it with some effort in the Particle Accelerator. "
+		"If you've lost yours, or simply need more, you can recreate it with some effort in the &7Particle Accelerator&r. "
 	]
 	quest.36A482587B5E89F7.quest_desc: [
 		"Infused with brilliant light, these blocks are favored by &7Alakarkinos&r for their beauty. They’ll produce even more &7Dorodangos&r from each block! "
@@ -2442,7 +2366,7 @@
 		"To target a block, Sneak + Right-Click it with the &7Target Designator&r, then Sneak + Right-Click the &7Laser&r. "
 	]
 	quest.3BCD9E36D48B205A.quest_desc: [
-		"Piece together an &7LV Steam Turbine&r to begin producing some electric power. You’ll need this to power most Tech machines."
+		"Piece together an &7LV Steam Turbine&r to begin producing electric power. "
 		""
 		"Be sure to grab some &7LV Cables&r from your Villagers too!"
 		""
@@ -2660,6 +2584,23 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/aaronhowser1/Genetics-Resequenced/wiki\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of supplemental information.\"]"
 	]
 	quest.3EA53BBEBC32F813.title: "Genetics: Resequenced"
+	quest.3EA705A9C893F04A.quest_desc: [
+		"Modern Industrialization’s &7Boilers&r and &7Turbines&r are the basis for most electricity that you’ll be producing, be it FE or EU. "
+		""
+		"EU converts to FE at a one-to-one ratio and Modern Industrialization’s &7Cables&r will do that conversion for you themselves, meaning you can run them straight to any FE consuming machine."
+		""
+		"                       &n&6A Note on Power Tiers&r&r"
+		""
+		"Modern Industrialization’s power tiers have two primary limitations that are worth keeping in mind."
+		""
+		"First, they limit the amount of power they can transfer across a given network of cables. It can therefore be useful to combine lower tier networks into a higher tier trunk line by using &7Transformers&r. For example, a cluster of eight &7LV Turbines&r will max out the transfer rate of an LV cable network. But that could be converted up to MV, allowing up to four of those clusters to power an MV cable network."
+		""
+		"Second, the cable tier affects the tier of EU machine they can connect to; an &7Energetic Cable (HV)&r simply won’t connect to a machine that isn’t HV tier and existing connections are dropped should the machine's tier change. Therefore, if you’re running a higher tier trunk line, you will need to use a &7Transformer&r to bring the tier down for the machine. This isn’t a concern for FE machines and they can be connected to any tier of EU cable."
+		""
+		"                           &n&6A Note on FE&r&r"
+		""
+		"So, how do you know what uses FE? A lot of mods, really. They just like to rename it to something different. In this pack, only Modern Industrialization and its addons use EU. Anything else that uses some form of electricity is using FE under the hood."
+	]
 	quest.3ED6754FC6B0A36D.quest_desc: [
 		"The tools added by Just Dire Things have a variety of interesting properties which can be attached to them; simply craft the tool and the upgrade together in a &7Smithing Table&r."
 		""
@@ -2864,7 +2805,7 @@
 		""
 		"With her hands she dug into the damp earth, molding the clay there into her likeness. With the heat of her fire, she hardened the clay. With the breath in her lungs, she breathed life into the clay. "
 		""
-		"With the words in her heart, she taught the new people of the animals and the land. Taught them to hunt and to tend, to plant and to harvest. She taught them to tend to the fires, to create."
+		"With the words in her heart, she taught the new people of the animals and the land. Taught them to hunt and to tend, to plant and to harvest. She taught them to nurture the fires, to create."
 	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
@@ -2968,11 +2909,7 @@
 		"Use this to encase a mob spawner to kill anything that spawns, or simply make a floor that damages anything standing on it. "
 	]
 	quest.441562EC913D1043.title: "Mob Farming"
-	quest.4421EB35235888DF.quest_desc: [
-		"Welcome to Nature's Aura! "
-		""
-		"Have a free book! This section is under construction!"
-	]
+	quest.4421EB35235888DF.quest_desc: ["Welcome to Nature's Aura! "]
 	quest.4421EB35235888DF.title: "Nature's Aura"
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
@@ -3189,15 +3126,18 @@
 		"All available fuels are listed in EMI, just search the uses for the &7Boiler&r. "
 		""
 		"To get started, however, you’ll need to start producing &7Refined Canola Oil&r. "
+		""
+		"&6⚠ Note: Multiblock Boilers &nonly&r &6accept "
+		"&6    liquid fuel."
 	]
-	quest.47AFEF3DCB2990FB.title: "Basic Fuel"
+	quest.47AFEF3DCB2990FB.title: "Refined Canola Oil"
 	quest.47C5F9198615E0D5.quest_desc: [
 		"Windmills are the earliest form of power in Immersive Engineering. "
 		""
 		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
 	]
 	quest.47CB92C2ECBB7FF4.quest_desc: [
-		"Bones are among the simplest things to re-animate. They hold a memory of life in them still and an urge to move; they simply lack the impetus to do so. "
+		"Bones are among the simplest things to re-animate. They hold in them a memory of life and an urge to move; they simply lack the impetus to do so. "
 		""
 		"For now, we’ll put them to work controlling some of our more basic machinery. "
 	]
@@ -3427,21 +3367,6 @@
 		""
 		"They can be augmented with a tool by placing the tool in an &7Item Frame&r on one of the Creators, thus allowing it to use &7Silk Touch&r, &7Fortune&r, or any other special breaking property of the installed tool. "
 	]
-	quest.4C5D3AE08ACA9836.quest_desc: [
-		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
-		""
-		"This will unlock Tier 2 Glyphs for you and really open up some wild possibilities for spells."
-		""
-		"&6&nExample Spell&r"
-		""
-		"&7Frostbite&r"
-		"    &5Touch&r > &aFreeze&r > &aCold Snap x2&r > &6Amplify&r"
-		"    > &aDelay&r > &aCold Snap&r > &6Amplify&r"
-		"     "
-		""
-		"&6⚠ Note: Any spells you’ve crafted will be "
-		"&6    transferred forward when upgrading. "
-	]
 	quest.4C745779C30B48A6.quest_desc: [
 		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
 		"&n                                                  &r"
@@ -3473,22 +3398,6 @@
 		"Alternatively, Right-Click &7Tuff&r with an &7Earth Essence&r to convert a &n21x11x21&r area to this biome!"
 	]
 	quest.4CC1CF537349C2D6.title: "Biome Conversion"
-	quest.4CE65730937AB775.quest_desc: [
-		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."
-		""
-		"You’ll almost certainly find something of use among all these tablets, but here are a few highlights:"
-		""
-		"  • Wide Area of Creative Flight"
-		"  • Locate specific structures"
-		"  • Hastened crop growth"
-		"  • Automatic crop harvesting"
-		"  • Weather shaping"
-		"  • Time manipulation"
-		""
-		"&a🛈 Tip: Check the Tablet Tooltips for "
-		"&a    more information!"
-	]
-	quest.4CE65730937AB775.title: "Ritual Magic"
 	quest.4D1EE65F80F50090.quest_desc: [
 		"The Reformation Source Pedestal is used to hold our input ingredients; Lapis Sulfur for the time being."
 		""
@@ -3571,7 +3480,7 @@
 	]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F2E18DABA17E0AC.quest_desc: [
-		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as Mud to Moss."
+		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as &7Mud&r to &7Moss&r."
 		""
 		"It can be incredibly power hungry!"
 		""
@@ -3648,7 +3557,7 @@
 	quest.513BDF32A8F6EF45.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.51636F3E5A461A7B.quest_desc: [
 		"You'll be able to scrape away the ice from &7Icestone&r on a cutting board with any &7Axe&r."
@@ -3656,6 +3565,10 @@
 		"After it has been cleaned up, you’ll be left with &7Holystone&r which may be crushed down to obtain other materials. "
 		""
 		"Notably, you’ll need some &7Ambrosium&r which is an important catalyst for transmutation magic."
+		""
+		"&6⚠ Note: Icestone is cold and holding "
+		"&6    too much will rapidly lower your "
+		"&6    body temperature!"
 	]
 	quest.516EF5AA0B699CBF.quest_desc: [
 		"Fortron Capacitors serve two purposes; energy storage and transmission."
@@ -3771,7 +3684,7 @@
 	quest.55D51F58CA3130AA.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.56AD6E7F12056140.quest_desc: [
 		"The &7Enchanting Apparatus&r is a vital tool in and of itself and will become important soon enough. "
@@ -3921,7 +3834,7 @@
 	quest.59DC95275C1091C6.quest_desc: [
 		"&7Blaze Ember Fuel&r represents a significant upgrade over &7Refined Canola&r and will be well worth the effort of producing it. "
 		""
-		"Spend some time automating production now and it should keep your machines powered for a while to come."
+		"Spend some time automating production early and it should keep your machines powered for a while to come."
 	]
 	quest.59F0519A7ED69E19.quest_desc: [
 		"&7Oil&r is normally formed under intense pressure over millions of years."
@@ -4097,7 +4010,7 @@
 	quest.5F9A998072170415.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.5FBC1038ACB861CE.quest_desc: [
 		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
@@ -4122,7 +4035,8 @@
 		"As power needs increase, it is generally better to upgrade your &7Boilers&r instead of building more of the same. "
 		""
 		"After all, a single &7Advanced Boiler&r is worth four standard &7Boilers&r."
-		"&n                                                                           &r"
+		"&n                                                                          &r"
+		""
 		"Upgrade your power production by switching to &7Advanced Large Steam Boilers&r."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
@@ -4157,13 +4071,6 @@
 		"Applied an upgrade or imbuement you no longer need? They can be removed with a Shriving Stone. "
 		""
 		"Upgrades are not lost when removed in this way. "
-	]
-	quest.602E1E149A49D056.quest_desc: [
-		"With the Chimera dead, the rest of the ingredients for the Archmage Spell Book should be within your grasp. "
-		""
-		"Summoning the Wither is the same as Vanilla, but you can craft a containment chamber for it with Reinforced Deepslate to simplify the fight."
-		""
-		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
 	]
 	quest.6030BA17DB9228F2.quest_desc: [
 		"One day the woman found herself in the North and few animals remained with her. "
@@ -4544,7 +4451,7 @@
 	quest.6534548E8A6A318C.quest_desc: [
 		"Alakarkinos is eager and ready to assist! "
 		""
-		"New Dorodangos await you with the materials available on this island. "
+		"New &7Dorodangos&r await you with the materials available on this island. "
 	]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
@@ -4662,7 +4569,7 @@
 	quest.6806970967942788.quest_desc: [
 		"The &7Coffee Maker&r is the work site for the &7Engineer&r villager. In exchange for a hearty breakfast, these villagers will gladly provide you with all the parts you need to start &7making power&r."
 		""
-		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on making fuel and generating power. \" ]"
+		"[ \"Check out the \", { \"text\": \"Energy Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FF1E0FF9CAD1914\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" to learn about better \", {\"text\": \"Boilers\", \"color\":\"gray\"}, \" as well as generating power with \", {\"text\": \"Turbines\", \"color\":\"gray\"}, \".\" ]"
 		""
 		"The &7Coffee Maker&r may also be used to automatically brew &7Coffee&r. "
 		""
@@ -4741,11 +4648,6 @@
 		"&a    or Amethyst"
 	]
 	quest.699B01CFAEE29827.quest_desc: ["An excellent way to cool &7Plastic&r or simply make &7Ice&r. "]
-	quest.69A9A6E9B7CB34B4.quest_desc: [
-		"The first thing you’ll need to do to get started with Ars Nouveau is find some Archwood trees. "
-		""
-		"For now, any color will do, but you’ll eventually want to collect some saplings from each variety."
-	]
 	quest.69D23BB3D7670DFC.quest_desc: [
 		"When used in the Force Field Projector, these upgrades can adjust the shape and size of the field. "
 		""
@@ -5345,7 +5247,7 @@
 		""
 		"Make yourself a &7Magnet&r and you won't need to worry about it any longer."
 		""
-		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things where you'd like to avoid picking things up."
+		"A &7Demagnetization Coil&r may prove similarly indispensable, rendering your &7Magnet&r inert near things you'd like to avoid picking up."
 	]
 	quest.75BD1F2EB47FB7CF.quest_desc: [
 		"The &7Advanced Liquid Compressor&r operates using the same fuels you've been using thus far and can reach up to &720 bar&r. "
@@ -5432,26 +5334,8 @@
 		""
 		"With it, you’ll be able to generate the Source Gems and Essences you’ll need for all future crafts. "
 		""
-		"For now, we'll need to start by converting some Lapis to Source Gems. "
-		""
 		"&a🛈 Tip: Source is optional!"
 	]
-	quest.779AE777BBC999AD.quest_desc: [
-		"Performing the Offering to the Gods ritual will unlock new materials used for more powerful contraptions. "
-		""
-		"To make use of the Offering Table, flowers will need to be placed around it in two concentric rings."
-		""
-		"Refer to the Book of Natural Aura for a preview of their placement."
-		""
-		"With the structure in place, you’ll need to place the ingredients in the bowl, then throw a Spirit of Calling on the ground. After a moment, lightning will strike, and the results of the craft will fall from the sky."
-		""
-		"&6⚠ Note: Perform this in an area with "
-		"&6    clear access to the sky!"
-		""
-		"&a🛈 Tip: A single Spirit of Calling can "
-		"&a    convert up to 16 items!"
-	]
-	quest.779AE777BBC999AD.title: "Offering to the Gods"
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -5615,7 +5499,7 @@
 		""
 		"Here, we find ourselves at the end. And with every end, a new story takes root.  "
 		""
-		"What threads will we leave for those who will come after us?"
+		"What threads will we weave for those who will come after us?"
 	]
 	quest.799839991CC1DDF9.title: "The Formless Void"
 	quest.79DFBA1E35132332.quest_desc: [
@@ -5884,6 +5768,7 @@
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.2249B1CA280D4531.title: "Skies"
+	task.225508B5F690C310.title: "Fluid Input Hatch"
 	task.23CDBB8A570B6689.title: "Blocks Obtained from Sludge"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2404D63C45135601.title: "Spirit Aspects"
@@ -5933,6 +5818,7 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3829B9508E55605E.title: "Natures Aura"
+	task.383830982713CF12.title: "Energy Output Hatch"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3935AF387C2EA352.title: "Impossible"
 	task.3A59C49FAF001D7E.title: "Temperature Management"
@@ -5946,7 +5832,6 @@
 	task.3D17C42035FE93C1.title: "Fluid Transfer Labels"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
-	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3F1AFB75DEE21F65.title: "Fluid Pipes"
 	task.3FEC46CB05E92C9B.title: "WIP Islands"
@@ -5960,6 +5845,7 @@
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.4315ED9269099C81.title: "Any Chest"
+	task.431D734EA8A2E7EF.title: "Fluid Input Hatch"
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.4484CC7F88D33D12.title: "Arcane Platforms"
@@ -5995,6 +5881,7 @@
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.545F39B6325986CA.title: "Industrial Foregoing"
+	task.547A92B162CC0314.title: "Fluid Input Hatch"
 	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
@@ -6008,6 +5895,7 @@
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
+	task.5ABB5D7B054177D0.title: "Energy"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CA2448AD3D03768.title: "Coke Oven"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
@@ -6021,6 +5909,7 @@
 	task.5FD7075685BB37AD.title: "Generators"
 	task.605834F92F6F384F.title: "Observation: &2Wixie's Cooking Pot&r"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
+	task.60A606EEBA68E86C.title: "Fluid Output Hatch"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.6118F9D879616D84.title: "Meat"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
@@ -6049,6 +5938,7 @@
 	task.71A479E92219AB03.title: "Fluid Input Hatch"
 	task.71EFA0C693ACD330.title: "Item Transfer Labels"
 	task.72396A76EEA759CF.title: "Books of Binding"
+	task.7361E2FFBFB27FD7.title: "Fluid Output Hatch"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
@@ -6059,8 +5949,10 @@
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.75F35EC4088EBA42.title: "Create Processing"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
+	task.76E02A5A8A664728.title: "Fluid Input Hatch"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.77F882F4F6E96C76.title: "Feedback Needs"
+	task.7858961CD00D205B.title: "Fluid Output Hatch"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
 	task.78CB052047F0AC64.title: "Oritech - Particle Physics"
@@ -6070,7 +5962,6 @@
 	task.7BBDAB866A167CE4.title: "Mercurial Item Transporters"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7CDDB3E6855989E2.title: "Soul Shattering Weapons"
-	task.7CE93020086E014B.title: "Fin"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"

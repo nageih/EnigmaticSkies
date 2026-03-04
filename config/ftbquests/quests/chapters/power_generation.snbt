@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["60239B38B7288779"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
 				id: "modern_industrialization:lv_steam_turbine"
 			}
@@ -22,11 +22,11 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["47AFEF3DCB2990FB"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
 				id: "modern_industrialization:large_steam_boiler"
 			}
@@ -68,13 +68,13 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["6806970967942788"]
+			dependencies: ["3EA705A9C893F04A"]
 			icon: {
-				id: "actuallyadditions:fermenting_barrel"
+				id: "actuallyadditions:refined_canola_oil_bucket"
 			}
 			id: "47AFEF3DCB2990FB"
 			tasks: [
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["60239B38B7288779"]
@@ -115,8 +115,8 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -140,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -165,8 +165,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 4.0d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -190,18 +190,52 @@
 				"2B759D4770C13739"
 				"60239B38B7288779"
 			]
+			icon: {
+				id: "modern_industrialization:advanced_large_steam_boiler"
+			}
 			id: "5FE4FD410171ABFD"
 			min_width: 300
-			tasks: [{
-				id: "2680E5AC31798C7C"
-				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2680E5AC31798C7C"
+					item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4BB9CCB80DB59945"
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "65A6FAE662A060FE"
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1E260019E4C385CF"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "225508B5F690C310"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "60A606EEBA68E86C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:fire_clay_brick_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["5FE4FD410171ABFD"]
+			dependencies: ["3BCD9E36D48B205A"]
 			id: "7F43653C4B9A96CE"
 			rewards: [{
 				id: "0951501A9B16EE32"
@@ -241,8 +275,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -267,8 +301,38 @@
 					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
 					type: "item"
 				}
+				{
+					count: 22L
+					id: "12625D3DD2F6130A"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "50E88B65588890FA"
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1ABF71E10C0614FC"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "547A92B162CC0314"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7361E2FFBFB27FD7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:fire_clay_brick_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -291,34 +355,78 @@
 					type: "item"
 				}
 				{
+					count: 32L
 					id: "55298A26BD47F94D"
 					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 3L
 					id: "492CDE424F2E73A8"
 					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "26E7AC6E9EE7B30D"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "76E02A5A8A664728"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7858961CD00D205B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:fire_clay_brick_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6EB5108D30F5A94A"]
+			dependencies: [
+				"6EB5108D30F5A94A"
+				"7F43653C4B9A96CE"
+			]
+			icon: {
+				id: "modern_industrialization:large_steam_turbine"
+			}
 			id: "1CBC50FA40BFB54A"
 			min_width: 300
-			tasks: [{
-				id: "6C1BEADC0F34C2DE"
-				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
-				type: "item"
-			}]
-			x: 4.0d
+			tasks: [
+				{
+					id: "6C1BEADC0F34C2DE"
+					item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "1FAB08C9BFC7A560"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "35A8668260BB3979"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "431D734EA8A2E7EF"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch)item(modern_industrialization:fire_clay_brick_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "383830982713CF12"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:ev_energy_output_hatch)item(modern_industrialization:hv_energy_output_hatch)item(modern_industrialization:superconductor_energy_output_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -368,7 +476,6 @@
 		{
 			dependencies: ["36A18D327A03810B"]
 			id: "21B7BDFCF5144431"
-			min_width: 300
 			tasks: [{
 				id: "678D630492F602D7"
 				item: { count: 1, id: "enigmatica:vapours_of_nyx_bucket" }
@@ -376,6 +483,55 @@
 			}]
 			x: 1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["6806970967942788"]
+			id: "3EA705A9C893F04A"
+			min_width: 300
+			rewards: [
+				{
+					count: 16
+					id: "405852AD8FB9DBA6"
+					item: {
+						count: 1
+						id: "modern_industrialization:conductive_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "507E20F15ECC9B06"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_mv_transformer"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "modern_industrialization:block/machines/steam_turbine/overlay_front_active"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5ABB5D7B054177D0"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 }

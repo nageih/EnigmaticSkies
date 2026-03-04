@@ -6,7 +6,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "malum:textures/mob_effect/ascension.png"
+			"ftbquests:icon": "cold_sweat:textures/particle/mist_0.png"
 		}
 		id: "ftbquests:custom_icon"
 	}

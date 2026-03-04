@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	autofocus_id: "7B6DF86E979614F4"
 	default_hide_dependency_lines: true
 	default_min_width: 250
@@ -150,14 +149,16 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["414458433C4734C6"]
 			id: "304838EDEC32DE97"
 			shape: "heart"
 			tasks: [{
-				id: "7CE93020086E014B"
-				type: "checkmark"
+				id: "46F044415F5A7B03"
+				item: { count: 1, id: "enigmatica:world_seed" }
+				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["26D35A0B06B5EA35"]
