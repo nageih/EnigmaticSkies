@@ -480,7 +480,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { item: 'ars_nouveau:sourceberry_bush', amount: 3 },
                 { tag: 'arsdelight:leaves', amount: 1 },
-                { tag: 'c:sugars', amount: 1 },
+                { tag: 'arsdelight:barks', amount: 1 },
                 { item: 'minecraft:glass_bottle', amount: 1 }
             ],
             duration: 10,

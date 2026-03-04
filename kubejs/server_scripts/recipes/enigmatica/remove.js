@@ -1139,6 +1139,7 @@ ServerEvents.recipes((event) => {
         { id: 'pneumaticcraft:pressure_chamber/capacitor' },
         { id: 'pneumaticcraft:pressure_chamber/turbine_blade' },
         { id: 'pneumaticcraft:pressure_chamber/empty_pcb' },
+        { id: 'pneumaticcraft:pressure_chamber/etching_acid' },
         { id: /pneumaticcraft:pneumatic_(helmet|chestplate|leggings|boots)/ },
         { id: 'pneumaticcraft:fluid_mixer/biodiesel' },
         { id: 'pneumaticcraft:drone_upgrade' },

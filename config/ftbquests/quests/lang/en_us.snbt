@@ -3480,7 +3480,7 @@
 	]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F2E18DABA17E0AC.quest_desc: [
-		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as Mud to Moss."
+		"The &7Atomic Reconstructor&r is a powerful device used to transmute certain materials such as &7Mud&r to &7Moss&r."
 		""
 		"It can be incredibly power hungry!"
 		""

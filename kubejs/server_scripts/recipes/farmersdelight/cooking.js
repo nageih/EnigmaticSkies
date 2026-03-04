@@ -171,6 +171,7 @@ ServerEvents.recipes((event) => {
             ingredients: [
                 { item: 'ars_nouveau:sourceberry_bush' },
                 { item: 'ars_nouveau:sourceberry_bush' },
+                { item: 'ars_nouveau:sourceberry_bush' },
                 { tag: 'arsdelight:barks' },
                 { tag: 'arsdelight:leaves' }
             ],
