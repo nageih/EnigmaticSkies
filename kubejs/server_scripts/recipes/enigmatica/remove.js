@@ -354,6 +354,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
         { id: 'farmersdelight:cooking/dumplings' },
+        { id: 'farmersdelight:cooking/cabbage_rolls' },
         { id: 'farmersdelight:pie_crust' },
         { id: 'farmersdelight:apple_pie' },
         { id: 'farmersdelight:chocolate_pie' },

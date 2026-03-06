@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/ash', amount: 4 },
                 { tag: 'c:tallow', amount: 1 }
             ],
-            duration: 10,
+            duration: 5,
             eu: 16,
             id: `${id_prefix}soap`
         },
@@ -367,10 +367,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mushroom_rice`
         },
         {
-            item_outputs: [{ item: 'farmersdelight:cabbage_rolls', amount: 1 }],
+            item_outputs: [{ item: 'farmersdelight:cabbage_rolls', amount: 2 }],
             item_inputs: [
                 { tag: 'c:crops/cabbage', amount: 1 },
-                { tag: 'farmersdelight:cabbage_roll_ingredients', amount: 1 }
+                { tag: 'farmersdelight:cabbage_roll_ingredients', amount: 1 },
+                { item: 'farmersdelight:rice', amount: 1 }
             ],
             duration: 5,
             eu: 16,

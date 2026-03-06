@@ -11,6 +11,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:mushrooms' }
             ],
             recipe_book_tab: 'meals',
+            cookingtime: 10,
             experience: 1.0,
             id: `farmersdelight:cooking/beef_stew`
         },
@@ -22,6 +23,7 @@ ServerEvents.recipes((event) => {
                 { item: 'arsdelight:unstable_cocktail' }
             ],
             recipe_book_tab: 'meals',
+            cookingtime: 10,
             experience: 1.0,
             id: `${id_prefix}gooblock_tier2`
         },
@@ -29,6 +31,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'aether:blue_gummy_swet', count: 1 },
             ingredients: [{ item: 'aether:swet_ball' }, { tag: 'c:sugars' }],
             recipe_book_tab: 'meals',
+            cookingtime: 10,
             experience: 1.0,
             id: `${id_prefix}blue_gummy_swet`
         },
@@ -43,8 +46,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}mendosteen_jelly`
         },
         {
@@ -58,8 +62,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}bastion_jelly`
         },
         {
@@ -73,8 +78,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}bombegrante_jelly`
         },
         {
@@ -88,8 +94,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}frostaya_jelly`
         },
         {
@@ -101,8 +108,9 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:slime_ball' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}source_berry_jelly`
         },
         {
@@ -116,8 +124,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:drinks/milk' }
             ],
             container: { id: 'minecraft:paper', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'meals',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}source_berry_cupcake`
         },
         {
@@ -136,9 +145,22 @@ ServerEvents.recipes((event) => {
                     ]
                 }
             ],
-            experience: 1.0,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 1.0,
             id: `${id_prefix}dumplings`
+        },
+        {
+            result: { id: 'farmersdelight:cabbage_rolls', count: 2 },
+            ingredients: [
+                { tag: 'c:crops/cabbage' },
+                { tag: 'farmersdelight:cabbage_roll_ingredients' },
+                { item: 'farmersdelight:rice' }
+            ],
+            recipe_book_tab: 'misc',
+            cookingtime: 5,
+            experience: 0.35,
+            id: `${id_prefix}cabbage_rolls`
         },
         {
             result: { id: 'supplementaries:soap', count: 6 },
@@ -149,6 +171,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/ash' },
                 { tag: 'c:tallow' }
             ],
+            cookingtime: 5,
             experience: 0.1,
             recipe_book_tab: 'misc',
             id: `${id_prefix}soap`
@@ -162,8 +185,9 @@ ServerEvents.recipes((event) => {
                 { item: 'occultism:tallow' }
             ],
             container: { id: 'minecraft:bowl', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'meals',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}wilden_sauce`
         },
         {
@@ -176,8 +200,9 @@ ServerEvents.recipes((event) => {
                 { tag: 'arsdelight:leaves' }
             ],
             container: { id: 'minecraft:glass_bottle', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'drinks',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}source_berry_tea`
         },
         {
@@ -189,14 +214,16 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars' }
             ],
             container: { id: 'minecraft:glass_bottle', count: 1 },
-            experience: 0.1,
             recipe_book_tab: 'misc',
+            cookingtime: 10,
+            experience: 0.1,
             id: `${id_prefix}source_berry_jam`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'farmersdelight:cooking';
+        recipe.cookingtime *= 20;
         event.custom(recipe).id(recipe.id);
     });
 });
