@@ -518,6 +518,7 @@
 		{
 			dependencies: ["1BDCA4CF5ED739BA"]
 			id: "1C21EC957B97C70A"
+			shape: "diamond"
 			tasks: [{
 				id: "315244A8A7EDAA04"
 				item: { count: 1, id: "justdirethings:clickert2" }
@@ -1020,6 +1021,40 @@
 			}]
 			x: 19.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["053C43E68E7ADB2B"]
+			id: "1AE63FE6C7EF59AB"
+			rewards: [{
+				id: "76AF0EFE0031A60D"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"malum:spirit_plunder": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0174EDD63F435FD4"
+					item: { count: 1, id: "justdirethings:clickert1" }
+					type: "item"
+				}
+				{
+					id: "20B1E90E83D56159"
+					item: { count: 1, id: "modularrouters:activator_module" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 4.5d
 		}
 	]
 }

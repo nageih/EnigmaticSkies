@@ -52,6 +52,7 @@
 		""
 		"The &7Router&r needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
+	quest.016B7CA4A7FC58A1.quest_desc: ["With &7Brass&r, most of Create should now be accessible to you, greatly enhancing your options for automation."]
 	quest.01C6F096606E3638.quest_desc: [
 		"Welcome to Industrial Foregoing! "
 		""
@@ -1105,6 +1106,7 @@
 		"&7Quick Soil&r will make a form of glass suitable for making &7Bottles&r. "
 	]
 	quest.1ACB8880980AF206.title: "Wit by Writ"
+	quest.1AE63FE6C7EF59AB.quest_desc: ["A &7Simple Clicker&r or &7Activator Module&r attacking mobs with a &7Soul Shattering Weapon&r can be an excellent way to automate &7Spirit&r collection. "]
 	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
@@ -1123,7 +1125,7 @@
 	quest.1C21EC957B97C70A.quest_desc: [
 		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
-		"Unlike a &7Simple Clicker&r, it acts in a large area. "
+		"Unlike a &7Simple Clicker&r, the &7Advanced Clicker&r acts in a large area. "
 	]
 	quest.1C4DB05778703E9B.quest_desc: [
 		"&7Wardens&r were built for protection. That was the original purpose, at least."
@@ -3927,6 +3929,7 @@
 	]
 	quest.5D74493BC797D6F0.title: "Wicked Spirit"
 	quest.5D8073141AD2D279.title: "Engineer"
+	quest.5D97DDB66F470605.quest_desc: ["Neptunium tools and armor are Unbreakable, making the tools quite useful in farms. "]
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
 		""
@@ -5882,6 +5885,7 @@
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.545F39B6325986CA.title: "Industrial Foregoing"
 	task.547A92B162CC0314.title: "Fluid Input Hatch"
+	task.54F9AD36E2BEBF47.title: "Neptunium Tools and Armor"
 	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
