@@ -831,7 +831,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 }
             ],
             no_batch: true,
-            duration: 10,
+            duration: 2,
             eu: 16,
             id: `${id_prefix}fermentation_starter`
         },
