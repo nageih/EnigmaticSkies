@@ -795,7 +795,8 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [
                 { item: 'arsdelight:source_berry_cupcake', amount: 4 },
-                { item: 'minecraft:glass_bottle', amount: 1 }
+                { item: 'minecraft:glass_bottle', amount: 1 },
+                { item: 'minecraft:bowl', amount: 1 }
             ],
             item_inputs: [
                 { item: 'arsdelight:arch_sauce', amount: 1 },
