@@ -506,12 +506,45 @@
 		}
 		{
 			dependencies: ["0AEC5C2683575F1C"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
 			id: "45E411460C53A082"
-			tasks: [{
-				id: "3E4DCDF1FABBA45E"
-				item: { count: 1, id: "malum:spirit_altar" }
-				type: "item"
-			}]
+			min_width: 300
+			rewards: [
+				{
+					count: 3
+					id: "2D450495EE587102"
+					item: {
+						count: 1
+						id: "malum:runewood_obelisk"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49BF720F7DC6CCF6"
+					table_id: 7702722816138915192L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "3E4DCDF1FABBA45E"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					id: "122BA8ACC6374460"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:soulwood_item_pedestal)item(malum:tainted_rock_item_pedestal)item(malum:runewood_item_pedestal)item(malum:twisted_rock_item_pedestal)item(malum:gilded_runewood_item_pedestal)item(malum:ornate_soulwood_item_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "457F953939F90223"
+					item: { count: 1, id: "malum:runewood_obelisk" }
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: 1.5d
 		}

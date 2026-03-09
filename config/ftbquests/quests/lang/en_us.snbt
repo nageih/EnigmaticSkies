@@ -38,7 +38,7 @@
 		""
 		"So, they shifted their focus and instead set out to improve upon what nature had already nearly perfected. "
 		""
-		"Through the combination of multiple disciplines, they brought life to dead flesh and then improved it to be stronger and more durable than ever.   "
+		"Through the combination of multiple disciplines, they re-animated dead flesh and enhanced it to be stronger and more durable than ever.   "
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
@@ -382,6 +382,11 @@
 		"Extra tooltips and information panes have also been added to many items to help explain how to use them or to highlight important information that's either custom to the pack or otherwise undocumented. "
 		""
 		"Likewise, these quests will also attempt to give you extra tips and tricks to help you navigate the pack. Especially where custom mechanics are concerned. "
+	]
+	quest.0AEC5C2683575F1C.quest_desc: [
+		"Trade for a &7Runewood Sapling&r at the Weeping Well. "
+		""
+		"You’ll need this primarily for its wood, though the sap can be quite useful as well. "
 	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
@@ -2311,6 +2316,9 @@
 		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain &7Wastewater&r. "
 		""
 		"This may then be recycled into fresh &7Water&r and a variety of other blocks. "
+		""
+		"&a🛈 Tip: Remember to lock the slots to "
+		"&a    control what recipe is processed!"
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -2830,9 +2838,7 @@
 		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.427846D4FFE678C5.quest_desc: [
-		"Once viewed as barbaric superstition, the act of inserting &7Life Shards&r under one’s skin to boost vitality was ridiculed for centuries. "
-		""
-		"Once put to more empirical testing, however, their efficacy was undeniable. "
+		"Ancient stories tell of warriors who would consume these &7Shards&r before battle to enhance their vitality and ensure their safe return."
 		""
 		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
 		""
@@ -2954,12 +2960,16 @@
 		""
 		"Typically, this path should be a loop to gain the momentum needed for various crafts. "
 		""
-		"Speeding up the particle will require one or more &7Linear Motors&r. Each only imparts a small amount of momentum, but you can place multiple in line to get things up to speed quicker. "
+		"Speeding up the particle will require one or more &7Linear Motors&r. As the input item crosses a powered &7Motor&r, it will consume &640 * Current Speed FE&r to accelerate by &61J&r. So while a low speed collision of &6100J&r will only require about &6200k FE&r total, high speed crafts may consume millions or billions of FE."
+		""
+		"Starting off, you'll probably only have a few &7Linear Motors&r, so it is best to keep the ring small to reduce the time it takes for the particle to get back around to the &7Motor&r again. "
+		""
+		"&7Guide Rings&r may be controlled by &cRedstone&r to send a particle out into a larger loop that can handle higher speeds as the particle gains momentum."
 		"&n                                                                          &r"
 		""
-		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" page, which does an excellent job of describing how this system works. \"]"
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" on the Oritech Wiki, which does an excellent job of describing how this system works. \"]"
 		""
-		"To give you an idea of scope, however, consider a recipe that requires a collision &61000J&r to craft. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
+		"To give an idea of scope, however, consider a recipe that requires a collision of &61000J&r. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
 		""
 		"See the next page for a full list of speeds by &cRedstone Signal Strength&r as measured by the &7Sensor&r."
 		""
@@ -3005,6 +3015,23 @@
 		"Start small, you can always upgrade to large cells later!"
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
+	quest.45E411460C53A082.quest_desc: [
+		"Materials may be greatly enhanced by infusing them with one or more &7Spirit&r types and this &7Altar&r is the key to performing such operations. "
+		""
+		"Working with the &7Spirit Altar&r is relatively straightforward. At its simplest, you’ll need the &7Altar&r itself and some &7Item Pedestals&r to hold any extra items shown in the recipe. "
+		""
+		"On the &7Altar&r, you’ll insert the primary ingredient, shown in the middle of the recipe, and the &7Spirits&r shown on the left. Any items shown on the right will be placed on &7Item Pedestals&r. The craft begins immediately upon placing the items for a valid craft."
+		""
+		"Crafting may seem rather slow, however it can be greatly sped up by placing up to four &7Runewood Obelisks&r nearby. The passive animals you've been keeping should provide the necessary &7Spirits&r."
+		""
+		"                       &n&6A Note on Automation&r"
+		""
+		"Items may be inserted by hand or by any form of item logistics. Some form of pipe with a filter is recommended, though not required."
+		""
+		"Early on, you may find it convenient to set up an &7Altar&r to passively craft a single item in batches, however later on you'll be able to easily integrate this device with Applied Energistics patterns so you can request crafts on-demand."
+		""
+		"[\"Since it requires multiple input slots, you'll undoubtedly wish to use a \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.21.1/ae2-mechanics/subnetworks#root\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Subnet\",\"underlined\":true},\" to route items appropriately.\"]"
+	]
 	quest.45F3C4F0EDA160C5.quest_desc: [
 		"You’ve got nothing but your wits and a few trinkets to work with; these books will help you get started. "
 		""
@@ -5749,6 +5776,7 @@
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.11787E00D496F55D.title: "Fuel Progression"
+	task.122BA8ACC6374460.title: "Item Pedestals"
 	task.1291CAC439E06D6C.title: "Rune"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"

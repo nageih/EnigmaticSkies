@@ -511,6 +511,31 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:eldritch', count: 32 }
             ],
             id: `${id_prefix}tesla_interdimensional_upgrade`
+        },
+        {
+            result: { id: 'enderio:skeletal_contractor', count: 2 },
+            input: { item: 'minecraft:skeleton_skull', count: 1 },
+            extraInputs: [
+                { item: 'minecraft:bone', count: 4 },
+                { item: 'aether:life_shard', count: 1 },
+                { item: 'prettypipes:blank_module', count: 1 }
+            ],
+            spirits: [
+                { type: 'malum:arcane', count: 4 },
+                { type: 'malum:sacred', count: 4 }
+            ],
+            id: `${id_prefix}skeletal_contractor`
+        },
+        {
+            result: { id: 'aether:life_shard', count: 4 },
+            input: { tag: 'c:gems/ruby', count: 1 },
+            extraInputs: [{ tag: 'c:dusts/echo', count: 4 }],
+            spirits: [
+                { type: 'malum:arcane', count: 4 },
+                { type: 'malum:earthen', count: 4 },
+                { type: 'malum:sacred', count: 4 }
+            ],
+            id: `${id_prefix}life_shard`
         }
     ];
 

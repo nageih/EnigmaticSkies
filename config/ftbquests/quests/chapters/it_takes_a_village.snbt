@@ -127,7 +127,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
@@ -156,7 +156,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
@@ -261,7 +261,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -371,7 +371,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -710,7 +710,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 1.0d
 			y: -5.5d
 		}
 		{
@@ -845,7 +845,7 @@
 				to_observe: "naturesaura:animal_spawner"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -1180,7 +1180,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.5d
 			y: -6.5d
 		}
 	]

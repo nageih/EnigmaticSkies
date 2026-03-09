@@ -34,12 +34,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}chorus_fruit`
         },
         {
-            results: [{ id: 'aether:life_shard', count: 4 }],
-            ingredients: [{ tag: 'c:dusts/echo' }, { tag: 'c:gems/ruby' }],
-            time: 100,
-            id: `${id_prefix}life_shard`
-        },
-        {
             results: [{ id: 'minecraft:heart_of_the_sea', count: 2 }],
             ingredients: [{ tag: 'c:storage_blocks/empowered_diamatine' }, { tag: 'c:storage_blocks/neptunium' }],
             time: 100,

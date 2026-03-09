@@ -897,6 +897,7 @@ ServerEvents.recipes((event) => {
         { id: 'modularrouters:modular_router' },
         { id: 'modularrouters:blank_module' },
         { id: 'modularrouters:blank_upgrade' },
+        { id: 'modularrouters:sender_module_3' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
