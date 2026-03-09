@@ -77,14 +77,13 @@ const spiritData = [
             { spirit: 'malum:aqueous', count: 3 }
         ]
     },
-    // {
-    //     registry_name: 'aether:mimic',
-    //     spirits: [
-    //         { spirit: 'malum:arcane', count: 1 },
-    //         { spirit: 'malum:earthen', count: 1 },
-    //         { spirit: 'malum:wicked', count: 1 }
-    //     ]
-    // },
+    {
+        registry_name: 'aether:mimic',
+        spirits: [
+            { spirit: 'malum:arcane', count: 1 },
+            { spirit: 'malum:wicked', count: 1 }
+        ]
+    },
     {
         registry_name: 'aether:moa',
         spirits: [

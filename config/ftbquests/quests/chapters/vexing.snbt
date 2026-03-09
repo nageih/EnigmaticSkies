@@ -181,6 +181,7 @@
 				id: "malum:crude_scythe"
 			}
 			id: "37ED5A328F30DD34"
+			min_width: 250
 			rewards: [
 				{
 					count: 16
@@ -356,8 +357,7 @@
 			]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:guardian"
+					"ftbquests:icon": "enigmatica:item/guardian_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -385,8 +385,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:polar_bear"
+					"ftbquests:icon": "enigmatica:item/polar_bear_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -413,8 +412,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:bat"
+					"ftbquests:icon": "enigmatica:item/bat_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -441,8 +439,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:wolf"
+					"ftbquests:icon": "enigmatica:item/wolf_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -469,8 +466,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:goat"
+					"ftbquests:icon": "enigmatica:item/goat_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -851,6 +847,15 @@
 		{
 			dependencies: ["45E411460C53A082"]
 			id: "00946DF0B2C88A9F"
+			rewards: [{
+				count: 8
+				id: "1BB9DBB265FEE23C"
+				item: {
+					count: 1
+					id: "malum:imitation_flesh"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4237CD354E24534F"
 				item: { count: 1, id: "malum:imitation_flesh" }
@@ -865,6 +870,12 @@
 				"05F232C12FA99F92"
 			]
 			id: "17198F7EC5DC1A4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF1AC9DD6B10BF0"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "34052439F672FEED"
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
@@ -890,6 +901,12 @@
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
 			id: "0AEC5C2683575F1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09DF05F1389EBA44"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4B85470677225B5D"
 				item: { count: 1, id: "malum:runewood_sapling" }

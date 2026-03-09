@@ -32,13 +32,9 @@
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
 	quest.00946DF0B2C88A9F.quest_desc: [
-		"Long ago, roboticists attempted to mimic the flexibility of the flesh in their machines. "
+		"Metals and plastics can serve as wonderful analogs to bone for structure, but motors and servos lack a certain flexibility. "
 		""
-		"Metals and plastics can serve as wonderful analogs to bone for structure, but their dynamos could never quite match the flexibility of the flesh. "
-		""
-		"So, they shifted their focus and instead set out to improve upon what nature had already nearly perfected. "
-		""
-		"Through the combination of multiple disciplines, they re-animated dead flesh and enhanced it to be stronger and more durable than ever.   "
+		"Why re-invent what nature has already nearly perfected? Re-animated flesh can be enhanced to be stronger and more durable than ever.   "
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
@@ -437,6 +433,13 @@
 	]
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
+	quest.0C32904CD01E4743.quest_desc: [
+		"Animate a Zephyr and harvest it for parts."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
@@ -846,7 +849,7 @@
 		""
 		"It works well enough in clear skies, but when a storm rolls through it will really get going."
 		""
-		"Up this far, it is very efficient."
+		"Up this far, it is &overy efficient&r."
 		"&n                                                              &r"
 		""
 		"[\"An example of the structure required for this compressor can be found on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/schematic/f0d838f5-6460-4f3d-aaf0-ab6590df20e5\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints.io\",\"underlined\":true},\". Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the menu!\"]"
@@ -976,6 +979,7 @@
 		""
 		"Be sure to grab them when you see them!"
 	]
+	quest.17198F7EC5DC1A4F.quest_desc: ["The smell leaves something to be desired, but these bio-mechanical &7Robot Arms&r are incredibly precise and capable of adapting to changing conditions mid-task."]
 	quest.171EDB77B3A3FF05.title: "Farmer"
 	quest.17553CF42EDC67A6.quest_desc: [
 		"Channeling more powerful magics requires a more specialized focus. "
@@ -1300,12 +1304,12 @@
 		"  • &7Cinder Flour&r"
 	]
 	quest.1E0B03155C2CAEE7.quest_desc: [
-		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		"Spirit Focusing is an alchemical art whereby a catalyst item, or &7Impetus&r, is infused with &7Spirits&r to generate new materials. "
 		"&n                                                  "
 		""
-		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials."
+		"For a start, craft an &7Alchemical Impetus&r and slot it into the &7Crucible&r. Depending on the &7Spirits&r inserted alongside the Impetus, you will begin to generate new materials."
 		""
-		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+		"The&7 Impetus&r will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
 	]
 	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
@@ -1634,7 +1638,7 @@
 		"Forever after, the cold of Winter would give way to the gentle touch of Spring in an endless dance of seasons.  "
 	]
 	quest.271AC925824B553E.title: "Industrialist"
-	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
+	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert &7Source&r into &7Liquefied Source&r!"]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -2198,7 +2202,7 @@
 		""
 		"When paired with certain other items, they'll immediately assume the new form and stabilize. "
 		""
-		"Most device upgrades can be duplicated in this way, though some may require more &7Elemental Matrices&r than others. "
+		"Most device upgrades can be duplicated in this way."
 	]
 	quest.3753A3EB1909F923.quest_desc: [
 		"Made from &7Salt&r, &7Briny Dorodangos&r may be processed down into new materials!"
@@ -2239,10 +2243,15 @@
 		""
 		"Gather some &7Spirits of Birthing&r by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r or other &7Soul Shattering Weapon&r to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r or other &7Soul Shattering Weapon&r to properly harvest their &7Spirits&r."
 		""
-		"&a🛈 Tip: Apply Spirit Plunder to your "
-		"&a    weapon for even more Spirits!"
+		"&6⚠ Note: It is sufficient to harm the mob with "
+		"&6    a &oSoul Shattering Weapon&r &6or &oGlyph of Soul&r "
+		"&6    &oShatter&r&6; the killing blow can come from "
+		"&6    another weapon."
+		""
+		"&a🛈 Tip: Apply Spirit Plunder to your weapon to "
+		"&a    obtain more Spirits!"
 	]
 	quest.384024534B512211.quest_desc: [
 		"Like most other Technology mods, Immersive Engineering is compatible with FE. You may choose to use the mod’s own power options, or those from other mods."
@@ -2302,6 +2311,13 @@
 		""
 		"&a🛈 Tip: Generates extra power in "
 		"&a    The Nether."
+	]
+	quest.398AE848C969FCEF.quest_desc: [
+		"An enigmatic material that looks solid enough but feels as light as air. "
+		""
+		"Procuring it will involve condensing enormous quantities of air at high pressure into &7Liquid Air&r. "
+		""
+		"Generating Compressed Air in sufficient volumes with only a &7Thermal Compressor&r will likely prove daunting. Consider something with a bit more power, such as the &7Electrostatic Compressor&r. "
 	]
 	quest.39BCDF29A792B723.quest_desc: [
 		"An Aura Cache acts as a personal battery for recharging Aura Using tools and armor. "
@@ -3149,6 +3165,15 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
+	quest.47A2DB9344C8CE26.quest_desc: [
+		"With a &7Zephyr Impetus&r secured, you’ll be able to mass produce some important materials; &7Weather Crystals&r and &7Wind Charges&r. "
+		""
+		"[ \"Refer to the Spirit Focusing quest in the \", { \"text\": \"Malum\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0D9C8007301C03\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" Chapter for information on using the Impetus.\" ]"
+		""
+		"&a🛈 Tip: Mending Diffusers are an easy"
+		"&a    way to keep your Impetus from"
+		"&a    breaking."
+	]
 	quest.47AFEF3DCB2990FB.quest_desc: [
 		"Operating the &7Large Steam Boiler&r will need some liquid fuel. "
 		""
@@ -3442,6 +3467,7 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4D8B278BDF762813.quest_desc: ["As cold as the void, this material seems to phase in and out of existence."]
 	quest.4DA846036F3B01C3.title: "Strigeor's Higher Binding"
 	quest.4DE1B1045507C72C.quest_desc: [
 		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
@@ -3478,6 +3504,7 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
+	quest.4EA58751A74DABAA.quest_desc: ["Capable of storing immense power, &7Vibrant Crystals&r will allow you to begin dealing with EV Tier power. "]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -3644,6 +3671,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.521DE7879A4B6F03.quest_desc: ["With access to &7EV Tier Cables&r and &7Transformers&r, upgrading your power infrastructure to handle high powered &7Particle Accelerator&r crafts would be a very good idea.  "]
 	quest.5226F1BC0A1B23D0.quest_desc: ["[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"]
 	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
@@ -3873,6 +3901,7 @@
 		"Let's speed things along a little with the magic of &7Time Fluid&r."
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
+	quest.5A5596ED63306534.quest_desc: ["It seems to flicker to a breeze that isn't there. "]
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
 		"Slaughtering mobs with a &7Soul Shattering Weapon&r will cause Spirit Aspects to drop These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
@@ -4556,9 +4585,11 @@
 	quest.6728201CEC8220A3.quest_desc: [
 		"If, for whatever reason, your Pentacle becomes damaged, worry not. All the materials to recreate it are easily accessible at this point. "
 		""
-		"Refer to EMI for recipes, as usual. For the Strange Crystals, they'll form randomly when using Bone Meal on Blighted Earth.  "
+		"Refer to EMI for recipes, as usual. For the &7Strange Crystals&r, they'll form randomly when using &7Bone Meal&r on &7Blighted Earth&r.  "
 		""
-		"Refer to the Dictionary of Spirits for a guide on placement. The Chalice may be replaced with a Golden or Iesnium Sacrificial Bowl if desired, though this will slow down the rituals."
+		"Click the &6👁&r next to each ritual recipe in EMI to preview the pentacle in world. This will show where each block must be placed. They all use the same pentacle. "
+		""
+		"The &7Chalice&r may be replaced with a &7Golden&r or &7Iesnium Sacrificial Bowl&r if desired, though this will slow down the rituals. This may be advantageous, however, depending on your needs."
 		""
 		"Feel free to recreate the pentacle elsewhere as desired if you need more room for automation."
 		""
@@ -4566,14 +4597,14 @@
 		""
 		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, read on. "
 		""
-		"You may use any pipe or hopper to put items into each bowl, including the central chalice. "
+		"You may use any pipe or hopper to put items into each &7bowl&r, including the central &7chalice&r. "
 		""
-		"The central item will only be inserted once a valid recipe is present in the surrounding bowls and the ritual will start immediately without further interaction. "
+		"The central item may only be inserted once a valid recipe is present in the surrounding bowls and the ritual will start immediately without further interaction. "
 		""
 		"This means you can quite simply pipe the items into each bowl without any extra logic.  "
 		""
 		"&a🛈 Tip: The shape of individual chalk marks is "
-		"&a    random and doesn’t affect the ritual!"
+		"&a    random and doesn’t affect the pentacle!"
 	]
 	quest.672B88E9A3FA1FCE.quest_desc: [
 		"With the &7Winter’s Calling&r active, snow will rapidly accumulate in the area and water will freeze to ice. "
@@ -4797,6 +4828,8 @@
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
 		"Animate a Wilden Pack Hunter and harvest it for parts."
+		""
+		"&7Wilden Horns&r may only be obtained with a &7Soul Shattering Weapon&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -5660,8 +5693,9 @@
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	quest.7D8AEEB13B201CFB.quest_desc: [
-		"Highly advanced processors which will enable setting up a powerful AE2 system to assist in crafting and stock management."
+		"These highly advanced processors will enable creating a powerful AE2 system to assist in crafting and stock management."
 		""
+		"Very handy indeed as crafts become more and more complex."
 		""
 		"[ \"Check out the \", { \"text\": \"Applied Energistics Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"777EE0C4949DFE12\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on setting up an ME Network. \" ]"
 	]

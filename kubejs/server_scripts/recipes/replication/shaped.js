@@ -53,7 +53,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'malum:mnemonic_fragment',
                 B: '#c:plates/silicon',
-                C: '#c:gems/empowered_emeradic'
+                C: 'enigmatica:mimic_meat'
             },
             id: `${id_prefix}memory_chip`
         }

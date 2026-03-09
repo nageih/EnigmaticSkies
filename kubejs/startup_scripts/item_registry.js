@@ -234,6 +234,15 @@ StartupEvents.registry('item', (event) => {
             effect: { id: 'minecraft:speed', duration: 60, amplifier: 0 },
             fastToEat: true,
             alwaysEdible: true
+        },
+        {
+            name: 'Mimic Meat',
+            layer: 'mimic_meat',
+            nutrition: 3.0,
+            saturation: 1.5,
+            effect: { id: 'minecraft:hunger', duration: 60, amplifier: 9 },
+            fastToEat: true,
+            alwaysEdible: true
         }
     ];
 
@@ -304,6 +313,7 @@ StartupEvents.registry('item', (event) => {
         { id: 'animate_guardian', type: 'possess' },
         { id: 'animate_honey_slime', type: 'possess' },
         { id: 'animate_shulker', type: 'possess' },
+        { id: 'animate_mimic', type: 'possess' },
         { id: 'animate_flourishing_weald_walker', type: 'possess' },
         { id: 'animate_blazing_weald_walker', type: 'possess' },
         { id: 'animate_cascading_weald_walker', type: 'possess' },

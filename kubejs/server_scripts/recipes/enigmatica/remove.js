@@ -1193,6 +1193,10 @@ ServerEvents.recipes((event) => {
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
         { output: 'replication:replicator_enclosure' },
+        { output: 'replication:replica_ingot' },
+        { output: 'replication:replica_block' },
+        { output: 'replication:raw_replica' },
+        { output: 'replication:raw_replica_block' },
 
         // Shrink
         { id: `shrink:shrinking_device` },

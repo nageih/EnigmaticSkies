@@ -168,6 +168,12 @@ ServerEvents.recipes((event) => {
             spirit: 'naturesaura:calling_spirit'
         },
         {
+            entity: 'aether:mimic',
+            egg: 'aether:mimic_spawn_egg',
+            block: 'malum:living_flesh',
+            spirit: 'naturesaura:calling_spirit'
+        },
+        {
             entity: 'ars_nouveau:flourishing_weald_walker',
             egg: 'ars_nouveau:green_archwood_sapling',
             block: 'ars_nouveau:green_archwood_sapling',

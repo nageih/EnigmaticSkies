@@ -463,6 +463,12 @@
             "pneumaticcraft:diesel_bucket",
             "pneumaticcraft:lubricant_bucket",
 
+            "replication:replica_ingot",
+            "replication:replica_block",
+            "replication:raw_replica",
+            "replication:raw_replica_block",
+            "replication:deepslate_replica_ore",
+
             "sushigocrafting:rice",
             "sushigocrafting:rice_seeds",
 

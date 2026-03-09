@@ -1,6 +1,5 @@
 ServerEvents.generateData('after_mods', (event) => {
     let exclusions = [
-        'aether:entities/mimic',
         'aether:entities/sun_spirit',
         'aether:entities/valkyrie_queen',
 

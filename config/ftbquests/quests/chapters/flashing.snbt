@@ -73,21 +73,19 @@
 				id: "naturesaura:sky_ingot"
 			}
 			id: "398AE848C969FCEF"
-			tasks: [
-				{
-					id: "214A89A0C2C79D45"
-					item: { count: 1, id: "naturesaura:sky_ingot" }
-					type: "item"
-				}
-				{
-					id: "5FABED80884CD291"
-					item: { count: 1, id: "modern_industrialization:liquid_air_bucket" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -2.0d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ADC1C01F7B7139A"
+				table_id: 6329405731623321254L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "214A89A0C2C79D45"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -150,10 +148,7 @@
 				"454EB146FC67E3D5"
 			]
 			icon: {
-				components: {
-					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "malum:wind_nucleus"
 			}
 			id: "0C32904CD01E4743"
 			tasks: [
@@ -169,28 +164,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0C32904CD01E4743"]
-			icon: {
-				id: "malum:zephyr_impetus"
-			}
-			id: "47A2DB9344C8CE26"
-			tasks: [
-				{
-					id: "032CAA8555C34DC0"
-					item: { count: 1, id: "malum:zephyr_impetus" }
-					type: "item"
-				}
-				{
-					id: "4F5A84F16C85A952"
-					item: { count: 1, id: "minecraft:wind_charge" }
-					type: "item"
-				}
-			]
-			x: 1.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -216,7 +190,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -304,24 +278,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"454EB146FC67E3D5"
-				"28E44D5D6A6C1D6E"
-			]
-			id: "2FE972CEA95E5FC0"
-			tasks: [{
-				id: "783CD6DBAFB42ED0"
-				item: { count: 1, id: "oritech:enderic_compound" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2FE972CEA95E5FC0"]
+			dependencies: ["4D8B278BDF762813"]
 			id: "5A5596ED63306534"
 			tasks: [{
 				id: "58500629D1A5AB5E"
@@ -345,13 +305,32 @@
 		{
 			dependencies: ["4EA58751A74DABAA"]
 			id: "521DE7879A4B6F03"
+			rewards: [
+				{
+					id: "2062941EE5C3B112"
+					item: {
+						count: 1
+						id: "modern_industrialization:hv_ev_transformer"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3EDAE517D143557C"
+					item: {
+						count: 1
+						id: "modern_industrialization:vibrant_cable"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "2A9581A6E07AAF32"
-				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				id: "059B3000D7EC055F"
+				item: { count: 1, id: "modern_industrialization:ev_hv_transformer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2960228C632FA877"]
@@ -359,6 +338,14 @@
 				id: "industrialforegoingsouls:soul_laser_base"
 			}
 			id: "1C4DB05778703E9B"
+			rewards: [{
+				id: "78A762BD213FB9AD"
+				item: {
+					count: 1
+					id: "mesoulcard:soul_card"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "33C9F1C066276C6E"
@@ -391,13 +378,19 @@
 			]
 			id: "1476B02AA2977ACB"
 			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F8BA7F0A650DDCB"
+				table_id: 6329405731623321254L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "648C3CABA9F6ECE9"
 				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["53D3092CA777D3B5"]
@@ -408,7 +401,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A5596ED63306534"]
@@ -419,7 +412,66 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0C32904CD01E4743"
+				"1E0B03155C2CAEE7"
+			]
+			icon: {
+				id: "malum:zephyr_impetus"
+			}
+			id: "47A2DB9344C8CE26"
+			rewards: [{
+				id: "6CBDDA3DBB69D005"
+				item: {
+					count: 1
+					id: "malum:mending_diffuser"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "032CAA8555C34DC0"
+					item: { count: 1, id: "malum:zephyr_impetus" }
+					type: "item"
+				}
+				{
+					id: "4F5A84F16C85A952"
+					item: { count: 1, id: "minecraft:wind_charge" }
+					type: "item"
+				}
+				{
+					id: "287F6BDC12465D9D"
+					item: { count: 1, id: "enderio:weather_crystal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["521DE7879A4B6F03"]
+			id: "4B2189D7B0401D95"
+			tasks: [{
+				id: "662359DCA957FA7A"
+				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["454EB146FC67E3D5"]
+			id: "4D8B278BDF762813"
+			tasks: [{
+				id: "09AA2425AE91081B"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 }
