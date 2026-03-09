@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
                 C: '#c:gems/weather_crystal',
                 D: 'minecraft:conduit',
                 E: '#c:essences/earth',
-                F: 'pneumaticcraft:pressure_chamber_valve'
+                F: 'pneumaticcraft:reinforced_pressure_chamber_valve'
             },
             id: `${id_prefix}electrostatic_compressor`
         },

@@ -32,13 +32,9 @@
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
 	quest.008F3C0FB9F4B451.title: "Blazing Island"
 	quest.00946DF0B2C88A9F.quest_desc: [
-		"Long ago, roboticists attempted to mimic the flexibility of the flesh in their machines. "
+		"Metals and plastics can serve as wonderful analogs to bone for structure, but motors and servos lack a certain flexibility. "
 		""
-		"Metals and plastics can serve as wonderful analogs to bone for structure, but their dynamos could never quite match the flexibility of the flesh. "
-		""
-		"So, they shifted their focus and instead set out to improve upon what nature had already nearly perfected. "
-		""
-		"Through the combination of multiple disciplines, they brought life to dead flesh and then improved it to be stronger and more durable than ever.   "
+		"Why re-invent what nature has already nearly perfected? Re-animated flesh can be enhanced to be stronger and more durable than ever.   "
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
@@ -52,6 +48,7 @@
 		""
 		"The &7Router&r needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
+	quest.016B7CA4A7FC58A1.quest_desc: ["With &7Brass&r, most of Create should now be accessible to you, greatly enhancing your options for automation."]
 	quest.01C6F096606E3638.quest_desc: [
 		"Welcome to Industrial Foregoing! "
 		""
@@ -382,6 +379,11 @@
 		""
 		"Likewise, these quests will also attempt to give you extra tips and tricks to help you navigate the pack. Especially where custom mechanics are concerned. "
 	]
+	quest.0AEC5C2683575F1C.quest_desc: [
+		"Trade for a &7Runewood Sapling&r at the Weeping Well. "
+		""
+		"You’ll need this primarily for its wood, though the sap can be quite useful as well. "
+	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -431,6 +433,13 @@
 	]
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
+	quest.0C32904CD01E4743.quest_desc: [
+		"Animate a Zephyr and harvest it for parts."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
@@ -840,7 +849,7 @@
 		""
 		"It works well enough in clear skies, but when a storm rolls through it will really get going."
 		""
-		"Up this far, it is very efficient."
+		"Up this far, it is &overy efficient&r."
 		"&n                                                              &r"
 		""
 		"[\"An example of the structure required for this compressor can be found on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/schematic/f0d838f5-6460-4f3d-aaf0-ab6590df20e5\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints.io\",\"underlined\":true},\". Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the menu!\"]"
@@ -970,6 +979,7 @@
 		""
 		"Be sure to grab them when you see them!"
 	]
+	quest.17198F7EC5DC1A4F.quest_desc: ["The smell leaves something to be desired, but these bio-mechanical &7Robot Arms&r are incredibly precise and capable of adapting to changing conditions mid-task."]
 	quest.171EDB77B3A3FF05.title: "Farmer"
 	quest.17553CF42EDC67A6.quest_desc: [
 		"Channeling more powerful magics requires a more specialized focus. "
@@ -1105,6 +1115,7 @@
 		"&7Quick Soil&r will make a form of glass suitable for making &7Bottles&r. "
 	]
 	quest.1ACB8880980AF206.title: "Wit by Writ"
+	quest.1AE63FE6C7EF59AB.quest_desc: ["A &7Simple Clicker&r or &7Activator Module&r attacking mobs with a &7Soul Shattering Weapon&r can be an excellent way to automate &7Spirit&r collection. "]
 	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
@@ -1123,7 +1134,7 @@
 	quest.1C21EC957B97C70A.quest_desc: [
 		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
-		"Unlike a &7Simple Clicker&r, it acts in a large area. "
+		"Unlike a &7Simple Clicker&r, the &7Advanced Clicker&r acts in a large area. "
 	]
 	quest.1C4DB05778703E9B.quest_desc: [
 		"&7Wardens&r were built for protection. That was the original purpose, at least."
@@ -1293,12 +1304,12 @@
 		"  • &7Cinder Flour&r"
 	]
 	quest.1E0B03155C2CAEE7.quest_desc: [
-		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		"Spirit Focusing is an alchemical art whereby a catalyst item, or &7Impetus&r, is infused with &7Spirits&r to generate new materials. "
 		"&n                                                  "
 		""
-		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials."
+		"For a start, craft an &7Alchemical Impetus&r and slot it into the &7Crucible&r. Depending on the &7Spirits&r inserted alongside the Impetus, you will begin to generate new materials."
 		""
-		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+		"The&7 Impetus&r will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
 	]
 	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
@@ -1627,7 +1638,7 @@
 		"Forever after, the cold of Winter would give way to the gentle touch of Spring in an endless dance of seasons.  "
 	]
 	quest.271AC925824B553E.title: "Industrialist"
-	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert Source into Liquefied Source!"]
+	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert &7Source&r into &7Liquefied Source&r!"]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -2191,7 +2202,7 @@
 		""
 		"When paired with certain other items, they'll immediately assume the new form and stabilize. "
 		""
-		"Most device upgrades can be duplicated in this way, though some may require more &7Elemental Matrices&r than others. "
+		"Most device upgrades can be duplicated in this way."
 	]
 	quest.3753A3EB1909F923.quest_desc: [
 		"Made from &7Salt&r, &7Briny Dorodangos&r may be processed down into new materials!"
@@ -2232,10 +2243,15 @@
 		""
 		"Gather some &7Spirits of Birthing&r by manually breeding animals in a high Aura environment. "
 		""
-		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r or other &7Soul Shattering Weapon&r to properly harvest the Spirits in them."
+		"Once you've animated your slimes, be sure to slay them with a &7Scythe&r or other &7Soul Shattering Weapon&r to properly harvest their &7Spirits&r."
 		""
-		"&a🛈 Tip: Apply Spirit Plunder to your "
-		"&a    weapon for even more Spirits!"
+		"&6⚠ Note: It is sufficient to harm the mob with "
+		"&6    a &oSoul Shattering Weapon&r &6or &oGlyph of Soul&r "
+		"&6    &oShatter&r&6; the killing blow can come from "
+		"&6    another weapon."
+		""
+		"&a🛈 Tip: Apply Spirit Plunder to your weapon to "
+		"&a    obtain more Spirits!"
 	]
 	quest.384024534B512211.quest_desc: [
 		"Like most other Technology mods, Immersive Engineering is compatible with FE. You may choose to use the mod’s own power options, or those from other mods."
@@ -2296,6 +2312,13 @@
 		"&a🛈 Tip: Generates extra power in "
 		"&a    The Nether."
 	]
+	quest.398AE848C969FCEF.quest_desc: [
+		"An enigmatic material that looks solid enough but feels as light as air. "
+		""
+		"Procuring it will involve condensing enormous quantities of air at high pressure into &7Liquid Air&r. "
+		""
+		"Generating Compressed Air in sufficient volumes with only a &7Thermal Compressor&r will likely prove daunting. Consider something with a bit more power, such as the &7Electrostatic Compressor&r. "
+	]
 	quest.39BCDF29A792B723.quest_desc: [
 		"An Aura Cache acts as a personal battery for recharging Aura Using tools and armor. "
 		""
@@ -2309,6 +2332,9 @@
 		"Craft an &7Alluvial Trommel&r and process your Crushed Ores to obtain &7Wastewater&r. "
 		""
 		"This may then be recycled into fresh &7Water&r and a variety of other blocks. "
+		""
+		"&a🛈 Tip: Remember to lock the slots to "
+		"&a    control what recipe is processed!"
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -2828,9 +2854,7 @@
 		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.427846D4FFE678C5.quest_desc: [
-		"Once viewed as barbaric superstition, the act of inserting &7Life Shards&r under one’s skin to boost vitality was ridiculed for centuries. "
-		""
-		"Once put to more empirical testing, however, their efficacy was undeniable. "
+		"Ancient stories tell of warriors who would consume these &7Shards&r before battle to enhance their vitality and ensure their safe return."
 		""
 		"Perhaps it will also be accepted as a suitable sacrifice for the steps to come."
 		""
@@ -2952,12 +2976,16 @@
 		""
 		"Typically, this path should be a loop to gain the momentum needed for various crafts. "
 		""
-		"Speeding up the particle will require one or more &7Linear Motors&r. Each only imparts a small amount of momentum, but you can place multiple in line to get things up to speed quicker. "
+		"Speeding up the particle will require one or more &7Linear Motors&r. As the input item crosses a powered &7Motor&r, it will consume &640 * Current Speed FE&r to accelerate by &61J&r. So while a low speed collision of &6100J&r will only require about &6200k FE&r total, high speed crafts may consume millions or billions of FE."
+		""
+		"Starting off, you'll probably only have a few &7Linear Motors&r, so it is best to keep the ring small to reduce the time it takes for the particle to get back around to the &7Motor&r again. "
+		""
+		"&7Guide Rings&r may be controlled by &cRedstone&r to send a particle out into a larger loop that can handle higher speeds as the particle gains momentum."
 		"&n                                                                          &r"
 		""
-		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" page, which does an excellent job of describing how this system works. \"]"
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" on the Oritech Wiki, which does an excellent job of describing how this system works. \"]"
 		""
-		"To give you an idea of scope, however, consider a recipe that requires a collision &61000J&r to craft. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
+		"To give an idea of scope, however, consider a recipe that requires a collision of &61000J&r. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns."
 		""
 		"See the next page for a full list of speeds by &cRedstone Signal Strength&r as measured by the &7Sensor&r."
 		""
@@ -3003,6 +3031,23 @@
 		"Start small, you can always upgrade to large cells later!"
 	]
 	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
+	quest.45E411460C53A082.quest_desc: [
+		"Materials may be greatly enhanced by infusing them with one or more &7Spirit&r types and this &7Altar&r is the key to performing such operations. "
+		""
+		"Working with the &7Spirit Altar&r is relatively straightforward. At its simplest, you’ll need the &7Altar&r itself and some &7Item Pedestals&r to hold any extra items shown in the recipe. "
+		""
+		"On the &7Altar&r, you’ll insert the primary ingredient, shown in the middle of the recipe, and the &7Spirits&r shown on the left. Any items shown on the right will be placed on &7Item Pedestals&r. The craft begins immediately upon placing the items for a valid craft."
+		""
+		"Crafting may seem rather slow, however it can be greatly sped up by placing up to four &7Runewood Obelisks&r nearby. The passive animals you've been keeping should provide the necessary &7Spirits&r."
+		""
+		"                       &n&6A Note on Automation&r"
+		""
+		"Items may be inserted by hand or by any form of item logistics. Some form of pipe with a filter is recommended, though not required."
+		""
+		"Early on, you may find it convenient to set up an &7Altar&r to passively craft a single item in batches, however later on you'll be able to easily integrate this device with Applied Energistics patterns so you can request crafts on-demand."
+		""
+		"[\"Since it requires multiple input slots, you'll undoubtedly wish to use a \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.21.1/ae2-mechanics/subnetworks#root\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Subnet\",\"underlined\":true},\" to route items appropriately.\"]"
+	]
 	quest.45F3C4F0EDA160C5.quest_desc: [
 		"You’ve got nothing but your wits and a few trinkets to work with; these books will help you get started. "
 		""
@@ -3120,6 +3165,15 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
+	quest.47A2DB9344C8CE26.quest_desc: [
+		"With a &7Zephyr Impetus&r secured, you’ll be able to mass produce some important materials; &7Weather Crystals&r and &7Wind Charges&r. "
+		""
+		"[ \"Refer to the Spirit Focusing quest in the \", { \"text\": \"Malum\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0D9C8007301C03\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" Chapter for information on using the Impetus.\" ]"
+		""
+		"&a🛈 Tip: Mending Diffusers are an easy"
+		"&a    way to keep your Impetus from"
+		"&a    breaking."
+	]
 	quest.47AFEF3DCB2990FB.quest_desc: [
 		"Operating the &7Large Steam Boiler&r will need some liquid fuel. "
 		""
@@ -3413,6 +3467,7 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4D8B278BDF762813.quest_desc: ["As cold as the void, this material seems to phase in and out of existence."]
 	quest.4DA846036F3B01C3.title: "Strigeor's Higher Binding"
 	quest.4DE1B1045507C72C.quest_desc: [
 		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
@@ -3449,6 +3504,7 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
+	quest.4EA58751A74DABAA.quest_desc: ["Capable of storing immense power, &7Vibrant Crystals&r will allow you to begin dealing with EV Tier power. "]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
 		""
@@ -3615,6 +3671,7 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
+	quest.521DE7879A4B6F03.quest_desc: ["With access to &7EV Tier Cables&r and &7Transformers&r, upgrading your power infrastructure to handle high powered &7Particle Accelerator&r crafts would be a very good idea.  "]
 	quest.5226F1BC0A1B23D0.quest_desc: ["[ \"\", { \"text\": \"Water Essence\", \"color\":\"gray\"}, \" grants access to the ever-flowing waterfalls of the \", { \"text\": \"Cascading Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7893072479F01DC2\" } }, \".\" ]"]
 	quest.5226F1BC0A1B23D0.title: "Cascading Island"
 	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
@@ -3844,6 +3901,7 @@
 		"Let's speed things along a little with the magic of &7Time Fluid&r."
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
+	quest.5A5596ED63306534.quest_desc: ["It seems to flicker to a breeze that isn't there. "]
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
 		"Slaughtering mobs with a &7Soul Shattering Weapon&r will cause Spirit Aspects to drop These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
@@ -3927,6 +3985,7 @@
 	]
 	quest.5D74493BC797D6F0.title: "Wicked Spirit"
 	quest.5D8073141AD2D279.title: "Engineer"
+	quest.5D97DDB66F470605.quest_desc: ["Neptunium tools and armor are Unbreakable, making the tools quite useful in farms. "]
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
 		""
@@ -4526,9 +4585,11 @@
 	quest.6728201CEC8220A3.quest_desc: [
 		"If, for whatever reason, your Pentacle becomes damaged, worry not. All the materials to recreate it are easily accessible at this point. "
 		""
-		"Refer to EMI for recipes, as usual. For the Strange Crystals, they'll form randomly when using Bone Meal on Blighted Earth.  "
+		"Refer to EMI for recipes, as usual. For the &7Strange Crystals&r, they'll form randomly when using &7Bone Meal&r on &7Blighted Earth&r.  "
 		""
-		"Refer to the Dictionary of Spirits for a guide on placement. The Chalice may be replaced with a Golden or Iesnium Sacrificial Bowl if desired, though this will slow down the rituals."
+		"Click the &6👁&r next to each ritual recipe in EMI to preview the pentacle in world. This will show where each block must be placed. They all use the same pentacle. "
+		""
+		"The &7Chalice&r may be replaced with a &7Golden&r or &7Iesnium Sacrificial Bowl&r if desired, though this will slow down the rituals. This may be advantageous, however, depending on your needs."
 		""
 		"Feel free to recreate the pentacle elsewhere as desired if you need more room for automation."
 		""
@@ -4536,14 +4597,14 @@
 		""
 		"Occultism’s pentacles have gotten easier to automate than ever, so if you’re only familiar with older versions, read on. "
 		""
-		"You may use any pipe or hopper to put items into each bowl, including the central chalice. "
+		"You may use any pipe or hopper to put items into each &7bowl&r, including the central &7chalice&r. "
 		""
-		"The central item will only be inserted once a valid recipe is present in the surrounding bowls and the ritual will start immediately without further interaction. "
+		"The central item may only be inserted once a valid recipe is present in the surrounding bowls and the ritual will start immediately without further interaction. "
 		""
 		"This means you can quite simply pipe the items into each bowl without any extra logic.  "
 		""
 		"&a🛈 Tip: The shape of individual chalk marks is "
-		"&a    random and doesn’t affect the ritual!"
+		"&a    random and doesn’t affect the pentacle!"
 	]
 	quest.672B88E9A3FA1FCE.quest_desc: [
 		"With the &7Winter’s Calling&r active, snow will rapidly accumulate in the area and water will freeze to ice. "
@@ -4767,6 +4828,8 @@
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
 		"Animate a Wilden Pack Hunter and harvest it for parts."
+		""
+		"&7Wilden Horns&r may only be obtained with a &7Soul Shattering Weapon&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -5630,8 +5693,9 @@
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	quest.7D8AEEB13B201CFB.quest_desc: [
-		"Highly advanced processors which will enable setting up a powerful AE2 system to assist in crafting and stock management."
+		"These highly advanced processors will enable creating a powerful AE2 system to assist in crafting and stock management."
 		""
+		"Very handy indeed as crafts become more and more complex."
 		""
 		"[ \"Check out the \", { \"text\": \"Applied Energistics Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"777EE0C4949DFE12\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on setting up an ME Network. \" ]"
 	]
@@ -5746,6 +5810,7 @@
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.11787E00D496F55D.title: "Fuel Progression"
+	task.122BA8ACC6374460.title: "Item Pedestals"
 	task.1291CAC439E06D6C.title: "Rune"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
@@ -5882,6 +5947,7 @@
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.545F39B6325986CA.title: "Industrial Foregoing"
 	task.547A92B162CC0314.title: "Fluid Input Hatch"
+	task.54F9AD36E2BEBF47.title: "Neptunium Tools and Armor"
 	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"

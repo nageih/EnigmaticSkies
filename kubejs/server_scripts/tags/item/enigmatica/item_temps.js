@@ -59,12 +59,12 @@ ServerEvents.tags('item', (event) => {
             'enigmatica:notus_anemoi',
             'enigmatica:zephyrus_anemoi',
             'enigmatica:flask_of_four_winds',
-
             'justdirethings:time_fluid_bucket',
             'starbunclemania:source_fluid_bucket',
             'sauce:source_fluid_bucket',
             'industrialforegoing:ether_gas_bucket',
-            'enderio:liquid_darkness_bucket'
+            'enderio:liquid_darkness_bucket',
+            'oritech:enderic_compound'
         ]
     };
 

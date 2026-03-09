@@ -354,6 +354,7 @@ ServerEvents.recipes((event) => {
         { id: 'farmersdelight:wheat_dough_from_water' },
         { id: 'farmersdelight:wheat_dough_from_egg' },
         { id: 'farmersdelight:cooking/dumplings' },
+        { id: 'farmersdelight:cooking/cabbage_rolls' },
         { id: 'farmersdelight:pie_crust' },
         { id: 'farmersdelight:apple_pie' },
         { id: 'farmersdelight:chocolate_pie' },
@@ -896,6 +897,7 @@ ServerEvents.recipes((event) => {
         { id: 'modularrouters:modular_router' },
         { id: 'modularrouters:blank_module' },
         { id: 'modularrouters:blank_upgrade' },
+        { id: 'modularrouters:sender_module_3' },
 
         // Nature's Aura
         { type: 'naturesaura:animal_spawner' },
@@ -1191,6 +1193,10 @@ ServerEvents.recipes((event) => {
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
         { output: 'replication:replicator_enclosure' },
+        { output: 'replication:replica_ingot' },
+        { output: 'replication:replica_block' },
+        { output: 'replication:raw_replica' },
+        { output: 'replication:raw_replica_block' },
 
         // Shrink
         { id: `shrink:shrinking_device` },

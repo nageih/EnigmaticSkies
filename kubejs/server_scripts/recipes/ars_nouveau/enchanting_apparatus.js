@@ -465,7 +465,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}enchanted_berry`
         },
         {
-            result: { id: 'aether:life_shard', count: 4 },
+            result: { id: 'aether:life_shard', count: 2 },
             reagent: { tag: 'c:gems/ruby' },
             pedestalItems: [
                 { tag: 'c:ingots/hallowed_gold' },

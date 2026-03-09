@@ -181,6 +181,7 @@
 				id: "malum:crude_scythe"
 			}
 			id: "37ED5A328F30DD34"
+			min_width: 250
 			rewards: [
 				{
 					count: 16
@@ -356,8 +357,7 @@
 			]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:guardian"
+					"ftbquests:icon": "enigmatica:item/guardian_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -385,8 +385,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:polar_bear"
+					"ftbquests:icon": "enigmatica:item/polar_bear_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -413,8 +412,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:bat"
+					"ftbquests:icon": "enigmatica:item/bat_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -441,8 +439,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:wolf"
+					"ftbquests:icon": "enigmatica:item/wolf_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -469,8 +466,7 @@
 			dependencies: ["0BB6D2595F99ADB4"]
 			icon: {
 				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:goat"
+					"ftbquests:icon": "enigmatica:item/goat_spawn_egg"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -506,18 +502,52 @@
 		}
 		{
 			dependencies: ["0AEC5C2683575F1C"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
 			id: "45E411460C53A082"
-			tasks: [{
-				id: "3E4DCDF1FABBA45E"
-				item: { count: 1, id: "malum:spirit_altar" }
-				type: "item"
-			}]
+			min_width: 300
+			rewards: [
+				{
+					count: 3
+					id: "2D450495EE587102"
+					item: {
+						count: 1
+						id: "malum:runewood_obelisk"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49BF720F7DC6CCF6"
+					table_id: 7702722816138915192L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "3E4DCDF1FABBA45E"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					id: "122BA8ACC6374460"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:soulwood_item_pedestal)item(malum:tainted_rock_item_pedestal)item(malum:runewood_item_pedestal)item(malum:twisted_rock_item_pedestal)item(malum:gilded_runewood_item_pedestal)item(malum:ornate_soulwood_item_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "457F953939F90223"
+					item: { count: 1, id: "malum:runewood_obelisk" }
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1BDCA4CF5ED739BA"]
 			id: "1C21EC957B97C70A"
+			shape: "diamond"
 			tasks: [{
 				id: "315244A8A7EDAA04"
 				item: { count: 1, id: "justdirethings:clickert2" }
@@ -817,6 +847,15 @@
 		{
 			dependencies: ["45E411460C53A082"]
 			id: "00946DF0B2C88A9F"
+			rewards: [{
+				count: 8
+				id: "1BB9DBB265FEE23C"
+				item: {
+					count: 1
+					id: "malum:imitation_flesh"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4237CD354E24534F"
 				item: { count: 1, id: "malum:imitation_flesh" }
@@ -831,6 +870,12 @@
 				"05F232C12FA99F92"
 			]
 			id: "17198F7EC5DC1A4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF1AC9DD6B10BF0"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "34052439F672FEED"
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
@@ -856,6 +901,12 @@
 		{
 			dependencies: ["6AA9F3E0D4BC181A"]
 			id: "0AEC5C2683575F1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09DF05F1389EBA44"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4B85470677225B5D"
 				item: { count: 1, id: "malum:runewood_sapling" }
@@ -1020,6 +1071,40 @@
 			}]
 			x: 19.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["053C43E68E7ADB2B"]
+			id: "1AE63FE6C7EF59AB"
+			rewards: [{
+				id: "76AF0EFE0031A60D"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"malum:spirit_plunder": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0174EDD63F435FD4"
+					item: { count: 1, id: "justdirethings:clickert1" }
+					type: "item"
+				}
+				{
+					id: "20B1E90E83D56159"
+					item: { count: 1, id: "modularrouters:activator_module" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 4.5d
 		}
 	]
 }

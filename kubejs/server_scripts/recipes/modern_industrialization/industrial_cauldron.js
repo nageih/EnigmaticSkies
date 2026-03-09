@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/ash', amount: 4 },
                 { tag: 'c:tallow', amount: 1 }
             ],
-            duration: 10,
+            duration: 5,
             eu: 16,
             id: `${id_prefix}soap`
         },
@@ -367,10 +367,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mushroom_rice`
         },
         {
-            item_outputs: [{ item: 'farmersdelight:cabbage_rolls', amount: 1 }],
+            item_outputs: [{ item: 'farmersdelight:cabbage_rolls', amount: 2 }],
             item_inputs: [
                 { tag: 'c:crops/cabbage', amount: 1 },
-                { tag: 'farmersdelight:cabbage_roll_ingredients', amount: 1 }
+                { tag: 'farmersdelight:cabbage_roll_ingredients', amount: 1 },
+                { item: 'farmersdelight:rice', amount: 1 }
             ],
             duration: 5,
             eu: 16,
@@ -794,7 +795,8 @@ ServerEvents.recipes((event) => {
         {
             item_outputs: [
                 { item: 'arsdelight:source_berry_cupcake', amount: 4 },
-                { item: 'minecraft:glass_bottle', amount: 1 }
+                { item: 'minecraft:glass_bottle', amount: 1 },
+                { item: 'minecraft:bowl', amount: 1 }
             ],
             item_inputs: [
                 { item: 'arsdelight:arch_sauce', amount: 1 },
@@ -829,7 +831,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:sugars', amount: 1 }
             ],
             no_batch: true,
-            duration: 10,
+            duration: 2,
             eu: 16,
             id: `${id_prefix}fermentation_starter`
         },

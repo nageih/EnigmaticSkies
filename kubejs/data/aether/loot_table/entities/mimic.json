@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": { "type": "minecraft:uniform", "max": 3.0, "min": 1.0 },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": { "type": "minecraft:uniform", "max": 1.0, "min": 0.0 },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "enigmatica:mimic_meat"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [{ "add": false, "count": 4.0, "function": "minecraft:set_count" }],
+                    "name": "aether:golden_dart"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [{ "add": false, "count": 4.0, "function": "minecraft:set_count" }],
+                    "name": "aether:enchanted_dart"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [{ "add": false, "count": 4.0, "function": "minecraft:set_count" }],
+                    "name": "aether:poison_dart"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [{ "add": false, "count": 1.0, "function": "minecraft:set_count" }],
+                    "name": "aether:life_shard"
+                }
+            ],
+            "rolls": { "type": "minecraft:uniform", "max": 3.0, "min": 1.0 }
+        }
+    ],
+    "random_sequence": "aether:entities/mimic"
+}
