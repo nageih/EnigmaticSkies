@@ -116,7 +116,7 @@
 	]
 	quest.04107677B244E672.title: "Abra's Open Conjure"
 	quest.0458B6BC887C9725.quest_desc: [
-		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Wolf&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -556,7 +556,9 @@
 		"Get creative and have a look around at other devices that might be useful, such as those from the &7Redstone Pen&r mod or even simple vanilla blocks like the &7Observer&r. "
 	]
 	quest.0DE5D9ADB947B171.quest_desc: [
-		"Animate a Wilden Chimera and defeat it to obtain a Wilden Tribute."
+		"Animate a &7Wilden Chimera&r and defeat it to obtain a &7Wilden Tribute&r."
+		""
+		"&7Chimera MEat&r may be obtained through &7Soul Shattering&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -1158,7 +1160,13 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
-	quest.1C9565D5C51B74CC.quest_desc: [""]
+	quest.1C9565D5C51B74CC.quest_desc: [
+		"With a &7Cell Analyzer&r and &7DNA Extractor&r, you're ready to begin breaking down the &7Organic Matter&r you've been collecting to obtain the &7DNA&r within. "
+		""
+		"These samples will be spliced and introduced into a host to obtain something entirely new."
+		""
+		"[ \"These machines can also be used to grant entities permanent buffs. Refer to the \", { \"text\": \"Genetics: Resequenced\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F17CDF8564DCC49\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" Chapter for more information.\" ]"
+	]
 	quest.1C9565D5C51B74CC.title: "Genetics"
 	quest.1CBC50FA40BFB54A.quest_desc: [
 		"The &7Large Steam Turbine&r operates on standard &7Steam&r, just as your previous power infrastructure. The &7Heat Exchanger&r is more than capable of keeping up with it. "
@@ -2863,7 +2871,7 @@
 		"&a    your max health by one Heart each!"
 	]
 	quest.42F2191B5C08849B.quest_desc: [
-		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Bat&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -3390,7 +3398,7 @@
 	quest.4ACD723FC7EB7CD6.quest_desc: ["It's hard to keep a fire lit in this place; most open flames will go out immediately or simply not catch in the first place. "]
 	quest.4ACD723FC7EB7CD6.title: "Fire"
 	quest.4B2DF8F028C3CFA0.quest_desc: [
-		"Animate a Guardian and gather some Organic Matter from it."
+		"Animate a &7Guardian&r and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -3659,7 +3667,9 @@
 		"&a    the formation block in &cred&r&a. "
 	]
 	quest.520241157010066D.quest_desc: [
-		"Animate a Wilden Stalker and harvest it for parts."
+		"Animate a &7Wilden Stalker&r and harvest it for parts."
+		""
+		"&7Wilden Wings&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4198,7 +4208,7 @@
 		"The &7Freezer&r uses &7Icestone&r as fuel."
 	]
 	quest.619FB543EE458A0E.quest_desc: [
-		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Polar Bear&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4536,7 +4546,7 @@
 		"&a    more connections!"
 	]
 	quest.6660BE0C308A1744.quest_desc: [
-		"Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Goat &rat the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4662,7 +4672,9 @@
 		"&6    a Capacitor to function."
 	]
 	quest.68C212D2C7F8B308.quest_desc: [
-		"Animate a Wilden Defender and harvest it for parts."
+		"Animate a &7Wilden Defender&r and harvest it for parts."
+		""
+		"&7Wilden Spikes&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4829,9 +4841,9 @@
 	]
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
-		"Animate a Wilden Pack Hunter and harvest it for parts."
+		"Animate a &7Wilden Pack Hunter&r and harvest it for parts."
 		""
-		"&7Wilden Horns&r may only be obtained with a &7Soul Shattering Weapon&r. "
+		"&7Wilden Horns&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -5380,7 +5392,7 @@
 	quest.76EC73B59502E2A5.quest_desc: [
 		"A bit of slicing and splicing will get us what we need. Prepare the required items for the ritual and create your very own &7Drygmy&r. "
 		""
-		"To earn a &7Token&r of its trust, toss it a &7Wilden Horn&r."
+		"To earn a &7Token&r of its trust, toss a &7Wilden Horn&r to your &7Drygmy&r."
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "

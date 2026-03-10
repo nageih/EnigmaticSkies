@@ -262,6 +262,12 @@
 				id: "ars_nouveau:wilden_wing"
 			}
 			id: "520241157010066D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B3D72CA8A7F7FED"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -286,6 +292,12 @@
 			}
 			id: "6CA8BA78F5B8FB6A"
 			min_width: 220
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CF397865AEEEA62"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -315,6 +327,12 @@
 			}
 			id: "68C212D2C7F8B308"
 			min_width: 220
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1F1000265A7F60"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -343,6 +361,12 @@
 			}
 			id: "0DE5D9ADB947B171"
 			min_width: 220
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19AE22D3565C38B9"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "2A9ECEDABB94E986"
@@ -353,6 +377,11 @@
 				{
 					id: "6F8F472D49749DEA"
 					item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+					type: "item"
+				}
+				{
+					id: "7BEBA8855E9E2188"
+					item: { count: 1, id: "arsdelight:chimera_meat" }
 					type: "item"
 				}
 			]
@@ -372,6 +401,12 @@
 			}
 			id: "4B2DF8F028C3CFA0"
 			min_width: 220
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E22340A0A77A026"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -399,6 +434,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "619FB543EE458A0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0240A7E1E9760BF2"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -426,6 +467,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "42F2191B5C08849B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77857DE24F9F650A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -453,6 +500,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "0458B6BC887C9725"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215C515A2CD564D0"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -480,6 +533,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6660BE0C308A1744"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C66FA2DD845C70"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -501,6 +560,12 @@
 		{
 			dependencies: ["46DDBE0A9170F54A"]
 			id: "0BB6D2595F99ADB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E9E1A93DF7A9749"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "37B6111D465814BB"
 				item: { count: 1, id: "geneticsresequenced:scraper" }
@@ -556,6 +621,12 @@
 		{
 			dependencies: ["1BDCA4CF5ED739BA"]
 			id: "1C21EC957B97C70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30EE0C1D8DEDA4C9"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "315244A8A7EDAA04"
@@ -747,6 +818,12 @@
 				id: "enigmatica:magic_lamp"
 			}
 			id: "1D2F5CE5D285BAEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4105615E1F513D8C"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "1BC3F2A760015325"
@@ -771,6 +848,12 @@
 		{
 			dependencies: ["5D74493BC797D6F0"]
 			id: "46DDBE0A9170F54A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "203F2403FC12D905"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "037120BB32549D13"
 				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
@@ -793,6 +876,15 @@
 				id: "geneticsresequenced:cell_analyzer"
 			}
 			id: "1C9565D5C51B74CC"
+			rewards: [{
+				count: 2
+				id: "45F1BD5DDF1105C8"
+				item: {
+					count: 1
+					id: "geneticsresequenced:overclocker"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4BB2AF24A54DD547"
@@ -845,6 +937,14 @@
 				"17198F7EC5DC1A4F"
 			]
 			id: "053C43E68E7ADB2B"
+			rewards: [{
+				id: "5C54A9D5D3D79098"
+				item: {
+					count: 1
+					id: "enderio:basic_capacitor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F88DA07D04A3432"
 				item: { count: 1, id: "enderio:slice_and_splice" }
