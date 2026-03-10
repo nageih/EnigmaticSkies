@@ -1004,12 +1004,23 @@
 				id: "justdirethings:gooblock_tier1"
 			}
 			id: "7EE93B81F83AD199"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7043ED2B1D49469D"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7043ED2B1D49469D"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "0765D0FB7EBDFE37"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_berry_roll"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1DCBD70622DFEE82"

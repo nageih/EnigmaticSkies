@@ -42,6 +42,15 @@
 		{
 			dependencies: ["37AA9E6270DB015A"]
 			id: "1BDCA4CF5ED739BA"
+			rewards: [{
+				count: 16
+				id: "19862B7A03936AAC"
+				item: {
+					count: 1
+					id: "arsdelight:mendosteen_pie"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "333A20DA4A9AE868"
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }

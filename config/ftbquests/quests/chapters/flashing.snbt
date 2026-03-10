@@ -105,6 +105,12 @@
 				id: "enigmatica:reverberating_dorodango"
 			}
 			id: "503873180200D878"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4531468A88875D23"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -217,6 +223,15 @@
 		{
 			dependencies: ["2960228C632FA877"]
 			id: "537EDDC45D94BDE4"
+			rewards: [{
+				count: 16
+				id: "1D25A8C45151B5DE"
+				item: {
+					count: 1
+					id: "arsdelight:source_berry_cupcake"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05FDA98F047CB908"
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }

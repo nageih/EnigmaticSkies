@@ -154,6 +154,12 @@
 		{
 			dependencies: ["24095EE1A419152D"]
 			id: "0C0A7017CEF34F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51176F70E6A6E7C2"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6B1F1ED81570012A"
 				item: { count: 1, id: "pneumaticcraft:plastic" }
@@ -168,6 +174,12 @@
 				id: "pneumaticcraft:refinery"
 			}
 			id: "24095EE1A419152D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26F7BAFB6D22FF98"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "6CEC8DE007F83ADC"
@@ -206,6 +218,12 @@
 				id: "enigmatica:silty_dorodango"
 			}
 			id: "18D575594C6F74A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339EA62DEF9E2555"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -238,6 +256,12 @@
 				id: "enigmatica:briny_dorodango"
 			}
 			id: "3753A3EB1909F923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B5782902CB63176"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -273,6 +297,12 @@
 				id: "enigmatica:pelagite"
 			}
 			id: "136FD7D7C0EECAE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38E807DCB1E0C70A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "12B453B6A372FD9A"
 				item: { count: 1, id: "enigmatica:pelagite" }
@@ -287,6 +317,12 @@
 				id: "enigmatica:kerogen"
 			}
 			id: "4C91792ACCC53A2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "421B5DCD81DD9EEA"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0E30A4970E169496"
 				item: { count: 1, id: "enigmatica:kerogen" }
@@ -298,7 +334,6 @@
 		{
 			dependencies: [
 				"4C91792ACCC53A2B"
-				"492FE8CF9B01FCBE"
 				"6FC31B3806BF222A"
 			]
 			dependency_requirement: "one_completed"
@@ -306,32 +341,31 @@
 				id: "pneumaticcraft:oil_bucket"
 			}
 			id: "59F0519A7ED69E19"
-			tasks: [
-				{
-					id: "58FC61E3B97E1BB7"
-					item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
-					type: "item"
+			min_width: 250
+			rewards: [{
+				count: 3
+				id: "3F827C089818990D"
+				item: {
+					count: 1
+					id: "justdirethings:time_crystal"
 				}
+				type: "item"
+			}]
+			tasks: [
 				{
 					id: "76E83FC45E6EEA4D"
 					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "35D42234C5DE08FD"
+					item: { count: 1, id: "justdirethings:time_crystal" }
+					type: "item"
+				}
 			]
 			x: 2.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["19F8B29D38CA31B8"]
-			id: "492FE8CF9B01FCBE"
-			tasks: [{
-				id: "4E45093EA8187ADA"
-				item: { count: 1, id: "justdirethings:time_crystal" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["7893072479F01DC2"]
@@ -361,6 +395,12 @@
 				id: "actuallyadditions:lens_of_the_miner"
 			}
 			id: "36A482587B5E89F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66EEFFA44FB8C232"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7646560FCF133693"
@@ -587,6 +627,12 @@
 			dependencies: ["0C0A7017CEF34F6C"]
 			id: "58A3F58B7F1C580B"
 			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA74C3A20FC02F9"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "784F7F6FB2028EF4"
 				item: { count: 1, id: "mi_tweaks:large_settling_tank" }
@@ -601,6 +647,12 @@
 				"3753A3EB1909F923"
 			]
 			id: "016B7CA4A7FC58A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "012D8ED8A8AC62DB"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "79CD23399878FC63"
 				item: { count: 1, id: "create:brass_ingot" }

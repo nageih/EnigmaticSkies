@@ -1131,6 +1131,7 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1BDCA4CF5ED739BA.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.1C21EC957B97C70A.quest_desc: [
 		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
@@ -1720,9 +1721,9 @@
 	quest.28E44D5D6A6C1D6E.quest_desc: [
 		"An alchemical device used in the production of world-shaping materials of magical importance. "
 		""
-		"With a VAT you can produce fluids which can shift the weather to your advantage. "
+		"With a &7VAT&r you can produce fluids which can shift the weather to your advantage. "
 		""
-		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of Steel: Dark Steel."
+		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of steel: &7Dark Steel&r."
 		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
@@ -3129,7 +3130,7 @@
 	quest.46F17885C957FD5C.quest_desc: [
 		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your &7Hearth&r."
 		""
-		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends or &oother creatures&r in the area."
+		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends and &oother creatures&r in the area."
 		""
 		"&a🛈 Tip: Diffusers can be bound to "
 		"&a    Jars that are &overy far away&r&a."
@@ -3287,13 +3288,6 @@
 		"With your dark powers combined, you’ll finally be able to craft a Blood Infuser. "
 		""
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
-	]
-	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
-		""
-		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
-		""
-		"And Aura. Lots of Aura."
 	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
@@ -3698,6 +3692,7 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
+	quest.537EDDC45D94BDE4.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.5386C6E2FDA6BA50.quest_desc: [
 		"Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors may all be upgraded in-situ by Right-Clicking them with the appropriate tier Alloy. Each Alloy will upgrade up to 8 connected pipes."
 		""
@@ -3849,7 +3844,7 @@
 	quest.58A3F58B7F1C580B.quest_desc: [
 		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
 		""
-		"Consider upgrading to this as your Water recycling needs grow."
+		"Consider upgrading to this as your &7Water&r recycling needs grow."
 		"&n                                                                          &r"
 		""
 		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
@@ -3899,6 +3894,13 @@
 		"Ain't nobody got time for that."
 		""
 		"Let's speed things along a little with the magic of &7Time Fluid&r."
+		"&n                                                              &r"
+		""
+		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		""
+		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
+		""
+		"And Aura. Lots of Aura."
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A5596ED63306534.quest_desc: ["It seems to flicker to a breeze that isn't there. "]
@@ -5775,6 +5777,7 @@
 	reward_table.6AE591972B41AD78.title: "Spare Parts: Common"
 	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
+	reward_table.7306EFE33A5617BA.title: "Hats"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.011E5EACB5A34253.title: "Rainbow and Void Chalks"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
