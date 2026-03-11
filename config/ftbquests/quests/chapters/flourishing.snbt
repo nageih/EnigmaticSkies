@@ -125,6 +125,12 @@
 				id: "minecraft:tuff"
 			}
 			id: "4CC1CF537349C2D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31642DF45387FF5D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{

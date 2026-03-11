@@ -204,6 +204,12 @@
 				id: "minecraft:sculk"
 			}
 			id: "1D9182A079919158"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613FE502F79AC468"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{

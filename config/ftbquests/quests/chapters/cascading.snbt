@@ -94,6 +94,12 @@
 				id: "minecraft:clay"
 			}
 			id: "4A3B9586D14D5037"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30FE808E8CA37EDE"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{

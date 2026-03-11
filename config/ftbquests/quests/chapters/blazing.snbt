@@ -82,6 +82,12 @@
 				id: "minecraft:blackstone"
 			}
 			id: "31CAA3BC20CCDF25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131C0DA146230183"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -378,6 +384,12 @@
 		{
 			dependencies: ["05F232C12FA99F92"]
 			id: "6849CF8933FC70F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29F6CBBDA8457D8B"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "179958B71C0E0BDD"
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
@@ -389,6 +401,12 @@
 		{
 			dependencies: ["6849CF8933FC70F9"]
 			id: "0916404C0979D753"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4615FBEFD72765B8"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6AFD3DA3FA91EDA5"
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }

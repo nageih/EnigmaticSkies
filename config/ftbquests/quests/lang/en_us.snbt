@@ -82,11 +82,11 @@
 	]
 	quest.0233E4C65745EEB0.title: "Building"
 	quest.03405336161EF1B5.quest_desc: [
-		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various Machine Addons that may be attached to these machines. "
+		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various &7Machine Addons&r that may be attached to these machines. "
 		""
-		"Adding a Machine Extender at these positions will allow you to attach more addons, however this requires increasingly higher quality Machine Cores. Doing so will increase how many Extenders an addon is allowed to chain through and still count. "
+		"Adding a &7Machine Extender&r at these positions will allow you to attach more addons, however this also requires increasingly higher quality &7Machine Cores&r. Adding better &7Cores&r will increase how many &7Extenders&r an addon is allowed to chain through and still count. "
 		""
-		"For example, at Machine Quality 4, an addon can have up to 4 Extenders between it and the machine. This isn’t a count of the total number of Extenders, however, so feel free to branch them to be able to attach more. "
+		"For example, at Machine Quality 4, an addon can have up to 4 &7Extenders&r between it and the machine. "
 	]
 	quest.03405336161EF1B5.title: "Machine Addons"
 	quest.03D475AF2266ECB6.quest_desc: [
@@ -306,7 +306,7 @@
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
 	quest.0916404C0979D753.quest_desc: [
-		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the Steel version. "
+		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the &7Steel Tier&r version. "
 		""
 		"The target machine will retain all filters and inventory, making it a painless way to upgrade your machines."
 	]
@@ -1557,7 +1557,7 @@
 	quest.24095EE1A419152D.quest_desc: [
 		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
 		""
-		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
+		"The Refinery uses Heat instead of Air. You can use passive heat sources such as &7Magma Blocks&r or &7Lava&r, however you may wish to use a &7Vortex Tube&r to heat it instead. "
 		""
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
@@ -3906,9 +3906,9 @@
 		"Let's speed things along a little with the magic of &7Time Fluid&r."
 		"&n                                                              &r"
 		""
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		"[ \"Obtaining the materials to create these crystals will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
 		""
-		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
+		"Once you’ve obtained the requisite ingredients, the only thing standing in your way is Time itself."
 		""
 		"And Aura. Lots of Aura."
 	]

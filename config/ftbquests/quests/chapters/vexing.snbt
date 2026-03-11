@@ -268,7 +268,7 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "73B4ABB74205831D"
@@ -298,7 +298,7 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "2D05AA03D2E2206F"
@@ -333,7 +333,7 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "73BFFCDF45E07C09"
@@ -367,6 +367,7 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "2A9ECEDABB94E986"
@@ -667,6 +668,12 @@
 				id: "malum:tainted_rock"
 			}
 			id: "18A17E8080792318"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70CCE7C7220C30C5"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{
