@@ -52,7 +52,10 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'enderio:pulsating_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
-            spirits: [{ type: 'malum:sacred', count: 1 }],
+            spirits: [
+                { type: 'malum:sacred', count: 1 },
+                { type: 'malum:aerial', count: 1 }
+            ],
             durabilityCost: 1,
             time: 10,
             id: `${id_prefix}pulsating_crystal`

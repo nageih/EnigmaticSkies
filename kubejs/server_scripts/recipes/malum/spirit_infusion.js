@@ -8,8 +8,7 @@ ServerEvents.recipes((event) => {
             extraInputs: [{ item: 'enderio:soul_chain', count: 3 }],
             spirits: [
                 { type: 'malum:arcane', count: 6 },
-                { type: 'malum:wicked', count: 6 },
-                { type: 'malum:infernal', count: 6 }
+                { type: 'malum:wicked', count: 6 }
             ],
             id: `${id_prefix}soul_stained_steel_ingot`
         },
