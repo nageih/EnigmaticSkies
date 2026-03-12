@@ -8,8 +8,7 @@ ServerEvents.recipes((event) => {
             extraInputs: [{ item: 'enderio:soul_chain', count: 3 }],
             spirits: [
                 { type: 'malum:arcane', count: 6 },
-                { type: 'malum:wicked', count: 6 },
-                { type: 'malum:infernal', count: 6 }
+                { type: 'malum:wicked', count: 6 }
             ],
             id: `${id_prefix}soul_stained_steel_ingot`
         },
@@ -536,6 +535,17 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:sacred', count: 4 }
             ],
             id: `${id_prefix}life_shard`
+        },
+        {
+            result: { id: 'malum:ether', count: 2 },
+            input: { tag: 'c:dusts/glowstone', count: 4 },
+            extraInputs: [{ tag: 'c:gems/blazing_quartz', count: 1 }],
+            spirits: [
+                { type: 'malum:infernal', count: 2 },
+                { type: 'malum:arcane', count: 1 },
+                { type: 'malum:aerial', count: 2 }
+            ],
+            id: `${id_prefix}ether`
         }
     ];
 

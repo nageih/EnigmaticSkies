@@ -59,6 +59,15 @@
 		{
 			dependencies: ["319FD618D4608068"]
 			id: "5AC80FA3683D9E45"
+			rewards: [{
+				count: 16
+				id: "4F8AE0466D61AFB8"
+				item: {
+					count: 1
+					id: "arsdelight:activated_mendosteen_jam"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73931E7879D691A3"
 				item: { count: 1, id: "justdirethings:gooblock_tier2" }
@@ -73,6 +82,12 @@
 				id: "minecraft:blackstone"
 			}
 			id: "31CAA3BC20CCDF25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131C0DA146230183"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -156,6 +171,12 @@
 				id: "oritech:refinery_block"
 			}
 			id: "47FF0CFF9CC92DBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B445BB53F9D8B8"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "4A06D9038F274717"
@@ -177,6 +198,14 @@
 				id: "enderio:vat"
 			}
 			id: "28E44D5D6A6C1D6E"
+			rewards: [{
+				id: "1CA50D3753B9EDD6"
+				item: {
+					count: 1
+					id: "enderio:basic_capacitor"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4CD95D37244069A5"
@@ -294,6 +323,12 @@
 				id: "enigmatica:volcanic_dorodango"
 			}
 			id: "1DB63D0AAD1F0E11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58F5DC7A4EE2D806"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -349,6 +384,12 @@
 		{
 			dependencies: ["05F232C12FA99F92"]
 			id: "6849CF8933FC70F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29F6CBBDA8457D8B"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "179958B71C0E0BDD"
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
@@ -360,6 +401,12 @@
 		{
 			dependencies: ["6849CF8933FC70F9"]
 			id: "0916404C0979D753"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4615FBEFD72765B8"
+				table_id: 7702722816138915192L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6AFD3DA3FA91EDA5"
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }

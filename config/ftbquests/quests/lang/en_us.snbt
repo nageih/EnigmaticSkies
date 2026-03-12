@@ -82,11 +82,11 @@
 	]
 	quest.0233E4C65745EEB0.title: "Building"
 	quest.03405336161EF1B5.quest_desc: [
-		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various Machine Addons that may be attached to these machines. "
+		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various &7Machine Addons&r that may be attached to these machines. "
 		""
-		"Adding a Machine Extender at these positions will allow you to attach more addons, however this requires increasingly higher quality Machine Cores. Doing so will increase how many Extenders an addon is allowed to chain through and still count. "
+		"Adding a &7Machine Extender&r at these positions will allow you to attach more addons, however this also requires increasingly higher quality &7Machine Cores&r. Adding better &7Cores&r will increase how many &7Extenders&r an addon is allowed to chain through and still count. "
 		""
-		"For example, at Machine Quality 4, an addon can have up to 4 Extenders between it and the machine. This isn’t a count of the total number of Extenders, however, so feel free to branch them to be able to attach more. "
+		"For example, at Machine Quality 4, an addon can have up to 4 &7Extenders&r between it and the machine. "
 	]
 	quest.03405336161EF1B5.title: "Machine Addons"
 	quest.03D475AF2266ECB6.quest_desc: [
@@ -116,7 +116,7 @@
 	]
 	quest.04107677B244E672.title: "Abra's Open Conjure"
 	quest.0458B6BC887C9725.quest_desc: [
-		"Summon a Wolf at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Wolf&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -306,7 +306,7 @@
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
 	quest.0916404C0979D753.quest_desc: [
-		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the Steel version. "
+		"&7Steel Upgrades&r may be right clicked onto any &7Andesite Alloy Tier Machine&r to upgrade it directly to the &7Steel Tier&r version. "
 		""
 		"The target machine will retain all filters and inventory, making it a painless way to upgrade your machines."
 	]
@@ -556,7 +556,9 @@
 		"Get creative and have a look around at other devices that might be useful, such as those from the &7Redstone Pen&r mod or even simple vanilla blocks like the &7Observer&r. "
 	]
 	quest.0DE5D9ADB947B171.quest_desc: [
-		"Animate a Wilden Chimera and defeat it to obtain a Wilden Tribute."
+		"Animate a &7Wilden Chimera&r and defeat it to obtain a &7Wilden Tribute&r."
+		""
+		"&7Chimera MEat&r may be obtained through &7Soul Shattering&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -1131,6 +1133,7 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1BDCA4CF5ED739BA.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.1C21EC957B97C70A.quest_desc: [
 		"An &7Advanced Clicker&r can be an exceptionally useful device for working with mobs since it can both Attack and Right-Click them with weapons and tools. "
 		""
@@ -1157,7 +1160,13 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
-	quest.1C9565D5C51B74CC.quest_desc: [""]
+	quest.1C9565D5C51B74CC.quest_desc: [
+		"With a &7Cell Analyzer&r and &7DNA Extractor&r, you're ready to begin breaking down the &7Organic Matter&r you've been collecting to obtain the &7DNA&r within. "
+		""
+		"These samples will be spliced and introduced into a host to obtain something entirely new."
+		""
+		"[ \"These machines can also be used to grant entities permanent buffs. Refer to the \", { \"text\": \"Genetics: Resequenced\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F17CDF8564DCC49\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" Chapter for more information.\" ]"
+	]
 	quest.1C9565D5C51B74CC.title: "Genetics"
 	quest.1CBC50FA40BFB54A.quest_desc: [
 		"The &7Large Steam Turbine&r operates on standard &7Steam&r, just as your previous power infrastructure. The &7Heat Exchanger&r is more than capable of keeping up with it. "
@@ -1548,7 +1557,7 @@
 	quest.24095EE1A419152D.quest_desc: [
 		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
 		""
-		"The Refinery uses Heat instead of Air. You can use passive heat sources, however you may wish to use a &7Vortex Tube&r to heat it, as it needs to get quite hot. "
+		"The Refinery uses Heat instead of Air. You can use passive heat sources such as &7Magma Blocks&r or &7Lava&r, however you may wish to use a &7Vortex Tube&r to heat it instead. "
 		""
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
@@ -1720,9 +1729,9 @@
 	quest.28E44D5D6A6C1D6E.quest_desc: [
 		"An alchemical device used in the production of world-shaping materials of magical importance. "
 		""
-		"With a VAT you can produce fluids which can shift the weather to your advantage. "
+		"With a &7VAT&r you can produce fluids which can shift the weather to your advantage. "
 		""
-		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of Steel: Dark Steel."
+		"Of course, you’ll find other uses for these fluids as well, such as the production of a particularly durable form of steel: &7Dark Steel&r."
 		""
 		"&6⚠ Note: Enderio machines require  "
 		"&6    a Capacitor to function."
@@ -2862,7 +2871,7 @@
 		"&a    your max health by one Heart each!"
 	]
 	quest.42F2191B5C08849B.quest_desc: [
-		"Summon a Bat at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Bat&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -3129,7 +3138,7 @@
 	quest.46F17885C957FD5C.quest_desc: [
 		"Potions of &7Fire Resistance&r and &7Ice Resistance&r won’t affect your body temperature, but they will prevent any negative effects associated with being too &9cold&r or &chot&r, making them ideal for prolonged jaunts outside of the area of your &7Hearth&r."
 		""
-		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends or &oother creatures&r in the area."
+		"By feeding them into a &7Potion Diffuser&r, you can even share the effects with your friends and &oother creatures&r in the area."
 		""
 		"&a🛈 Tip: Diffusers can be bound to "
 		"&a    Jars that are &overy far away&r&a."
@@ -3288,13 +3297,6 @@
 		""
 		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
-	quest.492FE8CF9B01FCBE.quest_desc: [
-		"[ \"Obtaining the materials to create these will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
-		""
-		"Once you’ve obtained the requisite &7Flashpine&r, however, the only thing standing in your way is Time itself."
-		""
-		"And Aura. Lots of Aura."
-	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -3396,7 +3398,7 @@
 	quest.4ACD723FC7EB7CD6.quest_desc: ["It's hard to keep a fire lit in this place; most open flames will go out immediately or simply not catch in the first place. "]
 	quest.4ACD723FC7EB7CD6.title: "Fire"
 	quest.4B2DF8F028C3CFA0.quest_desc: [
-		"Animate a Guardian and gather some Organic Matter from it."
+		"Animate a &7Guardian&r and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -3665,7 +3667,9 @@
 		"&a    the formation block in &cred&r&a. "
 	]
 	quest.520241157010066D.quest_desc: [
-		"Animate a Wilden Stalker and harvest it for parts."
+		"Animate a &7Wilden Stalker&r and harvest it for parts."
+		""
+		"&7Wilden Wings&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -3698,6 +3702,7 @@
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
 	]
+	quest.537EDDC45D94BDE4.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.5386C6E2FDA6BA50.quest_desc: [
 		"Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors may all be upgraded in-situ by Right-Clicking them with the appropriate tier Alloy. Each Alloy will upgrade up to 8 connected pipes."
 		""
@@ -3849,7 +3854,7 @@
 	quest.58A3F58B7F1C580B.quest_desc: [
 		"The &7Large Settling Tank&r is a multiblock version of the &7Settling Tank&r capable of processing in larger batches. "
 		""
-		"Consider upgrading to this as your Water recycling needs grow."
+		"Consider upgrading to this as your &7Water&r recycling needs grow."
 		"&n                                                                          &r"
 		""
 		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
@@ -3899,6 +3904,13 @@
 		"Ain't nobody got time for that."
 		""
 		"Let's speed things along a little with the magic of &7Time Fluid&r."
+		"&n                                                              &r"
+		""
+		"[ \"Obtaining the materials to create these crystals will require a visit to the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F8B29D38CA31B8\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \". \" ]"
+		""
+		"Once you’ve obtained the requisite ingredients, the only thing standing in your way is Time itself."
+		""
+		"And Aura. Lots of Aura."
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A5596ED63306534.quest_desc: ["It seems to flicker to a breeze that isn't there. "]
@@ -4196,7 +4208,7 @@
 		"The &7Freezer&r uses &7Icestone&r as fuel."
 	]
 	quest.619FB543EE458A0E.quest_desc: [
-		"Summon a Polar Bear at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Polar Bear&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4534,7 +4546,7 @@
 		"&a    more connections!"
 	]
 	quest.6660BE0C308A1744.quest_desc: [
-		"Summon a Goat at the Altar of Birthing and gather some Organic Matter from it."
+		"Summon a &7Goat &rat the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
 		"&6⚠ Note: The Spawn Egg is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4660,7 +4672,9 @@
 		"&6    a Capacitor to function."
 	]
 	quest.68C212D2C7F8B308.quest_desc: [
-		"Animate a Wilden Defender and harvest it for parts."
+		"Animate a &7Wilden Defender&r and harvest it for parts."
+		""
+		"&7Wilden Spikes&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -4827,9 +4841,9 @@
 	]
 	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CA8BA78F5B8FB6A.quest_desc: [
-		"Animate a Wilden Pack Hunter and harvest it for parts."
+		"Animate a &7Wilden Pack Hunter&r and harvest it for parts."
 		""
-		"&7Wilden Horns&r may only be obtained with a &7Soul Shattering Weapon&r. "
+		"&7Wilden Horns&r may only be obtained through &7Soul Shattering&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -5378,7 +5392,7 @@
 	quest.76EC73B59502E2A5.quest_desc: [
 		"A bit of slicing and splicing will get us what we need. Prepare the required items for the ritual and create your very own &7Drygmy&r. "
 		""
-		"To earn a &7Token&r of its trust, toss it a &7Wilden Horn&r."
+		"To earn a &7Token&r of its trust, toss a &7Wilden Horn&r to your &7Drygmy&r."
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -5775,6 +5789,7 @@
 	reward_table.6AE591972B41AD78.title: "Spare Parts: Common"
 	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
+	reward_table.7306EFE33A5617BA.title: "Hats"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.011E5EACB5A34253.title: "Rainbow and Void Chalks"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"

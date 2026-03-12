@@ -3,6 +3,40 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            result: { id: 'malum:gold_node', count: 1 },
+            input: { item: 'malum:gold_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:aqueous', count: 2 }
+            ],
+            durabilityCost: 2,
+            time: 30,
+            id: `${id_prefix}gold_node`
+        },
+        {
+            result: { id: 'malum:iron_node', count: 1 },
+            input: { item: 'malum:iron_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:aerial', count: 2 }
+            ],
+            durabilityCost: 2,
+            time: 30,
+            id: `${id_prefix}iron_node`
+        },
+        {
+            result: { id: 'malum:copper_node', count: 1 },
+            input: { item: 'malum:copper_impetus' },
+            spirits: [
+                { type: 'malum:sacred', count: 2 },
+                { type: 'malum:earthen', count: 2 }
+            ],
+            durabilityCost: 2,
+            time: 30,
+            id: `${id_prefix}copper_node`
+        },
+
+        {
             result: { id: 'enderio:weather_crystal', count: 1 },
             input: { item: 'malum:zephyr_impetus' },
             spirits: [
@@ -18,7 +52,10 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'enderio:pulsating_crystal', count: 4 },
             input: { item: 'malum:alchemical_impetus' },
-            spirits: [{ type: 'malum:sacred', count: 1 }],
+            spirits: [
+                { type: 'malum:sacred', count: 1 },
+                { type: 'malum:aerial', count: 1 }
+            ],
             durabilityCost: 1,
             time: 10,
             id: `${id_prefix}pulsating_crystal`
@@ -110,22 +147,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}void_crystal`
         }
     ];
-
-    const materials = ['copper', 'gold', 'iron'];
-
-    materials.forEach((material) => {
-        recipes.push({
-            result: { id: `malum:${material}_node`, count: 1 },
-            input: { item: `malum:${material}_impetus` },
-            spirits: [
-                { type: 'malum:earthen', count: 2 },
-                { type: 'malum:infernal', count: 2 }
-            ],
-            durabilityCost: 2,
-            time: 30,
-            id: `${id_prefix}node_focusing_${material}`
-        });
-    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'malum:spirit_focusing';

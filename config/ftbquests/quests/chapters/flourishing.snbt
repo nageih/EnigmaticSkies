@@ -125,6 +125,12 @@
 				id: "minecraft:tuff"
 			}
 			id: "4CC1CF537349C2D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31642DF45387FF5D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -216,6 +222,12 @@
 				id: "enigmatica:cloudy_dorodango"
 			}
 			id: "77FA6854AC88C138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A5F23B797B71D0E"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -243,6 +255,12 @@
 				id: "enigmatica:melon_ball"
 			}
 			id: "3B609B8A4DE93B53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E15B03D6AB80EC"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -327,6 +345,12 @@
 				id: "enigmatica:boggy_dorodango"
 			}
 			id: "38E929DADF66C1F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21001CEDE326EC98"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
