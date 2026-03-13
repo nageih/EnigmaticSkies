@@ -379,7 +379,7 @@ ServerEvents.recipes((event) => {
     });
 
     copper_types.forEach((type) => {
-        oxides.forEach((oxide) => {
+        copper_oxides.forEach((oxide) => {
             recipes.push({
                 item_outputs: [{ item: `create:waxed_${oxide}${type}`, amount: 1 }],
                 item_inputs: [{ item: `create:${oxide}${type}`, amount: 1 }],
@@ -387,6 +387,32 @@ ServerEvents.recipes((event) => {
                 duration: 5,
                 eu: 2,
                 id: `${id_prefix}waxed_${oxide}${type}`
+            });
+        });
+    });
+
+    silver_types.forEach((type) => {
+        silver_oxides.forEach((oxide) => {
+            let output = `thesilverage:waxed_${oxide}_${type}`;
+            let input = `thesilverage:${oxide}_${type}`;
+
+            if (oxide == 'base') {
+                if (type == 'silver') {
+                    output = `thesilverage:waxed_silver_block`;
+                    input = `thesilverage:silver_block`;
+                } else {
+                    output = `thesilverage:waxed_${type}`;
+                    input = `thesilverage:${type}`;
+                }
+            }
+
+            recipes.push({
+                item_outputs: [{ item: output, amount: 1 }],
+                item_inputs: [{ item: input, amount: 1 }],
+                fluid_inputs: [{ tag: 'c:honey', amount: 1 }],
+                duration: 5,
+                eu: 2,
+                id: `${id_prefix}waxed_${oxide}_${type}`
             });
         });
     });

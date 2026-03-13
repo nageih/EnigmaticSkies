@@ -798,6 +798,7 @@ ServerEvents.recipes((event) => {
         { input: 'modern_industrialization:raw_iridium' },
         { input: 'modern_industrialization:diamond_plate' },
         { input: 'modern_industrialization:emerald_plate' },
+        { input: 'modern_industrialization:wax' },
         { id: /modern_industrialization:materials\/mixer\/.*rubber_sheet/ },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/fluid_pipe_stained_glass/ },
         { id: /modern_industrialization:dyes\/.*\/(craft|assembler)\/item_pipe_direct/ },
