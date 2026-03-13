@@ -573,6 +573,24 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:gems/void'
         },
         {
+            filter: [{ mod: 'functionalstorage' }],
+            to_replace: `minecraft:oak_planks`,
+            replace_with: Ingredient.of([
+                'aether:skyroot_planks',
+                'ars_nouveau:archwood_planks',
+                'arts_and_crafts:cork_planks',
+                'malum:runewood_planks',
+                'malum:soulwood_planks',
+                'minecraft:bamboo_planks',
+                'minecraft:cherry_planks',
+                'minecraft:crimson_planks',
+                'minecraft:oak_planks',
+                'minecraft:warped_planks',
+                'naturesaura:ancient_planks',
+                'occultism:otherplanks'
+            ])
+        },
+        {
             filter: [{ output: 'sophisticatedstorage:storage_link' }],
             to_replace: `minecraft:ender_pearl`,
             replace_with: 'create:transmitter'

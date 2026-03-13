@@ -72,10 +72,32 @@ ServerEvents.recipes((event) => {
         );
     });
 
+    silver_types.forEach((type) => {
+        silver_oxides.forEach((oxide) => {
+            let output = `thesilverage:waxed_${oxide}_${type}`;
+            let input = `thesilverage:${oxide}_${type}`;
+
+            if (oxide == 'base') {
+                if (type == 'silver') {
+                    output = `thesilverage:waxed_silver_block`;
+                    input = `thesilverage:silver_block`;
+                } else {
+                    output = `thesilverage:waxed_${type}`;
+                    input = `thesilverage:${type}`;
+                }
+            }
+
+            recipes.push({
+                results: [{ id: output, count: 1 }],
+                ingredients: [{ item: input }, { item: 'minecraft:honeycomb_block' }],
+                keep_held_item: true,
+                id: `${id_prefix}waxed_${oxide}_${type}`
+            });
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'create:deploying';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
