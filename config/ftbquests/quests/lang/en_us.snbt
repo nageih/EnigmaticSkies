@@ -2622,7 +2622,7 @@
 	quest.3EA705A9C893F04A.quest_desc: [
 		"Modern Industrialization’s &7Boilers&r and &7Turbines&r are the basis for most electricity that you’ll be producing, be it FE or EU. "
 		""
-		"EU converts to FE at a one-to-one ratio and Modern Industrialization’s &7Cables&r will do that conversion for you themselves, meaning you can run them straight to any FE consuming machine."
+		"EU converts to FE at a one-to-one ratio and Modern Industrialization’s &7Cables&r will do that conversion for you themselves, meaning you can run them straight to any FE consuming machine to power it."
 		""
 		"                       &n&6A Note on Power Tiers&r&r"
 		""

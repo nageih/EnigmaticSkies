@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'ars_nouveau:archmage_spell_book', count: 1 },
             ingredients: [
-                { item: 'ars_nouveau:novice_spell_book' },
+                { item: 'ars_nouveau:apprentice_spell_book' },
                 { tag: 'c:gems/prescient_crystal' },
                 { tag: 'c:gems/prescient_crystal' },
                 { tag: 'c:gems/prescient_crystal' },
@@ -39,7 +39,5 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         recipe.type = 'ars_nouveau:book_upgrade';
         event.custom(recipe).id(recipe.id);
-
-        
     });
 });
