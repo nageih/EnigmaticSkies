@@ -1224,6 +1224,7 @@ ServerEvents.recipes((event) => {
         { id: 'supplementaries:ash_brick' },
         { id: 'supplementaries:bellows' },
         { id: 'supplementaries:soap' },
+        { output: 'supplementaries:faucet' },
         { output: 'supplementaries:cannon' },
         { output: 'supplementaries:cannonball' },
         { output: 'supplementaries:pancake' },
