@@ -475,6 +475,8 @@
             "replication:raw_replica_block",
             "replication:deepslate_replica_ore",
 
+            "supplementaries:faucet",
+
             "sushigocrafting:rice",
             "sushigocrafting:rice_seeds",
 
