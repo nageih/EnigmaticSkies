@@ -480,6 +480,10 @@
             "sushigocrafting:rice",
             "sushigocrafting:rice_seeds",
 
+            "/theurgy:.*divination_rod/",
+            "theurgy:sal_ammoniac_ore",
+            "theurgy:deepslate_sal_ammoniac_ore",
+
             "/utilitarian:.*(snad|drit|grrass|soliciting_carpet)/"
         ],
         "added": [

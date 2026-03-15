@@ -16,6 +16,8 @@ ServerEvents.tags('block', (event) => {
         'create:rotation_speed_controller',
         'create:spout',
 
+        'theurgy:sal_ammoniac_accumulator',
+
         'trading_floor:trading_depot'
     ];
 

@@ -1239,6 +1239,7 @@ ServerEvents.recipes((event) => {
         { type: 'theurgy:incubation' },
         { type: 'theurgy:reformation' },
         { type: 'theurgy:liquefaction' },
+        { output: /theurgy:.*divination_rod/ },
         { output: /theurgy:logistics_(item|fluid)_(inserter|extractor)/ },
         { output: /theurgy:crystallized_(water|lava)/ },
         { output: 'theurgy:sal_ammoniac_accumulator' },
