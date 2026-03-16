@@ -115,11 +115,10 @@ ServerEvents.recipes((event) => {
                 { id: 'minecraft:glass_bottle', count: 1 }
             ],
             inputs: [
-                { item: 'arsdelight:activated_mendosteen_jam', count: 1 },
-                { item: 'enigmatica:mimic_meat', count: 1 },
                 { tag: 'c:dusts/silicon', count: 1 },
-                { tag: 'c:dusts/carbon', count: 1 },
-                { tag: 'c:dusts/echo', count: 1 }
+                { tag: 'c:dusts/echo', count: 1 },
+                { item: 'enigmatica:mimic_meat', count: 1 },
+                { item: 'arsdelight:activated_mendosteen_jam', count: 1 }
             ],
             pressure: 4.0,
             id: `${id_prefix}replica_ingot`

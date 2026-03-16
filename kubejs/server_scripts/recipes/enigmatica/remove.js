@@ -95,6 +95,7 @@ ServerEvents.recipes((event) => {
         { type: 'ae2:charger' },
         { type: 'ae2:transform' },
         { output: 'ae2:vibration_chamber' },
+        { output: 'ae2:crank' },
         { id: /ae2:(smelting|blasting)\/silicon/ },
         { id: /ae2:network\/cells\/item_storage_components_cell_.*_part/ },
         { id: 'ae2:charger/charged_certus_quartz_crystal' },
