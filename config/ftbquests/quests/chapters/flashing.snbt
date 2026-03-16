@@ -54,7 +54,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19F8B29D38CA31B8"]
@@ -64,7 +64,7 @@
 				item: { count: 1, id: "aether:enchanted_gravitite" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -5.0d
 		}
 		{
@@ -320,7 +320,7 @@
 				item: { components: { "cold_sweat:armor_insulation": { insulation: [ ] } }, count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
