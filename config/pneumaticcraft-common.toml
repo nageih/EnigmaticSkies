@@ -406,11 +406,11 @@
 	#Logistics Module air usage per item per block distance
 	# Default: 1.0
 	# Range: 0.0 ~ Infinity
-	item_transport_cost = 0.1
+	item_transport_cost = 0.0
 	#Logistics Module air usage per mB of fluid per block distance
 	# Default: 0.02
 	# Range: 0.0 ~ Infinity
-	fluid_transport_cost = 0.002
+	fluid_transport_cost = 0.0
 	#Minimum pressure for a Logistics Module to function
 	# Default: 3.0
 	# Range: 0.0 ~ 20.0
