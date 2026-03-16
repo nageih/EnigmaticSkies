@@ -8,7 +8,7 @@
 		id: "minecraft:burn_pottery_sherd"
 	}
 	id: "0FF1E0FF9CAD1914"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
