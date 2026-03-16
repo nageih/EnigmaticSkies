@@ -29,46 +29,11 @@
 			}]
 			tasks: [{
 				id: "57B6DCE4CA8A91B3"
-				item: { count: 1, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
 			x: -3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4E175A06927C3A75"]
-			icon: {
-				components: {
-					"pneumaticcraft:air": 30000
-				}
-				id: "pneumaticcraft:amadron_tablet"
-			}
-			id: "3F11C37840644254"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A104980060E7C28"
-				table_id: 700104408672187740L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "6C75763216677DFD"
-					item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
-					type: "item"
-				}
-				{
-					id: "06A1293F63D6B87F"
-					item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
-					type: "item"
-				}
-				{
-					id: "76B8E10802FA8DDB"
-					item: { count: 1, id: "pneumaticcraft:assembly_program_drill_laser" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["74463B3FC2D297AC"]
@@ -159,8 +124,94 @@
 				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
 				type: "item"
 			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E175A06927C3A75"]
+			icon: {
+				components: {
+					"pneumaticcraft:air": 120000
+				}
+				id: "pneumaticcraft:drone"
+			}
+			id: "144E3D7884732298"
+			min_width: 250
+			rewards: [
+				{
+					count: 16
+					id: "3D5475E2F155345F"
+					item: {
+						count: 1
+						id: "pneumaticcraft:programming_puzzle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B82A2A1899F71A"
+					table_id: 700104408672187740L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1BFD585DE83794C7"
+					item: { components: { "pneumaticcraft:air": 120000 }, count: 1, id: "pneumaticcraft:drone" }
+					type: "item"
+				}
+				{
+					id: "5325CBF6CEF87E27"
+					item: { count: 1, id: "pneumaticcraft:programmer" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E175A06927C3A75"]
+			id: "706758F1FE31E268"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D088A6B3014415A"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "684AE1845DD8C662"
+				item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:collector_drone)item(pneumaticcraft:guard_drone)item(pneumaticcraft:harvesting_drone)item(pneumaticcraft:logistics_drone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -4.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4E175A06927C3A75"]
+			icon: {
+				id: "pneumaticcraft:logistics_module"
+			}
+			id: "37DF459B5B6E6221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "090E23AAAAE107D9"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "216286837B8A1AAC"
+					item: { count: 1, id: "pneumaticcraft:logistics_module" }
+					type: "item"
+				}
+				{
+					id: "591E8D139882293D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:logistics_frame_active_provider)item(pneumaticcraft:logistics_frame_default_storage)item(pneumaticcraft:logistics_frame_passive_provider)item(pneumaticcraft:logistics_frame_requester)item(pneumaticcraft:logistics_frame_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
 		}
 	]
 }

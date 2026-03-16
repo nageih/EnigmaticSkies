@@ -847,6 +847,21 @@
 	quest.140BFF0572840B6E.quest_desc: ["A two in one charger, this device will not only fill the energy buffer on FE based equipment, but can also fill the fluid buffer at the same time, making it very useful for working with a &7Jetpack&r."]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
+	quest.144E3D7884732298.quest_desc: [
+		"&7Drones&r are powerful programmable devices that can be made to do just about anything you’d wish. "
+		""
+		"They can wield weapons to attack mobs, wield tools to break blocks, place blocks, collect items, work with fluids, craft items, the works. "
+		""
+		"Getting them to do anything, however, will require some amount of programming. The &7Programmer&r allows you to build programs using a simple &7Visual Programming Language&r using interlocking puzzle pieces. "
+		""
+		"They have a variety of information available to them to drive conditional logic as well, such as the owner’s position and which direction they’re looking, Redstone levels at a block position, fluid and inventory levels, the age of mobs, and more. "
+		""
+		"Play around with them and see what you can come up with. They can easily be used to manage livestock, kill mobs, perform complicated farming tasks like tree farming, or even operate complex crafting mechanics like rituals."
+		""
+		"&a🛈 Tip: Be sure to check the guid book for more "
+		"&a    details on programming drones."
+	]
+	quest.144E3D7884732298.title: "Programmable Drones"
 	quest.14555CEDF53F68FC.quest_desc: [
 		"The Entangled Chalice allows Blood or other fluids to be shared, with each pair of Chalices sharing the same inventory."
 		""
@@ -1844,7 +1859,7 @@
 	quest.2AA352D00D86DCC3.quest_desc: [
 		"With an Aerial Interface, you gain remote access to your own inventory. "
 		""
-		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
+		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you or manage your XP. The sky's the limit!"
 	]
 	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
 	quest.2B0DDF8003305DB6.quest_desc: [
@@ -2256,6 +2271,15 @@
 		"Try setting your &5Brawndo&r spell on a &7Turret&r and shooting a &7Cloud Berry Bush&r."
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
+	quest.37DF459B5B6E6221.quest_desc: [
+		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network at the cost of a small amount of air. "
+		""
+		"These can be a great way to link up machines to run passively and keep stock."
+		""
+		"For example, you might have multiple different tanks of fluids and a bunch of chests with items attached to a network using &7Storage Frames&r. Then at each machine, have &7Requester Frames&r pulling the exact items and fluids that machine needs for a given craft. "
+		""
+		"The results of the craft can similarly be returned to storage by way of an &7Active Provider Frame&r, or left in the machine and requested by the next machine using a. "
+	]
 	quest.37ED5A328F30DD34.quest_desc: [
 		"Creating monsters is no small feat and we’re going to need some very specific materials to pull it off. "
 		""
@@ -2740,15 +2764,6 @@
 		"&7Smart Cables&r are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
 		""
 		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
-	]
-	quest.3F11C37840644254.quest_desc: [
-		"Likely the first thing you’ll want to make with Plastic will be an Amadron Tablet, which gives you access to some high-quality trades that you may not find elsewhere. "
-		""
-		"Notable purchases to make here are the PCB Blueprint and the Drill \\& Laser Assembly Program. Grab them both and hold on to them."
-		""
-		"&a🛈 Tip: Amadron allows players to "
-		"&a    create custom shops to trade "
-		"&a    with each other!"
 	]
 	quest.3F20E7D7E1C07311.quest_desc: [
 		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
@@ -3512,11 +3527,11 @@
 		"&a    machines to prevent heat loss."
 	]
 	quest.4E175A06927C3A75.quest_desc: [
-		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
+		"A &7Charging Station&r is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
-		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
+		"It will also give you access to modify the equipment such as installing &7Speed&r and &7Volume Upgrades&r."
 		""
-		"Lastly, and perhaps most importantly, the Charging Station acts as the workstation for Pressure Mechanics. "
+		"Lastly, and perhaps most importantly, the &7Charging Station&r acts as the workstation for Pressure Mechanics. "
 		""
 		"&a🛈 Tip: A Dispenser Upgrade allows the "
 		"&a    Charging Station to charge entities "
@@ -5154,6 +5169,11 @@
 	]
 	quest.6FC31B3806BF222A.quest_subtitle: "Raising the Bar"
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
+	quest.706758F1FE31E268.quest_desc: [
+		"Pre-Programmed Drones are a class of drone that are largely set-and-forget. "
+		""
+		"They come with a basic program that allows them to perform one task automatically and with no further oversight. "
+	]
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
 		""
@@ -5993,6 +6013,7 @@
 	task.58162F4C2BB35BA4.title: "Mercurial Fluid Transporters"
 	task.582472ED7BA0A212.title: "Item Storage"
 	task.5887027FAE29F371.title: "Addon: Processing"
+	task.591E8D139882293D.title: "Logistics Frames"
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
@@ -6022,6 +6043,7 @@
 	task.664C79E935ED1414.title: "Glass Cables"
 	task.6711412248F76F31.title: "Any Pickaxe"
 	task.676C8DE6C246D422.title: "AE Power"
+	task.684AE1845DD8C662.title: "Pre-Programmed Drones "
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
 	task.6985D977D46566CD.title: "Any Machine Core"
