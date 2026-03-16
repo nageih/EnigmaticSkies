@@ -289,7 +289,9 @@
 	quest.07684F58521A4D34.quest_desc: [
 		"Playing with friends? "
 		""
-		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
+		"You can share your Glyph knowledge with one another using an &7Annotated Codex&r. "
+		""
+		"Right-Click to record your progress and your friend can Right-Click to learn everything you know."
 	]
 	quest.07EC0853BE4C6391.quest_desc: [
 		"Animate a &7Slime&r and defeat it to obtain &7Earthen Spirits&r."
@@ -332,11 +334,11 @@
 		"The items in the Pedestals will be consumed by these recipes. "
 	]
 	quest.09C3C5173499DF7C.quest_desc: [
-		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in each pedestal. "
+		"To craft essences, you’ll need to place some pedestals adjacent to the &7Imbuement Chamber&r with key items installed in each pedestal. "
 		""
 		"These key items are &nnot consumed&r and are only there to set the recipe. "
 		""
-		"Valid placement is a 3x3x3 area centered on the Imbuement Chamber."
+		"Valid placement is a 3x3x3 area centered on the &7Imbuement Chamber&r."
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
@@ -931,13 +933,13 @@
 	quest.159F7020B1DE875D.quest_desc: [
 		"Want to bring your new friends with you? "
 		""
-		"By bringing them close to a Ritual of Binding, you’ll obtain a Bound Script which may be learned by Right-Clicking it in the air. "
+		"By bringing them close to a &7Ritual of Binding&r, you’ll obtain a &7Bound Script&r which may be learned by Right-Clicking it in the air. "
 		""
-		"Once learned, a new entry will appear in your Spell Book under the Familiars tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
+		"Once learned, a new entry will appear in your &7Spell Book&r under the &7Familiars&r tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
 		""
-		"These benefits range from increased spell damage and higher looting rates, to buffed speed and item collection. "
+		"These benefits range from increased spell damage and higher looting rates, to buffed speed and ranged item collection. "
 		""
-		"Check the tooltips on each Bound Script to see what it has to offer you!"
+		"Check the tooltips on each &7Bound Script&r to see what it has to offer you!"
 	]
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
@@ -2290,13 +2292,13 @@
 		"&c⚠ Warning: Uninsulated wiring is deadly!"
 	]
 	quest.3895E1D9DE518B3F.quest_desc: [
-		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
+		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a &7Spell Book&r as your primary mining tool"
 		""
-		"To help replenish your mana faster, consider crafting a Jar of Voiding. These handy devices will eat items you pick up and convert them directly into mana. "
+		"To help replenish your mana faster, consider crafting a &7Jar of Voiding&r. These handy devices will eat items you pick up and convert them directly into mana. "
 		""
-		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the Jar. "
+		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the &7Jar&r. "
 		""
-		"Consider adding things like Cobble and other Stones to it."
+		"Consider adding things like &7Cobble&r and other &7Stones&r to it."
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
@@ -2360,9 +2362,9 @@
 		"They can be filtered and accept Motors as upgrades to speed them up."
 	]
 	quest.3A0F43654CE474DA.quest_desc: [
-		"Tree-hugging woodland spirits, Whirlisprigs will gladly join your menagerie if you show them some love and plant a tree nearby. "
+		"Tree-hugging woodland spirits, &7Whirlisprigs&r will gladly join your menagerie if you show them some love and plant a tree nearby. "
 		""
-		"In exchange, the Whirlisprig will help you grow and farm plants. "
+		"In exchange, the &7Whirlisprig&r will help you grow and farm plants. "
 		"&n                                                  &r"
 		""
 		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
@@ -3938,9 +3940,9 @@
 	]
 	quest.5AC80FA3683D9E45.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.5AD1A273F3714FAF.quest_desc: [
-		"It’s probably about time we started thinking about power. "
+		"It’s probably about time we started thinking about Source. "
 		""
-		"Many of Ars Nouveau’s devices either require Source to run, such as certain Enchanting Apparatus recipes, or are dramatically improved by having Source supplied, like the Imbuement Chamber."
+		"Many of Ars Nouveau’s devices either require Source to run, such as certain &7Enchanting Apparatus&r recipes, or are dramatically improved by having Source supplied, like the &7Imbuement Chamber&r."
 		""
 		"So, let’s pick a method and get some Source generated!"
 		"&n                                                              &r"
@@ -3962,7 +3964,7 @@
 		"• &7Vitalic&r – Converts mob deaths to Source, an "
 		"    excellent addition to any mob farm."
 		""
-		"• &7Mycelial&r – Consume food. This can be dropped "
+		"• &7Mycelial&r – Consumes food. This can be dropped "
 		"    nearby or inserted into an adjacent "
 		"    Arcane Pedestal."
 		""
@@ -5222,12 +5224,12 @@
 		"Any crops planted on &7Rich Soil Farmland&r will gain a significant boost in growth rates. "
 	]
 	quest.72C1A824063BAFA3.quest_desc: [
-		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
+		"Caretakers of natural spaces, &7Drygmies&r once roamd the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a &7Wilden Horn&r, thus showing your commitment to maintaining order."
 		""
-		"In exchange, the Drygmy will help you harvest drops from animals and monsters alike. "
+		"In exchange, the &7Drygmy&r will help you harvest drops from animals and monsters alike. "
 		"&n                                                  &r"
 		""
-		"Right-Click a Mossy Cobblestone with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
+		"Right-Click a &7Mossy Cobblestone&r with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
 		""
 		"&a🛈 Tip: Drygmies will work with mobs "
 		"&a    in Containment Jars!"
