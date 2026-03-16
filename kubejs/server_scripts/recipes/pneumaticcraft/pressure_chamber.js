@@ -111,6 +111,21 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [
+                { id: 'replication:replica_ingot', count: 1 },
+                { id: 'minecraft:glass_bottle', count: 1 }
+            ],
+            inputs: [
+                { item: 'arsdelight:activated_mendosteen_jam', count: 1 },
+                { item: 'enigmatica:mimic_meat', count: 1 },
+                { tag: 'c:dusts/silicon', count: 1 },
+                { tag: 'c:dusts/carbon', count: 1 },
+                { tag: 'c:dusts/echo', count: 1 }
+            ],
+            pressure: 4.0,
+            id: `${id_prefix}replica_ingot`
+        },
+        {
+            results: [
                 { id: 'replication:replication_terminal', count: 1 },
                 { id: 'minecraft:glass_bottle', count: 1 }
             ],
@@ -201,7 +216,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 { item: 'modern_industrialization:conductive_cable', count: 3 },
                 { tag: 'c:nuggets/redstone_alloy', count: 3 },
-                { item: 'modern_industrialization:rubber_sheet', count: 3 }
+                { tag: 'c:plates/silicon', count: 2 }
             ],
             pressure: 4.0,
             id: `${id_prefix}transistor`

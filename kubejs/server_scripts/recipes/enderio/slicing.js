@@ -170,9 +170,9 @@ ServerEvents.recipes((event) => {
         {
             output: { id: 'enderio:zombie_electrode', count: 1 },
             inputs: [
-                { tag: 'c:plates/silicon' },
+                { item: 'pneumaticcraft:transistor' },
                 { item: 'minecraft:zombie_head' },
-                { tag: 'c:plates/silicon' },
+                { item: 'pneumaticcraft:transistor' },
                 { tag: 'c:gems/pulsating_crystal' },
                 { item: 'enderio:basic_capacitor' },
                 { tag: 'c:gems/pulsating_crystal' }

@@ -606,6 +606,11 @@ ServerEvents.recipes((event) => {
             replace_with: `enderio:z_logic_controller`
         },
         {
+            filter: [{ mod: 'pneumaticcraft' }],
+            to_replace: `pneumaticcraft:capacitor`,
+            replace_with: `enderio:basic_capacitor`
+        },
+        {
             filter: [{ mod: 'laserio' }],
             to_replace: `laserio:logic_chip`,
             replace_with: `enderio:z_logic_controller`

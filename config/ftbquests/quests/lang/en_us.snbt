@@ -2274,11 +2274,11 @@
 	quest.37DF459B5B6E6221.quest_desc: [
 		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network at the cost of a small amount of air. "
 		""
-		"These can be a great way to link up machines to run passively and keep stock."
+		"These can be a great way to link up machines to run passively and keep stock of key items."
 		""
 		"For example, you might have multiple different tanks of fluids and a bunch of chests with items attached to a network using &7Storage Frames&r. Then at each machine, have &7Requester Frames&r pulling the exact items and fluids that machine needs for a given craft. "
 		""
-		"The results of the craft can similarly be returned to storage by way of an &7Active Provider Frame&r, or left in the machine and requested by the next machine using a. "
+		"The results of the craft can similarly be returned to storage by way of an &7Active Provider Frame&r, or simply left in the machine and requested by the next machine. "
 	]
 	quest.37ED5A328F30DD34.quest_desc: [
 		"Creating monsters is no small feat and we’re going to need some very specific materials to pull it off. "

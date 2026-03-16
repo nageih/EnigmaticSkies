@@ -1116,6 +1116,7 @@ ServerEvents.recipes((event) => {
         { type: 'pneumaticcraft:refinery' },
         { type: 'pneumaticcraft:amadron' },
         { type: 'pneumaticcraft:etching_tank' },
+        { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
         { output: 'pneumaticcraft:reinforced_stone' },
         { output: 'pneumaticcraft:crop_support' },
         { output: 'pneumaticcraft:compressed_iron_gear' },
@@ -1124,7 +1125,8 @@ ServerEvents.recipes((event) => {
         { output: 'pneumaticcraft:spawner_extractor' },
         { output: 'pneumaticcraft:spawner_agitator' },
         { output: 'pneumaticcraft:empty_spawner' },
-        { output: /pneumaticcraft:.*(air|flux|manual|solar)_compressor/ },
+        { output: 'pneumaticcraft:uv_light_box' },
+        { output: 'pneumaticcraft:spawner_core_shell' },
         { id: /pneumaticcraft:thermo_plant\/(vegetable_oil|ethanol)/ },
         { id: /pneumaticcraft:thermo_plant\/(chips|salmon_tempura)/ },
         { id: /pneumaticcraft:thermo_plant\/(plastic|lubricant)/ },
@@ -1193,9 +1195,8 @@ ServerEvents.recipes((event) => {
         { output: 'replication:memory_chip' },
         { output: 'replication:matter_tank' },
         { output: 'replication:replicator_enclosure' },
-        { output: 'replication:replica_ingot' },
-        { output: 'replication:replica_block' },
         { output: 'replication:raw_replica' },
+        { input: 'replication:raw_replica' },
         { output: 'replication:raw_replica_block' },
 
         // Shrink

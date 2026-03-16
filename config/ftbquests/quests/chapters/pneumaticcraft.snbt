@@ -101,33 +101,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3C50D5FE5FA787A9"]
-			id: "3954AC8D791145CE"
-			rewards: [
-				{
-					id: "3FE53392DE7F2756"
-					item: {
-						count: 1
-						id: "pneumaticcraft:gun_ammo_explosive"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "679B3EDCDFEC244E"
-					table_id: 700104408672187740L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "6606CCC5D71510A5"
-				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4E175A06927C3A75"]
 			icon: {
 				components: {
@@ -192,6 +165,7 @@
 				id: "pneumaticcraft:logistics_module"
 			}
 			id: "37DF459B5B6E6221"
+			min_width: 250
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "090E23AAAAE107D9"
@@ -211,6 +185,25 @@
 				}
 			]
 			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["144E3D7884732298"]
+			id: "512EE7F39A1BFC93"
+			rewards: [{
+				id: "7789F18DA4EF80EC"
+				item: {
+					count: 1
+					id: "pneumaticcraft:network_api"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13877F2344850CB6"
+				item: { count: 1, id: "pneumaticcraft:programmable_controller" }
+				type: "item"
+			}]
+			x: -2.0d
 			y: 3.5d
 		}
 	]
