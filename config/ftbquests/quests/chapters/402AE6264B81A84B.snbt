@@ -1,5 +1,5 @@
 {
-	autofocus_id: "09E7D266A7724F09"
+	autofocus_id: "3A078285904792A2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "402AE6264B81A84B"
@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2150EE8D0B1474CE"]
@@ -559,6 +559,157 @@
 			}]
 			x: 11.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "3FF6566453299DC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20AD0AD242CBDD81"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51B274B45F53160C"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2150EE8D0B1474CE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/levitation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0B04BC5F88746182"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:hopper"
+				}
+				id: "36D658D637E5D847"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			icon: {
+				id: "functionalstorage:storage_controller"
+			}
+			id: "21C1CAA38D040AC8"
+			rewards: [
+				{
+					id: "16EE6501B9739BA6"
+					item: {
+						count: 1
+						id: "functionalstorage:linking_tool"
+					}
+					type: "item"
+				}
+				{
+					id: "7B09671B9635CFEB"
+					item: {
+						count: 1
+						id: "functionalstorage:configuration_tool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E422D4A867340A6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1D1C35B0CD86F6CC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:fluid_1)item(functionalstorage:fluid_2)item(functionalstorage:fluid_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "functionalstorage:storage_controller"
+					}
+					id: "466DBFDDD1C1C5A6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:framed_storage_controller)item(functionalstorage:storage_controller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "7327D905FE8B38FC"
+			rewards: [{
+				id: "0A877A9B9CE75924"
+				item: {
+					count: 1
+					id: "prettypipes:pressurizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1E0249E273028E"
+				item: { count: 1, id: "prettypipes:item_terminal" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "472936F50BC28EBF"
+			rewards: [{
+				id: "0F227CB400822392"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:storage_tool"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00308296E7CB841E"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "2BEFCB331D1564CF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "465D195EA5630857"
+			rewards: [{
+				id: "1C4EDC59F5AEA09A"
+				item: {
+					count: 1
+					id: "ars_nouveau:bookwyrm_charm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "654C1B0CE292A993"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
 		}
 	]
 }
