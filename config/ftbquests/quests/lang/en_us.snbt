@@ -2983,7 +2983,9 @@
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
-		"The Energy Transmitter can be used to power every block in a small area. Use the Render Area button to help align the work area to cover your machines."
+		"The &7Energy Transmitter&r can be used to power every block in a small area. "
+		""
+		"Use the Render Area button to help align the work area to cover your machines."
 	]
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
@@ -5552,7 +5554,9 @@
 		""
 		"Try the &7Experience Holder&r. "
 		""
-		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. It makes an indispensable addition to any enchanting area. "
+		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. "
+		""
+		"It makes an indispensable addition to any enchanting area. "
 	]
 	quest.78E557B17D1EB84F.quest_desc: [
 		"The Altar uses &7Ambrosium&r as fuel to transmute items. "
