@@ -6,7 +6,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "cold_sweat:textures/particle/mist_0.png"
+			"ftbquests:icon": "malum:textures/mob_effect/sky_tether.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -106,6 +106,7 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				dimension: "ftbteambases:lobby"
 				icon: {

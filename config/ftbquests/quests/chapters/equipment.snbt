@@ -7,7 +7,7 @@
 		id: "minecraft:blade_pottery_sherd"
 	}
 	id: "21245A37A9042E2C"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -251,6 +251,33 @@
 			}]
 			x: 5.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["3C50D5FE5FA787A9"]
+			id: "3954AC8D791145CE"
+			rewards: [
+				{
+					id: "3FE53392DE7F2756"
+					item: {
+						count: 1
+						id: "pneumaticcraft:gun_ammo_explosive"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679B3EDCDFEC244E"
+					table_id: 700104408672187740L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6606CCC5D71510A5"
+				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 }

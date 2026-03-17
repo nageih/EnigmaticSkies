@@ -1,5 +1,5 @@
 {
-	autofocus_id: "064BF1AA27A01A3A"
+	autofocus_id: "7ADBC282C9692EDE"
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "0EFE9E753A92388D"
@@ -8,7 +8,7 @@
 		id: "minecraft:shelter_pottery_sherd"
 	}
 	id: "0EFE9E753A92388D"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

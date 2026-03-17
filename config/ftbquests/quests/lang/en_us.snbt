@@ -2,7 +2,6 @@
 	chapter.083FB2FC095A6686.title: "Flourishing Island"
 	chapter.0A799F91D9A1C8A1.title: "Blazing Island"
 	chapter.0C0D9C8007301C03.title: "Malum"
-	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building"
 	chapter.0FF1E0FF9CAD1914.title: "Energy"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
@@ -290,7 +289,16 @@
 	quest.07684F58521A4D34.quest_desc: [
 		"Playing with friends? "
 		""
-		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
+		"You can share your Glyph knowledge with one another using an &7Annotated Codex&r. "
+		""
+		"Right-Click to record your progress and your friend can Right-Click to learn everything you know."
+	]
+	quest.07EC0853BE4C6391.quest_desc: [
+		"Animate a &7Slime&r and defeat it to obtain &7Earthen Spirits&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
 	]
 	quest.07EC0853BE4C6391.title: "Earthen Spirit"
 	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
@@ -310,6 +318,7 @@
 		""
 		"The target machine will retain all filters and inventory, making it a painless way to upgrade your machines."
 	]
+	quest.0963C14E9AF5A836.quest_desc: ["The &7Wired Charger&r will charge any FE using device placed inside of it."]
 	quest.0988DC06DD5A6935.quest_desc: [
 		"Have a curse you’d like to remove from your tool? Toss it in the Purifier with some Blood to get it cleansed away."
 		""
@@ -325,11 +334,11 @@
 		"The items in the Pedestals will be consumed by these recipes. "
 	]
 	quest.09C3C5173499DF7C.quest_desc: [
-		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in each pedestal. "
+		"To craft essences, you’ll need to place some pedestals adjacent to the &7Imbuement Chamber&r with key items installed in each pedestal. "
 		""
 		"These key items are &nnot consumed&r and are only there to set the recipe. "
 		""
-		"Valid placement is a 3x3x3 area centered on the Imbuement Chamber."
+		"Valid placement is a 3x3x3 area centered on the &7Imbuement Chamber&r."
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
@@ -386,7 +395,7 @@
 	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
-	quest.0B04BC5F88746182.title: "Storage Systems"
+	quest.0B04BC5F88746182.title: "Storage"
 	quest.0B05FA716D7335D2.quest_desc: [
 		"The mod includes several tiers of fluid fuels to complement its power generation. These are generally crafted by placing the fluid, dropping some item in, and then collecting the result. "
 		""
@@ -440,7 +449,11 @@
 		"&6    It's simply here as a courtesy for "
 		"&6    viewing the recipe."
 	]
-	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
+	quest.0C8FAB4B801907B1.quest_desc: [
+		"The &7Tesla Handheld Receiver&r interfaces with your Tesla Coils to receive energy wirelessly. "
+		""
+		"They'll charge both FE and EU consuming devices in your inventory, making them a very versatile tool for keeping your equipment charged. "
+	]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
 		""
@@ -558,7 +571,7 @@
 	quest.0DE5D9ADB947B171.quest_desc: [
 		"Animate a &7Wilden Chimera&r and defeat it to obtain a &7Wilden Tribute&r."
 		""
-		"&7Chimera MEat&r may be obtained through &7Soul Shattering&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
+		"&7Chimera Meat&r may be obtained through &7Soul Shattering&r or by trading extra &7Wilden Tributes&r to a &7Butcher&r. "
 		""
 		"&6⚠ Note: The Ritual Item is not required. "
 		"&6    It's simply here as a courtesy for "
@@ -598,8 +611,6 @@
 		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
 	]
 	quest.0F63D034A018A4FC.quest_desc: ["Placing a &7Sewer&r beneath your animals will allow you to collect &7Sewage&r which can be used to obtain more &7Water&r and eventually converted into &7Oil&r!"]
-	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
-	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.0FE11A739BA3623E.quest_desc: [
 		"The Reformation Array itself is a freeform multiblock. It doesn’t matter where each piece goes, just that they’re somewhat close. "
 		""
@@ -703,6 +714,7 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.12E0E45FC08A5912.quest_desc: ["&7Wireless Player Chargers&r will keep your FE consuming equipment charged while you're in their admittedly small area of effect. "]
 	quest.12E7105B33AC043E.quest_desc: ["[ \"\", { \"text\": \"Abjuration Essence\", \"color\":\"gray\"}, \" grants access to the blighted lands of the \", { \"text\": \"Vexing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13F15094F3AF4A73\" } }, \".\" ]"]
 	quest.12E7105B33AC043E.title: "Vexing Island"
 	quest.130A2701B96A941D.quest_desc: [
@@ -832,9 +844,24 @@
 		"&7Conjure Smooth Twisted Rock&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r > &aSmelt&r"
 	]
-	quest.140BFF0572840B6E.quest_desc: ["A two in one charger, this device will not only fill the energy buffer on FE based equipment, but can also fill the fluid buffer at the same time, making it very useful for filling up a &7Jetpack&r."]
+	quest.140BFF0572840B6E.quest_desc: ["A two in one charger, this device will not only fill the energy buffer on FE based equipment, but can also fill the fluid buffer at the same time, making it very useful for working with a &7Jetpack&r."]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
+	quest.144E3D7884732298.quest_desc: [
+		"&7Drones&r are powerful programmable devices that can be made to do just about anything you’d wish. "
+		""
+		"They can wield weapons to attack mobs, wield tools to break blocks, place blocks, collect items, work with fluids, craft items, the works. "
+		""
+		"Getting them to do anything, however, will require some amount of programming. The &7Programmer&r allows you to build programs using a simple &7Visual Programming Language&r using interlocking puzzle pieces. "
+		""
+		"They have a variety of information available to them to drive conditional logic as well, such as the owner’s position and which direction they’re looking, Redstone levels at a block position, fluid and inventory levels, the age of mobs, and more. "
+		""
+		"Play around with them and see what you can come up with. They can easily be used to manage livestock, kill mobs, perform complicated farming tasks like tree farming, or even operate complex crafting mechanics like rituals."
+		""
+		"&a🛈 Tip: Be sure to check the guid book for more "
+		"&a    details on programming drones."
+	]
+	quest.144E3D7884732298.title: "Programmable Drones"
 	quest.14555CEDF53F68FC.quest_desc: [
 		"The Entangled Chalice allows Blood or other fluids to be shared, with each pair of Chalices sharing the same inventory."
 		""
@@ -921,13 +948,13 @@
 	quest.159F7020B1DE875D.quest_desc: [
 		"Want to bring your new friends with you? "
 		""
-		"By bringing them close to a Ritual of Binding, you’ll obtain a Bound Script which may be learned by Right-Clicking it in the air. "
+		"By bringing them close to a &7Ritual of Binding&r, you’ll obtain a &7Bound Script&r which may be learned by Right-Clicking it in the air. "
 		""
-		"Once learned, a new entry will appear in your Spell Book under the Familiars tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
+		"Once learned, a new entry will appear in your &7Spell Book&r under the &7Familiars&r tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
 		""
-		"These benefits range from increased spell damage and higher looting rates, to buffed speed and item collection. "
+		"These benefits range from increased spell damage and higher looting rates, to buffed speed and ranged item collection. "
 		""
-		"Check the tooltips on each Bound Script to see what it has to offer you!"
+		"Check the tooltips on each &7Bound Script&r to see what it has to offer you!"
 	]
 	quest.15FAB1720AD470A0.quest_desc: [
 		"Every Modern Industrialization multiblock will require input and output hatches commensurate with the recipes it handles. "
@@ -1434,7 +1461,7 @@
 	quest.2150EE8D0B1474CE.quest_desc: [
 		"The Logistics section covers items from mods that help automate moving things around."
 		""
-		"From items and fluids to power and gas, the mods shown here will help move it."
+		"Be it items, fluids, or power, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
 	quest.21B7BDFCF5144431.quest_desc: [
@@ -1546,14 +1573,6 @@
 		""
 		"From there, you’ll be able to infuse &7Ambrosium&r with it to create &7Source Gems&r."
 	]
-	quest.23FF0CA316B2CB5D.quest_desc: [
-		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
-		""
-		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
-	]
 	quest.24095EE1A419152D.quest_desc: [
 		"A small multiblock consisting of the &7Controller&r and up to four &7Outputs&r stacked atop it, the &7Refinery&r is central to processing &7Crude Oil&r. "
 		""
@@ -1607,6 +1626,13 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
+	quest.26188F1C7EBA08B6.quest_desc: [
+		"Animate a &7Vexing Weald Walker&r and defeat it to obtain &7Eldritch Spirits&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
 	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -1833,7 +1859,7 @@
 	quest.2AA352D00D86DCC3.quest_desc: [
 		"With an Aerial Interface, you gain remote access to your own inventory. "
 		""
-		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
+		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you or manage your XP. The sky's the limit!"
 	]
 	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
 	quest.2B0DDF8003305DB6.quest_desc: [
@@ -2245,6 +2271,15 @@
 		"Try setting your &5Brawndo&r spell on a &7Turret&r and shooting a &7Cloud Berry Bush&r."
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
+	quest.37DF459B5B6E6221.quest_desc: [
+		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network at the cost of a small amount of air. "
+		""
+		"These can be a great way to link up machines to run passively and keep stock of key items."
+		""
+		"For example, you might have multiple different tanks of fluids and a bunch of chests with items attached to a network using &7Storage Frames&r. Then at each machine, have &7Requester Frames&r pulling the exact items and fluids that machine needs for a given craft. "
+		""
+		"The results of the craft can similarly be returned to storage by way of an &7Active Provider Frame&r, or simply left in the machine and requested by the next machine. "
+	]
 	quest.37ED5A328F30DD34.quest_desc: [
 		"Creating monsters is no small feat and we’re going to need some very specific materials to pull it off. "
 		""
@@ -2281,13 +2316,13 @@
 		"&c⚠ Warning: Uninsulated wiring is deadly!"
 	]
 	quest.3895E1D9DE518B3F.quest_desc: [
-		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
+		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a &7Spell Book&r as your primary mining tool"
 		""
-		"To help replenish your mana faster, consider crafting a Jar of Voiding. These handy devices will eat items you pick up and convert them directly into mana. "
+		"To help replenish your mana faster, consider crafting a &7Jar of Voiding&r. These handy devices will eat items you pick up and convert them directly into mana. "
 		""
-		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the Jar. "
+		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the &7Jar&r. "
 		""
-		"Consider adding things like Cobble and other Stones to it."
+		"Consider adding things like &7Cobble&r and other &7Stones&r to it."
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
@@ -2351,9 +2386,9 @@
 		"They can be filtered and accept Motors as upgrades to speed them up."
 	]
 	quest.3A0F43654CE474DA.quest_desc: [
-		"Tree-hugging woodland spirits, Whirlisprigs will gladly join your menagerie if you show them some love and plant a tree nearby. "
+		"Tree-hugging woodland spirits, &7Whirlisprigs&r will gladly join your menagerie if you show them some love and plant a tree nearby. "
 		""
-		"In exchange, the Whirlisprig will help you grow and farm plants. "
+		"In exchange, the &7Whirlisprig&r will help you grow and farm plants. "
 		"&n                                                  &r"
 		""
 		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
@@ -2417,6 +2452,18 @@
 		""
 		"For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
 	]
+	quest.3BF458796782EB49.quest_desc: [
+		"The &7Cybernetics Station&r allows you to research and install various bio-mechanical enhancements into your body to provide you with permanent buffs and new abilities. "
+		""
+		"These abilities vary from the more mundane, such as Step Assist, to the fantastic such as built in Armor, Invisibility, and even Flight. "
+		""
+		"Unlike other Oritech machines, this one will not function without an appropriate upgrade installed. "
+		""
+		"There are three in total which can be installed on the sides and back of the &7Augmentation Center&r. "
+		""
+		"To get started, you’ll need to craft and install the &7Cybernetic Research Station&r. Later upgrades will require higher-tier &7Research Stations&r."
+		" "
+	]
 	quest.3C4305830D6978C5.quest_desc: [
 		"Looking for an upgrade to your mining?"
 		""
@@ -2476,6 +2523,13 @@
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.3CC1C6949E17A1B9.quest_subtitle: "Basic Pressure"
+	quest.3D1D6D17B2900DF0.quest_desc: [
+		"Animate a &7Magma Slime&r and defeat it to obtain &7Infernal Spirits&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
 	quest.3D1D6D17B2900DF0.title: "Infernal Spirit"
 	quest.3D307863E39B9EFE.quest_desc: [
 		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
@@ -2710,15 +2764,6 @@
 		"&7Smart Cables&r are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
 		""
 		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
-	]
-	quest.3F11C37840644254.quest_desc: [
-		"Likely the first thing you’ll want to make with Plastic will be an Amadron Tablet, which gives you access to some high-quality trades that you may not find elsewhere. "
-		""
-		"Notable purchases to make here are the PCB Blueprint and the Drill \\& Laser Assembly Program. Grab them both and hold on to them."
-		""
-		"&a🛈 Tip: Amadron allows players to "
-		"&a    create custom shops to trade "
-		"&a    with each other!"
 	]
 	quest.3F20E7D7E1C07311.quest_desc: [
 		"Give this little guy a pail, a shovel, and a little snack and it’ll happily get to work for you. "
@@ -3412,12 +3457,6 @@
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
 	]
-	quest.4B66ECA9D6797B80.quest_desc: [
-		"The Storage section covers items or mods that help store all the things."
-		""
-		"From fluids and items to centralized storage systems, you’ll find it here!"
-	]
-	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4C46DBD26BE50BCD.quest_desc: [
 		"&7Aura Field Creators&r are powerful block breakers that work in pairs, breaking every block between them. "
 		""
@@ -3431,12 +3470,6 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
-	quest.4C7D7FC6EEB07515.quest_desc: [
-		"Barrels hold a single item type, but will hold an absolute ton of it. "
-		""
-		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
-	]
-	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4C8FBFE52DD15C71.title: "Shepherd"
 	quest.4C91792ACCC53A2B.quest_desc: ["By applying high heat in a low-oxygen environment, we can convert &7Pelagite&r into &7Kerogen&r. "]
 	quest.4CB21D6351486281.quest_desc: [
@@ -3494,11 +3527,11 @@
 		"&a    machines to prevent heat loss."
 	]
 	quest.4E175A06927C3A75.quest_desc: [
-		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
+		"A &7Charging Station&r is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
-		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
+		"It will also give you access to modify the equipment such as installing &7Speed&r and &7Volume Upgrades&r."
 		""
-		"Lastly, and perhaps most importantly, the Charging Station acts as the workstation for Pressure Mechanics. "
+		"Lastly, and perhaps most importantly, the &7Charging Station&r acts as the workstation for Pressure Mechanics. "
 		""
 		"&a🛈 Tip: A Dispenser Upgrade allows the "
 		"&a    Charging Station to charge entities "
@@ -3595,8 +3628,6 @@
 		"  • &7Otherworld Ashes&r"
 	]
 	quest.503E9805EC687D70.title: "Eziveus' Spectral Compulsion"
-	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
-	quest.5047A6F1EF472407.title: "Bulk Item Storage"
 	quest.50BCEB07C736B906.quest_desc: [
 		"The Force Field Projector, despite the name, can do considerably more, depending on the modules involved. At its simplest, it puts up a wall to prevent passage. However, it can also be used to damage mobs, clear blocks and fluids, or to place blocks."
 		""
@@ -3924,9 +3955,9 @@
 	]
 	quest.5AC80FA3683D9E45.quest_desc: ["Upgrading your Goo will give you access to newer recipes and faster in-world processing."]
 	quest.5AD1A273F3714FAF.quest_desc: [
-		"It’s probably about time we started thinking about power. "
+		"It’s probably about time we started thinking about Source. "
 		""
-		"Many of Ars Nouveau’s devices either require Source to run, such as certain Enchanting Apparatus recipes, or are dramatically improved by having Source supplied, like the Imbuement Chamber."
+		"Many of Ars Nouveau’s devices either require Source to run, such as certain &7Enchanting Apparatus&r recipes, or are dramatically improved by having Source supplied, like the &7Imbuement Chamber&r."
 		""
 		"So, let’s pick a method and get some Source generated!"
 		"&n                                                              &r"
@@ -3948,7 +3979,7 @@
 		"• &7Vitalic&r – Converts mob deaths to Source, an "
 		"    excellent addition to any mob farm."
 		""
-		"• &7Mycelial&r – Consume food. This can be dropped "
+		"• &7Mycelial&r – Consumes food. This can be dropped "
 		"    nearby or inserted into an adjacent "
 		"    Arcane Pedestal."
 		""
@@ -4178,8 +4209,6 @@
 	]
 	quest.605A60825B68C2D7.title: "Animal Senescence"
 	quest.60DC19DA26E8CCA4.quest_desc: ["With all of the impurities purged, &7Stainless Steel&r should prove useful in more advanced technology where a stray soul or two might otherwise disturb the process and prove disastrous. "]
-	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
-	quest.60EECBF540C75C09.title: "Tanks"
 	quest.61090C5F8E435E7A.quest_desc: [
 		"Chalks"
 		""
@@ -4318,7 +4347,6 @@
 		""
 		"Bind an inventory to your &7Primary Lectern&r using the Dominion Wand; Sneak Right-Click the inventory, then Right-Click the &7Primary Lectern&r."
 	]
-	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62C7492F54D80CBA.quest_desc: [
 		"The few spell tomes you’ve been left with should prove useful, but they’re no substitute for a full &7Spell Book&r. Fully recovering that is going to take time but we can get a start on it now."
 		""
@@ -4755,6 +4783,13 @@
 		"This process can go both ways, meaning a rare material can be converted into a large quantity of lower quality items."
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
+	quest.6A4C2B4518E341D6.quest_desc: [
+		"Animate a &7Blue Swet&r and defeat it to obtain &7Aqueous Spirits&r."
+		""
+		"&6⚠ Note: The Ritual Item is not required. "
+		"&6    It's simply here as a courtesy for "
+		"&6    viewing the recipe."
+	]
 	quest.6A4C2B4518E341D6.title: "Aqueous Spirit"
 	quest.6A4DD846F7E08FD6.quest_desc: [
 		"The woman flew higher and higher, up and up. She soared for what seemed like ages. "
@@ -5134,6 +5169,11 @@
 	]
 	quest.6FC31B3806BF222A.quest_subtitle: "Raising the Bar"
 	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
+	quest.706758F1FE31E268.quest_desc: [
+		"Pre-Programmed Drones are a class of drone that are largely set-and-forget. "
+		""
+		"They come with a basic program that allows them to perform one task automatically and with no further oversight. "
+	]
 	quest.710D7615763E9945.quest_desc: [
 		"Oaths and vows have power, though they come at a cost. "
 		""
@@ -5204,12 +5244,12 @@
 		"Any crops planted on &7Rich Soil Farmland&r will gain a significant boost in growth rates. "
 	]
 	quest.72C1A824063BAFA3.quest_desc: [
-		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
+		"Caretakers of natural spaces, &7Drygmies&r once roamd the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a &7Wilden Horn&r, thus showing your commitment to maintaining order."
 		""
-		"In exchange, the Drygmy will help you harvest drops from animals and monsters alike. "
+		"In exchange, the &7Drygmy&r will help you harvest drops from animals and monsters alike. "
 		"&n                                                  &r"
 		""
-		"Right-Click a Mossy Cobblestone with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
+		"Right-Click a &7Mossy Cobblestone&r with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
 		""
 		"&a🛈 Tip: Drygmies will work with mobs "
 		"&a    in Containment Jars!"
@@ -5973,6 +6013,7 @@
 	task.58162F4C2BB35BA4.title: "Mercurial Fluid Transporters"
 	task.582472ED7BA0A212.title: "Item Storage"
 	task.5887027FAE29F371.title: "Addon: Processing"
+	task.591E8D139882293D.title: "Logistics Frames"
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
@@ -6002,6 +6043,7 @@
 	task.664C79E935ED1414.title: "Glass Cables"
 	task.6711412248F76F31.title: "Any Pickaxe"
 	task.676C8DE6C246D422.title: "AE Power"
+	task.684AE1845DD8C662.title: "Pre-Programmed Drones "
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
 	task.6985D977D46566CD.title: "Any Machine Core"

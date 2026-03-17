@@ -313,15 +313,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}bronze_alluvial_trommel`
         },
         {
-            output: `modern_industrialization:bronze_barrel`,
-            pattern: ['AAA', 'ABA', 'AAA'],
-            key: {
-                A: `#c:plates/andesite_alloy`,
-                B: '#c:barrels/wooden'
-            },
-            id: `${id_prefix}bronze_barrel`
-        },
-        {
             output: `2x modern_industrialization:steel_upgrade`,
             pattern: ['ABA', 'CDC', 'EFE'],
             key: {

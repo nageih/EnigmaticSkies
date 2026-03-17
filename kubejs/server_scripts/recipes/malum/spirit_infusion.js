@@ -13,12 +13,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}soul_stained_steel_ingot`
         },
         {
-            result: { id: 'malum:living_flesh', count: 16 },
-            input: { item: 'minecraft:rotten_flesh', count: 8 },
-            extraInputs: [{ item: 'industrialforegoing:pink_slime', count: 8 }],
+            result: { id: 'malum:living_flesh', count: 8 },
+            input: { item: 'minecraft:rotten_flesh', count: 4 },
+            extraInputs: [{ item: 'enigmatica:mimic_meat', count: 1 }],
             spirits: [
-                { type: 'malum:sacred', count: 16 },
-                { type: 'malum:wicked', count: 16 }
+                { type: 'malum:sacred', count: 8 },
+                { type: 'malum:wicked', count: 8 }
             ],
             id: `${id_prefix}living_flesh`
         },
@@ -524,17 +524,6 @@ ServerEvents.recipes((event) => {
                 { type: 'malum:sacred', count: 4 }
             ],
             id: `${id_prefix}skeletal_contractor`
-        },
-        {
-            result: { id: 'aether:life_shard', count: 4 },
-            input: { tag: 'c:gems/ruby', count: 1 },
-            extraInputs: [{ tag: 'c:dusts/echo', count: 4 }],
-            spirits: [
-                { type: 'malum:arcane', count: 4 },
-                { type: 'malum:earthen', count: 4 },
-                { type: 'malum:sacred', count: 4 }
-            ],
-            id: `${id_prefix}life_shard`
         },
         {
             result: { id: 'malum:ether', count: 2 },

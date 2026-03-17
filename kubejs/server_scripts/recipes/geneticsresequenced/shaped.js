@@ -13,11 +13,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: `geneticsresequenced:syringe`,
-            pattern: ['  A', ' B ', 'C  '],
+            pattern: [' AA', ' BA', 'C  '],
             key: {
-                A: `#c:rods/steel`,
+                A: `#c:nuggets/soularium`,
                 B: 'minecraft:glass_bottle',
-                C: 'enderio:experience_rod'
+                C: 'enderio:infinity_rod'
             },
             id: `${id_prefix}syringe`
         },

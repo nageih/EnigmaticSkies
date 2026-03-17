@@ -1,5 +1,5 @@
 {
-	autofocus_id: "41614A924E5556EE"
+	autofocus_id: "1DA29F3B45DEFB4B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
@@ -8,7 +8,7 @@
 		id: "malum:arcane_spirit"
 	}
 	id: "5C2F675CD8139E11"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -83,7 +83,7 @@
 				}
 				{
 					id: "0767C8200D0389A6"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:essences)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:abjuration_essence)item(ars_nouveau:conjuration_essence)item(ars_nouveau:air_essence)item(ars_nouveau:earth_essence)item(ars_nouveau:fire_essence)item(ars_nouveau:manipulation_essence)item(ars_nouveau:water_essence)item(ars_elemental:anima_essence))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

@@ -8,7 +8,7 @@
 		id: "minecraft:burn_pottery_sherd"
 	}
 	id: "0FF1E0FF9CAD1914"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -530,8 +530,91 @@
 				]
 				type: "location"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["3EA705A9C893F04A"]
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "0230942DF53BB9E5"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:comparator"
+				}
+				id: "5726FC2C852F6F2B"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "2D55E211F5B4F0BF"
+			tasks: [{
+				id: "666CD839E64B504B"
+				item: { count: 1, id: "actuallyadditions:energizer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "140BFF0572840B6E"
+			tasks: [{
+				id: "2D58565836AB423E"
+				item: { count: 1, id: "oritech:charger_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "31FAEA42AC32BD3E"
+			tasks: [{
+				id: "19441FEE260AA388"
+				item: { count: 1, id: "industrialforegoing:infinity_charger" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "0963C14E9AF5A836"
+			tasks: [{
+				id: "7660A3F10F0C4450"
+				item: { count: 1, id: "enderio:wired_charger" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "12E0E45FC08A5912"
+			tasks: [{
+				id: "05D3A1B39FC0F352"
+				item: { count: 1, id: "wirelesschargers:basic_wireless_player_charger" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0230942DF53BB9E5"]
+			id: "0C8FAB4B801907B1"
+			tasks: [{
+				id: "3CC9A0AA47C6FC02"
+				item: { count: 1, id: "extended_industrialization:tesla_handheld_receiver" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 }

@@ -170,7 +170,7 @@ ServerEvents.recipes((event) => {
         {
             entity: 'aether:mimic',
             egg: 'aether:mimic_spawn_egg',
-            block: 'malum:living_flesh',
+            block: 'industrialforegoing:pink_slime_block',
             spirit: 'naturesaura:calling_spirit'
         },
         {
