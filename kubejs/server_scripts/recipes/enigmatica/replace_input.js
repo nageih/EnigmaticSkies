@@ -380,6 +380,11 @@ ServerEvents.recipes((event) => {
             replace_with: `ae2:charged_certus_quartz_crystal`
         },
         {
+            filter: [{ mod: 'ae2' }, { mod: 'ae2importexportcard' }, { mod: 'merequester' }, { mod: 'ae2netanalyser' }],
+            to_replace: `#c:gems/diamond`,
+            replace_with: `#c:ingots/pulsating_alloy`
+        },
+        {
             filter: [{ mod: 'ae2' }],
             to_replace: `minecraft:piston`,
             replace_with: `modern_industrialization:piston`
