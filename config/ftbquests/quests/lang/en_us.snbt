@@ -2265,9 +2265,9 @@
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37DF459B5B6E6221.quest_desc: [
-		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network at the cost of a small amount of air. "
+		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network. "
 		""
-		"These can be a great way to link up machines to run passively and keep stock of key items."
+		"Due to their highly customizable nature, these can be a great way to link up machines to run passively and keep stock of key items."
 		""
 		"For example, you might have multiple different tanks of fluids and a bunch of chests with items attached to a network using &7Storage Frames&r. Then at each machine, have &7Requester Frames&r pulling the exact items and fluids that machine needs for a given craft. "
 		""
