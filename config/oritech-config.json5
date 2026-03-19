@@ -259,7 +259,7 @@
     catalystBaseSouls: 50,
     catalystRFPerSoul: 20,
     catalystCostMultiplier: 2,
-    catalystHyperMultiplier: 2,
+    catalystHyperMultiplier: 5,
     catalystHyperExpFactor: 1.149999976158142,
     spawnerCostMultiplier: 1,
     maxGateDist: 10,
