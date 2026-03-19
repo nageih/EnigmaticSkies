@@ -481,12 +481,22 @@
 		}
 		{
 			dependencies: ["53D3092CA777D3B5"]
+			icon: {
+				id: "oritech:enchantment_catalyst_block"
+			}
 			id: "25570E19FFABD951"
-			tasks: [{
-				id: "5A98F7B296C12039"
-				item: { count: 1, id: "oritech:enchantment_catalyst_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A98F7B296C12039"
+					item: { count: 1, id: "oritech:enchantment_catalyst_block" }
+					type: "item"
+				}
+				{
+					id: "7803D58AC4EDE904"
+					item: { count: 1, id: "oritech:enchanter_block" }
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.0d
 		}

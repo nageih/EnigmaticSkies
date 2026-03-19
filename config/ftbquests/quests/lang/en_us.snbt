@@ -1592,6 +1592,11 @@
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
 	]
+	quest.25570E19FFABD951.quest_desc: [
+		"The &7Arcane Catalyst&r and &7Stabilized Enchanter&r will allow you to over enchant your tools, weapons, and armor to truly absurd levels of power. "
+		""
+		"As &7Spirit&r requirements increase, it may be a good idea to push your Spirit Plunder enchants to ever greater heights."
+	]
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -2914,7 +2919,7 @@
 		"&a    your max health by one Heart each!"
 	]
 	quest.42A899B5E25F6124.quest_desc: [
-		"Channeling more powerful magics requires a more specialized focus. "
+		"Channeling the most powerful magics requires a highly specialized focus. "
 		""
 		"Upgrade your &7Spell Book&r with the materials you’ve discovered here and on other islands to unlock your true spell casting capabilities."
 		""
