@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2960228C632FA877"
+	autofocus_id: "5A5596ED63306534"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flashing"
@@ -54,18 +54,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["19F8B29D38CA31B8"]
-			id: "4A8A8EBE444FB3FE"
-			tasks: [{
-				id: "41CE825AC530DC01"
-				item: { count: 1, id: "aether:enchanted_gravitite" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["47A2DB9344C8CE26"]
@@ -134,8 +123,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -3.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["503873180200D878"]
@@ -145,8 +134,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -185,7 +174,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DE69E7B1359D76D"]
@@ -195,8 +184,8 @@
 				item: { count: 1, id: "enderio:ender_resonator" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["768869D763EC54EB"]
@@ -313,15 +302,22 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4A8A8EBE444FB3FE"]
+			dependencies: ["19F8B29D38CA31B8"]
 			id: "0B17FF64DFA4BA90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68C6C73DFE65FEC3"
+				table_id: 8288575923437311930L
+				type: "loot"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4188FBED09C9094B"
 				item: { components: { "cold_sweat:armor_insulation": { insulation: [ ] } }, count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4EA58751A74DABAA"]
@@ -389,8 +385,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -412,17 +408,6 @@
 			}]
 			x: 1.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["53D3092CA777D3B5"]
-			id: "75BD1F2EB47FB7CF"
-			tasks: [{
-				id: "0E481B6BCEB5CC82"
-				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["5A5596ED63306534"]
@@ -473,15 +458,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["521DE7879A4B6F03"]
+			dependencies: ["4E2D6D91B5DA19EE"]
 			id: "4B2189D7B0401D95"
 			tasks: [{
 				id: "662359DCA957FA7A"
 				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["454EB146FC67E3D5"]
@@ -493,6 +478,61 @@
 			}]
 			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["53D3092CA777D3B5"]
+			id: "25570E19FFABD951"
+			tasks: [{
+				id: "5A98F7B296C12039"
+				item: { count: 1, id: "oritech:enchantment_catalyst_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53D3092CA777D3B5"]
+			id: "697E0106FF4F5691"
+			tasks: [{
+				id: "032A91511FD36E78"
+				item: { count: 1, id: "enderio:sentient_ender" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["697E0106FF4F5691"]
+			id: "4E2D6D91B5DA19EE"
+			tasks: [{
+				id: "5A42176351AA6C25"
+				item: { count: 1, id: "enigmatica:tempestuous_mechanism" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E2D6D91B5DA19EE"]
+			id: "6DD8DD44D4B70AD4"
+			tasks: [{
+				id: "1C92E401834281E5"
+				item: { count: 1, id: "oritech:shrinker_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["274C351C4A8F794F"]
+			id: "42A899B5E25F6124"
+			tasks: [{
+				id: "56E318536F845638"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 }

@@ -397,6 +397,7 @@
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage"
 	quest.0B05FA716D7335D2.quest_desc: ["The &7Simple Dropper&r is an excellent tool to help automate recipes that involve in world transformations."]
+	quest.0B17FF64DFA4BA90.quest_desc: ["Looking for an easier way to get around? Consider crafting an Elytra to glide between islands in style!"]
 	quest.0B27453EDEC089EB.quest_desc: [
 		"The Pigment Extractor, Pigment Mixer, and Painting Machine all work in tandem to more efficiently produce dyes. "
 		""
@@ -957,7 +958,7 @@
 		""
 		"In this case, the &7Steam Kiln&r requires both Item and Fluid Hatches. At least one Fluid Input is required for &7Steam&r to power the device. Multiple hatches may be placed in order to accomodate different inputs."
 		""
-		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Kiln block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. &7Steam Kiln&r block) in &7EMI&r. Note that some of the blocks listed will be replaced by Hatches."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -1668,6 +1669,7 @@
 	]
 	quest.271AC925824B553E.title: "Industrialist"
 	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert &7Source&r into &7Liquefied Source&r!"]
+	quest.274C351C4A8F794F.quest_desc: ["Positively buzzing with arcane energy. "]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -1850,7 +1852,7 @@
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
 	quest.2AA352D00D86DCC3.quest_desc: [
-		"With an Aerial Interface, you gain remote access to your own inventory. "
+		"With an &7Aerial Interface&r, you gain remote access to your own inventory. "
 		""
 		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you or manage your XP. The sky's the limit!"
 	]
@@ -2642,6 +2644,11 @@
 		""
 		"You’ll want to spend some time figuring out a way to automate production. "
 	]
+	quest.3DE69E7B1359D76D.quest_desc: [
+		"This metal resonates with the endless possibilities of the void. "
+		""
+		"It feels lightweight but resists sudden changes in momentum as if it were incredibly dense or being dragged through a thick fluid…"
+	]
 	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
 	quest.3E7A4470BD04F2A1.quest_desc: [
 		"The &7Simple Sensor&r is an all purpose block and entity sensor that emits a signal according to its settings. "
@@ -2906,6 +2913,15 @@
 		"&a🛈 Tip: Eating Life Shards will increase "
 		"&a    your max health by one Heart each!"
 	]
+	quest.42A899B5E25F6124.quest_desc: [
+		"Channeling more powerful magics requires a more specialized focus. "
+		""
+		"Upgrade your &7Spell Book&r with the materials you’ve discovered here and on other islands to unlock your true spell casting capabilities."
+		""
+		"&a🛈 Tip: Spells and are retained when "
+		"&a    upgrading your Spell Book!"
+	]
+	quest.42A899B5E25F6124.title: "Tier 3 Spells"
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a &7Bat&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
@@ -3532,6 +3548,7 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
+	quest.4E2D6D91B5DA19EE.quest_desc: ["Deep intelligence and prescient capabilities allow these devices to handle the unpredictable power surges and chaotic arcane energies necessary for advanced technology. "]
 	quest.4EA58751A74DABAA.quest_desc: ["Capable of storing immense power, &7Vibrant Crystals&r will allow you to begin dealing with EV Tier power. "]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
@@ -3744,6 +3761,11 @@
 		"Here, that ability is extended to &7small flowers&r as well. "
 	]
 	quest.53CE92319716971B.title: "Small Flower Duplication"
+	quest.53D3092CA777D3B5.quest_desc: [
+		"Nearly perfect, this Resonator seems to be able to react to changing conditions well in advance. "
+		""
+		"This will be of use when dealing with highly unstable arcane flows. "
+	]
 	quest.540133B792547B21.quest_desc: [
 		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
 		""
@@ -4743,6 +4765,11 @@
 		"&a    moved, but must be placed on a "
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
+	]
+	quest.697E0106FF4F5691.quest_desc: [
+		"&7Ender Resonators&r, despite their prescience, still lack the higher-order thinking capabilities of a conscious mind. "
+		""
+		"Combining the two will permit working with the most unstable and powerful aspects of magic."
 	]
 	quest.699B01CFAEE29827.quest_desc: ["An excellent way to cool &7Plastic&r or simply make &7Ice&r. "]
 	quest.69D23BB3D7670DFC.quest_desc: [
