@@ -120,7 +120,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -188,7 +188,7 @@
 			dependencies: ["56DDD2327724F715"]
 			id: "289A1CE4C4092687"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "6010712C5739D872"
 				item: {
 					count: 1
@@ -208,12 +208,10 @@
 			dependencies: ["56DDD2327724F715"]
 			id: "52E79B2EB7400D13"
 			rewards: [{
-				id: "0B0F8B918E6D9E57"
-				item: {
-					count: 1
-					id: "ae2:wireless_crafting_terminal"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "70CD8E48E8CCB458"
+				table_id: 8778991440968696854L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "1E437E1BEE76E5FF"
@@ -227,12 +225,10 @@
 			dependencies: ["56DDD2327724F715"]
 			id: "6F8C048404EAF9FF"
 			rewards: [{
-				id: "3D37F2B98677931D"
-				item: {
-					count: 1
-					id: "ae2wtlib:wireless_pattern_encoding_terminal"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "73DB7307FA1DDB2F"
+				table_id: 8778991440968696854L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "70531464F6943384"
@@ -250,17 +246,17 @@
 			id: "631AA5AAA6EF687C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "40CBA01363F77E31"
-				table_id: 167859363417192230L
-				type: "loot"
+				id: "048B43CB0ABD308F"
+				table_id: 8778991440968696854L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "2EFD078D0F36514F"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -289,16 +285,16 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["631AA5AAA6EF687C"]
 			id: "579C07CD07599438"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "38AD4F7B909A13D8"
-				table_id: 167859363417192230L
-				type: "loot"
+				id: "229BD02B3EDA6343"
+				table_id: 8778991440968696854L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -322,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 8.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -361,8 +357,8 @@
 				item: { components: { "ae2:facade_item": "minecraft:stone_bricks" }, count: 1, id: "ae2:facade" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1BAEB780F38B1C56"]
@@ -463,17 +459,17 @@
 			id: "5E581FAC8D96FC22"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "57E86E67130E65D5"
-				table_id: 167859363417192230L
-				type: "loot"
+				id: "1E1B1C220F9A1113"
+				table_id: 8778991440968696854L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "5450C07B5E987458"
 				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: 0.0d
+			y: 6.5d
 		}
 	]
 }

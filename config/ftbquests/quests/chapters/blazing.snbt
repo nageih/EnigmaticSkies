@@ -555,5 +555,22 @@
 			x: 9.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["60DC19DA26E8CCA4"]
+			id: "75BD1F2EB47FB7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6889B01BF8612952"
+				table_id: 6329405731623321254L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E481B6BCEB5CC82"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
 	]
 }

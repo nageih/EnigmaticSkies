@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
                 C: 'pneumaticcraft:advanced_pressure_tube',
                 D: 'modern_industrialization:stainless_steel_machine_casing_pipe',
                 E: '#c:gears/dark_steel',
-                F: 'enigmatica:tempestuous_mechanism'
+                F: 'pneumaticcraft:reinforced_pressure_chamber_valve'
             },
             id: `${id_prefix}advanced_liquid_compressor`
         },

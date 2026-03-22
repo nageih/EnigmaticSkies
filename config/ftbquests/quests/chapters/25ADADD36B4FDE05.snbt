@@ -89,7 +89,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["76695BF2B0E70087"]
+			dependencies: [
+				"76695BF2B0E70087"
+				"1BDCA4CF5ED739BA"
+			]
 			icon: {
 				id: "justdirethings:gooblock_tier3"
 			}
@@ -119,38 +122,6 @@
 			]
 			x: 1.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["2961B707783AC925"]
-			icon: {
-				id: "justdirethings:gooblock_tier4"
-			}
-			id: "79951647661D4B52"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A8D2232A101A7BF"
-				table_id: 310519013727846436L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "7498CEE69D043229"
-					item: { count: 1, id: "justdirethings:gooblock_tier4" }
-					type: "item"
-				}
-				{
-					id: "0BD6BA8343A4B807"
-					item: { count: 1, id: "justdirethings:coal_t4" }
-					type: "item"
-				}
-				{
-					id: "5A6D823238F1A87E"
-					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["11EDFB60C787114D"]
@@ -242,8 +213,8 @@
 			id: "264783EF292A494B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "03ABB813D51C65EB"
-				table_id: 167859363417192230L
+				id: "78ED6AE455276907"
+				table_id: 5796131842680319111L
 				type: "loot"
 			}]
 			tasks: [{
@@ -444,6 +415,42 @@
 			}]
 			x: 2.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2961B707783AC925"
+				"537EDDC45D94BDE4"
+				"454EB146FC67E3D5"
+			]
+			icon: {
+				id: "justdirethings:gooblock_tier4"
+			}
+			id: "79951647661D4B52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8D2232A101A7BF"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7498CEE69D043229"
+					item: { count: 1, id: "justdirethings:gooblock_tier4" }
+					type: "item"
+				}
+				{
+					id: "0BD6BA8343A4B807"
+					item: { count: 1, id: "justdirethings:coal_t4" }
+					type: "item"
+				}
+				{
+					id: "5A6D823238F1A87E"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 }

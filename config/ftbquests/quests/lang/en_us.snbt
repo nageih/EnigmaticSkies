@@ -187,7 +187,7 @@
 		"At a signal of 15, it can no longer breed, meaning it's time to start culling."
 	]
 	quest.0545305EBB98A0BA.quest_desc: [
-		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
+		"The &7Advanced Swapper&r must be bound to another &7Advanced Swapper&r, in the same way as binding &7Simple Swappers&r. "
 		""
 		"This version requires energy to run but can operate in a larger area, making it more useful for farms. "
 		""
@@ -225,7 +225,7 @@
 		""
 		"This mod hosts a number of small utility blocks to make life simpler, doing such tasks as interacting with entities, farming crops, and more."
 		""
-		"This chapter will help get you familiar with the new crafting mechanics it uses, as well as describe some of the more notable blocks."
+		"This chapter will help get you familiar with the crafting mechanics it uses, as well as introduce some of the more notable blocks."
 		""
 		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
@@ -396,11 +396,8 @@
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage"
-	quest.0B05FA716D7335D2.quest_desc: [
-		"The mod includes several tiers of fluid fuels to complement its power generation. These are generally crafted by placing the fluid, dropping some item in, and then collecting the result. "
-		""
-		"The Simple Dropper is an excellent tool to help automate such recipes."
-	]
+	quest.0B05FA716D7335D2.quest_desc: ["The &7Simple Dropper&r is an excellent tool to help automate recipes that involve in world transformations."]
+	quest.0B17FF64DFA4BA90.quest_desc: ["Looking for an easier way to get around? Consider crafting an Elytra to glide between islands in style!"]
 	quest.0B27453EDEC089EB.quest_desc: [
 		"The Pigment Extractor, Pigment Mixer, and Painting Machine all work in tandem to more efficiently produce dyes. "
 		""
@@ -921,9 +918,9 @@
 		"For example, a few domes could be set up and either be allowed to intersect. Wherever they intersect, the two force fields simply don’t get created, leaving the space open."
 	]
 	quest.157A20804F9E8F83.quest_desc: [
-		"With all this in world crafting, an Item Collector will no doubt come in handy."
+		"With all this in world crafting, an &7Item Collector&r will no doubt come in handy."
 		""
-		"This Item Collector places its items into the inventory it is attached to and can be filtered in a variety of ways. "
+		"This &7Item Collector&r places its items into the inventory it is attached to and can be filtered in a variety of ways. "
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
@@ -961,7 +958,7 @@
 		""
 		"In this case, the &7Steam Kiln&r requires both Item and Fluid Hatches. At least one Fluid Input is required for &7Steam&r to power the device. Multiple hatches may be placed in order to accomodate different inputs."
 		""
-		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Steam Kiln block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. &7Steam Kiln&r block) in &7EMI&r. Note that some of the blocks listed will be replaced by Hatches."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -1413,9 +1410,7 @@
 	quest.20454EB2C6E93573.quest_desc: [
 		"The &7Player Accessor &rallows any form of logistics to interact with your inventory as if it were a chest. "
 		""
-		"This could be used to automatically stock building materials for a large project, or automatically extract cobble and other materials while out mining, among other things. "
-		""
-		"The possibilities are quite endless!"
+		"This could be used to automatically stock building materials for a large project, among other things. "
 	]
 	quest.205B821B10C6AC75.quest_desc: [
 		"The Coercion Deriver is used to convert FE or EU to Fortron, the energy used by Modular Forcefields. "
@@ -1597,6 +1592,11 @@
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
 	]
+	quest.25570E19FFABD951.quest_desc: [
+		"The &7Arcane Catalyst&r and &7Stabilized Enchanter&r will allow you to over enchant your tools, weapons, and armor to truly absurd levels of power. "
+		""
+		"As &7Spirit&r requirements increase, it may be a good idea to push your Spirit Plunder enchants to ever greater heights."
+	]
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -1635,7 +1635,7 @@
 	]
 	quest.26188F1C7EBA08B6.title: "Eldritch Spirit"
 	quest.264783EF292A494B.quest_desc: [
-		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
+		"The &7Simple Clicker&r can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
 	]
@@ -1674,6 +1674,7 @@
 	]
 	quest.271AC925824B553E.title: "Industrialist"
 	quest.2722D0A13CF02C73.quest_desc: ["A &7Source Condenser&r can be a handy way to convert &7Source&r into &7Liquefied Source&r!"]
+	quest.274C351C4A8F794F.quest_desc: ["Positively buzzing with arcane energy. "]
 	quest.27B747DE574CF261.quest_desc: [
 		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
 		"&n                                                  "
@@ -1731,15 +1732,16 @@
 		"&a    placed on Dense Cables."
 	]
 	quest.289DEC367A80D718.quest_desc: [
-		"These Advanced devices operate much like their Simple counterparts, but with some added features and at the cost of energy."
+		"These &7Advanced&r devices operate much like their &7Simple&r counterparts, but with some added features at the cost of energy."
 		""
 		"First, they operate in a much larger area which may be configured to your needs."
 		""
-		"They also have their own robust filtering systems built in, so they can do more on their own without needing to build out Sensors to control them."
+		"They also have their own robust filtering systems built in, so they can do more on their own without needing &7Sensors&r to control them."
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.289DEC367A80D718.title: "Advanced Placers and Collectors"
 	quest.28ACDB98DC2B9D41.quest_desc: [
 		"Our fuel can burn plenty hot, but with the extreme cold here it's still not enough to warm certain machines to suitable temperatures. "
 		""
@@ -1791,9 +1793,7 @@
 		"&a    suitable insulation items."
 	]
 	quest.2961B707783AC925.quest_desc: [
-		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
-		""
-		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Celestigems are transformed from Diamond Blocks."
+		"Once you're settled in with energy production, you should be quite comfortable upgrading your &7Goo&r to this tier."
 		""
 		"&a🛈 Tip: Higher tier Goos can do all of the lower tier’s recipes."
 		""
@@ -1857,7 +1857,7 @@
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
 	quest.2AA352D00D86DCC3.quest_desc: [
-		"With an Aerial Interface, you gain remote access to your own inventory. "
+		"With an &7Aerial Interface&r, you gain remote access to your own inventory. "
 		""
 		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you or manage your XP. The sky's the limit!"
 	]
@@ -2272,9 +2272,9 @@
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.37DF459B5B6E6221.quest_desc: [
-		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network at the cost of a small amount of air. "
+		"&7Logistics Frames&r allow you to transfer items and fluids over a Tube network. "
 		""
-		"These can be a great way to link up machines to run passively and keep stock of key items."
+		"Due to their highly customizable nature, these can be a great way to link up machines to run passively and keep stock of key items."
 		""
 		"For example, you might have multiple different tanks of fluids and a bunch of chests with items attached to a network using &7Storage Frames&r. Then at each machine, have &7Requester Frames&r pulling the exact items and fluids that machine needs for a given craft. "
 		""
@@ -2649,11 +2649,14 @@
 		""
 		"You’ll want to spend some time figuring out a way to automate production. "
 	]
+	quest.3DE69E7B1359D76D.quest_desc: [
+		"This metal resonates with the endless possibilities of the void. "
+		""
+		"It feels lightweight but resists sudden changes in momentum as if it were incredibly dense or being dragged through a thick fluid…"
+	]
 	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
 	quest.3E7A4470BD04F2A1.quest_desc: [
-		"The Simple Sensor is an all purpose block and entity sensor that emits a signal according to its settings. "
-		""
-		"This can be an excellent way to control a Simple Block Breaker, for example. "
+		"The &7Simple Sensor&r is an all purpose block and entity sensor that emits a signal according to its settings. "
 		""
 		"Drag an item or block from EMI to the filter slot in the middle. Right-Click blocks in the filter to configure states such as waterlogged."
 		""
@@ -2915,6 +2918,15 @@
 		"&a🛈 Tip: Eating Life Shards will increase "
 		"&a    your max health by one Heart each!"
 	]
+	quest.42A899B5E25F6124.quest_desc: [
+		"Channeling the most powerful magics requires a highly specialized focus. "
+		""
+		"Upgrade your &7Spell Book&r with the materials you’ve discovered here and on other islands to unlock your true spell casting capabilities."
+		""
+		"&a🛈 Tip: Spells and are retained when "
+		"&a    upgrading your Spell Book!"
+	]
+	quest.42A899B5E25F6124.title: "Tier 3 Spells"
 	quest.42F2191B5C08849B.quest_desc: [
 		"Summon a &7Bat&r at the Altar of Birthing and gather some &7Organic Matter&r from it."
 		""
@@ -2992,7 +3004,9 @@
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
-		"The Energy Transmitter can be used to power every block in a small area. Use the Render Area button to help align the work area to cover your machines."
+		"The &7Energy Transmitter&r can be used to power every block in a small area. "
+		""
+		"Use the Render Area button to help align the work area to cover your machines."
 	]
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
@@ -3539,6 +3553,7 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
+	quest.4E2D6D91B5DA19EE.quest_desc: ["Deep intelligence and prescient capabilities allow these devices to handle the unpredictable power surges and chaotic arcane energies necessary for advanced technology. "]
 	quest.4EA58751A74DABAA.quest_desc: ["Capable of storing immense power, &7Vibrant Crystals&r will allow you to begin dealing with EV Tier power. "]
 	quest.4EAB5A6CCD5CFEFB.quest_desc: [
 		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
@@ -3751,6 +3766,11 @@
 		"Here, that ability is extended to &7small flowers&r as well. "
 	]
 	quest.53CE92319716971B.title: "Small Flower Duplication"
+	quest.53D3092CA777D3B5.quest_desc: [
+		"Nearly perfect, this Resonator seems to be able to react to changing conditions well in advance. "
+		""
+		"This will be of use when dealing with highly unstable arcane flows. "
+	]
 	quest.540133B792547B21.quest_desc: [
 		"Make a &7Calcination Oven&r and place it atop a &7Pyromantic Brazier&r. "
 		""
@@ -3813,16 +3833,17 @@
 	quest.574555F24035E48A.quest_desc: [
 		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
 		""
-		"They cannot be filtered, but they can be controlled via redstone. "
+		"They cannot be filtered, but they can be controlled via Redstone, so they can be comined with a &7Sensor&r for more advanced logic. "
 		""
 		"They each have a single inventory slot which behaves slightly differently for each. "
 		""
-		"The Block Breaker will break using whatever item is in this slot as its tool, so it could be used to automatically Fortune ore, for example. "
+		"The &7Block Breaker&r will break using whatever item is in this slot as its tool. "
 		""
-		"The Block Placer only places the blocks in that inventory slot."
+		"The &7Block Placer&r only places the blocks in that inventory slot."
 		""
-		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
+		"Meanwhile the &7Fluid Collector&r and &7Placer&r blocks accept a tank in those slots to manually insert/extract fluids. Of course, fluids can also be piped in or out. "
 	]
+	quest.574555F24035E48A.title: "Simple Placers and Collectors"
 	quest.577337FFD6AD9C83.quest_desc: ["[ \"Check out the \", { \"text\": \"Replication Chapter\", \"color\":\"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13C15ACA23526F9E\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }, \" for information on using these machines to produce items. \" ]"]
 	quest.577337FFD6AD9C83.title: "Replication"
 	quest.579B2C5CB83022ED.quest_desc: [
@@ -4723,9 +4744,9 @@
 		""
 		"This can be a great way to get around your base, teleport long distances, move babies out of a farm, and more. "
 		""
-		"They must be set up in a linked pair and are bound to each other by using a Ferricore Wrench."
+		"They must be set up in a linked pair and are bound to each other by using a &7Ferricore Wrench&r."
 		""
-		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
+		"Simply place them both, then Right-Click one with the &7Wrench&r. Finish by Right-Clicking the other with the &7Wrench&r. "
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
 	quest.6968F7CB58754783.quest_desc: [
@@ -4749,6 +4770,11 @@
 		"&a    moved, but must be placed on a "
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
+	]
+	quest.697E0106FF4F5691.quest_desc: [
+		"&7Ender Resonators&r, despite their prescience, still lack the higher-order thinking capabilities of a conscious mind. "
+		""
+		"Combining the two will permit working with the most unstable and powerful aspects of magic."
 	]
 	quest.699B01CFAEE29827.quest_desc: ["An excellent way to cool &7Plastic&r or simply make &7Ice&r. "]
 	quest.69D23BB3D7670DFC.quest_desc: [
@@ -5212,7 +5238,7 @@
 		""
 		"Setting up a tree farm? Use a &7Celestigem Axe&r to teleport the logs to storage. "
 		""
-		"Farmland tilled with a &7Celestigem Hoe&r will self-harvest and teleport the drops to a bound storage as well. Handy!"
+		"Farmland tilled with a &7Celestigem Hoe&r will self-harvest and teleport the drops to a bound storage as well."
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
 	quest.717CCCD239144E0B.quest_desc: [
@@ -5306,7 +5332,7 @@
 	quest.73D70F80C3AE999C.quest_desc: [
 		"Who doesn’t love yeeting things through the air? "
 		""
-		"The Air Cannon is perfect for exactly that; launching items to either land in the world or be directly inserted into an inventory. "
+		"The &7Air Cannon&r is perfect for exactly that; launching items to either land in the world or be directly inserted into an inventory. "
 		""
 		"With the proper upgrades, they can also be used to launch nearby entities, or to act as a long-range Dispenser. "
 		""
@@ -5380,9 +5406,7 @@
 	]
 	quest.76467C03A27E54BD.title: "Machine Configuration"
 	quest.76695BF2B0E70087.quest_desc: [
-		"After a quick jaunt into the Nether, you’ll be able to upgrade your Goo to a Blazebloom Goo. "
-		""
-		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Blazegold Ingots are transformed from Gold Blocks."
+		"[ \"After a quick jaunt to the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true, \"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A799F91D9A1C8A1\" } }, \", you’ll be able to upgrade your \", {\"text\": \"Goo\", \"color\": \"gray\"}, \" to a \", {\"text\": \"Blazebloom Goo\", \"color\": \"gray\"}, \" \" ]"
 		""
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
@@ -5560,9 +5584,11 @@
 	quest.78B1BC9540590D17.quest_desc: [
 		"Need a place to store that hard earned experience? "
 		""
-		"Try the Experience Holder. "
+		"Try the &7Experience Holder&r. "
 		""
-		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. It makes an indispensable addition to any enchanting area. "
+		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. "
+		""
+		"It makes an indispensable addition to any enchanting area. "
 	]
 	quest.78E557B17D1EB84F.quest_desc: [
 		"The Altar uses &7Ambrosium&r as fuel to transmute items. "
@@ -5595,9 +5621,7 @@
 	]
 	quest.7992122E44D163DB.title: "Supercritical Phase Shifter"
 	quest.79951647661D4B52.quest_desc: [
-		"Brave the dark environs of the Ancient Cities, deep underground to obtain the materials required for this tier of Goo."
-		""
-		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Eclipse Alloy Ingots are transformed from Netherite Blocks."
+		"[ \"Face off against a \", {\"text\": \"Warden\", \"color\": \"gray\"}, \" at the \", { \"text\": \"Flashing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"300207E2557764E1\" } }, \" to obtain the necessary ingredients required for this tier of \", {\"text\": \"Goo\", \"color\": \"gray\"}, \".\" ]"
 		""
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
@@ -5831,6 +5855,7 @@
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.7306EFE33A5617BA.title: "Hats"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
+	reward_table.79D53E33D5224416.title: "Spare Parts: AE"
 	task.011E5EACB5A34253.title: "Rainbow and Void Chalks"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
 	task.01BD7546106B0EB9.title: "Magical Shards"

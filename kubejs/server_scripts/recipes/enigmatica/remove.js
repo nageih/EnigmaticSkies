@@ -208,6 +208,11 @@ ServerEvents.recipes((event) => {
         { id: 'ars_ocultas:gold_transmute' },
         { id: 'ars_ocultas:spirit_attuned_gem' },
 
+        { id: 'ars_zero:novice_spell_staff' },
+        { id: 'ars_zero:mage_spell_staff' },
+        { id: 'ars_zero:archmage_spell_staff' },
+        { id: 'ars_zero:multiphase_orb' },
+
         { id: 'starbunclemania:star_bucket' },
         { id: 'starbunclemania:star_miner' },
         { id: 'starbunclemania:star_build' },

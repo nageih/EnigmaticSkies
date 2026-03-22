@@ -44,15 +44,21 @@
             speedMultiplier: 0.5
         },
         pulverizerData: {
-            energyCapacity: 50000,
+            energyCapacity: 25000,
             maxEnergyInsertion: 256,
             maxEnergyExtraction: 0,
             energyPerTick: 32
+        },
+        refineryData: {
+            energyCapacity: 50000,
+            maxEnergyInsertion: 512,
+            maxEnergyExtraction: 0,
+            energyPerTick: 1024
         }
     },
     generators: {
         animationSpeedMultiplier: 10.0,
-        rfToSteamRation: 2.0,
+        steamId: 'oritech:still_steam',
         basicGeneratorData: {
             energyCapacity: 50000,
             maxEnergyInsertion: 0,
@@ -79,9 +85,12 @@
         },
         steamEngineData: {
             energyCapacity: 100000,
-            maxEnergyInsertion: 0,
-            maxEnergyExtraction: 10000,
-            energyPerTick: 1
+            maxEnergyExtraction: 50000,
+            rfToSteamRatio: 2.0,
+            steamToRfRatio: 1,
+            stopOnEnergyFull: false,
+            stopOnWaterFull: true,
+            steamBoilerCapacityBuckets: 8.0
         },
         solarGeneratorData: {
             energyCapacity: 100000,
@@ -122,6 +131,21 @@
         moveEnergyUsage: 8,
         workEnergyUsage: 64
     },
+    addonConfig: {
+        speedAddonSpeed: 0.5,
+        speedAddonEfficiency: 1.2000000476837158,
+        efficiencyAddonEfficiency: 0.800000011920929,
+        ultimateAddonSpeed: 0.25,
+        ultimateAddonEfficiency: 1.100000023841858,
+        chamberAddonEfficiency: 1.5,
+        burstAddonSpeedMultiplier: 8.0,
+        burstAddonThrottleMultiplier: 1.2000000476837158,
+        burstAddonTicks: 240,
+        addonShrinkerRF: 50000000
+    },
+    additiveAddons: true,
+    layeredExtenders: false,
+    blockBreakHardnessExponentialFactor: 0.5,
     smallEnergyStorage: {
         energyCapacity: 1000000,
         maxEnergyInsertion: 5000,
@@ -143,6 +167,11 @@
     fluidPipeInternalStorageBuckets: 2.0,
     energyPipeTransferRate: 10000,
     superConductorTransferRate: 2147483647,
+    poleConfig: {
+        energyCapacity: 1000000,
+        minRange: 50,
+        maxRange: 1000
+    },
     charger: {
         energyCapacity: 500000,
         maxEnergyInsertion: 10000,
@@ -151,33 +180,33 @@
     },
     basicJetpack: {
         energyCapacity: 100000,
-        fuelCapacity: 324000,
+        fuelCapacity: 4000,
         energyUsage: 128,
-        fuelUsage: 810,
+        fuelUsage: 10,
         chargeSpeed: 1024,
         speed: 0.4000000059604645
     },
     exoJetpack: {
         energyCapacity: 5000000,
-        fuelCapacity: 2592000,
+        fuelCapacity: 32000,
         energyUsage: 256,
-        fuelUsage: 1215,
+        fuelUsage: 15,
         chargeSpeed: 10000,
         speed: 1.5
     },
     elytraJetpack: {
         energyCapacity: 100000,
-        fuelCapacity: 324000,
+        fuelCapacity: 4000,
         energyUsage: 128,
-        fuelUsage: 810,
+        fuelUsage: 10,
         chargeSpeed: 1024,
         speed: 0.6000000238418579
     },
     exoElytraJetpack: {
         energyCapacity: 5000000,
-        fuelCapacity: 2592000,
+        fuelCapacity: 32000,
         energyUsage: 256,
-        fuelUsage: 1215,
+        fuelUsage: 15,
         chargeSpeed: 10000,
         speed: 1.399999976158142
     },
@@ -196,28 +225,47 @@
         energyUsage: 10,
         chargeSpeed: 512
     },
-    generateOres: true,
+    electricMace: {
+        energyCapacity: 500000,
+        energyUsage: 2048,
+        chargeSpeed: 50000,
+        baseDamage: 8,
+        lightningCostMultiplier: 8
+    },
+    portableLaserConfig: {
+        energyCapacity: 5000000,
+        energyPerTick: 4096,
+        energyPerBoom: 100000,
+        blockBreakSpeed: 0.125,
+        damageBase: 4,
+        explosionStrength: 6
+    },
+    chainsawTreeCutting: true,
+    generateOresFabricOnly: true,
     easyFindFeatures: true,
-    safeMode: true,
+    safeMode: false,
     safeModeCooldown: 2400,
     maxSize: 64,
     reactorMaxEnergyStored: 50000000,
-    reactorMaxEnergyOutput: 100000,
+    reactorMaxEnergyOutput: 25000,
     rfPerPulse: 64,
     absorberRate: 16,
     ventBaseRate: 4,
     ventRelativeRate: 100,
     maxHeat: 2000,
     maxUnstableTicks: 600,
+    boringNukes: false,
     enchanterCostMultiplier: 5,
     catalystBaseSouls: 50,
     catalystRFPerSoul: 20,
     catalystCostMultiplier: 2,
-    catalystHyperMultiplier: 7,
+    catalystHyperMultiplier: 5,
+    catalystHyperExpFactor: 1.149999976158142,
     spawnerCostMultiplier: 1,
     maxGateDist: 10,
-    bendFactor: 3,
+    bendFactor: 2.5,
     accelerationRFCost: 40,
+    acceleratorMotorRFCapacity: 5000000,
     endPortalRequiredSpeed: 10000,
     netherPortalRequiredSpeed: 5000,
     blackHoleRequiredSpeed: 15000,
@@ -227,8 +275,16 @@
     pullRange: 16,
     idleWaitTicks: 200,
     blackHoleTachyonEnergy: 50000,
+    unstableContainerBaseCapacity: 20000000,
+    augmenterMaxEnergy: 500000000,
     tightMachineAddonHitboxes: true,
     tightMachineFrameHitboxes: true,
     tightCableHitboxes: true,
-    machineVolumeMultiplier: 1.0
+    machineVolumeMultiplier: 1.0,
+    showMachinePreview: true,
+    enableHelpButton: true,
+    maxZiplineSpeed: 8.0,
+    ziplineAcceleration: 0.10000000149011612,
+    ziplineAutoJump: true,
+    ziplineCameraSwitch: true
 }
