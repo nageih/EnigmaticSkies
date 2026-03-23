@@ -995,7 +995,7 @@
 	quest.16C7D5478BF3D449.quest_desc: [
 		"The Learning Mods chapters are designed to help you discover useful aspects of major content mods. "
 		""
-		"They also provide tips on how to use different features of the mod."
+		"They also provide tips on how to use different features of those mods."
 		""
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
@@ -1142,6 +1142,7 @@
 	]
 	quest.1ACB8880980AF206.title: "Wit by Writ"
 	quest.1AE63FE6C7EF59AB.quest_desc: ["A &7Simple Clicker&r or &7Activator Module&r attacking mobs with a &7Soul Shattering Weapon&r can be an excellent way to automate &7Spirit&r collection. "]
+	quest.1AE63FE6C7EF59AB.title: "Clickity Clackity"
 	quest.1B0718B6BDA972F0.quest_desc: ["The final tier of Boiler fuel, &7Eclipse Ember Fuel&r represents the most efficient way to power your machines."]
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
