@@ -520,6 +520,7 @@
             "replication:raw_replica",
             "replication:raw_replica_block",
             "replication:deepslate_replica_ore",
+            "replication:identification_chamber",
 
             "supplementaries:faucet",
 
