@@ -16,6 +16,7 @@ ServerEvents.recipes((event) => {
         {
             output: 'ars_zero:multiphase_orb',
             inputs: [
+                'aether:enchanted_gravitite',
                 '#c:gems/prescient_crystal',
                 '#c:gems/prescient_crystal',
                 '#c:gems/prescient_crystal',
@@ -23,10 +24,24 @@ ServerEvents.recipes((event) => {
                 '#c:gems/time',
                 '#c:gems/overcharged_crystal',
                 'malum:fused_consciousness',
-                'apotheosis:mythic_material',
-                'aether:enchanted_gravitite'
+                'apotheosis:mythic_material'
             ],
             id: `${id_prefix}multiphase_orb`
+        },
+        {
+            output: 'ars_zero:spellcasting_circlet',
+            inputs: [
+                'ars_zero:dull_circlet',
+                '#c:gems/prescient_crystal',
+                '#c:gems/prescient_crystal',
+                '#c:gems/prescient_crystal',
+                '#c:gems/time',
+                '#c:gems/time',
+                '#c:gems/overcharged_crystal',
+                'malum:fused_consciousness',
+                'apotheosis:mythic_material'
+            ],
+            id: `${id_prefix}spellcasting_circlet`
         }
     ];
 

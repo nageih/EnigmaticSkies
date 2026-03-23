@@ -370,10 +370,16 @@ const villagerTrades = {
             ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
             level: 4
         },
+
         {
             result: { id: 'modern_industrialization:overdrive_module', count: 1 },
-            ingredients: [{ id: 'enigmatica:la_drygmese_poutine', count: { min: 1, max: 1 } }],
-            level: 4
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
+            level: 5
+        },
+        {
+            result: { id: 'replication:replicator_motor', count: 1 },
+            ingredients: [{ id: 'enigmatica:glazed_and_confused', count: { min: 1, max: 1 } }],
+            level: 5
         }
     ],
     // Forge Hammer

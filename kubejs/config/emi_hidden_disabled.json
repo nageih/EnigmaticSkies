@@ -323,6 +323,9 @@
             "extended_industrialization:steel_combine",
             "extended_industrialization:netherite_rotary_blade",
             "extended_industrialization:granite_dust",
+            "extended_industrialization:electric_chainsaw",
+            "extended_industrialization:electric_mining_drill",
+            "extended_industrialization:ultimate_laser_drill",
 
             "extended_industrialization:distilled_water_bucket",
             "extended_industrialization:npk_fertilizer_bucket",

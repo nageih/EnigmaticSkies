@@ -46,6 +46,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}diamond`
         },
         {
+            results: [{ id: 'minecraft:wither_skeleton_skull', count: 1 }],
+            ingredients: [{ item: 'minecraft:skeleton_skull' }, { item: 'minecraft:wither_rose' }],
+            time: 1000,
+            id: `${id_prefix}wither_skeleton_skull`
+        },
+        {
             results: [{ id: 'oritech:overcharged_crystal', count: 1 }],
             ingredients: [{ tag: 'c:gems/weather_crystal' }, { tag: 'c:gems/vibrant_crystal' }],
             time: 10000,
