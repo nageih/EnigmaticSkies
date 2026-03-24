@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'the_bumblezone:essence_continuity', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:sentient_ender' }],
+            ingredients: [{ tag: 'c:ingots/prometheum' }, { item: 'enderio:sentient_ender' }],
             time: 15000,
             id: `${id_prefix}essence_continuity`
         },
