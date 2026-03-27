@@ -25,7 +25,7 @@
 	chapter.7F9A789B53FAB216.title: "Getting Acclimated"
 	chapter_group.1C7CD605A8DD7732.title: "&bDiscovery"
 	chapter_group.440488E780593120.title: "&bLearning"
-	chapter_group.46AB9129BBE517B6.title: "&bSkies"
+	chapter_group.46AB9129BBE517B6.title: "&bEnigmatic Skies"
 	file.0000000000000001.title: "&n&6Enigmatic Skies&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.008F3C0FB9F4B451.quest_desc: ["[ \"\", { \"text\": \"Fire Essence\", \"color\":\"gray\"}, \" grants access to the fiery volcano on the \", { \"text\": \"Blazing Island\", \"color\":\"aqua\", \"underlined\": true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]}, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78626EE046E48EF3\" } }, \".\" ]"]
@@ -210,6 +210,8 @@
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
 	quest.05F232C12FA99F92.quest_desc: [
+		"Capable of withstanding greater temperatures, the &7Electric Kiln&r will allow you to make &7Steel&r as well as other useful materials. "
+		""
 		"&n                                                                          &r"
 		""
 		"Every Modern Industrialization multiblock requires input and output hatches commensurate with the recipes it handles. "
@@ -2002,7 +2004,7 @@
 		""
 		"Inspiration comes from many sources and while there are some portions of this pack that draw on European traditions, it would be fair to say that the pack wouldn’t exist were it not for inspiration drawn from the myths and sacred stories of the native peoples of North America. "
 		""
-		"If you’re interested in learning more, please check out the links below."
+		"If you’re interested in learning more, please explore the following links:"
 		""
 		"&6&nNations&r"
 		""
@@ -2435,6 +2437,13 @@
 		"&n                                                 &r"
 		""
 		"To target a block, Sneak + Right-Click it with the &7Target Designator&r, then Sneak + Right-Click the &7Laser&r. "
+	]
+	quest.3BBFA042D4C4EA4E.quest_desc: [
+		"&7Processing Arrays&r allow you to turn any single block Modern Industrialization machine into a batch processing multi-block powerhouse. "
+		""
+		"Simply build the structure, then insert one or more of the single block machines in the GUI. The exact number of machines you can insert will depend on the size of the &7Processing Array&r from 8 to 64. "
+		""
+		"Finally, to process recipes, ensure you have the appropriate hatches installed in the &7Array&r and supply the materials."
 	]
 	quest.3BCD9E36D48B205A.quest_desc: [
 		"Piece together an &7LV Steam Turbine&r to begin producing electric power. "
@@ -3967,6 +3976,15 @@
 	]
 	quest.59F0519A7ED69E19.title: "Crude Oil"
 	quest.5A5596ED63306534.quest_desc: ["It seems to flicker to a breeze that isn't there. "]
+	quest.5A5706DE9011B222.quest_desc: [
+		"With a &7Tesla Tower&r, you’ll be able to transmit power wirelessly in a large radius. "
+		""
+		"The exact radius and transmission rate is determined by the &7Coils&r used in the structure, while the &7Energy Hatch&r determines the power tier."
+		""
+		"&a🛈 Tip: A Tesla Receiver Hatch can "
+		"&a    power a multiblock directly without"
+		"&a    extra wires!"
+	]
 	quest.5A74D7EFD6AD1EAC.quest_desc: [
 		"Slaughtering mobs with a &7Soul Shattering Weapon&r will cause Spirit Aspects to drop These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
 		""
@@ -5044,19 +5062,28 @@
 		"&7Conjure Aerogel&r"
 		"    &5Touch&r > &aConjure Terrain&r > &6Amplify&r > &6Amplify&r"
 	]
+	quest.6DD8DD44D4B70AD4.quest_desc: [
+		"With an &7Addon Splicer&r, it’s possible to compact a set of Addons into a single block, allowing you to make more compact setups for your Oritech machines. "
+		""
+		"Once the structure is built, attach addons to it like you would any other machine. Then either click the &7Compact!&r button in the GUI or supply a Redstone signal to the front of the machine to produce a &7Heart of the Machine&r. "
+		""
+		"This new compact addon will have provide the same benefits as the addons used to craft it and must be attached directly to an Oritech machine; it cannot be extended in any way, nor combined with other addons. "
+	]
 	quest.6DE4258F18A7A321.quest_desc: [
-		"Welcome to &6Enigmatica 10: Enigmatic Skies&r! We hope you enjoy your time here! :D"
+		"Welcome to &6Enigmatic Skies&r! We hope you enjoy your time here! :D"
 		""
 		"It's dangerous to go alone. Take these to get you started!"
 		""
 		"If you lose your &7Morphing Tool&r or &7Eccentric Tome&r, worry not; a newly crafted one will come pre-filled. "
 		"&n                                                  &r"
 		""
-		"Quests are divided into two types:"
+		"Quests are divided into three sections:"
 		""
-		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
+		"[ {\"text\":\"                \"}, { \"text\": \"Enigmatic Skies\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A8B7FD4A52663D3\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }]"
 		""
-		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
+		"[ {\"text\":\"           \"}, { \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }]"
+		""
+		"[ {\"text\":\"                \"}, { \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }]"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
 	quest.6E4554D07901967C.quest_desc: [
@@ -5915,7 +5942,7 @@
 	task.20B6CC540E82D042.title: "Pedestals"
 	task.210DF794EE1D714A.title: "Observation: &2Wixie's Stonecutter&r"
 	task.213012F4279A21AF.title: "Chemical Tanks"
-	task.2249B1CA280D4531.title: "Skies"
+	task.2249B1CA280D4531.title: "Enigmatica Skies"
 	task.225508B5F690C310.title: "Fluid Input Hatch"
 	task.23CDBB8A570B6689.title: "Blocks Obtained from Sludge"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"

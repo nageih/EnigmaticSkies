@@ -65,6 +65,15 @@
 				id: "malum:cursed_sapball"
 			}
 			id: "69EE67B1B612D74D"
+			rewards: [{
+				count: 16
+				id: "13B7FF5599495E45"
+				item: {
+					count: 1
+					id: "malum:cursed_sapball"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5D54ECB6FDA335B7"
@@ -759,6 +768,12 @@
 		{
 			dependencies: ["43580B4D15FCEF00"]
 			id: "1E514F5A18364625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B4C7053632C78B4"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2539C8B2AD58F8EF"
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
@@ -773,6 +788,12 @@
 				id: "ars_nouveau:whirlisprig_shards"
 			}
 			id: "43580B4D15FCEF00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5129ED7C6A1FB120"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "684B205D28CC5FB4"
@@ -883,6 +904,14 @@
 				id: "replication:replicator"
 			}
 			id: "577337FFD6AD9C83"
+			rewards: [{
+				id: "4B21B171719E54D4"
+				item: {
+					count: 1
+					id: "replication:memory_chip"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2FEE70AF4745A202"
@@ -892,11 +921,6 @@
 				{
 					id: "5669618BC505ACBE"
 					item: { count: 1, id: "replication:replicator" }
-					type: "item"
-				}
-				{
-					id: "0ADDA12DBBB2F3D0"
-					item: { count: 1, id: "replication:memory_chip" }
 					type: "item"
 				}
 				{
@@ -1036,6 +1060,12 @@
 				id: "ars_nouveau:drygmy_shard"
 			}
 			id: "76EC73B59502E2A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FC693E8653C510A"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "685C6BD5530D888E"
@@ -1055,6 +1085,12 @@
 		{
 			dependencies: ["76EC73B59502E2A5"]
 			id: "7234B1B299DE122D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A864EBDB88E3A7C"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6520190EF2022C75"
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }

@@ -250,6 +250,12 @@
 		{
 			dependencies: ["28E44D5D6A6C1D6E"]
 			id: "687E532AD956C57A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B10AF816E82261"
+				table_id: 114147276722496464L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "224F78F27E875358"
 				item: { count: 1, id: "enderio:alloy_smelter" }
@@ -265,6 +271,23 @@
 			}
 			id: "05F232C12FA99F92"
 			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "544D9AC6529BBD46"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "0B966C120BE2A27A"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "59E75142C9BB8CD0"
@@ -301,6 +324,15 @@
 				id: "justdirethings:coal_t2"
 			}
 			id: "3C905ECF6E0A543E"
+			rewards: [{
+				count: 16
+				id: "35007CB923BF501E"
+				item: {
+					count: 1
+					id: "justdirethings:coal_t2"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "766E886CD8CD4FD7"
@@ -471,7 +503,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 9.0d
 			y: 3.5d
 		}
 		{
@@ -522,6 +554,15 @@
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
 			id: "3BBFA042D4C4EA4E"
+			rewards: [{
+				count: 4
+				id: "0E8DDDDB7C9C4C3A"
+				item: {
+					count: 1
+					id: "modern_industrialization:centrifuge"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C73F828F5C8A7C9"
 				item: { count: 1, id: "extended_industrialization:processing_array" }
@@ -533,6 +574,14 @@
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
 			id: "5A5706DE9011B222"
+			rewards: [{
+				id: "7C647FD9BD2AB911"
+				item: {
+					count: 1
+					id: "extended_industrialization:tesla_receiver"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AA5F6775182A086"
 				item: { count: 1, id: "extended_industrialization:tesla_tower" }
@@ -540,20 +589,6 @@
 			}]
 			x: 8.5d
 			y: 2.5d
-		}
-		{
-			dependencies: [
-				"398AE848C969FCEF"
-				"3B77FB0A8CFAAB97"
-			]
-			id: "79FCD077A4BAF530"
-			tasks: [{
-				id: "19E0A6B6C2DCBF75"
-				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["60DC19DA26E8CCA4"]
@@ -569,8 +604,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 8.5d
+			y: 4.5d
 		}
 	]
 }

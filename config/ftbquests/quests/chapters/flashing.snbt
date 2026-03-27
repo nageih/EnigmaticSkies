@@ -127,17 +127,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["503873180200D878"]
-			id: "2960228C632FA877"
-			tasks: [{
-				id: "4D3630CAE3AEF84C"
-				item: { count: 1, id: "minecraft:echo_shard" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
 			dependencies: [
 				"6728201CEC8220A3"
 				"454EB146FC67E3D5"
@@ -146,6 +135,12 @@
 				id: "malum:wind_nucleus"
 			}
 			id: "0C32904CD01E4743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EA4C8DF0B6F13C2"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7CDECC90B2C887E8"
@@ -168,6 +163,12 @@
 				"5A5596ED63306534"
 			]
 			id: "3DE69E7B1359D76D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "442D260B97F69F65"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2DEA097945501D0C"
 				item: { count: 1, id: "enderio:end_steel_ingot" }
@@ -179,6 +180,12 @@
 		{
 			dependencies: ["3DE69E7B1359D76D"]
 			id: "53D3092CA777D3B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17B6808B732CA26D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2F50E74D6D74CC5F"
 				item: { count: 1, id: "enderio:ender_resonator" }
@@ -282,6 +289,12 @@
 		{
 			dependencies: ["4EA58751A74DABAA"]
 			id: "274C351C4A8F794F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5130924CC8041C3C"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4A9AB408F75FC6AD"
 				item: { count: 1, id: "oritech:overcharged_crystal" }
@@ -293,6 +306,12 @@
 		{
 			dependencies: ["4D8B278BDF762813"]
 			id: "5A5596ED63306534"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0399E2D9072D725A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "58500629D1A5AB5E"
 				item: { count: 1, id: "malum:paracausal_flame" }
@@ -350,7 +369,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2960228C632FA877"]
+			dependencies: ["503873180200D878"]
 			icon: {
 				id: "industrialforegoingsouls:soul_laser_base"
 			}
@@ -385,8 +404,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: -1.5d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -412,6 +431,12 @@
 		{
 			dependencies: ["5A5596ED63306534"]
 			id: "4EA58751A74DABAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "162A7BB5C143A044"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "30E4EA5D9DB99AFD"
 				item: { count: 1, id: "enderio:vibrant_crystal" }
@@ -458,19 +483,14 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4E2D6D91B5DA19EE"]
-			id: "4B2189D7B0401D95"
-			tasks: [{
-				id: "662359DCA957FA7A"
-				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
 			dependencies: ["454EB146FC67E3D5"]
 			id: "4D8B278BDF762813"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "265D005A1D5CE8A9"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "09AA2425AE91081B"
 				item: { count: 1, id: "oritech:enderic_compound" }
@@ -485,6 +505,12 @@
 				id: "oritech:enchantment_catalyst_block"
 			}
 			id: "25570E19FFABD951"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F704FF62BCC9EAD"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "5A98F7B296C12039"
@@ -503,6 +529,12 @@
 		{
 			dependencies: ["53D3092CA777D3B5"]
 			id: "697E0106FF4F5691"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1910B717298A006A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "032A91511FD36E78"
 				item: { count: 1, id: "enderio:sentient_ender" }
@@ -525,6 +557,12 @@
 		{
 			dependencies: ["4E2D6D91B5DA19EE"]
 			id: "6DD8DD44D4B70AD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4310BB6FB84EBB8C"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1C92E401834281E5"
 				item: { count: 1, id: "oritech:shrinker_block" }
