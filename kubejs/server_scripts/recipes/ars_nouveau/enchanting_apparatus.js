@@ -688,6 +688,21 @@ ServerEvents.recipes((event) => {
             keepNbtOfReagent: true,
             sourceCost: 10000,
             id: `${id_prefix}nano_gravichestplate`
+        },
+        {
+            result: { id: 'enigmatica:world_seed', count: 1 },
+            reagent: { item: 'minecraft:enchanted_golden_apple' },
+            pedestalItems: [
+                { tag: 'c:essences/rebirth' },
+                { tag: 'c:essences/rebirth' },
+                { tag: 'c:essences/knowledge' },
+                { tag: 'c:essences/knowledge' },
+                { tag: 'c:essences/knowledge' },
+                { tag: 'c:essences/rebirth' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 10000,
+            id: `${id_prefix}world_seed`
         }
     ];
 
