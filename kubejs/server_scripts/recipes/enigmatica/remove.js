@@ -212,6 +212,7 @@ ServerEvents.recipes((event) => {
         { id: 'ars_zero:mage_spell_staff' },
         { id: 'ars_zero:archmage_spell_staff' },
         { id: 'ars_zero:multiphase_orb' },
+        { id: 'ars_zero:spellcasting_circlet' },
 
         { id: 'starbunclemania:star_bucket' },
         { id: 'starbunclemania:star_miner' },
@@ -884,6 +885,9 @@ ServerEvents.recipes((event) => {
         { output: 'extended_industrialization:silk_touch_module' },
         { output: 'extended_industrialization:processing_array' },
         { output: 'extended_industrialization:machine_chainer_relay' },
+        { output: 'extended_industrialization:electric_chainsaw' },
+        { output: 'extended_industrialization:electric_mining_drill' },
+        { output: 'extended_industrialization:ultimate_laser_drill' },
         { input: 'extended_industrialization:granite_dust' },
         { id: /extended_industrialization:canning_machine\/(emptying|filling)\/minecraft\/water_bottle/ },
         { id: 'extended_industrialization:composter/fertilizer/composted_manure' },

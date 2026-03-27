@@ -19,7 +19,7 @@ OritechEvents.particleCollided((event) => {
     }
 
     // World Seed Handling
-    if (String(recipeId).includes('essence_knowing')) {
+    if (String(recipeId).includes('essence_knowing') || String(recipeId).includes('essence_continuity')) {
         let dayTime = level.getDayTime();
         let day = Math.floor(dayTime / 24000);
         let time = dayTime % 24000;
@@ -28,6 +28,7 @@ OritechEvents.particleCollided((event) => {
         let nextNewMoon = moonPhase < 5 ? 5 - moonPhase : 13 - moonPhase;
         let nextFullMoon = moonPhase == 1 ? moonPhase : 9 - moonPhase;
         let commands = [];
+
         // Pause Time
         commands.push({ parameters: `${execute} gamerule doDaylightCycle false`, delay: 1 });
         // Set to Midnight of the next full moon
@@ -46,14 +47,14 @@ OritechEvents.particleCollided((event) => {
             });
         });
 
-        let radius = 1000;
-        server.scheduleInTicks(1, () => {
-            // console.log(`Summoning Noodle: ${collisionPos}`);
-            // summonDangerNoodle(event, collisionPos, radius);
-        });
+        // let radius = 1000;
+        // server.scheduleInTicks(1, () => {
+        // console.log(`Summoning Noodle: ${collisionPos}`);
+        // summonDangerNoodle(event, collisionPos, radius);
+        // });
 
-        server.scheduleInTicks(35 * 20, () => {
-            // forceUnclaim(server, level, pos, radius);
-        });
+        // server.scheduleInTicks(35 * 20, () => {
+        // forceUnclaim(server, level, pos, radius);
+        // });
     }
 });

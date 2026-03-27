@@ -275,7 +275,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:silk_touch\":1.0,\"apothic_enchanting:natures_blessing\":1.0}}}"
 			},
-			"id": "minecraft:farmer_tier_1_selling_aether:holystone_hoe"
+			"id": "minecraft:farmer_tier_1_selling_enchanted_holystone_hoe"
 		},
 		{
 			"left": [
@@ -1565,7 +1565,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":1.0,\"minecraft:sharpness\":1.0}}}"
 			},
-			"id": "minecraft:butcher_tier_5_selling_occultism:butcher_knife"
+			"id": "minecraft:butcher_tier_5_selling_enchanted_butcher_knife"
 		},
 		{
 			"left": [
@@ -1732,7 +1732,7 @@
 			"left": [
 				{
 					"type": "item",
-					"id": "enigmatica:la_drygmese_poutine",
+					"id": "enigmatica:glazed_and_confused",
 					"count": 1
 				}
 			],
@@ -1740,7 +1740,7 @@
 				{
 					"type": "item",
 					"id": "actuallyadditions:coffee_machine",
-					"nbt": "{\"minecraft:lore\":['[{\"color\":\"green\",\"text\":\"Trade with \"},{\"color\":\"green\",\"translate\":\"merchant.level.4\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"green\",\"translate\":\"entity.minecraft.villager.actuallyadditions.engineer\"},{\"color\":\"green\",\"text\":\" Villagers!\"}]']}",
+					"nbt": "{\"minecraft:lore\":['[{\"color\":\"green\",\"text\":\"Trade with \"},{\"color\":\"green\",\"translate\":\"merchant.level.5\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"green\",\"translate\":\"entity.minecraft.villager.actuallyadditions.engineer\"},{\"color\":\"green\",\"text\":\" Villagers!\"}]']}",
 					"amount": 1
 				}
 			],
@@ -1749,7 +1749,30 @@
 				"id": "modern_industrialization:overdrive_module",
 				"amount": 1
 			},
-			"id": "actuallyadditions:engineer_tier_4_selling_modern_industrialization:overdrive_module"
+			"id": "actuallyadditions:engineer_tier_5_selling_modern_industrialization:overdrive_module"
+		},
+		{
+			"left": [
+				{
+					"type": "item",
+					"id": "enigmatica:glazed_and_confused",
+					"count": 1
+				}
+			],
+			"right": [
+				{
+					"type": "item",
+					"id": "actuallyadditions:coffee_machine",
+					"nbt": "{\"minecraft:lore\":['[{\"color\":\"green\",\"text\":\"Trade with \"},{\"color\":\"green\",\"translate\":\"merchant.level.5\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"green\",\"translate\":\"entity.minecraft.villager.actuallyadditions.engineer\"},{\"color\":\"green\",\"text\":\" Villagers!\"}]']}",
+					"amount": 1
+				}
+			],
+			"output": {
+				"type": "item",
+				"id": "replication:replicator_motor",
+				"amount": 1
+			},
+			"id": "actuallyadditions:engineer_tier_5_selling_replication:replicator_motor"
 		},
 		{
 			"left": [
@@ -2026,7 +2049,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:flying\"}}"
 			},
-			"id": "minecraft:cleric_tier_3_selling_minecraft:potion"
+			"id": "minecraft:cleric_tier_3_selling_potion_flying"
 		},
 		{
 			"left": [
@@ -2050,7 +2073,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:knowledge\"}}"
 			},
-			"id": "minecraft:cleric_tier_3_selling_minecraft:potion"
+			"id": "minecraft:cleric_tier_3_selling_potion_knowledge"
 		},
 		{
 			"left": [
@@ -2396,7 +2419,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:scavenger\":1.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_1_selling_aether:candy_cane_sword"
+			"id": "minecraft:weaponsmith_tier_1_selling_enchanted_candy_cane_sword"
 		},
 		{
 			"left": [
@@ -2420,7 +2443,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":2.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_2_selling_aether:zanite_sword"
+			"id": "minecraft:weaponsmith_tier_2_selling_enchanted_zanite_sword"
 		},
 		{
 			"left": [
@@ -2444,7 +2467,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:looting\":2.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_2_selling_aether:zanite_axe"
+			"id": "minecraft:weaponsmith_tier_2_selling_enchanted_zanite_axe"
 		},
 		{
 			"left": [
@@ -2468,7 +2491,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:mending\":1.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_3_selling_aether:vampire_blade"
+			"id": "minecraft:weaponsmith_tier_3_selling_enchanted_vampire_blade"
 		},
 		{
 			"left": [
@@ -2492,7 +2515,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:sweeping_edge\":1.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_3_selling_aether:flaming_sword"
+			"id": "minecraft:weaponsmith_tier_3_selling_enchanted_flaming_sword"
 		},
 		{
 			"left": [
@@ -2516,7 +2539,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"malum:spirit_plunder\":3.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_4_selling_malum:crude_scythe"
+			"id": "minecraft:weaponsmith_tier_4_selling_enchanted_crude_scythe"
 		},
 		{
 			"left": [
@@ -2540,7 +2563,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:bane_of_arthropods\":5.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_4_selling_farmersdelight:skillet"
+			"id": "minecraft:weaponsmith_tier_4_selling_enchanted_skillet"
 		},
 		{
 			"left": [
@@ -2562,9 +2585,9 @@
 				"type": "item",
 				"id": "aether:holy_sword",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"minecraft:smite\":3.0,\"ars_elemental:soulbound\":1.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_elemental:soulbound\":1.0,\"minecraft:smite\":3.0,\"apothic_enchanting:knowledge_of_the_ages\":1.0,\"minecraft:unbreaking\":2.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_5_selling_aether:holy_sword"
+			"id": "minecraft:weaponsmith_tier_5_selling_enchanted_holy_sword"
 		},
 		{
 			"left": [
@@ -2586,9 +2609,9 @@
 				"type": "item",
 				"id": "aether:valkyrie_lance",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:unbreaking\":2.0,\"ars_elemental:soulbound\":1.0,\"minecraft:sharpness\":3.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"ars_elemental:soulbound\":1.0,\"minecraft:sharpness\":3.0,\"minecraft:unbreaking\":2.0}}}"
 			},
-			"id": "minecraft:weaponsmith_tier_5_selling_aether:valkyrie_lance"
+			"id": "minecraft:weaponsmith_tier_5_selling_enchanted_valkyrie_lance"
 		},
 		{
 			"left": [
@@ -3095,7 +3118,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:logic_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "ae2:fluix_researcher_tier_2_selling_replication:matter_blueprint"
+			"id": "ae2:fluix_researcher_tier_2_selling_matter_blueprint_logic_processor"
 		},
 		{
 			"left": [
@@ -3119,7 +3142,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:engineering_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "ae2:fluix_researcher_tier_2_selling_replication:matter_blueprint"
+			"id": "ae2:fluix_researcher_tier_2_selling_matter_blueprint_engineering_processor"
 		},
 		{
 			"left": [
@@ -3143,7 +3166,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"ae2:calculation_processor\"},\"Progress\":1.0}}"
 			},
-			"id": "ae2:fluix_researcher_tier_3_selling_replication:matter_blueprint"
+			"id": "ae2:fluix_researcher_tier_3_selling_matter_blueprint_calculation_processor"
 		},
 		{
 			"left": [
@@ -3167,7 +3190,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"modern_industrialization:quantum_circuit\"},\"Progress\":1.0}}"
 			},
-			"id": "ae2:fluix_researcher_tier_3_selling_replication:matter_blueprint"
+			"id": "ae2:fluix_researcher_tier_3_selling_matter_blueprint_quantum_circuit"
 		},
 		{
 			"left": [
@@ -3260,7 +3283,7 @@
 				"amount": 1,
 				"nbt": "{\"replication:blueprint\":{\"Item\":{\"count\":1.0,\"id\":\"enigmatica:elemental_matrix\"},\"Progress\":1.0}}"
 			},
-			"id": "ae2:fluix_researcher_tier_5_selling_replication:matter_blueprint"
+			"id": "ae2:fluix_researcher_tier_5_selling_matter_blueprint_elemental_matrix"
 		},
 		{
 			"left": [
@@ -3489,9 +3512,9 @@
 				"type": "item",
 				"id": "minecraft:leather_helmet",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:aqua_affinity\":1.0,\"minecraft:mending\":1.0,\"minecraft:protection\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:protection\":1.0,\"minecraft:mending\":1.0,\"minecraft:aqua_affinity\":1.0}}}"
 			},
-			"id": "minecraft:leatherworker_tier_1_selling_minecraft:leather_helmet"
+			"id": "minecraft:leatherworker_tier_1_selling_enchanted_leather_helmet"
 		},
 		{
 			"left": [
@@ -3536,9 +3559,9 @@
 				"type": "item",
 				"id": "minecraft:leather_chestplate",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:projectile_protection\":1.0,\"minecraft:unbreaking\":1.0,\"ars_nouveau:mana_regen\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:projectile_protection\":1.0,\"ars_nouveau:mana_regen\":1.0,\"minecraft:unbreaking\":1.0}}}"
 			},
-			"id": "minecraft:leatherworker_tier_2_selling_minecraft:leather_chestplate"
+			"id": "minecraft:leatherworker_tier_2_selling_enchanted_leather_chestplate"
 		},
 		{
 			"left": [
@@ -3583,9 +3606,9 @@
 				"type": "item",
 				"id": "minecraft:leather_leggings",
 				"amount": 1,
-				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:swift_sneak\":1.0,\"ars_nouveau:mana_boost\":1.0,\"minecraft:blast_protection\":1.0}}}"
+				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"minecraft:blast_protection\":1.0,\"minecraft:swift_sneak\":1.0,\"ars_nouveau:mana_boost\":1.0}}}"
 			},
-			"id": "minecraft:leatherworker_tier_3_selling_minecraft:leather_leggings"
+			"id": "minecraft:leatherworker_tier_3_selling_enchanted_leather_leggings"
 		},
 		{
 			"left": [
@@ -3632,7 +3655,7 @@
 				"amount": 1,
 				"nbt": "{\"minecraft:enchantments\":{\"levels\":{\"apothic_enchanting:stable_footing\":1.0,\"minecraft:fire_protection\":1.0,\"minecraft:feather_falling\":1.0}}}"
 			},
-			"id": "minecraft:leatherworker_tier_4_selling_minecraft:leather_boots"
+			"id": "minecraft:leatherworker_tier_4_selling_enchanted_leather_boots"
 		},
 		{
 			"left": [

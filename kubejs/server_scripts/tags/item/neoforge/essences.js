@@ -4,7 +4,7 @@ ServerEvents.tags('item', (event) => {
         fire: ['ars_nouveau:fire_essence'],
         earth: ['ars_nouveau:earth_essence'],
         water: ['ars_nouveau:water_essence'],
-        anima: ['ars_elemental:anima_essence'],
+        anima: ['sauce:anima_essence'],
         abjuration: ['ars_nouveau:abjuration_essence'],
         conjuration: ['ars_nouveau:conjuration_essence'],
         manipulation: ['ars_nouveau:manipulation_essence'],

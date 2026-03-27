@@ -120,6 +120,34 @@
 			dependencies: ["323D480E3C37579E"]
 			id: "3D6441ECF951BAD4"
 			min_width: 250
+			rewards: [
+				{
+					id: "3B1C392110EE681B"
+					item: {
+						components: {
+							"titanium:augments": {
+								Speed: 2.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:speed_addon_tier_1"
+					}
+					type: "item"
+				}
+				{
+					id: "26FFD4CD0F8A986C"
+					item: {
+						components: {
+							"titanium:augments": {
+								Efficiency: 0.9f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:efficiency_addon_tier_1"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "451F410B76188D68"
 				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
@@ -620,6 +648,20 @@
 		{
 			dependencies: ["2BB91161DB6B6AF5"]
 			id: "04AE4EA4C7CFB080"
+			rewards: [{
+				id: "0D7AAC8620B40AC1"
+				item: {
+					components: {
+						"pneumaticcraft:main_tank": {
+							amount: 16000
+							id: "justdirethings:refined_t3_fluid_source"
+						}
+					}
+					count: 1
+					id: "pneumaticcraft:small_tank"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3B2223F74349886E"

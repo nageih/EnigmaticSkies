@@ -46,6 +46,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}diamond`
         },
         {
+            results: [{ id: 'minecraft:wither_skeleton_skull', count: 1 }],
+            ingredients: [{ item: 'minecraft:skeleton_skull' }, { item: 'minecraft:wither_rose' }],
+            time: 1000,
+            id: `${id_prefix}wither_skeleton_skull`
+        },
+        {
             results: [{ id: 'oritech:overcharged_crystal', count: 1 }],
             ingredients: [{ tag: 'c:gems/weather_crystal' }, { tag: 'c:gems/vibrant_crystal' }],
             time: 10000,
@@ -114,7 +120,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'the_bumblezone:essence_continuity', count: 1 }],
-            ingredients: [{ item: 'enigmatica:luminiferous_aether_bottle' }, { item: 'enderio:sentient_ender' }],
+            ingredients: [{ tag: 'c:ingots/prometheum' }, { item: 'enderio:sentient_ender' }],
             time: 15000,
             id: `${id_prefix}essence_continuity`
         },

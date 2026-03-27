@@ -150,6 +150,7 @@
 		}
 		{
 			dependencies: ["414458433C4734C6"]
+			hide_text_until_complete: true
 			id: "304838EDEC32DE97"
 			shape: "heart"
 			tasks: [{
