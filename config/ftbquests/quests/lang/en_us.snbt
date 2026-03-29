@@ -504,7 +504,7 @@
 		""
 		"To configure Armor abilities and bind them to keybinds for use, you’ll need to be holding a Just Dire Things tool while also wearing the armor. "
 		""
-		"Sneak Right-Click the tool to open the its menu, then click the armor piece shown in the armor slots menu. "
+		"Sneak Right-Click the tool to open its menu, then click the armor piece shown in the armor slots menu. "
 		""
 		"The following pages will cover what each ability does. "
 		""
@@ -723,7 +723,7 @@
 		""
 		"Insert the provided &7Tiny Charcoal&r in the &7Chest&r on the left and Right-Click the &7Crystallized Water&r into the &7Accumulator&r on the right."
 		""
-		"If you wish to check on the it, locate the &7Trap Door&r in front and descend into the basement. "
+		"If you wish to check in on it, locate the &7Trap Door&r in front and descend into the basement. "
 		""
 		"It will take a minute for the &7Hearth&r to warm up, and it will not heat the basement, but you can check on the &7Decrepit Boiler&r while you're down there to ensure it is operating."
 		"{@pagebreak}"
@@ -1149,7 +1149,7 @@
 	quest.1B276AC6C7D95526.quest_desc: [
 		"&7Plasma Turbines&r may be used to harvest the raw creational power from the &7Luminiferous Aether&r. "
 		""
-		"One of these will likely replace all other &7Turbines&r you've been using up until now, but you'll need quite a few to get the most oout of your &7Fusion Reactor&r."
+		"One of these will likely replace all other &7Turbines&r you've been using up until now, but you'll need quite a few to get the most out of your &7Fusion Reactor&r."
 		""
 		"&a🛈 Tip: Place the controller block, then hold a Wrench "
 		"&a    to see the structure. Similarly, hold a Hatch to see "
@@ -1345,7 +1345,7 @@
 		""
 		"For a start, craft an &7Alchemical Impetus&r and slot it into the &7Crucible&r. Depending on the &7Spirits&r inserted alongside the Impetus, you will begin to generate new materials."
 		""
-		"The&7 Impetus&r will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+		"The &7Impetus&r will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
 	]
 	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
@@ -2750,7 +2750,7 @@
 		"Available on both Shovels and Paxels."
 		""
 		" • &aLawnmower&r: Instantly breaks nearby"
-		"   grassand flowers."
+		"   grass and flowers."
 		""
 		"&7&nAxe Abilities"
 		""
@@ -3040,7 +3040,7 @@
 	]
 	quest.453240979BB90EBD.title: "Mercurial Networks"
 	quest.4537806144939A6B.quest_desc: [
-		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
+		"An animate block of Amethyst, these golems will automatically create, grow, and harvest budding blocks. "
 		""
 		"Bind them to an inventory to set the area they’ll work in. Nearby blocks will be converted into budding blocks. As they grow buds, they’ll break them and collect the drops, storing them in their bound inventory."
 		""
@@ -3843,7 +3843,7 @@
 	quest.574555F24035E48A.quest_desc: [
 		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
 		""
-		"They cannot be filtered, but they can be controlled via Redstone, so they can be comined with a &7Sensor&r for more advanced logic. "
+		"They cannot be filtered, but they can be controlled via Redstone, so they can be combined with a &7Sensor&r for more advanced logic. "
 		""
 		"They each have a single inventory slot which behaves slightly differently for each. "
 		""
