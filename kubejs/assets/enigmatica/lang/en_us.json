@@ -1,6 +1,9 @@
 {
     "base.enigmatica.sky_block": "Sky Block",
 
+    "portal.enigmatica.warning.multiplayer": "Please restart the server before proceeding.",
+    "portal.enigmatica.warning.singleplayer": "Please close to menu and re-launch the world before proceeding.",
+
     "fluid_type.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
     "block.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
     "fluid.enigmatica.starbies_nitro_cold_brew": "§aStarbie's§r Nitro Cold Brew",
