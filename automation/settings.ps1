@@ -16,7 +16,7 @@ $CURSEFORGE_USER = "NillerMedDild"
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 1038391
+$CURSEFORGE_PROJECT_ID = 1503381
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
@@ -289,7 +289,7 @@ $CLIENT_ZIP_NAME = "$CLIENT_NAME-$MODPACK_VERSION"
 $LAST_MODPACK_ZIP_NAME = "$CLIENT_NAME-$LAST_MODPACK_VERSION"
 
 # Default: "$CLIENT_NAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "Enigmatica Skies $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "Enigmatic Skies $MODPACK_VERSION"
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -307,7 +307,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 $SERVER_ZIP_NAME = "$CLIENT_NAME`Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "Enigmatica Skies Server $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "Enigmatic Skies Server $MODPACK_VERSION"
 
 # Path to the ModListCreators output file
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"

@@ -1,4 +1,4 @@
-# EnigmaticaSkies
+# Enigmatic Skies
 
 This is the official repository and issue-tracker for the modpack Enigmatica Skies, for Minecraft 1.21
 
@@ -26,7 +26,7 @@ You're done!
 
 ## Links
 
-- [EnigmaticaSkies on CurseForge](https://www.curseforge.com/minecraft/modpacks/enigmatic-skies)
+- [Enigmatic Skies on CurseForge](https://www.curseforge.com/minecraft/modpacks/enigmatic-skies)
 
 - [Enigmatica Discord](https://discord.gg/hadkPsTkje)
 
