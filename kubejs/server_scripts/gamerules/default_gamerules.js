@@ -5,10 +5,10 @@ ServerEvents.loaded((event) => {
     let pData = server.persistentData;
 
     default_rules.forEach((rule) => {
-        if (!pData.getInt(rule.name)) {
+        if (!pData.getBoolean(rule.name)) {
             gamerules.set(rule.name, rule.value);
             console.log(`Default Gamerule Applied: ${rule.name} = ${String(rule.value)}`);
-            pData.putInt(rule.name, 1);
+            pData.putBoolean(rule.name, true);
         }
     });
 });
