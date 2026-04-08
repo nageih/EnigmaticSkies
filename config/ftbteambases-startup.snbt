@@ -1,7 +1,7 @@
 {
 	# Additional dimensions to copy pregen files for on new world creation.
 	# Place MCA files in ftbteambases/pregen_initial/dimensions/<namespace>/<path>/region/
-	additional_pregen_dimensions: [ ]
+	additional_pregen_dimensions: ["ftbteambases:lobby"]
 	
 	# Dimension ID of the level in which the lobby is created.
 	# This *must* be a static pre-existing dimension, not a dynamically created one!
@@ -14,8 +14,8 @@
 	# Only used if the lobby structure comes from a pregenerated region!
 	# Default: [0, 0, 0]
 	lobby_spawn_pos: [I;
-		0
-		0
-		0
+		53
+		233
+		20
 	]
 }
