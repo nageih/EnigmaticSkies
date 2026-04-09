@@ -37,13 +37,13 @@ ServerEvents.recipes((event) => {
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:cow' }
+                    components: { 'geneticsresequenced:entity_type': 'aether:flying_cow' }
                 },
                 { item: 'minecraft:red_mushroom_block' },
                 {
                     type: 'neoforge:components',
                     items: 'geneticsresequenced:dna_helix',
-                    components: { 'geneticsresequenced:entity_type': 'minecraft:cow' }
+                    components: { 'geneticsresequenced:entity_type': 'aether:flying_cow' }
                 },
                 { item: 'malum:imitation_flesh' },
                 { item: 'justdirethings:polymorphic_catalyst' },

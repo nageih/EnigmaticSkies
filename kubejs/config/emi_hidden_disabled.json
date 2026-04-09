@@ -84,6 +84,10 @@
             "/enderio:.*capacitor_bank/",
             "/enderio:.*photovoltaic_module/",
 
+            "enigmaticunity:dim_source_generator",
+            "enigmaticunity:bright_source_generator",
+            "enigmaticunity:iridescent_source_generator",
+
             "framedblocks:phantom_paste",
 
             "functionalstorage:dripping_upgrade",

@@ -19,7 +19,6 @@
 	"Dimension Temperature Offsets" = [
 	    ["minecraft:the_nether", 32, "f"],
 	    ["minecraft:the_end", -5, "f"],
-	    ["ftbteambases:bases", -5, "f"],
 	    ["minecraft:overworld", -5, "f"],
 	    ["aether:the_aether", -5, "f"]
 	]
