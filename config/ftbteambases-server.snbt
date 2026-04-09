@@ -13,7 +13,7 @@
 		# 2+ = extend the autoclaim distance out by 1 chunk per amount beyond 1
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		lobby_radius: 0
+		lobby_radius: 7
 		
 		# Shape to be autoclaimed
 		# Default: "square"
@@ -68,7 +68,7 @@
 		# Note that admin-mode players are free to change this.
 		# Default: "adventure"
 		# Valid values: "survival", "creative", "adventure", "spectator"
-		lobby_game_mode: "adventure"
+		lobby_game_mode: "survival"
 		
 		# Player Y-axis rotation when initially spawning in, or returning to, the lobby. (0 = south, 90 = west, 180 = north, 270 = east)
 		# Default: 0.0
