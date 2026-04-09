@@ -271,7 +271,11 @@
 	quest.074827E52A09685F.quest_desc: [
 		"&7Water&r, precious and rare, will be hard to come by in this place. "
 		""
-		"For now, you'll be able to condense a very small amount from the clouds around you. "
+		"For now, you'll be able to condense a very small amount from the clouds around you by inserting them in the &7Accumulator&r. "
+		""
+		"There are pipes in the floor under the &7Accumulator&r that drain &7Water&r directly into your &7Boiler&r. "
+		""
+		"Excess &7Water&r will overflow into the &7Fluid Drawer&r in the basement where it can be easily retrieved; just Left-Click the front with an empty &7Bucket&r."
 		""
 		"Remember to keep an eye on your &7Hearth&r! A bucket of water will only last about 12 minutes. "
 		""
