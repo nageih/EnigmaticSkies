@@ -197,49 +197,6 @@ ServerEvents.generateData('before_mods', (event) => {
             },
             hint: { key: 'tooltip.hint.enigmatica.ars_technica_technomancer_armor_set' },
             id: `${id_prefix}ars_technica_technomancer_armor_set`
-        },
-        {
-            item: { items: ['pneumaticcraft:pneumatic_chestplate'], components: { 'pneumaticcraft:air': '1:' } },
-            insulation: { heat: 0, cold: 0 },
-            entity: {
-                entities: ['*'],
-                equipment: {
-                    head: {
-                        items: ['pneumaticcraft:pneumatic_helmet'],
-                        components: { 'pneumaticcraft:air': '1:' }
-                    },
-                    chest: {
-                        items: ['pneumaticcraft:pneumatic_chestplate'],
-                        components: { 'pneumaticcraft:air': '1:' }
-                    },
-                    legs: {
-                        items: ['pneumaticcraft:pneumatic_leggings'],
-                        components: { 'pneumaticcraft:air': '1:' }
-                    },
-                    feet: {
-                        items: ['pneumaticcraft:pneumatic_boots'],
-                        components: { 'pneumaticcraft:air': '1:' }
-                    }
-                }
-            },
-            attributes: {
-                'cold_sweat:cold_dampening': [
-                    {
-                        name: 'enigmatica:cold_dampening_set_bonus',
-                        operation: 'add_value',
-                        amount: 0.375
-                    }
-                ],
-                'cold_sweat:heat_dampening': [
-                    {
-                        name: 'enigmatica:heat_dampening_set_bonus',
-                        operation: 'add_value',
-                        amount: 0.375
-                    }
-                ]
-            },
-            hint: { key: 'tooltip.hint.enigmatica.pneumaticcraft_pneumatic_armor_set' },
-            id: `${id_prefix}pneumaticcraft_pneumatic_armor_set`
         }
     ];
 
