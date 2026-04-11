@@ -68,7 +68,7 @@
 		# Note that admin-mode players are free to change this.
 		# Default: "adventure"
 		# Valid values: "survival", "creative", "adventure", "spectator"
-		lobby_game_mode: "survival"
+		lobby_game_mode: "adventure"
 		
 		# Player Y-axis rotation when initially spawning in, or returning to, the lobby. (0 = south, 90 = west, 180 = north, 270 = east)
 		# Default: 0.0
@@ -78,7 +78,7 @@
 		# Resource location of the structure NBT for the lobby
 		# This is ignored if using pregenerated lobby region files (.mca files copied from ftbteambases/pregen_initial/)
 		# Default: "ftbteambases:lobby"
-		lobby_structure_location: "ftbteambases:lobby"
+		lobby_structure_location: "enigmatica:lobby/tree_of_life"
 		
 		# Y position at which the lobby structure will be pasted into the level. Note: too near world min/max build height may result in parts of the structure being cut off - beware.
 		# Default: 0
