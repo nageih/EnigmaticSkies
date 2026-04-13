@@ -160,6 +160,7 @@ ServerEvents.recipes((event) => {
         {
             filter: [
                 { output: /minecraft:.*copper_bulb/ },
+                { output: /thesilverage:.*silver_bulb/ },
                 { output: 'ars_nouveau:source_lamp' },
                 { output: 'modularrouters:speed_upgrade' }
             ],

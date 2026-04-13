@@ -673,6 +673,23 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}scryers_linkage`
         },
         {
+            result: { id: 'ars_additions:warp_nexus', count: 1 },
+            reagent: { item: 'actuallyadditions:ender_casing' },
+            pedestalItems: [
+                { item: 'ars_nouveau:sourcestone' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/source' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { item: 'ars_nouveau:sourcestone' },
+                { tag: 'c:ingots/hallowed_gold' },
+                { tag: 'c:gems/source' },
+                { tag: 'c:ingots/hallowed_gold' }
+            ],
+            keepNbtOfReagent: false,
+            sourceCost: 1000,
+            id: `${id_prefix}warp_nexus`
+        },
+        {
             result: { id: 'extended_industrialization:nano_gravichestplate', count: 1 },
             reagent: { item: 'extended_industrialization:nano_chestplate' },
             pedestalItems: [
