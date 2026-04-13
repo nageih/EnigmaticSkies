@@ -1239,6 +1239,10 @@ ServerEvents.recipes((event) => {
         { output: 'supplementaries:pancake' },
         { id: 'supplementaries:dispenser_minecart' },
 
+        // The Silver Age
+        { input: 'thesilverage:raw_silver' },
+        { input: 'thesilverage:raw_silver_block' },
+
         // Theurgy
         { type: 'theurgy:digestion' },
         { type: 'theurgy:fermentation' },
