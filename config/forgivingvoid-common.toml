@@ -1,7 +1,7 @@
 #The distance to the minimum y level at which Forgiving Void should forgive the player and send them towards the sky.
 triggerAtDistanceBelow = 32
 #The amount of damage applied to the player when they land.
-damageOnFall = 19.0
+damageOnFall = 50.0
 #The height from which the player will be falling after falling through the void.
 fallingHeight = 300
 #Prevent death on void fall (limits damage to leave at least 0.5 hearts)
@@ -17,23 +17,15 @@ disableVanillaAntiCheatWhileFalling = true
 #Set to true to have tridents with loyalty be affected by Forgiving Void. Not supported on Forge.
 tridentForgiveness = false
 #List of dimension ids to be allowed for Forgiving Void. Options triggerInOverworld etc. take priority.
-dimensionAllowList = []
+dimensionAllowList = ["ftbteambases:lobby"]
 #List of additional dimension ids to be deny-listed from Forgiving Void. Options triggerInOverworld etc. take priority. Ignored if dimensionAllowList is set.
 dimensionDenyList = []
 #List of entity ids to be allowed for Forgiving Void. On Forge this only supports living entities.
-entityAllowList = [
-    "minecraft:player", 
-    "minecraft:villager", 
-    "minecraft:chicken",
-    "minecraft:bee",
-    "aether:flying_cow", 
-    "aether:phyg", 
-    "aether:sheepuff", 
-    "aether:aerbunny",
-    "aether:zephyr", 
-    "aether:moa",
-    "aether:cockatrice"    
-    ]
+entityAllowList = ["minecraft:player", "minecraft:villager", "minecraft:chicken", "minecraft:bee", "aether:flying_cow", "aether:phyg", "aether:sheepuff", "aether:aerbunny", "aether:zephyr", "aether:moa", "aether:cockatrice"]
 #Set to ABSOLUTE for absolute fall damage in half hearts, RELATIVE_CURRENT for a percentage of their current health, or RELATIVE_MAX for a percentage of their max health.
 #Allowed Values: ABSOLUTE, RELATIVE_CURRENT, RELATIVE_MAX
 damageOnFallMode = "RELATIVE_MAX"
+#Set to true to make Forgiving Void return the player to the sky above their last grounded position instead of their current position. Prevents players from using Forgiving Void to fly across larger distances.
+returnToLastGrounded = true
+#Effects applied to a player when they fall through the void, in the format "effect|duration|amplifier"
+fallThroughVoidEffects = ["naturesaura:breathless|600|3", "malum:sky_tether|600|2"]
