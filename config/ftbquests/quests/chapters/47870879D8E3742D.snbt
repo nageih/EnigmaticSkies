@@ -132,6 +132,7 @@
 				table_id: 7328324051567566419L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "0DE0A9A5505F1850"
 				type: "checkmark"
@@ -142,7 +143,7 @@
 		{
 			dependencies: ["6DE4258F18A7A321"]
 			icon: {
-				id: "minecraft:writable_book"
+				id: "handcrafted:stackable_book"
 			}
 			id: "16C7D5478BF3D449"
 			rewards: [{
@@ -150,6 +151,7 @@
 				table_id: 23658154196454858L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "7C0E5A805AE1132B"
 				type: "checkmark"
