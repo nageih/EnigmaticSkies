@@ -5,7 +5,7 @@
 		# The server team color
 		# Many color names work, and hex codes in the form '#RRGGBB' are accepted
 		# Default: "#FF40FF"
-		lobby_claim_color: "#FF40FF"
+		lobby_claim_color: "#40d2ff"
 		
 		# Radius in chunks for the lobby area to autoclaim
 		# 0 = autoclaiming disabled
@@ -13,7 +13,7 @@
 		# 2+ = extend the autoclaim distance out by 1 chunk per amount beyond 1
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		lobby_radius: 7
+		lobby_radius: 5
 		
 		# Shape to be autoclaimed
 		# Default: "square"
@@ -23,7 +23,7 @@
 		# The display name for the server team which is used to claim the lobby chunks
 		# This name shows up on FTB Chunks mapping
 		# Default: "Lobby"
-		server_team_name: "Lobby"
+		server_team_name: "Enigmatic Skies - Lobby"
 	}
 	general: {
 		# If true, allow spectator-mode players to use the lobby portal
@@ -60,8 +60,8 @@
 		# X/Z chunk position for the centre of the claimed area
 		# Default: [0, 0]
 		lobby_claim_center: [I;
-			0
-			0
+			-1
+			-1
 		]
 		
 		# The default game mode given to players when in the lobby.
