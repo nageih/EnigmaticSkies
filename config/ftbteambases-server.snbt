@@ -13,17 +13,17 @@
 		# 2+ = extend the autoclaim distance out by 1 chunk per amount beyond 1
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		lobby_radius: 3
+		lobby_radius: 4
 		
 		# Shape to be autoclaimed
 		# Default: "square"
 		# Valid values: "square", "circle"
-		lobby_shape: "circle"
+		lobby_shape: "square"
 		
 		# The display name for the server team which is used to claim the lobby chunks
 		# This name shows up on FTB Chunks mapping
 		# Default: "Lobby"
-		server_team_name: "Lobby"
+		server_team_name: "Enigmatic Skies - Lobby"
 	}
 	general: {
 		# If true, allow spectator-mode players to use the lobby portal
