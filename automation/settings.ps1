@@ -41,11 +41,38 @@ $LAST_MODPACK_VERSION = $null
 
 # Changelog Type
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "markdown"
+$CLIENT_CHANGELOG_TYPE = "html"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written."
+$CLIENT_CHANGELOG = @"
+<div style="display:flex;justify-content:center;font-family:sans-serif;">
+  <div style="position:relative;width:480px;height:480px;overflow:hidden;border-radius:8px;">
+
+    <img src="https://raw.githubusercontent.com/EnigmaticaModpacks/EnigmaticSkies/develop/packmenu/resources/assets/packmenu/textures/gui/background.png"
+         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;" />
+
+    <div style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:24px;box-sizing:border-box;">
+
+      <img src="https://raw.githubusercontent.com/EnigmaticaModpacks/EnigmaticSkies/develop/packmenu/resources/assets/enigmatica/textures/logo.png"
+           alt="Enigmatic Skies" style="width:85%;margin-bottom:28px;filter:drop-shadow(0 2px 6px rgba(0,0,0,0.8));" />
+
+      <p style="font-size:15px;background:rgba(0,0,0,0.6);padding:8px 18px;border-radius:4px;margin:0;">
+        <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/changelog_mods_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">🔧 Mod Updates</a>
+        <span style="color:#ccc;">&nbsp;|&nbsp;</span>
+        <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/changelogs/modlist_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">📋 Modlist</a>
+        <span style="color:#ccc;">&nbsp;|&nbsp;</span>
+        <a href="https://www.bisecthosting.com/enigmatica" target="_blank" style="color:#a8d8d0;text-decoration:none;">🖥️ Get a Server</a>
+      </p>
+
+      <p style="font-size:12px;background:rgba(0,0,0,0.45);padding:4px 12px;border-radius:4px;margin-top:10px;">
+        <a href="https://github.com/EnigmaticaModpacks/EnigmaticSkies/blob/main/CHANGELOG.md" target="_blank" style="color:#bbb;text-decoration:none;">See the full changelog on GitHub</a>
+      </p>
+
+    </div>
+  </div>
+</div>
+"@
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
