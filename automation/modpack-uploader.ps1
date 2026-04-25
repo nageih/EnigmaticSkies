@@ -1,4 +1,4 @@
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+﻿[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $manifest = "manifest.json"
 $minecraftInstanceFile = "minecraftinstance.json"
@@ -257,7 +257,7 @@ function Push-ClientFiles {
         }
 
         $metadataObj = [ordered]@{
-            changelog     = $CLIENT_CHANGELOG
+            changelog     = $CLIENT_CHANGELOG -replace '\r\n|\r|\n', ' ' -replace '\s{2,}', ' '
             changelogType = $CLIENT_CHANGELOG_TYPE
             displayName   = $CLIENT_FILE_DISPLAY_NAME
             gameVersions  = @($GAME_VERSIONS | ForEach-Object { [int]$_ })
@@ -357,7 +357,7 @@ function Push-ServerFiles {
         $serverFilePath = "$SERVER_ZIP_NAME.zip"
 
         $serverMetadataObj = [ordered]@{
-            changelog     = $SERVER_CHANGELOG
+            changelog     = $SERVER_CHANGELOG -replace '\r\n|\r|\n', ' ' -replace '\s{2,}', ' '
             changelogType = $SERVER_CHANGELOG_TYPE
             displayName   = $SERVER_FILE_DISPLAY_NAME
             parentFileId  = [int]$clientFileReturnId
